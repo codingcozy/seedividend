@@ -70,7 +70,7 @@ php artisan make:controller CustomAuthController
 
 
 
-```plaintext
+```js
 `app\Http\Controllers\CustomAuthController.php` 에 위 코드를 주의 깊게 넣어주세요.
 
 <?php

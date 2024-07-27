@@ -168,7 +168,7 @@ Ensure the wrapper class is accessible from Objective-C by adding the appropriat
 <div class="content-ad"></div>
 
 
-```objc
+```js
 // Objective-C ViewController
 #import "YourProjectName-Bridging-Header.h"
 #import "YourProjectName-Swift.h"

@@ -59,7 +59,7 @@ nano Dockerfile
 
 아래 내용을 Dockerfile에 붙여넣기하세요.
 
-```Dockerfile
+```js
 # 공식 Rust 이미지 사용하기
 FROM rust:latest
 

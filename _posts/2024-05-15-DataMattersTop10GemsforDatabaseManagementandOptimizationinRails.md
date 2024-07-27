@@ -53,7 +53,7 @@ product_data = $redis.get('product:123')
 
 - ActiveSupport::Cache는 루비 온 레일의 핵심 구성 요소로, 통합된 캐싱 인터페이스를 제공합니다. Memcached, Redis 및 파일 기반 캐싱과 같은 다양한 캐싱 저장소를 지원합니다.
 
-```ruby
+```js
 # config/environments/development.rb에서 캐싱 저장소 구성
 config.cache_store = :mem_cache_store, 'localhost:11211'
 # 캐시에 데이터 저장
@@ -68,7 +68,7 @@ user_data = Rails.cache.read('user:123')
 
 - Rack::Cache는 루비 웹 애플리케이션을 위한 HTTP 캐싱을 제공하는 미들웨어입니다. 웹 서버와 앱 사이에서 중계 역할을 하며 HTTP 헤더에 따라 응답을 캐시할 수 있도록 합니다.
 
-```ruby
+```js
 # config.ru에 Rack::Cache 미들웨어 추가
 require 'rack/cache'
 use Rack::Cache
@@ -85,7 +85,7 @@ end
 
 
 
-```rb
+```js
 # In your development.rb or production.rb
 config.after_initialize do
   Bullet.enable = true
@@ -99,14 +99,14 @@ end
 - Rack Mini Profiler는 귀하의 Rails 애플리케이션을 위한 가벼운 프로파일러를 제공합니다. 요청-응답 주기의 각 부분에 소요된 시간을 측정하여 성능 병목 현상을 식별하는 데 도움을 줍니다. 느린 데이터베이스 쿼리, 뷰 렌더링 시간 등을 쉽게 식별할 수 있습니다.
 - Gemfile에 다음 Gem을 추가해주세요:
 
-```rb
+```js
 gem 'rack-mini-profiler', require: false
 ```
 
 
 
 
-```ruby
+```js
 require 'rack-mini-profiler'
 Rack::MiniProfilerRails.initialize!(Rails.application)
 ```
@@ -128,7 +128,7 @@ DatabaseCleaner.strategy = :transaction
 
 - Ransack은 Rails 애플리케이션에서 복잡한 검색 폼을 간단하게 만들어줍니다. 사용자 입력을 기반으로 레코드를 검색하고 정렬하기 위한 SQL 쿼리를 생성합니다. Ransack을 사용하면 사용자 정의 SQL 쿼리를 작성하지 않고도 강력한 검색 기능을 만들 수 있습니다.
 
-```ruby
+```js
 # 컨트롤러에서
 def index
   @q = Product.ransack(params[:q])

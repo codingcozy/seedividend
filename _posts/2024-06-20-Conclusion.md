@@ -83,7 +83,7 @@ HTML(HyperText Markup Language)은 웹 개발의 기초로 웹 페이지의 구�
 
 <div class="content-ad"></div>
 
-``` markdown
+```js
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*KJNJQ75h76oAhSL4atPIfw.gif)
 
 <!DOCTYPE html>

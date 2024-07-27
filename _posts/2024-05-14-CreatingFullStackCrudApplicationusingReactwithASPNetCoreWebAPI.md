@@ -74,7 +74,7 @@ namespace ReactASPCrud.Models
 
 
 
-```cs
+```js
 using Microsoft.EntityFrameworkCore;
 
 namespace ReactASPCrud.Models

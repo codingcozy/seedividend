@@ -128,7 +128,7 @@ CVEs:
 
 <div class="content-ad"></div>
 
-```console
+```js
 $ docker scout cves --format only-packages --only-vuln-packages \
   --only-severity critical postgres:13.1
  ✓ 이미지의 SBOM은 이미 캐시되어 있습니다. 187개의 패키지가 인덱싱되었습니다.

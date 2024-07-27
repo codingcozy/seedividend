@@ -65,7 +65,7 @@ data 폴더 안에 AppDbContext 클래스를 만들어 SQL Server 연결 및 DB 
 
 
 
-```cs
+```js
 using Microsoft.EntityFrameworkCore;
 using ProductManagementAPI.Entities;
 

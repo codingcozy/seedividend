@@ -100,7 +100,7 @@ server.listen(PORT, () => {
 
 "react-chatapp" 폴더로 이동하여 리액트 프로젝트를 만듭니다.
 
-```sh
+```js
 npx create-react-app client
 ```
 

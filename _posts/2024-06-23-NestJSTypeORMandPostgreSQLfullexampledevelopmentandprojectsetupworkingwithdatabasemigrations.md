@@ -148,7 +148,7 @@ RUN_MIGRATIONS=true
 
 이제 첫 번째 테스트를 시작할 준비가 거의 완료되었지만, 실제로 개발 시 TypeScript에서 작업하려면 nodemon과 함께 ts-node를 사용할 것이므로 특별한 nodemon.json을 사용하여 typescript 컴파일러를 활성화하는 ts-node 모듈을 사용하여 개발 서버를 실행할 수 있습니다. 그러니까 nodemon과 ts-node를 설치합시다.
 
-```sh
+```js
 npm i --save-dev nodemon ts-node
 ```
 

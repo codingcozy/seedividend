@@ -102,7 +102,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim \
 
 그러면, 다음과 같이 `.config/nvim/lua/plugins.lua` 파일을 만들어주세요:
 
-```lua
+```js
 local status, packer = pcall(require, "packer")
 if (not status) then
   print("Packer가 설치되지 않았습니다")
@@ -119,7 +119,7 @@ end)
 
 그런 다음, `init.lua`에서 다음과 같이 불러오세요:
 
-```lua
+```js
 require('plugins') 
 ```
 
@@ -131,7 +131,7 @@ require('plugins')
 
 저는 svrana/neosolarized.nvim을 일부 사용자 지정과 함께 사용합니다.
 
-```lua
+```js
 local status, n = pcall(require, "neosolarized")
 if (not status) then return end
 
@@ -174,7 +174,7 @@ Group.new("DiagnosticUnderlineHint", colors.none, colors.none, styles.undercurl,
 
 nvim-lualine/lualine.nvim은 상태 행을 유연하게 구성할 수 있는 방법을 제공합니다.
 
-```lua
+```js
 local status, lualine = pcall(require, "lualine")
 if (not status) then return end
 
@@ -330,7 +330,7 @@ Packer를 사용하여 nvim-treesitter/nvim-treesitter를 설치하고 다음과
 
 <div class="content-ad"></div>
 
-```lua
+```js
 local status, ts = pcall(require, "nvim-treesitter.configs")
 if (not status) then return end
 
@@ -368,7 +368,7 @@ parser_config.tsx.filetype_to_parsername = { "javascript", "typescript.tsx" }
 
 리액트 앱에서는 태그를 빠르게 닫고 싶을 때가 많습니다. windwp/nvim-ts-autotag가 정확히 원하는 기능을 제공합니다.
 
-```lua
+```js
 local status, autotag = pcall(require, "nvim-ts-autotag")
 if (not status) then return end
 
@@ -379,7 +379,7 @@ autotag.setup({})
 
 windwp/nvim-autopairs는 괄호를 자동으로 닫아주는 플러그인이에요.
 
-```lua
+```js
 local status, autopairs = pcall(require, "nvim-autopairs")
 if (not status) then return end
 
@@ -404,7 +404,7 @@ Telescope, 상태행 및 다른 지원 플러그인에 파일 아이콘을 얻�
 
 <div class="content-ad"></div>
 
-```lua
+```js
 local status, telescope = pcall(require, "telescope")
 if (not status) then return end
 local actions = require('telescope.actions')
@@ -457,7 +457,7 @@ end)
 
 텔레스코프 브라우저 확장 기능을 사용합니다:
 
-```lua
+```js
 telescope.setup {
   defaults = {
     mappings = {

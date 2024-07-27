@@ -40,7 +40,7 @@ cat more-subdomains.txt subdomains.txt subs.txt more-subs.txt | sort -u > target
 
 
 
-```sh
+```js
 #!/bin/bash
 
 if [ $# -eq 0 ]; then
@@ -59,7 +59,7 @@ done
 
 그리고
 
-```sh
+```js
 cat 15*out | sort -u > ports.out 
 ```
 

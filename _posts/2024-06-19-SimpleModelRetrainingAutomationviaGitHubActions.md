@@ -349,7 +349,7 @@ reference_data.to_csv('..//data//reference_data.csv', index=False)
 
 Evidently(제가 Evidently와 어떤 제휴도 없습니다)를 사용하여 제품 데이터가 참조 데이터에 비해 드리프트했는지 확인할 수 있습니다. 다음 코드로 확인할 수 있습니다.
 
-```python
+```js
 from evidently.metric_preset import DataDriftPreset
 from evidently.report import Report
 

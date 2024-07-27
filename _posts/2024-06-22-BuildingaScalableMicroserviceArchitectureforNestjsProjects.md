@@ -114,7 +114,7 @@ npm install @nestjs/microservices @nestjs/typeorm typeorm mysql
 Step 3: Create Microservice Modules
 각각의 마이크로서비스를 위한 별도의 모듈을 만듭니다:
 
-```typescript
+```js
 // app.module.ts (Gateway)
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
@@ -148,7 +148,7 @@ import { ClientsModule, Transport } from '@nestjs/microservices';
 export class AppModule {}
 ```
 
-```typescript
+```js
 // service-a.module.ts
 import { Module } from '@nestjs/common';
 import { ServiceAController } from './service-a.controller';

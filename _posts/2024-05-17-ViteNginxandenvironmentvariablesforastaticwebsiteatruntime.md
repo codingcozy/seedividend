@@ -194,7 +194,7 @@ Docker 컨테이너를 사용하여 Nginx 웹 서버를 실행하기 전에 초�
 
 <div class="content-ad"></div>
 
-```sh
+```js
 #!/usr/bin/env sh
 
 set -ex

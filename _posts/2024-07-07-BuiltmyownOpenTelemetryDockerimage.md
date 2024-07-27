@@ -80,7 +80,7 @@ Resources:
 
 저는 OTel Docker 이미지의 기본을 세 가지 단계로 구축했어요: 먼저 golang 이미지를 사용하여 컬렉터를 다운로드하고 빌드했어요. 두 번째로, OTel 컬렉터가 AWS CloudWatch로 로그를 보낼 때 필요한 알파인 이미지를 사용하여 인증서 번들을 설치했어요; 그렇지 않으면 SSL 인증서 오류가 발생할 거에요. 마지막으로, 컬렉터 이진 파일과 인증서 번들을 스크래치 이미지로 복사하고 이미지의 엔트리 포인트를 설정했어요.
 
-```Docker
+```js
 # 이것은 OTel 기본 이미지를 빌드하고 코어 계정의 ECR에 업로드할 거에요
 
 FROM golang:latest AS build
@@ -113,7 +113,7 @@ ENTRYPOINT [ "/etc/otel/bin/otel-collector" ]
 
 <div class="content-ad"></div>
 
-```Dockerfile
+```js
 FROM <CORE-ACCOUNT-OTEL-ECR-URI>:latest
 
 COPY config.yaml config.yaml

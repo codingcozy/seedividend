@@ -365,7 +365,7 @@ Dockerfile.jlink-with-jdeps.temurin
 
 
 # 첫 번째 단계, 사용자정의 JRE 빌드하기
-```eclipse-temurin:17-jdk-alpine```에서 JRE 빌드
+```js
 
 FROM eclipse-temurin:17-jdk-alpine AS jre-builder
 

@@ -152,7 +152,7 @@ long_run.py는 한 번의 open/close 쌍만 갖고 있으므로(Implicit Connect
 
 <div class="content-ad"></div>
 
-```plaintext
+```js
 $ python3 runner.py
 Using connection string: localhost/orclpdb1:pooled?pool_boundary=statement
 User01 sid-ser 399-25678 at time 2024-06-11 20:28:46.803668
@@ -211,7 +211,7 @@ Time 25.96 seconds
 
 This shows that server process and session memory are being reused across different users' queries. For example, the first two lines have the same session identifier/serial number:
 
-```plaintext
+```js
 User01 sid-ser 399-25678 at time 2024-06-11 20:28:46.803668
 User02 sid-ser 399-25678 at time 2024-06-11 20:28:46.830118
 ```

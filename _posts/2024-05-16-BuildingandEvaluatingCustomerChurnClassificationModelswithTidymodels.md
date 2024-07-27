@@ -31,7 +31,7 @@ link: "https://medium.com/towards-data-science/building-and-evaluating-classific
 
 <div class="content-ad"></div>
 
-```r
+```js
 # 패키지 불러오기
 
 packages <- c("tidyverse", "tidymodels", "skimr", "GGally")
@@ -52,7 +52,7 @@ package.check <- lapply(packages, FUN = function(x) {
 
 <div class="content-ad"></div>
 
-```R
+```js
 bankchurn_df <- read.csv("./data/bank_churn.csv")
 
 bankchurn_df |> 
@@ -68,7 +68,7 @@ bankchurn_df |>
 
 <div class="content-ad"></div>
 
-```R
+```js
 bankchurn_df_upd <- bankchurn_df |> 
   select(Exited, everything()) |> 
   mutate(Exited = as.factor(Exited)) |> 
@@ -79,7 +79,7 @@ bankchurn_df_upd <- bankchurn_df |>
 
 특정 열에 대해 파고들기 전에 데이터를 초기 이해하기 위해 skim() 명령을 사용할 것입니다. 이 명령은 각 열의 분포를 제공하여 모든 변수가 동일한 척도에 있지 않다는 점을 알 수 있도록 도와줍니다.
 
-```R
+```js
 bankchurn_df_upd |> 
   skim()
 ```
@@ -136,7 +136,7 @@ test_data <- testing(bc_split)
 - 단일 값만 포함하거나 분산이 0인 변수를 제거.
 - 숫자 예측 변수를 정규화하기. 이는 일부 변수가 서로 다른 척도에 있기 때문에 필요합니다.
 
-```r
+```js
 bc_recipe <- recipe(Exited ~ ., data = bankchurn_df_upd) %>%
   step_dummy(all_nominal(), -all_outcomes()) %>%
   step_zv(all_numeric()) %>%
@@ -184,7 +184,7 @@ lr_workflow
 
 <div class="content-ad"></div>
 
-```R
+```js
 rand_forest_ranger_model <- rand_forest(
   mode = "classification", mtry = 10, trees = 500, min_n = 20) |>
   set_engine("ranger", importance = "impurity") 
@@ -268,7 +268,7 @@ prob_pred_rf <- predict(rf_fit, test_data, type = "prob")
 
 동일한 테이블 내에서 두 출력을 모두 접근하기 위해 이 두 종류의 예측을 단일 데이터프레임으로 결합할 것입니다. 나는 비즈니스 시나리오에 따라 두 출력 클래스가 중요하다고 생각하기 때문에 이를 결합하려 합니다. 그 후 이 출력을 원래의 테스트 데이터셋과 병합하여 결과를 비교할 수 있도록 클래스, 확률 및 원래 "Exited" 값이 동일한 테이블 안에 있는 것을 확인할 것입니다. 아래는 최종 병합된 테이블이 어떻게 생겼는지에 대한 내용입니다.
 
-```r
+```js
 # 로지스틱 회귀
 lr_preds_combined <- 
   data.frame(class_pred_lr, prob_pred_lr) |> 
@@ -333,7 +333,7 @@ lr_roc |>
 
 헷갈리는 행렬(Confusion matrix)은 분류 모델의 성능을 요약하는 표입니다. Tidymodels 내 caret 패키지는 confusionMatrix()라는 함수를 제공하여 많은 유용한 정보를 제공합니다. 이를 사용하여 최종 모델을 선택하기 전에 두 모델의 지표를 비교할 것입니다.
 
-```R
+```js
 # 로지스틱 회귀
 caret::confusionMatrix(lr_preds_combined$Exited,
                        lr_preds_combined$class,

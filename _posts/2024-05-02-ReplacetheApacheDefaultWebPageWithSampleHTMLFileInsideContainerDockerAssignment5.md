@@ -187,7 +187,7 @@ ADD index.html /var/www/html/
 
 <div class="content-ad"></div>
 
-```plaintext
+```js
 도커 파일의 table 태그를 Markdown 형식으로 변경하십시오.
 ```
 

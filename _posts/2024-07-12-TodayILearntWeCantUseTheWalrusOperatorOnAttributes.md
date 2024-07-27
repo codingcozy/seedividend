@@ -16,7 +16,7 @@ link: "https://medium.com/@zlliu/today-i-learnt-we-cant-use-the-walrus-operator-
 
 The walrus operator := can condense 2 lines of code into one.
 
-```javascript
+```js
 // without walrus operator
 
 let x = 'apple';
@@ -25,7 +25,7 @@ if (x == 'apple') {
 }
 ```
 
-```javascript
+```js
 // with walrus operator
 
 if ((x := 'apple') === 'apple') {

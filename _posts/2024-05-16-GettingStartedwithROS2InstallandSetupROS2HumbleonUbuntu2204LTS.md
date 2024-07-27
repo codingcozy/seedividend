@@ -110,7 +110,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 저장소를 설정한 후에는 apt 저장소 캐시를 업데이트하세요. 이는 ROS 2 패키지를 설치하기 전에 시스템이 최신 상태임을 보장합니다.
 
-```sh
+```js
 sudo apt update
 sudo apt upgrade
 ```

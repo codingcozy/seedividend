@@ -21,7 +21,7 @@ ReactJS는 구성 요소 기반 아키텍처와 가상 DOM으로 유명한 JavaS
 
 
 
-```JavaScript
+```js
 1class 인사 extends React.Component { 
 2  user = { 
 3    name: "World", 

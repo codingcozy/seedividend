@@ -301,7 +301,7 @@ import {Component, ViewChild} from "@angular/core";
 
 # 출력
 
-```js 
+```js
 { "login": { "username": "Zeeshan", "password": "" } } true
 ```
 

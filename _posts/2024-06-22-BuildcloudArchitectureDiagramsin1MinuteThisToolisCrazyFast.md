@@ -29,7 +29,7 @@ link: "https://medium.com/gitconnected/build-cloud-architecture-diagrams-in-1-mi
 
 <div class="content-ad"></div>
 
-```js 
+```js
 pip install diagrams 
 ```
 

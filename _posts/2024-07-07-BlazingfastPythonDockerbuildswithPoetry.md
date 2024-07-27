@@ -95,7 +95,7 @@ ENTRYPOINT ["poetry", "run", "python", "-m", "annapurna.main"]
 
 <div class="content-ad"></div>
 
-```Dockerfile
+```js
 FROM python:3.11-buster
 
 RUN pip install poetry==1.4.2

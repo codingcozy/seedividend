@@ -53,7 +53,7 @@ preload 매개변수는 Google Chrome에 하드코딩된 브라우저 사전로�
 - 사이트가 처음으로 HTTPS를 사용하여 액세스되고 Strict-Transport-Security 헤더를 반환하는 경우, 브라우저는 이 정보를 기록하여 나중에 해당 사이트를 HTTP로 로드하려는 시도가 자동으로 HTTPS를 사용하도록 지원합니다.
 - Strict-Transport-Security 헤더는 브라우저에 아래 지침을 제공합니다.
 
-```plaintext
+```js
 - 이 헤더를 수신한 순간부터 다음 63072000초(최대 연령 매개변수로 지정) 동안 사이트와 해당 하위 도메인에 대한 모든 연결은 반드시 HTTPS로 이루어져야 합니다(includeSubDomains 매개변수가 포함된 경우).
 - 모든 HTTP 연결을 허용하지 않습니다.
 

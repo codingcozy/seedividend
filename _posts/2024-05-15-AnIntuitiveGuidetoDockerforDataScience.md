@@ -78,7 +78,7 @@ Docker Hub에 이미지를 만들고 푸시하려면 Docker Hub에 계정을 만
 
 고객 이탈 예측 데이터셋을 로드합니다.
 
-```Python
+```js
 churn_df = pd.read_csv('Customertravel.csv')
 X = churn_df.drop(columns=['Target'],axis=1)
 y = churn_df['Target']

@@ -106,7 +106,7 @@ Rust에서 동일한 기능을 구현하는 경우 초기에는 코드를 중복
 
 <div class="content-ad"></div>
 
-```rs
+```js
 fn get_document(id: String, documents: Vec<Document>) -> Option<Document> {
     documents.into_iter().find(|document| document.id == id)
 }
@@ -120,7 +120,7 @@ fn get_image(id: String, images: Vec<Image>) -> Option<Image> {
 
 이 특정 예에서 문서 및 이미지 두 객체 모두 공유하는 공통 특성은 ID를 사용하여 비교할 수 있다는 것입니다. 이것이 우리가 이러한 특성을 트레잇으로 선언하고 각 구조체에 대한 해당 구현을 제공할 수 있는 이유입니다.
 
-```rs
+```js
 trait Compare {
     fn compare(&self, id: &str) -> bool;
 }

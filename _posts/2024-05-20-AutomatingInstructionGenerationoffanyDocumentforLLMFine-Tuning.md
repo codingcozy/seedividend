@@ -377,7 +377,7 @@ $ git clone https://github.com/ml-explore/mlx-examples.git
 
 HuggingFace에서 Mistral 7B를 다운로드하고 4비트 모델로 양자화하려면 convert.py 스크립트를 사용할 수 있습니다. 이 스크립트는 기본적으로 입력으로 HuggingFace repo를 취하고 결과를 디렉토리 mlx_model에 출력합니다. 다음은 샘플 실행 출력입니다:
 
-```bash 
+```js
 $ python mlx-examples/lora/convert.py --hf-path mistralai/Mistral-7B-Instruct-v0.1 -q
 [INFO] Loading
 model-00003-of-00003.safetensors: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4.54G/4.54G [33:52<00:00, 2.23MB/s]

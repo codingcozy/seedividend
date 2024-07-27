@@ -73,7 +73,7 @@ from mytable
 
 <div class="content-ad"></div>
 
-```R
+```js
 select 
   a,
   b,

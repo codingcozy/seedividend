@@ -165,7 +165,7 @@ http {
 
 <div class="content-ad"></div>
 
-```docker
+```js
 FROM nginx:1.25.1-alpine
 COPY ./nginx.conf /etc/nginx/
 COPY ./roku-proxy.conf /etc/nginx/sites-available/
@@ -179,7 +179,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 위의 이미지를 빌드하려면 다음 명령어를 실행하세요.
 
-```docker
+```js
 docker build -t roku-nginx-proxy .
 ```
 

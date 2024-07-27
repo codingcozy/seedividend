@@ -150,7 +150,7 @@ export const RETRY_INTERCEPTOR_CONFIG = new InjectionToken<RetryApiConfig>(
 
 이제 이 토큰을 인터셉터에 주입해 보겠습니다.
 
-``` js
+```js
 @Injectable()
 export class RetryInterceptor implements HttpInterceptor {
   // Config 객체 주입

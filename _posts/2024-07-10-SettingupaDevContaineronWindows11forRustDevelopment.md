@@ -23,7 +23,7 @@ link: "https://medium.com/init-deep-dive/setting-up-a-dev-container-on-windows-1
 
 다음은 내 Dockerfile이에요:
 
-```Dockerfile
+```js
 FROM ubuntu:22.04
 
 RUN apt update -y

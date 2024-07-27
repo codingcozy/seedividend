@@ -469,7 +469,7 @@ Angular에서 빌더 패턴을 구현하려면 객체를 구성하는 데 책임
 
 <div class="content-ad"></div>
 
-```ts
+```js
 export class User {
   name: string;
   age: number;

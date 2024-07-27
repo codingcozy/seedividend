@@ -330,7 +330,7 @@ export default {
 
 
 
-```js 
+```js
 // src/store/auth/getters.js
 
 export default {}

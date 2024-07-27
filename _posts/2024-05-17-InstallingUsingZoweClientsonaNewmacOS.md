@@ -33,7 +33,7 @@ Homebrew를 설치한 후, 다른 필요한 의존성 패키지를 추가했습�
 
 <div class="content-ad"></div>
 
-```sh
+```js
 export PATH=/home/$USER/.fnm:$PATH 
 eval "$(fnm env --use-on-cd --version-file-strategy=recursive)"
 ```

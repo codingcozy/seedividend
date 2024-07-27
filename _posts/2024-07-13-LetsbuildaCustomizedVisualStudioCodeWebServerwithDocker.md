@@ -115,7 +115,7 @@ RUN sudo chmod 644 /home/${USERNAME}/.ssh/id_rsa.pub
 
 <div class="content-ad"></div>
 
-```dockerfile
+```js
 # 코드 서버 확장 프로그램을 위한 디렉토리 생성
 RUN mkdir -p /home/${USERNAME}/.local/share/code-server/extensions
 

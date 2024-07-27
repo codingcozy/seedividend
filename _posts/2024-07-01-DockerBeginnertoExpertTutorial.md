@@ -312,7 +312,7 @@ app.listen(PORT, () => {
 
 <div class="content-ad"></div>
 
-```json
+```js
 "scripts": {
     "start": "node dist/index.js",
     "build": "tsc"
@@ -366,7 +366,7 @@ npm-debug.log
 
 <div class="content-ad"></div>
 
-```bash
+```js
 도커 빌드 -t ts-express-app .
 ```
 
@@ -563,7 +563,7 @@ docker run -d -p 3000:3000 -e DATABASE_URL=mongodb://mongo:27017/ts-express-app 
 
 <div class="content-ad"></div>
 
-```docker
+```js
 docker volume rm my-ts-app-data
 ```
 

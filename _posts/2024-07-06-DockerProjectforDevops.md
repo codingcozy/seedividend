@@ -92,7 +92,7 @@ nano Dockerfile
 
 내용
 
-```Dockerfile
+```js
 FROM python:3
 
 RUN pip install django==version

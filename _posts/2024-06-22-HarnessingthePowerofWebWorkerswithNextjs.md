@@ -120,7 +120,7 @@ worker.removeEventListener('message', handlerFunction);
 
 <div class="content-ad"></div>
 
-```js 
+```js
 worker.onmessage = function(event) { 
   console.log(event.data); 
 };

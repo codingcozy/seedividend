@@ -65,7 +65,7 @@ link: "https://medium.com/@chandan-sharma/powering-flask-with-websockets-ca9f5a0
 
 이제 "myapp.py" 파일로 아래 코드를 입력해보세요. 이 코드는 Linux 터미널에서 ping 명령을 실행할 때와 같이 웹소켓을 통해 ping 결과를 브라우저에 공개하는 응용 프로그램 코드입니다.
 
-```js  
+```js
 from flask import Flask,render_template,request
 from flask_socketio import SocketIO, emit
 import subprocess  

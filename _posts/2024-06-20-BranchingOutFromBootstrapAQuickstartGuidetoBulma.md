@@ -40,11 +40,11 @@ Bulma는 반응형 열 구조를 만들기 위해 Flexbox를 활용합니다. �
 
 <div class="content-ad"></div>
 
-```
+
 <div class="columns">
   <div id=”popsiclePhoto” class="column
    is-4-desktop is-6-tablet is-8-mobile/>
-```
+
 
 <img src="/assets/img/2024-06-20-BranchingOutFromBootstrapAQuickstartGuidetoBulma_2.png" />
 

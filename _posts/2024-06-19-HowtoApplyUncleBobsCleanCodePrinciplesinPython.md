@@ -125,7 +125,7 @@ class Service:
 
 - DI
 
-```python
+```js
 class Service: 
     def init(self, repository): 
         self.repository = repository

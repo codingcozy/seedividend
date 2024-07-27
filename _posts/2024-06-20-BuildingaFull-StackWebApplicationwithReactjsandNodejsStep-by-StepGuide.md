@@ -71,7 +71,7 @@ app.listen(PORT, () => {
 
 <div class="content-ad"></div>
 
-```jsx
+```js
 import React, { useEffect, useState } from 'react';
 import './App.css';
 

@@ -101,7 +101,7 @@ cd Docker-Compose-Two-Tier-App
 
 <div class="content-ad"></div>
 
-```docker
+```js
 # Dockerfile for the backend
 FROM mysql:5.7
 ```

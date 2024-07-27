@@ -21,7 +21,7 @@ link: "https://medium.com/@keith-mcnulty/a-primer-on-statistical-power-and-power
 
 <div class="content-ad"></div>
 
-```R
+```js
 library(peopleanalyticsdata)
 salespeople <- salespeople[complete.cases(salespeople), ]
 head(salespeople)
@@ -37,7 +37,7 @@ head(salespeople)
 
 이제 이 문장을 살펴봅시다. 최상위 성과 영업 사원의 평균 매출액은 전체 인구의 최하위 성과 영업 사원들과 다를 수 있다는 것입니다. 이 문장을 검증하기 위해, 우리는 최상위 성과자와 최하위 성과자의 평균 매출액이 동일하다고 가정하고, 이를 귀무 가설이라고합니다. 그런 다음 귀무 가설이 전체 인구에서 사실일 때 샘플이 보이는 방식의 최대 확률을 설정하기 위해 테스트를 수행하고, 이를 테스트의 p값이라고합니다. 이 경우, 균등한 분산을 가진 두 샘플을 비교하기 위해 Welch의 t-테스트를 수행합니다.
 
-```R
+```js
 # 최상위 성과자의 매출
 sales4 <- salespeople$sales[salespeople$performance == 4]
 
@@ -96,7 +96,7 @@ wp.t(n4, n1, d = d, type = "two.sample.2n")
 
 <div class="content-ad"></div>
 
-```r
+```js
 library(ggplot2)
 
 # 통계적 파워

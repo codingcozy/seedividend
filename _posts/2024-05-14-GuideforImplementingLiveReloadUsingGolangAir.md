@@ -323,7 +323,7 @@ CMD ["air"]
 
 프로젝트 루트에 다음 내용을 포함하는 .air.toml 파일을 만들어주세요:
 
-```toml
+```js
 root = "."
 testdata_dir = "testdata"
 tmp_dir = "tmp"

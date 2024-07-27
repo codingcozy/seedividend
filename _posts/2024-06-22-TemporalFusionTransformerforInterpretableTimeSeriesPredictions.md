@@ -561,7 +561,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-```py
+```js
 plt.rcParams["figure.figsize"] = (10,5)
 plt.barh(data=explainer._static_covariates_importance.melt().sort_values(by='value').tail(10), y='variable', width='value')
 plt.xlabel('중요도')

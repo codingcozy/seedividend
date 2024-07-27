@@ -148,7 +148,7 @@ def format_search(search_results):
 
 pip를 사용하여 llama-cpp-python을 설치해 보세요!
 
-```sh
+```js
 pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
 ```
 

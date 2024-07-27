@@ -21,7 +21,7 @@ link: "https://medium.com/@gmusumeci/how-to-install-node-js-20-on-ubuntu-22-04-2
 
 <div class="content-ad"></div>
 
-```sh
+```js
 sudo apt-get remove nodejs
 ```
 
@@ -29,7 +29,7 @@ sudo apt-get remove nodejs
 
 아래는 INTEL/AMD CPU에 Node.js 버전 20.x를 설치하는 데 필요한 문장들입니다:
 
-```sh
+```js
 sudo apt update
 sudo apt install -y ca-certificates curl gnupg
 sudo mkdir -p /etc/apt/keyrings

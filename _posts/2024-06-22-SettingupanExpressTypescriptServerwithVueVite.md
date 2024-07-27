@@ -129,7 +129,7 @@ npm install -D typescript @types/cors @types/node @types/express nodemon
 
 TypeScript를 구성하기 위해 tsconfig.json 파일을 생성하세요. 이 파일은 TypeScript가 코드를 컴파일하는 방법을 지정합니다. npx tsconfig.json을 실행한 후 Node를 선택하세요. 이 명령은 일부 기본 설정이 포함된 tsconfig.json 파일을 생성합니다.
 
-```sh
+```js
 npx tsconfig.json
 ```
 

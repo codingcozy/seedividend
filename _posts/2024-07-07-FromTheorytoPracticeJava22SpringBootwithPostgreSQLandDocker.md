@@ -659,7 +659,7 @@ http://localhost:8080/api/books/1
 
 <div class="content-ad"></div>
 
-```docker
+```js
 FROM gradle:jdk22 as build
 
 # Gradle 프로젝트를 이미지로 복사합니다
@@ -682,7 +682,7 @@ CMD ["java", "-jar", "app.jar"]
 
 이제 도커 이미지를 빌드하려면 다음 명령을 실행해야 합니다.
 
-```docker
+```js
 docker build -t bookstore-app .
 ```
 
