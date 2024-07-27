@@ -134,7 +134,7 @@ HTML은 하이퍼텍스트 마크업 언어로, 프로젝트 구조를 제공하
 //Head section
 <link rel="stylesheet" href="style.css">
 <script src="https://kit.fontawesome.com/1cf483120b.js" crossorigin="anonymous"></script>
-<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAi0RCj8aLdKFX-cvYkW6kDveuaUlMnpes&libraries=places&callback=initMap"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=YourAPIKEY&libraries=places&callback=initMap"></script>
 //Body Section
 <script src="index.js"></script>
 ```
