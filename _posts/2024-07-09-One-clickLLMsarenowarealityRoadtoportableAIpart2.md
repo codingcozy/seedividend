@@ -18,18 +18,7 @@ link: "https://medium.com/generative-ai/one-click-llm-are-now-reality-road-to-po
 
 ![이미지](/TIL/assets/img/2024-07-09-One-clickLLMsarenowarealityRoadtoportableAIpart2_0.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기에서 다루게 될 내용입니다:
 

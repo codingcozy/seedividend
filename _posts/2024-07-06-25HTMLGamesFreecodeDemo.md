@@ -1,7 +1,7 @@
 ---
 title: "무료 HTML 게임 25개코드  데모 포함"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_0.png"
+coverImage: "/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_0.png"
 date: 2024-07-06 10:18
 ogImage:
   url: /assets/img/2024-07-06-25HTMLGamesFreecodeDemo_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/@codewithrandomartical/25-html-games-free-code-demo-da
 
 우리 개발자 여러분, 이 간단한 HTML 게임 코드들을 복사하여 붙여넣기하면 VS Code 편집기에서 게임을 바로 브라우저에서 실행할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 관련 기사:
 
@@ -39,81 +28,37 @@ HTML과 JavaScript 코드를 사용하여 Flappy Bird 게임 만들기
 
 JavaScript를 사용하여 미로 게임 만들기 (소스 코드)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - The Last War
 
-![이미지](/ui-log-2/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_1.png)
+![이미지](/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_1.png)
 
 2. Beer Filling Game
 
-![이미지](/ui-log-2/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_2.png)
+![이미지](/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_2.png)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 3. 부활절 토끼를 쏴라
 
-![이미지](/ui-log-2/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_3.png)
+![이미지](/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_3.png)
 
 4. 재미있는 HTML 게임
 
-![이미지](/ui-log-2/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_4.png)
+![이미지](/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_4.png)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 5. 반응 벽 게임
 
-![Reaction Wall Game](/ui-log-2/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_5.png)
+![Reaction Wall Game](/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_5.png)
 
 6. 시몬
 
-![Simon](/ui-log-2/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_6.png)
+![Simon](/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_6.png)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 7. CSS 및 JS 없이 만든 HTML 게임
 

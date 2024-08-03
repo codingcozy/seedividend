@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/moirai-time-series-foundation-mod
 
 기초 모델에 대한 증가하는 관심을 이해하기 위해 핵심 능력인 제로샷 추론을 정의해야 합니다. 이는 이러한 모델이 훈련 단계에서 만나보지 못한 데이터에서 작업을 정확하게 수행하거나 예측하는 능력을 가리킵니다. 이 능력은 자연어 처리(NLP), 컴퓨터 비전, 텍스트와 이미지를 결합하는 다중 모달 작업 등 다양한 영역에 적용된 모델에서 탐구되었습니다. "제로샷"이라는 용어는 모델이 특정 작업이나 데이터 도메인에서 훈련 중에 "제로" 예제를 보지만 그 영역에서 효과적으로 작업을 수행하려하는 능력에서 나왔습니다. 이 용어는 2009년 Hinton 등에 의해 저술된 "시맨틱 출력 코드를 사용한 제로샷 학습" 논문에서 소개되었으며 같은 해 NIPS 컨퍼런스에서 발표되었습니다. 그 이후로 가장 중요한 연구 주제 중 하나로 등장하여 이제는 시계열 분석 분야로 진입하고 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사에서는 Salesforce가 제공하는 Moirai라는 새로운 시계열 예측을 위한 기반 모델을 탐구합니다. 이는 시계열 예측을 위한 기반 모델에 대한 시리즈 기사들을 기반으로 하며, TimeGPT 및 Chronos와 같은 모델의 성능을 실제 데이터셋에서 자세히 설명하고 보여준 기사들을 바탕으로 합니다.
 
@@ -38,16 +29,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 
 ![이미지](/TIL/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_0.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 항상 코드는 GitHub에서 확인하실 수 있습니다.
 
@@ -57,16 +39,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 
 단일 변수 시계열 예측은 과거 값만을 사용하여 단일 시계열 변수의 미래 값을 예측하는 것에 초점을 맞춥니다. 예측 모델은 단일 변수의 과거 데이터를 활용하여 미래 예측을 위한 패턴, 추세 및 주기를 식별합니다. 예를 들어, 과거 온도 기록만을 기반으로 내일의 온도를 예측하는 것이 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다변량 시계열 예측은 과거 데이터를 기반으로 관련된 여러 시계열 변수의 미래 값을 예측하는 것을 의미합니다. 이 맥락에서 예측 모델은 여러 변수 간의 상호의존성과 상호작용을 고려하여 예측을 수행합니다. 예를 들어 제품의 미래 판매량을 예측할 때, 과거 판매뿐만 아니라 마케팅 비용, 계절적 추세, 경쟁사 가격과 같은 관련 요인도 고려될 수 있습니다.
 
@@ -76,16 +49,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 
 확률적 예측은 가능한 미래 결과의 분포를 제공하여 점 예측을 넘어 확장합니다. 이 출력 분포는 다양한 미래 값이 발생할 확률을 나타내며, 불확실성 하에서 더 통찰력 있는 의사결정을 가능케 합니다. 예를 들어 판매량이나 에너지 소비와 같이 관측 값이 엄격히 양수인 경우, 확률적 예측은 가능한 결과 값 범위를 모델링하기 위해 로그-정규분포나 감마 분포를 활용할 수 있습니다. 확률적 예측은 위험 관리와 계획에 특히 유용하며, 가장 비관적적부터 가장 낙관적인 시나리오까지 다양한 상황의 발생 가능성을 이해할 수 있도록 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Moirai: Salesforce의 시계열 기반 모델
 
@@ -97,16 +61,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 
 데이터셋은 기초 모델의 주요 구성 요소 중 하나입니다. 저자들은 9개의 다양한 시계열 도메인에 걸쳐 270억 건의 관측치로 이루어진 대규모이자 다양한 데이터셋을 구축했습니다. (*예시 활용, 다양성, 확신 정도*) 게다가, 저자들은 세 가지 주요 혁신적 개념을 도입했습니다: Multi Patch Size Projection Layers(다중 패치 크기 투영 레이어), Any-Variate Attention(모든 공변수 관심), 그리고 Mixture Distribution(혼합 분포)각각에 대해 다음 섹션에서 자세히 설명합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Multi Patch Size Projection Layers
 
@@ -116,16 +71,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 
 더 간단히 말하면, 단어 임베딩이 단어를 고차원 공간에서 표현하는 것처럼, 시계열 패치는 그들의 특징에 의해 정의된 다차원 공간에서 시리즈 세그먼트의 표현으로 간주할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 프로세스는 여러 이점을 제공합니다:
 
@@ -142,16 +88,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 - 분 단위 → 패치 크기 32, 64, 128
 - 초 단위 → 패치 크기 64, 128
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 모델 아키텍처에 대해 저자들은 입력 및 출력 패치 레이어를 사용했습니다. 데이터를 패치로 변환한 후, 입력 패치 레이어인 간단한 선형 레이어가 시계열 서브셋을 패치 임베딩으로 매핑하여 엔코더 전용 트랜스포머 레이어로 전달합니다. 나중에 두 번째 패치 레이어가 사용되어 엔코더의 출력을 처리합니다. 출력 토큰은 다중 패치 크기 출력 프로젝션을 통해 디코딩됩니다. 다섯 가지 다른 패치 크기가 있기 때문에 모델은 입력 데이터를 처리하는 데 사용된 패치 크기에 따라 활성화되는 다섯 가지 다른 입력 패치 레이어와 다섯 가지 다른 출력 패치 레이어가 있습니다.
 
@@ -159,16 +96,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 
 # 다변량 어텐션
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 전통적인 Transformer 아키텍처는 단일 시퀀스의 대상 값만 받아 들이도록 설계되어 있습니다. 그러나 이 모델은 다변량 시계열 시나리오에서 여러 시퀀스의 대상 값 및 동적 공변량을 다루기를 기대합니다. 따라서 저자들은 Moirai가 여러 시퀀스를 처리할 수 있도록 "Any-Variate Attention"을 도입했습니다.
 
@@ -176,16 +104,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 
 "Any-Variate Attention"에는 두 가지 기본 특성이 있습니다: 변수 순서에 대한 순열 등변성과 변수 지수에 대한 순열 무변성을 달성합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Permutation Equivariance in relation to variate ordering means that if the observation sequence within a variate is rearranged, the model's output for that variate will reflect the same rearrangement. This property is essential as we are dealing with time series data, and the chronological order must be maintained within each variate. As a result, the model's comprehension of time series dynamics remains consistent regardless of the input sequence.
 
@@ -196,16 +115,7 @@ To achieve permutation equivariance/invariance, Moirai employs two different tec
 - Rotary Positional Embeddings (RoPE) [8] enforce permutation equivariance through their encoding mechanism. They represent positional information by rotating tokens in the embedding space based on their positions in the sequence. This allows the model to retain the absolute positions of tokens while preserving the relative distances between any pair of tokens.
 - Binary attention bias helps the model achieve invariance by treating variates as if they are not ordered. The model dynamically adjusts its focus by applying various attention biases (learnable scalars) depending on whether elements belong to the same variate (m=n) or different variates (m≠n). This empowers the Any-variate Attention mechanism to accommodate diverse numbers of variates and their permutations.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Moirai Time Series Foundation Models for Universal Forecasting](/TIL/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_3.png)
@@ -217,16 +127,7 @@ Moirai는 확률적 예측 모델로, 단순히 하나의 점 예측을 제공�
 DeepAR과 같은 다른 확률 모델들처럼, Moirai의 목적은 손실 함수, 특히 음의 로그-우도를 최소화하여 확률 분포의 매개변수를 추정하는 것입니다. 최적화를 위해 여러 가능한 분포가 있습니다. 예를 들어, DeepAR은 가우시안, 베타, 음이항 또는 스튜던트 t-분포의 매개변수를 추정하도록 구성할 수 있습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Moirai는 토대 모델이기 때문에 다양한 데이터 도메인을 예측할 수 있도록 설계되었으며, 따라서 단일 분포로 제한될 수 없습니다. 가능한 모든 시나리오를 수용하기 위해 모델은 다양한 종류의 데이터에 적합한 혼합 분포의 매개변수를 학습합니다:
 
@@ -239,16 +140,7 @@ Moirai는 토대 모델이기 때문에 다양한 데이터 도메인을 예측�
 
 이 섹션은 이전 글들에서 다룬 토대 모델들 간의 유사점과 차이점을 제시합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Table 1](https://your-website.com/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_4.png)
 
@@ -258,16 +150,7 @@ Moirai는 토대 모델이기 때문에 다양한 데이터 도메인을 예측�
 
 이 섹션에서는 Moirai를 사용하여 실제로 공개적으로 이용 가능한 cc-by-4.0 라이선스하에 있는 호주 관광객을 예측할 것입니다. 이후에 Moirai의 예측 성능을 Chronos (큰 버전) 및 TiDE와 비교할 것입니다 (Chronos 및 TiDE로 생성된 예측 코드를 얻으려면, 저희의 마지막 기사를 확인해주세요).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 경제 변수(CPI, 인플레이션율, GDP 등)를 Trading Economics에서 추출한 것으로 강화된 데이터셋을 소개합니다. Trading Economics는 공식 소스를 기반으로 한 경제 지표를 사용합니다. 데이터셋의 사용성을 높이기 위해 전처리 작업을 수행했습니다. 우리는 전처리된 데이터셋 버전을 저장하여 실험을 쉽게 재현할 수 있도록 했습니다.
 
@@ -298,16 +181,7 @@ FREQ = "M"
 
 그런 다음, 데이터셋을 불러옵니다. 데이터셋 설명에 언급된 외부 기능을 이미 포함하고 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 # 데이터 및 외생적 특징 로드
@@ -336,16 +210,7 @@ print(f"테스트를 위한 개월: {len(test[TIME_COL].unique())} from {min(tes
 마지막으로, 판다 데이터 프레임을 GluonTS 데이터 세트로 변환하여 모델에 공급해야합니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 훈련 데이터셋(타겟 및 동적 공변량)을 테스트 세트(예측 시간대의 타겟은 null이 됨)의 동적 공변량만을 연결합니다. 그런 다음 팬더스 데이터 프레임의 인덱스를 날짜 열로 바꿉니다.
 - 서로 다른 시계열을 구별할 수 있게 해주는 열을 설정합니다(unique_id).
@@ -370,16 +235,7 @@ ds = PandasDataset.from_long_dataframe(
 - context_length — 모델이 주의를 기울일 수 있는 시퀀스의 항목 수(양의 정수).
 - patch_size — 각 패치의 길이. 이전에 본 바와 같이 작성자는 빈도에 따라 다른 패치 크기를 설정했습니다. 사전 정의된 값을 사용하려면 patch_size를 'auto'로 설정해야 합니다. 'auto, 8, 16, 32, 64, 128' 중의 하나로 설정할 수도 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 # 사전 훈련된 모델을 준비하기 위해 huggingface hub에서 모델 가중치를 다운로드합니다.
@@ -411,16 +267,7 @@ forecast_df = utils.moirai_forecast_to_pandas(forecasts, test, FORECAST_HORIZON,
 그림 7은 Moirai가 시계열을 예측하는 데 어려움을 겪고 안정적인 예측을 생성하지 못했음을 보여줍니다. 대신, 예상보다 더 높은 크기의 연속적인 점프를 예측했습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Moirai에서 수신한 예측을 기반으로 TiDE 및 Chronos에서 생성된 예측을 불러와서 비교를 위해 예측 성능 지표를 계산할 수 있습니다. 더 잘 이해하기 위해 평균 절대 백분율 오차(MAPE)를 비교 메트릭으로 사용했습니다.
 
@@ -430,16 +277,7 @@ Chronos는 공변량의 사용을 허용하지 않으며 시계열 간의 독립
 
 # 결론
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 글에서는 시계열 예측을 위한 가장 최근의 재단 모델 중 하나 인 Moirai를 탐구했습니다. 이는 제로샷 추론을 생성할 수 있는 모델의 한 예입니다. 우리는 Chronos와 TimeGPT를 자세히 다뤘는데, Moirai의 접근 방식과 모델 아키텍처는 매우 다릅니다. 따라서 이 모델은 과학적 가치를 지니고 있으며 오픈 소스임에 감사합니다.
 
@@ -449,16 +287,7 @@ Chronos는 공변량의 사용을 허용하지 않으며 시계열 간의 독립
 
 # 나에 대해
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 시리얼 기업가이자 AI 분야의 리더입니다. 저는 기업을 위한 AI 제품을 개발하고 AI 중심의 스타트업에 투자합니다.
 
@@ -468,16 +297,7 @@ ZAAI 창립자 | LinkedIn | X/Twitter
 
 [1] Garza, A., & Mergenthaler-Canseco, M. (2023). TimeGPT-1. arXiv. https://arxiv.org/abs/2310.03589
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 [2] 라술, K., 아쇼크, A., 윌리엄스, A. R., 고니아, H., 바그와트카, R., 코라사니, A., 다르비시 바야지, M. J., 아다모푸로스, G., 리아키, R., 하센, N., 비로쉬, M., 가르그, S., 슈나이더, A., 채파도스, N., 드루앙, A., 잔테데스키, V., 너브리바카, Y., & 리쉬, I. (2024). Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting. arXiv. https://arxiv.org/abs/2310.08278
 
@@ -487,16 +307,7 @@ ZAAI 창립자 | LinkedIn | X/Twitter
 
 [5] 우, G., 리우, C., 쿠마르, A., 씽, C., 사바레세, S., & 사후, D. (2024). Unified Training of Universal Time Series Forecasting Transformers. arXiv. https://arxiv.org/abs/2402.02592
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 [6] Palatucci, M., Pomerleau, D., Hinton, G. E., & Mitchell, T. M. (2009). Zero-shot Learning with Semantic Output Codes. In Y. Bengio, D. Schuurmans, J. Lafferty, C. Williams, & A. Culotta (Eds.), Advances in Neural Information Processing Systems (Vol. 22). Curran Associates, Inc. Retrieved from [here](https://proceedings.neurips.cc/paper_files/paper/2009/file/1543843a4723ed2ab08e18053ae6dc5b-Paper.pdf)
 

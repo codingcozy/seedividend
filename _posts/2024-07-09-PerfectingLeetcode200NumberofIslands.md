@@ -18,18 +18,7 @@ LeetCode의 "섬의 개수" 문제는 '1' (육지)과 '0' (물)로 구성된 m x
 
 ## 그래서, 이 문제에 적합한 알고리즘은 무엇일까요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 문제는 그리드를 탐색하고 인접한 노드들을 체계적으로 탐색해야 하기 때문에 BFS가 가장 효율적인 알고리즘입니다. 그리드나 그래프 구조에서 연결된 구성 요소를 탐색하고 식별할 수 있는 능력은 이 작업에 잘 어울립니다.
 
@@ -41,18 +30,7 @@ LeetCode의 "섬의 개수" 문제는 '1' (육지)과 '0' (물)로 구성된 m x
 
 ![그림](/TIL/assets/img/2024-07-09-PerfectingLeetcode200NumberofIslands_1.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 셀 [0, 0]에서 탐사를 시작합니다. '1'이 포함되어 있기 때문에 섬의 일부로 간주되어 'visited' 세트에 추가됩니다. 이제 [0, 0]에서 4가지 방향으로 이동할 수 있습니다: [0, 1], [1, 0], [-1, 0], [0, -1]. 그리드를 벗어나지 않도록 하기 위해 [1, 0]과 [0, 1]만 남습니다. 이 두 셀은 현재 탐색 중인 동일한 섬의 일부라는 것을 나타내는 '1'입니다. 따라서 이러한 셀을 큐에 추가하여 다음에 방문합니다. (그림 1)
 - 다음으로 [1, 0]을 pop하고 visited 세트에 추가합니다. [1, 0]에서 4방향으로 갈 수 있습니다: [0, 0], [1, -1], [1, 1], [2, 0]. 그리드를 벗어나지 않기 때문에 [1, -1]을 버립니다. [0, 0]은 이미 방문했으므로 방문을 스킵합니다. [2, 0]은 '0'이므로 물이므로 방문할 필요가 없습니다. 방문되지 않은 [1, 1]은 '1'이므로 큐에 추가합니다. (그림 2)
@@ -64,18 +42,7 @@ LeetCode의 "섬의 개수" 문제는 '1' (육지)과 '0' (물)로 구성된 m x
 
 ![그림](/TIL/assets/img/2024-07-09-PerfectingLeetcode200NumberofIslands_3.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - [3, 3]에 위치하면 [3, 4]로만 이동할 수 있습니다. 여전히 발견되지 않은 '1' 이므로 큐에 넣어줍니다.
 - [3, 4]를 팝하여 방문했다고 표시하고, 주변에 더 이상 발견되지 않은 '1'이 없기 때문에, 이 섬을 대상으로 하는 BFS 및 이후 알고리즘을 완료합니다.
@@ -128,18 +95,7 @@ class Solution(object):
   return islands
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 시간 복잡도:
 

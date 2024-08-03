@@ -19,16 +19,7 @@ link: "https://medium.com/@fabio.matricardi/how-i-built-a-chatbot-that-crushed-c
 
 저는 그것을 해냈고, 이 글에서 그 방법을 공유하려고 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 도전과 탐험
 
@@ -38,16 +29,7 @@ link: "https://medium.com/@fabio.matricardi/how-i-built-a-chatbot-that-crushed-c
 
 그 질문에 흥미를 느껴서 도전해보기로 결정했어요. 몇 일 동안 Hugging Face의 다양한 오픈 소스 AI 도구를 연구하고 실험하며 조정하는 시간을 보냈어요. 나만의 소규모 전문가 팀을 결성하여 ChatGPT를 넘어서거나 심지어 뛰어넘길 수 있기를 바랬는데, 결과가 궁금하게요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Well done! You've done amazing work by creating a chatbot that can engage in fluent and diverse conversations. What's even more impressive is that you accomplished this on your own computer without relying on external cloud services or APIs. This allowed you to maintain full control and privacy over your data and model.
 
@@ -57,16 +39,7 @@ Well done! You've done amazing work by creating a chatbot that can engage in flu
 
 With the article "Apple's iOS App Store announces sweeping changes in the EU," the objective is to identify the key question implied by the headline (or let the user ask it) and then provide a concise answer based on the article text.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기 ChatGPT에서 받은 결과입니다...
 
@@ -78,16 +51,7 @@ With the article "Apple's iOS App Store announces sweeping changes in the EU," t
 
 음, 당신은 아마도 이것에는 최소한 Mistral-7B만큼 좋은 수퍼 모델이 필요할 것이라고 생각할 수 있습니다. 물론 당신이 좋은 NVidia GPU나 16GB의 메모리, 그리고 양자화된 버전을 갖고 있지 않는 이상 일반 노트북에서 실행할 수 없습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그런 일은 없어요. 내가 구글 콜랩에서 실행하는 Mixtures of Experts (SoMoE)를 만들기로 결정했어. 또한 내 미니PC(130 달러짜리 팬리스 컴퓨터로 윈도우 11이 돌아가며 16GB RAM과 7세대 Intel 4코어 4스레드를 가지고 있는)에서도 테스트했어. 그래서 결론적으로 누구나 내 SoMoE를 실행할 수 있어.
 
@@ -97,16 +61,7 @@ With the article "Apple's iOS App Store announces sweeping changes in the EU," t
 
 ![이미지](/TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_3.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 쉬운 방법
 
@@ -122,16 +77,7 @@ Google Colab의 무료 티어(오직 CPU와 12GB RAM만 사용 가능)에서 다
 !huggingface-cli download TheBloke/stablelm-zephyr-3b-GGUF stablelm-zephyr-3b.Q5_K_S.gguf --local-dir . --local-dir-use-symlinks False
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 editedtext = """Apple의 iOS 앱 스토어가 EU에서 대대적인 변화를 발표했습니다.
@@ -156,16 +102,7 @@ with console.status("Loading ✅✅✅✅ stablelm-zephyr-3b with LLAMA.CPP...",
     )
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 안녕하세요! 아래 텍스트를 참고해주세요:
 
@@ -177,16 +114,7 @@ template = f"""<|user|>\n주어진 텍스트 일부는 다음과 같습니다:\n
               질문에 대한 답변을 해주세요. 답변은 정보를 제공하고 목록 형식으로 구성되어야 합니다. 답변할 수 없는 경우, "답변 불가"라고 말해주세요.\n
               질문: {query}
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```
 ![Image](/TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_4.png)
@@ -199,16 +127,7 @@ I think that the best way to approach a text we don’t know anything about cons
 - get an idea of the main questions about that text
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이러한 이유로 우리는 2개의 함수가 필요합니다: 하나는 텍스트를 요약하는 함수이고, 다른 하나는 텍스트에 대해 통찰력있는 질문을 제공하여 추천 시스템을 구축할 것입니다.
 
@@ -218,16 +137,7 @@ Flan-T5 패밀리는 인코더-디코더 모델 그룹입니다. 이들은 텍�
 
 제한 사항은 문맥 크기에 있습니다: 모두 512개의 토큰 이상을 처리할 수 없습니다. 그래서 우리는 Langchain을 사용할 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 단계에서는 텍스트 스플릿터만 사용할 것입니다: 큰 텍스트 말뭉치를 작은 조각들로 나누는 도구와 전략입니다. 일반적으로 문단 수준으로 분할하라고 가르치는 자습서를 찾을 수 있지만, 여기서는 토큰만 사용할 것입니다(512 글자 제한이 있기 때문에).
 
@@ -261,16 +171,7 @@ for item in splitted_text_sum:
 print(summary)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 매우 쉬워요! 몇 가지 테스트를 진행해 보시는 걸 권장해요.
 
@@ -280,16 +181,7 @@ print(summary)
 
 LaMini를 사용하면 매우 쉬워요, 프롬프트에 몇 가지 속임수만 있으면 돼요. 차별화된 점은 Text-Splitter의 정밀도를 높이는 것이에요. 우리는 크고 일반적인 질문만 원하는 게 아니에요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 TOKENtext_splitter = TokenTextSplitter(chunk_size=280, chunk_overlap=20)
@@ -317,16 +209,7 @@ for item in splitted_text_qg:
 GitHub 저장소에서 Google Colab 노트북 2개를 찾을 수 있습니다. 하나는 CPU만으로 실행되고, 다른 하나는 무료 T4 인스턴스(GPU)를 사용할 수 있는 노트북입니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 오픈 소스 LLM이 여기 있고, 당신이 그것을 사용할 때 꼭 고루가 아니어도 됩니다.
 
@@ -336,16 +219,7 @@ GitHub 저장소에서 Google Colab 노트북 2개를 찾을 수 있습니다. �
 
 이 기사를 즐겼기를 바랍니다. 만약 이 이야기가 가치를 제공하고 조금이라도 지원을 보여주고 싶다면 다음과 같은 방법을 사용할 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 이 이야기에 대해 많이 박수를 치세요
 - 기억할 가치가 있는 부분을 강조하세요 (나중에 찾기 쉽고 더 나은 기사를 쓰기 위해)

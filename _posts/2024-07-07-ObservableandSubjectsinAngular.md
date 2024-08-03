@@ -18,18 +18,7 @@ link: "https://medium.com/@jaydeepvpatil225/observables-and-subjects-in-angular-
 
 - Angular가 무엇인가요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Angular의 Observable
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@jaydeepvpatil225/observables-and-subjects-in-angular-
 
 - 예제를 통한 Angular의 Subject 종류
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Prerequisites
 
@@ -58,18 +36,7 @@ link: "https://medium.com/@jaydeepvpatil225/observables-and-subjects-in-angular-
 - VS Code
 - Angular CLI
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - NodeJS
 
@@ -79,18 +46,7 @@ Angular은 웹 애플리케이션을 구축하기 위한 인기있는 오픈 소
 
 ## Angular에서 Observable
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Angular에서 Observables는 JavaScript의 Reactive Extensions 라이브러리(RxJS)의 일부입니다.
 
@@ -100,18 +56,7 @@ Angular은 웹 애플리케이션을 구축하기 위한 인기있는 오픈 소
 
 - Observables은 새로운 데이터나 이벤트가 발생할 때 구독하고 알림을 받을 수 있는 방법을 제공하여 실시간으로 변경에 반응할 수 있도록합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Angular에서 Subject
 
@@ -121,18 +66,7 @@ Angular은 웹 애플리케이션을 구축하기 위한 인기있는 오픈 소
 
 - 이는 Angular 프로젝트에 기본으로 포함된 JavaScript 반응 확장 라이브러리(RxJS)의 일부입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Observable과 Subject의 차이 및 실시간 사용 사례
 
@@ -142,18 +76,7 @@ Observable과 Subject는 모두 JavaScript의 Reactive Extensions (RxJS) 라이�
 
 # Angular에서의 다양한 Subject 유형 및 예제
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 RxJS 라이브러리에서 사용할 수 있는 주제 유형은 다음과 같습니다. 다양한 시나리오에 사용할 수 있습니다:
 
@@ -163,18 +86,7 @@ RxJS 라이브러리에서 사용할 수 있는 주제 유형은 다음과 같�
 
 - next() 메서드를 사용하여 새 값이 발행될 때 관찰자 목록을 유지하고 모든 관찰자에게 알림을 보내는 멀티캐스트 가능한 옵저버입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 초기 값을 갖고 있지 않아서 구독자들은 구독한 후에 발행된 값만 받습니다.
 - 이는 추가 기능 없이 간단한 다중 발행체를 필요로 할 때 좋은 옵션입니다.
@@ -232,18 +144,7 @@ RxJS 라이브러리에서 사용할 수 있는 주제 유형은 다음과 같�
 
 ![Illustration](/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_2.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 2. BehaviorSubject
 
@@ -251,18 +152,7 @@ RxJS 라이브러리에서 사용할 수 있는 주제 유형은 다음과 같�
 - 초기값을 가지고 있으며 구독자가 구독하는 즉시 초기값을 즉시 발행하며, 아직 next() 메서드를 사용하여 값이 발행되지 않은 경우에도 발행합니다.
 - 초기값을 발행한 후에는 일반적인 Subject처럼 작동하여 next()를 사용하여 새 값이 발행될 때 구독자에게 알립니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 · 새 구독자에게 마지막으로 알려진 값, 예를 들어 애플리케이션의 현재 상태 또는 API에서 검색한 최신 데이터를 제공하고 싶을 때 유용합니다.
 
@@ -289,18 +179,7 @@ behaviorSubject.subscribe((ele) => {
 
 ## 3. ReplaySubject
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - ReplaySubject은 특정 수의 값을 버퍼링하고 새로운 구독자에 대해 다시 재생할 수 있는 subject입니다.
 
@@ -334,18 +213,7 @@ replaySuject.next(555);
 //---------------------------------------------------------------------------
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_4.png)
 
@@ -354,18 +222,7 @@ replaySuject.next(555);
 - AsyncSubject은 완료될 때 마지막 값을 만 방출하는 subject입니다.
 - subject의 complete() 메서드가 호출될 때까지 어떤 값도 방출하지 않습니다. 완료되면 마지막 값을 (있는 경우) 구독자에게 방출합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 · 최종 값이 발행되기 전에 작업이 완료될 때 유용합니다. 예를 들어, HTTP 요청이 완료될 때까지 기다렸다가 응답을 단일 값으로 발행할 때 사용합니다.
 
@@ -399,18 +256,7 @@ replaySuject.next(555);
 
 # GitHub URL
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 https://github.com/Jaydeep-007/angular-subject-and-observable
 
@@ -420,18 +266,7 @@ https://github.com/Jaydeep-007/angular-subject-and-observable
 
 코딩 즐기세요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 친근한 한국어 번역
 

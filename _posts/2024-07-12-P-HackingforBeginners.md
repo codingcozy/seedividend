@@ -19,16 +19,7 @@ link: "https://medium.com/@epiren/p-hacking-for-beginners-996d0e8f5094"
 
 0.051이면 정말이지 말이 안 돼야지요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음은 그것이죠. 연구의 디자인을 조작하여 수행하는 통계 분석의 p-값을 0.05 미만으로 만들 수 있습니다. 그렇게 함으로써 결과가 "통계적으로 유의하다"로 판정될 수 있지만, 분석에서 보는 관련성의 강도는 바뀌지 않을 수도 있습니다. 예를 들어볼까요?
 
@@ -39,16 +30,7 @@ link: "https://medium.com/@epiren/p-hacking-for-beginners-996d0e8f5094"
 - 감자 샐러드를 먹은 사람 5명 중 4명이 병에 걸렸습니다.
 - 감자 샐러드를 먹지 않은 사람 3명 중 1명이 병에 걸렸습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 꽤 명확하죠? 샐러드를 먹은 사람 중에 병에 걸릴 확률은 4/1인 반면, 샐러드를 먹지 않은 사람 중에 병에 걸릴 확률은 1/2입니다. 이 확률들의 비율(즉, "오즈비")은 8입니다. 샐러드를 먹은 사람들은 병에 걸릴 오즈가 8배 높습니다.
 
@@ -93,16 +75,7 @@ analyze_data(3)  # 15개 케이스와 9개 컨트롤을 사용하여
 analyze_data(4)  # 20개 케이스와 12개 컨트롤을 사용하여
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기 결과입니다:
 
@@ -120,16 +93,7 @@ analyze_data(4)  # 20개 케이스와 12개 컨트롤을 사용하여
 
 <img src="/TIL/assets/img/2024-07-12-P-HackingforBeginners_0.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 p-값을 계산하기 위해 정규 분포가 아닌 카이 제곱 분포를 사용한다는 점을 유의하세요. 이들은 결국 카테고리별 사람 수이기 때문에 연속적인 숫자가 아닙니다. 위 분포에서 곡선 아래 약 47%가 X 축의 1.74 오른쪽에 있습니다. 이는 우리가 데이터에서 계산한 검정 통계량입니다. 샘플 크기가 이 계산에 어떤 영향을 미치는지 확인하면서 그래프를 다시 참조하세요.
 
@@ -139,16 +103,7 @@ p-값을 낮추려면 무엇을 해야 할까요? 당연히 샘플 크기를 증
 
 그래서 10건의 사례와 6건의 대조군으로 샘플 크기를 증가시키겠습니다. 여기에 결과가 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 > analyze_data(2)  # 10 cases and 6 controls 지정
@@ -174,16 +129,7 @@ Chi-square 통계량: 5.226667 , p-값: 0.03898051
   안 먹음   3       6
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 와! p-값은 0.018(반올림)로 나왔어요. 정말 놀이로 초기 샘플 크기의 네 배를 늘려보겠어요:
 
@@ -201,16 +147,7 @@ Chi-square 통계량: 5.226667 , p-값: 0.03898051
 
 ## “통계적으로 유의하지 않음” 대 “연관성 없음”
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 각 예시에서 보았듯이, 음식을 먹고 아플 가능성과의 연관성은 표본 크기에 상관없이 동일했습니다. 표본 크기를 변경함으로써 우리는 p-값을 낮추고 결과를 "통계적으로 유의미하게" 만들었습니다. 그러나 전염병 역학자로서, 나는 감자 샐러드를 원망하기만 하지 않을 겁니다. 다른 음식들과 함께 그 음식을 테스트하러 가고, 대규모 유통업체 문제가 아닌지 집고 조사할 것입니다. 집에서 직접 만든 감자 샐러드가 아닌 경우에는 슈퍼마켓에서 제품을 회수하고 리콜 프로세스를 시작할 것입니다.
 
@@ -220,16 +157,7 @@ p-값이 유의미한 수준에 도달할 때까지 기다리지 않을 겁니�
 
 결과의 통계적 유의성만큼 중요한 많은 다른 요소들이 연구에 영향을 미칩니다. 예를 들어, 데이터를 그룹별로 분리하는 것을 잊었는지, 심슨의 역설을 유발할 가능성이 있나요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 참여자를 선택하는 방식에서 베크슨 편향에 빠지지는 않았는지 확인했나요?
 
@@ -239,16 +167,7 @@ p-값이 유의미한 수준에 도달할 때까지 기다리지 않을 겁니�
 
 일부 불성실한 사람들은 표본 크기를 증가시키는 것 이상으로 데이터를 조작합니다. 다른 사람들과 마찬가지로, 통계적 유의성을 관련성의 강도와 동일시하거나, 논문이 특정 범위 내의 p-값을 갖고 있을 때만 게재되도록 받아내려고 합니다. 그들은 데이터를 잘라내어 연관성이 실제로 없는 상황에서 연관성이 갑자기 나타나게 만듭니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 2020년 미국 연방 선거를 교란하려고 한 사람들이 법정에서 자신들의 주장을 뒷받침하기 위해 p-해킹을 사용했었다면서요.
 
@@ -258,16 +177,7 @@ p-값이 유의미한 수준에 도달할 때까지 기다리지 않을 겁니�
 
 하지만, 이 글로부터 아무것도 배우지 못했다면 이것만은 꼭 기억하세요: 상온에 보관되는 식품은 따뜻하게 하고, 냉장보관할 것이거나, 보관하지 말아야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래는 분석 예제에 대한 R 코드입니다: https://gist.github.com/RFNajera/c571c7b9d21be2dbabbad085af3333eb
 

@@ -1,17 +1,17 @@
 ---
 title: "프리로드Preload와 SrcSet을 남용하는 것 능력 부족한 개발자들의 한심한 절망"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_0.png"
+coverImage: "/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_0.png"
 date: 2024-07-12 19:22
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_0.png
+  url: /assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_0.png
 tag: Tech
 originalTitle: "Overusing Preload And SrcSet ? Pathetic Desperation By Inept Developers?"
 link: "https://medium.com/codex/overusing-preload-and-srcset-pathetic-desperation-by-inept-developers-9c07464ab882"
 ---
 
 
-<img src="/ui-log-2/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_0.png" />
+<img src="/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_0.png" />
 
 FailwindUI 템플릿에서 한 번 진짜 대단한 것을 발견했고, 공유할 필요를 느꼈습니다. 주의: 이 기사는 대부분 토로로 가득합니다.
 
@@ -19,16 +19,7 @@ FailwindUI 템플릿에서 한 번 진짜 대단한 것을 발견했고, 공유�
 
 만들어지는 가장 흔한 문제 중 하나는 더 빠르게 보이려는 시도를 위해 점점 더 많은 코드를 겹치려는 것입니다. 그리고 내가 계속 말하고 있는 것 중 하나는:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그러나 안타깝게도 많은 개발자들이 나쁜 코드, 나쁜 실천 방식, 그리고 일반적인 무지에 대해 변명을 합니다. 이것이 의도적인 무지로 인해 Tailwind, React 등과 같은 사기성 사기가 새끼들을 속이고 속이게 하는 것을 가능하게 합니다.
 
@@ -38,16 +29,7 @@ FailwindUI 템플릿에서 한 번 진짜 대단한 것을 발견했고, 공유�
 
 # 사례 예시
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 내가 "HTML 문맹" 시리즈의 제III부를 발표한 지 며칠 만에, TailwindUI에 대한 내 비판적인 글을 썼는데 누군가가 접촉해 왔어. 사기꾼이 이를 이용한 사기를 당한 것이 아닌가 묻는 사람도 있었어.
 
@@ -57,16 +39,7 @@ FailwindUI 템플릿에서 한 번 진짜 대단한 것을 발견했고, 공유�
 
 다른 사람들은 Tailwind가 "사기"가 아니라고 말할 것이며, TailwindUI의 많은 부분이 "무료"이기 때문에 그렇지 않을 것이라고 할 것이야. 돈의 교환을 어디서 하는지? 그게 맞아, 그들은 사기꾼이 아니라 기만가일 뿐이야. 그들의 사치스러운 것이 얼마나 위대한지 주장하는 것은 그저 속여먹기에 불과할 뿐... 하지만 진정한 사기? 아니야.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 사기꾼들은 아는 게 없는 무식하고 무능한 바보들로, 고객들의 돈을 털기 위해 대사를 쏟아낸다. 아무것도 아닌 템플릿을 복사하여 색상과 폰트를 바꾸는 수준의 일을 하고, 그 후에 다른 이들에게 그들의 이른바 "작품"에 대한 비용을 청구할 만큼 담대하다니요.
 
@@ -77,16 +50,7 @@ https://keynote.tailwindui.com/
 
 말할 필요도 없이, 이전 개발자를 사기로 고발하는 것이 좋을 것 같습니다. 왜냐하면 그들은 실제로 이를 "전적으로 스크래치에서 직접 구축했다"며 이지미 없는 디자이너가 작업했다고 말했기 때문이죠. 정말 헛소리에 불과하죠.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이게 바로 '아이 캔즈 해브 더 인터웹스' 같은 전혀 예상했던 대로의 '돌팔이, 바보, 그리고 바보들이 가져가고 다른 이들을 속이는 '프레임워크 스튜피드'로부터 기대할 수 있는 전형적인 쇼인 것 같아요. 코드를 들여다보면 전형적인 것들이 다 나와 있어요: 표현 클래스, 의미 없는 의미론, 아무것도 없는 자바스크립트, HTML이 왜 존재하는지에 대한 완전한 무지, 제 다른 글을 읽어본 적이 있다면 어떤 느낌인지 알 거예요. 결론은 뭐냐면?
 
@@ -96,16 +60,7 @@ https://keynote.tailwindui.com/
 
 # 불필요하고 쓸데없는 Preload 및 SrcSet
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 원본 FailwindUI 예제의 소스를 살펴보면 이 보석 같은 코드가 있어요: (저가 추가한 서식)
 
@@ -126,16 +81,7 @@ https://keynote.tailwindui.com/
 - HTML에는 FETCHPRIORITY 속성이 없어요!!! 네, DOMHTMLLinkElement 속성으로는 존재하지만, 이것이 HTML에도 존재한다는 의미는 아니에요! 아마도 누군가 이미 HTML 속성이 JavaScript 속성이 아니라고 썼을 텐데요.
 - 해당 이미지들은 4k에서도 아래로 스크롤시에 나타나기 때문에, 미리로딩하기보다는 레이지 로딩을 해야 해요 — 바로 미리로딩의 역할이에요!
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 같은 방식으로 우리가 어리석게 설계된 `img`를 이해하려고 노력할 때
 
@@ -170,16 +116,7 @@ https://keynote.tailwindui.com/
 
 하지만 여기서 중요한 건... 미리로드된 파일을 너무 많이 추가해서 미리로드가 이점을 제공하지 않게 만들어버린다는 사실과, 백엔드에서 동적 호출을 사용하여 끝도 없는 사이즈를 생성하도록 하기 때문에 일어나는 일에요?
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 거의 50k의 코드를 날리게 되네요 (HTML에 있어 캐시되지 않은 것들 때문에) 그리고... 대역폭을 절약하려고?!?
 
@@ -189,16 +126,7 @@ https://keynote.tailwindui.com/
 
 그래서 그들이 3840 폭까지 쿼리를 가지고 있는 게 미친 짓이라는 거죠.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 하지만 더 유익하고 재미있는 사실은 그들이 얼마나 적은 대역폭을 "절약"하려고 노력하는지입니다. 사용자가 바로 나가버리고 스크롤을 내리지 않아도, 이 18개의 이미지는 모두 여전히 로드됩니다. 그래서 페이지를 늦게 불러오기 위해 50k의 마크업을 사용하게 됩니다. 속도를 위해 한다는 이름으로.
 
@@ -208,16 +136,7 @@ https://keynote.tailwindui.com/
 
 그래서 기본적으로 이미지 크기 40k를 "절약"하기 위해 50k의 코드를 낭비했다는 건가요? 와우, 다이나믹 콜에 대한 추가 서버 부하, (캐시되더라도) 페이지 로드 지연을 일으킬 마크업 팽창, HTTP 병렬성을 지연시키는 끊임없는 프리로드, 심지어 보이지도 않을 수 있는 이미지를 로드하도록 강제하는 상황을 고려했을 때, 이 보다 더 가치있어 보이네요. 그리고 첫 로드 시 실제로 6개만 사용된다는 사실에 대한 다른 기사를 위한 세부사항을 얘기하기도 전에요!
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 그래서 어떻게 했어야 했을까요?
 
@@ -230,35 +149,17 @@ https://keynote.tailwindui.com/
 
 # 그들이 왜 이렇게 했을까요?
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 가장 간단히 설명하면, 대부분의 Failwind를 사용할 가치가 있다고 생각하는 사람들과 마찬가지로, 그들은 그들이 무엇을 하는지 모르고 하나의 웹 사이트를 작성하기에 적격하지 않다는 점이다. 하지만 이것은 그 이상으로 깊이 있는 문제이다.
 
-![이미지](/ui-log-2/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_1.png)
+![이미지](/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_1.png)
 
 이것의 많은 부분이 copypasta 태도에 기인합니다. "주류 개발자" 기술의 부가부분이 ^C로 시작되고 ^V로 끝나는 곳입니다. 그들은 코드 스니펫을 보고 아무것도 이해하지 않고 무작정 복사합니다. 그들이 복사한 것이 작동할 것을 무작정 희망하며, 심지어 그것이 사실 가치 있는 것이라고 믿습니다. 더 나쁜 것은 "멀도록 수용 회수"의 더 많은 대안을 꼽아 들이는 점에서 훨씬 더 심각합니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_2.png)
+![이미지](/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_2.png)
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 대중 심리는 여기서도 역할을 합니다. Tailwind에 대한 끝없는 거짓 정보가 “사실”으로 홍보되기 때문에 어떤 일이 잘못되고 있다 해도 그것이 “당신의 잘못”이어야 하며 시스템의 잘못이 아니라는 것을 의미합니다. “숫자가 거짓말을 한다”며 “권위주의 오류”라고 말하는 것들, “수백만 명의 개발자와 대기업들이 틀릴 수 없다!”
 
@@ -268,35 +169,17 @@ https://keynote.tailwindui.com/
 
 “프런트엔드 개발자”들의 문제 중 하나는 실제로 백엔드 코더인 마인드를 가진 것입니다. 종종 그것을 인식하지 못한 채로 서버에서 최소화된 방식으로 코드를 작성하고, 사용하는 템플릿 시스템에 대해 전혀 걱정하지 않습니다. HTML/CSS에 관한 "프레임워크 병신"이라는 이유 중 하나로 이것을 의심했습니다... 그래서 내게 놀라운 일이 아니었습니다. 모든 전종 사이트에 표시되는 preload 및 srcset 링크들은 "최적화된" 서버 쪽 코드로 생성되고 있는 것이 아닌가 의심해왔습니다. 그들은 복잡한 로직과 JSX 스타일 트래시 4k 함수를 작성하고 있습니다. 이는 8k의 코드를 클라이언트 사이드로 살짝 뱉어내어 정상적으로 작성된 표시 여분 512 바이트의 작업을 수행하고 있는 것입니다. 그런 다음 "4k"를 썼다고 자랑하며, 무지한 8k가 아닌 8k를 쓰지 않고서는, 자신에게 박수를 칩니다. 여전히 필요한 코드의 8배라는 사실은 누가 상관할까요. :/
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 남용과 오용의 원인이 되는 것은 진짜로 플레이스보 효과가 있다고 생각합니다. 최악의 희망적 사고입니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_3.png)
+![이미지](/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_3.png)
 
 이 새로운 기술들을 배웠을 때, 로드 시간에 도움이 될 수 있다고 알려져 있다. Google PageSpeed나 Lighthouse 같은 것에서 추가하는 것을 제안한다면... 무슨 일을 하는지 모르고 어떻게 작동하는지 모르는 개발자는 토니에게 기술 학교에 기부하도록 협박받을 정도로 초조한 로봇처럼 모든데 뿌립니다.
 
 하지만 그들은 실제로 언제 어디에 사용해야 하는지 이해하지 못하기 때문에, 최신 "수리"를 급하게 적용할 때 누군가가 그것이 정당하거나 올바른지에 대해 물어보지 않습니다. 이러한 주장하는 "전문가"들은 손가락을 교차시키며 저렴한 비전조교처럼 기도합니다. 이러한 상황은 확인 편향에 의해 악화됩니다. 그들은 그것이 작동하기를 원하기 때문에, 그것이 아무것도 하지 않을 때에도 작동한다고 생각하거나, 상황을 악화시킬 때에도 작동한다고 여깁니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 저는 또 다른 문제를 새롭게 드러나게 한 것 같아요: 대부분의 개발자들이 웹사이트나 앱을 성능 테스트하는 방법을 실제로 알지 못한다는 점입니다. 이들은 PageSpeed나 Lighthouse와 같은 도구에 지나치게 의존하지만, 페이지가 실제로 빨라지는 요소나 페이지를 어떻게 실제로 빠르게 만드는지, 심지어 HTTP 로드 순서와 같은 가장 기본적인 것들이 어떻게 작동하는지를 이해하지 못합니다.
 
@@ -306,16 +189,7 @@ https://keynote.tailwindui.com/
 
 최종 결과물은 무지한 것, 무능함, 무책임을 자신들을 숨기려고 절망적으로 발버둥치는 듯한 시도처럼 느껴져요. 마치 공주 매트리스처럼 한 장바닥 위에 또 다른 붕대를 계속 올리는 것처럼, 당근을 제거하는 것이 답인데요. 실제 문제를 해결하는 대신 "문제"에 더 많은 코드를 던지는 것이 지금은 너무 널널하게 흔해요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그 결과로 파괴하려는 산업으로 보이는 산업이 나타나게 되었죠. 이것은 하나의 작은 구석 같아 보일 수 있지만, Failwind나 그 사용자로 인해 더 많은 인트를 옹호하고, 이성적이지 않은 예제를 계속해서 내놓으면 이를 모르는 사람들이 — 혹은 더 나쁜 경우, 속임수를 씌우는 사기꾼들이 여러분이 수백만 개의 부서진 쓰레기 돈 구덩이들과 마주하게 됩니다.
 

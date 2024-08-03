@@ -1,7 +1,7 @@
 ---
 title: "HTML CSS, JavaScript로 반응형 카드 슬라이더 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-HowtoCreateResponsiveCardSliderinHTMLCSSJavaScript_0.png"
+coverImage: "/assets/img/2024-07-06-HowtoCreateResponsiveCardSliderinHTMLCSSJavaScript_0.png"
 date: 2024-07-06 02:16
 ogImage:
   url: /assets/img/2024-07-06-HowtoCreateResponsiveCardSliderinHTMLCSSJavaScript_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/@codingnepal/how-to-create-responsive-card-slider-in-h
 
 SwiperJS를 사용하지 않고 바닐라 JavaScript로 슬라이더를 만들고 싶다면, HTML CSS & JavaScript를 사용한 반응형 이미지 슬라이더 블로그 포스트를 확인해보세요. 바닐라 JavaScript로 슬라이더를 만드는 것은 슬라이더의 기본 메커니즘을 이해하고 JavaScript 기술을 향상시킬 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # HTML CSS 및 JavaScript를 사용한 반응형 카드 슬라이더 비디오 강좌
 
@@ -39,18 +28,7 @@ SwiperJS를 사용하지 않고 바닐라 JavaScript로 슬라이더를 만들�
 
 HTML, CSS, 그리고 JavaScript (SwiperJS)를 사용하여 반응형 카드 슬라이더를 만들기 위해 이 간단한 단계별 지침을 따라해 보세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 마음에 드는 이름의 폴더를 만들어 주세요. 예를 들면 card-slider 같은 이름으로 지어주세요.
 - 폴더 안에 index.html, style.css, script.js 파일을 만들어주세요.
@@ -58,18 +36,7 @@ HTML, CSS, 그리고 JavaScript (SwiperJS)를 사용하여 반응형 카드 슬�
 
 index.html 파일에는 다양한 의미 있는 태그와 SwiperJS CDN 링크를 추가하여 카드 슬라이더 레이아웃을 만들어주세요. 스타일.css 파일에는 카드 슬라이더를 디자인하고 세련되고 현대적인 유리 효과를 줘보세요. 색상, 글꼴, 배경 등 다양한 CSS 속성을 실험하여 슬라이더를 더 매력적으로 만들어보세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 /* 구글 폰트(Montserrat) 가져오기 */
@@ -215,18 +182,7 @@ const swiper = new Swiper(".slider-wrapper", {
 
 설정을 마쳤습니다! 코드를 올바르게 추가했다면, 카드 슬라이더를 확인할 준비가 되었습니다. 브라우저에서 index.html 파일을 열어 슬라이더를 확인해보세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결론과 마지막으로
 
@@ -236,18 +192,7 @@ const swiper = new Swiper(".slider-wrapper", {
 
 추가 영감을 얻으려면 소스 코드와 함께 제가 작성한 10+개의 최고 이미지 슬라이더 블로그 게시물을 확인해보세요. 이 중 일부 슬라이더는 SwiperJS를 활용하고, 다른 것들은 Owl Carousel을 사용하며 다른 것은 순수 JavaScript로 작성되었으며, 학습할 수 있는 다양한 예시를 제공합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 슬라이더를 만드는 동안 문제가 발생하면 "다운로드" 버튼을 클릭하여이 프로젝트의 소스 코드 파일을 무료로 다운로드할 수 있습니다. 또한 "실시간 보기" 버튼을 클릭하여 실시간 데모를 볼 수도 있습니다.
 

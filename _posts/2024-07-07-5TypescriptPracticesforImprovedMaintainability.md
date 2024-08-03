@@ -18,18 +18,7 @@ link: "https://medium.com/@davislaura/5-typescript-practices-for-improved-mainta
 
 # 팁 #1: 난해한 API 값 해결 및 타입의 힘을 활용하여 이름 변경하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가끔 우리가 작업하는 API는 매우 약어화된 또는 난해한 값 이름을 포함한 데이터 본문을 제공할 수 있습니다. 백엔드와 프론트엔드 사이의 분리 정도에 따라, 이는 코드가 어떤 작업을 수행하고 어떻게 상호 작용해야 하는지 이해하는 데 문제가 될 수 있습니다. 이 문제를 해결하기 위해 API 데이터를 새 객체로 해석하고 더 나은 명명 규칙으로 유형을 지정할 수 있습니다.
 
@@ -41,18 +30,7 @@ link: "https://medium.com/@davislaura/5-typescript-practices-for-improved-mainta
 
 ## 예시
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 // API에서 수신된 데이터
@@ -140,18 +118,7 @@ const UsersList = ({ users }: { users: Users[] }) => {
 
 ## 왜 이렇게 해야 하나요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 코드 완성 기능을 사용하여 유형을 사용할 수 있게 해서 더 많이 추측할 필요가 없도록 합니다
 - 구성 요소를 더 재사용 가능하게 만듭니다
@@ -343,16 +310,7 @@ const Dot = styled.div<{ status: StatusStringUnion }>`
 
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 내가 작업한 많은 코드에서, 유형은 일반적으로 변경할 수 없는 값을 나타내는 비-nullable로 기본 설정됩니다. 그러나 값은 때로 바뀔 수 있고, 앱의 내부 논리 구조가 복잡해지면 예기치 않은 null 또는 undefined 값이 발생하여 프로덕션 코드에서 유형 오류를 발생시키기 쉬워집니다. 이를 피하는 한 가지 방법은 다른 방향으로 기본값을 nullable 값으로 설정하는 것입니다. 기본적으로, 이 값이 어떤 상황에서 null 또는 undefined가 될 수 있는 경우(또는 확실하지 않은 경우), 선택 사항 유형으로 만드는 것입니다.
 
@@ -367,16 +325,7 @@ const Dot = styled.div<{ status: StatusStringUnion }>`
 
 ## 예시
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 /**
  * @type firstName: Raw `f_n`
@@ -418,18 +367,7 @@ const UsersList = ({ users }: { users: Users[] }) => {
 ## 왜 이것을 하는가
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 수동으로 모든 사용법을 입력할 필요가 없다는 것을 의미합니다.
 - 한 곳에서 유형을 업데이트하는 것이 더 쉽습니다.
@@ -561,18 +499,7 @@ const GenericFunctions = () => {
 export default GenericFunctions;
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 팁 #5: 암시적 타입 및 구조 분해에 의존하기보다 함수 props를 명시적으로 입력하세요
 
@@ -586,18 +513,7 @@ export default GenericFunctions;
 
 ## 예시들
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 /** 예제 1: 컴포넌트에 속성(props) 전달하기 */
@@ -789,17 +705,6 @@ export default TypingFnProps;
 
 전체 소스 코드: [https://github.com/lbd1607/ts-blog](https://github.com/lbd1607/ts-blog)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 행복한 코딩하세요 :)

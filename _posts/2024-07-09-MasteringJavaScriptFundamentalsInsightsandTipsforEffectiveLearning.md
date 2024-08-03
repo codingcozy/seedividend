@@ -1,7 +1,7 @@
 ---
 title: "자바스크립트 기초 정복 효과적인 학습을 위한 인사이트와 팁"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-MasteringJavaScriptFundamentalsInsightsandTipsforEffectiveLearning_0.png"
+coverImage: "/assets/img/2024-07-09-MasteringJavaScriptFundamentalsInsightsandTipsforEffectiveLearning_0.png"
 date: 2024-07-09 14:17
 ogImage:
   url: /assets/img/2024-07-09-MasteringJavaScriptFundamentalsInsightsandTipsforEffectiveLearning_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@rajataha062/mastering-javascript-fundamentals-insight
 
 자바스크립트는 현대 웹 개발의 중심 요소로 남아 있으며 인터랙티브한 경험을 제공합니다. 시작한 지 얼마 안 된 초보자이거나 스킬을 향상시키려는 경우, 자바스크립트의 기본을 숙달하는 것이 중요합니다. 이 글에서는 제 개인적인 학습 경험을 바탕으로 통찰과 조언을 공유하고, 제가 개발한 프로젝트에서의 실용적인 예시를 소개할 것입니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-MasteringJavaScriptFundamentalsInsightsandTipsforEffectiveLearning_0.png)
+![이미지](/assets/img/2024-07-09-MasteringJavaScriptFundamentalsInsightsandTipsforEffectiveLearning_0.png)
 
 ## 기본에 익숙해지기
 
 ### 1. 데이터 유형과 변수 이해하기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 JavaScript은 문자열, 숫자, 부울, 배열 및 객체와 같은 다양한 데이터 유형을 사용하여 동적 유형 지정을 제공합니다. 이러한 기본 사항을 숙달하는 것은 데이터를 효과적으로 조작하는 데 중요합니다.
 
@@ -48,18 +37,7 @@ let person = {
 
 JavaScript의 함수는 다재다능하여 재사용 가능한 코드를 캡슐화하고 스코프를 효과적으로 관리할 수 있도록 해 줍니다. 함수 선언, 표현 및 렉시컬 스코프를 이해하는 것이 중요합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 // 함수 선언
@@ -91,18 +69,7 @@ let person = {
 person.age = 31; // 객체 속성 업데이트
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 프로젝트를 통한 실용적인 학습
 
@@ -129,18 +96,7 @@ function calculate(operation, a, b) {
 let result = calculate("add", 5, 3); // 출력: 8
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 프로젝트 예시: 할 일 앱
 
@@ -157,18 +113,7 @@ function addTask(task) {
 
 # 효율적인 학습을 위한 팁
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 1. 꾸준히 연습하기
 
@@ -178,18 +123,7 @@ function addTask(task) {
 
 JavaScript에는 방대한 문서와 온라인 자료가 있습니다. MDN 웹 문서 및 다른 신뢰할 만한 소스를 참고하여 개념을 명확히하고 지식을 깊이 있게 이해하세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 3. 커뮤니티와 소통하기
 
@@ -199,17 +133,6 @@ JavaScript에는 방대한 문서와 온라인 자료가 있습니다. MDN 웹 �
 
 JavaScript 기본 기술을 마스터하는 것은 헌신과 현장 경험이 필요한 여정입니다. 핵심 개념을 체득하고 꾸준히 연습하며 프로젝트에서 지식을 적용함으로써 단단한 기초를 토대로 견고한 웹 애플리케이션을 개발할 수 있을 거예요. 작게 시작하고 계속 배우며 JavaScript에 능숙해지는 과정을 즐기세요!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 어떤 질문이든 있거나 여러분만의 조언을 공유하고 싶다면 자유롭게 연락해주세요. 즐거운 코딩되세요!

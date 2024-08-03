@@ -18,18 +18,7 @@ link: "https://medium.com/@aleksei_golubev/typescript-setup-for-node-js-project-
 
 ### 빌드
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 개발할 때 잘 알려진 Express.js 프레임워크를 사용했어요. TypeScript와 함께 사용하려면 해당 타입 정의를 명시적으로 추가해야 하며 Node 자체에 대한 것도요. 그러면 어떤 Node.js 환경으로도 이식할 수 있는 JavaScript 번들 하나만 얻고 싶었어요. 모든 것을 하나의 파일로 묶기 위해 특별한 구성 없이 esbuild를 사용했어요. 이것만으로 애플리케이션을 빌드하는 데 필요한 것이 거의 다 준비된 거죠.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@aleksei_golubev/typescript-setup-for-node-js-project-
 
 TypeScript로 작성된 Node.js 애플리케이션을 실행하려면 ts-node 실행 엔진이 필요해요. 코드가 변경된 후 애플리케이션을 다시 빌드하기 위해 nodemon이 필요해요. 물론 TypeScript도 설치해야 하고 별칭을 사용하려면 tsconfig-paths도 추가해야 해요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## package.json
 
@@ -79,18 +57,7 @@ TypeScript로 작성된 Node.js 애플리케이션을 실행하려면 ts-node �
 
 의미 없는 부분은 건너뛰고 관련 있는 부분만 남겼습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 별칭 및 nodemon 설정
 
@@ -109,18 +76,7 @@ TypeScript 컴파일러를 사용할 때는 tsconfig.json 파일에서 특정 �
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다른 컴파일러 옵션에 대해서는 대부분 기본값을 사용했습니다. 엔진 `ts-node`는 이 구성 파일을 사용하지만 별칭을 사용하려면 별칭을 관리하는 모듈을 명시적으로 로드하도록 Node.js에 알려주어야 합니다. 이는 다음과 같이 `tsconfig.json` 안에서 수행할 수 있습니다:
 
@@ -138,18 +94,7 @@ TypeScript 컴파일러를 사용할 때는 tsconfig.json 파일에서 특정 �
 node -r tsconfig-paths/register -r ts-node/register main.ts
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ts-node과 함께 사용된 nodemon이 더 명확해보였기 때문에 두 번째 변형을 사용하는 것이 더 나은 것 같았습니다. nodemon 구성에 추가할 수 있기 때문입니다. nodemon.config.json에서 추출한 내용은 다음과 같습니다:
 
@@ -166,18 +111,7 @@ ts-node과 함께 사용된 nodemon이 더 명확해보였기 때문에 두 번�
 
 ## 어플리케이션을 초기화합니다
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Express.js 위에 몇 가지 래퍼를 구현해 두었어요. 애플리케이션을 초기화하기 위해서는 main.ts에서 해당 클래스를 사용할 수 있습니다:
 
@@ -192,18 +126,7 @@ app.listen(8080);
 
 Node.js 프로젝트에 적용할 수 있는 기본 설정을 설명했습니다. 이 설정에는 애플리케이션 자동 재시작, 단일 파일 빌드를 위한 간단한 구성, TypeScript 별칭 사용이 포함되어 있어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사에서는 Node.js 구성에 전념한 것으로 응용 프로그램 클래스 구현 설명을 생략했습니다. 또한 서로 다른 디렉터리에 매핑된 여러 별칭을 사용하고 JavaScript로 작성된 모듈을 지원할 수 있습니다.
 

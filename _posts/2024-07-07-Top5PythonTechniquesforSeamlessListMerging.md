@@ -19,16 +19,7 @@ link: "https://medium.com/top-python-libraries/top-5-python-techniques-for-seaml
 
 리스트 병합은 두 개 이상의 리스트에서 요소들을 하나로 결합하는 것을 의미합니다. 파이썬은 이를 수행하는 여러 가지 방법을 제공하는데, 각각 다른 상황에 적합한 방법이 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 1. `+` 연산자 사용하기
 
@@ -43,16 +34,7 @@ print(merged_list) # 출력: [1, 2, 3, 4, 5, 6]
 
 이 방법은 두 리스트를 직접 연결해야 할 때 빠르고 쉽습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 2. `extend()` 메소드 사용하기
 

@@ -18,18 +18,7 @@ link: "https://medium.com/towards-data-science/3-best-methods-for-spatial-interp
 
 지리 공간 부분에 들어가기 전에, 선형 보간에 대해 간단히 되짚어 봅시다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 디자인을 보여드리기 위해 일반 다항 함수를 사용할 것입니다:
 
@@ -45,18 +34,7 @@ y = F(x)
 
 이제 [-4.2, 0, 2.5]에서 몇 개의 점을 무작위로 샘플링하고 이를 연결해 보겠습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_2.png)
 
@@ -66,18 +44,7 @@ y = F(x)
 
 이제 지리 공간 부분으로 넘어갈 시간입니다. 이 자습서에서는 NOAA에서 제공한 스위스 전역의 기상 측정소에서 측정된 일일 평균 대기 온도의 공간 보간을 수행하는 것이 목표입니다. 기대되는 결과는 0.1° 해상도의 온도 그리드입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저, 스위스의 행정 경계를 얻어와서 geopandas를 사용하여 시각화해야 합니다:
 
@@ -92,18 +59,7 @@ shape.plot()
 
 정말 대단해요! 스위스인 것 같네요 =)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 온도 관측치를 그래프로 표시하고 국가 모양과 겹쳐보겠습니다. 이를 위해 정기적인 판다 데이터프레임으로 기상 데이터를 로드한 다음 셰이프리 포인트로 변환한 지리 데이터프레임으로 변환하겠습니다:
 
@@ -130,18 +86,7 @@ gdf.plot(ax=ax, color='r', markersize=85)
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![그리드 및 지도 오버레이를 시각화하기 위해 다음을 수행하겠습니다:](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_4.png)
 
@@ -166,18 +111,7 @@ plt.show()
 
 ![결과 이미지](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_5.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위 그림에 나타난 정규 그리드에 대해 보간을 수행하는 것이 목표입니다. 이 그리드에는 8개의 온도 관측치가 있습니다.
 
@@ -187,18 +121,7 @@ plt.show()
 
 이를 구현하기 위해 필요한 함수는 두 가지뿐입니다. 첫 번째 함수는 유클리드 함수이며, 다음 공식을 사용하여 두 점 사이의 거리를 계산합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_6.png)
 
@@ -220,18 +143,7 @@ def NN(data, LAT, LON):
 
 전체 아이디어는 이 한 줄에 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 idx = data.apply(lambda row: Euclidean(row.LONGITUDE, lon, row.LATITUDE, lat), axis=1).argmin()
@@ -248,18 +160,7 @@ ds = xr.Dataset(
     coords={'lat': LAT, 'lon': LON})
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 결과를 플로팅할 수 있습니다:
 
@@ -280,18 +181,7 @@ ax.gridlines(draw_labels=True, linewidth=2, color='black', alpha=0.5, linestyle=
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_8.png" />
 
@@ -301,18 +191,7 @@ plt.show()
 
 # II. 역 거리 가중 이동법 (IDW)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 기본적으로 역 거리 가중치(IDW)는 NN의 향상된 버전입니다:
 
@@ -332,18 +211,7 @@ def IDW(data, LAT, LON, betta=2):
 
 가중치를 얻은 후 가중 평균을 계산합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_9.png)
 
@@ -353,18 +221,7 @@ Let’s plot it:
 
 ![image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_11.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 보시는 대로, 지금 결과가 훨씬 현실적이고 부드럽습니다!
 
@@ -374,18 +231,7 @@ Let’s plot it:
 
 그러므로 이 방법의 주요 아이디어는 바리오그램(또는 세미바리오그램)을 사용하는 것입니다. 본질적으로 바리오그램은 어떤 매개변수의 변이가 거리와 방향에 따라 어떻게 변하는지를 측정합니다. 이것이 바로 우리가 공기 온도를 다룰 때 필요한 부분입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 크리징 알고리즘을 구현하려면 두 가지 유형의 변이로그램이 필요합니다: 실험적 변이로그램과 이론적 변이로그램입니다.
 
@@ -400,18 +246,7 @@ Let’s plot it:
 
 간단히 말해 이것은 알려진 점에서 온도 차이의 평균입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이론적 변이그램은 다소 복잡합니다. 먼저, 그런것이 많이 있습니다:
 
@@ -421,18 +256,7 @@ Let’s plot it:
 
 CDT 콜롬비아에서 이러한 매개변수에 대한 정말 좋은 시각적 설명을 찾았어요. 저는 그들의 자료에서 γ와 거리 사이의 관계를 설명하는 이미지를 채택했습니다. 이제는 sill, partial sill, nugget 및 range가 무엇인지 명확해 보입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Spatial Interpolation Method](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_14.png)
 
@@ -506,18 +330,7 @@ kriging = OrdinaryKriging(df.LATITUDE.values, df.LONGITUDE.values, df.TAVG.value
 kriging.fit()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 각 함수를 따로 살펴봅시다.
 **init** 함수는 좌표와 값의 초기화 외에 nugget, sill, range의 가능한 값으로 구성된 세 개의 리스트를 포함합니다. 모든 가능한 조합으로 섞어서 parameter_combinations 변수에 저장됩니다. 우리는 나중에 최적 값을 찾을 때 필요할 것입니다.
@@ -544,18 +357,7 @@ def theoretical_variogram(self, h, nugget, sill, r):
  return nugget + (sill-nugget) * (1-np.exp(-3*h/r))
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 세 번째 클래스 메서드는 유클리디안입니다. 이것은 NN과 IDW를 위해 만든 함수의 변경된 버전입니다. 이번에는 점과 모든 다른 점 사이의 거리를 나타내는 (n,n) 행렬을 반환합니다 (각 행에서 하나의 값은 0이며, 점과 그 자신 사이의 거리는 0입니다).
 
@@ -586,18 +388,7 @@ def fit(self):
         self.optimal_pars = min(fit_metrics, key=lambda x: x[3])[:3]
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마지막으로 가장 중요한 함수는 예측입니다. 입력으로 점 (lat;lon)을 받아서 해당 점과 다른 알려진 값들 사이의 거리를 추정합니다. 그런 다음, 앞서 얻은 최적 파라미터를 전달하여 이론적 변이그램 함수를 호출하고 가중치를 출력값으로 받습니다. 그런 다음 가중 평균을 계산하고 반환합니다.
 
@@ -633,18 +424,7 @@ ax.gridlines(draw_labels=True,linewidth=2, color='black', alpha=0.5, linestyle='
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_15.png)
 
@@ -652,18 +432,7 @@ plt.show()
 
 이 글이 유익하고 통찰력을 줬으면 좋겠어요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저의 Medium에 올린 모든 게시물은 무료로 공개되어 있습니다. 그래서 여기서 제를 팔로우해 주실 경우 정말 감사하겠습니다!
 

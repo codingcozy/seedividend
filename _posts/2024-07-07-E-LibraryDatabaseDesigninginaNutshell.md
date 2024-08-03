@@ -18,18 +18,7 @@ link: "https://medium.com/@mesinketikrusak/e-library-database-designing-in-a-nut
 
 내 첫 인상은, 책을 두려워하지 마세요. 책은 어디서나 있어요. 만나본 모든 사람이 다르지 않나요? 네, 우리는 생동하는 책 자체예요. 심지어 당신의 책도 만나본 수많은 사람들에게 빌려주면 수천 권의 책으로 번지더라구요. 모든 것이 아직 기계적이었던 옛날, 도서관에 가는 것은 세계 여행하는 것과 같았어요, 그러나 최대한 싼 방법으로요. 우리가 와서 자신의 ID를 만들고, 원하는 책을 고르고, 빌리고, 그 책을 돌려주고, 그리고 되풀이했죠. 하지만 요즘엔 그렇지 않아요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 현재의 디지턈 시대에는 젊은 세대를 중심으로 디지턈 도서관이 인기를 끌고 있어요. 이는 접근성과 유연성이 뛰어나기 때문입니다. 이제는 실제 도서관을 방문하지 않고도 다양한 정보, 책 및 학습 자료를 얻을 수 있어요. 전자책 같은 걸 들어봤나요?
 
@@ -43,18 +32,7 @@ link: "https://medium.com/@mesinketikrusak/e-library-database-designing-in-a-nut
 - 사용자는 읽고 싶은 책을 대출하거나 예약할 수 있어요.
 - 사용자는 각 책의 가용성을 확인할 수 있어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼에도 불구하고 이 프로젝트에는 몇 가지 주의할 점이 있습니다:
 
@@ -66,18 +44,7 @@ link: "https://medium.com/@mesinketikrusak/e-library-database-designing-in-a-nut
 
 ![E-Library ERD](/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_1.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Image](/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_2.png)
 
@@ -87,18 +54,7 @@ Libraries table
 
 Categories table
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ---
 
@@ -112,18 +68,7 @@ Categories table
 
 출판사 테이블
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 — 이 테이블은 각 출판사의 ID와 이름을 포함한 출판사에 대한 정보가 포함되어 있습니다.
 
@@ -133,18 +78,7 @@ Books 테이블
 
 Library Collections 테이블
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 특정 도서관에 소장된 책 정보가 담긴 이 테이블은 특정 컬렉션의 ID, 특정 도서관의 ID, 해당 도서관의 ID, 그리고 이용 가능한 수량을 포함하고 있습니다.
 
@@ -154,18 +88,7 @@ Library Collections 테이블
 
 사용자 테이블
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 — 사용자 정보를 포함한 테이블이며 특정 사용자의 ID가 주요 키로 사용되고, 회원 ID, 비밀번호 및 전화 번호가 포함되어 있습니다.
 
@@ -175,18 +98,7 @@ Borrow 테이블
 
 Holds 테이블
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 — 이 테이블은 전자 도서관에 보관되어 있는 컬렉션에 관한 정보를 포함하고 있습니다. 각 보유 케이스에는 id가 있습니다. 사용자 id, 보유한 도서관 컬렉션 id, 도서 보유가 시작된 시간에 대한 정보를 나타내는 hold_start, 도서 보유 날짜가 만료되는 시간을 나타내는 hold_end가 포함되어 있습니다.
 
@@ -197,18 +109,7 @@ Holds 테이블
 - PostgreSQL 데이터베이스에 연결
 - 데이터베이스 생성
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 CREATE TABLE library_collections
 (
@@ -230,18 +131,7 @@ https://github.com/ziadbwdn/E-LibraryRDB
 
 ## 데이터베이스 생성
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 데이터베이스에서 데이터를 검색하기 위해 테이블 형식의 데이터가 필요합니다. 이 경우, 테이블을 수동으로 생성한 데이터와 Python 라이브러리 Faker를 결합하여 얻은 더미 데이터를 사용합니다. 아래에 이전 스크립트를 통해 생성된 코드 예제와 faker를 사용한 이후 스크립트를 살펴볼 수 있습니다:
 
@@ -320,18 +210,7 @@ authors_table
 
 사용할 라이브러리를 가져오는 첫 번째 단계는 다음과 같습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - pandas: Python에서 데이터 조작 및 분석에 사용됩니다.
 - Faker: 가짜 데이터를 생성하는 데 사용되는 라이브러리입니다.
@@ -347,18 +226,7 @@ fake = Faker('id_ID' or 'en_EN')
 
 이후에는 PostgreSQL에 가져오기 전에 더미 데이터를 얻기 위해 필요한 데이터를 실행할 수 있습니다. 만든 테이블 데이터프레임을 성공적으로 저장하기 위해 먼저 csv로 저장해야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # CSV로 저장하기
@@ -374,18 +242,7 @@ https://github.com/ziadbwdn/E-LibraryRDB
 
 이제 가져오기 프로세스에 필요한 모든 데이터가 있는 경우 예를 들어 SQL 쿼리 도구에서 계속할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 COPY authors(author_id, author_name)
@@ -405,18 +262,7 @@ CSV HEADER
 
 먼저, 각각의 도서관에서 가장 많고 가장 적은 책을 가지고 있는 도서관을 확인해보겠습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```sql
 SELECT
@@ -434,18 +280,7 @@ ORDER BY total_book_collections DESC
 
 Baca Di Tebet은 책 수집량을 기준으로 하면 가장 많이 모은 도서관이며, Taman Baca Amin은 가장 작은 책 모음을 가진 1196 대비 1304개를 수집했습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그리고 두 번째로, 우리는 가장 많은 책을 대출한 도서관 회원을 살펴보려고 해요.
 
@@ -473,18 +308,7 @@ order by amount_of_borrow desc limit 10
 
 <img src="/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_4.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Hartika Narpati부터 Edward Prasetya까지는 도서 4권을 대출한 가장 빈번한 독자입니다.
 
@@ -514,18 +338,7 @@ WHERE category_name ilike '%Romance%'
 ORDER BY kb.quantity_available DESC
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이후 다음이 결과로 나타납니다:
 
@@ -535,18 +348,7 @@ ORDER BY kb.quantity_available DESC
 
 성장을 위해 사회과학을 주전공으로 선택하셨고, 감독님으로부터 사회과학 주제의 참고 자료를 우선으로 찾아야 한다는 지시를 받았지만 수라바야에 있다는 한계가 있습니다. PostgreSQL 쿼리를 사용하십시오.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 WITH surabaya_books as (
@@ -573,18 +375,7 @@ ORDER BY ab.quantity_available
 
 위 결과를 보면, 수라바야에서 볼 수 있는 사회과학 분야의 도서 총 174권이 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마지막으로, 빌린 날짜로부터 일반적으로 두 주 후인 만기일을 초과하는 반납으로 인해 벌금을 내야 할 수 있는 사람들이 있습니다. 그들이 누구인지 알아보세요!
 
@@ -622,18 +413,7 @@ limit 10
 
 <img src="/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_7.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 현재 Farah Padmasari와 Latika Wasita가 이번 기회에 조금의 경고나 벌금을 받아야할 것 같아요.
 
@@ -643,18 +423,7 @@ limit 10
 
 참고자료:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - https://github.com/ziadbwdn/E-LibraryRDB
 - https://faker.readthedocs.io/en/master/

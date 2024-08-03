@@ -18,18 +18,7 @@ FastAPI 프레임워크를 사용하여 API를 구축하려면 pydantic에 대�
 
 이 프로세스를 직렬화라고 합니다. 이름에서 알 수 있듯, 이 문제에 대해 심각하게 생각할 필요가 없습니다. 이 주제에 대해 알아야 할 모든 것을 단순화할 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 FastAPI에서 데이터를 반환할 때 pydantic 모델과 정확히 동일한 데이터를 반환하고 싶다면 직렬화 방법을 사용할 필요가 없습니다. FastAPI가 이를 자동으로 처리하기 때문입니다. 그러나 pydantic 데이터 출력을 사용자 정의하려면 (적어도 새 필드를 추가하거나 기존 필드를 제거하는) pydantic에서 어떤 종류의 직렬화 방법을 사용하는 것이 좋습니다. model_dump(), dict() 및 model_dump_json()과 같은 방법이 있습니다.
 
@@ -52,18 +41,7 @@ async def addUniversity(university : University):
 
 그리고 위의 pydantic 모델을 수정하여 (다른 필드를 추가하는 간단한 예) 직렬화 방법을 사용하지 않고 반환하는 방법을 살펴보겠습니다. 이것은 어려운 주제가 아닙니다. 그저 새로운 사전을 만들고 출력으로 반환하는 것뿐입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from fastapi import FastAPI
@@ -106,18 +84,7 @@ async def addUniversity(university : University):
 따라서 직렬화를 사용할 수 있는 유용한 방법 중 하나를 보여드렸습니다. 이 주제에 대해 더 자세히 알아보고 싶다면, 직렬화에 대해 알아야 할 모든 것을 간단하게 설명해드리겠습니다.
 pydantic에는 세 가지 주요 기본 직렬화 메서드가 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## model_dump( )
 
@@ -145,18 +112,7 @@ async def addUniversity(university : University):
 코드 설명
 addUniversity()가 데이터베이스에 새로운 대학을 추가하는 엔드포인트로 상상해 봅시다. 사용자가 프론트엔드에서 데이터를 제출하면 이 API 엔드포인트는 데이터를 받아서 Pydantic 모델에 전달합니다. addUniversity() 함수 내에서 University 데이터 모델을 model_bump() 메서드를 사용하여 직렬화하는 새로운 변수 newUniversity를 선언합니다. 여기에서 우리는 Pydantic 모델의 출력을 원하는 대로 사용자 정의할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 "exclude": 이 옵션을 사용하여 Pydantic 모델에서 가져온 필드를 제거할 수 있습니다.
 
@@ -166,18 +122,7 @@ addUniversity()가 데이터베이스에 새로운 대학을 추가하는 엔드
 
 "exclude_default": Pydantic 모델의 특정 필드에 대한 기본값을 정의했기 때문에, 기본값과 같은 값을 가진 필드를 제외하려면 이 옵션을 사용할 수 있습니다. 이 옵션은 그 목적을 위해 사용됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 다른 옵션들을 더 탐색하고 싶다면, `API documentation` Pydantic 문서 `Base model` `model_dump` 를 확인해보세요.
 
@@ -187,18 +132,7 @@ addUniversity()가 데이터베이스에 새로운 대학을 추가하는 엔드
 
 ## model_dump_json()
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 JSON 출력 또는 직렬화 출력을 JSON 형식으로 받고 싶다면 `model_dump_json()`을 사용하세요. `model_dump` 메서드에서 사용 가능한 모든 옵션들을 여기에도 사용할 수 있습니다.
 
@@ -208,18 +142,7 @@ addUniversity()가 데이터베이스에 새로운 대학을 추가하는 엔드
 
 예를 들어 Pydantic 모델에서 특정 필드를 커스텀하고자 할 때, 함수나 엔드포인트로 Pydantic 모델 데이터를 가져오기 전에 그 필드를 수정하고 싶을 수 있습니다. 다시 말해 Pydantic 모델을 호출한 후 일부 필드를 수정해 해당 데이터를 함수나 엔드포인트로 반환하고자 하는 경우가 있을 수 있습니다. 이런 경우 `@field_serializer`를 사용해야합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from fastapi import FastAPI
@@ -255,18 +178,7 @@ University pydantic 모델은 name, place, specialize와 함께 rank와 같은 �
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 js
 {
@@ -280,18 +192,7 @@ js
 
 그런 다음 해당 함수 내에서 원하는 작업을 수행하고, 마지막으로 반환하면 됩니다. 그게 전부입니다. 간단하지요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## @model_serializer
 
@@ -318,18 +219,7 @@ async def addUniversity(university : University):
 
 이렇게 출력을 얻고 싶습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 {
@@ -349,18 +239,7 @@ async def addUniversity(university : University):
 
 첫 번째로 해야 할 일은 pydantic 모델에서 model_serializer를 import하는 것입니다. 그런 다음 모델 내부에서 '@model_serializer' 데코레이터가 달린 함수를 선언하고 원하는 방식으로 출력을 구성하십시오. 마지막으로 반환하십시오. 더 자세한 내용은 pydantic 문서 `API Documentation`의 `Functional serializer` 섹션을 참조하십시오.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그냥 간단하게 Pydantic에서 serializer를 사용하는 방법이야. 더 자세한 내용을 원한다면 문서를 확인하고 이해를 돕기 위해 뭔가를 구현해보세요...
 

@@ -21,16 +21,7 @@ link: "https://medium.com/towards-data-science/genai-with-python-llm-vs-agents-5
 일반적으로, 지능형 에이전트는 환경을 인식할 수 있는 충분한 이해력으로 행동하는 존재로, 특정 목표를 달성하기 위해 자율적으로 행동하고 지식을 습득하며(사람과 같이) 개선합니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 기술 분야에서 AI 에이전트는 작업을 수행하고 결정을 내리며 다른 개체와 통신하는 자율 프로그램입니다. 보통, 에이전트에게는 작업을 완료하는 동안 사용할 수 있는 도구 세트가 제공됩니다. 이 개념은 보상을 극대화하기 위해 정의된 일련의 작업 중에서 선택하는 강화 학습을 확장한 것입니다.
 
@@ -40,16 +31,7 @@ GenAI에서 에이전트는 순차적 추론을 처리하기 위해 설계된 AI
 
 에이전트가 수행할 수 있는 가장 일반적인 작업은:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 대화 - 일반적인 지식 베이스와 대화하는 것을 의미합니다
 - RAG - 문서와 대화하는 것을 의미합니다
@@ -62,16 +44,7 @@ GenAI에서 에이전트는 순차적 추론을 처리하기 위해 설계된 AI
 
 특히 다음을 다룰 것입니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 설정: LangChain + CrewAI + DuckDuckGo.
 - LLM: LLM을 사용하여 데이터를 읽고 시각 작업을 수행합니다.
@@ -89,16 +62,7 @@ GenAI에서 에이전트는 순차적 추론을 처리하기 위해 설계된 AI
 - HuggingFace — 첫 번째 LLM 라이브러리이자 모델 저장소입니다.
 - LlamaIndex — Meta의 LLM 라이브러리와 새로운 에이전트 모듈 LLamaAgents가 포함되어 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LangChain (LLM을 위한)과 CrewAI (에이전트를 위한)의 조합이 매우 사용자 친화적이고 효과적이라고 생각해요.
 
@@ -117,16 +81,7 @@ print(res)
 
 ![이미지](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_2.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 당연히 언어 모델은 오늘의 날짜를 알 수 없습니다. 답을 얻는 한 가지 방법은 인터넷에서 검색하는 것입니다. Python에서는 유명한 비공개 브라우저 DuckDuckGo를 사용하여 쉽게 할 수 있습니다.
 
@@ -142,16 +97,7 @@ DuckDuckGoSearchResults().run("오늘은 무슨 요일인가요?")
 
 ... 또는 메타데이터 없이 텍스트만 원하면요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 from langchain_community.tools import DuckDuckGoSearchRun
@@ -168,16 +114,7 @@ DuckDuckGoSearchRun().run("What day is today?")
 - 결과를 LLM을 통해 처리하고 답변을 생성해야 합니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 말씀드렸듯이, 어떤 것이든 Tool 객체가 될 수 있으며 CrewAI 라이브러리를 사용하여 함수에 데코레이터를 간단히 추가할 수 있습니다.
 
@@ -208,16 +145,7 @@ agent = crewai.Agent(
             allow_delegation=False, verbose=False)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼, 다시 한 번 목표를 지정하여 Task 객체를 생성해야 합니다.
 
@@ -235,16 +163,7 @@ res = crew.kickoff()
 print(res)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![GenAIwithPythonLLMvsAgents_5](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_5.png)
 
@@ -254,16 +173,7 @@ print(res)
 
 이 수영복 브랜드(White Water Atelier)에서는 AI를 활용한 소셜 미디어 전략을 만들어 달라고 했어요... 에이전트에게 딱 맞는 사례죠. 특히, 인스타그램 포스트 작성 프로세스를 자동화할 거에요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저, 데이터(이미지)를 읽어봅시다:
 
@@ -284,16 +194,7 @@ for n,file in enumerate(folder):
 
 LLM에게 게시물을 생성하도록 요청하려면(사진 하나를 선택하고 캡션을 작성하도록 하기 위해서), 이미지는 모델이 처리할 수 있도록 문자열로 인코딩되어야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import base64
@@ -318,16 +219,7 @@ print(res)
 
 <img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_7.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 꽤 잘했어요. LLM이 두 가지 작업을 완료했고 좋은 설명도 추가했어요. 하지만 캡션이 해시태그가 빠져있어 조금 오래된 것 같아요.
 
@@ -342,16 +234,7 @@ def tool_instagram(q: str) -> str:
     return DuckDuckGoSearchRun().run(f"site:instagram.com {q}")
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 과거 에이전트와의 윯 한 가붕, 이번에는 입력 데아터를 전달할 때입니다. 특히, 이미지를 설명하기 위해 비전 LLM을 활용하고 텍스트를 입력으로 사용할 것입네다.
 
@@ -370,16 +253,7 @@ print(des)
 
 CrewAI에서는 에이전트 실행 시 입력을 제공해야 하며, 'inputs'를 이용하여 프롬프트에서 참조할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 prompt = '''먼저 {images}에서 어떤 이미지가 인스타그램에서 좋아요를 더 많이 받을지 결정해야 합니다. 해당 이미지를 선택한 이유를 설명한 후, 해당 이미지를 기반으로 전환율을 극대화할 캡션을 작성해야 합니다. 현재 계절, 오늘의 날짜, 이번 달의 특별한 이벤트, 트렌드 있는 해시태그 및 이모티콘을 고려하여 완벽한 캡션을 만들어보세요.'''
@@ -409,16 +283,7 @@ print("Res:", res)
 
 …을 사용해 작업을 시작합니다. 요청 결과를 검토하는 것으로 계속됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_10.png" />
 
@@ -428,16 +293,7 @@ print("Res:", res)
 
 그래서 Agents는 LLM과 같은 이미지를 선택하고 더 나은 캡션을 생성했습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 다중 에이전트
 
@@ -449,16 +305,7 @@ print("Res:", res)
 
 각 작업이 실행되는 동안 출력을 확인하기 위해 콜백 함수를 추가하는 것이 유용할 수 있습니다 (이를 Task 객체에 추가해야 함).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 def callback_function(output):
@@ -516,16 +363,7 @@ prompt = '''이미지를 기반으로 인스타그램 게시물의 전환율을 
 
 다음 에이전트는 최종 출력물을 감시하고 인간의 검증을 요청해야 합니다. 따라서 프롬프트 설명에서 매우 정확해야 하며 에이전트 객체에서 allow_delegation=True 및 작업 객체에서 human_input=True 매개변수를 사용해야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 ######################## 3-다른 에이전트들의 매니저 #############
@@ -565,16 +403,7 @@ res = crew.kickoff(inputs={"images":des})
 <img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_12.png" />
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 로그에서 확인할 수 있듯이, 매니저가 요청을 처리하고 첫 번째 작업을 첫 번째 에이전트에게 위임했습니다. 첫 번째 결과는 완벽합니다. AI가 최근 소셜 미디어 트렌드와 인스타그램 알고리즘 논리를 분석했습니다.
 
@@ -584,16 +413,7 @@ res = crew.kickoff(inputs={"images":des})
 
 ![두 번째 결과](https://miro.medium.com/v2/resize:fit:1064/1*Ogf4BPBBKolftQIQXd-EQg.gif)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 GitHub에서 전체 코드를 확인할 수 있어요.
 

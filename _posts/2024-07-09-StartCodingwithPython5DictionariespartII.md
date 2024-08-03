@@ -31,15 +31,6 @@ for key, value in scientist_0.items():
     print(f"Value: {value}")
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.

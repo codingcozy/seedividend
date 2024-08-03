@@ -1,7 +1,7 @@
 ---
 title: "Merge와 Clsx로 Tailwind CSS 클래스 관리 간편하게 하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-SimplifyYourTailwindCSSClassManagementwithMergeandClsx_0.png"
+coverImage: "/assets/img/2024-07-09-SimplifyYourTailwindCSSClassManagementwithMergeandClsx_0.png"
 date: 2024-07-09 14:11
 ogImage:
   url: /assets/img/2024-07-09-SimplifyYourTailwindCSSClassManagementwithMergeandClsx_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@nomanfareed681/simplify-your-tailwind-css-class-manag
 
 테일윈드 CSS 클래스를 효율적으로 관리하고 결합하는 방법을 배우세요. merge 및 clsx 유틸리티를 사용하여
 
-![이미지](/ui-log-2/assets/img/2024-07-09-SimplifyYourTailwindCSSClassManagementwithMergeandClsx_0.png)
+![이미지](/assets/img/2024-07-09-SimplifyYourTailwindCSSClassManagementwithMergeandClsx_0.png)
 
 # 소개:
 
 Tailwind CSS는 유틸리티 우선 접근법과 사용 편의성으로 개발자들 사이에서 점점 더 인기를 얻고 있습니다. 그러나 여러 클래스를 관리하고 결합하는 것은 때로 어려움을 겪을 수 있습니다. 이 글에서는 코드를 더 읽기 쉽고 유지보수하기 쉽도록 클래스 관리를 간단하게 할 수 있는 두 가지 강력한 도구인 merge 및 clsx에 대해 알아보겠습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 합치기: 클래스를 결합하는 Tailwind CSS 유틸리티
 
@@ -39,18 +28,7 @@ Tailwind CSS는 2.2 버전에서 도입된 merge 유틸리티를 소개했습니
 
 여기 merge 유틸리티를 사용하는 간단한 예제가 있습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 import { merge } from "tailwindcss/resolveConfig";
@@ -67,18 +45,7 @@ const combinedClasses = merge(baseClasses, additionalClasses);
 
 특정 조건에 따라 클래스를 조건부로 적용할 수도 있습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 const isActive = true;
@@ -93,18 +60,7 @@ const combinedClasses = merge(baseClasses, activeClasses);
 
 clsx는 JavaScript에서 클래스 이름을 결합하기 위한 또 다른 인기있는 유틸리티입니다. 가벼우며 빠르며 Tailwind CSS와 잘 작동합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 기본 사용법
 
@@ -121,18 +77,7 @@ const combinedClasses = clsx(baseClasses, additionalClasses);
 
 이 예제에서 combinedClasses에는 'bg-blue-500 text-white rounded-lg p-4' 문자열이 포함됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 조건부 클래스
 
@@ -149,18 +94,7 @@ const combinedClasses = clsx(baseClasses, {
 
 이 경우, isActive가 true이면, combinedClasses에는 'bg-blue-500 text-white bg-green-500'이 포함될 거에요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결론
 

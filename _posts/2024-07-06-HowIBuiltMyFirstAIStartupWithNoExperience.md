@@ -18,18 +18,7 @@ link: "https://medium.com/python-in-plain-english/how-i-built-my-first-ai-startu
 
 먼저, 제 소개를 간략히 하겠습니다. 저는 상업 경험이 2년 이상, Python 코딩 경험이 5년 이상인 데이터 과학자입니다. 주로 백엔드와 AI 작업을 맡고 있습니다. 저는 일반적으로 프로젝트 전체를 혼자 만들어본 적은 없지만, 대신 보통 작업을 맡아 왔습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 시간이 지난 후, 나는 스스로 무언가를 만들어보려는 충분한 지식이 있다고 느끼기 시작했습니다. 그리고 그것을 만들었어요. 제 기대와는 반대로, 그렇게 어렵지 않았죠. 더구나, 창업 동료와 함께 1개월 만에 만들어내기도 했고, 이미 어떤 이익을 올려 1000명 이상의 방문자도 끌어 모았어요. 광고 비용을 내지 않았답니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/python-in-plain-english/how-i-built-my-first-ai-startu
 
 또 다른 이유는 이력서에 좋은 추가입니다. 스타트업에 투입한 시간만큼은 상업적인 근무 경험으로 인정받을 뿐 아니라 포트폴리오에서도 큰 장점이 됩니다 (특히 일부 인사팀이 방문할 수 있는 웹사이트인 경우).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마침내 마지막이자 주요한 이유는 돈입니다. 당신의 스타트업이 SaaS(소프트웨어서비스)인 경우, 이를 사실상 수동 소득원으로 생각할 수 있습니다. 그리고 여러 개의 작은 SaaS 웹사이트를 구축하면 더 많은 속도, 전문성 및 경험을 얻을 수 있습니다. 즉, 새 제품을 만드는 데 매우 적은 시간이 걸리면서 더 많은 수익을 창출할 수 있습니다.
 
@@ -60,18 +38,7 @@ link: "https://medium.com/python-in-plain-english/how-i-built-my-first-ai-startu
 
 /assets/img/2024-07-06-HowIBuiltMyFirstAIStartupWithNoExperience_1.png
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 당신은 제품에 대한 아이디어가 있을 수도 있고, 없을 수도 있습니다. 아니면 수백 가지 아이디어가 있을 수도 있습니다. 브레인스토밍은 창의적인 과정이기 때문에 새로운 아이디어를 발생시키는 표준화된 프로세스는 실제로 존재하지 않습니다.
 
@@ -83,18 +50,7 @@ link: "https://medium.com/python-in-plain-english/how-i-built-my-first-ai-startu
 
 그리고 이제 제 스타트업을 소개할 때가 딱인 시점입니다 — https://validator.yazero.io. 우리는 인공지능, 웹 스크레이핑, 다양한 API, 그리고 측정 가능한 피드백을 활용하여 검증 프로세스를 돕습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아이디어를 찾을 때 하나 더 조언 드릴게요 — "개인적인 장점"을 활용해보세요. 물리학 같은 특정 분야의 학위가 있나요? 해당 분야에서 지식을 활용해보세요. 로펌에서 친구가 있는가요? 그의 직면한 문제, 프로세스 최적화 방법 등을 물어보는 방법을 시도해보세요.
 
@@ -104,18 +60,7 @@ link: "https://medium.com/python-in-plain-english/how-i-built-my-first-ai-startu
 
 /assets/img/2024-07-06-HowIBuiltMyFirstAIStartupWithNoExperience_2.png
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 창업 중에서 마케팅이나 프론트엔드, 판매 등 하기 싫은 일이 있나요? 그렇다면, 공동 창업자를 찾는 것이 가장 좋은 해결책입니다. 그들은 해당 분야에서 보다 더 경험이 있을 뿐만 아니라 그 일에 흥미를 가지고 일할 의지를 갖게 될 것입니다. 자신만의 제품을 개발하는 것은 개인적으로 흥미롭고 즐거워야 합니다. 그러니 싫어하는 부분이 있다면 그 부분을 위임하는 것을 시도해보세요.
 
@@ -125,18 +70,7 @@ link: "https://medium.com/python-in-plain-english/how-i-built-my-first-ai-startu
 
 YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번째 공동 창업자를 찾을 수 있습니다. 저는 거기에서 제 공동 창업자를 찾았고, 그 결정에 매우 만족하고 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 또한, 일부 협업 도구들 — 저희의 업무 흐름에서는 할 일을 할당하고 진행 상황을 추적하기 위해 Todoist를 사용하며, 버전 관리와 자동 배포를 위해 Github를 사용하고, 디자인 및 개념 브레인스토밍을 위해 Figma를 사용합니다.
 
@@ -146,18 +80,7 @@ YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번�
 
 마지막으로, 우리는 기술적 부분부터 시작합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 프론트엔드에 대한 주요 조언(만약 당신이 스스로 구현하기로 결정했다면)은 당신이 알고 있는 프레임워크를 사용하는 것입니다. 그것이 구식이든, 다른 개발자들이 싫어하든 상관없이, 당신이 안다면 사용하세요. 중요한 것은 최종 사용자에게 솔루션을 제공하는 것입니다. 그들에게 작동한다면, 당신에게도 작동합니다.
 
@@ -167,18 +90,7 @@ YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번�
 
 파이썬 애호가라면, 나의 파이썬에서의 최상위 5개 프론트엔드 라이브러리 및 파이썬에서의 최상위 5개 프론트엔드 라이브러리 파트2를 확인하는 것을 추천합니다. 나는 가장 많이 사용되는 파이썬 라이브러리들에 대한 포괄적인 개요를 제공하고 그들의 장단점을 비교했습니다. 파이썬에 대한 경험이 있는 경우, 이러한 라이브러리를 사용하는 것이 더 쉬울 것이므로 제품을 빨리 개발할 수 있을 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-HowIBuiltMyFirstAIStartupWithNoExperience_4.png
 
@@ -189,18 +101,7 @@ YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번�
 
 # Backend
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 나는 우리 스타트업에서 주로 백엔드 부분에 작업을 많이 하기 때문에 이 부분을 좀 더 자세히 설명하겠습니다.
 
@@ -210,18 +111,7 @@ YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번�
 
 내가 우리 스타트업의 백엔드에서 사용한 주요 도구는 FastAPI with Pydantic, Gunicorn, Docker, Docker Compose 그리고 Nginx 입니다. Docker를 좋아하는 이유는 OS, 환경 등에 상관없이 항상 작동하는 솔루션을 제공하기 때문입니다. 또한 앱의 여러 구성 요소를 동시에 실행해야 하는 경우 — 예를 들어 백엔드와 병렬로 데이터베이스 등을 실행해야 하는 경우 — 매우 유용합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 백엔드에서 필요한 중요한 것 중 하나는 모니터링입니다. 이 목표를 위해 두 가지 별도의 솔루션을 찾았습니다 — 프로메테우스(prometheus)와 FastAPI-analytics입니다. 이 두 가지 솔루션은 API가 요청을 성공적으로 처리하는지, 응답 시간은 어떠한지, 가장 많이 사용되는 엔드포인트는 무엇인지 등을 확인할 수 있는 멋진 대시보드를 제공합니다.
 
@@ -231,18 +121,7 @@ YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번�
 
 제가 보통 Hetzner의 VPS에 솔루션을 배포하는데, 그것이 가장 저렴한 옵션이기 때문입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마침내, "파이썬은 프로덕션에서 사용하기에 너무 느리고 무겁다"고 말하는 사람들이 많습니다. 그러나 이는 99%의 경우 사실이 아닙니다.
 
@@ -252,18 +131,7 @@ YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번�
 
 마지막으로, AI 앱을 구축하고 특히 LLMs를 사용하는 경우, 응답 생성이 몇 초가 걸릴 수 있습니다(이는 프로그래밍 언어가 아닌 계산 능력/API/기타 요소에 의존합니다). 따라서 요청이 20초 걸린다면, 파이썬 계산이 0.1초 걸리는 것이 중요할까요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 요약
 
@@ -273,18 +141,7 @@ YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번�
 
 또한 백엔드의 상용화에 대해 더 깊이 들어가서 실제 예제와 안내를 제공할 수도 있습니다. 그러니 이 글 아래에 댓글을 달아서 피드백을 주시면 감사하겠습니다!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위 내용을 읽어주셔서 감사합니다! 즐거운 코딩하세요!
 업데이트: 다음 글이 이미 공개되었어요. 거기에서 더 많은 인사이트를 파이썬, 데이터 과학 그리고 기업가 정신에 대해 공유했어요!
@@ -303,18 +160,7 @@ YCombinator 공동 창업자 매칭 플랫폼과 같은 플랫폼에서 첫 번�
 
 # In Plain English 🚀
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 인 플레인 영어 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

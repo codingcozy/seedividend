@@ -1,10 +1,10 @@
 ---
 title: "접근성을 위한 HTML5 inert 속성 사용 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-12-HTML5inertattributeforAccessibility_0.png"
+coverImage: "/assets/img/2024-07-12-HTML5inertattributeforAccessibility_0.png"
 date: 2024-07-12 19:14
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-12-HTML5inertattributeforAccessibility_0.png
+  url: /assets/img/2024-07-12-HTML5inertattributeforAccessibility_0.png
 tag: Tech
 originalTitle: "HTML5 inert attribute for Accessibility"
 link: "https://medium.com/javascript-in-plain-english/html5-inert-attribute-for-accessibility-992b592b7480"
@@ -14,25 +14,16 @@ link: "https://medium.com/javascript-in-plain-english/html5-inert-attribute-for-
 아래는 Markdown 형식으로 변경된 내용입니다.
 
 
-![HTML5 inert attribute for Accessibility](/ui-log-2/assets/img/2024-07-12-HTML5inertattributeforAccessibility_0.png)
+![HTML5 inert attribute for Accessibility](/assets/img/2024-07-12-HTML5inertattributeforAccessibility_0.png)
 
 HTML5 inert 속성은 사용자 이벤트인 클릭, 포커스 또는 호버 또는 어떠한 보조 기술을 페이지의 주의를 요구하지 않는 부분에서 제거할 수 있는 전역 속성입니다. 예를 들어, 모달이 열려 있을 때 모달의 배경에서 상호 작용이 활성화되지 않습니다. 또한, 개발자들은 이제 원치 않는 접근성 코드를 작성하지 않아도 되므로 포커스가 원치 않는 영역으로 이동하는 것을 방지할 수 있습니다. 일반적으로 모달의 경우 포커스는 모달 자체 내에 유지되어야 합니다. 이를 위해 개발자들은 특정 요소를 대상으로 하는 해킹된 JavaScript 코드를 작성하고 다음 탭 또는 Shift+Tab 이벤트에서 포커스가 특정 요소로 돌아가도록 합니다.
 
 이 속성은 일관된 지원을 받습니다:
 
-![HTML5 inert attribute for Accessibility](/ui-log-2/assets/img/2024-07-12-HTML5inertattributeforAccessibility_1.png)
+![HTML5 inert attribute for Accessibility](/assets/img/2024-07-12-HTML5inertattributeforAccessibility_1.png)
 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 HTML5의 새 요소 `dialog/dialog`는 기본적으로 inert 동작을 가지고 있습니다. 따라서 이 요소가 모달 팝업에 사용된다면 포커스를 관리하기 위한 탭 및 shift+탭을 처리하는 JavaScript 코드를 작성할 필요가 없습니다. 포커스는 대화 상자 요소 내의 요소를 따라 순환합니다. inert 속성은 사용자 정의 요소와 구성 요소와도 잘 작동합니다.
 
@@ -51,16 +42,7 @@ HTML의 문맥에서 inert란 움직임이 없음을 의미합니다. 특정 요
 </div>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 두 번째 `div` 요소에는 inert 속성이 있습니다. 두 번째 `div` 내의 모든 내용/요소는 초점을 받거나 사용자 클릭 이벤트나 사용자 키보드 이벤트를받지 않습니다.
 
@@ -71,16 +53,7 @@ inert 속성이 자주 사용되는 두 가지 시나리오가 있습니다. 포
 - 요소가 DOM 트리의 일부이지만 화면 밖이나 숨겨진 상태인 경우.
 - 요소가 DOM 트리의 일부이지만 상호 작용하지 말아야 하는 경우.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 HTML 페이지에서 화면 밖이거나 상호 작용이 불가능한 요소는 웹 사이트의 접근성을 높이는 동안 개발자가 직면하는 가장 일반적인 도전 과제입니다. 개발자들은 화면 밖에 있는 요소에 초점이 가지 않길 원합니다. 또한, 요소가 상호 작용이 불가능한 경우에도 개발자들은 해당 요소에 초점이 두어지지 않기를 바랍니다.
 
@@ -90,16 +63,7 @@ HTML 페이지에서 화면 밖이거나 상호 작용이 불가능한 요소는
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*FoBY3lkAC_E9LWuYqjgmBQ.gif)
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 $(function() {
@@ -122,16 +86,7 @@ $(function() {
 
 기본적으로 `dialog` 요소는 비활성화 동작을 보입니다. 다이얼로그가 열리지 않은 경우, 포커스는 요소나 다이얼로그 자체에 받아들이지 않습니다. 다이얼로그가 열린 상태에서는 본문이 포커스를 받지 않습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아래 코드를 확인해주세요:
 
@@ -181,16 +136,7 @@ $(function() {
 
 ## 비활성화된 요소를 시각적으로 구분하세요
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아래에 언급된 간단한 CSS 스타일을 사용하여 비활성 요소를 시각적으로 구별할 수 있습니다:
 
@@ -205,18 +151,9 @@ $(function() {
 
 이는 모든 비활성 요소 및 비활성 요소 내의 모든 요소를 대상으로 하며, 비활성 및 상호작용 불가능한 방식으로 표시합니다:
 
-<img src="/ui-log-2/assets/img/2024-07-12-HTML5inertattributeforAccessibility_2.png" />
+<img src="/assets/img/2024-07-12-HTML5inertattributeforAccessibility_2.png" />
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 상호 작용 및 이동 차단
 
@@ -226,16 +163,7 @@ inert 속성의 초기 설정은 false로 되어 있습니다.
 
 가장 알려지지 않은 속성 중 하나에 대한 이 작은 지식이 도움이 되었으면 좋겠고, 이를 통해 웹사이트의 접근성이 향상되기를 바랍니다. 제 미디엄 페이지를 팔로우해 주시면 감사하겠습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 친절한 영어로 🚀
 

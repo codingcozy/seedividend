@@ -18,16 +18,7 @@ link: "https://medium.com/top-python-libraries/20-essential-python-interview-que
 - 다양한 데이터 유형 및 그들 사이의 차이점
 - 프로세스, 스레드 및 코루틴의 정의 및 차이점
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 • 얕은 복사와 깊은 복사의 차이점
 
@@ -37,16 +28,7 @@ link: "https://medium.com/top-python-libraries/20-essential-python-interview-que
 
 • 클로저와 데코레이터
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 • Garbage collection mechanisms
 

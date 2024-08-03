@@ -25,29 +25,11 @@ link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f
 - 왜 기본 모델의 성능을 검사해야 하는지
 - 스택 모델의 사용을 조정하고 최적화하는 방법
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 "테이블" 태그를 마크다운 형식으로 변경해주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 "’베이스 모델’이라 함은 만날 수 있는 모든 전통적인 모델을 의미합니다 - scikit-learn에서 직접 가져와 학습하고 예측할 수 있는 모델입니다. 이러한 베이스 모델은 예를 들어 다음과 같습니다:
 
@@ -60,16 +42,7 @@ link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f
 
 앙상블 방법의 일반적인 아이디어는 여러 이러한 베이스 모델을 하나의 더 나은 모델로 결합하는 것입니다. 스태킹 기술에서는 이러한 모델들을 건물의 벽돌로 사용하고 예측을 결합하는 수단으로 사용할 것입니다."
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 일반적인 앙상블 모델 기술 중 몇 가지를 빠르게 살펴봅시다:
 
@@ -85,16 +58,7 @@ link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f
 - 기본 모델의 예측을 단순히 평균화하지 않습니다.
 - 다양한 종류의 모델 (LinReg, KNN, SVM 등) 모음과 함께 작동합니다. 반면에 배깅과 부스팅은 일반적으로 동일한 기본 모델 (보통 결정 트리)의 모음을 사용합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 스태킹 작동 방식
 
@@ -105,16 +69,7 @@ link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f
 
 다음과 같이 도식화됩니다 (우리는 지금 예측 과정에 초점을 맞춥니다):
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Image](/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_1.png)
@@ -128,16 +83,7 @@ link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f
 - 이 X_final 2D 데이터 집합은 최종 추정기에 의해 실제 최종 예측을 예측하는 데 사용됩니다: final.predict(X_final)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_2.png" />
 
@@ -147,16 +93,7 @@ link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f
 
 일반적으로 회귀 문제의 경우 최종 모델로는 간단한 LinearRegression을, 분류 문제의 경우 LogisticRegression을 사용하며, 이러한 모델은 scikit-learn의 StackingClassifier 및 StackingRegressor의 기본값입니다. 최종 추정기에 의해 기본 모델의 예측을 결합하는 단계는 종종 "블렌딩"이라고 불리며, 모든 모델의 예측이 단일 예측으로 혼합됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 스택 모델을 적절하게 적합시키는 방법
 
@@ -166,16 +103,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 스택을 적합시키는 알고리즘은 2단계로 나눌 수 있습니다. 첫 번째는 매우 간단한데, 두 번째는 조금 더 설명이 필요합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 단계 1: 모든 기본 모델(레이어 0에서 온 모델)은 완전히 독립적으로 피팅되며 전체 X/y 데이터셋을 사용합니다. 다시 말해, 첫 번째 단계는 아래와 같습니다: base_models의 각 모델에 대해 model.fit(X, y)를 실행하는 것과 동일합니다.
 - 단계 2: 최종 추정기는 피팅되지 않은 기본 모델을 사용하여 교차 검증 체계를 활용하여 피팅됩니다.
@@ -184,16 +112,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 그런 다음 최종 추정기를 훈련시키기 위해 다른 방법이 사용됩니다. 이미 해당 피팅을 위한 대상 출력 y가 있지만, 여전히 기본 모델들의 예측으로 생성된 중간 X_final 데이터셋을 생성해야 합니다. 이미 피팅된 추정기들에 .predict 메서드를 사용하는 것은 입력 X가 이미 기본 추정기에 의해 보고되고 훈련되었기 때문에 어떤 종류의 오버피팅을 초래할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_4.png" />
 
@@ -203,16 +122,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 이제 문제를 아래와 같이 분해하는 방법을 알게 되었습니다: "최종 추정기가 대상 y에 적합하도록 사용하는 X 데이터 세트는 모든 추정기에 의해 제공된 예측 값들을 연결하여 생성됩니다. (모든 추정기에 대해 동일한 cv 전략을 사용하여, 모든 기본 추정기가 항상 동일한 입력/출력을 보는 사실을 고려하기 위함). 이는 첫 번째 단계에서 적합된 기본 모델들(전체 X 데이터 세트로 적합된 모델들)이 최종 추정기를 적합하기 위해 사용되지 않는다는 것을 의미합니다. 대신, 각 폴드에 대해 적합되지 않은 기본 모델의 사본이 사용되며, 각 폴드에 대한 예측값이 연결되어 X_final을 생성합니다. (각 모델에 대해 수직으로, 그리고 수평으로 X_final을 만들기 위해)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_6.png)
@@ -224,16 +134,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 # 리스태킹
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 스태킹 아키텍처는 모델의 추가적인 사용자 정의를 가능하게 합니다. 이는 모델이 작동하는 방식을 조정할 수 있는 하이퍼파라미터로 생각할 수 있습니다. 아이디어는 정말 간단합니다: 베이스 모델의 수평으로 쌓인 예측뿐만 아니라 원본 입력 X 데이터 집합도 마지막 추정기의 입력에 추가됩니다. 이렇게 하면 최종 추정기가 베이스 모델의 예측과 원본 데이터를 모두 포함하여 데이터에서 더 많은 정보를 찾을 수 있습니다. 다시 말해, 스태킹 모델의 복잡성은 마지막 모델의 입력 특성의 수를 늘림으로써 증가됩니다.
 
@@ -243,16 +144,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 물론 X 행렬은 학습 시간과 예측 시간 모두 X_final에 추가됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 다층
 
@@ -262,16 +154,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 # 스택 모델 튜닝
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이미 언급한 대로, 스태킹은 각 베이스 모델의 최상의 부분을 유지하려는 목적으로, 서로의 약점을 보완할 수 있도록 하는 것을 목표로 합니다. 즉, 모든 모델이 동일한 샘플에서 동일한 성능을 발휘한다면, 스택 모델은 어떤 개선도 이루어지지 않을 것입니다. 따라서 다양한 데이터셋의 위상 영역에서 이상적으로 성능을 발휘하는 서로 다르게 작용하는 베이스 모델을 사용하여 스택 모델을 최적화할 수 있습니다.
 
@@ -281,16 +164,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 마지막으로, passthrough=True 또는 False를 사용하여 스택 모델을 조정하는 또 다른 방법이 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 일반적으로, 스택이 있는지 기본 모델과 동일한 성능을 발휘하는지 항상 확인해야 합니다. 그렇다면, 스택을 버리거나 조정해야 합니다. 높은 계산 복잡성은 상당한 성능 향상과 함께 제공된다는 것을 명심해야 합니다.
 
@@ -300,16 +174,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 # scikit-learn을 사용한 스태킹
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 우리는 스태킹에 대해 모두 알았으니, scikit-learn과 함께 어떻게 사용하는지 살펴봅시다. 기억해야 할 유일한 것은 scikit-learn에서 스태킹이 모델/메타-모델로 구현된다는 것입니다:
 
@@ -380,16 +245,7 @@ for ax, (name, model) in zip(axes, models):
 fig.tight_layout()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 완벽을 위해 stack의 다시 쌓은 버전을 추가했습니다. 플롯을 보면 기본 모델을 결합하면 stack의 성능이 기본 모델 중 가장 좋은 성능을 조금 능가한다는 것을 알 수 있습니다. 다시 쌓기를 사용하면 성능이 더 조금 향상됩니다.
 
@@ -399,16 +255,7 @@ fig.tight_layout()
 
 이제 scikit-learn API를 사용하여 스태킹의 간단한 구현을 살펴보겠습니다. 이것은 스태킹이 그렇게 복잡하지 않다는 것을 보여주는 장난감 예제에 불과합니다. 학습/설명 목적 이외에는 scikit-learn의 구현을 사용해야 합니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import numpy as np
@@ -474,16 +321,7 @@ sns.catplot(cv_results_melt, y="model", x="value", kind="bar", hue="model", col=
 스태킹에 대해 기억해야 할 것들입니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 앙상블 기법이며, 최종 모델을 사용하여 기본 모델의 예측을 결합합니다.
 - 최종 모델은 기본 모델의 예측을 수평 스택으로 사용합니다.

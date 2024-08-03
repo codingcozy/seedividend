@@ -1,7 +1,7 @@
 ---
 title: "Webpack 대신 Rspack을 써봤더니 이런 차이가 있더라"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-ItriedreplacingWebpackwithRspackandhereswhatIvefound_0.png"
+coverImage: "/assets/img/2024-07-09-ItriedreplacingWebpackwithRspackandhereswhatIvefound_0.png"
 date: 2024-07-09 18:06
 ogImage:
   url: /assets/img/2024-07-09-ItriedreplacingWebpackwithRspackandhereswhatIvefound_0.png
@@ -10,7 +10,7 @@ originalTitle: "I tried replacing Webpack with Rspack and here’s what I’ve f
 link: "https://medium.com/@uu9924079/i-tried-replacing-webpack-with-rspack-and-heres-what-i-ve-found-c15579c6e823"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-ItriedreplacingWebpackwithRspackandhereswhatIvefound_0.png" />
+<img src="/assets/img/2024-07-09-ItriedreplacingWebpackwithRspackandhereswhatIvefound_0.png" />
 
 프론트엔드 웹 개발자로 일하면, 브라우저가 이해할 수 있도록 코드를 번들링하는 Webpack과 같은 빌드 툴을 주로 사용합니다. Webpack은 강력하고 필요한 모든 기능을 제공합니다. 그러나 만약 이와 유사한 작업을 하되 더 빠른 빌드 시간을 제공하는 대안이 있다면 어떨까요?
 
@@ -18,18 +18,7 @@ link: "https://medium.com/@uu9924079/i-tried-replacing-webpack-with-rspack-and-h
 
 비교적 한가한 업무 기간을 활용하여 회사 프로젝트에 Rspack을 적용해 보았고, 결과는 상당히 인상적이었습니다. 이 글에서는 저희 프로젝트의 프론트엔드 아키텍처를 공유하고, Rspack과 Webpack 간의 빌드 속도를 비교하여 이 글이 누군가에게 유용할 것으로 기대합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 **TL;DR:** 웹팩을 사용할 때 사용자 지정 구성을 사용 중이라면 Rspack으로 교체해보세요. 대기 시간을 아끼는 데 큰 도움이 될 거예요.
 
@@ -39,18 +28,7 @@ Rspack과 웹팩의 성능을 비교하기 전에, CSS 및 JavaScript 파일을 
 
 다음은 우리 프로젝트의 webpack.config.js 파일입니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 const path = require('path');
@@ -210,18 +188,7 @@ module.exports = (env, options) => {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 우리는 MiniCssExtractPlugin을 사용하여 .js 파일을 생성합니다. css-loader가 .css로 만든 것을 동일한 폴더에서 .scss 파일을 .css 파일로 만들 수 있게 FixStyleOnlyEntriesPlugin으로 동일한 .js 파일을 삭제합니다.
 
@@ -233,18 +200,7 @@ JavaScript 파일의 경우, 우리는 Vue SFC를 빌드하기 위해 vue-loader
 - SCSS 파일에서 CSS 파일 빌드
 - JavaScript 파일 빌드
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Rspack 설정을 구성하는 방법을 살펴봅시다.
 
@@ -373,18 +329,7 @@ module.exports = (env, options) => {
 };
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS 파일의 경우, .scss를 빌드하기 위해 css-loader나 MiniCssExtractPlugin이 필요하지 않아요.
 
@@ -394,18 +339,7 @@ CSS 파일의 경우, .scss를 빌드하기 위해 css-loader나 MiniCssExtractP
 
 ## 웹팩
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 개발 서버 시작: 35초
 - 프로덕션 빌드: 42초
@@ -419,18 +353,7 @@ CSS 파일의 경우, .scss를 빌드하기 위해 css-loader나 MiniCssExtractP
 
 Rspack이 웹팩을 다양한 시나리오에서 앞선 성능을 보여줍니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 웹팩을 이미 Rspack로 대체했나요?
 
@@ -442,18 +365,7 @@ Rspack이 웹팩을 다양한 시나리오에서 앞선 성능을 보여줍니�
 
 현재 버전의 Rspack (v0.2.9)은 아직 이를 지원하지 않아요. 웹팩보다 훨씬 빠르게 빌드하지만, 우리의 터미널에 오류 메시지를 톤으로 남겨줘요. 팀원들과 논의한 후, 우리는 지금은 변경하지 않기로 결정했어요. 이를 Rspack의 Github 이슈로 기능 요청으로 보고했고, 이 기능이 곧 사용할 수 있기를 희망해요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 결론
 

@@ -1,7 +1,7 @@
 ---
 title: "Part 1 CSS와 CSS3의 차이점 진화를 이해하기"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-Part1CSSvsCSS3UnderstandingtheEvolution_0.png"
+coverImage: "/assets/img/2024-07-09-Part1CSSvsCSS3UnderstandingtheEvolution_0.png"
 date: 2024-07-09 08:51
 ogImage:
   url: /assets/img/2024-07-09-Part1CSSvsCSS3UnderstandingtheEvolution_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@vaaluvishnu5146/part-1-css-vs-css3-understanding-the-
 
 CSS (Cascading Style Sheets)은 웹 페이지 레이아웃을 스타일링하고 형식을 지정하는 데 사용되는 중요한 기술입니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-Part1CSSvsCSS3UnderstandingtheEvolution_0.png)
+![이미지](/assets/img/2024-07-09-Part1CSSvsCSS3UnderstandingtheEvolution_0.png)
 
 CSS 속성과 값들인 색상, 폰트 패밀리, 배경 등을 통해 웹 페이지의 시각적 표현을 향상시킬 수 있습니다.
 
 CSS (Cascading Style Sheets)은 많은 해동안 웹 디자인의 중추적인 역할을 해오고 있으며, 개발자들이 웹 페이지를 스타일링하고 레이아웃을 정의할 수 있게 해주었습니다. CSS3의 등장으로 CSS의 기능이 크게 확장되었습니다. CSS3는 사실상 CSS의 최신 버전으로, 웹 페이지 디자인을 더 강력하고 유연하게 만드는 새로운 기능, 향상 및 효율성을 가져왔습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS3에서는 모듈이 도입되어 완전한 명세를 기다리지 않고도 개발자가 새로운 기능을 사용할 수 있게 되었습니다. 주목할 만한 추가 기능으로는 둥근 모서리, 그림자, 그라데이션, 전환, 애니메이션 및 Flexbox 및 Grid를 사용한 향상된 레이아웃 옵션이 있습니다. 이러한 기능들이 웹 페이지의 디자인 가능성과 성능을 급격하게 향상시켰습니다.
 
@@ -44,18 +33,7 @@ CSS3에서는 모듈이 도입되어 완전한 명세를 기다리지 않고도 
 
 위에서 언급한 모든 기능에 대해 더 자세히 살펴보겠습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # CSS의 기본 요소: 속성과 값
 
@@ -68,18 +46,7 @@ font-size: 16px;
 
 이 스니펫에서 색상과 글꼴 크기는 속성이며, 파란색과 16px는 각각의 값입니다. 적절한 값과 속성을 함께 매칭하는 방법을 이해하는 것은 효과적인 스타일링에 필수적입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 클래스 vs. ID: HTML 요소 지정하기
 
@@ -95,18 +62,7 @@ font-size: 16px;
 
 ID는 고유하며 페이지당 한 번만 사용되어야 합니다. 고유한 스타일이 필요한 특정 요소에 대한 스타일을 지정하는 데 유용합니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 #unique-example {
@@ -127,18 +83,7 @@ div {
 
 적절히 클래스, ID 및 요소 선택자를 사용하여 스타일을 구성하고 유지할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # Display Property: Controlling Layout:
 
@@ -159,18 +104,7 @@ CSS에서 display 속성은 요소가 페이지에 표시되는 방식을 결정
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 화면 표시 속성을 이해하면 페이지의 요소의 흐름과 배열을 관리하는 데 도움이 됩니다.
 
@@ -184,18 +118,7 @@ CSS에서 display 속성은 요소가 페이지에 표시되는 방식을 결정
 - fixed: 요소는 브라우저 창을 기준으로 배치됩니다.
 - sticky: 요소는 지정된 지점을 통과할 때까지 상대적으로 취급되며 그 이후에는 고정으로 취급됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```css
 <div id="container" > </div > #container {
@@ -213,18 +136,7 @@ CSS에서 display 속성은 요소가 페이지에 표시되는 방식을 결정
 - 배경 스타일 속성
 - CSS3 키프레임 애니메이션
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 위에서 언급한 몇 가지 기능에 대해 자세히 살펴보겠습니다:
 
@@ -234,18 +146,7 @@ CSS 그리드와 플렉스박스는 CSS3에서 소개된 강력한 레이아웃 
 
 그리드는 행과 열을 사용하여 웹 페이지를 디자인할 수 있는 2차원 레이아웃 시스템입니다. 양축에 대해 완전한 제어가 필요한 복잡한 레이아웃에 적합합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <div class="container"></div>
@@ -270,18 +171,7 @@ Flexbox는 한 방향으로만 공간을 분배하는데 이상적인 1차원 �
 
 Grid는 복잡한 레이아웃을 만드는 데 강력하지만, Flexbox는 컨테이너 안의 항목들을 정렬하고 공간을 분배하기에 더 간단하고 직관적입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # CSS 애니메이션: 디자인에 생명을 불어넣는 방법:
 
@@ -300,18 +190,7 @@ div {
 
 이 예시는 div 요소의 배경색을 빨간색에서 노란색으로 5초 동안 변경하고 무한히 반복합니다. CSS 애니메이션은 시각적 피드백과 매력적인 상호 작용을 통해 사용자 경험을 향상시킵니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결론:
 

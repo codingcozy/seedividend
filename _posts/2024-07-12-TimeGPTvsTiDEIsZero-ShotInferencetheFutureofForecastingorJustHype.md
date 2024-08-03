@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/timegpt-vs-tide-is-zero-shot-infe
 
 예측 모델을 개발하는 것은 복잡하고 다면적인 도전입니다. 이는 최첨단(STATE-OF-THE-ART, SOTA) 예측 방법론과 적용 대상인 특정 비즈니스 분야에 대한 깊은 이해를 요구합니다. 또한, 예측 엔진은 기관 내에서 폭넓은 프로세스를 지원하는 중요한 인프라 역할을 할 것입니다. 예를 들어:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 마케팅 팀은 모델을 활용하여 다가오는 기간에 대한 투자 할당에 관한 전략적 의사 결정을 진행합니다. 예를 들어, 다음 달이나 분기에 대한 투자 배정에 대한 결정을 내립니다.
 - 구매 팀은 공급 업체로부터의 매입 수량과 타이밍에 관한 정보에 기초하여 재고 수준을 최적화하고 낭비나 부족을 줄이기 위해 모델을 활용합니다.
@@ -42,16 +33,7 @@ link: "https://medium.com/towards-data-science/timegpt-vs-tide-is-zero-shot-infe
 
 ![](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_0.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 항상 코드는 저희의 GitHub에서 확인하실 수 있어요.
 
@@ -61,16 +43,7 @@ TimeGPT [1]는 시계열 예측을 위한 최초의 기초 모델로, 다양한 
 
 TimeGPT는 제로샷 추론 설정에서 우수한 성능을 발휘하기 위해 전이 학습을 활용하고 있어요. 경제, 인구 통계, 의료, 날씨, IoT 센서 데이터, 에너지, 웹 트래픽, 판매, 운송 및 은행 업무 등 다양한 도메인의 대중적으로 제공되는 데이터셋에서 1000억 개의 데이터 포인트를 사용해 훈련되었어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다양한 도메인의 폭넓은 다양성 덕분에 이 모델은 여러 계절성, 다양한 길이의 주기, 그리고 변화하는 추세와 같은 복잡한 패턴을 잡을 수 있어요. 게다가 데이터셋은 다양한 노이즈 수준, 이상값, 드리프트, 그리고 기타 다양한 특징을 보여줘요. 일부는 규칙적인 패턴이 있는 깨끗한 데이터로 이루어져 있고, 다른 일부는 시간이 흐름에 따라 추세와 패턴이 변동될 수 있는 예상치 못한 사건과 행동을 포함하고 있어요. 이러한 도전들은 모델이 배울 수 있는 많은 시나리오를 제공하여 모델의 견고성과 일반화 능력을 향상시켜요.
 
@@ -80,16 +53,7 @@ TimeGPT는 제로샷 추론 설정에서 우수한 성능을 발휘하기 위해
 
 TimeGPT는 시계열 예측을 위해 특별히 설계된 Transformer 기반 모델로, 인코더-디코더 아키텍처 내부에 self-attention 메커니즘을 통합하고 있어요. self-attention 메커니즘을 활용하여 시계열 내에서 서로 다른 지점의 중요성을 동적으로 가중할 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 모델은 입력으로 과거 값(y)과 외생 공변럇(x)의 창을 받습니다. 공변럇에는 추가 시계열 데이터 및/또는 특정 이벤트를 나타내는 이진 변수가 포함될 수 있습니다. 이러한 입력은 지역 위치 임베딩을 통해 순차 정보로 보강됩니다. 이를 통해 모델은 시간 의존성을 인식할 수 있습니다. 저자들이 명시적으로 언급하지는 않았지만, 모든 입력이 위치 인코딩 후 연결된다고 가정하며, 이는 인코더에 공급되는 최종 입력을 생성합니다.
 
@@ -99,16 +63,7 @@ TimeGPT는 시계열 예측을 위해 특별히 설계된 Transformer 기반 모
 
 ![image](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_3.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위치 인코딩과 함께 보강된 입력 벡터는 인코더에 소개됩니다. 인코더 내에서 다중 헤드 어텐션 레이어는 입력 시퀀스 내의 다양한 요소에 가중치를 평가하고 할당하여 그들의 상대적 중요성을 반영합니다. 이 representatino은 이후 완전 연결된 피드 포워드 네트워크에 의해 처리됩니다. 이것은 시퀀스 내 요소들 간의 더 복잡한 관계를 포착하는 representatino을 생성하는 것을 가능하게 합니다. 그런 다음 출력은 아키텍처의 디코더 부분으로 전달됩니다.
 
@@ -118,16 +73,7 @@ TimeGPT는 시계열 예측을 위해 특별히 설계된 Transformer 기반 모
 
 ![이미지](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_5.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마지막으로, 선형 레이어는 디코더의 출력을 예측 지향의 길이와 동일한 값 벡터로 매핑하는 역할을 합니다.
 
@@ -140,16 +86,7 @@ TimeGPT는 잠재적 결과물의 확률 분포를 생성할 수 있습니다. �
 - 각 예측 시점 h에 대해 모델의 예측 값과 보정 세트 내 실제 결과 간의 절대 잔차 값이 계산됩니다. 이러한 계산된 잔차는 비준수 점수라고 불립니다.
 - 각 예측 시점 h의 비준수 점수의 분포에서 특정 백분위수를 선택합니다. 선택한 백분위수는 예측 간격의 커버리지 수준을 결정하며, 더 높은 백분위수는 더 넓은 간격을 의미합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예측 간격은 예측 값 ± 최종 비준수 점수로 제공됩니다.
 
@@ -159,16 +96,7 @@ TimeGPT는 잠재적 결과물의 확률 분포를 생성할 수 있습니다. �
 
 이 섹션에서는 고객 중 한 명의 실제 데이터셋을 사용하여 시간 GPT를 사용하여 매출을 예측하겠습니다. 이후 동일한 분석을 위해 TiDE와 TimeGPT의 예측 성능을 비교합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 TiDE [2]은 새로운 다변량 시계열 모델로, 정적 공변럇수(예: 제품 브랜드) 및 예측 기간 동안(예: 제품 가격) 알려진 또는 알려지지 않은 동적 공변럇수를 사용하여 정확한 예측을 생성할 수 있습니다. 복잡한 Transformer 아키텍처와는 달리, TiDE는 간단한 인코더-디코더 아키텍처와 잔차 연결을 기반으로 합니다:
 
@@ -180,16 +108,7 @@ TiDE [2]은 새로운 다변량 시계열 모델로, 정적 공변럇수(예: �
 
 데이터셋에는 미국 시장을 위한 주간 매출 데이터를 상세히 설명하는 195가지 고유한 시계열이 포함되어 있습니다. 역사적인 매출 데이터 외에도, 데이터셋에는 미국 법정 공휴일 및 이진 계절 특성 정보도 있습니다. 우리는 이 데이터셋을 보강하기 위해 이벤트 주(week)와 달(month) 식별자를 사용했습니다. 예측 기간은 16주로, 즉 미래 16주를 예측하고자 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 친구야, 아래와 같이 라이브러리를 가져오는 것으로 시작해요:
 
@@ -214,16 +133,7 @@ timegpt = TimeGPT(token=os.environ.get("TIMEGPT_KEY"))
 timegpt.validate_token()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 데이터셋을 로드하기 전에 인증 토큰을 확인한 후 다음을 확인해 주세요:
 
@@ -241,16 +151,7 @@ df = pd.read_csv('data/data.csv', parse_dates=['delivery_week'])
 
 토론한 바와 같이 데이터셋을 보강하기 위해 주간과 월간의 이진 계절성 특성을 추가합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # df에 주차(week)와 달(month)을 추가합니다.
@@ -273,16 +174,7 @@ holdout_df = df[(df['delivery_week'] >= "2023-10-16") & (df['delivery_week'] <= 
 
 데이터를 분리한 후, 훈련 및 홀드아웃 데이터셋을 forecast() 함수로 넘겨 예측할 수 있습니다. 다음 매개변수를 설정해야합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - df - 과거 데이터가 포함된 데이터 프레임입니다.
 - time_col - 시간 정보가 들어 있는 열입니다.
@@ -323,16 +215,7 @@ plt.title('특징 중요도 - 상위 10개')
 plt.show()
 ```  
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리는 경우에 가장 중요한 10가지 공변럇값을 추출했는데, 그 중에서 마케팅 이벤트가 가장 중요함을 나타냅니다. 반대로, 계절별 및 휴일 공변랇값은 잔여적인 중요성을 가지고 있습니다.
 
@@ -354,16 +237,7 @@ timegpt.plot(
 )
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Figure 10](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_10.png)
@@ -387,16 +261,7 @@ utils.plot_model_comparison(model_eval_df)
 ```  
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음은 Figure 11에 표시된 것과 같습니다. TiDE는 16주 중 15주에 대해 195개의 시계열을 비교할 때 TimeGPT에 비해 평균 MAPE가 낮습니다. 두 모델 모두 동일한 정보에 액세스할 수 있지만, TimeGPT의 제로-숏 추론은 저희가 세밀하게 조정한 모델을 이기지 못했습니다.
 
@@ -404,16 +269,7 @@ utils.plot_model_comparison(model_eval_df)
 
 오늘날의 경쟁적인 환경에서 예측의 중요성은 과대평가될 수 없습니다. 효과적인 예측 방법은 운영 우수성을 추구하는 조직에게 중요하며, 이를 통해 운영을 더 효율적으로 계획하고 관리할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사에서는 시계열 예측의 최신 혁신 중 하나 인 foundation models의 발전을 탐구했습니다. 이러한 모델은 전문 지식이 부족한 기관들이 내부에서 SOTA 모델을 개발하는 데 필요한 특수 지식을 갖추지 못한 경우에도 정교한 알고리즘에 대한 접근을 민주화하기 위해 노력하고 있습니다. 이러한 노력은 유망해 보이지만, 우리의 분석에서는 여전히 정확한 예측을 제공하는 데 실패하는 것으로 나타났습니다. 구체적으로, TiDE가 zero-shot 추론 시나리오에서 TimeGPT를 크게 능가했습니다.
 
@@ -423,16 +279,7 @@ utils.plot_model_comparison(model_eval_df)
 
 AI 분야의 시리얼 창업가이자 리더. 기업을 위한 AI 제품을 개발하고 AI 중심 스타트업에 투자합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 창업자 @ ZAAI | LinkedIn | X/Twitter
 
@@ -442,16 +289,7 @@ AI 분야의 시리얼 창업가이자 리더. 기업을 위한 AI 제품을 개
 
 [2] Abhimanyu Das, Weihao Kong, Andrew Leach, Shaan Mathur, Rajat Sen, Rose Yu. (2023) TiDE를 활용한 장기 예측: Time-series Dense Encoder. arXiv:2304.08424.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 [3] 고스와미, M., 살페르, K., 쵸우드리, A., 카이, Y., 리, S., & 더브라우스키, A. (2024). MOMENT: 개방형 시계열 기반 모델 패밀리. arXiv:2402.03885 (cs.LG)에서 가져옴.
 
@@ -461,16 +299,7 @@ AI 분야의 시리얼 창업가이자 리더. 기업을 위한 AI 제품을 개
 
 [6] 우, G., 리우, C., 쿠마르, A., 씨옹, C., 사바레세, S., & 사후, D. (2024). 통합된 유니버설 시계열 예측 트랜스포머의 훈련. arXiv:2402.02592 (cs.LG)에서 가져옴.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 [7] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., & Polosukhin, I. (2017). Attention Is All You Need. arXiv:1706.03762에서 가져옴.
 

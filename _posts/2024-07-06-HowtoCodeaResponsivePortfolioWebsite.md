@@ -1,7 +1,7 @@
 ---
 title: "반응형 포트폴리오 웹사이트 코딩하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-HowtoCodeaResponsivePortfolioWebsite_0.png"
+coverImage: "/assets/img/2024-07-06-HowtoCodeaResponsivePortfolioWebsite_0.png"
 date: 2024-07-06 02:15
 ogImage:
   url: /assets/img/2024-07-06-HowtoCodeaResponsivePortfolioWebsite_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/@learntocodetoday/how-to-code-a-responsive-portfolio-w
 
 시작하기 전에 다음 사항을 확인하세요:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - HTML, CSS, 그리고 JavaScript에 대한 기본 지식이 필요합니다.
 - 텍스트 편집기(예: VSCode, Sublime Text, 또는 Atom)가 필요합니다.
@@ -41,18 +30,7 @@ link: "https://medium.com/@learntocodetoday/how-to-code-a-responsive-portfolio-w
 
 프로젝트 구조:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 portfolio-website/
 ├── index.html
@@ -65,18 +43,7 @@ portfolio-website/
 
 index.html:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 <!DOCTYPE html>
 <html lang="en">

@@ -21,16 +21,7 @@ TypeScript과 Node.js는 단일 스레드 및 이벤트 기반 모드에서 작�
 단일 스레드 형식 — 기본적으로 Node.js는 TypeScript 코드를 실행하는 데 단일 스레드를 사용합니다. 이 설계는 여러 스레드를 관리하는 복잡성을 피하므로 비동기 작업을 간단하게 처리할 수 있습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 워커 스레드 모듈 - 워커 스레드 모듈은 Node.js의 기능으로, 개발자가 메인 스레드와 별도로 추가 스레드를 생성할 수 있게 합니다. 이러한 워커 스레드는 TypeScript 코드를 독립적으로 실행하여 작업을 병렬로 처리할 수 있는 방법을 제공합니다.
 
@@ -40,16 +31,7 @@ TypeScript과 Node.js는 단일 스레드 및 이벤트 기반 모드에서 작�
 
 # 멀티 스레딩에 대한 추가 고려 사항
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 많은 이유로 멀티스레딩을 피하고 Node.js의 싱글 스레드 특성을 활용하는 것이 좋습니다. 전진하기 전에 고려해야 할 몇 가지 중요한 부분이 있습니다.
 
@@ -59,16 +41,7 @@ TypeScript과 Node.js는 단일 스레드 및 이벤트 기반 모드에서 작�
 
 확장성: 멀티스레딩은 멀티 코어 프로세서에서 사용 가능한 리소스를 효율적으로 활용할 수 있도록 해 확장성을 향상시킬 수 있습니다. 그러나 멀티스레드 애플리케이션을 확장하기 위해서는 부하 분산 및 리소스 경합과 같은 요소들을 신중히 고려하여 최적의 성능을 달성해야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 디버깅 복잡성: 멀티스레드 응용 프로그램을 디버깅하는 것은 단일 스레드 응용 프로그램보다 얽힌 스레드 상호작용과 잠재적 동시성 문제로 인해 더 도전적일 수 있습니다. 개발자는 쓰레딩 관련 문제를 효과적으로 진단하고 해결하기 위해 전문적인 디버깅 도구와 기술을 사용해야 할 수도 있습니다.
 
@@ -78,16 +51,7 @@ TypeScript과 Node.js는 단일 스레드 및 이벤트 기반 모드에서 작�
 
 다음은 Worker Threads를 사용한 TypeScript 예시를 제공하겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```typescript
 import { Worker, isMainThread, parentPort } from 'worker_threads';

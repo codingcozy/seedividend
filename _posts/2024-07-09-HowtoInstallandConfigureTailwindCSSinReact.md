@@ -1,7 +1,7 @@
 ---
 title: "React에서 Tailwind CSS 설치 및 구성하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_0.png"
+coverImage: "/assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_0.png"
 date: 2024-07-09 13:56
 ogImage:
   url: /assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_0.png
@@ -10,7 +10,7 @@ originalTitle: "How to Install and Configure Tailwind CSS in React"
 link: "https://medium.com/@miahossain8888/how-to-install-and-configure-tailwind-css-in-react-13accc4c5b4b"
 ---
 
-![이미지](/ui-log-2/assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_0.png)
+![이미지](/assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_0.png)
 
 이 글에서는 React에서 Tailwind CSS를 설치하고 구성하는 방법을 보여드리겠습니다.
 
@@ -18,18 +18,7 @@ link: "https://medium.com/@miahossain8888/how-to-install-and-configure-tailwind-
 
 # 단계 1: React 프로젝트 만들기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 우선, React 애플리케이션을 만들어야 합니다. 이미 만든 애플리케이션이 없다면 Vite를 사용해 React 애플리케이션을 만드는 방법에 대한 전용 기사가 있습니다.
 
@@ -41,18 +30,7 @@ npm create vite@latest my-app -- --template react
 
 그리고 나서 프로젝트 폴더로 이동하시면 됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 cd my-app
@@ -66,18 +44,7 @@ npm install
 
 # 단계 2: Tailwind CSS 설치하기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Tailwind와 관련된 다른 패키지를 설치해보세요!
 
@@ -91,18 +58,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 단계 3: 템플릿 경로 설정
 
@@ -122,18 +78,7 @@ export default {
 
 # 단계 4: CSS에 Tailwind 지시문 추가
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Tailwind의 각 레이어에 대한 @tailwind 지시문을 ./src/index.css 파일에 추가하세요. 또한 ./src/App.css 파일에도 추가할 수 있습니다.
 
@@ -148,18 +93,7 @@ Tailwind의 각 레이어에 대한 @tailwind 지시문을 ./src/index.css 파�
 
 다음 명령어를 사용하여 프로젝트를 실행하세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 npm run dev
@@ -182,20 +116,9 @@ export default App;
 
 마침내, 작동합니다!
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-![이미지](/ui-log-2/assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_1.png)
+![이미지](/assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_1.png)
 
 # 결론
 
@@ -203,18 +126,7 @@ export default App;
 
 # 참고 자료
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 테일윈드 공식 문서가 여기 있어요.
 

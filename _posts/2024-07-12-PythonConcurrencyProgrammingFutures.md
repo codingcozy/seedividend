@@ -21,16 +21,7 @@ link: "https://medium.com/@cstoppgmr/python-concurrency-programming-futures-f6fe
 동시성 프로그래밍에 대해 학습할 때 동시성과 병렬성이라는 용어를 함께 사용하는 경우가 많습니다. 이로 인해 많은 사람들이 두 용어가 동일한 것으로 생각되는 오해를 하게 됩니다. 그러나 이는 오인입니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저 일반적으로 오해되는 것을 명확하게 해 봅시다: 파이썬에서 동시성은 여러 작업(스레드 또는 태스크)이 동시에 동시에 발생한다는 것을 의미하지 않습니다. 대신, 한 번에 하나의 작업만 진행되도록 허용하고, 스레드 또는 태스크가 완료될 때까지 서로 전환됩니다. 아래 다이어그램을 살펴보겠습니다:
 
@@ -40,16 +31,7 @@ link: "https://medium.com/@cstoppgmr/python-concurrency-programming-futures-f6fe
 
 스레딩의 경우, 운영 체제는 각 스레드의 모든 세부 정보를 알고 있기 때문에 필요에 따라 스레드 전환을 처리합니다. 여기서의 장점은 프로그래머가 전환 프로세스를 관리할 필요가 없기 때문에 코드를 작성하기가 더 쉽다는 것입니다. 그러나 이는 레이스 컨디션과 같은 문제로 이어질 수 있습니다. 이는 스레드가 단일 명령문 실행 도중에 서로 간섭할 수 있는 상황을 말합니다(e.g., x += 1).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그러나 asyncio를 사용할 경우, 주 프로그램이 작업을 전환할 수 있다는 것을 명시적으로 알려주어야 합니다. 이러한 설계는 asyncio 이벤트 루프에 의해 제어되는 방식으로 전환되므로 실행 중에 작업이 충돌하지 않도록 보장하여 경쟁 조건을 피할 수 있도록 도와줍니다.
 
@@ -59,16 +41,7 @@ link: "https://medium.com/@cstoppgmr/python-concurrency-programming-futures-f6fe
 
 두 가지를 비교해보면:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 동시성은 빈번한 I/O 작업이 발생하는 시나리오에서 자주 사용됩니다. 예를 들어, 웹 사이트에서 여러 파일을 다운로드할 때, I/O 작업에 소요되는 시간이 CPU 처리에 소요되는 시간보다 크게 늘어날 수 있습니다.
 
@@ -78,16 +51,7 @@ link: "https://medium.com/@cstoppgmr/python-concurrency-programming-futures-f6fe
 
 ## 단일 스레드 및 다중 스레드 접근 방식의 성능 비교
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로, 코드 관점에서 Futures를 이해하고 단일 스레드 방식과 성능을 비교하기 위한 구체적인 예제를 사용해보겠습니다.
 
@@ -134,16 +98,7 @@ if __name__ == '__main__':
 
 이 방식은 직접적이고 간단한 접근 방식입니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저 웹사이트 목록을 순회합니다. 그 후, 현재 웹사이트에 대한 다운로드 작업을 수행합니다. 현재 작업이 완료될 때까지 기다렸다가 다음 웹사이트로 넘어가며, 모든 작업이 완료될 때까지 이 과정을 계속합니다.
 
@@ -210,16 +165,7 @@ Read 324039 from https://en.wikipedia.org/wiki/Go_(programming_language)
 Download 15 sites in 0.19936635800002023 seconds
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 총 시간이 약 0.2초로 나타나는 것은 효율성이 10배 이상 향상되었다는 사실을 알 수 있어요.
 
@@ -232,16 +178,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
 
 여기서는 5개의 스레드를 사용할 수 있는 스레드 풀을 생성했어요. executor.map()은 파이썬 내장 map() 함수와 유사하며, 각각의 urls 요소에 download_one() 함수를 동시에 적용해요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여담이지만, download_one() 함수에서 사용하는 requests.get() 메서드는 스레드 안전(thread-safe)하므로 경합 상태를 일으키지 않고 여러 스레드 환경에서 안전하게 사용할 수 있습니다.
 
@@ -255,16 +192,7 @@ with futures.ThreadPoolExecutor(workers) as executor
 with futures.ProcessPoolExecutor() as executor:
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코드를 변경해야 하는 부분에서는 ProcessPoolExecutor() 함수를 사용하여 병렬로 작업을 실행할 수 있는 프로세스 풀을 생성합니다. 그러나 여기서 worker 매개변수를 종종 생략하는데, 시스템이 사용 가능한 CPU 코어 수를 자동으로 프로세스로 활용할 수 있기 때문입니다.
 
@@ -274,16 +202,7 @@ with futures.ProcessPoolExecutor() as executor:
 
 파이썬에서 Futures 모듈은 concurrent.futures와 asyncio에 위치하며, 둘 다 지연된 작업을 나타냅니다. Futures는 대기 상태에 있는 작업을 래핑하여 큐에 배치합니다. 이러한 작업의 상태는 언제든지 쿼리할 수 있으며, 작업이 완료된 후 결과 또는 예외를 검색할 수도 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 일반적으로 사용자들은 미래(Futures)를 생성하는 방법에 대해 걱정할 필요가 없습니다. 내부 메커니즘이 대신 처리해 주기 때문이죠. 실제로 해야 할 일은 이러한 Futures를 실행할 수 있도록 예약하는 것입니다.
 
@@ -296,16 +215,7 @@ Futures 모듈에서 자주 사용되는 몇 가지 메서드는 다음과 같�
 - result(): 이 메서드는 Future의 결과 또는 예외를 반환합니다. Future가 완료되었을 때 호출합니다. Future가 예외를 만났다면 result()는 해당 예외를 발생시킵니다.
 - as_completed(fs): 이 함수는 Futures fs의 반복자를 가져와 완료될 때마다 Futures를 생성하는 반복자를 반환합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그래서, 앞서 언급한 예제는 다음과 같은 형식으로도 작성할 수 있습니다:
 
@@ -377,16 +287,7 @@ https://en.wikipedia.org/wiki/Go_(programming_language)에서 324,039을 읽음
 
 그러나 미래가 완료되는 순서가 목록의 순서와 일치하는 것은 아님을 유의해야 합니다. 완료 순서는 시스템 스케줄링 및 각 미래의 실행 시간에 따라 달라집니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 왜 멀티스레딩에서 한 번에 하나의 스레드만 실행될 수 있을까요?
 
@@ -396,16 +297,7 @@ https://en.wikipedia.org/wiki/Go_(programming_language)에서 324,039을 읽음
 
 사실 파이썬 인터프리터는 스레드로부터 안전하지 않습니다. 동시 스레드로 인한 레이스 컨디션과 같은 문제를 해결하기 위해 파이썬은 Global Interpreter Lock (GIL)를 도입했습니다. 이 잠금은 한 번에 한 스레드만 파이썬 바이트코드를 실행할 수 있도록 보장합니다. 그러나 스레드가 I/O 작업으로 인해 차단될 때 GIL이 해제되어 다른 스레드가 계속해서 실행될 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -415,16 +307,7 @@ https://en.wikipedia.org/wiki/Go_(programming_language)에서 324,039을 읽음
 
 동시성은 일반적으로 빈번한 I/O 작업이 있는 시나리오에서 사용되고, 병렬성은 CPU 집약적인 작업에 더 적합합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리는 웹 사이트 콘텐츠를 다운로드하는 예제를 통해 단일 스레드 방식과 Futures를 사용한 멀티 스레딩 버전 사이의 성능 차이를 비교했습니다. 잘 구현된 멀티 스레딩 접근 방식이 프로그램의 효율성을 크게 향상시킬 수 있다는 것이 명백합니다.
 

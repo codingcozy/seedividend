@@ -1,7 +1,7 @@
 ---
 title: "한 줄의 CSS로 모바일에서 100vh 버그 해결 동적 뷰포트 유닛 사용하기"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png"
+coverImage: "/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png"
 date: 2024-07-09 17:56
 ogImage:
   url: /assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@alekswebnet/fix-mobile-100vh-bug-in-one-line-of-css-d
 
 ## VH 대신 DVH을 사용하여 더 완전한 단위로 사용하세요
 
-![이미지](/ui-log-2/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png)
+![이미지](/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png)
 
 이상한 모바일 뷰포트 버그, 또는 100vh 버그에 대해 알고 계신가요? 혹은 올바른 방법으로 전체 화면 블록을 만드는 방법을 아시나요? 이 기사에서는 이 버그의 본질과 더 나은 해결 방법에 대해 설명하겠습니다.
 
 # 모바일 뷰포트 버그는 무엇인가요?
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 웹페이지에서 전체화면 요소를 만들어 본 적이 있나요? CSS 한 줄을 추가하기만 하면 쉽게 할 수 있어요:
 
@@ -43,40 +32,18 @@ link: "https://medium.com/@alekswebnet/fix-mobile-100vh-bug-in-one-line-of-css-d
 
 아래 그림에서 모바일 화면의 두 가지 상태를 확인할 수 있어요:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 숨겨진 주소 표시줄 있을 때
 - 표시된 주소 표시줄 있을 때
 
 두 상태 모두 100vh의 값이 동일하며 그 결과로 CTA 버튼이 첫 화면을 벗어납니다. 이로 인해 문제가 발생합니다:
 
-![이미지](/ui-log-2/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_1.png)
+![이미지](/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_1.png)
 
 # 일반적인 수정
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이전에 사용했던 해결책은 CSS Custom Properties와 약간의 Javascript를 사용하는 것이었습니다. 간단히 말해서, resize 이벤트를 수신하고 창 크기가 변경될 때마다 --vh 사용자 지정 속성(창 높이의 1%)을 설정합니다.
 
@@ -86,20 +53,9 @@ link: "https://medium.com/@alekswebnet/fix-mobile-100vh-bug-in-one-line-of-css-d
 
 CSS Values 4 Specification에 따르면 Viewport-relative lengths를 사용할 수 있습니다. 새로운 뷰포트 단위를 사용할 수 있습니다. 이 작업을 수행해주는 dvh 단위가 있습니다. 항상 뷰포트 크기에 맞게 자동으로 조정됩니다. 마지막으로, 브라우저 지원이 완벽합니다:
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-![image](/ui-log-2/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_2.png)
+![image](/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_2.png)
 
 With this cool feature, the solution becomes pretty simple. You need only one line of CSS:
 
@@ -111,18 +67,7 @@ With this cool feature, the solution becomes pretty simple. You need only one li
 
 Read more about other amazing dynamic viewport units:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -132,18 +77,7 @@ Read more about other amazing dynamic viewport units:
 
 🙏 즐거우신 독자 여러분이 흥미로운 도움이 되는 이야기를 읽으셨기를 바랍니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 👏 만약 마음에 들었다면 박수를 보내주세요! 당신의 반응을 보게 되어 정말 기뻐할 거예요!
 

@@ -20,18 +20,7 @@ link: "https://medium.com/towards-data-science/unlocking-insights-random-forests
 
 저는 ML 프로젝트의 초기 단계를 전문적인 분위기에서 특히 중요하게 생각합니다. 이 프로젝트가 이길만한 가능성이 스테이크홀더들(계산서를 내는 사람들)로부터 승인받은 후에는, 그들은 투자에 대한 수읽성을 보고하길 원하게 될 것입니다. 이 가능성 논의의 일환으로 데이터의 상황에 대해 논의해야 할 것들이 있습니다: 충분한 데이터가 있는지, 데이터의 품질은 어떤가 등등. 몇 가지 초기 분석을 진행한 후에만 데이터의 분포 및 품질에 대한 일부 답을 할 수 있습니다. 여기서 제가 보여주는 기술은 초기 가능성 평가를 완료했다고 가정하고 다음 단계로 진행할 준비가 되었다고 가정합니다. 이 시점에서 스스로 물어봐야 할 주요 질문은: 모델 성능을 유지하면서 얼마나 많은 특성을 제거할 수 있을까요. 모델의 특성(차원)을 줄이는 것에는 많은 이점이 있습니다. 이 중에는 다음과 같은 것들이 포함되어 있지만 이에 한정되지 않습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 모델 복잡성 감소
 - 학습 속도 향상
@@ -45,18 +34,7 @@ link: "https://medium.com/towards-data-science/unlocking-insights-random-forests
 
 시작해봅시다
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Random Forest 구현
 
@@ -66,18 +44,7 @@ link: "https://medium.com/towards-data-science/unlocking-insights-random-forests
 
 우리는 Kaggle로부터 데이터셋을 가져와서 시작할 것입니다. Kaggle 데이터셋을 가져올 때, 로그인 자격 증명이 컴퓨터의 이 위치에 저장되어 있는지 확인해야 합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 ~/.kaggle/kaggle.json
@@ -91,18 +58,7 @@ mv ~/Downloads/kaggle.json ~/.kaggle/
 
 이 파일이 올바른 위치로 이동되었는지 확인할 수 있습니다. 입력하여 확인할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 ls ~/.kaggle/
@@ -124,18 +80,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import mean_absolute_error
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로 데이터를 가져오고 훈련/테스트 데이터를 할당할 것입니다.
 
@@ -163,18 +108,7 @@ process_data(df)
 process_data(tst_df)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼 범주형, 연속 및 종속 변수를 식별할 것입니다 :
 
@@ -193,18 +127,7 @@ trn_df[cats] = trn_df[cats].apply(lambda x: x.cat.codes)
 val_df[cats] = val_df[cats].apply(lambda x: x.cat.codes)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼 독립 변수(x)와 종속 변수(y)를 할당해보겠습니다:
 
@@ -226,18 +149,7 @@ mean_absolute_error(val_y, rf.predict(val_xs))
 # 0.18834080717488788
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리 발견물을 그래프로 표현해 보겠습니다:
 
@@ -249,18 +161,7 @@ pd.DataFrame(dict((cols = trn_xs.columns), (imp = rf.feature_importances_))).plo
 
 여기서요. 생존 예측에서 성별이 가장 중요한 요소임을 알 수 있습니다. 이 단계에서는 다른 알고리즘을 실험하면서 현재 특성을 유지하거나, 랜덤 포레스트 모델을 성능 기준으로 활용할 수 있습니다. 또한, 모델의 예측 성능이 부족하다면, 더 많은 특성 엔지니어링을 수행할 수도 있습니다. 이 방법은 극히 작은 데이터셋으로만 실험했지만, 매우 효율적으로 확장할 수 있는 방법입니다. 1000개 이상의 특성이 있는 데이터셋이 있다고 상상해보세요. 이 방법을 사용하면 빠르게 상위 특성을 추출하여 프로젝트를 어떻게 가장 잘 진행할지 계획을 세울 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 자세히 살펴보기…
 
@@ -270,18 +171,7 @@ pd.DataFrame(dict((cols = trn_xs.columns), (imp = rf.feature_importances_))).plo
 
 그룹 내 행의 유사성을 측정하기 위해 종속 변수의 표준 편차를 취할 것입니다. 표준 편차가 높을수록 행들 사이에 차이가 더 크다는 뜻입니다. 그런 다음 이 값을 행 수로 곱할 것입니다. 왜냐하면 값들이 더 큰 그룹이 더 작은 그룹보다 더 큰 영향을 미치기 때문입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 def side_score(side, y):
@@ -301,18 +191,7 @@ def score(col, y, split):
 
 0.5로 임계값을 설정하여 성별 열의 불순도 점수를 확인할 수 있습니다. 데이터 내에서 여성 승객은 0으로 표현되고, 남성은 1로 표현됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 score(trn_xs["Sex"], trn_y, 0.5)
@@ -332,18 +211,7 @@ interact(nm=conts, split=15.5)(iscore);
 
 이제 슬라이더를 사용해보세요. 연속 변수에만 적용했지만 범주형 변수에도 테스트할 수 있습니다. 모든 기능에 대해 이 작업을 수행하면 다소 시간이 소요됩니다. 열의 최적 분할점을 찾을 수 있는 함수를 작성해 봅시다. 해당 필드의 모든 가능한 분할점(해당 필드의 고유한 값) 목록을 만들고 score()가 가장 낮은 지점을 찾아야 합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 def min_col(df, nm):
@@ -373,18 +241,7 @@ cols = cats + conts
 # '선실등급': (2, 0.46048261885806596)}
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그래서, Sex`=0이 최적의 분할이라고 하는 것은 우리의 불순도 점수가 가장 낮을 때입니다. 이 결과들이 초기 랜덤 포레스트 예제와 정확히 일치하지는 않지만 (데이터의 작은 하위 집합만 사용하고 앙상블 방법을 사용하지 않기 때문에 이해하기 쉽다), 여전히 올바른 방향으로 나아가고 있다는 것을 보여줍니다. 본질적으로 OneR 분류기의 기본 버전을 재현한 것입니다.
 
@@ -394,18 +251,7 @@ cols = cats + conts
 
 Sex 열을 제거하고 데이터를 분할합니다. 이것은 사실상 의사 결정 트리 내에서 첫 번째 이진 분할입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 cols.remove("Sex");
@@ -427,18 +273,7 @@ males, (females = trn_df[ismale]), trn_df[~ismale];
 
 그리고 여성들에 대한 최적의 분할:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 {cols의 o에 대해 females 최소 열계수(females, o) for o in cols}
@@ -464,18 +299,7 @@ plot_tree(model, feature_names=trn_xs.columns, filled=True, max_depth=3, rounded
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_2.png)
 
@@ -488,18 +312,7 @@ mean_absolute_error(val_y, model.predict(val_xs))
 
 예상대로, 이 모델은 처음에 생성한 랜덤 포레스트 앙상블 모델보다 성능이 낮습니다. 다이어그램의 각 노드는 특정 규칙 집합과 일치하는 행/샘플이 몇 개인지 및 생존 또는 사망한 승객이 몇 명인지를 보여줍니다. Gini 점수는 이전에 만든 점수 기능과 매우 유사합니다. 다음과 같이 정의됩니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 def gini(cond):
@@ -513,18 +326,7 @@ def gini(cond):
 
 더 큰 의사 결정 트리를 만들어 성능에 어떤 영향을 미치는지 살펴봅시다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 model = DecisionTreeClassifier(min_samples_leaf=50).fit(trn_xs, trn_y)
@@ -542,18 +344,7 @@ mean_absolute_error(val_y, model.predict(val_xs))
 # 0.18385650224215247
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 모델은 초기 모델보다 우수한 성능을 보입니다. 그러나 데이터셋이 매우 작기 때문에 이 점을 고려해야 할 것 같아요.
 
@@ -563,18 +354,7 @@ mean_absolute_error(val_y, model.predict(val_xs))
 
 먼저, 데이터의 새로운 무작위 하위 집합에 대한 의사 결정 트리 생성을 다룹니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 def get_tree(prop=0.75):
@@ -591,18 +371,7 @@ trees = [get_tree() for t in range(100)]
 
 이제 모든 트리의 평균 예측값을 얻습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 all_probs = [t.predict(val_xs) for t in trees]
@@ -618,18 +387,7 @@ mean_absolute_error(val_y, avg_probs)
 
 요령이다. 데이터셋 내에서 가장 중요한 기능을 이해하는 데 도움이 되는 기본 요소를 다루었습니다. 이 방법론을 적용하여 데이터 과학 프로젝트에서 신속히 진전할 수 있기를 바라겠습니다. 앞서 말했듯이, 이 글에 소개된 각 모델의 성능 기준은 우리의 데이터셋이 매우 작았기 때문에 준중요하게 여겨야 합니다. 그럼에도 불구하고, 이 방법은 놀랍도록 잘 확장되며 설명 가능한 기준을 설정하는 좋은 방법입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 언제든지 궁금한 점이 있거나 기사에서 언급된 내용에 대해 논의를 원하시면 언제든지 말씀해 주세요.
 

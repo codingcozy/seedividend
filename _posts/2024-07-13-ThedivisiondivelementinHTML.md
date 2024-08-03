@@ -1,10 +1,10 @@
 ---
 title: "HTML의 div 요소 완벽 가이드"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_0.png"
+coverImage: "/assets/img/2024-07-13-ThedivisiondivelementinHTML_0.png"
 date: 2024-07-13 18:56
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_0.png
+  url: /assets/img/2024-07-13-ThedivisiondivelementinHTML_0.png
 tag: Tech
 originalTitle: "The division (<div>) element in HTML."
 link: "https://medium.com/@nagy_razvan/the-division-div-element-in-html-b5fb7daff9f6"
@@ -15,20 +15,11 @@ link: "https://medium.com/@nagy_razvan/the-division-div-element-in-html-b5fb7daf
 
 `div` 요소는 웹 페이지 섹션을 그룹화하고 스타일링하는 데 사용되는 다른 HTML 요소의 컨테이너입니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_0.png)
+![이미지](/assets/img/2024-07-13-ThedivisiondivelementinHTML_0.png)
 
 ## 기본 구문.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 `div` 태그의 기본 구문은 다음과 같습니다.
 
@@ -57,54 +48,27 @@ link: "https://medium.com/@nagy_razvan/the-division-div-element-in-html-b5fb7daf
 </html>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ### 단계 1. "HTML div 튜토리얼"이라는 폴더를 만드세요.
 
-![이미지](/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_1.png)
+![이미지](/assets/img/2024-07-13-ThedivisiondivelementinHTML_1.png)
 
 ### 단계 2. "HTML div.txt" 라는 텍스트 파일을 만드세요.
 
-![이미지](/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_2.png)
+![이미지](/assets/img/2024-07-13-ThedivisiondivelementinHTML_2.png)
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div.html"로 저장하여 브라우저(Chrome, Mozzila, Opera 등)로 열 수 있는 HTML 웹 페이지로 변환합니다.
 
-![HTML div.html](/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_3.png)
+![HTML div.html](/assets/img/2024-07-13-ThedivisiondivelementinHTML_3.png)
 
 이제 브라우저로 "HTML div.html" 파일을 열면 이를 볼 수 있어요.
 
-![HTML div.html](/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_4.png)
+![HTML div.html](/assets/img/2024-07-13-ThedivisiondivelementinHTML_4.png)
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## `div`의 속성
 
@@ -117,16 +81,7 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 이제 이러한 속성을 개별적으로 적용해 보겠습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## CSS를 사용하여 `div` 스타일링하기
 
@@ -161,33 +116,15 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 `head` 태그 안에서, 웹 페이지에서 내용이 어떻게 표시될지 담당하는 메타데이터 (데이터 정보)를 먼저 정의했어요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그럼 `body` 태그 안에 `div class="styled-div"` 클래스를 정의하고, 우리 클래스의 이름인 "styled-div"를 할당해 보겠습니다.
 
 이제 위의 예시를 저장하고 마지막에 .html 형식으로 저장한 다음 브라우저에서 열면 다음과 같은 것이 나타납니다:
 
-<img src="/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_5.png" />
+<img src="/assets/img/2024-07-13-ThedivisiondivelementinHTML_5.png" />
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 중첩 `div` 태그입니다.
 
@@ -226,35 +163,17 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 그리고 스타일 속성에서 스타일링을 담당하는 두 클래스를 정의했습니다. 외부 테두리는 파란색이고 내부 테두리는 빨간색입니다. 외부 `div`는 파란 테두리를 가진 outer 클래스를 가지고 있고, 내부 `div`는 빨간 테두리를 가진 inner 클래스를 가지고 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 외부 `div`에는 내부 `div`가 포함되어 중첩 구조가 만들어집니다. 이것은 여러 계층의 컨테이너를 사용하여 복잡한 레이아웃을 만드는 데 유용합니다.
 
 위의 예제를 저장하면 다음과 같이 두 개의 테두리가 나타납니다:
 
-![image](/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_6.png)
+![image](/assets/img/2024-07-13-ThedivisiondivelementinHTML_6.png)
 
 `id` 태그입니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <!DOCTYPE html>
@@ -287,16 +206,7 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 그 다음은 `body` 태그입니다. 여기서 `div`에 id="main"이라는 고유 식별자가 할당되어 있습니다. 이 식별자를 사용하여 CSS 스타일을 적용할 수 있습니다.
 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그럼 div의 배경색을 설정하는 인라인 CSS로 style = "background-color: light-blue;"을 추가합니다.
 
@@ -304,17 +214,8 @@ div 위로 마우스를 올리면 나타나는 툴팁을 제공하는 title="Thi
 
 만일 위의 코드를 텍스트 편집기에 저장하고 확장자 .html로 저장하시면 이렇게 보여질 것입니다:
 
-![image](/ui-log-2/assets/img/2024-07-13-ThedivisiondivelementinHTML_7.png)
+![image](/assets/img/2024-07-13-ThedivisiondivelementinHTML_7.png)
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 분할 태그에 대해 더 알고 싶다면, 아래 링크를 확인해보세요.

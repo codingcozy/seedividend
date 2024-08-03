@@ -1,7 +1,7 @@
 ---
 title: "단계별 가이드 To-Do List 앱 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-Step-by-StepGuideHowtoCodeaTo-DoListApp_0.png"
+coverImage: "/assets/img/2024-07-06-Step-by-StepGuideHowtoCodeaTo-DoListApp_0.png"
 date: 2024-07-06 10:23
 ogImage:
   url: /assets/img/2024-07-06-Step-by-StepGuideHowtoCodeaTo-DoListApp_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/@learntocodetoday/step-by-step-guide-how-to-code-a-to-
 
 시작하기 전에 다음 사항을 확인하세요:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - HTML, CSS 및 JavaScript의 기본적인 이해가 필요합니다.
 - 텍스트 편집기(예: VSCode, Sublime Text, 또는 Atom)가 필요합니다.
@@ -41,18 +30,7 @@ link: "https://medium.com/@learntocodetoday/step-by-step-guide-how-to-code-a-to-
 
 프로젝트 구조:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 할일-리스트-앱 /
@@ -67,18 +45,7 @@ link: "https://medium.com/@learntocodetoday/step-by-step-guide-how-to-code-a-to-
 
 index.html:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 <!DOCTYPE html>
 <html lang="en">

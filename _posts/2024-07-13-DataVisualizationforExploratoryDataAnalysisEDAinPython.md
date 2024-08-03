@@ -25,16 +25,7 @@ link: "https://medium.com/@pythonfundamentals/data-visualization-for-exploratory
 - 산점도: 두 연속 변수 사이의 관계를 보여줄 때 사용돼요.
 - 상자 그림: 변수의 분포를 보여주고 이상값을 식별할 때 사용돼요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Python을 사용한 데이터 시각화 작성 단계
 
@@ -49,16 +40,7 @@ link: "https://medium.com/@pythonfundamentals/data-visualization-for-exploratory
 
 심혈관 질환은 전 세계적으로 주요 사망 원인입니다. 세계 보건 기구(WHO)에 따르면, 매년 약 1,790만 명이 심장 질환으로 사망합니다. 이들 사망의 85%는 심근경색 및 뇌졸중으로 인한 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사에서는 Kaggle의 Heart Attack 데이터셋을 탐색하고 Python을 사용하여 EDA를 위한 데이터 시각화를 만들어볼 것입니다.
 
@@ -79,16 +61,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 3. 데이터 세트 로드하기
 
@@ -100,16 +73,7 @@ heart = pd.read_csv('heart.csv')
 
 데이터를 로드했으니, 데이터프레임의 처음 몇 행을 살펴보며 데이터의 모습을 파악해봅시다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 heart.head()
@@ -121,16 +85,7 @@ heart.head()
 
 # 4. 데이터 정리 및 전처리
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 데이터 정리의 목적은 분석하고 시각화할 준비를 하는 것입니다.
 
@@ -143,16 +98,7 @@ heart.isnull().sum().sort_values(ascending=False).head(11)
 
 여기서는 누락된 값이 없는 것을 확인할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```yaml
 # 중복된 값 체크
@@ -166,16 +112,7 @@ heart.drop_duplicates(keep='first', inplace=True)
 ![Screenshot](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_4.png)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 데이터가 깔끔해졌어요.
 
@@ -188,16 +125,7 @@ heart.describe().T
 
 <img src="/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_5.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가장 중요한 결론은 대부분의 열에서, 평균 값이 중앙값(50번째 백분위: 50%)과 유사하다는 것입니다.
 
@@ -221,16 +149,7 @@ plt.legend(["여성","남성"], fontsize=14)
 plt.xticks(rotation=0)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Image](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_6.png)
@@ -267,16 +186,7 @@ fig.show()
 해석: 남성은 심장 공격의 위험이 더 높습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 연령별 데이터 시각화
 
@@ -312,16 +222,7 @@ plt.ylabel("밀도", fontsize=16)
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_9.png)
@@ -349,16 +250,7 @@ plt.show()
 ```
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_10.png" />
 
@@ -379,16 +271,7 @@ plt.show()
 
 해석:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 환자들의 대부분은 콜레스테롤 수치가 200–300 사이에 있습니다.
 - 나이가 들수록 체내 콜레스테롤 수치가 증가할 가능성이 높습니다.
@@ -417,16 +300,7 @@ plt.xticks(rotation=0);
 
 해석:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 대부분의 환자는 전형적인 협심증 유형을 가지고 있습니다.
 - 비협심통을 겪는 환자들은 심근경색 발생 위험이 높습니다.
@@ -448,16 +322,7 @@ plt.show()
 
 해석:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 열이 히트맵을 통해 다음 사항을 알 수 있습니다.
 
@@ -471,16 +336,7 @@ plt.show()
 - caa: 주요 혈관 수 및 결과(Output)
 - exng: 운동 유도성 협심증
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -490,16 +346,7 @@ plt.show()
 
 # Python 기초 개념
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 감사합니다! 🚀
 "Python Fundamentals"에서 더 많은 콘텐츠를 찾아보실 수 있어요 💫

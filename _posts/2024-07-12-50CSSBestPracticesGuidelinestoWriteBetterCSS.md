@@ -1,17 +1,17 @@
 ---
 title: "더 나은 CSS 작성을 위한 50가지 CSS 모범 사례 및 가이드라인"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_0.png"
+coverImage: "/assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_0.png"
 date: 2024-07-12 19:11
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_0.png
+  url: /assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_0.png
 tag: Tech
 originalTitle: "50 CSS Best Practices , Guidelines to Write Better CSS"
 link: "https://medium.com/before-semicolon/50-css-best-practices-guidelines-to-write-better-css-c60807e9eee2"
 ---
 
 
-<img src="/ui-log-2/assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_0.png" />
+<img src="/assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_0.png" />
 
 최근에 웹 개발자가 되기 위해 습득해야 할 15가지 CSS를 소개한 글을 썼었는데, CSS를 쓰는 것은 특정 기능에 집중하는 것 이상으로 많은 노력이 필요하다는 것을 깨달았어요. 때로는 CSS를 어렵게 만드는 것은 개발자들이 따르고 사용하여 CSS 작성의 즐거움을 느낄 수 있도록 도와주는 도구, 지침 및 최상의 방법을 갖지 못한 것입니다.
 
@@ -19,16 +19,7 @@ link: "https://medium.com/before-semicolon/50-css-best-practices-guidelines-to-w
 
 ## 1 — 전처리기 사용
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS 프리프로세서를 사용하면 CSS를 더 적게 더 빠르고 더 나은 방식으로 작성할 수 있습니다. 이들은 도구와 유틸리티로 가득하여 CSS를 조직화하고 반복을 피하며 모듈화하는 데 도움이 됩니다. 나는 SASS를 선호하지만 LESS와 Stylus도 즐겨 사용합니다. 그들을 좋아하는 이유는 페이지를 스타일링하는 새로운 방법을 소개하지 않기 때문입니다. 여전히 CSS이지만 추가 구문과 기능이 있는 것 뿐입니다.
 
@@ -38,16 +29,7 @@ CSS 프리프로세서를 사용하면 CSS를 더 적게 더 빠르고 더 나�
 
 ## 3 - 스타일 모듈화하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 홈페이지로 이동하는 사용자는 그 페이지에 필요한 스타일만 포함되어 있지 않으면 하나의 파일에 모든 CSS를 포함할 필요가 없습니다. 페이지를 로드할 때 사용자가 보는 꼭 필요한 스타일과 다이얼로그, 스낵-바, 알림과 같이 숨겨진 컴포넌트용인 비필수 스타일로 구분해서 스타일시트를 분리하는 것까지 나는 심지어 합니다. 사용자 조치가 필요한 요소 또는 표시될 컴포넌트들입니다.
 
@@ -57,16 +39,7 @@ CSS를 느리게 로드하는 여러 가지 방법이 있으며 WebPack과 같�
 
 ## 5 – 구체적이고 너무 구체적하지 않게
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 너무 구체적으로 명시하는 것은 어디에 어떤 스타일을 적용해야 하는지 정의하는 데 도움이 되지만, 지나치게 구체적이면 오버킬이 되어 성능이 저하되고 번들 크기가 커질 수 있습니다. 때로는 CSS나 디자인 시스템이 잘못된 표시일 수도 있습니다. 너무 구체적인 선택자의 예시는 다음과 같습니다:
 
@@ -80,16 +53,7 @@ CSS를 느리게 로드하는 여러 가지 방법이 있으며 WebPack과 같�
 
 ## 6 — 브라우저가 CSS를 읽는 방법
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 다음 세렉터를 살펴보세요:
 
@@ -99,16 +63,7 @@ nav ul li a
 
 아마도 가장 성능이 우수한 CSS는 페이지의 각 HTML 요소에 id를 지정하고 그것을 사용하여 스타일을 적용하는 것일 것입니다. CSS 선택자를 사용하는 것은 매우 비용이 많이들고, 특히 깊이 중첩된 경우 더욱 나빠집니다. 아마도 성능의 각 부분이 필요할지 모르겠고, 아마도 브라우저가 충분히 빠르다고 생각할지도 모릅니다. 이상적으로는 HTML을 기준으로 페이지를 스타일링해야 합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 7 - HTML을 고려한 스타일링으로 성능을 높이세요
 
@@ -127,16 +82,7 @@ nav ul li a               /* 태그 (더 느림) */
 [disabled]                /* 전체 */
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 8 - 인라인 스타일 사용을 피하세요
 
@@ -146,16 +92,7 @@ nav ul li a               /* 태그 (더 느림) */
 
 Svelte나 Vue와 같은 일부 라이브러리와 프레임워크는 동일한 파일에서 HTML(JSX), CSS 및 JavaScript가 함께 사용되도록 허용하지만, 결과적으로는 선호도에 맞춰야 합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 9 — !important을 피하세요
 
@@ -165,16 +102,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 10 — 일관성 있게 CSS 작성하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 일관성이 중요해요. 모든 것을 잘못하고 있어도 일관성을 유지하세요. 나중에 수정하기가 훨씬 쉬워질 거예요. 자신에게 맞는 명명 규칙을 찾아 채택하고 CSS 방법론을 채택하며, 스타일을 동일한 방식으로 정리하고, 선택자를 몇 단계까지 중첩할지 정의하세요. 자신의 스타일을 정의하고 그것을 고수하며 시간이 지남에 따라 개선하세요.
 
@@ -184,16 +112,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 12 — 짧은 표기법 사용하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 가끔은 패딩-탑이나 보더-라이트를 지정하고 싶을 때가 있지만 제 경험상 이런 것들을 더 추가해야 할 때가 많아요. 그래서 여러 속성을 지정하지 않고 변경하기 쉽도록 항상 축약형을 사용하는 습관을 들였어요. 변경하기 쉽고 코드도 더 간단해요.
 
@@ -203,16 +122,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 14 — 일반적인 트릭을 유틸리티 클래스로 전환하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 만약 자주 트릭이나 동일한 스타일을 반복적으로 적용하고 있다면, 이를 클래스 유틸로 변환하여 HTML 태그에서 직접 사용할 수 있도록 만드세요. 저에게 중요한 것들은 display flex나 grid를 사용한 가운데 정렬 같은 것들이 있어서 .center-flex와 .center-grid 클래스를 생성했습니다. 이러한 반복적인 스타일 조합을 자동화하기 위해 클래스 유틸을 만드세요.
 
@@ -222,16 +132,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 16 — 고비용 속성에 주의해야 합니다
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 요즘 브라우저는 정말 빨라졌어요. 그렇지만 가끔 복잡한 웹사이트에서 box-shadow, border-radius, position, filter, width 및 height와 관련된 그림 문제가 발생하는 경우가 있어요. 특히 복잡한 애니메이션이나 반복적인 변경에 대해서죠. 이러한 경우에는 브라우저가 복잡한 다시 계산 및 다시 그리기를 해야 하므로 모든 중첩된 자식 요소에 영향을 미치게 됩니다.
 
@@ -241,16 +142,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 18 — “will-change”는 마지막 수단으로 사용하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 "will-change"는 성능을 향상시키는 데 사용됩니다. 이 속성이 어떻게 변경될 것으로 예상되는지 브라우저에 알려주는 것입니다. 그러면 브라우저는 사용되기 전에 복잡한 계산을 수행하게 됩니다. 이것은 좋은 것처럼 들리지만, 대부분의 경우에는 필요하지 않을 수 있습니다. 무언가를 변환하거나 애니메이션을 적용할 때와 같이 변경 관련 성능 문제를 발견하지 않는 한 마지막 수단으로 사용하세요.
 
@@ -260,16 +152,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 20 — CSS를 Normalize하거나 Reset하기"
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 모든 브라우저에는 요소에 대한 기본 스타일이 포함되어 있으며 이는 다양합니다. 따라서 한 브라우저에서는 한 방식으로 보일 수 있지만 다른 브라우저에서는 다르게 보일 수도 있고, 예상하지 못한 추가 테두리나 모양이 생길 수도 있습니다. CSS를 초기화하거나 표준화함으로써 이러한 문제를 해결하고 스타일이 모든 브라우저에서 동일하게 보이도록 할 수 있습니다.
 
@@ -279,16 +162,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 22 - 너무 많은 글꼴 파일 피하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 디자이너가 너에게 너무 많은 글꼴 파일을 전달했다는 것은 경고 신호일지도 몰라. 너무 많은 글꼴을 사용하는 웹사이트는 혼란스럽고 혼란스러울 수 있으므로, 항상 페이지에 필요한 글꼴들만 포함되어 있는지 확인하세요. 글꼴은 로드되고 적용되는 데 시간이 걸릴 수 있으며, 글꼴이 너무 많으면 일반적으로 UI가 글꼴이 로드된 후에 잡힙니다.
 
@@ -298,16 +172,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 24 — CSS 변수 사용하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 프로세서를 사용하는 가장 큰 이유는 변수와 CSS 변수입니다. 브라우저에 로드 될 때 변수가 유지되기 때문에 훨씬 더 좋습니다. 지원이 뛰어나며 더 유연하고 재사용 가능한 UI를 만들 수 있습니다. 더 강력한 디자인 시스템과 기능을 만드는 데 도움이 됩니다.
 
@@ -317,16 +182,7 @@ Bootstrap을 사용하고 스타일을 덮어쓰고 싶다면, !important 플래
 
 ## 26 — 불필요하게 CSS 라이브러리/프레임워크를 도입하지 마세요
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 요즘 대부분의 사람들이 하는 첫 번째 일은 CSS 라이브러리나 프레임워크를 추가하는 것입니다. 그러나 종종 결국 오랜 기간 동안 비용이 많이 들 수 있는 결정일 수 있습니다. 보통 이러한 사람들은 모르는 것을 만나게 되면 도움을 받기 위해 전체 라이브러리를 가져옵니다.
 
@@ -336,16 +192,7 @@ CSS 라이브러리를 추가하는 것은 신중하게 고려해야 합니다. 
 
 배경이나 글꼴 URL 또는 콘텐츠와 같은 문자열 값을 포함할 때에는 이중 따옴표를 선호하고 일관성 있게 유지하세요. 따옴표를 누락하는 사람이 많은데, 때로는 작동할 수 있지만 CSS 해석 도구에서 문제를 일으킬 수도 있습니다. 또한 CSS quotes 속성을 살펴보고 일부 작업을 자동화해 보세요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 28 - 유지보수가 어려운 해킹을 피하세요
 
@@ -355,16 +202,7 @@ CSS 라이브러리를 추가하는 것은 신중하게 고려해야 합니다. 
 
 CSS를 사용하면 HTML 텍스트를 서식 지정할 수 있습니다. HTML에 모든 글자를 대문자, 소문자 또는 대문자화로 수동으로 쓰지 않아도 됩니다. CSS 속성 값을 변경하는 것이 HTML의 모든 텍스트를 변경하는 것보다 빠르고, CSS로 텍스트가 보이는 방식을 원하는 대로 작성할 수 있어 국제화에도 유리합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 30 - CSS 유효성 검사하기
 
@@ -374,16 +212,7 @@ W3 기관은 무료 CSS 유효성 검사기를 제공하여 CSS가 올바른 스
 
 웹 브라우저에 들어갈 내용을 만들고 있으므로 사람들이 다양한 기기 유형과 크기에서 액세스할 것을 고려해야 합니다. 이들을 위한 경험을 향상시키기 위해 유동적이거나 반응형인 디자인을 고려하는 것이 좋습니다. 프로젝트에 반응 형 계획이 없는 경우, 적어도 유동적인 디자인을 유지하려고 노력해보세요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 32 - 콘텐츠가 크기를 정의하도록 하세요
 
@@ -393,34 +222,16 @@ W3 기관은 무료 CSS 유효성 검사기를 제공하여 CSS가 올바른 스
 
 CSS 방법론은 일관성을 보장하고 스타일을 미래지향적으로 만듭니다. 시도할 수 있는 몇 가지 옵션이 있거나 여러 가지를 도입할 수도 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - BEM (Block Element Modifier) — 이것은 강력한 방법론으로, 클래스 네이밍 규칙을 사용하여 블록(구성 요소)과 엘리먼트(구성 요소 부분) 및 모디파이어(구성 요소 및 엘리먼트 상태)를 분리하는 것을 목적으로 합니다.
 - ITCSS (Inverted Triangle CSS) — 3가지 원칙에 따라 특이성 수준에 따라 것을 구성하는 매우 효과적인 방법입니다: 일반적에서 명시적으로, 낮은 특이성에서 높은 특이성으로, 넓게 퍼지는 것에서 지역화된 스타일 규칙으로.
-![Image](/ui-log-2/assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_1.png)
+![Image](/assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_1.png)
 - OOCSS (Object Oriented CSS) — 이것은 꽤 멋진 방법론으로, CSS에서 객관지향 패러다임에 따라 재사용 가능한 독립 코드를 분리하고 추상화하는 것을 목적으로 합니다.
 
 ## 34 — 스타일을 지속적으로 덮어쓰거나 취소하는 것을 피하세요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 거대한 빨간 깃발은 CSS 스타일을 작성한 다음 다른 곳에서 동일한 CSS를 다른 값으로 작성하는 경우를 말합니다. 이렇게 계속하게 되면, 프로젝트의 스타일링 방식에 분명히 문제가 있다는 것을 보여줍니다.
 
@@ -430,16 +241,7 @@ CSS 방법론은 일관성을 보장하고 스타일을 미래지향적으로 �
 
 다른 할 일은 애니메이션 @keyframes를 별도 파일에 넣고 스타일시트 마지막에 포함하거나 간단히 마지막에 가져오는 것입니다. 이렇게 하면 브라우저가 로드되는 동안 애니메이션을 수행하기 전에 전체 스타일이 읽히도록 보장할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 36 — 제 친구인 타사 CSS를 섞지 마세요
 
@@ -449,16 +251,7 @@ CSS 방법론은 일관성을 보장하고 스타일을 미래지향적으로 �
 
 전환을 지정할 때는 반드시 전환할 모든 속성의 이름을 포함해야 합니다. "모두"를 사용하거나 속성 이름을 비워두면 브라우저가 모두 전환을 시도하고 전환 성능에 영향을 줄 수 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 38 — 모든 곳에서 id 속성을 사용하는 것을 피하세요
 
@@ -471,16 +264,7 @@ CSS에서의 성능을 극도로 중요시하는 분이시라면 모든 곳에�
 
 ## 39 — 스타일 순서를 주의하세요
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS는 Cascading StyleSheets의 줄임말로, 마지막에 온 스타일이 이전 스타일을 덮어쓸 수 있는 "캐스케이딩" 방식을 사용합니다. 따라서, 적용하고자 하는 스타일이 제대로 적용되도록 스타일을 순서대로 작성해야 합니다. CSS의 구체성에 대한 이해가 필요합니다.
 
@@ -490,16 +274,7 @@ CSS는 Cascading StyleSheets의 줄임말로, 마지막에 온 스타일이 이�
 
 ## 41 — CSS 속성을 알파벳 순서대로 정렬하세요
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아이템을 쉽게 찾을 수 있어요. 심지어 Stylelint를 사용하여 이 규칙을 강제 적용할 수도 있어요.
 
@@ -509,16 +284,7 @@ CSS 속성 box-sizing의 기본값은 border-box여야 하며, 많은 CSS API �
 
 ## 43 — 색상 이름을 피해주세요
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 모든 색상 값을 "빨강", "보라", "하늘색"과 같이 말하는 대신에 16진수 및 색상 함수로 명시하는 것이 좋습니다. 수백만 개의 16진수 색상 값이 있으며 이 중 모든 색상에 대한 이름이 없습니다. 일관성을 유지하기 위해 한 가지 방법을 선택하고 그것을 준수해 주세요.
 
@@ -528,16 +294,7 @@ CSS 속성 box-sizing의 기본값은 border-box여야 하며, 많은 CSS API �
 
 ## 45 — CSS를 마크업 순서에 맞추어 정리해 보세요
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 마크업을 CSS로 바로 확인하는 것은 이해하기 쉽게 해주네요. 저도 이렇게 하면 시간을 많이 절약할 수 있어서 좋아해요.
 
@@ -547,16 +304,7 @@ CSS 속성 box-sizing의 기본값은 border-box여야 하며, 많은 CSS API �
 
 ## 47 — 하이픈(-) 또는 밑줄(_)를 사용할까요?
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 가장 흔한 클래스와 아이디 이름 구분자는 하이픈이지만, 선택하시는 것은 무엇이든 간에 일관성 있게 유지해 주세요.
 
@@ -566,16 +314,7 @@ CSS 속성 box-sizing의 기본값은 border-box여야 하며, 많은 CSS API �
 
 ## 49 — 사용하지 않는 CSS 제거하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 마찬가지로, 사용할 CSS만 포함해서 배송하려면 PurgeCSS와 같은 도구를 활용하는 것을 고려해보세요. 이 도구들은 CSS를 살펴보고 HTML을 분석하여 필요한 스타일을 결정합니다. 이것이 필요한지 확신이 없다면, 코드 커버리지를 확인하는 브라우저 도구를 사용해보세요. 그것은 사용되지 않는 스타일을 배송하는지 알려줄 것입니다.
 
@@ -585,16 +324,7 @@ CSS 속성 box-sizing의 기본값은 border-box여야 하며, 많은 CSS API �
 
 ## 결론
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아무도 하루 아침에 CSS를 더 잘 작성하지는 못해요. 실력을 키우려면 연습과 조정이 필요해요. 이 제안은 제가 CSS 공부하는 데 많은 도움을 받은 것들이에요. 당신을 도와 줄 거라고 확신해요. 각 경험은 고유하니, 올바르게 느껴질 때까지 다양한 방법을 시도해야 해요.
 
@@ -604,16 +334,7 @@ CSS 속성 box-sizing의 기본값은 border-box여야 하며, 많은 CSS API �
 
 행운을 빕니다!
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 다음 독서 추천 목록:
 50가지 자바스크립트 Best Practice 규칙으로 더 나은 코드 작성하기

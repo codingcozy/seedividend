@@ -1,7 +1,7 @@
 ---
 title: "간단한 호버 효과로 네비게이션 바 멋지게 꾸미는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png"
+coverImage: "/assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png"
 date: 2024-07-07 12:44
 ogImage:
   url: /assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png
@@ -18,22 +18,11 @@ CodePen: [여기](https://codepen.io/precodecamp/pen/MWdXozQ?editors=1100)
 
 로브는 CSS를 사용하여 세련된 밑줄 호버 효과가 있는 간단한 네비게이션 바를 만드는 방법을 보여줍니다. 네비게이션 요소 설정하는 방법, 불릿 포인트 제거, 레이아웃을 위해 Flexbox 사용, 그리고 다듬어진 외관을 위해 앵커 태그를 사용하는 방법을 배울 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아래는 Markdown 형식으로 변경한 내용입니다.
 
-![Spice up your navbar with this simple hover effect](/ui-log-2/assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png)
+![Spice up your navbar with this simple hover effect](/assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png)
 
 Rob uses Visual Studio Code for this tutorial, but offers a CodePen alternative for those who prefer it.
 
@@ -43,18 +32,7 @@ Key takeaways include:
 - Removing list bullet points
 - Styling anchor tags and implementing pseudo-elements for hover effects
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ✨ 내비게이션 바를 업그레이드하고 싶나요? Rob와 함께 코드에 빠져보세요. 이 간단한 호버 효과로 네비게이션 바를 더욱 멋지게 만들어보세요.
 
@@ -64,18 +42,7 @@ Key takeaways include:
 
 즐거운 코딩하세요! 🚀 무료 VS CODE 설정 비디오: [여기](https://links.precodecamp.com/free-vs-code-video-series) 라이브 코칭으로 기본기 배우기: [이곳](https://links.precodecamp.com/learn-about-code)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 링크를 사용하여 서버에 참여해주세요: [https://discord.gg/EGeSumD8qe](https://discord.gg/EGeSumD8qe)
 

@@ -1,10 +1,10 @@
 ---
 title: "2024년 CSS 기초 - Part 1 알아두어야 할 필수 개념들"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:02
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "040724 AINYCODES ~ CSS Basics Pt. 01"
 link: "https://medium.com/@wastblog/css-basics-pt-01-040724-ainycodes-fc983b2c928f"
@@ -19,16 +19,7 @@ Google Fonts를 사용하는 몇 가지 방법이 있어요:
 
 - `link` 태그를 통한 링크 추가: 아래 코드를 HTML의 헤드 부분에 추가하세요:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 [Google Fonts](https://fonts.google.com/)에서 가져올 글꼴 패밀리(Lato, Poppins, Roboto)를 지정한 것입니다.
@@ -39,16 +30,7 @@ Google Fonts를 사용하는 몇 가지 방법이 있어요:
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap');
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 3. 폰트 패밀리 속성 사용하기: CSS에 다음을 추가하세요:
 
@@ -58,16 +40,7 @@ body { font-family: 'Lato', 'Poppins', 'Roboto', sans-serif; }
 
 다음은 배경을 사용하는 몇 가지 방법입니다:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 단색: 단색 배경을 원하시나요? 쉬워요! body에 ' background-color: #f2f2f2; '을 추가하세요.
 - 이미지: 배경 이미지를 추가해보세요: body에 ' background-image: url(`이미지.jpg`); '를 넣어보세요.
@@ -83,16 +56,7 @@ body { font-family: 'Lato', 'Poppins', 'Roboto', sans-serif; }
 - 태그 셀렉터: 모든 h1 태그를 스타일링해보세요: 'h1'에 ' font-size: 36px; '를 적용해보세요.
 - 속성 셀렉터: 특정 속성을 갖는 입력란을 스타일링해보세요: 'input[type="email"]'에 ' border: 1px solid #ccc; '를 추가해보세요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 마지막으로, 속성과 값에 대해 이야기해 봅시다! 이들은 CSS의 기본 구성 요소입니다. 속성과 값으로 사이트를 마음대로 스타일링할 수 있어요.
 

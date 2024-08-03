@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/celebrate-with-ai-chinese-new-yea
 
 용감하게 우리가 용의 해에 발을 디딜 때, 상품 장치에 작은 AI 모델을 활용하고 축제 분위기를 즐기는 것이 흥미로운 순간입니다. 라즈베리 파이나 생성적 AI를 사용해본 적이 없더라도 걱정하지 마세요. 이 기사에서는 이 프로젝트의 모든 단계를 영웅이 될 때까지 안내해 드리겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 시작해 봅시다!
 
@@ -38,16 +29,7 @@ link: "https://medium.com/towards-data-science/celebrate-with-ai-chinese-new-yea
 
 이해하셨듯이, 이 문서에는 몇 가지 기본 하드웨어가 필요합니다. 필요한 것은 다음과 같습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Raspberry Pi 5–8 GB: 라즈베리 파이를 129유로에 개별 구매했어요. 아래 나열된 모든 구성품이 포함된 스타터 키트를 구입할 수도 있어요.
 - 마이크로 메모리 카드: 메모리 카드가 클수록 빠를수록 좋아요. 저는 "SanDisk 128GB MicroSDXC + SD 어댑터 A2 앱 성능 최대 190MB/s, 클래스 10, U3, V30"을 선택했어요. 이 마이크로 SD 카드 비용은 27유로 했어요.
@@ -61,16 +43,7 @@ link: "https://medium.com/towards-data-science/celebrate-with-ai-chinese-new-yea
 
 라즈베리 파이에는 두 개의 마이크로 HDMI 포트도 제공돼요. 이를 통해 두 개의 디스플레이를 동시에 연결할 수 있어요. 전원 공급을 위한 전용 전원 공급 포트도 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 라즈베리파이 5의 반대쪽에는 microSD 카드를 넣을 수 있는 슬롯이 있습니다. 거기에 운영 체제를 다운로드하고 설치할 것입니다.
 
@@ -80,16 +53,7 @@ SD 카드를 통해 라즈베리 파이를 부팅하려면, 우선 라즈베리 
 
 이 소프트웨어는 사용자 친화적이며 사용하기 쉽습니다. 노트북에 다운로드하고 설치한 후, SD 카드를 노트북의 카드 리더기에 삽입하십시오. 그런 다음 소프트웨어를 사용하여 라즈베리 OS를 SD 카드에 플래시 할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우선, Raspberry Pi 장치, 운영 체제 및 저장 공간을 선택해야 합니다. 다음 화면 캡처에서 제공된 옵션을 선택할 수 있어요.
 
@@ -99,16 +63,7 @@ SD 카드를 통해 라즈베리 파이를 부팅하려면, 우선 라즈베리 
 
 ![화면 캡처](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 # 라즈베리 파이 시작 및 필수 도구 설치하기
@@ -118,16 +73,7 @@ SD 카드를 준비한 후 라즈베리 파이에 삽입할 수 있습니다. �
 <img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_3.png" />
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 내 Raspberry Pi가 시작되면 다음 몤령을 실행하여 Raspberry Pi의 IP 주소를 알 수 있고, 그런 다음 노트북을 사용하여 SSH를 통해 Raspberry Pi에 연결합니다.
 
@@ -140,16 +86,7 @@ ifconfig
 
 ![이미지](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_4.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 # 내 노트북에서 실행
@@ -164,16 +101,7 @@ SSH를 통해 라즈베리 파이에 연결한 후 다음 명령을 실행하여
 sudo apt-get update && sudo apt-get upgrade
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_5.png)
@@ -187,16 +115,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 그런 다음 다음 명령어로 스크립트를 실행하세요:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 sudo sh get-docker.sh
@@ -208,16 +127,7 @@ sudo sh get-docker.sh
 
 사용자를 Docker 그룹에 추가하는 방법은 다음과 같습니다. 변경 사항이 적용되려면 Raspberry Pi에서 로그아웃하고 SSH로 다시 로그인해야 합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 sudo usermod -aG docker [user_name]
@@ -234,16 +144,7 @@ ssh my_user_name@raspberry_pi_ip_adress
 이제 다음을 실행하여 루트 권한이 아닌 사용자가 Docker를 실행할 수 있는지 테스트하세요:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 도커 실행 hello-world
@@ -256,16 +157,7 @@ ssh my_user_name@raspberry_pi_ip_adress
 # Ollama, Mistral AI 및 LLaVA 설치하기
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 재미있는 부분을 시작해봅시다: 우리의 AI 모델을 설치하는 것입니다. 먼저, Ollama를 설치할 것입니다.
 
@@ -275,16 +167,7 @@ Ollama는 사용자가 개인 컴퓨터나 Raspberry Pi와 같은 기기에서 �
 
 ## Ollama 설치
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Ollama를 설치하려면 먼저 다음 명령을 실행하여 Ollama를 다운로드하고 설치합니다.
 
@@ -296,16 +179,7 @@ curl https://ollama.ai/install.sh | sh
 
 Ollama를 설치한 후에는 Raspberry의 웹 브라우저에서 http://127.0.0.1:11434/을 방문하여 작동 여부를 확인하세요. 기본적으로 포트 번호를 사용하는데, 사용자 설정에 따라 다를 수 있습니다. 기본 포트 번호는 11434입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_9.png)
@@ -318,16 +192,7 @@ Ollama를 설치한 후에 다양한 AI 모델을 다운로드해봅시다. 먼�
 ollama run mistral
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![링크 텍스트](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_10.png)
@@ -339,16 +204,7 @@ ollama run mistral
 ## LLaVA 설치
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저희가 관심 있는 두 번째 모델은 LLaVA입니다. LLaVA는 비전 인코더를 사용하여 Vicuna와 결합한 새로운 엔드 투 엔드 학습 대형 멀티모달 모델로, 일반적인 시각 및 언어 이해를 위해 설계되었습니다. Mistral을 다운로드한 방식과 유사하게 LLaVA를 다운로드하는 과정을 진행해 보겠습니다.
 
@@ -360,16 +216,7 @@ ollama run llava
 
 ## Ollama 웹 UI 설치
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 AI 어시스턴트와의 상호 작용을 더 시각적이고 직접적으로 만들기 위해 Ollama 웹 UI를 사용하기로 결정했어요.
 
@@ -381,16 +228,7 @@ Ollama를 설치하려면 다음 명령을 실행하기만 하면 돼요. 이미
 docker run -d --network=host -v ollama-webui:/app/backend/data -e OLLAMA_API_BASE_URL=http://127.0.0.1:11434/api --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_13.png" />
 
@@ -400,16 +238,7 @@ docker run -d --network=host -v ollama-webui:/app/backend/data -e OLLAMA_API_BAS
 
 Ollama 웹 UI를 http://localhost:8080을 통해 열었을 때, 처음 해야 할 일은 가입하는 것입니다. 이 단계는 AI 모델과의 채팅 내역을 기록하고 보안상의 이유로 중요합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_14.png" />
 
@@ -419,16 +248,7 @@ Ollama 웹 UI에 로그인하고 처음 화면을 확인해 보았습니다. 이
 
 Mistral AI의 기능 탐색 중에 다음 질문을 하였습니다: “중국 정월에는 무엇을 먹나요?”
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Mistral AI를 통해 액세스하는 Ollama 웹 UI는 나에게 중국 새해와 관련된 전통 요리 목록을 상세히 보여주었어.
 
@@ -438,16 +258,7 @@ Mistral AI를 통해 액세스하는 Ollama 웹 UI는 나에게 중국 새해와
 
 Mistral AI와 이야기한 뒤에, 나는 중국 전통 요리를 요리해보는 아이디어에서 영감을 받았어. 그러나 냉장고에 있는 재료로 무엇을 할 수 있을까? 바로 여기서 LLaVA가 그의 실력과 마법을 보여줄 때야.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 냉장고 사진을 찍어 "새해 맞이 중국 요리 무엇을 요리할까요?" 라고 물었습니다. LLaVA는 먼저 사진을 분석하고, 냉장고 속 재료로 새해 맞이 중국 요리로 요리할 수 있는 몇 가지 요리를 제안했습니다. 나는 고기만두와 만두를 가장 좋아해요.
 
@@ -457,16 +268,7 @@ Mistral AI와 이야기한 뒤에, 나는 중국 전통 요리를 요리해보�
 
 이 쉬운 단계별 안내서를 통해, 누구나 라즈베리 파이나 AI 지식에 상관없이 1시간 이내에 자신만의 AI 조수를 설정할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 중국의 새해를 축하하는 동안, 이 안내서를 살펴보세요. 인공 지능의 요소를 더해 이 휴일을 환영할 수 있는 방법을 알아보세요. 이 기술적인 경이로움과 함께 새해를 맞아 지혜, 행복, 그리고 번영을 축하하세요.
 

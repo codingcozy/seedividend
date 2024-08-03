@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/introducing-the-quad-tile-chart-s
 
 이 기사에서는 값을 정사각형으로 시각화하고 볼록 다각형 또는 단순 오목 다각형 형태의 컨테이너를 가득 채우는 공간 절약 방법을 탐구하겠습니다. 또한 이 탐구 과정에 코드를 많이 활용해 보았으니, 다른 유용한 기술과 시각화 유형에 대한 재미있는 자습서로 제공될 수 있기를 희망합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사를 통해 달성하고자 하는 목표는 일반적이고 비표준적인 컨테이너 모양(아래 그림 참조)을 고려하고, 이와 유사한 모양의 값 집합을 제시하여 사용 가능한 공간을 최적화하고 직관적인 크기 비교를 제공하며 데이터를 사각형 모양으로 표현하는 것입니다!
 
@@ -38,16 +29,7 @@ link: "https://medium.com/towards-data-science/introducing-the-quad-tile-chart-s
 
 ## 축 기반 데이터 시리즈 시각화
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 y-축이 항목의 값을 나타내는 경우, 정렬된 막대 차트와 경쟁하기 어려울 수 있어요. 먼저 그것을 플롯하고, 저의 vizmath 패키지를 사용하여 몇 가지 더 축 기반의 차트를 만들어 보겠습니다.
 
@@ -76,16 +58,7 @@ plt.show()
 
 <img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_2.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 크리스털 막대 차트
 
@@ -105,16 +78,7 @@ cbc.cbc_plot(legend=False, alternate_color=True, color=False)
 
 비스웜 플롯
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 from vizmath.beeswarm import swarm
@@ -134,16 +98,7 @@ bs.beeswarm_plot(color=False)
 
 이제 같은 값 세트를 사용하여 상대적인 크기 비교에 중점을 둔 축 없는 예제로 넘어가며 일부 반응형 Bubble Chart를 그려 Quad-Tile Chart 알고리즘을 미리보겠습니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 축 없이 데이터 시각화
 
@@ -174,16 +129,7 @@ o_rt = rt(df, ['speed'], 'speed', r1=0, r2=1,
 o_rt.plot_levels()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Bubble Chart (grid)](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_5.png)
@@ -227,16 +173,7 @@ grid_bubbles(data['speed'], size_by='diameter')
 ![Bubble Chart (grid)](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_6.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 버블 차트 (내 새로운 Quad-Tile 차트 알고리즘을 사용하여 반 정렬)
 
@@ -269,16 +206,7 @@ o_pq.polyquadtile_plot(show_constraints=True, poly_color='w',
 
 이러한 방법들은 값이 어떤 크기인지 직접적인 참조를 제공하는 축이 없어서 위치 변경 기능이 작동합니다. 따라서 값의 모양, 크기 및 레이아웃이 데이터 인사이트를 수집하는 데 중요합니다. 값 표현 간의 공간을 보존하는 방식으로 이러한 차트를 유용하게 만드는 파라미터 조정이 중요합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 숫자 축 기반 차트의 경우 멀리 떨어져 있는 값 모양을 나란히 보여줄 수 있지만, 축 없는 차트를 사용하면 값 모양을 옆으로 보여줄 수 있어요. 데이터와 사용 사례에 따라, 축 없는 방법의 시각화 압축은 축 기반 방법보다 상당한 장점이 될 수 있어요.
 
@@ -288,16 +216,7 @@ o_pq.polyquadtile_plot(show_constraints=True, poly_color='w',
 
 위의 예시를 리뷰하면 버블 차트가 사용 가능한 공간을 보존하면서 비슷한 형태의 값 세트를 적절히 크기에 맞게 표현하는 우리의 초기 목표를 이루는 경쟁자임을 알 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 포장된 Bubble Chart(컨테이너)는 결과를 측정하기 위한 경쟁 상대가 될 것입니다. 그러나 아쉽게도 내가 찾은 구현 (아래에 표시됨)은 원형 레이아웃만 나타내므로 다른 컨테이너 모양을 탐색할 때 완벽한 비교 사례가 되지 않을 것입니다.
 
@@ -350,16 +269,7 @@ df.to_csv(os.path.dirname(__file__) + '/circles.csv',
 
 경쟁 상대를 선택했으니 이제 포장된 Bubble Chart가 홀로 서 있는지 또는 컨테이너 포장 목표를 충족하는 상대적 가치 비교를 위해 활용할 수 있는 다른 단순한 모양이 있는지 살펴보겠습니다. 이제 정사각형의 응용을 탐색해 보겠습니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 왜 Squarify를 사용해야 할까요?
 
@@ -369,16 +279,7 @@ df.to_csv(os.path.dirname(__file__) + '/circles.csv',
 
 하지만 사각형은 어떨까요? 다른 가능한 모양들과 비교했을 때 패킹된 사각형은 상대적으로 무해해 보이지만, 확실한 패킹된 사각형 차트 구현을 찾는 것은 어렵습니다. 왜 그럴까요...
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 간단한 비교를 하고 어떤 것을 발견해 봅시다:
 
@@ -388,16 +289,7 @@ df.to_csv(os.path.dirname(__file__) + '/circles.csv',
 
 그렇다면, 나는 스퀘어리파이를 하는 이유가 다음과 같습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 패킹된 사각형 구현은 존재하지 않는 것 같아서 시각적으로 얼마나 매력적인지 알기가 어렵습니다(패킹된 원의 대체물로). 따라서 조사할 가치가 있습니다.
 - 파이썬의 사용 가능한 패킹된 원 구현물에서는 컨테이너를 활용할 수 있는 능력이 일반적으로 부족합니다(모두 원의 수가 증가함에 따라 원형 레이아웃만 제공하는 것으로 보입니다).
@@ -409,16 +301,7 @@ df.to_csv(os.path.dirname(__file__) + '/circles.csv',
 
 ## 타일링과 함께
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 수사 목적으로 명백한 것을 언급할 가치가 있습니다. 사각형은 가장을 가지고 있지만 원은 그렇지 않습니다. 이 특성은 유사한 크기의 사각형들을 테셀레이션할 수 있게 해주어, 패킹이라는 유용한 개념이 될 수 있습니다.
 
@@ -451,16 +334,7 @@ diamond_tessellation(2, 9)
 
 유감스럽게도, 테셀레이션은 데이터셋의 값이 동일하거나 편리한 비율을 가지는 것으로 가정하는 것이 현실적이지 않기 때문에 일반적인 해결책은 아닙니다. 그러나 간격이 없는 가장의 개념은 원보다 잠재적인 이점으로 더 탐구할 가치가 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 최적화로
 
@@ -471,16 +345,7 @@ diamond_tessellation(2, 9)
 - 중첩 방지 (밀어내기) - 중첩을 방지하기 위해 모양들의 총 중첩 영역을 고려하고, 다른 모양에 완전히 포함되는 모양에 대해 추가 벌칙을 부과하여 작은 모양의 중첩 방지를 촉진합니다.
 - 패킹 촉진 (가까이 끌어모으기) - 패킹을 촉진하기 위해 모양을 특정 관심 지점으로 끌어당기는 것을 보상할 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지금은 컨테이너를 무시하고 도형 패킹에 초점을 맞춰 각 도형의 기하학적 특징을 살펴봅시다. 이제 식별된 재료로 구현할 함수를 설정해 봅시다.
 
@@ -548,16 +413,7 @@ def objective_function(variables, shapes, shape_type,
 
 이제 목적 함수가 준비되었으니, 이전의 예제 데이터를 사용하여 원과 사각형 패킹 최적화 루틴을 설정해 봅시다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 이전 예시 데이터:
@@ -626,16 +482,7 @@ def calc_bounds(모양들, 모양_유형):
 
 마지막으로, 결과를 시각화하기 위한 플로팅 함수를 설정하고 각 모양에 대해 최적화를 실행해보겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import matplotlib.pyplot as plt
@@ -707,16 +554,7 @@ plot_shapes(packed_squares, 'square')
 
 각 테스트 케이스를 생성하는 데 랩톱에서 약 5분이 걸렸으므로, 이 방법의 시간 요구 사항은 고려해야 할 불안정한 요소입니다. 이미 긴 대기 시간 때문에 컨테이너 중첩 비용을 목적 함수에 추가하여 컨테이너 패킹 통찰을 검토하는 것은 현재 필요하지 않은 것으로 보입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지면 배치 관련해서 원들이 더 조밀하게 배열되어 있는 것 같습니다. 이것이 데이터 시각화에서 패킹된 원이 패킹된 정사각형보다 흔한 이유를 설명하는 첫 번째 증거가 될 수 있습니다.
 
@@ -726,16 +564,7 @@ plot_shapes(packed_squares, 'square')
 
 위의 실험에서 얻은 주요 결론은:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 일반 최적화 구현을 사용하여 단순 목적 함수에 따라 패킹된 모양을 생성하는 것은 어느 정도 작동하는 것 같아요.
 - 그러나 이것은 정말 느리고 대규모 데이터셋을 처리하기에 부적합하죠.
@@ -749,16 +578,7 @@ plot_shapes(packed_squares, 'square')
 - 패킹: 간격 없이 사각형 사이에 이웃할 수 있는 능력
 - 배치: 각 사각형의 각 변은 4개의 가능한 꼭지점 중 하나에서 시작하여 이웃할 사각형에게 이웃할 수 있는 평면적인 2차원 공간을 무한대로 제공함
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음에는 패킹된 사각형이 패킹된 원과 어떻게 경쟁할 수 있는지 이해하기 위해 Quad-Tile 차트라는 새로운 시각화 기술에 사용되는 알고리즘을 설명할 것입니다.
 
@@ -768,16 +588,7 @@ plot_shapes(packed_squares, 'square')
 
 몇 년 전 어떤 사람이 패킹된 버블 차트는 대부분 쓸모없다고 말했습니다. 무슨 이유에서인지 그 말이 나에게 영감을 주어 패킹된 사각형 차트를 만들게 되었습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 첫 번째 버전을 개발하고 Tableau Public 시각화와 몇 가지 다른 기술과 함께 구체화된 결과물을 시험해 보았어요. 여기에는 18개의 사각형을 포함하는 Voronoi Treemaps가 있는 (v1) Quad-Tile Chart가 표시된 발췌본이 있어요. (Voronoi Treemaps는 D3.js를 사용하여 계산되었어요).
 
@@ -787,16 +598,7 @@ plot_shapes(packed_squares, 'square')
 
 ## (초기) 알고리즘 v1
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 내 초기 접근 방식인 2022년 초에는 컨테이너를 고려하지 않았습니다. 가장 큰 정사각형부터 시작하여 중앙에 배치한 후 모든 정사각형이 중심 정사각형 주변에 감싸지도록 연속적으로 나열하려고 노력했습니다. 가장 작은 정사각형은 가장 중심부터 먼 위치에 배치되었습니다.
 
@@ -809,16 +611,7 @@ plot_shapes(packed_squares, 'square')
 
 <img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_13.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 v1 알고리즘은 다음과 같아요:
 - 먼저 양수 값들로 이루어진 집합부터 내림차순으로 정렬해요. 예를 들어, 9.4, 7.4, 1.5, 0.2
@@ -836,16 +629,7 @@ v1 알고리즘은 다음과 같아요:
 - 원래 위치에서 한 방향으로 효과적으로 이동시켜져요 (사각형의 너비가 세그먼트 길이와 같은 경우)
 - 두 섹션으로 분할돼요 (하나는 배치된 사각형의 너비를 따르고, 다른 하나는 시작 위치와 길이가 변경된 원래 세그먼트일거에요).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_14.png" />
 
@@ -855,16 +639,7 @@ v1 알고리즘은 다음과 같아요:
 
 이것이 제 두 번째 영감으로 이어집니다. Quad-Tile Chart v1을 내 vizmath 패키지에 통합할 때 다각형 입력과 더 많은 작업을 할 수 있는지 생각하기 시작했습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 일부 실험 끝에, 주어진 다각형 내에 꼭지점이 깔끔하게 맞는 완전히 기능적인 컨테이너 패킹 구현이 재미있을 것이라고 결정하고 처음부터 알고리즘을 완전히 개편해보기로 했습니다! 다음에 해당하는 알고리즘을 확인해 봅시다: Quad-Tile Chart v2
 
@@ -874,16 +649,7 @@ v1 알고리즘은 다음과 같아요:
 
 v2에 대한 주요 세부 내용은 다음과 같습니다. 특별한 점을 확인해 보세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Bridge Segments(컨테이너 채우기)
 - Backward Segment Extension(‘축소’ 옵션)
@@ -929,16 +695,7 @@ v2에 대한 주요 세부 내용은 다음과 같습니다. 특별한 점을 �
 - v1의 단계 10을 반복하며 각 사분면을 올바른 방향으로 회전합니다.
 - 자동 배열 옵션이 선택된 경우(컨테이너 패킹), 변환된 값들
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 v2 알고리즘은 컨테이너 패킹을 맞추기 위해 훨씬 더 많은 작업을 필요로했기 때문에 v1 알고리즘의 간단함에 비해 더 많은 노력이 필요했습니다. 하지만 정말 그만한 가치가 있었어요! v2에서 몇 가지 레이아웃 예제를 살펴봅시다.
 
@@ -948,16 +705,7 @@ v2 알고리즘은 컨테이너 패킹을 맞추기 위해 훨씬 더 많은 작
 
 다음으로, Python에서 Quad-Tile 차트를 구축하는 방법을 살펴보겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 파이썬 구현
 
@@ -999,16 +747,7 @@ qt_o_width.quadtile_plot(color='quad', cw=0.75, opacity=.9)
 
 <img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_18.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 v2를 사용해 봅시다:
 
@@ -1055,16 +794,7 @@ pqt_o_width.polyquadtile_plot(color='quad', cw=0.75, opacity=0.9)
 
 이제 v1 및 v2의 랜덤 초기화 옵션을 포함한 몇 가지 추가 옵션을 조사해 봅시다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 1000개의 임의 크기 사각형을 테스트해봅시다:
@@ -1108,16 +838,7 @@ pqt_o.polyquadtile_plot(color='quad', cw=0.75, opacity=.9, circles=True,
 # 계속해서 무작위 크기 사각형을 사용한 무작위 컨테이너 실행
 ```  
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 <img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_21.png" />
@@ -1129,16 +850,7 @@ pqt_o.polyquadtile_plot(color='quad', cw=0.75, opacity=.9, circles=True,
 사분면 다각형 출력:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - item — ‘id’ 입력 필드로 지정된 수신 식별자
 - a — 사각형의 상대적 면적 (버퍼는 포함되지 않음)
@@ -1170,16 +882,7 @@ o_pq2.o_polyquadtile_chart.df[['id','item','a','w','x','y','path']].head()
 
 사각형 중심점은 'id' 대신 'item'으로 동일한 속성으로 추출될 수도 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 # 넓이 별 크기:
@@ -1196,16 +899,7 @@ o_pq2.o_polysquares.df[['id','a','w','x','y']].head()
 ## 확장성
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 캔버스 레이아웃을 활용하는 원래의 목표를 표준 및 비표준 컨테이너와 함께 다시 살펴보겠습니다. 볼록 다각형과 간단한 오목 다각형을 수용할 수 있는 방법을 보여드렸고, 이제는 소개에서 소개된 레이아웃을 채워봤습니다. 각각 100개의 정사각형이 들어가는 컨테이너에 대해 다양한 회전을 적용했습니다.
 
@@ -1222,16 +916,7 @@ pqt_o = pqt.random_polyquadtile(100, constraints=[aspect_ratio],
 pqt_o.polyquadtile_plot(color='quad', cw=0.75, opacity=.9)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_25.png)
 
@@ -1242,16 +927,7 @@ Extensibility의 또 다른 흥미로운 측면은 계층적 데이터를 포함
 
 Quad-Tile Chart는 계층의 상위 수준을 유사한 모양으로 캡처하여 초기 크기 비교를 제공함으로써 두 번째 문제를 우아하게 처리할 수 있습니다.🌟
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 첫 번째 문제에 대해 말씀드리면, 중첩된 Quad-Tile Charts는 중첩된 패킹된 원(타일 섹션에서 언급된대로)과 동일한 단점을 가지고 있지만, 전통적인 직사각형 Treemaps(또는 Voronoi Treemaps)으로 나무 전체에 대한 정확한 면적을 유지하는 대안을 제공합니다. 중첩된 직사각형 Treemaps은 부모 정사각형의 변을 사용하여 보다 직관적인 자식 직사각형 비교를 할 수 있어 원하는 경우가 있습니다.
 
@@ -1261,16 +937,7 @@ Quad-Tile Chart는 계층의 상위 수준을 유사한 모양으로 캡처하�
 
 제가 vizmath에서 Squaremaps에 대한 구현을 다음과 같이 작성했습니다(그리고 필요 시 계층적 데이터를 동적으로 생성하는 기능도 추가했습니다!):
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import pandas as pd
@@ -1318,16 +985,7 @@ o_sm2.o_squaremap.plot_levels(level=3, fill='w')
 
 파이썬에서 Quad-Tile Chart를 소개했으며 계층적 확장에 대한 Squaremap을 포함하였습니다. 이어서 Tableau Public (v 2023.3.1)에서 양쪽 모두를 구현하는 방법을 보여드리겠습니다! 우선 간단한 Squaremap 구현부터 시작하여 대화형으로 만드는 더 체계적인 Quad-Tile Chart 구축으로 넘어가보겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Tableau Public에서 Squaremap 구현
 
@@ -1355,29 +1013,11 @@ o_sm.o_squaremap.o_rad_treemap.dataframe_to_csv('squaremap')
 
 <img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_28.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - [Group]을 Marks 아래 Detail로 드래그하세요.
 - Marks 드롭다운 메뉴에서 Polygon을 선택하세요 (이 시점에서 이상하게 보인다고 걱정하지 마세요).
@@ -1393,16 +1033,7 @@ o_sm.o_squaremap.o_rad_treemap.dataframe_to_csv('squaremap')
 
 이제 아래와 유사한 차트가 나타날 것입니다 (입력의 무작위성으로 인해 고유한 것이 될 것입니다!). 이제 [Level]로 필터링하거나 필요에 맞는 상호 작용을 설정할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_29.png) 
 
@@ -1412,16 +1043,7 @@ Tableau Public에서 Quad-Tile Chart 구현
 
 이제 더 자세한 Quad-Tile Chart 구현에 초점을 맞추고 Tableau Public에서 상호작용형 시각화를 만들어 보겠습니다. 강 체계에 대한 위키피디아 데이터 일부로 시작해서 파일에 저장해보죠.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import pandas as pd
@@ -1496,16 +1118,7 @@ df.to_csv('강_시스템.csv')
 
 길이 (
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이것은 좋아 보이네요. Tableau에서 지도 레이어를 활용하기 위해 차트 다각형 및 중심점의 출력 데이터를 저장해봅시다. 나중에 사용할 삼각형의 좌표도 출력하여 나준합니다.
 
@@ -1561,16 +1174,7 @@ o_pqt_legend.o_polyquadtile_chart.df = o_pqt_legend.o_polyquadtile_chart.df[
 o_pqt_legend.o_polyquadtile_chart.dataframe_to_csv('quadtile_legend')
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![그림](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_31.png)
 
@@ -1581,16 +1185,7 @@ o_pqt_legend.o_polyquadtile_chart.dataframe_to_csv('quadtile_legend')
 - 모든 배경 맵 레이어 (베이스, 랜드 커버 등)을 선택 해제하세요.
 - 이제 맵 영역에서 마우스를 오른쪽 클릭하고 맵 옵션을 선택한 다음, 패널에서 모든 옵션을 선택 해제하세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 배경 레이어를 닫고 다음 단계를 계속해 보세요:
 
@@ -1606,16 +1201,7 @@ o_pqt_legend.o_polyquadtile_chart.dataframe_to_csv('quadtile_legend')
 - Marks 드롭다운 메뉴에서 Line을 선택합니다 (이 시점에서 이상하게 보인다 해도 걱정하지 마세요).
 - [Path]를 Marks 하위 Path로 드래그하고 차원으로 변환하는 프로세스를 반복합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 메인 스퀘어 레이어에 대해 Marks 드롭다운 메뉴에서 Polygon을 선택하여 새 레이어에 대해 위 과정을 반복하고, [Drainage Area Km2]로 색을 입힙니다. '시작: 0, 끝: 3,000,000'으로 설정해주세요.
 
@@ -1629,16 +1215,7 @@ Tableau에서 올바른 크기 조정을 위해 길이를 제곱한 것을 알 �
 - [Size]를 Marks 아래 Size로 드래그하고 이를 차원으로 변환하는 과정과 크기 틱을 두 번째 해시로 설정합니다.
 - [Average Discharge M3 S]를 Color로 드래그하고 하얀 테두리를 추가하고 '시작: 0, 끝: 50,000'으로 설정해주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 오른쪽 하단에 널 경고 표시가 나타납니다. 이를 마우스 오른쪽 단추로 클릭하고 숨김 표시를 선택할 수 있습니다. 이 시점에서 상호작용 및 레이블을 나중에 구현하기 위해 아래에 표시된 몇 가지 다른 세부 정보와 속성을 추가한 것처럼 보일 것입니다:
 
@@ -1648,16 +1225,7 @@ Tableau에서 올바른 크기 조정을 위해 길이를 제곱한 것을 알 �
 
 - "Bars" - quadtile_centroids 데이터 소스를 사용します.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_33.png)
@@ -1669,16 +1237,7 @@ Tableau에서 올바른 크기 조정을 위해 길이를 제곱한 것을 알 �
 - “강” - quadtile_centroids 데이터 소스 사용, [이름]을 '정렬 기준: 필드, 정렬 순서: 내림차순, 필드 이름: [길이 Km], 집계: 최대값'으로 정렬 ('이름' 항목을 오른쪽 클릭하여 정렬... 선택)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_35.png" />
 
@@ -1688,16 +1247,7 @@ Tableau에서 올바른 크기 조정을 위해 길이를 제곱한 것을 알 �
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*4CSKItCTjLiMaB7s09zolQ.gif" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 결론
 
@@ -1707,16 +1257,7 @@ Tableau에서 올바른 크기 조정을 위해 길이를 제곱한 것을 알 �
 
 현재 데이터 시각화 공간에서 사용되는 주요 원 패킹 구현과는 다르게 다각형 컨테이너는 주요 장점으로 작용하며, Squaremap을 통해 계층 데이터는 새로운 집을 찾을 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가능하면, Quad-Tile Chart의 사각형 배열은 시각적으로 매력적으로 보입니다 (원과 경쟁하기 위해 필수적입니다!) 그리고 사각형은 원의 중심에 배치된 원들과 서로 바꿔 쓸 수 있습니다 (반응형인 Bubble Chart를 위해) 이것은 데이터를 사각형으로 구성하는 경향을 정당화하기 위한 우리의 노력의 승리로 결론내릴 수 있습니다.
 
@@ -1726,16 +1267,7 @@ Tableau에서 올바른 크기 조정을 위해 길이를 제곱한 것을 알 �
 
 본 문서에 포함된 모든 이미지는 별도로 명시하지 않은 한 저자가 제작했습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 [1] 위키백과 (CC BY-SA), “최고의 빠른 동물” (기준일: 2024년 1월 26일)
 

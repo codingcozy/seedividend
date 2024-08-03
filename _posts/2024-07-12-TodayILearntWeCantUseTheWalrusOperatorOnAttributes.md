@@ -34,16 +34,7 @@ if ((x := 'apple') === 'apple') {
 ```
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 (x := `apple`)라는 구문에서 2가지 작업이 발생합니다:
 
@@ -54,16 +45,7 @@ if ((x := 'apple') === 'apple') {
 
 하지만 객체 속성으로 이 작업을 시도할 때 오류가 발생합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 class Dog:
@@ -83,16 +65,7 @@ if (dog.age = 5) == 5:
 
 # 해결책
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저 속성을 설정하는 방법에 대해 알아봅시다
 
@@ -109,16 +82,7 @@ setattr(dog, 'name', 'rocky')
 
 다음으로 x 또는 `hello` 구문을 살펴보겠습니다
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # x은 Truthy 값입니다. 예: 5, 'apple'
@@ -143,16 +107,7 @@ print(y)  # hello
 - x가 Truthy 값이면, 이 식은 x의 원래 값 반환
 - x가 Falsy 값이면, 이 식은 `hello`를 반환합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기서 이점을 취할 수 있어요:
 
@@ -172,16 +127,7 @@ if (setattr(dog, 'name', 'rocky') or 'rocky') == 'rocky':
 
 # 결론
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 건은 하나의 줄로 코드를 작성하길 원하는 경우에만 필요합니다. 그게 아니라면 2줄로 작성하세요.
 
@@ -189,16 +135,7 @@ if (setattr(dog, 'name', 'rocky') or 'rocky') == 'rocky':
 
 # 만약 제가 크리에이터로서를 지원하길 원한다면
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 제 책을 구매해주세요! — 파이썬에 대해 전혀 몰랐던 101가지 이야기
 - 찾을 수 있는 곳: [여기를 클릭해주세요](https://payhip.com/b/vywcf)

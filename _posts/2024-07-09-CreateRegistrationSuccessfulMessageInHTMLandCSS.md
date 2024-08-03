@@ -1,7 +1,7 @@
 ---
 title: "HTML과 CSS로 회원 가입 성공 메시지 만들기"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_0.png"
+coverImage: "/assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_0.png"
 date: 2024-07-09 18:32
 ogImage:
   url: /assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_0.png
@@ -14,18 +14,7 @@ link: "https://medium.com/@cwrworksite/login-and-registration-form-in-html-and-c
 
 그 후에 "가입 완료" 메시지가 나옵니다. 구글 계정을 만드는 것과 같습니다. 이제 프론트엔드 개발자로서 HTML과 CSS를 사용하여 이를 만들어낼 수 있습니다. 이제 정보를 입력하고 양식을 제출한 후 모든 것이 잘되면 화면에 성공적인 가입 메시지를 받게 됩니다. 클라이언트 측에서 네트워크 문제나 잘못된 정보와 같이 문제가 발생하면 서버 측에서 오류 메시지가 화면에 표시됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 지원서 성공 메시지를 HTML로 만드는 과정을 살펴보겠습니다.
 
@@ -35,18 +24,7 @@ link: "https://medium.com/@cwrworksite/login-and-registration-form-in-html-and-c
 
 모든 HTML 문서는 문서 유형 선언(`!DOCTYPE html`)으로 시작해야 합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 HTML 문서 자체는 `html`로 시작하여 `/html`로 끝납니다.
 
@@ -93,39 +71,17 @@ HTML 문서의 가시적인 부분은 `body`와 `/body` 사이에 있습니다. 
 
 이 HTML 코드에서 우리는 `card`라는 id와 fade-in으로 애니메이션을 정의했습니다. 그리고 `xml` 태그에서 체크 기호의 경로를 연결하고 스트로크, 스트로크 너비 및 스트로크 제한을 설정했습니다. 그리고 메시지를 정의했습니다. HTML 출력을 살펴보겠습니다. 회원 가입 성공 메시지에 대한 CSS를 작성하기 전에요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## HTML 출력 등록 성공 메시지:
 
-![등록 성공 이미지](/ui-log-2/assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_1.png)
+![등록 성공 이미지](/assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_1.png)
 
 # CSS 코드 등록 성공 메시지:
 
 CSS는 Cascading Styling Sheets의 약어입니다. CSS는 웹 사이트의 레이아웃을 스타일링하는 데 사용됩니다. 여기에서는 border-box와 display 속성, 그리고 positioning 속성과 같은 CSS의 기본 개념을 사용하고 있습니다. 'WebKit'이라는 용어는 Safari 및 Chrome 브라우저에서 콘텐츠를 렌더링하는 데 CSS 구문에서 사용됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 웹킷 코드를 CSS에 추가해야 할 수도 있습니다. 이는 Chrome 및 Safari에서 올바르게 렌더링되도록 보장하기 위한 것입니다. 이는 관련 렌더링 엔진이 제공하는 벤더 접두사 속성입니다 (-WebKit은 Chrome, Safari용이며, -Moz는 Firefox, -o는 Opera, -ms는 Internet Explorer용).
 
@@ -177,18 +133,7 @@ body {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 위 스니펫에서 카드의 위치와 체크 표시의 위치를 지정하고 패딩, 배경색, 색상 및 적절한 테두리를 설정했습니다.
 
@@ -230,20 +175,9 @@ body {
 
 # Html 및 Css를 사용한 회원가입 성공 메시지의 최종 출력:
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-<img src="/ui-log-2/assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_2.png" />
+<img src="/assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_2.png" />
 
 등록 성공 메시지에 대한 요약:
 
@@ -251,18 +185,7 @@ body {
 
 이 것이 마음에 든다면 코멘트를 달아주시면 새로운 프로젝트를 여러분을 위해 가져올 동기부여가됩니다. 수행하는 동안 어려움을 느끼신다면 언제든지 코멘트 섹션을 통해 저희에게 연락하십시오.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 행복한 코딩
 
@@ -272,18 +195,7 @@ body {
 
 VS Code Studio를 사용하는 것을 추천합니다. 간단하고 사용하기 쉽습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 이 프로젝트는 반응형이 맞나요?
 

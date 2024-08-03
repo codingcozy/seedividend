@@ -19,16 +19,7 @@ link: "https://medium.com/@avetik.babayan/stock-grade-system-with-python-and-str
 
 이 글에서는 기술적 및 기본적 지표를 활용하여 주식을 평가하는 파이썬 기반의 투자 분석 도구를 개발하는 과정을 안내하겠습니다. 이 도구는 장기 투자 가능성을 식별하는 데 도움을 주는 뿐만 아니라 단기 거래 기회를 찾아내도록 돕습니다. 이 안내서를 따라가면, 로컬 머신에서 실행할 수 있는 강력한 스크립트를 보유하게 되며, Streamlit을 사용하여 직관적인 대시보드에 결과를 표시할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저희는 분석의 기반이 되는 점수 체계를 설명하여 다양한 지표가 각 주식의 잠재력을 평가하는 데 어떻게 사용되는지 자세히 설명하겠습니다. 이 시스템을 이해하는 것은 매우 중요합니다. 왜냐하면 이는 저희 도구의 기초를 형성하고 의사 결정 프로세스를 안내하기 때문입니다. 이제 각 주식의 점수 평가 방법과 해당 점수의 의미에 대해 구체적으로 살펴보겠습니다.
 
@@ -38,16 +29,7 @@ link: "https://medium.com/@avetik.babayan/stock-grade-system-with-python-and-str
 
 기술적 분석은 주식의 가격 움직임과 패턴에 초점을 맞춥니다. 여기서 우리는 두 가지 주요 지표를 사용합니다: 50일 이동평균선(MA)과 상대강도지수(RSI). 주식의 종가가 50일 이동평균선 위에 있는 경우 상승 추세를 나타내므로 해당 주식은 한 점을 받게 됩니다. 또한 RSI가 70 미만인 경우, 해당 주식이 과매수 상태가 아니며 성장할 공간이 있다는 것을 시사하므로 또 한 점을 받게 됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 근본적 분석은 회사의 재정 건강 상태를 검토합니다. 우리는 순조 적받지 못한 (P/E) 비율과 부채 대 자본 비율을 살펴봅니다. 20 미만의 순조 P/E 비율은 주식에 1 점을 부여합니다. 이것은 주식이 미래 수익에 비해 저평가될 가능성이 있음을 나타냅니다. 마찬가지로, 1 미만의 부채 대 자본 비율은 회사가 처리 가능한 부채 수준을 갖고 있음을 시사하며, 또 다른 한 점을 획득합니다.
 
@@ -57,16 +39,7 @@ link: "https://medium.com/@avetik.babayan/stock-grade-system-with-python-and-str
 
 ![StockgradesystemwithPythonandStreamlit_1](/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 필요한 도구들
 
@@ -76,16 +49,7 @@ yfinance는 인기 있는 라이브러리로, 우리에게 Yahoo Finance로부�
 
 pandas는 다재다능한 데이터 조작 라이브러리로, 우리가 가져온 데이터를 처리하고 분석하는 데 도움이 될 것입니다. pandas를 사용하면 대규모 데이터 세트를 쉽게 처리하고 기술 지표를 계산하며 점수화 프로세스를 관리할 수 있습니다. 강력한 DataFrame 구조를 통해 복잡한 데이터 작업을 간단히 수행할 수 있어 분석이 효율적이고 정확하도록 보장합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 streamlit은 Python 스크립트에서 직접 인터랙티브 웹 애플리케이션을 만드는 혁신적인 라이브러리입니다. Streamlit을 사용하면 사용자 친화적인 대시보드를 구축하여 투자 제안을 표시할 수 있습니다. 이를 통해 우리는 분석 결과를 명확하고 직관적인 방식으로 시각화하고 데이터를 해석하고 통찰력 있는 결정을 내릴 수 있게 됩니다.
 
@@ -95,16 +59,7 @@ streamlit은 Python 스크립트에서 직접 인터랙티브 웹 애플리케�
 
 50일 이동평균선(MA): 50일 이동평균선은 일별 가격 변동을 완화하여 기본 트렌드를 드러내는 기술적 지표입니다. 주식의 현재 종가를 50일 이동평균선과 비교함으로써 주식이 상승 트렌드인지 하향 트렌드인지 판단할 수 있습니다. 이동평균선 위의 가격은 상승 흐름을 나타내며 성장 잠재력이 있다는 것을 시사합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 상대강도지수 (RSI): RSI는 주식의 가격 움직임 속도와 변화를 측정하는 모멘텀 오실레이터입니다. 값은 0부터 100까지이며, 70 이상의 값은 주식이 과매수 상태에 있을 수 있음을 나타내고, 30 미만의 값은 과매도 상태일 수 있음을 시사합니다. RSI 추적을 통해 주식이 추세 반전을 겪을지 또는 현재 추세를 이어갈지에 대한 판단을 할 수 있습니다.
 
@@ -114,16 +69,7 @@ streamlit은 Python 스크립트에서 직접 인터랙티브 웹 애플리케�
 
 ![이미지](/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_2.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 코드 시작하기
 
@@ -140,16 +86,7 @@ import os
 import streamlit as st
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 yfinance: Yahoo Finance에서 주식 시장 데이터를 가져 오는 데 사용됩니다
 pandas: 데이터 조작 및 분석에 사용됩니다
@@ -191,16 +128,7 @@ get_stock_data: Yahoo Finance에서 지난 5 일간의 주식 가격 데이터�
 calculate_moving_average: 지정된 창 기간(이 경우 50 일) 동안 종가의 이동 평균을 계산
 calculate_rsi: 가격 움직임의 속도와 변화를 측정하는 모멘텀 오실레이터 인 RSI를 계산
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 3. 기초 지식 습득
 
@@ -216,16 +144,7 @@ def get_fundamentals(ticker):
 
 4. 시작점을 정해봅시다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 기술 및 기본 분석에 기반한 주식 평가 함수
@@ -265,16 +184,7 @@ def analyze_stock(ticker):
         return None, None, None
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 analyze_stock: 주가 분석을 위해 과거 데이터를 가져오고 기술적 지표를 계산하며 기본 데이터를 가져와서 주식에 점수를 매깁니다. 오류가 발생하면 해당 주식은 건너뜁니다.
 
@@ -308,16 +218,7 @@ suggest_investments: 주식의 점수를 기준으로 투자할 주식을 제안
 save_suggestions: 미래 참고를 위해 제안을 CSV 파일에 저장합니다.
 get_stock_list: S&P500에 포함된 주식 목록을 가져옵니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 7. 우리가 가진 내용을 보여줍시다.
 
@@ -371,16 +272,7 @@ evaluate_performance: 초기 및 최종 가격을 비교하여 지난 투자 제
 
 8. 작동하도록 만들기 — 스크립트 실행
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 if __name__ == "__main__":
@@ -418,16 +310,7 @@ if __name__ == "__main__":
 
 이제 다음 명령으로 실행해봅시다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 streamlit run .\test.py
@@ -440,16 +323,7 @@ streamlit run .\test.py
 ![Image](/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_4.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 7월 12일 2024일의 경우, 우리의 기준에 맞는 주식이 없어요: SP500의 주식 중에는 아무런 높은 등급의 주식이 존재하지 않아요.
 
@@ -461,16 +335,7 @@ streamlit run .\test.py
 
 일반적인 코드…
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import yfinance as yf
@@ -619,16 +484,7 @@ if __name__ == "__main__":
 
 이 글과 함께 제공된 코드는 교육 목적으로만 사용됩니다. 스크립트가 제공하는 제안은 자동 분석의 기능을 보여주기 위한 것이며, 사용자는 제안된 조치를 모니터링하고 시간이 지남에 따라 성공률을 평가해야 합니다. 이 콘텐츠는 행동 요령이 아니며, 재정 자문으로 해석해서는 안 됩니다. 언제든지 본인의 연구를 수행하고 거래 결정을 내리기 전에 전문가와 상의하십시오.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 

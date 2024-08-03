@@ -21,16 +21,7 @@ TypeScript의 Record 타입은 우리가 key-value 쌍 타입을 정의하는 �
 Record 타입은 TypeScript에서 내장된 일반적인 제네릭 타입으로, 키와 값이 지정된 타입인 객체 타입을 구성하는 데 사용됩니다. 다음과 같이 정의됩니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 유형 레코드`K, T`는 그 키가 유형 K이고 값이 유형 T인 개체를 나타냅니다. 간단한 예제를 살펴봅시다:
@@ -49,16 +40,7 @@ Record 타입은 TypeScript에서 내장된 일반적인 제네릭 타입으로,
 
 이 예제에서 UserRecord는 키가 문자열 형식이고 값이 사용자 형식인 개체를 나타냅니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 2. 레코드와 튜플의 차이
 
@@ -69,16 +51,7 @@ Record 타입은 TypeScript에서 내장된 일반적인 제네릭 타입으로,
 
 ## 코드 예제:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 type UserTuple = [string, number]; // 튜플 타입
 
@@ -99,16 +72,7 @@ Record와 Map은 모두 키-값 쌍을 저장하는 데 사용될 수 있지만,
 - Record: 컴파일 시간에 타입 체크를 위해 사용되는 타입 정의 도구.
 - Map: ES6에서 소개된 데이터 구조로, 런타임에서 키-값 쌍을 저장하는 데 사용됨.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 코드 예시:
 
@@ -131,16 +95,7 @@ console.log(userAgeMap.get("Alice")); // 결과: 25
 
 Record 타입을 사용할 때, 모든 가능한 경우를 다루도록 하여 모든 경우에 대해 처리하도록 할 수 있습니다. 특히 유니언 타입을 다룰 때 유용합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 코드 예시:
 
@@ -161,16 +116,7 @@ function getStatusMessage(status: Status): string {
 
 # 5. 제네릭 애플리케이션에서 타입 체킹 강제화
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Record 유형은 일반 프로그래밍에서 매우 유용하며 키와 값 사이의 일관성을 보장하고 유형 검사를 강제할 수 있게 해줍니다.
 
@@ -189,16 +135,7 @@ console.log(record); // 결과: { Alice: 25, Bob: 25 }
 
 이 예시에서 createRecord 함수는 키 배열과 값을 가져와 Record 유형을 사용하여 생성된 객체의 키와 값이 일관되도록 보장합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 6. 선택적 타입 매핑을 위해 Pick 타입과 Record 사용하기
 
@@ -222,16 +159,7 @@ const userInfo: UserInfoRecord = {
   user2: { id: 2, name: "Bob" },
 };
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 예시에서는 사용자 인터페이스에서 id와 name 속성을 선택하기 위해 Pick 타입을 사용하고, Record 타입을 사용하여 이러한 속성을 포함하는 객체 타입을 생성합니다.
 
@@ -241,16 +169,7 @@ Record 타입은 동적 키-값 사전을 구현하기에 적합하며, 특히 �
 
 ## 코드 예시:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 type Dictionary<T> = Record<string, T>;
 
@@ -270,16 +189,7 @@ const numberDictionary: Dictionary<number> = {
 
 ReadOnly와 Record 타입을 함께 사용하여 수정할 수 없는 key-value 쌍 객체를 만들 수 있습니다. 이를 통해 객체의 프로퍼티가 수정될 수 없도록 보장합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 코드 예시:
 
@@ -296,16 +206,7 @@ const readOnlyUsers: ReadOnlyUserRecord = {
 
 # 9. Record와 Partial 함께 사용하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 부분 및 레코드 유형을 결합하여 모든 속성이 선택적인 객체를 만들 수 있어요.
 
@@ -320,16 +221,7 @@ const partialUsers: PartialUserRecord = {
 
 이 예시에서 Partial 및 Record의 결합을 통해 속성이 선택적인 객체를 정의할 수 있어서 부분적인 데이터를 처리하는 데 매우 유용합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 10. Record를 사용하여 모든 속성을 필수로 강제하는 방법
 
@@ -356,16 +248,7 @@ const configs: ConfigRecord = {
 //   dev: { host: "localhost" }
 // };
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 예시에서는 Config 객체의 모든 속성이 필수로 입력되도록 Required 및 Record 유형을 사용하여 구성 객체의 완성도를 보장합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: "데스크탑 화면은 더 이상 존재하지 않는다"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-Theresnosuchthingasadesktopscreen_0.png"
+coverImage: "/assets/img/2024-07-06-Theresnosuchthingasadesktopscreen_0.png"
 date: 2024-07-06 10:11
 ogImage:
   url: /assets/img/2024-07-06-Theresnosuchthingasadesktopscreen_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/design-bootcamp/theres-no-such-thing-as-a-desktop-scre
 
 당신이 이에 대해 생각해 볼 시간을 드릴게요...
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 다음에 "이 앱은 데스크톱 전용이다"라고 생각할 때 다시 한번 생각해보세요. 반응형은 그것보다 훨씬 미묘합니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/design-bootcamp/theres-no-such-thing-as-a-desktop-scre
 
 # 화면 기반의 중단점은 쓸모없습니다
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 가끔 이런 추천을 볼 때가 있어요:
 
@@ -80,18 +58,7 @@ link: "https://medium.com/design-bootcamp/theres-no-such-thing-as-a-desktop-scre
 
 GitHub에 가서 화면을 500%까지 확대해보세요. 거의 우리가 보통 "모바일 레이아웃"이라고 부르는 곳으로 들어간다는 걸 알 수 있어요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-Theresnosuchthingasadesktopscreen_1.png
 
@@ -101,18 +68,7 @@ GitHub에 가서 화면을 500%까지 확대해보세요. 거의 우리가 보�
 
 중요한 건, 사람들이 다양한 이유로 당신이 예상하지 못하는 일들을 하고 있다는 거에요. "접근성"이나 "장애인"에 관한 것 뿐만이 아니라, 당신의 작업이 그냥 작동할 때 높은 품질의 장인정신이라고 생각되죠. ™️
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그리고 엔지니어링에 대한 자부심과 좋은 제품을 만들고 싶은 욕망이 당신을 설득하지 못한다면, 웹 접근성에 대한 공식 가이드라인을 참고할 수도 있어요.
 
@@ -122,18 +78,7 @@ GitHub에 가서 화면을 500%까지 확대해보세요. 거의 우리가 보�
 
 다음 코드를 고려해보세요:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 button {
@@ -154,18 +99,7 @@ button {
 
 하지만 크롬에서 글꼴 크기를 "크게"로 변경하면 이제 버튼이 이상하게 보여요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-Theresnosuchthingasadesktopscreen_3.png
 
@@ -175,18 +109,7 @@ button {
 
 누군가가 폰트 크기를 변경하는 데 노력을 들이면, 그들이 그 조치에 어떤 영향을 기대할 가능성이 매우 높다는 것은 심리학자가 필요하지 않아요. 'body'에서 16px 폰트 크기를 지정하는 이러한 "수정"은 좋지 않아요. 사용자의 폰트 크기 변경에 반응하지 않아요 - 반응하지 않아요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 우리 버튼의 문제는 글꼴 크기 변경에 따라 크기가 조절되지 않았다는 것입니다. 이것이 우리가 다뤄야 할 근본적인 문제입니다. CSS는 텍스트 관련 단위를 제공하는데, 이는 텍스트 측정값에 따라 변하는 단위들입니다. 여기에 폰트 크기와 직접적으로 연결된 간단한 목록이 있습니다:
 
@@ -210,18 +133,7 @@ button {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 변경으로 인해 버튼의 모든 모습에 영향을 미치는 기본 글꼴 크기가 균등하게 확대되어 비율을 유지합니다.
 
@@ -231,18 +143,7 @@ button {
 
 아직 이를 할 수 없는 분들이 있을 거라는 것은 알고 있습니다. 시각적인 훈련이 필요합니다. 잘 되지 않는다면 픽셀에 의지하고 싶어질 수 있으니, 결코 오래된 sweetheart인 픽셀로 돌아가고 싶어진다면 나중에 다른 옵션을 제공할게요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 폰트 크기에 관해서 말씀드리자면, 접근성 측면에서 페이지에서 사용해야 할 규정된 크기는 없습니다. 이는 사용자가 기본 폰트 크기를 제어할 수 있고, 접근성 있는 웹 페이지는 그것을 존중해야 하기 때문입니다. 그러나 14px는 많은 상황에서 작은 크기일 수 있다는 것을 기억해 주세요. (상황 = 사람의 능력 + 장비 + 환경). 기본 크기보다 작게 표시해야 하는 텍스트가 필요할 경우, 절대 87.5% (또는 0.875em / 0.875rem) 이하로 내려가지 마세요 (대부분의 경우 브라우저의 공장 설정에서 14px입니다). 기억하세요, 페이지에서 가장 작은 텍스트 크기는 14px입니다!
 
@@ -252,18 +153,7 @@ button {
 
 반응형 레이아웃의 경우, (텍스트-)상대적인 단위를 사용하는 것이 적절한 방법입니다. 그리고 이를 "대부분의 곳에서" 사용하는 것은 안 됩니다. 모두에게 해당되어야 합니다. 이를 어기면 어떤 일이 벌어질지 보겠습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-Theresnosuchthingasadesktopscreen_5.png
 
@@ -273,18 +163,7 @@ button {
 
 %나 vw, vh 같은 상대 단위를 사용하는 경우는 몇 가지 있을 수 있어요. 제 경험상, 이들은 길이 단위의 5% 미만을 차지하며, 주로 레이아웃과 관련이 있어요. 사용하는 방식에 따라 달라질 수 있어요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 “하지만, 저, 다른 사람들은 모두 픽셀을 사용하고 있어요! 이게 어떻게 가능한 건가요!” 한숨... 네, 대부분의 개발자들이 픽셀을 사용하고 있어요. 하지만, 대다수의 개발자들이 일관되고 의도적으로 우수한 결과물을 생산하는 최고의 개발자들은 아닙니다. 전 세계 개발자 인구 중 최고의 개발자들은 아마도 5% 미만인 것으로 기억하는데, 어디서 읽은 것 같기는 한데, 정확하게 기억하고 있지는 않아요.
 
@@ -294,18 +173,7 @@ button {
 
 의견의 영역(으로) 돌아와서, 농담 두 개 더 드리겠어요. 너무 많이 노력하지 않고도 반응형 레이아웃을 정말로 반응형으로 만드는 두 가지 제안이 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 먼저 flexbox를 마스터하는 것이 중요해요. 이미 반응형 레이아웃을 만드는 데 flexbox를 사용하는 방법에 대해 썼어요. 격자(grid)도 비슷한 방식으로 사용할 수 있다고 하는데, 저는 아직 그 기술을 제대로 습득하지 못했어요. 그것은 대부분의 경우에 flexbox가 아주 잘 작동하기 때문이겠죠. 만약 텍스트 상대적 단위와 픽셀 단위를 혼용하지 않는 좋은 자료를 찾으신다면 알려주세요. 😉
 
@@ -322,18 +190,7 @@ button {
 
 (네, 미디어 쿼리에서 rem과 em을 완전히 사용할 수 있어요!)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 여기에 제안하는 아이디어는 페이지의 각 부분을 개별적으로 처리하고 다양한 화면 크기를 지원하는 강인한 UI를 갖게 하는 것입니다. 때로는 동일한 브레이크포인트에서 페이지의 다른 부분을 다뤄야할 수도 있지만, 이는 'WCD(너비 공통 최대치… 농담이죠 😝)'를 사용하여 브레이크포인트를 조정하는 문제일 뿐입니다.
 
@@ -343,18 +200,7 @@ button {
 
 사용자는 자체 스타일 시트를 사용할 수도 있습니다. 이제 사용자가 그것으로 수행할 수 있는 모든 조치를 고려할 수는 없습니다. 결코 가능하지 않아요. 그러나 그들도 그런 스타일 시트를 모든 것에 사용하지는 않습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 사용자 정의 CSS의 가장 중요한 용도는 가독성을 높이는 데 있습니다. 사용자는 글자 간격을 넓히거나 줄 간격을 늘리거나 문단 사이 간격을 더 늘릴 수 있습니다. 이는 주로 인지능력이 감소된 상태일 때 일어날 수 있지만, 정작 중요한 것은 그 이유가 무엇이든 사용자가 그렇게 하는 것을 지원해야 한다는 점입니다. 우리 페이지가 이러한 재정의에 응답할 수 있도록 최대한 확실히 해야 합니다.
 
@@ -364,18 +210,7 @@ button {
 
 이 확장 프로그램을 사용하면 사용자가 페이지 스타일을 재정의하는 방식을 시뮬레이션할 수 있습니다. 사용법은 재정의를 활성화한 후 사용자 지정 스타일이 적용될 때 아무 문제가 없는지 확인하는 것입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 브라우저가 보통 어떻게 레이아웃을 배치하는지 크게 바꾸지 말라는 게 내가 줄 수 있는 최고의 조언이에요. 예를 들어 컨텐츠가 증가함에 따라 상자가 수직으로 확장된다던가 하는 것들을 명시적인 높이로 지정하면서, 그게 꼭 필요한 건지 생각을 해보세요. 혹시 유연 또는 그리드 컨테이너가 더 나은 해결책이 될 수도 있어요.
 
@@ -385,18 +220,7 @@ CSS 없이 페이지가 100% 응답형이라는 걸 기억하세요. 여러분�
 
 현실은 아직도 완전히 웹 UI 프로젝트를 작업하기에 자격이 충분치 않은 UX 디자이너들이 있다는 거예요. 그들은 그냥 자신들의 화소들을 좋아해요. 그거 싫어해도, 그들이 사용하는 도구는 화소 기반으로 되어 있어요. 텍스트 상대 단위를 완벽하게 다루더라도, 픽셀과 rem 또는 em 사이를 변환하는 게 여전히 귀찮을 수 있어요, 특히 제가 그렇게 쉽게 따져볼 수 없다면요. 또는 말하자면 전적으로 텍스트 상대적 레이아웃에서 두 픽셀씩 여기저기나 하나씩 하나씩해 하류 디자이너가 떼거든요... 😭 이해해요. 쉽지 않죠.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 만약 올바른 방법으로 할 수 없다면, 다음 해결책을 고려해보세요.
 
@@ -407,18 +231,7 @@ PostCSS 플러그인인 pxtorem이 있다. 이름에서 알 수 있듯이 CSS를
 
 내 추천은 다음 설정을 사용하는 것입니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 pxtorem({
@@ -434,18 +247,7 @@ pxtorem({
 - em과 달리 이 기술을 사용하면 레이아웃을 위해 필요한 CSS 양이 줄어들지 않습니다. em은 제대로 사용하면 꽤 많은 작업을 절약할 수 있습니다.
 - 저는 이것을 테스트만 해본 것을 넘어서 프로젝트에서 사용한 적이 없기 때문에 부작용이 있는지는 확실하지 않습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결론
 

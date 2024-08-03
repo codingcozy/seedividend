@@ -19,16 +19,7 @@ link: "https://medium.com/@akhshyganesh/configuring-absolute-paths-your-ts-for-c
 
 - 노드가 설치되어 있어야 합니다. (설치되어 있지 않다면 여기를 클릭해주세요)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위에서 언급한 요구 사항을 확인해주세요.
 
@@ -38,16 +29,7 @@ Hapi와 함께 TypeScript 프로젝트에서 절대 경로를 설정하려면 Ty
 
 tsconfig.json을 수정하여 baseUrl 및 paths 속성을 포함시킵니다. 이는 TypeScript에게 지정된 기본 URL을 기준으로 모듈을 해결하도록 지시합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```json
 {
@@ -72,16 +54,7 @@ import { SomeModel } from '@models/SomeModel';
 import { SomeUtil } from '@utils/SomeUtil';
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 3. Node.js를 위한 모듈 해석 설정:
 
@@ -93,16 +66,7 @@ npm install tsconfig-paths - save-dev
 
 4. Node.js 진입점 업데이트:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 tsconfig-paths를 사용하여 tsconfig.json에 정의된 모듈 경로를 로드한 후 애플리케이션을 시작하십시오. package.json의 `start` 스크립트를 업데이트하거나 새로운 진입점 파일을 만들어주세요:
 
@@ -121,16 +85,7 @@ import 'tsconfig-paths/register';
 import './src/server';
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 패키지 파일(package.json)을 아래와 같이 엔트리 포인트를 변경해주세요:
 
@@ -146,16 +101,7 @@ import './src/server';
 
 프로젝트에서 Babel을 사용 중이라면, 경로 별칭을 인식하도록 Babel을 구성해야 할 수 있습니다. babel-plugin-module-resolver 플러그인을 사용할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 플러그인을 설치해 보세요:
 
@@ -178,16 +124,7 @@ npm install babel-plugin-module-resolver --save-dev
 }
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위 단계를 완료하면 프로젝트가 tsconfig.json에서 정의한 별칭을 기반으로 한 절대 경로를 사용하도록 설정됩니다. 이는 import를 더 효율적으로 관리하고 상대 경로 문제를 줄이는 데 도움이 될 것입니다.
 
@@ -197,16 +134,7 @@ npm install babel-plugin-module-resolver --save-dev
 
 만약 이 블로그를 좋아하셨다면 커피 한 잔 사주실 수도 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 노드 체크 업데이트: 버전 악몽을 해결하는 완벽한 방법 | Akhshy Ganesh 저 | 2024년 7월 | Medium
 

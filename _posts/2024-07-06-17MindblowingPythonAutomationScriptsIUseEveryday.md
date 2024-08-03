@@ -18,18 +18,7 @@ link: "https://medium.com/pythoneers/17-mindblowing-python-automation-scripts-i-
 
 # 1. Speakify
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 책을 좋아하지만 혼자 읽는 것은 싫어해요. 대신에 책을 듣는 걸 좋아해요. 이 자동화 스크립트는 정말 생명 구조자인데요. PDF 파일을 듣기 위해 많이 사용해요.
 

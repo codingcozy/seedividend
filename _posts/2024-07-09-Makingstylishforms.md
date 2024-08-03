@@ -1,10 +1,10 @@
 ---
 title: "스타일리시한 폼 만들기 방법"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 09:01
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Making stylish forms"
 link: "https://medium.com/@gaurav111shirodkar/making-stylish-forms-01c7d5e459f2"
@@ -77,15 +77,6 @@ link: "https://medium.com/@gaurav111shirodkar/making-stylish-forms-01c7d5e459f2"
 </html>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 각 입력 필드의 윤곽선을 "none"으로 설정해주세요.

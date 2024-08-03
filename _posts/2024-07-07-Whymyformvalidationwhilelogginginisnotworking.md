@@ -221,16 +221,7 @@ export class LoginComponent {
 </body>
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 로그인 버튼을 누를 때 (필드가 비어있든 아니든) 표시되는 메시지가 "비밀번호를 입력하십시오" 및 "이메일을 입력하십시오"인 것 같습니다 (즉, 변수 'nopwd' 및 'noemail'의 값은 항상 true인 것처럼 보입니다). 문제가 정확히 어디에 있을까요? 그리고 무엇을 변경해야 할까요?
 
@@ -244,16 +235,7 @@ export class LoginComponent {
 <input type="password" formControlName="password" name="password" id="password" class="input-text" placeholder="비밀번호를 입력하세요" required>
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코드를 개선했습니다.
 
@@ -343,16 +325,7 @@ export class AppComponent {
 
 component.html
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ```html
@@ -426,16 +399,7 @@ export class CustomValidators {
 ``` 
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 답변 확인자 - Marie Seifert (수정 관리자)
 

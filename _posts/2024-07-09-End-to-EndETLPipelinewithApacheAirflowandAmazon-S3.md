@@ -18,18 +18,7 @@ link: "https://medium.com/@namrathac23/etl-pipeline-with-apache-airflow-and-amaz
 
 # 프로젝트 구조
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 날씨 데이터 가져오기: OpenWeather API에서 날씨 데이터를 가져옵니다.
 - 날씨 데이터 변환: API에서 가져온 데이터는 JSON 형식이며, 변환 작업은 JSON 개체에서 데이터프레임을 만들고 데이터프레임을 CSV 파일로 변환하는 작업을 포함합니다.
@@ -46,18 +35,7 @@ link: "https://medium.com/@namrathac23/etl-pipeline-with-apache-airflow-and-amaz
 
 # 구현
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - API와 연결하여 데이터를 가져오는 DAG 스크립트를 작성하세요. 데이터는 데이터프레임에 저장됩니다. DAG 코드는 이 페이지의 맨 아래에서 찾을 수 있습니다.
 - EC2 인스턴스를 생성하고 인스턴스를 시작하여 콘솔에 연결하세요. 저는 무료티어 AWS를 사용하여 이 인스턴스를 생성했습니다. 사양은 t2.micro 및 우분투 22 버전입니다.
@@ -72,18 +50,7 @@ sudo install python3-pip
 sudo pip install requests pandas boto3 s3fs pyarrow apache-airflow
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 3. 한 번 설치되면, Airflow가 올바르게 설치되었는지 확인하세요. airflow 명령어를 사용하여 확인하고 초기 로그인 자격 증명을 위해 스탠드얼론 명령어를 실행하십시오. 자격 증명을 복사하여 나중에 사용하세요.
 
@@ -96,18 +63,7 @@ airflow standalone
 
 5. Airflow 서버와 스케줄러를 시작하세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 에어플로우 스케줄러 및 에어플로우 웹서버 - 포트 8080
@@ -119,18 +75,7 @@ airflow standalone
 8. DAG 파일에 관련 있는 S3 버킷 이름을 추가하고 저장하세요.
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 9. 인스턴스 콘솔에서 서버를 중지하고 명령을 실행하세요. 이렇게 하면 airflow의 DAGs 폴더에 액세스할 수 있어요. 원하는 경우 DAG 파일을 추가하고 필요할 때 수정할 수 있어요.
 
@@ -145,35 +90,13 @@ DAGs 폴더에서 파일 이름을 조정하세요. 수정된 버퍼를 저장�
 
 10. 파일을 저장한 후 airflow 명령을 다시 실행하고 로그인하세요. 그러면 airflow 내에서 Dag 파일을 볼 수 있어요. 보이는 형태는 이렇습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래는 Markdown 형식으로 변경된 테이블입니다.
 
 11. 파일을 열어서 수동으로 실행할 수 있어야 합니다. Airflow의 내장 그래프 기능을 사용하여 DAG 파일의 상태를 모니터링할 수 있습니다. 초록 테두리는 성공적인 실행을 나타냅니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 12. 실행이 성공하면 데이터가 S3 버킷에 표시됩니다.
 
@@ -277,18 +200,7 @@ load_task = PythonOperator(
 fetch_task >> transform_task >> load_task  # 작업 실행 순서 설정: 가져오기 -> 변환 -> 로드
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 설명:
 
@@ -303,18 +215,7 @@ fetch_task >> transform_task >> load_task  # 작업 실행 순서 설정: 가져
 
 5. 작업 생성: PythonOperator를 사용하여 정의된 함수를 호출하는 작업을 생성합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 6. 종속성 설정: 비트 시프트 연산자를 사용하여 작업을 실행할 순서를 정의하세요.
 

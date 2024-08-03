@@ -18,18 +18,7 @@ LLM 모델의 크기를 생각해보세요. GPT-3은 1750억 개의 파라미터
 
 Ollama는 Llama 3, Mistral 등 다양한 대규모 언어 모델을 운영할 수 있게 해주는 오픈 소스 플랫폼입니다. 또한 애플리케이션에 맞게 모델을 사용자 정의하고, 쉽게 제품에 배포하는 것까지 가능하도록 해줘요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-RunningLLMLocally_0.png" />
 
@@ -39,18 +28,7 @@ Ollama는 Windows, Linux 및 macOS와 호환됩니다. 다운로드하기 위해
 
 Mac: https://ollama.com/download/mac
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Linux: [https://ollama.com/download/linux](https://ollama.com/download/linux)
 
@@ -60,18 +38,7 @@ Let’s try LLama 3:
 
 - Refer to the article link: [https://ollama.com/library/llama3:8b](https://ollama.com/library/llama3:8b). It has all the information about the model size, variants, benchmark, and API information.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저 컴퓨터의 명령 프롬프트에 "ollama --version"을 입력하여 설정이 올바르게 되어 있는지 확인하십시오.
 
@@ -81,18 +48,7 @@ Llama 3 다운로드 :
 
 채팅/대화 사례 모델을 다운로드하려면 "ollama pull llama3" 명령을 사용하십시오.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다른 모델 목록은 여기에서 확인할 수 있어요: https://ollama.com/library. 동일한 명령어를 사용하여 다른 모델을 가져와서 사용할 수 있어요.
 
@@ -102,18 +58,7 @@ Llama 3 실행:
 
 “llama run llama3” 명령을 사용하여 모델을 직접 실행할 수 있어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-RunningLLMLocally_2.png" />
 
@@ -123,18 +68,7 @@ API 사용 방법:
 
 - "ollama serve"를 사용하여 로컬 서버를 시작하세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-07-RunningLLMLocally_3.png)
 
@@ -144,18 +78,7 @@ API 사용 방법:
 
 - 이 요청과 함께 전달할 수 있는 다른 매개변수도 있습니다. 자세한 API를 탐색할 수 있는 링크는 아래에 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 API 문서: [https://github.com/ollama/ollama/blob/main/docs/api.md](https://github.com/ollama/ollama/blob/main/docs/api.md)
 

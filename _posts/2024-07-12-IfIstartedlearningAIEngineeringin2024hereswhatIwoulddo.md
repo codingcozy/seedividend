@@ -27,16 +27,7 @@ link: "https://medium.com/ai-advances/if-i-started-learning-ai-engineering-in-20
 그리고 12개월이 흘렀을 때, 프리랜서 AI 엔지니어로 일하면서 첫 유료 프로젝트를 수행했어요.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 AI 엔지니어를 꿈꾸는 여러분을 위해 글을 쓰고 있어요. 제가 경험한 레슨, 실수, 경험을 공유할 거예요. 왜냐하면...
 
@@ -49,16 +40,7 @@ AI 엔지니어를 꿈꾸는 여러분을 위해 글을 쓰고 있어요. 제가
 - 어떻게 빠르게 배울지
 - 학습의 혜택을 최대화하는 방법
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저작권 표시. 12개월 전에는 처음부터 시작하지 않았어요. 2019년에 기계 학습과 자연어 처리를 탐험하기 시작했어요. 또한 소프트웨어 엔지니어이기도 해요. 그래서 AI로 전환하기로 결정했을 때 꽤 유리한 시작점을 가지고 있었어요.
 
@@ -68,16 +50,7 @@ AI 엔지니어를 꿈꾸는 여러분을 위해 글을 쓰고 있어요. 제가
 
 # 단계 1: 기본 파이썬 배우기.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 AI 엔지니어들은 코딩하는 방법을 알아야 합니다.
 
@@ -100,16 +73,7 @@ AI 엔지니어들은 코딩하는 방법을 알아야 합니다.
 물론, Python을 능숙하게 다룰수록 더 좋습니다.
 하지만, 처음으로 AI 프로젝트를 만드는 기초를 배우는 것이 가장 중요합니다 (프로젝트에 대해 더 자세히 알아보기는 4단계에서).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다행히도, 제가 위에 제공한 목록만으로도 충분히 시작할 수 있어요.
 
@@ -121,16 +85,7 @@ AI 엔지니어들은 코딩하는 방법을 알아야 합니다.
 
 # 단계 2️: 대형 언어 모델(LLMs) 배우기.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LLM은 AI 프로젝트의 "두뇌"입니다.
 AI 엔지니어들은 LLM을 많이 사용해요! 그래서 그들이 어떻게 작동하는지 이해하는 것이 중요해요.
@@ -147,16 +102,7 @@ LLM을 사용하기 시작하려면 심층적으로 파고들 필요는 없어�
 - 온도 (LLM에서)
 - 트랜스포머 아키텍처
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 처음으로 AI 프로젝트를 구축하는 데 필요한 기초를 제공해줄 거에요. 매 프로젝트마다 기초를 확장해나갈 거에요.
 
@@ -168,16 +114,7 @@ LLM에 대해 배울 좋은 자료:
 
 # 3. 프롬프트 엔지니어링의 원리를 배우세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 AI 엔지니어들은 LLM과 잘 소통하는 방법을 알고 있어요.
 
@@ -191,16 +128,7 @@ AI 엔지니어들은 LLM과 잘 소통하는 방법을 알고 있어요.
 - 구체적으로 표현하는 법을 배워보세요
 - 계속해서 프롬프트를 개선해 나가세요
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저는 미래의 기술로서 '프롬프트 엔지니어링'에 대해 의심합니다. 그 이유는 간단합니다: 프롬프트는 평범한 텍스트일 뿐이기 때문입니다. 이미 LLM 및 DSPy와 같은 프레임워크로 우수한 프롬프트 작성이 자동화되고 있습니다.
 
@@ -210,16 +138,7 @@ AI 엔지니어들은 LLM과 잘 소통하는 방법을 알고 있어요.
 
 여기서 프롬프트 엔지니어링을 배울 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 학습 유도 웹사이트.
 - OpenAI의 Prompt Engineering.
@@ -232,16 +151,7 @@ AI 프로젝트를 구축하는 것이 AI 엔지니어로 채용되는 유일한
 
 이론만으로는 충분하지 않습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 당신이 AI 엔지니어라고 자처하려면 AI와 코드를 사용하여 실제로 무언가를 만들 수 있다는 것을 보여주어야 해요.
 
@@ -251,16 +161,7 @@ AI 프로젝트를 구축하는 것이 AI 엔지니어로 채용되는 유일한
 
 첫 프로젝트는 간단하면서 좋아요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기서는 "only" 2가지 목표가 있습니다:
 
@@ -272,16 +173,7 @@ AI 프로젝트를 구축하는 것이 AI 엔지니어로 채용되는 유일한
 실습을 통해 배우는 것에 대해 이야기해 봅시다...
 “지식이 실행을 앞서가지 않도록 항상 해라.” - Dan Koe
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 착하게 번역
 
@@ -293,16 +185,7 @@ AI 프로젝트를 구축하는 것이 AI 엔지니어로 채용되는 유일한
 
 3년 전 (34세 때)부터는 아무것도 만들지 않고는 배우지 않기로 결심했어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 결과는?
 ✔ 빠르게 배우게 됩니다.
@@ -317,16 +200,7 @@ AI 프로젝트를 구축하는 것이 AI 엔지니어로 채용되는 유일한
 
 이론보다 실행에 우선순위를 두세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 프로젝트로 돌아가려고 합니다. 첫 번째로 권장하는 것은 ChatGPT "복제본"을 만드는 것입니다.
 
@@ -340,16 +214,7 @@ AI 프로젝트를 구축하는 것이 AI 엔지니어로 채용되는 유일한
 
 이 프로젝트는 놀라운 것이 아닐 것입니다. 하지만 아래와 같은 이점이 있을 거예요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - "Creator mode"으로 전환하겠습니다.
 - 단계 1, 2 및 3에서 얻은 지식을 확고히 할 수 있도록 도와 드리겠습니다.
@@ -361,16 +226,7 @@ AI 프로젝트를 구축하는 것이 AI 엔지니어로 채용되는 유일한
 
 Austin Kleon의 "Show Your Work"은 2시간 정도의 읽을 거리입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 책 덕분에 지금 이 글을 쓰고 있어요.
 
@@ -380,16 +236,7 @@ Austin Kleon의 "Show Your Work"은 2시간 정도의 읽을 거리입니다.
 
 제가 AI 공부를 시작한 지 약 6주만에 쓴 글 링크를 공유했어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 무엇을 공유할까요?
 
@@ -403,16 +250,7 @@ Austin Kleon의 "Show Your Work"은 2시간 정도의 읽을 거리입니다.
 
 많은 사람들에게 공개하는 것이 어려움을 알고 있어요 (제게도 무서웠어요).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 그것은 당신이 할 수 있는 최고의 장기 투자 중 하나가 될 것입니다. 크리에이터 경제가 번창하고 있습니다. 콘텐츠를 만드는 것은 시간 투자를 제외하고는 거의 단점이 없어요.
 
@@ -431,16 +269,7 @@ Austin Kleon의 "Show Your Work"은 2시간 정도의 읽을 거리입니다.
 
 저는 이것을 해봤고, 혜택을 확인해요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 요렇게 생각하고 있어요:
 
@@ -450,16 +279,7 @@ Austin Kleon의 "Show Your Work"은 2시간 정도의 읽을 거리입니다.
 
 계속해서 해나가요. 함께 공유해요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음 프로젝트를 선택하는 방법?
 
@@ -475,16 +295,7 @@ Austin Kleon의 "Show Your Work"은 2시간 정도의 읽을 거리입니다.
 - 설명 준비하기.
 - 영상 업로드하기.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼, 저는 매체(Medium)를 위한 기사를 썼어요.
 
@@ -494,16 +305,7 @@ Austin Kleon의 "Show Your Work"은 2시간 정도의 읽을 거리입니다.
 
 탐험적 AI 프로젝트로는 취업이 어려워요!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 "Benefits, not features"는 판매에서의 주요 원칙 중 하나입니다.
 
@@ -511,16 +313,7 @@ Austin Kleon의 "Show Your Work"은 2시간 정도의 읽을 거리입니다.
 
 AI 뉴스는 멋진 AI 특징을 언급합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 기업은 결과에만 관심이 있어요.
 안타깝게도, 기능은 대부분의 경우 기업에 실질적인 혜택을 제공하지 못해요.
@@ -533,16 +326,7 @@ AI 뉴스는 멋진 AI 특징을 언급합니다.
 - 비용 절감
 - 수익 증대
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 (힌트: AI는 시간을 절약하는 데 좋은 도구입니다.)
 
@@ -555,16 +339,7 @@ AI 뉴스는 멋진 AI 특징을 언급합니다.
 
 각 프로젝트는 도전적이어야 하고 새로운 것을 배우도록 강제해야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 친구야, 여기 몇 가지 실용적인 주제가 있어:
 - RAG
@@ -582,16 +357,7 @@ AI 뉴스는 멋진 AI 특징을 언급합니다.
 
 조기에 시작할수록 좋아.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 표 태그를 Markdown 형식으로 변경하면서 더 나은 결과를 얻을 수 있습니다. 
 
@@ -605,16 +371,7 @@ AI 뉴스는 멋진 AI 특징을 언급합니다.
 
 # 7️. 멘토를 찾아보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 멘토가 없다는 것이 내 진전을 엄청나게 늦춘 것 같아.
 
@@ -633,16 +390,7 @@ AI 뉴스는 멋진 AI 특징을 언급합니다.
 - 격려해 주는
 - 비판해 주는
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저의 실수를 하지 마세요!
 
@@ -652,16 +400,7 @@ AI 뉴스는 멋진 AI 특징을 언급합니다.
 
 참고: AI 엔지니어링 여정에서 멘토를 찾고 있다면 도와드릴게요. 매체(Medium) 출처라고 말씀하시고 LinkedIn에서 DM 보내주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -671,16 +410,7 @@ AI 뉴스는 멋진 AI 특징을 언급합니다.
 
 이 기사를 읽은 후에는 AI 엔지니어가 되기 위한 제 경로를 엄청난 속도로 배웠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 질문이 있으면 댓글에 적어주세요! ✍️
 

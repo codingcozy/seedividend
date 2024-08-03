@@ -19,18 +19,7 @@ link: "https://medium.com/dataman-in-ai/quantile-regression-for-time-series-prob
 
 분위 회귀(Quantile regression)는 이 요구를 충족시킵니다. 분위 회귀는 예측 구간을 제공하며 표시된 것처럼 가능성을 양적으로 나타냅니다. 분위 회귀는 예측 변수와 반응 변수 간의 관계를 모델링하기 위해 사용되는 통계 기법으로, 반응 변수의 조건부 분포가 관심 대상인 경우에 특히 유용합니다. 예측 변수가 주어졌을 때 반응 변수의 조건부 평균을 추정하는 전통적인 회귀 방법(예: 최소 제곱 회귀)과 달리 분위 회귀는 반응 변수의 조건부 분위수를 추정합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Quantile Regression for Time Series Probabilistic Forecasting](/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_1.png)
 
@@ -41,18 +30,7 @@ NeuralProphet를 사용하여 시계열 모델을 구축하는 방법을 다음 
 - Chapter 3: Tutorial I: Trend + seasonality + holidays & events
 - Chapter 4: Tutorial II: Trend + seasonality + holidays & events + auto-regressive (AR) + lagged regressors + future regressors
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Neural Prophet은 두 가지 통계 기법을 제공합니다: (1) 분위수 회귀 및 (2) 일치 분위수 예측입니다. 일치 분위수 예측 기법은 회귀를 측정하기 위한 보정 프로세스를 추가합니다. 이 장에서는 Neural Prophet의 분위수 회귀 모듈을 실행할 것입니다. 다음 장에서 일치 분위수 예측을 배울 예정입니다. Python 노트북은 이 Github 링크를 통해 다운로드할 수 있습니다.
 
@@ -64,18 +42,7 @@ NeuralProphet를 설치하기 위해 표준 설치 방법인 pip install NeuralP
 !pip install neuralprophet
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 Google Colab을 사용하는 경우, NeuralProphet은 numpy 1.23.5를 사용하지 않으면 작동하지 않는다는 점 유의해 주세요. numpy를 제거하고 numpy 1.23.5를 설치해야 합니다.
 
@@ -87,18 +54,7 @@ NeuralProphet를 설치하기 위해 표준 설치 방법인 pip install NeuralP
 
 데이터를 로드하고, 몇 가지 도구를 가져와 보겠습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 %matplotlib inline
@@ -123,18 +79,7 @@ data.tail()
 
 <img src="/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_2.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 자전거 대여량을 그래프로 플롯해 봅시다. 두 번째 해에 수요가 증가하고 계절적 패턴이 있는 것을 관찰할 수 있어요.
 
@@ -153,18 +98,7 @@ plt.show()
 
 모델링을 위해 매우 기본적인 데이터 준비를 할 거에요. NeuralProphet에서는 칼럼 이름을 “ds”와 “y”로 지정해야 해요. Prophet과 동일하죠.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 df = data[['ds','cnt']]
@@ -194,18 +128,7 @@ metrics.tail()
 
 작업이 완료되면 prophet에서 상속받은 .make_future_dataframe()을 사용하여 예측을 위한 새 데이터 프레임을 만들 것입니다. n_historic_predictions 매개변수는 지난 100개 데이터 포인트만 포함하도록 설정됩니다. "True"로 설정하면 전체 기록이 포함됩니다. "periods=50"를 설정하여 다음 50개 데이터 포인트를 예측합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 미래 = m.make_future_dataframe(df, periods=50, n_historic_predictions=100) #, n_historic_predictions=1)
@@ -221,18 +144,7 @@ metrics.tail()
 
 위 데이터 프레임은 플로팅을 위한 모든 데이터 요소를 갖고 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 m.plot(
@@ -248,18 +160,7 @@ m.plot(
 
 분위 회귀에 의한 예측 구간과 OLS에 의한 신뢰 구간은 다릅니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예측 구간이 인기를 얻으면, 분위수 회귀와 최소 자승법(OLS)에서의 신뢰 구간의 차이를 구별하는 것이 도움이 될 것입니다. 그림 (F)에서 좌측에는 선형 회귀를 그리고 우측에는 분위수 회귀를 표시했습니다.
 
@@ -270,18 +171,7 @@ m.plot(
 - 선형 회귀: 주요 목표는 종속 변수의 조건부 평균과 가능한 한 가까운 예측 값을 찾는 것입니다.
 - 분위수 회귀: 목표는 특정 신뢰 수준에서 예상되는 미래 관측값이 위치할 범위를 제공하는 것입니다. 종속 변수 Y의 조건부 분포의 다양한 분위수에서 독립 변수(T) 사이의 관련성을 추정합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로, 그들의 계산방법이 다릅니다:
 
@@ -293,18 +183,7 @@ m.plot(
 - 선형 회귀에서는 "예측된 조건부 평균은 95% 신뢰구간 내에 있다"라고 말합니다. 신뢰구간은 전체 범위가 아닌 조건부 평균이기 때문에 예측 구간보다 좁습니다.
 - 분위 회귀에서는 "예측값이 예측 구간의 범위 내에 들어갈 가능성이 95%입니다."라고 말합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 결론
 
@@ -314,18 +193,7 @@ m.plot(
 
 - 아름다운 형식으로 책을 재현하여 즐거운 독서 경험을 제공해준 The Innovation Press, LLC 직원들에게 감사드립니다. eBook을 분배하기 위해 Teachable 플랫폼을 선택했습니다. 이를 통해 부담스럽지 않은 경비와 전 세계 독자들에게 배포할 수 있었습니다. 신용카드 거래는 Teachable.com에서 기밀이지키며 안전하게 처리됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 eBook on Teachable.com: $22.50
 [링크](https://drdataman.teachable.com/p/home)
@@ -337,18 +205,7 @@ The print edition on Amazon.com: $65 [링크](https://a.co/d/25FVsMx)
 
 # 모던 시계열 예측: 예측 분석 및 이상 감지를 위한
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Chapter 0: 서문
 
@@ -358,18 +215,7 @@ Chapter 2: 비즈니스 예측을 위한 선지자
 
 Chapter 3: 튜토리얼 I: 트렌드 + 계절성 + 휴일 및 이벤트
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음은 Markdown 형식으로 변경된 내용입니다:
 
@@ -381,18 +227,7 @@ Chapter 3: 튜토리얼 I: 트렌드 + 계절성 + 휴일 및 이벤트
 
 - Chapter 7: Quantile Regression for Time Series Probabilistic Forecasting
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Chapter 8: 시계열 확률 예측을 위한 조화형 예측
 
@@ -402,18 +237,7 @@ Chapter 3: 튜토리얼 I: 트렌드 + 계절성 + 휴일 및 이벤트
 
 # Chapter 11: 시계열 데이터 형식 만들기 쉽게
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Chapter 12: 다기간 확률 예측을 위한 선형 회귀
 
@@ -423,18 +247,7 @@ Chapter 3: 튜토리얼 I: 트렌드 + 계절성 + 휴일 및 이벤트
 
 #### Chapter 15: 다기간 시계열 확률 예측을 위한 Tree-based XGB, LightGBM, 및 CatBoost 모델
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 16 장: 시계열 모델링 기법의 진보
 
@@ -444,18 +257,7 @@ Chapter 3: 튜토리얼 I: 트렌드 + 계절성 + 휴일 및 이벤트
 
 # 19 장: RNN에서 Transformer 기반 시계열 모델로
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 20장: 해석 가능한 시계열 예측을 위한 시간 퓨전 트랜스포머
 

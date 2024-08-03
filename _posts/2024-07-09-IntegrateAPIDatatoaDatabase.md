@@ -18,18 +18,7 @@ DLT, Postgres 및 Python을 사용합니다.
 
 이 튜토리얼을 통해 다음을 완료할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Postgres 데이터베이스에 API 데이터를 통합합니다.
 - Python을 사용하여 DLT 데이터 파이프라인을 생성합니다.
@@ -42,18 +31,7 @@ ExchangeRate-API.com을 사용합니다. 이 사이트는 JSON 형식으로 환�
 
 # 필수사항
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - DLT 라이브러리: DLT 라이브러리를 설치하고 구성하는 것을 잊지 마세요. 자세한 안내는 여기 링크된 비디오를 참조해주세요.
 - PostgreSQL: 데이터를 영구적으로 저장하기 위해 PostgreSQL을 설정하거나 다른 방법으로 데이터를 파일로 저장할 수 있습니다.
@@ -64,18 +42,7 @@ ExchangeRate-API.com을 사용합니다. 이 사이트는 JSON 형식으로 환�
 
 먼저, 선호하는 코드 편집기(예: VS Code)에서 새로운 Python 파일을 열고 필요한 라이브러리를 가져오세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import dlt
@@ -101,18 +68,7 @@ response = requests.get(url)
 data = response.json()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 데이터 변환
 
@@ -125,18 +81,7 @@ df = pd.json_normalize(data["conversion_rates"]);
 df = df.melt().reset_index();
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 2. 로드 날짜 열을 추가해주세요:
 
@@ -153,18 +98,7 @@ df = df.rename((columns = { index: "id", variable: "currencycode", value: "fxrat
 records = df.to_dict(orient="records")
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # DLT를 사용한 데이터 수집
 
@@ -180,18 +114,7 @@ pipeline = dlt.pipeline(
 );
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 2. 파이프라인 실행하기:
 
@@ -208,18 +131,7 @@ load_info = pipeline.run(
 
 스크립트를 저장하고 실행하세요. 모든 설정이 올바르게 완료되었다면, 파이프라인이 성공적으로 실행되고 환율 데이터가 PostgreSQL 데이터베이스에 로드될 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 데이터 확인하기
 
@@ -231,18 +143,7 @@ SELECT * FROM fxrates;
 
 # 결론
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 블로그 포스트에서는 API를 데이터 소스로 통합하고 데이터를 변환하여 DLT를 사용하여 PostgreSQL 데이터베이스에 로드하는 방법을 보여드렸습니다. 이 방법을 사용하면 중요한 데이터 소스를 시스템에 원활하게 통합하여 더 많은 정보를 바탕으로 결정을 내릴 수 있습니다. 제공된 스크립트와 방법을 사용하여 귀하의 특정 요구 사항과 도구에 맞게 적응시키십시오.
 
@@ -252,18 +153,7 @@ SELECT * FROM fxrates;
 
 In Plain English 커뮤니티의 일원으로 함께 해 주셔서 감사합니다! 떠나시기 전에:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 작가를 박수로 격려하고 팔로우 해주세요! 👏️️
 - 저희를 팔로우해주세요: X | LinkedIn | YouTube | Discord | 뉴스레터

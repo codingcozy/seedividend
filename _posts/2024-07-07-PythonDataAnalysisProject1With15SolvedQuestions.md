@@ -18,18 +18,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 날씨 데이터셋은 특정 위치에서 발생한 날씨 조건에 대한 시계열 데이터 세트입니다. 온도, 이슬점 온도, 상대 습도, 풍속, 가시성, 압력 및 조건을 기록합니다. 이 데이터는 CSV 파일로 제공됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 데이터셋을 기반으로 여러 질문이 제시되었고, 우리는 Python의 Pandas 라이브러리를 사용하여 하나씩 해결할 것입니다. Pandas 라이브러리는 데이터 분석을 위한 최고의 라이브러리입니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 다음으로, 날씨 데이터셋을 가져올 것입니다. 데이터셋이 csv 형식이므로, 구문은 다음과 같을 것입니다: pd.read_csv("..데이터셋 파일 경로..")
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_2.png" />
 
@@ -60,18 +38,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 <img src="/TIL/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_3.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 몇 가지 기본 Pandas 명령을 사용하여 데이터 세트를 탐색해 보겠습니다.
 
@@ -81,18 +48,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 ![이미지](/TIL/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_4.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 2. 형태
 
@@ -102,18 +58,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 ## 3. 인덱스
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 속성은 데이터프레임의 인덱스 범위를 제공합니다. 인덱스는 0부터 8784까지 시작합니다. 여기서 step=1은 인덱스가 0, 1, 2, 3, 4, 5, ... 와 같이 1씩 증가하는 것을 나타냅니다.
 
@@ -123,18 +68,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 데이터프레임에 있는 각 열의 이름을 보여줍니다. 여기서 8개의 열 이름이 모두 표시됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_7.png)
 
@@ -144,18 +78,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 ![image](/TIL/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_8.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 6. unique( )
 
@@ -165,18 +88,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 여기서 Weather 열의 모든 고유한 값을 표시하고 있습니다. 고유한 값이 너무 많아서 그 수를 세는 것이 어려울 수 있습니다. 다음으로 열의 고유한 값의 총 개수를 표시하는 함수를 사용할 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 7. nunique( )
 
@@ -186,18 +98,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 해당 열인 Weather에 50개의 고유한 값이 있다는 것을 보여줍니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 데이터프레임의 각 열에 있는 고유 값의 수를 확인하려면 어떻게 해야 할까요? 그러려면 열이 아닌 전체 데이터프레임에 nunique()를 적용하면 됩니다.
 
@@ -207,18 +108,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 ## 8. count()
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 각 열의 전체 비 널 값 수를 보여줍니다. 단일 열뿐만 아니라 전체 데이터프레임에도 적용할 수 있습니다.
 
@@ -228,18 +118,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 ## 9. value_counts( )
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 한 열에서 고유 값과 해당 개수가 모두 표시됩니다. 단일 열에만 적용할 수 있습니다.
 
@@ -249,18 +128,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 데이터프레임에 대한 기본 정보를 제공합니다. 범위 인덱스, 모든 열 이름 및 비널 값 수와 해당 데이터 유형이 표시됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_14.png)
 
@@ -270,18 +138,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 데이터프레임의 상위 2개 레코드가 표시됩니다. 참고용으로만 확인해주세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저 '풍속' 열의 고유한 값 개수를 nunique 함수를 사용하여 확인할 수 있습니다.
 
@@ -291,18 +148,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 ![image](/TIL/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_17.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그래서, 'Wind Speed_km/h' 열의 모든 고유한 값이 여기 있습니다.
 
@@ -312,18 +158,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 ![이미지](/TIL/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_18.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 열에서 '맑음'의 수는 1326입니다. 따라서 날씨가 맑았던 횟수는 1326번이라는 뜻입니다.
 
@@ -333,18 +168,7 @@ link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-fro
 
 질문에서 요청한 대로 날씨가 '맑음'인 모든 레코드(행)가 여기에 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그룹화( ) 함수를 사용하여 출력을 얻을 수 있는 또 다른 함수는 groupby( ) 입니다. groupby 함수를 사용하여 날씨 열(weather column)의 각 고유한 값들을 그룹화하고 '맑음(clear)'에 대한 출력을 얻을 것입니다. get_group( )를 사용합니다.
 

@@ -17,16 +17,7 @@ link: "https://medium.com/gitconnected/how-to-run-your-first-local-llms-a5f56a50
 
 Chat GPT와 그들의 Chat 버전에 익숙하실 것입니다. 당신은 Chat GPT Plus 사용자(OpenAI의 유료 플랜)일 수도 있습니다. 또는 Anthropic이나 Google Bard와 같은 다른 유사한 제공 업체를 사용해본 적이 있을 수도 있습니다. 심지어 OpenAI와 경쟁 업체 모두 강력한 도구를 제공하지만, 여기 몇 가지 이유가 있어서 LLMs를 로컬에서 실행해 보려고 하는 것을 고려해볼만 합니다 (더 많을 수 있습니다!):
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 생태계에 대해 더 알고 새로운 모델을 시도하며 자신만의 경험을 소유하고 싶다면.
 - 딥 러닝과 LLMs에 대해 배우고 싶지만 시작할 곳을 모르겠거나 더 알고 싶다면; 오픈 소스 모델을 로컬에서 실행하는 것이 훌륭한 시작점이 될 수 있습니다.
@@ -43,16 +34,7 @@ Chat GPT와 그들의 Chat 버전에 익숙하실 것입니다. 당신은 Chat G
 - Jupyter 노트북에서 LangChain을 사용하여 로컬 LLMs 실행, Python 프로그래밍 기술은 필요하지만 LLMs에 대한 사전 경험이 없어도 됩니다.
 - LangChain과 Taipy를 사용하여 챗봇 생성.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 책임의 한계:
 
@@ -66,16 +48,7 @@ Chat GPT와 그들의 Chat 버전에 익숙하실 것입니다. 당신은 Chat G
 
 # 몇 가지 기본 개념
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LLM 랜드스케이프는 수십 개(아마 수백 개)의 새로운 용어, 용어, 개념 및 약어들을 가져왔어요. 쉽게 길을 잃을 수 있습니다. 이 섹션의 목표는 로컬에서 첫 번째 오픈 소스 모델을 사용하는 데 중요한 일부 주요 개념을 간단하게 설명하는 것입니다.
 
@@ -90,16 +63,7 @@ LLM 랜드스케이프는 수십 개(아마 수백 개)의 새로운 용어, 용
 
 Hugging Face은 다양한 LLM 모델을 다운로드할 수 있는 한 곳(주요한 곳?)입니다(다른 LLM 관련 도구들과 함께). 여기 목표는:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - GGUF 모델을 다운로드하는 방법을 안내해 드릴게요.
 - 다운로드하기 전에 확인해야 할 중요한 사항들을 몇 가지 소개해 드릴게요.
@@ -110,16 +74,7 @@ Hugging Face은 다양한 LLM 모델을 다운로드할 수 있는 한 곳(주�
 
 다음 단계는 모델을 필터링해서 GGUF 파일만 표시되도록 하는 것입니다. 페이지의 왼쪽 상단에 "라이브러리"를 선택하고 GGUF를 클릭하면 됩니다. 아래 이미지와 같이 하시면 되요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_2.png)
@@ -131,16 +86,7 @@ The Bloke가 제공하는 GGUF 모델은 다른 모델의 양자화 버전입니
 이 예에서는 Mistral 7B Instruct v0.2 — GGUF라는 모델을 사용할 것입니다 (그리고 이외에도 1개의 아주 작은 모델이 있습니다. 아래 참조).
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 모델은 Mistral-7B-Instruct-v0.2라고 하는 원래 모델의 양자화된 버전입니다. 해당 Hugging Face 페이지를 확인할 수 있습니다 (해당 페이지에서 파일을 다운로드하지 마세요!) 및 Readme 페이지(주 페이지)의 정보, 파일 확장명 등을 양자화된 모델의 정보와 비교할 수 있습니다. 이 모델은 오픈 소스 LLMs 분야에서 중요한 역할을 하는 Mistral이 개발한 것입니다.
 
@@ -152,16 +98,7 @@ The Bloke가 제공하는 GGUF 모델은 다른 모델의 양자화 버전입니
 
 ![이미지](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_3.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 더 작은 모델
 
@@ -171,16 +108,7 @@ The Bloke가 제공하는 GGUF 모델은 다른 모델의 양자화 버전입니
 
 ## 모델과 대화하기 위한 일부 Python 라이브러리
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 파이썬 방식에 따라 가시려면, 여기 몇 가지 라이브러리를 소개해 드릴게요. 이 라이브러리들을 사용하면 로컬 또는 비로컬로 간단한 채팅 인터페이스를 만들 수 있어요:
 
@@ -192,16 +120,7 @@ The Bloke가 제공하는 GGUF 모델은 다른 모델의 양자화 버전입니
 
 GPT4All은 로컬 컴퓨터에서 실행되는 채팅 인터페이스에요. 홈페이지에서 직접 설치 파일을 다운로드할 수 있어요. Windows용으로는 .exe 파일이며, 열어서 설치하면 되요... 그렇게 간단해요!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위 이미지를 보시면 ChatGPT의 인터페이스와 비슷하게 보입니다:
 
@@ -214,16 +133,7 @@ GPT4All은 로컬 컴퓨터에서 실행되는 채팅 인터페이스에요. 홈
 - 설정 버튼. 여기서 HuggingFace나 다른 곳에서 GGUF 파일을 다운로드할 디렉토리를 볼 수 있어요. 올바른 폴더에 다운로드하면 GPT4all이 그 파일들을 "인식"할 거예요.
 - 폴더에 여러 모델이 있는 경우, GUI 상단 중앙의 메뉴로 선택할 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## GPT4All에서 모델 다운로드하기
 
@@ -233,16 +143,7 @@ GPT4All에서 모델을 다운로드하려면 화면 오른쪽 상단의 버거 
 
 선택할 모델 목록이 표시됩니다. 원하는 모델을 선택하고 "다운로드"를 클릭하면 첫 번째 모델을 사용할 수 있습니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 미스트랄의 OpenOrca를 사용하고 있는데, 이 채팅 봇은 상당히 좋아요. 여기에서는 API 키를 제공하여 ChatGPT 모델을 선택할 수도 있습니다. 이 마지막 옵션은 아직 시도해보지 않았는데, 개인적으로는 의미가 없다고 생각해요.
 
@@ -252,16 +153,7 @@ GPT4All에서 모델을 다운로드하려면 화면 오른쪽 상단의 버거 
 
 HuggingFace와 같은 다른 모델을 사용하고 싶다면, 그 모델이 GPT4All이 모델을 찾는 폴더에 다운로드하면 됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 해당 위치를 찾으려면 설정 메뉴(오른쪽 상단의 작은 휠)를 클릭하세요. "애플리케이션"을 선택합니다. 로컬 폴더 경로는 "다운로드 경로" 옆에 있습니다:
 
@@ -271,16 +163,7 @@ HuggingFace와 같은 다른 모델을 사용하고 싶다면, 그 모델이 GPT
 
 # LangChain 사용하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 알림: 이 방법은 Python의 기본적인 이해가 필요하지만 따르기 쉬워요. 노트북 사용자들(Jupyter Notebook, JupyterLab...)에 적합해요.
 
@@ -293,16 +176,7 @@ LangChain을 사용하기 위해 다음이 필요해요:
 - Langchain_community: Langchain을 위한 타사 통합 기능을 포함하고 있어요.
 - llama_cpp_python: llama.cpp를 위한 Python 바인더에요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Llama.cpp은 다른 파일들과 함께 GGUF 파일을 다룰 수 있게 해줍니다!
 
@@ -312,16 +186,7 @@ JupyterLab을 사용하여 LLM 모델을 호출할 것이고, 이 작업은 다�
 
 먼저 라이브러리를 가져와주세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from langchain.callbacks.manager import CallbackManager
@@ -341,16 +206,7 @@ callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
 
 이제, prompts를 인수로 받아 답변을 생성할 llm 객체를 만들 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 llm = LlamaCpp(
@@ -360,16 +216,7 @@ llm = LlamaCpp(
 )
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 prompt_addon = "<s>[INST]파이썬 명령어를 만들어 'hello world'를 출력하도록 합니다[/INST]print('hello world')</s>"
@@ -385,16 +232,7 @@ llm.invoke(f"{prompt_addon}[INST]{prompt}[/INST]")
 
 LangChain 보드 대신에, Taipy와 같은 Python 웹 애플리케이션 빌더와 함께 사용할 수 있습니다. 이 라이브러리에 대해 더 알고 싶으시다면, 이전에 관련한 기사를 썼었지만, 라이브러리에 대해 많이 알지 못해도 어플리케이션을 작동시킬 수 있을 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저는 다음 예시를 Taipy 팀의 튜토리얼에서 수정했어요. 그래서 많은 창의성은 그들에게 돌아갑니다. 다른 점은 OpenAI의 GPT 모델(그들의 API로) 대신 로컬 모델을 사용한다는 것이에요.
 
@@ -404,16 +242,7 @@ Python 함수와 Taipy 코드를 모두 넣을 main.py 라는 파일을 만들�
 
 첫째, 라이브러리를 가져와요. 앱이 채팅을 표시할 것이기 때문에 출력을 스트리밍할 필요 없어요. 그냥 가져오세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from langchain.callbacks.manager import CallbackManager
@@ -428,16 +257,7 @@ from taipy.gui import Gui, State
 성능상의 이유로 tinyllama-1.1b-chat-v1.0.Q4_K_M 모델을 사용하겠습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 대화 = {
@@ -462,16 +282,7 @@ llm = LlamaCpp(model_path=모델)
 
 그런 다음, 채팅을 처리하는 2개의 함수를 만들 수 있어요. 먼저, 모델에 질문을 보내고 답변을 받는 request()라는 함수를 정의해주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 **Note:** The function generates a prompt based on the model specified in the documentation. According to the documentation, you should follow the prompt template "Zephyr", which is different from the one used for Mistral 7B shown above:
 
@@ -516,16 +327,7 @@ def request(state: State, prompt: str, conv_list: list) -> str:
     return response
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그리고 이제 Taipy GUI 인터페이스와 상호 작용하는 send_message() 함수를 정의할 수 있습니다:
 
@@ -552,16 +354,7 @@ def send_message(state: State) -> None:
 
 페이지를 초기화하려면 아래 코드를 추가하면 됩니다. 페이지 객체는 페이지 구조를 정의합니다. 원하신다면 markdown 구문을 추가할 수 있습니다(제목 또는 원하는 내용). 여기에는 없습니다. 그리고 Taipy 요소를 `|...|` 사이에 추가할 수 있습니다. 더 자세한 정보가 필요하다면 Taipy에 관한 다른 글을 참조하는 것을 권장합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 page = """
@@ -579,16 +372,7 @@ Taipy의 튜토리얼에는 CSS 코드와 적용하는 함수가 있습니다. �
 
 main.py 파일 옆에 main.css 파일을 만들어 다음 코드를 붙여넣으세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 .gpt_message td {
@@ -647,16 +431,7 @@ def style_conv(state: State, idx: int, row: int) -> str:
 다음으로, 페이지 객체를 수정하시어 스타일이 적용되도록 하실 수 있습니다. 아래와 같이 conversation 요소에 style=style_conv|를 추가해주세요:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 페이지 = """
@@ -672,16 +447,7 @@ def style_conv(state: State, idx: int, row: int) -> str:
 아래 이미지에서 보시다시피, 작은 모델이 좋지 않고 지리가 주 용도가 아닌 것 같습니다. 하지만 한 가지 확실한 것은 웹 앱에서 로컬 모델이 실행되고 있다는 것이며, 이것은 정말 멋집니다!
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_9.png)
@@ -693,15 +459,6 @@ If you enjoyed my content and would like to connect:
 👉 You can connect with me on LinkedIn
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 👉 제 개인 웹사이트를 확인해보세요

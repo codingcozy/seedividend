@@ -22,16 +22,7 @@ link: "https://medium.com/@dataakkadian/complete-free-course-on-python-and-data-
 - 인덱스는 0부터 시작합니다.
 - 순서가 있고 중복된 요소가 있습니다. append, remove 및 수정과 같은 연산이 가능합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래 코드는 실제 예시입니다:
 
@@ -44,16 +35,7 @@ link: "https://medium.com/@dataakkadian/complete-free-course-on-python-and-data-
 - 변경할 수 없는 데이터입니다.
 - 변경할 수 없는 리스트로 사용될 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 tuple = (1, 2, 3, 4, 5, "b", "c", "d")
@@ -67,16 +49,7 @@ city, year, pop, chg, area = ('Tokyo', 2003, 32_450, 0.66, 8014)
 
 아래 코드는 실제 예시입니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Course Image](/TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_1.png)
@@ -92,16 +65,7 @@ city, year, pop, chg, area = ('Tokyo', 2003, 32_450, 0.66, 8014)
 The code below is a practical example:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_2.png)
@@ -121,16 +85,7 @@ The code below is a practical example:
 ![이미지](/TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_3.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # NumPy Arrays:
 
@@ -146,16 +101,7 @@ The code below is a practical example:
 
 세트는 어떻게 구현되었나요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Dict 대 OrderedDict
 
@@ -165,16 +111,7 @@ Dict은 파이썬의 해시 테이블입니다.
 
 # 감사 노트:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 각자의 시간을 내어 저의 글을 읽어 주셔서 감사의 말씀 전하고 싶습니다. 여러분의 지지와 참여는 저에게 너무나 소중하며, 이 멋진 청중과 제 생각과 통찰을 나눌 수 있는 기회에 진심으로 감사드립니다. 여러분의 팔로우는 저에게 가치 있는 내용을 만들기 위해 더 나은 자아를 추구하도록 영감을 줍니다. 오랜 구독자이든 새로 오신 독자이든, 여러분의 존재가 중요하며, 지지에 깊은 감사를 표합니다. 여러분과 공감되고 영감을 주는 고품질 글을 제공하기 위해 헌신할 것입니다. 여러분의 피드백과 댓글은 글쓰기에 대한 열정을 불어 넣어주고, 지속적인 성장을 동기부여합니다. 이 청중의 일원으로 함께해 주셔서 감사합니다. 여러분이 제 커뮤니티의 일원으로 있어 기쁘게 생각하며, 미래에도 여러분과 여러 새로운 아이디어를 공유하기를 기대합니다.
 

@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/quantized-mistral-7b-vs-tinyllama
 
 이 기사에서는 양자화된 Mistral 7B와 양자화된 TinyLlama 1.1B의 질문-응답 능력의 정확성과 응답 시간 성능을 앙상블 검색 증강 생성 (RAG) 설정에서 비교할 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 목차
 - 활성화 기술
@@ -44,16 +35,7 @@ link: "https://medium.com/towards-data-science/quantized-mistral-7b-vs-tinyllama
 
 검색 증가 생성 (RAG)은 LLM의 출력을 향상시키는 과정으로, 응답 생성 이전에 교육 데이터 소스 외부의 신뢰할 수 있는 지식 베이스를 참조하는 것입니다. RAG 응용 프로그램은 문헌에서 관련 문서 조각을 검색하기 위한 검색기 시스템과, 검색된 조각을 컨텍스트로 사용하여 응답을 생성하는 LLM으로 구성됩니다. 검색기는 RAG의 주요 요소이며, 전체 질문-답변 (QA) 시스템의 성능에 상당한 영향을 미칩니다. LLM과 함께 작업할 수 있는 강력한 프레임워크 라이브러리인 LangChain은 재견러(EnsembleRetriever)를 포함하고 있습니다. 재견러는 입력으로 검색기 목록을 받아 상호 순위 조합 알고리즘을 기반으로 결과를 조합하고 재정렬합니다. 서로 다른 알고리즘의 장점을 활용함으로써, 과거에 더 높은 정확도를 달성했다는 것을 보여주었습니다. 본 문서에서 우리는 앙상블을 위해 BM25 검색기와 FAISS 검색기를 0.3:0.7 비율로 결합할 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이러한 지원 요소를 모두 함께 가져오기 위해 시스템 아키텍처를 살펴보겠습니다.
 
@@ -63,16 +45,7 @@ link: "https://medium.com/towards-data-science/quantized-mistral-7b-vs-tinyllama
 
 ![아키텍처 이미지](/TIL/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 QA 시스템에는 세 가지 모듈이 있습니다:
 
@@ -84,16 +57,7 @@ link: "https://medium.com/towards-data-science/quantized-mistral-7b-vs-tinyllama
 
 # 환경 설정
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기서 사용하는 Python 버전은 3.10.5입니다. 이 프로젝트를 관리하기 위해 가상 환경을 생성할 거에요. 환경을 생성하고 활성화하기 위해 다음 단계를 따라봐요:
 
@@ -112,16 +76,7 @@ pip install sentence_transformers
 CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 최근에 langchain이 리팩토링되었기 때문에 코드에 사용된 특정 버전이 위에 표시되어 있습니다. M1 프로세서에서 하드웨어 가속화를 사용하여 llama-cpp-python 라이브러리를 사용하려면 위의 마지막 설치 명령어는 Metal 지원을 활성화합니다. Metal을 사용하면 연산이 GPU에서 실행됩니다.
 
@@ -131,16 +86,7 @@ faiss-cpu는 GPU가 아닌 CPU를 사용하여 밀도가 높은 벡터의 유사
 
 # 구현
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저희 시스템 아키텍처에 따르면 LoadVectorize, LLMPerfMonitor 및 주요 모듈이 총 3개의 모듈이 있습니다. 처음 두 모듈은 수정 없이 이전 연구에서 재사용되었습니다. 첫 번째 모듈에서 로드된 샘플 문서는 최근 출시된 600페이지 이상의 가속화 장치 가이드인 SteelHead입니다.
 
@@ -150,16 +96,7 @@ Mistral 프롬프트는 다음 템플릿을 따릅니다:
 
 `s`[INST] 'context' [/INST]`/s`'question'
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 TinyLlama 프롬프트는 다음과 같습니다:
 
@@ -224,16 +161,7 @@ for i,query in enumerate(qa_list[::2]):
    print(f'bm25-{r:.1f}_f-{1-r:.1f};Q{i+1};{cos_sim:.5};{time:.2f}')
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결과 및 토의
 
@@ -243,31 +171,13 @@ for i,query in enumerate(qa_list[::2]):
 
 두 LLM이 올바른 코드 버전을 식별할 수 있었습니다. 그러나 둘 다 추가 세부 정보를 포함한 응답이 완전히 정확하지는 않습니다. 특히 TinyLlama에 대해서는 좋은 결과입니다. 10개의 질문에 대한 정확도는 도형 2에 트리맵 차트로 나타냈습니다. Treemap은 내재적 분류 체계를 사용하여 데이터를 효과적으로 표현할 수 있으며 선택한 측정 항목의 크기와 색상 음영을 사용하여 구분할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래 표는 마크다운 형식으로 변환해 주세요.
 
 이미지는 래이블을 명시해 볼 수는 있지만, Markdown은 이미 HTML인 요소보다 더 적합하고, 깨끗한 마크업을 보여주는 방법입니다. 역할에 따라 Markdown의 사용은 더 효과적일 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 선택한 질문에 대한 결과를 기반으로 보면, TinyLlama는 정확성 측면에서 꽤 잘 수행했습니다. 더 중요한 점은 더 정확한 Mistral 7B 모델보다 훨씬 더 빠르게 응답할 수 있었습니다. 주장대로라면, TinyLlama는 자원이 제한된 시스템에서 좋은 성능을 보이는 모델로 보입니다.
 
@@ -277,16 +187,7 @@ for i,query in enumerate(qa_list[::2]):
 
 이 기사에서 우리는 정량화된 Mistral 7B Instruct와 TinyLlama 1.1B Chat의 정확성과 질문 응답 시간을 비교했습니다. 정확성 측면에서 큰 모델 Mistral 7B가 TinyLlama보다 여전히 우수하지만, 응답 시간 측면에서 TinyLlama의 응답이 Mistral 7B보다 훨씬 빨랐습니다. 한 예에서 TinyLlama의 응답 시간이 Mistral 7B보다 17배 빨랐습니다. 따라서 정확도에 약간의 하락이 허용되는 애플리케이션의 경우, TinyLlama는 자원이 제한된 시스템에 완벽하게 적합합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 안녕하세요!
 

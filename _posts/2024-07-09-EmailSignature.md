@@ -1,7 +1,7 @@
 ---
 title: "전문가처럼 이메일 서명을 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-EmailSignature_0.png"
+coverImage: "/assets/img/2024-07-09-EmailSignature_0.png"
 date: 2024-07-09 14:18
 ogImage:
   url: /assets/img/2024-07-09-EmailSignature_0.png
@@ -18,33 +18,11 @@ link: "https://medium.com/@aquaaetherial98/email-signature-7b19736b9feb"
 
 이 상품은 20개의 색상 믹스에서 50개의 이메일 서명 디자인을 포함하고 있습니다: 에게아블루, 블루, 다크블루, 그린, 다크그린, 그레이, 제이드, 오렌지, 핑크, 살몬, 퍼플, 레드, 옐로우, 에크루, 브라운, 블루-골드, 블루-제이드, 그린-옐로우, 퍼플-블루, 레드-오렌지.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 변경된 Markdown 포맷에서는 이 테이블에 대한 내용을 찾을 수 없습니다. 원하는 정보에 대해 더 많이 설명해 주시면 도움을 드릴 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 1000개의 .html 이메일 서명 파일.
 - 20개의 .psd 이메일 서명 파일 (Lato 글꼴만 지원).
@@ -67,18 +45,7 @@ link: "https://medium.com/@aquaaetherial98/email-signature-7b19736b9feb"
 
 글꼴
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아래는 폰트 다운로드 링크입니다:
 
@@ -92,42 +59,20 @@ link: "https://medium.com/@aquaaetherial98/email-signature-7b19736b9feb"
 - 이메일 서명을 편집하려면 기본적인 HTML 지식이 필요할 수 있습니다.
 - Gmail, Mozilla Thunderbird 또는 Apple Mail과 함께 사용하는 것을 권장합니다. 마이크로소프트 Outlook는 일부 CSS 속성(웹폰트, 테두리 반경 또는 그라데이션 색상 등)을 지원하지 않을 수 있으며 일부 서명 디자인이 예상과 다르게 표시될 수 있습니다.
 
-![Email Signature](/ui-log-2/assets/img/2024-07-09-EmailSignature_0.png)
+![Email Signature](/assets/img/2024-07-09-EmailSignature_0.png)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ---
 
-![EmailSignature_1](/ui-log-2/assets/img/2024-07-09-EmailSignature_1.png)
+![EmailSignature_1](/assets/img/2024-07-09-EmailSignature_1.png)
 
-![EmailSignature_2](/ui-log-2/assets/img/2024-07-09-EmailSignature_2.png)
+![EmailSignature_2](/assets/img/2024-07-09-EmailSignature_2.png)
 
-![EmailSignature_3](/ui-log-2/assets/img/2024-07-09-EmailSignature_3.png)
+![EmailSignature_3](/assets/img/2024-07-09-EmailSignature_3.png)
 
 Photo by brandifystudio on Envato Elements
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 면책 조항: 본 글에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 구매를 하시면 별도의 비용 없이 커미션을 받을 수 있습니다.

@@ -18,18 +18,7 @@ link: "https://medium.com/bitgrit-data-science-publication/supercharge-your-pyth
 
 새로운 도구가 나왔습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 러프
 
@@ -39,18 +28,7 @@ link: "https://medium.com/bitgrit-data-science-publication/supercharge-your-pyth
 
 가장 큰 Python 프로젝트 중 일부가 그것을 사용하기 시작하자, Python 생태계를 더 생산적으로 만들기 위해 고성능 개발자 도구를 구축하여 소프트웨어를 더 빨리 출시할 수 있도록 하는 기회를 보았습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Ruff는 러스트로 작성된 매우 빠른 Python 린터 및 코드 포매터입니다.
 
@@ -60,18 +38,7 @@ Ruff는 러스트로 작성된 매우 빠른 Python 린터 및 코드 포매터�
 
 Ruff는 Flake8(그리고 수십 개의 플러그인), Black, isort, pydocstyle, pyupgrade, autoflake 등을 대체할 수 있으며, 10~100배의 속도 향상을 자랑합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 VS Code 및 다양한 다른 통합을 위한 일등 서비스 편집기 통합을 제공합니다.
 
@@ -81,18 +48,7 @@ Ruff는 Airflow, Hugging Face, Pandas와 같은 주요 오픈 소스 프로젝�
 
 FastAPI 창시자 Sebastián Ramírez:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 닉 쉬록은 Elementl의 창립자이자 GraphQL의 공동 창시자입니다.
 
@@ -102,18 +58,7 @@ FastAPI 창시자 Sebastián Ramírez:
 
 이 효율성은 러스트의 성능 능력을 통해 이루어지며, 변경되지 않은 파일의 재분석을 방지하는 내장 캐싱 시스템과 개발 과정 전반에 걸쳐 성능 최적화에 초점을 맞춘 덕분입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대규모 코드베이스에서도 하위 초 반응 루프를 제공하도록 설계된 Ruff는 린팅 및 형식 지정 작업을 기다리는 시간을 줄여 개발자들의 삶의 질을 크게 향상시킵니다.
 
@@ -123,18 +68,7 @@ FastAPI 창시자 Sebastián Ramírez:
 
 해당 페이지에는 AST, 토큰, 형식 지정 IR(중간 표현), 그리고 형식 지정 주석을 보여줍니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 더 이상 말이 필요 없어요. 직접 해보는 것이 최선이죠!
 
@@ -144,18 +78,7 @@ FastAPI 창시자 Sebastián Ramírez:
 
 Ruff는 PyPI에서 ruff로 사용할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 pip install ruff
@@ -167,18 +90,7 @@ pip install ruff
 
 ## 코드 분석
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코드에 린터를 실행하려면, 다음과 같이 사용합니다.
 
@@ -192,18 +104,7 @@ ruff check .
 ruff check <filename.py>
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 총 415개의 오류가 있었어요. 이 중 33개는 수정할 수 있어요!
 
@@ -215,18 +116,7 @@ ruff check <filename.py>
 ruff check --fix .
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_5.png" />
 
@@ -236,18 +126,7 @@ ruff check --fix .
 
 포맷팅을 위해 ruff 형식을 사용합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 format을 변경하십시오.
@@ -259,18 +138,7 @@ format을 변경하십시오.
 
 # VS Code에서 사용하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 VSCode 확장 프로그램을 설치해보세요.
 
@@ -280,18 +148,7 @@ VSCode 확장 프로그램을 설치해보세요.
 
 게다가 더 좋은 점은 저장할 때도 이 작업을 할 수 있다는 거예요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 저장 시 형식 지정
 
@@ -310,18 +167,7 @@ VSCode 확장 프로그램을 설치해보세요.
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 테이블 태그를 마크다운 형식으로 변경하실 수 있습니다.
 
@@ -335,18 +181,7 @@ Ruff가 유형 또는 저장 시 실행되기를 원하는지에 따라 다릅�
 
 이 확장 프로그램으로 노트북에서 서식 지정, 린팅, 그리고 가져오기 정리를 위한 명령어를 사용할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 오른쪽 코드 조작으로 변경하세요.
 
@@ -364,18 +199,7 @@ Ruff가 유형 또는 저장 시 실행되기를 원하는지에 따라 다릅�
 
 # pre-commit 사용하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 프리 커밋을 사용하려면 Ruff의 프리 커밋 후크를 추가하는 방법입니다.
 
@@ -397,18 +221,7 @@ Ruff가 유형 또는 저장 시 실행되기를 원하는지에 따라 다릅�
 
 만약 노트북을 위해 CLI를 사용 중이라면, pyproject.toml이나 ruff.toml 중 하나에 이 줄을 추가해야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 extend-include = ["*.ipynb"]
@@ -420,18 +233,7 @@ extend-include = ["*.ipynb"]
 
 <img src="/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_7.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Ruff에 대해 더 알아보기
 
@@ -445,18 +247,7 @@ extend-include = ["*.ipynb"]
 
 # 읽어 주셔서 감사합니다
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 bitgrit 데이터 과학 게시물을 구독하고 최신 소식을 받아보세요!
 

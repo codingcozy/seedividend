@@ -17,16 +17,7 @@ link: "https://medium.com/@ivopbernardo/pytorch-introduction-using-custom-data-4
 
 지금까지 이 PyTorch 시리즈에서 이 라이브러리를 사용하는 기본 개념을 배워왔습니다. 예를 들어:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 텐서에 대한 기본 사항을 배우기
 - PyTorch를 사용하여 처음 선형 모델(회귀)을 만드는 방법 이해하기
@@ -40,16 +31,7 @@ link: "https://medium.com/@ivopbernardo/pytorch-introduction-using-custom-data-4
 
 또한 데이터 배치의 개념에 대해 살펴보고, 이를 위해 PyTorch 사용자 정의 DataLoader를 사용하는 방법도 알아볼 것입니다. 이 블로그 게시물의 일부 영감은 Zero to Mastery Pytorch 무료 강좌에서 온 것입니다 — 많은 흥미로운 학습 예제가 있는 이 멋진 자료를 확인해보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 시작해 봅시다!
 
@@ -76,16 +58,7 @@ class RandomIntDataset(Dataset):
         return self.data[i], self.labels[i]
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저희 RandomIntDataset은 랜덤한 torch 객체와 레이블을 생성합니다. 클래스에 던더 메서드를 도입하고 torch.utils.data.Dataset을 상속했음을 주목해주세요. (특히 데이터셋을 DataLoader와 결합할 때 유용하게 사용될 것입니다).
 
@@ -97,16 +70,7 @@ dataset = RandomIntDataset(100, 1000, 500, 10)
 
 다시 말씀드리지만, Pytorch의 기본 클래스를 상속받았기 때문에 DataLoader를 사용하여 좋은 이터러블을 생성할 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 dataset_loader = DataLoader(dataset, batch_size=10, shuffle=True)
@@ -121,16 +85,7 @@ data
 
 <img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_1.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 새로운 iteration을 실행하고 data_loader의 다음 배치가 어떻게 이동하는지 확인해보세요! 이를 통해 데이터 및 레이블 객체 내부의 다른 데이터가 표시됩니다.
 
@@ -140,16 +95,7 @@ data
 
 우리가 보았듯이, 무작위 데이터 세트 사용은 단순한 연습일 뿐입니다. 그러나 이제 DataLoader와 데이터 배치가 어떻게 작동하는지 알기 때문에 이 지식을 사용하여 새로운 클래스를 만들어 PyTorch 데이터 세트를 사용할 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import pandas as pd
@@ -189,16 +135,7 @@ data_taxi = TaxiSample()
 dataset_loader = DataLoader(data_taxi, batch_size=20, shuffle=True)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리의 배치 크기가 20인 경우, 이 데이터셋에서 이터레이터를 만들 수 있습니다:
 
@@ -211,29 +148,11 @@ data, labels = next(data_iterator)
 
 멋져요! 이것들은 데이터셋에서 무작위로 선택한 처음 20개의 예시입니다. 위 이미지에서는 피처와 해당 레이블을 확인할 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 있는 이미지 데이터를 사용 해보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 블로그 게시물의 이 섹션에서는 이미지 데이터 처리 능력을 보여주기 위해 Microsoft Research Cats. vs Dogs. 데이터셋과 함께 Pytorch를 사용할 것입니다. 먼저 pathlib를 사용하여 경로를 정의해 보겠습니다:
 
@@ -246,16 +165,7 @@ data_path = Path(“data/dogs_cats”)
 
 ![이미지](/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_3.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 섹션에서는 일반적인 컴퓨터 비전 변환 및 아키텍처를 제공하는 pytorch의 멋진 확장인 torchvision이 필요합니다.
 
@@ -265,16 +175,7 @@ from torchvision import datasets, transforms
 
 다음으로 jpg 파일 이름을 읽어보겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 image_dogs_list = list((data_path/'dogs').glob("*.jpg"))
@@ -289,16 +190,7 @@ image_paths = image_cats_list + image_dogs_list
 
 Let’s see if everything is working fine by extracting a random image from our list:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import random
@@ -325,16 +217,7 @@ img
 이미지를 텐서로 변환할 때 일반적인 단계 중 하나는 이미지를 일반적인 포맷으로 조정하는 것입니다. transforms 라이브러리를 사용하여 이미지 크기를 조정하고 첫 번째 비전 파이프라인을 설정할 수 있습니다!
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 data_transform = transforms.Compose([
@@ -353,16 +236,7 @@ data_transform = transforms.Compose([
 
 한 이미지와 해당 변환된 버전을 나란히 그래플로 표시합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import matplotlib.pyplot as plt
@@ -396,16 +270,7 @@ plot_transformed_images(image_paths,
 
 저런! 변환을 통해 기본 텐서에 액세스하는 방법을 살펴보겠습니다. 예를 들어, 첫 번째 이미지의 경우:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 image_path = image_paths[0]
@@ -418,16 +283,7 @@ data_transform(Image.open(image_path))
 
 우리가 넘어가기 전에 더해야 할 마지막 단계 하나가 있습니다. 빠르게 텐서와 레이블을 생성하는 대안이 있습니다. 우리는 ImageFolder를 사용하여 편리하게 훈련 데이터를 생성할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 train_data = datasets.ImageFolder(root=data_path, transform=data_transform, target_transform=None)
@@ -442,16 +298,7 @@ class_names
 
 <img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_8.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 class_names에는 현재 태그(폴더 이름에서 읽음)가 컴퓨터 비전 모델에 포함되어 있습니다. train_data에는 컴퓨터 비전 프로세스에 대한 중요한 메타데이터가 포함되어 있습니다:
 
@@ -468,16 +315,7 @@ train_dataloader = DataLoader(dataset=train_data,
 train_dataloader
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 보면 이터러블이 있네요:
 
@@ -491,16 +329,7 @@ print(f"레이블 형태: {label.shape}")
 
 멋져요! 이 배치 크기가 5인 경우, 3채널(RGB)의 64x64 픽셀 이미지를 나타내는 3x64x64 텐서를 얻을 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 이 데이터 배치를 사용하여 강아지와 고양이 이미지를 인식하는 머신러닝 모델을 훈련할 수 있어요! (사실, 이 시리즈의 다음 블로그 게시물에서 이를 진행할 예정이에요!)
 
@@ -512,16 +341,7 @@ print(f"레이블 형태: {label.shape}")
 from sklearn.datasets import fetch_20newsgroups
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음의 내용을 newsgroups에서 로드해 보겠습니다:
 
@@ -556,16 +376,7 @@ def preprocess_text(text: str) -> str:
     return tokens
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래는 우리 어휘를 생성하는 함수입니다:
 
@@ -590,16 +401,7 @@ vocab = get_vocab(corpus)
 len(vocab)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이미지 파일:
 
@@ -613,16 +415,7 @@ len(vocab)
 
 이렇게 설정을 했으면, 문자를 정수로 변환하여 텐서로 변환하는 함수를 사용할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 def text_to_tensor(text: str, vocab_dict: dict) -> torch.tensor:
@@ -658,29 +451,11 @@ print('텍스트 "{}"는 다음과 같이 텐서로 표현됩니다: {}'.format(
 <img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_13.png" />
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 PyTorch 시리즈의 더 많은 포스트를 알아보려면 다음 링크를 확인해보세요:
 

@@ -59,7 +59,7 @@ export const PostList = ({ postList }: PostListProps) => {
             <Link className={cx("post_item")} href={`/post/${post.slug}`} aria-label={post.title} key={i}>
               <div className={cx("thumbnail_wrap")}>
                 <Image
-                  src={post.coverImage ? post.coverImage : `https://source.unsplash.com/random/?programming`}
+                  src={post.coverImage ? post.coverImage : `/assets/no-image.jpg`}
                   className={cx("thumbnail")}
                   alt={post.title}
                   width={100}

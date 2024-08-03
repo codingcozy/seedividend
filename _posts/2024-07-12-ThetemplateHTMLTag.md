@@ -1,10 +1,10 @@
 ---
 title: "HTML template 태그 완전 정복하기"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-12-ThetemplateHTMLTag_0.png"
+coverImage: "/assets/img/2024-07-12-ThetemplateHTMLTag_0.png"
 date: 2024-07-12 19:25
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-12-ThetemplateHTMLTag_0.png
+  url: /assets/img/2024-07-12-ThetemplateHTMLTag_0.png
 tag: Tech
 originalTitle: "The <template> HTML Tag"
 link: "https://medium.com/@asierr/the-template-html-tag-72be6fb5eba9"
@@ -13,22 +13,13 @@ link: "https://medium.com/@asierr/the-template-html-tag-72be6fb5eba9"
 
 모듈식이고 재사용 가능한 코드가 필수적입니다. `template` HTML 태그의 도입은 이러한 필요성을 해결하면서 개발자들에게 동적 콘텐츠를 정의하고 관리하는 간소화된 방법을 제공합니다. 이 새로운 태그는 재사용 가능한 HTML 구조를 생성할 때 이전에 직면했던 많은 어려움을 간소화합니다.
 
-![Image](/ui-log-2/assets/img/2024-07-12-ThetemplateHTMLTag_0.png)
+![Image](/assets/img/2024-07-12-ThetemplateHTMLTag_0.png)
 
 ## `template` 태그가 필요한 이유
 
 - 중복 감소:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - **이전**: 개발자들은 동적 콘텐츠를 만들기 위해 HTML 조각을 복제해야 했는데, 이는 중복된 코드와 유지보수 노력의 증가로 이어졌습니다.
 - **지금**: `template` 요소를 사용하면 재사용 가능한 HTML 조각을 한 번 정의하고 필요할 때마다 인스턴스화할 수 있어서 코드를 DRY (Don't Repeat Yourself)하게 유지할 수 있습니다.
@@ -40,16 +31,7 @@ link: "https://medium.com/@asierr/the-template-html-tag-72be6fb5eba9"
 
 3. 역할의 깔끔한 분리:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 이전에는 JavaScript 내에서 HTML 생성 로직을 섞는 것이 종종 복잡하고 유지 관리하기 어렵게 이어졌습니다.
 - 지금은 `template` 태그를 사용하여 HTML 구조와 이를 조작하는 JavaScript 간에 명확한 분리가 가능해져 코드베이스를 더 유지보수하기 쉽고 이해하기 쉬운 것으로 만들어 줍니다.
@@ -60,16 +42,7 @@ link: "https://medium.com/@asierr/the-template-html-tag-72be6fb5eba9"
 
 - HTML 설정:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 
 1. Markdown 형식으로 표를 변경하시려면 아래와 같이 변경해 주세요.
@@ -97,16 +70,7 @@ container.innerHTML += content;
 이 방법은 JavaScript 내에서 HTML 문자열을 포함하는 방식을 사용했는데, 이는 특히 대규모 프로젝트에서는 복잡하고 오류 발생 가능성이 높아질 수 있습니다.
 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # `template`을 활용한 현대적인 방법
 
@@ -126,16 +90,7 @@ container.innerHTML += content;
 <button id="addItemBtn">Add Item</button>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 2. 템플릿 사용을 위한 JavaScript:
 
@@ -156,16 +111,7 @@ addItemBtn.addEventListener('click', () => {
 
 ## `template` 태그의 장점
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - **Deferred Rendering:**
 
@@ -175,16 +121,7 @@ addItemBtn.addEventListener('click', () => {
 
 - 한 번만 HTML 구조를 정의하고 필요한 만큼 재사용합니다. 이는 코드 중복을 줄일 뿐만 아니라 업데이트를 단순화합니다. 템플릿을 변경하면 모든 인스턴스가 업데이트를 반영합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 3. HTML과 JavaScript 분리:
 
@@ -194,16 +131,7 @@ addItemBtn.addEventListener('click', () => {
 
 - 템플릿 콘텐츠가 초기 렌더 트리의 일부가 아닌 경우, 초기로드 시간이 줄어들고 웹 페이지 전체적인 성능이 향상됩니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 `template` HTML 태그는 웹 개발자에게 상당한 혁신을 가져다 주는 중요한 도구로, 동적이고 재사용 가능한 콘텐츠를 만들기 위한 강력한 도구를 제공합니다. 중복성, 성능 및 유지 관리의 일반적 문제를 해결함으로써 개발 프로세스를 간소화하고 보다 깔끔하고 모듈식 코드를 촉진합니다. 웹 표준이 계속 발전함에 따라 `template` 태그는 웹 개발을 더 효율적이고 개발자 친화적으로 만들기 위한 지속적인 노력의 상징으로 빛을 발하고 있습니다.
 

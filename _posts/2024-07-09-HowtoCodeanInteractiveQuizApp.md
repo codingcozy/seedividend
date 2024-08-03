@@ -1,7 +1,7 @@
 ---
 title: "인터랙티브 퀴즈 앱 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png"
+coverImage: "/assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png"
 date: 2024-07-09 14:01
 ogImage:
   url: /assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png
@@ -10,7 +10,7 @@ originalTitle: "How to Code an Interactive Quiz App"
 link: "https://medium.com/@learntocodetoday/how-to-code-an-interactive-quiz-app-413c07016f6c"
 ---
 
-![Quiz App](/ui-log-2/assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png)
+![Quiz App](/assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png)
 
 Creating an interactive quiz app is a fun and educational project for web developers. This app will allow users to take quizzes, see their scores, and get immediate feedback on their answers. We’ll build this app using HTML, CSS, and JavaScript. By the end of this guide, you’ll have a working quiz app that you can expand and customize.
 
@@ -18,18 +18,7 @@ Creating an interactive quiz app is a fun and educational project for web develo
 
 Before you start, ensure you have:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - HTML, CSS, JavaScript에 대한 기본 지식이 필요합니다.
 - 텍스트 편집기(예: VSCode, Sublime Text 또는 Atom)가 필요합니다.
@@ -41,18 +30,7 @@ Before you start, ensure you have:
 
 프로젝트 구조:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 quiz-app/
 ├── index.html
@@ -65,18 +43,7 @@ quiz-app/
 
 index.html:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 <!DOCTYPE html>
 <html lang="en">

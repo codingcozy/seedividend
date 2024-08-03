@@ -21,16 +21,7 @@ link: "https://medium.com/towards-data-science/baseline-models-in-time-series-c7
 # 베이스라인 모델이란 무엇인가요?
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 기준 모델은 최종적으로 더 복잡한 머신 러닝 모델을 구축하기 위한 기준이 되는 간단한 모델입니다.
 
@@ -43,16 +34,7 @@ link: "https://medium.com/towards-data-science/baseline-models-in-time-series-c7
 
 보통 기준 모델은 이동 평균 모델과 같은 통계 모델이거나, 대상 모델의 간단한 버전일 수 있습니다. 예를 들어, Random Forest 모델을 학습할 예정이라면 먼저 기준으로 Decision Tree 모델을 학습시킬 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 시계열 데이터의 기준 모델
 
@@ -62,16 +44,7 @@ link: "https://medium.com/towards-data-science/baseline-models-in-time-series-c7
 
 단순 예측은 가장 간단한 방법입니다 — 다음 값은 이전 값과 동일하다고 가정합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 날씨를 예측해보려는 모델을 구축 중이라고 가정해 봅시다. 이미 'Date'와 'TemperatureF' 두 개의 열이 적어도 포함된 데이터프레임 df를 불러왔다고 상정할게요. 이를 Python으로 구현하기 위해 먼저 타임스탬프와 타겟 변수를 분리하고 학습 및 테스트 세트로 분할하세요.
 
@@ -100,16 +73,7 @@ series_test = series[split_time:]
 naive_fcst = series[split_time - 1: -1]
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 결과를 시각화하고 테스트 세트에서 나이브 예측이 어떻게 수행되는지 확인하기 위해 plotly 그래프 개체를 사용할 수 있습니다:
 
@@ -128,16 +92,7 @@ fig.show()
 
 <img src="/TIL/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_1.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마지막 단계는 후에 벤치마킹에 사용할 메트릭을 계산하는 것입니다. 선택할 메트릭은 특정 문제에 따라 다를 것이지만 MSE 및 RMSE를 계산하는 방법은 다음과 같습니다:
 
@@ -155,16 +110,7 @@ print(“RMSE:”, rmse)
 
 이동평균(MA) 베이스라인 모델은 다음 데이터 포인트를 바로 이전 n개의 데이터 포인트의 평균으로 예측합니다. n의 값은 사용자에 달려있어요—일반적인 이동평균에는 30일 이동평균, 60일, 90일, 180일 등이 있습니다. 또한 사용 사례 및 분야에 따라 달라집니다. 주식 시장에서는 종종 21, 50, 100 및 200을 사용합니다. 게다가, 최종 모델로 30일을 예측할 것이라는 것을 알고 있다면 30일 이동평균을 사용하여 베이스라인을 테스트하는 것이 좋습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 특정 문제와 목표 결과에 대해 일반적으로 사용되는 이동 평균을 조사해보는 것이 중요합니다.
 
@@ -185,16 +131,7 @@ for time in range(len(series) - window_size):
 forecast = np.array(forecast)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로 이동 평균 예측에서 테스트 세트를 분리하세요. 원래의 테스트 세트와 일치시키기 위해 window_size만큼 예측 배열을 이동할 겁니다.
 
@@ -213,16 +150,7 @@ fig = go.Figure([
 fig.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이렇게 보이도록 표 태그를 마크다운 형식으로 변경해보세요. 
 
@@ -238,16 +166,7 @@ print("MSE:", mse)
 print("RMSE:", rmse)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 주의 사항 + 결론
 

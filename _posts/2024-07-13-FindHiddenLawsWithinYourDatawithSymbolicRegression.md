@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/find-hidden-laws-within-your-data
 
 # 물리학 실험
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 실험 물리학자로서 지정한 높이 h에서 물체를 떨어뜨렸을 때 땅에 도달하는 데 얼마나 걸리는지 알아보고 싶습니다. 예를 들어, h = 1.5m의 높이에서 (공기 저항에 영향받지 않을만큼 충분히 무거운) 물체를 떨어뜨린다면, 땅에 도달하는 데 약 0.55초가 걸립니다. 한 번 시도해보세요!
 
@@ -38,16 +29,7 @@ link: "https://medium.com/towards-data-science/find-hidden-laws-within-your-data
 
 ## 데이터 수집 및 모델 훈련
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우주선을 타고 날아다닌 다음 다양한 높이와 행성에서 몇 가지 물건을 떨어뜨렸고, 항상 땅에 도달하는 데 걸리는 시간을 측정했다고 가정해 봅시다. 측정값의 첫 번째 행들은 다음과 같습니다:
 
@@ -78,16 +60,7 @@ print(rf.score(X_test, y_test))
 
 언제든지 궁금한 점이 있으면 물어봐 주세요!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 좋아요, 매우 잘 숨겨진 패턴을 학습하는 모델을 만들었네요. 근데... 그 패턴이 뭘까요?
 
@@ -97,16 +70,7 @@ print(rf.score(X_test, y_test))
 
 기본적으로, 다양한 특징이 모델의 결과에 어떤 영향을 미치는지를 결정할 수 있게 해줍니다. 멋진 shap 라이브러리를 사용하여 다음을 할 수 있어요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # !pip install shap
@@ -124,16 +88,7 @@ shap.plots.scatter(shap_values=shapley_values)
 보통 이러한 결과가 나오면 만족하고 모델을 배포할 수 있습니다. 그럼에도 불구하고, 이 접근 방식에는 몇 가지 문제가 있다고 주장할 수도 있습니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 모델이 꽤 복잡하므로 이론적 통찰이 전혀 없습니다.
 - 그래서 우리는 scikit-learn 모델로 배포해야 하는데, 우리의 배포 서비스가 scikit-learn 모델을 좋아하지 않을 때 쉽게 다시 구현할 수 없습니다.
@@ -144,16 +99,7 @@ shap.plots.scatter(shap_values=shapley_values)
 
 기호 회귀라는 기술을 활용할 수 있습니다. 이 기술은 데이터를 설명하는 간단한 대수적 표현을 찾으려고 합니다. 예를 들어, 특성 x₁, x₂ 및 x₃ 및 타겟 y로 구성된 데이터 세트에서 모델 학습 결과는 y = √x₁ + sin(x₂/(x₃+1)) 또는 y = exp(x₁²) - x₂ 와 같을 수 있습니다. "자유 낙하" 데이터 세트에서 이 모델이 어떻게 수행되는지 확인해봅시다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 심볼릭 회귀를 위한 많은 패키지가 있습니다. 예를 들어 gplearn과 PySR이 있어요. 여기서는 gplearn을 사용할 거에요. 살짝 더 쉽게 사용할 수 있어서요. 하지만 안타깝게도 2년 동안 업데이트되지 않았어요. PySR은 활발히 개발 중이지만 밑바닥에는 Julia를 사용하기 때문에 또 다른 종속성이 생기는 거에요.
 
@@ -181,16 +127,7 @@ sr = SymbolicRegressor(
 sr.fit(X_train, y_train)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지금 모델은 다음과 같은 공식을 찾으려고 노력합니다:
 
@@ -201,16 +138,7 @@ sr.fit(X_train, y_train)
 
 ![이미지](/TIL/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_3.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래는
 
@@ -222,16 +150,7 @@ since x₀ = h and x₁ = g. Apart from having a test r² of over 0.999, this is
 And don’t only take it from me. The authors of PySR published a paper in which they show how many more physical laws could be rediscovered. On page 16, you can see this table:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 표 태그를 Markdown 형식으로 변경하세요.
 
@@ -239,16 +158,7 @@ And don’t only take it from me. The authors of PySR published a paper in which
 
 Planck의 법칙과 Rydberg 공식은 어떤 라이브러리도 발견하기 어려웠어요. 그래도 PySR만 다른 경우에 잘하고 있었어요. gnlearn은 비교 대상이 아니었어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 어떻게 이 마법이 작동할까요?
 
@@ -258,16 +168,7 @@ Planck의 법칙과 Rydberg 공식은 어떤 라이브러리도 발견하기 어
 
 지금 읽기 싫다면, 현재 사용 사례에 대한 핵심 아이디어는 여기에 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 간단한 무작위 수식들로 시작해보세요, 예를 들어 t = h, t = g², t = g + h, t = √h, ...
 - 평가 지표로 예를 들어 평균 제곱 오차를 사용해 그들이 얼마나 좋은지 확인해보세요.
@@ -281,16 +182,7 @@ Planck의 법칙과 Rydberg 공식은 어떤 라이브러리도 발견하기 어
 
 이 글에서는 의미 있는 수식으로 모델을 구축하는 것이 얼마나 쉬운지 살펴보았습니다. 예를 들어, 우리의 예제에서는 테스트 세트의 성능뿐만 아니라, 더 나았습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예를 들어, SQL로 이동하여 다음과 같이 작성할 수 있어요:
 
@@ -307,16 +199,7 @@ FROM
 
 물론 공식이 항상 간단하거나 데이터를 잘 설명하지는 않을 수 있어요. 이 경우에는 항상 사인, 지수 함수와 같은 다른 연산을 추가하거나, 자체 작은 빌딩 블록을 만들 수 있어요. 이것은 다시 명확한 공식을 만드는 데 도움이 될 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 오늘 새롭고 흥미로운, 가치있는 것을 배우셨기를 바랍니다. 읽어 주셔서 감사합니다!
 

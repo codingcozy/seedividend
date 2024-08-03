@@ -1,7 +1,7 @@
 ---
 title: "2024년 6월에 꼭 봐야 할 10개의 멋진 CodePen 데모"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-10CoolCodePenDemosJune2024_0.png"
+coverImage: "/assets/img/2024-07-06-10CoolCodePenDemosJune2024_0.png"
 date: 2024-07-06 02:15
 ogImage:
   url: /assets/img/2024-07-06-10CoolCodePenDemosJune2024_0.png
@@ -18,18 +18,7 @@ Sophia Wood(별명 Fractal Kitty)는 시와 코드를 섞어 작품을 만들어
 
 # 디오라마 - 우유
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 리카르도 올리바 알론소가 ThreeJS에서 만드는 디오라마를 좋아해요. 이번에는 지브리 영화의 황홀한 느낌이 느껴지는 우유 팩 속 아늑한 커피숍이에요. 그림자와 선들이 이 데모를 더욱 환상적으로 만들어줘요.
 

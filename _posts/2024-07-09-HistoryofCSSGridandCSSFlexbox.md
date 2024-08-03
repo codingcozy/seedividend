@@ -1,10 +1,10 @@
 ---
 title: "CSS Grid와 CSS Flexbox의 역사 지금까지의 여정"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:08
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "History of CSS Grid and CSS Flexbox"
 link: "https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2"
@@ -19,16 +19,7 @@ link: "https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae
 
 오늘날 사용되는 Flexbox 레이아웃은 처음 제안된 것과 매우 다릅니다. CSS Working Group은 2008년에 Flex 레이아웃을 제안하고, 2009년에 첫 번째 작동 초안을 발표했습니다. 이 원래의 명세는 Firefox가 UI 디자인을 제작하는 데 사용되는 XUL을 기반으로 했습니다. 그러나, flex 레이아웃 및 그리드 레이아웃의 주된 저자로 불리는 Tab Atkins Jr에 따르면, 이는 지정되지 않은 채로 남아 있던 것이었습니다. 레이아웃 알고리즘은 느리고 Webkit과 Firefox 두 가지 구현 사이에는 다양한 세부 사항들이 많았습니다. 그리고 두 구현에서 차이가 있었습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 2011년에 Atkins이 등장하여 flexbox의 전체 명세를 다시 작성했습니다. 그의 주요 목표는 웹 개발자로서 습득해야 했던 모든 미친 float/table/inline-block 등의 해킹 방법에 대한 의존성을 제거하는 것이었습니다 (많은 프론트엔드 개발자들이 익숙해진 것). 2012년 버전의 Flexbox 명세는 W3C 후보 권고안으로 제안되었습니다.
 

@@ -19,16 +19,7 @@ link: "https://medium.com/ai-advances/gemma-2b-a-deep-dive-with-basic-and-advanc
 
 이 기사에서는 Gemma 2B를 검색 보강 생성(RAG) 설정에서 사용하여, 모델이 훈련 중에 본 적이 없는 문서에 대한 질문-응답에 활용할 것입니다. RAG는 모델의 응답을 향상시키는 프로세스로, 훈련 데이터 외부의 권위 있는 지식 소스를 활용합니다. 검색 시스템은 관련 문서 스니펫을 검색하여 Gemma가 생성에 영향을 미치기 위한 컨텍스트로 사용할 것입니다. 우리는 어떻게 Gemma가 기본 검색기와 고급 검색기로부터 컨텍스트를 활용하는지 다양한 성능 각도에서 평가할 것입니다. 또한, 해당 성능은 제한된 자원 시스템을 위한 또 다른 LLM로, TinyLlama 1.1B와 비교될 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 목차
 1.0 환경 설정
@@ -51,16 +42,7 @@ python3.10 -m venv mychat
 source mychat/bin/activate
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 필요한 모든 라이브러리를 설치할 수 있습니다:
 
@@ -73,16 +55,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 환경이 준비되었으니 우리의 RAG 시스템 설계 및 구현을 살펴보겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 2.0 디자인 및 구현
 
@@ -92,16 +65,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 이 다이어그램에서 강조된 두 구성 요소는 이 기사의 후반에서 성능 향상을 위해 다시 다룰 예정입니다. 각 모듈의 역할은 다음과 같습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 왼쪽에 있는 첫 번째 모듈은 온라인 PDF 문서를 로드하고 벡터화하는 과정을 포함합니다.
 - 오른쪽에 있는 더 작은 모듈은 보조 모듈 역할을 합니다. 이 모듈은 코사인 유사도를 계산하고 모델 응답 시간을 평가함으로써 일련의 질문을 통해 시스템 성능을 객관적으로 측정할 수 있도록 도와줍니다. 또한 시스템 메모리 사용량도 측정합니다.
@@ -113,16 +77,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 이 모듈은 다음과 같이 3가지 함수로 구성됩니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - load_doc 함수는 온라인 PDF 문서를 로드하는 데 사용되며, 처음에는 100자씩 청크로 분할하고 20자의 오버랩이 있는 문서 목록을 반환합니다.
 - vectorize 함수는 위 load_doc 함수를 호출하여 문서의 청크 목록을 가져와 임베딩을 생성하고 opdf_index라는 로컬 디렉토리에 커밋하며 FAISS 객체를 반환합니다.
@@ -134,16 +89,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 이 모듈은 또한 3개의 함수로 구성됩니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 함수 get_questions_answers은 디스크에있는 파일에서 질문 목록과 예상 답변을 읽습니다. 이러한 답변은 모델의 반환된 응답과 함께 사용되어 코사인 유사성을 계산하는 데 사용됩니다.
 - 함수 calc_similarity은 두 개의 문자열 인수를 허용합니다. 두 문자열은 초기에 텐서 임베딩으로 변환됩니다. 그런 다음 sentence_transformers의 util.pytorch_cos_sim 함수가 모든 i와 j에 대해 코사인 유사성 cos_sim(a[i], b[j])을 계산합니다. 문장이 의미적으로 매우 유사하면 코사인 유사성은 1에 가까울 것입니다. 그들이 정반대라면, 이 값은 이상적으로 0에 가까워야 합니다.
@@ -185,16 +131,7 @@ def get_mem_cpu_util(ppid) -> tuple[float, float]:
 
 ## 2.3 주요 모듈
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 주요 모듈은 주로 QA 파이프라인을 정의하는 데 관여합니다. 또한 이 앱의 리소스 사용 추적을 용이하게하기 위해 별도의 스레드에서 수행될 때에만 가능합니다. 따라서 본 모듈은 메인 스레드가 전체 LangChain 파이프라인을 수행하고, 단일 자식 스레드가 일정 간격으로 부모의 통계를 수집하고 공유 데이터 구조에 저장하는 간단한 멀티 스레드 시스템을 가능하게 합니다. 이러한 병렬 처리 설계를 캡처한 스레드 다이어그램은 Figure 3에 나와 있습니다.
 
@@ -204,16 +141,7 @@ def get_mem_cpu_util(ppid) -> tuple[float, float]:
 
 QA 파이프라인의 경우, 이 모듈은 우선 Gemma에 대한 프롬프트 템플릿을 다음 템플릿으로 정의합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 `bos``start_of_turn`user
@@ -304,16 +232,7 @@ if __name__ == "__main__":
 ```
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 TinyLlama에 대해서는 동일한 시스템 아키텍처가 채택될 것입니다. 또한, 소수의 코드 변경이 필요한 유일한 모듈은 주 모듈이며, 여기서 LlamaCpp의 인스턴스 속성인 module_path와 변수 qa_template이 유일한 차이점입니다.
 
@@ -323,16 +242,7 @@ TinyLlama에 대해서는 동일한 시스템 아키텍처가 채택될 것입�
 
 예를 들어, 다음은 8번째 질문이었습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음은 LLM이 청크 크기 100에서의 응답이었으나, 이는 올바르지 않습니다:
 
@@ -342,31 +252,13 @@ TinyLlama에 대해서는 동일한 시스템 아키텍처가 채택될 것입�
 
 게다가, 이 시스템은 벡터화 구성에서 평균 응답 시간도 가장 낮았습니다. 그림 4에서 보이는 바와 같이, 이 그래프는 95% 신뢰 구간과 함께 표시되었습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 실험 결과를 바탕으로, 청크 크기 500과 해당하는 겹침 크기 100이 이후 모든 테스트에 채택되었습니다.
 
 이러한 매개변수가 변할 때 벡터 공간 속성의 변경을 표시하기 위해, 그림 5는 라이브러리 renumics-spotlight를 사용하여 임베딩 시각화를 보여줍니다. 이 시각화에 관심 있는 분들이나 이를 작성하는 방법을 알아보고 싶은 분들은 우리의 이전 작업을 확인해보세요. [2].
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위의 내용을 변경하면 벡터 공간에 상당한 영향을 미친다는 것이 분명하다. 왼쪽에서는 100자의 청크 크기를 사용하면, 임베딩이 몇 개의 이상치를 가진 단일 밀집 클러스터처럼 보입니다. 반면에 다른 끝에서 1,000자의 청크 크기를 사용하면, 여전히 단일 클러스터로 보이지만 지역 밀도가 다양하고 각 벡터마다 다른 가장 가까운 이웃들이 있을 것으로 예상됩니다.
 
@@ -376,16 +268,7 @@ TinyLlama에 대해서는 동일한 시스템 아키텍처가 채택될 것입�
 
 젬마 LLM은 다음과 같이 응답했습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 작은라마 LLM은 다음과 같이 응답했습니다:
 
@@ -395,16 +278,7 @@ TinyLlama에 대해서는 동일한 시스템 아키텍처가 채택될 것입�
 
 반면에, TinyLlama는 동일한 맥락으로 응답을 제공할 수 있었지만 응답은 부분적으로 부정확했습니다. 아래에서 확인할 수 있습니다 (일부 추출; 포인트 2가 잘못됨):
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 더 넓은 성능 비교를 진행하기 전에, 먼저 검색 성능을 향상시키는 것을 살펴보겠습니다.
 
@@ -414,16 +288,7 @@ LangChain은 EnsembleRetriever라는 고급 리트리버를 보유하고 있습�
 
 그림 2에 나와 있는 동일한 시스템 아키텍처를 사용하면, 이 고급 리트리버에 맞추기 위해 LoadVectorize 모듈과 메인 모듈을 약간 수정해야 합니다. LoadVectorize 모듈의 vectorize 함수에는 BM25 리트리버를 인스턴스화하는 새로운 단계가 포함될 것입니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 def vectorize(embeddings) -> tuple[FAISS, BM25Retriever]:
@@ -447,16 +312,7 @@ def vectorize(embeddings) -> tuple[FAISS, BM25Retriever]:
 이 앙상블 검색기는 이후 QA 체인에서 사용될 것입니다. 이 QA 시스템이 EnsembleRetriever를 사용하도록 변경하는 데 필요한 변경점은 여기까지입니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 해당 시스템의 모든 코드에는 GitHub의 다음 저장소에서 확인할 수 있습니다:
 
@@ -466,16 +322,7 @@ def vectorize(embeddings) -> tuple[FAISS, BM25Retriever]:
 
 본 비교 실험에서는 같은 10가지 질문을 고급 리트리버를 이용하여 동일하게 Gemma 2B와 TinyLlama 1.1B에 제시하고, 성능 비교를 위해 이들의 응답 정확도, 응답 시간, 메모리 사용 및 CPU 이용률을 기록할 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Gemma가 FAISS 리트리버에서의 컨텍스트로 급유되었을 때, 제6번 질문에 대한 응답을 제공하지 못했습니다. 하지만 앙상블 리트리버로 구동된 Gemma가 다음과 같이 응답했습니다:
 
@@ -485,16 +332,7 @@ Gemma가 FAISS 리트리버에서의 컨텍스트로 급유되었을 때, 제6�
 
 <img src="/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_6.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LLM의 응답 시간을 비교하기 위해 Treemap이 그림 7에 표시되어 있습니다. 거의 모든 TinyLlama 질문 사각형이 연하게 그려져 있어요. 평균적으로 Gemma는 TinyLlama에 비해 질문에 대한 응답이 1.5배 더 오래 걸렸어요. TinyLlama가 크기적으로 더 작은 모델이기 때문에 빠르게 응답할 것으로 예상됩니다.
 
@@ -504,16 +342,7 @@ LLM의 응답 시간을 비교하기 위해 Treemap이 그림 7에 표시되어 
 
 ![Figure 8](/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_8.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 요약하자면, Gemma 2B는 뛰어난 응답 정확도를 자랑하며, EnsembleRetriever와 같은 고급 retriever를 사용함으로써 더욱 향상되었습니다. TinyLlama와 비교했을 때, Gemma는 메모리 풋프린트가 16% 크고, 평균 14초 추가 지연이 있지만, 합리적으로 보입니다.
 
@@ -523,16 +352,7 @@ LLM의 응답 시간을 비교하기 위해 Treemap이 그림 7에 표시되어 
 
 이 기사에서는 Gemma 2B에 대해 포괄적으로 살펴보았습니다. RAG 설정에서 ensemble retriever와 결합되었을 때, 이 모델은 최근 문서에 대한 질문에 대해 80% 이상의 정확한 답변을 제공하는 것으로 입증되었으며, 이는 TinyLlama보다 33% 우수한 성과를 보여주었습니다. 이 개선은 메모리 풋프린트가 16% 크고 응답 지연이 1.5배 길어진 비용이 들지만, 합리적인 대가로 보입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위 내용을 읽어 주셔서 감사합니다!
 

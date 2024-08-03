@@ -1,10 +1,10 @@
 ---
 title: "Go, HTMX, 템플로 채팅방 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-12-MakingAChatroomwithGoHTMXandTempl_0.png"
+coverImage: "/assets/img/2024-07-12-MakingAChatroomwithGoHTMXandTempl_0.png"
 date: 2024-07-12 19:24
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-12-MakingAChatroomwithGoHTMXandTempl_0.png
+  url: /assets/img/2024-07-12-MakingAChatroomwithGoHTMXandTempl_0.png
 tag: Tech
 originalTitle: "Making A Chatroom with Go, HTMX and Templ"
 link: "https://medium.com/@hhartleyjs/making-a-chatroom-with-go-htmx-and-templ-aa5148737c0a"
@@ -13,7 +13,7 @@ link: "https://medium.com/@hhartleyjs/making-a-chatroom-with-go-htmx-and-templ-a
 
 마크다운 형식으로 표 태그를 변경하세요.
 
-<img src="/ui-log-2/assets/img/2024-07-12-MakingAChatroomwithGoHTMXandTempl_0.png" />
+<img src="/assets/img/2024-07-12-MakingAChatroomwithGoHTMXandTempl_0.png" />
 
 # 이렇게 만들어볼 거에요!
 
@@ -21,16 +21,7 @@ link: "https://medium.com/@hhartleyjs/making-a-chatroom-with-go-htmx-and-templ-a
 
 매번 같은 응답일 뿐이라는 것을 무시해 주세요. 게으름 때문입니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*xVr2YsI-44Sxh8Lv0yD8KQ.gif)
@@ -47,16 +38,7 @@ go get github.com/gorilla/websocket
 go install github.com/a-h/templ/cmd/templ@latest
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # Main.go
 
@@ -95,16 +77,7 @@ func render(c echo.Context, component templ.Component) error {
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아래 예시는 Templ 컴포넌트를 쉽게 렌더링할 수 있도록 도와주는 작은 도우미 함수입니다.
 
@@ -119,16 +92,7 @@ func GetChatRoomPage(c echo.Context) error {
 
 핸들러에서는 단순히 렌더 함수를 반환합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 //base.templ
@@ -174,16 +138,7 @@ templ ChatPage() {
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이제 베이스 템플릿을 상속하고 페이지를 만들 수 있어요.
 
@@ -209,16 +164,7 @@ func Websocket(c echo.Context) error {
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 먼저 요청을 웹소켓으로 업그레이드하고, 웹소켓을 닫기 위해 defer를 사용합니다. 그 후에 루프를 시작하고 각 루프마다 ChatLoop 함수를 호출합니다.
 
@@ -276,16 +222,7 @@ templ SentAndRecv(sent string, recv string) {
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 여기서 데이터를 반환할 2개의 템플릿 컴포넌트를 선언합니다. SentAndRecv는 클라이언트 측 자바스크립트를 사용하지 않고도 메시지를 DOM에 모두 추가하기 때문에, 사용자 경험이 놀라울 수 있습니다. 하지만 개발하기 매우 쉽습니다. 그래서 다음에 그것에 대해 생각하기로 합시다!
 
@@ -295,16 +232,7 @@ templ SentAndRecv(sent string, recv string) {
 
 그런 다음 매우 간단한 채팅방이 있습니다!
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 읽어 주셔서 감사합니다!
 

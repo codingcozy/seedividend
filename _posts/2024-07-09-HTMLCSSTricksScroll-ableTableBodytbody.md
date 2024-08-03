@@ -1,10 +1,10 @@
 ---
 title: "HTML CSS 실전 팁  스크롤 가능한 테이블 본문 tbody 쉽게 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:45
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "HTML CSS Tricks — Scroll-able Table Body <tbody>"
 link: "https://medium.com/@vembarrajan/html-css-tricks-scroll-able-table-body-tbody-d23182ae0fbc"
@@ -19,16 +19,7 @@ link: "https://medium.com/@vembarrajan/html-css-tricks-scroll-able-table-body-tb
 
 작동하게 하려면,
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 첫 번째 단계는 `tbody`를 `display:block`으로 설정하여 높이와 오버플로 속성을 적용할 수 있도록 하는 것입니다.
 
@@ -48,16 +39,7 @@ link: "https://medium.com/@vembarrajan/html-css-tricks-scroll-able-table-body-tb
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아래 예시,
 

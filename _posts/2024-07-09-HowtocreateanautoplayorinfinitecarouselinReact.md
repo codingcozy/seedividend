@@ -1,7 +1,7 @@
 ---
 title: "React에서 자동 재생 또는 무한 캐러셀 만드는 방법 "
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_0.png"
+coverImage: "/assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_0.png"
 date: 2024-07-09 14:19
 ogImage:
   url: /assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_0.png
@@ -12,28 +12,17 @@ link: "https://medium.com/@divyakoneti0001/how-to-create-an-autoplay-or-infinite
 
 프로젝트를 진행하며 React에서 자동 재생되는 캐러셀을 구현해야 했어요. 프로젝트에서 작은 기능을 위해 사전 제작된 라이브러리를 사용하고 싶지 않았기 때문에, 몇 가지 아이디어를 고안하고 기능을 이해하기 위해 몇 가지 기사를 읽었어요.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_0.png)
+![이미지](/assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_0.png)
 
 ## 캐러셀이란?
 
 캐러셀은 여러 콘텐츠가 하나의 공간을 차지할 수 있게 해줍니다. 캐러셀은 일반적으로 그리드 형태의 콘텐츠를 표시하고, 정의된 차원 내에 콘텐츠를 맞출 수 있도록 스크롤할 수 있어요. 사용자 경험을 향상시키고 앱을 보다 인터랙티브하게 만들어 줍니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 어떤 해결책을 찾기 전에, 자동 재생 카루셀을 만드는 단계별 프로세스를 이해해봅시다.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_1.png)
+![이미지](/assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_1.png)
 
 - 카루셀-컨테이너: 카루셀 전체의 차원을 정의하는 컨테이너가 필요합니다. 카루셀의 높이와 너비, 항목의 배치는 이 컨테이너에서 정의됩니다.
 - 카루셀-트랙: 항목을 무한한 스트립에 보관해야 하며, 항목의 넘침을 숨겨서 카루셀에 필요한 수의 항목만 표시합니다.
@@ -41,18 +30,7 @@ link: "https://medium.com/@divyakoneti0001/how-to-create-an-autoplay-or-infinite
 
 구현할 시간입니다! 🥳
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - create-react-app을 사용하여 React 프로젝트를 설정하세요. 머신에 Node `= 14.0.0 및 npm `= 5.6이 필요합니다. 프로젝트를 생성하려면 다음을 실행하세요:
 
@@ -62,18 +40,7 @@ link: "https://medium.com/@divyakoneti0001/how-to-create-an-autoplay-or-infinite
 
 ## 작동 방식 🤯
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 우리는 두 개의 컴포넌트 - CarouselContainer와 CarouselItem이 필요합니다.
 - CarouselContainer는 캐러셀 항목을 제어하는 부모 컴포넌트가 될 것입니다.
@@ -89,18 +56,7 @@ link: "https://medium.com/@divyakoneti0001/how-to-create-an-autoplay-or-infinite
 
 6. 다음 단계는 캐러셀의 슬라이드 전환을 정의하는 것입니다. 우리는 carousel-track에 전환을 추가합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 마우스를 호버하면 캐러셀이 일시 정지되도록 hover에 animation-play-state를 추가했어요. 사용자가 캐러셀에서 항목을 선택할 수 있도록하여 더 나은 사용자 경험을 제공합니다.
 

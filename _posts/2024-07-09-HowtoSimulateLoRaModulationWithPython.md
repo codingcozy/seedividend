@@ -18,18 +18,7 @@ LoRa (Long Range) 변조는 저전력 소비로 장거리 데이터 전송이 �
 
 코드의 첫 번째 섹션은 LoRa 조작에 사용되는 매개변수를 정의합니다. 대역폭 B는 125 kHz (125e3)로 설정되고 샘플링 주기 T는 대역폭의 역수로 계산됩니다. 즉, T = 1 / B 입니다. 확산 계수(SF)는 7로 정의되어 있으며 LoRa 변조를 위한 전형적인 값으로 7에서 12 사이의 값으로 변할 수 있습니다. 이 계수는 심볼 주기 T_s를 결정하며, T_s = (2\*_SF) _ T로 계산됩니다. 이러한 매개변수는 LoRa 시스템에서 심볼의 시간적 행동과 전송 속도를 정의하는 데 필수적입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import numpy as np
@@ -55,18 +44,7 @@ for h in range(SF):
     symbol += w[h] * (2**h)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 시간 및 시간 인덱스 벡터 생성 및 Chirp 계산하기
 
@@ -83,18 +61,7 @@ chirp = np.exp(1j * 2 * np.pi * ((symbol + k) % (2**SF)) / (2**SF) * k)
 
 # Chirp 신호들의 플로팅
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코드의 마지막 부분은 생성된 Chirp 신호를 시각화하는 부분입니다. 새로운 그림이 plt.figure(figsize=(10, 6))를 사용하여 10x6 인치 크기로 만들어집니다. Chirp 신호는 두 개의 서브플롯에 플로팅됩니다. 첫 번째 서브플롯(plt.subplot(2, 1, 1))은 plt.plot(k, chirp.real, label='실수부', color='blue') 함수를 사용하여 Chirp 신호의 실수부를 플로팅합니다. 제목, 축 레이블, 그리드 및 범례가 플롯에 추가되어 가독성과 데이터 해석이 향상됩니다. 두 번째 서브플롯(plt.subplot(2, 1, 2))은 plt.plot(k, chirp.imag, label='허수부', color='orange') 함수를 사용하여 Chirp 신호의 허수부를 플로팅하며, 마찬가지로 제목, 레이블, 그리드, 범례가 추가됩니다. 마지막으로 plt.tight_layout()은 서브플롯을 자동으로 조절하여 그림에 맞게 조절하고, plt.show()는 그림을 표시합니다. 이 시각화를 통해 Chirp 신호의 특성을 분석할 수 있습니다. 실수 및 허수부 모두를 통해 변조된 신호에 대한 완전한 이해를 제공합니다.
 
@@ -128,18 +95,7 @@ plt.show()
 
 의견과 피드백은 댓글에서 환영합니다. 여기 테스트 용 전체 코드가 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import numpy as np

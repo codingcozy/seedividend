@@ -1,10 +1,10 @@
 ---
 title: "CSS 완전 정복 가이드 파트 I 기본 CSS, 셀렉터, 특이성"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:09
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Comprehensive Guide of CSS: Part I Basic CSS, Selectors, Specificity"
 link: "https://medium.com/@fangjy.alice2011/comprehensive-guide-of-css-e9e81b797f3d"
@@ -19,16 +19,7 @@ link: "https://medium.com/@fangjy.alice2011/comprehensive-guide-of-css-e9e81b797
 
 CSS는 Cascading Style Sheets의 약자입니다. 이것은 HTML 문서의 표현(모양과 형식)을 정의하는 데 사용되는 언어입니다. HTML은 콘텐츠의 구조를 제공하고, CSS는 해당 콘텐츠를 스타일링하고 배치할 수 있게 해줍니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # CSS 시작하기
 
@@ -42,16 +33,7 @@ CSS를 사용하려면 CSS 파일을 HTML 문서에 연결해야 합니다. 일�
 </head>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS 구문 이해
 
@@ -66,16 +48,7 @@ h1 {
 
 # 기본 CSS 셀렉터
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 유형 선택자
 
@@ -97,16 +70,7 @@ h1, p {
 
 H1 선택기는 h1 요소의 스타일을 지정합니다. P 선택기는 p 요소의 스타일을 지정합니다. h1, p는 h1 및 p 요소의 스타일을 지정합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 클래스 셀렉터
 
@@ -120,16 +84,7 @@ H1 선택기는 h1 요소의 스타일을 지정합니다. P 선택기는 p 요�
 
 `div class="highlight"`와 같이 어떤 HTML 요소에 highlight 클래스를 적용하여 노란색 배경을 줄 수 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 아이디 선택자
 
@@ -143,16 +98,7 @@ H1 선택기는 h1 요소의 스타일을 지정합니다. P 선택기는 p 요�
 
 이 선택자는 id가 amazingtitle인 고유한 요소에 24픽셀의 글꼴 크기를 적용합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 유니버설 셀렉터
 
@@ -168,16 +114,7 @@ H1 선택기는 h1 요소의 스타일을 지정합니다. P 선택기는 p 요�
 
 사이트 전체에 스타일을 적용하려면 상속이 종종 더 나은 메커니즘입니다. 많은 스타일이 자식 요소에게 상속되며, 우리는 이 기능을 활용하여 작성하는 코드 양을 줄일 수 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 속성 선택자
 
@@ -191,16 +128,7 @@ input[username] {
 
 이 선택자는 username 속성을 가진 모든 `input` 요소에 테두리를 적용합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 값 속성 선택자: 특정 속성 값이 있는 요소를 대상으로합니다.
 
@@ -218,16 +146,7 @@ a[href^="https://"] {
 
 두 번째 선택기는 이름에 btn이 포함된 클래스를 가진 요소에 배경색을 적용합니다(btn-primary, button 등).
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 가상 클래스 및 의사 요소: 가상 클래스 및 가상 요소는 요소의 상태나 문서 구조 내의 위치에 따라 대상을 지정합니다.
 
@@ -241,16 +160,7 @@ a:hover {
 
 이 선택기는 링크(`a` 요소)가 마우스 오버되었을 때 빨간색으로 적용됩니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 의사 요소
 
@@ -264,16 +174,7 @@ p::first-line {
 
 # 결합자 선택자
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 컴비네이터 선택자는 HTML 구조에서 요소들 간의 관계에 따라 특정 요소들을 대상으로 하는 데 여러 선택자를 결합합니다.
 
@@ -287,16 +188,7 @@ ul li {
 
 이 선택자는 ul 요소의 자손(필수적으로 자식이 아님)인 모든 li 요소의 색상을 파란색으로 설정합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 자식 결합자 (>): 지정된 요소의 직속 자식 요소를 대상으로합니다.
 
@@ -310,16 +202,7 @@ ul li {
 
 인접 형제 결합자 (`+`): 다른 지정된 요소 바로 앞에 오는 요소를 대상으로합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```css
 h1 + p {
@@ -337,16 +220,7 @@ h2 ~ p {
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 선택자는 h2 요소 다음에 나오며 h2 요소의 형제인 모든 p 요소의 색상을 설정합니다.
 
@@ -356,16 +230,7 @@ h2 ~ p {
 
 특이성 수준 이해
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS 특수성은 레벨 또는 레이어로 생각할 수 있습니다. 더 높은 특수성 레벨을 갖는 스타일이 더 낮은 레벨의 스타일보다 우선합니다. 가장 낮은 수준부터 가장 높은 수준까지 살펴보겠습니다:
 
@@ -378,16 +243,7 @@ CSS 특수성은 레벨 또는 레이어로 생각할 수 있습니다. 더 높�
 
 특수성은 네 가지 값으로 계산됩니다:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - N개의 인라인 스타일 선택자: N,0,0,0로 계산됩니다.
 - N개의 ID 선택자: 0,N,0,0으로 계산됩니다.
@@ -400,16 +256,7 @@ CSS 특수성은 레벨 또는 레이어로 생각할 수 있습니다. 더 높�
 
 만약 속성 선언에 클래스 선택자 하나와 속성 선택자 하나가 있다면, 해당 속성의 특정성 점수는 0,0,1,0이 됩니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 예시
 
@@ -423,16 +270,7 @@ button[type="submit"] {
 
 예시
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 #main.main{
@@ -450,16 +288,7 @@ p{
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아래는 모든 문단 구성 요소에 녹색 색상이 적용됩니다. 우선순위에 관계 없이 !important를 최대한 피해야 합니다. !important를 무시할 수 없기 때문에 가능한 한 사용을 피해야 합니다.
 

@@ -18,18 +18,7 @@ link: "https://medium.com/coinmonks/i-backtested-tradinglabs-indicator-that-you-
 
 # 어떤 지표를 사용할까요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 TradingLab은 TradingView에서 사용 가능한 두 지표에 중점을 둡니다:
 

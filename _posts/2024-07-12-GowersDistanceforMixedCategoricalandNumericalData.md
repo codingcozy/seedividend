@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/gowers-distance-for-mixed-categor
 
 간단히 말해서, 유클리드 거리는 점 A에서 점 B까지의 최단 거리입니다. 맨해튼 거리는 x와 y 좌표 간의 절대적인 차이들의 합을 계산하고, 대각선 방향으로 움직일 수 없고 위, 아래, 왼쪽 또는 오른쪽으로만 이동할 수 있는 격자 상에 위치한 것처럼 두 점 사이의 거리를 찾습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 거리 측정 항목은 종종 k-평균 클러스터링과 같은 클러스터링 알고리즘의 기초를 이룹니다. 이 알고리즘은 유클리드 거리를 사용합니다. 데이터 포인트 간의 유사성 또는 차이를 먼저 알아야 하므로 이 점이 타당합니다.
 
@@ -38,16 +29,7 @@ link: "https://medium.com/towards-data-science/gowers-distance-for-mixed-categor
 
 ![image](/TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위에 그린 차트를 사용하면 점 A의 좌표가 (50,50)이고 점 B의 좌표가 (300,500)이라고 가정해 봅시다:
 
@@ -61,16 +43,7 @@ d(A,B) ≈ 514.78
 
 ## 인구 조사 데이터에서의 거리 (Distances in Census Income data)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 앞으로 제 모든 예시를 설명하는 데에 UCI Machine Learning Repository에서 제공하는 인구 조사 소득 데이터 세트 (CC BY 4.0)를 사용할 것입니다.
 
@@ -80,16 +53,7 @@ d(A,B) ≈ 514.78
 
 이 데이터를 직접 가져오려면 다음 코드를 실행하세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from ucimlrepo import fetch_ucirepo
@@ -112,16 +76,7 @@ print(census_income.variables)
 <img src="/TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_2.png" />
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 두 데이터 포인트 사이의 거리를 찾으려면 위에서 정의한 식에 값을 입력해야 합니다.
 
@@ -136,16 +91,7 @@ d(Row1, Row2) = sqrt((50-39)^2 +
 d(Row1, Row2) = 2174.027
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 총 이동 거리가 자본 이득 열의 차이와 거의 동일한 것을 알 수 있습니다. 이는 값의 연령 범위가 값의 자본 이익 범위보다 훨씬 작기 때문입니다. 따라서 경우에 따라 유클리드 거리를 계산하기 전에 StandardScaler와 같은 것을 사용하여 데이터를 스케일링해야 할 수도 있습니다.
 
@@ -155,16 +101,7 @@ d(Row1, Row2) = 2174.027
 
 여기서 Gower 거리가 중요합니다. Gower 거리는 숫자형 및 범주형 특성에 대해 서로 다른 거리 계산을 수행하여 특성간 유사성의 가중 평균을 취하여 2개 데이터 포인트 사이의 점수를 계산합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 2가지 범주형 특성 간 유사도 점수를 계산할 때, 식은 매우 간단합니다. 값이 동일한 경우 점수는 1입니다. 다른 경우에는 점수가 0입니다.
 
@@ -174,16 +111,7 @@ d(Row1, Row2) = 2174.027
 
 여기서 R(k)는 특성 k의 범위를 나타냅니다. 값의 차이의 절대값은 범위로 나눠줌으로써 특성을 정규화하고 0과 1 사이의 값으로 얻습니다. (이는 매우 큰 값이 포함된 특성이 방정식을 지배하는 문제를 해결하는 데 도움이 될 것입니다.)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 각 feature에 대한 점수가 있으므로, p개의 feature가 있는 두 개의 객체 i와 j에 대한 전체 Gower 거리가 계산됩니다:
 
@@ -193,16 +121,7 @@ d(Row1, Row2) = 2174.027
 
 ## Python 구현
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬 구현은 배열 내 모든 객체를 서로 비교하여 Gower 거리를 반환하는 행렬을 생성합니다.
 
@@ -244,16 +163,7 @@ gower.gower_matrix(np.asarray(small_X),cat_features=[0,0,1,1])
 
 gower.gower_matrix를 호출하면 이 배열이 반환됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 array([[0. , 1.5],
@@ -269,16 +179,7 @@ array([[0. , 1.5],
 
 행 1을 행 1과 비교하면 features 측면에서 동일함을 보여주기 때문에 거리는 0으로 표시됩니다. 행 2를 행 2와 비교한 결과도 마찬가지입니다. 행 2를 행 1과 비교하면 행 1을 행 2와 비교했을 때와 동일한 결과가 나오므로 이 요소에서 점수가 동일합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 Gower 거리의 구성 요소를 이해했으니 전체 데이터 세트에 이 gower.gower_matrix 함수를 적용해 봅시다.
 
@@ -293,16 +194,7 @@ gower.gower_matrix(np.asarray(X),cat_features=[0,0,1,1])
 
 Gower 거리의 효과를 더 테스트하기 위해, 첫 번째 레코드와 가장 유사한 10개 레코드를 해당 특성을 사용하여 찾은 다음, 그들의 대상 값(소득 수준)이 유사한지 확인해 보겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 데이터 세트의 첫 번째 행을 가져와 나머지 데이터와 비교합니다. 상위 10개 값의 인덱스를 반환합니다
@@ -318,16 +210,7 @@ X.iloc[gower_topn_index]
 
 여기서 첫 번째 레코드와 가장 유사한 레코드는 해당 레코드 자체입니다. 이는 Gower가 각각의 레코드를 모든 레코드와 비교하기 때문입니다. 레코드 1과 가장 유사한 상위 n개의 레코드를 가져오고 레코드 1을 제외한 결과를 얻고 싶다면, 초기에 상위 n+1을 가져와 X.iloc[gower_topn_index][1:]를 쿼리하면 해당 최상위 레코드를 결과에서 제외시킬 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 y.loc[gower_topn_index]을 호출하면, 첫 번째 행에 대한 가장 유사한 상위 10개 레코드의 대응하는 타겟 값을 볼 수 있습니다.
 
@@ -337,16 +220,7 @@ X.iloc[gower_topn_index]
 
 ## 기억해 둘 사항
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다른 기계 학습 알고리즘과 마찬가지로 특성을 추가할수록 Gower metric의 정확도가 높아질 것으로 예상됩니다. 이는 레코드가 더욱 유사해진다는 것을 의미합니다. 이때 주의할 점은 범주형 특성이 종종 (연속 값이 아니라 0 또는 1이 될 것이기 때문에 0과 1 사이의 연속적인 값보다) 수치적 특성보다 더욱 중요하다는 것입니다.
 
@@ -356,16 +230,7 @@ weight 인자는 cat_features 인자와 유사하게 작동합니다. 여러분�
 
 ## 결론
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위에서 볼 수 있듯이, 고워 거리는 혼합 데이터 유형의 기능을 포함하는 두 개체 간의 거리를 계산하는 강력한 메트릭입니다. 이는 단순히 가장 유사한 레코드를 찾는 것에서부터 클러스터링 알고리즘에 사용될 때까지 다양한 용도가 있습니다. 더 많은 정보와 예제는 여기에서 찾을 수 있습니다.
 

@@ -19,16 +19,7 @@ link: "https://medium.com/@datalev/before-you-hit-the-quant-trading-scene-swing-
 
 데이터 과학에 정말 관심이 많고 통계학 박사 학위도 가졌으며 여러 기업을 위한 예측에 많이 참여했고 일찍이 몇 번의 캐글 경연에서 우승한 경험이 있음에도 불구하고 주식 시장에 대해 모든 것을 알고 있다고 생각했어요. 경제와 주식이 어떻게 작동하는지에 대한 내 지식을 바탕으로 내가 잘할 거라고 확신했죠.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 내 아이디어를 시도할 때, 예상했던 대로 되지 않았어요. 꽤 충격적이었어요.
 
@@ -40,16 +31,7 @@ link: "https://medium.com/@datalev/before-you-hit-the-quant-trading-scene-swing-
 
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 주식 가격을 예측하는 일은 날씨를 확인하는 것과는 다르지만, 그 아이디어는 비슷해요: 하나는 하루를 계획하는 데 관한 것이고, 다른 하나는 주식 시장에서 돈을 벌려고 하는 것이에요. 핵심은 과거 데이터의 추세를 파악하고 그 통찰을 이용해 앞으로 어떤 일이 일어날지 추측한 다음에는 그 예측에 따라 행동하는 거예요. 그러나 우리가 종종 놓치는 큰 문제가 있어요. 주식 가격을 예측하고 날씨를 예측하는 것은 다른 게임이에요. 날씨를 예측하는 것이 훨씬 간단하죠. 날씨에 대한 추측이 날씨를 어떻게 바꿀지에는 영향을 미치지 않아요. 날씨는 여러분이 맞추든 틀리든 자신의 길을 갈 거예요. 그러나 주식은 훨씬 복잡해요. 주식 시장은 빠르게 돈을 벌려고 하는 사람들로 가득 차 있고, 모두가 다음에 무엇이 일어날지 예측하려고 애를 쓰고 있어요. 문제는 이 모든 추측과 그것으로 이어지는 거래 행위가 예측을 망칠 수 있다는 거에요, 심지어 정말 똑똑한 알고리즘을 가지고 있더라도 말이에요. 여기서 '똑똑하다'는 것은 과거 데이터를 살펴본 결과에 의해 자기 자신을 증명한 것을 말해요. 이 문제는 간단해요: 여러분의 알고리즘은 절대로 다른 사람들이 어떻게 예측하고 그 예측에 따라 행동할지를 알 수 없다는 거죠.
 
@@ -57,16 +39,7 @@ link: "https://medium.com/@datalev/before-you-hit-the-quant-trading-scene-swing-
 
 " 주식 예측: 단기간에 어려워 "
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 알겠어요, 그럼 몇몇 똑똑한 경제학자들이 이에 대해 어떻게 생각하는지 살펴보겠습니다. 솔직히 말해서, 그들이 주장하는 모든 것에 난 전혀 납득이 되지 않아요. 하지만 한번 알아볼게요:
 
@@ -76,16 +49,7 @@ Eugene F. Fama는 효율적 시장 가설 (EMH)을 제시한 것으로 유명해
 
 한편 Robert J. Shiller는 다른 견해를 가지고 있어요. 그는 시장이 항상 완벽하지 않을 수 있다고 생각하고, 주식 가격이 장기적으로 때때로 예측될 수 있다는 것을 발견한 것 같아요. 그 이유는 사람들의 행동, 변덕스러운 시장, 투자자들이 하는 심리전 등 때문이라고 해요. Shiller는 주식 가격이 실제 가치에서 벗어날 수 있다고 생각하며, 그럼으로서 멀리 앞을 내다보고 있다면 어디로 향하는지 추측할 수도 있다는 것이죠.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 내 이해에 따르면 두 사람 모두 어느 정도 동의합니다: 주식 가격을 예측하는 것은 특히 단기적으로는 랜덤한 추측이라는 점입니다. 주식 시장은 예측하기 어려운 플레이야죠. 그 의미는 오늘의 가격이 내일을 예측하기에 아무 가격이나 될 수 있다는 것이죠.
 
@@ -95,16 +59,7 @@ Eugene F. Fama는 효율적 시장 가설 (EMH)을 제시한 것으로 유명해
 
 "거래자 승리 뒤에 숨겨진 비밀 소스"
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 나는 확실해, 노벨상 수상자들이 그들의 이론을 빛낼 때 어둠 속에서 다트를 던지지는 않았을 거야. 이런 사람들은 그저 어떤 경제학자들이 아닌 데이터 과학자들과 같은 사람들이라는 걸 명심해야 해. 그들은 충실한 데이터를 뒷받침하지 않고는 노벨상을 탈 수 없을 거야. 하지만 여기 백만 달러 질문이야: 현실 세계에서 우리가 본 것과는 어떻게 일치할까?
 
@@ -114,16 +69,7 @@ Eugene F. Fama는 효율적 시장 가설 (EMH)을 제시한 것으로 유명해
 
 그리고 만약 모두가 이 독특하고 굉장히 영리한 트레이더로 변한다면, 그럼 무엇이 생길까요? 더 이상 돈을 벌기 위한 비밀은 없어지겠죠, 그리고 그러면 누구도 이득을 내지 못할 거예요. 따라서 주식 시장은 결국 100% 효율적이지 않다는 거죠. 당신이 어디를 봐야 하는지, 다른 시간대, 산업, 변화나 거대 은행들이 가지고 있는 그런 기술과 도구를 갖추는 곳을 아는 등 추가 수익의 기회를 포착하고 활용하는 데 더 나은 기회를 갖는 것이죠.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼, 그들이 그 강력한 경쟁 우위를 얻는 방법은 무엇일까요?
 
@@ -133,16 +79,7 @@ Eugene F. Fama는 효율적 시장 가설 (EMH)을 제시한 것으로 유명해
 
 그리고 기관 트레이더들은 하나의 주식이나 한 가지 방법에만 의지하지 않아요. 다양한 전략을 사용하면서 다른 주식에 대해 알아보고 데이터를 분석하며 산업 분위기를 점검하고 모든 것을 딱 맞게 타이밍해요. 하지만 이것을 이루기 위해서는 많은 정보, 시간, 에너지가 필요하죠. 한편, 일반 투자자들은 그냥 몇 가지 주식에 집중하고 최선을 다하기만을 희망할 수도 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 세 번째, 대형 투자자들은 엄격한 규칙을 따르거나 기계들이 모든 일을 처리하도록 하는 등, 평범한 투자자들에겐 까다로운 작업이에요. 평범한 조(e)도가 이 특별한 양적 거래에 발을 담그려고 해봐도, 감정에 휩쓸려 실패할 수도 있어요. 주식 시장은 짐승과도 같고, 일반 투자자들에겐 단기 움직임을 추측하는 건 마치 벽에 젤리를 박는 것과 같아요. 
 
@@ -152,16 +89,7 @@ Eugene F. Fama는 효율적 시장 가설 (EMH)을 제시한 것으로 유명해
 
 "네, 하지만 모든 게 순조롭지는 않을 거예요..."
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그래서, 당신은 매일 투자자로서 양적 거래를 통해 빠른 이익을 노리고 있는 거군요? 이렇게 준비하세요:
 
@@ -171,16 +99,7 @@ Eugene F. Fama는 효율적 시장 가설 (EMH)을 제시한 것으로 유명해
 
 - 당신이 벌어들이는 수익만큼이 아니라, 시장 지수에 비해 얼마나 잘 하는지를 기준으로 성과를 측정하세요. 시장을 능가하고 있다면, 올바른 길을 걷고 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 거래 비용과 세금을 주의 깊게 살펴보세요. 어떤 플랫폼들은 거래 수수료가 없는 것도 있지만, 거래를 많이 하면 세금을 내야합니다. 그렇게 되면 이익이 줄어들 수 있으니 주의하세요.
 
@@ -190,16 +109,7 @@ Eugene F. Fama는 효율적 시장 가설 (EMH)을 제시한 것으로 유명해
 
 그러니까, 솔직히 말해서 말이죠. 내가 양적 거래에 모든 것을 건다면 부자가 될 수 있을까요? 음, 정확히는 그렇지 않아요. 양적 거래를 저의 풀타임 직업으로 만드는 것이 제 계획은 아니에요. 저에게 궁금증을 자아내는 것은 데이터 과학이 일상적인 트레이더에게 어떤 이점을 제공할 수 있는지에 대한 것이에요. 또한, ChatGPT와 같은 고급 AI의 등장을 고려할 때, 데이터 과학자들을 대체할 수 있는 가능성이 있을까요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기 내 생각이야. 다음으로, 몇 가지 알고리즘 백테스팅에 뛰어들 거야. 이것에서 얻는 통찰력이 혹시 더 현명한 거래 결정으로 이어지기를 바랄게.
 
@@ -209,16 +119,7 @@ Eugene F. Fama는 효율적 시장 가설 (EMH)을 제시한 것으로 유명해
 
 세 가지 거래 전략을 살펴보자: '거북', 'RSI-Bollinger Bands', 그리고 직접적인 '매수 및 보유'. 마지막은 양적 방법이 아닌데요 — 이는 일반적인 지식이죠. 그러나 첫 두 가지는 지표를 활용하거나, 데이터 과학 용어로 말하자면, 통계 모델에 대한 예측자를 활용하고 있어. 새로운 예측자나 모델을 고안해볼까요? 음, 이러한 널리 사용되는 인디케이터와 방법은 거래자들에 의해 널리 사용되며 시장의 트렌드에 부합하고 성능을 향상시킬 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 거북이 거래 방법
 
@@ -228,16 +129,7 @@ RSI-볼린저 밴드 전략
 
 RSI 및 볼린저 밴드라는 두 가지 도구로 이동 주식 가격을 대상으로 상상해보세요. RSI는 주식의 강도를 측정하여 성과가 부족한 주식에 대한 매수와 성과가 우수한 주식에 대한 매도를 제안합니다. 볼린저 밴드는 가격 경계를 설정하여, 가격이 이 한계를 넘을 때 조치를 취하도록 유도합니다. 코드화된 전략은 이러한 신호를 탐지하여 시장의 상승과 하락을 효과적으로 탐색하고 매수 또는 매도 결정을 내립니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습니다. 이를 통해 주식이 강하거나 (상승할 가능성이 높음) 약한지 (하락할 가능성이 높음) 판단할 수 있습니다. 볼린저밴드는 과거 가격을 기반으로 설정된 경계선과 같습니다. 주식이 이러한 경계를 벗어나면, 그것은 행동할 시기일 수 있습니다.
 
@@ -247,16 +139,7 @@ RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습�
 
 "데이터 과학이 주식 퍼즐에서 당신의 길잡이가 되게 하라."
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지금은 주식 분석에 대해 어떻게 다가가는지 알아보겠습니다. 저는 세 가지 핵심 전략인 – 거북이, RSI-Bollinger Bands, 그리고 클래식한 매수 및 보유 – 을 여러 가지 다른 섹터 ETF에서 실험 중이에요. 목표는 어떤 전략이 섹터에 상관없이 수익을 창출하고 손실을 피하는 데 능숙한지 찾는 것이에요. 게다가, 다양한 경제적 분위기에 부합하는 기간을 고려하여 상황을 파악하고 있답니다 – 번성하는, 위축되는, 또는 그냥 평온한 시장을 생각해보세요.
 
@@ -266,45 +149,18 @@ RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습�
 
 아래는 주식/ETF 티커들이 의미하는 내용에 대한 소개입니다. 이들은 섹터 ETF, 포괄적인 시장 ETF 및 상품 ETF의 혼합체입니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 탭을 변경하여 마크다운 형식으로 변경하세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - XLU: 전기공급업체에 중점을 둠
 - XLY: 소비자 물품에 초점을 맞춤
 - VIG: 성장하는 배당을 찾음
 - GLD: 금시세를 지켜봄
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - SPY: 미국 상위 500개 기업의 파동을 잡아요
 
@@ -314,16 +170,7 @@ RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습�
 
 그리고 시장을 시간여행하는 경우는 여기에요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 2020년 11월부터 2024년 2월까지: 시장 드라마를 다룬 40개월의 이야기
 
@@ -333,16 +180,7 @@ RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습�
 
 - 2022년 2월부터 2023년 5월까지: 결정을 내리지 못하는 시장을 서핑하며
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 2020년 12월부터 2022년 12월까지: 상승장에서 하락장으로 변동하며 마지막에는 평평했어요.
 
@@ -352,16 +190,7 @@ RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습�
 
 “ 뛰어들기 전에, 이 통찰들을 면밀히 살펴보세요.”
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저 2020년 11월부터 2024년 2월까지, 총 40개월 동안의 시장의 상승과 하락을 다룬 분석 결과를 확인해 보겠습니다:
 
@@ -371,16 +200,7 @@ RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습�
 
 이 결과를 분석해 특정 기간과 전체적인 시장 분위기에 초점을 맞춘 교역 전략을 어떤식으로 사용할지 투자자들에게 힌트를 주는 것입니다. 그리고 이때 반드시 업종, 비즈니스 씬 그리고 각 섹터가 수익을 내는 방식과 관련하여 논리를 삽입해야합니다. 예를들어, 'XLE'이 최고의 선택인 경우에 대해 어떻게 이야기할 것인가요? 어떤 전략과 주식이 그들의 부문별 트랙 레코드와 함께 성공하는 이유에 대해 대략적으로 설명하십시오.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기 ChatGPT가 제공한 스니펫이에요:
 
@@ -390,32 +210,14 @@ RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습�
 
 - 이유: 에너지 섹터의 순환적인 성격은 동적인 접근을 요구하며, 성장 단계에서는 추세를 활용하고, 쇠퇴 기간의 변동성을 관리해야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 금융 부문 (XLF)
 
 - 권장 방법: Buy Hold Sell 전략을 유지하세요.
 - 이유: 금융 부문은 금리와 경제 지표에 민감하기 때문에 적극적인 거래 방식을 통해 다양한 시장 단계에서 이익을 얻을 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ChatGPT는 매우 구체적이고 상세한 결과를 제공할 수 있습니다. 물론 길어지기도 하죠. ChatGPT에게 "XLE를 제외하고 이 기간에 한 가지 ETF만 거래하려고 할 때 어떤 주식과 거래 방법을 사용해야 하는지 알려주세요"와 같이 간단한 질문을 하실 수도 있어요.
 
@@ -423,16 +225,7 @@ ChatGPT는 매우 구체적이고 상세한 결과를 제공할 수 있습니다
 
 2020년 11월부터 2022년 01월까지: 코로나19로 인한 첫 번째 상승 시장입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_2.png](/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_2.png)
@@ -444,16 +237,7 @@ ChatGPT는 매우 구체적이고 상세한 결과를 제공할 수 있습니다
 2022–02부터 2023–05까지: 혼합 시장, 첫 곰 시장에서 시작하여 후에 황홀 시장으로 바뀜:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_4.png)
@@ -465,16 +249,7 @@ ChatGPT는 매우 구체적이고 상세한 결과를 제공할 수 있습니다
 백테스팅을 위한 Python 스크립트는 제 깃허브 저장소에서 확인하실 수 있습니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 https://github.com/datalev001/stock_trading
 
@@ -484,16 +259,7 @@ https://github.com/datalev001/stock_trading
 
 요지는 여기에 있습니다: 양적 거래로 큰 파동을 일으킬 계획이라면, 전략을 선택하기 전에 집중해서 시장과 귀하가 활동하는 부문을 이해해야 합니다. 물론, 그저 곁에서 구경만 하고 있다가도 괜찮습니다. 내 연구 결과는 최소한 거대한 결정을 내릴 때 몇 가지 생각거리를 제공해줄 것입니다. 게다가, 이러한 전략들의 장기적인 지속 가능성을 고려하는 것도 매우 중요합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼 전략별로 평균 수익률에 대해 이야기해볼까요? 일반적으로, 간단한 매수 보유 전략이 대부분의 투자자에게 가장 좋은 선택일 수도 있어요. 양적 방법으로 평균을 넘어서는 것이 불가능하다는 뜻은 아니에요 — 진실하게 노력해야 할 뿐이에요.
 

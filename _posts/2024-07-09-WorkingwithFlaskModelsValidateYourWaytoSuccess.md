@@ -29,16 +29,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 설정에서는 Flask 애플리케이션을 생성하고 'app.db'라는 SQLite 데이터베이스를 사용하도록 구성하며, SQLAlchemy는 Flask 앱과 함께 초기화됩니다.
 
@@ -58,16 +49,7 @@ class User(db.Model):
         return f'<User {self.username}>'
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 예시에서는 사용자 클래스를 정의했습니다. 이 클래스는 db.Model을 상속하며, 데이터베이스에서 'users'라는 테이블을 생성합니다. 이 테이블은 세 개의 열(id, username, email)을 가지고 있습니다. id는 정수를 취하며 기본 키이므로 자체 증가하며, username은 최대 80자의 문자열을 취하며 고유해야하고 비워둘 수 없습니다. 이메일 열은 username과 같이 작동하지만 120자를 취합니다. 또한 모델 인스턴스의 문자열 표현을 제공하는 __repr__ 메서드도 추가했습니다. 다음 섹션에서는 이러한 데이터 유형에 더 많은 제한을 설정하는 방법에 대해 더 자세히 설명하겠습니다.
 
@@ -104,16 +86,7 @@ class User(db.Model):
         return f'<User {self.username}>'
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 예시에서는 username과 email 필드에 대한 유효성 검사 방법을 추가하는 @validates 데코레이터를 사용합니다. validate_user 함수에서 "if not username:"를 사용하여 User 테이블에 새 인스턴스 데이터가 추가될 때 username이 있는지 확인합니다. 만약 없다면 ValueError를 발생시킵니다. 이 함수에서 "if len(username) ` 3"을 사용하여 username이 적어도 3자 이상이어야 하며 그렇지 않으면 다른 ValueError를 발생시킵니다. 두 번째 유효성 검사인 validate_email에서는 주어진 이메일이 적어도 `@` 기호를 포함해야 유효하다고 확인하고 있습니다.
 
@@ -138,16 +111,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 예시에서는 유효하지 않은 사용자 이름(`js`)으로 새 사용자를 추가하려고 시도합니다. 유효성 검사 로직에서 문제를 감지하면 ValueError가 발생합니다. 이 예외를 처리하고 적절한 오류 메시지를 반환하여 데이터베이스에 유효한 데이터만 추가되도록 합니다. 이 방법을 통해 데이터 무결성을 유지하고 잘못된 항목을 방지할 수 있습니다.
 

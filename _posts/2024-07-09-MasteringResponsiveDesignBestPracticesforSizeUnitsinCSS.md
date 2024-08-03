@@ -1,7 +1,7 @@
 ---
 title: "반응형 디자인 마스터하기 2024년 최신 CSS 크기 단위 베스트 프랙티스"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-MasteringResponsiveDesignBestPracticesforSizeUnitsinCSS_0.png"
+coverImage: "/assets/img/2024-07-09-MasteringResponsiveDesignBestPracticesforSizeUnitsinCSS_0.png"
 date: 2024-07-09 18:40
 ogImage:
   url: /assets/img/2024-07-09-MasteringResponsiveDesignBestPracticesforSizeUnitsinCSS_0.png
@@ -10,7 +10,7 @@ originalTitle: "Mastering Responsive Design: Best Practices for Size Units in CS
 link: "https://medium.com/@jjcx/mastering-responsive-design-best-practices-for-size-units-in-css-973f532ebbdf"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-MasteringResponsiveDesignBestPracticesforSizeUnitsinCSS_0.png" />
+<img src="/assets/img/2024-07-09-MasteringResponsiveDesignBestPracticesforSizeUnitsinCSS_0.png" />
 
 오늘날의 디지털 시대에는 웹사이트가 모든 기기에서 반응형이고 쉽게 접근 가능하도록 보장하는 것이 중요합니다. 이때 반응형 디자인이 필요합니다. 반응형 디자인은 웹 디자인을 만들 때 모든 화면 크기에 적응하고 조정할 수 있는 디자인을 만드는 것을 말합니다. 이는 사용자가 웹사이트를 보다 쉽게 탐색하고 액세스할 수 있도록 도와줍니다.
 
@@ -18,18 +18,7 @@ link: "https://medium.com/@jjcx/mastering-responsive-design-best-practices-for-s
 
 # 절대 단위 대신 상대적 단위 사용하기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS에서 크기 단위를 선택할 때 가장 좋은 방법 중 하나는 절대 단위보다 상대 단위를 사용하는 것입니다. 상대 단위에는 백분율, em 및 rem이 포함됩니다. 절대 단위에는 픽셀(px), 인치(in) 및 센티미터(cm)이 있습니다.
 
@@ -43,18 +32,7 @@ h1 {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 예에서 h1 요소의 글꼴 크기는 2em으로 설정되어 있습니다. 이는 부모 요소의 글꼴 크기의 두 배가 될 것입니다.
 
@@ -64,18 +42,7 @@ div와 같은 컨테이너 요소의 너비와 높이를 정의할 때에는 픽
 
 다음은 div의 너비를 정의하기 위해 퍼센트를 사용하는 예시입니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```css
 .container {
@@ -89,18 +56,7 @@ div와 같은 컨테이너 요소의 너비와 높이를 정의할 때에는 픽
 
 글꼴 크기는 웹 디자인의 중요한 요소이며, 올바른 크기 단위를 선택하는 것이 중요합니다. 앞서 말했듯이 em은 화면 크기에 맞추어 상대적인 단위이며, 브라우저 설정에서 글꼴 크기를 조정할 수 있습니다. 글꼴 크기에는 em을 사용하는 것이 좋습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 다음은 글꼴 크기를 정의하는데 em을 사용하는 예시입니다:
 
@@ -114,18 +70,7 @@ p {
 
 # 전역 크기 조정에는 rem 사용하기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 rem은 "root em"을 나타내는 상대 단위입니다. em과 유사하지만 부모 요소의 글꼴 크기를 기반으로 확장하는 대신 루트 요소의 글꼴 크기를 기반으로 확장됩니다. 이는 패딩, 여백 및 테두리와 같은 요소의 전역 크기를 설정하는 데 이상적입니다.
 
@@ -139,18 +84,7 @@ rem은 "root em"을 나타내는 상대 단위입니다. em과 유사하지만 �
 
 이 예에서 .container 요소의 패딩은 1rem으로 설정되어 루트 요소의 글꼴 크기와 동일한 크기가 됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 반응형 디자인을 위해 Viewport 단위 사용하기
 
@@ -164,18 +98,7 @@ h1 {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 예시에서 h1 요소의 글꼴 크기는 5vw로 설정되어 있습니다. 이는 뷰포트 너비의 5%가 됨을 의미합니다.
 
@@ -190,18 +113,7 @@ h1 {
 
 이 예시에서 .container 요소의 너비는 뷰포트 너비의 50%로 설정되고, 높이는 뷰포트 높이의 50%로 설정되어 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 뷰포트 단위는 반응형 디자인을 위한 좋은 도구이지만 과도하게 사용하면 일관성 없는 디자인을 만들어 사용자가 웹사이트를 탐색하기 어렵게 할 수 있습니다.
 
@@ -241,18 +153,7 @@ p {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 예시에서는 백분율을 사용하여 .container 요소의 너비를 정의하고, em 및 rem을 사용하여 h1 및 p 요소의 글꼴 크기와 줄 높이를 정의하며, 미디어 쿼리를 사용하여 작은 화면에 맞게 디자인을 조정하고 있습니다. 크기 단위의 조합을 사용함으로써, 모든 기기에서 멋지게 보이는 반응형 디자인을 만들 수 있습니다.
 
@@ -268,18 +169,7 @@ CSS에서 올바른 크기 단위를 사용하는 중요성을 더 잘 보여주
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 다음으로, em과 rem을 사용하여 제목과 단락의 글꼴 크기를 정의하겠습니다. 이렇게 함으로써 글꼴 크기가 화면 크기에 따라 조정되어 데스크톱과 모바일 장치 모두에서 쉽게 읽을 수 있습니다.
 
@@ -315,18 +205,7 @@ p {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이러한 모범 사례를 따르고 적절한 단위를 사용하면 모든 장치에서 훌륭하게 보이는 반응형 디자인을 만들고 훌륭한 사용자 경험을 제공할 수 있습니다.
 

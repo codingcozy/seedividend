@@ -21,29 +21,11 @@ link: "https://medium.com/towards-artificial-intelligence/pragmatic-gpt-4-prompt
 그러나 지금은 GPT-4 채팅 인터페이스에 통합된 새로운 데이터 분석 도구들로 이것이 변화했습니다. 이제 실시간으로 지도와 차트를 생성할 수 있고, 그것들을 전체 PDF 보고서에 포함시킬 수 있습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 태그를 Markdown 형식으로 변경하시면 됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 평화와 경제에 대한 비전을 갖춘 인스티튜트가 제공하는 경제와 평화에 관한 데이터는 Global Peace Index에서 다운로드할 수 있습니다.
 
@@ -53,16 +35,7 @@ link: "https://medium.com/towards-artificial-intelligence/pragmatic-gpt-4-prompt
 
 [![이미지](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_1.png)](링크)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파일을 다운로드하면 Excel(또는 Numbers)에서 열어서 "Overall Scores" 탭을 클릭할 수 있습니다. 다음과 같은 내용을 볼 수 있어요:
 
@@ -72,16 +45,7 @@ link: "https://medium.com/towards-artificial-intelligence/pragmatic-gpt-4-prompt
 
 이제 GPT-4를 시작할 준비가 되었습니다. 채팅 창을 열고, 주 채팅 창에서 첨부 파일 아이콘을 클릭하세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_3.png" />
 
@@ -91,16 +55,7 @@ GPT-4가 이 파일에 액세스할 수 있게 되면, 파일에 대해 질문�
 
 GPT-4에게 요청하는 내용: 이 CSV 파일의 간단한 개요와 각 필드에 대한 설명을 제공해주시겠어요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 GPT-4의 응답:
 
@@ -110,16 +65,7 @@ GPT-4의 응답:
 
 하지만 어디서 시작해야 할까요? 우리가 알고 싶은 것은 무엇일까요? 잘 모르시나요? GPT-4에게 물어볼까요? 아마 여기서 좋은 아이디어가 있을지도 몰라요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 확실해요! 이 데이터세트에서 제공된 필드만 사용해서 데이터 시각화를 위한 5가지 좋은 아이디어를 제공할게요:
 
@@ -131,16 +77,7 @@ GPT-4의 응답:
 
 좋은 아이디어들이에요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 GPT-4가 무엇을 생산할 수 있고 할 수 없는지 알고있는 지식이 유용할 때입니다. 
 
@@ -152,16 +89,7 @@ GPT-4의 응답:
 
 참고: 여기서 중요한 점은 GPT-4를 작업에 집중하도록 유도하는 것인데, LLM이 데이터셋의 필드를 사용하는 예제만 만들 수 있다는 것을 명확히 해야 해요. 그렇지 않으면 사용 가능한 필드로는 불가능한 가정을 할 가능성이 높아요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아이디어 #2는 좋은 시작점 같아요! 그럼 전세계 지도 시각화를 만들어볼까요?
 
@@ -171,16 +99,7 @@ GPT-4의 응답:
 
 코로플레스 맵은 미리 정의된 지리적 영역에서 특정 데이터 변수를 나타내기 위해 다양한 음영/색상을 사용하는 테마틱 맵입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 GPT-4는 쉽게 코로플레스 맵을 만들 수 있어요. 깔끔하고 쉽죠.
 
@@ -190,16 +109,7 @@ GPT-4의 응답:
 
 ![GPI scores for 2008](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_5.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 와우, 그거 정말 쉬웠죠? 코드를 한 줄도 쓰지 않으셨나요? 전혀 안 썼네요.
 
@@ -209,16 +119,7 @@ GPT-4의 응답:
 
 GPT-4에게 프롬프트: 멋져요, 이제 같은 지도를 2022년용으로 만들어주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 GPT-4의 답변:
 
@@ -228,16 +129,7 @@ GPT-4의 답변:
 
 14년 동안 특정 결과를 얻기 위해, 어떤 나라가 평화로움이 점점 높아지거나 낮아지는지를 보여주기 위해 해당 변화를 명확히 보여주는 지도를 표시하는 것도 가능해요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그래요.
 
@@ -247,16 +139,7 @@ GPT-4의 응답:
 
 ![map](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_7.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 쉽죠! 이제 2008년부터 2022년까지 각 나라의 변화에 대한 비교 분석이 있어요.
 
@@ -265,31 +148,13 @@ GPT-4의 응답:
 GPT-4에게 제시할 내용:
 몇 가지 특이치가 있으므로 색상 체계의 중간값을 0으로 설정하고, 전체 색상 범위를 더 생생하고 대조적으로 만드세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![해당 이미지는 훨씬 좋네요. 지난 14년 동안 불안정한 상황에서 있는 국가들을 명확히 식별할 수 있습니다. 멋진 작업이네요! 그리고 마지막으로, GPT-4의 새로운 내장 기능 중 하나는 방금 생성된 데이터 시각화와 제공된 분석을 포함한 원격 PDF 파일을 실시간으로 생성할 수 있는 기능입니다.](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_8.png)
 
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # PDF 보고서 실시간 생성
 
@@ -297,16 +162,7 @@ GPT-4에게 방금 생성한 지도 시각화물을 모두 포함한 PDF 보고�
 
 GPT-4에게 요청: 좋아요, 이제 2008년의 첫 번째 지도, 2022년의 두 번째 지도, 그리고 방금 생성한 지수 변화(2008-2022) 지도를 생성한 후, 각 지도에 대한 분석을 포함하는 PDF 보고서(소개, 분석, 결론 포함)를 만들어 주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_9.png)
 
@@ -316,16 +172,7 @@ GPT-4에 의해 동적으로 생성된 PDF 보고서의 스크린샷:
 
 ![이미지](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_10.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 와우, 정말 인상적이에요. 데이터셋에서 데이터 시각화와 분석이 포함된 PDF 보고서까지!
 
@@ -335,16 +182,7 @@ GPT-4에 의해 동적으로 생성된 PDF 보고서의 스크린샷:
 
 음 — 전혀요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 얼마나 좋은가요?
 
@@ -354,29 +192,11 @@ GPT-4에 의해 동적으로 생성된 PDF 보고서의 스크린샷:
 
 아직 완벽한 상황은 아닙니다. GPT-4에서 구현해야 할 업데이트와 개선 사항이 있습니다. 예를 들어 데이터셋에 대한 분석은 더 심층적이지 않을 수 있으며 PDF 서식 조정이 필요합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 테이블 태그를 마크다운 형식으로 변경해보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 이 유형의 이야기가 당신에게 딱 맞고, 저를 작가로서 지원하고 싶다면, 제 Substack에 구독해주세요.
 

@@ -21,16 +21,7 @@ link: "https://medium.com/gitconnected/data-visualisation-3-secret-tips-on-pytho
 - 2. 멋진 그래프 (팁 #3)
 - 3. 상사를 감명시키기 (팁 #1, #2 및 #3)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 3년간 데이터 과학자로 근무하고 2년간 헤지펀드 매니저로 일한 경험을 토대로 고객들 앞에서 얻은 세 가지 조언이에요. 다른 아이디어가 있으면 댓글로 자유롭게 공유해 주세요.
 
@@ -40,16 +31,7 @@ link: "https://medium.com/gitconnected/data-visualisation-3-secret-tips-on-pytho
 
 ## 0. 준비 사항
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 시작하기 전에 Python3 버전과 다음 패키지들이 설치되어 있는지 확인해 주세요:
 
@@ -61,16 +43,7 @@ link: "https://medium.com/gitconnected/data-visualisation-3-secret-tips-on-pytho
 
 만약 위의 패키지 중 어떤 것이 이미 설치되어 있지 않다면, 아래와 같이 pip 명령어를 사용할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 pip install pandas-datareader
@@ -84,16 +57,7 @@ pip install DateTime
 테슬라에서 데이터를 업로드한 후, 다음과 같은 출력물 및 사용될 데이터세트는 다음과 같습니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_1.png" />
 
@@ -103,16 +67,7 @@ pip install DateTime
 
 나누고 싶은 첫 번째 팁은 범위 슬라이드 셀렉터입니다. 한 줄의 코드로 이미 그래프에 상당한 상호작용성을 불러올 수 있다는 사실에 믿음이 가시나요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래와 같이 코드를 입력해보세요:
 
@@ -126,31 +81,13 @@ pip install DateTime
 아래 코드를 입력해보죠:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아이디어가 인상적이지 않니?
 
 위 그래프를 살펴보면 그래프에 범위 슬라이드 셀렉터가 추가되었음을 알 수 있어요. 이를 통해 사용자/클라이언트가 그래프의 특정 부분을 쉽게 확대 또는 축소할 수 있을 거예요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다른 예시로 여러 주식을 여러 개 가져올 수 있는 경우가 있습니다. 그리고 이러한 주식을 동일한 척도에 맞추어 인덱싱할 수도 있습니다 (출처 1). 아래는 결과입니다: 
 
@@ -160,16 +97,7 @@ pip install DateTime
 
 두 번째 팁은 대화형 필터링 버튼을 공유하고 싶습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그러나, 이것에 대해 들어보신 적이 없을 것 같아요.
 
@@ -179,16 +107,7 @@ pip install DateTime
 
 ![그래프 이미지](/TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_4.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다시 말씀드리지만 이 도표는 금융 데이터용으로 만들어졌지만 시계열 데이터의 모든 유형을 보여줄 수 있습니다.
 
@@ -208,16 +127,7 @@ fig.update_layout(
 
 조밀하게 보일 수 있지만 한 번 입력하면 이제 그래프에 모두 재사용할 수 있어 즐겁게 복사하여 붙여넣기만 하면 됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 한 번 코드 블록을 가지고 있으면 변경할 수 있는 변수는 다음과 같습니다:
 
@@ -227,16 +137,7 @@ fig.update_layout(
 
 아래 이미지에서는 원하는 기간에 맞게 이름을 맞추었고, 레인지 선택기와 결합된 최종 결과가 이와 유사하게 표시됩니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](https://miro.medium.com/v2/resize:fit:1200/1*KXVXwd9Y9XOvuauDPta1wQ.gif)
@@ -250,16 +151,7 @@ fig.write_html("/Users/Desktop/MyGraph.html")
 A부터 Z까지 직접 만드는 방법이 궁금하시면 다음 스텝별 영상을 따라해보세요. 실시간으로 확인하실 수 있어요:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 질문이 있거나 데이터 시각화의 특정 부분을 다루길 원하시는 경우, 언제든지 Q&A에 댓글을 남겨주세요.
 
@@ -269,16 +161,7 @@ A부터 Z까지 직접 만드는 방법이 궁금하시면 다음 스텝별 영�
 
 # 출처:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Learn Algo Trading in One Day(Module 3):
 

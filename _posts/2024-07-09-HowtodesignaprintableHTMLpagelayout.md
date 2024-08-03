@@ -1,7 +1,7 @@
 ---
 title: "인쇄 가능한 HTML 페이지 레이아웃 디자인하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-HowtodesignaprintableHTMLpagelayout_0.png"
+coverImage: "/assets/img/2024-07-09-HowtodesignaprintableHTMLpagelayout_0.png"
 date: 2024-07-09 18:31
 ogImage:
   url: /assets/img/2024-07-09-HowtodesignaprintableHTMLpagelayout_0.png
@@ -27,18 +27,7 @@ link: "https://medium.com/@karthikricssion/how-to-design-a-printable-html-page-l
 
 이제 sheet와 outer sheet에 스타일을 추가해봅시다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```json
 {
@@ -61,18 +50,7 @@ link: "https://medium.com/@karthikricssion/how-to-design-a-printable-html-page-l
 
 A4 페이지 크기를 mm 단위로 추가하십시오.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 .sheet-outer.A4 .sheet {
@@ -99,18 +77,7 @@ A4 페이지 크기를 mm 단위로 추가하십시오.
 
 마지막으로 CSS에서 페이지 크기를 A4로 설정하고 레이아웃의 A4 크기를 설정하기 위해 인쇄 옵션을 사용하세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 @페이지 {
@@ -126,4 +93,4 @@ A4 페이지 크기를 mm 단위로 추가하십시오.
 
 위 단계를 따라하면 아래에 표시된 대로 출력물을 얻을 수 있습니다.
 
-<img src="/ui-log-2/assets/img/2024-07-09-HowtodesignaprintableHTMLpagelayout_0.png" />
+<img src="/assets/img/2024-07-09-HowtodesignaprintableHTMLpagelayout_0.png" />

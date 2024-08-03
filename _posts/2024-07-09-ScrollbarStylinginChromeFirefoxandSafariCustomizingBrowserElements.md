@@ -1,7 +1,7 @@
 ---
 title: "Chrome, Firefox, Safari에서 스크롤바 스타일링  브라우저 요소 커스터마이징 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-ScrollbarStylinginChromeFirefoxandSafariCustomizingBrowserElements_0.png"
+coverImage: "/assets/img/2024-07-09-ScrollbarStylinginChromeFirefoxandSafariCustomizingBrowserElements_0.png"
 date: 2024-07-09 14:00
 ogImage:
   url: /assets/img/2024-07-09-ScrollbarStylinginChromeFirefoxandSafariCustomizingBrowserElements_0.png
@@ -14,22 +14,11 @@ link: "https://medium.com/@stheodorejohn/scrollbar-styling-in-chrome-firefox-and
 
 현대의 웹 개발에서는 브라우저 요소의 모양을 사용자 정의하는 것이 인기 있는 트렌드가 되었습니다. 그런 요소 중 하나가 스크롤바인데, 사용자들에게 콘텐츠를 탐색하는 인터랙티브한 방법을 제공합니다. 이 기사에서는 Chrome, Firefox 및 Safari 세 가지 주요 브라우저에서 스크롤바를 스타일링하는 것에 초점을 맞춥니다. 각 브라우저에 특정한 CSS 선택자를 탐구하고 스크롤바의 모양과 느낌을 사용자 정의하는 예시를 제공할 것입니다.
 
-![스크롤바 스타일링 예시](/ui-log-2/assets/img/2024-07-09-ScrollbarStylinginChromeFirefoxandSafariCustomizingBrowserElements_0.png)
+![스크롤바 스타일링 예시](/assets/img/2024-07-09-ScrollbarStylinginChromeFirefoxandSafariCustomizingBrowserElements_0.png)
 
 ## Chrome에서 스크롤바 스타일링하기:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Google Chrome은 가장 널리 사용되는 브라우저 중 하나이며, 스크롤 막대의 다양한 부분을 대상으로 스타일링하기 위한 CSS 셀렉터를 제공합니다. 다음은 Chrome에 특정한 중요한 셀렉터들입니다:
 
@@ -43,18 +32,7 @@ Google Chrome은 가장 널리 사용되는 브라우저 중 하나이며, 스�
 
 Mozilla Firefox도 스크롤바를 스타일링하기 위한 CSS 셀렉터를 제공합니다. 그러나 제한된 스타일링 옵션을 얻을 수 있으며, 여기에는 파이어폭스에 관련된 셀렉터들이 있습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - scrollbar-color: 스크롤바의 트랙과 버튼의 색상을 설정합니다. 아래 값 중 하나를 가질 수 있습니다.
 
@@ -67,18 +45,7 @@ Mozilla Firefox도 스크롤바를 스타일링하기 위한 CSS 셀렉터를 �
 - thin: 기본보다 얇거나 더 얇은 스크롤바의 변형.
 - none: 스크롤바 없음 (요소는 여전히 스크롤 가능).
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## Safari에서 스크롤바 스타일링하기:
 
@@ -92,18 +59,7 @@ Safari, Apple의 기본 브라우저는 스크롤바를 사용자 정의하는 �
 
 예시: 각 브라우저에서 스크롤바를 스타일링하는 방법에 대한 몇 가지 예시를 살펴보겠습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 .element-with-scroll {
@@ -160,18 +116,7 @@ h3 {
 
 스크롤바를 사용자 정의하는 것은 사용자 경험을 향상시키고 웹 애플리케이션에 개성을 더할 수 있습니다. 크롬, 파이어폭스, 사파리에서 제공하는 특정 CSS 셀렉터를 활용하여 스크롤바의 다양한 부분을 디자인 요구사항에 맞게 스타일링할 수 있습니다. 다양한 CSS 속성을 실험하고 웹사이트 전반적인 디자인과 조화를 이루는 시각적으로 매력적인 스크롤바를 만들어보세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 다양한 브라우저에서 스크롤바 스타일을 테스트하여 일관된 예상 결과를 확인하는 것을 잊지 마세요. 창의적인 자유를 누리며 사용자에게 즐거운 스크롤링 경험을 제공해보세요!
 

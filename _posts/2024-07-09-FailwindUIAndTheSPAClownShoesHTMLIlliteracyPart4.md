@@ -1,10 +1,10 @@
 ---
 title: "Failwind UI와 SPA Clown Shoes HTML 문맹 4부"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:24
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Failwind UI And The SPA Clown Shoes (HTML Illiteracy Part 4)"
 link: "https://medium.com/codex/failwind-ui-and-the-spa-clown-shoes-html-illiteracy-part-4-6af61f164530"

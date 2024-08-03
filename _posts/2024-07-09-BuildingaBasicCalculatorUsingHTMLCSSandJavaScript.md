@@ -1,7 +1,7 @@
 ---
 title: "HTML, CSS, 및 JavaScript로 기본 계산기 만들기 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png"
+coverImage: "/assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png"
 date: 2024-07-09 18:11
 ogImage:
   url: /assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png
@@ -10,7 +10,7 @@ originalTitle: "Building a Basic Calculator Using HTML, CSS, and JavaScript"
 link: "https://medium.com/@bhageshwaree11/building-a-basic-calculator-using-html-css-and-javascript-346ac49a7f58"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png" />
+<img src="/assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png" />
 
 안녕하세요! 웹 개발의 다이내믹한 세계에 오신 것을 환영합니다. 상호작용적이고 기능적인 사용자 인터페이스를 만들 수 있는 능력은 중요한 기술입니다. 개인 웹사이트부터 복잡한 웹 애플리케이션까지, 이 기술은 현대 디지털 경험의 핵심 요소입니다. 이러한 기술을 연마하기에 완벽한 프로젝트는 기본 계산기를 만드는 것입니다. 이 단계별 튜토리얼에서 우리는 HTML, CSS 및 JavaScript의 3대 요소를 사용하여 간단한 계산기를 만드는 흥미진진한 여정을 떠날 것입니다. 이 안내서를 마치면 작동하는 계산기뿐만 아니라 이러한 기술이 어떻게 원활하게 함께 작동하는지에 대한 깊은 이해도 얻게 될 것입니다.
 
@@ -18,18 +18,7 @@ HTML 설정하기
 
 이 여정은 HTML을 통해 우리 계산기의 구조적 기반을 만드는 것으로 시작됩니다. 웹의 마크업 언어인 HTML은 프로젝트에 구조를 부여합니다. 아래는 우리 계산기를 위한 무대를 설정하는 HTML 코드 일부입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <!DOCTYPE html>
@@ -143,18 +132,7 @@ CSS 스타일링
   }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 자바스크립트로 기능 추가하기
 
@@ -192,17 +170,6 @@ function appendValue(buttonValue) {
 
 계산기를 만드는 것은 웹 개발 여정에서 작지만 중요한 단계입니다. HTML, CSS 및 자바스크립트에서 얻은 능력을 가지고 있으면 앞으로 나아가는 도중 마주치게 될 여러 도전에 대비할 수 있습니다. 사용자 중심 웹사이트를 개발하거나 몰입형 웹 애플리케이션을 만들거나 최신 웹 트렌드를 탐구하는 등, 이 계산기를 만들면서 배운 교훈은 여러분의 코딩 역량의 중추가 될 것입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 GitHub :- https://github.com/bhageshwaree11/basic-calculator

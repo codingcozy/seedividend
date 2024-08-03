@@ -20,16 +20,7 @@ link: "https://medium.com/top-python-libraries/top-5-python-data-visualization-t
 
 # 1. 화음도표
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Chord Diagram(코드 다이어그램)은 데이터 포인트 간의 복잡한 관계를 창조적으로 보여줍니다. 노드들이 원 주위에 배열되어 아크로 연결됩니다. 아크의 길이는 연결 값을 반영하며 두께는 관계의 중요도를 나타냅니다. 색상은 데이터를 분류하여 비교를 쉽게 만듭니다. 유전자 데이터 시각화를 위해 특히 다양한 분야에서 널리 사용됩니다.
 
@@ -39,16 +30,7 @@ Chord Diagram(코드 다이어그램)은 데이터 포인트 간의 복잡한 �
 
 다음은 Holoviews 및 Bokeh를 사용하여 다섯 개국 간의 무역 관계를 보여주는 코드 다이어그램 예시입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import holoviews as hv
@@ -95,16 +77,7 @@ chord
 - [pyCirclize GitHub](https://github.com/moshi4/pyCirclize)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 2. 썬버스트 차트
 
@@ -127,16 +100,7 @@ fig = px.sunburst(df, path=['continent', 'country'],
 fig.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 [그림](https://plotly.com/python/sunburst-charts/)
@@ -146,16 +110,7 @@ fig.show()
 [그림](/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_5.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 헥스빈 플롯 또는 육각형 바이닝은 데이터 점이 밀집되어 있을 때 특히 2D 데이터 분포를 시각화하는 데 효과적입니다. 데이터 공간을 육각형 바인으로 분할하며 색상은 각 바인 내의 점 수를 나타내어 데이터 분포를 명확하게 표현합니다.
 
@@ -191,16 +146,7 @@ plt.show()
 
 <img src="/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_6.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 https://matplotlib.org/stable/gallery/statistics/hexbin_demo.html
 
@@ -210,16 +156,7 @@ https://matplotlib.org/stable/gallery/statistics/hexbin_demo.html
 
 <img src="/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_7.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래는 파이썬을 사용하여 생산원에서 작은 도시 소비자에게 에너지 흐름을 보여주는 샌키 다이어그램을 생성하는 예제입니다.
 
@@ -254,16 +191,7 @@ fig.show()
 
 [Plotly 샌키 다이어그램 자세히 보기](https://plotly.com/python/sankey-diagram/)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 5. 스트림 그래프 (테마 리버)
 
@@ -273,16 +201,7 @@ fig.show()
 
 여기에는 Altair 라이브러리를 사용하여 스트림 그래프를 만드는 예시가 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import altair as alt
@@ -308,15 +227,6 @@ https://altair-viz.github.io/gallery/streamgraph.html
 최신 AI 이야기를 계속 읽으려면 Substack에서 저희와 함께하세요. 우리 함께 AI의 미래를 모습을 만들어 봅시다!
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬 이야기를 업데이트 받으려면 Substack에서 저희와 함께 연락하십시오. 함께 파이썬을 배워봐요!

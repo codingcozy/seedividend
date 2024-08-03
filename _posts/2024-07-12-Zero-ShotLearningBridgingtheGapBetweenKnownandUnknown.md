@@ -19,16 +19,7 @@ link: "https://medium.com/@evertongomede/zero-shot-learning-bridging-the-gap-bet
 
 **접근:** 본 보고서는 합성 데이터셋을 활용한 ZSL의 실용적 구현을 탐구하며, 특성 엔지니어링, 모델 훈련, 하이퍼파라미터 최적화 및 평가 지표에 대해 자세히 다룹니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 결과: 모델은 99.5%라는 높은 정확도를 달성하여, 혼동 행렬, 예측 분포도, 교차 검증 결과를 통해 보이지 않은 데이터를 분류하는 데 우수한 성능을 나타냈습니다.
 
@@ -38,16 +29,7 @@ link: "https://medium.com/@evertongomede/zero-shot-learning-bridging-the-gap-bet
 
 # 소개
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 박물관에 들어가 새로운 동물을 그린 그림을 보게 된다면 어떤 기술들을 가지고 있는지를 살펴보면서, 비늘, 날개, 그리고 뱀 모양의 몸 등의 특징을 보고, 이것이 바로 용이라는 것을 유추할 수 있습니다. 용을 한번도 본 적이 없더라도 설명을 토대로 추론하고 인식하는 인간의 능력은 바로 인공 지능의 Zero-shot learning (ZSL)이 목표로 하는 것입니다. 데이터가 풍부하지만 항상 레이블이 되어있지 않은 세계에서, ZSL은 기계가 학습하는 방식의 한계를 뛰어넘어, 그동안 본 적 없는 물체를 식별하고 분류할 수 있도록 가능하게 합니다.
 
@@ -57,16 +39,7 @@ link: "https://medium.com/@evertongomede/zero-shot-learning-bridging-the-gap-bet
 
 Zero-shot learning은 기계 학습에서 혁신적인 방법으로, 모델이 직접적으로 그러한 특정 클래스에 대해 훈련을 받지 않아도 새로운 객체 클래스를 인식하도록 설계됩니다. 기존의 기계 학습 모델은 인식해야 하는 각 카테고리에 대해 많은 레이블이 달린 데이터가 필요합니다. 그러나 ZSL은 속성, 텍스트 설명 또는 임베딩과 같은 의미 정보를 활용하여 새롭고 보지 못한 클래스에 대해 합리적인 추측을 할 수 있도록합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 제로샷 러닝은 어떻게 작동하나요?
 
@@ -80,16 +53,7 @@ Zero-shot learning은 기계 학습에서 혁신적인 방법으로, 모델이 �
 - 자연어 처리(NLP): 설명에서 맥락적 정보를 사용하여, ZSL은 모델이 명시적으로 훈련받지 않은 주제에 대한 텍스트 분류나 감정 분석과 같은 작업을 처리할 수 있게 합니다.
 - 추천 시스템: ZSL은 훈련 데이터에 없는 항목을 제안하여 사용자 경험과 참여를 향상시키는 방식으로 추천 시스템을 개선합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 도전과 향후 방향
 
@@ -101,16 +65,7 @@ Zero-shot learning은 기계 학습에서 혁신적인 방법으로, 모델이 �
 
 연구자들은 이러한 도전에 대한 해결책을 적극적으로 탐구하고 있습니다. 개선된 임베딩 기술, 제로샷 및 퓨샷 학습을 결합한 하이브리드 모델, 그리고 보다 견고한 매핑 함수는 개발 중인 전략 중 일부입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 실용 예시
 
@@ -220,16 +175,7 @@ plt.show()
 
 이 코드는 합성 데이터셋을 활용하여 제로샷 러닝의 실용적인 예시를 제공하며, 데이터 생성부터 평가 및 결과 시각화까지의 전체 머신 러닝 파이프라인을 다룹니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 결과 해석
 
@@ -241,16 +187,7 @@ plt.show()
 
 이는 모델의 예측 정확도가 높음을 나타냅니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](/TIL/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_1.png)
@@ -265,16 +202,7 @@ plt.show()
 - 지원: 지원 값(클래스 0의 경우 89, 클래스 1의 경우 111)은 테스트 데이터셋의 각 클래스에 대한 실제 인스턴스를 나타냅니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 제로샷 러닝 예측 산점도: 산점도는 제로샷 러닝 예측을 시각화합니다. 각 포인트는 테스트 인스턴스를 나타내며, 다른 색상은 예측된 클래스를 나타냅니다. 포인트들의 명확한 군집화는 모델이 특징에 기반하여 두 클래스를 구별하는 능력을 나타냅니다.
 
@@ -285,16 +213,7 @@ plt.show()
 - 모델은 모든 테스트된 CCC 값에 대해 일관된 우수한 성능을 보이며, 평균 테스트 점수는 1.0에 가깝습니다.
 - 오차 막대는 최소 테스트 점수의 표준 편차를 나타내며, 모델의 성능이 안정적이고 CCC의 선택에 지나치게 민감하지 않음을 시사합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Zero-Shot Learning Approach](/TIL/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_3.png)
@@ -308,16 +227,7 @@ plt.show()
 이 zero-shot 학습 접근 방식은 합성 데이터셋을 사용하더라도 훌륭한 결과를 보여주며 의미 정보를 기반으로 보이지 않는 클래스를 정확하게 일반화하고 예측할 수 있는 모델의 능력을 강조합니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 

@@ -18,18 +18,7 @@ link: "https://medium.com/@vik-y/get-your-python-configurations-right-every-time
 
 Pydantic Settings를 소개합니다 — Python 애플리케이션에서 구성 관리를 간편화하는 훌륭한 도구입니다. Pydantic Settings를 사용하면 Pydantic의 데이터 유효성 확인 기능을 활용하여 환경 변수를 읽고 검증할 수 있습니다. 이를 통해 애플리케이션이 항상 올바른 구성을 얻게 되어 실행 중 오류의 위험을 줄이고 개발자로서의 생활을 훨씬 쉽게 만들어 줍니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 문제 설명
 
@@ -39,18 +28,7 @@ Pydantic Settings를 소개합니다 — Python 애플리케이션에서 구성 
 
 ## 예시 — .env와 함께
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Pydantic Settings은 환경 변수 또는 .env 파일에서 구성을 로드하는 과정을 쉽게 만들어줍니다. 이 작업이 어떻게 이루어지는지 예시를 살펴보도록 하겠습니다.
 
@@ -62,18 +40,7 @@ pip install pydantic_settings
 
 다음으로 프로젝트 디렉토리에 다음 내용을 가진 .env 파일을 만들어주세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 DATABASE_URL=postgresql://user:password@localhost:5432/mydatabase
@@ -99,18 +66,7 @@ settings = Settings()
 
 Settings 클래스를 통해 database_url, api_key, debug와 같은 예상 구성 변수를 정의합니다. Settings 내부에 중첩된 Config 클래스는 이러한 변수가 .env 파일에서 로드되어야 함을 지정합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 환경 설정에서 settings 모듈을 불러와주세요.
@@ -126,18 +82,7 @@ Settings 클래스를 통해 database_url, api_key, debug와 같은 예상 구�
 
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그러면 이와 같은 오류가 발생합니다:
 
@@ -152,18 +97,7 @@ debug
 
 중첩된 예제
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 설정을 중첩 모델로 관리할 수도 있습니다. 예를 살펴보세요. .env 파일을 정의하는 방법과 Settings 모델이 최종 구성을 생성하기 위해 다른 모델들을 사용하는 것을 주목해주세요. 멋지죠!
 
@@ -212,18 +146,7 @@ print(Settings().model_dump())
 
 중첩 접근 방식을 사용하면 애플리케이션 구성 및 유효성 검사 논리를 보다 쉽게 분리할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 

@@ -19,18 +19,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 - SQL — SQL databases are commonly used in data engineering for structured data storage and querying, providing ACID compliance and strong consistency. — (1 week).
 - NoSQL — NoSQL databases are favored for their scalability and flexibility in handling unstructured or semi-structured data, often used in distributed systems for high-volume and high-velocity data processing. — (1 week).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 분산 컴퓨팅 원칙에 대한 지식 습득
 
@@ -40,18 +29,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 2. 데이터 모델링
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 다양한 데이터 모델링 기술에 대해 배우세요 (예: 관계형, 네트워크...)
 
@@ -61,18 +39,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - 정규화와 역정규화 원칙을 이해하면 데이터 엔지니어들이 데이터베이스를 설계할 때 중복을 최소화하고 데이터 무결성을 유지하는 균형을 맞추는 데 도움이 됩니다. 데이터 엔지니어링 파이프라인에서 저장 공간을 최적화하고 쿼리 성능을 최적화할 수 있습니다. — (1 주).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 다양한 사용 사례에 대한 스키마 디자인 탐색
 
@@ -82,18 +49,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 3. 데이터 저장
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터베이스 관리 및 최적화 분야에서 전문 지식 습득하기.
 
@@ -103,18 +59,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 4. 데이터 처리
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 배치 처리 프레임워크 (예: Apache Spark, Hadoop MapReduce)를 탐색해보세요.
 
@@ -124,18 +69,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - Apache Kafka 및 Apache Flink와 같은 스트림 처리 프레임워크는 실시간 데이터 처리 및 분석을 가능하게 하며, 낮은 대기 시간 데이터 수신을 용이하게 하고 지속적인 데이터 스트리밍 애플리케이션을 지원하여 데이터 엔지니어링에서 중요한 역할을 합니다. - (1-2 주).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - ETL (Extract, Transform, Load) 프로세스 및 도구를 이해합니다.
 
@@ -145,18 +79,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 5. 데이터 통합
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 다양한 소스(데이터베이스, API, 파일)에서 데이터 수집에 대한 전문 지식을 습득합니다.
 
@@ -166,18 +89,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - 데이터 엔지니어링에서 데이터 통합 패턴과 최상의 사례를 이해하는 것은 이질적인 데이터 소스를 조화롭게 하고 정확한 통찰력과 의사 결정을 위한 시스템 간의 데이터 흐름과 상호 운용성을 용이하게하기 위한 중요한 요소입니다. (2~3주 소요됩니다).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터 통합 및 동기화 도구를 탐색해보세요.
 
@@ -187,18 +99,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 6. 데이터 변환
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - SQL, Python 또는 전문 도구(예: Apache Beam)를 사용하여 마스터 데이터 변환 기술 습득
 
@@ -208,18 +109,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - 데이터 엔지니어링에서 데이터 클렌징, 정규화 및 데이터 풍부화 과정을 이해하는 것은 데이터 품질, 무결성 및 사용 가능성을 향상시키는 데 중요합니다. 데이터를 자신 있고 정확하게 분석하고 의사 결정을 내릴 수 있도록 데이터를 준비합니다. — (1~2 주)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터 파이프라인 조정 및 일정에 대해 배워보세요.
 
@@ -229,18 +119,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 7. 데이터 품질 및 거버넌스
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터 품질 측정 및 모니터링 기술을 이해합니다.
 
@@ -250,18 +129,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - 데이터 지배 원칙 및 프레임워크를 배우는 것은 데이터 엔지니어링에서 핵심적이며 데이터 자산을 효과적으로 관리하기 위한 정책, 프로세스 및 통제를 수립하여 데이터 수명주기 전반에 걸쳐 준수, 보안 및 책임성을 증진하는 데 중요합니다. — (1-2 주).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터 품질 점검 및 유효성 검사 프로세스를 구현하세요.
 
@@ -271,18 +139,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 8. 클라우드 기술
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 클라우드 플랫폼 (AWS, Azure, GCP)에 대한 숙련도 향상.
 
@@ -292,18 +149,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - 클라우드 기반 데이터 저장 및 처리 서비스 학습을 통해 데이터 엔지니어들은 클라우드에서 확장 가능한 저장 솔루션과 분산 처리 프레임워크를 활용하여 효율적인 데이터 관리와 분석 워크플로우를 용이하게 할 수 있습니다. — (2–3 주).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 클라우드 보안 및 규정 요구사항을 이해합니다.
 
@@ -313,18 +159,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 9. 빅데이터 기술
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 분산 저장 시스템(예: Hadoop HDFS, Amazon S3)을 탐색해보세요.
 
@@ -334,18 +169,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - Apache Spark 및 Apache Flink와 같은 분산 컴퓨팅 프레임워크에 전문 지식을 습득하면 데이터 엔지니어는 대규모 데이터 세트를 병렬로 처리하고 분산 컴퓨팅 자원을 활용하여 효율적인 데이터 처리 및 분석을 수행할 수 있습니다. - (4-5 주).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 컨테이너화 및 오케스트레이션 기술(Docker, Kubernetes 등) 이해하기
 
@@ -355,18 +179,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 10. 데이터 시각화 및 보고
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터 시각화 도구 및 기술 (예: Tableau, Power BI)를 탐색해 보세요.
 
@@ -376,18 +189,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - 대시보드 디자인 및 데이터 스토리텔링에 대해 학습함으로써 데이터 엔지니어는 주요 통찰과 트렌드를 이해 관계자 및 의사 결정자에게 효과적으로 전달하는 매력적이고 유익한 대시보드를 만들 수 있습니다. — (1–2 주).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 상호 작용형 시각화 및 보고서 작성에 대한 전문 지식 습득하기.
 
@@ -397,18 +199,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 ## 11. 고급 주제
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 실시간 분석, 데이터 레이크 및 그래프 데이터베이스와 같은 고급 주제를 탐험해보세요.
 
@@ -418,18 +209,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - 분야의 새로운 기술 및 트렌드를 파악함으로써 데이터 엔지니어는 최신 도구와 방법론을 활용하여 혁신을 이루고 데이터 엔지니어링 프로세스를 최적화하여 지속적인 개선을 추구하고 빠르게 변화하는 환경에서 선도할 수 있습니다. — (3–5 주).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 12. Practical Projects and Experience
 
@@ -439,18 +219,7 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 - 오픈 소스 프로젝트에서 동료들과 협업하거나 해커톤에 참여하세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 동료들과 오픈 소스 프로젝트에서 협업하거나 해커톤에 참여하는 것은 데이터 엔지니어들이 아이디어를 교환하고 복잡한 문제를 해결하며 혁신적인 데이터 엔지니어링 솔루션 개발에 기여할 수 있는 협력적인 환경을 조성합니다.
 
@@ -460,17 +229,6 @@ link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
 
 # 앞으로 나아가기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위에서 나열된 전체 여정을 소비 가능한 크기의 기사로 나눠서 소개할 거에요. 시리즈에 대해 업데이트를 받으려면 저를 따라오세요. 이 여정에 동참하게 될 거에요. 즐거운 학습되세요!!!

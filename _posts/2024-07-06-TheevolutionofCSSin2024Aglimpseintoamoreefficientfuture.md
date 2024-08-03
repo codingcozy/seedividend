@@ -1,10 +1,10 @@
 ---
 title: "2024년 CSS의 진화 더 효율적인 미래를 엿보다"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-06 02:18
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "The evolution of CSS in 2024: A glimpse into a more efficient future"
 link: "https://medium.com/@ninapepite/the-evolution-of-css-in-2024-a-glimpse-into-a-more-efficient-future-2027fa453956"
@@ -19,16 +19,7 @@ link: "https://medium.com/@ninapepite/the-evolution-of-css-in-2024-a-glimpse-int
 
 내 눈에 띄는 첫 번째 변경 사항 중 하나는 스크롤에 반응하는 애니메이션을 네이티브 CSS 속성을 사용해서 구현할 수 있다는 점입니다. 이제 우리는 JavaScript의 부담 없이 매력적이고 상호작용적인 UI를 만들 수 있게 되었습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 scroll-timeline {

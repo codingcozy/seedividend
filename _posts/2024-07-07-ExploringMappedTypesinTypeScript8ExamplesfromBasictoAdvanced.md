@@ -20,18 +20,7 @@ TypeScript의 Mapped types은 한 타입의 속성을 다른 타입으로 변환
 
 TypeScript에서는 때때로 한 타입의 속성을 다른 타입으로 변환해야 할 때가 있습니다. 이것은 Mapped types를 사용하여 쉽게 실현할 수 있습니다. 아래에서는 한 Product 타입의 속성을 문자열 타입으로 변환하는 방법을 구체적인 예제를 통해 시연하겠습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 1. 제품 유형 정의하기
 
@@ -47,18 +36,7 @@ type Product = {
 
 ## 2. 제품을 문자열로 변환하는 유형 정의하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그 다음, 우리는 새로운 타입인 ProductToString을 정의합니다. 이 타입은 Product 타입의 모든 속성을 문자열 타입으로 변환합니다.
 

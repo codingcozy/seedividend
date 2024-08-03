@@ -1,7 +1,7 @@
 ---
 title: "Flexbox 완벽 가이드 상세 이해하기"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-07-UnderstandingFlexboxAComprehensiveGuide_0.png"
+coverImage: "/assets/img/2024-07-07-UnderstandingFlexboxAComprehensiveGuide_0.png"
 date: 2024-07-07 21:19
 ogImage:
   url: /assets/img/2024-07-07-UnderstandingFlexboxAComprehensiveGuide_0.png
@@ -10,7 +10,7 @@ originalTitle: "Understanding Flexbox: A Comprehensive Guide"
 link: "https://medium.com/@MakeComputerScienceGreatAgain/understanding-flexbox-a-comprehensive-guide-992bcd5f04de"
 ---
 
-![Understanding Flexbox](/ui-log-2/assets/img/2024-07-07-UnderstandingFlexboxAComprehensiveGuide_0.png)
+![Understanding Flexbox](/assets/img/2024-07-07-UnderstandingFlexboxAComprehensiveGuide_0.png)
 
 플렉스박스는 Flexible Box Layout의 약자로, 강력하고 다재다능한 CSS 레이아웃 모델로, 복잡하고 반응형 웹 레이아웃을 쉽게 디자인할 수 있게 해줍니다. 웹 개발자에게 필수 도구가 된 플렉스박스는 요소들을 컨테이너 내에서 더 효율적이고 직관적인 방법으로 배치할 수 있게 해줍니다. 이 기사에서는 플렉스박스의 기본을 탐구하고 그 능력을 활용하여 유연하고 반응형 웹 디자인을 만드는 방법을 알아보겠습니다.
 
@@ -18,18 +18,7 @@ link: "https://medium.com/@MakeComputerScienceGreatAgain/understanding-flexbox-a
 
 플렉스박스는 요소들의 크기가 알 수 없거나 동적인 경우에도 컨테이너 내에서 공간을 분배하고 요소들을 정렬할 수 있는 레이아웃 모델입니다. 부유(floating)와 위치 지정(positioning)과 같은 전통적인 레이아웃 모델과 달리, 플렉스박스는 요소들을 컨테이너 내에서 배치하는 더 예측 가능하고 유지보수가 쉬운 방법을 제공하여 복잡한 인터페이스를 구축하는 데 이상적입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 주요 용어
 
@@ -39,18 +28,7 @@ Flexbox에 대해 더 알아보기 전에 몇 가지 주요 용어를 이해하�
 
 2. Flex 항목: 플렉스 컨테이너 내부의 자식 요소로, 컨테이너의 규칙에 따라 정렬 및 분배됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 3. Main Axis: flex 아이템이 분배되는 주축입니다. `flex-direction` 속성을 사용하여 수평(행) 또는 수직(열)을 지정할 수 있습니다.
 
@@ -60,18 +38,7 @@ Flexbox에 대해 더 알아보기 전에 몇 가지 주요 용어를 이해하�
 
 6. Cross Start 및 Cross End: 교차 축의 시작 및 끝 위치를 나타냅니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # Flex Container Properties
 
@@ -81,18 +48,7 @@ Flexbox에 대해 더 알아보기 전에 몇 가지 주요 용어를 이해하�
 
 2. justify-content: 주 축을 따라 플렉스 항목의 정렬을 제어합니다. 시작점, 끝점, 중앙 또는 공평하게 간격을 두고 분산되도록 설정할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 3. align-items: 이 속성은 플렉스 항목들을 교차 축을 따라 정렬합니다. 이를 사용하여 항목들을 컨테이너의 중앙에 정렬하거나 시작 또는 끝에 정렬할 수 있습니다.
 
@@ -102,18 +58,7 @@ Flexbox에 대해 더 알아보기 전에 몇 가지 주요 용어를 이해하�
 
 이제 개별 플렉스 항목에 적용할 수 있는 몇 가지 속성을 살펴보겠습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 1. flex: `flex` 속성은 `flex-grow`, `flex-shrink`, 그리고 `flex-basis`를 하나로 묶은 단축 속성입니다. 이 속성은 flex 항목들이 서로에 비해 어떻게 확장 또는 축소되는지를 결정합니다.
 
@@ -123,18 +68,7 @@ Flexbox에 대해 더 알아보기 전에 몇 가지 주요 용어를 이해하�
 
 # 코드 예시
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 1. 기본 Flex 컨테이너 및 Flex 항목 만들기:
 
@@ -170,18 +104,7 @@ Flexbox에 대해 더 알아보기 전에 몇 가지 주요 용어를 이해하�
 
 ## 2. Flex 방향 변경하기:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <!DOCTYPE html>
@@ -246,18 +169,7 @@ Flexbox에 대해 더 알아보기 전에 몇 가지 주요 용어를 이해하�
 </html>
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 여기서는 align-items를 사용하여 flex 항목을 교차 축의 시작점에 정렬하여 컨테이너의 맨 위로 이동합니다.
 
@@ -267,18 +179,7 @@ Flexbox에 대해 더 알아보기 전에 몇 가지 주요 용어를 이해하�
 
 Flexbox를 이해하면 웹 디자인 작업을 크게 향상시키고 반응형 디자인을 더 쉽게 만들 수 있습니다. 여기에 몇 가지 주요 장점이 있습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 1. 간편한 레이아웃: Flexbox는 요소를 배열하는 일을 간편하고 직관적으로 만들어 복잡한 레이아웃을 생성하는 과정을 단순화합니다.
 
@@ -288,18 +189,7 @@ Flexbox를 이해하면 웹 디자인 작업을 크게 향상시키고 반응형
 
 4. 해킹 필요성 감소: Flexbox를 사용하면 원하는 레이아웃을 구현하기 위해 CSS 해킹이나 해결책을 더 적게 필요로 하는 경우가 발생합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결론
 

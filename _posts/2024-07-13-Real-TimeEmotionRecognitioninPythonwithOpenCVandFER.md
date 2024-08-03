@@ -19,16 +19,7 @@ link: "https://medium.com/@crisvelasquez/real-time-emotion-recognition-in-python
 
 이 기사는 실용적인, 처음부터 끝까지의 코드 구현을 제공합니다. 웹캠이나 화면 녹화, 비디오 파일 등을 통해 실시간으로 감정을 캡처하고 분석할 수 있는 플러그 앤 플레이 솔루션을 개발자 및 열성가 모두에게 제공합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 1. 기술 스택
 
@@ -38,16 +29,7 @@ FER은 얼굴 표정에서 감정을 감지하는 데 중점을 둔 Python 라�
 
 이는 사용 편의를 고려하여 설계되었으며, 감정 감지가 필요한 프로젝트에 간편하게 통합할 수 있습니다. 출처: PyPI — FER.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 1.2 OpenCV (오픈 소스 컴퓨터 비전 라이브러리):
 
@@ -57,16 +39,7 @@ OpenCV는 컴퓨터 비전 분야에서 핵심적인 라이브러리입니다. �
 
 ## 1.4 MediaPipe (여기에서 사용되지 않음)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저희가 실시간 감정 인식 기술 스택에 대해 논의한 맥락에서, 이 구체적인 구현에는 사용되지는 않지만, MediaPipe를 언급할 가치가 있습니다. 독자들이 정보를 얻는 데 도움이 될 것이라고 생각합니다.
 
@@ -76,16 +49,7 @@ MediaPipe는 실시간 이미지 및 비디오 처리에 대해 자세히 탐구
 
 특히 얼굴 감정 인식 이상의 더 복잡하거나 다양한 유형의 시각 데이터 처리 및 인식 작업이 요구되는 시나리오에서 특히 강력한 도구입니다. 출처: MediaPipe Github.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 2. 파이썬 구현
 
@@ -100,16 +64,7 @@ pip install matplotlib
 pip install imageio
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 2.1 실시간 감정 감지
 
@@ -119,16 +74,7 @@ pip install imageio
 
 우리의 예제에서는 라이브 웹캠 피드를 사용하지만, 이 스크립트를 다른 소스와 함께 사용할 수 있습니다. 예를 들어, 웹캠 피드를 비디오 파일이나 라이브 화면 녹화로 대체할 수도 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 웹캠 피드 시작: 먼저 웹캠에서 비디오를 캡쳐하기 위해 OpenCV를 사용합니다. OpenCV의 VideoCapture 함수는 웹캠 피드를 초기화합니다. 대부분의 경우, VideoCapture에 0을 전달하면 기본 웹캠이 선택됩니다.
 - 감정 감지: 그 다음으로는 비디오 프레임에서 감정을 감지하는 간단한 인터페이스를 제공하는 FER 라이브러리를 활용합니다. 웹캠에서 프레임이 캡쳐되면 FER는 프레임을 처리하여 얼굴과 해당 감정을 감지합니다.
@@ -186,16 +132,7 @@ finally:
 
 기본적인 실시간 감정 감지 스크립트를 기반으로, 실시간 감정 시각화 기능을 추가한 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 업데이트는 감정 감지 응용 프로그램에 더 다이내믹하고 상호작용 가능한 측면을 추가하여 데이터를 더 매력적이고 통찰력 있게 만듭니다.
 
@@ -213,16 +150,7 @@ emotion_labels = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutr
 bars = ax.bar(emotion_labels, [0]*7, color='lightblue')
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Matplotlib의 대화형 모드: 대화형 모드를 활성화하면 (plt.ion()), matplotlib의 플롯이 실시간으로 업데이트됩니다. 이를 통해 바 차트가 감정 감지 알고리즘에 의해 처리된 각 새 프레임마다 동적으로 새로 고쳐질 수 있습니다.
 
@@ -238,16 +166,7 @@ def update_chart(detected_emotions, bars, ax, fig):
 
 주요 루프에서 차트 업데이트 통합: 스크립트의 주요 루프에서 각 프레임에서 감정을 감지한 후, 최신 감정 데이터로 update_chart를 호출합니다. 이렇게 함으로써 시각화가 비디오 피드와 동기화되도록 유지됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 감정 감지 및 시각화를 위한 주요 루프
@@ -416,16 +335,7 @@ finally:
 
 ## 2.3 보너스 — 결과 병합하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 감정 감지 기술의 진정한 힘은 데이터를 포괄적이고 매력적인 방식으로 시각화할 때 발휘됩니다. 이를 달성하기 위해 다양한 출력물을 하나의 시각적 프레젠테이션으로 효과적으로 결합하는 스크립트를 개발했습니다. 이 스크립트는 세 가지 요소를 효과적으로 조화시킵니다:
 
@@ -437,16 +347,7 @@ finally:
 
 - 입력값 읽기 및 처리:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 static_chart = Image.open('cumulative_emotions.jpg')
@@ -465,16 +366,7 @@ combined_frame.paste(static_chart_resized, (2 * desired_width, 0))
 
 더 자세한 코드와 기술적인 세부 정보를 탐험하고 싶은 분들을 위해, AI, 데이터 과학 및 기술에 대한 다양한 기술 튜토리얼 및 실용적인 가이드가 포함된 리소스인 우리 웹사이트인 Entreprenerdly.com을 방문하시기를 권장합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 프로젝트와 다른 많은 프로젝트의 완전한 코드를 찾을 수 있습니다. 최신 기술 솔루션을 배우고 구현하는 실전적인 방법을 제공합니다.
 
@@ -488,16 +380,7 @@ combined_frame.paste(static_chart_resized, (2 * desired_width, 0))
 - 로봇과 인공지능: 로봇 공학에서 감정 인식은 AI 및 로봇과의 상호 작용을 더 자연스럽고 직관적으로 만들 수 있습니다. 특히 요양이나 고객 서비스 로봇에서 유용합니다.
 - 접근성 기술: 언어 또는 청각 장애가 있는 사람들을 위해 감정 인식 기술은 화자의 감정 상태에 대한 추가적인 문맥을 제공하여 의사 소통을 용이하게 할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 6. 한계와 개선점
 
@@ -510,16 +393,7 @@ combined_frame.paste(static_chart_resized, (2 * desired_width, 0))
 
 ## 6.2 개선 가능한 부분:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 향상된 머신러닝 모델: 더 발전된 머신러닝 모델을 통합하거나 기존의 FER 모델을 사용자 정의함으로써 정확성을 향상시키고 편향을 줄일 수 있습니다.
 - 맥락을 인지하는 알고리즘: 상황의 맥락을 고려하는 알고리즘을 개발하면 보다 세밀한 감정 분석을 제공할 수 있습니다.
@@ -532,15 +406,6 @@ combined_frame.paste(static_chart_resized, (2 * desired_width, 0))
 
 독자들에게는 이 기사가 현재 기술의 능력을 이해하고 그 잠재적인 응용 분야를 상상해 볼 수 있는 시작점으로 제공됩니다. 개발자, 연구자 또는 기술과 감정이 교차하는 부분에 관심이 있는 사람이라면 상상력만큼의 가능성이 넓게 열려 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Real-Time Emotion Recognition in Python with OpenCV and FER](/TIL/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_2.png)

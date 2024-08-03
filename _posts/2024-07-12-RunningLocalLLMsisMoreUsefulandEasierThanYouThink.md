@@ -19,16 +19,7 @@ ChatGPT은 정말 멋지죠. 그런데 한 가지 치명적인 단점이 있습�
 
 그래서 저는 개인 컴퓨터에서 로컬로 실행할 수 있는 오픈소스 LLM을 탐구하기 시작했습니다. 실제로 그것들이 왜 훌륭한지에 대해 많은 이유가 있다는 것을 발견했습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 1. 데이터 개인 정보 보호: 귀하의 정보는 귀하의 기기에 유지됩니다.
 
@@ -38,16 +29,7 @@ ChatGPT은 정말 멋지죠. 그런데 한 가지 치명적인 단점이 있습�
 
 4. 오프라인 기능: 인터넷 연결이 필요하지 않습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 5. 제약 사항이 없는 사용: 외부 API에서 부과된 제한이 없습니다.
 
@@ -57,16 +39,7 @@ ChatGPT은 정말 멋지죠. 그런데 한 가지 치명적인 단점이 있습�
 
 Ollama는 개인 컴퓨터에서 쉽게 대형 언어 모델(LLM)을 로컬에서 실행할 수 있게 해주는 오픈 소스 프로젝트입니다. 사용자 친화적이고 매우 가벼우며 Meta(럼마 3)와 구글(젬마 2)의 최신 및 최고의 사전 학습 모델을 포함한 다양한 모델을 제공하는 것으로 알려져 있습니다. 이러한 회사들이 이러한 모델을 교육하는 데 수백만 달러를 투자하여 우리가 자신의 기기에서 재미있게 사용할 수 있도록 했습니다. 대단하지 않나요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Ollama는 그 자체로는 빈 껍데기에 불과하며 작동하려면 LLM이 필요합니다.
 
@@ -76,16 +49,7 @@ Ollama는 그 자체로는 빈 껍데기에 불과하며 작동하려면 LLM이 
 
 그리고 더 많은 모델이 있습니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 글에서는 Meta사의 최신 모델인 Llama 3에 초점을 맞추어 놀라운 성능을 약속하는 이 모델이 이 플랫폼에서 가장 인기 있는 모델이라고 합니다. 이 글을 작성하는 시점에 이 모델은 440만 회 이상의 다운로드를 기록하고 있습니다.
 
@@ -97,16 +61,7 @@ Ollama는 그 자체로는 빈 껍데기에 불과하며 작동하려면 LLM이 
 1. ollama.com에 가서 "다운로드"를 클릭합니다. 저는 macOS를 사용하고 있으므로 이후 튜토리얼에서 이 옵션에 초점을 맞출 것이지만, Linux나 Windows에서 할 때도 크게 다르지 않을 것입니다.
 2. "macOS용 다운로드"를 클릭합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마크다운 형식의 표를 사용해보세요.
 
@@ -118,16 +73,7 @@ STEP 3/4/5:
 
 마지막 단계에서는 먼저 llama3의 8B 버전(약 4.7GB)을 컴퓨터에 다운로드한 다음 실행됩니다. 이렇게 간단합니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Running Local LLM is More Useful and Easier Than You Think](/TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_5.png)
@@ -139,16 +85,7 @@ You can ask it anything, like explaining the differences between the 8 billion a
 ![Running Local LLM is More Useful and Easier Than You Think](/TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_6.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 해당 모델의 응답 시간은 일반적으로 컴퓨터의 GPU / RAM에 의존합니다.
 
@@ -169,16 +106,7 @@ ollama를 종료합니다.
 - /? (모델이 실행 중일 때)
 사용 가능한 모든 명령어를 나열합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 더 복잡한 사용 사례를 위해 더 많은 명령이 존재합니다. 새로운 미세 조정 모델을 생성하는 것과 같은 경우가 있습니다. 
 
@@ -188,16 +116,7 @@ Ollama의 Github 저장소에는 매우 완벽한 설명서가 있습니다.
 
 # #4 Jupyter Notebook에서 Llama 3
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 터미널을 통해 LLMs를 사용하는 것도 좋지만 파이썬 코드를 통해 모델과 상호 작용하면 더 많은 가능성이 열립니다.
 
@@ -218,16 +137,7 @@ llm = Ollama(model="llama3")
 llm.invoke("Alice의 나이가 25세이고 엔지니어로 일하는 짧은 2문장 자기소개 생성")
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 친근한 톤으로 번역해 드릴게요.
 
@@ -235,16 +145,7 @@ llm.invoke("Alice의 나이가 25세이고 엔지니어로 일하는 짧은 2문
 
 단일 인물을 위한 소개를 터미널에서 쉽게 만들 수 있지만, 많은 사람들의 경우엔 파이썬 없이 같은 작업을 반복해야 할 수도 있어요. 파이썬을 사용하면 프롬프트를 매개변수화시키고, 많은 사람들에 대해 자동화된 프로세스를 실행할 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예를 들어:
 
@@ -273,16 +174,7 @@ df.head()
 
 # 5번째 단계 최종 소견
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사의 목적은 Ollama 덕분에 로컬에서 완전히 기능적인 LLM(Large Language Model)을 구현하는 간편함을 강조하는 것이었습니다.
 
@@ -292,16 +184,7 @@ Open WebUI와 같은 오픈 소스 프로젝트 덕분에 우리만의 ChatGPT�
 
 저는 그저 몇 번의 클릭과 몇 줄의 코드로 이렇게 유용한 것을 얻을 수 있다는 것이 놀라워요! 여러분도 즐기셨으면 좋겠네요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 기사 끝까지 읽어 주셔서 감사합니다.
 더 많은 내용을 보려면 팔로우해주세요!

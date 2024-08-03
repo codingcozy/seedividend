@@ -1,10 +1,10 @@
 ---
 title: "Flexbox를 사용한 테이블 레이아웃 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:10
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Table layout using Flexbox"
 link: "https://medium.com/@swethabachugudem/table-layout-using-flexbox-b6bbda7dc445"
@@ -62,16 +62,7 @@ link: "https://medium.com/@swethabachugudem/table-layout-using-flexbox-b6bbda7dc
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 'flex-flow' 속성은 flex 컨테이너의 방향을 지정하며, 이 속성을 테이블 클래스에 column으로 설정하면 데이터가 열을 따라 채워지는 것을 보장합니다. 셀 클래스에 설정된 'flex:1' 속성은 flex 항목이 컨테이너 내에서 동일하게 공간을 차지해야 함을 지정하여 테이블의 열 크기를 동일하게 만들 수 있게 합니다.
 

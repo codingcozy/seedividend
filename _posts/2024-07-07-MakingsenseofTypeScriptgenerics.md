@@ -18,18 +18,7 @@ TypeScript는 JavaScript 개발을 혁신적으로 개선했습니다. 코드 �
 
 TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아래 예제를 보세요 🤯 두려워하지 않으시죠?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_1.png" />
 
@@ -39,18 +28,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 이 아주 간단한 JavaScript 함수를 상상해보세요. 이 함수는 배열의 첫 번째 요소를 반환합니다. (네, 제가 동의합니다. 이 함수는 그다지 유용하지 않지만 설명을 위해서입니다).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_2.png" />
 
@@ -60,18 +38,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 하지만 이는 매우 나쁜 타이핑입니다. 왜냐하면 TypeScript가 이 함수의 반환 타입을 올바르게 추론할 수 없기 때문입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_4.png)
 
@@ -81,18 +48,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 좋은 생각이 아닙니다. 먼저, 이 함수에 대한 가능한 모든 유형의 큰 목록을 유지해야 한다는 점 때문입니다. 그리고 무엇보다 중요한 것은 이 추론 문제를 해결하지 못한다는 것입니다. TypeScript는 함수를 호출할 때 유형을 추측할 수 없을 만큼 똑똑하지 않습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼 TypeScript에서 as를 사용해 캐스팅하는 것을 도와줄 수 있을 것 같네요!
 
@@ -103,18 +59,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 그렇게 하지 마세요! 이걸 타입하는 더 안전하고 깨끗한 방법이 있어요.
 이름이 뭐라고 생각하시나요? ✨ 제네릭스✨
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 제네릭 소개
 
@@ -124,18 +69,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 그것이 바로 제네릭이란 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이렇게 보일 것입니다:
 
@@ -145,18 +79,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 🟣 이전처럼 매개변수를 any[]로 입력하는 대신, 우리는 제네릭을 사용하여 매개변수를 정의합니다: 우리는 그것을 SomeType이라고 이름 짓겠습니다. 제네릭은 타입 자체가 아니라 타입 매개변수로, 함수가 호출될 때 지정될 타입을 나타내는 자리 표시자입니다. 당신은 원하는 대로 이름을 지을 수 있습니다(예약어나 이미 가져온 타입 이름이 아닌 경우). 우리는 종종 T와 같은 단일 문자를 제네릭으로 사용합니다. TypeScript에게 "이 함수는 어떤 타입의 배열을 매개변수로 받을 것"이라고 알립니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 🟢 이것은 함수의 반환 유형을 지정합니다. Typescript에게 "함수가 매개 변수 배열의 요소와 동일한 유형의 요소를 반환할 것"이라고 말하는 것입니다.
 
@@ -166,18 +89,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 이 함수를 작성하는 더 일반적인 방법은 T를 사용하는 것입니다 (문법이 덜 복잡하게 보이도록).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_8.png" />
 
@@ -187,18 +99,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 이미 TypeScript를 사용해 보셨다면, 모르는 사이에 제네릭을 사용해 본 적이 있을 겁니다. 예를 들어 DOM API의 querySelector 함수를 생각해 보세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_9.png" />
 
@@ -208,18 +109,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 <img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_10.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이렇게 제네릭을 사용하지 않은 경우와의 차이는 다음과 같습니다:
 
@@ -229,18 +119,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 제네릭을 사용하면 TypeScript가 작업 중인 요소의 정확한 종류를 이해할 수 있기 때문에 더 나은 타입 안전성과 개발자 경험을 제공합니다. 따라서 제네릭이 네이티브 API 및 라이브러리에서 널리 사용되는 것은 놀라운 일이 아닙니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 제네릭을 더 깊게 파헤쳐보기
 
@@ -250,18 +129,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 다음 코드를 살펴봅시다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_12.png)
 
@@ -271,18 +139,7 @@ ApiResponse 유형을 정의합니다. 이 유형은 항상 숫자 상태, 문�
 
 제네릭을 사용하여 그것을 개선해 봅시다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Image](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_13.png)
 
@@ -293,18 +150,7 @@ ApiResponse 유형을 정의합니다. 이 유형은 항상 숫자 상태, 문�
 - 꺽쇠 괄호 내에서 사용된 제네릭을 나열합니다.
 - 제네릭을 유형 정의 내에서 사용합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 🟣 이제는 이 타입을 사용할 때마다, T의 타입을 각괄호 안에 명확하게 지정해야 합니다. 이 fetch에 대한 API 응답 데이터가 ' name: string; age: number ' 타입임을 명시하고 있습니다. 이것은 타입 인자입니다.
 
@@ -314,18 +160,7 @@ ApiResponse 유형을 정의합니다. 이 유형은 항상 숫자 상태, 문�
 
 가끔, 제네릭이 모든 타입을 허용하지 않고 더 많은 제약이 있는 상태로 제한하고 싶은 경우가 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하고 그 외의 것들이 들어가지 않아야 합니다.
 
@@ -335,18 +170,7 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 만약 객체가 아닌 다른 것으로 함수를 호출하려고 하면 TypeScript에서 오류가 발생합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 특정 속성을 갖는 객체를 제약하는 방법도 있습니다. 예를 들어 API 데이터가 항상 id를 포함하는 객체여야 하는 경우:
 
@@ -356,18 +180,7 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 제네릭의 또 다른 멋진 기능은 기본 타입을 제공할 수 있다는 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지금까지 본 모든 예제에서 우리는 제네릭 타입을 사용할 때 type 인자를 명확히 지정해야 했습니다. 예를 들어: ApiResponse`' name: string; age: number '`.
 
@@ -377,18 +190,7 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 심지어 제약 조건과 함께 사용할 수도 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_17.png" />
 
@@ -398,18 +200,7 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 꺽쇠 괄호 안에 제네릭을 콤마로 구분하여 나열하면 됩니다. 함수를 호출할 때도 타입 인자를 동일하게 나열해 주세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 한 예시를 살펴보겠습니다:
 
@@ -419,17 +210,6 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 함수와 컴포넌트가 다양한 유형으로 작동할 수 있도록 허용하면서도 강한 유형 안전성을 유지함으로써, TypeScript 제네릭은 견고하고 유지 관리가 용이한 코드를 작성하는 능력을 크게 향상시키며 개발자 경험을 놀라운 것으로 만들어 줍니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 행복한 코딩하세요!

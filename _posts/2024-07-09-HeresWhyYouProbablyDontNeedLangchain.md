@@ -18,18 +18,7 @@ LangChain, LangGraph, LlamaIndex, CrewAI... 한 가지 도구에 익숙해지기
 
 음, 그들이 나가리키는 만큼 사악하지 않을 수도 있지만, 충분하지 않다고 판단된다면 먼저 원시적인 것을 시도한 다음에 더 고급 도구로 넘어가는 것이 항상 좋습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이번 달은 상당히 바쁘게 보냈어요 (사실, 2022년 11월 이후 모든 달이 그랬어요) GPT-4o의 발매와 Gemini 업데이트가 두 날에 걸쳐 연이어 발표되면서요.
 
@@ -39,18 +28,7 @@ GPT-4o의 'ScarJo' - 아니, 'Sky' - 음성은 데모에서 영향을 주었는�
 
 ChatGPT의 무료 버전을 통해 이제 GPT-4o로 파일을 업로드할 수 있지만, 여전히 코드 해석기 없이 CSV나 엑셀 데이터를 해석할 수 없어요. 그래서 Gemini Flash의 능력을 테스트해보기 위해 제가 직접 CSV 해석기를 만들기로 결심했어요. Langchain을 사용하는 방법을 보여주는 많은 튜토리얼이 있지만, 저희는 처음 시작하는 사람들에게 특히 더 이해하기 쉬운 방법으로 처음부터 만들어볼 거예요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 파이프라인
 
@@ -60,33 +38,11 @@ ChatGPT의 무료 버전을 통해 이제 GPT-4o로 파일을 업로드할 수 �
 
 2단계에서는 1단계에서 생성된 코드를 실행하여 생성된 출력을 LLM에 제공하고 사용자 쿼리와 결합시킨다. 이를 통해 pandas 명령의 출력을 자연어로 변환하여 대화 경험을 향상시킬 수 있어.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대부분의 사람들이 하는 신입 실수 중 하나는 프롬프트에 가능한 모든 지시사항을 자세히 기술하는 것입니다. LLMs는 지능이 없으므로 모든 것을 지키지 않을 것이며(적어도 AGI가 달성될 때까지), 이 문제를 피하기 위해 다수의 기술과 전략이 개발되었습니다. 예를 들면 제로샷 프롬프팅, 사고 흐름, 퓨샷 프롬프팅 등이 있습니다. 이들이 멋지게 들리기는 하지만 실제로는 매우 기본적인 기술들입니다. 이미 이들에 대한 많은 문헌 자료가 있기 때문에 그것들에 대해서는 자세히 다루지 않겠습니다. 이 중에서 나에게 가장 효과적으로 작용한 것은 역할 기반 프롬프팅입니다. 역할 기반 프롬프팅에서는 쿼리하기 전에 LLM에게 역할을 할당합니다. 이는 원하는 결과를 달성하는 데 도움이 됩니다.
 
@@ -96,18 +52,7 @@ ChatGPT의 무료 버전을 통해 이제 GPT-4o로 파일을 업로드할 수 �
 
 시스템 프롬프트
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### Main Prompt
 
@@ -115,18 +60,7 @@ The dataframe name is ‘df’. df has the columns 'cols' and their datatypes ar
 
 If you provide me with the specific metadata values, I can help you generate the pandas command for the user query on the dataframe 'df'. Feel free to ask any questions!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 응답 스키마
 
@@ -145,18 +79,7 @@ class Command(typing_extensions.TypedDict):
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 단계 2
 
@@ -166,18 +89,7 @@ class Command(typing_extensions.TypedDict):
 
 주 프롬프트
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 사용자 쿼리는 'final_query'입니다. 명령의 출력은 'str(data)'입니다. 데이터가 'None'인 경우 '시작하려면 쿼리를 요청하세요'라고 말할 수 있습니다. 사용된 명령을 언급하지 마세요. 출력에 대한 자연스러운 언어의 응답을 생성하세요.
 
@@ -187,18 +99,7 @@ class Command(typing_extensions.TypedDict):
 
 데이터프레임 메타데이터
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 df = pd.read_csv(uploaded_file)
 head = str(df.head().to_dict())
@@ -218,18 +119,7 @@ model_response = genai.GenerativeModel('gemini-1.5-flash-latest', system_instruc
 
 메인 프롬프트
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # Stage 1
@@ -262,18 +152,7 @@ bot_response = model_response.generate_content(
 
 temperature는 생성된 응답의 무작위성을 제어하는 데 사용됩니다. 높은 temperature는 더 창의적이고 다양한 응답을 생성하지만 실제 사용자 쿼리에서 벗어날 수 있습니다. 낮은 temperature는 더 일관된 몰입형 응답을 생성하지만 창의적이지 않을 수 있습니다. 그래서 제가 Stage 1에는 정확한 명령을 얻기 위해 낮은 temperature를 선택했고, Stage 2에는 답변이 지루하고 로봇적이지 않도록 더 높은 temperature를 선택했습니다. 달콤한 지점을 찾기 위해 실험해보세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 팬더스 명령을 실행하려면 파이썬에서 exec() 함수를 사용할 것입니다. 이 함수를 통해 파이썬 코드를 동적으로 실행할 수 있습니다. exec() 함수와 관련된 보안 취약점을 알고 있지만, 이 경우에는 다른 방법이 없었습니다. exec() 함수를 더 안전하게 사용하기 위해 아키텍처를 개선하거나 더 많은 유효성 검사를 추가할 수 있습니다. 이 프로젝트는 개인 프로젝트이므로 그러한 조치를 취하지 않았습니다. 파이썬 코드를 안전하게 실행할 수 있는 라이브러리가 있는지 알고 계시다면 댓글 섹션에 알려주세요.
 
@@ -283,18 +162,7 @@ temperature는 생성된 응답의 무작위성을 제어하는 데 사용됩니
 
 ![이미지 2](/TIL/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_3.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_4.png)
 

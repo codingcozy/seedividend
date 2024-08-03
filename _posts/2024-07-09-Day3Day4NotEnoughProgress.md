@@ -18,18 +18,7 @@ link: "https://medium.com/datascience-ville/day-3-day-4-not-enough-progress-bc49
 
 제게 궁금증을 자아냅니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 어쨌든, 그걸 생각하느라 시간을 낭비하지 말아요. 여기 오늘(4일차)의 내 보고서가 있어요:
 
@@ -39,18 +28,7 @@ Tkinter를 통해 내 온도 변환기의 두 번째 버전을 위한 창을 만
 
 하지만, 아마도 내 코드에 집중하지 못하고 거의 전혀 진전이 없었어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이유는요? 다른 급한 일이 더 많아서 그래요.
 

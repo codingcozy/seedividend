@@ -1,10 +1,10 @@
 ---
 title: "iOS Safari에서 HTML 비디오 문제 해결 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png"
+coverImage: "/assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png"
 date: 2024-07-12 19:17
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png
+  url: /assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png
 tag: Tech
 originalTitle: "How to fix HTML video issues in iOS Safari"
 link: "https://medium.com/@otterlord/how-to-fix-html-video-issues-in-ios-safari-05e180b3a9f1"
@@ -12,7 +12,7 @@ link: "https://medium.com/@otterlord/how-to-fix-html-video-issues-in-ios-safari-
 
 
 
-<img src="/ui-log-2/assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png" />
+<img src="/assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png" />
 
 iOS Safari의 HTML 비디오는 Chromium 및 Firefox와 다른 독특한 동작을 보입니다. 이 문제를 해결하는 동안 고통스러운 문제에 대한 몇 가지 해결책을 발견했습니다.
 
@@ -21,16 +21,7 @@ iOS Safari의 HTML 비디오는 Chromium 및 Firefox와 다른 독특한 동작�
 비디오 요소에 playsinline 속성을 추가하십시오.
 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <비디오 autoplay 소리없음 너비="250" playsinline style="사용자 선택:없음;">
@@ -48,16 +39,7 @@ iOS Safari의 HTML 비디오는 Chromium 및 Firefox와 다른 독특한 동작�
 </비디오>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # canplaythrough 트리거가 작동하지 않음
 

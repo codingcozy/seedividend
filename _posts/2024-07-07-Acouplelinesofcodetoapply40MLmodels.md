@@ -18,18 +18,7 @@ link: "https://medium.com/@benhui.ca/a-couple-lines-of-code-to-apply-40-ml-model
 
 <img src="/TIL/assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_1.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기에서는 mal 고객 데이터 세트를 사용합니다: [링크](https://gist.githubusercontent.com/pravalliyaram/5c05f43d2351249927b8a3f3cc3e5ecf/raw/8bd6144a87988213693754baaa13fb204933282d/Mall_Customers.csv)
 
@@ -45,18 +34,7 @@ df.head()
 
 ![이미지](/TIL/assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_2.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 간단해요. "지출 점수"는 종속 변수 Y이고 다른 필드들은 X입니다.
 

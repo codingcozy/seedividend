@@ -1,7 +1,7 @@
 ---
 title: "새로운 CSS 논리 속성들"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-NewCSSLogicalProperties_0.png"
+coverImage: "/assets/img/2024-07-09-NewCSSLogicalProperties_0.png"
 date: 2024-07-09 17:49
 ogImage:
   url: /assets/img/2024-07-09-NewCSSLogicalProperties_0.png
@@ -17,20 +17,9 @@ link: "https://medium.com/@elad/new-css-logical-properties-bc6945311ce7"
 대부분의 개발자들은 옛날에는 좌우, 상하의 개념으로 생각했습니다. 이는 인터넷 초기에는 주로 문서를 업로드하기 위해 사용되었기 때문이며, 오늘날 우리가 알고 있는 복잡한 웹 사이트 구조를 위한 것이 아니었습니다.
 이것이 왜 다국어 웹사이트의 필요성을 고려한 적이 없는지에 대한 이유입니다.
 
-<img src="/ui-log-2/assets/img/2024-07-09-NewCSSLogicalProperties_0.png" />
+<img src="/assets/img/2024-07-09-NewCSSLogicalProperties_0.png" />
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 최근까지는 RTL/LTR 웹사이트와 같은 다방향 웹사이트를 지원하는 가장 좋은 방법은 SASS와 SASS 변수를 사용하는 것이었습니다.
 (더 알고 싶다면, “SASS로 RTL 웹사이트 만드는 최상의 방법!”이라는 제 논문을 읽어보세요).
@@ -41,41 +30,19 @@ link: "https://medium.com/@elad/new-css-logical-properties-bc6945311ce7"
 
 # CSS 논리적 속성으로 생각하기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 박스 모델을 토론할 때, 이러한 이미지를 사용하여 설명하는 것이 익숙해졌었죠:
 
-![Box-model](/ui-log-2/assets/img/2024-07-09-NewCSSLogicalProperties_1.png)
+![Box-model](/assets/img/2024-07-09-NewCSSLogicalProperties_1.png)
 
 그것이 그 때는 맞았고 지금도 그렇지만, 여기에는 margin-left, padding-right, border-top과 같은 전통적인 물리적 속성이 마지막 날일 수도 있습니다.
 
 새로운 논리적 속성을 사용하기 시작하기 전에, 왼쪽/오른쪽 또는 위/아래와 같은 용어로 생각하는 것을 그만두고, 대신 inline-start/inline-end 및 block-start/block-end로 바꿔야 합니다.
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-<img src="/ui-log-2/assets/img/2024-07-09-NewCSSLogicalProperties_2.png" />
+<img src="/assets/img/2024-07-09-NewCSSLogicalProperties_2.png" />
 
 ## 인라인 축
 
@@ -86,18 +53,7 @@ link: "https://medium.com/@elad/new-css-logical-properties-bc6945311ce7"
 아랍어에서 padding-inline-start = padding-right
 일본어에서 padding-inline-start = padding-top
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 블록 축
 
@@ -107,18 +63,7 @@ link: "https://medium.com/@elad/new-css-logical-properties-bc6945311ce7"
 
 답은 조금 더 복잡합니다. 현재, 모든 다른 언어로 된 웹사이트에서는 다른 방법이 없었기 때문에 이런 방식으로 작동합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 일본어 및 일부 동양 언어로 작성된 웹사이트는 위에서 아래로가 아니라 오른쪽에서 왼쪽으로 시작합니다! 이를 이해하려면 화면을 오른쪽으로 90도 회전시키는 것을 상상해보세요. 웹사이트의 스크롤이 더 이상 수직이 아니라 수평이 됩니다!
 
@@ -126,22 +71,11 @@ link: "https://medium.com/@elad/new-css-logical-properties-bc6945311ce7"
 영어와 아랍어에서 padding-block-start = padding-top
 일본어에서 padding-block-start = padding-right
 
-![이미지](/ui-log-2/assets/img/2024-07-09-NewCSSLogicalProperties_3.png)
+![이미지](/assets/img/2024-07-09-NewCSSLogicalProperties_3.png)
 
 # 새로운 상자 모델 속성
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 (여백, 안팎, 테두리)
 인라인과 블록 축을 이해한 후 필요에 따라 사용해보세요.
@@ -165,18 +99,7 @@ border-block-end = border-bottom
 border-inline-start = border-left
 border-inline-end = border-right
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 논리적 차원
 
@@ -189,18 +112,7 @@ border-inline-end = border-right
 너비 = inline-size
 높이 = block-size
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 위에서 아래로(줄을 읽는) 언어인 일본어처럼, 반대로 볼 수 있습니다:
 inline-size = 높이, block-size = 너비.
@@ -208,22 +120,11 @@ inline-size = 높이, block-size = 너비.
 최소/최대 속성에 대해서는 속성 시작 부분에 min/max를 추가하세요.
 예시: min-inline-size: 300px; max-block-size: 100px;.
 
-![NewCSSLogicalProperties_4](/ui-log-2/assets/img/2024-07-09-NewCSSLogicalProperties_4.png)
+![NewCSSLogicalProperties_4](/assets/img/2024-07-09-NewCSSLogicalProperties_4.png)
 
 ## CSS Positions
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 위치 속성의 이전 이름인 top/right/left/bottom은 새로운 이름 집합으로 발전했습니다. 모두 접두사 inset을 가지고 있어요: inset-block-start/ inset-inline-end/inset-block-end/inset-inline-start.
 
@@ -254,18 +155,7 @@ right = inset-inline-end
 
 처음에는 왜 이렇게 복잡한 이름이 필요한지 의심스러울 수 있어요! 그러나 이에는 좋은 이유가 있어요. 새로운 속성 이름에서는 속성이 패딩/여백/테두리와 유사하게 결합될 수 있고, 이것이 위치에 대해 이전에 존재하지 않았던 새로운 축약 기능이에요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 예시:
 
@@ -280,18 +170,7 @@ right = inset-inline-end
 
 Float는 매우 직관적이며, left/right의 값 대신 inline-start/inline-end 두 가지 값만 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Markdown 형식으로 테이블 태그를 변경하십시오.
 
@@ -309,18 +188,7 @@ float보다 더 간단합니다. 값을 left/right 대신 start/end로 대체합
 | text-align: left  | text-align: start; |
 | text-align: right | text-align: end;   |
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 더 많은 내용
 
@@ -332,18 +200,7 @@ resize: vertical = resize: block;
 
 background-position: 현재 어떤 브라우저에서도 구현되어 있지는 않지만, 깊이 파고들면 Mozilla의 MDN 웹사이트에서 background-position-inline 및 background-position-block에 대한 참조를 찾을 수 있습니다. 완전한 문서는 아직 없지만 작업 중에 있습니다! :-)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그 외 사항: transform-origin과 같은 속성들이 방향과 관련된 모든 속성과 마찬가지로 업데이트될 것을 가정할 수 있습니다.
 
@@ -353,18 +210,7 @@ CSS Grid 및 CSS Flexbox에 대한 좋은 소식은 이 두 기능이 이미 새
 
 ## 논리 속성과 함께하는 워크플로 이해
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 우선, 처음에는 매우 복잡해 보일 수 있지만 실제로 사용하기는 매우 쉽습니다. 스타일을 작성할 때는 다국어 지원에 대해 걱정할 필요가 없습니다. 옛날 물리적 속성 대신 논리적 속성을 사용하고 선호하는 언어에 맞게 일치시키면 됩니다.
 
@@ -374,18 +220,7 @@ CSS Grid 및 CSS Flexbox에 대한 좋은 소식은 이 두 기능이 이미 새
 
 ## Writing-mode 속성(블록 축)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 웹사이트의 흐름을 정의합니다. 대부분의 경우 위에서 아래로 흐를 것이지만, 언급했듯이 특정 언어는 오른쪽에서 왼쪽으로(일본어) 또는 왼쪽에서 오른쪽으로(몽골어) 흐를 수 있습니다. 두 경우 모두 수직 스크롤이 아닌 우리가 익숙한 수평 스크롤을 사용할 것입니다.
 
@@ -395,18 +230,7 @@ CSS Grid 및 CSS Flexbox에 대한 좋은 소식은 이 두 기능이 이미 새
 
 예시:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 values:
 
@@ -418,18 +242,7 @@ As for my personal opinion, I would have preferred that the values included only
 
 Example definition for Japanese:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```css
 html {
@@ -437,24 +250,13 @@ html {
 }
 ```
 
-![2024-07-09-NewCSSLogicalProperties_5](/ui-log-2/assets/img/2024-07-09-NewCSSLogicalProperties_5.png)
+![2024-07-09-NewCSSLogicalProperties_5](/assets/img/2024-07-09-NewCSSLogicalProperties_5.png)
 
 ## 방향 속성 (인라인 축)
 
 텍스트가 왼쪽에서 오른쪽으로 시작해야 하는지 오른쪽에서 왼쪽으로 시작해야 하는지를 정의하지만 기본 수평 writing-mode 속성이 활성화된 경우에만 적용됩니다. writing-mode를 수직 모드 중 하나로 변경하면 실제 텍스트 방향인 왼쪽에서 오른쪽으로가 상단에서 하단으로 변경됩니다. 또는 반대로, rtl(right-to-left) 값으로 변경하면 아래에서 위로 변경됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 html{
@@ -466,18 +268,7 @@ html{
 
 제가 만든 데모는 여기 있습니다. (현재 더 많은 기능을 지원하는 Firefox에서 최상의 효과를 볼 수 있습니다)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 실시간 예시 (언어 선택해보세요!):
 
@@ -489,18 +280,7 @@ html{
 
 # 논리 속성에 관한 문제
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이번 새로운 수정 사항으로 인해 새로운 문제에 직면하게 되었습니다. 예를 들어, margin 속성을 축약해서 사용하고 싶을 때 다음과 같이 작성하면 어떻게 해석될지 예측할 수 없을 것입니다: margin: 10px 20px 8px 5px;
 웹사이트가 물리적 속성을 사용하는 경우 값은 다음과 같이 해석될 것입니다: margin-top/margin-right/margin-bottom/margin-left,
@@ -512,18 +292,7 @@ html{
 
 지금은 논리적 속성을 사용하고 싶다면 축약형 없이 전체 속성 이름을 사용해야 합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 저의 문제 해결 방안은 다음과 같습니다:
 
@@ -544,18 +313,7 @@ html {
 
 완벽하게 작동하는 데모를 만들려고 할 때, 미디어 쿼리에서 새로운 "max-width" 속성 max-inline-size를 사용해보았습니다. 좌에서 우로/우에서 좌로인 경우 max-width처럼 작동하고 일본어와 같은 언어에서는 max-height처럼 작동할 것으로 이해했습니다. 안타깝게도 현재 브라우저들은 미디어 쿼리에서 이 속성을 제대로 해석하지 못하고 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 / * 작동하지 않음 * /
@@ -577,18 +335,7 @@ html {
 그러나 적어도 border-width의 경우 그렇지 않아 보입니다. 그것은 여전히 논리 속성으로 업데이트되었지만 이름에 여전히 'width'라는 단어가 포함되어 있습니다.
 예: border-block-start-width.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 하지만 누가 알겠어요, 혹시 w3c의 적절한 분들이 이 게시물을 읽을 수도 있을거에요 :-)
 
@@ -600,18 +347,7 @@ html {
 
 CSS에 관한 많은 콘텐츠를 만들고 있어요. 트위터, 링크드인, 그리고 미디엄을 통해 저를 팔로우해주세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 당신은 eladsc.com에서 내 모든 컨텐츠에 접근할 수도 있어요.
 
@@ -629,20 +365,9 @@ CSS에 관한 많은 콘텐츠를 만들고 있어요. 트위터, 링크드인, 
 제 소개:
 저는 웹 개발자인 Elad Shechter이며, CSS 및 HTML 디자인 및 아키텍처에 특화되어 있어요.
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-![이미지](/ui-log-2/assets/img/2024-07-09-NewCSSLogicalProperties_6.png)
+![이미지](/assets/img/2024-07-09-NewCSSLogicalProperties_6.png)
 
 # CSS Logical Properties에 관한 제 발표 — 새로운 소식!
 

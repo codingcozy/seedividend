@@ -18,18 +18,7 @@ link: "https://medium.com/gitconnected/5-tips-to-write-efficient-python-function
 
 마지막으로, 제너레이터의 사용을 옹호하는데, 이는 전체 목록을 구성하고 반환하는 대신 반복 가능한 데이터를 반환하는 메모리 효율적인 기술입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 5가지 팁을 적용함으로써 파이썬 개발자들은 더 효율적이고 가독성이 좋으며 유지보수가 용이한 함수를 작성할 수 있습니다. 이는 결국 더 높은 품질의 코드와 개발자 생산성 향상으로 이어집니다.
 

@@ -18,18 +18,7 @@ link: "https://medium.com/gitconnected/the-24-in-192-168-0-0-24-explained-in-30-
 
 # 192.168.0.0
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 192.168.0.0은 단일 IP 주소입니다. 간단하지요!
 
@@ -44,18 +33,7 @@ link: "https://medium.com/gitconnected/the-24-in-192-168-0-0-24-explained-in-30-
 
 / 뒤에 붙이는 숫자는 0부터 32까지입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 이 범위 내의 IP를 찾기
 

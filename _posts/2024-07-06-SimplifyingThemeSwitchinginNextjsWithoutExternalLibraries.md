@@ -1,7 +1,7 @@
 ---
 title: "외부 라이브러리 없이 Nextjs에서 테마 전환 간단하게 구현하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-SimplifyingThemeSwitchinginNextjsWithoutExternalLibraries_0.png"
+coverImage: "/assets/img/2024-07-06-SimplifyingThemeSwitchinginNextjsWithoutExternalLibraries_0.png"
 date: 2024-07-06 02:17
 ogImage:
   url: /assets/img/2024-07-06-SimplifyingThemeSwitchinginNextjsWithoutExternalLibraries_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/@niralspectrum/simplifying-theme-switching-in-next-js-
 
 전제 조건
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 시작하기 전에 React, Next.js 및 CSS에 대한 기본적인 이해가 필요합니다.
 
@@ -50,18 +39,7 @@ link: "https://medium.com/@niralspectrum/simplifying-theme-switching-in-next-js-
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 여기에서는 :root가 기본 테마 변수를 설정하고, :root:dark가 다크 테마를 위한 변수를 조정합니다.
 
@@ -88,18 +66,7 @@ const ToggleTheme = () => {
 export default ToggleTheme;
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 컴포넌트는 외부 CSS 라이브러리에 의존하지 않고 테마 전환을 간단하게 만들어줍니다. 사용자가 자신만의 브라우징 경험을 개인화할 수 있는 직관적인 방법을 제공합니다.
 
@@ -117,18 +84,7 @@ export default ToggleTheme;
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 예제에서는 선택된 테마에 따라 :root 및 :root:dark 선택기를 사용하여 .main이 배경 및 텍스트 색상을 심미적으로 적응합니다.
 

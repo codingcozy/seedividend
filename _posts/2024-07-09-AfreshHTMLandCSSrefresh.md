@@ -1,7 +1,7 @@
 ---
 title: "2024년 최신 HTML과 CSS 업데이트 새로운 기능과 변화"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-AfreshHTMLandCSSrefresh_0.png"
+coverImage: "/assets/img/2024-07-09-AfreshHTMLandCSSrefresh_0.png"
 date: 2024-07-09 13:59
 ogImage:
   url: /assets/img/2024-07-09-AfreshHTMLandCSSrefresh_0.png
@@ -17,18 +17,7 @@ link: "https://medium.com/gitconnected/a-fresh-html-and-css-refresh-d9008d012cb5
 | Row 1, Col 1 | Row 1, Col 2 |
 | Row 2, Col 1 | Row 2, Col 2 |
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - CSS 팁
 
@@ -59,18 +48,7 @@ link: "https://medium.com/gitconnected/a-fresh-html-and-css-refresh-d9008d012cb5
 
 ## 컨테이너 쿼리
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 1️⃣ 이 내용은 무엇인가요?
 

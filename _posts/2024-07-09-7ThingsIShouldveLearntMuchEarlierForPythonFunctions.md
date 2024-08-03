@@ -21,18 +21,7 @@ def magic(a, b):
   return a + b
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬은 동적으로 타입이 지정되기 때문에 변수 데이터 유형이 실행 중에 결정되어서 저렇게 함수를 작성할 수 있습니다.
 
@@ -47,18 +36,7 @@ def magic(a:int, b:int) -> int:
 - b는 정수여야 합니다.
 - 함수의 반환 값도 정수여야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코드베이스가 커질수록 타입 힌팅은 우리 코드를 가능한 한 사람이 읽기 쉽게 만드는 데 매우 중요해집니다. 1만 개의 함수가 있다고 상상해보세요. 이때 이 함수들이 어떤 데이터 유형을 취하는지와 반환하는 유형을 추론해야 한다면 정말 즐겁지 않을 것입니다.
 

@@ -1,10 +1,10 @@
 ---
 title: "부트스트랩 기본  부트스트랩 컨테이너로 반응형 웹 디자인 마스터하기 1"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png"
+coverImage: "/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png"
 date: 2024-07-13 18:50
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png
+  url: /assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png
 tag: Tech
 originalTitle: "Bootstrap Fundamentals — Mastering Responsive Web Design with Bootstrap Containers #1"
 link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive-web-design-with-bootstrap-containers-1-0dd1253a4a33"
@@ -12,7 +12,7 @@ link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive
 
 
 
-![Bootstrap Fundamentals](/ui-log-2/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png)
+![Bootstrap Fundamentals](/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png)
 
 부트스트랩이 제공하는 기능을 살펴볼 거에요. HTML 구성 요소에 대한 미리 제작된 스타일로 잘 알려져 있지만, 유틸리티 클래스도 많이 제공해요.
 
@@ -37,16 +37,7 @@ link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive
 </html>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 컨테이너란 무엇인가요?
 
@@ -56,35 +47,17 @@ link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive
 
 ## 컨테이너의 종류
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 우리는 7가지 유형의 컨테이너가 있어요. container-fluid는 항상 100%로 늘어나지만, 다른 것들은 창의 특정 너비에서 늘어나는 것을 멈추게 돼요. 아래 이미지를 살펴봅시다.
 
-![container image](/ui-log-2/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_1.png)
+![container image](/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_1.png)
 
 ## 코드
 
 다른 컨테이너 클래스를 가진 div 요소들을 추가해봅시다. 창의 너비를 늘리거나 줄일 때, 지정된 브레이크포인트에서 100%로 늘어나는 것이 멈춘다는 것을 볼 수 있어요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 컨테이너
 
@@ -114,16 +87,7 @@ link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive
 </div>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## container-md
 
@@ -153,16 +117,7 @@ link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive
 </div>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## container-xl
 
@@ -192,16 +147,7 @@ link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive
 </div>
 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## container-fluid
 
@@ -219,17 +165,8 @@ link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive
 
 ## Example
 
-<img src="/ui-log-2/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_2.png" />
+<img src="/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_2.png" />
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 `![image](https://miro.medium.com/v2/resize:fit:400/0*dd3WcgJcMPN7E59D.gif)`

@@ -1,7 +1,7 @@
 ---
 title: "반응형 이미지 깔끔하고 효율적인 적용 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-ResponsiveimagesAcleanandefficientapproach_0.png"
+coverImage: "/assets/img/2024-07-06-ResponsiveimagesAcleanandefficientapproach_0.png"
 date: 2024-07-06 02:18
 ogImage:
   url: /assets/img/2024-07-06-ResponsiveimagesAcleanandefficientapproach_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/@jangya.satapathy/responsive-images-with-css-a-clean-a
 
 /assets/img/2024-07-06-ResponsiveimagesAcleanandefficientapproach_0.png
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 문제를 해결했습니다 🎯
 
@@ -44,18 +33,7 @@ link: "https://medium.com/@jangya.satapathy/responsive-images-with-css-a-clean-a
 
 적절한 이미지만 로드되도록하려면 장치 너비를 감지한 다음 해당 이미지를로드하면 됩니다. 간단하죠! 😎
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <img id="hero-image" alt="hero-image" />
@@ -84,18 +62,7 @@ window.addEventListener("resize", setImageBasedOnScreenSize);
 - 미디어 쿼리가 내장되어 있습니다: 브라우저는 미디어 쿼리를 CSS에서 효율적으로 이해하고 처리할 수 있도록 최적화되어 있습니다. 별도의 처리없이 화면 크기에 따라 스타일을 직접 적용할 수 있습니다.
 - JavaScript 오버헤드: JavaScript 접근 방식은 여러 단계를 거칩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 리사이즈 이벤트에 대한 이벤트 리스너를 추가하면 브라우저의 이벤트 루프에 약간의 오버헤드가 추가됩니다.
 - 리사이즈 이벤트가 트리거되면 JavaScript 함수가 실행되어 코드를 처리하고 이미지 소스를 설정해야 합니다.
@@ -106,18 +73,7 @@ window.addEventListener("resize", setImageBasedOnScreenSize);
 
 대부분의 경우, 성능 차이는 무시할 수 있습니다. 그러나 매우 빈번한 리사이즈 작업이나 많은 이미지를 처리해야 하는 경우, 미디어 쿼리 방식이 약간 더 효율적일 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 해결책
 
@@ -132,18 +88,7 @@ window.addEventListener("resize", setImageBasedOnScreenSize);
 
 설명:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 이미지 요소를 사용하면 다양한 조건에 따라 여러 이미지 소스를 지정할 수 있습니다.
 - picture 내부의 source 요소는 이미지 경로를 포함하고 미디어 쿼리를 포함하는 srcset 속성을 정의합니다.
@@ -157,17 +102,6 @@ window.addEventListener("resize", setImageBasedOnScreenSize);
 
 결론:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이러한 기술을 활용하여 효율적인 반응형 이미지로딩을 달성할 수 있어 웹사이트 성능과 사용자 경험을 향상시킬 수 있어요.

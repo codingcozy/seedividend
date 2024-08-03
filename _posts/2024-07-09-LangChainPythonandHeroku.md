@@ -18,18 +18,7 @@ link: "https://medium.com/gitconnected/langchain-python-and-heroku-f87369a258dc"
 
 이러한 새로운 도구와 제품의 배경에 이어지는 다양한 도구들과 제품들에 대해 궁금한 적이 있나요? 또한 개발자와 최종 사용자 모두가 활용하는 이러한 도구들이 어떻게 운영되는지 궁금해할 수도 있습니다. 이러한 도구와 응용 프로그램 중 많은 경우, LangChain, Python 및 Heroku를 알 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 문서에서는 다룰 조각들입니다. 인공 지능/기계 학습 개발자들이 이들을 사용하여 복잡한 LLM 파이프라인 구성 요소를 구축하고 쉽게 배포하는 실제 예시를 살펴보겠습니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/gitconnected/langchain-python-and-heroku-f87369a258dc"
 
 LangChain의 문서에는 다음과 같이 나와 있습니다: "LangChain은 언어 모델을 기반으로 한 애플리케이션을 개발할 수 있는 프레임워크입니다."
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 한편, Heroku는 다음과 같이 자신을 설명합니다: "Heroku는 회사가 앱을 구축, 전달, 모니터링 및 확장할 수 있는 클라우드 플랫폼입니다. 아이디어에서 URL로 이동하는 가장 빠른 방법입니다. 모든 인프라 문제를 우회합니다."
 
@@ -60,18 +38,7 @@ LangChain의 문서에는 다음과 같이 나와 있습니다: "LangChain은 �
 
 ## LangChain 탐구하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LangChain을 사용하는 방법에 대해 간단히 이야기해 봅시다. LangChain은 LLM 모델과 사용 사례를 기반으로 한 애플리케이션을 개발하는 개발자들을 지원하는 프레임워크입니다. Python, JavaScript, TypeScript를 지원합니다. 예를 들어, 사용자 입력에 기반을 둔 보고서를 생성하거나 고객 지원 응답을 자동화하는 도구를 개발 중이라고 가정해 봅시다. LangChain은 프로젝트의 골조로 작용하여 언어 모델을 효율적으로 솔루션에 통합할 수 있는 도구와 구조를 제공합니다.
 
@@ -85,18 +52,7 @@ LangChain 내에는 몇 가지 주요 구성 요소가 있습니다:
 
 LangChain은 인기 있는 AI 및 LLM 애플리케이션을 구축하기 위한 프레임워크이며, 그 이유를 쉽게 이해할 수 있습니다. LangChain은 제품을 끝까지 구축하고 배포하는 데 필요한 기능을 제공합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## Heroku를 탐험해보세요
 
@@ -106,18 +62,7 @@ Heroku를 통해 애플리케이션을 쉽게 배포할 수 있기 때문에 프
 
 # LangChain으로 빌드하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LangChain이 LLM 애플리케이션에서 어떻게 사용되는지 더 잘 이해하기 위해 몇 가지 예제 문제를 통해 과정을 명확하게 알아보겠습니다. 일반적으로, LLM 체인을 구성하기 위해 다음 항목을 연결하여 단일 워크플로우를 형성합니다:
 
@@ -130,18 +75,7 @@ LangChain을 사용하면 LLM 애플리케이션의 기본을 형성하는 프�
 
 이 예시에서는 OpenAI와 함께 작업하겠습니다. 프롬프트를 이렇게 작성해 보겠습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 안녕하세요! LangChain을 사용하고 계시다니 멋지네요! 여기 저희 훌륭한 가상 트레이너, OpenAI에게 문의하시면 됩니다. 사용자의 질문을 입력해 주세요. 요청하신 내용에 따라 OpenAI가 도움을 들어드리겠습니다. 함께 성공적인 코딩 여정을 시작해봐요!
 
@@ -153,18 +87,7 @@ Markdown 형식을 사용해 표를 만들어보세요:
 
 그럼 좋은 하루 보내세요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 main.py라는 새 파일을 만들겠습니다. 우리의 기본 Python 코드는 다음과 같습니다:
 
@@ -187,18 +110,7 @@ chain = my_prompt | llm
 
 이를 명령줄에서 사용하려면 다음 코드를 추가해야합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 user_input = input("피트니스 목표와 관련된 질문을 하세요.\n");
@@ -220,18 +132,7 @@ content="60초 동안 플랭크를 유지하는 것은 좋은 목표입니다! 6
 
 (가독성을 위해 위에서 줄 바꿈을 추가했습니다.)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그것은 훌륭한 시작이에요. 하지만 출력물을 조금 더 사람이 읽기 쉬운 형식으로 포맷팅하는 것이 좋겣죠. 이를 위해 단순히 체인에 출력 파서를 추가하면 됩니다. StrOutputParser를 사용할 거에요.
 
@@ -277,18 +178,7 @@ print(response)
 피스톨 스쿼트를 시도하기 전에 반드시 웜업을 실시하고 부상을 피하기 위해 몸의 신호를 들어주는 것을 잊지 마세요. 그리고 가장 중요한 것은, 이 도전적인 운동을 마스터하는 데 노력하는 동안 긍정적이고 인내심을 가지세요. 당신은 할 수 있어요!
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LLM 응담은 가독성을 향상시키기 위해 형식화되었습니다.
 
@@ -298,18 +188,7 @@ LLM 응담은 가독성을 향상시키기 위해 형식화되었습니다.
 
 # LangServe로 서비스 하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LangServe는 LangChain 체인과 상호 작용할 수 있도록 REST API를 통해 도와줍니다. LangChain LLM 애플리케이션의 서빙 부분을 작성하기 위해 세 가지 주요 구성 요소가 필요합니다:
 
@@ -321,18 +200,7 @@ LangServe 문서에는 시작하는 방법에 대한 유용한 예제가 제공�
 
 이와 함께 기존 코드를 약간 수정해야합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 우리는 StrOutputParser의 사용을 제거할 것입니다. 이렇게 하면 API를 호출하는 사용자들이 출력을 어떻게 형식화하고 사용할지에 대해 유연성을 가질 수 있습니다.
 - 명령 줄에서 사용자 입력을 요청하지 않을 것입니다. API 호출 요청이 사용자의 입력을 제공할 것입니다.
@@ -346,18 +214,7 @@ LangServe 문서에는 시작하는 방법에 대한 유용한 예제가 제공�
 
 우리의 최종 main.py 파일은 다음과 같습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import os
@@ -393,18 +250,7 @@ if __name__ == "__main__":
 
 이제 서버를 시작해 볼까요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 (venv) $ OPENAI_API_KEY=insert-key-here python3 main.py
 
@@ -426,18 +272,7 @@ INFO: Uvicorn이 http://localhost:8000에서 실행 중 (종료하려면 CTRL+C�
 
 <img src="/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_1.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LangServe는 Swagger UI를 사용하는 API 문서 페이지를 제공합니다! 이제 LangServe를 통해 사용 가능한 엔드포인트들이 있습니다. 우리는 invoke/ 엔드포인트로 POST 요청을 보낼 수 있습니다. 하지만 LangServe는 우리에게 chain을 직접 다룰 수 있는 웹 인터페이스가 있는 playground/ 엔드포인트도 제공합니다.
 
@@ -447,18 +282,7 @@ LangServe는 Swagger UI를 사용하는 API 문서 페이지를 제공합니다!
 
 ![이미지](/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_3.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LLM 애플리케이션 워크플로의 맥락에서 API의 중요성을 강조하는 것이 중요합니다. LLM 및 해당 애플리케이션의 대부분 사용 사례를 생각해보면, 로컬 모델 및 자원에 의존할 수 없습니다. 이것은 합리적이지 않고 확장성이 떨어집니다.
 
@@ -468,18 +292,7 @@ LLM 애플리케이션의 실제 파워는 이전까지 설명한 복잡한 워�
 
 Heroku는 LLM 애플리케이션 구현의 중요한 마지막 부분입니다. 우리는 LangChain을 사용하여 워크플로를 조합하고 LangServe를 사용하여 유용한 REST API로 제공합니다. 이제 복잡한 자원을 수동으로 설정하여 트래픽을 호스팅하고 제공하는 대신, Heroku를 사용하여 애플리케이션을 간단히 배포할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 헤로쿠 계정을 설정한 후에, 이제 거의 배포할 준비가 끝났어요. 함께 순서대로 진행해볼게요.
 
@@ -492,18 +305,7 @@ $ heroku login
 $ heroku create my-langchain-app
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 설정 변수 설정하기
 
@@ -515,18 +317,7 @@ $ heroku config:set OPENAI_API_KEY=여러분의-openai-api-key로-대체하세�
 
 ## Python 애플리케이션 배포를 위한 설정 파일 만들기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 헤로쿠가 우리의 파이썬 애플리케이션을 실행하기 위해 필요한 것을 알 수 있도록 하려면 세 가지 간단한 파일을 만들어야 합니다:
 
@@ -540,18 +331,7 @@ $ heroku config:set OPENAI_API_KEY=여러분의-openai-api-key로-대체하세�
 $ echo 'web: uvicorn main:app --host=0.0.0.0 --port=${PORT}' > Procfile
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이것은 Heroku에게 Python에서 웹 서버 구현인 uvicorn을 실행하도록 지시합니다.
 
@@ -563,18 +343,7 @@ $ pip freeze > requirements.txt
 
 마지막으로, runtime.txt에는 Python 3.11.8을 사용할 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 $ echo 'python-3.11.8' > runtime.txt
@@ -595,18 +364,7 @@ $ tree
 
 이 파일들을 모두 GitHub 저장소에 커밋합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## Heroku와 GitHub 저장소 연결하기
 
@@ -619,18 +377,7 @@ $ git push heroku main
 
 우리의 코드가 Heroku 원격으로 푸시되면, Heroku는 애플리케이션을 빌드하고 종속성을 설치한 다음 Procfile에서 지정된 명령을 실행합니다. git push 명령어의 최종 결과는 다음과 같습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 …
@@ -653,18 +400,7 @@ remote: 배포 확인... 완료.
 
 또한 Swagger UI 문서 페이지를 확인하려면 https://my-langchain-app-ea95419b2750.herokuapp.com/docs를 방문해주세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_5.png)
 
@@ -674,18 +410,7 @@ remote: 배포 확인... 완료.
 
 # 결론
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 오늘의 기업과 개발자들은 AI와 LLM(언어 모델)의 파도를 타기에 올바른 선택을 했습니다. 이들 영역에서 혁신과 새로운 개발 가능성이 많습니다. 그러나 성공과 실패의 차이는 그들이 애플리케이션을 구축하고 배포하는 데 사용하는 도구 체인에 많이 달렸습니다.
 

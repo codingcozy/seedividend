@@ -19,16 +19,7 @@ link: "https://medium.com/ai-advances/visualizing-faiss-vector-space-to-understa
 
 본 기사에서는 FAISS 벡터 공간의 다차원 임베딩을 renumics-spotlight 시각화 라이브러리를 사용하여 2차원으로 시각화하는 방법을 살펴보겠습니다. 특정 핵심 벡터화 매개변수를 변화시킴으로써 RAG 응답 정확도를 향상시킬 기회를 찾아보겠습니다. 그리고 선택한 언어 모델로는 TinyLlama 1.1B Chat을 채택할 것인데, 이는 Llama 2와 동일한 아키텍처와 토크나이저를 갖추고 있습니다 [1]. 이 모델은 리소스 풋프린트가 상당히 작고 빠른 실행 시간을 가지고 있으면서 정확도가 비례적으로 감소하지 않는 장점을 갖추고 있습니다. 이는 빠른 실험에 이상적입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 목차
 1.0 환경 설정
@@ -48,16 +39,7 @@ python3.10 -m venv mychat
 source mychat/bin/activate
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Library renumics-spotlight은 UMAP와 유사한 시각화를 사용하여 고차원 임베딩을 더 관리하기 쉬운 2D 시각화로 줄이는 동시에 중요한 속성을 보존합니다 [2]. 이제 필요한 모든 라이브러리를 설치해 보겠습니다:
 
@@ -71,16 +53,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 환경이 준비되었으므로 시스템 설계를 살펴보고 구현을 따라갑시다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 2.0 디자인 및 구현
 
@@ -90,16 +63,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 LoadFVectorize 모듈은 PDF 또는 웹 문서를 로드하는 작업을 포함합니다. 초기 테스트 및 시각화를 위해, 최근에 출시된 (2023년 12월) 440페이지의 벤더 배포 가이드가 관심 문서로 사용됩니다. 이 모듈은 문서의 분할 및 벡터화를 처리합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 두 번째 모듈은 LLM을 로드하고 FAISS 검색기를 인스턴스화한 후, LLM, 검색기 및 사용자 정의 프롬프트를 포함하는 검색 체인을 생성하는 것으로 구성되어 있습니다. 마지막으로 벡터 공간 시각화를 시작합니다.
 
@@ -109,16 +73,7 @@ LoadFVectorize 모듈은 PDF 또는 웹 문서를 로드하는 작업을 포함�
 
 이 모듈은 3가지 함수로 구성되어 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - load_doc 함수는 온라인 pdf 문서를 로드하고, 512자씩 묶어 chunk 단위로 나누며 100자의 overlap을 가지고 문서 목록을 반환합니다.
 - vectorize 함수는 위 load_doc 함수를 호출하여 문서의 chunked 목록을 가져와 임베딩을 생성하고 opdf_index 로컬 디렉토리에 저장한 뒤 FAISS 인스턴스를 반환합니다.
@@ -162,16 +117,7 @@ def load_db() -> 'FAISS':
 
 ## 2.2 메인 모듈
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 주요 모듈은 먼저 TinyLlama에 대한 프롬프트 템플릿을 정의합니다. 템플릿은 다음과 같습니다:
 
@@ -232,16 +178,7 @@ print(f'--------------\nQ: {query}\nA: {result["result"]}')
 visualize_distance(db,query,result["result"])
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 벡터 공간 시각화 자체는 위 코드 목록의 마지막 줄인 visualize_distance에 의해 처리됩니다. 이 기능 또한 이 모듈에 정의되어 있습니다.
 
@@ -255,16 +192,7 @@ visualize_distance 함수에서는 먼저 FAISS 객체의 __dict__ 속성에 액
 
 벡터 공간을 대략적으로 복원하기 위해 우리는 단순히 객체 인덱스의 메서드인 reconstruct_n을 기본 매개변수와 함께 호출합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
    embeddings_vec = db.index.reconstruct_n()
@@ -281,16 +209,7 @@ visualize_distance 함수에서는 먼저 FAISS 객체의 __dict__ 속성에 액
 
 그런 다음 이 리스트를 사용하여 열 제목이 있는 데이터프레임을 생성한 후, 시각화를 만들기 위해 spotlight 호출에 사용될 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
     df = pd.DataFrame(doc_list, columns=['id', 'metadata', 'document', 'embedding'])
@@ -319,16 +238,7 @@ visualize_distance 함수에서는 먼저 FAISS 객체의 __dict__ 속성에 액
 이 공간에서 질문과 문서 간의 유클리드 거리를 찾으려면 질문을 위한 임베딩을 만든 다음 문서와 질문 임베딩 차이에 대해 numpy의 `linalg.norm`을 사용하십시오:  
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
     question_embedding = embeddings_model.embed_query(question)
@@ -347,16 +257,7 @@ spotlight.show(df)
 
 왔어요! 이렇게 하면 브라우저 창에서 spotlight가 열리고 pandas 데이터프레임이 탐색 준비가 됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래 GitHub 저장소에서 모든 코드에 액세스할 수 있습니다:
 
@@ -366,16 +267,7 @@ spotlight.show(df)
 
 채택된 문서에 따르면, 올바른 답은 :
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 또한, 다음 추가 정보가 응답에 포함될 수 있습니다.
 
@@ -385,16 +277,7 @@ spotlight.show(df)
 
 Fig. 2는 스포트라이트의 스크린샷을 나타냅니다. 왼쪽 상단의 테이블 섹션에는 데이터프레임의 모든 열이 표시되고 시각화는 유사성 맵 탭 뷰 내에서 표시됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![링크 텍스트](/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_2.png)
 
@@ -404,16 +287,7 @@ Fig. 2는 스포트라이트의 스크린샷을 나타냅니다. 왼쪽 상단�
 
 ## 3.1 테스트 청크 크기 및 겹치기 매개변수
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 리트리버가 RAG 성능에 중요한 영향을 미친다고 해서, 우리는 임베딩 공간에 영향을 주는 몇 가지 매개변수를 살펴보겠습니다. 테이블 1은 문서 분할 중 TextSplitter의 청크 크기 (1000, 2000) 및/또는 오버랩 (100, 200) 매개변수가 다양하게 변할 때, TinyLlama의 응답을 포착하고 정리합니다.
 
@@ -423,16 +297,7 @@ Fig. 2는 스포트라이트의 스크린샷을 나타냅니다. 왼쪽 상단�
 
 ![Image](/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_5.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 왼쪽부터 오른쪽으로 청크 크기를 증가시키면서 벡터 공간이 더 드문 형태로 변해갑니다. 아래에서 위로 가면 겹침이 두 배가 된 곳에서도 벡터 공간의 특성이 급격하게 변하지는 않습니다. 이 모든 맵에서 전체 컬렉션은 여전히 한 클러스터처럼 보이며 몇 개의 이상치만 존재합니다. 이는 생성된 응답에서 명확히 반영되며, 이들은 상당히 유사합니다. 질의가 클러스터의 중심에 있는 경우, 이웃들이 다를 가능성이 높으므로 이러한 매개변수의 변화에 따라 응답이 상당히 달라질 수 있습니다.
 
@@ -447,16 +312,7 @@ def load_doc():
     ...
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 나머지 코드는 그대로 유지하고 있는 것을 확인하면, 우리는 그림 5에 나타난 벡터 공간 시각화를 얻을 수 있습니다.
 
@@ -466,16 +322,7 @@ def load_doc():
 
 여기 우리 시스템 디자인에는 벡터 저장을 위해 FAISS를 사용했습니다. 만약 당신이 ChromaDB를 사용하고 비슷한 시각화를 수행하는 방법을 궁금해 한다면, 당신은 운이 좋습니다. renumics-spotlight 라이브러리 개발자 중 Markus Stoll이 여기에 관련된 흥미로운 기사를 썼습니다. 확인해보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 4.0 마무리
 
@@ -485,16 +332,7 @@ Retrieval-Augmented Generation (RAG)은 내부 문서에 교육되지 않은 큰
 
 읽어 주셔서 감사합니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 참고 자료
 

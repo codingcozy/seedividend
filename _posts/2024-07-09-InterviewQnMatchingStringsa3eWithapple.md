@@ -19,18 +19,7 @@ link: "https://medium.com/@zlliu/interview-qn-matching-strings-a3e-with-apple-5b
 
 일부 예시:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - a3e은 apple과 일치합니다. 3은 ppl 3자리와 일치합니다.
 - a4e는 apple과 일치하지 않습니다. apple에서 a와 e 사이에 4개의 문자가 아닌 3개의 문자가 있기 때문입니다.

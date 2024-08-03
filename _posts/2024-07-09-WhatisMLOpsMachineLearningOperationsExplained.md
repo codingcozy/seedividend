@@ -18,18 +18,7 @@ MLOps는 AI 통합과 혁신을 위한 기계 학습 모델과 실제 응용 프
 
 MLOps의 심층적인 내용을 밝혀냄으로써, 기계 학습 모델과 현실 세계 응용 프로그램 간의 간극을 메우는 역할을 발견할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저는 MLOps의 복잡성을 안내해 드릴 거에요. 기계 학습 모델의 배포, 모니터링 및 관리를 어떻게 가속화하는지 보여 드릴 거예요.
 
@@ -39,18 +28,7 @@ MLOps는 기계 학습 운영(Machine Learning Operations)을 의미하며, 기�
 
 MLOps는 DevOps 철학 중 일부 중요한 요소를 통합하여 데이터 과학 및 운영 전문가의 개선된 커뮤니케이션, 협력 및 통합 작업을 도입합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그 의미에서 MLOps는 기계 학습 시스템이 직면하는 독특한 도전에 대응하도록 설계되었습니다.
 
@@ -60,18 +38,7 @@ MLOps는 DevOps 철학 중 일부 중요한 요소를 통합하여 데이터 과
 
 MLOps에는 다양한 구성 요소가 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터 관리: 데이터 관리는 특정 기술을 통해 데이터 획득, 저장 및 전처리를 통합하는 과정을 포함합니다. 적절한 데이터 관리는 모델 훈련을 위한 데이터의 품질과 접근성을 보장할 수 있습니다.
 - 모델 개발 및 훈련: 모델은 다양한 기계 학습 알고리즘을 통해 개발되며, 그런 다음 해당 모델은 데이터를 사용하여 훈련됩니다. 모델 개발을 위한 적절한 프레임워크와 도구를 포함합니다.
@@ -87,18 +54,7 @@ MLOps에는 다양한 구성 요소가 있습니다:
 
 기관은 기계 학습 모델의 흐름 내에서 MLOps를 구현함으로써 여러 이점을 얻을 수 있습니다. 일부 주요 이점은 다음과 같습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Time to Market: MLOps는 기계 학습의 라이프사이클을 데이터 준비 단계부터 모델 준비 단계까지의 시간을 단축시켜 모델로 배포하는 데 소요되는 시간을 줄입니다. 이로써 제품 모델을 성공적으로 도입하는 데 걸리는 시간을 단축시킵니다.
 - 향상된 모델 품질과 성능: 모델들의 지속적인 워크플로우 - 통합, 배포 및 모니터링 - 은 모델이 항상 최적으로 작동하여 가장 정확한 결과를 제공하도록 합니다.
@@ -114,18 +70,7 @@ MLOps에는 다양한 구성 요소가 있습니다:
 
 MLOps 생태계의 일부인 여러 도구와 기술들이 ML 라이프사이클의 다양한 단계를 지원하기 위해 개발되었습니다. 아래에는 일반적으로 MLOps에서 사용되는 가장 중요한 도구와 기술 중 일부가 소개되어 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터 관리 및 버전 관리: DVC(Data Version Control)와 LakeFS와 같은 도구들은 데이터 관리와 버전 관리를 돕고, 이를 통해 머신 러닝 프로젝트를 재현 가능하고 추적 가능하게 합니다.
 - 실험 추적: MLflow 플랫폼과 Weights & Biases는 실험 추적 프레임워크를 내장하여 실험을 추적하고 매개변수 및 결과를 기록하며, 데이터 과학자가 실험을 비교하고 관리할 수 있게 합니다.
@@ -142,18 +87,7 @@ MLOps 생태계의 일부인 여러 도구와 기술들이 ML 라이프사이클
 
 ![MLOps 이미지](/TIL/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_2.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 비록 데브옵스(DevOps)와 엠엘옵스(MLOps)는 개발과 운영이 어떻게 이루어져야 하는지에 대한 유사한 목표를 향하지만, 머신 러닝 프로젝트가 가져다주는 도전에 따라 차이가 발생합니다. 엠엘옵스와 데브옵스의 차이점은 다음과 같습니다:
 
@@ -168,18 +102,7 @@ MLOps 생태계의 일부인 여러 도구와 기술들이 ML 라이프사이클
 
 # 엠엘옵스에서의 Best Practices
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 MLOps를 수용하려면 올바른 장치와 최상의 실천 방법을 준수해야 합니다. 이는 AI 워크플로우의 원활한 작동을 보장합니다. 여기 MLOps에서의 절대적인 Best Practices 목록입니다:
 
@@ -196,18 +119,7 @@ MLOps를 수용하려면 올바른 장치와 최상의 실천 방법을 준수�
 
 # 실제 적용 사례
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_3.png" />
 
@@ -222,18 +134,7 @@ MLOps은 이론적인 개념뿐만 아니라 다양한 산업 분야에서 현�
 
 이러한 예시들은 다양한 분야에서 MLOps의 다재다능성과 영향을 보여줍니다. 기계 학습 모델의 효율적인 배포와 관리를 가능케 함으로써 MLOps는 기업이 AI의 힘을 활용하여 혁신을 추구하고 운영 효율성을 향상시키며 고객 경험을 개인화하는 데 도움이 됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -243,18 +144,7 @@ MLOps를 숙달하고 능숙한 데이터 과학자가 되기 위한 여정은 �
 
 원본 게시물: https://www.stratascratch.com.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # Stackademic 🎓
 

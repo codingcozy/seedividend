@@ -19,16 +19,7 @@ link: "https://medium.com/gitconnected/use-and-to-make-your-python-function-para
 
 이미 알고 있듯이, 파이썬에서는 위치 매개변수 또는 키워드 매개변수를 사용하여 함수에 데이터를 전달할 수 있습니다. 여기에 간단한 함수 예제가 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 def echo(x, y, z):
@@ -47,16 +38,7 @@ echo(x=1, y=2, z=3)
 
 모두 작동하고 동일한 결과를 출력합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## /를 사용하여 위치 전용 매개변수 지정하기
 
@@ -69,16 +51,7 @@ def echo(x, /, y, z):
 
 이 업데이트로 x는 위치 매개변수로만 전달될 수 있으며, y와 z는 여전히 위치 및 키워드 매개변수로 모두 전달될 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ```js
@@ -98,16 +71,7 @@ echo(x=1, y=2, z=3)
 ## *를 사용하여 키워드 전용 매개변수 지정하기
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 함수 정의에서 * 기호 뒤에 올 파라미터는 키워드 인수로 전달되어야 합니다. echo() 함수에서 / 대신 *를 사용해보겠습니다:
 
@@ -130,16 +94,7 @@ echo(1, 2, 3)
 # TypeError: echo() takes 1 positional argument but 3 were given
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 * 기호의 매우 유용한 기능 중 하나는 매개변수를 보다 구성되게 보이도록 기본값이 설정된 매개변수를 기본값이 없는 매개변수보다 먼저 배치할 수 있다는 것입니다. 예를 들어, * 기호를 사용하여 y에 기본값을 지정하고 여전히 y 뒤에 z를 놓을 수 있습니다:
@@ -152,16 +107,7 @@ def echo(x, *, y=2, z):
 이제 y와 z 둘 다 키워드 매개변수로 전달되어야 하며 y에는 기본값이 설정되어 있습니다:
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ```js
@@ -179,16 +125,7 @@ def echo(x, /, *, y=2, z):
     print(f"{x=}, {y=}, {z=}")
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 경우에는 x는 위치 전용이고 y와 z는 키워드 전용 매개변수입니다:
 
@@ -206,16 +143,7 @@ echo(x=1, z=3)
 - 일부 매개변수를 위치 전용으로 지정하고 일부를 키워드 전용으로 지정합니다.
 - 기본값을 가진 매개변수는 기본값이 없는 매개변수 앞에 두어 매개변수를 더욱 구성하기 쉽고 사용하기 편리하게 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 관련 포스트:
 

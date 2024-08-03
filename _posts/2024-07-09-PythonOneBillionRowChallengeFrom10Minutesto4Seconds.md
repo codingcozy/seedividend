@@ -18,18 +18,7 @@ link: "https://medium.com/towards-data-science/python-one-billion-row-challenge-
 
 모든 스크립트를 5회 실행하여 결과를 평균화했습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하드웨어로는 12개 CPU 코어와 36 GB RAM이 장착된 16인치 M1 Pro MacBook Pro를 사용하고 있습니다. 코드를 실행할 경우 결과가 다를 수 있지만, 구현 사이에는 비슷한 백분율 차이를 볼 수 있을 것입니다.
 
@@ -39,17 +28,6 @@ link: "https://medium.com/towards-data-science/python-one-billion-row-challenge-
 
 # 10억 행 도전이란 무엇인가요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 1 Billion Row Challenge (1BRC)의 아이디어는 간단합니다 - .txt 파일을 통해 10억 행의 데이터를 처리하는 것입니다.

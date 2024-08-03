@@ -1,7 +1,7 @@
 ---
 title: "백엔드 없이도 문제없다 Web3Forms로 폼 제출 쉽게 관리하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png"
+coverImage: "/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png"
 date: 2024-07-09 14:22
 ogImage:
   url: /assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png
@@ -10,7 +10,7 @@ originalTitle: "No Backend? No Problem! Effortlessly Manage Form Submissions wit
 link: "https://medium.com/@madhawaawishka/no-backend-no-problem-effortlessly-manage-form-submissions-with-web3forms-41c3d1917b5e"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png" />
+<img src="/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png" />
 
 # 소개
 
@@ -18,18 +18,7 @@ link: "https://medium.com/@madhawaawishka/no-backend-no-problem-effortlessly-man
 
 # web3Forms란?
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 저의 연구 중에 "Web3Forms"라는 서비스를 발견했어요. 이 웹 API 서비스를 사용하면 서버나 백엔드 코드 없이 이메일로 HTML 폼 제출을 바로 받을 수 있고, 완전히 무료에요..!
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@madhawaawishka/no-backend-no-problem-effortlessly-man
 
 # Web3Forms 설정하기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Web3Forms 설정은 간단합니다. 아래 단계를 따라하세요:
 
@@ -61,22 +39,11 @@ Web3Forms 설정은 간단합니다. 아래 단계를 따라하세요:
 
 양식이 제출되면 지정한 이메일 주소로 양식 내용이 바로 전송됩니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_1.png)
+![이미지](/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_1.png)
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-![이미지](/ui-log-2/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_2.png)
+![이미지](/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_2.png)
 
 양식이 제출될 때마다, 해당 양식의 내용이 지정한 이메일 주소로 직접 수신되게 됩니다.
 
@@ -84,17 +51,6 @@ Web3Forms 설정은 간단합니다. 아래 단계를 따라하세요:
 
 링크:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 web3Forms

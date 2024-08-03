@@ -1,10 +1,10 @@
 ---
 title: "2024년 자바스크립트 입문 가이드"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-06 02:14
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Introduction to JavaScript"
 link: "https://medium.com/@shivabiradar2003/introduction-to-javascript-83a3cebbfc6c"
@@ -32,16 +32,7 @@ HTML 및 CSS와 쉽게 통합하여 웹페이지 기능을 향상시킬 수 있�
 </html>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 2. 내부 JavaScript
 내부 스크립트는 헤드(head) 또는 본문(body)에 작성할 수 있지만, HTML 문서의 본문에 넣는 것이 좋습니다.
@@ -64,16 +55,7 @@ HTML 및 CSS와 쉽게 통합하여 웹페이지 기능을 향상시킬 수 있�
 
 헤드에 있는 외부 스크립트
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <!DOCTYPE html>

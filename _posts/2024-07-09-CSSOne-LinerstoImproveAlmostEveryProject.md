@@ -1,7 +1,7 @@
 ---
 title: "모든 프로젝트를 개선하는 10가지 CSS 원라이너 사용법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png"
+coverImage: "/assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png"
 date: 2024-07-09 14:03
 ogImage:
   url: /assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png
@@ -10,7 +10,7 @@ originalTitle: "CSS One-Liners to Improve (Almost) Every Project"
 link: "https://medium.com/gitconnected/css-one-liners-to-improve-almost-every-project-b7462a697dc0"
 ---
 
-![이미지](/ui-log-2/assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png)
+![이미지](/assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png)
 
 이 한 줄 CSS는 대부분의 경우 CSS 규칙 안에 한 선언만 포함됩니다. 어떤 경우에는 셀렉터가 단순한 요소 이상일 수 있으며, 다른 경우에는 더 나은 경험을 위한 추가 선언을 권장하며 그로 인해 이것들이 한 줄 이상이 될 수 있습니다. 해당 경우에 대해 미리 사과드립니다.
 
@@ -18,18 +18,7 @@ link: "https://medium.com/gitconnected/css-one-liners-to-improve-almost-every-pr
 
 이 한 줄 CSS가 수행하는 작업에 대한 요약입니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 뷰포트 내에서 콘텐츠 너비 제한
 - 본문 텍스트 크기 증가

@@ -19,16 +19,7 @@ Phidata는 이러한 복잡성을 해결하고 기능 호출을 사용하여 손
 
 ## Phidata는 누구인가요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Phidata는 2023년에 Ashpreet Bedi에 의해 설립되었어요. 그는 Airbnb와 Facebook에서 10년간 데이터 엔지니어링 및 ML 인프라를 구축한 뒤 Phidata를 만들었죠. Phidata의 초기 비전은 AI 엔지니어링과 데브옵스 사이의 간극을 줄이는 것이었습니다.
 
@@ -38,16 +29,7 @@ Phidata는 무료로 이용할 수 있어요. 아래의 문서 웹사이트 링�
 
 또한, 그들의 GitHub 리포도 확인해보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 할 일
 
@@ -57,16 +39,7 @@ Phidata는 무료로 이용할 수 있어요. 아래의 문서 웹사이트 링�
 
 코드를 따라하려면 Mistral 및 openhermes 모델을 Ollama를 통해 다운로드했는지 확인하세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 먼저 시스템에 영향을 주지 않고 코딩 및 실험을 할 수 있는 별도의 개발 환경을 설정해야 합니다. 저는 conda를 사용하여 개발 환경을 설정하지만 여러분이 편한 방법을 사용하셔도 괜찮습니다.
 
@@ -82,16 +55,7 @@ conda create -n phidata python=3.11 -y
 conda activate phidata
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 필수 라이브러리 설치
@@ -114,16 +78,7 @@ conda install jupyter -y
 당신의 URL은 제 것과 다를 수 있지만 다음과 유사한 형식이어야 합니다:-
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 http://127.0.0.1:8888/tree?token=3b9f7bd07b6966b41b68e2350721b2d0b6f388d248cc69da
@@ -135,16 +90,7 @@ Phidata는 Assistant를 사용하여 AI 애플리케이션을 개발합니다. A
 
 ## 예시 1 — 간단한 요청/응답 Assistant
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 # 이제 이게 가장 쉬운 방법입니다
@@ -238,16 +184,7 @@ assistant.print_response("AI에서 가장 최신 트렌드인 이야기 찾기? 
 ╰──────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 예제 3 — 외부 함수 호출
 
@@ -320,16 +257,7 @@ assistant.print_response("뉴욕의 온도는?")
 
 ## 예제 4 — 파이썬 코드 작성과 실행
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이번 테스트에서는 Phidata에게 CSV 파일에서 간단한 탐색적 데이터 분석을 수행하는 Python 프로그램을 작성해 달라고 요청할 것입니다. 사용할 데이터는 IMDB 영화 통계 레코드 세트입니다. 이 데이터는 Phidata가 AWS S3 버킷에 저장하고 제공합니다. 데이터 세트에는 1000개의 레코드가 있으며 처음 몇 개는 다음과 같습니다.
 
@@ -363,16 +291,7 @@ python_assistant.print_response("영화들의 평균 상영 시간을 계산하�
 
 이것이 출력입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 ╭──────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -433,15 +352,6 @@ INFO     Running /home/tom/average_runtime.py
 
 Phidata에 꽤 impressed했습니다. 여러 가지 작업을 효율적으로 수행할 수 있는 것 같습니다. 현재 local LLMs를 사용하는 부분이 조금 hit-and-miss 한 것이 유일한 문제입니다. 하지만 이것 또한 앞으로 몇 주 및 몇 달 사이에 개선될 것으로 기대합니다. 만약 누군가가 이미 시도해보고 새로운 용도를 발견했다면 댓글로 알려주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 컨텐츠가 마음에 드셨다면, 다음 게시물들도 흥미롭게 보실 수 있을 거예요.

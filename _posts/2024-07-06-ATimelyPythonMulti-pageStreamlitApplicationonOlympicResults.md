@@ -18,18 +18,7 @@ Streamlit은 데이터 과학자들이 쉽게 대화형 웹 애플리케이션�
 
 Plotly와 같은 데이터 시각화 라이브러리와 결합하면 몇 줄의 코드로 아름다운 차트와 지도를 만들 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 글에서는 Streamlit을 사용하여 올림픽 메달 데이터를 시각화하는 멀티페이지 대화형 애플리케이션을 만드는 방법을 안내하겠습니다.
 
@@ -41,18 +30,7 @@ Plotly와 같은 데이터 시각화 라이브러리와 결합하면 몇 줄의 
 
 시작해봅시다!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 데이터 세트
 

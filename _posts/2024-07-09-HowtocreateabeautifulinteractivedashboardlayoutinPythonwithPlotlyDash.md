@@ -18,18 +18,7 @@ link: "https://medium.com/plotly/how-to-create-a-beautiful-interactive-dashboard
 
 ![How to create a beautiful interactive dashboard layout in Python with Plotly Dash](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_0.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대시보드를 이미지 그대로 재현하려면 Poppins 글꼴이 설치되어 있어야 합니다. 일부 컴퓨터는 기본적으로 이 글꼴을 가지고 있을 수 있지만, 만약 설치가 필요하다면 여기서 다운로드할 수 있습니다.
 
@@ -39,18 +28,7 @@ GitHub 리포지토리를 사용하여 함께 따라오실 수 있습니다.
 
 ## 패키지 설치하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 일반적으로, Dash에서는 대시보드를 만드는 것이 아니라 대시보드처럼 보이는 완전한 웹 애플리케이션을 만드는 것입니다. 따라서 생성 프로세스는 웹 페이지의 생성과 매우 유사합니다.
 
@@ -62,18 +40,7 @@ GitHub 리포지토리를 사용하여 함께 따라오실 수 있습니다.
 
 그래프를 그리려면 Numpy, Random 및 Plotly 라이브러리가 필요합니다. Plotly는 Dash와 함께 설치되고 Random은 Python과 함께 설치되므로 Numpy가 이미 설치되어 있지 않은 경우에만 설치하면 됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 pip install dash
@@ -90,18 +57,7 @@ import dash_bootstrap_components as dbc
 
 레이아웃을 만들기 위해 필요한 모든 패키지를 방금 설치했어요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Dash를 사용하여 우리 애플리케이션을 출시할 거에요.
 - Dash에서의 HTML 컴포넌트는 HTML 태그와 유사해요. 예를 들어, Dash 명령어인 html.Div(), html.P(), 또는 html.Img()는 각각 `div`, `p`, 또는 `img`를 나타내요. 여기서 모든 컴포넌트 목록이 있어요.
@@ -114,18 +70,7 @@ import dash_bootstrap_components as dbc
 
 ![대화형 대시보드 레이아웃을 만드는 방법](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_1.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 애플리케이션 시작하기
 
@@ -137,18 +82,7 @@ app = Dash(__name__);
 
 그 다음으로 레이아웃을 만들어봅니다; 현재는 빈 DIV 컨테이너입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 app.layout = html.Div();
@@ -163,18 +97,7 @@ if __name__ == "__main__":
 
 결과 코드를 실행해보세요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 app = Dash(__name__)
@@ -189,18 +112,7 @@ if __name__ == "__main__":
 
 ## 대시보드 본문 만들기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대시보드 본문을 만들기 위해 Bootstrap 컨테이너를 사용할 것입니다. 이는 대시보드 그리드의 최상위 요소로서, 너비를 설정하고 모든 하위 요소를 "포함"합니다. 우리의 임시 html.Div()를 dbc.Container()으로 교체하세요. 대시보드가 브라우저 창의 너비를 100% 차지하도록 하려면 fluid=True로 설정하여 fluid 해야합니다.
 
@@ -214,18 +126,7 @@ app.layout = dbc.Container((fluid = True));
 app.layout = dbc.Container(html.P("내 멋진 대시보드가 여기에 나타납니다."), (fluid = True));
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 앱을 업데이트하고 와우! 우리의 컨테이너 내용을 볼 수 있어요. 아직까지는 꽤 평범해 보이니 대시보드를 스타일링하는 것부터 시작해 볼까요?
 
@@ -235,18 +136,7 @@ app.layout = dbc.Container(html.P("내 멋진 대시보드가 여기에 나타�
 
 먼저 사용자 정의 CSS를 만들어 보겠어요. 주피터 노트북(또는 코드)이 실행되는 동일한 폴더에 "assets" 폴더를 생성한 다음 그 안에 빈 텍스트 파일을 만들어 "style.css"로 저장하세요. 이 파일에서 대시보드 요소들의 모습을 자세히 설명할 거예요. 파일을 열어보겠어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대시보드 요소와 해당 CSS 스타일을 연결하려면 클래스 또는 ID를 제공합니다:
 
@@ -257,18 +147,7 @@ app.layout = dbc.Container(html.P("내 멋진 대시보드가 여기에 나타�
 
 특정 HTML 태그의 모든 요소에 스타일을 지정할 수도 있습니다. 예를 들어 모든 텍스트 (`p`)나 전체 페이지 (`body`)에 대해 클래스나 ID를 지정하지 않고 스타일을 할당할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대시보드의 본문을 스타일링하려면 클래스를 제공합니다. 클래스는 대시보드의 컨테이너 내에 설정되며, 다른 내용과 쉼표로 구분됩니다:
 
@@ -296,18 +175,7 @@ app.layout = dbc.Container(
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대시보드 본문의 스타일은 설정되었지만, 배경과 플레이스홀더 텍스트는 어떻게 되나요?
 
@@ -321,18 +189,7 @@ body {
 
 기억하세요, 우리는 placeholder 텍스트를 html.P() 태그로 감쌌습니다. 이를 스타일링하기 위해 모든 `p` 요소(즉, 텍스트)를 한꺼번에 스타일링할 수 있습니다. 클래스를 도입할 필요가 없으며, 서로 다른 스타일로 여러 html.P() 텍스트를 만들려면 각각 클래스를 생성해야 합니다. 우리의 텍스트를 흰색 Poppins 글꼴로 그리고 여백을 설정해봅시다. 모든 여백은 부모 컨테이너부터 측정됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 p {
@@ -372,18 +229,7 @@ p {
 
 저장하고 앱으로 돌아가세요. 스타일이 자동으로 업데이트 되지 않으면 페이지를 새로 고침하세요. 우리 대시보드의 본문과 배경이 준비되었어요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_2.png)
 
@@ -393,18 +239,7 @@ p {
 
 기본 스타일을 설정하려면, 응용 프로그램을 시작할 때 대괄호 안에 명시합니다. 여기에서 Flatly 스타일로 지정한 것처럼요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 app = Dash(__name__, (external_stylesheets = [dbc.themes.FLATLY]));
@@ -416,18 +251,7 @@ app = Dash(__name__, (external_stylesheets = [dbc.themes.FLATLY]));
 
 어떻게 작동하는지 보고 싶나요? 잠시 style.css를 style.txt로 저장해서, Dash가 그것을 "보지" 못하도록 해보세요. 어떻게 앱이 변하는지 확인해보세요. 이제 페이지가 "Flatly" 스타일로 디자인되었어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 CSS 계층 구조를 알면 어떤 장점이 있을까요? 이를 알면 우리에게 가장 적합한 기본 스타일을 설정하고, 그 다음에는 완전히 새로운 스타일을 처음부터 만드는 대신 우리 자신의 CSS 파일에서 일부 요소를 맞춤 설정할 수 있습니다.
 
@@ -447,18 +271,7 @@ app.layout = dbc.Container(
 );
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 대시보드 구성하기
 
@@ -468,18 +281,7 @@ app.layout = dbc.Container(
 
 ![대시보드 구성](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_3.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위 코드에서 placeholder 텍스트를 제거하고 대신 두 개의 DIV 컨테이너 목록을 넣어봅시다.
 
@@ -491,18 +293,7 @@ app.layout = dbc.Container([html.Div(), html.Div()], (fluid = True), (className 
 
 너비와 높이. 우리는 대시보드를 수평으로 나누었고, 기본적으로 자식 컨테이너의 높이는 부모의 100%가 됩니다. 각 컨테이너의 너비는 스타일 사전에서 픽셀로(“140px” 또는 단순히 140) 또는 부모 컨테이너의 너비의 백분율로(“10%”) 지정합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 들여쓰기입니다. 여백 크기도 픽셀로 지정하거나 컨테이너 크기의 백분율로 지정할 수 있습니다. 모든 변에 여백을 설정할 수 있습니다(margin: 25) 또는 특정 변에만 설정할 수 있습니다(margin-left: 25). 자식 컨테이너와 여백의 총 너비가 부모 컨테이너의 너비를 초과하지 않도록 주의하세요.
 
@@ -536,18 +327,7 @@ app.layout = dbc.Container(
 
 첫 번째 층의 자식 컨테이너가 생성되었습니다. 두 번째로 넘어가봅시다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_4.png)
 
@@ -584,18 +364,7 @@ app.layout = dbc.Container(
 );
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 텍스트 형식 지정
 
@@ -605,18 +374,7 @@ app.layout = dbc.Container(
 
 헤더와 소개 텍스트를 상단 DIV 컨테이너에 html.H1() 및 html.P() 요소의 목록으로 넣으세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 html.Div([
@@ -646,18 +404,7 @@ p {
 
 CSS를 저장한 후에도 제목이 어떻게 보이는지 개선하고 싶어졌고, 이제 앱 코드에서 직접 수정하겠습니다. 먼저, 텍스트 컨테이너 요소를 상단에 맞추기 위해 '수직 정렬' 매개변수를 설정합니다. 둘째, 대시보드 높이의 3분의 1 정도로 컨테이너의 높이를 수정하여 텍스트를 네비게이션에서 명확하게 분리합니다. 마지막으로 html.Span()과 html.Br()을 사용하여 "Welcome"을 새 줄에 두어 텍스트를 분리하겠습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 html.Div([
 html.H1([
@@ -678,18 +425,7 @@ style={
 
 ## 버튼 스타일링
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저희 네비게이션 바의 두 번째 컨테이너에는 버튼이 포함되어 있습니다. 처음 두 개는 그룹 버튼이고 세 번째는 독립적인 버튼입니다. 이 컨테이너는 마지막 DIV 레이어에 속해 있어요.
 
@@ -704,18 +440,7 @@ html.Div(
 );
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 두 개의 버튼 그룹은 RadioItems 요소입니다. 즉, 버튼처럼 스타일이 적용된 체크박스입니다. 이 요소에 대해 더 자세히 알아보려면 "RadioItems as ButtonGroup" 섹션을 확인해주세요.
 
@@ -746,18 +471,7 @@ html.Div(
 
 지금 앱을 업데이트하면 "그래프"와 "테이블"이라는 두 개의 전환 가능한 체크박스가 표시됩니다. 이것들을 버튼으로 바꿔야 합니다. 여기서 우리의 기본 스타일이 도움이 될 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Flatly 스타일 페이지를 확인해보세요. 버튼 섹션에서는 활성화된(active), 비활성화(disabled), 아웃라인(outline) 버튼을 볼 수 있어요. 'primary', 'secondary', 'danger'와 같은 이름들은 특정 색상을 나타냅니다. 저희 대시보드에서 'light' 버튼을 사용할 거에요: 버튼을 누르면 활성화된 'light' 버튼처럼 보이고, 그렇지 않을 때는 아웃라인 'light' 버튼처럼 보이게 할 거에요. 활성화된 버튼 행 위로 마우스 커서를 올리고 팝업 버튼을 클릭해보세요; 그러면 이 모든 버튼의 코드와 클래스를 포함한 창이 나타날 거에요. 우리 버튼은 "btn btn-light" 클래스를 가지고 있어요. 아웃라인 버튼 행에서는, 우리가 관심을 갖는 버튼 클래스가 "btn btn-outline-light"입니다. 우리는 지금 이 두 클래스를 사용할 거에요.
 
@@ -795,18 +509,7 @@ html.Div(
 );
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 모든 이 클래스들의 외관은 이미 우리의 부트스트랩 CSS 파일에 설정되어 있습니다. 앱을 업데이트하고 체크박스가 버튼으로 변환되었는지 확인하세요. 원하는 대로 이미 가까이 왔습니다; 조금 수정이 필요합니다. 특히, 버튼이 부모 컨테이너의 전체 영역을 차지하도록 만들고, 선택되지 않은 버튼에서 외곽선을 제거하며, 버튼에 마우스를 올렸을 때 버튼이 가벼워지게 만들고, Poppins 글꼴로 바꾸려고 합니다.
 
@@ -843,18 +546,7 @@ html.Div(
 
 이제 세 번째 버튼으로 넘어가 봅시다. 여기서는 보이지 않는 체크박스가 아니기 때문에 매우 간단합니다. 두 번째 컨테이너에 `dbc.Button()` 태그를 넣고, 버튼 라벨("About"), 클릭 수 및 클래스 이름을 지정하세요. 세 번째 버튼은 다른 두 버튼과 색상이 다르게 표시되기를 원합니다. 그래서 그 버튼의 클래스를 "btn btn-info"로 설정하여 Flatly 활성 '정보' 버튼처럼 보이도록 만들겠습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 html.Div(
@@ -911,18 +603,7 @@ html.Div(
 
 우리의 버튼 패널이 준비되었습니다!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Image](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_7.png)
 
@@ -941,18 +622,7 @@ html.Div(
 );
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 부트스트랩 컴포넌트를 사용하여 버튼이나 드롭다운을 만들 수 있지만, 많은 옵션을 선택해야 하거나 기본 옵션을 표시해야 하는 경우에는 (우리의 경우처럼) Dash Core Components (DCC)를 사용하는 것이 더 편리합니다. dcc dropdown에 대해 더 자세히 알아보세요.
 
@@ -975,18 +645,7 @@ html.Div(
 
 먼저 서브헤더를 스타일링해 보겠습니다. CSS 파일에 다음 스타일을 h2 태그에 적용하세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 h2 {
@@ -1052,18 +711,7 @@ html.Div(
 
 이제 앱을 업데이트하세요. 이미 매우 멋져 보이지만, 아직도 드롭다운을 다크 모드로 디자인하고 싶습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그래서, 각 dcc.Dropdown()에 className="customDropdown"을 추가하고 CSS 파일로 이동합시다. DCC 요소를 스타일링하는 것은 Bootstrap 요소를 스타일링하는 것보다 복잡합니다. 왜냐하면 우리에게 고정된 요소 스타일이 없기 때문에 모든 것은 사용자 정의 CSS에서 지정되어야 합니다. 그래서 이 코드를 CSS 파일에 추가하고 저장하세요.
 
@@ -1130,18 +778,7 @@ html.Div(
 
 <img src="/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_8.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 이미지 추가하기
 
@@ -1163,18 +800,7 @@ html.Div(
 
 저는 미리 assets 폴더에 두었던 이미지를 사용했습니다. 이 명령줄에서 명령 바 아래에 이미지가 나타났습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_9.png)
 
@@ -1188,18 +814,7 @@ import numpy as np
 import random
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 자, 이제 표준 분포에서 무작위 샘플을 사용하여 산점도를 만들어 봅시다:
 
@@ -1228,18 +843,7 @@ fig.update_layout(
 
 레이아웃에서는 그래프를 dсс.Graph() 명령으로 호출합니다. 그래프 데이터를 figure 변수에 전달합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 html.Div(dcc.Graph((figure = fig)), (style = { width: 790 }));
@@ -1253,18 +857,7 @@ html.Div(dcc.Graph((figure = fig)), (style = { width: 790 }));
 
 우리 대시보드 레이아웃이 거의 준비되었어요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_10.png)
 
@@ -1274,18 +867,7 @@ html.Div(dcc.Graph((figure = fig)), (style = { width: 790 }));
 
 두 개의 출력 필드를 생성하려면 간단히 마지막 빈 DIV 컨테이너에 두 가지 텍스트 요소와 두 개의 DIV를 배치하면 됩니다. 이미 subheading에 스타일이 적용되어 있으므로 해당 요소들을 html.H2() 명령어로 감싸기만 하면 됩니다. 또한 출력 필드 중 하나에는 값을 채우고 나머지는 비워 둡시다. 여전히 무료인 `h3` 텍스트 태그를 사용하여 출력을 스타일링하겠습니다. 두 번째 컨테이너 내부에 html.H3(“Selected Value”) 요소를 배치합니다. 출력 DIV 필드 자체에 스타일을 적용하려면 클래스를 도입해야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 html.Div(
@@ -1326,18 +908,7 @@ h3 {
 
 자, 모두 끝났어요! 대시보드를 위한 모든 레이아웃 요소들이 개발되었습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_11.png)
 
@@ -1350,17 +921,6 @@ Dash 앱 개발의 첫 번째 단계에서 도움이 될 수 있는 것은 무�
 - Dash 문서를 주의 깊게 읽고 사이트를 검색하는 것. 각 Dash 요소의 설명은 항상 코드 예제와 변경할 수 있는 속성 목록이 함께 제공됩니다.
 - Plotly 커뮤니티 포럼. 커뮤니티 회원들은 이미 발생한 대부분의 문제를 해결하려고 노력했습니다. 그들은 자주 코드 조각을 게시하고 토론하며, 이러한 토론 중에서 종종 준비된 솔루션을 찾을 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 즐거운 앱 개발 되세요!

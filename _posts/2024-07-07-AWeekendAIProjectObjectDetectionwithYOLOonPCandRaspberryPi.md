@@ -18,18 +18,7 @@ YOLO(You Only Look Once)는 인기 있는 객체 검출 라이브러리로, 첫 
 
 본문에 제시된 코드는 크로스 플랫폼이므로 Raspberry Pi가 없는 독자들도 Windows, Linux 또는 OS X 컴퓨터에서 실행할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 계속해서, 어떻게 작동하는지 살펴보겠습니다!
 

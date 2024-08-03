@@ -1,7 +1,7 @@
 ---
 title: "JavaScript와 CSS로 매끄러운 호버 동적 높이 전환 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_0.png"
+coverImage: "/assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_0.png"
 date: 2024-07-09 08:47
 ogImage:
   url: /assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_0.png
@@ -10,7 +10,7 @@ originalTitle: "Smooth “Hovering” Dynamic Height Transition with JavaScript 
 link: "https://medium.com/@francismaria/smooth-hovering-dynamic-height-transition-with-javascript-and-css-3dee7c1acf6a"
 ---
 
-![이미지](/ui-log-2/assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_0.png)
+![이미지](/assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_0.png)
 
 안녕하세요, 친애하는 독자 여러분! 오늘은 JavaScript와 CSS를 사용하여 다음 웹 애플리케이션에 멋진 높이 전환을 만드는 방법을 보여 드리겠습니다.
 
@@ -18,39 +18,17 @@ link: "https://medium.com/@francismaria/smooth-hovering-dynamic-height-transitio
 
 프로그래머로서의 멋진 점 중 하나(많은 중요한 점 중에 하나!)은 여러분이 직접 응용 프로그램을 만들고 다양한 도구로 실험할 수 있다는 것입니다. 이렇게 함으로써 일반적으로 지나치고 실제로 어떻게 작동하는지와 구현에 필요한 노력을 깨닫지 못하는 웹사이트의 기본 기능을 배울 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 내 개인 웹사이트를 구축하면서 확장 가능한 컨테이너 요소에 대한 아이디어가 떠올랐어요. 먼저 눈에 띄게 세부 내용을 숨기지만 호버링 시 동적으로 확장되어 추가 콘텐츠를 보여주는 동적 컨테이너를 만들기로 결정했거든요. 아래 모의 이미지처럼요.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_1.png)
+![이미지](/assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_1.png)
 
 호버링 시 보이기/숨기기의 기능 요구 사항 외에도 멋진 효과가 있었으면 했어요. 이제 구체적인 아이디어가 생겼으니, 구현 세부 사항으로 넘어가봅시다!
 
 # 호버 애니메이션
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 사용자 동작으로 정의된 "호버링"은 컴포넌트를 "플로팅"/"마우스를 이동"하는 것을 의미합니다. CSS에는 사용자가 커서를 이용해 요소 위를 호버할 때 발생하는 가상 클래스인 hover가 있습니다. 이것은 우리 문제에 완벽한 자원처럼 보입니다. 그러나 요소의 높이가 동일하지 않습니다(다른 텍스트 길이는 요소의 높이에 직접적으로 영향을 미칠 수 있습니다) 그리고 CSS는 트랜지션을 트리거하도록 동적으로 요소의 높이를 계산하는 방법을 제공하지 않습니다(높이: 0 - auto는 트랜지션을 트리거하지 않습니다) 따라서 여기서 약간의 추가 도움을 위해 JavaScript를 사용해야 합니다. 다음은 이러한 단계를 요약한 것입니다:
 
@@ -62,18 +40,7 @@ link: "https://medium.com/@francismaria/smooth-hovering-dynamic-height-transitio
 
 트랜지션 속성과 높이 속성을 대상으로하는 transition 속성 및 컨테이너가 접혀있을 때 섹션이 숨겨지고 텍스트가 다음 사용 가능한 요소들 위에 작성되는 것을 방지하기 위한 overflow: hidden 지시문에 유의해야 합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이제 CSS 코드를 적용했으니 JavaScript 구현을 확인하고 적절한 값으로 높이 전환을 트리거할 수 있는 방법을 알아봅시다.
 
@@ -83,18 +50,7 @@ link: "https://medium.com/@francismaria/smooth-hovering-dynamic-height-transitio
 
 # 최종 결과
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 아이디어를 완벽하게 구현한 CodePen이 아래에 제시되어 있습니다. 그리고 컨테이너의 높이가 부드럽게 확장되고 축소되는 방법을 보여줍니다.
 
@@ -104,18 +60,7 @@ link: "https://medium.com/@francismaria/smooth-hovering-dynamic-height-transitio
 
 이 코드가 제대로 작동하려면 CSS 코드를 애플리케이션에 포함해야 합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결론
 

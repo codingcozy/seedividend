@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/advanced-selection-from-tensors-i
 
 솔직히 말해서, 이 게시물의 동기 중 하나는 어떤 기능을 언제 사용해야 하는지를 잊어버려 구글링하거나 스택 오버플로우를 찾아보거나, 내 의견으로는 비교적 간단하고 그리 도움이 되지 않는 공식 설명서를 보는 것 때문입니다. 그래서 여기에서는 언급한 바와 같이 이러한 기능에 대해 심층적으로 알아보겠습니다: 언제 어떻게 사용해야 하는지 동기부여를 해주고, 2D 및 3D에서 예제를 제공하며, 결과적으로 선택된 요소를 그래픽으로 표시할 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 게시물이 해당 기능에 대한 명확성을 가져다 주고 추가 탐구가 필요 없도록 도와줄 것을 희망합니다 — 읽어 주셔서 감사합니다!
 
@@ -38,16 +29,7 @@ link: "https://medium.com/towards-data-science/advanced-selection-from-tensors-i
 
 torch.index_select는 한 차원을 따라 요소를 선택하는 동시에 다른 차원을 유지합니다. 다시 말해, 다른 모든 차원의 모든 요소를 유지한 채 목표 차원에서 인덱스 텐서를 따라 요소를 선택합니다. 우리는 2D 예제로 이를 보여줍니다. 여기서는 1차원을 따라 선택하겠습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 num_picks = 2
@@ -65,16 +47,7 @@ picked = torch.index_select(values, 1, indices)
 이제 세 가지 차원으로 이동합니다. 이것은 기계 학습 / 데이터 과학의 세계에 더 가까워지며, 형상이 [batch_size, num_elements, num_features]인 텐서를 상상해 보겠습니다. num_elements 요소가 있고 num_feature 특징이 있으며 모든 것이 배치 처리됩니다. torch.index_select를 사용하여 모든 배치 / 특징 조합에 대해 동일한 요소를 선택할 수 있습니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import torch
@@ -105,16 +78,7 @@ assert torch.all(torch.eq(picked, picked_manual))
 # torch.gather
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로 torch.gather로 이동해 보겠습니다. gather는 index_select와 유사하게 작동하지만 이제 원하는 차원에서 요소 선택이 다른 차원에 따라 종속적입니다. 다시 말해 우리의 머신러닝 예제를 재사용하는 것입니다: 매 batch 인덱스마다, 그리고 매 feature마다, "element" 차원에서 다른 요소를 선택할 수 있습니다. 하나의 텐서에서 다른 텐서의 인덱스를 따르면서 요소를 선택합니다.
 
@@ -131,16 +95,7 @@ indices = torch.randint(0, len_dim_1, size=(len_dim_0, num_picks))
 picked = torch.gather(values, 1, indices)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이를 시각화할 때, 우리는 이제 선택이 직선으로 특징지어지지 않고, 차원 0의 각 인덱스마다 차원 1의 다른 요소가 선택된다는 것을 관찰할 수 있습니다:
 
@@ -168,16 +123,7 @@ for i in range(batch_size):
 assert torch.all(torch.eq(picked, picked_manual))
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## torch.take
 
@@ -194,16 +140,7 @@ indices = torch.randint(0, len_dim_0 * len_dim_1, size=(num_picks,))
 picked = torch.take(values, indices)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래에서 볼 수 있듯이, 우리는 이제 두 개의 요소만 얻게 되었습니다:
 
@@ -233,16 +170,7 @@ for i in range(num_picks[0]):
 assert torch.all(torch.eq(picked, picked_manual))
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -252,15 +180,6 @@ assert torch.all(torch.eq(picked, picked_manual))
 
 <img src="/TIL/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_4.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 읽어 주셔서 감사합니다!

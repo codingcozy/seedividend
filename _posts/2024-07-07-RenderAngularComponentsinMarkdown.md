@@ -20,18 +20,7 @@ link: "https://medium.com/@shhdharmen/render-angular-components-in-markdown-5994
 npm i highlight.js marked marked-highlight
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 1: markdown-renderer/highlight-code-block.ts 파일 생성
 
@@ -52,18 +41,7 @@ export function highlightCodeBlock(code: string, language: string | undefined) {
 
 # 단계 2: markdown-renderer/transform-markdown.ts 파일 생성
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기능은 Markdown을 HTML로 변환하는 데 사용될 것입니다.
 
@@ -82,18 +60,7 @@ export const markdownToHtml = (content: string) => {
 
 이 서비스는 구성 요소에서 .md 파일을 로컬 또는 외부 위치에서 읽어 HTML로 변환하는 데 사용될 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import { HttpClient } from '@angular/common/http';
@@ -157,18 +124,7 @@ export class MarkdownRendererComponent {
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 5: HTTP 제공
 
@@ -182,18 +138,7 @@ bootstrapApplication(App, {
 
 이제 어디에서든 markdown을 렌더링하고 싶을 때, 간단히 `markdown-renderer`를 사용하면 됩니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import { Component } from "@angular/core";
@@ -215,18 +160,7 @@ export class ArticleComponent {}
 npm i @angular/elements
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 1: custom-elements.service.ts 파일 만들기
 
@@ -258,18 +192,7 @@ export class CustomElementsService {
 
 # 단계 2: APP_INITIALIZER를 통해 setupCustomElements 호출하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 커스텀 요소를 초기화 단계에서부터 사용하고 싶기 때문에 APP_INITIALIZER를 사용할 것입니다.
 
@@ -291,18 +214,7 @@ bootstrapApplication(App, {
 
 마지막으로 파일에서 커스텀 요소를 사용하면 Angular 컴포넌트가 렌더링됩니다. 아래와 같이 간단히 사용할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 <subscribe-component></subscribe-component>
@@ -315,17 +227,6 @@ bootstrapApplication(App, {
 
 코스와 기사는 무료로 제공되지만, 최고 수준의 교육 콘텐츠를 전달하는 제 야망을 지원해 주시면 감사히 받아들일 것입니다. 기여를 결정하는 것은 계속해서 코스를 개선하고 추가 자료를 작성하며 이러한 자료에 대한 접근성을 유지하는 데 도움이 됩니다. 기여하고 의미 있는 변화를 만들어주시는 것에 감사드립니다!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Render Angular Components in Markdown](/TIL/assets/img/2024-07-07-RenderAngularComponentsinMarkdown_0.png)

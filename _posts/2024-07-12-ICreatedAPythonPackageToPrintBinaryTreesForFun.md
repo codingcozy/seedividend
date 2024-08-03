@@ -19,16 +19,7 @@ link: "https://medium.com/gitconnected/i-created-a-python-package-to-print-binar
 
 기존 솔루션을 사용하고 코드를 약간 더 써가며 내 시간을 낭비하는 대신, 개발자들이 흔히 하는 것처럼, 몇 일을 허비해서 처음부터 내가 직접 패키지를 만들기로 결정했죠.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 내 패키지 — print-btree
 
@@ -40,16 +31,7 @@ pip install print-btree
 
 Github: https://github.com/zlliu246/print_btree
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 기본 사용 방법
 
@@ -86,16 +68,7 @@ _2_  3
 
 # 노드가 다른 이름을 사용하는 경우 어떻게 하나요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 from print_btree import print_btree
@@ -139,16 +112,7 @@ _2_  3__
 
 문제없이 이 이름들을 print_btree에 전달할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 일부로 매우 긴 값 이름을 지원합니다
 
@@ -184,16 +148,7 @@ pear   pineapplejuice       durian
 
 # 빠른 논리 요약
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가정하에 이진 트리를 출력해야 한다고 가정합시다.
 
@@ -236,16 +191,7 @@ root
 # 참고: None 값은 순서를 유지하기 위해 유지됩니다.
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
@@ -278,16 +224,7 @@ pear   pineapplejuice  ?   durian
 '''
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 "4단계) 다음으로 아래에 있는 목록에서 문자열 생성하기
 
@@ -336,16 +273,7 @@ pear   pineapplejuice   ?   durian
 pear   pineapplejuice   ?   durian
 '''
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -355,16 +283,7 @@ pear   pineapplejuice   ?   durian
 
 응원합니다
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 만약 제가 만든 작품을 지원하고 싶다면
 
@@ -378,15 +297,6 @@ pear   pineapplejuice   ?   durian
 
 YouTube: [여기를 클릭하세요](https://www.youtube.com/@zlliu246)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 LinkedIn: [https://www.linkedin.com/in/zlliu/](https://www.linkedin.com/in/zlliu/)

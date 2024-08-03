@@ -24,16 +24,7 @@ link: "https://medium.com/algo-trading-mastery/risk-portfolio-management-in-pyth
 
 # 포트폴리오 리스크 관리 사용의 단점
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 복잡성: 포트폴리오 위험 관리 전략을 구현하는 것은 복잡할 수 있으며, 재무 시장과 금융 상품에 대한 심층적인 이해가 필요합니다.
 - 비용: 위험 관리 도구와 소프트웨어에는 연관된 비용이 있으며, 모든 투자자가 감당할 수 없을 수도 있습니다.
@@ -51,16 +42,7 @@ link: "https://medium.com/algo-trading-mastery/risk-portfolio-management-in-pyth
 
 # 포트폴리오 위험 관리의 단점
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 자원 소모가 많음: 효율적으로 구현하고 유지하기 위해서는 상당한 시간, 자금 및 전문지식이 필요합니다.
 - 과도한 최적화 가능성: 리스크를 최소화하는 데 초점을 맞추다 보면 높은 수익 기회가 놓칠 수 있는 과도한 최적화의 위험이 있습니다.
@@ -83,16 +65,7 @@ ETH/USDT: -5.538816095795286e-23
 
 ![이미지](/TIL/assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 # 필요한 라이브러리 가져오기

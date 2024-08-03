@@ -1,10 +1,10 @@
 ---
 title: "무케시 암바니의 돈을 써보자 단계별 가이드"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 12:42
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Spend Mukesh Ambani’s Money now! A Step-by-Step Guide"
 link: "https://medium.com/@kartavyavg/spend-mukesh-ambanis-money-now-a-step-by-step-guide-34808cc2934d"
@@ -19,16 +19,7 @@ link: "https://medium.com/@kartavyavg/spend-mukesh-ambanis-money-now-a-step-by-s
 
 ## 연습할 내용... 🏫
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - Tailwind CSS
 - Javacript 와 HTML
@@ -42,16 +33,7 @@ link: "https://medium.com/@kartavyavg/spend-mukesh-ambanis-money-now-a-step-by-s
 
 # 프로젝트 설정
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 만들기 시작하려면 로컬 머신이나 선호하는 개발 플랫폼에 HTML, CSS, 그리고 JavaScript 환경을 기본적으로 이해해야 합니다. 스타일링을 위해 Tailwind CSS의 CDN을 사용하고 PDF 생성을 위해 jsPDF를 사용할 것입니다. 두 가지 모두 간편함을 위해 HTML 파일에 직접 포함되어 있습니다.
 
@@ -66,16 +48,7 @@ link: "https://medium.com/@kartavyavg/spend-mukesh-ambanis-money-now-a-step-by-s
 
 프로젝트를 위한 기본 HTML 구조를 개요로 살펴봅시다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <!DOCTYPE html>
@@ -106,16 +79,7 @@ link: "https://medium.com/@kartavyavg/spend-mukesh-ambanis-money-now-a-step-by-s
 
 Tailwind CSS를 사용하면 사용자 지정 CSS를 작성하지 않고도 쉽게 애플리케이션을 스타일링할 수 있습니다. 레이아웃, 색상 및 반응성에 필요한 유틸리티 클래스를 활용할 것입니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 사용 예시:
 
@@ -129,16 +93,7 @@ Tailwind CSS를 사용하면 사용자 지정 CSS를 작성하지 않고도 쉽�
 
 JavaScript 배열을 사용하여 이름, 가격 및 이미지 URL과 같은 속성을 가진 항목을 정의할 것입니다:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```javascript
 const items = [
@@ -157,16 +112,7 @@ function loadItems() {
         const itemDiv = document.createElement('div');
         itemDiv.className = 'bg-white p-6 rounded-lg shadow-lg';
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
         const img = document.createElement('img');
         img.src = item.image;
@@ -197,16 +143,7 @@ buyItem 함수를 구현하여 품목 구매 및 UI를 동적으로 업데이트
 let moneyLeft = 90000000000;
 let purchasedItems = [];
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 기능 buyItem(item, price) {
     if (moneyLeft >= price) {
@@ -236,16 +173,7 @@ javascriptCopy codeasync function generatePDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
     doc.text("구매 물품 목록서", 10, 10);
     let yOffset = 20;
@@ -332,16 +260,7 @@ javascriptCopy codeasync function generatePDF() {
 
 # 결론
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 튜토리얼에서는 Tailwind CSS로 스타일을 지정하고 JavaScript로 동적 기능을 구현하여 "Spend Mukesh Ambani's Money"를 만드는 과정을 다루었습니다. 상품 구매, 빌링을 위한 PDF 생성, 그리고 동적 UI 업데이트를 구현했습니다. 이 프로젝트는 현대적인 도구를 사용한 프론트엔드 웹 개발에 대한 훌륭한 소개 역할을 합니다.
 
@@ -353,16 +272,7 @@ javascriptCopy codeasync function generatePDF() {
 
 # 프로젝트 보기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 프로젝트를 보려면 여기를 클릭해주세요 — [https://codepen.io/Kartavya_Vg/full/rNEBXJp](https://codepen.io/Kartavya_Vg/full/rNEBXJp)
 
@@ -373,16 +283,7 @@ javascriptCopy codeasync function generatePDF() {
 
 이 초안을 원하는 대로 사용자 정의하고 확장하십시오. “무케시 아만니의 돈을 쓰는” 게임에 대한 설명적이고 매력적인 글에 필요한 추가 세부 정보와 스타일을 포함할 수 있습니다. 이 구조는 정보 전달과 독자의 흥미를 끌기 위한 훌륭한 기반을 제공해야 합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 숙제
 

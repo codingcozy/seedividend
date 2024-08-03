@@ -1,7 +1,7 @@
 ---
 title: "매끄러운 라운드 코너와 그라데이션 테두리 만드는 CSS 트릭"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_0.png"
+coverImage: "/assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_0.png"
 date: 2024-07-09 08:59
 ogImage:
   url: /assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_0.png
@@ -10,7 +10,7 @@ originalTitle: "CSS Tricks: Gradient Borders with Smooth Rounded Corners"
 link: "https://medium.com/@johannes.maendle/css-tricks-gradient-borders-with-smooth-rounded-corners-238211094580"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_0.png" />
+<img src="/assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_0.png" />
 
 요즘 자주 겪는 CSS 문제 중 하나를 다루려고 합니다: 부드러운 둥근 코너를 가진 그라데이션 테두리 만들기.
 
@@ -18,39 +18,17 @@ link: "https://medium.com/@johannes.maendle/css-tricks-gradient-borders-with-smo
 
 ## 그라데이션 테두리 만들기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 먼저, 테두리 및 테두리 이미지 속성을 사용하여 요소의 테두리에 그라데이션을 추가해야 합니다. 스타일은 다음과 같습니다:
 
 결과는 빨강에서 파랑으로 45도 각도로 전환되는 그라데이션 테두리입니다.
 
-![Gradient Border](/ui-log-2/assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_1.png)
+![Gradient Border](/assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_1.png)
 
 하지만 그라데이션 효과를 얻었지만, 둥근 모서리가 없습니다. 다행히도, 그것을 추가하는 것은 간단합니다!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## Rounded Corners 추가하기
 

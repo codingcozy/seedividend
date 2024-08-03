@@ -30,16 +30,7 @@ link: "https://medium.com/python-in-plain-english/how-to-easily-extract-data-fro
 </tr>
 </table>
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - **Pandas**: 추출된 데이터를 위한 데이터베이스를 생성하는 데 사용됩니다.
 - **Requests**: 웹사이트에 접근 권한을 요청하는 데 사용됩니다.
@@ -51,16 +42,7 @@ link: "https://medium.com/python-in-plain-english/how-to-easily-extract-data-fro
 
 "수동으로는 절대 할 수 없어" 라고 생각했습니다. 그렇게 하면 시간이 많이 걸리고 지루할 것이라고 생. 따라서 나는 파이썬 기술을 사용하기로 결정했습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 웹 사이트에는 다음과 같은 데이터가 있습니다:
 
@@ -70,16 +52,7 @@ link: "https://medium.com/python-in-plain-english/how-to-easily-extract-data-fro
 
 이 프로젝트의 목표는 이 데이터를 사용하여 CSV 파일을 생성하는 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 1. 모듈 가져오기
 
@@ -95,16 +68,7 @@ import requests
 from bs4 import BeautifulSoup
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 2. 데이터 찾기
 
@@ -114,16 +78,7 @@ from bs4 import BeautifulSoup
 
 답은 HTML(HyperText Markup Language)에 달려 있습니다. HTML은 웹 브라우저에서 표시할 문서의 표준 마크업 언어입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 웹사이트 어디에서든 마우스 오른쪽 버튼을 클릭하고 Inspect를 선택하면 웹의 코드가 오른쪽에 표시됩니다:
 
@@ -133,16 +88,7 @@ from bs4 import BeautifulSoup
 
 더 자세한 내용은 향후 기사에서 확인해보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 2.2. HTML 가져오기 함수
 
@@ -166,16 +112,7 @@ def get_html(url):
         return ""emails = set() # 중복을 피하기 위한 코드입니다
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 3. 데이터 추출
 
@@ -188,16 +125,7 @@ def get_html(url):
 - 데이터를 수집할 빈 리스트.
 - 데이터를 검색하는 for 루프.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import pandas as pd
@@ -285,16 +213,7 @@ df.to_csv('mail_info.csv', index=False) # 데이터프레임을 CSV 파일로 �
 print("데이터가 성공적으로 추출되어 mail_info.csv로 저장되었습니다")
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그게 다에요!
 
@@ -304,16 +223,7 @@ print("데이터가 성공적으로 추출되어 mail_info.csv로 저장되었�
 
 다음 글에서는 데이터 분석 프로젝트를 위해 슈퍼마켓에서 데이터를 수집하는 방법을 보여드릴게요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 도와드릴 수 있는 방법:
 
@@ -324,16 +234,7 @@ print("데이터가 성공적으로 추출되어 mail_info.csv로 저장되었�
 
 ## 내 최고의 학습 기사들:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 안녕하세요!
 
@@ -351,16 +252,7 @@ Axel
 
 # 간단하고 쉬운 용어로 🚀
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

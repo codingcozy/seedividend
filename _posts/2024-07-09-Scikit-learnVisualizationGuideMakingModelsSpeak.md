@@ -16,18 +16,7 @@ link: "https://medium.com/towards-data-science/scikit-learn-visualization-guide-
 | ----------- | ----------- |
 | Content One | Content Two |
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Scikit-learn Visualization Guide Making Models Speak](/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_1.png)
 
@@ -39,18 +28,7 @@ link: "https://medium.com/towards-data-science/scikit-learn-visualization-guide-
 - 플로팅 코드가 노트북을 가득 채우므로 읽기 어려워집니다.
 - 때로는 비즈니스 환경에서 이상적이지 않은 타사 라이브러리가 필요할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 좋은 소식이에요! Scikit-learn은 이제 Display 클래스를 제공하며 from_estimator 및 from_predictions과 같은 메소드를 사용하여 다양한 상황에서 그래프를 그리기가 훨씬 쉬워졌어요.
 
@@ -60,18 +38,7 @@ link: "https://medium.com/towards-data-science/scikit-learn-visualization-guide-
 
 ## 사용 가능한 API를 찾으려면 utils.discovery.all_displays를 사용하세요
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Scikit-learn (sklearn)은 항상 새 릴리스에서 Display API를 추가하기 때문에 당신의 버전에서 무엇을 사용할 수 있는지 알아두는 것이 중요합니다.
 
@@ -86,18 +53,7 @@ displays
 
 예를 들어, 내 Scikit-learn 1.4.0에서 이러한 클래스들을 사용할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 [
@@ -120,18 +76,7 @@ decision boundaries로 시작해보죠.
 
 matplotlib를 사용하여 draw 하는 경우, 번거롭습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - np.linspace을 사용하여 좌표 범위 설정;
 - plt.meshgrid를 사용하여 그리드 계산;
@@ -168,18 +113,7 @@ plt.show()
 
 이 그림에서 최종 효과를 확인하십시오:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_2.png" />
 
@@ -189,18 +123,7 @@ plt.show()
 
 분류 모델을 비교하기 위해 확률 보정 곡선은 모델이 예측에 자신감을 가지고 있는지를 보여줍니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 CalibrationDisplay는 모델의 predict_proba를 사용합니다. Support Vector Machine을 사용하는 경우 확률을 True로 설정해주세요:
 
@@ -237,18 +160,7 @@ plt.show()
 
 ## 혼동 행렬에 대한 metrics.ConfusionMatrixDisplay 사용하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 분류 모델을 평가하고 불균형 데이터를 다룰 때, 우리는 정밀도와 재현율을 살펴봅니다.
 
@@ -270,18 +182,7 @@ ConfusionMatrixDisplay.from_estimator(rf_clf, X, y)
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래는 이미지 링크입니다:
 
@@ -293,18 +194,7 @@ plt.show()
 
 RocCurveDisplay는 모델의 TPR 및 FPR을 비교합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이진 분류의 경우, 낮은 FPR과 높은 TPR을 원하기 때문에 좌상단이 가장 좋습니다. Roc 곡선은 이 쪽으로 휘어집니다.
 
@@ -314,18 +204,7 @@ Roc 곡선이 좌상단에 근접하여 유지되기 때문에 우하단이 비�
 
 Det 곡선의 완벽한 지점은 좌하단입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 from sklearn.metrics import RocCurveDisplay
@@ -358,18 +237,7 @@ for name, clf in classifiers.items():
 
 With imbalanced data, you might want to shift recall and precision.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 이메일 사기를 방지하려면 고정도가 필요합니다.
 - 질병 선별을 위해서는 더 많은 사례를 포착하기 위해 고회수가 필요합니다.
@@ -394,18 +262,7 @@ PrecisionRecallDisplay.from_estimator(xgb_clf, X_test, y_test)
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_6.png" />
 
@@ -415,18 +272,7 @@ Scikit-learn의 디자인을 따르는 모델은 여기처럼 그릴 수 있습�
 
 우리는 분류에 대해 이야기했었는데, 이제 회귀에 대해 이야기해볼게요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 사이킷런의 metrics.PredictionErrorDisplay는 회귀 모델을 평가하는 데 도움이 됩니다.
 
@@ -451,18 +297,7 @@ plt.show()
 
 그림에서와 같이 두 종류의 그래프를 그릴 수 있습니다. 왼쪽 그래프는 예측 대 실제 값 비교를 보여주며, 선형 회귀 분석에 적합합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 모든 데이터가 완벽하게 선형적이지는 않습니다. 그럴 때는 적절한 그래프를 사용하세요.
 
@@ -472,18 +307,7 @@ plt.show()
 
 선형에서 rbf 커널로 전환하는 것이 도움이 될 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 reg = make_pipeline(StandardScaler(), SVR((kernel = "rbf"), (C = 10)));
@@ -495,18 +319,7 @@ reg = make_pipeline(StandardScaler(), SVR((kernel = "rbf"), (C = 10)));
 
 ## 학습 곡선에 model_selection.LearningCurveDisplay 사용하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 성능을 평가한 후 LearningCurveDisplay를 사용하여 최적화를 살펴봅시다.
 
@@ -540,18 +353,7 @@ axes[1].set_title('GradientBoostingClassifier')
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_9.png" />
 
@@ -561,18 +363,7 @@ plt.show()
 
 그러므로, 다른 부분에 대해 일반화되지 않는 모델의 경우, 모델의 정규화 매개변수를 조정하여 성능을 미세 조정해 볼 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 전통적인 방법은 GridSearchCV 또는 Optuna와 같은 도구를 사용하여 모델을 조정하는 것이었지만, 이러한 방법은 전반적으로 성능이 가장 좋은 모델만 제공하며 조정 과정이 그다지 직관적이지 않습니다.
 
@@ -595,18 +386,7 @@ plt.show()
 
 <img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_10.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 아쉬운 점
 
@@ -619,18 +399,7 @@ plt.show()
 
 이러한 API들이 더 많은 관심을 받고, 버전이 업그레이드되는 과정에서 시각화 API를 사용하기가 더욱 쉬워지기를 희망합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -640,18 +409,7 @@ plt.show()
 
 이러한 API를 사용하면 Matplotlib 코드를 간소화하고 학습 곡선을 완화시키며 모델 평가 프로세스를 간소화할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 API에 대해 상세히 다루지 않아서 죄송합니다. 자세한 내용을 원하시면 관련 공식 문서를 확인해보세요.
 

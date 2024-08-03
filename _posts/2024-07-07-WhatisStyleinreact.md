@@ -1,10 +1,10 @@
 ---
 title: "React에서 스타일링 하는 방법은 무엇인가"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 21:18
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "What is Style in react?"
 link: "https://medium.com/@goutam2606/what-is-style-in-react-886d58f6a016"
@@ -19,16 +19,7 @@ Styled component는 리액트를 위한 CSS-in-JS 스타일링 솔루션입니�
 
 # 리액트를 스타일링하는 주요 방법은 주로 3가지가 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 인라인 스타일링
 - CSS 스타일 시트
@@ -51,16 +42,7 @@ const root = ReadDOM.createRoot(document.getElementById('root'));
 root.render(<Header/>);
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 JSX에서는 JavaScript 표현식을 중괄호로 묶어서 쓰며, JavaScript 객체도 중괄호를 사용하므로 위의 스타일링은 두 개의 중괘로 묶어써야 합니다.
 
@@ -83,16 +65,7 @@ JavaScript 객체
 
 스타일링이 적용된 객체를 만들 수도 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```jsx
 const Header = () => {
@@ -120,16 +93,7 @@ Write your CSS styling in a file with a .css extension and then import it into y
 
 Create a file named App.css and add your CSS code inside it.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 /* App.css */
@@ -147,16 +111,7 @@ Your application can utilize CSS modules as another way to add styles.
 CSS modules are beneficial for components that are placed in separate files.
 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```css
 /* my-style.module.css */

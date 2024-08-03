@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-
 
 # 배경
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 의사 결정 트리 추론
 
@@ -38,16 +29,7 @@ link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-
 
 ![의사 결정 트리](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 루트부터 시작하여, 트리의 각 노드는 이진 질문을 하며 (예: "세션 길이가 5분보다 길었습니까?"), 답변에 따라 피처 벡터를 두 개의 자식 노드 중 하나로 전달합니다. 자식 노드가 없는 경우 - 즉, 리프 노드에 도달한 경우 - 트리는 응답을 반환합니다.
 
@@ -57,16 +39,7 @@ link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-
 
 ## 의사 결정 트리 학습
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 유추 또는 이 예측 프로세스는 꽤 간단합니다. 그러나 이 트리를 구축하는 것은 훨씬 명백하지 않습니다. 각 노드의 이진 규칙은 어떻게 결정되는 걸까요? 트리에 사용되는 특성들은 무엇이며, 어떤 순서로 사용되는 걸까요? 0.5 또는 1과 같은 임계값은 어떻게 결정되는 걸까요?
 
@@ -74,16 +47,7 @@ link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-
 
 하지만 항상 그렇게 간단하지는 않습니다. 행운이 따르면, 대신 모양을 완벽하게 분리하는 어떤 임계값을 가진 연속적인 특성이 있을 수도 있습니다. 정확한 임계값을 찾기 위해 몇 번의 시도가 필요하지만, 그런 다음 완벽한 분할이 이루어집니다. (휴!)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_4.png)
@@ -95,16 +59,7 @@ link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-
 ![이미지](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_5.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 어떤 임계값에서도 데이터를 완벽하게 분리할 수 있는 특성이 없다면 어떻게 해야 할까요? 이 경우, 레이블 집합이 얼마나 "혼합된"지를 측정하는 방법이 필요합니다. 일반적으로 사용하는 지표 중 하나가 지니 불순도인데, 다음 식으로 계산됩니다:
 
@@ -114,16 +69,7 @@ Gini = 1 - Σ(pk)^2
 
 여기서 pk는 우리의 m개 클래스 중 하나에 속할 확률입니다. 제곱과 1의 합이 1이 되어야 하므로, 두 가지 클래스인 사각형과 삼각형의 경우, 이 식을 pk로 정의할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래는 p✓, 집합에서 양성 레이블을 무작위로 선택할 확률에 따른 지니 불순도의 시각적 표현입니다. [1] (우리는 pk를 p✓로 대체하여 확인 표지가 양성 클래스임을 나타냈습니다.) 집합의 요소가 모두 확인 표지가 아닌 경우(즉, x인 경우) 또는 모두 확인 표지인 경우에 지니 불순도가 가장 낮습니다. 지니 불순도는 x와 확인 표지가 같은 수 일 때 최대치에 도달합니다.
 
@@ -133,16 +79,7 @@ Gini = 1 - Σ(pk)^2
 
 아래에서, 계정 연령 특성을 35일을 기준으로 분할하면, 제품을 구매하는 사용자와 구매하지 않는 사용자를 가장 잘 분리할 수 있습니다 (상상의 데이터셋에서).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_9.png)
 
@@ -152,16 +89,7 @@ Gini = 1 - Σ(pk)^2
 
 세션 길이에 대한 분할 ` 5분`이 우리 결정 트리에서 첫 번째 분기가 됩니다. 그런 다음 특성 및 값 반복 프로세스를 반복하고 각 부분집합, 그들의 하위 부분집합 등에 대해 데이터를 최적으로 분할하는 최상의 특성을 선택합니다. 이렇게 완벽하게 분할된 데이터가 필요하거나 트리가 허용된 최대 깊이에 도달할 때까지 진행합니다. (다음 섹션에서 자세히 설명하겠습니다.)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기에 앞서 본 트리가 나타난 것이지만 각 노드에 훈련 데이터가 표시되어 있습니다. 트리를 아래로 이동할수록 양성 및 음성 클래스가 점점 분리되는 것을 주목하세요. 트리의 맨 아래에 도달하면 잎 노드는 데이터 하위 집합에서의 과반 클래스를 출력합니다. (우리의 경우에는 유일한 클래스입니다.)
 
@@ -171,16 +99,7 @@ Gini = 1 - Σ(pk)^2
 
 위의 결정 트리는 데이터를 하나의 클래스 레이블만 포함하도록 분할합니다 (즉, Gini 불순도 = 0). 이렇게 함으로써 모델이 훈련 데이터를 설명하는 능력을 최대화하지만, 모델을 데이터에 과적합할 위험이 있습니다. 모델이 모든 특징-레이블 조합을 외우는 것이 아니라 근본적인 패턴을 학습하는 대신에 기억하는 것처럼 생각해보세요. 과적합된 모델은 일반화하기 어렵고, 일반적으로 모델링의 목표인 새로운 데이터에 대한 일반화가 어려워집니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 과적합을 방지하는 몇 가지 방법이 있습니다. 한 가지 방법은 트리의 깊이를 제한하는 것입니다. 예를 들어 위의 트리를 두 레벨로 제한하면 왼쪽 가지를 자주 쇼핑 고객 분할에서 끝낼 수 있습니다.
 
@@ -190,16 +109,7 @@ Gini = 1 - Σ(pk)^2
 
 트리 깊이 제한은 효과적입니다. 하지만 더 강력한 전략과 함께 사용할 수 있습니다: 앙상블 학습. 머신러닝에서 - 그리고 동물 집단에서도 - 일련의 예측을 집계하면 종종 개별 예측보다 더 높은 정확도를 달성할 수 있습니다. 개별 모델의 오류가 상쇄되어 모델링되는 데이터의 기본 패턴을 더 명확하게 볼 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Image](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_13.png)
@@ -211,16 +121,7 @@ Gini = 1 - Σ(pk)^2
 우선 데이터로 시작해보죠. 부스트랩을 사용하여 데이터를 샘플링하거나 대체로써 모델에 영향을 미치는 아웃라이어들이 무의미한 상관 관계를 가로채는 것을 방지할 수 있습니다. 아이디어는 아웃라이어가 희박하기 때문에 실제 피처와 레이블 간의 진짜 관계를 반영하는 샘플보다 덜 무작위로 선택될 가능성이 높다는 것입니다. 부스트랩을 사용하면 숲 내의 각 의사결정 트리에 약간 다른 데이터 세트를 제공할 수 있어서 여전히 동일한 일반적인 경향을 포함할 것입니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_14.png" />
 
@@ -230,16 +131,7 @@ Gini = 1 - Σ(pk)^2
 
 <img src="/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_15.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 구현
 
@@ -249,16 +141,7 @@ Gini = 1 - Σ(pk)^2
 
 먼저, 의사 결정 트리에서 노드 역할을 하는 클래스를 만들어 봅시다. 이 클래스는 훈련에 사용되는 다음과 같은 속성을 가지고 있을 것입니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 데이터의 하위 집합(또는 루트 노드의 전체 데이터 세트)
 - 이 하위 집합의 양성 레이블 비율과 Gini 불순도
@@ -271,16 +154,7 @@ Gini = 1 - Σ(pk)^2
 
 이러한 기준을 충족하는 Node 클래스를 아래 코드로 만들 수 있습니다. GitHub의 소스 코드에는 더 철저한 독스트링과 입력 유효성 검사가 포함되어 있지만, 가독성을 위해 여기서 간소화된 버전을 공유하겠습니다. 참고로 이 파일을 node.py로 명명하고 이후 파일에서 참조할 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import numpy as np
@@ -350,16 +224,7 @@ class Node:
         return None, None, None, None
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이것이 실제 작업을 수행하는 _process_split입니다. 우리는 self.df를 feature 임계값에 따라 분할하고, 어느 하위 데이터 세트가 비어 있는 경우 일찍 종료하며, 하위 데이터로 자식 노드를 생성하고, 마지막으로 가중 Gini 불순도를 계산합니다.
 
@@ -411,16 +276,7 @@ print(node.split_on_feature('feature'))
 # <__main__.Node object at 0x137c24160>)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 의사 결정 트리
 
@@ -452,16 +308,7 @@ class DecisionTree:
         self.max_depth = max_depth
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 트리를 구축하는 논리를 작성해 봅시다. 코딩 면접뿐만 아니라 Leetcode에서 공부한 모든 것이 유용하다는 것을 증명하기 위해 스택을 사용하여 깊이 우선 탐색을 수행하고, 각 노드에서 _process_node를 반복적으로 호출하고 해당 노드의 자식을 스택에 추가합니다. 또한 현재 깊이를 확인하여 self.max_depth를 초과하지 않도록 확인합니다. 모든 노드를 처리한 후에는 DecisionTree 인스턴스를 반환합니다.
 
@@ -538,16 +385,7 @@ class DecisionTree:
         return None, None
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위의 코드는 트리를 구축하는 데 사용됩니다. 이제 예측을 생성하는 코드를 작성해 봅시다. classify 함수는 _classify 도우미 함수를 감싸는 래퍼일 뿐이며 한 번에 하나씩이 아닌 피처 벡터의 데이터프레임에 대해 예측을 생성할 수 있도록 합니다. 실제 작업은 _classify에서 수행되는데, 이 함수는 피처 벡터가 노드의 임계값과 비교에 따라 왼쪽이나 오른쪽 자식 노드로 재귀적으로 이동합니다. 잎 노드는 피처와 임계값 속성이 모두 None이므로, 노드의 pk가 0.5보다 크면 1을 반환하고 그렇지 않으면 0을 반환합니다.
 
@@ -580,16 +418,7 @@ class DecisionTree:
 
 이제 결정 트리 분류기에 필요한 모든 것을 갖추었습니다! 가장 어려운 작업은 이미 모두 끝났습니다. 분류기를 랜덤 포레스트로 확장하는 것은 이미 _process_node에서 최소화된 피처 선택을 구현했기 때문에 부트스트랩된 데이터에 여러 개의 트리를 생성하는 것만 필요합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 랜덤 포레스트를 구현한 random_forest.py 파일을 만들어봅시다. 이 파일에는 RandomForest 클래스가 포함되어 있습니다. 항상처럼, 우리는 클래스를 데이터프레임(df)과 타깃 열로 초기화하고 DecisionTree 클래스와 마찬가지로 feature_select 및 max_depth 매개변수를 가지고 있습니다. 이제 추가로 n_trees 매개변수도 전달합니다.
 
@@ -649,16 +478,7 @@ class RandomForest:
         return self.df.sample(len(self.df), replace=True)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 분류 또한 간단합니다: 우리는 숲 속의 각 트리가 입력된 feature_df를 분류하고, 각 행에 대해 가장 일반적인 예측 레이블을 반환하도록 합니다. 이 작업을 하는 가장 쉬운 방법은 예측을 데이터프레임으로 변환한 다음, 최빈값을 취하는 것이었습니다.
 
@@ -687,16 +507,7 @@ class RandomForest
  * scikit-learn 랜덤 포레스트:    0.89
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![img](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_16.png)
 
@@ -706,16 +517,7 @@ class RandomForest
 
 더 알고 싶다면 미니 프로젝트가 많이 있습니다. 동일한 기능이 대상 변수와 매우 비선형적인 관계를 가질 경우 트리에서 여러 번 사용될 수 있는 방법을 시각화해 볼 수 있습니다. 이 게시물에서 회귀에 대해 다루지 않았지만, 연속적인 대상을 처리할 수 있도록 코드를 수정하는 것은 그리 어렵지 않을 것입니다. 데이터 양과 열의 수에 따른 일반 DecisionTree, 평균 랜덤 포레스트 트리 및 전체 포레스트의 예측력이 어떻게 달라지는지 확인하는 것도 흥미로울 것입니다. 마지막으로, RandomForest가 어떻게 트리를 학습하는지를 병렬화하고 싶은 사람이 있다면 PR을 제출해 주시기 바랍니다. 😜
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 친절하게 읽어 주셔서 감사합니다!
 Matt
@@ -726,16 +528,7 @@ Matt
 
 여기에는 장난감 예제(분할 모양)와 포스트의 주요 예제(전자 상거래)와 더 명확한 시각적 구분이 필요하다고 생각하기 전까지 일부 버전의 그림이 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_17.png" />
 

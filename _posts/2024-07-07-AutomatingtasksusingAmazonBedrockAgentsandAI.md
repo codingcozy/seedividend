@@ -21,18 +21,7 @@ link: "https://medium.com/@leejamesgilmore/automating-tasks-using-amazon-bedrock
 
 # 소개 👋🏽
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Amazon Bedrock Agents은 당신이 회사 내에서 스스로 작업을 수행할 수 있는 자율 에이전트를 구축하고 사용자 정의할 수 있도록 도와줍니다. 이러한 에이전트는 기관 데이터와 사용자 입력을 활용하여 대화형 채팅과 AI를 이용해 작업을 수행하여 최종 사용자가 작업을 완료하는 데 도움을 줍니다.
 
@@ -42,18 +31,7 @@ Amazon Bedrock Agents은 당신이 회사 내에서 스스로 작업을 수행�
 
 본 문서에서는 가상의 호텔 및 스파 회사인 LJ Resorts를 다루어 AWS 구조와 코드를 살펴보겠습니다. 우리의 고객은 당사 애플리케이션을 사용하여 호텔 숙박, 골프 세션 및 스파 치료를 한꺼번에 예약하거나 이용 가능한 치료 및 할인, 영업 시간과 같은 회사 정보를 요청할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Image 1](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_2.png)
 
@@ -63,18 +41,7 @@ The full code repository can be found here:
 
 ![Image 2](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_3.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 아마존 베드락 에이전트란 무엇인가요? 🤖
 
@@ -84,18 +51,7 @@ The full code repository can be found here:
 
 시작하기 전에 약어 몇 가지와 그 의미에 대해 알아봅시다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ✔️ FM - 기본 모델
 
@@ -105,18 +61,7 @@ The full code repository can be found here:
 
 🤖 "고객이 호텔 객실, 스파 세션, 그리고 골프 예약을 도와주시고, 해당하는 날짜와 예약 유형에 따라 특별 혜택을 제공해 주세요. 예약을 완료하기 전에 오프닝 타임이나 가격에 대해 고객에게 안내하고, 호텔 정책을 고려해 주세요."
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Automating tasks using Amazon Bedrock Agents and AI](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_4.png)
 
@@ -126,18 +71,7 @@ The full code repository can be found here:
 
 다음으로 Orchestration prompt는 응답을 구문 분석하고 우리의 OpenAPI 사양 문서에 정의된 작업에 따라 액션 그룹 람다를 호출하며 Bedrock Knowledge Base에서 필요한 추가 정보를 가져옵니다. Orchestration이 완료되면 결과가 고객에게 반환됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_5.png)
 
@@ -147,18 +81,7 @@ The full code repository can be found here:
 
 그래, 이제 Amazon Bedrock와 함께 에이전트에 대해 깊이 파고들었으며 이론적으로 작동 방식을 이해했으니, 이제 이 글에서 무엇을 만들고 있는지 살펴봅시다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_6.png" />
 
@@ -170,18 +93,7 @@ The full code repository can be found here:
 - 이는 쿼리 Lambda 함수를 호출하며, 이 함수는 다시 Amazon Bedrock 에이전트를 호출합니다.
 - 에이전트는 특정 회사 데이터를 사용한 배포된 Knowledge Base와 S3 버킷에 있는 OpenAPI 사억을 기반으로 한 Lambda 함수를 사용하여 고객의 작업을 완료하기 위해 다른 내부 시스템에 경로를 지정합니다 (여러 호출을 우리를 대신하여 조정할 것입니다).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 고수준 아키텍처를 논의했으니, 다음 섹션에서 예시 상호작용을 살펴봅시다.
 
@@ -191,18 +103,7 @@ The full code repository can be found here:
 
 Customer: “Hi, what special deals do you have on at the moment for hotels?”
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 에이전트: "현재 이용 가능한 호텔 특별 할인은 다음과 같습니다: - 월요일 스테이케이션 특가: 객실 요금 20% 할인 (월요일만) - 급행 투숙 특가: 당일 예약 시 15% 할인 (화요일만) - 연박 할인: 3박 숙박 20% 할인 (수요일만) - 스위트 업그레이드: 익스큐티브 스위트 무료 업그레이드 (목요일만) - 주말 여행 패키지: 2박 숙박 10% 할인 (금요일만)"
 
@@ -212,18 +113,7 @@ Customer: “Hi, what special deals do you have on at the moment for hotels?”
 
 고객: "2024년 02월 25일에 디럭스 객실을 $160에 예약할 수 있나요?"
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 에이전트: "2024년 2월 25일에 109호 객실을 예약해드렸습니다. 이 객실은 명품 욕실이 있는 디럭스 객실이며, 160달러입니다. 필요한 것이 있으면 언제든지 알려주세요!"
 
@@ -233,18 +123,7 @@ Customer: “Hi, what special deals do you have on at the moment for hotels?”
 
 고객: "핫 스톤 마사지를 예약할 수 있나요?"
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Agent: "네, 오늘 당신을 위해 핫 스톤 마사지를 예약했어요. 이 치료 마사지는 가열된 돌을 사용하여 근육을 진정시키고 혈액 순환이 향상됩니다. 비용은 $90이에요. 더 필요한 게 있으면 언제든지 말해주세요!"
 
@@ -254,18 +133,7 @@ Agent: "LJ 리조트의 골프 영업 시간은 다음과 같아요: 월요일�
 
 Customer: "해당 날에도 아침에는 골프 세션도 있나요?"
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 에이전트: "오늘 가능한 골프 세션을 확인해보니 아침 세션 하나가 있네요: 아침 티 타임: 아침에 멋진 전망과 함께 골프를 즐기세요. 비용: $80 이 아침 골프 세션을 예약해 드릴까요?"
 
@@ -275,18 +143,7 @@ Customer: "해당 날에도 아침에는 골프 세션도 있나요?"
 
 고객: "제 예약의 총 비용이 얼마인가요?"
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 에이전트: "대화 기록을 기반으로 하면, 핫 스톤 마사지를 90달러에 예약하셨고, 아침 골프 세션을 80달러에 예약하셨습니다. 예약 총 비용은 90달러 + 80달러 = 170달러입니다."
 
@@ -296,18 +153,7 @@ Customer: "해당 날에도 아침에는 골프 세션도 있나요?"
 
 # 주요 코드 설명하기 👨‍💻
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 알겠어요, 우리는 이 기본 예제를 실제로 본 것이고, 이제 TypeScript 및 CDK 코드를 살펴보겠습니다. 전체 솔루션은 여기에서 찾으실 수 있습니다.
 
@@ -337,18 +183,7 @@ const actionGroupAgentLambda: nodeLambda.NodejsFunction = new nodeLambda.NodejsF
 });
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음은 아래에 표시된대로 우리의 Amazon Bedrock 에이전트를 생성합니다:
 
@@ -371,18 +206,7 @@ const agent = new bedrock.Agent(this, "BedrockAgent", {
 
 다음으로, 아래와 같이 Action 그룹을 생성합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 // 예약을 위한 동작 그룹을 추가합니다.
@@ -495,18 +319,7 @@ new bedrock.AgentActionGroup(this, "AgentActionGroup", {
 
 모델이 수행해야 할 작업을 결정하는 중요한 부분은 설명, 경로, 메서드 및 작업 ID입니다. 예를 들어, 모든 호텔 객실을 나열하기 위해 사용하는 것은 다음과 같습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 **Description** - "특정 날짜에 대한 모든 이용 가능한 객실 목록을 가져옵니다".
 **OperationId** - "getAllAvailableRooms".
@@ -613,18 +426,7 @@ export const handler = middy(adapter)
 
 위의 예제에서는 다른 시스템을 호출하는 대신 반환된 데이터를 간단히 하드코딩했음을 볼 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![스테이트리스 스택](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_7.png)
 
@@ -634,18 +436,7 @@ export const handler = middy(adapter)
 
 먼저 스트리밍이 설정된 쿼리 람다 함수를 생성합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 // 에이전트 쿼리를 위한 람다 함수를 생성합니다.
@@ -693,18 +484,7 @@ queryModelLambda.addToRolePolicy(
 
 이제 사용자가 함수 URL을 통해 프롬프트를 제공하고 에이전트를 호출하는 Query Lambda 함수를 살펴보겠습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import { MetricUnits, Metrics } from "@aws-lambda-powertools/metrics";
@@ -802,18 +582,7 @@ export const handler = streamifyResponse(queryModelAdapter);
 
 ## Postman을 통한 테스트하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 당신은 postman/Bedrock Agents.postman_collection.json 파일을 사용하여 자신의 Lambda 함수 URL 정보로 테스트할 수 있습니다.
 
@@ -830,18 +599,7 @@ export const handler = streamifyResponse(queryModelAdapter);
 
 그리고 우리의 에이전트가 다음과 같이 응답하는 것을 확인할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리 에이전트는 여러 가지 작업을 조정했습니다. 첫 번째로 그날 이용할 수 있는 골프 세션을 확인하는 것이었습니다.
 
@@ -851,18 +609,7 @@ export const handler = streamifyResponse(queryModelAdapter);
 
 여기서 대화형 AI의 힘과 자율 에이전트의 역할을 볼 수 있습니다. 고객을 지원하기 위해 여러 가지 작업을 조합했습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_8.png)
 
@@ -872,18 +619,7 @@ export const handler = streamifyResponse(queryModelAdapter);
 
 이 글을 즐겨 읽어주셨기를 바랍니다. 만약 즐겁게 읽었다면 공유하고 피드백 주세요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 비슷한 콘텐츠를 위해 내 YouTube 채널을 구독해주세요!
 
@@ -894,18 +630,7 @@ export const handler = streamifyResponse(queryModelAdapter);
 [LinkedIn - Lee James Gilmore](https://www.linkedin.com/in/lee-james-gilmore/)
 [Twitter - Lee James Gilmore](https://twitter.com/LeeJamesGilmore)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 게시물을 즐겁게 보셨다면 더 많은 게시물/시리즈를 보려면 내 프로필 Lee James Gilmore를 팔로우해주세요! 또한 인사를 건네고 Hi를 말하는 것을 잊지 마세요 👋
 
@@ -915,18 +640,7 @@ export const handler = streamifyResponse(queryModelAdapter);
 
 "안녕하세요, 저는 영국을 기반으로 하는 AWS 커뮤니티 빌더, 블로거, AWS 인증 클라우드 아키텍트이자 기술 및 아키텍처 부문 글로벌 팀장 Lee입니다. 현재는 City Electrical Factors(UK) & City Electric Supply(US)에서 근무 중이며, 지난 6년 동안 주로 AWS 상에서 full-stack JavaScript로 작업해 왔습니다."
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저는 AWS를 사랑하는 서버리스 선구자라고 생각해요. 혁신, 소프트웨어 아키텍처, 그리고 기술에 대한 모든 것을 좋아해요.
 

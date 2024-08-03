@@ -1,10 +1,10 @@
 ---
 title: "CSS 부모의 Overflow Hidden을 덮어쓰는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:12
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "CSS: Overriding the Parent’s Overflow Hidden"
 link: "https://medium.com/@thomas.ryu/css-overriding-the-parents-overflow-hidden-90c75a0e7296"
@@ -31,16 +31,7 @@ overflow: hidden;을 가진 부모 요소에 position 속성이 기본 static으
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # Case 2: 위치가 정의된 부모 요소
 

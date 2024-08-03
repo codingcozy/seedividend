@@ -1,10 +1,10 @@
 ---
 title: "2024년 Webpack, TypeScript, ESLint, Prettier를 사용한 생산 준비 완료 React 앱 최적화 가이드"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_0.png"
+coverImage: "/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_0.png"
 date: 2024-07-06 00:14
 ogImage:
-  url: /ui-log-2/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_0.png
+  url: /assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_0.png
 tag: Tech
 originalTitle: "Optimizing Your React App: A Guide to Production-Ready Setup with Webpack, TypeScript, ESLint, and Prettier - 2024"
 link: "https://dev.to/shivampawar/optimizing-your-react-app-a-guide-to-production-ready-setup-with-webpack-typescript-eslint-and-prettier-2024-4lcl"
@@ -18,18 +18,7 @@ GitHub 저장소: [https://github.com/shivam-pawar/sample-react-app](https://git
 
 시작하기 전에 컴퓨터에 Node.js 및 npm (또는 yarn)이 설치되어 있는지 확인해주세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 새 프로젝트 초기화하기
 
@@ -41,18 +30,7 @@ npm init
 
 프로젝트 이름, 작성자 이름, 설명 및 라이선스와 같은 기본 정보를 묻습니다. 이 정보를 기반으로 package.json 파일이 생성됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## React와 TypeScript 설치하기
 
@@ -64,18 +42,7 @@ npm install react react-dom
 
 - TypeScript 및 해당 타입을 개발 의존성으로 설치하세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 npm install --save-dev typescript @types/react @types/react-dom
@@ -89,22 +56,11 @@ npm install --save-dev typescript @types/react @types/react-dom
 npm install --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin webpack-merge ts-loader terser-webpack-plugin uglify-js
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 패키지의 package.json은 이와 같이 보일 것입니다:
 
-<img src="/ui-log-2/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_0.png" />
+<img src="/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_0.png" />
 
 ```js
 - root/project 레벨에 webpack 폴더를 생성하고 그 안에 다음 3개의 설정 파일을 추가하세요.
@@ -126,18 +82,7 @@ index.html
 
 해당 정보들을 참고하시고 개발 작업을 진행해주세요. 문제가 있거나 추가 질문이 있으시면 언제든지 물어보세요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import React from "react";
@@ -171,18 +116,7 @@ root.render(<App />);
 
 이제 웹팩 구성 파일을 업데이트해 봅시다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - webpack.common.js
 
@@ -233,18 +167,7 @@ module.exports = (envVars) => {
 };
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - webpack.dev.js
 
@@ -302,18 +225,7 @@ module.exports = {
 };
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - package.json 파일의 scripts 섹션을 업데이트/교체해주세요:
 
@@ -328,18 +240,7 @@ module.exports = {
 
 프로젝트 루트 수준에 tsconfig.json 파일을 추가하고 아래 구성을 붙여넣어주세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```json
 {
@@ -362,20 +263,9 @@ module.exports = {
 
 프로젝트 폴더와 파일 구조는 다음과 같이 보일 것입니다:
 
-![이미지](/ui-log-2/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_1.png)
+![이미지](/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_1.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 개발 서버 실행하기
 
@@ -387,18 +277,7 @@ npm start
 
 이제 React 앱이 http://localhost:8080에서 실행 중이어야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## ESLint 및 Prettier 설정하기
 
@@ -410,18 +289,7 @@ npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier @typ
 
 - 프로젝트 루트에 .eslintrc.json 파일을 만들고 다음 설정을 추가하세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 {
@@ -468,18 +336,7 @@ npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier @typ
 
 - package.json 파일의 scripts 섹션을 업데이트하세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 "scripts": {
 "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
@@ -495,37 +352,15 @@ npm run lint
 
 Your final `package.json` will look like this:
 
-<!-- TIL 수평 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-![Image](/ui-log-2/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_2.png)
+![Image](/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_2.png)
 
 Your final folder structure will look like this:
 
-<!-- TIL 수평 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<img src="/ui-log-2/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_3.png" />
+<img src="/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_3.png" />
 
 ## 결론
 
@@ -535,15 +370,4 @@ Your final folder structure will look like this:
 
 Dev.To에서 더 많은 기사 읽기 ➡️ Shivam Pawar
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>

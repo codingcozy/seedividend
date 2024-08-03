@@ -18,18 +18,7 @@ link: "https://medium.com/python-in-plain-english/this-is-why-fastapi-is-not-pro
 
 # FastAPI 소개
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 FastAPI은 표준 Python 타입 힌트를 기반으로 하는 Python 3.7+용 현대적이고 빠른 웹 프레임워크입니다. OpenAPI와 JSON Schema의 자동 생성 기능을 제공하여 API를 빠르고 효율적으로 만드는 데 매우 편리합니다. FastAPI의 DI(Dependency Injection) 접근 방식은 내장되어 있으며, Python의 타입 힌트를 활용하여 의존성을 원활하게 주입합니다.
 
@@ -39,18 +28,7 @@ FastAPI에서는 의존성 주입이 함수 시그니처 내의 Depends 키워�
 
 ## 예시: FastAPI 의존성 주입
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from fastapi import Depends, FastAPI
@@ -73,18 +51,7 @@ async def read_items(commons: dict = Depends(common_parameters)):
 
 FastAPI는 각 라우트의 함수 수준에서 의존성이 주입되어야 합니다. 여러 라우트가 동일한 의존성을 필요로 하는 경우 각 라우트 핸들러 함수에 별도로 주입해야 합니다. 특히 많은 수의 라우트와 공유 의존성이 있는 응용 프로그램에서 반복적이고 장황한 코드로 이어질 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 예제
 
@@ -120,18 +87,7 @@ async def create_item(logger: Annotated[Logger, Depends(Logger)]):
 
 # FastAPI에서 클래스 의존성 주입하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 FastAPI 루트에서 단일 및 여러 종속성을 주입하고 모든 호출마다 객체를 재설정하는 문제를 탐색해 보는 시나리오를 살펴봅시다.
 
@@ -165,18 +121,7 @@ if __name__ == "__main__":
 
 출력:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 로그 출력 시작
 로그 출력 시작 위치 - <main.Logger object at 0x102f3ddf0>
@@ -231,18 +176,7 @@ if **name** == "**main**":
 import uvicorn
 uvicorn.run(app, host="0.0.0.0", port=8000)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 당연히요! FastAPI 및 IOC 컨테이너에서의 지원 부족은 이 엔드포인트를 호출할 때마다 이미 초기화된 객체들을 초기화하기 위해 3초의 지연 시간을 지불해야 한다는 주된 이유입니다. 이 패턴은 진정한 안티-패턴이며, FastAPI의 약점을 드러낼 수도 있습니다.
 
@@ -252,18 +186,7 @@ uvicorn.run(app, host="0.0.0.0", port=8000)
 
 PyNest의 DI 시스템은 반복적인 코드를 줄이고 대규모 애플리케이션에 특히 유용한 개발 프로세스를 간소화하는 데에 디자인되었습니다. PyNest는 의존성이 한 번에 한 번씩 주입되는 구조화된 DI 시스템을 제공하며, 대체로 컨트롤러 클래스 수준에서 이루어집니다. 이 구조는 한 번 의존성이 컨트롤러에 주입되면 더 이상 주입이 필요하지 않고 코드가 재사용되며 DRY 원칙을 준수할 수 있음을 의미합니다. 이 구조를 통해 한 번 의존성이 컨트롤러에 주입되면 더 이상의 주입이 필요 없이 해당 컨트롤러의 모든 경로 메서드에서 사용될 수 있으므로 코드베이스를 간소화할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-ThisisWhyFastAPIisNOTProduction-ReadyYet_1.png
 
@@ -273,18 +196,7 @@ PyNest의 모듈화된 아키텍처를 사용하면 컨트롤러 클래스의 �
 
 예시 —
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from nest.core import Injectable, Controller, Get, Post
@@ -326,18 +238,7 @@ class ItemsController:
 
 이전에 논의한 바와 같이, FastAPI의 DI 매커니즘의 가장 큰 단점은 종속성을 관리하기 위해 싱글턴 패턴을 사용하지 않는 것입니다. 우리는 종속성이 모든 들어오는 요청마다 초기화되어야 한다는 것을 관찰했습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 PyNest에서는 현역에서 "injector" 라이브러리를 활용합니다. 이 라이브러리는 현대적인 Python 애플리케이션에서 종속성을 관리하기 위한 패키지입니다. injector은 싱글톤 패턴과 멀티 바인딩을 지원합니다. 클래스가 Injectable로 표시되어 종속성으로 등록되면, injector는 해당 클래스의 인스턴스를 생성하고 그 참조를 저장합니다. 이 injectable 객체에 대한 모든 호출은 injector를 통해 이루어지며, injectable 객체의 싱글톤 인스턴스를 반환합니다.
 
@@ -362,18 +263,7 @@ from nest.core import (
 import time
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로 주입하려는 두 개의 제공자와 로직 레이어를 포함하는 주요 서비스를 선언할 것입니다.
 
@@ -450,18 +340,7 @@ class ItemController:
         return self.item_service.delete(item)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대단해요, 거의 다 왔어요. 이제 앱 모듈을 정의하고 애플리케이션을 실행해 봅시다 -
 
@@ -500,18 +379,7 @@ INFO:     127.0.0.1:63824 - "PUT /items/ HTTP/1.1" 200 OK
 INFO:     127.0.0.1:63840 - "POST /items/ HTTP/1.1" 200 OK
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 와우! 정말 멋지네요. 우리는 Injectables 객체를 한 번만 초기화하고, 그 이후로는 컨테이너가 해당 객체들의 인스턴스를 관리한다는 것을 알 수 있어요.
 
@@ -521,18 +389,7 @@ INFO:     127.0.0.1:63840 - "POST /items/ HTTP/1.1" 200 OK
 
 ## 주입 가능한 객체
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Injectable-to-Injectable Injection: Injectable 객체는 다른 Injectable 객체를 주입할 수 있어서 일관성 있고 통합된 종속성 계층을 만들 수 있습니다.
 
@@ -542,18 +399,7 @@ INFO:     127.0.0.1:63840 - "POST /items/ HTTP/1.1" 200 OK
 
 ## Dependency Graph
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 비순환 의존성 그래프: 의존성은 유향 비순환 그래프 (DAG)를 형성해야 합니다. 순환 의존성이 없어야 하며, 이를 통해 처리 가능한 의존성 해결 및 런타임 오류나 무한 루프를 방지할 수 있습니다.
 
@@ -563,18 +409,7 @@ INFO:     127.0.0.1:63840 - "POST /items/ HTTP/1.1" 200 OK
 
 ## 제공자(Providers) 내보내기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 모듈은 제공자를 내보낼 수 있으며, 이는 응용 프로그램 내의 다른 모듈에서 사용되거나 주입될 수 있습니다.
 
@@ -584,18 +419,7 @@ INFO:     127.0.0.1:63840 - "POST /items/ HTTP/1.1" 200 OK
 
 ## 인스턴스 참조 및 재사용
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 애플리케이션이 삽입된 공급자를 호출하면 이미 초기화된 인스턴스를 참조하여 재사용합니다. 이렇게 함으로써 필요 없는 공급자 인스턴스의 생성을 방지하고 필요할 때 싱글톤과 같은 패턴을 준수합니다.
 
@@ -605,18 +429,7 @@ PyNest의 DI 접근 방식은 코드 조직화와 유지 보수 측면에서 명
 
 반면에 FastAPI의 DI 시스템은 각자의 강점을 갖고 있지만, 함수 수준에서의 주입 요구는 불필요하고 중복적인 요소를 도입할 수 있으며, 웹 애플리케이션이 복잡성을 더해감에 따라 유지 보수 및 확장성에서 오히려 역효과를 낼 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 자원
 
@@ -631,18 +444,7 @@ PyNest의 DI 접근 방식은 코드 조직화와 유지 보수 측면에서 명
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 계속하시기 전에:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 글쓴이를 클랩하고 팔로우해주세요! 👏️️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

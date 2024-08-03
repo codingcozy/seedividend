@@ -1,7 +1,7 @@
 ---
 title: "자바스크립트 애플리케이션의 Minification과 Obfuscation 사용 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-MinificationandobfuscationofJavaScriptapplications_0.png"
+coverImage: "/assets/img/2024-07-09-MinificationandobfuscationofJavaScriptapplications_0.png"
 date: 2024-07-09 18:39
 ogImage:
   url: /assets/img/2024-07-09-MinificationandobfuscationofJavaScriptapplications_0.png
@@ -14,22 +14,11 @@ link: "https://medium.com/@ajit.singh252504/minification-and-obfuscation-of-java
 
 JavaScript 코드 난독화는 코드를 덜 읽기 쉽고 이해하기 어려운 형태로 변환하는 기술로, 미인가된 개인들이 코드를 역공학화하거나 조작하는 것을 어렵게 만듭니다.
 
-![image](/ui-log-2/assets/img/2024-07-09-MinificationandobfuscationofJavaScriptapplications_0.png)
+![image](/assets/img/2024-07-09-MinificationandobfuscationofJavaScriptapplications_0.png)
 
 본질적으로, 난독화는 사람들이 이해하기 어렵게 코드를 변형하는 과정이지만, 기계가 여전히 기능적인 형태로 유지할 수 있도록 하는 것입니다. JavaScript의 맥락에서는 소스 코드를 변형하여 기능을 유지한 채 숨기는 것을 의미합니다. 목표는 잠재적인 적들이 원래 코드의 논리를 역공학화하거나 이해하는 것을 어렵게 만드는 것입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 암호화는 절대적인 보안이나 암호화를 제공하지는 않는다는 것을 명심해주세요. 대신, 암호화는 악의적인 공격자들에 대한 억제요소로 작용하여 공격자들의 장벽을 높이고 그들의 노력을 덜 가치 있게 만듭니다. 결연한 해커들은 여전히 암호화된 코드를 역공학으로 해독할 수 있지만, 암호화는 그들의 속도를 늦추고 경제적으로 덜 유리하게 만들 수 있습니다.
 
@@ -39,18 +28,7 @@ JavaScript 코드 난독화는 코드를 덜 읽기 쉽고 이해하기 어려�
 
 JavaScript 코드를 암호화하는 주된 동기 중 하나는 지적 재산을 보호하는 것입니다. 기업들은 혁신적인 알고리즘과 논리를 개발하는 데 상당한 시간, 노력 및 자원을 투자합니다. 암호화는 경쟁 업체가 이러한 귀중한 자산을 복사하거나 이해하는 것을 더 어렵게 만듭니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 2. 코드 조작 방지
 
@@ -60,18 +38,7 @@ JavaScript 코드를 암호화하는 주된 동기 중 하나는 지적 재산�
 
 상용 소프트웨어의 경우, 개발자는 라이선스 조항을 강제하기 위해 난독화를 사용할 수 있습니다. 라이선스 확인을 수정하거나 제거하기 어렵게 만들면, 개발자는 소프트웨어에 대한 액세스를 더 잘 제어할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 4. 코드 도난 방지
 
@@ -81,18 +48,7 @@ JavaScript 코드를 암호화하는 주된 동기 중 하나는 지적 재산�
 
 난독화 과정에 종종 포함되는 최소화(minification)는 코드 크기를 줄여 대역폭 사용량을 줄이고 웹 애플리케이션의 빠른 로드 시간을 이끌어냅니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # JavaScript 코드를 난독화하는 기술
 
@@ -102,18 +58,7 @@ JavaScript 코드를 암호화하는 주된 동기 중 하나는 지적 재산�
 
 ## 2. 변수 및 함수 이름 변경
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 의미 있는 변수와 함수 이름은 개발자의 가장 친한 친구입니다. 그러나 그것들은 역공학자들에게 큰 자산이 될 수도 있습니다. 변수와 함수의 이름을 암호화되어 해독하기 어렵고 설명이 없는 이름으로 변경함으로써, 당신의 코드를 이해하려는 누구에게나 복잡함을 더해줄 수 있습니다.
 
@@ -123,18 +68,7 @@ JavaScript 코드를 암호화하는 주된 동기 중 하나는 지적 재산�
 
 ## 4. 코드 분할 및 자체 실행 함수
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 여러 파일로 코드를 분할하고 셀프 실행 함수 내에 코드를 포장하세요. 이 기술을 사용하면 성능을 향상시킬뿐만 아니라 공격자가 전체 코드베이스를 파악하는 것을 어렵게 만들 수 있습니다.
 
@@ -144,18 +78,7 @@ JavaScript 코드를 암호화하는 주된 동기 중 하나는 지적 재산�
 
 ## 6. 죽은 코드 삽입
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 웹팩을 사용하여 JS 애플리케이션의 코드 최소화 및 난독화
 
@@ -163,18 +86,7 @@ ES 모듈을 기반으로 한 애플리케이션을 난독화하는 것은 모�
 
 ES 모듈을 다루고 코드를 난독화하고자 한다면, 다음 단계를 따라 진행할 수 있습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 단계 1: 클라이언트 사이드 폴더의 루트에서 npm을 초기화하세요:
 
@@ -188,18 +100,7 @@ npm init -y
 npm i -D webpack webpack-cli terser-webpack-plugin
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Step 3: 이제 프로젝트 루트에 webpack 설정 파일인 webpack.config.js를 다음 내용으로 생성해보세요:
 
@@ -248,18 +149,7 @@ module.exports = {
 
 예제 프로젝트 메인 진입 파일: src/index.js
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 import App from "./app.vue.js";
@@ -287,18 +177,7 @@ Step 4: Add a script ' “build”: “webpack –config webpack.config.js” ',
  },
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
   …

@@ -22,16 +22,7 @@ link: "https://medium.com/@alexzap922/an-integrated-quant-trading-analysis-of-us
 - 멋진 일곱 (알파벳, 아마존, 애플, 메타, 마이크로소프트, 엔비디아, 테슬라)
 - 기타: 보고서에 따르면 AMD는 2023년 이후 브랜드 성장을 상당히 경험했으며, 전년대비 53% 증가했습니다. 또한 AMD의 브랜드 가치가 비즈니스 기술 및 서비스 플랫폼 부문에서 5186만 달러에 달했습니다. 그 강한 성장이 어디서 비롯된 것인지 쉽게 추측할 수 있습니다. AMD는 최근 몇 년 동안 경쟁사 인텔과 엔비디아가 해 온 것처럼 AI에 주력하고 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 비즈니스 케이스
 
@@ -48,16 +39,7 @@ link: "https://medium.com/@alexzap922/an-integrated-quant-trading-analysis-of-us
 - TA 지표는 자산 가격과 거래량의 추세를 식별하기 위해 시장 참가자들에 의해 널리 사용됩니다. 최근 연구에 따르면 [2], 우리는 MPT와 TA 간의 격차를 줄이기 위해 TA 신호의 최적 가중치를 직접 다중 TA 신호의 함수로 매개변수화된 PO 전략을 개발했습니다.
 - 일부 거래자들은 FA 대신 TA를 선호하지만, 가장 성공적인 전략은 종종 두 가지를 조화롭게 적용한 것에서 나옵니다. 이는 거래자들이 즉각적인 가격 변동과 장기적인 경제 예측에서 모두 이익을 취할 수 있도록 하며 [3], 이 통합된 PO 접근 방식은 시장 역학을 이해하는 것을 강화할 뿐만 아니라 거래자들이 견고한 투자 결정을 내리기 위한 포괄적인 도구 상자를 제공합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 기술 분석 (TA)
 
@@ -69,16 +51,7 @@ link: "https://medium.com/@alexzap922/an-integrated-quant-trading-analysis-of-us
 - TA는 단기적인 패턴만 식별하는 반면, FA는 주식 가격이 실제 가치를 저평가(또는 고평가)하는 자산을 강조할 것입니다 [5, 7].
 - 간단히 말해, 스마트한 투자 결정을 내리는 것이 FA의 주요 이점입니다. 이는 회사가 얼마나 벌고 지출하는지, 얼마나 많은 제품을 판매하는지 및 외부 요소에 어떻게 영향을 받는지를 이해하는 것을 포함합니다 [7].
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## TA vs FA
 
@@ -90,16 +63,7 @@ link: "https://medium.com/@alexzap922/an-integrated-quant-trading-analysis-of-us
 - 투자 수익률(ROI)은 모든 산업에서 익숙한 지표입니다.
 - 재정적으로 위험은 투자 수익이 기대와 다를 가능성을 의미합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 도구들:
 
@@ -114,16 +78,7 @@ link: "https://medium.com/@alexzap922/an-integrated-quant-trading-analysis-of-us
 - FinanceToolkit 예제
 - 주식 시장 트렌드 및 Value at Risk
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 프로젝트 마일스톤
 
@@ -141,16 +96,7 @@ link: "https://medium.com/@alexzap922/an-integrated-quant-trading-analysis-of-us
 
 ## 기본 임포트 및 설치
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 필요한 Python 라이브러리 설치 및 불러오기
 
@@ -206,16 +152,7 @@ warnings.filterwarnings("ignore")
 
 # 2020–2024 빅 포 팝 4 (BF) 기본 수익-변동성 분석
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 입력된 BF 주식 데이터 2020-2024년을 읽는 중
 
@@ -235,16 +172,7 @@ print('\n주식 일일 수익률 그래픽:\n')
 qs.plots.daily_returns(aapl,benchmark='SPY')
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_1.png)
@@ -263,16 +191,7 @@ qs.plots.returns(aapl)
 ![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_2.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 누적 수익 대비는 일정 기간 동안 투자 가격의 총 변화를 의미합니다.
 - 이것은 물가 상승 및 기타 외부 요인의 영향을 고려하지 않는 총 명목 수익입니다.
@@ -298,16 +217,7 @@ qs.stats.kurtosis(aapl).round(2).plot.bar(label='첨도')
 plt.legend()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_3.png)
 
@@ -320,16 +230,7 @@ plt.legend()
 
 - BF의 일일 수익의 왜도(Skewness)를 계산하고 그래프에 표시하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # Quantstats를 사용하여 왜도 측정
@@ -360,16 +261,7 @@ plt.legend()
 ## BF의 표준 편차
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - BF 일별 수익률의 표준 편차(STD)를 계산하고 그래프로 플로팅합니다.
 
@@ -396,16 +288,7 @@ plt.legend()
 - 변동성이 큰 주식은 표준 편차가 높고, 안정적인 블루 칩 주가 주식의 편차는 보통 낮습니다.
 - 결론: std(AAPL, AMZN, GOOG) 약 0.02, std(META) 약 0.03입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## BF 상관 분석
 
@@ -420,16 +303,7 @@ plt.show()
 
 ![이미지](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_6.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 위의 플롯은 구글과 메타 주식 간의 흥미로운 선형 관계를 보여줍니다.
 - BF 일일 수익의 상관 행렬을 플로팅한 결과입니다.
@@ -447,16 +321,7 @@ plt.show()
 
 - GOOG와 AAPL, AMZN, META의 3개 주식 간에는 0.64~0.66 정도의 강한 양의 상관 관계가 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## BF의 베타 계수
 
@@ -554,16 +419,7 @@ print(자산_베타)
 
 - BF의 베타 계수를 플로팅하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 fig, ax = plt.subplots(figsize=(6, 6))
@@ -601,16 +457,7 @@ plt.show()
 ![Bar Chart](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_9.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 정의상 S&P 500 지수와 같은 시장은 베타가 1.0이며, 개별 주식은 시장과 얼마나 벗어나는지에 따라 순위가 매겨집니다.
 - 추론: BF 주식은 베타가 1.0보다 높기 때문에 시간이 지남에 따라 시장보다 더 많이 흔듭니다.
@@ -635,16 +482,7 @@ qs.stats.sharpe(aapl).round(2).plot.bar(label='샤프 비율')
 plt.legend()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_10.png)
 
@@ -657,16 +495,7 @@ plt.legend()
 - 각 보안의 가중치 = 포트폴리오 내 보안 수로 1을 나눈 값
 - 4개 주식으로 이루어진 BF 포트폴리오에서 각 주식은 25%의 가중치를 가집니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 weights = [0.25, 0.25, 0.25, 0.25] # 각 주식의 가중치 정의
@@ -701,16 +530,7 @@ portfolio.plot()
 <img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_11.png" />
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 portfolio.hist()
@@ -724,16 +544,7 @@ qs.plots.returns(portfolio)
 
 <img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_13.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Equal-Weighted BF 포트폴리오 성과 보고서 및 전략 시각화 vs SPY 기준 생성 중입니다!
 
@@ -834,16 +645,7 @@ Treynor Ratio           -            161.56%
 
 <img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_14.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 전략 시각화 대 SPY 벤치마크
 
@@ -853,16 +655,7 @@ Treynor Ratio           -            161.56%
 
 ![이미지3](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_17.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image 1](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_18.png)
@@ -874,16 +667,7 @@ Treynor Ratio           -            161.56%
 - 결과:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 전략 누적 수익률은 약 200%에 비해 벤치마크는 약 75%입니다.
 - 전략 누적 수익률(변동성 매칭)은 약 125%입니다.
@@ -908,16 +692,7 @@ Treynor Ratio           -            161.56%
 - PyPortfolioOpt 라이브러리는 EfficientFrontier 클래스를 제공하며, 이 클래스는 공분산 행렬과 예상 수익을 입력으로 사용합니다. weights 변수는 최대 샤프 비율을 갖는 목표에 따라 각 자산에 대한 최적화된 가중치를 저장합니다.
 - 효율적인 투자 가장자리(Point of Origin)를 위한 라이브러리 가져오기 및 주식 데이터 읽기.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 포트폴리오 최적화를 위한 라이브러리 가져오기
@@ -961,16 +736,7 @@ plt.legend()
 <img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_21.png" />
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 공분산 행렬 시각화
 
@@ -992,16 +758,7 @@ S.style.background_gradient(cmap='coolwarm')
 
 - MSR에 대한 포트폴리오 최적화
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 최대 샤프 비율을 위한 최적화
@@ -1044,16 +801,7 @@ Length: 1136, dtype: float64
 
 - MSR 누적 수익 시각화 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 optimized_portfolio.plot(label='최적화된 포트폴리오')
@@ -1156,16 +904,7 @@ YTD                      34.8%        23.43%
 없음
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 최악의 5번의 Drawdown
 
@@ -1175,16 +914,7 @@ YTD                      34.8%        23.43%
 
 ![MSR PO Strategy Visualization](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_25.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Image 1](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_26.png)
@@ -1196,16 +926,7 @@ YTD                      34.8%        23.43%
 ![Image 4](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_29.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 결론:
 
@@ -1226,16 +947,7 @@ YTD                      34.8%        23.43%
 
 # (NVDA, AMD) 대 S&P 500 수익성 분석
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - FinanceToolkit [9]를 사용하여 (NVDA, AMD) 대 S&P 500 수익 분석의 세부 정보를 살펴보겠습니다.
 - 입력한 과거 데이터, 손익 계산서, 수익성 비율, FA 및 TA 지표 가져오기 [9]
@@ -1282,16 +994,7 @@ ichimoku_cloud = companies.technicals.get_ichimoku_cloud()
 
 - NVDA, AMD 및 S&P 500의 누적 수익률을 시각화합니다. [9]
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 display(역사적_데이터)
@@ -1331,16 +1034,7 @@ plt.show()
 
 - NVDA 및 AMD 대 S&P 500의 변동성 그래픽화
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 print(historical_data['Volatility'].iloc[-1])
@@ -1359,16 +1053,7 @@ historical_data['Volatility'].iloc[-1].plot.bar(title='Volatility')
 ## 손익계산서
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 2019년부터 2024년까지의 NVDA 및 AMD 손익 계산서를 비교해보세요 [9]
 
@@ -1442,16 +1127,7 @@ plt.show()
 
 ![차트2](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_33.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Profitability Ratios](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_34.png)
@@ -1505,16 +1181,7 @@ plt.show()
 ```
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 -md
 
@@ -1566,16 +1233,7 @@ plt.title("AMD의 수익성 비율")
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_37.png)
@@ -1628,16 +1286,7 @@ prof[cols].plot(kind='bar')
 ![Image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_38.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 2023년 NVDA 대 AMD 수익성 비율 확대
 
@@ -1653,16 +1302,7 @@ plt.ylim(-1, 2.5)
 
 ## AMD 대 NVDA 그리스 민감도
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - AMD에 대한 그리스 감수치 분석 중 [9]
 
@@ -1761,16 +1401,7 @@ plt.show()
 
 - NVDA에 대한 그리스 감수치 분석 중 [9]
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ```js
@@ -1872,16 +1503,7 @@ Delta: 기초 자산의 가격이 $1 증가하면 옵션의 가격이 Delta 금�
 
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 감마는 델타의 변화가 기초 자산 가격 변동과 어떻게 관련되는지를 측정하는 지표입니다. 기초 자산 가격이 $1 증가하면, 옵션의 델타는 감마만큼 변화합니다.
 
@@ -1889,16 +1511,7 @@ Delta: 기초 자산의 가격이 $1 증가하면 옵션의 가격이 Delta 금�
 
 세타는 옵션 가격이 옵션의 만기까지 남은 시간에 대해 얼마나 민감한지를 나타내는 지표입니다. 옵션의 만기까지 남은 기간이 하루 줄어들면, 옵션 가격은 세타만큼 변화합니다. 세타 옵션 그리스는 시간 가치 손실이라고도 불립니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - ATM(At the money)은 옵션의 행사 가격이 기초 자산의 현재 시장 가격과 동일한 상황을 말합니다. ATM 콜 옵션은 델타가 0.50입니다.
 - NVDA/AMD의 ATM 행사 가격 USD는 130/175입니다.
@@ -1929,16 +1542,7 @@ Delta: 기초 자산의 가격이 $1 증가하면 옵션의 가격이 Delta 금�
 | 2024-07-01/2024-07-07 | -0.0079 | -0.0255    | NaN      |
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_42.png)
 
@@ -1949,16 +1553,7 @@ Delta: 기초 자산의 가격이 $1 증가하면 옵션의 가격이 Delta 금�
 - 투자자들은 위험을 양적화하고 자본에 대한 예상 수익을 추정하는 데 사용되는 금융 모델을 찾고 있습니다. Fama French 5요인 모델은 가장 고전적인 모델 중 하나입니다(Fama 및 French, 2015).
 - NVDA와 AMD의 Fama-French 요인과의 상관 관계 탐색
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 화면에 요소 대상 상호 상관 관계를 표시합니다.
@@ -2020,16 +1615,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - MKT은 시장의 초과수익입니다. 이것은 가치가 가중치가 부여된 시장 포트폴리오의 수익률입니다.
 - SMB는 소형 주식의 다양한 포트폴리오의 수익률에서 대형 주식의 다양한 포트폴리오의 수익률을 뺀 값입니다.
@@ -2163,16 +1749,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_45.png)
@@ -2185,16 +1762,7 @@ plt.show()
 - 회사 티커로 Toolkit을 초기화하고 1년 주식 가격 시뮬레이션을 플로팅하기 [9]
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 회사 티커로 Toolkit을 초기화합니다
@@ -2231,16 +1799,7 @@ plt.show()
 
 ## META 캔들스틱 & 기술 분석 지표
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 마침내, 지난 729일 동안의 META TA 전략들을 탐색해 보겠습니다.
 - 주식 데이터 읽기
@@ -2303,16 +1862,7 @@ fig.add_trace(go.Scatter(x=dfme.index,
 fig.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_47.png" />
 
@@ -2343,16 +1893,7 @@ Date
 501 rows × 6 columns
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - RSI 백테스팅 전략 구현하기
 
@@ -2430,16 +1971,7 @@ fig.show()
 
 - MA 백테스팅 전략 구현하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # TA 라이브러리를 사용하여 EMA 생성
@@ -2521,16 +2053,7 @@ fig.show()
 
 # 결론
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 저희 사회의 디지털화가 급속히 증가함에 따라 미국 대형 기술 기업(Big Tech)들이 디지털 인프라와 플랫폼 소유를 통해 엄청난 부를 축적하고 영향력을 행사하게 되었습니다.
 - 본 게시물에서는 기술적, 기본적 분석 도구와 최신 포트폴리오 최적화(PO) 알고리즘을 Python을 활용해 통합한 미국 Big Tech들의 양적 거래 분석을 제시했습니다.
@@ -2558,16 +2081,7 @@ fig.show()
 
 # 더 알아보기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 주식 포트폴리오 위험/수익률 최적화
 - 비트코인, 금, 원유 가격의 종합 분석
@@ -2585,16 +2099,7 @@ fig.show()
 
 ## 면책사항
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 다음의 면책 조항은이 기사에 제공 된 정보가 교육 용도로만 사용되며 재정 건전성 또는 투자 자문으로 간주되어서는 안 된다는 것을 명확히합니다.
 - 제공된 정보는 귀하의 개별 재정 상황, 목표 또는 리스크 허용도를 고려하지 않습니다.

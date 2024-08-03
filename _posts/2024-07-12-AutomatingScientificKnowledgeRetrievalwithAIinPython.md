@@ -21,16 +21,7 @@ link: "https://medium.com/@crisvelasquez/automating-scientific-knowledge-retriev
 AI 및 의미 검색은 정보 접근 및 상호 작용 방식을 변혁하는 데 놀라운 가능성을 보여 주었습니다. 이러한 혁신의 선두에서는 OpenAI 함수의 응용이 있으며, 자연어 입력을 구조화된 출력이나 함수 호출로 변환합니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예를 들어, 최신 재생 에너지 기술에 대한 질문을 처리해야 할 때 OpenAI의 모델은 최근 논문을 살펴보고 주요 논문과 결과물을 식별하여 연구 트렌드를 요약할 수 있습니다. 특정 키워드에 국한되지 않고 작동할 수 있어요.
 
@@ -40,16 +31,7 @@ AI 및 의미 검색은 정보 접근 및 상호 작용 방식을 변혁하는 �
 
 이 안내서의 구성은 다음과 같습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 1. 솔루션 아키텍처
 
@@ -59,16 +41,7 @@ AI 및 의미 검색은 정보 접근 및 상호 작용 방식을 변혁하는 �
 
 이 아키텍처는 초기 사용자 입력부터 최종 응답 전달까지의 정보 흐름을 용이하게 하는 다양한 구성 요소를 통합합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*fjRg85xwRpokyLaOjM3USg.gif)
@@ -80,16 +53,7 @@ AI 및 의미 검색은 정보 접근 및 상호 작용 방식을 변혁하는 �
 3. 쿼리 처리: 사용자의 쿼리는 이곳에서 해석되며, 의도를 이해하고 후속 조치를 위해 준비됩니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 4. OpenAI API 통합 (임베딩 및 완성):
 
@@ -100,16 +64,7 @@ AI 및 의미 검색은 정보 접근 및 상호 작용 방식을 변혁하는 �
 
 6. 기사 가져오기 & 요약: 이 기능은 기사를 검색한 후 쿼리의 맥락에 따라 요약할 기사를 우선순위로 설정하기 위해 임베딩을 사용합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 7. PDF 처리, 텍스트 추출 및 청킹: 자세한 정보가 필요한 경우, 시스템은 PDF를 처리하고 텍스트를 추출하여 작은 조각으로 나누어 요약 작업을 준비합니다.
 
@@ -119,16 +74,7 @@ AI 및 의미 검색은 정보 접근 및 상호 작용 방식을 변혁하는 �
 
 9. 사용자에게 제공: AI가 생성한 답변과 논문 요약을 결합한 응집된 응답이 사용자에게 제공되는 마지막 단계입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 2. Python 시작하기
 
@@ -147,16 +93,7 @@ AI 및 의미 검색은 정보 접근 및 상호 작용 방식을 변혁하는 �
 - PyPDF2: PDF 파일로부터 텍스트를 추출할 수 있도록 하며, PDF 형식의 과학 논문을 처리하는 데 필수적입니다.
 - tqdm: 루프나 장기 실행 프로세스에 대한 진행 표시 막대를 생성하여 사용자 경험을 향상시킵니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 2.2 환경 설정하기
 
@@ -171,16 +108,7 @@ EMBEDDING_MODEL = "text-embedding-ada-002"
 
 ## 2.3 프로젝트 설정
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다운로드한 논문이나 데이터를 관리하기 위한 구조화된 디렉토리를 만드는 것은 조직화와 쉬운 접근성을 위해 매우 중요합니다. 필요한 디렉토리를 설정하는 방법을 알려드리겠습니다:
 
@@ -197,16 +125,7 @@ if not os.path.exists(directory):
 
 이 코드 조각을 통해 스크립트가 수동 디렉토리 설정 없이 모든 시스템에서 실행될 수 있도록 보장하여 프로젝트의 이식성과 사용자 친화성을 높일 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 3. 핵심 기능
 
@@ -216,16 +135,7 @@ if not os.path.exists(directory):
 
 아래에서는 이러한 기능들을 자세히 설명하며, 그 구현을 보여주는 구체적인 코드 조각을 강조하겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 3.1 임베딩 생성
 
@@ -240,16 +150,7 @@ def embedding_request(text):
 
 이 함수는 재시도 메커니즘으로 OpenAI API에서 임베딩을 요청하며, 잠재적인 API 오류나 요청 한도에 대응하여 견고성을 보장합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 3.2 학술 논문 검색
 
@@ -298,16 +199,7 @@ def get_articles(query, library=paper_dir_filepath, top_k=5):
 
 ## 3.3 순위 매기기 및 요약하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 해당 논문을 손에 쥐고 있으면 시스템은 쿼리와 관련성에 따라 그들을 순위를 매기고 내용을 요약하여 사용자에게 간결하고 통찰력 있는 정보를 제공합니다.
 
@@ -343,16 +235,7 @@ def strings_ranked_by_relatedness(
 
 관련 논문을 식별한 후, 챗봇은 과학 문서의 본질을 요약하는 과정을 사용합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 # 청크를 요약하고 종합 요약을 반환하는 함수
@@ -433,16 +316,7 @@ def summarize_text(query):
 
 이러한 함수들은 챗봇과 다양한 외부 데이터 소스 및 도구 간의 원활한 상호작용을 허용하여 사용자에게 자세하고 정확하며 맥락에 맞는 정보를 제공하여 사용자 경험을 크게 향상시킵니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 OpenAI 함수들은 외부 계산 또는 데이터 검색을 모델의 처리 과정에 직접 통합하여 OpenAI 모델의 기능을 확장하는 데 사용됩니다.
 
@@ -453,16 +327,7 @@ OpenAI 함수들은 외부 계산 또는 데이터 검색을 모델의 처리 �
 
 구현:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # Function to initiate our get_articles and read_article_and_summarize functions
@@ -509,16 +374,7 @@ arxiv_functions = [
 
 필요한 함수 및 대화형 챗봇 상호작용이 포함된 전체 코드를 참조하세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 프로젝트 유형뿐만 아니라 AI, 데이터 과학 및 기술 분야의 다양한 혁신적인 데이터 기반 이니셔티브에 대해 www.entreprenerdly.com의 다양한 자원을 살펴보기를 권장합니다.
 
@@ -528,16 +384,7 @@ arxiv_functions = [
 
 이 섹션에서는 사용자-시스템 상호작용 흐름을 설명하는 예제들과 함께 연구 챗봇의 구현과 기능에 대해 깊이 파고들어 논의합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 4.1 구현 개요
 
@@ -547,16 +394,7 @@ arxiv_functions = [
 
 ## 4.2 기능
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 연구 챗봇의 핵심 기능은 다음과 같습니다:
 
@@ -568,16 +406,7 @@ arxiv_functions = [
 
 - 사용자 질의 예시: 사용자가 “양자 컴퓨팅의 최신 발전은 무엇인가요?”라고 묻습니다. 질의 처리:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 response = openai.Completion.create(
@@ -594,16 +423,7 @@ response = openai.Completion.create(
 
 이 단계는 사용자가 챗봇에게 특정 주제에 대한 논문을 식별하고 검색하는 것을 포함합니다.  
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 시스템 메시지로 시작합니다
@@ -642,16 +462,7 @@ updated_response = chat_completion_with_function_execution(
 display(Markdown(updated_response["choices"][0]["message"]["content"]))
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 5. 도전과 솔루션
 
@@ -662,16 +473,7 @@ display(Markdown(updated_response["choices"][0]["message"]["content"]))
 
 ## 5.2 사용자-시스템 상호 작용 흐름
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 도전: 특히 다단계 정보 검색 및 처리가 필요한 복잡한 쿼리에 대해 대화 플로우를 자연스럽고 매력적으로 유지하는 것이 도전입니다.
 - 해결책: 사용자 경험을 향상시키기 위해, 챗봇이 사용자와 상호 작용하는 동안 정보 검색을 백그라운드에서 처리하면서 상호 작용적인 세션을 유지할 수 있는 멀티 스레드 요청 처리 시스템을 구현할 수 있습니다.
@@ -683,16 +485,7 @@ display(Markdown(updated_response["choices"][0]["message"]["content"]))
 
 ## 5.4 실시간 데이터 동기화
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 도전 과제: 챗봇의 데이터베이스를 실시간으로 최신 과학 논문과 동기화하는 것. 새로운 연구가 계속 발표되고 있기 때문에, 챗봇이 가장 최신 정보를 제공하는 것은 상당한 도전입니다.
 - 해결책: 대형 과학 논문 데이터베이스의 웹훅과 RSS 피드를 사용하여 실시간 데이터 동기화 매커니즘을 구현할 수 있습니다. 이를 통해 새로운 논문이 제공되는 즉시 시스템이 자동으로 레포지토리를 업데이트할 수 있습니다.
@@ -703,16 +496,7 @@ display(Markdown(updated_response["choices"][0]["message"]["content"]))
 
 다양한 학문 분야의 연구자들은 이 시스템을 활용하여 문헌 검토 과정을 간소화하고 효율적으로 관련 연구를 찾을 수 있습니다. 연구 주제와 관련된 구체적인 쿼리를 입력함으로써, 시스템은 과학 논문을 신속히 검색하여 주요 결과, 방법론 및 결과를 식별하고 요약할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 6.2 산업 연구 및 개발
 
@@ -722,16 +506,7 @@ display(Markdown(updated_response["choices"][0]["message"]["content"]))
 
 교육자와 학생 모두 시스템을 활용하여 학습 경험을 풍부하게 하고 학업 연구를 지원할 수 있습니다. 교사들은 강의를 준비하기 위한 최신 정보를 찾아 수업 내용을 현재와 관련성 있게 전달할 수 있습니다. 마찬가지로 학생들은 에세이, 프로젝트 또는 논문을 위한 소스, 참고 자료 및 사례 연구를 찾기 위해 시스템을 활용할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 6.4 데이터 과학 및 AI
 
@@ -741,16 +516,7 @@ display(Markdown(updated_response["choices"][0]["message"]["content"]))
 
 이 연구 및 과학적 지식 검색 시스템의 개발과 구현은 인공지능의 변혁적 잠재력을 강조하며, 과학적 조사의 접근성과 효율성을 향상시키는 데 중요한 역할을 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 미래 작업은 AI 및 기계 학습의 최신 발전을 활용하여 식별된 과제에 대응하며, 시스템이 최첨단 기술 선두에 머무르고 다양한 사용자들의 요구를 계속 충족할 수 있도록 보장하는 데 초점을 맞추게 될 것입니다.
 

@@ -1,7 +1,7 @@
 ---
 title: "CSS 높이 0에서 자동으로 부드럽게 전환하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-CSSAchievingaSmoothTransitionfromHeight0toAuto_0.png"
+coverImage: "/assets/img/2024-07-09-CSSAchievingaSmoothTransitionfromHeight0toAuto_0.png"
 date: 2024-07-09 18:20
 ogImage:
   url: /assets/img/2024-07-09-CSSAchievingaSmoothTransitionfromHeight0toAuto_0.png
@@ -10,7 +10,7 @@ originalTitle: "CSS: Achieving a Smooth Transition from Height 0 to Auto!"
 link: "https://medium.com/@mannycode/css-achieving-a-smooth-transition-from-height-0-to-auto-14e554885497"
 ---
 
-![이미지](/ui-log-2/assets/img/2024-07-09-CSSAchievingaSmoothTransitionfromHeight0toAuto_0.png)
+![이미지](/assets/img/2024-07-09-CSSAchievingaSmoothTransitionfromHeight0toAuto_0.png)
 
 만약 CSS를 조금 다뤄보았다면, 아마도 높이를 0에서 자동으로 전환하는 것을 시도해보았고, 협조하지 않을 때의 실망을 경험한 적이 있을 것입니다! 😢
 
@@ -18,18 +18,7 @@ link: "https://medium.com/@mannycode/css-achieving-a-smooth-transition-from-heig
 
 실용적인 예시인 쉬운 따라하기 아코디언에 대해 알아봅시다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 HTML 구조는 간단합니다:
 
@@ -48,18 +37,7 @@ HTML 구조는 간단합니다:
 
 이전에 시도한 CodePen에서 높이 속성에 전환 효과를 추가했습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 .accordion-body {
@@ -78,18 +56,7 @@ HTML 구조는 간단합니다:
 
 가능한 해결책은 max-height를 사용하는 것입니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```css
 .accordion-body {
@@ -107,18 +74,7 @@ CSS Grid로 변경해보세요!
 
 CSS 그리드를 사용하여 한 개의 그리드 아이템을 만드는 멋진 방법이 있습니다. grid-template-rows를 0fr에서 1fr로 전환하도록 설정하여 항목이 0에서 자연스러운 높이로 부드럽게 전환되도록합니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 .accordion-body {
@@ -138,18 +94,7 @@ CSS 그리드를 사용하여 한 개의 그리드 아이템을 만드는 멋진
 
 유일한 주의점은 `.accordion-body` 내부 div에 `overflow: hidden`을 추가하는 것입니다. 작은 CSS 추가지만 보람이 있죠. 댓글로 의견 공유해 주세요!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 요령은 grid-template-rows의 애니메이션 가능성에 의존합니다.
 

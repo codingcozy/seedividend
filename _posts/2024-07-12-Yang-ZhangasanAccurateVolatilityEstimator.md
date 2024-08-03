@@ -21,16 +21,7 @@ link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
 # 양-장 변동성 이해하기
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 복잡한 변동성 모델에 대해 논의하기 전에, 항상 가장 기본적인 변동성 모델(또는 계산) 즉, 역사적 표준 편차에 대해 잘 이해하는 것이 좋습니다. 역사적 방법을 사용한 표준 편차는 금융 상품의 변동성을 측정하는 일반적인 방법으로, 과거 가격 데이터를 기반으로 합니다.
 
@@ -40,16 +31,7 @@ link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
 
 ![image](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_2.png)
@@ -61,16 +43,7 @@ link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
 - 일일 수익률의 분산을 계산하세요:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_4.png)
@@ -82,16 +55,7 @@ link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
 어떤 통계적 측정 값처럼 장단점이 있습니다. 역사적 표준 편차는 쉽게 계산할 수 있습니다. 스프레드시트 및 프로그래밍 언어에서 쉽게 구현할 수 있는 기본 통계 작업이 필요합니다. 변동성에 대한 공식적인 측정 방법으로 이해되며, 깊은 통계 배경을 갖지 않을 수 있는 이해관계자들에게 쉽게 설명할 수 있습니다. 많은 금융 모델 및 위험 지표(예: 샤프 비율)는 리스크 측정 값으로서 표준 편차를 의존합니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 샘플 크기가 작은 경우, 역사적 표준 편차는 실제 변동성을 과소평가하는 경향이 있습니다. 이 편향은 자산의 리스크에 대한 잘못된 결론으로 이어질 수 있습니다. 이 방법은 분석 기간 동안 자산의 기저 변동성이 일정하다고 가정합니다. 실제로 변동성은 시간이 지남에 따라 변할 수 있으므로 이 가정은 현실적이지 않습니다.
 
@@ -130,16 +94,7 @@ plt.grid()
 plt.axhline(y=np.mean(rolling_volatility), color='red', linestyle='dashed')
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Yang-Zhang 변동성 추정기는 Rogers-Satchell 및 Garman-Klass 추정기의 장점을 결합한 과거 변동성 측정치이다. 이는 특히 고개를 넘는 높은 가격 변동이나 야간 갭이 있는 자산에 유용하다. 이 추정기는 더 간단한 변동성 추정기에 존재하는 편향 및 오차를 줄이도록 설계되었다.
 
@@ -149,16 +104,7 @@ Yang-Zhang 변동성 추정기는 다음 공식을 사용하여 계산된다:
 
 참고:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_7.png" />
 
@@ -168,16 +114,7 @@ K factor는 open-close 변동성과 close-close 변동성의 기여도를 균형
 
 더 많은 작업을 보려면, 그림에 첨부된 링크를 따라 가면 PDF 책 카탈로그를 찾을 수 있는 제 웹사이트를 방문해주세요!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_8.png)
@@ -238,16 +175,7 @@ plt.axhline(y=np.mean(rolling_volatility), color='red', linestyle='dashed)
 ```
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_9.png)
 

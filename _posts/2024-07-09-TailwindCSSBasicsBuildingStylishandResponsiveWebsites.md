@@ -1,7 +1,7 @@
 ---
 title: "Tailwind CSS 기초 스타일리시하고 반응형 웹사이트 만들기 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites_0.png"
+coverImage: "/assets/img/2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites_0.png"
 date: 2024-07-09 14:07
 ogImage:
   url: /assets/img/2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@rajataha062/tailwind-css-basics-building-stylish-and-
 
 웹 개발의 끊임없이 발전하는 세계에서는 스타일리시하고 반응형 웹사이트를 빠르고 효율적으로 만드는 것이 중요합니다. 최근 유틸리티와 유연성으로 인해 인기를 얻고 있는 도구 중 하나가 Tailwind CSS입니다. 이 초보자를 위한 가이드에서는 Tailwind CSS의 기본 개념과 현대적이고 반응형 디자인을 만들기 위해 어떻게 활용할 수 있는지 살펴볼 것입니다.
 
-![2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites](/ui-log-2/assets/img/2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites_0.png)
+![2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites](/assets/img/2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites_0.png)
 
 ## Tailwind CSS란?
 
 Tailwind CSS는 유틸리티-퍼스트 CSS 프레임워크로, HTML에서 직접 사용할 수 있는 저수준의 유틸리티 클래스를 제공합니다. 부트스트랩과 같은 전통적인 CSS 프레임워크와 달리 Tailwind는 미리 정의된 구성 요소가 없습니다. 대신 여러분이 조합하여 원하는 디자인을 만들 수 있는 일련의 유틸리티 클래스를 제공합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # Tailwind CSS를 선택하는 이유
 
@@ -41,18 +30,7 @@ Tailwind CSS는 유틸리티-퍼스트 CSS 프레임워크로, HTML에서 직접
 
 # 설치
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Tailwind CSS를 시작하려면 npm을 통해 설치하거나 CDN을 사용하여 HTML 파일에 직접 포함시킬 수 있습니다.
 
@@ -65,18 +43,7 @@ npx tailwindcss init
 
 CDN을 사용하는 방법:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -100,18 +67,7 @@ module.exports = {
 };
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 기본 사용법
 
@@ -137,18 +93,7 @@ Tailwind CSS는 HTML 요소를 스타일링하기 위해 유틸리티 클래스�
 
 이 예제에서는 몇 가지 Tailwind 유틸리티 클래스를 사용했습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - bg-gray-100: 밝은 회색 배경 색상을 지정합니다.
 - flex, items-center, justify-center, h-screen: 콘텐츠를 수직 및 수평 중앙 정렬합니다.
@@ -167,18 +112,7 @@ Tailwind CSS를 사용하면 모바일을 먼저 고려하는 접근 방식으�
 </div>
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 예시에서는 패딩(p-6)과 텍스트 크기(text-xl)가 다른 브레이크포인트(sm, md, lg)에서 변경됩니다.
 
@@ -198,18 +132,7 @@ module.exports = {
 };
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이제 HTML에서 사용자 정의 색상을 사용할 수 있습니다.
 
@@ -221,17 +144,6 @@ module.exports = {
 
 Tailwind CSS는 세련된 반응형 웹사이트를 빠르고 효율적으로 구축하는 강력한 도구입니다. 이 유틸리티 중심의 접근 방식은 탁월한 유연성과 사용자 정의 가능성을 제공하며, 현대 웹 개발자들 사이에서 인기가 높습니다. 웹 개발을 시작하거나 업무 흐름을 최적화하려는 경우, Tailwind CSS를 탐색해 보는 것이 좋습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 좋은 코딩하세요!

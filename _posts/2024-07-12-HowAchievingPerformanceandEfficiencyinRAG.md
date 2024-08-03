@@ -19,16 +19,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 그래서 새로운 패러다임인 검색 증강 생성(Retrieval Augmented Generation, RAG)이 발전했습니다. 이 새로운 시스템에서 LLM은 검색된 문맥을 활용하여 응답을 생성합니다. 따라서 RAG는 필요한 문맥을 찾아주며 LLM이 매개변수를 업데이트할 필요가 없도록 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그러나 모델에는 고유한 매개 변수 메모리가 있습니다. 때로는 이 매개 변수 메모리와 컨텍스트 간에 충돌이 발생하여 모델은 매개 변수 내의 답변과 RAG에서 제안된 답변 중에서 선택해야 합니다. 이러한 이유로 시스템을 최적화하는 데 사용되는 다양한 기술이 개발되었습니다.
 
@@ -38,16 +29,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 각 단계에 대해 다른 방법들이 있기 때문에 복잡성이 증가합니다. 게다가, 더 정교한 RAG 패러다임은 여러 구성 요소로 구성되어 있으며, 각 단계마다 여러 가지 해결책이 가능합니다. 예를 들어, 다양한 종류의 청크화와 수십 가지 패턴의 임베더가 있습니다. 따라서 실무자는 여러 가지 결정을 내려야 합니다. 이러한 각각의 결정은 검색과 생성 단계에 모두 영향을 미칩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 최근 연구에서는 실증적으로 다양한 구성 요소가 RAG에 미치는 영향을 테스트했습니다.
 
@@ -59,16 +41,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 - 그런 다음 다른 구성 요소를 일정하게 유지하면서 각 방법을 개별적으로 테스트합니다.
 - 마지막으로 일부 시나리오에 대해 구성 요소 세트를 테스트합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_2.png)
@@ -80,16 +53,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 ![image](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_3.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다양한 종류의 청킹과 관련된 다양한 하이퍼파라미터가 있습니다. 본 연구에서 저자들은 다음을 탐구했습니다:
 
@@ -101,16 +65,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 ![그림](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_4.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 슬라이딩 윈도우는 최상의 결과를 제공하는 기법인 것 같아요.
 
@@ -120,16 +75,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 ![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_6.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 벡터 데이터베이스도 중요합니다. 이 연구에서는 여러 기준을 고려합니다: 다양한 데이터 유형을 지원하는 여러 인덱스 유형, 십억 단위의 벡터 지원 (확장성), 하이브리드 검색 및 클라우드 네이티브 기능을 고려합니다. 보통은 이러한 기준을 선택하여 유연성, 확장성 및 배포 용이성에 미치는 영향을 평가합니다. 그들에게 가장 좋은 것은 Milvus입니다:
 
@@ -141,16 +87,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 - 쿼리 분해. 대신, 쿼리를 하위 쿼리로 분해하여 문서와 일치하도록 합니다.
 - 의사 문서 생성. 이 방법은 쿼리를 기반으로 가상 문서를 생성하고 해당 임베딩을 사용하여 유사한 문서를 찾습니다 (예: HyDE).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저자들은 이러한 방법들과 혼합 검색을 테스트하기도 합니다. 여러 가짜 문서를 원본 쿼리와 함께 연결하면 검색 성능을 크게 향상시킬 수 있습니다. 물론 이렇게 하면 지연 비용이 증가하지만, 가상 문서 하나만으로도 충분한 것 같습니다.
 
@@ -160,16 +97,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 [해당 이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_9.png)도 확인해보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 검색 결과를 건내 받은 후 문서 재랭킹은 검색 결과의 관련성을 향상시켜줍니다. 저자들은 두 가지 접근 방식을 고려합니다:
 
@@ -179,16 +107,7 @@ monoT5는 성능과 효율성을 균형 있게 유지하는 것으로 보이며,
 
 저자들은 또한 재랭킹 후 문서를 다시 정렬하는 repacking에 대해 고려합니다. 관련성 순서는 생성 성능에 영향을 미칩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 검색은 LLM을 혼란스럽게 만들 수 있는 중복되고 불필요한 정보를 포함하는 문서를 찾을 수 있습니다. 또한, 긴 프롬프트는 효율적이지 않습니다. 저자들은 요약에 대해 탐구합니다(관련 단락을 추출하는 추출적 방식과 정보를 압축하여 요약을 생성하는 추상적 방식 모두):
 
@@ -199,16 +118,7 @@ Recomp이 가장 잘 수행하는 모델로 보입니다:
 
 ![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_11.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 작가들은 또한 RAG에 대한 LLM의 세밀한 조정을 탐구합니다. 결과는 모델이 세밀하게 조정되면 특히 교육 중 몇 가지 관련성 있는 문서와 임의로 선택된 문서들로 세밀하게 조정된 경우에 더 잘 작동함을 보여줍니다.
 
@@ -218,16 +128,7 @@ Recomp이 가장 잘 수행하는 모델로 보입니다:
 
 결과는 다음과 같습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Query Classification Module은 정확도 뿐만 아니라 시스템의 평균 대기 시간도 줄입니다 (모든 쿼리가 RAG로 답변되지는 않습니다).
 - HyDE 하이브리드는 검색에 대한 최고의 성능을 보여주지만 상대적으로 높은 계산 비용이 발생하므로 저자들은 하이브리드나 하이브리드 없는 검색을 권장합니다.
@@ -241,16 +142,7 @@ Recomp이 가장 잘 수행하는 모델로 보입니다:
 
 RAG에 대해 깊이 있는 벤치마킹을 수행하는 연구는 거의 없습니다. 이 작업의 가치는 최적의 구성 요소와 시스템을 체계적으로 연구함으로써 다양한 구성 요소에 대해 심층 연구를 수행했다는 점입니다. 저자에게 결론은:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 최상의 성능 실천 방법. 최상의 성능을 위한 조합은 쿼리 분류 모듈, HyDE와의 하이브리드, monoT5, 역 패킹 및 Recomp을 포함합니다. 이 방법은 계산적으로 많은 리소스를 요구할 수 있어 더 높은 대기 시간을 야기할 수 있습니다.
 - 균형있는 효율성 실천. 저자들은 계산 비용을 줄이기 위해 Hybrid with HyDE 및 TILDEv2를 사용하지 않고 재순위 작업을 하지 않는 것을 제안하며 성능에 큰 영향을 끼치지 않습니다.
@@ -261,16 +153,7 @@ RAG에 대해 깊이 있는 벤치마킹을 수행하는 연구는 거의 없습
 
 # 이 흥미로운 내용을 찾으셨다면:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저의 다른 글을 읽어보시고 LinkedIn에서 저와 연결하거나 연락하실 수도 있어요. 매주 업데이트되는 머신 러닝 및 인공 지능 뉴스가 포함된 이 저장소를 확인해보세요. 협업 및 프로젝트에 대해 열려 있으며 LinkedIn을 통해 저에게 연락할 수 있어요. 또한 새로운 이야기를 게시할 때 알림을 받으려면 무료로 구독할 수도 있어요.
 
@@ -280,16 +163,7 @@ RAG에 대해 깊이 있는 벤치마킹을 수행하는 연구는 거의 없습
 
 # 참고
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 글을 작성할 때 참고한 주요 참고 자료 목록입니다. 각 문장의 이름은 한 번만 인용됩니다.
 

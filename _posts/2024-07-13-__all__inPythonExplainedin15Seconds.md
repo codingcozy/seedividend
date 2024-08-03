@@ -37,16 +37,7 @@ print(dir())
 # [..., 'a', 'b', 'c', 'd', 'e', 'f']
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기서 from a import *는 a.py에서 모든 항목을 b.py로 가져옵니다. 이것이 b.py의 dir()에 a, b, c, d, e 및 f가 나타나는 이유입니다.
 
@@ -75,16 +66,7 @@ print(dir())
 # [..., 'a', 'b']
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위에서 "from a import *"은 a와 b만 가져옵니다. 이는 a.py의 __all__ 때문에 b.py에게 a와 b만 가져와야 한다고 알려주기 때문입니다.
 
@@ -94,16 +76,7 @@ print(dir())
 
 만약 a.py에 무작위로 많은 것이 들어있지만 우리가 '내보낼' 것은 a와 b뿐이라면, 우리가 from a import *를 사용할 때 실수로 많은 불필요한 것들을 가져오지 않도록 하기 위해 __all__을 사용해야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -115,16 +88,7 @@ print(dir())
 - 귀하의 생각을 나에게 알려주는 댓글을 남겨주세요
 - 이야기 중 가장 좋아하는 부분을 강조해주세요
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 감사합니다! 이런 작은 조치들이 큰 도움이 되고, 정말 감사합니다!
 

@@ -18,18 +18,7 @@ link: "https://medium.com/@aserdargun/how-will-you-become-a-full-stack-data-scie
 
 새로운 역할을 맡은 때에도 아직 달성해야 할 목표가 있었습니다. 기대치를 높였습니다. 프로그래밍의 객체 지향 접근법을 배웠습니다. 객체 지향 프로그래밍을 잘 이해하기 위해 자바 프로그래밍 언어를 공부했고, 이 접근법을 파이썬을 사용해 데이터 과학 프로젝트에 적용했습니다. 예측 분석을 위한 파이프라인을 구축했습니다. 이를 통해 확장 가능하고 유연한 모델과 유지 보수가 쉬운 보고 도구를 구축할 수 있었습니다. 상사들로부터 매우 감명깊은 피드백을 받았습니다. 이는 제 동기부여에 도움이 되었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이번 성공 이후, 경쟁 예측 분석 도구를 해킹하기 위해 역공학을 수행했습니다. 예측 분석을 위한 클러스터링 머신 러닝 알고리즘의 나만의 버전을 만들었고, 아직 개발 중에 있습니다.
 

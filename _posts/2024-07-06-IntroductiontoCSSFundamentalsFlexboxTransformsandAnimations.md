@@ -1,7 +1,7 @@
 ---
 title: "CSS 기초, Flexbox, Transforms, 애니메이션 완벽 가이드"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_0.png"
+coverImage: "/assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_0.png"
 date: 2024-07-06 10:09
 ogImage:
   url: /assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_0.png
@@ -18,18 +18,7 @@ CSS (Cascading Style Sheets)은 HTML 문서를 스타일링하는 데 사용되�
 
 Flexbox, 변형, 그리고 애니메이션과 같은 고급 주제에 대해 들어가기 전에 CSS의 기본 구성 요소를 이해하는 것이 중요합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 HTML 문서를 CSS로 스타일링할 때 세 가지 주요 옵션이 있어요:
 
@@ -41,18 +30,7 @@ HTML 문서를 CSS로 스타일링할 때 세 가지 주요 옵션이 있어요:
 
 ## 인라인 CSS
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 인라인 CSS는 style 속성을 사용하여 HTML 요소에 스타일을 직접 적용하는 것을 말합니다. 이 방법은 작고 특정한 스타일 변경에 적합하지만 유지 보수 문제로 인해 대규모 프로젝트에 권장되지 않습니다.
 
@@ -63,18 +41,7 @@ HTML 문서를 CSS로 스타일링할 때 세 가지 주요 옵션이 있어요:
 
 단점:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 유지 및 업데이트가 어려워집니다.
 - HTML 파일의 크기가 증가합니다.
@@ -86,18 +53,7 @@ HTML 문서를 CSS로 스타일링할 때 세 가지 주요 옵션이 있어요:
 
 장점:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 스타일은 문서 내에서 한 곳에 중앙 집중됩니다.
 - 한 페이지 웹사이트나 스타일이 고유한 페이지에 유용합니다.
@@ -109,18 +65,7 @@ HTML 문서를 CSS로 스타일링할 때 세 가지 주요 옵션이 있어요:
 
 ## 외부 CSS
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 외부 CSS는 모든 스타일을 포함하는 별도의 CSS 파일에 링크하는 방식을 의미합니다. 이 방법은 재사용성과 유지 보수성을 증진시키기 때문에 대규모 웹사이트에서 선호됩니다.
 
@@ -130,18 +75,7 @@ HTML 문서를 CSS로 스타일링할 때 세 가지 주요 옵션이 있어요:
 - HTML 파일을 깔끔하고 가독성 있게 유지합니다.
 - 스타일을 보다 쉽게 유지 보수하고 업데이트할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - CSS 파일을로드하려면 추가 HTTP 요청이 필요합니다.
 - CSS 파일의 변경 사항은 모든 연결된 HTML 파일에 영향을 미치므로 제대로 관리되지 않으면 문제점이 발생할 수 있습니다.
@@ -154,37 +88,15 @@ HTML 문서를 CSS로 스타일링할 때 세 가지 주요 옵션이 있어요:
 - 클래스 선택자: 클래스 이름으로 요소를 선택합니다(예: .class-name).
 - ID 선택자: ID로 요소를 선택합니다(예: #id-name).
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 속성과 값
 
 CSS 속성은 요소가 어떻게 스타일링되어야 하는지를 정의하며, 값은 해당 속성의 설정을 지정합니다.
 
-![CSS Box Model](/ui-log-2/assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_1.png)
+![CSS Box Model](/assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_1.png)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS Box Model은 웹 디자인에서 요소가 구조화되고 표시되는 방식을 설명하는 기본 개념입니다. 요소가 차지하는 공간을 정의하는 여러 구성 요소로 구성되어 있으며, 이에는 내용 영역, 안간격(padding), 테두리(border), 여백(margin) 등이 포함됩니다.
 
@@ -195,18 +107,7 @@ CSS Box Model은 웹 디자인에서 요소가 구조화되고 표시되는 방�
 
 안간격(padding)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 내용 상자와 테두리 사이의 공간.
 - 여백(padding)은 요소 내부에 공간을 추가하여 내용을 안쪽으로 밀어 넣습니다.
@@ -219,18 +120,7 @@ CSS Box Model은 웹 디자인에서 요소가 구조화되고 표시되는 방�
 
 여백(Margin)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 테두리 외의 공간은 요소 사이의 간격을 조절합니다.
 - 여백은 각 측면별로 개별적으로 설정하거나 모든 측면에 균일하게 설정할 수도 있습니다.
@@ -242,18 +132,7 @@ CSS Box Model은 웹 디자인에서 요소가 구조화되고 표시되는 방�
 
 플렉스박스 (Flexible Box Layout)는 float 또는 positioning을 사용하지 않고 유연하고 반응형 레이아웃 구조를 디자인하는 데 도움이 되는 CSS 모듈입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 플렉스 컨테이너
 
@@ -263,18 +142,7 @@ CSS Box Model은 웹 디자인에서 요소가 구조화되고 표시되는 방�
 
 플렉스 컨테이너의 자식 요소는 플렉스 아이템이 됩니다. 플렉스 아이템에 대한 중요한 속성 몇 가지는 다음과 같습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - justify-content: 항목을 수평으로 정렬합니다 (예: flex-start, center, space-between).
 - align-items: 항목을 수직으로 정렬합니다 (예: stretch, center, flex-start).
@@ -285,33 +153,11 @@ CSS Box Model은 웹 디자인에서 요소가 구조화되고 표시되는 방�
 
 flex-direction: 플렉스 컨테이너에 위치한 플렉스 항목의 방향을 정의합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 표 태그를 마크다운 형식으로 변경하세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 플렉스 아이템 속성
 
@@ -320,18 +166,7 @@ flex-direction: 플렉스 컨테이너에 위치한 플렉스 항목의 방향�
 - order: 플렉스 아이템의 순서를 변경합니다.
 - flex-grow: 필요에 따라 플렉스 아이템이 성장할 수 있는 능력을 정의합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 유연 길이 조절: 유연 아이템이 필요한 경우 줄어들 수 있는 능력을 정의합니다.
 
@@ -341,18 +176,7 @@ flex-direction: 플렉스 컨테이너에 위치한 플렉스 항목의 방향�
 
 # 변형(QtCore)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_3.png
 
@@ -362,18 +186,7 @@ Transforms는 요소를 2차원 또는 3차원 공간에서 조작할 수 있게
 
 Translate
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 현재 위치에서 요소를 이동합니다.
 - translateX(x)는 요소를 수평으로 이동시킵니다.
@@ -387,18 +200,7 @@ Translate
 
 확대/축소
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 요소의 크기를 조절합니다.
 - scaleX(sx)는 요소를 수평으로 확대합니다.
@@ -414,18 +216,7 @@ Translate
 
 행렬
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 모든 변환 기능을 하나로 결합합니다.
 - matrix(a, b, c, d, e, f)는 행렬을 사용하여 2D 변환을 적용합니다.
@@ -436,18 +227,7 @@ Translate
 
 ## 변환 원점
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 transform-origin 속성을 사용하면 변환을 적용하는 지점을 변경할 수 있습니다. 기본적으로 지점은 요소의 중앙에 있습니다.
 
@@ -457,18 +237,7 @@ transform-origin 속성을 사용하면 변환을 적용하는 지점을 변경�
 
 CSS 애니메이션을 사용하면 지정된 기간 동안 스타일 간의 부드러운 전환을 통해 동적이고 매력적인 웹 경험을 만들 수 있습니다. 애니메이션은 웹 페이지를 더 인터랙티브하고 시각적으로 매력적으로 만들어 사용자 경험을 향상시킬 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 키프레임
 
@@ -478,18 +247,7 @@ CSS 애니메이션을 사용하면 지정된 기간 동안 스타일 간의 부
 
 ## 애니메이션 적용
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 `animation` 속성을 사용하여 요소에 정의된 keyframes를 적용하세요.
 
@@ -506,18 +264,7 @@ CSS 애니메이션을 사용하면 지정된 기간 동안 스타일 간의 부
 
 ## 추가적인 애니메이션 속성
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - animation-timing-function: 애니메이션의 속도 곡선을 정의합니다. 일반적인 값으로는 ease, linear, ease-in, ease-out, ease-in-out 등이 있습니다.
 - animation-delay: 애니메이션 시작 전의 지연 시간을 정의합니다.

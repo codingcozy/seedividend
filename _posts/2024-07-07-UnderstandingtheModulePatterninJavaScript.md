@@ -1,10 +1,10 @@
 ---
 title: "자바스크립트에서 모듈 패턴 이해하기 쉽게 따라하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 02:19
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Understanding the Module Pattern in JavaScript"
 link: "https://medium.com/@vembarrajan/understanding-the-module-pattern-in-javascript-2663c2e6a970"
@@ -21,16 +21,7 @@ link: "https://medium.com/@vembarrajan/understanding-the-module-pattern-in-javas
 - 조직화: 모듈을 사용하면 관련 기능을 논리적으로 구성하여 코드를 조직화하는 데 도움이 되어 가독성과 유지보수성을 향상시킵니다.
 - 재사용성: 모듈은 다른 응용 프로그램 부분 또는 다른 프로젝트에서 충돌 없이 쉽게 재사용할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 모듈 패턴의 구조
 
@@ -61,16 +52,7 @@ Module.publicFunction(); // 출력: '이것은 공개 함수입니다', '비공�
 
 ## 설명:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 모듈 정의: 모듈은 IIFE(즉시 호출 함수 표현)를 사용하여 정의됩니다. 이는 즉시 실행되는 함수를 생성하여 모듈을 나타내는 객체를 반환합니다.
 - 비공개 멤버: IIFE 내부에서 선언된 변수와 함수는 해당 함수에 로컬이므로 모듈 외부에서 접근할 수 없습니다.
@@ -84,16 +66,7 @@ Module.publicFunction(); // 출력: '이것은 공개 함수입니다', '비공�
 
 # 모듈 패턴을 언제 사용해야 하는가
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 모듈 패턴은 논리적으로 관련된 기능을 캡슐화하고
 
@@ -167,16 +140,7 @@ ShoppingCart.displayCart();
 // 총액: $999.99
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 예제에서:
 
@@ -189,16 +153,7 @@ ShoppingCart.displayCart();
 
 # 결론
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 결론적으로, JavaScript의 모듈 패턴은 코드를 구조화하고 조직화하는 강력한 도구이며 캡슐화를 제공하고 명확하게 정의된 인터페이스를 가진 재사용 가능한 모듈을 생성할 수 있습니다. 클로저와 즉시 실행 함수 식을 활용하여 견고하고 유지보수가 쉬운 애플리케이션을 구축하는 데 도움이됩니다.
 

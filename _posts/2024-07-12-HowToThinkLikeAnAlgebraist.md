@@ -19,16 +19,7 @@ link: "https://medium.com/@keith-mcnulty/how-to-think-like-an-algebraist-fb140ab
 
 저는 1988년 케임브리지 대학 입학 시험지에서 이 문제를 발견했으며, 이 문제가 내 주장을 훌륭하게 설명해 주는 사례라고 생각합니다. 만약 이 문제에 대해 적절한 순서와 논리적으로 생각할 수 있다면, 해결책은 깔끔하고 매우 우아할 것입니다. 그러나 대수학자처럼 생각하는 방법에 대한 훈련이 없다면, 이 문제에 대처하는 데 어려움을 겪을 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 문제를 제시하기 전에 옛날에 고등학생들이 배우던 작은 양의 군 이론을 소개해드릴게요 😊
 
@@ -41,16 +32,7 @@ link: "https://medium.com/@keith-mcnulty/how-to-think-like-an-algebraist-fb140ab
 - 항등원인 0(영)이 존재합니다. 이 정수는 다른 어떤 정수에 더해져도 같은 정수를 반환합니다. 따라서 모든 정수 a에 대해 a + 0 = 0 + a = a 가 성립합니다.
 - 임의의 정수 a에 대해 역원 -a가 존재합니다. 이는 정수와 그 역원을 아무 순서로 더하면 항등원 0이 나온다는 것을 의미합니다. 즉, 모든 정수 a에 대해 a + (-a) = (-a) + a = 0 가 성립합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이러한 속성들을 일반 대수 구조를 정의하는 추상화된 개념으로 정의할 수 있습니다.
 
@@ -63,16 +45,7 @@ link: "https://medium.com/@keith-mcnulty/how-to-think-like-an-algebraist-fb140ab
 
 그룹이라는 개념은 우리가 일상 생활에서 유용하게 활용하는 수학적 구조를 추상화하는 방법으로 개발되었지만, 이 정의가 소개된 이후 몇 세기 동안, 수학자들은 이러한 속성을 따르며 거대하고 완전히 믿기 어려운 방식으로 유한 그룹을 형성하는 놀라운 구조들을 발견해왔습니다. 예를 들어, 몬스터 그룹은 1970년대에 발견되었으며 808,017,424,794,512,875,886,459,904,961,710,757,005,754,368,000,000,000개의 원소로 구성되어 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 문제
 
@@ -82,16 +55,7 @@ link: "https://medium.com/@keith-mcnulty/how-to-think-like-an-algebraist-fb140ab
 
 ## 나의 풀이 — 파트 (i)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리는 o(g) = n이라고 말을 들었습니다, 따라서 g^k = e인 더 작은 양수 정수 k ` n은 없습니다. 따라서 g^N = e이면 N ≥ n이어야 합니다.
 
@@ -105,16 +69,7 @@ link: "https://medium.com/@keith-mcnulty/how-to-think-like-an-algebraist-fb140ab
 
 그러나 우리는
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 <img src="/TIL/assets/img/2024-07-12-HowToThinkLikeAnAlgebraist_3.png" />
@@ -126,16 +81,7 @@ link: "https://medium.com/@keith-mcnulty/how-to-think-like-an-algebraist-fb140ab
 이 부분이 더욱 명확해지도록 우리의 연산 표기법을 사용해봅시다. 다음과 같이 말할 수 있습니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![How to think like an algebraist](/TIL/assets/img/2024-07-12-HowToThinkLikeAnAlgebraist_4.png)
@@ -147,16 +93,7 @@ With the h element repeated m times. Now note that:
 So this means we can make the following replacement:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 \<img src="/TIL/assets/img/2024-07-12-HowToThinkLikeAnAlgebraist_6.png" />
 
@@ -166,16 +103,7 @@ h가 처음과 끝을 포함해 m번 나타납니다. 이제 우리가 이것을
 
 오른쪽에 m번 반복되어 있습니다. 따라서 필요한 결과를 얻을 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 나의 해결책 — Part (iii)
 
@@ -185,16 +113,7 @@ h가 처음과 끝을 포함해 m번 나타납니다. 이제 우리가 이것을
 
 이제 우리가 이전 부분에서 얻은 결과를 사용해봅시다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래와 같이 변경해주셨으면 좋겠습니다.
 
@@ -208,16 +127,7 @@ To find o(h), we can use the given fact that g⁵ = e. Consider the following lo
 ![HowToThinkLikeAnAlgebraist_10](/TIL/assets/img/2024-07-12-HowToThinkLikeAnAlgebraist_10.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래와 같이 결과를 사용하여 이를 반복할 수 있습니다. 
 
@@ -231,16 +141,7 @@ To find o(h), we can use the given fact that g⁵ = e. Consider the following lo
 ![Pattern Logic](/TIL/assets/img/2024-07-12-HowToThinkLikeAnAlgebraist_12.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 우리는 g⁵ = e임을 알고 있으므로, 다음과 같이도 말할 수 있습니다:
 
@@ -250,16 +151,7 @@ To find o(h), we can use the given fact that g⁵ = e. Consider the following lo
 
 ![image](/TIL/assets/img/2024-07-12-HowToThinkLikeAnAlgebraist_14.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그래서:
 

@@ -16,18 +16,7 @@ link: "https://medium.com/stackademic/google-python-team-entirely-laid-off-flutt
 
 /assets/img/2024-07-06-GooglePythonTeamEntirelyLaidOffFlutterTeamAlsoFacingtheAxe_1.png
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 알파벳은 AI에 크게 투자해 왔습니다. 검색 및 각종 서비스에 생성 AI 기능을 통합했습니다. 수익 통화 중에 구글 CEO인 선다르 피차이는 "AI의 중요한 역할을 강조하며 AI 연구 및 인프라 분야의 선도적인 역할과 전 세계 제품 배포 체계는 다음 AI 혁신의 장을 준비해놓은 상태"라고 말했습니다.
 

@@ -18,18 +18,7 @@ Mojo는 작년 8월에 공식적으로 출시된 인공 지능 소프트웨어�
 
 Modular은 Mojo를 더 편리한 대안으로 위치시킵니다. Python과 유사한 쉬운 구문을 제공하지만 수천 배 더 빠른 실행 속도를 갖도록 하며, 이를 통해 개발자들은 C++과 같은 복잡한 언어를 배우지 않고도 빠른 AI 모델을 작성할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-Mojo90000TimesFasterThanPythonFinallyOpenSourcedJustLaunchedAlreadySurpassing17000Stars_0.png" />
 

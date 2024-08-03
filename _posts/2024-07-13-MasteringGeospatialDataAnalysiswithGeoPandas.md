@@ -17,16 +17,7 @@ GeoPandas는 pandas가 사용하는 데이터 유형을 확장하여 기하학�
 
 기본적으로 GeoPandas는 매우 인기 있는 pandas 라이브러리의 확장으로, 익숙한 pandas 프레임워크 내에서 지리 데이터를 직관적으로 처리할 수 있습니다. 이는 이미 pandas를 잘 알고 있다면 GeoPandas를 숙달하기에 절반 정도 되었다는 것을 의미합니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 GeoPandas를 독특하게 만드는 요소는 무엇일까요? 먼저, 지리 공간 데이터 작업을 간편화하여 pandas에서 다루는 다른 유형의 데이터를 조작하는 것만큼 지리 정보를 읽고 분석하며 시각화하는 작업을 간단하게 만듭니다. 점, 선 또는 다각형과 같은 데이터를 처리할 때도 GeoPandas가 모두 해결해 드립니다.
 
@@ -36,16 +27,7 @@ GeoPandas의 응용 분야는 지리 정보 분석 분야 자체만큼 다양합
 
 Python pandas를 사용하는 다른 블로그 포스트도 확인해 보세요: [링크 추가]
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # GeoPandas 환경 설정하기
 
@@ -55,16 +37,7 @@ GeoPandas를 사용하여 공간 분석의 흥미로운 세계로 들어가기 �
 
 가장 먼저, 시스템에 Python이 설치되어 있는지 확인하세요. GeoPandas는 Python 라이브러리이므로 Python이 필수입니다. 아직 Python을 설치하지 않은 경우, 공식 Python 웹사이트에서 다운로드하고 사용 중인 운영 체제에 맞는 설치 지침을 따르세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 2: 가상 환경 설정하기 (선택 사항이지만 추천됨)
 
@@ -76,16 +49,7 @@ python -m venv geopandas_env
 
 가상 환경을 활성화하려면 다음 명령을 사용하세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Windows에서:
 
@@ -99,16 +63,7 @@ geopandas_env\Scripts\activate
 source geopandas_env/bin/activate
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 3: GeoPandas 및 종속성 설치
 
@@ -120,16 +75,7 @@ conda install geopandas
 
 만약 pip를 사용하고 싶다면, 다음 명령을 사용하여 GeoPandas를 설치할 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 pip install geopandas
@@ -141,16 +87,7 @@ pip install geopandas
 
 모든 것이 올바르게 설정되었는지 확인하려면 Python 인터프리터 또는 Jupyter Notebook을 열고 GeoPandas를 가져와보세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import geopandas as gpd
@@ -162,16 +99,7 @@ import geopandas as gpd
 
 GeoPandas는 파이썬에서 지리 정보 데이터를 직관적이고 간단하게 다룰 수 있도록 pandas의 데이터 구조를 기반으로 합니다. GeoPandas의 핵심은 두 가지 주요 데이터 구조인 GeoSeries와 GeoDataFrame입니다. 이를 이해하는 것은 지리 정보 분석을 위해 GeoPandas의 전체 능력을 활용하는 데 필수적입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # GeoSeries: 기본 구성 요소
 
@@ -190,16 +118,7 @@ points = gpd.GeoSeries([Point(1, 1), Point(2, 2), Point(3, 3)])
 points.plot()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_1.png" />
 
@@ -209,16 +128,7 @@ points.plot()
 
 GeoDataFrame은 GeoSeries가 포함된 탭ular 데이터 구조입니다. 이는 pandas DataFrame과 유사하지만, 기하 정보가 포함된 추가적인 열을 가지고 있습니다. 일반적으로 'geometry'라는 이 특별한 열은 기하학적 객체(예: 점, 선, 다각형)를 보유하고 데이터 세트에서 공간 연산을 가능하게 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음은 Shapely 기하학 요소 목록에서 GeoDataFrame을 생성하는 방법입니다.
 
@@ -238,16 +148,7 @@ gdf.plot(alpha=0.5, linewidth=2, edgecolor='k', color='cyan')
 
 이 예제에서 점과 다각형을 하나의 GeoDataFrame으로 결합한 후 그래픽으로 표시합니다. alpha, linewidth, edgecolor 매개변수를 사용하여 플롯의 모양을 사용자 정의할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 지리 공간 데이터 읽기
 
@@ -266,16 +167,7 @@ gdf.head()
 
 이러한 기본 사항을 알았으니 이제 지리 공간 데이터를 탐색하고 분석할 준비가 되었습니다. 다음 섹션에서는 공간 조인, 오버레이 분석, 지리 공간 데이터 시각화와 같은 고급 주제를 다룰 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 곧 GeoPandas를 사용하여 지리 정보 데이터를 활용하는 기본 작업 몇 가지를 살펴보겠습니다. 이 섹션에서는 지도 데이터를 조작하고 분석하는 방법에 대해 다룰 것이며, 플로팅, 필터링 및 기본적인 공간 작업을 포함합니다. 이러한 작업은 어떠한 지리 정보 분석에도 필수적이며, 더 고급 기술에 대한 튼튼한 기초를 제공할 것입니다.
 
@@ -285,16 +177,7 @@ GeoPandas는 지리 정보 데이터를 다루는 과정을 간소화하여 플�
 
 # 지리 정보 데이터 플로팅
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지리 데이터 시각화는 지리 분석에서의 기본적인 작업입니다. GeoPandas는 Matplotlib과 통합되어 데이터를 쉽게 시각화할 수 있습니다:
 
@@ -314,16 +197,7 @@ plt.show()
 
 이 예제에서는 GeoPandas 내장 데이터 세트를 불러와 세계 각국의 지오메트리를 포함합니다. `.plot()` 메서드를 사용하여 데이터 세트를 지도로 시각화합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 데이터 필터링
 
@@ -340,16 +214,7 @@ plt.show()
 
 <img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_4.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 코드 스니펫은 세계 GeoDataFrame을 필터링하여 북아메리카 국가만 포함하고 필터링된 데이터를 플롯합니다.
 
@@ -365,16 +230,7 @@ world['area'] = world.geometry.area
 buffered_point = south_america.geometry.buffer(1)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_5.png" />
 
@@ -384,16 +240,7 @@ buffered_point = south_america.geometry.buffer(1)
 
 공간 조인은 GeoPandas의 강력한 기능 중 하나로, 두 GeoDataFrame을 공간적 관계를 기반으로 결합할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 도시의 GeoDataFrame 만들기
@@ -411,16 +258,7 @@ buffered_point = south_america.geometry.buffer(1)
 
 이 예시는 도시의 GeoDataFrame과 국가의 세계 GeoDataFrame 간의 공간 조인을 수행합니다. 결과는 도시와 각 도시가 속한 국가를 포함하는 새로운 GeoDataFrame입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 기본 작업의 기반 위에 더 나아가, GeoPandas를 사용하여 고급 지리 공간 분석 기술을 알아보겠습니다. 이 섹션에서는 오버레이 분석, 버퍼 분석, 그리고 최근접 이웃 쿼리와 같이 더 복잡한 작업을 다룰 것입니다. 이러한 기술들은 더 나은 통찰력을 제공하며 복잡한 지리 공간 문제에 대응하기 위해 중요합니다.
 
@@ -430,16 +268,7 @@ GeoPandas는 기본 지리 공간 작업을 단순화할 뿐만 아니라 고급
 
 # 오버레이 분석
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 오버레이 분석은 두 개의 GeoDataFrames를 공간 관계에 따라 결합하여 교차점, 합집합 및 차집합과 같은 작업을 수행하는 데 사용됩니다. 이를 통해 공간 데이터의 서로 다른 레이어를 결합하여 새로운 통찰을 얻는 데 도움이 됩니다.
 
@@ -458,16 +287,7 @@ intersection.plot()
 
 # 버퍼 분석
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 버퍼 분석은 기하학 주변에 버퍼 영역을 만들어 근접성 분석에 유용합니다. 예를 들어, 강이나 도로로부터 특정 거리 내의 모든 지역을 찾고 싶을 수 있습니다.
 
@@ -482,16 +302,7 @@ buffered_points.plot()
 
 #최근접 이웃 쿼리
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 최근접 이웃 쿼리는 “각 학교의 가장 가까운 병원은 무엇인가요?”와 같은 질문에 중요합니다. GeoPandas를 scikit-learn과 같은 라이브러리와 결합하여 이러한 쿼리를 효율적으로 수행할 수 있습니다.
 
@@ -513,16 +324,7 @@ nearest_geometry = gdf1.iloc[index[0]]
 
 # 고급 시각화 기법
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 고급 시각화 기술을 사용하면 지리 정보 데이터의 해석을 높일 수 있어요. GeoPandas는 contextily와 같은 라이브러리와 함께 사용하여 플롯에 베이스맵을 추가하고 matplotlib를 사용하여 더 많은 사용자 정의를 할 수 있어요.
 
@@ -538,16 +340,7 @@ ctx.add_basemap(ax, crs=gdf1.crs.to_string(), source=ctx.providers.Stamen.Terrai
 
 다음 섹션에서는 GeoPandas를 활용하여 실제 데이터를 분석하고 시각화하는 방법을 탐색할 거에요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 뉴욕 시의 공공 공원 분석
 
@@ -557,16 +350,7 @@ ctx.add_basemap(ax, crs=gdf1.crs.to_string(), source=ctx.providers.Stamen.Terrai
 
 먼저, GeoJSON 데이터셋을 GeoDataFrame으로 불러올 거에요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import geopandas as gpd
@@ -595,16 +379,7 @@ parks_gdf.plot()
 이 코드는 URL에서 데이터 세트를 직접로드하고 GeoDataFrame을 만들어 데이터를 검사하고 구조를 이해하는 데 사용됩니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 단계 2: 데이터 탐색 및 정리
 
@@ -623,16 +398,7 @@ parks_gdf = parks_gdf[parks_gdf.is_valid]
 
 ## 단계 3: 자치구별 공원 분포 분석
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가정하에 데이터셋에는 각 공원이 속한 자치구를 나타내는 열이 포함되어 있다고 가정하면, 자치구별로 데이터를 집계해서 공원 면적의 분포를 분석할 수 있습니다.
 
@@ -647,16 +413,7 @@ park_areas_by_borough.plot(column='area', legend=True, cmap='Greens')
 
 ## 단계 4: 공원의 공간 분포 시각화하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 도시 전체에 걸쳐 공원이 분포하는 공간적 분포를 이해하기 위해 지도상에 공원을 시각화할 수도 있습니다.
 
@@ -677,16 +434,7 @@ plt.show()
 
 이 시각화를 통해 뉴욕시의 도시 경관 내에서의 공원 밀도와 분포를 이해하는 데 도움이 될 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 단계 5: 근접성 분석
 
@@ -724,16 +472,7 @@ plt.show()
 
 <img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_11.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 근접성 분석은 공원 주변 500m 내 영역을 강조하여 도시 개발 및 접근성 연구에 유용한 통찰력을 제공할 것입니다.
 
@@ -755,16 +494,7 @@ park_density = park_count / (borough_area / (5280**2))
 park_density.plot(kind='bar', title='구 당 공원 밀도 (제곱 마일당 공원 수)')
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Park](/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_12.png)
@@ -783,16 +513,7 @@ print(f"가장 작은 공원: {smallest_park['name']} in {smallest_park['borough
 ```
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_13.png" />
 
@@ -816,16 +537,7 @@ poi_gdf = poi_gdf.to_crs(parks_gdf.crs)  # 정확한 거리 계산을 위해 par
 poi_gdf
 ```  
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 <img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_14.png" />
@@ -849,16 +561,7 @@ if parks_gdf.sindex is not None:  # 공간 인덱스가 있는지 확인합니�
 # 공원 특징 분석
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 데이터 세트에 공원 기능(놀이터, 스포츠 시설, 수면 등)에 대한 정보가 포함되어 있다면, 우리는 이러한 기능들의 도시 전체 분포를 분석할 수 있습니다.
 
@@ -888,16 +591,7 @@ plt.show()
 
 # 공원 방문 시기에 대한 시간적 분석 (가상의 내용)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 방문 데이터를 생성하고 시간에 따른 공원 방문 여부를 분석하면 공원 이용 추세, 피크 시간 및 잠재적으로 활용되지 않는 공간을 확인할 수 있습니다.
 
@@ -935,16 +629,7 @@ vis_df.head()
 
 # 공원 방문 시간에 대한 시간적 분석
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가정적인 방문 데이터가 준비되었으므로, 시간 분석을 진행할 수 있습니다. 전체 방문 추세를 탐색하고, 공원 간 방문을 비교하며, 방문 정점 기간을 식별할 것입니다.
 
@@ -960,16 +645,7 @@ overall_trends.plot(title='2021년 전체 공원 방문 추이', ylabel='총 방
 
 <img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_18.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 그래프는 연중 공원 방문자 수의 변동을 보여줄 것이며, 계절 패턴이나 특정 일자에 발생하는 비정상적으로 높거나 낮은 방문을 식별하는 데 도움이 됩니다.
 
@@ -995,16 +671,7 @@ plt.legend(title='공원 ID', loc='right')
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Visualization](/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_19.png)
@@ -1016,16 +683,7 @@ plt.show()
 우리는 데이터를 분석하여 전반적인 방문량이 가장 높은 날들을 찾고, 특정 이벤트나 휴일이 공원 이용 증가를 견인하는지 확인할 수 있습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 방문자 수가 가장 많은 상위 10일을 찾습니다
@@ -1042,16 +700,7 @@ print(peak_days)
 ## 데이터 프레임 결합하기
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Join parks_gdf with vis_df: 두 데이터 프레임을 park_id 열을 기준으로 병합하여 각 공원의 공간 데이터와 방문 데이터를 모두 포함하는 병합된 데이터 프레임을 얻을 것입니다.
 
@@ -1067,16 +716,7 @@ combined_gdf.head()
 
 이 예제에서는 한 해 동안 각 공원별 총 방문자 수를 계산해 보겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 방문 데이터를 종합하여 각 공원당 총 방문객 수를 구합니다.
@@ -1111,16 +751,7 @@ except Exception as e:
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_21.png" />
 

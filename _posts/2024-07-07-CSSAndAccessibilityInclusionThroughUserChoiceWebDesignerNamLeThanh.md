@@ -1,7 +1,7 @@
 ---
 title: "CSS와 접근성  사용자 선택을 통한 포용  웹 디자이너 남 레 탄"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-07-CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh_0.png"
+coverImage: "/assets/img/2024-07-07-CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh_0.png"
 date: 2024-07-07 21:17
 ogImage:
   url: /assets/img/2024-07-07-CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@namtheartist95/css-and-accessibility-inclusion-throug
 
 웹 개발의 끊임없이 변화하는 풍경에서, 접근성에 대한 초점은 이제껏 더욱 중요해졌습니다. 포용적이고 사용자 친화적인 웹사이트를 만들기 위해 CSS(계층형 스타일 시트)가 접근성을 향상하는 데 중요한 역할을 합니다. 이 글에서는 CSS를 활용하여 접근성을 개선하고 사용자의 개별적인 요구를 충족시킬 수 있는 선택지를 제공하는 방법에 대해 다뤄봅니다.
 
-![CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh](/ui-log-2/assets/img/2024-07-07-CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh_0.png)
+![CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh](/assets/img/2024-07-07-CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh_0.png)
 
 # 웹 디자인에서의 접근성 이해
 
 웹 디자인에서의 접근성은 모든 능력과 장애를 가진 사람들이 웹사이트를 사용할 수 있는 방식으로 만드는 실천을 의미합니다. 이는 시각적, 청각적, 운동적, 인지적 장애를 가진 개인들을 포함합니다. 목표는 신체적 또는 인지적 제약이 있는 모든 사람이 웹사이트와 효과적으로 상호 작용하고 이해하며 탐색할 수 있도록 보장하는 것입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 사용자 선택의 중요성
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@namtheartist95/css-and-accessibility-inclusion-throug
 
 CSS는 웹사이트의 접근성에 상당한 영향을 미칠 수 있는 강력한 도구입니다. CSS를 활용함으로써 개발자들은 다양한 요구를 충족하는 적응 가능하고 사용자 친화적인 인터페이스를 만들 수 있습니다. 다음은 CSS가 접근성을 증진하는 데 사용될 수 있는 몇 가지 방법입니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 1. 반응형 타이포그래피
 
@@ -77,18 +55,7 @@ body {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 2. 색 대비 및 사용자 정의 테마
 
@@ -120,18 +87,7 @@ body.high-contrast {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 3. 포커스 표시자
 
@@ -147,18 +103,7 @@ a:focus {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 4. 접근성을 위한 미디어 쿼리
 
@@ -182,18 +127,7 @@ a:focus {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # CSS를 사용하여 사용자 선택 구현하기
 
@@ -203,18 +137,7 @@ a:focus {
 
 설정 메뉴를 만들면 사용자가 자신만의 브라우징 경험을 맞춤 설정할 수 있습니다. 이 메뉴에는 텍스트 크기 조정, 고대비 모드로 전환, 축소된 모션 활성화 등의 옵션이 포함될 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 예시 HTML:
 
@@ -254,18 +177,7 @@ document.getElementById("reduced-motion").addEventListener("change", function ()
 });
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -275,18 +187,7 @@ CSS와 접근성은 포용적인 웹 경험을 만들 때 함께 가는 요소�
 
 [Website]()
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 LinkedIn (국제)
 
@@ -296,18 +197,7 @@ Twitter
 
 Facebook
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Work Whale Job Board Platform (Business of Nam)
 

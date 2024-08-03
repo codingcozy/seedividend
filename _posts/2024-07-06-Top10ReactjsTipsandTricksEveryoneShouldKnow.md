@@ -1,10 +1,10 @@
 ---
 title: "모두가 알아야 할 최고의 10가지 Reactjs 팁과 트릭"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-Top10ReactjsTipsandTricksEveryoneShouldKnow_0.png"
+coverImage: "/assets/img/2024-07-06-Top10ReactjsTipsandTricksEveryoneShouldKnow_0.png"
 date: 2024-07-06 00:43
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-06-Top10ReactjsTipsandTricksEveryoneShouldKnow_0.png
+  url: /assets/img/2024-07-06-Top10ReactjsTipsandTricksEveryoneShouldKnow_0.png
 tag: Tech
 originalTitle: "Top 10 React.js Tips and Tricks Everyone Should Know"
 link: "https://dev.to/vyan/top-10-reactjs-tips-and-tricks-everyone-should-know-2m18"
@@ -26,16 +26,7 @@ const App = () => (
 );
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 2. 함수형 컴포넌트와 훅 사용하기 🧩
 
@@ -62,16 +53,7 @@ const Counter = () => {
 };
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 3. 리스트에서 Key의 중요성을 이해해요 🔑
 
@@ -89,16 +71,7 @@ const TodoList = ({ todos }) => (
 );
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 4. 재사용 가능한 컴포넌트로 UI 구성하기 🧱
 
@@ -118,16 +91,7 @@ const App = () => (
 );
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 5. useState 및 useReducer를 사용하여 효율적으로 상태 관리하기 🌐
 
@@ -164,16 +128,7 @@ const Counter = () => {
 };
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 6. useMemo와 useCallback으로 성능 최적화하기 🚀
 
@@ -208,16 +163,7 @@ const App = () => {
 };
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 7. 컴포넌트 유효성 검사에 PropTypes 활용하기 ✅
 
@@ -238,16 +184,7 @@ Greeting.propTypes = {
 export default Greeting;
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 8. 전역 상태를 위해 React Context를 이해하고 활용하기 🌍
 
@@ -290,16 +227,7 @@ const App = () => (
 export default App;
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 9. 안정성을 향상시키기 위한 에러 바운더리 구현하기 🚧
 
@@ -345,16 +273,7 @@ const App = () => (
 );
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ### 10. React의 생태계와 도구들을 최신 상태로 유지해보세요 🛠️
 
@@ -364,16 +283,7 @@ React의 생태계는 방대하고 지속적으로 발전하고 있습니다. �
 
 ### 결론:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 🌟 반응형.js 기술을 향상시키는 필수 팁을 소개해드릴게요! 🌟
 

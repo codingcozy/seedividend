@@ -1,7 +1,7 @@
 ---
 title: "Tailwind CSS에 Signals가 도입된다"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png"
+coverImage: "/assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png"
 date: 2024-07-09 13:57
 ogImage:
   url: /assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png
@@ -10,7 +10,7 @@ originalTitle: "Signals are Now Coming to Tailwind CSS?"
 link: "https://medium.com/javascript-in-plain-english/about-me-yevhen-a03fb7d03d20"
 ---
 
-![Signals](/ui-log-2/assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png)
+![Signals](/assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png)
 
 Tailwind Signals는 Tailwind CSS의 새로운 실험적인 기능으로, DOM 내의 모든 하위 항목이 사용자 지정 상태를 소비하여 더 깨끗한 코딩과 효율적인 스타일링을 가능하게 합니다. Signals는 가상 클래스 개념을 기반으로 하며, 부모와 자식 구성 요소 간의 양방향 통신을 허용하여 자식 구성 요소가 부모의 상태 변경에 반응하고 그 반대도 가능케 합니다.
 
@@ -18,18 +18,7 @@ Tailwind Signals는 Tailwind CSS의 새로운 실험적인 기능으로, DOM 내
 
 Signals을 사용하면:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <input type="checkbox" class="peer" /> 👈🏼 여기에서 선택 또는 해제할 수 있어요

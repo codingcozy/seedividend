@@ -18,18 +18,7 @@ link: "https://medium.com/towards-artificial-intelligence/a-generalized-machine-
 
 최근 게시한 글, '시계열 예측: SARIMAX, RNN, LSTM, Prophet, 그리고 Transformer의 비교 분석'에서 여러 시계열 예측 방법을 비교 분석했습니다. 기계 학습 접근 방법을 포함해야 했으나 글이 너무 길어졌습니다. 따라서 이 논문을 발표하여 그 갭을 해결하고자 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 게시물에서는 시계열 모델을 계속 탐구하겠습니다. 이 모델들은 어떻게 작동하는지, 그리고 왜 특성 엔지니어링을 사용하여 거래 데이터를 예측하기 위한 일반화된 머신러닝 프레임워크를 제안했는지에 대해 계속 알아보겠습니다. 머신러닝을 시계열 예측에 적용하는 것은 새로운 것은 아니지만, 제안하는 일반화된 프레임워크는 다양한 시나리오에서 실제 시계열 예측에 대한 도전 과제를 해결하려고 합니다.
 

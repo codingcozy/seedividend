@@ -18,18 +18,7 @@ link: "https://medium.com/@kaabar-sofien/measure-time-series-volatility-using-ga
 
 # 가만-클라스(Grarman-Klass) 변동성 이해하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 복잡한 변동성 모델을 논의하기 전에, 먼저 기본적인 변동성 모델(또는 계산)인 역사적 표준 편차에 대해 완벽히 이해하는 것이 좋습니다. 역사적 방법을 사용한 표준 편차는 과거 가격 데이터를 기반으로 금융 상품의 변동성을 측정하는 일반적인 방법입니다.
 

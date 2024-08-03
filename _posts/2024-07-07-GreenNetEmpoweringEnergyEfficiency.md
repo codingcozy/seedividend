@@ -18,18 +18,7 @@ link: "https://medium.com/@x17-green/greennet-4287c9a49fc7"
 
 이 프로젝트의 개념은 원래 ALX에서 나의 동료가 고안하여 에너지 소비를 관리하는 포괄적인 시스템을 상상했습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 프로젝트는 Engineer 2:가 주도하였고, 꽉 끼인 3주의 일정 내에 완료되었습니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@x17-green/greennet-4287c9a49fc7"
 
 ## 세그먼트:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 에너지 소비 추적기: 에너지 소비 데이터를 수집하고 처리하여 에너지 사용에 대한 통찰과 분석을 제공하며, 에너지 소비 임계값 및 장치 오작동에 대한 사용자 알림을 전송합니다.
 - 그린넷: 에너지 관리를 위한 안전한 사용자 인증 및 장치 모니터링.
@@ -64,18 +42,7 @@ link: "https://medium.com/@x17-green/greennet-4287c9a49fc7"
 
 저는 개인적으로 팀 엔지니어 1로서 견고하고 확장 가능한 인증 시스템을 설계하고 구현하는 데 초점을 맞추었습니다. 엔지니어 팀 2는 에너지 소비 분석 모듈을 개발하였으며, 엔지니어 팀 3은 실시간 커뮤니케이션과 지원을 위한 마이크로서비스를 구현하는 데 초점을 맞추었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 그린넷으로의 여정
 
@@ -85,18 +52,7 @@ link: "https://medium.com/@x17-green/greennet-4287c9a49fc7"
 
 하지만, 친구 Chymezy(Engineer 2)와 나눈 대화가 모든 것을 바꿨습니다. 그가 제시한 아이디어는 나에게 와닿았습니다. '보안을 최우선으로 하는 프로젝트를 만들면 어떨까?' 라는 생각이 날 것 같습니다. 생각을 많이 해보니, 나에게는 이 어려움을 극복하고 의미 있는 것을 만들어낼 기회가 된다는 것을 깨달았습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 프로젝트 성과
 
@@ -106,18 +62,7 @@ link: "https://medium.com/@x17-green/greennet-4287c9a49fc7"
 
 아래는 GreenNet의 아키텍처 다이어그램입니다. 응용 프로그램을 통해 데이터가 어떻게 흘러가는지를 보여줍니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![GreenNet](/TIL/assets/img/2024-07-07-GreenNetEmpoweringEnergyEfficiency_2.png)
 
@@ -127,18 +72,7 @@ GreenNet을 만들기 위해 견고하고 확장 가능한 애플리케이션을
 
 백엔드에서는 Python을 선택했습니다. 그 이유는 간단함, 유연성 및 다양한 라이브러리 때문입니다. 이를 통해 빠르게 안전한 사용자 인증 시스템을 개발할 수 있었습니다. Node.js를 선택할 수도 있었지만, Python의 사용 편의성과 다양성으로 인해 이상적인 선택이었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 프론트엔드에서 반응형 및 사용자 친화적 인터페이스를 구축하기 위해 HTML, CSS 및 JavaScript를 선택했습니다. HTML, CSS 및 JS가 제공하는 유연성과 사용 편의성 때문에 Angular 또는 React와 같은 프레임워크를 사용하지 않기로 결정했습니다. Bootstrap도 UI를 개선하고 일관된 디자인을 제공하는 데 사용되었습니다.
 
@@ -149,18 +83,7 @@ GreenNet을 만들기 위해 견고하고 확장 가능한 애플리케이션을
 - 안전한 사용자 인증: 안전한 사용자 회원 가입, 로그인 및 로그아웃 기능을 구현하여 사용자 데이터가 보호되고 안전성이 확보되었습니다.
 - 반응형 및 사용자 친화적 인터페이스: 프론트엔드 사용자 인터페이스는 HTML, CSS 및 Bootstrap을 사용하여 반응형 및 사용자 친화적인 경험을 제공합니다. JavaScript 스크립트도 UI를 개선하고 동적 기능을 제공하는 데 사용되었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그린넷이 제공하는 이러한 기능들은 그저 시작에 불과해요. 사용자들에게 원활하고 효율적인 경험을 제공하기 위해 이 플랫폼을 계속 발전시키고 개선하는 것을 기대하고 있어요.
 
@@ -170,18 +93,7 @@ GreenNet을 만들기 위해 견고하고 확장 가능한 애플리케이션을
 
 ![이미지](/TIL/assets/img/2024-07-07-GreenNetEmpoweringEnergyEfficiency_3.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 도전을 극복하기 위해 저는 작업 환경을 바꾸고 새 컴퓨터로 전환하기로 결정했습니다. 이 결정은 나에게 프로젝트를 처음부터 다시 시작할 수 있는 기회를 제공하여 결국 큰 도움이 되었습니다. 가져오기 문제를 해결한 후에는 초기보다 두 배 빠른 속도로 작업할 수 있어 생산성이 상당히 향상된 것을 알게 되었습니다.
 
@@ -191,18 +103,7 @@ GreenNet을 만들기 위해 견고하고 확장 가능한 애플리케이션을
 
 GreenNet과 함께한 내 여정을 되새기면서, 미래의 소프트웨어 엔지니어링에 대한 접근 방식을 형성할 가치 있는 통찰을 얻었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 기술적인 포인트
 
@@ -212,18 +113,7 @@ GreenNet과 함께한 내 여정을 되새기면서, 미래의 소프트웨어 �
 
 아마도 더 안전하고 사용자 친화적인 시스템을 구축하는 데 집중하고, 기기, 위치 또는 연결 여부에 관계없이 최종 사용자가 에너지 사용량을 추적하는 데 원활한 경험을 제공하는 것에 초점을 맞출 것입니다. 모든 사용자가 플랫폼에 접근하고 효율적으로 사용할 수 있도록 혁신적인 솔루션을 탐색하는 것이 포함될 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 GreenNet은 소프트웨어 엔지니어링에서의 다양한 가능성을 내게 보여준 중요한 프로젝트였어요. 사람들의 삶에 영향을 미치는 혁신적인 해결책을 만드는 열정을 다시 한 번 느낄 수 있었어요. 앞으로 나아가면서, 배운 기술과 지식을 활용하여 더 복잡한 문제를 해결하고 저와 업계의 밝은 미래를 만들어가는 것에 기대돼요.
 
@@ -233,18 +123,7 @@ GreenNet은 소프트웨어 엔지니어링에서의 다양한 가능성을 내�
 
 요약하자면, GreenNet과의 경험은 저에게 끈기, 적응력 및 혁신에 관한 소중한 교훈을 전달해 주었어요. 내가 이룬 성과에 자랑스럽고, 앞으로의 프로젝트에 배운 기술과 지식을 적용하는 것에 기대가 되요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 나에 대해
 

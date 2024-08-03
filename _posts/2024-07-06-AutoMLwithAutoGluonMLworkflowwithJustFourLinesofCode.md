@@ -24,18 +24,7 @@ predictor = TabularPredictor(label='Target').fit(train_data, presets='best_quali
 predictions = predictor.predict(train_data)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 네 줄은 각 열의 데이터 유형을 자동으로 인식하여 데이터 전처리를 처리하고, 유용한 열 조합을 찾아 특성 공학을 수행하며, 주어진 시간 내에서 최적의 성능을 보이는 모델을 식별하기 위해 앙상블을 통해 모델을 학습합니다. 머신러닝 작업(회귀/분류)의 유형조차 명시하지 않았다는 점을 주목하세요. AutoGluon은 레이블을 검토하여 작업을 스스로 결정합니다.
 
@@ -45,18 +34,7 @@ predictions = predictor.predict(train_data)
 
 AutoGluon은 아마존 웹 서비스(AWS)에서 만든 오픈소스 머신러닝 라이브러리입니다. 이는 데이터 준비부터 최적의 모델 선택과 설정 조정까지 전체 머신러닝 프로세스를 자동으로 처리하기 위해 설계되었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 AutoGluon은 간편함과 우수한 성능을 결합한 머신 러닝 라이브러리입니다. 앙상블 학습과 자동 하이퍼파라미터 튜닝과 같은 고급 기술을 활용하여 생성하는 모델이 높은 정확도를 유지하도록 합니다. 이는 기술적인 세부사항에 갇히지 않고도 강력한 머신 러닝 솔루션을 개발할 수 있다는 것을 의미합니다.
 
@@ -66,18 +44,7 @@ Tabular data의 경우, AutoGluon은 데이터를 각기 다른 그룹으로 분
 
 # 2: AutoML의 영역
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 2.1: AutoML이란 무엇인가요?
 
@@ -87,18 +54,7 @@ AutoML 개념은 시간이 흐름에 따라 크게 발전해 왔습니다. 초�
 
 AutoML 공간에는 개별적인 기능과 기능을 제공하는 여러 업체들이 등장했습니다. Amazon Web Services가 개발한 AutoGluon은 다양한 데이터 유형에서의 사용 편의성과 강력한 성능으로 유명합니다 (AutoGluon Team, "AutoGluon: AutoML for Text, Image, and Tabular Data", 2020). Google Cloud AutoML은 개발자들이 최소한의 노력으로 고품질 모델을 훈련할 수 있는 머신러닝 제품 스위트를 제공합니다. H2O.ai는 감독 및 비감독 학습 작업을 위한 자동 머신러닝 기능을 제공하는 H2O AutoML을 제공합니다 (H2O.ai, "H2O AutoML: Scalable Automatic Machine Learning", 2020). DataRobot은 기업용 AutoML 솔루션에 초점을 맞춰 모델 배포 및 관리를 위한 견고한 도구를 제공합니다. Microsoft의 Azure Machine Learning에는 다른 Azure 서비스와 통합되어 포괄적인 머신러닝 솔루션을 제공하는 AutoML 기능이 포함되어 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 2.2: AutoML의 주요 구성 요소
 
@@ -108,18 +64,7 @@ AutoML 공간에는 개별적인 기능과 기능을 제공하는 여러 업체�
 
 데이터가 정리되면, 다음 단계는 피처 엔지니어링입니다. 이 프로세스는 모델의 성능을 개선하기 위해 새로운 피처를 만들거나 기존 피처를 수정하는 것을 포함합니다. 피처 엔지니어링은 기존 데이터를 기반으로 새 열을 만드는 것처럼 간단할 수도 있고, 의미 있는 피처를 생성하기 위해 도메인 지식을 사용하는 것처럼 복잡할 수도 있습니다. 적절한 피처는 모델의 예측 능력을 높일 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 데이터 준비가 완료되고 피쳐가 엔지니어링되었다면, 다음 단계는 모델 선택입니다. 해결해야 할 문제에 따라 각각의 강점과 약점을 가진 다양한 알고리즘이 있습니다. AutoML 시스템은 여러 모델을 평가하여 주어진 작업에 가장 적합한 모델을 식별합니다. 이는 의사 결정 트리, 서포트 벡터 머신, 신경망 등과 같은 모델들을 비교하여 데이터와 가장 잘 작용하는 모델을 확인하는 과정을 포함할 수 있습니다.
 
@@ -129,18 +74,7 @@ AutoML 공간에는 개별적인 기능과 기능을 제공하는 여러 업체�
 
 ## 2.3: AutoML의 도전과제
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 오토ML은 시간과 노력을 절약해주지만, 컴퓨팅 자원 측면에서 상당히 요구되는 경우가 있습니다. 하이퍼파라미터 튜닝과 모델 선택 같은 작업을 자동화하기 위해서는 여러 번의 반복과 다수의 모델 학습이 필요할 수 있는데, 이는 고성능 컴퓨팅 자원에 접근할 수 없는 소규모 조직이나 개인에게는 어려운 과제가 될 수 있습니다.
 
@@ -150,18 +84,7 @@ AutoML 공간에는 개별적인 기능과 기능을 제공하는 여러 업체�
 
 # 3: AutoGluon 뒤의 수학
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 3.1: AutoGluon의 구조
 
@@ -175,18 +98,7 @@ imputer = SimpleImputer(strategy='mean')
 X_imputed = imputer.fit_transform(X)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 데이터 전처리가 완료되면 특성 엔지니어링 모듈이 작동합니다. 이 구성 요소는 새로운 기능을 생성하거나 기존 기능을 변환하여 모델의 예측 능력을 향상시킵니다. 범주형 변수에 대한 원핫 인코딩 또는 숫자 데이터에 다항식 기능을 생성하는 기술이 일반적입니다. 예를 들어, 범주형 변수의 인코딩은 다음과 같이 보일 수 있습니다:
 
@@ -204,18 +116,7 @@ model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하이퍼파라미터 최적화 모듈은 각 모델에 대한 최상의 하이퍼파라미터를 자동으로 탐색합니다. 그리드 탐색, 랜덤 탐색 및 베이지안 최적화와 같은 방법을 사용합니다. Snoek 등이 2012년 논문에서 상세히 설명한 바에이지안 최적화는 탐색 프로세스를 안내하기 위해 확률 모델을 구축합니다:
 
@@ -234,18 +135,7 @@ scores = cross_val_score(model, X, y, cv=5, scoring='accuracy')
 mean_score = scores.mean()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 AutoGluon은 여러 모델의 예측을 결합하여 더 정확한 단일 예측을 생성하는 Ensemble Module이 뛰어나다. 스태킹, 배깅, 블렌딩과 같은 기술이 사용된다. 예를 들어, 배깅은 BaggingClassifier를 사용하여 구현할 수 있다:
 
@@ -262,18 +152,7 @@ import joblib
 joblib.dump(bagging, 'model.pkl')
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이러한 구성 요소들은 머신 러닝 파이프라인을 자동화하여 사용자가 빠르고 효율적으로 고품질 모델을 구축하고 배포할 수 있도록합니다.
 
@@ -284,18 +163,7 @@ joblib.dump(bagging, 'model.pkl')
 **스태킹**
 스태킹은 동일한 데이터 집합에서 여러 기본 모델을 학습하고 그 예측을 상위 수준 모델에 입력 기능으로 사용하는 방식입니다. 이 접근 방식은 다양한 알고리즘의 강점을 활용하여 앙상블이 더 정확한 예측을 할 수 있도록 합니다. 스태킹 프로세스는 다음과 같이 수학적으로 표현할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_2.png
 
@@ -306,18 +174,7 @@ joblib.dump(bagging, 'model.pkl')
 
 수학적으로, 배깅은 다음과 같이 표현할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 회귀 분석:
 
@@ -327,18 +184,7 @@ joblib.dump(bagging, 'model.pkl')
 
 ![AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_4](/TIL/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_4.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 각각 데이터 하위 집합에서 훈련된 i번째 모델을 h_i로 나타냅니다. 회귀의 경우, 최종 예측 값 y^는 각 모델이 만든 예측의 평균입니다. 분류의 경우, 최종 예측 값 y^는 모델들 중 가장 빈도가 높은 클래스로 예측됩니다.
 
@@ -348,18 +194,7 @@ joblib.dump(bagging, 'model.pkl')
 
 데이터의 다른 하위 집합에서 훈련함으로써 배깅은 오버피팅을 줄이고 모델의 일반화 성능을 향상시키는 데 도움이 됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Blending
 Blending은 stacking과 유사하지만 더 간단하게 구현됩니다. Blending에서 데이터는 학습 세트와 검증 세트로 분할됩니다. 기본 모델은 학습 세트에서 학습되며, 검증 세트에서의 예측값은 최종 모델인 블렌더 또는 메타-러너를 학습하는 데 사용됩니다. Blending은 홀드아웃 검증 세트를 사용하여 구현이 빠를 수 있습니다:
@@ -379,18 +214,7 @@ meta_model.fit(meta_features, y_val_meta)
 
 # 3.3: 하이퍼파라미터 최적화
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하이퍼파라미터 최적화는 모델의 성능을 극대화하기 위해 최적의 설정을 찾는 작업을 말합니다. AutoGluon은 베이지안 최적화, 조기 중지, 스마트 자원 할당과 같은 고급 기술을 활용하여 이 프로세스를 자동화합니다.
 
@@ -399,18 +223,7 @@ meta_model.fit(meta_features, y_val_meta)
 
 여기서 f(θ)는 최적화하려는 목적 함수를 나타내며, 예를 들어 모델 정확도나 손실입니다. θ는 하이퍼파라미터를 나타냅니다. E[f(θ)]는 하이퍼파라미터 θ가 주어졌을 때 목적 함수의 기대값을 나타냅니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 베이지안 최적화에는 두 가지 주요 단계가 포함됩니다:
 
@@ -422,18 +235,7 @@ meta_model.fit(meta_features, y_val_meta)
 조기 중지 기술
 조기 중지는 오버피팅을 방지하고 검증 세트에서 모델의 성능 향상이 멈출 때 교육 프로세스를 중단하여 교육 시간을 단축합니다. AutoGluon은 교육 중에 모델의 성능을 모니터링하고 추가 교육이 큰 향상을 기대하기 힘들 때 프로세스를 중지합니다. 이 기술은 계산 자원을 절약할 뿐만 아니라 모델이 새로운 데이터에도 잘 일반화되도록 보장합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -460,18 +262,7 @@ for epoch in range(100):
 
 이 공식에서:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - h_i는 i번째 모델을 나타냅니다.
 - C_i는 모델 h_i와 관련된 비용으로, 계산 시간이나 사용된 자원과 같은 것들을 의미합니다.
@@ -483,18 +274,7 @@ for epoch in range(100):
 
 모델 평가 및 선택은 선정된 모델이 새로운, 보지 못한 데이터에서 잘 수행되도록 보장합니다. AutoGluon은 교차 검증 기술, 성능 지표 및 자동 모델 선택 기준을 사용하여 이 프로세스를 자동화합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 교차 검증 기법
 교차 검증은 데이터를 여러 폴드로 분할하고 모델을 서로 다른 하위 집합에서 훈련한 후 나머지 부분에서 유효성을 검사하는 과정을 말합니다. AutoGluon은 k-fold cross-validation과 같은 기술을 사용합니다. 데이터가 k개의 하위 집합으로 나뉘고 모델이 k번 훈련 및 유효성을 검사하며 각 시도마다 다른 하위 집합을 검증 세트로 사용합니다. 이를 통해 모델의 성능을 신뢰할 수 있는 추정치로 얻을 수 있으며 특정 train-test 분할에 의한 평가가 편향되지 않도록 합니다.
@@ -511,18 +291,7 @@ recall = recall_score(y_val, y_pred)
 f1 = f1_score(y_val, y_pred)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 자동 모델 선택 기준
 모델을 평가한 후 AutoGluon은 최상의 성능을 발휘하는 모델을 선택하는 자동 기준을 사용합니다. 이때는 다양한 모델들 사이의 성능 지표를 비교하고, 해당 작업에 가장 관련성 높은 지표에서 우수한 성과를 보이는 모델을 선택합니다. AutoGluon은 또한 모델 복잡성, 학습 시간, 자원 효율성과 같은 요소도 고려합니다. 자동 모델 선택 프로세스는 선택된 모델이 우수한 성능을 보이는 것뿐만 아니라, 현실 세계 시나리오에서 실제로 배포하고 사용하기에 실용적인지를 보장합니다. 이 선택을 자동화함으로써, AutoGluon은 인간의 편향을 제거하고 최고의 모델을 선택하는 것에 일관되고 객관적인 접근을 보장합니다:
@@ -535,18 +304,7 @@ best_model = max(models, key=lambda model: model['score'])
 
 AutoGluon을 사용하기 위해 환경을 설정해야 합니다. 이에는 필요한 라이브러리와 종속성을 설치하는 과정이 포함됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이프를 사용하여 AutoGluon을 설치할 수 있어요. 터미널이나 명령 프롬프트를 열고 다음 명령을 실행해주세요:
 
@@ -558,18 +316,7 @@ pip install autogluon
 
 다음으로 데이터를 다운로드해야 해요. 이 예제용 데이터 집합을 다운로드하려면 Kaggle을 설치해야 해요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 pip install kaggle
@@ -586,18 +333,7 @@ unzip "Academic Succession/playground-series-s4e6.zip"
 
 또는 최근 Kaggle 대회 "Academic Success Dataset"을 통해 데이터 세트를 수동으로 다운로드할 수 있습니다. 이 데이터 세트는 상업적 이용을 위해 무료로 제공됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 환경 설정이 완료되면 AutoGluon을 사용하여 기계 학습 모델을 구축하고 평가할 수 있습니다. 먼저 데이터 세트를 로드하고 준비해야 합니다. AutoGluon을 사용하면이 프로세스를 간단하게 수행할 수 있습니다. 학습 데이터가 포함 된 train.csv라는 CSV 파일이 있다고 가정해보십시오.
 
@@ -624,18 +360,7 @@ predictor = TabularPredictor(
 )
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 훈련 후에 모델의 성능을 평가할 수 있습니다. 리더보드를 사용하여 모델이 훈련 데이터에 대해 어떻게 수행되는지 요약된 정보를 제공합니다:
 
@@ -649,18 +374,7 @@ print(리더보드)
 
 /assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_9.png
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 주요 열을 자세히 살펴보겠습니다:
 
@@ -682,18 +396,7 @@ print(리더보드)
 
 LightGBMLarge_BAG_L1 및 XGBoost_BAG_L1과 같은 모델은 경쟁력 있는 검증 점수와 합리적인 훈련 및 예측 시간을 가지고 있어, 배포를 위한 강력한 후보 모델이 될 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 fit_time 및 pred_time 열은 각 모델의 계산 효율성에 대한 통찰을 제공하며, 이는 실용적인 응용 프로그램에 중요합니다.
 
@@ -725,18 +428,7 @@ predictor = TabularPredictor(
 )
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 불균형 데이터셋은 도전적일 수 있지만 AutoGluon은 이를 효과적으로 처리할 수 있는 도구를 제공합니다. 소수 클래스의 오버샘플링, 다수 클래스의 언더샘플링, 또는 비용 민감한 학습 알고리즘 적용과 같은 기술을 사용할 수 있습니다. AutoGluon은 데이터셋에서 불균형을 자동으로 감지하고 처리할 수 있습니다.
 
@@ -786,18 +478,7 @@ predictor = TabularPredictor(
 )
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 자동 머신 학습 모델을 능가할 수 있는 방법에 대해 알아보겠습니다. 손실 지표를 개선하는 것을 주요 목표로 삼고, 지연 시간, 계산 비용 또는 다른 지표에 초점을 맞추는 대신 고려해 보겠습니다.
 
@@ -807,18 +488,7 @@ predictor = TabularPredictor(
 
 또한 특성 엔지니어링에 도메인 지식을 적용하는 것이 도움이 될 수 있습니다. 데이터의 구체적인 내용을 이해하면 의미 있는 특성을 생성할 수 있어 모델의 성능을 크게 향상시킬 수 있습니다. 적용 가능한 경우, 데이터셋을 확장하여 더 다양한 학습 예제를 제공함으로써 모델의 견고성을 향상시킬 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위 전략들을 초기 AutoML 모델로부터 얻은 통찰과 결합하여, 자동화된 방식을 능가하고 뛰어난 결과를 달성할 수 있습니다.
 
@@ -828,18 +498,7 @@ AutoGluon은 데이터 전처리부터 모델 배포까지 모든 것을 자동�
 
 그러나 머신러닝에서 진정으로 뛰어나기 위해서는 AutoGluon에만 의존하는 것이 아닌, 핵심 모델 전략에 대한 통찰을 얻고 프로젝트를 가속화하기 위한 토대로 활용해야 합니다. 거기서부터 데이터를 이해하고 효과적인 모델 전략을 적용하기 위해 도메인 지식을 활용하세요. 사용자 지정 모델을 실험하고 AutoGluon의 초기 제안을 넘어서 세밀하게 조정해보세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 참고 문헌
 

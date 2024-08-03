@@ -1,7 +1,7 @@
 ---
 title: "최신 방식으로 반응형 테이블 쉽게 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-Howtocreateresponsivetableinmodernway_0.png"
+coverImage: "/assets/img/2024-07-09-Howtocreateresponsivetableinmodernway_0.png"
 date: 2024-07-09 18:52
 ogImage:
   url: /assets/img/2024-07-09-Howtocreateresponsivetableinmodernway_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@snowleo208/how-to-create-responsive-table-d1662cb6207
 
 표는 데이터를 나타내는 데 중요한 도구이지만, 작은 화면(예: 모바일 및 태블릿)에서는 데이터를 다르게 나타내는 것이 중요합니다. 그렇지 않으면 혼돈스러워질 수 있어요!
 
-![이미지](/ui-log-2/assets/img/2024-07-09-Howtocreateresponsivetableinmodernway_0.png)
+![이미지](/assets/img/2024-07-09-Howtocreateresponsivetableinmodernway_0.png)
 
 # 새로운 친구: Flexbox
 
 현대 브라우저에서는 우리 모두가 반응형 표를 만들기 위해 플렉스박스를 사용할 수 있어요! Flexbox에 대해 더 알고 싶다면, CSSTricks의 훌륭한 가이드를 항상 참고할 수 있어요!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 우선 우리가 하고 싶은 것은 다음과 같습니다:
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@snowleo208/how-to-create-responsive-table-d1662cb6207
 
 간단하게 하기 위해 여기에서는 Flag Icon CSS를 사용하여 국기를 만들 것입니다. 제작 단계에서는 SVG 또는 SVG 스프라이트를 사용해야 하며, 대역폭을 더 절약하기 위해 몇 개의 국기만 필요합니다!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 "United States"에 대한 중첩된 테이블을 보면 다른 클래스 열을 사용하여 생성했음을 확인할 수 있어요.
 
@@ -60,18 +38,7 @@ link: "https://medium.com/@snowleo208/how-to-create-responsive-table-d1662cb6207
 
 중첩된 행의 경우, 첫 번째 셀은 25%이며, .column을 컨테이너로 사용하여 너비를 75%로 조정하고, .rowspan 및 .flex-table로 테이블을 래핑해야 해요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 가장 중요한 것은 box-sizing입니다:
 
@@ -85,18 +52,7 @@ div {
 
 두 번째로 중요한 것은 플렉스박스 레이아웃입니다!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 display: flex;
@@ -109,18 +65,7 @@ Flex-flow는 flex의 shorthand입니다. 첫 번째는 flex-direction으로, 모
 
 두 번째는 flex-wrap으로, 모든 요소가 컨테이너의 너비를 초과하면 자동으로 두 번째 줄로 넘어갑니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 마지막으로, 테두리 설정도 중요합니다!
 
@@ -149,18 +94,7 @@ $table-border: #d9d9d9;
 
 여기가 최종 제품입니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 신입: 그리드 레이아웃
 
@@ -175,18 +109,7 @@ $table-border: #d9d9d9;
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 25%로 반복(auto-fill, 25%)을 추가하면 25%의 행이 자동으로 생성됩니다.
 
@@ -206,18 +129,7 @@ $table-border: #d9d9d9;
 
 이것이 무엇을 의미할까요? .first 클래스를 가진 div가 있을 때, 즉 첫 번째 셀인 경우, 1~3 그리드를 차지할 것입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그 의미는 한 행에 33.33% \* 3 그리드를 만든 경우, 첫 번째 셀이 전체 행을 차지할 것입니다. 그런 다음 다음 행이 시작되고, 남은 항목은 모두 다음 행으로 이동합니다.
 
@@ -227,18 +139,7 @@ $table-border: #d9d9d9;
 
 그래서 'div'를 사용하여 테이블을 만드는 것은 원시적이고 의미론적이지 않습니다. 테이블을 만드는 가장 좋은 방법은 여전히 원래의 'table' 태그를 사용하는 것입니다. 'div' 방법을 계속 사용할 수 있지만 'aria-labels'를 잊지 말아주세요!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 만약 네이티브 방식을 사용하여 그것을 달성하고 싶다면, 반응형 버전이 여기 있습니다.
 

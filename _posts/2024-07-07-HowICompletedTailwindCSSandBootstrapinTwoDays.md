@@ -1,10 +1,10 @@
 ---
 title: "2일 만에 Tailwind CSS와 Bootstrap 마스터하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 21:16
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "How I Completed Tailwind CSS and Bootstrap in Two Days"
 link: "https://medium.com/@daydreamer_anwe/how-i-completed-tailwind-css-and-bootstrap-in-two-days-328ec160a49b"
@@ -19,16 +19,7 @@ link: "https://medium.com/@daydreamer_anwe/how-i-completed-tailwind-css-and-boot
 
 ## 첫 번째 날: Bootstrap 배우기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 부트스트랩으로 하루를 시작하기
 
@@ -38,16 +29,7 @@ link: "https://medium.com/@daydreamer_anwe/how-i-completed-tailwind-css-and-boot
 
 학습 과정을 더욱 효율적으로 만들기 위해 부트스트랩용 치트 시트를 만들었다. 이 치트 시트에는 가장 흔히 사용되는 클래스와 구성 요소가 포함되어 있었고, 필요할 때마다 참조할 수 있었다. 이것은 내 작업 흐름을 가속화시켜 주는 편리한 참조 가이드 역할을 하였다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 인식: 현대 개발에서의 한계
 
@@ -57,16 +39,7 @@ link: "https://medium.com/@daydreamer_anwe/how-i-completed-tailwind-css-and-boot
 
 # Tailwind CSS로 시작하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 두 번째 날에는 Tailwind CSS로 주의를 옮겼어요. 부트스트랩과 다르게 Tailwind CSS는 사전 디자인된 구성 요소에 의존하지 않아요. 대신에 유틸리티 우선 클래스를 제공하여 HTML에서 직접 사용자 정의 디자인을 만들 수 있게 해줘요.
 
@@ -76,16 +49,7 @@ CDN을 이용해서 Tailwind CSS를 프로젝트에 통합하기 시작했어요
 
 ## Tailwind CSS 코드 작성하기
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 테일윈드 CSS를 연습하면서 코드를 더 잘 제어할 수 있다는 것을 깨달았어요. 추가 CSS 파일을 작성할 필요가 없어서 모든 것을 HTML 내에서 직접 관리할 수 있었어요. 이로 인해 개발 프로세스가 간소화되고 코드 유지보수가 더 쉬워졌어요.
 
@@ -95,15 +59,6 @@ CDN을 이용해서 Tailwind CSS를 프로젝트에 통합하기 시작했어요
 
 # 결론
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이틀 만에 Bootstrap과 Tailwind CSS에 대한 좋은 이해를 얻을 수 있었어요. 성공의 열쇠는 CSS에 대한 탄탄한 기반과 체계적인 학습 방법이었답니다. Bootstrap부터 시작해서 Tailwind CSS로 넘어가면서 각 프레임워크의 차이점과 장단점을 이해할 수 있었어요. 이 프레임워크를 빠르게 습득하고 싶다면, 먼저 CSS의 기본에 초점을 맞추고 그 다음에 각 프레임워크의 구체적인 내용을 실습을 통해 파고들어보는 것을 권장해요.

@@ -18,18 +18,7 @@ link: "https://medium.com/@mizutori/llm-study-diary-comprehensive-review-of-lang
 
 원본 코드의 이 부분은 변경 없이 작동했습니다. 그러나 다양한 문서 로더에 대한 참조 링크가 깨져 있어서 해당 로더를 검색했습니다. 현재 지원되는 문서 로더 목록은 아래와 같습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # URL 및 웹페이지
 
@@ -41,18 +30,7 @@ unstructured 모듈을 설치해야 합니다.
 
 만약 이 모듈이 설치되어 있다면, 원래 코드가 작동될 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래와 같은 표를 Markdown 형식으로 변경해주세요.
 
@@ -60,18 +38,7 @@ unstructured 모듈을 설치해야 합니다.
 | ---------- | ---------- |
 | Item One   | Item Two   |
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 faiss를 설치해야 합니다. CPU만 사용하는 경우 다음과 같이 설치할 수 있습니다:
 
@@ -83,18 +50,7 @@ faiss를 설치해야 합니다. CPU만 사용하는 경우 다음과 같이 설
 
 다음으로, OpenAIEmbeddings의 import 문을 블로그 포스트 Part 2에서 한 것처럼 변경하겠습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 #langchain.embeddings에서는 OpenAIEmbeddings를 사용합니다.
@@ -110,18 +66,7 @@ docs = retriever.invoke("저자가 건설하고 싶어했던 것의 종류는 �
 
 이 두 가지 변경으로 원래 코드가 작동하게 되었고, 벡터 저장소를 사용하여 LLM에서 응답을 받을 수 있었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # VectorStores
 
@@ -134,18 +79,7 @@ from langchain_openai import OpenAIEmbeddings
 
 # Memory
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 원래 코드는 그대로 작동합니다. Langchain의 다양한 메모리 유형 목록에 대한 링크가 깨져 있어 찾아보았습니다. 아래에서 확인할 수 있습니다.
 
@@ -155,18 +89,7 @@ SimpleSequentialChain 및 LLMChain이 사용되지 않게 되어 전체적으로
 
 두 개 이상의 RunnableSequence를 결합하는 방법을 찾지 못해 당황했습니다. LangChain 문서를 살펴본 결과 아래와 같이 "다중 체인"이라는 문서를 발견했습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기에 작성된 샘플을 참고하여, StrOutputParser를 통해 두 ChatPromptTemplate을 결합해보려고 했고, Cookbook처럼 작동하는 체인을 생성할 수 있었습니다.
 
@@ -207,18 +130,7 @@ ChatPromptTemplate를 모델과 StrOutputParser에 연결하여 객체를 생성
 
 ‘집에서 Coq au Vin을 만들려면, 큰 냄비에 베이컨을 볶아주세요. 베이컨을 꺼내고 베이컨 기름에 닭 조각을 볶아주세요. 다진 양파와 버섯을 넣고 레드 와인과 치킨 육수를 부어주세요. 약 1시간 정도 닭이 익고 소스가 농도가 될 때까지 강한 불에서 조리해주세요. 베이글이나 감자 퓨레 위에 또는 후식으로 인기 많은 Crusty Bread와 함께 뜨거운 상태로 제공하세요. 집에서 만든 Coq au Vin을 즐기세요!’
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 chain1의 출력물은 "Coq au Vin"입니다. 그 입력을 사용하여 chain2는 "Coq au Vin"을 어떻게 만드는지 설명합니다. Coq au Vin은 나에게는 전혀 익숙하지 않았던 요리였지만, 빨갛게 푹 구운 수탉 요리인 것 같습니다... 그 요리 이름이 전혀 익숙하지 않아서 사용자 위치로 오사카를 입력해보았더니:
 
@@ -230,18 +142,7 @@ chain2.invoke({ user_location: "Osaka" });
 
 '집에서 오떼노미야키를 만들려면, 그릇에 밀가루 1컵, 갈아 만든 야무 1컵, 달걀 2개, 다진 양배추 1컵을 섞어주세요. 돼지고기, 새우 또는 채소와 같은 자신의 선택한 토핑을 추가하세요. 팬이나 비스듬한 팬을 예열하고 형태를 부여하여 배터를 담구면을 붓세요. 각 면이 황금색이 될 때까지 며칠씩 조리하세요. 오떼노미야키를 달콤하고 매콤한 소스, 마요네즈, 윗부분에 가는 안주 살짝 뿌려서 내세요. 만들어진 오떼노미야키를 즐기세요!'
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 요약 체인
 
@@ -251,18 +152,7 @@ Cookbook의 코드 부분은 변경 없이 작동했기 때문에 넘어갈게�
 
 먼저, google-search-results 모듈을 설치해야 했어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 !pip install google-search-results
@@ -281,18 +171,7 @@ load_dotenv()
 serp_api_key=os.getenv('SERP_API_KEY', 'your_api_key')
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가장 큰 변화는 initialize_agent 함수가 사용되지 않게 되어서 Agent를 호출하는 방법을 근본적으로 변경해야 했다는 것이었습니다.
 
@@ -318,18 +197,7 @@ agent_executor.invoke({"input":"what was the first album of the"
 
 ReAct라는 용어는 익숙하지 않았지만 아래 설명대로 보면, 추론과 행동을 연결하고 이를 통해 얻은 피드백을 사용하여 다음 추론 단계로 넘어가는 에이전트 구성 방식인 것 같습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 샘플에 사용된 프롬프트는 LangSmith에서 공개된 프롬프트이며, 해당 프롬프트의 내용을 아래에서 확인할 수 있었습니다.
 
@@ -339,18 +207,7 @@ ReAct라는 용어는 익숙하지 않았지만 아래 설명대로 보면, 추�
 
 최종 답변은 다음과 같았습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 {'input': '나탈리 베르그먼이 소속된 밴드의 첫 앨범은 무엇인가요?',
@@ -363,18 +220,7 @@ ReAct라는 용어는 익숙하지 않았지만 아래 설명대로 보면, 추�
 
 이를 통해 카름 레이 안사생님의 "The LangChain Cookbook — 7 Core Concepts"의 모든 레시피를 마지막 레시피를 포함하여 제가 작업하며 성공적으로 수행했습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 때로는 너무 많은 것이 더 이상 사용되지 않아서 포기해야 한다고 생각했던 적이 있었지만, 모든 샘플이 성공적으로 작동되었어요.
 
@@ -384,18 +230,7 @@ ReAct라는 용어는 익숙하지 않았지만 아래 설명대로 보면, 추�
 
 네 목차 블로그 시리즈 끝까지 읽어 주셔서 감사합니다. 이 게시물들이 유익하고 통찰력있었기를 바랍니다. 여러분의 지속적인 관심은 저에게 AI 및 언어 기술에 대한 지식을 공유하는 동기가 되었어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 현재 시리즈를 마침하지만, AI 및 언어 기술에 대한 여정은 아직 끝나지 않았습니다. 이 블로그에 대한 질문이나 OpenAI API, LLM 또는 LangChain과 관련된 개발 프로젝트에 관심이 있다면 저에게 연락해 주세요.
 

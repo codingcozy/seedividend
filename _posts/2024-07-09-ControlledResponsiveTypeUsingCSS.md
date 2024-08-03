@@ -1,7 +1,7 @@
 ---
 title: "CSS로 반응형 글자 제어하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png"
+coverImage: "/assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png"
 date: 2024-07-09 08:56
 ogImage:
   url: /assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png
@@ -10,7 +10,7 @@ originalTitle: "Controlled Responsive Type Using CSS"
 link: "https://medium.com/@carlos-ruiz-web/controlled-responsive-type-using-css-ab53a00f5322"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png" />
+<img src="/assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png" />
 
 이것은 모바일 및 데스크톱 값을 사용하여 폰트 크기를 제어하는 멋진 팁입니다. 이 사이의 모든 것을 유동적이고 점진적으로 유지하는 동안. 단순히 다음 4가지 변수 값을 결정하고 아래 표시된 CSS 규칙에 삽입하면 됩니다.
 
@@ -21,18 +21,7 @@ link: "https://medium.com/@carlos-ruiz-web/controlled-responsive-type-using-css-
 하한 값 = 300px
 상한 값 = 1440px
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 휴대폰 중심 용어를 사용하면, 가장 작은 글꼴 크기를 14px로 설정하고, 300px 화면 너비부터 글꼴 크기가 점진적으로 증가하여 1440px 화면 너비에 도달하면 글꼴 크기가 68px로 유지됩니다.
 
@@ -44,18 +33,7 @@ link: "https://medium.com/@carlos-ruiz-web/controlled-responsive-type-using-css-
 
 다음은 CSS입니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 .responsive-type-class {

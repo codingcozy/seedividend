@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/getting-started-with-python-as-a-
 
 지질 과학자로서 코딩이 자연스럽지 않을 수 있습니다. 그러나 동료나 친구들이 만들었거나 얘기하는 앱을 보고 시도해보기를 원하는 영향을 받았을 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 글에서는 몇 년 동안 배운 다섯 가지의 조언을 공유하려고 합니다. 이 조언들은 제 지구과학 Python 애플리케이션을 개선하는 데 도움이 되었고, 처음으로 Python과 머신러닝의 세계로 진입하는 사람들에게도 도움이 될 것입니다.
 
@@ -38,16 +29,7 @@ link: "https://medium.com/towards-data-science/getting-started-with-python-as-a-
 
 Python 앱을 처음 만들 때 코드를 하나의 폴더에 모두 보관하는 것이 편리하고 쉬울 수 있습니다. 그러나 프로젝트가 성장하고 복잡해지면 코드 베이스를 유지하고 탐색하기가 어려워질 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 작업을 손쉽게 정리하는 방법은 효과적인 폴더 구조를 만드는 것입니다. 프로젝트가 작은 경우라도 데이터 파일과 출력 또는 임시 파일을 각각의 폴더로 분리하는 것이 유용합니다.
 
@@ -69,16 +51,7 @@ your_project/
 └── main.py
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 라이브러리나 플랫폼 전용 어플리케이션(예: Dash)을 개발 중이라면 Cookiecutter와 같은 프레임워크를 살펴볼 가치가 있습니다. 이를 사용하면 여러 미리 정의된 템플릿을 통해 프로젝트 구조를 매우 빠르게 설정할 수 있습니다.
 
@@ -88,16 +61,7 @@ your_project/
 
 Python(또는 다른 어떤 프로그래밍 언어에서도) 작업할 때, 깔끔하고 효율적인 코드를 만드는 관행을 따르는 것은 좋은 습관입니다. 특히 어플리케이션이 점점 커지는 경우에는 더욱 중요합니다. 이를 통해 코드를 쉽게 재사용하고 유지보수하기 쉽게하며 가독성을 높이고 (그 외 여러 가지 이점도 포함하여) 향상시킬 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 함수와 클래스를 통해 코드를 구성하고 기능을 분리하여 반복되는 코드를 줄일 수 있습니다.
 
@@ -107,16 +71,7 @@ Python(또는 다른 어떤 프로그래밍 언어에서도) 작업할 때, 깔�
 
 Python에서 함수를 만들려면 def 키워드를 사용하고, 함수의 이름을 작성한 후, 마지막으로 사용할 매개변수/인수를 지정하면 됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예를 들어, 아래 함수는 대용량 밀도 층의 측정값을 바탕으로 밀도 퇴적률을 계산합니다. 이 함수는 세 개의 매개변수( rho_matrix, rho_bulk 및 rho_fluid )를 입력으로 받아 계산을 수행하고 퇴적률 값을 반환합니다.
 
@@ -130,16 +85,7 @@ def calculate_density_porosity(rho_matrix, rho_bulk, rho_fluid):
 
 애플리케이션이 커지거나 복잡한 데이터 구조를 처리해야 하는 경우에는 클래스를 고려할 만한 유용한 도구가 될 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬에서 클래스는 객체(블루프린트와 유사한 것)를 생성하고 객체의 동작 방식을 정의하는 데 사용됩니다. 이는 상태(멤버 변수)의 초기 값과 동작(멤버 함수 또는 메소드의 구현)을 제공함으로써 이루어집니다.
 
@@ -152,16 +98,7 @@ def calculate_density_porosity(rho_matrix, rho_bulk, rho_fluid):
 - 문서화: 함수와 클래스의 목적과 사용법을 문서화하기 위해 독스트링을 사용하고 최소한의 계산 또는 방법론 출처에 대한 참조를 포함하세요. 이것은 특히 지구과학 분야에서 함수가 복잡한 계산을 수행하는 데 사용될 때 특히 중요합니다. 문서화는 블록 주석, 인라인 주석 및 문서화 문자열을 포함할 수 있습니다. 자세한 내용은 pep- 지침을 확인하세요.
 - 모듈화된 디자인: 각 부분(함수 또는 클래스)이 개별적으로 테스트 및 사용될 수 있도록 코드를 설계해야 합니다. 이로 인해 한 두 줄짜리 함수가 나올 수도 있지만 이는 더 큰 코드 조각에 감춰진 코드를 가지는 것보다 낫습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 코드에 문서 추가하기
 
@@ -171,16 +108,7 @@ def calculate_density_porosity(rho_matrix, rho_bulk, rho_fluid):
 
 문서화를 통해 코드의 가독성을 개선하는 세 가지 간단한 방법이 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 주석은 코드 섹션 뒤에 있는 아이디어를 설명하거나 복잡한 논리를 분해하거나 코드에 대한 컨텍스트를 제공하는 데 사용됩니다. 주석을 추가하는 아이디어는 코드가 어떻게 작동하는지 설명하는 것이 아니라 코드와 논리 뒤에 있는 '왜'를 설명하는 것입니다.
 
@@ -190,16 +118,7 @@ def calculate_density_porosity(rho_matrix, rho_bulk, rho_fluid):
 
 이전에 본 예제에서는 도움말 문자열을 추가하여 문서를 확장했습니다. 이로써 함수가 무엇을 하는지, 예상되는 각 매개변수가 무엇인지, 예상하는 데이터 유형이 무엇인지 설명합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 def calculate_density_porosity(rho_matrix: float, rho_bulk: float, rho_fluid: float) -> float:
@@ -224,16 +143,7 @@ Python 코드에서 문서화를 개선하는 방법에 대해 더 알아보려�
 # 버전 관리
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지구과학자로서 학업 과정에서 여러 버전의 에세이 및 논문을 저장하고 dissertation_version1.docx, dissertation_final.docx 또는 dissertation_final_final.docx와 같은 파일 이름을 만드는 데 익숙할 것으로 확신합니다. 이렇게 하면 매우 혼란스러워지고 나중에 파일을 다시 확인할 때 어떤 것이 진정 최종 버전인지 제대로 추적할 수 없게 됩니다.
 
@@ -243,16 +153,7 @@ Git 또는 GitHub와 같은 온라인 시스템과 같은 시스템을 도입하
 
 버전 관리를 도입하면 다음과 같은 작업을 수행할 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 시간이 지남에 따라 변경 사항을 추적할 수 있습니다.
 - 다른 사람과 효과적으로 협력할 수 있습니다.
@@ -265,16 +166,7 @@ Git 또는 GitHub와 같은 온라인 시스템과 같은 시스템을 도입하
 
 코드나 애플리케이션을 개발할 때 함수를 수정하는 경우 특히 예상대로 작동하는지 확인해야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 함수를 변경하거나 이에 의존하는 기타 함수들에 대한 어떠한 변경이든 안정성을 확인하는 한 가지 방법은 해당 코드 주변에 테스트를 작성하는 것입니다.
 
@@ -294,16 +186,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 테스트는 calculate_density_porosity 함수가 rho_matrix, rho_bulk, rho_fluid에 대한 특정 값이 주어졌을 때 밀도 산소포도를 올바르게 계산하는지 확인합니다.
 
@@ -313,16 +196,7 @@ if __name__ == '__main__':
 
 # Summary
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지구과학자로서, Python에 익숙하지 않을 수도 있고, 경력이나 학업 중에 가볍게 다뤄본 적이 있을 수도 있습니다. 하지만 애플리케이션을 개발하는 데 더 능숙해지고 싶어하는 경우에 이 다섯 가지 팁이 도움이 될 것입니다.
 

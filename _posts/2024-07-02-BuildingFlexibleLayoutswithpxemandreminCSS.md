@@ -1,16 +1,16 @@
 ---
 title: "CSS에서 px, em, rem을 사용하여 유연한 레이아웃 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png"
+coverImage: "/assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png"
 date: 2024-07-02 21:32
 ogImage:
-  url: /ui-log-2/assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png
+  url: /assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png
 tag: Tech
 originalTitle: "Building Flexible Layouts with px, em, and rem in CSS"
 link: "https://medium.com/techverito/building-flexible-layouts-with-px-em-and-rem-in-css-c9ca70db3a41"
 ---
 
-![image](/ui-log-2/assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png)
+![image](/assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png)
 
 웹 페이지를 CSS로 스타일링할 때는 측정 단위를 이해하는 것이 중요합니다. 세 가지 일반적인 단위는 px, em, rem입니다. 각각의 특징과 사용 사례가 있습니다. 이 블로그에서는 실제 예제와 함께 이러한 단위를 살펴보고 효과적으로 사용하는 방법을 이해하는 데 도움이 될 것입니다.
 
@@ -18,18 +18,7 @@ link: "https://medium.com/techverito/building-flexible-layouts-with-px-em-and-re
 
 px 단위는 화면의 가장 작은 측정 단위인 픽셀을 나타냅니다. 픽셀은 절대 단위로, 다른 설정과 관계없이 동일한 크기를 유지합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예시: 고정된 버튼
 
@@ -45,18 +34,7 @@ px 단위는 화면의 가장 작은 측정 단위인 픽셀을 나타냅니다.
 
 ## Ems (em)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 테이블 태그를 마크다운 형식으로 변경해보세요.
 
@@ -71,18 +49,7 @@ px 단위는 화면의 가장 작은 측정 단위인 픽셀을 나타냅니다.
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기서는 버튼의 글꼴 크기가 변경되면 패딩 값도 변경됩니다. 이렇게 함으로써 패딩이 텍스트 크기에 비례하도록 보장합니다.
 
@@ -92,18 +59,7 @@ rem 유닛은 em과 유사하지만 부모 요소가 아닌 루트 요소(일반
 
 예시: 모든 섹션에 일관된 여백
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 웹 사이트의 모든 섹션에 일관된 마진을 루트 글꼴 크기를 기반으로 적용하여 부모 요소의 글꼴 크기와 관계없이 균일한 간격을 보장하고 싶다면 아래와 같이 설정할 수 있습니다.
 
@@ -123,18 +79,7 @@ html {
 - em: 자신의 글꼴 크기에 비례하여 조절되어야 하는 패딩이나 마진과 같은 요소에 사용합니다.
 - rem: 중첩이나 상속 여부에 관계없이 일관된 크기를 유지해야 하는 여백, 패딩 또는 글꼴 크기에 이상적이며 전체 문서에 대해 일관성 있는 크기를 유지하는 데 사용됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 결론
 

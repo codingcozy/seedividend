@@ -1,10 +1,10 @@
 ---
 title: "ASPNET Core 80 웹 애플리케이션에서 JavaScript와 CSS 번들링하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-12-BundlingJavaScriptCSSforASPNETCore80WebApplications_0.png"
+coverImage: "/assets/img/2024-07-12-BundlingJavaScriptCSSforASPNETCore80WebApplications_0.png"
 date: 2024-07-12 19:16
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-12-BundlingJavaScriptCSSforASPNETCore80WebApplications_0.png
+  url: /assets/img/2024-07-12-BundlingJavaScriptCSSforASPNETCore80WebApplications_0.png
 tag: Tech
 originalTitle: "Bundling (JavaScript CSS) for ASP.NET Core 8.0 Web Applications"
 link: "https://medium.com/gitconnected/bundling-javascript-css-for-asp-net-core-8-0-web-applications-e616875c7d1b"
@@ -13,22 +13,13 @@ link: "https://medium.com/gitconnected/bundling-javascript-css-for-asp-net-core-
 
 ASP.NET Core 웹 프로젝트는 이제 JS/CSS 번들링을 기본으로 제공하지 않습니다. ASP.NET Core는 이제 응용 프로그램 개발자가 자체 번들링 솔루션을 제공하기를 기대하기 때문에, 본 블로그 포스트에서는 ASP.NET Core 웹 응용 프로그램을 위한 사용자 정의 JS/CSS 번들링을 구현할 것입니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-12-BundlingJavaScriptCSSforASPNETCore80WebApplications_0.png)
+![이미지](/assets/img/2024-07-12-BundlingJavaScriptCSSforASPNETCore80WebApplications_0.png)
 
 # 웹 응용 프로그램
 
 번들링이 없는 .NET 웹 응용 프로그램의 폴더 구조는 아래와 같습니다. 여기서는 "script"와 "styles" 폴더를 사용하여 각각 JS 및 CSS 파일을 포함합니다:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 
 회사.MyProduct.Solution
@@ -48,16 +39,7 @@ JS/CSS 번들링이란 .NET 솔루션을 빌드할 때마다 웹 애플리케이
 이러한 번들링 프로세스를 자동화할 수 있는 방법이 필요합니다.
 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 번들 옵션
 
@@ -67,16 +49,7 @@ ASP.NET Core 8.0 웹 애플리케이션에서 JS/CSS 번들링을 구현하는 �
 
 2 — NuGet 서드 파티 번들링 패키지
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 3 — ASP.NET Tag Helper Library
 
@@ -86,16 +59,7 @@ ASP.NET Core 8.0 웹 애플리케이션에서 JS/CSS 번들링을 구현하는 �
 
 그래서 네 번째 옵션 "사용자 정의 번들링"을 탐구해야 할 때입니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 가정해 봅시다. .NET Solution이 빌드 및 배포될 때마다 JavaScript와 CSS를 병합, 최소화 및 번들링해야 하는 ASP.NET Core 웹 응용 프로그램이 있다고 합시다.
 
@@ -131,16 +95,7 @@ Company.MyProduct.Solution
                     |__ some-style-02.scss
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이제 새로 추가된 Node 프로젝트에 추가된 모든 파일들을 개별적으로 살펴보겠습니다.
 
@@ -183,16 +138,7 @@ Company.MyProduct.Solution
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 패키지.json 파일은 번들링 프로세스를 실행하는 gulp Node 패키지에서 사용할 종속성만 포함하고 있습니다. 새 릴리스에 따라 패키지 버전을 업데이트해도 괜찮습니다.
 
@@ -232,16 +178,7 @@ Company.MyProduct.Solution
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 3 - gulpfile.js
 
@@ -316,16 +253,7 @@ exports.default = mainTask();
 
 위에서 나오는 /// `binding BeforeBuild=’default’ /`는 Visual Studio에게 gulpfile.js를 실행하는 방법을 알려주는 설정 태그입니다. 여기서 파일 내의 "default"라는 Task는 빌드 요청시 빌드 전에 실행됩니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 4 - 소스 파일
 
@@ -335,16 +263,7 @@ gulpfile.js 내부의 "build_js" 작업은 "js" 폴더 내의 모든 TypeScript 
 
 gulpfile.js 내부의 "build_css" 작업은 "scss" 폴더 내의 모든 SCSS 스타일을 변환, 최소화하고 병합하여 하나의 CSS 파일인 "styles.min.js"로 만들고 해당 파일을 경로 Company.MyProduct.Solution\Company.MyProduct.Web.App\styles로 복사합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 또한 감사를 위해 생성된 파일의 사본을 "dist" 폴더에 보관하고 있습니다.
 
@@ -396,16 +315,7 @@ gulpfile.js 내부의 "build_css" 작업은 "scss" 폴더 내의 모든 SCSS 스
 </Project>
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 위에서 확인할 수 있듯이, 프로젝트 파일에는 프로젝트에 추가되는 파일을 제한하는 것 이외에는 중요한 내용이 없습니다.
 

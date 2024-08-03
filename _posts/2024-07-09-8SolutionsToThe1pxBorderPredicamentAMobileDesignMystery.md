@@ -1,7 +1,7 @@
 ---
 title: "1px 테두리 문제 해결을 위한 8가지 솔루션 모바일 디자인 미스터리 "
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png"
+coverImage: "/assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png"
 date: 2024-07-09 08:55
 ogImage:
   url: /assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png
@@ -10,7 +10,7 @@ originalTitle: "8 Solutions To The 1px Border Predicament: A Mobile Design Myste
 link: "https://medium.com/javascript-in-plain-english/8-solutions-to-the-1px-border-predicament-a-mobile-design-mystery-%EF%B8%8F-%EF%B8%8F-82c678ca206c"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png" />
+<img src="/assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png" />
 
 1픽셀 테두리가 모바일 기기에서 의도한 것보다 두껍게 보이는 경우가 종종 있었죠? 혼자가 아니랍니다! 이 불일치는 모바일 화면의 픽셀 밀도가 서로 다르기 때문입니다.
 
@@ -18,18 +18,7 @@ link: "https://medium.com/javascript-in-plain-english/8-solutions-to-the-1px-bor
 
 ## 주범: 픽셀 밀도
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 모든 장치에는 기기 독립적인 픽셀과 실제 픽셀 사이의 비율을 알려주는 devicePixelRatio로 측정된 특정 픽셀 밀도가 있습니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/javascript-in-plain-english/8-solutions-to-the-1px-bor
 
 ## 1. 0.5px 테두리: 간단한 고치기 방법
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 방법은 장치 픽셀 비율이 2 이상인 경우 조건부로 0.5px 테두리를 적용하는 것을 포함합니다.
 

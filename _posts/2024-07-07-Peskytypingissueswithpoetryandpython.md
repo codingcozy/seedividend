@@ -21,18 +21,7 @@ def my_special_function(test: Test) -> Output:
   return Output()
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 당연하지만 실제 유형은 전통적인 Python 인터프리터에서 테스트되지 않았습니다. 그러나 우리가 매개변수로 전달되는 것을 정확히 알고 싶다면 다음을 추가할 수 있습니다:
 
@@ -47,18 +36,7 @@ def my_special_function(test: Test) -> Output:
 
 Python 3.12 이상에서 추가된 다른 항목(P.E.P. 0695)은 'type' 키워드입니다. 사용자 정의 유형을 제공하여 다음과 같이 정의할 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import typing

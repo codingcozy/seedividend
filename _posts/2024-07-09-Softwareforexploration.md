@@ -18,18 +18,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 그러나 그 모든 노력이 물거품으로 돌아갔어요. 내가 작업한 대부분의 연구 소프트웨어가 실제 운영에 적용되지 않았거든요 (일부는 적용되기는 했지만). 단순한 진실을 알려준 사람이 있었다면, 내 정신건강에는 참 좋았을 텐데요: 죽어가는 연구 코드는 실제로 일어나야 하는 일이에요. 연구자들은 처음부터 그것을 엔지니어링하는 데 많은 시간을 들이지 않아도 되요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 전문 소프트웨어 엔지니어들은 항상 가장 좋은 소프트웨어 관행을 사용하지 않는 연구자들을 무시하는 경향이 있습니다. 연구 코드의 수준을 높이려는 노력이 여러 개 있습니다 (예: 이 훌륭한 게시물 및 연구 코드 핸드북). 그러나 이 게시물은 다른 방향으로 나아가서 최고의 소프트웨어 관행을 지나치게 적용하지 않는 방법을 주장하며 빠른 탐구에만 주력하는 것이 중요하다고 주장합니다. 이는 빠르게 여러 아이디어를 시도해보는 것이 목표인 연구 지향적 기업을 대상으로 합니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 ![Software for exploration](/TIL/assets/img/2024-07-09-Softwareforexploration_1.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 두 가지 사이에서 최적의 소프트웨어 관행은 꽤 다릅니다. 그래서 회사들은 종종 별도의 연구 및 제품 부서를 갖고 있습니다. 소프트웨어 디자인에 관한 일반적으로 읽을 수 있는 모든 책들은 주로 두 번째 "활용" 단계에 대해 설명하고 있습니다. 이 단계에서는 확장 가능한 제품을 위한 기반을 구축합니다. 여기서 모든 디자인 패턴이 나타납니다: 좋은 API, 로깅, 오류 처리 등이 있습니다.
 
@@ -60,18 +38,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 ![이미지](/TIL/assets/img/2024-07-09-Softwareforexploration_2.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 비슷하게, 기술적 부채를 감당하지 않으면 연구 속도가 느려질 수 있습니다. 좋은 소식은 대부분의 경우에는 다시 상환할 필요가 없다는 것입니다. 대부분의 연구 코드는 결국 사라질 것이기 때문에 평균적으로 가져간 전체 기술적 부채로 인해 고통받지 않을 것입니다.
 
@@ -81,18 +48,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 코드 재사용을 제한하는 것은 연구에서 받아들이는 종류의 기술적 부채입니다. 추가적인 불필요한 종속성 추가, 코드 복사 붙여넣기, 큰 양의 공유 연구 코드 유지, 조기 설계 투자 등 여러 가지 코드 재사용 패턴에 대해 논의하고 싶습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 새로운 것을 가져오기 전에 한 번 더 생각해보세요
 
@@ -104,18 +60,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 - 버전이 명시되어 있고, 쉽게 설치할 수 있는 경우
 - 마지막으로, 직접 구현할 수 있는 방법이 없는 경우.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 만약에 이러한 상황에 의심스러운 의존성이 있다면:
 
@@ -128,18 +73,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 ## 복사 붙여넣기는 실험의 자유를 줍니다
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Software Exploration](/TIL/assets/img/2024-07-09-Softwareforexploration_3.png)
 
@@ -149,18 +83,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 저는 딥러닝 코드베이스가 대부분 복사 붙여 넣기에 적합하다고 생각해요. 일반적으로 모델과 그 학습을 설명하는 데 필요한 코드 양이 크지 않을 수도 있어요. 그러나 동시에 매우 미묘하고 일반화하기 어려울 수도 있어요. 공유 가능한 학습 스크립트는 관리하기 힘든 크기로 커지곤 해요: 예를 들어 Hugging Face transformers Trainer는 4천 줄을 넘었어요. 재미있는 사실은 transformers가 모델 수준에서 복사 붙여 넣기를 선택했다는 것이에요. 그들의 "단일 파일 모델" 정책 뒤에 이유에 대한 포스트를 확인해주세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 대안으로 복사 및 붙여넣기 대신 브랜치를 유지하는 것이 있습니다. 하지만 팀원들과 협업에 너무 많은 부담을 주는 것 같아요. 게다가, 복사 붙여넣기의 매력에 관한 몇 가지 게시물을 더 발견했어요. "자료"에서 확인해보세요.
 
@@ -170,18 +93,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 ![Softwareforexploration_4](/TIL/assets/img/2024-07-09-Softwareforexploration_4.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 큰 공동 연구 코드를 유지하는 데 필요한 시간과 리소스를 과소평가하지 마세요. 연구 라이브러리가 더 많이 사용될수록 더 복잡해집니다. 일반 라이브러리보다 빠르게 발생하는 이유는 각 연구 방향이 약간 다른 사용 사례를 갖고 있기 때문입니다. 기여할 수 있는 내용에 대한 매우 엄격한 규칙을 정립하세요. 그렇지 않으면 공동 코드는 취약해지고 옵션을 가득 채우고 버그가 많은 최적화와 예외 사항으로 넘치게 됩니다. 대부분의 연구 코드가 사라지기 때문에 이 모든 추가 복잡성은 다시 사용되지 않을 것입니다. 일부 공동 코드를 제거하면 실제 연구를 진행할 시간을 확보할 수 있습니다.
 
@@ -191,18 +103,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 연구 코드에는 그런 것이 중요하지 않습니다. 단지 아이디어가 좋은지 나쁜지를 최대한 빠르게 증명하고 넘어가려 합니다. 따라서 모듈이나 API 없이 해당 목적을 달성하는 더러운 단순성은 전혀 문제가 되지 않습니다!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가치 있는 시간을 낭비하지 마세요. 이른 시점에 소프트웨어 투자를 하지 마십시오:
 
@@ -215,18 +116,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 연구 프로젝트의 목표는 혁신적인 솔루션을 찾는 것입니다. 아무도 (정의상) 그 모습을 모릅니다. 제한된 정보가 있는 복잡한 연구 환경에서 최적화 프로세스와 유사합니다. 좋은 최솟값을 찾기 위해 많은 경로를 시도하고, 좋은 경로와 나쁜 경로를 인식하고 국소 최솟값에 갇히지 않아야 합니다. 모든 것을 빠르게 수행하려면 기술적 부채를 갚는 대신 소프트웨어 투자를 할 필요가 있을 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 공통 경로 가속화
 
@@ -238,18 +128,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 - 모든 실험이 각기 다른 모델을 사용해야 한다면, 어떻게 빠르게 교체할 수 있는지 파악하세요 (예: 단순한 팩토리 시스템 또는 단순 복사 붙여넣기).
 - 모든 실험이 매개변수가 너무 많아 관리가 어렵다면, 좋은 구성 라이브러리에 투자하십시오.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 빠르게 분기 내리기
 
@@ -259,18 +138,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 그러나 이것은 소프트웨어 게시물이므로 새로운 프로젝트를 분기 내리기 쉽게 하는 몇 가지 실천 방법을 소개합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 알고리즘에서 평가 코드를 분리하여 유지하세요. 평가는 일반적으로 연구 방향보다 안정적입니다.
 - 새로운 프로젝트를 빈 화면에서 시작하는 것을 환영하지만, 재사용되는 구성 요소에 주의하세요. 모듈화하고 정리하는 것이 좋은 투자입니다.
@@ -282,18 +150,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 잡음이 많고 버그가 있는 코드는 결과를 너무 모호하고 결론이 나지 않게 만들어 전체 프로젝트가 시간 낭비가 될 수 있습니다. 여러분이 과도하게 엔지니어링을 하지 않아도 되지만, 코드를 지저분하게 만들지 않으려면 다음과 같은 간단한 지침을 쉽게 따를 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 부작용이 있는 코드를 피하세요.
 - 클래스보다는 함수를 기본으로 사용하고, 클래스를 사용할 때에는 상속 대신 캡슐화를 선호하세요.
@@ -308,18 +165,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 # 결론
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위 텍스트를 친근한 톤으로 한국어로 번역해드릴게요:
 
@@ -331,18 +177,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 읽어 주셔서 감사합니다! LinkedIn이나 Twitter에서 저를 만날 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 자료
 
@@ -354,18 +189,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 복사 및 붙여넣기 실천 방법을 주장하는 더 많은 게시물:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 복사 붙여넣기가 정말 문제일까요?
 - 코드를 복사 붙여넣기해야 하는 때는 언제인가요?

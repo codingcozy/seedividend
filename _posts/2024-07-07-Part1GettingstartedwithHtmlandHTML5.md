@@ -1,7 +1,7 @@
 ---
 title: "파트 1 HTML 및 HTML5 시작하는 법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_0.png"
+coverImage: "/assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_0.png"
 date: 2024-07-07 21:24
 ogImage:
   url: /assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@vaaluvishnu5146/getting-started-with-html-and-html5-d
 
 HTML 및 HTML에서 사용 가능한 모든 태그에 대한 설명서
 
-![HTML Image](/ui-log-2/assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_0.png)
+![HTML Image](/assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_0.png)
 
 # HTML이란?
 
 HTML (하이퍼텍스트 마크업 언어)는 웹 페이지를 만드는 데 사용되는 표준 언어입니다. 이는 웹페이지의 구조를 제공하며, 이후 CSS (캐스케이딩 스타일 시트)로 스타일이 적용되며 JavaScript로 상호작용이 가능하게 됩니다. HTML은 브라우저에 콘텐츠를 어떻게 표시할지 알려주는 일련의 요소 또는 태그로 구성됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # HTML 태그란 무엇인가요:
 
@@ -41,18 +30,7 @@ HTML 코드를 작성하기 위해서는 특정한 구문, 절차 및 규칙을 
 
 우리는 두 가지 방법으로 HTML 태그를 활용할 수 있습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 컨테이너 태그
 - 자체 닫힘 태그
@@ -71,18 +49,7 @@ HTML 코드를 작성하기 위해서는 특정한 구문, 절차 및 규칙을 
 
 대부분의 경우, 자체 닫힘 태그는 입력 요소나 줄 바꿈 요소일 것입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 HTML의 모든 태그는 다음과 같이 여러 가지 태그로 분류할 수 있습니다:
 
@@ -96,18 +63,7 @@ HTML의 모든 태그는 다음과 같이 여러 가지 태그로 분류할 수 
 
 여기 초보자가 배워야 할 몇 가지 필수 HTML 태그가 있습니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 구조적 태그:
 
@@ -137,18 +93,7 @@ HTML의 모든 태그는 다음과 같이 여러 가지 태그로 분류할 수 
 - `u`: 밑줄 텍스트를 정의합니다.
 - `span`: 문서 내 인라인 요소를 그룹화하는 데 사용됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 리스트 태그:
 
@@ -164,18 +109,7 @@ HTML의 모든 태그는 다음과 같이 여러 가지 태그로 분류할 수 
 - 'audio': 오디오 파일을 삽입합니다.
 - 'source': 'video' 및 'audio'에 대한 여러 미디어 리소스를 지정합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 표 태그
 
@@ -196,18 +130,7 @@ HTML의 모든 태그는 다음과 같이 여러 가지 태그로 분류할 수 
 - `fieldset`: 폼에서 관련된 요소들을 그룹화합니다.
 - `legend`: `fieldset` 요소에 대한 캡션을 정의합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 메타데이터 태그
 
@@ -220,18 +143,7 @@ HTML의 모든 태그는 다음과 같이 여러 가지 태그로 분류할 수 
 
 HTML에서 의미론적 태그는 포함하는 내용의 의미를 정의하는 반면, 의미가 없는 태그는 스타일링이나 다른 요소의 컨테이너로 사용됩니다:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 의미 있는 태그
 
@@ -241,22 +153,11 @@ HTML에서 의미론적 태그는 포함하는 내용의 의미를 정의하는 
 
 - 이러한 태그들은 내용에 대한 정보를 전달하지 않고 스타일링 목적이나 다른 요소들을 포함하기 위해 사용됩니다. 예를 들어, `div` 태그는 요소들을 그룹화하기 위해 사용될 수 있으며, `<style>` 태그는 텍스트를 스타일링하는 데 사용됩니다. 기타 의미 없는 태그의 예시로는 `hr`, `input`, `select`, `textarea`가 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 글에서 유용하고 통찰력있는 것을 얻었으면 좋겠습니다. 더 배우려면 제 미디엄과 링크드인 계정을 팔로우해주세요:
 
-![image](/ui-log-2/assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_1.png)
+![image](/assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_1.png)
 
 [링크드인 프로필](https://www.linkedin.com/in/vishnu-vardhan-balasundaram-851490196/)
 

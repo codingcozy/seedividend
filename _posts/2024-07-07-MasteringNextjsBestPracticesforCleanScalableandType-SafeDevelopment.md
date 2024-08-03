@@ -18,18 +18,7 @@ link: "https://medium.com/@iqbalpa/mastering-next-js-best-practices-for-clean-sc
 
 객체 지향 프로그래밍(OOP)은 "객체"라는 개념을 기반으로 하는 프로그래밍 패러다임으로, 이 객체는 필드(속성 또는 프로퍼티)에 데이터와 프로시저(메서드 또는 함수)에 코드를 포함할 수 있습니다. OOP 원칙을 준수하면 소프트웨어 시스템을 모듈식, 유연하고 유지보수하기 쉽게 설계하고 구현할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 캡슐화
 
@@ -59,18 +48,7 @@ class Post {
 
 ## 추상화
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 추상화는 복잡한 구현 세부 사항을 숨기고 객체의 핵심 기능만 표시하는 과정입니다. 이는 객체가 무엇을 하는지에 초점을 맞춘 채 그것이 어떻게 하는지보다는 복잡성을 관리하는 데 도움이 됩니다.
 - 자동차 계기판을 생각해보십시오. 이는 차의 내부 메커니즘을 공개하지 않고 속력, 연료 수준 및 엔진 온도와 같은 중요한 정보를 운전자에게 제공합니다. 이 추상화로 인해 운전자는 불필요한 세부 정보에 압도되지 않고 운전에 집중할 수 있습니다.
@@ -94,18 +72,7 @@ class Post {
 - 상속은 새 클래스가 기존 클래스로부터 속성과 메서드를 파생하는 메커니즘입니다. 이는 코드의 재사용성을 촉진하고 각 하위 클래스가 상위 클래스에서 속성과 동작을 상속받아 클래스 계층 구조를 생성하는 것을 허용합니다.
 - 이전 세대로부터 일부 특성과 특징을 상속받는 가족 계보를 상상해보십시오. 마찬가지로 OOP에서는 하위 클래스가 상위 클래스로부터 속성과 메서드를 상속받아 클래스 계층 구조를 형성합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 class Person {
@@ -164,18 +131,7 @@ class Guest extends User {
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음 옵젝트 지향 원칙들을 적용하여 Next.js 개발을 하면 모듈화되고 유연하며 유지보수가 용이한 코드를 디자인할 수 있어 애플리케이션을 구축하고 확장하기가 더 용이해집니다.
 
@@ -187,18 +143,7 @@ class Guest extends User {
 - 예를 들어 빵을 굽는 일을 담당하는 제빵사가 있다고 상상해보세요. 만약 제빵사가 갑자기 빵을 굽는 일에 더해 고객에게 빵을 배달하는 책임도 맡는다면, 빵의 품질이 하락할 수 있습니다. 굽기에만 집중함으로써, 제빵사는 항상 완벽하게 빵을 굽을 수 있음을 보장할 수 있습니다.
 - 다음은 Next.js에서 SRP를 적용하는 예시입니다. Card 컴포넌트를 만들고 싶다고 가정해봅시다. Card 폴더를 만들어 컴포넌트 자체와 필요한 상수들이 포함되도록 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 컴포넌트인 Card.tsx입니다.
 
@@ -232,18 +177,7 @@ export type CardProps = {
 };
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위의 두 가지를 분리함으로써 코드의 전반적인 가독성을 향상시킬 수 있습니다.
 
@@ -270,18 +204,7 @@ const Card: React.FC<CardProps> = ({title, desc}) => {
 }
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # ExtendedCard.tsx
@@ -307,18 +230,7 @@ ExtendedCard 컴포넌트는 Card 컴포넌트에 새로운 요소를 추가하�
 - LSP는 슈퍼클래스의 객체가 서브클래스의 객체로 대체될 수 있어야하며 프로그램의 정확성에 영향을 주지 않아야한다고 명시합니다. 즉, 서브클래스는 에러를 발생시키지 않고 기본 클래스를 대체할 수 있어야 합니다.
 - 리모컨 자동차를 생각해보세요. 서로 다른 종류의 배터리를 교체할 수 있는 경우를 말합니다. 배터리가 맞고 필요한 전원을 제공한다면 어떤 브랜드나 종류의 배터리든 자동차의 작동에 영향을주지 않고 사용할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음은 Next.js 컴포넌트에서 LSP 구현 예제입니다. 이 예제에서는 DisabledButton 컴포넌트가 Button 컴포넌트의 하위 클래스입니다. DisabledButton 컴포넌트는 기본 Button 컴포넌트의 기능을 확장하여 disabled 속성을 추가합니다. 하위 클래스임에도 불구하고, DisabledButton 컴포넌트는 Button 컴포넌트와 심리스하게 교체할 수 있으며 애플리케이션의 동작에 영향을 주지 않기 때문에 LSP를 준수합니다.
 
@@ -380,18 +292,7 @@ const Home: React.FC = () => {
 export default Home;
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## Interface Segregation Principle (ISP)
 
@@ -420,18 +321,7 @@ interface VideoCardProps {
 type CardProps = TextCardProps | ImageCardProps | VideoCardProps;
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 // Card/Card.tsx
@@ -478,18 +368,7 @@ export default Home;
 - DIP(Dependency Inversion Principle)은 고수준 모듈이 저수준 모듈에 의존하지 않아야 한다는 것을 말합니다. 그 대신 둘 다 추상화에 의존해야 합니다. 이는 모듈들을 분리하여 재사용 가능하고 테스트하기 쉽게 만들어줍니다.
 - 벽돌로 지어진 집을 생각해보세요. 각 벽돌이 아래 벽돌에 의존하는 대신, 모든 벽돌이 기초에 의존합니다. 기초가 튼튼하면 개별 벽돌을 교체해도 집은 안정적으로 유지됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Next.js에서는 React의 Context API 또는 의존성 주입을 사용하여 의존성 역전 원칙(Dependency Inversion Principle, DIP)을 구현할 수 있습니다. 여기서 StoreProvider 컴포넌트는 나머지 애플리케이션에 Redux 스토어를 제공하는 역할을 합니다. 이를 통해 스토어의 생성을 사용하는 컴포넌트와 분리하여 테스트와 재사용성을 촉진합니다.
 
@@ -537,18 +416,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
 ## SOLID 원칙의 구현 장점
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 누릴 수 있어요.
 
@@ -562,18 +430,7 @@ Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 
 
 # 제 3장: Next.js 및 Typescript Best Practices
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 장에서는 Next.js와 TypeScript를 사용하는 최상의 방법에 대해 알아보겠습니다. 이는 강력한 React 프레임워크의 장점과 정적 타이핑의 안전성 및 명확성을 결합한 것입니다. TypeScript가 어떻게 Next.js에서 개발 경험을 향상시키는지에 대해 살펴보겠습니다. 프로젝트 설정부터 컴포넌트 구조화 및 데이터 처리까지! 함께 알아봅시다!
 
@@ -605,18 +462,7 @@ Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 
 
 2. `Type Annotations for Props and State`. Next.js에서 TypeScript를 사용할 때, 컴포넌트의 props와 state에 대한 유형 주석을 제공하는 것이 중요합니다. 이는 컴포넌트로 흐르는 데이터의 올바른 유형을 보장하여 런타임 오류의 가능성을 줄입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Mastering Next.js: Best Practices for Clean, Scalable, and Type-Safe Development](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_1.png)
 
@@ -626,18 +472,7 @@ Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 
 
 ![Mastering Next.js: Best Practices for Clean, Scalable, and Type-Safe Development](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_3.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 4. TypeScript 유틸리티 타입(Partial, Required, Omit) 사용하기. Partial, Required, Omit과 같은 TypeScript 유틸리티 타입을 활용하면 더 정확한 타입 정의를 만들 수 있습니다. Partial을 사용하면 타입의 모든 속성을 옵션으로 만들 수 있고, Required는 타입의 모든 속성이 필수임을 보장하며, Omit은 기존 타입에서 특정 속성을 제외한 새로운 타입을 생성합니다.
 
@@ -647,35 +482,13 @@ Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 
 
 6. "?"로 옵션으로 지정하기. TypeScript에서는 타입 정의에서 속성 이름 뒤에 "?"를 추가하여 속성을 옵션으로 표시할 수 있습니다. 이는 가끔 필요하지 않은 프롭스나 상태 속성이 있는 경우 유용합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 7. 조건부 렌더링. 조건부 렌더링은 특정 조건에 따라 다른 컴포넌트나 요소를 렌더링할 수 있습니다. 이를 위해 일반 JavaScript if 문이나 삼항 연산자를 JSX 코드 내에서 사용할 수 있습니다.
 
 8. Redux를 사용하여 전역 상태 관리 활성화하기. Redux는 React 및 Next.js 애플리케이션에 많이 사용되는 상태 관리 라이브러리입니다. Redux를 사용하면 전역 상태를 유지할 수 있어 어떤 컴포넌트에서든 액세스할 수 있으며, 컴포넌트 트리의 여러 수준을 통해 props를 전달할 필요가 없습니다 (state drilling).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_7.png)
 
@@ -685,18 +498,7 @@ Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 
 
 10. 항목 목록을 만들고 배열을 반복하여 컴포넌트 목록을 만드세요. Next.js에서 항목 목록을 렌더링할 때 map 함수를 사용하여 배열을 반복하고 각 항목에 대해 컴포넌트를 렌더링할 수 있습니다. 이를 통해 기본 데이터가 변경될 때 자동으로 업데이트되는 동적 목록을 만들 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![이미지](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_9.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "HTML dialog 태그가 혁신적인 이유 분석"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-07-HTMLdialogTagaGameChanger_0.png"
+coverImage: "/assets/img/2024-07-07-HTMLdialogTagaGameChanger_0.png"
 date: 2024-07-07 02:20
 ogImage:
   url: /assets/img/2024-07-07-HTMLdialogTagaGameChanger_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@developwithmi/html-dialog-tag-a-game-changer-bdd06d8c
 
 HTML5의 `dialog` 태그 소개는 개발자가 웹 페이지에서 모달과 대화 상자를 만들고 관리하는 방식을 혁신적으로 나타냅니다. `dialog` 태그 도입 이전에는 모달을 구현하는 데 HTML, CSS, JavaScript의 조합이나 jQuery UI 또는 Bootstrap과 같은 타사 라이브러리가 필요했지만, `dialog` 태그를 사용하면 이제 모달을 생성하는 것이 네이티브 HTML5 경험이 되어 프로세스가 간소화되고 보다 효율적인 접근 방식을 제공합니다. 다음은 작동 방법을 간략히 살펴보겠습니다:
 
-![html dialog tag screenshot](/ui-log-2/assets/img/2024-07-07-HTMLdialogTagaGameChanger_0.png)
+![html dialog tag screenshot](/assets/img/2024-07-07-HTMLdialogTagaGameChanger_0.png)
 
 `dialog` 사용 전:
 
@@ -25,18 +25,7 @@ HTML5의 `dialog` 태그 소개는 개발자가 웹 페이지에서 모달과 �
 </div>
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 .modal {
@@ -63,18 +52,7 @@ document.querySelector(".close-button").addEventListener("click", function () {
 </dialog>
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 const dialog = document.getElementById("myDialog");
@@ -98,18 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 코드 조각은 DOM이 완전히 로드될 때 대화상자가 열리도록 보장합니다.
 
@@ -124,18 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 # 자동 닫힘 버튼
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 `dialog` 요소에 자동 닫기 버튼을 추가하는 것은 간단합니다. dialog를 닫으려면 close() 메서드를 사용할 수 있어요.
 
@@ -157,18 +113,7 @@ autoCloseButton.addEventListener("click", () => {
 
 # 올바른 방법으로 `dialog` 스타일링하기
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 `dialog` 요소를 스타일링하는 것은 다른 HTML 요소를 스타일링하는 것과 유사합니다. 직접 CSS 규칙을 적용할 수 있어요.
 
@@ -189,18 +134,7 @@ dialog::backdrop {
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 CSS 스니펫은 배경을 어둡게 만들어 대화 상자와 페이지의 나머지 부분 간의 대비를 뚜렷하게 만듭니다.
 

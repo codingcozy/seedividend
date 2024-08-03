@@ -18,18 +18,7 @@ shadcn-ui CLI가 어떻게 작동하는지 알아보고 싶었어요. 이 글에
 
 ![이미지](/TIL/assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 L84에서는 projectType 또는 tailwindCssFile 또는 tsConfigAliasPrefix 중 하나라도 존재하지 않는 경우 null을 반환하는 간단한 확인 작업입니다.
 
@@ -41,18 +30,7 @@ const isTsx = await isTypeScriptProject(cwd);
 
 isTypescriptProject는 ui/packages/cli/src/utils/get-project-info.ts로부터 가져온 함수이며, 이 함수는 현재 작업 디렉토리(cwd)에 tsconfig.json 파일이 있는지 확인합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 export async function isTypeScriptProject(cwd: string) {
@@ -69,18 +47,7 @@ pathExists는 fs-extra에서 가져온 함수입니다.
 import fs, { pathExists } from "fs-extra";
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론:
 
@@ -90,18 +57,7 @@ import fs, { pathExists } from "fs-extra";
 
 웹사이트: [https://ramunarasinga.com/](https://ramunarasinga.com/)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Linkedin: [링크드인](https://www.linkedin.com/in/ramu-narasinga-189361128/)
 
@@ -111,18 +67,7 @@ Github: [깃허브](https://github.com/Ramu-Narasinga)
 
 shadcn-ui/ui를 처음부터 만들기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 참고 자료:
 

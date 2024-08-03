@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/how-to-build-an-llm-powered-app-t
 
 이 프로세스의 모든 단계는 아래에서 자세히 설명되며, 재사용하고 수정할 수 있는 동반되는 소스 코드가 함께 제공됩니다👇.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 준비되셨나요? 함께 알아봐요 🔍.
 
@@ -38,16 +29,7 @@ link: "https://medium.com/towards-data-science/how-to-build-an-llm-powered-app-t
 
 Papers With Code(일명 PWC)는 연구원과 실무자들을 위한 무료 웹사이트로, 최신의 최첨단 머신러닝 논문, 소스 코드, 데이터 세트를 찾고 따르는 곳이에요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 <img src="/TIL/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png" />
@@ -59,16 +41,7 @@ Papers With Code(일명 PWC)는 연구원과 실무자들을 위한 무료 웹�
 인터페이스에서 이렇게 할 수 있습니다: papers/ 엔드포인트를 찾아 쿼리( q ) 인자를 채웁니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 표 태그를 Markdown 형식으로 바꾸세요.
 
@@ -80,16 +53,7 @@ Papers With Code(일명 PWC)는 연구원과 실무자들을 위한 무료 웹�
 
 이 구조를 이용하면 "대형 언어 모델"에 일치하는 7200개의 논문을 검색할 수 있습니다. URL을 요청하는 함수를 이용하여 모든 페이지에 대해 루프를 돌림으로써 간단히 수행할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import requests
@@ -129,16 +93,7 @@ print(len(results))
 - metadata (dict): 추가 정보를 저장하는 매개변수. 우리의 사용 사례에서는 id, arxiv_id, url_pdf, 타이틀, 저자, 발표일을 유지할 것입니다
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from langchain.docstore.document import Document
@@ -175,16 +130,7 @@ len(splits)
 # 11308
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 2 — 업스태시에서 인덱스 생성하기
 
@@ -194,16 +140,7 @@ len(splits)
 
 인덱스를 생성하려면 여기에 로그인하고 몇 가지 매개변수를 입력하는 지침을 따르면 됩니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 지역: 근처에 위치한 지역을 선택해주세요.
 - 차원 = 768로 설정하세요(VertexAI의 임베딩 차원)
@@ -217,16 +154,7 @@ pip install upstash-vector
 
 이를 통해 인덱스에 연결을 설정할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from upstash_vector import Index
@@ -243,16 +171,7 @@ To embed the chunks and index them into the vector db, we’ll create a simple c
 
 This class will be named UpstashVectorStore and will have the following methods:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Upstash Vector Store 클래스의 __init__ 생성자는 Upstash Index와 Embeddings 객체를 예상합니다.
 - 문서를 임베딩하고 일괄적으로 색인에 추가하려면 add_documents 를 사용합니다.
@@ -350,16 +269,7 @@ class UpstashVectorStore:
 
 이 클래스를 사용하여 청크를 색인화해 봅시다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 from langchain.embeddings import VertexAIEmbeddings
@@ -382,16 +292,7 @@ ids = upstash_vector_store.add_documents(splits, batch_size=25)
 # 4 — 색인 된 논문에 대한 질문하기
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 추상이 올바르게 Upstash에 색인된 상태로, 이제 자연어로 상호작용하며 ML 주제에 대한 구체적인 질문을 할 수 있습니다.
 
@@ -429,16 +330,7 @@ def get_prompt(question, context):
     return prompt
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 영감이 떨어질 때가 있죠? 시작하는 데 도움이 될 질문이에요:
 
@@ -488,16 +380,7 @@ LM의 생성물을 생성하고 반성합니다. 반성 토큰을 생성하면 L
 ...
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 LLM에게 대답 생성을 요청해보세요.
 
@@ -518,16 +401,7 @@ answer = llm.predict(prompt)
 검색 증강 생성 (RAG) 프레임워크는 핍을 피할 수 없는 검색 및 필요하지 않거나 관련성 없는 단락을 포함하여 도움이 되지 않는 응답 생성으로 이어질 수 있는 문제와 같은 문제가 있을 수 있습니다. 또한, 기존 연구는 RAG가 다양한 대형 언어 모델 (LLM)에 미치는 영향을 철저히 평가하지 않아 RAG의 다양한 LLM에 대한 기능 병목 현상을 식별하기 어렵게 만들고 있습니다. 이러한 문제를 해결하기 위해, 연구자들은 자기 반성 검색 증강 생성(Self-RAG) 프레임워크를 제안했으며, 이 프레임워크는 검색 및 자기 반성을 통해 LM의 품질과 사실성을 향상시킵니다. LLM의 다른 문제점 중 하나는 그들의 잊기죽임입니다. 그들은 시간이 흐를수록 개선되지 않거나 인간처럼 새로운 지식을 습득하지 않습니다. 이를 해결하기 위해, 연구자들은 RAG를 사용하여 문제 해결 성능을 향상시키는 방법을 탐구하고, ARM-RAG 시스템을 제안했습니다. 이 시스템은 높은 훈련 비용이 필요 없이 성공을 통해 학습합니다.
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 꽤 괜찮지 않아요?
 
@@ -537,16 +411,7 @@ answer = llm.predict(prompt)
 
 UI에서 RAG와 상호 작용하기 위해 Streamlit 애플리케이션에 통합할 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음은 Markdown 형식으로 변환한 것입니다:
 
@@ -556,16 +421,7 @@ UI에서 RAG와 상호 작용하기 위해 Streamlit 애플리케이션에 통�
 
 # 몇 가지 핵심 포인트
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 많은 분들이 이미 자료와 대화하는 RAGs를 구축하셨습니다.
 
@@ -576,16 +432,7 @@ UI에서 RAG와 상호 작용하기 위해 Streamlit 애플리케이션에 통�
 - RAGs를 통해 외부 자료에 접근할 수 있습니다. 예를 들어, 저희가 개발한 앱은 Mistral이나 LLama2와 같은 최근 오픈 소스 LLM에 대한 정확한 답변을 제공합니다.
 ChatGPT에 이러한 모델에 대해 질문을 하면 얻을 수 있는 것들을 확인해보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 
@@ -603,16 +450,7 @@ ChatGPT에 이러한 모델에 대해 질문을 하면 얻을 수 있는 것들�
 - RAG는 LLM의 컨텍스트 크기에 의해 제한됩니다. LLM의 컨텍스트 크기가 1백만 토큰이 되더라도 해당 데이터 양으로 프롬프트하는 것이 좋은 아이디어는 아닙니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -627,16 +465,7 @@ ChatGPT에 이러한 모델에 대해 질문을 하면 얻을 수 있는 것들�
 - 사용자 쿼리 확장
 - 임베딩 세밀 조정
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이전에 작성한 개선된 검색 기술에 관한 글이에요.
 

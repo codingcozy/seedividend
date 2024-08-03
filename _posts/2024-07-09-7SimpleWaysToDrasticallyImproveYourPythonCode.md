@@ -18,18 +18,7 @@ link: "https://medium.com/chifi-media/7-simple-ways-to-drastically-improve-your-
 
 파이썬의 사용 편의성은 특히 데이터에 보다 집중하고 싶은 과학자들이나 구문에 덜 관심을 갖고 싶은 초보 프로그래머들을 위한 매력적인 선택지가 됩니다. 그러나 사용 편의성과 접근성과 함께 성능에 주목할 필요가 있습니다. 또한 파이썬 같은 스크립팅 언어는 일반적으로 방법을 잘못 사용하더라도 파악하지 못하거나 직면할 필요가 없는 공간을 훨씬 더 많이 제공하는 경향이 있습니다. 다행히도 새로운 파이썬 사용자들을 위해서 파이썬은 광범위한 기능을 도입하여 사용하기 쉽고 동적으로 타입이 지정된 스크립팅 언어의 단점을 완화할 수 있었습니다. 좋은 프로그래밍 관행과 함께 파이썬의 타입 시스템과 생태계를 효과적으로 활용함으로써 파이썬의 다양한 단점을 완화하고 해당 언어에서 훨씬 더 나은 코드를 작성할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 추상화
 
@@ -39,18 +28,7 @@ link: "https://medium.com/chifi-media/7-simple-ways-to-drastically-improve-your-
 
 프로그래머로서 들을 수 있는 일반적인 조언 중 하나는 "일반적인 함수를 작성하라"는 것입니다. 이 조언은 의미가 있습니다. 함수가 보다 일반적일수록 프로젝트에 최종적으로 들어가는 코드가 적어집니다. 이는 또한 사물이 파괴될 기회가 적어지고, 파괴된 경우에는 해결책을 형성하기 위해 한 곳만 살펴보면 되는 것을 의미합니다. 그러나 이 조언에서 종종 빠지는 중요한 부분은 일반적인 함수를 계층적 추상화 수준으로 설계해야 한다는 것입니다. 다시 말해, 우리는 모든 차량을 위해 함수를 작성하고, 필요한 경우에만 트럭을 위한 함수를 작성해야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이렇게 보면, 파이썬이 제공하는 기능과 메서드 기능도 자연스럽게 패턴이 있는 것 같아요. 함수는 매우 일반적인 호출에 사용하고, 메서드는 특정 유형의 호출에 더 적합하며 특히 상속을 원하는 경우 더 좋아요. Python에서 추상화 기법을 사용하려면, 우선 클래스를 만들어야 해요:
 
@@ -73,18 +51,7 @@ the mystery machine has just honked at us in their green, flower-covered car
 선택이 삭제됨
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이것은 좋아요. 하지만 저는 트럭도 가지고 있어요. 제가 시골 소녀니까요. 그래서 우리는 트럭을 만들어야 할 거예요. 괄호 안에 Car 클래스를 Truck 클래스에 제공해주면 Car의 모든 속성과 메소드를 상속받을 수 있어요. 데이터인 이름과 색깔은 같이 저장하지만, 우리의 honk 메소드는 Car의 버전이 차량이 Car임을 언급하기 때문에 변경되어야 해요. 따라서 이를 고려하여, 우리는 서브 클래스에 새로운 메소드를 작성함으로써 상속된 메소드를 오버로드할 수 있어요.
 
@@ -105,18 +72,7 @@ class Truck(Car):
         print(self.name + " has just honked at us in their " + self.color + " truck")
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 mytruck = Truck("my large truck", "red")
@@ -134,18 +90,7 @@ class Sedan(Car):
 
 훨씬 큰 사용 사례에서 추상화가 Python에서 훌륭한 코드를 작성하는 데 절대적으로 필요한 이유를 이해하기 쉽습니다. 다행히 이 기술은 사용하기 매우 쉽습니다, 그리고 제가 논의하고 싶은 다음 기술도 마찬가지입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 표현식들
 
@@ -159,18 +104,7 @@ for x in range(1, 30):
 
 이것은 for 루프 방식으로, 이는 파이썬에서 반복 가능한 요소와 함께 작업하는 핵심적인 방법입니다. 이 접근 방식의 for 루프 버전은 리스트를 초기화하고 각 반복에서 해당 리스트에 새 요소를 추가하는 것을 요구합니다. 이 방식은 효율적이지만, 요소를 생성하는 데 제너레이터를 사용하는 것만큼 효과적이지는 않습니다. 후자는 더 간결할 뿐만 아니라 성능도 더 나아집니다. 위 예제의 코드는 간단한 리스트 표현식으로 한 줄로 변환됩니다. 제너레이터를 생성하려면 사실상 역방향 for 루프를 작성하고 리스트 구분 기호로 둘러싸면 됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 values = [x ** 2 for x in range(1, 30)]
@@ -182,18 +116,7 @@ values = [x ** 2 for x in range(1, 30)]
 
 Python 코드를 극적으로 개선하는 다음 간단한 기술은 iterable의 요소들을 횡단하여 함수를 호출하는 조합인 람다와 맵을 사용하는 것입니다. 현재 Python의 가장 일반적인 응용 분야가 과학 컴퓨팅이라는 점을 고려하면, 람다와 맵은 놀라울 만큼 많이 사용되는 Python 기능입니다. 둘의 다양성은 많은 다른 도메인에서 함께 기능을 통해 뛰어나기 때문에, 이 기술은 확실히 알아두어야 할 가치가 있습니다. 특히 데이터 과학을 위해 Python 언어를 사용하는 사람들뿐만 아니라요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Lambda는 호출 가능한 함수 유형으로 신속하게 표현식을 작성하는 데 사용됩니다. 이를 통해 간단한 클로저 함수를 생성할 수 있습니다. 이 함수들은 인수로 제공되어 다양한 가능성을 제공할 수 있습니다. Python에서 람다를 사용하는 것은 비교적 간단합니다. 람다 키워드에 인수를 제공한 다음 콜론과 함수의 논리를 추가합니다.
 
@@ -212,18 +135,7 @@ f = lambda x: x ** 2
 m = map(f, values)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리가 맵을 사용하여 함수를 값에 매핑하면 맵을 단순히 리스트로 캐스팅하여 제곱된 배열을 얻을 수 있습니다:
 
@@ -246,18 +158,7 @@ squared = list(m)
 
 ## 추출
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음 소프트웨어를 개선하는 방법은 일반적으로 우수한 프로그래밍 조언입니다. 추출 기술은 대규모 하위 루틴에서 코드를 추출하여 작은 하위 루틴의 시리즈로 압축하는 실천 방법입니다. 전체 작업을 처리하는 하나의 함수를 작성하는 대신 해당 작업의 각 단계는 프로젝트 내의 다른 함수로 전달됩니다. 이 기술에 대해 중요성과 중요성을 노래한 몇 가지 기사를 작성했습니다. 위대한 소프트웨어 공학 프로젝트를 만들 때 매우 중요합니다.
 
@@ -327,18 +228,7 @@ def quiz_user():
     return correct
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 추출 기술을 사용하면 코드를 다양한 방법으로 개선할 수 있어요. 먼저, 함수를 작성할 때 코드를 함수 내에서 재사용할 수 있어요. 특정 알고리즘을 더 큰 함수 내에 그대로 두면, 전혀 다른 목적을 가진 코드 일부에 액세스하지 못할 수도 있어요. 추출 사용의 또 다른 이점은 프로젝트가 훨씬 더 조직적으로 됩니다. 함수는 짧고 중첩을 최소화하는 것이 좋아요. 이 모든 것은 논리적인 코드를 고유한 범위로 가져오는 것이 종종 매우 좋은 선택이 될 수 있다는 것을 말해요.
 
@@ -350,18 +240,7 @@ def quiz_user():
 del squared
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬과 같은 스크립트 언어에서는 메모리 및 성능 관리 방법이 더 제한적이기 때문에 계산 시간을 단축하고 메모리를 해제하는 데 도움이 되는 모든 것을 활용하고 싶을 것입니다. 파이썬은 사실 유사한 스크립트 언어들 중에서 적어도 힙에서 빠르게 무언가를 제거하고 가비지 수집하는 키워드 del 이 하나는 있어서 어느 정도 독특합니다. 그런 관점에서 이 기능을 확실히 활용하고 싶습니다.
 
@@ -383,18 +262,7 @@ newvalues
 [55, 22, 33, 44, 2, 73, 22, 36]
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 당연히, break와 continue는 각각 자신의 사용 사례를 가지고 있습니다. 예를 들어 조건부로 특정 요소에 대해 작업하고 싶을 때를 생각해보세요. 이러한 키워드에는 끝이 없는 사용 방법이 있으며, 여러분의 도구 상자에 이러한 간단한 도구들을 유지하는 것이 좋은 아이디어입니다.
 
@@ -427,18 +295,7 @@ def turn_switch(has_power: bool):
             print("the pump is on!")
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 경우에는 기본적으로 else 아래에서 함수를 계속 진행합니다. 이 접근 방식에는 여러 가지 단점이 있습니다. 먼저, 똑같은 것을 두 번 프로그래밍할 가능성이 훨씬 커집니다. 이것은 이 글의 방법론 중 하나인데, 우리는 그렇게 하고 싶지 않습니다.
 
@@ -470,18 +327,7 @@ def turn_switch(has_power: bool):
 
 또한 위의 경우에는 언젠가는 조건부 내부에서 사용되는 변수를 할당해야 할 것입니다. 이 값은 조건부 외부에서 사용할 계획이 있다면 함수의 비공개 범위에 유지하는 것이 훨씬 더 합리적입니다. 조건부 내부에서 변수를 새로 할당할 수 없으며, 조건부는 루프와 마찬가지로 다른 렉시컬 범위를 추가합니다. 이러한 점을 고려하면 이러한 범위를 설정하고 데이터를 전달하는 데 시간이 걸립니다. 몇몇 부적절한 조건부는 큰 문제를 일으키지 않을 수 있지만, 추가적인 중첩 및 더 많은 호출은 항상 성능을 저하시킵니다. 최적의 성능은 Python과 같은 언어에서 더욱 중요합니다. 우리는 Python의 속도 신뢰성이 C와 같은 것에 비하면 그리 높지 않기 때문에 실제 작성한 대부분의 Python 코드가 가능한 최적화되도록 하려고 할 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다른 경우마다 else를 사용해서는 안 된다는 이유에도 불구하고, else에는 사용할 때의 이유가 있습니다. 특히 모든 조건문 뒤에 기본적으로 else를 사용하는 것은 일반적인 코딩 방식이기 때문에, 그 사용 사례가 else를 사용해야 하는 경우에 대해 명확하게 표현해야 합니다. 전자를 사용하는 것이 더 나은 점이 있다고 생각해요.
 

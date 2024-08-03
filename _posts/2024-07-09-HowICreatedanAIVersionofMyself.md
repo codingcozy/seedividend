@@ -18,18 +18,7 @@ link: "https://medium.com/@keith-mcnulty/how-i-created-an-ai-version-of-myself-a
 
 검색 증강 생성(RAG)은 큰 언어 모델을 더 효과적으로 사용하는 방법입니다. 비용이 크게 들지 않고 간단한 워크플로우를 사용하여, 모델에 관련된 맥락 정보를 제공하고 주어진 정보를 기반으로 답변하거나 주어진 정보를 우선시하여 반응하도록 제한할 수 있습니다. 이러한 방식으로, 큰 언어 모델의 실제 가치가 발휘됩니다 — 컨텐츠의 자동 자연어 요약기로서, 환각과 같은 원치 않는 행동은 최소화되거나 아예 제거될 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위의 내용을 번역하겠습니다.
 
@@ -41,18 +30,7 @@ link: "https://medium.com/@keith-mcnulty/how-i-created-an-ai-version-of-myself-a
 
 ![이미지](/TIL/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_1.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 전형적인 LLM 상호작용에서 사용자는 직접 LLM에 프롬프트를 보내고 LLM의 훈련 세트에 기반한 응답을 받게 됩니다. 일반적인 작업에는 유용하지만 전문적인 지식이나 맥락이 필요한 경우 응답은 대개 만족스럽지 않을 수 있습니다.
 
@@ -63,18 +41,7 @@ RAG의 아이디어는 프롬프트가 전문 지식 데이터베이스를 방�
 - 정보 검색 구성 요소는 문서 저장소에서 프롬프트와 가장 유사한 문서를 찾아 추출합니다. 이는 벡터 데이터베이스를 사용하여 문서 유사성을 판별하는 방식으로 이루어집니다.
 - LLM 구성 요소는 원래 프롬프트와 일치하는 문서를 사용하여 새로운 프롬프트를 작성하고 이를 우리 LLM에 보내 응답을 유도합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 튜토리얼에서는 Python을 사용하여 이 구조의 최소 예제를 만들 것입니다. 전체 Jupyter 노트북은 여기에서 찾을 수 있어요.
 
@@ -84,18 +51,7 @@ RAG의 아이디어는 프롬프트가 전문 지식 데이터베이스를 방�
 
 먼저 필요한 몇 가지 패키지를 설치할 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import torch
@@ -152,18 +108,7 @@ book_data = pd.DataFrame.from_dict(book_data)
 
 현재, 저는 길이가 상당히 긴 14개의 문서를 가지게 되었습니다. 앞으로 생각해보면, LLM에 보낼 모든 문서는 그 문맥 창에 맞게 맞춰져야 합니다. 현재 문서의 길이에서는 이를 제어할 수 없으므로, 이러한 문서를 더 많은 짧은 문서로 분할해야 할 필요가 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그러나 무작위로 나눌 수는 없어요. 의미론적으로 분할해야 해요. 이렇게 하면 개별 문서가 어디서든 갑자기 잘려서 의미가 낯설지 않고 문서 전체가 의미론적으로 완성될 거예요. langchain Python 패키지의 멋진 기능을 사용할 거에요. 내 문서들을 1000단어로 제한하고 그 사이에 최대 150단어의 중복이 허용되도록 할 거예요.
 
@@ -194,18 +139,7 @@ docs[0]
 ## metadata={'chapter': 0})
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 문서 개체에 페이지 내용 키와 관심 대상 텍스트가 포함되어 있음을 알 수 있습니다. 또한 메타데이터 키도 포함되어 있지만 우리에게는 관심이 없습니다.
 
@@ -215,18 +149,7 @@ docs[0]
 
 적절한 길이의 문서를 보유하게 되었으므로, 이제 해당 문서를 벡터 데이터베이스에 로드해야 합니다. 벡터 데이터베이스는 텍스트를 원본 형식으로 저장하는데 더불어 임베딩으로도 저장합니다. 임베딩은 대규모의 부동 소수점 수 배열로, 대형 언어 모델이 언어를 처리하는 데 기본적인 역할을 합니다. 다차원 공간에서 '근접한' 임베딩을 가진 단어, 문장 또는 문서는 콘텐츠 면에서 서로 밀접한 관련성을 가질 것입니다. 임베딩 개념의 2D 그래픽 단순화된 다이어그램은 위의 도표를 참조하십시오.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 제가 프롬프트를 제출하면, 벡터 데이터베이스는 프롬프트의 임베딩을 사용하여 포함된 문서들 중에서 가장 가까운 임베딩을 찾게 될 거예요. '가장 가까운'을 정의하는 방법에는 여러 가지 옵션이 있어요. 이 경우에는 코사인 유사도를 사용할 거에요. 코사인 유사도는 두 벡터 사이의 각도의 코사인을 사용하여 거리를 결정해요. 코사인 유사도가 높을수록 두 문서가 관련성이 높다고 볼 수 있어요.
 
@@ -259,18 +182,7 @@ collection = client.create_collection(
 
 이제 문서를 로드할 준비가 되었어요. 벡터 데이터베이스는 한 번에 로드할 수 있는 문서의 제한이 있어요. 제 경우에는 몇 백 개의 문서밖에 없어서 괜찮을 것 같지만, 그래도 안전하게 하기 위해 일괄 로드를 설정하겠어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # DB에 텍스트 뭉치를 일괄적으로 작성합니다
@@ -313,16 +225,7 @@ results
 #  'uris': None,
 #  'data': None}
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저는 꽤 잘 되어 있는 것 같아요! 이제 정보 검색 레이어를 완료했네요. 이제 LLM 레이어로 넘어가는 시간이에요.
 
@@ -332,16 +235,7 @@ Gemma-7b-it은 구글의 Gemini를 위한 70억 개 파라미터 지침 조정 �
 
 먼저 모델에 접근하여 다운로드할 거에요. 처음으로 이를 수행할 때는 시간이 좀 걸릴 수 있지만, 한 번 다운로드되어 캐시에 저장되면 빨리 로드될 거예요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 내 토큰을 사용하여 Huggingface에 로그인합니다.
 load_dotenv()
@@ -361,16 +255,7 @@ prompt = """
 
 이제 이 프롬프트를 Gemma가 이해할 수 있는 임베딩으로 변환하고, Gemma에게 응답 생성을 요청하고, 해당 응답을 텍스트로 디코딩하고, Gemma가 제공한 새로운 부분을 잘라냅니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 프롬프트를 임베드합니다
 input_ids = tokenizer(prompt, return_tensors="pt")
@@ -383,16 +268,7 @@ tokenizer.decode(outputs[0], skip_special_tokens=True).split('model\n', 1)[1]
 
 # "뉴멕시코는 독특한 Native American, 스페인, 멕시코 영향을 혼합한 독특한 요리로 유명합니다. 여기 랜드 오브 엔찬트먼트에서 꼭 먹어봐야 할 음식 목록이 있습니다:\n\n**전통적인 Native American 음식:**\n\n* **인디언 타코:** 고기(흔히 양 또는 소), 콩, 치즈, 상추, 토마토 및 빨간 고추 가루가 들어간 옥수수 토르티야.\n* **칠레스 엔 노갓:** 빨간색과 녹색 칠레, 감자, 채소가 들어간 맛있는 소스로 쌓인 요리.\n* **소파이피야스:** 종종 꿀이나 잼과 함께 제공되는 바삭한 튀긴 도우 구이.\n* **포솔레:** 콘 토르티야와 빨간 고추 가루로 제공되는 풍미 있는 수육이 들어간 요리.\n\n**스페인과 멕시코 영향:**\n\n* **해치 칠레:** 해치, 뉴멕시코에서 재배된 녹색과 빨간색 칠레는 독특한 맛과 맵기로 유명합니다.\n* **빨간색과 녹색 칠레 스튜:** 빨간색과 녹색 칠레, 채소, 고기를 넣고 끓여 만든 푸짐한 스튜.\n* **까르네 아도바다:** 빨간 고추 가루로 절여진 천천히 굽는 소고기.\n* **비스코치토스:** 시나몬과 설탕이 묻힌 바삭한 튀긴 과자.\n* **소파피야스:** 과일, 꿀 또는 치즈가 들어간 튀긴 도우로 만든 달콤한 또는 짠 간식.\n\n**다른 꼭 먹어봐야 할 음식:**\n\n* **녹색 칠레 치즈버거:** 빨간 대신 녹색 칠레가 들어간 클래식 치즈버거 개량 버전.\n* **블루 콘:** 짙은 파란색의 독특한 옥수수 종류로, 주로 토르티야와 다른 요리에 사용됩니다.\n* **터콰즈 아이스크림:** 터콰즈색 아이스크림 파우더로 만든 상쾌한 아이스크림.\n\n**추가 팁:**\n\n* **매운맛에 대해 고려하세요:** 뉴멕시코 요리는 매운 정도로 유명합니다. 맵지 않은 음식에 익숙하지 않다면 온순한 버전을 요청하세요.\n* **현지 레스토랑을 시식하세요:** 뉴멕시코에는 전통 요리를 제공하는 많은 훌륭한 현지 레스토랑이 있습니다.\n* **음식 축제를 방문하세요:** 뉴멕시코에는 연중 음식 축제가 많이 열립니다.\n* **현지 맥주를 꼭 맛보세요:** 뉴멕시코에는 번창하는 크래프트 맥주 씬이 있습니다."
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 def ask_question(question: str, model: AutoModelForCausalLM = model, tokenizer: AutoTokenizer = tokenizer, collection: str = COLLECTION_NAME, n_docs: int = 3) -> str:
 
@@ -426,16 +302,7 @@ def ask_question(question: str, model: AutoModelForCausalLM = model, tokenizer: 
 
 ask_question("순서대로 범주형 결과를 모델링하는 데 어떤 방법을 추천하시겠습니까? 그리고 그 이유는 무엇인가요?")
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이렇게 답하는 것 같아요. 또 다른 것을 해보죠:
 
@@ -452,16 +319,7 @@ ask_question('물리학의 표준 모델은 무엇인가요?')
 
 ## 교재에는 물리학의 표준 모델에 대한 정보가 제공되지 않았기 때문에 이 질문에 대답할 수 없습니다.'
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 좋아요! 그것이 내가 할 것처럼 그 자리에 머물러 있네요.
 
@@ -471,16 +329,7 @@ AI Keith를 만드는 것이 재미있었을 뿐만 아니라, 이것은 LLM의 
 
 AI Keith에 대해서는, 곧 오픈할 계획이 없습니다. 우선 이 예제는 너무 소규모이고, 이러한 아키텍처를 프로덕션에 호스팅하고 항상 사용 가능하게 유지하려는 시도는 비용이 너무 많이 들어 사용 이유를 정당화하기 힘들 것입니다. 하지만 더 큰 규모의 상황에서의 가능성을 보시게 되기를 희망합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 AI Keith에 대해 어떻게 생각하시나요? RAG 아키텍처를 다뤄보신 적이 있나요? 자유롭게 의견을 남겨주세요!
 ```

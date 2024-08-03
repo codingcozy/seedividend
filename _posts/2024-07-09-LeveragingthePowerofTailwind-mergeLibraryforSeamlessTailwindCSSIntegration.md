@@ -1,7 +1,7 @@
 ---
 title: "Tailwind-merge 라이브러리를 활용한 무결점 Tailwind CSS 통합 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_0.png"
+coverImage: "/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_0.png"
 date: 2024-07-09 18:28
 ogImage:
   url: /assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_0.png
@@ -18,54 +18,21 @@ tw-merge는 Tailwind CSS의 기능을 확장하여 Tailwind 클래스를 합병�
 
 # 문제 진술
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
+<img src="/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_0.png" />
 
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-<img src="/ui-log-2/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_0.png" />
-
-<img src="/ui-log-2/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_1.png" />
+<img src="/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_1.png" />
 
 App.jsx 컴포넌트를 렌더링할 때 MyInput 컴포넌트는 border rounded px-2 py-1 p-3 클래스를 가진 input을 생성합니다. 그러나 CSS 캐스케이드가 작동하는 방식 때문에 p-3 클래스의 스타일이 무시됩니다. className 문자열 내의 클래스 순서는 전혀 중요하지 않으며, p-3 스타일을 적용하는 유일한 방법은 px-2와 py-1을 모두 삭제하는 것뿐입니다.
 
 # 해결책은?
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 태블릿 형식을 Markdown 형식으로 변경해주세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 2. 컴포넌트에 라이브러리를 가져오세요.
 
@@ -75,20 +42,9 @@ import { twMerge } from "tailwind-merge";
 
 3. 이제 twMerge 문제를 해결해 보겠습니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_2.png)
+![이미지](/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_2.png)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Tailwind-merge는 충돌하는 클래스를 덮어씌우고 다른 모든 것은 그대로 유지합니다. MyInput 컴포넌트의 경우, 입력란은 이제 border rounded p-3 클래스와 함께 렌더링됩니다.
 

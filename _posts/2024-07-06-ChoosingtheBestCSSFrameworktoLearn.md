@@ -1,10 +1,10 @@
 ---
 title: "2024년에 배워야 할 최고의 CSS 프레임워크 선택하기"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-06 02:20
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Choosing the Best CSS Framework to Learn"
 link: "https://medium.com/@muhalvin/choosing-the-best-css-framework-to-learn-92ae9cc3c76c"
@@ -22,16 +22,7 @@ CSS 프레임워크는 사전 설계된 구성 요소, 유틸리티 및 반응�
 - 사용자 정의: Sass 변수와 믹스인을 사용하여 쉽게 사용자 정의할 수 있습니다.
 - 커뮤니티: 방대한 커뮤니티 지원과 상세한 문서 및 튜토리얼이 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 2. Foundation
 
@@ -44,16 +35,7 @@ CSS 프레임워크는 사전 설계된 구성 요소, 유틸리티 및 반응�
 
 ## 3. Bulma
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 설명: Bulma은 Flexbox를 기반으로 한 현대적인 CSS 프레임워크입니다. 배워야 하는 이유:
 
@@ -66,16 +48,7 @@ CSS 프레임워크는 사전 설계된 구성 요소, 유틸리티 및 반응�
 
 설명: Tailwind CSS는 HTML을 벗어나 맞춤형 디자인을 구축할 수 있는 유틸리티 중심의 CSS 프레임워크입니다. 배워야 하는 이유:
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 유틸리티 우선: 완전히 사용자 정의된 디자인을 만들 수 있는 저수준 유틸리티 클래스를 제공합니다.
 - 사용자 정의: 설정 파일을 사용하여 디자인을 개인 취향에 맞게 맞춤화할 수 있습니다.
@@ -90,16 +63,7 @@ CSS 프레임워크는 사전 설계된 구성 요소, 유틸리티 및 반응�
 - 반응형: 모바일 우선 반응형으로 제작되었습니다.
 - 문서: 사용 예제 및 튜토리얼이 잘 문서화되어 있습니다. 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 6. 시멘틱 UI
 
@@ -112,16 +76,7 @@ CSS 프레임워크는 사전 설계된 구성 요소, 유틸리티 및 반응�
 
 # 고려사항
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 프로젝트 요구사항: 당신의 프로젝트의 복잡성과 성격은 선택에 영향을 미칠 수 있습니다. 부트스트랩과 파운데이션은 범용 구성 요소가 많이 필요한 대규모 프로젝트에 탁월하며, 불마와 테일윈드 CSS는 사용자 정의 및 독특한 디자인에 적합합니다.
 

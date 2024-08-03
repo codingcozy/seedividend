@@ -18,18 +18,7 @@ link: "https://medium.com/top-python-libraries/top-10-python-tools-for-stunning-
 
 Matplotlib은 고품질의 선 그래프, 산점도, 막대 그래프 등을 생성할 수 있는 파이썬 플로팅 라이브러리입니다. 다른 많은 시각화 라이브러리들의 기반입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import matplotlib.pyplot as plt
@@ -48,18 +37,7 @@ plt.show()
 
 Seaborn은 Matplotlib을 기반으로 한 Python 데이터 시각화 라이브러리로, 히트맵, 바이올린 플롯, 오차 막대를 사용한 선 그래프와 같은 통계 그래픽을 위해 설계되었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import seaborn as sns

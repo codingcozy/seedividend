@@ -19,16 +19,7 @@ API 키를 받는 방법과 API를 사용하는 방법에 대해 이전 기사�
 
 ## 함수 호출 사용 방법
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 최선의 방법으로 코딩 작업을 수행하기 위해 별도의 코딩 환경을 설정해야 합니다. 저는 conda를 사용하지만 여러분에게 적합한 방법을 사용하시면 됩니다.
 
@@ -44,16 +35,7 @@ conda create -n opus_fc python=3.12 -y
 conda activate opus_fc
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 필요한 라이브러리 설치
@@ -69,16 +51,7 @@ conda install jupyter -y
 
 당신의 URL은 제 것과 다를 수 있지만, 다음과 같이 보일 것입니다:-  
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 http://127.0.0.1:8888/tree?token=3b9f7bd07b6966b41b68e2350721b2d0b6f388d248cc69da
@@ -91,16 +64,7 @@ http://127.0.0.1:8888/tree?token=3b9f7bd07b6966b41b68e2350721b2d0b6f388d248cc69d
 아래 예시를 봐봅시다. 에든버러(영국)의 현재 온도가 몇 도인지 클로드에게 물어봤을 때요.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 필수 라이브러리 가져오기
@@ -151,16 +115,7 @@ Claude가 특정 위치의 현재 온도를 모르는 것을 확인하실 수 �
 Anthropic은 용어인 도구(tool)와 함수를 서로 바꿔 사용하므로 먼저 특정 위치의 현재 온도를 가져오는 도구(함수)를 만들어야 합니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이를 위해, OpenWeatherMap의 API를 사용할 겁니다. 무료로 등록하여 API 키를 받을 수 있어요. 아래 링크를 클릭해주세요.
 
@@ -196,16 +151,7 @@ def get_temp(location):
 
 일반적으로 이를 호출하려면,
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 temp = get_temp("Edinburgh")
@@ -237,16 +183,7 @@ tool = """
 
 이제 우리의 시스템 프롬프트를 설정해야 합니다. 이 프롬프트는 Claude에게 이 추가 기능(함수 호출을 통해)이 사용 가능하다는 것을 알려줍니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 system_prompt = f"""
@@ -306,16 +243,7 @@ print(message)
 잘 보입니다. 이제 우리는 get_temp 도구에 전달해야 하는 매개변수를 얻기 위해 도구 설명의 XML을 구문 분석하는 헬퍼 함수가 필요합니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import re
@@ -381,16 +309,7 @@ print(function_results)
 
 다음으로, 원본 메시지, Claude가 함수를 호출한 부분까지의 부분 반환, 그리고 함수 결과를 결합하여 Claude에게 최종 출력을 생성하기 위한 프롬프트를 얻겠습니다. 이 작업을 용이하게 하기 위해 Assistant 역할에서 미리 작성된 메시지를 사용합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 partial_assistant_message = message + "</function_calls>" + function_results

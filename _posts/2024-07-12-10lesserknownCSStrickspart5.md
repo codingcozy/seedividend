@@ -1,17 +1,17 @@
 ---
 title: "잘 알려지지 않은 CSS 트릭 10가지 Part 5"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-12-10lesserknownCSStrickspart5_0.png"
+coverImage: "/assets/img/2024-07-12-10lesserknownCSStrickspart5_0.png"
 date: 2024-07-12 19:14
 ogImage: 
-  url: /ui-log-2/assets/img/2024-07-12-10lesserknownCSStrickspart5_0.png
+  url: /assets/img/2024-07-12-10lesserknownCSStrickspart5_0.png
 tag: Tech
 originalTitle: "10 lesser known CSS tricks part 5"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-tricks-part-5-70a8a01fbfca"
 ---
 
 
-![이미지](/ui-log-2/assets/img/2024-07-12-10lesserknownCSStrickspart5_0.png)
+![이미지](/assets/img/2024-07-12-10lesserknownCSStrickspart5_0.png)
 
 10가지 덜 알려진 CSS 트릭 시리즈 5부작에 오신 것을 환영합니다. 아마 이미 즐거움을 아시겠지만, 처음 오신 분이라면 다른 포스트를 아직 보지 못했겠죠… 안녕하세요! 웹 디자인 역량 향상에 도움이 되는 10가지 덜 알려진 CSS 트릭 목록을 만들었습니다 (지금까지 40가지가 있고 이후에는 50가지 트릭 모음이 생길 것입니다).
 
@@ -19,16 +19,7 @@ link: "https://medium.com/@creativebyte/10-lesser-known-css-tricks-part-5-70a8a0
 
 ::marker 가상 요소를 사용하여 목록 항목 표식을 스타일링하세요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 li::marker {
@@ -46,16 +37,7 @@ element() 함수를 사용하여 배경으로 요소를 동적으로 참조합�
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 03. Flexbox를 사용하여 고정 푸터 만들기
 
@@ -75,16 +57,7 @@ main {
 
 ## 04. 부드러운 스크롤링을 위한 scroll-padding
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 스크롤 패딩을 조정하여 스크롤 동작을 개선하세요.
 
@@ -98,16 +71,7 @@ html {
 
 CSS 변수를 사용하여 상호 작용 형광효과를 만들어보세요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 
 ```js
@@ -147,16 +111,7 @@ input[type="checkbox"] {
 ```  
 
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 07. textarea의 resize 속성
 
@@ -170,16 +125,7 @@ textarea {
 
 ## 08. 텍스트 그라데이션
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 친구야, 배경 클립 및 텍스트 색상 속성을 사용하여 텍스트에 그라데이션 효과를 만들어보세요.
 
@@ -195,16 +141,7 @@ textarea {
 
 단어 나누기 속성을 사용하여 공백 없이 긴 단어나 문자열이 어떻게 나누어지고 개행되는지 제어하세요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 .long-words {

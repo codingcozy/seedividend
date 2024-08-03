@@ -1,7 +1,7 @@
 ---
 title: "반응형 웹 페이지를 위한 최고의 화면 크기 목록"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-TheBestScreenSizesforResponsiveWebPages_0.png"
+coverImage: "/assets/img/2024-07-06-TheBestScreenSizesforResponsiveWebPages_0.png"
 date: 2024-07-06 10:19
 ogImage:
   url: /assets/img/2024-07-06-TheBestScreenSizesforResponsiveWebPages_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/@corewebvitals-fixer/the-best-screen-sizes-for-respons
 
 반응형 화면 크기: 가장 일반적인 화면 크기를 채택하여 관객을 위해 디자인하는 것을 우선시하며, 360x640부터 1920x1080까지의 반응형 디자인을 위한 화면 크기를 사용하세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 데스크톱 모니터용으로 1280×720에서 1920×1080까지의 디자인
 - 360×640부터 414×896까지 모바일 화면 디자인
@@ -45,18 +34,7 @@ Google의 구체적인 권장 사항을 따르지 않으면 구글 검색 결과
 
 기억해야 할 것들:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 CSS 미디어 쿼리의 사용, 적응형 그리드 기반 레이아웃, 다양한 종횡비 및 화면 해상도의 고려, 그리고 다양한 디바이스에서 웹사이트를 테스트하는 것은 모두 반응형 디자인에 관련한 중요한 고려 사항입니다.
 
@@ -66,18 +44,7 @@ CSS 미디어 쿼리의 사용, 적응형 그리드 기반 레이아웃, 다양�
 
 웹 페이지 가독성: 각 열의 너비를 고려할 때 텍스트를 읽는 것이 얼마나 간단한가요?
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 웹 페이지 디자인: 요소들이 이 특정 화면 크기에 맞게 위치하고 확대/축소되면 페이지가 얼마나 잘 디자인되었는지를 나타내는 척도입니다. 사진 옆에 캡션이 바로 붙어 있는지, 이미지와 후속 텍스트 사이에 충분한 간격이 있는지, 그리고 모든 요소가 올바르게 정렬되어 있는지 확인해주세요.
 
@@ -87,18 +54,7 @@ CSS 미디어 쿼리의 사용, 적응형 그리드 기반 레이아웃, 다양�
 
 고정폭 웹사이트를 사용하는 대신, 이 기술은 CSS 미디어 쿼리를 활용하여 사이트를 제작하고 여러 화면 크기에 맞게 조절하는 웹사이트를 만듭니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 따라서 방문자들이 웹 사이트를 볼 때 사용하는 기기에 관계없이 최상의 경험을 제공할 수 있습니다.
 
@@ -108,18 +64,7 @@ CSS 미디어 쿼리의 사용, 적응형 그리드 기반 레이아웃, 다양�
 
 2015년 4월 21일 이후 웹 사이트의 모바일 친화성은 글로벌 기기에서의 순위 성과에 영향을 미치고 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 작은 기업을 위한 웹사이트를 만들면 그들이 검색 엔진 최적화에 관심이 있고 Google의 자연 검색 순위가 높은 웹사이트를 원한다는 것을 알 수 있습니다.
 

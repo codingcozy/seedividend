@@ -18,18 +18,7 @@ link: "https://medium.com/datascience-ville/day-2-improving-my-first-python-proj
 
 파이썬을 처음 배울 때, 이게 가장 처음으로 한 실제적인 작업이었어요. GUI까지 디자인한 적은 없지만, input, if, elif, else, try, 그리고 except와 같은 기본 함수들을 사용했죠. 부지런히 코딩해보세요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 1.0 버전, 그것을 그렇게 부를게요, 켈빈과 섭씨 간 변환만 가능했어요. 다음처럼 보였답니다:
 

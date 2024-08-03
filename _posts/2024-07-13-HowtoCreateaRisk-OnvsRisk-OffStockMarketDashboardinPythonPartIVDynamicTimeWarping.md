@@ -19,16 +19,7 @@ link: "https://medium.com/ai-advances/how-to-create-a-risk-on-vs-risk-off-stock-
 현재 코델은 Trend Prophets의 대표이사 및 공동창업자로 활동하고 있으며 양적 금융 및 AI 솔루션 기업인 DigitalHub Insights의 이사이기도 합니다. 그는 맥길 대학에서 생물학 학사 학위를 받았으며 CFA 차터홀더이며 금융 리스크 관리자 자격증을 보유하고 있으며 금융 데이터 전문가 차터를 보유하고 있습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 trendprophets.com 웹사이트를 방문하여 더 많은 정보를 얻어보세요.
 
@@ -38,16 +29,7 @@ trendprophets.com 웹사이트를 방문하여 더 많은 정보를 얻어보세
 
 Python에서 리스크 온 대 리스크 오프 주식 시장 대시보드 만들기 - Part I
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬으로 리스크 온 대 리스크 오프 주식 시장 대시보드 만들기 - 파트 II: 상관 분석
 
@@ -57,16 +39,7 @@ Python에서 리스크 온 대 리스크 오프 주식 시장 대시보드 만�
 
 안녕하세요, 여러분. 데이터 과학과 양적 금융 프로젝트를 향한 나의 여정에 다시 오신 것을 환영합니다. 항상처럼, 이 블로그의 목표와 간략한 요약부터 시작하겠습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 프로젝트의 목표는 두 가지입니다:
 
@@ -76,16 +49,7 @@ a. 아이디어 도출.
 
 b. 논리적 진행 및 흐름 다이어그램 작성 (여러 번 변경될 것입니다).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, 데이터베이스 설정, 기타)을 식별합니다.
 
@@ -95,16 +59,7 @@ c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, �
 
 첫 두 기사는 리스크 자산과 리스크 오프 자산 간의 회전을 시각화할 수 있는 히트맵을 만드는 데 중점을 두었습니다. 우리는 전통적인 성과 지표, 백분위 측정 및 상관 관계를 사용하여 평가를 수행했습니다. 이 분석은 이러한 기본 도구를 사용하여도 꽤 잘 보였습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 리뷰 및 요약
 
@@ -114,16 +69,7 @@ c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, �
 
 이 시점에서 다시 한 번 강조해야 할 점은 나의 리스크온 프록시들이 좋은 프록시라고 난 장담할 수 없다는 것입니다. 이것이 우리가 알아내려고 하는 것입니다. 예를 들어, ARKK는 이상한 동물입니다. 특히 BTC 노출이 많기 때문에 그에 대한 구체적인 내용이 많아서 그것이 감정에 의해 주도되었는지 아니면 독특한 요인에 의해 주도되었는지 판단하기 어렵습니다. 리스크온 대 리스크오프는 감정, 기본 요인 및 가격을 움직이는 모든 정보를 포착할 수 있는 새로운 요인에 의해 지원되어야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가장 "명백한" 위험 증감 지표들의 상대 성능을 먼저 살펴봅시다.
 
@@ -133,16 +79,7 @@ c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, �
 
 이 시점에서 가능성은 열려 있어야 합니다. 이것은 여정입니다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_2.png" />
 
@@ -152,16 +89,7 @@ c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, �
 
 2) 클러스터링 알고리즘을 적용하여 우리의 프록시를 시각화하고 원하는 그룹 형성을 달성하고 있는지 확인합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 3) 클러스터를 결정하는 데 가장 많은 기여를 하는 피처를 식별하기 위해 피처 중요도를 추출합니다.
 
@@ -171,16 +99,7 @@ c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, �
 
 상관 관계를 크게 선호하지 않고, 한 시점에서의 상관 관계 추정치를 살펴보는 연구에 대해서도 조심스럽습니다. 이것은 제가 쓰레기를 생성하는 확실한 방법이기 때문입니다. 그래서 우리는 이동 상관 관계를 사용했습니다. 상관 관계는 선형 관계만을 포착하며, 일부 자산의 관계가 선형적으로 연관되어 있지 않을 수도 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그래서, 변수 간의 관계를 설명하는 다른 방법을 찾아야 하며, 시간이 지남에 따라 어떻게 변하는지 파악하고 비선형성을 포착해야 합니다.
 
@@ -190,16 +109,7 @@ c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, �
 
 동적 시간 왜곡의 간단한 개요입니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Dynamic Time Warping (DTW)는 두 개의 시계열 사이의 유사성을 측정하는 데 주로 사용되는 알고리즘입니다. 두 명의 사람이 두 개별 경로를 따라 걷고 있다고 상상해보세요. 각 사람마다 다른 보폭과 속도가 있습니다. 그들의 경로가 얼마나 비슷한지 비교하려면 각 초마다의 위치를 단순히 비교하는 것은 잘 작동하지 않을 것입니다. 왜냐하면 그들의 다른 속도로 인해 어느 순간에는 동기화되어 있고 다른 순간에는 동기화되어 있지 않을 수 있기 때문입니다. DTW는 각 시퀀스의 시간축을 "왜곡"하여 유사한 시간 포인트를 정렬함으로써 두 경로 사이의 유사성을 보다 의미 있게 제공하도록 도와줍니다.
 
@@ -209,16 +119,7 @@ Dynamic Time Warping (DTW)는 두 개의 시계열 사이의 유사성을 측정
 
 상관 계수에 비한 DTW의 장점:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 1. 유연성: DTW는 선형 관계의 가정에 제약을 받지 않으며, 시퀀스가 상이한 속도, 위상 또는 길이를 가지더라도 유사성을 포착할 수 있습니다.
 
@@ -228,16 +129,7 @@ Dynamic Time Warping (DTW)는 두 개의 시계열 사이의 유사성을 측정
 
 1. 계산 복잡성: 특히 긴 시퀀스의 경우 DTW는 계산적으로 상관관계를 계산하는 것보다 더 많은 자원이 필요하므로 대규모 데이터셋에는 제약이 될 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 2. 해석 가능성: 상관 관계는 선형 관계의 방향과 강도를 나타내는 명확한 지표(-1 ~ 1)를 제공하지만, DTW 유사성 점수는 직관적이지 않을 수 있고 크기에 대해 해석하기 어려울 수 있습니다.
 
@@ -247,16 +139,7 @@ Dynamic Time Warping (DTW)는 두 개의 시계열 사이의 유사성을 측정
 
 결과 히트맵은 다음과 같습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_3](/TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_3.png)
@@ -268,16 +151,7 @@ The resulting heatmap might appear more complex than the correlation matrix. To 
 This visualization provides slightly more insight. To understand this graph, follow the lines to observe which assets are grouped together. As you move up the dendrogram, smaller clusters aggregate into larger ones.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 USO와 BTC가 명확한 클러스터를 형성하고 있으므로 분석 제외 대상으로 고려될 수 있습니다. 그러나 남은 자산들의 색상은 유의미한 차이를 나타내지 않아 DTW 방법론의 한계가 있을 수 있다고 생각됩니다. DTW 점수에 기반하여 모든 것을 일축할 필요는 없으며, 이는 DTW가 작동하는 방식의 결과물일 수도 있습니다. 다른 시기에 자료를 스케일링하거나 정규화하여 향상된 결과를 얻을 수도 있습니다.
 
@@ -287,16 +161,7 @@ USO와 BTC가 명확한 클러스터를 형성하고 있으므로 분석 제외 
 
 - SPHB/SOXX: 고베타 주식 및 반도체. SOXX가 주기적인 특성을 가지고 있고 사업 주기에 민감하기 때문에 이 것을 본 것에 만족합니다. SPHB는 높은 위험으로 정의되어 있기 때문에 아마도 최고의 리스크 대리인 중 하나일 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - TLT/GLD: 장기 국채를 GLD와 그룹화하는 것은 완벽하게 이해되며, 저 또한 이를 기쁘게 생각합니다.
 
@@ -306,16 +171,7 @@ USO와 BTC가 명확한 클러스터를 형성하고 있으므로 분석 제외 
 
 ## 결론
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저희는 DTW 점수와 상관 관계와 함께 계층적 클러스터링 알고리즘에 사용할 수 있어요. 저는 석유와 BTC를 제거할 수 있다고 확신해요. 전체 시장 모니터링 대시 보드에는 유지하지만, 일반적인 시장 위험 선호와 상관 관계가 없어 보입니다.
 
@@ -325,16 +181,7 @@ USO와 BTC가 명확한 클러스터를 형성하고 있으므로 분석 제외 
 
 ## 다음 단계
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음에 시도해볼 것이 무엇인지 궁금하네요. 댓글로 알려주세요. 이 프로젝트를 "오픈 소스"로 만들고 싶어해요. 제 아이디어는 있지만, 이 시점에서는 누구에게도 편향을 주고 싶지 않아요. 그것은 다음 단계에 남겨둘게요.
 
@@ -346,16 +193,7 @@ USO와 BTC가 명확한 클러스터를 형성하고 있으므로 분석 제외 
 
 이 여정의 일환으로, DTW를 발견한 것은 저에게 엄청 큰 일이었어요. 이제 이것은 시계열 분석에 자주 사용할 무기 중 하나가 되었어요. 그래서 가능한 많은 논문들을 읽어 봤어요. 하지만 DTW의 대부분 응용은 금융 분야 바깥에 있어요. 이것은 더 기쁜 일인데, 아마 다음 대단한 응용 프로그램을 찾아서 Trend Prophets 인벤토리에 추가할 수도 있을 거예요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 읽어주셔서 감사합니다! 그리고 이 테스트를 실행하는 데 시간이 걸리고 다음 단계를 시도하기 전에 많은 연구를 해야 한다는 점에 대한 여러분의 인내심과 이해에 감사드립니다. 의견이나 제안이 있으면 언제든지 남겨주시기 바랍니다. 코드를 모두 가지고 있으니 여러분도 테스트해보시고 이 흥미진진한 프로젝트에 더 추가할 수 있는 내용이 있는지 확인해보세요.
 

@@ -18,18 +18,7 @@ link: "https://medium.com/@tai.him18/solid-principles-in-python-0e01b66c1afe"
 
 SOLID 원칙은 이러한 함정을 피하고 깔끔하고 유지보수 가능한 코드를 작성하는 데 도움이 되는 일련의 지침입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 "SOLID"은 다음을 나타내는 머리글자입니다:
 
@@ -37,18 +26,7 @@ SOLID 원칙은 이러한 함정을 피하고 깔끔하고 유지보수 가능�
 - 개방/폐쇠 원칙 (OCP)
 - 리스코프 치환 원칙 (LSP)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 인터페이스 분리 원칙
 
@@ -58,18 +36,7 @@ SOLID 원칙은 이러한 함정을 피하고 깔끔하고 유지보수 가능�
 
 로버트 C. 마틴 (a.k.a 아저씨 밥)이 "OOD의 원칙"이라는 기사에서 만들어진 단일 책임 원칙은 다음과 같습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 한 클래스는 한 가지 책임만 가져야 합니다. 한 클래스가 여러 가지 일을 한다면, 여러 클래스로 분리해야 합니다.
 
@@ -107,18 +74,7 @@ class StorageClient:
 
 이 클래스의 문제는 두 가지 책임을 가지고 있다는 점입니다. Google 드라이브 및 Dropbox에서 객체를 읽고 쓰는 데에 대한 별도의 로직을 구현해야 합니다. SRP를 준수하기 위해 이 클래스를 GoogleStorageClient와 DropboxStorageClient로 분리할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 class GoogleStorageClient:
@@ -169,18 +125,7 @@ class DropboxStorageClient:
 
 버트랜드 메이어는 1988년 저술한 "객체지향 소프트웨어 구성"에서 개방-폐쇄 원칙을 처음 제안한 것으로 일반적으로 알려져 있습니다. 그러나 1990년대에 이 원칙은 언클 밥이 1996년에 발표한 "개방-폐쇄 원칙"으로 현재의 형태로 재정의되었습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 개방/폐쇄 원칙은 다음을 의미합니다:
 
@@ -206,18 +151,7 @@ class Vehicle:
             return f"This {self.vehicle_type} has {self.motors} motors and can float on {self.mode}."
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 클래스의 문제점은 새로운 차량, 예를 들어 비행기를 추가하려면 기존 클래스를 수정해야 한다는 것입니다.
 
@@ -261,18 +195,7 @@ class Plane(Vehicle):
         return f"This plane has {self.engines} engines and can fly through the {self.mode}."
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이제 새 차량을 추가하고 싶다면, 단순히 Vehicle 클래스를 상속하고 get_specifications 메서드를 구현하는 새 클래스를 생성하면 됩니다.
 
@@ -282,18 +205,7 @@ class Plane(Vehicle):
 
 다시 말해, 만약 `S`가 `T`의 서브 클래스라면, `T` 타입의 객체를 `S` 타입의 객체로 대체할 수 있어야 하며, 프로그램의 기능을 변경하지 않아야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예를 들어, 다음과 같은 클래스를 고려해보세요:
 
@@ -323,18 +235,7 @@ class Child(Person):
 
 이 문제를 해결하기 위해서는 Person을 추상 기본 클래스로 변환하고, 그것을 상속하는 Child와 Adult 두 클래스를 만들면 됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 from abc import ABC, abstractmethod
 
@@ -366,18 +267,7 @@ super().**init**(name, age)
 
 인터페이스 분리 원칙(Interface Segregation Principle, ISP)은 Uncle Bob이 만들었습니다. 이 원칙은 다음과 같이 설명합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 큰 인터페이스를 피해야 합니다. 이는 모든 클라이언트가 구현하는 인터페이스 메서드를 사용하지 않는 대규모 인터페이스를 의미합니다.
 
@@ -418,18 +308,7 @@ class AdvancedPrinter(Printer):
 
 이 경우, SimplePrinter 클래스는 scan 및 fax 메서드가 필요하지 않지만, Printer 인터페이스를 구현하므로 이들을 구현해야 합니다. 이는 인터페이스 격리 원칙을 위반하는 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그 대신, Printer 인터페이스를 Scanner, Fax 및 Printer 세 개의 별도의 인터페이스로 분리할 수 있습니다.
 
@@ -475,18 +354,7 @@ class AdvancedPrinter(Scanner, Fax, Printer):
 
 이 방식을 통해 코드를 이해하기 쉽게 만들고 SimplePrinter 클래스에 불필요한 메서드가 필요 없어졌습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 5. 의존성 역전 원칙
 
@@ -496,18 +364,7 @@ class AdvancedPrinter(Scanner, Fax, Printer):
 
 다음은 의존성 역전 원칙을 위반하는 예시입니다. 고수준 모듈인 PaymentService가 저수준 모듈인 PaypalProcessor에 직접 의존하는 것입니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 class PaypalProcessor:
@@ -564,18 +421,7 @@ payment_service = PaymentService(paypal_processor)
 payment_service.perform_payment(100)
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이렇게하면 PaymentService 클래스는 특정 결제 프로세서 구현에 의존하지 않습니다. 대신 PaymentProcessor 인터페이스에 의존하고 있어서 PaymentService 클래스를 수정하지 않고도 다양한 결제 프로세서 간에 전환할 수 있습니다.
 

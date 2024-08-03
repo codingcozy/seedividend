@@ -1,7 +1,7 @@
 ---
 title: "SCSS와 JS 사이에 변수를 공유하는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png"
+coverImage: "/assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png"
 date: 2024-07-09 18:17
 ogImage:
   url: /assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png
@@ -16,18 +16,7 @@ link: "https://medium.com/@miroslav_petrov/how-to-share-variables-between-scss-a
 
 index.scss 파일에서 다음과 같이 CSS 사용자 지정 속성으로 컬러를 포함하세요:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 // index.scss
@@ -70,18 +59,7 @@ export const Colors = colors as Colors;
 
 이제 React 컴포넌트에서 이 사전을 사용할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 // Card.tsx
@@ -106,6 +84,6 @@ export const Card = (props: CardProps) => {
 };
 ```
 
-<img src="/ui-log-2/assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png" />
+<img src="/assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png" />
 
 위 단계를 따르면 SCSS 및 JavaScript/TypeScript 간에 변수를 원활하게 공유하고 활용하여 프런트엔드 개발 과정 전반에서 코드 유지 관리성과 일관성을 향상시킬 수 있습니다.

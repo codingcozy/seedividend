@@ -18,18 +18,7 @@ link: "https://medium.com/pythoneers/10-mindblowing-automation-scripts-you-need-
 
 # 1. 클립보드 관리자 📋
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 한 번쯤 복사한 텍스트들을 여러 개 동시에 다루다가 무엇을 복사했는지 헷갈리는 일이 있으셨나요? 하루 종일 복사한 모든 것을 추적할 수 있는 툴을 가지고 싶다고 생각해보신 적이 있으신가요?
 

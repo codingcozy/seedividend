@@ -1,10 +1,10 @@
 ---
 title: " picture HTML 태그 반응형 이미지 쉽게 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:24
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "The <picture> HTML Tag: Responsive Images Made Easy"
 link: "https://medium.com/@asierr/the-picture-html-tag-responsive-images-made-easy-e76eeb7cc185"
@@ -20,16 +20,7 @@ link: "https://medium.com/@asierr/the-picture-html-tag-responsive-images-made-ea
 - 문제점: 사용자들은 작은 모바일 화면부터 큰 데스크톱 모니터까지 다양한 디바이스를 사용하여 사이트에 접속합니다. 각 디바이스에 적절히 크기 조정된 이미지를 제공하는 것은 좋은 사용자 경험을 보장하기 위해 중요합니다.
 - `picture`로 해결: `picture` 태그를 사용하면 각 화면 크기에 적합한 다른 이미지 소스를 지정할 수 있어 각 디바이스에 최적의 이미지가 전달됩니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 2. 고해상도 디스플레이:
 

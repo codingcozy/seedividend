@@ -1,7 +1,7 @@
 ---
 title: "ReactJS에서 커스텀 Datepicker 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-CustomDatepickerinReactJS_0.png"
+coverImage: "/assets/img/2024-07-09-CustomDatepickerinReactJS_0.png"
 date: 2024-07-09 18:35
 ogImage:
   url: /assets/img/2024-07-09-CustomDatepickerinReactJS_0.png
@@ -12,24 +12,13 @@ link: "https://medium.com/@charanvinaynarni/custom-datepicker-in-reactjs-b8ed7dc
 
 날짜 선택기는 데이터 입력과 관련된 웹 개발에서 중요한 UI 구성 요소입니다. 다양한 라이브러리에서 많은 날짜 선택기가 제공되지만, 프로젝트의 요구 사항에 맞는 사용자 정의 날짜 선택기를 만드는 것이 항상 유용합니다.
 
-![Custom Datepicker in ReactJS](/ui-log-2/assets/img/2024-07-09-CustomDatepickerinReactJS_0.png)
+![Custom Datepicker in ReactJS](/assets/img/2024-07-09-CustomDatepickerinReactJS_0.png)
 
 ## 시작하기
 
 이 튜토리얼에서는 React.js를 사용하여 사용자가 드롭다운 메뉴에서 날짜, 월, 년을 선택하여 날짜를 선택할 수 있는 사용자 정의 날짜 선택기를 만들어보겠습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 튜토리얼을 따라가려면 React.js와 useState()와 같은 훅에 대한 기본 지식이 필요합니다.
 
@@ -43,18 +32,7 @@ link: "https://medium.com/@charanvinaynarni/custom-datepicker-in-reactjs-b8ed7dc
 - 결론
 - 참고문헌
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 1단계: React 앱 설정하기
 
@@ -66,18 +44,7 @@ npx create-react-app custom-datepicker
 
 앱이 생성되면 프로젝트 디렉토리로 이동하세요:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 cd custom-datepicker
@@ -132,24 +99,13 @@ Step 2: Datepicker 구성요소 생성하기
 </div>;
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - app-container div은 세 개의 선택 요소인 날짜 선택기 입력을 표시합니다. 각 선택 요소에는 일, 월 또는 연도를 표시하는 레이블이 있으며, 옵션은 함수에 따라 동적으로 렌더링됩니다.
 - 날짜 선택기 입력 아래에는 app-format 클래스를 가진 div가 있습니다. 이 div는 형식화된 방법으로 최종 날짜를 표시하며 유효한 최종 날짜 값이 있는 경우에만 표시됩니다.
 - 마지막으로 구성 요소는 formats 배열을 사용하여 선택된 날짜에 대한 형식화된 추가 형식을 표시합니다. 각 app-format div에는 레이블과 선택된 날짜의 해당 날짜 형식이 표시됩니다.
 
-![Custom Datepicker in ReactJS](/ui-log-2/assets/img/2024-07-09-CustomDatepickerinReactJS_1.png)
+![Custom Datepicker in ReactJS](/assets/img/2024-07-09-CustomDatepickerinReactJS_1.png)
 
 다음으로 각 드롭다운 옵션을 생성할 것입니다.
 
@@ -173,18 +129,7 @@ const renderDateOptions = () => {
 };
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 함수는 "일" 선택 필드의 옵션을 생성합니다.
 
@@ -219,18 +164,7 @@ const renderMonthOptions = () => {
 
 이 함수는 "월" 선택 필드의 옵션을 생성합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 먼저, 빈 문자열 값을 가진 비활성화된 단일 옵션 요소로 구성된 배열을 생성합니다. renderDateOptions() 함수와 마찬가지로입니다.
 - 함수는 for 루프를 사용하여 1월부터 12월까지의 각 월에 대한 옵션 요소를 생성합니다.
@@ -268,20 +202,9 @@ const renderYearOptions = () => {
 - 옵션 요소의 텍스트 콘텐츠는 단순히 연도 번호입니다.
 - 마지막으로, 함수는 옵션 요소의 배열을 반환합니다.
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-![Custom Datepicker in ReactJS](/ui-log-2/assets/img/2024-07-09-CustomDatepickerinReactJS_2.png)
+![Custom Datepicker in ReactJS](/assets/img/2024-07-09-CustomDatepickerinReactJS_2.png)
 
 Options are also created. The next step is to handle the changes and store the selected date.
 
@@ -295,18 +218,7 @@ const [finalDate, setFinalDate] = useState(null);
 const [formats, setFormats] = useState([]);
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 다음으로, 각 드롭다운을 변경하는 함수를 만들어 보겠습니다:
 
@@ -334,18 +246,7 @@ const handleYearChange = (e) => {
 
 사용자가 날짜를 변경할 때는 handleDateChange 함수가 호출됩니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 이제 이벤트 객체에서 입력 값이 추출되고 setSelectedDate 훅을 사용하여 새로운 선택된 날짜 상태로 설정됩니다.
 - 그런 다음 updateSelectedDate 함수를 호출하여 업데이트된 날짜 값 및 현재 월 및 연도 값을 전달합니다.
@@ -381,18 +282,7 @@ const updateSelectedDate = (date, month, year) => {
 };
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 updateSelectedDate 함수는 사용자가 각각의 드롭다운 메뉴에서 날짜, 월 또는 연도를 선택할 때 호출됩니다.
 
@@ -401,18 +291,7 @@ updateSelectedDate 함수는 사용자가 각각의 드롭다운 메뉴에서 �
 그런 다음 toISOString 메서드를 사용하여 ISO 문자열 형식의 선택된 날짜를 나타내는 finalDate 상태 변수를 설정합니다.
 이 함수는 그런 다음 세 가지 다른 날짜 형식을 나타내는 id, label 및 date 속성을 포함하는 세 개의 객체를 생성합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 첫 번째 객체는 "YYYY-MM-DD" 형식을 사용합니다.
 - 두 번째 객체는 "MM/DD/YYYY" 형식을 사용합니다.
@@ -422,20 +301,9 @@ updateSelectedDate 함수는 사용자가 각각의 드롭다운 메뉴에서 �
 
 이렇게 함으로써 새로 생성된 날짜 객체로 formats 변수의 상태가 업데이트됩니다.
 
-![Custom Datepicker in ReactJS](/ui-log-2/assets/img/2024-07-09-CustomDatepickerinReactJS_3.png)
+![Custom Datepicker in ReactJS](/assets/img/2024-07-09-CustomDatepickerinReactJS_3.png)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 전체 코드는 여기에 있어요:
 
@@ -603,18 +471,7 @@ export default App;
 
 좋아 보이게 만들기 위해 스타일링을 추가해봅시다. src 디렉토리에 App.css라는 새 파일을 생성하고 다음 코드를 추가하세요:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
@@ -738,18 +595,7 @@ p {
 
 마지막으로, ReactJS를 사용하여 사용자 지정 날짜 선택기 구성 요소를 만들었습니다. 이 구성 요소를 통해 사용자는 날짜를 선택할 수 있으며 형식에 맞게 표시됩니다. 또한 선택된 날짜에 대한 추가 형식을 렌더링합니다. 이 날짜 선택기 구성 요소는 ReactJS 응용 프로그램에 쉽게 통합되어 사용자 정의 및 사용자 친화적인 날짜 선택기 기능을 제공할 수 있습니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 참고 자료
 

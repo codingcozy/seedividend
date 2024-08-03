@@ -1,7 +1,7 @@
 ---
 title: "HTML에서 클래스 이름을 정하는 방법  클린 코드 가이드"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-HowshouldclassnamingbeinHTMLCleanCode_0.png"
+coverImage: "/assets/img/2024-07-09-HowshouldclassnamingbeinHTMLCleanCode_0.png"
 date: 2024-07-09 18:38
 ogImage:
   url: /assets/img/2024-07-09-HowshouldclassnamingbeinHTMLCleanCode_0.png
@@ -10,7 +10,7 @@ originalTitle: "How should class naming be in HTML? — Clean Code."
 link: "https://medium.com/@erennaktas/how-should-class-naming-be-in-html-clean-code-8703425a1c3e"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-HowshouldclassnamingbeinHTMLCleanCode_0.png" />
+<img src="/assets/img/2024-07-09-HowshouldclassnamingbeinHTMLCleanCode_0.png" />
 
 많은 개발자들이 개발 단계에서 네이밍에 상당한 시간을 할애할 수 있습니다. 사실, 어떤 사람들에게는 코딩 자체보다 네이밍에 더 많은 시간을 쏟게 되는 상황이 될 수도 있습니다. 클래스, 아이디, 함수, 변수 및 파일과 같은 요소들을 네이밍할 때 프로젝트 내의 목적을 정확하게 반영하는 서술적이고 의미 있는, 간결하고 일관된 이름을 사용하는 것이 매우 중요하기 때문입니다.
 
@@ -24,18 +24,7 @@ link: "https://medium.com/@erennaktas/how-should-class-naming-be-in-html-clean-c
 - DRY(중복을 배제하자) 원칙을 준수하여 코드 중복을 방지합니다.
 - 대규모 프로젝트에서는 새로운 영역, 기능 및 디자인 개선을 계속해서 추가합니다. 적절한 네이밍은 이러한 변경에 대한 더 나은 적응을 용이하게 하며 코드 업데이트의 원활한 진행을 보장합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 소프트웨어 개발에서 '클린 코드'라는 중요한 개념이 있습니다. 이는 코드의 가독성, 이해하기 쉬움, 유지보수성 및 조직화를 강조합니다. 적절한 명명은 클린 코드의 중요한 부분이며 클린 코드 원칙을 준수하는 것은 정확한 명명으로 시작합니다.
 
@@ -54,18 +43,7 @@ link: "https://medium.com/@erennaktas/how-should-class-naming-be-in-html-clean-c
 <!-- 이 세 개의 div는 완전히 서로 다릅니다. -->
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 영어 외의 다른 언어는 사용하지 말아주세요. 또한 camelCase 명명 규칙을 피해주세요. CamelCase는 단어의 첫 글자가 소문자이고, 이후 단어들의 첫 글자가 대문자인 명명규칙입니다.
 
@@ -87,18 +65,7 @@ link: "https://medium.com/@erennaktas/how-should-class-naming-be-in-html-clean-c
 <div id=”sendButton”></div>
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 특정하고 설명적이어야 하며, 적용된 영역의 목적을 명확히 정의해야 합니다.
 
@@ -117,18 +84,7 @@ link: "https://medium.com/@erennaktas/how-should-class-naming-be-in-html-clean-c
 <div class="auth-block"></div>
 <div class="faq-area"></div>
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 다른 문맥의 개발자들이 이해하기 어렵다고 판단할 정도로 너무 짧은 명명 규칙은 피하세요.
 
@@ -156,18 +112,7 @@ link: "https://medium.com/@erennaktas/how-should-class-naming-be-in-html-clean-c
 <div class="back-item"></div>
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그래서 이런 권장 내용의 근간이 뭘까요? 왜 이런 방식으로 요소들을 명명해야 할까요?
 
@@ -182,18 +127,7 @@ link: "https://medium.com/@erennaktas/how-should-class-naming-be-in-html-clean-c
 
 명명 규칙은 코드 가독성을 향상시키고, 프로젝트 내 일관성 유지, 조직을 제공하며, 오류 발생 가능성을 감소시키고, 팀 내 효율적인 협업을 용이하게 합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 W3C 문서에 액세스해서 웹 세계의 표준을 정의한 HTML과 관련된 문서를 확인할 수 있습니다.
 
@@ -228,18 +162,7 @@ W3C 문서에 액세스해서 웹 세계의 표준을 정의한 HTML과 관련�
 
 웹 개발에 관한 통찰력 있는 콘텐츠를 공유할 뿐만 아니라 계속 발전하는 웹 세계의 매력적인 동태와 기술을 탐험하는 내 YouTube 채널에 모두 따뜻하게 초대합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Twitter - Linkedin - Youtube
 
@@ -249,18 +172,7 @@ W3C
 
 Freecodecamp
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 웹의 세계
 

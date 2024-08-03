@@ -21,16 +21,7 @@ link: "https://medium.com/gitconnected/apache-iceberg-4-methods-to-create-a-ware
 - 아파치 카프카 및 아파치 스파크를 이용한 데이터 스트리밍 나노디그리 (UDACITY)
 - PySpark를 이용한 스파크 및 파이썬을 활용한 빅데이터 (UDEMY)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아직 Medium 회원이 아니신가요? 매달 $5로 Medium의 모든 콘텐츠에 액세스할 수 있는 제 추천 링크로 가입해보세요!
 
@@ -40,16 +31,7 @@ Apache Iceberg은 데이터 레이크 내에서 매우 큰 데이터 세트를 �
 
 이 오픈 테이블 형식은 Parquet 또는 ORC 파일로 저장된 데이터 세트에 대해 작동할 수 있도록 해주며, 관계형 데이터베이스의 테이블과 정확히 같은 방식으로 작동합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아이스버그 데이터 웨어하우스를 올바르게 생성하는 것은 해당 형식의 모든 데이터를 저장하고 조회할 수 있는 기본적인 첫 번째 단계입니다. 그러나 아이스버그 문서는 종종 기술적인 내용이 부족하거나 관련 사용 사례를 다루지 않는 경우가 있습니다.
 
@@ -59,16 +41,7 @@ Apache Iceberg은 데이터 레이크 내에서 매우 큰 데이터 세트를 �
 
 # 방법론
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아이스버그 아키텍처는 세 개의 주요 레이어로 구성되어 있습니다:
 
@@ -80,16 +53,7 @@ Apache Iceberg은 데이터 레이크 내에서 매우 큰 데이터 세트를 �
 
 본 튜토리얼에서는 데이터 엔지니어가 로컬 환경에서 개발하는 동안 아이스버그 데이터 웨어하우스를 설정하는 세 가지 간단한 방법을 소개할 것입니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 방법 #1: 로컬에서 실행되는 Spark 세션으로, 메타데이터와 데이터 레이어는 MinIO 버킷에, 카탈로그 레이어는 PostGres DB에 저장되어 있습니다.
 - 방법 #2: 로컬에서 실행되는 Spark 세션으로, 모든 세 가지 레이어가 스테이징 AWS S3 버킷에 저장되어 있습니다(하둡 카탈로그 사용).
@@ -101,16 +65,7 @@ Apache Iceberg은 데이터 레이크 내에서 매우 큰 데이터 세트를 �
 
 아래에 위에서 설명한 방법들의 시각적 표현을 찾을 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_1.png)
@@ -122,16 +77,7 @@ Apache Iceberg은 데이터 레이크 내에서 매우 큰 데이터 세트를 �
 따라서 따라하기 위해 단순히 원격 프로젝트 저장소를 로컬로 클론하고 spark_icb_warehouse 디렉터리로 이동한 후 docker compose up -d를 실행하면 됩니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 명령은 다음 서비스를 실행합니다:
 
@@ -152,16 +98,7 @@ spark_icb_warehouse % docker compose up -d
 
 이 세 가지 서비스 외에도 동일한 지역(예: eu-central-1) 내에서 생성된 S3 Bucket과 기본 EMR 클러스터를 기다리는 상태로 설정한 AWS 계정이 있다고 가정합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 PySpark은 어떻게 될까요? Iceberg 퀵스타트 가이드는 인기 있는 tabulario/spark-iceberg 이미지를 가져와 Docker에서 독립적으로 Spark를 실행하는 것을 권장합니다 – 온라인 가이드의 대부분과 마찬가지로 – 그러나 이 튜토리얼의 목표 중 하나는 실제로 이것이 필요하지 않다는 것을 보여주는 것입니다:
 
@@ -172,16 +109,7 @@ spark_icb_warehouse % docker compose up -d
 
 이 섹션의 코드 조각은 GitHub 레포지토리의 Spark_Iceberg_WH Jupyter 노트북의 일부로 제공됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아이스버그 프레임워크가 Pyspark 위에서 작동하도록 하려면 스파크 세션을 생성할 때 구성값의 일부로 전달될 다음 패키지를 명시해야 합니다.
 
@@ -202,16 +130,7 @@ DEPENDENCIES += ",org.postgresql:postgresql:42.6.0"
 - 우리는 iceberg-spark 패키지 버전 1.3.1을 사용할 것입니다. 이 버전을 사용할 때 구성 오류를 피하기 위해 꼭 필요한 패키지는 awssdk-bundle, aws-sdk-bundle, hadoop-aws 세 개 뿐입니다.
 - Python에서 문자열을 연결하는 더 좋은 방법이 있지만, 위의 코드는 더 필요하지 않을 때 패키지에 주석을 달기 쉽게 만들어줍니다 (예를 들어 postgresql은 메소드 #1에만 필요합니다).
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 방법 #1 = `로컬 스파크 세션 + MinIO에 메타데이터/데이터 레이어 + 포스트그레스 DB에 카탈로그 레이어`
 
@@ -288,16 +207,7 @@ spark = spark_local_to_minio(icb_catalog_name,
                              minio_end_point)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 `spark_local_to_minio()` 함수를 실행하면 SparkSession이 생성되어 iceberg_warehouse_pg(로컬에서 포트 5439로 사용 가능)와 MinIO의 iceberg-bucket을 가리키게 됩니다(docker-compose.yml을 실행하면서 생성됨, 로컬에서 127.0.0.1:9000으로 사용 가능).
 
@@ -322,16 +232,7 @@ spark.sql(f'SHOW TABLES IN {icb_catalog_name}.TEST_SCHEMA').show(truncate=False)
 
 위와 같은 결과가 나타납니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 |namespace  |tableName          |isTemporary|
@@ -346,16 +247,7 @@ spark.sql(f'SHOW TABLES IN {icb_catalog_name}.TEST_SCHEMA').show(truncate=False)
 - MinIO UI에 액세스하여(사용자: admin, 비밀번호: password) 메타데이터 파일로 이동합니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 [Markdown 형식으로 변경한 텍스트]
 ![이미지1](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_2.png)
@@ -366,16 +258,7 @@ spark.sql(f'SHOW TABLES IN {icb_catalog_name}.TEST_SCHEMA').show(truncate=False)
 
 ![이미지3](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_4.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## Method #2 - 로컬 Spark 세션 + S3 버킷의 모든 레이어
 
@@ -385,16 +268,7 @@ spark.sql(f'SHOW TABLES IN {icb_catalog_name}.TEST_SCHEMA').show(truncate=False)
 
 위에서 설명한 내용을 달성하는 코드는 다음과 같습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import os
@@ -459,16 +333,7 @@ spark = spark_local_to_s3(icb_catalog_name,
 
 이번에는 spark_local_to_s3() 함수를 실행할 때, SparkSession을 생성하여 iceberg-bucket-9004를 가리키고 백그라운드에서 hadoop 카탈로그가 구성되었습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아마도 iceberg-warehouse-dev-hdp가 S3 계정 UI에 표시되지 않을 것입니다. 올바른 iceberg object를 생성하는 pyspark.sql 명령을 실행하지 않는 이상:
 
@@ -489,16 +354,7 @@ spark.sql(f"""CREATE OR REPLACE TABLE {icb_catalog_name}.TEST_SCHEMA.TEST_TABLE_
 
 ![이미지](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_5.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 <img src="/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_6.png" />
@@ -510,16 +366,7 @@ If AWS EMR is your go-to production framework for deploying PySpark applications
 In this scenario, data engineers can submit PySpark applications to the EMR cluster through AWS CLI.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 EMR 단계를 추가하는 명령어를 작성할 때는 클러스터 드라이버에서 SparkSession이 자동으로 실행될 것이므로 올바른 종속성, 구성 및 PySpark 스크립트를 제출하는 데 주의해야 합니다.
 
@@ -549,16 +396,7 @@ aws emr add-steps --profile aws_personal --cluster-id j-xxxxxxxxxxx \
 }]'
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 명령이 성공적으로 실행되면, stepID가 반환됩니다:
 
@@ -568,16 +406,7 @@ EMR 클러스터 UI에서도 동일한 stepID가 나타나며, 이는 PySpark �
 
 ![StepID](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_8.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 작업이 완료되면 클러스터에서 로그가 생성됩니다. 이 경우, 로그에서 TEST_TABLE_EMR_S3_HDP가 카탈로그에 실제로 생성되었음을 확인했습니다:
 
@@ -599,16 +428,7 @@ INFO:root:Main APPLICATION was executed!
 
 ![이미지](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_9.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## Method #4: Spark Session On EMR (Via Airflow) + All Layers On S3 Bucket
 
@@ -618,16 +438,7 @@ AWS EMR에서 Airflow를 사용하여 PySpark 파이프라인을 자동화하는
 
 요약하면, 이 방법은 다음 네 가지 작업을 수행하는 전용 DAG(spark_create_iceberg_wh_dag.py)를 설정하는 것을 포함합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - create_iceberg_wh_app.py 파일을 iceberg-bucket-9004의 scripts/ 폴더에 업로드합니다 (EMR이 배포할 수 있도록 함).
 - dag_params.json 파일에서 필요한 Spark 작업 구성을 구문 분석하고 EMR에 제출할 명령을 자동으로 빌드하는 데 사용합니다:
@@ -671,16 +482,7 @@ AWS EMR에서 Airflow를 사용하여 PySpark 파이프라인을 자동화하는
 
 <img src="/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_10.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 #method3에 대해 이야기해보겠습니다. DAG가 트리거된 직후에 PySpark 스크립트를 실행하는 단계가 EMR UI의 Steps 섹션 아래에 나타납니다.
 
@@ -690,16 +492,7 @@ AWS EMR에서 Airflow를 사용하여 PySpark 파이프라인을 자동화하는
 
 ![Iceberg Warehouse](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_12.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 
@@ -709,16 +502,7 @@ AWS EMR에서 Airflow를 사용하여 PySpark 파이프라인을 자동화하는
 
 현재 문서에 다양한 조합을 제시함으로써 데이터 엔지니어가 Iceberg 오픈 테이블 형식을 기반으로하는 PySpark 애플리케이션을 구축하면서 테스트하는 데 소요되는 시간을 절약하도록 돕는 것이 목표입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 출처
 

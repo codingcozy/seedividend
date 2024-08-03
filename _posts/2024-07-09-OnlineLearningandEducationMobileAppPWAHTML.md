@@ -1,7 +1,7 @@
 ---
 title: "온라인 학습 및 교육 모바일 앱 PWA를 HTML로 만드는 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png"
+coverImage: "/assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png"
 date: 2024-07-09 09:02
 ogImage:
   url: /assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png
@@ -18,18 +18,7 @@ Guruji로 모바일 학습의 힘을 불러내세요. Guruji는 학생, 교육�
 
 주요 기능:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - Progressive Web App (PWA) 기술: 앱 스토어 설치 없이 네이티브 앱과 유사한 경험을 제공하여 더 넓은 대중에게 도달하고 배포 과정을 간소화합니다.
 - 다양한 학습 형식: 영상 강의, 대화식 퀴즈, 다운로드 가능한 자료 등 다양한 형식의 코스를 제공하여 다양한 학습 성향을 고려합니다.
@@ -44,18 +33,7 @@ Guruji로 모바일 학습의 힘을 불러내세요. Guruji는 학생, 교육�
 
 지금 지니를 다운로드하여 모바일 학습의 잠재력을 스스로와 사용자들에게 펼쳐보세요!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 사양:
 
@@ -73,18 +51,7 @@ Guruji로 모바일 학습의 힘을 불러내세요. Guruji는 학생, 교육�
 - HTML 파일
 - 설명서
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Guruji는 다음과 같은 분야에 이상적입니다:
 
@@ -96,20 +63,9 @@ Guruji는 다음과 같은 분야에 이상적입니다:
 
 이 상품에 평점을 부탁드립니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png)
+![이미지](/assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png)
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 Photo by The_Krishna on Envato Elements
 

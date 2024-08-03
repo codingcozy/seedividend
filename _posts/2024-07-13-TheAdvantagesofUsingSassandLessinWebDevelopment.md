@@ -1,10 +1,10 @@
 ---
 title: "웹 개발에서 Sass와 Less를 사용해야 하는 7가지 장점"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-13 18:52
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "The Advantages of Using Sass and Less in Web Development"
 link: "https://medium.com/@kasata/the-advantages-of-using-sass-and-less-in-web-development-137748bfd955"
@@ -19,16 +19,7 @@ Sass(Syntactically Awesome Stylesheets)는 CSS로 해석되거나 컴파일되�
 
 ## Sass의 장점
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 변수: Sass를 사용하면 색상, 폰트 스택 또는 필요한 모든 CSS 값과 같은 재사용 가능한 값을 저장하는 변수를 사용할 수 있습니다.
 - 중첩: Sass를 사용하면 CSS 선택기를 HTML의 시각적 계층 구조와 일치하게 중첩할 수 있습니다.
@@ -43,16 +34,7 @@ Less(Leaner Style Sheets)는 CSS를 위한 하위 호환성 있는 언어 확장
 
 ## Less의 장점
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 변수: Sass와 비슷하게, Less도 재사용 가능한 값을 위한 변수를 지원하여 CSS를 관리하기 쉽게 만듭니다.
 - 믹스인: Less 믹스인을 사용하면 한 rule-set에서 다른 rule-set으로 속성 집합을 포함시킬 수 있습니다.

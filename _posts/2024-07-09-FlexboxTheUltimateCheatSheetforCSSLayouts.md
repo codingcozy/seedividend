@@ -1,7 +1,7 @@
 ---
 title: "Flexbox 완벽한 CSS 레이아웃 치트 시트 "
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_0.png"
+coverImage: "/assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_0.png"
 date: 2024-07-09 17:48
 ogImage:
   url: /assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_0.png
@@ -10,7 +10,7 @@ originalTitle: "Flexbox: The Ultimate Cheat Sheet for CSS Layouts! 🎨"
 link: "https://medium.com/@mdtaqui.jhar/flexbox-the-ultimate-cheat-sheet-for-css-layouts-e1d200eda2bf"
 ---
 
-![image](/ui-log-2/assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_0.png)
+![image](/assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_0.png)
 
 안녕하세요 여러분! 👋 제 이름은 Md Taqui Imam이고, 오늘은 멋진 치트 시트와 함께 CSS Flexbox에 대해 공유하고 싶어요.
 
@@ -18,20 +18,9 @@ link: "https://medium.com/@mdtaqui.jhar/flexbox-the-ultimate-cheat-sheet-for-css
 
 이제 시작해보고 어떻게 사용하는지 배워봅시다!
 
-<!-- ui-log 수평형 -->
+<div class="content-ad"></div>
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-![Flexbox](/ui-log-2/assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_1.png)
+![Flexbox](/assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_1.png)
 
 # Flexbox가 뭔가요?
 
@@ -39,18 +28,7 @@ Flexbox 또는 Flexible Box Layout은 아이템들 간의 공간을 배치, 정�
 
 # 기본 내용
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 메인 축 및 교차 축
 
@@ -62,18 +40,7 @@ Flexbox 또는 Flexible Box Layout은 아이템들 간의 공간을 배치, 정�
 - 플렉스 컨테이너는 플렉스 항목을 보유합니다. 요소에 display: flex를 설정하여 생성됩니다.
 - 플렉스 항목은 플렉스 컨테이너의 직계 자식입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # Flexbox 속성
 
@@ -88,18 +55,7 @@ flex-direction: column-reverse; /* 항목을 세로로 역순으로 정렬합니
 
 2. Flex-Wrap 속성
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 flex-wrap: nowrap;       /* 모든 아이템을 한 줄에 배치합니다 */
@@ -115,18 +71,7 @@ flex-grow: 1; /* 아이템이 사용 가능한 공간을 채우도록 확장됩�
 
 4. Flex-Shrink 속성
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 flex-shrink: 1; /* 아이템이 컨테이너에 맞게 축소됩니다 */
@@ -140,18 +85,7 @@ flex-basis: 200px; /* 확장 또는 축소되기 전에 항목의 초기 크기 
 
 6. Flex 갭 속성
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 gap: 20px; /* 플렉스 아이템 간의 간격 */
@@ -169,18 +103,7 @@ align-items: flex-end; /* 아이템을 교차 축의 끝 부분에 정렬 */
 align-items: baseline; /* 아이템을 기준선에 따라 정렬 */
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 2. Justify-Content Property
 
@@ -204,18 +127,7 @@ align-content: space-around;  /* 플렉스 라인들을 주변에 공간을 두�
 align-content: space-evenly;  /* 플렉스 라인과 주변 간격을 동일하게 두고 정렬 */
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 4. Align-Self Property
 
@@ -232,18 +144,7 @@ align-self: baseline; /* 요소를 기준선을 따라 정렬함 */
 
 이 속성 자료로, Flexbox 속성을 하나하나 알려드렸고 어떻게 동작하는지 빠르게 참조할 수 있게 해드렸습니다. Flexbox는 반응형 레이아웃을 만드는 데 탁월한 도구이니 이제 자신 있게 활용해보세요!
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 행복한 코딩하세요! 💻
 

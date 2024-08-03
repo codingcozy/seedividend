@@ -1,10 +1,10 @@
 ---
 title: "HTML, CSS와 JS로 서명 패드 만들기 단계별 가이드"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:44
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Build a Signature Pad in HTML, CSS, JS , Canvas"
 link: "https://medium.com/@divbydiv/build-a-signature-pad-in-html-css-js-canvas-bd174d999392"
@@ -19,16 +19,7 @@ link: "https://medium.com/@divbydiv/build-a-signature-pad-in-html-css-js-canvas-
 
 게다가, 서명 패드에서 이미지를 생성하여 서버로 전송하는 방법에 대해서도 알려드릴게요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 준비되셨나요? 시작해봐요 😀
 
@@ -60,16 +51,7 @@ link: "https://medium.com/@divbydiv/build-a-signature-pad-in-html-css-js-canvas-
 
 이제 app.css 파일에 몇 가지 CSS를 추가해 시그니처 패드처럼 보이도록 만들어봐요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```css
 :root {
@@ -114,16 +96,7 @@ body {
 
 먼저, 폼, 캔버스, 서명 패드를 지울 버튼에 대한 몇 가지 상수를 저장하고 싶습니다.  
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 const canvas = document.querySelector('canvas');
@@ -139,16 +112,7 @@ const ctx = canvas.getContext('2d');
 
 마지막으로, 작성 모드를 설정하거나 해제하는 두 변수를 만들어 봅시다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 let writingMode = false;
@@ -160,16 +124,7 @@ let writingMode = false;
 
 포인터 다운은 쓰기 모드를 true로 설정하는 역할을 맡고, 포인터 업은 쓰기 모드를 false로 설정하는 역할을 합니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 canvas.addEventListener('pointerdown', handlePointerDown, { passive: true });
@@ -190,16 +145,7 @@ const handlePointerDown = (event) => {
 }
 ```
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 handlePointerUp
@@ -217,16 +163,7 @@ const handlePointerMove = (event) => {
   ctx.stroke();
 }
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 getCursorPosition 함수는 다음과 같습니다:
 
@@ -241,16 +178,7 @@ const getCursorPosition = (event) => {
 ctx.lineWidth = 3;
 ctx.lineJoin = ctx.lineCap = 'round';
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 거의 다 왔어요. 추가해야 할 마지막 기능은 캔버스를 지우고, 폼을 제출하는 기능입니다.
 
@@ -277,16 +205,7 @@ clearButton.addEventListener('click', (event) => {
 
 이게 다에요! 최종 결과물은 이렇게 될 거에요.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*kSbgHu01E-PFh2JXVoS-jw.gif)

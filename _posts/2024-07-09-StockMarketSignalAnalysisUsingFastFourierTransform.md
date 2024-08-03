@@ -18,18 +18,7 @@ link: "https://medium.com/@kt.26karanthakur/stock-market-signal-analysis-using-f
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*e-_z80BnbHWyFTfRLblJ_w.gif)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사에서 논의하는 FFT 알고리즘은 신호 처리를 사용하여 가장 중요한 주파수를 감지하고 데이터에서 잡음을 제거합니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@kt.26karanthakur/stock-market-signal-analysis-using-f
 
 주식 가격이나 거래량과 같은 금융 시계열은 다양한 경제 주기, 계절성 또는 투자자 행동으로 인해 주기적인 패턴을 나타내는 경우가 많습니다. 푸리에 변환은 이러한 주기와 해당 주파수를 식별하는 데 도움이 됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 소음 필터링
 
@@ -60,18 +38,7 @@ link: "https://medium.com/@kt.26karanthakur/stock-market-signal-analysis-using-f
 
 주파수를 식별함으로써, 분석가들은 역사적인 패턴을 기반으로 미래 가격 변동이나 트렌드에 대한 예측을 할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 기계 학습을 위한 기능 추출
 
@@ -81,18 +48,7 @@ Fourier 변환에서 얻은 주파수 구성 요소는 머신 러닝 모델에�
 
 ## 노트북 설정 및 주식 데이터 수집
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 필요한 기본 주식 데이터 수집 및 데이터 프레임 조작을 위한 라이브러리 가져오기가 첫 번째 단계입니다.
 
@@ -120,18 +76,7 @@ df = pdr.get_data_yahoo(ticker + '.NS', start = start_date, end = end_date)
 
 ## FFT의 적용
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 np.fft.fft()을 사용하여 푸리에 변환을 수행할 것이며, np.fft.fftfreq()를 사용하여 주파수를 얻을 것입니다. 가장 중요한 주파수가 나타나는 때를 나타내기 위해 진폭 대 주기를 그래프로 그려볼 수 있습니다.
 
@@ -146,18 +91,7 @@ periods = 1 / frequencies
 
 아래의 주파수 플롯은 시계열 내에서 우세한 주파수를 강조합니다. 이러한 주파수는 역 FFT를 수행하거나 원래 시계열을 다시 만들거나 잡음을 줄인 버전을 생성하는 데 사용될 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 가격의 간단한 시각화
@@ -187,18 +121,7 @@ plt.show()
 
 ## 원래 주식 시장 데이터 복구하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 np.fft.ifft() 함수를 사용하여 원래의 시계열을 복원할 수 있습니다. 이 함수는 fft_results를 역변환합니다. 아래 그래프에서 볼 수 있듯이 완벽하게 재구성되었습니다.
 
@@ -218,18 +141,7 @@ plt.show();
 
 ## 주요 주파수를 갖는 파형의 재구성
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이것은 상위 25개 FFT 주파수만 사용하여 재구성된 신호를 생성합니다. 이것은 데이터의 노이즈 제거를 의미합니다.
 
@@ -255,18 +167,7 @@ plt.show();
 
 # 결론
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 문서에서 설명한 알고리즘은 산업 전문가들이 사용하는 분석을 지나치게 단순화한 것입니다. 성능을 개선하기 위해 일반적으로 매일 모델을 조정합니다.
 

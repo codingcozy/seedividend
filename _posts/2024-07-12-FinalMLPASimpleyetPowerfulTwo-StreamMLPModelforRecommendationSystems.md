@@ -19,16 +19,7 @@ link: "https://medium.com/towards-data-science/finalmlp-a-simple-yet-powerful-tw
 
 추천 시스템은 조직이 교차 판매와 장꼬 아이템의 판매를 증가시키고, 고객들이 가장 좋아하는 것을 분석하여 의사 결정을 개선하는 데 유용합니다. 뿐만 아니라, 고객의 과거 행동을 학습하여 특정한 고객 선호도에 따라 제품 집합을 순위 매길 수 있습니다. 추천 시스템을 사용하는 조직은 향상된 고객 경험을 제공함으로써 경쟁사보다 한 발 앞서 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사에서는 온라인 광고 및 추천 시스템에서의 클릭 수 예측을 향상시키기 위해 설계된 새로운 모델인 FinalMLP에 초점을 맞춥니다. Advanced features like gating and interaction aggregation layers를 갖춘 두 개의 다층 퍼셉트론(MLP) 네트워크를 통합하여, FinalMLP은 기존의 단일 스트림 MLP 모델과 고급 두 개의 스트림 CTR 모델보다 우수한 성능을 보입니다. 저자들은 FinalMLP의 효과를 벤치마크 데이터셋 및 실제 온라인 A/B 테스트를 통해 확인했습니다.
 
@@ -36,16 +27,7 @@ FinalMLP의 상세한 내용과 작동 방식에 초점을 맞추면서, 공개 
 
 항상 그렇듯이, 코드는 저희의 GitHub에서 이용 가능합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # FinalMLP: 두 개의 MLP 위에 (F)eature gating 및 (IN)teraction (A)ggregation (L)ayers가 추가된 모델
 
@@ -56,16 +38,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 ![이미지](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 작동 방법은 무엇인가요?
 
@@ -75,16 +48,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 범주형 특징은 원-핫 특징 벡터로 변환되며, 학습 가능한 임베딩 행렬에 의해 곱해져 어휘 크기 n과 임베딩 차원 d를 가진 임베딩을 생성합니다[3].
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 숫자형 특성은 1) 숫자 값을 이산형 특성으로 버킷팅하고 이를 범주형 특성으로 다루거나 2) 정규화된 스칼라 값 xj가 주어지면, 임베딩은 xj를 field j의 모든 특성에 대한 공유 임베딩 벡터 vj와 곱한 것으로 주어질 수 있습니다 [3].
 
@@ -94,16 +58,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 특성 선택 레이어는 모델 예측에 중요한 영향을 미치도록 중요한 특성에 더 높은 영향을 미치도록 잡음이 많은 특성을 억제하기 위한 특성 중요도 가중치를 얻기 위해 사용됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 언급한 대로, FinalMLP는 게이팅 기반 특성 선택, 그리고 게이트 메커니즘을 갖춘 MLP를 사용합니다. 이 MLP는 임베딩을 입력으로 받아들이고, 입력과 동일한 차원의 가중치 벡터를 생성합니다. 특성 중요도 가중치는 시그모이드 함수를 가중치 벡터에 적용하여 [0, 2] 범위의 벡터를 생성하는 방식으로 얻어집니다. 가중된 특성은 특성 임베딩과 특성 중요도 가중치 사이의 요소별 곱셈을 통해 얻어집니다.
 
@@ -113,16 +68,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 양 스트림의 출력을 결합하여 최종 예측 확률을 얻기 위해 스트림 수준 융합 계층이 필요합니다. 일반적으로 두 출력을 결합하는 것은 합산 또는 연결 작업을 기반으로 합니다. 그러나 FinalMLP의 저자들은 선형 조합이 실패할 수 있는 특성 상호작용 정보를 얻기 위해 두 출력을 결합하는 데에 양선형 상호작용 집계 계층을 제안합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저자들은 어텐션 레이어에서 영감을 받아 멀티 헤드 바이리니어 퓨전 레이어로 발전시킨 바이리니어 퓨전을 소개했습니다. 이는 계산 복잡성을 줄이고 모델의 확장성을 향상시키는 데 사용됩니다.
 
@@ -132,16 +78,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 여기서 σ는 시그모이드 함수, b는 편향 항목이며, o1은 한 스트림의 출력입니다. w1은 o1에 적용되는 학습 가능한 가중치이고, o2는 다른 스트림의 출력이며, w2는 o2에 적용되는 학습 가능한 가중치입니다. 마지막으로, w3는 특성 상호작용 정보를 추출하는 바이리니어 항목의 학습 가능한 매트릭스입니다. w3가 제로 매트릭스로 설정되면 전통적인 연결 퓨전으로 약화됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Bilinear Fusion과 Multi-Head Bilinear Fusion의 차이점은, 두 스트림에서 전체 벡터를 사용하는 대신 출력 o1과 o2를 k 개의 하위 공간으로 나눈다는 것입니다. 각 하위 공간에서 이루어진 bilinear 퓨전은 sigmoid 함수에 공급하여 최종 확률을 생성합니다.
 
@@ -151,16 +88,7 @@ Bilinear Fusion과 Multi-Head Bilinear Fusion의 차이점은, 두 스트림에�
 
 이 섹션에서는 FinalMLP를 Kaggle의 Public Domain 라이선스(CC0)로 공개된 데이터셋에 구현할 것입니다. 이 데이터셋에는 사용자, 책, 그리고 사용자가 책에 부여한 등급에 관한 정보가 포함되어 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 데이터셋은 다음과 같이 구성되어 있습니다:
 
@@ -178,16 +106,7 @@ Bilinear Fusion과 Multi-Head Bilinear Fusion의 차이점은, 두 스트림에�
 
 nDCG는 결과의 순위를 측정하여 추천 시스템의 품질을 평가하는 메트릭스입니다. 각 항목의 관련성과 결과 목록에서의 위치를 고려하여 상위 순위에 더 많은 중요성을 부여합니다. nDCG는 낮은 순위 항목의 이익을 할인하는 할인 누적 이익(DCG)과 완벽한 순위를 감안한 이상적인 DCG (iDCG)를 비교하여 계산됩니다. 이 정규화된 점수는 0에서 1 사이의 범위를 가지며, 1은 이상적인 순위를 나타냅니다. 따라서 nDCG는 어떻게 시스템이 사용자에게 관련 정보를 효과적으로 제공하는지 이해하는 데 도움이 됩니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리는 먼저 라이브러리를 가져와요:
 
@@ -227,16 +146,7 @@ df = pd.merge(users_df, ratings_df, on='User-ID', how='left')
 df = pd.merge(df, books_df, on='ISBN', how='left')
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그 후, 데이터에 문제점을 식별하기 위해 탐색적 데이터 분석을 수행합니다:
 
@@ -248,16 +158,7 @@ df = df[df['Book-Rating'].notnull()]
 
 - 누락된 값 확인 및 누락된 Book-Author 및 Publisher를 알 수 없는 카테고리로 대체합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 print(df.columns[df.isna().any()].tolist())
@@ -274,16 +175,7 @@ df = df[df['Book-Title'].notnull()]
 
 - Replace non-integer Year-of-Publication with null values.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 df['Year-Of-Publication'] = pd.to_numeric(df['Year-Of-Publication'], errors='coerce')
@@ -309,16 +201,7 @@ plt.show()
 ![이미지](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_6.png)
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마침내, 데이터 정리를 다음과 같이 진행합니다:
 
@@ -341,16 +224,7 @@ df['label'] = (df['Book-Rating'] > 7)*1
 
 데이터셋을 정리하면, 랜덤으로 사용자의 70%를 훈련용, 10%를 검증용, 20%를 테스트용으로 나눠서 데이터를 분할합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 고유 사용자 목록 생성
@@ -374,16 +248,7 @@ test_df = df[df['User-ID'].isin(test_users)]
 
 다국어 인코더를 사용하는 이유는 제목이 서로 다른 언어로 작성되기 때문입니다. 또한, 책이 다른 책보다 더 많은 사용자에 의해 읽혔을 경우 차원 축소에 편향이 주입되지 않도록 먼저 고유한 Book-Title을 추출합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # 임베딩 생성
@@ -416,16 +281,7 @@ test_df[NUMERICAL_COLUMNS] = pipe.transform(test_df[NUMERICAL_COLUMNS])
 
 FinalMLP에 제공할 준비가 된 모든 데이터로 dataset_config.yaml 및 model_config.yaml 두 개의 yaml 구성 파일을 만들어야 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 dataset_config.yaml 파일은 모델에서 사용할 feature들을 정의하는 역할을 합니다. 또한 이들의 데이터 유형을 정의하고(Embedding 레이어에서 다르게 처리됨) 훈련, 검증, 테스트 세트의 경로를 정의합니다. 아래는 구성 파일의 주요 부분을 확인할 수 있습니다:
 
@@ -461,16 +317,7 @@ FinalMLP_book:
  model_root: ./checkpoints/FinalMLP_book/
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬으로 돌아가서 최근에 생성된 설정 파일을 로드합니다. 그런 다음, 특성 매핑을 만듭니다 (즉, 각 범주형 특성에 몇 가지 카테고리가 있는지, 다른 특성에서 누락된 값이 있을 경우 어떻게 대체해야 하는지 등). CSV 파일을 h5 파일로 변환합니다.
 
@@ -507,16 +354,7 @@ train_gen, valid_gen = H5DataLoader(feature_map, stage='train', **params).make_i
 model.fit(train_gen, validation_data=valid_gen, **params)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마침내 보이지 않는 데이터를 예측할 수 있게 되었습니다. 관측치들의 점수를 얻기 위해 배치 크기를 1로 변경하기만 하면 됩니다.
 
@@ -531,16 +369,7 @@ test_df['score'] = model.predict(test_gen)
 
 우리는 FinalMLP를 평가하기 위해 Recall을 사용했습니다. Recall은 시스템이 전체 중에서 모든 관련 항목을 식별하는 능력을 측정하는 지표로, 전체 관련 항목 중 검색된 관련 항목의 비율로 나타냅니다. Recall@K와 같이 Recall@3을 지정하면 시스템이 상위 K개의 추천 내에서 관련 항목을 식별하는 능력에 초점을 맞춥니다. 이것은 사용자들이 주로 상위 추천에 주목하는 추천 시스템을 평가하는 데 중요합니다. K(예: 3)의 선택은 일반적인 사용자 행동과 애플리케이션 맥락에 따라 달라집니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 고객의 Recall@3을 살펴보면, 상위 3위 안에 가장 관련성 있는 책이 세 권 모두 들어있기 때문에 100%입니다.
 
@@ -556,16 +385,7 @@ ndcg_score(true_relevance, y_relevance)
 <img src="/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_7.png" />
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 해석 가능성 측면에서 이 모델은 특성 선택을 수행하여 가중치 벡터를 추출할 수 있게 합니다. 그러나 각 특성의 중요성을 해석하고 이해하는 것은 간단하지 않습니다. 임베딩 레이어 이후에는 930차원 벡터가 생성되어 원래 특성으로 재매핑하기가 어려워집니다. 그럼에도 불구하고, 이전에 언급된 선형 항으로 주어진 선형 처리 후 각 스트림의 출력의 절대값을 추출함으로써 각 스트림의 중요성을 이해해 볼 수 있습니다.
 
@@ -581,16 +401,7 @@ ndcg_score(true_relevance, y_relevance)
 ...
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 한 번 훈련을 받으면, 각 스트림의 선형 변환 결과에서 절대 값을 예측하고 플롯할 수 있습니다. 그림 8에 보여진 것처럼, 상품 스트림이 사용자 스트림보다 중요성이 높습니다. 이는 상품에 대한 기능이 훨씬 많기 때문이지만 사용자 특성이 상당히 일반적이기 때문에 발생합니다.
 
@@ -600,16 +411,7 @@ ndcg_score(true_relevance, y_relevance)
 
 추천 시스템은 사용자 경험을 향상시켜 맞춤형 추천을 제공하며, 성장과 혁신을 이끄는 데이터 기반 의사 결정을 기관에 제공하여 사용자 경험을 향상시킵니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사에서는 추천 시스템용으로 개발된 가장 최근 모델 중 하나를 소개했습니다. FinalMLP는 두 개의 독립 네트워크를 가진 딥 러닝 모델입니다. 각 네트워크는 사용자와 항목 이 두 가지 다른 관점 중 하나에 중점을 둡니다. 각 네트워크로부터 학습된 다른 패턴은 그 다음 각 네트워크의 학습 내용을 결합하는 책합층에 공급됩니다. 사용자-항목 쌍 상호 작용의 단일 뷰를 생성하여 최종 점수를 생성합니다. 이 모델은 CatBoost Ranker를 이겼으며 우리의 사용 사례에서 잘 수행했습니다.
 
@@ -619,16 +421,7 @@ ndcg_score(true_relevance, y_relevance)
 
 인공지능 분야의 시리얼 기업가 및 리더입니다. 비즈니스를 위한 인공지능 제품을 개발하고 인공지능에 초점을 맞춘 스타트업에 투자합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 창립자 @ ZAAI | LinkedIn | X/Twitter
 
@@ -638,15 +431,6 @@ ndcg_score(true_relevance, y_relevance)
 
 [2] Jiajun Fei, Ziyu Zhu, Wenlei Liu, Zhidong Deng, Mingyang Li, Huanjun Deng, Shuo Zhang. DuMLP-Pin: 집합 특성 추출을 위한 이중-MLP-내적 불변 네트워크. arXiv:2203.04007, 2022.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 [3] Jieming Zhu, Jinyang Liu, Shuai Yang, Qi Zhang, Xiuqiang He. BARS-CTR: Open Benchmarking for Click-Through Rate Prediction. arXiv:2009.05794, 2020.

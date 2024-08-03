@@ -18,18 +18,7 @@ link: "https://medium.com/@sarangsurve/python-basics-why-use-init-py-c88589e44c9
 
 Python 파일이 모인 디렉터리를 패키지로 취급하고 싶다면 **init**.py 파일을 넣어주면 됩니다. 그러면 Python이 그 디렉터리를 패키지로 인식해요. 코드와 Python 사이의 비밀 악수 같은 존재죠.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*vRslGzL6g4YZkmkF5DDX1g.gif)
 
@@ -39,18 +28,7 @@ Python 파일이 모인 디렉터리를 패키지로 취급하고 싶다면 **in
 
 **init**.py가 없으면, Python은 당신의 디렉토리를 패키지로 인식하지 못하며 표준 "import" 문을 사용하여 해당 모듈을 가져올 수 없습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*ICEW26oY5tK3yjpO267rHw.gif)
 
@@ -60,18 +38,7 @@ Python 파일이 모인 디렉터리를 패키지로 취급하고 싶다면 **in
 
 # 예제
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 간단한 패키지인 my_package를 생성해보겠습니다. my_package 디렉토리 내부에서 어떻게 **init**.py가 작동하는지 설명하기 위해 빈 **init**.py 파일을 만들고 greetings.py 파일을 생성하여 say_hello() 함수를 작성해봅시다. 이 함수는 “Hello, World!”를 출력합니다.
 
@@ -85,18 +52,7 @@ def say_hello():
 
 이제 my_package 디렉토리 외부의 어떤 파일에서든 greetings 모듈을 가져와 say_hello() 함수를 사용할 수 있습니다. 이 때 **init**.py 파일이 greetings 모듈을 my_package 네임스페이스 내에서 접근 가능하게 만들어주기 때문에 “Hello, World!”가 출력됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*fcHy0Fyq7xfaCafR3hcGHw.gif" />
 

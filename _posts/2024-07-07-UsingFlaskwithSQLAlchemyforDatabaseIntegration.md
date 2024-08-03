@@ -19,18 +19,7 @@ SQLAlchemy는 개발자들이 파이썬 객체를 사용하여 데이터베이�
 
 ## Flask 및 SQLAlchemy 설정하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우선, 컴퓨터에 Python이 설치되어 있는지 확인하세요. 그런 다음 pip를 사용하여 Flask와 SQLAlchemy를 설치하세요:
 
@@ -42,18 +31,7 @@ SQLAlchemy를 사용한 기본 Flask 애플리케이션 만들기
 
 - 프로젝트 구조: 프로젝트 구조를 다음과 같이 설정하세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 flask_sqlalchemy_example/
@@ -77,18 +55,7 @@ class Config:
 
 3. 모델 정의: 데이터베이스 모델을 정의하는 models.py 파일을 생성하세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 아래는 Flask 애플리케이션을 개발하기 위한 코드 예제입니다.
@@ -128,16 +95,7 @@ if __name__ == '__main__':
 
 5. 애플리케이션 실행: 애플리케이션을 실행하고 데이터베이스를 생성하세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 python app.py
 
@@ -147,16 +105,7 @@ python app.py
 
 - 사용자 생성: 새 사용자를 생성하는 라우트를 추가하세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 from flask import request, jsonify
 
@@ -177,16 +126,7 @@ def get_users():
 
 3. 단일 사용자 가져오기: ID로 사용자를 가져오는 라우트를 추가합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 @app.route('/users/<int:id>', methods=['GET'])
 def get_user(id):
@@ -206,16 +146,7 @@ def update_user(id):
 
 5. 사용자 삭제: ID로 사용자를 삭제하는 라우트를 추가하세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 @app.route('/users/<int:id>', methods=['DELETE'])
 def delete_user(id):
@@ -280,16 +211,7 @@ def delete_user(id):
 if __name__ == '__main__':
     app.run(debug=True)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 글에서는 SQLAlchemy를 Flask와 통합하여 데이터베이스 작업을 관리하는 방법을 다루었습니다. 우리는 간단한 사용자 모델을 생성하고 데이터베이스와 상호 작용하기 위한 CRUD 작업을 구현했습니다. SQLAlchemy의 ORM 기능은 Flask 애플리케이션에서 데이터베이스 관리를 위한 강력한 도구로 만들어 줍니다.
 ```

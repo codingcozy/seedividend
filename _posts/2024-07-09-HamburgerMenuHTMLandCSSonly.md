@@ -1,7 +1,7 @@
 ---
 title: "HTML과 CSS만으로 햄버거 메뉴 만들기 방법"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_0.png"
+coverImage: "/assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_0.png"
 date: 2024-07-09 18:41
 ogImage:
   url: /assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_0.png
@@ -10,7 +10,7 @@ originalTitle: "Hamburger Menu — HTML and CSS only"
 link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa9bfd"
 ---
 
-![이미지](/ui-log-2/assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_0.png)
+![이미지](/assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_0.png)
 
 # 개요
 
@@ -18,18 +18,7 @@ link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa
 
 이 문서는 HTML과 CSS를 사용하여 모바일 친화적인 네비게이션 메뉴를 만들고자 하는 웹 개발자들에게 훌륭한 자료입니다. 단계별 안내와 실용적인 코드 예제를 통해, 모든 기기에서 멋지게 보이고 매끄럽게 작동하는 햄버거 메뉴를 만드는 간단하고 효과적인 접근 방식을 제공합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 주요 HTML
 
@@ -49,18 +38,7 @@ link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa
 
 ## 주요 CSS
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 먼저 menuToggle div의 위치를 상대 위치로 설정하고 z-index를 1로 설정합니다.
 
@@ -84,18 +62,7 @@ link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 3. #menuToggle div 요소 내의 input 요소에 -webkit-touch-callout: none이 적용됩니다. 이는 사용자가 햄버거 메뉴 아이콘을 터치하고 누르면 콜아웃이 나타나지 않도록 하기 위해 수행됩니다.
 
@@ -116,18 +83,7 @@ link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa
 
 ## 애니메이션 CSS
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - #menuToggle span에 transform-origin 및 transition 속성을 추가할 예정입니다. transition 속성은 cubic-bezier 타이밍 함수를 사용하여 0.5초 동안 transform, 배경 및 opacity 속성의 변화를 애니메이션화합니다.
 
@@ -147,18 +103,7 @@ link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 #menuToggle span:nth-last-child(2) {
@@ -186,18 +131,7 @@ link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## HTML 목록
 
@@ -237,18 +171,7 @@ link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa
 
 ## 목록 스타일링
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 - 목록을 스타일링하기 위해 먼저 위치를 절대값으로 설정하고 왼쪽 가장자리와 #menuToggle div의 왼쪽 가장자리 사이의 거리를 설정합니다. -300px의 값은 메뉴를 뷰포트 왼쪽 가장자리 외부에 숨깁니다.
 - 그런 다음 왼쪽 속성에 대한 전환 효과를 추가합니다. 이렇게 하면 메뉴가 왼쪽에서 슬라이드되어 들어올 때 부드러운 애니메이션이 생성됩니다.
@@ -283,22 +206,11 @@ link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa
 }
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 # 결과
 
 - 결론적으로, HTML과 CSS만을 사용하여 햄버거 메뉴를 만드는 것은 웹사이트의 사용자 경험을 개선하는 간단하고 효과적인 방법입니다. 이 글에서 안내된 단계별 지침에 따라, 쉽게 데스크톱 및 모바일 기기에서 모두 잘 작동하는 기능적이고 세련된 메뉴를 만들 수 있습니다.
 - 메뉴를 더욱 더 멋지고 세련되게 만들기 위해 웹사이트 디자인에 맞게 스타일을 사용자 정의할 수 있습니다. 또한 각 메뉴 항목에 이미지와 아이콘을 추가하여 시각적으로 매력적으로 만들 수 있습니다.
 
-![이미지](/ui-log-2/assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_1.png)
+![이미지](/assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_1.png)

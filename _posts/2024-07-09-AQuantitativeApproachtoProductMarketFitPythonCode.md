@@ -18,18 +18,7 @@ link: "https://medium.com/towards-data-science/a-quantitative-approach-to-produc
 
 본 기사에서는 Spot the Lion 앱의 두 데이터셋을 사용하여 코드를 설명할 거예요. 이는 설명 목적으로 만든 가상 앱이에요. 더 많은 정보는 여기에서 확인할 수 있어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 모든 이미지는 별도로 언급되지 않는 한 저자가 만들었습니다. 또한 제가 사용할 두 개의 데이터 세트가 있습니다. 이 유즈 케이스, 참고문헌 및 두 데이터 세트가 포함된 코드 저장소는 여기에 있습니다.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/towards-data-science/a-quantitative-approach-to-produc
 
 예를 들어, 앱을 사용하는 사용자의 행동을 평가하려면 PMF 단위는 총 상호작용 (사용자별)이 될 것이며, 앱의 각 상호작용을 포함하는 데이터 세트가 필요합니다. 즉, 각 행에는 사용자 및 날짜가 포함되어야 합니다. 이 유형의 PMF 단위는 간단하다고 부르는데, PMF 단위를 숫자로 측정하기 때문입니다 (상호작용의 수를 세는 것). 그래서 오브젝트는 날짜와 해당 작업을 실행한 사용자의 ID 두 개의 열만 필요합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다른 PMF 유닛으로는 사용자가 소비한 금액이 될 수 있습니다. 이 경우 앱에서 모든 결제가 포함된 데이터셋이 필요합니다. 사용자, 날짜 및 수량이 포함되어야 합니다. 수량을 합산할 Quantity 열이 필요하기 때문에 이 유형의 PMF 유닛은 간단하지 않습니다.
 
@@ -62,18 +40,7 @@ link: "https://medium.com/towards-data-science/a-quantitative-approach-to-produc
 - growth_accounting_pmf.py: GrowthAccounting 객체가 포함되어 있습니다.
 - cohorts_pmf.py: Cohorts 객체와 일부 보조 함수가 포함되어 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 라이브러리로는 copy, datetime, numpy, pandas, matplotlib.pyplot 및 seaborn을 사용하여 구성되었어요.
 
@@ -92,18 +59,7 @@ from cohorts_pmf import Cohorts
 
 # 성장 회계
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 성장 회계 프레임워크는 사용자를 PMF 유단위 행동으로 태깅한 다음 그 진화를 살펴보는 것을 목표로 합니다.
 
@@ -114,18 +70,7 @@ GrowthAccounting은 두 개의 매개변수로 구성되어 있습니다:
 - period: 'Q', 'q', 'M', 'm', '28D', '28d', '7D', '7d', 'D', 'd' 중 하나입니다. 데이터를 분할할 기간을 나타내는 문자입니다. 기본값: 월간.
 - simple: bool. PMF 유닛이 간단한지 여부를 나타내는 불리언 값이며, 이는 상호 작용을 단순히 계산해야 하는지(simple) 아니면 수량 열이 필요한지(not simple) 여부를 말합니다. 기본값: simple.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그럼 데이터를 담고 있는 객체를 맞춰야 해요:
 
@@ -138,18 +83,7 @@ GrowthAccounting은 두 개의 매개변수로 구성되어 있습니다:
 
 객체를 맞춘 후에는 데이터 및 시각화를 요청하기만 하면 됩니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - df: 판다 데이터프레임입니다. 위에서 계산한 모든 열이 포함되어 있습니다.
 - plot: Accounting for Growth 시각화를 플롯합니다.
@@ -161,18 +95,7 @@ GrowthAccounting은 두 개의 매개변수로 구성되어 있습니다:
 
 spot_the_lion_user_activity_2023.csv 데이터 세트를 사용하겠습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 import pandas as pd
@@ -190,18 +113,7 @@ user_growth = GrowthAccounting(period='M')
 user_growth.fit(activity, 'date', 'user_id')
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 적절한 시간은 데이터 양에 따라 다릅니다. 그럼 데이터프레임을 확인할 수 있습니다 (테이블 전체를 보려면 Jupyter Notebook으로 이동하세요).
 
@@ -215,18 +127,7 @@ user_growth.df;
 user_growth.plot();
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_1.png" />
 
@@ -238,18 +139,7 @@ user_growth.plot_compound_growth(3);
 
 ## 단순하지 않은 PMF 단위의 성장 고려: 사용자별 수익
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 경우, 앱 내 각 지불을 포함하는 다른 데이터셋을 사용할 것입니다. 이 데이터셋은 spot_the_lion_revenue_2023.csv입니다.
 
@@ -263,18 +153,7 @@ revenue.head()
 
 여기에는 세 개의 열이 있으며 모두 필요합니다: date, user_id 및 revenue. 또한, 이 분석이 매월 이루어지고 간단하지 않다고 지정해야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 rev_growth = GrowthAccounting((period = "M"), (simple = False));
@@ -289,18 +168,7 @@ rev_growth.plot();
 
 <img src="/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_3.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 rev_growth.plot_compound_growth(3);
@@ -312,18 +180,7 @@ rev_growth.plot_compound_growth(3);
 
 # 코호트(Cohorts)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Cohort Framework은 제품과 상호 작용하기 시작한 시점에 따라 사용자를 그룹화한 후 시간에 따른 PMF 단위의 진화를 볼 수 있는 목표를 가지고 있어요.
 
@@ -334,18 +191,7 @@ Cohort Framework은 제품과 상호 작용하기 시작한 시점에 따라 사
 - 기간: '‘Q’, ’q’, ’M’, ’m’, ’28D’, ’28d’, ’7D’, ’7d’, ’D’, ’d’'. 데이터를 나눌 기간을 나타내는 문자입니다. 기본값: 월별.
 - 간단함: 부울. PMF 단위가 간단한지 여부를 나타내며, 상호 작용을 단순히 계산해야하는지 (간단) 또는 값을 합산해야하는 열이 필요한지 (복잡하지 않음)를 나타냅니다. 기본값: 간단함.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그러면 Accounting for Growth와 동일한 내용을 포함하도록 데이터가 있는 객체를 맞춰야 합니다. 다만, 종류가 있는 코호트를 명시해야 합니다.
 
@@ -359,18 +205,7 @@ Cohort Framework은 제품과 상호 작용하기 시작한 시점에 따라 사
 
 그럼 이제 데이터와 시각화를 요청하기만 하면 됩니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - df_cohorts: 데이터프레임. 코호트를 시각화하는 데 필요한 모든 열을 포함합니다.
 - plot_heatmap(label, title, way): 일반적인 코호트 히트맵을 그립니다. 열과 차트 제목, 방법이 필요합니다. 방법은 "period" 또는 "period_num"일 수 있습니다. "period"의 경우 코호트를 기간에 맞추고, "period_num"의 경우 모든 코호트의 첫 번째 기간을 정렬한 후 두 번째, 그리고 그 이후로 이어집니다.
@@ -382,18 +217,7 @@ Cohort Framework은 제품과 상호 작용하기 시작한 시점에 따라 사
 
 두 가지 예제를 살펴보겠습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 간단한 PMF 단위의 사용자 상호 작용을 위한 코호트
 
@@ -406,18 +230,7 @@ activity["date"] = pd.to_datetime(activity["date"]);
 
 본 분석에서는 월 단위로 기간을 설정하고 "accum" 이외의 모든 코호트 유형과 맞출 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 users_cohort=Cohorts(period='M')
@@ -432,18 +245,7 @@ users_cohort.df_cohorts.head()
 
 Here, you can see that every column has a “perc” column with the percentage. Now, we can plot two heatmaps and a trend chart for every type of cohort.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 총 상호 작용.
 
@@ -461,18 +263,7 @@ users_cohort.plot_heatmap("perc_unique_users", "사용자", (way = "period_num")
 users_cohort.plot_trends("perc_unique_users", "로고 유지", (way = "period_num"));
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 사용자 이탈.
 
@@ -488,18 +279,7 @@ users_cohort.plot_heatmap("per_user", "월별 사용자별 상호작용", (way =
 users_cohort.plot_heatmap("perc_per_user", "월별 사용자별 상호작용", (way = "period_num"));
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위에서 보듯이 나는 일반 숫자 코호트에는 period 방식을 항상 사용하고 백분율에는 period_num 방식을 사용합니다. 또한 트렌드에 대해서는 일반적으로 백분율과 period_num 방식을 사용합니다. 다른 시각화 방법을 시도해볼 수도 있지만, 그것들은 실제로 통찰력이 부족한 것 같아요.
 
@@ -519,18 +299,7 @@ new_df = new_df.reset_index().groupby(["cohort", "period"])[["variety"]].mean().
 new_df.head();
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_4.png" />
 
@@ -543,18 +312,7 @@ users_cohort.plot_heatmap("variety", "사용자별 상호작용 다양성", (way
 
 <img src="/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_5.png" />
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 소득에 대한 비닝심플 PMF 유닛의 코호트
 
@@ -567,18 +325,7 @@ revenue['date']=pd.to_datetime(revenue['date'])
 
 이 분석에서 우리는 월간 기간과 단순하지 않은 매개변수를 사용할 것입니다. 그런 다음 "unique_users"를 제외한 모든 코호트 유형과 적합합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 revenue_cohort=Cohorts(period='M',simple=False)
@@ -595,18 +342,7 @@ revenue_cohort.plot_heatmap('perc_total','총 수익','way='period_num')
 revenue_cohort.plot_trends('perc_total','수익 유지율','way='period_num')
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 한 명당 수익.
 
@@ -623,18 +359,7 @@ revenue_cohort.plot_trends("accum", "코호트 LTV", (way = "period_num"));
 revenue_cohort.plot_trends("accum", "코호트 LTV", (way = "age"));
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 경우의 마지막 차트는 조금 특별합니다. 연령대별로 플롯을 그릴 때는 각 날짜별 코호트의 주기 수에 따라 그룹화됩니다. 파란 선은 앱에서의 코호트의 첫 번째 기간에 누적된 총계를 나타냅니다. 주황색 선은 코호트가 두 번째 기간에 누적한 총계를 나타내고... 이어서 나갑니다.
 
@@ -644,18 +369,7 @@ revenue_cohort.plot_trends("accum", "코호트 LTV", (way = "age"));
 
 제품-마켓 적합성은 여러분의 앱에서 실제로 사용자들이 여러분의 앱을 사용한다는 것을 의미합니다. 레시피 공유를 위한 C2C 마켓플레이스인 경우 사용자별 상호작용이 많을수록 기울어지게 됩니다. 업로드된 레시피, 댓글이 달린 레시피, 공유된 레시피 등이 지표가 될 수 있습니다. 이를 PMF(제품-마켓 적합성) 단위라고 부르며, 저가 구축한 Python 객체로 평가할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬을 선택한 이유는 주피터 노트북과 그의 다양성 때문이에요. 머신러닝 스타일로 만들어져서 데이터를 맞추고 결과와 시각화를 요청하기만 하면 되기 때문이죠. 위의 예시가 프레임워크를 더 잘 이해하도록 도움이 되기를 바라요.
 
@@ -668,17 +382,6 @@ revenue_cohort.plot_trends("accum", "코호트 LTV", (way = "age"));
 - 주피터 노트북의 사용 사례를 실험해보세요.
 - PMF(unit)를 결정하고 데이터셋을 준비하여 자신의 목적에 활용하세요!
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 마크다운 형식으로 테이블 태그를 변경해보세요! ;)

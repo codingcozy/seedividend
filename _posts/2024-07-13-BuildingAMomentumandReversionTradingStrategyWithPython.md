@@ -20,16 +20,7 @@ link: "https://medium.com/gitconnected/building-a-momentum-and-reversion-trading
 
 회귀 전략은 가격이 특정 기간 동안 평균 또는 다중 평균 값으로 되돌아갈 것이라는 믿음에 기반합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 기사에서는 이러한 전략을 검토하고 해당 분석을 위한 Python 코드 구현을 제공할 것입니다. 우리는 페어 트레이딩을 포함한 더 세련된 전략과 분석을 진행할 것입니다.
 
@@ -39,16 +30,7 @@ link: "https://medium.com/gitconnected/building-a-momentum-and-reversion-trading
 
 Python 환경을 설정하는 것은 효율적으로 Python 코드를 작성, 실행 및 관리하기 위해 필요한 도구와 라이브러리를 갖추는 것을 포함합니다. Python 환경을 설정하는 자세한 안내서는 여기 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 1. 파이썬 설치하기:
 
@@ -58,16 +40,7 @@ Python 환경을 설정하는 것은 효율적으로 Python 코드를 작성, �
 
 파이썬으로 코딩할 때 텍스트 편집기나 통합 개발 환경(IDE)을 선택해주세요. 널리 사용되는 몇 가지 옵션으로는:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - Visual Studio Code: 내장된 Python 지원과 다양한 확장 기능을 갖춘 가벼운 사용자 정의 가능한 편집기입니다.
 - PyCharm: 코드 완성, 디버깅 및 버전 관리 시스템과 통합된 Python 개발을 위해 최적화된 견고한 IDE입니다.
@@ -81,16 +54,7 @@ Python 환경을 설정하는 것은 효율적으로 Python 코드를 작성, �
 python -m venv myenv
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 해당 명령어는 프로젝트 디렉토리에 `env`라는 가상 환경을 만듭니다. 가상 환경을 활성화하려면 다음 명령어를 사용하십시오 (사용하는 운영 체제에 따라 명령어가 다를 수 있습니다):
 
@@ -102,16 +66,7 @@ python -m venv myenv
 
 ## macOS/Linux:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 source env/bin/activate
@@ -127,16 +82,7 @@ pip install numpy pandas matplotlib
 pip install -r requirements.txt
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 트렌드와 모멘텀 전략
 
@@ -148,16 +94,7 @@ pip install -r requirements.txt
 - 빈번한 거래는 거래 수수료 누적으로 이어질 수 있습니다.
 - 폭넓게 사용되기 때문에 이 전략을 활용하는 데 경쟁 우위가 제한적이거나 전혀 없을 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 이동평균 교차 전략
 
@@ -192,16 +129,7 @@ def double_simple_moving_average_signals(ticker_ts_df, short_window=5, long_wind
 
 필요한 함수를 생성하기 위한 단계를 살펴보겠습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 단기 및 장기 이동평균 값 계산: 단기(빠른) 및 장기(느린) 단순 이동평균(SMA)을 계산하는 함수를 생성하세요.
 - 거래 신호 생성: 단기와 장기 이동평균 값을 비교하여 매수 및 매도 신호를 생성하는 함수를 개발하세요.
@@ -311,16 +239,7 @@ ax1.legend(loc='upper left', fontsize=10)
 plt.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Strategy](/TIL/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_0.png)
@@ -332,16 +251,7 @@ plt.show()
 이 전략은 가격 상승 또는 하락의 빈도에 기초합니다. 연속된 일정 기간 동안 가격이 지속적으로 상승하면 매수 기회를, 하락하면 매도 기회로 간주합니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이전에 논의 된 간단한 이동 평균 (SMA) 전략에서 일부 유틸리티 함수를 재사용할 것입니다.
 
@@ -386,16 +296,7 @@ plt.show()
 
 <img src="/TIL/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_1.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 안타깝지만, 이 전략은 수익을 창출하지 않았고 수익을 얻지 못했습니다.
 
@@ -405,16 +306,7 @@ plt.show()
 
 # 회귀 전략
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예를 들어, 일론 머스크가 테슬라에 블록체인을 통합할 것이라는 트윗을 올리면, 테슬라 주식에 과도한 매수 열풍이 불고 있을 것입니다. 그러나 다음 날에는 투자자들이 아무런 근본적인 변화가 없다는 것을 깨닫고 시장이 관심을 잃으면, 가격은 더 합리적인 수준으로 회귀할 것입니다.
 
@@ -424,16 +316,7 @@ plt.show()
 
 # 평균 회귀
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 평균 회귀 전략에서는 주식 가격이 시간이 지남에 따라 평균값 또는 평균값에 가까워질 것이라는 가정 하에 운영합니다.
 
@@ -467,16 +350,7 @@ def mean_reversion_signals(ticker_ts_df, entry_threshold=1.0, exit_threshold=0.5
 
 이 함수에서는 주식 가격 데이터의 표준 편차와 평균을 결정합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가격이 평균에서 일정 표준 편차 수로 벗어날 때 신호가 생성됩니다.
 
@@ -498,16 +372,7 @@ plt.show()
 
 <img src="/TIL/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_2.png" />
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 종이 상으로 10%의 수익률은 만족스럽게 보일 수 있지만, 실제로는 넓은 S&P 500 지수 펀드에 투자함으로써 유사한 결과를 달성할 수 있습니다.
 
@@ -517,15 +382,6 @@ plt.show()
 
 ➡️여기에서 제 구독하기 ➡️ https://medium.com/@aamurtazin/subscribe
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 내가 곧 올릴 블로그에서 많은 내용을 공유할 거야.

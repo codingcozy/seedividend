@@ -19,16 +19,7 @@ link: "https://medium.com/generative-ai/dont-just-tell-ask-the-rise-of-conversat
 
 저는 개인 문서용 챗봇을 만들고 싶어요. 그 챗봇은 문서에 대해 몇 가지 질문을 "제안"할 수 있는 거죠. 새 문서인지 구식 문서인지를 미리 알 필요가 없어요. 함께 LLM(언어 모델 학습)을 사용하여 문서에서 질문을 생성하는 방법에 대해 알아봐요. 이 모든 것은 Hugging Face의 LLM과 파이썬을 사용하며(무료 Google Colab 노트북에서 실행) 오픈 소스 도구만 사용해서 이룰 수 있어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # ESA: 탐사 능력 분석
 
@@ -38,16 +29,7 @@ link: "https://medium.com/generative-ai/dont-just-tell-ask-the-rise-of-conversat
 
 오픈 소스 접근 방식을 원하므로 Hugging Face Hub에서 해당 작업에 전용 모델이 있는지 검색을 시작했습니다. 발견한 것은 기대 이상이었습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 허깅 페이스에서는 질문 생성을 위한 모델이 여러 개 있어요! 그 중에 valhalla/t5-small-e2e-qg를 선택하기로 결정했어요. Patil Suraj의 GitHub 레포지토리에서는 이 NLP 작업에 대한 연구를 탐구하고 있어요.
 
@@ -57,16 +39,7 @@ link: "https://medium.com/generative-ai/dont-just-tell-ask-the-rise-of-conversat
 
 이 프로젝트는 사전 훈련된 트랜스포머(특히 seq-2-seq 모델)를 사용하여 복잡한 파이프라인 없이 간단한 엔드 투 엔드 방법으로 질문 생성에 대한 오픈 소스 연구를 목표로 하고 있어요. 간소화된 데이터 처리 및 훈련 스크립트를 제공하고 추론을 위한 쉬운 파이프라인을 구축하는 것이 목표입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![Image](/TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_0.png)
@@ -78,16 +51,7 @@ link: "https://medium.com/generative-ai/dont-just-tell-ask-the-rise-of-conversat
 번역, 질문 응답 및 분류를 포함한 모든 작업은 입력으로 모델 텍스트를 공급하고 어떤 대상 텍스트를 생성하도록 훈련시키는 것으로 표현됩니다. 이를 통해 우리는 다양한 작업 세트에 걸쳐 동일한 모델, 손실 함수, 하이퍼파라미터 등을 사용할 수 있습니다.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 알겠어요, 이제 소개는 여기까지하고 코딩하면서 더 많은 내용을 추가해봐요.
 
@@ -102,16 +66,7 @@ link: "https://medium.com/generative-ai/dont-just-tell-ask-the-rise-of-conversat
 문서에서 질문 생성하기 (지금은 텍스트 파일로)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 보시다시피, 여기서 Document Loaders나 Langchain을 너무 깊게 파고들지 않을 거에요. 목표는 텍스트에서 질문을 생성할 수 있는 AI를 갖는 것입니다.
 
@@ -127,16 +82,7 @@ Google Colab 노트북을 열고 이름을 지어주세요. 이 프로젝트에 
 !pip install langchain
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 %%capture 매직은 Jupyter 기반 인터페이스에서 명령의 출력을 숨기는 기능을 제공합니다. 이 경우에는 verbose 콘솔 출력 없이 pip를 사용하여 모든 종속성을 설치할 것입니다.
 
@@ -150,16 +96,7 @@ torch를 사용하여 Hugging Face에서 .bin 파일 형식 모델을 읽는 핵
 
 마지막 단계는 질문 생성 전용 파이프라인을 다운로드하는 것입니다. 이는 Patil Suraj Repo에서 가져온 파이썬 파일인 pipelines.py입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 %%capture
@@ -173,16 +110,7 @@ torch를 사용하여 Hugging Face에서 .bin 파일 형식 모델을 읽는 핵
 시작해 볼까요?
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 의존성이 모두 준비되었으면, 파이프라인을 처음으로 생성할 때 모델을 다운로드합니다 (Colab이 대신 처리해 줄 거에요). 이제 몇 가지 질문 생성 추론을 해볼 수 있습니다.
 
@@ -218,16 +146,7 @@ from transformers import(
 )
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 수입 후에는 몇 가지 매개변수를 지정하여 nlp 파이프라인을 생성합니다:
 
@@ -239,16 +158,7 @@ from transformers import(
 
 # 예제 번호 1
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 ques = nlp("파이썬은 프로그래밍 언어입니다. 1991년에 Guido van Rossum에 의해 처음 출시되었습니다.")
@@ -263,16 +173,7 @@ print(ques)
 
 # 예제 번호 2
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 제가 귀하의 요청에 따라 테이블 태그를 Markdown 형식으로 변경하겠습니다.
 
@@ -285,16 +186,7 @@ print(ques)
 
 이렇게 해서 테이블을 마크다운 형식으로 변환하였습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여러분 안녕하세요! 오랜 텍스트 파일이나 역사 교과서의 한 장을 처리해야 한다면 어떻게 해야 할까요? 혹은 거대한 논문을 다뤄야 한다면요?
 
@@ -306,16 +198,7 @@ print(ques)
 
 # 문서(지금은 텍스트 파일)로부터 질문 생성하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 텍스트 파일(텍스트만 포함됨)을 사용할 거에요. 이 텍스트 파일은 Medium 기사인 'BERT: 초심자 친화적 설명'에서 Pushpam Punjabi가 쓴 것을 가져왔어요. 문장의 의미가 중요한 기술 기사라서 좋은 테스트 케이스예요.
 
@@ -332,16 +215,7 @@ with open(fname) as f:
 f.close()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 기사는 약 1800 단어로, 문자 수로는 11032자입니다.
 
@@ -362,16 +236,7 @@ def mysplit(text,chunk,overlap):
   return texts
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 나머지 부분은 쉬워요! 우리는 텍스트에 함수를 호출하고 각 청크마다 질문을 표시하기 위해 목록을 반복합니다. 여기서는 6000자를 사용하고 150개의 오버랩이 있는 함수를 사용하고 있어요.
 
@@ -400,16 +265,7 @@ for test in texts:
 - 챗봇이나 가상 보조 프로그램과 같은 애플리케이션에서는 인간 언어를 이해하고 해석하는 능력이 정확하고 유용한 응답을 제공하는 데 중요합니다.
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론 (지금까지)
 
@@ -421,16 +277,7 @@ for test in texts:
 texts = mysplit(doc,3700,50)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로 시도해볼 수 있는 몇 가지 단계가 있습니다:
 
@@ -441,16 +288,7 @@ texts = mysplit(doc,3700,50)
 
 이 기사를 즐겁게 읽어주셨기를 바랍니다. 이 이야기가 가치를 제공하고 조금이라도 지원하고 싶다면, 어떤 지원이든 환영합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 이 이야기를 많이 박수 치세요
 - 기억하기에 더 관련성이 높은 부분을 강조하세요 (나중에 찾기 쉽고 좀 더 나은 기사를 작성하는 데 도움이 될 거예요)
@@ -465,16 +303,7 @@ texts = mysplit(doc,3700,50)
 
 이 이야기는 Generative AI에서 게시되었습니다. LinkedIn에서 우리와 연락하고 최신 AI 이야기에 대한 소식을 받으려면 Zeniteq를 팔로우하세요. 함께 AI의 미래를 만들어 갑시다!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 ![Image](/TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_4.png)

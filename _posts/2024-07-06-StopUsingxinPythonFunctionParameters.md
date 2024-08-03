@@ -21,18 +21,7 @@ def func(ls: List[str] = []):
     ...
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬 함수에서 변경 가능한 기본 인수도 허용됩니다. 아래와 같은 코드를 실행할 수 있고 파이썬은 이를 허용합니다. 그러나 이는 좋지 않은 관행입니다.
 
@@ -42,18 +31,7 @@ def func(ls: List[str] = []):
 
 데이터 구조가 변경되지 않는(불변한) 것은 데이터 구조가 생성 후 변경되지 않는 경우입니다. 정수, 부동 소수점, 부울, 문자열, None, 튜플 및 frozenset과 같은 데이터 유형은 파이썬에서 변경되지 않습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 기본 인수를 사용하는 이유
 
@@ -72,17 +50,6 @@ greet('tom', greeting='ni hao')
 
 greeting에 값을 전달하지 않고 선택하는 경우 기본값 `hello`를 갖습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 만약 우리가 인사말에 값을 전달하면, 전달한 값을 사용합니다.

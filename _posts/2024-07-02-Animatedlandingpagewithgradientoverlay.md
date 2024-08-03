@@ -1,16 +1,16 @@
 ---
 title: "그라데이션 오버레이를 사용한 애니메이티드 랜딩 페이지 만들기"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png"
+coverImage: "/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png"
 date: 2024-07-02 21:39
 ogImage:
-  url: /ui-log-2/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png
+  url: /assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png
 tag: Tech
 originalTitle: "Animated landing page with gradient overlay"
 link: "https://medium.com/@tom.hendrych/animated-landing-page-with-gradient-overlay-862b26c7958f"
 ---
 
-![이미지](/ui-log-2/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png)
+![이미지](/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png)
 
 안녕하세요! 이번 튜토리얼에서는 사용자 상호 작용에 따라 내용을 동적으로 변경하는 애니메이션 랜딩 페이지를 만들어 볼 거에요. 이 튜토리얼은 일반 HTML, CSS, JavaScript 만을 사용하므로 의존성이나 프레임워크는 필요하지 않아요. 여러분이 좋아하는 IDE/텍스트 편집기, 열정, 그리고 새로운 것을 배우려는 시간만 있으면 돼요.
 
@@ -18,21 +18,9 @@ link: "https://medium.com/@tom.hendrych/animated-landing-page-with-gradient-over
 
 이 프로젝트를 자유롭게 조정해보세요. 여러분의 창의력을 발휘하고 필요에 맞게 적응시켜보세요. 마블/DC 슈퍼히어로, 포켓몬, 좋아하는 스포츠 스타, 또는 제품을 소개하기 위해 사용해도 좋아요.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 마크다운 형식의 최종 결과입니다
 
 ## 튜토리얼 구조
@@ -41,21 +29,9 @@ link: "https://medium.com/@tom.hendrych/animated-landing-page-with-gradient-over
 
 두 번째 섹션은 "jumbotron" 네비게이션에 헌정되어 있으며 웹페이지에서 주요한 네비게이션 요소로 작용합니다. 이 섹션은 사용자의 주의를 끌기 위해 설계되었으며, 중요한 콘텐츠에 초점을 맞추기 위해 사용됩니다. jumbotron을 활용하여 중요한 콘텐츠, 공지사항 또는 CTA(호출 대 행동)를 강조함으로써 방문자에게 즉각적으로 볼 수 있도록합니다. 이렇게 함으로써 네비게이션이 직관적이고 시각적으로 매료적이게되어 전체 사용자 경험을 향상시킵니다.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 최종 섹션에서는 사용자 상호작용 시 슬라이드되는 기사 섹션을 생성할 것입니다. 이 동적 기능은 상호작용 및 시각적인 매력을 제공하여 사용자 참여를 높일 것입니다. 슬라이딩 애니메이션은 주목을 끄고 탐색 경험을 더 즐겁게 만들 수 있습니다.
 
 # 목차
@@ -66,21 +42,9 @@ link: "https://medium.com/@tom.hendrych/animated-landing-page-with-gradient-over
 
 ## 설정
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 이 미니 프로젝트의 시작점은 이 GitHub 저장소의 "projects" 폴더에 있습니다. 이 튜토리얼의 최종 코드도 여기에서 찾을 수 있어요.
 
 코딩을 시작하기 전에 정말 간단한 프로젝트를 설정해 봅시다. 우리는 HTML 마크업을 위한 하나의 파일(index.html), CSS 파일, 그리고 JavaScript 파일이 필요할 거에요. 먼저 HTML 파일을 생성해볼 텐데요, 여기서 CSS 파일 styles.css를 링크하고 JavaScript 파일 index.js를 생성하고 가져올 거에요. 아래 내용을 자유롭게 복사해서 붙여넣어 주세요.
@@ -111,21 +75,9 @@ link: "https://medium.com/@tom.hendrych/animated-landing-page-with-gradient-over
 </html>
 ```
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 저희 디렉터리의 루트에 styles.css 파일을 만들어주세요. 구글 폰트에서 Poppins라는 폰트를 불러와 텍스트 컬러와 초기 배경 이미지를 설정할 거에요. 여기엔 특별한 것이 없어요.
 
 ```js
@@ -147,21 +99,9 @@ body {
 
 먼저, 배경부터 시작해보겠습니다. 배경 이미지는 콘텐츠 아래에 오도록 하고 싶어요. 이를 위해 `main` 요소에 .content 클래스를 추가할 거에요.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 우리는 배경을 여러 층으로 구성할 거예요. Adobe Photoshop과 같은 그래픽 소프트웨어에 익숙하다면, 이는 동일한 개념을 따르며 z-index를 사용하여 이루어질 거에요. 우리는 그레이스케일 필터와 그라데이션 효과를 적용하기 위해 이 작업을 해야 해요.
 
 먼저, 우리는 가상 요소 .content:before를 사용하여 바닥층에 스타일을 선언할 거에요. 중요한 부분은 이것을 다음 층보다 낮은 z-index로 설정하는 것이에요. 또한 배경 이미지와 다른 배경 속성 몇 가지를 설정하여 이미지를 가운데 정렬하고 페이지 전체를 커버할 거에요. 흥미로운 부분은 filter: grayscale(100%)인데, 이는 이미지를 흑백으로 변환해 줘요.
@@ -195,21 +135,9 @@ body {
 }
 ```
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 다음 단계로 우리는 그라데이션을 설정할 것입니다. styles.css 파일의 맨 위에 아래 CSS 변수를 선언해주세요.
 
 ```js
@@ -243,21 +171,9 @@ body {
 }
 ```
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 마지막으로 가장 중요한 것은 최종 레이어를 정의해야 합니다. 이 레이어는 맨 위에 있으므로 z-index가 가장 높을 것입니다. 이 경우에는 z-index: 0으로 설정합니다. 이제 코끼리가 나타나는 흑백 배경 이미지를 볼 수 있어야 합니다.
 
 ```js
@@ -276,44 +192,20 @@ body {
 
 이 단계는 선택 사항입니다. 배경 이미지의 그라데이션을 사용자 정의할 것입니다. 다른 색상이 어떻게 전체 콘텐츠의 느낌과 분위기를 급격하게 바꿀 수 있는지 확인할 수 있을 것입니다.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 아래 스니펫에서 기본 색상을 찾을 수 있지만 선호하는 색상을 선택해도 괜찮습니다. 그러나 컨텐츠의 대비와 가독성을 유지하기 위해 포화된 색상을 선택하고 알파(불투명도)를 0.5와 0.7 사이로 유지하는 것을 강력히 권장합니다.
 
 사용자 지정 그라디언트를 적용하려면 CSS 변수를 재정의해야 합니다:
 
 --gradient-color-second.
 
-![그라디언트 이미지](/ui-log-2/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_1.png)
+![그라디언트 이미지](/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_1.png)
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 ```js
 :root {
     --text-primary: white;
@@ -337,21 +229,9 @@ body {
 
 우리의 경우, 점보트론 내비게이션에는 동물 이름이 포함되어 있으며 사용자는 활성 항목 간에 전환할 수 있습니다. 사용자가 동물 이름을 클릭하면 현재 선택된 동물을 전환하고 페이지 배경을 해당 동물로 변경할 것입니다.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 우선으로, .content 내에 있는 .grid-container을 생성할 것입니다. 이 컨테이너에는 두 개의 동일한 크기인 .left와 .right 부분이 포함될 것입니다. 왼쪽에는 jumbotron 내비게이션이 있고, 오른쪽에는 동물에 관한 짧은 기사가 들어갈 것입니다.
 
 저희 내비게이션 아이템 마크업을 보시면, id 속성과 사용자 정의 속성 data-index가 정의되어 있습니다. 이 두 가지 속성을 우리의 자바스크립트에서 정확한 요소에 접근하는 데 사용할 것입니다.
@@ -387,21 +267,9 @@ body {
 }
 ```
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 마침내 우리는 내비게이션 스타일을 적용할 것입니다. 상단부터 아래로 내비게이션 항목을 표시하기 위해 부모 요소(플렉스 컨테이너)를 .jumbo-nav로 정의할 것입니다. 항목의 투명도를 0.3으로 설정하여 선택된 내비게이션 항목만 강조되는 시각적으로 비활성 상태를 만들 것입니다.
 
 ```js
@@ -429,21 +297,9 @@ body {
 
 먼저, 모든 점보트론 내비게이션 항목을 쿼리해야 합니다.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 ```js
 // 모든 네비게이션 아이템 쿼리
 const navItems = document.querySelectorAll(".jumbo-nav__item");
@@ -483,21 +339,9 @@ navItems.forEach((element) => {
 
 ## 네비게이션 전환
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 지금은 사용자가 선택한 항목을 강조하는 작동하는 내비게이션이 준비되었어요. 하지만 마우스를 다른 항목으로 이동하면 새 항목이 선택됩니다. 이 작동 방식은 잘 작동하지만, 깜빡이는 효과가 너무 강하고 자연스러워 보이지 않아요. 사용자들에게 더 매력적으로 보이도록 트랜지션을 추가할 거에요.
 
 기존의 .jumbo-nav**item과 .jumbo-nav**item--active 맨 아래에 다음 코드를 추가할 거예요:
@@ -516,21 +360,9 @@ navItems.forEach((element) => {
 
 위 코드를 자세히 살펴보겠습니다. 우리는 모든 속성에 transition을 적용할 거에요. 이렇게 하면 트랜지션의 길이가 0.5초이고 0.3초만큼 지연될 거에요. 이렇게 함으로써 한 상태에서 다른 상태로 자연스럽게 전환될 거예요. 마우스를 올렸을 때 적용되는 활성 상태에 대해 우리는 폰트를 크고 두드러지게 만들고 싶어해요. 이를 위해 transform: scale(1.2) translateX(7.5%)로 설정할 거에요.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 CSS (전환 및 변형) 몇 줄만 추가하면 기능 전체의 느낌을 개선할 수 있다는 게 놀라운 거지요?
 
 ## 배경 변경
@@ -539,21 +371,9 @@ CSS (전환 및 변형) 몇 줄만 추가하면 기능 전체의 느낌을 개�
 
 한 가지 유의해야 할 점이 있어요. 의사 요소인 .content::before에 배경 이미지 속성을 정의했는데, 의사 요소는 DOM에 존재하지 않기 때문에 JavaScript를 통해 직접 변경하는 방법이 없어요. 그러나 해결방법이 있어요. 배경 이미지 선언을 포함한 의사 요소를 가진 실제 요소인 .content 클래스를 선택할 수 있어요. 그런 다음 element.style.setProperty(name, value)를 사용해 CSS 변수 --background-image를 새 값으로 설정할 수 있어요. 새 값은 동물 이름인 imageId에요.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 ```js
 function setBackgroundImage(imageId) {
   const elementWithBackgroundImage = document.querySelector(".content");
@@ -573,42 +393,18 @@ function onMouseOver(e) {
 
 # 기사 섹션
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 이 튜토리얼의 마지막 주요 섹션에 대해 작업을 시작할 수 있습니다. 선택된 동물에 대한 제목과 몇 개의 단락을 표시하는 기사 섹션을 만들 것입니다. 게다가, 다른 탐색 요소 위로 마우스를 올리면 이 섹션도 업데이트할 것입니다. 다시 말해, UI가 사용자 상호작용에 따라 상황에 맞게 업데이트될 것입니다.
 
 HTML 구조로 이동해봅시다. .grid-container 내부에 이미 .right 클래스를 가진 래핑 엘리먼트가 있고 여기에 기사를 배치합니다. 이 섹션의 HTML은 래핑 `article` 엘리먼트로 구성되어 있으며 중첩된 헤딩 엘리먼트와 몇 개의 단락을 포함하고 있습니다. 다음의 플레이스홀더 텍스트와 함께 이를 복사해보세요.
 
 또한 시각적으로 더 흥미로워 보이도록 일부 스타일을 정의해야 하지만 CSS 코드에서는 특별한 일이 벌어지지는 않습니다. 맨 아래에는 다른 기사를 숨기기 위해 사용할 유틸리티 .hidden 클래스가 있습니다. 더불어 .article에 정의된 전환은 우측에서 새 기사가 슬라이드인 효과를 만들어 줍니다.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 ```js
 .article {
   color: var(--text-primary);
@@ -650,21 +446,9 @@ const articles = document.querySelectorAll(".article");
 
 그리고 이제 onMouseOver 함수를 다음 코드로 업데이트해야 합니다. 이 코드는 활성 항목에서 hidden 클래스를 제거하고 비활성 항목에서 hidden 클래스를 설정할 거에요.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 ```js
 if (articles[selectedItemIndex]) {
   articles[currentlyHoveredIndex].classList.remove("hidden");
@@ -705,21 +489,9 @@ function onMouseOver(e) {
 }
 ```
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 그거면 끝이에요!
 
 최종 코드는 여기 있어요: https://github.com/jimmzzz/jimmzzz.github.io
@@ -728,21 +500,9 @@ function onMouseOver(e) {
 
 이 튜토리얼에서는 몇 가지 주요 디자인 요소를 통해 웹페이지의 시각적 매력과 사용자 경험을 향상시키는 데 초점을 맞췄어요. 배경 이미지에 오버레이 필터를 적용하여 밝기를 줄여 텍스트가 명확하게 돋보이고 쉽게 읽힐 수 있도록 했어요. 이 접근 방식은 콘텐츠 접근성과 시각적 명확성을 향상시킵니다.
 
-<!-- ui-log 수평형 -->
 
-<!-- ui-log 수평형 -->
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="9743150776"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="content-ad"></div>
 그 다음으로, 중요한 내용, 공지사항 또는 행동 요청에 대한 사용자의 주의를 끌기 위해 두드러지는 "jumbotron" 탐색 요소를 설계했습니다. 이를 통해 탐색이 직관적이고 매력적으로 되도록 했습니다.
 
 마지막으로, 사용자 상호작용 시 슬라이드되는 동적 기사 섹션을 추가하여 콘텐츠를 제시하는 인터랙티브하고 시각적으로 매력적인 방법을 제공했습니다. 이러한 요소들이 함께 작용하여 시각적으로 눈에 띄고 사용자 친화적인 웹페이지를 만들어내어 가독성과 사용자 참여를 높였습니다.

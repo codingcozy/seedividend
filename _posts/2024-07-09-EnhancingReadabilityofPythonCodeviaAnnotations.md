@@ -18,18 +18,7 @@ link: "https://medium.com/towards-data-science/enhancing-readability-of-python-c
 
 프로그래밍 언어 중에서 파이썬은 매우 가독성이 좋은 코드를 제공합니다. 아니, 오히려 매우 가독성이 좋은 코드를 제공할 수 있는데, 이를 가독성 좋은 코드로 만드는 방법을 알아야 합니다. 저는 파이썬이 매우 인기를 얻은 이유 중 하나가 코드의 가독성 때문이라고도 말씀드릴 수 있습니다. 그래서 우리는 좋은 파이썬 코드를 작성하는 책임이 있습니다. 이를 위해 우리는 도구가 필요합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 파이썬 코드 품질을 향상시키는 도구가 많이 있어요. 먼저, 좋은 파이썬 코드의 표준을 충족시키는 코드를 작성해야 해요. 이러한 표준은 PEP 8에서 제공돼요.
 
@@ -39,18 +28,7 @@ link: "https://medium.com/towards-data-science/enhancing-readability-of-python-c
 
 가장 흔한 예로는 TODO, NOTE, FIXME, BUG 및 REVIEW가 있어요. 더 많은 어노테이션이 있고, 필요하다면 사용자 정의 어노테이션도 만들 수 있어요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 간략히 말하자면, 코드 주석은 단순한 코멘트 이상입니다. 이들은 코드의 주목이나 개선을 필요로 하는 부분을 강조하는 표준화된 방법입니다.
 
@@ -60,18 +38,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 이 글은 Python 개발에서 코드 주석의 유용성을 탐구합니다. 또한 Visual Studio Code에서의 주석 강조 기능이 어떻게 작동하는지 보여드리겠습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 주석
 
@@ -81,18 +48,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 이 부분이 혼란스러울 수 있습니다. 예를 들어, "foo() 함수에 주석 처리를 추가해주세요." 라는 문장은 두 가지 의미를 가질 수 있습니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - foo() 함수에 타입 힌트를 추가해주세요. 이 문장의 전형적인 의미입니다.
 - foo() 함수에 주석을 추가해주세요. 혼동을 줄일 수 있으므로, “foo() 함수의 독스트링이나 코드에 이런-저런 주석을 추가해주세요”와 같이 다른 표현을 사용하는 것이 좋습니다.
@@ -103,18 +59,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 저는 두 종류의 주석을 사용합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 프로그래밍에서 일반적으로 사용되는 주석들; 이것들을 훨씬 더 자주 사용해요.
 - 특정 코드 조각을 주석 처리하는 데 개인적인 필요성을 반영한 사용자 정의 주석; 절약해서 사용합니다.
@@ -129,18 +74,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 이외에도 가끔씩 두 가지 사용자 정의 코드 주석을 사용하는 것을 좋아해요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 이것을 생각해보세요: 이것은 깊이 있는 사고를 필요로 하는 코드 조각이나 아이디어(문서 문자열에 위치한 경우)를 나타냅니다. 주로 기술적인 측면이 아니라 비즈니스 로직과 관련이 있는 경우가 많습니다.
 - 재고를 위해 다시 고려해보세요: 재고가 필요한 코드 조각을 나타냅니다. 설명 없이는 혼란스럽기 때문에 이유나 아이디어를 제공해야 합니다.
@@ -151,18 +85,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 ## 주석은 누구에게 주로 작성되나요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 의도된 수신자별로 주석을 그룹화할 수도 있습니다. 다음 수신자에게 주석을 지정할 수 있습니다:
 
@@ -174,18 +97,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 중요한 점은 코드에 주석을 달 때 주석 대상이 누구인지 항상 염두에 두는 것입니다. 주석 태그 자체로는 이를 달성하는 데 충분하지 않습니다: NOTE 주석 태그를 보더라도 해당 주석이 어디로 지정된 것인지 알 수 없습니다. 주석의 설명이 맥락을 설명합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이게 혼란스러울 수 있다는 걸 알아요. 이렇게 해보는 건 어떨까요? 예를 들어 주석 태그들을 구별해서 세 가지 유형의 주석들을 구분하는 방법을 시도해 볼 수도 있어요. 그러나, 그렇게 하면 주석이 더 길어져서 가독성이 떨어질 수도 있어요. 이와 관련된 시도나 비슷한 작업을 한 사례에 대해 알고 있지는 않아요.
 
@@ -195,18 +107,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 저는 주석의 목적을 세 가지로 간주해요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 팀 의사 소통을 증진시킵니다. 코드에 주석을 추가하면 다른 개발자들에게 무언가 일어나고 있는지 알릴 수 있습니다. 예를 들어, 다음 작업이나 릴리스에서 무언가를 할 예정이라고 알릴 수 있습니다 (TODO). 그렇게 하면 코드 리뷰어들은 왜 이 작업을 하지 않았는지 궁금해하지 않아도 되며 코드에서 직접 이 정보를 알 수 있습니다 (또 다른 접근 방법은 풀 리퀘스트에 이를 작성하는 것이지만, 흥미롭게도 많은 리뷰어들은 이것을 읽지 않습니다...).
 - 주석을 사용하는 것은 개발자들을 위한 기억 기법(mnemonic technique)입니다. 주석은 기억 기호로 작동하며 코드의 특정 부분을 강조하는 것을 넘어서 개발자들이 빠르게 문제를 식별하고 기억하며 미래 고려를 위해 해당 영역으로 이동하는 데 도움을 줍니다. 주석은 쉽게 발견하기 쉽고 IDE나 편집기의 텍스트 검색 도구를 사용하여 쉽게 찾을 수 있습니다.
@@ -218,18 +119,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 ## 주석은 얼마나 길어야 할까요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 주석은 가능한 한 짧게 작성하여 메시지를 전달해야 합니다. 이 규칙을 어길 경우가 있지만, 주로 그렇습니다.
 
@@ -239,18 +129,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 ## 주석이란 무엇을 의미하는가?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코드에서 어노테이션을 많이 볼 때 — 특히 그 양이 많을 때 — 대부분 코드가 개발 중에 있는 것을 의미합니다. 이것은 어노테이션이 주로 개발 도구이기 때문입니다.
 
@@ -260,18 +139,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 ## 어노테이션을 사용하는 곳?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코드 주석은 코드에 직접 추가되기 때문에 눈에 띄기 어려워요. 게다가 IDE 하이라이터를 사용하면 주석이 더욱 더 눈에 띌 수도 있어요. BUG와 같은 주석은 그렇게 되어야 해요; 코드에 버그가 있다는 사실을 크게 알고 싶어하는 거니까요. 이것은 곧 예시로 보여줄게요.
 
@@ -284,18 +152,7 @@ Visual Studio Code (VSC)와 같은 고급 통합 개발 환경(IDE)에서 작업
 
 많은 사람들이 문서 파일이 실제로 코드의 일부가 아니라고 주장할 수 있지만, README와 같은 파일은 보통 코드 저장소의 중요한 부분을 구성해요. 이런 파일에 주석을 다는 것은 주의를 끄는 훌륭한 방법이에요. 그래서 왜 문서 파일에서 주석을 사용하는 것을 피해야 할까요? 🌟
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 docstring에 대해 이야기해보죠. 사용자에게 중요한 정보를 docstring에 추가해야 한다면, 주석을 사용할 필요가 없습니다. Docstring은 문서화의 중요한 요소이기 때문에 그 안에 포함된 내용은 중요해야 합니다. 그러므로, 사용자를 위한 주석 사용은 정보가 극히 중요하고 강조되어야 하는 경우에만 제한하는 것이 좋습니다.
 
@@ -305,18 +162,7 @@ docstring에 대해 이야기해보죠. 사용자에게 중요한 정보를 docs
 
 여기 텍스트 파일에 있는 코드의 원시 버전입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 """이것은 예시 어노테이션 모듈입니다.
@@ -364,18 +210,7 @@ def baz(x: float) -> tuple[int, float, str]:
 
 이제 일반적인 Python 코드 하이라이팅을 사용해 스크립트를 확인해보겠습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 """이것은 예제 어노테이션 모듈입니다.
@@ -423,18 +258,7 @@ def baz(x: float) -> tuple[int, float, str]:
 
 이는 코드 어노테이션에 대한 재미있는 점입니다. 어노테이션은 관심을 끌기 위해 존재하지만 작성하거나 읽은 후에는 그 존재를 잊을 수 있어야 합니다. 그 존재를 무시할 수 없다면 당신을 방해할 것입니다. 따라서 코드 개발 중에 그들의 주목성과 보이지 않음 사이의 적절한 균형을 찾아야 합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코드 개발 중의 무시할 수 있는 역할에 대해 이야기해 보겠습니다. 이 아이디어는 주석을 쓴 후에도 그것을 무시할 수 있어야 하며, 읽은 후에도 무시할 수 있어야 합니다. 따라서 개발자가 주석을 읽고 그 내용을 이해하면, 코드 작업 중에 주석을 무시할 수 있어서 주의를 산만하게 하지 않아도 됩니다.
 
@@ -444,18 +268,7 @@ def baz(x: float) -> tuple[int, float, str]:
 
 # Visual Studio Code에서 주석(annotation)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 섹션은 Visual Studio Code에 관련된 내용입니다:
 
@@ -465,18 +278,7 @@ VSC에는 단순한 내장 어노테이션 강조 기능이 있습니다. 우리
 
 ![example](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_1.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위에서 보듯이, VSC는 인라인 주석이나 문서 문자열에 상관없이 표준 주석을 강조 표시합니다; 여기서는 TODO, NOTE, FIXME 및 BUG입니다. 사용자 정의 주석인 RECONSIDER는 강조 표시되지 않습니다.
 
@@ -487,18 +289,7 @@ VSC에는 단순한 내장 어노테이션 강조 기능이 있습니다. 우리
 
 VSC에는 주석을 강조 표시하는 도구가 있으며 TODO Highlight 확장 프로그램으로 제공됩니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 도구가 조금 오래되었어요. 마지막 커밋과 릴리즈가 2021년 10월에 있었지만 여전히 아주 잘 작동해요. 여기가 그 저장소입니다.
 
@@ -508,18 +299,7 @@ VSC에는 주석을 강조 표시하는 도구가 있으며 TODO Highlight 확�
 
 "설치" 버튼을 누른 후에, 우리는 확장 프로그램 버전 1.0.5를 사용할 수 있을 거에요. 스크립트가 있는 탭으로 이동한 후에, 이것을 볼 수 있을 거에요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_3.png" />
 
@@ -529,18 +309,7 @@ VSC에는 주석을 강조 표시하는 도구가 있으며 TODO Highlight 확�
 
 ## 사용자 정의 설정으로 TODO Highlight 확장하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 기본 구성이 충분하지 않다면 사용자 팀이나 개인 설정을 추가할 수 있습니다. 이를 위해 VSC 설치의 모든 사용자 설정을 포함하는 settings.json 파일을 편집해야 합니다.
 
@@ -550,18 +319,7 @@ VSC에는 주석을 강조 표시하는 도구가 있으며 TODO Highlight 확�
 
 이 파일을 읽어 기본 설정을 확인할 수 있지만 수정하지 마세요. 사용자 설정은 다른 파일에 있으므로 다시 F1을 누르고 "user settings"를 입력하세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Screenshot of the second option](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_5.png)
 
@@ -571,18 +329,7 @@ VSC에는 주석을 강조 표시하는 도구가 있으며 TODO Highlight 확�
 
 확장 프로그램이 강조하지 않는 주석을 스크립트에 추가해보겠습니다: BUG, NOTE 및 RECONSIDER입니다. 이를 위해서는 새로운 필드인 todohighlight.keywords를 추가하는 단 한 줄의 코드를 추가해야 합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_7.png)
 
@@ -592,18 +339,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 이제 스크립트는 다음과 같이 보일 것입니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_8.png)
 
@@ -613,18 +349,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 ![image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_9.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이것이 어떻게 작동하는지 확인할 수 있어요. 정말로 눈에 띄고, 이게 전체적인 목적이었죠. baz() 함수에 대해서만 확인해 보겠습니다:
 
@@ -634,18 +359,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 첫눈에 보면, 독자들은 두 어노테이션(그리고 두 버그)을 보고 있다고 생각할 수 있어요. 그래서 두 번째 줄을 들여쓰기하여 이전 줄의 연속임을 시각적으로 나타낼 수 있어요(표시하지 않음).
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저는 어떻게 해야 할지 보여드렸는데, 전체 줄을 강조하는 것은 지나치게 하지 마세요. 이것은 혼란스럽고 주의를 산만하게 만들기 때문에, 주석 태그만 강조하는 것을 선호합니다.
 
@@ -655,18 +369,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 여기서는 BUG에 대해 자세한 설정을 제공하고, FIXME에 대해서는 덜 자세한 설정을 하며, NOTE 및 RECONSIDER 주석을 기본 설정으로 사용할 것입니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 설정 파일에 추가한 주석이 어떻게 강조되는지 확인할 수 있어요. 그런데 가끔은 방금 한 변경 사항이 보이지 않아서 뭔가 잘못되었다고 생각할 수도 있어요. 이럴 때는 설정된 JSON 파일을 새로고침해주면 됩니다 (닫고 다시 열거나) 또는 변경 사항을 반영한 후 다른 탭으로 이동하면 예상대로 강조 표시기가 작동할 거에요.
 
@@ -676,18 +379,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 이제 다음 구성으로 예시 스크립트가 어떻게 보이는지 확인해볼게요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_13.png" />
 
@@ -697,18 +389,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 # 결론 및 제안
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 주석을 사용하면 코드의 가독성을 크게 높일 수 있어요. 그러나 지나치게 사용하면 오히려 반대 효과를 낼 수 있어요. 특히 화려한 강조 표시를 사용하거나 지나치게 긴 설명을 쓰는 경우에는 코드가 더 이해하기 어려워질 수 있어요.
 
@@ -718,18 +399,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 먼저, 주석을 사용하지만 지나치게 사용하지는 마세요. 주석은 특히 중요한 내용을 전달해야 할 때 사용하세요. 그 내용이 코드에서 잊혀지거나 간과될 수 있는 경우 주석을 달아주세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 동시에 사용에 대해 걱정하지 마세요: 과도한 강조만 사용하지 않는다면, 주석은 제대로 돌아 봐야 할 방법으로 제대로 들어날 수 있습니다. 따라서, 어떤 경우에도 섬세한 강조를 사용하세요. 솔직히 말하자면, 과하게 강조된 항목보다는 강조되지 않은 주석이 더 잘 작동합니다.
 
@@ -739,18 +409,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 그러므로 주석을 단순히 무언가를 말하는 멋진 방법으로 취급하지 마세요. 중요한 정보를 전달하는 데 있어서 효율적인 (가시성 면에서) 방법으로 취급하세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 커스텀 주석 사용을 자제해주세요
 
@@ -760,33 +419,11 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 상황이 커스텀 주석이 필요함을 시사하는 것 같다면, 다른 방법을 찾아보려고 노력해보세요. 두 번 생각하고, 다시 한 번 검토하세요. 여전히 최선의 접근 방식이라고 생각한다면, 한 번 더 생각해보세요. 혹시 팀원들과 상의해보는 것은 어떨까요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 테이블 태그를 마크다운 형식으로 바꾸세요.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 주석 설정을 신중히 구성하세요
 
@@ -796,18 +433,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 일부 주석을 다른 주석과 구별하고 싶다면 — 예를 들어, BUG 및 FIXME — 여기와 같이 작은 변경만으로 충분합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_15.png" />
 
@@ -817,18 +443,7 @@ VSC의 확장 기능 TODO Highlight에서, 가장 인기있는 주석들을 주�
 
 이로써 다음 효과가 발생합니다:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_17.png)
 

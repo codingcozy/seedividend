@@ -1,7 +1,7 @@
 ---
 title: "몇 분 만에 멋진 날씨 앱 만들기"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png"
+coverImage: "/assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png"
 date: 2024-07-09 14:05
 ogImage:
   url: /assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png
@@ -10,7 +10,7 @@ originalTitle: "Code a Stunning Weather App in Just Minutes!"
 link: "https://medium.com/@learntocodetoday/code-a-stunning-weather-app-in-just-minutes-99a355570fa3"
 ---
 
-<img src="/ui-log-2/assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png" />
+<img src="/assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png" />
 
 # 날씨 앱 코딩하는 방법
 
@@ -18,18 +18,7 @@ link: "https://medium.com/@learntocodetoday/code-a-stunning-weather-app-in-just-
 
 # 전제 조건
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 시작하기 전에 다음 사항을 준비해주세요:
 
@@ -41,18 +30,7 @@ link: "https://medium.com/@learntocodetoday/code-a-stunning-weather-app-in-just-
 
 프로젝트를 위한 새 디렉토리를 만들고 index.html, style.css 및 app.js 세 개의 파일을 추가해주세요.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 index.html:
 

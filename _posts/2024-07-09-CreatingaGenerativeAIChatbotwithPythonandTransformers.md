@@ -18,18 +18,7 @@ link: "https://medium.com/@tc2017057888/creating-a-generative-ai-chatbot-with-py
 
 # 사용된 도구 및 라이브러리
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 프로젝트에서는 다음 도구 및 라이브러리를 활용할 예정입니다:
 
@@ -42,18 +31,7 @@ link: "https://medium.com/@tc2017057888/creating-a-generative-ai-chatbot-with-py
 
 시작하기 전에 시스템에 Python과 pip이 설치되어 있는지 확인하세요. 그런 다음 터미널에서 다음 명령을 실행하여 필요한 라이브러리를 설치하세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png)
 
@@ -63,18 +41,7 @@ To begin, import the required libraries and load the pretrained GPT-2 model and 
 
 ![2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_1.png](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_1.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 단계 3: 응답 함수 생성
 
@@ -84,18 +51,7 @@ To begin, import the required libraries and load the pretrained GPT-2 model and 
 
 # 단계 4: Flask 어플리케이션 설정
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로 웹 요청을 처리하고 챗봇을 위한 직관적 인터페이스를 제공하기 위해 Flask 애플리케이션을 설정하세요:
 
@@ -105,18 +61,7 @@ To begin, import the required libraries and load the pretrained GPT-2 model and 
 
 ![image3](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_5.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![사진](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_6.png)
 
@@ -129,18 +74,7 @@ To begin, import the required libraries and load the pretrained GPT-2 model and 
 - chatbot_app.py 파일이 위치한 디렉토리로 이동합니다.
 - Flask 애플리케이션을 시작하려면 다음 명령을 실행하세요:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ![Image](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_7.png)
 
@@ -150,18 +84,7 @@ To begin, import the required libraries and load the pretrained GPT-2 model and 
 
 ![Image](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_9.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 결론
 

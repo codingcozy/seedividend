@@ -1,7 +1,7 @@
 ---
 title: "구체적인 기술 명시- Vanilla 웹 컴포넌트 구현하는 방법 버전 또는 연도 포함- 2024년 Vanilla 웹 컴포넌트 구현 특정 기능 또는 방법 강조- Vanilla 웹 컴포넌트를 구현하는 쉬운 방법 비교 또는 대조- Vanilla 웹 컴포넌트와 ReactJS 어떤 것이 더 좋은 선택인가 목록 제공- Vanilla 웹 컴포넌트를 구현할 때 알아두면 좋은 10가지 팁"
 description: ""
-coverImage: "/ui-log-2/assets/img/2024-07-06-ImplementationVanillaWebComponents_0.png"
+coverImage: "/assets/img/2024-07-06-ImplementationVanillaWebComponents_0.png"
 date: 2024-07-06 02:13
 ogImage:
   url: /assets/img/2024-07-06-ImplementationVanillaWebComponents_0.png
@@ -18,18 +18,7 @@ link: "https://medium.com/@javarome/implementation-vanilla-web-components-66347b
 
 웹 컴포넌트는 사용자 지정 요소, 즉 제작한 HTML 태그로서 구현을 제공하는 요소입니다. 다른 태그와 마찬가지로 일반적으로 컴포넌트에 특화된 "서브-DOM"에서 자체 HTML 템플릿을 정의하는 것을 의미합니다. 이 DOM은 일반 DOM에서 접근할 수 없으므로 "그림자 DOM"(shadow DOM)이라고 하고, 일반 DOM을 "라이트 DOM"(light DOM)이라고 합니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-ImplementationVanillaWebComponents_0.png
 
@@ -39,18 +28,7 @@ link: "https://medium.com/@javarome/implementation-vanilla-web-components-66347b
 
 사용자 지정 요소 인스턴스를 인스턴스화 하는 것은 문서에 네 사용자 정의 태그로 요소를 생성하도록 요청하는 것입니다. 이 작업은 선언적으로 수행할 수도 있습니다(닫히는 태그를 잊지 마세요):
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 <my-component></my-component>
@@ -64,18 +42,7 @@ const compInstance = document.createElement("my-component");
 
 그러면 이제 이를 다른 HTML 요소처럼 사용할 수 있습니다. 예를 들어:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 document.body.append(compInstance);
@@ -89,18 +56,7 @@ compInstance.classList.add("warning");
 
 # 구현
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 "autonomous" 커스텀 엘리먼트를 정의하는 것은 기본 HTMLElement 클래스를 확장하는 것만으로도 간단합니다:
 
@@ -114,18 +70,7 @@ class MyComponentElement extends HTMLElement {}
 const compInstance = document.createElement("my-component");
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 `MyComponentElement` 인스턴스가 반환될 것입니다. 또한 `createElement` API가 생성자 인수를 사용하지 않는다는 것을 알았는데, 이는 모든 사용자 정의 요소 (그리고 일반적으로 모든 요소)가 기본 생성자만 가질 수 있다는 것을 의미합니다.
 
@@ -137,18 +82,7 @@ const compInstance = document.createElement("my-component");
 compInstance.setAttribute("myprop", "propValue");
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 그리고 속성은 변경될 수 있으므로, 그것들을 듣는 게 좋아요:
 
@@ -168,18 +102,7 @@ class MyComponentElement extends HTMLElement {
 
 사실, 컴포넌트에서 공개 API를 정의하고 호출하는 데 아무런 장애물은 없어요. 예를 들어:
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 class MyComponentElement extends HTMLElement {
@@ -212,18 +135,7 @@ class MyComponentElement extends HTMLElement {
 
 ## 템플릿
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 이 기사 초반에 언급된 대로, 웹 컴포넌트는 보통 자체 shadow DOM이 있습니다. 외부에서 접근할 수 없도록 하려면 이를 닫아두세요:
 
@@ -243,18 +155,7 @@ template.innerHTML = `<input><br>`;
 this.shadow.appendChild(template.content.cloneNode(true));
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ## 스타일
 
@@ -266,18 +167,7 @@ template.innerHTML = `<style>input{color:red}</style><input><br>
 
 그렇다고 해서 외부 CSS 파일에서 해당 스타일을 불러올 수 없는 것은 아닙니다. 어떤 파일이든 가져올 수 있는 능력 덕분에 가능합니다. 그러나 JavaScript로 구문 분석되지 않도록 하려면 해당 파일을 원시 파일로 가져와야 합니다 (또는 import assertions를 사용해야 합니다):
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 ```js
 import style from "./MyCustomComponent.css?raw"
@@ -293,18 +183,7 @@ template.innerHTML = `<style>${style}</style><input><br>
 customElements.define("my-component", MyComponentElement);
 ```
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 물론, 이것을 한 번만 해야 합니다. 이 코드를 여러 번 실행해야 하는 경우, 한 번만 실행되도록 확인해야 합니다:
 
@@ -318,18 +197,7 @@ if (!customElements.get("my-component")) {
 
 이것은 브라우저에 이미 있는 표준 API만으로 웹 컴포넌트를 만드는 기본적인 단계입니다.
 
-<!-- ui-log 수평형 -->
-
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 더 심화된 주제에 대해 설명할 수 있어요, 예를 들면:
 

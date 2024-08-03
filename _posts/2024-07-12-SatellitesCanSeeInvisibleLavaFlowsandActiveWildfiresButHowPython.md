@@ -26,16 +26,7 @@ link: "https://medium.com/towards-data-science/satellites-can-see-invisible-lava
 
 ## 🌟 소개
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 알고 계실지 모르겠지만, 우리 눈은 가시 영역(파란색, 녹색, 빨간색의 밴드)의 물체만 볼 수 있어요. 하지만 빛이 물체에 닿아 반사되면, 적외선과 같은 다른 스펙트럼 영역의 정보도 담고 있어요. 적외선 빛은 짙은 가스, 예를 들어 연기와 같은 것을 통과해 명확한 시야를 제공하죠. 하지만 우리 눈은 일부 동물들(뱀 등)과 달리 적외선 영역에 있는 물체를 보지 못해요. 지난 수십 년 동안 적외선 빛을 탐지하는 센서 개발에 상당한 진전이 있었어요. 이러한 센서들은 실용적인 응용에 활용되고 있어요.
 
@@ -45,16 +36,7 @@ link: "https://medium.com/towards-data-science/satellites-can-see-invisible-lava
 
 매우 짙은 연기가 있는 상황에서 적외선 밴드의 응용을 탐구하려고, 나는 캘리포니아에서 발생한 2020년 최대 화재 중 하나를 캡처한 또 다른 Sentinel-2 이미지를 시각화하기로 결정했어요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 이야기에서는 아이슬란드 레이키아네스 반도의 화산과 2020년 캘리포니아의 크릭 파이어를 위해 캡처된 두 개의 센티넬-2 이미지를 다운로드할 것입니다. 우리는 파이썬을 사용하여 이 두 이미지를 시각화하기 위해 시각적 및 적외선 지역의 다른 밴드 조합을 사용할 것입니다. 적외선 정보가 활동 중인 용암 흐름 및 화재 지점을 보여줄 수 있음을 알 수 있을 것입니다. 이것이 흥미롭게 들린다면 계속 읽어보세요!
 
@@ -70,16 +52,7 @@ Band 12 (SWIR2- 단파 적외선): 2202.4 nm
 
 Band 2 (Blue), 3 (Green), 4 (Red), 및 8 (NIR)의 공간 해상도는 10 미터이며, Band 11 및 12 (단파 적외선)은 20 미터입니다. 이는 화산 및 산불을 시각화하는 데 충분합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 🌐 센티넬-2 이미지 다운로드
 
@@ -89,16 +62,7 @@ Band 2 (Blue), 3 (Green), 4 (Red), 및 8 (NIR)의 공간 해상도는 10 미터�
 
 각 사례에 필요한 정보는 다음과 같아요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 아이슬란드 화산:
 
@@ -123,16 +87,7 @@ Band 2 (Blue), 3 (Green), 4 (Red), 및 8 (NIR)의 공간 해상도는 10 미터�
 종료일 = "2020-09-10"
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이슬란드 화산:
 
@@ -140,16 +95,7 @@ Band 2 (Blue), 3 (Green), 4 (Red), 및 8 (NIR)의 공간 해상도는 10 미터�
 
 화산 분화는 현지 시간으로 2월 8일 목요일 오전 5시 30분에 발생했으며, 화면 캡처에 표시된 바와 같이 분화 후 정확히 7시간 후인 2월 8일 13:03 UTC(현지 시간 12시 30분)에 촬영된 이미지가 하나만 가능합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 크릭 파이어:
 
@@ -159,16 +105,7 @@ Band 2 (Blue), 3 (Green), 4 (Red), 및 8 (NIR)의 공간 해상도는 10 미터�
 
 두 블로그 게시물에서 Sentinel-2 이미지를 다운로드하는 코드를 실행하기 전에 시각 영역 (파랑, 초록, 빨강)에서 세 개의 밴드와 적외선 영역 (근적외선 및 단파적 외선 밴드)에서 세 개의 밴드를 포함해야 합니다. 다음 라인은 이러한 밴드에 해당됩니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 f"{product_name}/{root[0][0][12][0][0][12].text}.jp2" # Blue
@@ -186,16 +123,7 @@ f"{product_name}/{root[0][0][12][0][0][12].text}.jp2" # Shortwave infrared-2
 <img src="/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_3.png" />
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## Creek Fire:
 
@@ -205,16 +133,7 @@ f"{product_name}/{root[0][0][12][0][0][12].text}.jp2" # Shortwave infrared-2
 
 After downloading those images, we need to clip each band for the area of interest (AOI) around the volcano and the wildfire. Since we have the coordinates for each incident, we can create a buffer polygon (3 km for the volcano and 10 km for the wildfire) using this function:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import math
@@ -267,16 +186,7 @@ print(f"({west_lon:.4f} {north_lat:.4f}, {east_lon:.4f} {north_lat:.4f}, {east_l
 (-22.4728 63.9193, -22.3502 63.9193, -22.3502 63.8653, -22.4728 63.8653, -22.4728 63.9193)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## Creek Fire (AOI)에 대한 위의 함수를 사용하십시오:
 
@@ -305,16 +215,7 @@ print(f"({west_lon:.4f} {north_lat:.4f}, {east_lon:.4f} {north_lat:.4f}, {east_l
 
 그런 다음 jp2 파일을 클리핑하기 위해 "aoi_polygon_wkt"에 이러한 좌표를 사용할 수 있습니다. 이는 본 게시물의 "AOI에 스택 형식으로 변환하고 클리핑하기" 섹션에서 설명한 대로입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 # Volcano: 다각형 WKT
@@ -363,16 +264,7 @@ def downscale_raster(input_path, output_path, scale_factor):
 
 그런 다음, 각 사용 사례에 대해 20m에서 10m로 단파 밴드를 축소하는 데 이 함수를 적용할 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 아이슬란드 화산에 대한 위 함수 사용:
 
@@ -406,16 +298,7 @@ downscale_raster(input_band_path_B11, output_band_path_B11, scale_factor)
 downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 단계를 마치면 디렉토리에 두 개의 파일이 더 생겼어요:
 
@@ -425,16 +308,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 ## Creek Fire:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_6.png" />
 
@@ -444,16 +318,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 이제 화산 사건을 위한 하나의 스택 파일과 산불 사건을 위한 다른 하나의 스택 파일이 있다면, 각각을 다른 밴드 조합을 사용하여 플로팅할 수 있습니다. 구체적으로, 우리는 세 가지 플롯을 만들 것입니다. 하나는 오직 가시적인 밴드(빨강, 초록, 파랑)을 기반으로 하고, 다른 하나는 가시적 및 근적외선 밴드(초록, 빨강, 그리고 근적외선)의 결합을 기반으로 하며, 세 번째는 적외선 영역에만 초점을 맞춘 것입니다(근적외선 및 단파 밴드) 데이터를 적외선 영역의 데이터를 생략한다면 어떤 정보를 놓칠 수 있는지 이해하기 위함입니다. 아래에 표시된 플롯과 비슷한 플롯을 생성하려면 이 게시물의 "TOA 및 표면 반사 이미지의 실제 색상 플로팅" 섹션을 참조하실 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## 아이슬란드 화산:
 
@@ -463,16 +328,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 ![활성 용암을 볼 수 있나요?](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_8.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 가시 스펙트럼에서 조정된 이득 매개 변수로 인해 화산재가 서쪽으로 이동하는 것을 더 명확하게 볼 수 있습니다. 하지만 여전히 연기 구름 아래에서 무슨 일이 일어나고 있는지는 모릅니다. 이번에는 근적외선 정보를 추가하여 이미지를 다시 그려보겠습니다.
 
@@ -482,16 +338,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 소개에서 언급했지만, 이에 대한 주요 이유는 적외선 빛이 가시 파장 대비 더 긴 파장을 가지고 있다는 것입니다. 이것은 가시 파장과 달리 미립자와 같은 미립현을 통과하여 흩어지지 않고 밀집된 가스와 연기를 통과할 수 있게 합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 앞으로 나아가서 이미지를 다시 그려봅시다. 이번에는 단파적 초적외선 및 근적외선 대역만 사용하겠습니다:
 
@@ -501,16 +348,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 ## 🔥 Sentinel-2 이미지 시각화 (산불)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이전 섹션과 유사하게, 화재를 위한 센티넬-2 이미지를 플로팅할 것인데요. 이를 위해 가시 파장대 (적색, 청색, 녹색), 가시 및 근적외선 파장대 (녹색, 적색, 근적외선), 그리고 적외선 파장대(단파 및 근적외선)을 결합하여 사용할 거에요. 우선 가시 영역부터 시작해보죠:
 
@@ -520,16 +358,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 ![Sentinel-2 이미지](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_12.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 별 차이가 없네요!!
 
@@ -539,16 +368,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 인상적이지 않나요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 단파적 적외선 대역은 짙은 연기를 관통하여 불 타는 지역(반짝이고 황금빛 픽셀)을 굵은 연기층 아래서 보여줄 수 있었습니다. 이러한 지역을 찾는 것은 적외선 대역만으로 또는 가시적 및 근적외선 영역의 조합으로는 볼 수 없었던 것들을 고 관리 및 산불 모니터링에 중요할 수 있습니다.
 
@@ -615,16 +435,7 @@ with rasterio.open("stacked_TOA.tif") as src:
     plt.show()
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_14.png" />
 
@@ -634,16 +445,7 @@ Sentinel-2 섹션에서 언급했듯이, 이 위성은 13개의 밴드를 가지
 
 ## 📄 결론
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이미지 비교 — 하나는 가시 영역에서 촬영되었고 다른 것들은 적외선 대역에서 촬영된 것입니다. 이 비교를 통해 다양한 전자기 스펙트럼에서 눈과 센서를 가지고 있는 능력과 중요성이 드러났습니다. 적외선 데이터의 추가적인 레이어는 RGB 이미지에서 보이지 않던 활성화된 용암 흐름과 화재 지역을 명확하게 식별하고 매핑할 수 있게 해줍니다. 가시광에 비해 적외선 대역의 우수한 침투력은 센서가 연기로 가려져있는 활성 용암과 활성 화재와 같은 물체의 존재를 감지할 수 있게 합니다. 이 능력은 이러한 사건들의 잠재적 위험을 평가하고 재난 완화를 위한 적시의 결정을 내릴 수 있는 능력을 향상시킵니다.
 
@@ -653,16 +455,7 @@ Copernicus Sentinel 데이터 [2024]에 대한 Sentinel 데이터
 
 Copernicus 서비스 정보 [2024]에 대한 Copernicus 서비스 정보
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 📱 저와 더 많은 콘텐츠를 공유하기 위해 다른 플랫폼에서 저와 연결해보세요! LinkedIn, ResearchGate, Github, 그리고 Twitter.
 

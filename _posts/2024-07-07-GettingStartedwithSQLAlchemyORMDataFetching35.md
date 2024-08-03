@@ -18,18 +18,7 @@ ORM에서 Core와 동일하게 많은 것들이 작동합니다. 한 가지 다�
 
 만약 ID로 사용자를 가져오고 싶다면, 두 가지 옵션이 있습니다. session.query와 session.get을 사용할 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 세션에서 get 메서드를 직접 사용할 수 있으며, Todo 클래스와 기본 키를 전달해야 합니다.
 

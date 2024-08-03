@@ -1,10 +1,10 @@
 ---
 title: "React 완전 정복 효율적이고 쉬운 동적 사용자 인터페이스 구축 방법"
 description: ""
-coverImage: "/ui-log-2/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 12:41
 ogImage: 
-  url: /ui-log-2/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Demystifying React: Building Dynamic User Interfaces with Efficiency and Ease"
 link: "https://medium.com/@ajithr116/demystifying-react-building-dynamic-user-interfaces-with-efficiency-and-ease-46f5a94d5642"
@@ -19,16 +19,7 @@ React의 주요 기능은 다음과 같습니다:
 
 2. **가상 DOM**: React는 실제 DOM의 업데이트를 최적화하기 위해 가상 DOM을 사용합니다. 구성 요소의 상태가 변경되면 React는 DOM의 가상 표현을 만들어 이전 버전과 비교하고 실제 DOM에서 변경된 부분만 효율적으로 업데이트합니다. 이 과정을 조정이라고하며, 성능을 향상시킵니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 3. **JSX**: JSX는 JavaScript를 위한 문법 확장으로, 개발자들이 JavaScript 내에서 HTML과 유사한 코드를 작성할 수 있게 해줍니다. 이는 코드를 더 읽기 쉽고 작성하기 쉬워집니다. JSX는 Babel과 같은 도구를 사용하여 JavaScript로 변환됩니다.
 
@@ -38,15 +29,6 @@ React의 주요 기능은 다음과 같습니다:
 
 6. **생태계**: React는 React Router(라우팅을 위한), Redux(상태 관리용), Next.js(서버 측 렌더링용)와 같은 다양한 라이브러리와 도구가 결합된 풍부한 생태계를 갖고 있습니다.
 
-<!-- ui-log 수평형 -->
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-4877378276818686"
-  data-ad-slot="9743150776"
-  data-ad-format="auto"
-  data-full-width-responsive="true"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<div class="content-ad"></div>
 
 React는 동적이고 고성능 웹 애플리케이션을 구축하는 데 산업에서 널리 사용됩니다. 선언적인 방식과 강력한 기능으로, React는 소규모 및 대규모 프로젝트에 작업하는 개발자들의 선호하는 선택지입니다.

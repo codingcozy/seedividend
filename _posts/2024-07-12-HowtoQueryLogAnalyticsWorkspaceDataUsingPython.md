@@ -20,16 +20,7 @@ link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-wor
 
 로그 분석 워크스페이스로 전송되는 데이터 예시로는 Cosmos DB(NoSQL 데이터베이스)에서 활성화된 CDBDataPlaneRequests 테이블이 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 해당 테이블에서 어떤 유용한 데이터를 얻을 수 있을까요?
 
@@ -39,16 +30,7 @@ link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-wor
 
 일반적으로 Azure 리소스에서 로그를 전송할 수 있는 기능은 "진단 설정(diagnostic settings)"이며, 데이터는 테이블 형식으로 전송됩니다. 진단 설정에 대한 자세한 내용은 여기에서 확인해주세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 모든 그 귀중한 데이터를 활용할 수 있게 되면 아마도 즉시 분석을 수행할 수 있어서 설레일 것입니다. 다른 말로 하면, "데이터 과학".
 
@@ -58,16 +40,7 @@ link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-wor
 
 이제 세부 사항에 대해 깊이 파고들어볼까요?
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 사전 준비 사항 📚
 
@@ -81,16 +54,7 @@ link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-wor
 - 로그를 보내는 기존의 Log Analytics 워크스페이스
 - [선택 사항] 가능하다면 진단 설정 로그를 Log Analytics 워크스페이스로 보내기 위한 Cosmos DB 계정이 있어야 합니다. 저의 스크립트는 이에 기반합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 지금은 로그 분석 워크스페이스에서 데이터를 검색하는 Python 스크립트를 확인해 봅시다.
 
@@ -100,16 +64,7 @@ link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-wor
 
 이 섹션에서는 샘플 Python 스크립트를 부분별로 분해합니다. 모든 부분을 이해한 후에 모두 조합해도 괜찮습니다(부분은 위에서 아래로 순서대로 나열되어 있습니다)!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## [1] 필요한 라이브러리 가져오기
 
@@ -126,16 +81,7 @@ from azure.core.exceptions import HttpResponseError
 
 ## [2] 스크립트에 필요한 클라이언트 초기화하기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 우리는이 스크립트를위한 두 개의 별개의 클라이언트를 시작해야합니다. 간단함을 위해 동기 클라이언트를 선택하겠습니다:
 
@@ -149,16 +95,7 @@ DefaultAzureCredential() 클래스를 이해하는 데 어려움이 있는 경�
 
 ## [3] Log Analytics 워크스페이스 ID 정의
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Log Analytics 워크 스페이스 ID를 얻으려면 Azure Portal로 이동하여 'Log Analytics 워크 스페이스 - 개요'로 이동하면 됩니다. 예시:
 
@@ -171,16 +108,7 @@ Log Analytics 워크 스페이스 ID를 얻으려면 Azure Portal로 이동하�
 LA_WORKSPACE_ID = "<당신의-로그-분석-워크 스페이스-ID>"
 ```
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## [4] 쿼리 정의
 
@@ -198,16 +126,7 @@ CDBDataPlaneRequests
 
 Azure 자원이 전송한 로그에 적합한 쿼리로 위의 쿼리를 자유롭게 수정해보세요. 대부분의 Azure 자원에 대해 동작하는 매우 일반적인 쿼리는 다음과 유사합니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 """
@@ -222,16 +141,7 @@ AzureDiagnostics
 
 본 문서를 위해, 사용자의 쿼리가 너무 비싼 비용이 들지 않도록 고려하여 클라이언트를 초기화할 때 상대적으로 작은 시간 범위를 강제로 적용하도록 해둡니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```python
 # 쿼리를 위한 시간 범위 정의 (위의 쿼리에서도 이를 정의할 수 있음)
@@ -245,16 +155,7 @@ end_time=datetime(2024, 2, 26, tzinfo=timezone.utc)
 
 아래 코드에 오류 처리가 추가되었음을 주목하고 Pandas 데이터프레임을 표시할 것임을 확인하세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 try:
@@ -282,16 +183,7 @@ except HttpResponseError as err:
 
 ## [7] 데이터를 CSV 파일로 전송
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 CSV 파일을 사용하면 적어도 Microsoft Excel/Google Sheets 스프레드시트로 가져올 수 있는 등 재미있는 일을 할 수 있어요.
 
@@ -305,16 +197,7 @@ df.to_csv(csv_filename)
 
 ## [보너스] VS Code 확장 기능을 사용하여 멋진 형식의 테이블을 볼 수도 있어요!
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 좋은 소식은 몇 가지 변경만으로 Jupyter 노트북을 활용할 수 있다는 것입니다.
 
@@ -324,16 +207,7 @@ df.to_csv(csv_filename)
 
 2. VS Code에서 Jupyter 노트북을 실행할 수 있도록 필요한 확장 프로그램/패키지를 설치하세요. 처음으로 노트북을 실행하려고 시도하면 아래 항목을 설치하라는 메시지가 자동으로 표시됩니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 파이썬 확장
 
@@ -343,16 +217,7 @@ df.to_csv(csv_filename)
 
 ![image](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_6.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 
@@ -362,16 +227,7 @@ VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 
 [4] Jupyter 노트북의 오른쪽 상단 어딘가에서 "Variables" 탭을 클릭하세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![이미지](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_8.png)
@@ -383,16 +239,7 @@ VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 [6] 그러면 이전에 찾고 있던 완벽하게 표시된 결과를 보여주는 새 탭이 열립니다:
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 배운 점 👊
 
@@ -405,16 +252,7 @@ VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 - KQL 및 효율적인 쿼리를 작성하는 데 최선의 방법에 대한 고수준 이해
 - 무엇보다 중요한 것은 Python을 사용하여 Log Analytics 워크스페이스를 쿼리하고 VS Code에서 멋지게 표 형식으로 결과를 표시하는 방법
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 다음 스텝 🤔
 
@@ -424,16 +262,7 @@ VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 
 제가 하는 일이 궁금하다면 아래 링크를 확인해보세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 내 개인 웹사이트
 - LinkedIn에서 연락하세요
@@ -446,16 +275,7 @@ VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 - 작가를 칭찬하고 팔로우하는 것 잊지 마세요! 👏️️
 - 저희를 팔로우하세요: X | LinkedIn | YouTube | Discord | 뉴스레터

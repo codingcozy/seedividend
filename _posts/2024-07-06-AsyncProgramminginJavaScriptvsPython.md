@@ -18,18 +18,7 @@ link: "https://medium.com/treebo-tech-blog/async-programming-in-javascript-vs-py
 
 비동기 프로그래밍은 프로그램이 장기 실행 작업이 완료될 때까지 기다리는 동안 다른 작업을 수행할 수 있게 합니다. 이 패러다임은 네트워크 요청, 파일 I/O 및 데이터베이스 상호 작용과 같은 I/O 작업이 지연을 일으킬 수 있는 환경에서 중요합니다. 주 스레드를 차단하지 않음으로써, 비동기 프로그래밍은 응용 프로그램의 반응성과 효율성을 향상시킵니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ## JavaScript에서의 비동기 프로그래밍
 
@@ -42,18 +31,7 @@ JavaScript는 본질적으로 비동기적이며 단일 스레드이며, 비동�
 - 콜백 대기열: 비동기 작업이 완료되면 해당 콜백이 콜백 대기열에 배치됩니다.
 - 이벤트 루프: 이벤트 루프는 지속적으로 호출 스택과 콜백 대기열을 확인합니다. 호출 스택이 비어 있으면 대기열에서 첫 번째 콜백을 가져와 실행을 위해 스택에 푸시합니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 /assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_0.png
 
@@ -63,18 +41,7 @@ Callbacks
 
 초반에 JavaScript는 비동기 작업을 처리하기 위해 콜백을 사용했습니다. 콜백은 다른 함수로 전달되는 함수로, 이후에 외부 함수 내에서 호출되어 특정 루틴이나 작업을 완료하는 데 사용됩니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 예시:
 
@@ -93,18 +60,7 @@ fetchData((message) => {
 
 프로미스
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 약속은 비동기 작업을 처리하는 더 깔끔하고 관리하기 쉬운 방법을 제공합니다. 이들은 현재 이용 가능하거나 미래에 이용 가능할 수도 있고 아예 없을 수도 있는 값을 나타냅니다. 약속은 연결할 수 있고 콜백보다 중첩될 가능성이 적습니다.
 
@@ -123,18 +79,7 @@ fetchData.then((message) => {
 
 약속은 콜백 지옥을 피하고 더 나은 오류 처리 메커니즘을 제공하여 비동기 코드의 가독성을 크게 향상시킵니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 비동기/대기
 
@@ -153,18 +98,7 @@ async function fetchData() {
 fetchData();
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 async/await 구문을 사용하면 개발자가 직관적이고 선형적인 비동기 코드를 작성할 수 있어서 복잡한 비동기 작업을 관리하는 데 따르는 인지 부하를 줄일 수 있습니다.
 
@@ -175,18 +109,7 @@ async/await 구문을 사용하면 개발자가 직관적이고 선형적인 비
 
 ## Python에서의 비동기 프로그래밍
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Asyncio 모듈
 
@@ -199,18 +122,7 @@ Asyncio 작동 방식:
 - 작업: 코루틴을 감싸서 이벤트 루프에서 실행할 수 있도록 하는 래퍼입니다.
 - 퓨처: 아직 사용 가능하지 않을 수 있는 비동기 작업의 결과를 나타냅니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코루틴
 
@@ -229,18 +141,7 @@ async def main():
 asyncio.run(main())
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 코루틴은 파이썬의 비동기 프로그래밍의 중추를 이루며, 여러 작업을 동시에 실행할 수 있게 합니다.
 
@@ -250,18 +151,7 @@ asyncio는 작업(Task)과 미래(Future)와 같은 구조체를 제공하여 �
 
 예시:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 import asyncio
@@ -282,18 +172,7 @@ Tasks and Futures Internals:
 
 ## JavaScript와 Python 비동기 프로그래밍 비교
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 **이벤트 루프 및 논블로킹 I/O**
 
@@ -303,18 +182,7 @@ Tasks and Futures Internals:
 
 ![AsyncProgramminginJavaScriptvsPython_2](/TIL/assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_2.png)
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 성능
 
@@ -324,18 +192,7 @@ Tasks and Futures Internals:
 
 /assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_4.png
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 사용 사례
 
@@ -345,18 +202,7 @@ Python의 asyncio 모듈은 코루틴을 사용하여 단일 스레드 동시 �
 
 ## uvloop란 무엇인가요?
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 uvloop은 Python의 asyncio 모듈을 위한 이벤트 루프 구현체로, Node.js의 이벤트 루프를 구동하는 libuv 라이브러리를 기반으로 합니다. 기본 이벤트 루프를 uvloop로 대체하면, I/O 바운드 애플리케이션에서 상당한 성능 향상을 얻을 수 있습니다.
 
@@ -368,18 +214,7 @@ uvloop은 Python의 asyncio 모듈을 위한 이벤트 루프 구현체로, Node
 
 ## uvloop 설치하기
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 pip install uvloop
@@ -407,18 +242,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 예시에서는 메인 코루틴을 실행하기 전에 uvloop를 기본 이벤트 루프 정책으로 설정합니다. 이렇게 함으로써 모든 asyncio 작업이 uvloop의 고성능 이벤트 루프를 사용하도록 보장됩니다.
 
@@ -428,18 +252,7 @@ if __name__ == "__main__":
 
 aiohttp를 활용한 예시:
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 ```js
 from aiohttp import web
@@ -461,18 +274,7 @@ if __name__ == "__main__":
 
 파이썬에서 asyncio 기반 애플리케이션에 uvloop을 통합함으로써 Node.js의 성능 수준을 달성할 수 있으면서도 파이썬의 풍부한 생태계와 사용 편의성을 계속 누릴 수 있습니다.
 
-<!-- TIL 수평 -->
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 참고 자료:
 

@@ -17,16 +17,7 @@ Jupyter Notebook은 데이터 과학, 머신 러닝, 과학 계산 및 기타 Py
 
 대화식 코딩 기능으로 초심자뿐만 아니라 전문가들에게도 가장 많이 사용되는 도구로 자리 잡고 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 하지만 널리 사용되고 있지만, 많은 사용자들이 그 가능성을 충분히 활용하지 못하고 있습니다.
 
@@ -36,16 +27,7 @@ Jupyter Notebook은 데이터 과학, 머신 러닝, 과학 계산 및 기타 Py
 
 이를 통해 당신은 이 강력한 도구로 새로운 생산성과 창의력을 발휘할 수 있을 것입니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 시작해봅시다 🚀!
 
@@ -55,16 +37,7 @@ Jupyter에서 데이터프레임을 로드할 때 종종 출력을 통해 미리
 
 ![데이터프레임 미리보기](/TIL/assets/img/2024-07-13-5JupyterHacksThatYouNeverKnewEvenExisted_1.png)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그러나 이것은 이 데이터에 내장된 내용에 대해 거의 어떤 정보도 전달하지 않습니다.
 
@@ -74,16 +47,7 @@ Jupyter에서 데이터프레임을 로드할 때 종종 출력을 통해 미리
 
 사용하려면 Jupyter에서 다음 코드를 실행하세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 DataFrame의 기본 미리보기를 많은 유용한 기능으로 확장합니다.
 
@@ -93,16 +57,7 @@ DataFrame의 기본 미리보기를 많은 유용한 기능으로 확장합니�
 
 이 풍부한 미리보기는 정렬, 필터링, 내보내기 및 페이지네이션 작업을 제공하며 열 분포 및 데이터 유형도 제공합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 # 데이터에 레이블을 붙이는 클릭 한 번으로!
 
@@ -112,16 +67,7 @@ DataFrame의 기본 미리보기를 많은 유용한 기능으로 확장합니�
 
 파일을 외부에서 미리보고 레이블을 붙이거나 복잡한 주석 생성 파이프라인을 만드는 대신, **ipynnotate**를 사용하여 몇 줄의 코드로 주석을 달 수 있습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위의 문구를 번역하면 다음과 같습니다:
 
@@ -133,16 +79,7 @@ DataFrame의 기본 미리보기를 많은 유용한 기능으로 확장합니�
 
 고양이와 개의 이미지가 있는 경우(라벨이 없음) 주석 처리 파이프라인을 다음과 같이 생성할 수 있습니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*HyBsbKP8jtnB-srveBSDwA.gif" />
 
@@ -152,16 +89,7 @@ DataFrame의 기본 미리보기를 많은 유용한 기능으로 확장합니�
 
 # #3 주피터에서 문서 보기
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Jupyter에서 작업할 때 함수의 매개변수를 잊기 쉽고 공식 문서(또는 StackOverflow)를 방문하는 것이 일반적입니다.
 
@@ -171,16 +99,7 @@ Shift-Tab 키를 누르면 문서 패널이 열립니다. 이 기능은 매우 �
 
 아래에서 데모를 보여드립니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*BoRuu6MfmFfjACuXrPpjrg.gif)
@@ -192,16 +111,7 @@ This feature also works for your custom functions.
 After running some code in a Jupyter cell, we often navigate away to do some other work in the meantime.
 
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 여기에서는 셀이 실행되었는지 여부를 확인하기 위해 반복적으로 주피터 탭으로 돌아가야 합니다.
 
@@ -211,16 +121,7 @@ After running some code in a Jupyter cell, we often navigate away to do some oth
 
 설치하려면 다음 명령을 실행하세요:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 다음으로, 확장 기능을 로드하세요:
 
@@ -230,16 +131,7 @@ After running some code in a Jupyter cell, we often navigate away to do some oth
 
 해당 셀이 실행을 완료하면 다음과 같은 알림을 받게 됩니다:
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래는 마크다운 형식으로 된 테이블입니다.
 
@@ -249,16 +141,7 @@ After running some code in a Jupyter cell, we often navigate away to do some oth
 
 Jupyter를 사용하면 코드 진행 상황을 추적하기 위해 일반적으로 많은 세부 정보를 출력합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 그러나 출력 패널에 많은 세부 정보가 누적된 경우, 가장 최근의 출력만 관심이 있는 경우가 있기 때문에 짜증이 날 수 있습니다.
 
@@ -268,16 +151,7 @@ Jupyter를 사용하면 코드 진행 상황을 추적하기 위해 일반적으
 
 Python에 IPython이 미리 설치되어 있기 때문에 설치가 필요하지 않아요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 아래와 같이 해당 메서드를 가져올 수 있습니다:
 
@@ -287,16 +161,7 @@ Python에 IPython이 미리 설치되어 있기 때문에 설치가 필요하지
 
 ![데모](https://miro.medium.com/v2/resize:fit:1400/1*HLiihJXmkIXB0vZg2DbTtA.gif)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 위에서 보여드린 대로, 우리는 셀에서 가장 최근 출력만 볼 수 있습니다. 이전 출력물들은 지워집니다.
 
@@ -306,16 +171,7 @@ Python에 IPython이 미리 설치되어 있기 때문에 설치가 필요하지
 
 예를 들어, 주피터는 협업에 적합하지 않습니다. 로컬에서 실행되기 때문에, 실시간 협업 기능을 주피터에 내장하는 것이 불가능하며, 팀원들이 함께 작업하고, 댓글을 추가하고, 진행 상황을 추적하는 등의 작업을 할 수 없습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 게다가, 공유하기도 똑같이 까다로워요. 노트북을 누군가와 공유해야 한다면, 그럴 수 있는 방법은 그들에게 이메일을 보내거나 GitHub와 같은 온라인 서비스에 호스팅하여 링크를 공유하는 것뿐입니다.
 
@@ -325,16 +181,7 @@ Python에 IPython이 미리 설치되어 있기 때문에 설치가 필요하지
 
 ## 해결책
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 이 한계에 좌절하며 대안을 찾기 시작했는데, Deepnote를 발견해서 정말 다행이었습니다.
 
@@ -342,16 +189,7 @@ Deepnote는 제이퍼의 모든 한계를 쉽게 해결해 주었고, 기존의 
 
 제이퍼가 모든 파이썬 사용자에게 일반화된 경험을 제공하려고 하는 것을 이해하지만, 데이터 과학자들의 고통 포인트를 전혀 해결하지 못한다는 사실을 이해합니다. 특히 팀으로 작업하는 데이터 과학자들에게는 더 그렇습니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 Deepnote은 내 의견으로는 모든 데이터 주도 프로젝트에 대한 Jupyter의 초고속 버전입니다. 꼭 확인해보세요.
 
@@ -361,16 +199,7 @@ Deepnote은 내 의견으로는 모든 데이터 주도 프로젝트에 대한 J
 
 Jupyter 노트북을 위한 멋진 팁 몇 가지를 배워 축하드립니다. 이 정보들이 여러분의 Python 프로그래밍 생산성을 높여줄 것이라고 확신합니다.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 저도 여러분이 주피터 노트북을 사용할 때 어떤 좋은 팁이 있나요? 
 
@@ -380,16 +209,7 @@ Jupyter 노트북을 위한 멋진 팁 몇 가지를 배워 축하드립니다. 
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*oW2adl2lbMY8ZplS.gif)
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 DataDrivenInvestor.com에서 저희를 방문해 주세요.
 
@@ -399,16 +219,7 @@ DDIntel을 여기에서 구독하실 수 있습니다.
 
 저희 창조자 생태계에 여기서 참여해 보세요.
 
-<!-- TIL 수평 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4877378276818686"
-     data-ad-slot="1549334788"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="content-ad"></div>
 
 DDIntel은 우리의 주요 사이트와 인기 있는 DDI Medium 출판물에서 주목할 만한 기사를 소개합니다. 우리 커뮤니티로부터 더 많은 통찰력 있는 작품을 확인해보세요.
 
