@@ -1,10 +1,10 @@
 ---
 title: "몰랐던 Jupyter의 숨겨진 해킹 5가지"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-5JupyterHacksThatYouNeverKnewEvenExisted_0.png"
+coverImage: "/assets/img/2024-07-13-5JupyterHacksThatYouNeverKnewEvenExisted_0.png"
 date: 2024-07-13 19:49
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-5JupyterHacksThatYouNeverKnewEvenExisted_0.png
+  url: /assets/img/2024-07-13-5JupyterHacksThatYouNeverKnewEvenExisted_0.png
 tag: Tech
 originalTitle: "5 Jupyter Hacks That You Never Knew Even Existed"
 link: "https://medium.com/datadriveninvestor/5-jupyter-hacks-that-you-never-knew-even-existed-b2316bcc4c0f"
@@ -35,7 +35,7 @@ Jupyter Notebook은 데이터 과학, 머신 러닝, 과학 계산 및 기타 Py
 
 Jupyter에서 데이터프레임을 로드할 때 종종 출력을 통해 미리보기합니다. 아래의 내용을 확인할 수 있습니다: 
 
-![데이터프레임 미리보기](/TIL/assets/img/2024-07-13-5JupyterHacksThatYouNeverKnewEvenExisted_1.png)
+![데이터프레임 미리보기](/assets/img/2024-07-13-5JupyterHacksThatYouNeverKnewEvenExisted_1.png)
 
 <div class="content-ad"></div>
 

@@ -1,10 +1,10 @@
 ---
 title: "ETF 데이터 분석을 위한 Python 활용 금융 정보를 가져오고 분석하고 시각화하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png"
+coverImage: "/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png"
 date: 2024-07-13 20:05
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png
+  url: /assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png
 tag: Tech
 originalTitle: "Python for ETF Data Analysis: How to Fetch, Analyze and Visualize Financial Information"
 link: "https://medium.com/python-in-plain-english/python-for-etf-data-analysis-how-to-fetch-analyze-and-visualizing-financial-information-6e23024a7b2c"
@@ -29,7 +29,7 @@ ETFs의 매력을 발견해보세요
 
 이 안내서에서는 ETF 데이터 분석을 위해 Python의 힘을 활용하기 위한 여정을 떠납니다. CSV 보고서 형태로 상세한 보물 지도를 만들거나 실시간으로 금융 우주의 비밀을 해제하는 마법의 Flask 대시보드를 작성하려는 목표가 있다면, 이 글은 당신의 나침반이자 항로가 될 것입니다. 파이썬과 유머 한 조각을 더한 채 ETFs의 세계로 떠나보세요. 금융 결정의 능란한 조류를 뚫고 평온한 물들로 향해 갑니다."
 
-![이미지](/TIL/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png)
+![이미지](/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png)
 
 <div class="content-ad"></div>
 
@@ -266,7 +266,7 @@ HTML의 몸체 안에서 우리는 소중한 데이터를 담는 컨테이너로
 아래는 귀하가 원하는 코드를 Markdown 형식으로 변경한 것입니다.
 
 
-![Python for ETF Data Analysis - How to Fetch, Analyze, and Visualize Financial Information](/TIL/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_1.png)
+![Python for ETF Data Analysis - How to Fetch, Analyze, and Visualize Financial Information](/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_1.png)
 
 UPD: 아래의 코멘트에 제안된 대로, 직접 구현하고 테스트할 수 있는 전체 코드를 추가했습니다 :)
 

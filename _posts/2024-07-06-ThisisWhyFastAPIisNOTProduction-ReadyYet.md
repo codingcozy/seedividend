@@ -1,7 +1,7 @@
 ---
 title: "아직 FastAPI를 프로덕션에 사용하면 안 되는 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-ThisisWhyFastAPIisNOTProduction-ReadyYet_0.png"
+coverImage: "/assets/img/2024-07-06-ThisisWhyFastAPIisNOTProduction-ReadyYet_0.png"
 date: 2024-07-06 10:24
 ogImage:
   url: /assets/img/2024-07-06-ThisisWhyFastAPIisNOTProduction-ReadyYet_0.png

@@ -1,17 +1,17 @@
 ---
 title: "게으른 개발자를 위한 필수 효율적인 파이썬 데코레이터 5가지"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png"
+coverImage: "/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png"
 date: 2024-07-12 20:47
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png
+  url: /assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png
 tag: Tech
 originalTitle: "Essential for Lazy Developers: Five Efficient Python Decorators"
 link: "https://medium.com/faun/essential-for-lazy-developers-five-efficient-python-decorators-a8d5964994f8"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png" />
+<img src="/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png" />
 
 파이썬은 가독성이 뛰어나고 데이터 분석 및 웹 개발과 같은 여러 분야에서 강력한 응용 프로그램을 제공하여 개인적으로 가장 좋아하는 프로그래밍 언어입니다.
 
@@ -23,7 +23,7 @@ link: "https://medium.com/faun/essential-for-lazy-developers-five-efficient-pyth
 
 # 데코레이터란
 
-![image](/TIL/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_1.png)
+![image](/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_1.png)
 
 데코레이터는 파이썬의 강력한 언어 기능으로, 원본 함수 코드를 수정하지 않고도 기능을 동적으로 추가하거나 함수 동작을 수정할 수 있게 해줍니다. 데코레이터는 다른 함수나 클래스를 매개변수로 받아 새로운 함수나 클래스를 반환하는 함수입니다.
 
@@ -240,11 +240,11 @@ divide(10, 0)
 
 # 요약
 
-![이미지](/TIL/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_2.png)
+![이미지](/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_2.png)
 
 데코레이터는 함수에 새로운 동작을 쉽게 적용할 수 있는 매우 편리한 방법입니다. 래퍼(wrapper)를 사용하여 복잡한 작업을 간소화하고 코드 가독성을 높이며 생산성을 향상시킬 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_3.png)
+![이미지](/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_3.png)
 
 <div class="content-ad"></div>
 

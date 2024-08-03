@@ -1,7 +1,7 @@
 ---
 title: "파이썬 코드로 알아보는 제품-시장 적합성 계량 분석 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_0.png"
+coverImage: "/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_0.png"
 date: 2024-07-09 19:23
 ogImage:
   url: /assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_0.png
@@ -104,7 +104,7 @@ activity['date'] = pd.to_datetime(activity['date'])
 activity.head()
 ```
 
-![Python Code](/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_0.png)
+![Python Code](/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_0.png)
 
 We have three columns: date, user_id, and action. However, to count total interactions, we only need the date and the user_id. Also, we choose a monthly period.
 
@@ -129,7 +129,7 @@ user_growth.plot();
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_1.png" />
+<img src="/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_1.png" />
 
 ```js
 user_growth.plot_compound_growth(3);
@@ -149,7 +149,7 @@ revenue['date']=pd.to_datetime(revenue['date'])
 revenue.head()
 ```
 
-![이미지](/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_2.png)
+![이미지](/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_2.png)
 
 여기에는 세 개의 열이 있으며 모두 필요합니다: date, user_id 및 revenue. 또한, 이 분석이 매월 이루어지고 간단하지 않다고 지정해야 합니다.
 
@@ -166,7 +166,7 @@ rev_growth.fit(revenue, "date", "user_id", "revenue");
 rev_growth.plot();
 ```
 
-<img src="/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_3.png" />
+<img src="/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_3.png" />
 
 <div class="content-ad"></div>
 
@@ -301,7 +301,7 @@ new_df.head();
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_4.png" />
+<img src="/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_4.png" />
 
 그러면 이제 코호트를 적용하고 시각화할 수 있어요.
 
@@ -310,7 +310,7 @@ users_cohort.apply_personalized(new_df, "variety");
 users_cohort.plot_heatmap("variety", "사용자별 상호작용 다양성", (way = "period"));
 ```
 
-<img src="/TIL/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_5.png" />
+<img src="/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_5.png" />
 
 <div class="content-ad"></div>
 

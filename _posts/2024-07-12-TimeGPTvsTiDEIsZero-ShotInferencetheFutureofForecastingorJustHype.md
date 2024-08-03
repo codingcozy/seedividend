@@ -1,10 +1,10 @@
 ---
 title: "TimeGPT vs TiDE 제로샷 추론이 예측의 미래인가, 단순한 과대광고인가"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_0.png"
+coverImage: "/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_0.png"
 date: 2024-07-12 19:39
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_0.png
+  url: /assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_0.png
 tag: Tech
 originalTitle: "TimeGPT vs TiDE: Is Zero-Shot Inference the Future of Forecasting or Just Hype?"
 link: "https://medium.com/towards-data-science/timegpt-vs-tide-is-zero-shot-inference-the-future-of-forecasting-or-just-hype-9063bdbe0b76"
@@ -31,7 +31,7 @@ link: "https://medium.com/towards-data-science/timegpt-vs-tide-is-zero-shot-infe
 
 이 글에서는 TimeGPT의 가능한 아키텍처에 대해 깊이 있는 설명을 제공합니다. 또한 모델이 제로샷 추론을 수행할 수 있도록 하는 주요 구성 요소를 다룹니다. 이론적 개요를 따라 특정 사용 사례와 데이터셋에 TimeGPT를 적용합니다. 구체적인 구현 세부사항을 다루고 모델 성능을 철저히 분석합니다. 마지막으로 TimeGPT와 TiDE [2]의 성능을 비교하여, 간단한 MLP인 TiDE가 예측 사용 사례에서 Transformer를 이기는 것을 보여줍니다.
 
-![](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_0.png)
+![](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_0.png)
 
 <div class="content-ad"></div>
 
@@ -47,7 +47,7 @@ TimeGPT는 제로샷 추론 설정에서 우수한 성능을 발휘하기 위해
 
 다양한 도메인의 폭넓은 다양성 덕분에 이 모델은 여러 계절성, 다양한 길이의 주기, 그리고 변화하는 추세와 같은 복잡한 패턴을 잡을 수 있어요. 게다가 데이터셋은 다양한 노이즈 수준, 이상값, 드리프트, 그리고 기타 다양한 특징을 보여줘요. 일부는 규칙적인 패턴이 있는 깨끗한 데이터로 이루어져 있고, 다른 일부는 시간이 흐름에 따라 추세와 패턴이 변동될 수 있는 예상치 못한 사건과 행동을 포함하고 있어요. 이러한 도전들은 모델이 배울 수 있는 많은 시나리오를 제공하여 모델의 견고성과 일반화 능력을 향상시켜요.
 
-![이미지](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_1.png)
+![이미지](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_1.png)
 
 ## 아키텍처
 
@@ -57,27 +57,27 @@ TimeGPT는 시계열 예측을 위해 특별히 설계된 Transformer 기반 모
 
 모델은 입력으로 과거 값(y)과 외생 공변럇(x)의 창을 받습니다. 공변럇에는 추가 시계열 데이터 및/또는 특정 이벤트를 나타내는 이진 변수가 포함될 수 있습니다. 이러한 입력은 지역 위치 임베딩을 통해 순차 정보로 보강됩니다. 이를 통해 모델은 시간 의존성을 인식할 수 있습니다. 저자들이 명시적으로 언급하지는 않았지만, 모든 입력이 위치 인코딩 후 연결된다고 가정하며, 이는 인코더에 공급되는 최종 입력을 생성합니다.
 
-![image](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_2.png)
+![image](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_2.png)
 
 위치 인코딩은 또한 저자들에 의해 정의되지 않았습니다. 우리는 이들이 기초 변환자 아키텍처 논문의 삼각 함수를 사용한다고 가정합니다. 이러한 함수는 다양한 주파수로 특징 지어지지만 입력 데이터와 동일한 차원을 유지합니다.
 
-![image](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_3.png)
+![image](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_3.png)
 
 <div class="content-ad"></div>
 
 위치 인코딩과 함께 보강된 입력 벡터는 인코더에 소개됩니다. 인코더 내에서 다중 헤드 어텐션 레이어는 입력 시퀀스 내의 다양한 요소에 가중치를 평가하고 할당하여 그들의 상대적 중요성을 반영합니다. 이 representatino은 이후 완전 연결된 피드 포워드 네트워크에 의해 처리됩니다. 이것은 시퀀스 내 요소들 간의 더 복잡한 관계를 포착하는 representatino을 생성하는 것을 가능하게 합니다. 그런 다음 출력은 아키텍처의 디코더 부분으로 전달됩니다.
 
-![이미지](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_4.png)
+![이미지](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_4.png)
 
 인코더의 출력을 처리하는 것 외에도 디코더는 자기 회귀적인 프로세스에서 작동합니다. 이전에 생성된 출력을 통합하여 다음 시간 단계(i+1)의 예측을 생성하기 전에 작동합니다. 이것은 인코더에 의해 생성된 숨겨진 상태들과 이전에 생성된 출력 간의 복잡한 관계를 포착하기 위해 주의 메커니즘을 활용합니다. 이 접근 방식은 디코더가 인코더의 representatino에 포착된 문맥적 및 순차적 정보를 자체 반복적인 예측과 함께 효과적으로 종합할 수 있도록 합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_5.png)
+![이미지](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_5.png)
 
 <div class="content-ad"></div>
 
 마지막으로, 선형 레이어는 디코더의 출력을 예측 지향의 길이와 동일한 값 벡터로 매핑하는 역할을 합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_6.png)
+![이미지](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_6.png)
 
 TimeGPT는 잠재적 결과물의 확률 분포를 생성할 수 있습니다. 다시 말해, 예측 간격의 추정입니다. 저자들은 기존 오류를 기반으로 하는 조화 예측을 사용하여 예측 간격을 추정했습니다. 전통적인 방법과 달리, 조화 예측은 분포 가정이 필요하지 않으며 다음과 같은 방법으로 수행할 수 있습니다:
 
@@ -90,7 +90,7 @@ TimeGPT는 잠재적 결과물의 확률 분포를 생성할 수 있습니다. �
 
 예측 간격은 예측 값 ± 최종 비준수 점수로 제공됩니다.
 
-![이미지](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_7.png) 
+![이미지](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_7.png) 
 
 # TimeGPT 대 TiDE: 실제 사용 사례에서의 비교
 
@@ -104,7 +104,7 @@ TiDE [2]은 새로운 다변량 시계열 모델로, 정적 공변럇수(예: �
 - 디코더는 임베딩 표현을 받아 미래 예측으로 변환합니다. 밀집 디코더는 임베딩 표현을 시간당 하나의 벡터로 매핑합니다. 그 후, 시계열 디코더는 밀집 디코더의 출력을 해당 시간 단계의 특성 프로젝션과 결합하여 예측을 생성합니다.
 - 마지막으로, 잔차 연결은 과거 값을 예측 기간 크기의 벡터로 선형 매핑하여 이를 시간적 디코더의 출력에 추가하여 최종 예측을 생성합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_8.png)
+![이미지](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_8.png)
 
 데이터셋에는 미국 시장을 위한 주간 매출 데이터를 상세히 설명하는 195가지 고유한 시계열이 포함되어 있습니다. 역사적인 매출 데이터 외에도, 데이터셋에는 미국 법정 공휴일 및 이진 계절 특성 정보도 있습니다. 우리는 이 데이터셋을 보강하기 위해 이벤트 주(week)와 달(month) 식별자를 사용했습니다. 예측 기간은 16주로, 즉 미래 16주를 예측하고자 합니다.
 
@@ -219,7 +219,7 @@ plt.show()
 
 우리는 경우에 가장 중요한 10가지 공변럇값을 추출했는데, 그 중에서 마케팅 이벤트가 가장 중요함을 나타냅니다. 반대로, 계절별 및 휴일 공변랇값은 잔여적인 중요성을 가지고 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_9.png)
+![이미지](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_9.png)
 
 add_history=True로 설정했기 때문에 적합값과 예측을 플롯할 수 있습니다. 홀드아웃 세트에서 볼륨이 가장 높은 6개의 시리즈를 선택했습니다. 이들은 비즈니스에 더 관련이 있고 더 안정적인 패턴으로 예측하기가 더 쉬울 것입니다.
 
@@ -240,7 +240,7 @@ timegpt.plot(
 <div class="content-ad"></div>
 
 
-![Figure 10](/TIL/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_10.png)
+![Figure 10](/assets/img/2024-07-12-TimeGPTvsTiDEIsZero-ShotInferencetheFutureofForecastingorJustHype_10.png)
 
 Figure 10을 보면 적합 값이 실제 값과 잘 일치하지만 예측은 일관성이 없습니다. 하나의 경우를 제외하고 대부분의 시계열에서 균일한 패턴을 보여줍니다 (우측 상단에서 확인할 수 있습니다). 또한, 모든 예측에는 우리가 기대하지 않았던 연이은 예상치 이상의 증가가 있습니다.
 

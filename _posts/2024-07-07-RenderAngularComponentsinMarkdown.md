@@ -1,7 +1,7 @@
 ---
 title: "Markdown에서 Angular 컴포넌트 렌더링 하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-RenderAngularComponentsinMarkdown_0.png"
+coverImage: "/assets/img/2024-07-07-RenderAngularComponentsinMarkdown_0.png"
 date: 2024-07-07 12:58
 ogImage:
   url: /assets/img/2024-07-07-RenderAngularComponentsinMarkdown_0.png
@@ -229,4 +229,4 @@ bootstrapApplication(App, {
 
 <div class="content-ad"></div>
 
-![Render Angular Components in Markdown](/TIL/assets/img/2024-07-07-RenderAngularComponentsinMarkdown_0.png)
+![Render Angular Components in Markdown](/assets/img/2024-07-07-RenderAngularComponentsinMarkdown_0.png)

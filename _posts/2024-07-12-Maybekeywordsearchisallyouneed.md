@@ -1,10 +1,10 @@
 ---
 title: "키워드 검색이 모든 것을 해결해줄까"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png"
+coverImage: "/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png"
 date: 2024-07-12 20:41
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png
+  url: /assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png
 tag: Tech
 originalTitle: "Maybe keyword search is all you need"
 link: "https://medium.com/@fabio.matricardi/maybe-keyword-search-is-all-you-need-4c1cdedbb3f9"
@@ -13,7 +13,7 @@ link: "https://medium.com/@fabio.matricardi/maybe-keyword-search-is-all-you-need
 
 
 
-![이미지](/TIL/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png)
+![이미지](/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png)
 
 의미 검색이 자연어 강점을 강조하며 주목을 받는 동안, 클래식 키워드 검색은 여전히 가치 있는 도구로 남아 있습니다. Retrieval Augmented Generation이 유명해지거나, 때로는 사용자 의도가 분명하지 않을 수 있기 때문일지도 모릅니다. 이유가 무엇이든 의미 검색만이 인기 있는 주제인 것 같습니다.
 
@@ -48,7 +48,7 @@ link: "https://medium.com/@fabio.matricardi/maybe-keyword-search-is-all-you-need
 
 4. **당신의 통제**: 검색어를 지정하여 예상치 못한 결과에 대한 여지를 남기지 않습니다. 데이터베이스를 키워드로 풍부하게 하는 경우, 검색 기준을 더욱 좁혀 설정할 수 있습니다. 이 통제는 규정 준수나 브랜드 안전 검사와 같이 특정 기준을 엄수해야 하는 작업에 가치가 있습니다.
 
-![Image](/TIL/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_1.png)
+![Image](/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_1.png)
 
 5. **구조화된 데이터의 낙원**: 클래식 검색은 제품 카달로그, 분류 체계, 메타 데이터 풍부한 데이터베이스와 같이 잘 구조화된 데이터에서 번성합니다. 정확한 키워드는 이러한 조직화된 시스템을 레이저 포커스로 탐색하여 특정 정보를 효율적으로 검색할 수 있습니다.
 
@@ -66,7 +66,7 @@ link: "https://medium.com/@fabio.matricardi/maybe-keyword-search-is-all-you-need
 
 100개의 미디엄 기사를 텍스트 파일로 저장하고 데이터베이스를 구축하기 시작했어요. 목표는(참 간단해 보일 수 있지만...) 내 기사들의 모든 키워드를 안내해주는 검색 창을 갖는 것이에요.
 
-![이미지](/TIL/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_2.png)
+![이미지](/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_2.png)
 
 # 어려움
 
@@ -78,7 +78,7 @@ link: "https://medium.com/@fabio.matricardi/maybe-keyword-search-is-all-you-need
 
 저의 기사 'Hugging Face로 LLM을 통한 히치하이커 안내서'에는 많은 청크가 있고, 각각에는 3개 또는 4개의 키워드(예: hitchhiker, llm, guide, ai)가 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_3.png)
+![이미지](/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_3.png)
 
 첫 두 hits에서 청크가 동일하지만 다른 키워드를 가리키는 것을 볼 수 있습니다. 실제로 쿼리에서 요청한 것과 일치합니다. 동일한 적용은 세 번째와 네 번째 태그(키워드)에도 적용되며 동일한 문서 청크가 반환됩니다.
 

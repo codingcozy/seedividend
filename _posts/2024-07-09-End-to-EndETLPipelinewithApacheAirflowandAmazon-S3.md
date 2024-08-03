@@ -1,7 +1,7 @@
 ---
 title: "Apache Airflow와 Amazon-S3를 사용한 End-to-End ETL 파이프라인 구축 하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_0.png"
+coverImage: "/assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_0.png"
 date: 2024-07-09 09:06
 ogImage:
   url: /assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_0.png
@@ -40,7 +40,7 @@ link: "https://medium.com/@namrathac23/etl-pipeline-with-apache-airflow-and-amaz
 - API와 연결하여 데이터를 가져오는 DAG 스크립트를 작성하세요. 데이터는 데이터프레임에 저장됩니다. DAG 코드는 이 페이지의 맨 아래에서 찾을 수 있습니다.
 - EC2 인스턴스를 생성하고 인스턴스를 시작하여 콘솔에 연결하세요. 저는 무료티어 AWS를 사용하여 이 인스턴스를 생성했습니다. 사양은 t2.micro 및 우분투 22 버전입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_0.png)
+![이미지](/assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_0.png)
 
 인스턴스가 실행되면 콘솔에 연결하여 다음을 설치하세요.
 
@@ -100,7 +100,7 @@ DAGs 폴더에서 파일 이름을 조정하세요. 수정된 버퍼를 저장�
 
 12. 실행이 성공하면 데이터가 S3 버킷에 표시됩니다.
 
-![Airflow-S3](/TIL/assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_4.png)
+![Airflow-S3](/assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_4.png)
 
 DAG 파일과 설명:
 

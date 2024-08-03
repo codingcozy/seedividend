@@ -1,7 +1,7 @@
 ---
 title: "GraphQL API에서 인증 및 권한 관리하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png"
+coverImage: "/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png"
 date: 2024-07-09 20:30
 ogImage:
   url: /assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png
@@ -14,7 +14,7 @@ link: "https://medium.com/gitconnected/how-to-implement-authentication-and-autho
 
 | 제목                             | 링크                                                                                           |
 | -------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Authentication and authorization | [여기](/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png) |
+| Authentication and authorization | [여기](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png) |
 
 인증(Authentication)과 권한 부여(authorization)는 종종 혼동되지만, 이러한 개념들은 서로 다른 프로세스를 담당하고 있어요. '인증'은 사용자 식별을 결정하며(사용자가 시스템에 로그인되어 있는지 여부), '권한 부여'는 인증된 사용자가 특정 리소스에 액세스할 수 있는지 여부를 나타냅니다. 그래서 보통 인증 단계가 권한 부여 단계를 선행해요. GraphQL에서 인증과 권한 부여는 도전적일 수 있는데 이는 하나의 노출된 HTTP 엔드포인트 (예: /graphql)만 있기 때문이에요. 이 엔드포인트 진입점에서 사용자를 인증할 수는 있지만, 그 구현에서 일부 리소스에 대한 공개 접근 옵션을 포기해야 할 수 있어요. 이 유일한 엔드포인트 진입에서 권한을 부여하는 것은 불가능해요. 왜냐하면 어떤 리소스가 쿼리될 지 모르기 때문이에요.
 
@@ -92,7 +92,7 @@ def generate_password_hash(password: str) -> str:
 
 뮤테이션은 /graphql 엔드포인트에서 POST 요청을 통해 실행됩니다. GraphQL에 대한 이전 게시물과 같이 insomnia를 사용하여 HTTP 요청을 수행합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_1.png)
+![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_1.png)
 
 <div class="content-ad"></div>
 
@@ -157,7 +157,7 @@ def generate_token(user: User) -> str:
 
 SignIn 뮤테이션을 위해 이메일과 비밀번호를 전달하고 인증이 필요한 요청에서 사용할 수 있는 토큰을 페이로드로 받습니다.
 
-![이미지](/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_2.png)
+![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_2.png)
 
 <div class="content-ad"></div>
 
@@ -244,13 +244,13 @@ up 필드는 공개 액세스이므로 쿼리를 위해 자격 증명을 전달�
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_3.png)
+![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_3.png)
 
-![이미지](/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_4.png)
+![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_4.png)
 
 "Authorization" 헤더에 토큰을 전달하지 않고 sign_in_required로 표시된 필드에 접근하면 UnauthenticatedUser 예외가 발생합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_5.png)
+![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_5.png)
 
 <div class="content-ad"></div>
 
@@ -377,11 +377,11 @@ CancelTableBooking은 BookRestaurantTable 페이로드(TableBooking.id)에서 �
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_7.png" />
+<img src="/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_7.png" />
 
 만약 토큰이 주어진 테이블 예약의 소유자와 일치하지 않는 경우, 동작을 수행할 수 없으며, 권한이 없음 예외가 발생합니다.
 
-<img src="/TIL/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_8.png" />
+<img src="/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_8.png" />
 
 # 결론
 

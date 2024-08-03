@@ -1,7 +1,7 @@
 ---
 title: "OpenAI와 Google Sheets 통합으로 Slack 봇 만드는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_0.png"
+coverImage: "/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_0.png"
 date: 2024-07-09 18:55
 ogImage:
   url: /assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_0.png
@@ -29,13 +29,13 @@ link: "https://medium.com/@paulotavares_69273/building-a-slack-bot-with-openai-a
 
 먼저, 환경을 설정해야 합니다. 환경 변수를 관리하기 위해 dotenv를 사용할 것입니다. 다음 종속성이 설치되어 있는지 확인해주세요:
 
-![image](/TIL/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_0.png)
+![image](/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_0.png)
 
 <div class="content-ad"></div>
 
 API 키 및 토큰을 저장하는 .env 파일을 만들어보세요:
 
-![Image](/TIL/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_1.png)
+![Image](/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_1.png)
 
 # 단계 2: Slack 앱 초기화
 
@@ -43,13 +43,13 @@ app.py 스크립트는 Slack 앱을 초기화하고 수신 메시지를 처리�
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_2.png)
+![Image](/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_2.png)
 
 # 단계 3: OpenAI 통합
 
 assistants.py 스크립트는 OpenAI API와 상호 작용을 관리하고 사용자 쿼리를 처리합니다. Google Sheets 문서에서 정보를 기반으로 응답이 이루어지도록 합니다.
 
-![Image](/TIL/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_3.png)
+![Image](/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_3.png)
 
 <div class="content-ad"></div>
 
@@ -57,7 +57,7 @@ assistants.py 스크립트는 OpenAI API와 상호 작용을 관리하고 사용
 
 구글 시트 통합 스크립트인 google_sheets_integration.py는 사용자 쿼리에 답변하기 위한 관련 정보를 가져 오는 데 Google Sheets와 통합됩니다.
 
-![이미지](/TIL/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_4.png)
+![이미지](/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_4.png)
 
 # 단계 5: 지원 티켓 생성하기
 
@@ -65,7 +65,7 @@ assistants.py 스크립트는 OpenAI API와 상호 작용을 관리하고 사용
 
 create_ticket.py 스크립트는 지정된 Slack 채널에 지원 티켓을 생성합니다.
 
-![ticket image](/TIL/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_5.png)
+![ticket image](/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_5.png)
 
 # 마무리
 

@@ -1,7 +1,7 @@
 ---
 title: "몰랐으면 후회할 8가지 Python Dictionary 사용 꿀팁"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png"
+coverImage: "/assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png"
 date: 2024-07-07 02:29
 ogImage:
   url: /assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png
@@ -10,7 +10,7 @@ originalTitle: "8 Python Dictionary Things I Regret Not Knowing Earlier"
 link: "https://medium.com/@zlliu/8-python-dictionary-things-i-regret-not-knowing-earlier-bd98e94a5600"
 ---
 
-![이미지](/TIL/assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png)
+![이미지](/assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png)
 
 이러한 팁들 덕분에 Python에서 사전(Dictionary)를 다루는 것이 더 즐겁고 우아해졌고, 조금 더 늦게 배워서 아쉬운 점이 있습니다.
 

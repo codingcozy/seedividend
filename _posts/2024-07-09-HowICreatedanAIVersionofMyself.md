@@ -1,7 +1,7 @@
 ---
 title: "AI 버전의 나를 만드는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_0.png"
+coverImage: "/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_0.png"
 date: 2024-07-09 19:14
 ogImage:
   url: /assets/img/2024-07-09-HowICreatedanAIVersionofMyself_0.png
@@ -10,7 +10,7 @@ originalTitle: "How I Created an AI Version of Myself"
 link: "https://medium.com/@keith-mcnulty/how-i-created-an-ai-version-of-myself-aec12bc30067"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_0.png)
+![이미지](/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_0.png)
 
 생성적 AI는 화가 나게 만드는 괴로운 발전으로 가장 잘 설명될 수 있습니다. 2022년 말에 처음 출시된 ChatGPT는 자연어의 품질에 대해 현혹되고 광활한 놀라움을 줬습니다. 그 이후로 그 제품에 대한 다수의 업데이트와 경쟁 제품이 등장했습니다.
 
@@ -28,7 +28,7 @@ link: "https://medium.com/@keith-mcnulty/how-i-created-an-ai-version-of-myself-a
 
 ## Retrieval Augmented Generation (RAG) 개요
 
-![이미지](/TIL/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_1.png)
+![이미지](/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_1.png)
 
 <div class="content-ad"></div>
 
@@ -145,7 +145,7 @@ docs[0]
 
 ## 나의 문서를 포함하는 벡터 데이터베이스 설정하기
 
-![이미지](/TIL/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_2.png)
+![이미지](/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_2.png)
 
 적절한 길이의 문서를 보유하게 되었으므로, 이제 해당 문서를 벡터 데이터베이스에 로드해야 합니다. 벡터 데이터베이스는 텍스트를 원본 형식으로 저장하는데 더불어 임베딩으로도 저장합니다. 임베딩은 대규모의 부동 소수점 수 배열로, 대형 언어 모델이 언어를 처리하는 데 기본적인 역할을 합니다. 다차원 공간에서 '근접한' 임베딩을 가진 단어, 문장 또는 문서는 콘텐츠 면에서 서로 밀접한 관련성을 가질 것입니다. 임베딩 개념의 2D 그래픽 단순화된 다이어그램은 위의 도표를 참조하십시오.
 

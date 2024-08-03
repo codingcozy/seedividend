@@ -1,17 +1,17 @@
 ---
 title: "Matplotlib를 사용한 데이터 시각화 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png"
+coverImage: "/assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png"
 date: 2024-07-13 20:32
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png
+  url: /assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png
 tag: Tech
 originalTitle: "Data Visualization with Matplotlib"
 link: "https://medium.com/coinmonks/data-visualization-with-matplotlib-9d4847d9f3d5"
 ---
 
 
-![이미지](/TIL/assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png)
+![이미지](/assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png)
 
 데이터 시각화는 데이터 작업을 하는 사람들에게 매우 중요한 기술입니다. 이를 통해 복잡한 데이터 세트를 이해하고 결과를 효과적으로 전달할 수 있습니다. Python에서 데이터 시각화에 가장 인기 있는 라이브러리 중 하나인 Matplotlib을 살펴보겠습니다. 동물원 프로젝트와 관련된 코드 예제들은 이러한 개념을 더 잘 이해할 수 있도록 도와줍니다.
 
@@ -33,7 +33,7 @@ plt.show()
 
 출력
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationwithMatplotlib_1.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationwithMatplotlib_1.png" />
 
 이 간단한 예제는 Matplotlib을 사용하여 기본 선 그래프를 만드는 방법을 보여줍니다. 그러나 Matplotlib의 강점은 그 유연성과 복잡한 그래프를 만들 수 있는 능력에서 나옵니다.
 
@@ -100,7 +100,7 @@ plt.show()
 
 출력
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationwithMatplotlib_2.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationwithMatplotlib_2.png" />
 
 <div class="content-ad"></div>
 
@@ -139,7 +139,7 @@ ax2.set_ylabel('Y2', color='red')
 
 결과
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationwithMatplotlib_3.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationwithMatplotlib_3.png" />
 
 이 예시에서는 y1과 y2가 동일한 그래프에 표시되지만 각자의 y축을 가지고 있어 서로 다른 척도로 측정할 수 있습니다.
 
@@ -253,6 +253,6 @@ plt.show()
 
 출력
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationwithMatplotlib_4.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationwithMatplotlib_4.png" />
 
 더 많은 기사: Seaborn으로 데이터 시각화

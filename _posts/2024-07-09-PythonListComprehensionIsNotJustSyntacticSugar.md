@@ -1,7 +1,7 @@
 ---
 title: "Python 리스트 내포 List Comprehension 문법의 진정한 강점 단순한 문법 설탕이 아님"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_0.png"
+coverImage: "/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_0.png"
 date: 2024-07-09 19:26
 ogImage:
   url: /assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_0.png
@@ -24,7 +24,7 @@ link: "https://medium.com/towards-data-science/python-list-comprehension-is-not-
 
 # 1. 간단한 성능 비교
 
-![image](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_0.png)
+![image](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_0.png)
 
 우리는 간단한 프로그램을 작성할 것이다. 먼저 for 루프와 리스트 컴프리헨션을 사용한 방법으로 각각의 성능을 비교해보자.
 
@@ -51,7 +51,7 @@ results = [i * factor for i in range(100)]
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_1.png)
+![image](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_1.png)
 
 결과는 리스트 컴프리헨션이 일반 for-loop보다 거의 2배 빠르다는 것을 보여줬어.
 
@@ -80,15 +80,15 @@ results = [i * 2 for i in range(100)]
 
 실행 결과는 다음과 같습니다. 바이트 코드를 이해할 필요는 없습니다. 단지 바이트 코드의 "작업"은 "운영 코드" 또는 간단히 "opcode"라고 불립니다. 나중에 해당 내용을 참조하겠습니다.
 
-![Python List Comprehension](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_2.png)
+![Python List Comprehension](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_2.png)
 
-![Python List Comprehension](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_3.png)
+![Python List Comprehension](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_3.png)
 
 <div class="content-ad"></div>
 
 # 2. 전역 변수 대 로컬 변수
 
-![이미지](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_4.png)
+![이미지](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_4.png)
 
 가장 큰 차이점은 변수의 범위입니다. 위의 바이트 코드에서 다음과 같이 나타납니다.
 
@@ -117,13 +117,13 @@ for i in range(100):
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_5.png)
+![이미지](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_5.png)
 
 여기에는 for 루프가 끝난 후에도 변수 i가 여전히 남아 있는 것을 보여줍니다. 지금 global() 메소드를 실행하면 거기에도 변수 i를 찾을 수 있습니다.
 
 그러나 세션을 재시작하고 리스트 내포를 실행하면 변수 i가 표시되지 않습니다.
 
-![이미지](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_6.png)
+![이미지](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_6.png)
 
 <div class="content-ad"></div>
 
@@ -133,7 +133,7 @@ for i in range(100):
 
 작업이 전역 네임스페이스에 있는 변수에 액세스해야 할 때, 전역 네임스페이스의 모든 객체 목록을 통과해야 합니다. 전역 네임스페이스에 무엇이 있는지 궁금하다면 세션에서 globals() 메서드를 실행해 보세요.
 
-![이미지](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_7.png)
+![이미지](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_7.png)
 
 <div class="content-ad"></div>
 
@@ -170,13 +170,13 @@ my_function(1, 2)
 
 변수 요소에 주의해주세요. 실제로, 요소 변수를 리스트 내포 밖에서 정의했지만, 그것은 로컬 상수로 리스트 내포에 로드될 것입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_9.png)
+![이미지](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_9.png)
 
 <div class="content-ad"></div>
 
 위의 바이트 코드에서. 변수 factor를 모든 루프에서 전역 변수로 로드해야 합니다.
 
-![image](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_10.png)
+![image](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_10.png)
 
 그러나 리스트 컴프리헨션에서는 컴파일러가 factor의 값을 변경할 수 없는 상수로 로드하고 지역 범위에 유지해도 충분히 안전합니다. 따라서 전역 네임스페이스에서 변수를 검색할 필요가 없습니다.
 
@@ -186,7 +186,7 @@ my_function(1, 2)
 
 # 3. 일반 메소드 vs 최적화된 메소드
 
-![image](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_11.png)
+![image](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_11.png)
 
 또 다른 주요한 차이점은 append() 메소드에서 나타납니다. 두 가지 구현 방법의 단계를 보여드리겠습니다.
 
@@ -219,7 +219,7 @@ for 루프 버전에서:
 print(dir(results));
 ```
 
-<img src="/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_12.png" />
+<img src="/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_12.png" />
 
 <div class="content-ad"></div>
 
@@ -237,7 +237,7 @@ for 루프 버전은 append() 메서드를 사용하는 것이 매번 우리가 
 
 # 4. 리스트 내포를 사용해서는 안 되는 경우
 
-![Python List Comprehension](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_13.png)
+![Python List Comprehension](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_13.png)
 
 물론, 리스트 내포는 남용해서는 안 돼요. 다시 말해, 사용은 가능하지만 특정 상황에서는 사용해서는 안 되는 경우가 있어요.
 
@@ -267,7 +267,7 @@ for name, score in students:
 filtered_names = [name for name, score in students if score > 80 and name.startswith(("A", "C"))]
 ```
 
-<img src="/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_14.png" />
+<img src="/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_14.png" />
 
 음, 리스트 컴프리헨션의 성능은 여전히 for 루프보다 조금 더 나은 편이에요. 그러나 복잡한 조건 때문에 리스트 컴프리헨션은 가독성이 많이 떨어지기 시작했다고 말씀드려야 할 것 같아요.
 
@@ -277,7 +277,7 @@ filtered_names = [name for name, score in students if score > 80 and name.starts
 
 # 요약
 
-![이미지](/TIL/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_15.png)
+![이미지](/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_15.png)
 
 이 글에서는 리스트 컴프리헨션의 성능이 일반 for-loop보다 우수한 이유에 대해 소개했습니다. 그것이 단순히 구문적인 설탕이 아니라 성능 최적화임을 증명했습니다.
 

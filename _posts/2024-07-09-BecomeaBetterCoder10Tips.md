@@ -1,7 +1,7 @@
 ---
 title: "더 나은 프로그래머가 되는 10가지 팁"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-BecomeaBetterCoder10Tips_0.png"
+coverImage: "/assets/img/2024-07-09-BecomeaBetterCoder10Tips_0.png"
 date: 2024-07-09 14:47
 ogImage:
   url: /assets/img/2024-07-09-BecomeaBetterCoder10Tips_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@deasadiqbal/become-a-better-coder-10-tips-fa81f732a62
 
 위반 시 해고 조치를 받을 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-09-BecomeaBetterCoder10Tips_0.png)
+![이미지](/assets/img/2024-07-09-BecomeaBetterCoder10Tips_0.png)
 
 수백 개, 아니면 수천 개의 Python 최상의 관례들이 있습니다. 누구든 물으면 약간 다른 버전의 관례를 듣게 될 것입니다.
 

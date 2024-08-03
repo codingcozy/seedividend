@@ -1,7 +1,7 @@
 ---
 title: "주말 AI 프로젝트 PC와 Raspberry Pi에서 YOLO를 사용한 객체 탐지 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png"
+coverImage: "/assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png"
 date: 2024-07-07 02:24
 ogImage:
   url: /assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png
@@ -10,7 +10,7 @@ originalTitle: "A Weekend AI Project: Object Detection with YOLO on PC and Raspb
 link: "https://medium.com/towards-data-science/a-weekend-ai-project-object-detection-with-yolo-on-pc-and-raspberry-pi-0653e01032c1"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png" />
+<img src="/assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png" />
 
 컴퓨터 비전은 다양한 규모의 ML 앱에 중요한 역할을 할 수 있습니다. $20,000에 이르는 테슬라 로봇이나 자율 주행 자동차부터 스마트 도어벨과 진공 청소기까지 다양한 영역에 활용될 수 있습니다. 그러나 실제 엣지 디바이스에는 클라우드 인프라와 비교할 때 하드웨어 사양이 제약되어 있는 경우가 많아 도전적인 과제로 여겨집니다.
 

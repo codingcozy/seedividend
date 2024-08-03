@@ -1,7 +1,7 @@
 ---
 title: "멋진 데이터 시각화를 위한 최고의 10가지 Python 도구"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-Top10PythonToolsforStunningDataVisualizations_0.png"
+coverImage: "/assets/img/2024-07-07-Top10PythonToolsforStunningDataVisualizations_0.png"
 date: 2024-07-07 02:27
 ogImage:
   url: /assets/img/2024-07-07-Top10PythonToolsforStunningDataVisualizations_0.png
@@ -31,7 +31,7 @@ plt.plot(x, y)
 plt.show()
 ```
 
-![Image](/TIL/assets/img/2024-07-07-Top10PythonToolsforStunningDataVisualizations_0.png)
+![Image](/assets/img/2024-07-07-Top10PythonToolsforStunningDataVisualizations_0.png)
 
 # Seaborn
 

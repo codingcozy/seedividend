@@ -1,7 +1,7 @@
 ---
 title: "효율적인 Python 함수를 작성하기 위한 5가지 팁"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-5TipstoWriteEfficientPythonFunctions_0.png"
+coverImage: "/assets/img/2024-07-09-5TipstoWriteEfficientPythonFunctions_0.png"
 date: 2024-07-09 09:13
 ogImage:
   url: /assets/img/2024-07-09-5TipstoWriteEfficientPythonFunctions_0.png
@@ -22,6 +22,6 @@ link: "https://medium.com/gitconnected/5-tips-to-write-efficient-python-function
 
 이 5가지 팁을 적용함으로써 파이썬 개발자들은 더 효율적이고 가독성이 좋으며 유지보수가 용이한 함수를 작성할 수 있습니다. 이는 결국 더 높은 품질의 코드와 개발자 생산성 향상으로 이어집니다.
 
-![image](/TIL/assets/img/2024-07-09-5TipstoWriteEfficientPythonFunctions_0.png)
+![image](/assets/img/2024-07-09-5TipstoWriteEfficientPythonFunctions_0.png)
 
 ## 목차:

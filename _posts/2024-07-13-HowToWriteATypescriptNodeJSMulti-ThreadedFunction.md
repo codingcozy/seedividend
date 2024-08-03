@@ -1,10 +1,10 @@
 ---
 title: "TypeScript 네트워크 서버 구축법 Nodejs 멀티스레드 함수 작성하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png"
+coverImage: "/assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png"
 date: 2024-07-13 20:38
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png
+  url: /assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png
 tag: Tech
 originalTitle: "How To Write A Typescript Node JS Multi-Threaded Function"
 link: "https://medium.com/gitconnected/how-to-write-a-typescript-node-js-multi-threaded-function-8b6fa847d272"
@@ -12,7 +12,7 @@ link: "https://medium.com/gitconnected/how-to-write-a-typescript-node-js-multi-t
 
 
 
-![링크](/TIL/assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png)
+![링크](/assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png)
 
 TypeScript과 Node.js는 단일 스레드 및 이벤트 기반 모드에서 작동합니다. 그러나 Node.js에는 특정 시나리오를 위해 멀티 스레딩을 가능하게 하는 Worker Threads 모듈이 제공됩니다. Worker Threads 모듈을 사용하면 TypeScript 코드를 병렬로 실행하여 필요할 때 여러 스레드를 활용할 수 있습니다.
 

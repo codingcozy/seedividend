@@ -1,7 +1,7 @@
 ---
 title: "서버리스 인증 자가 서비스 플랫폼 구축 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png"
+coverImage: "/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png"
 date: 2024-07-07 21:49
 ogImage:
   url: /assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png
@@ -10,7 +10,7 @@ originalTitle: "Serverless Auth Self-Serve Platform"
 link: "https://medium.com/@leejamesgilmore/serverless-auth-self-serve-platform-0caa2ca61892"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png" />
+<img src="/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png" />
 
 ## 서문
 
@@ -30,7 +30,7 @@ link: "https://medium.com/@leejamesgilmore/serverless-auth-self-serve-platform-0
 
 컨텐츠를 이해하기 쉽게 하기 위해, TypeScript 및 AWS CDK를 사용하여 가상의 'LJ Health Food' 회사의 완벽한 솔루션 코드 예제를 생성할 것입니다. 이 회사는 건강식품 배달 회사이지만 Uber Eats나 Just Eat과 같은 서드파티 통합을 통해 주문을 받을 수도 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_1.png)
+![이미지](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_1.png)
 
 <div class="content-ad"></div>
 
@@ -38,19 +38,19 @@ link: "https://medium.com/@leejamesgilmore/serverless-auth-self-serve-platform-0
 
 이 예제에서는 3rd party 서비스가 자사의 앱을 통해 주문을 배치하는 내용에 대해 리더십팀과 회의를 가졌습니다. 그들은 동의하고, 엔지니어링 팀은 통합 과정을 시작합니다.
 
-![image](/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_2.png)
+![image](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_2.png)
 
 이를 위해 우리는 그들을 신뢰할 수 있는 클라이언트로 설정하고, 다른 서비스가 주문을 배치할 수 있는 부분에만 액세스할 수 있도록 권한을 부여해야 합니다.
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_3.png)
+![Image](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_3.png)
 
 이 특정 인가 플로우를 통해 이 신뢰가 어떤 모습인지 살펴보겠습니다.
 
 👇 더 나아가기 전에 — 향후 블로그 포스트와 서버리스 뉴스에 대해 연결하려면 LinkedIn에서 저와 연락해주세요. https://www.linkedin.com/in/lee-james-gilmore/
 
-![Image](/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_4.png)
+![Image](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_4.png)
 
 <div class="content-ad"></div>
 
@@ -63,7 +63,7 @@ link: "https://medium.com/@leejamesgilmore/serverless-auth-self-serve-platform-0
 - Amazon Cognito의 UI는 매우 복잡하며 필요하지 않은 많은 기능이 포함되어 있습니다. 우리는 자체 UI에서 이것을 제거함으로써 이런 소음을 최소화할 수 있습니다 (필요한 기능만 표시).
 - 보안 팀이 처리해야 하는 포인트가 더 많아집니다.
 
-<img src="/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_5.png" />
+<img src="/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_5.png" />
 
 <div class="content-ad"></div>
 
@@ -108,7 +108,7 @@ link: "https://medium.com/@leejamesgilmore/serverless-auth-self-serve-platform-0
 
 지금 우리가 높은 수준에서 이에 대해 이야기했으니, 우리의 자체 서비스 포털이 어떻게 생겼는지 살펴봅시다. 이를 통해 3rd Party 모바일 앱이 우리 주문 서비스를 이용하여 주문을 배치할 수 있도록 관리 세부 정보를 관리할 수 있는 것입니다.
 
-![이미지](/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_6.png)
+![이미지](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_6.png)
 
 # 저희 클라이언트 앱은 어떻게 생겼나요? 🎨
 
@@ -578,7 +578,7 @@ The token의 주요 속성들은 다음과 같습니다:
 
 유사한 콘텐츠를 원하신다면 제 유튜브 채널을 구독해주세요!
 
-![이미지](/TIL/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_7.png)
+![이미지](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_7.png)
 
 아래의 채널을 통해 저와 연결하고 싶습니다:
 

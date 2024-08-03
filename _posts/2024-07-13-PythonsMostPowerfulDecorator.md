@@ -1,17 +1,17 @@
 ---
 title: "Python의 가장 강력한 데코레이터"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png"
+coverImage: "/assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png"
 date: 2024-07-13 20:21
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png
+  url: /assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png
 tag: Tech
 originalTitle: "Python’s Most Powerful Decorator"
 link: "https://medium.com/towards-data-science/pythons-most-powerful-decorator-6bc39e6a8dd8"
 ---
 
 
-![파이썬의 강력한 데코레이터](/TIL/assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png)
+![파이썬의 강력한 데코레이터](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png)
 
 @property는 파이썬에서 제일 좋아하는 데코레이터입니다. 여러 해 동안 파이썬을 사용해왔는데, 매년마다 언어에 대한 전문 지식과 편안함이 조금씩 쌓여왔어요. 이렇게 오랜 기간 동안 배운 기술과 트릭 가운데, property 데코레이터는 두드러지는 효과를 발휘했습니다. 이 데코레이터는 복잡한 문제 해결을 도와주고 깔끔하고 효율적이며 우아한 코드를 작성하는 데 지속적으로 도움을 주고 있어요.
 
@@ -55,7 +55,7 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 # 1. 데이터 또는 모델 속성이 덮어쓰기되는 것으로부터 보호하기
 
-![이미지](/TIL/assets/img/2024-07-13-PythonsMostPowerfulDecorator_1.png)
+![이미지](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_1.png)
 
 우리가 토론한 대로, 속성은 직접 할당을 제한하여 클래스 속성이 덮어쓰기되는 것을 방지하는 강력한 메커니즘을 제공합니다. 이 기능은 데이터 과학 및 기계 학습 응용 프로그램에서 데이터 및 모델의 무결성이 중요한 경우에 특히 가치가 있습니다. @property 데코레이터를 활용하여 읽기 전용 속성을 생성할 수 있으며, 이를 통해 속성에 액세스할 수 있지만 수정할 수는 없습니다. 이는 우연한 오류 발생 가능성이 적은 견고한 데이터 및 모델 객체를 생성하는 데 매우 유용할 수 있습니다.
 
@@ -87,7 +87,7 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 # 2. 비싼 속성의 캐싱 및 최적화
 
-![이미지](/TIL/assets/img/2024-07-13-PythonsMostPowerfulDecorator_2.png)
+![이미지](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_2.png)
 
 <div class="content-ad"></div>
 
@@ -111,7 +111,7 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 <div class="content-ad"></div>
 
-![그림](/TIL/assets/img/2024-07-13-PythonsMostPowerfulDecorator_3.png)
+![그림](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_3.png)
 
 속성은 동적 계산에 사용될 수 있으며, 속성 값의 계산을 실시간으로 가능하게 합니다. 특히 속성 값이 다른 속성이나 외부 요인에 의존하는 경우에 유용합니다. 다음과 같은 간단하고 흔한 예제를 고려해보세요:
 
@@ -132,7 +132,7 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-13-PythonsMostPowerfulDecorator_4.png)
+![image](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_4.png)
 
 속성 데코레이터를 추가하여 속성을 읽기 전용으로 만드는 이유는 변수에 getter 메서드를 도입하고 setter 메서드를 도입하지 않기 때문입니다. 따라서 해당 속성은 새 값으로 "설정"될 수 없습니다. 그러나 단순히 @`속성`.setter를 추가함으로써 변수에 setter 메서드를 도입할 수 있으며, 이를 통해 속성에 새 값 할당 전에 추가 코드(예: 정상성 검사 또는 다른 수동 개입)를 실행할 수 있습니다.
 
@@ -149,7 +149,7 @@ scaling_factor 속성은 이제 setter 메서드가 정의되어 있기 때문�
 
 # 5. 무거운 속성들의 지연로딩 및 메모리 최적화
 
-![image](/TIL/assets/img/2024-07-13-PythonsMostPowerfulDecorator_5.png)
+![image](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_5.png)
 
 <div class="content-ad"></div>
 

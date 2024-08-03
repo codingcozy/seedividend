@@ -1,7 +1,7 @@
 ---
 title: "FastAPI에서 Pydantic 직렬화 단계별 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-PydanticserializationstepbystepsforFastAPI_0.png"
+coverImage: "/assets/img/2024-07-07-PydanticserializationstepbystepsforFastAPI_0.png"
 date: 2024-07-07 12:56
 ogImage:
   url: /assets/img/2024-07-07-PydanticserializationstepbystepsforFastAPI_0.png
@@ -10,7 +10,7 @@ originalTitle: "Pydantic serialization step by steps for FastAPI"
 link: "https://medium.com/@gayashangamage/pydantic-serialization-step-by-steps-for-fastapi-f51ee20d4f10"
 ---
 
-![이미지](/TIL/assets/img/2024-07-07-PydanticserializationstepbystepsforFastAPI_0.png)
+![이미지](/assets/img/2024-07-07-PydanticserializationstepbystepsforFastAPI_0.png)
 
 FastAPI 프레임워크를 사용하여 API를 구축하려면 pydantic에 대해 알아야 합니다. 'post' 요청은 본문 매개변수만 허용하기 때문입니다. 본문 매개변수를 읽으려면 pydantic 모델을 구현해야 합니다.
 

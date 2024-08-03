@@ -1,10 +1,10 @@
 ---
 title: "오늘 배운 사실  왜 속성에 바다코끼리 연산자를 사용할 수 없을까"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png"
+coverImage: "/assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png"
 date: 2024-07-12 19:35
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png
+  url: /assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png
 tag: Tech
 originalTitle: "Today I Learnt — We Can’t Use The Walrus Operator On Attributes??"
 link: "https://medium.com/@zlliu/today-i-learnt-we-cant-use-the-walrus-operator-on-attributes-4ed7af348d66"
@@ -12,7 +12,7 @@ link: "https://medium.com/@zlliu/today-i-learnt-we-cant-use-the-walrus-operator-
 
 
 
-![Example of the walrus operator](/TIL/assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png)
+![Example of the walrus operator](/assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png)
 
 The walrus operator := can condense 2 lines of code into one.
 

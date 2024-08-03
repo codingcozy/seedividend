@@ -1,7 +1,7 @@
 ---
 title: "Python 프로젝트 개선하기 두 번째 날, 첫 Python 프로젝트 개선 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png"
+coverImage: "/assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png"
 date: 2024-07-07 19:16
 ogImage:
   url: /assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/datascience-ville/day-2-improving-my-first-python-proj
 
 ## 30-DAY CODING CHALLENGE
 
-![Day 2](/TIL/assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png)
+![Day 2](/assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png)
 
 안녕하세요! 저의 Day 2 보고서가 아주 늦게 나오고 있어요. 제 도시에 정전이 있었거든요. 어쨌든, 오늘 코딩을 시작하기 전에 어제 한 일을 간단히 공유할게요:
 

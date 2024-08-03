@@ -1,7 +1,7 @@
 ---
 title: "신경망이란 무엇인가요"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_0.png"
+coverImage: "/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_0.png"
 date: 2024-07-09 19:51
 ogImage:
   url: /assets/img/2024-07-09-WhatIsaNeuralNetAnyway_0.png
@@ -10,7 +10,7 @@ originalTitle: "What Is a Neural Net, Anyway?"
 link: "https://medium.com/ai-advances/what-is-a-neural-net-anyway-4fc8692f2d28"
 ---
 
-![Image](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_0.png)
+![Image](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_0.png)
 
 인공지능과 기계학습의 세계를 두르고 있는 다양한 용어 중에서, 신경망과 같은 용어는 '멋진 요소'를 지니는 것 같아요.
 
@@ -30,7 +30,7 @@ Sarah Connor:
 터미네이터:
 그래.
 
-![이미지](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_1.png)
+![이미지](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_1.png)
 
 <div class="content-ad"></div>
 
@@ -44,7 +44,7 @@ Sarah Connor:
 
 <div class="content-ad"></div>
 
-![신경망이란 무엇인가요](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_2.png)
+![신경망이란 무엇인가요](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_2.png)
 
 제목은 "신경 활동에 내재된 아이디어의 논리적 논리" (아니요, 목이 나가는 제목으로는 점수를 주지 않습니다)였고, 논문의 통찰 중 하나는 뇌 속 신경세포를 더 간단한 논리 문으로 취급하여 입력에 따라 발화하거나 발화하지 않는 간단한 논리 게이트로 제안한 것이었습니다.
 
@@ -74,7 +74,7 @@ Sarah Connor:
 
 인공 신경망의 핵심은 뉴런 개념에 있으므로 우리 여행을 시작하는 가장 좋은 곳처럼 보입니다. 아래에는 유기 뉴런의 구조를 왼쪽에, 인공 뉴런을 오른쪽에 보여주는 멋진 이미지가 있습니다:
 
-![What is a Neural Net Anyway](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_4.png)
+![What is a Neural Net Anyway](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_4.png)
 
 생물학적 뉴런의 경우, 세포체 주변의 작은 줄기 모양의 가지(dendrites)는 '입력'으로 생각할 수 있으며, 축삭(axon)은 '출력'으로 생각할 수 있습니다.
 
@@ -88,7 +88,7 @@ Sarah Connor:
 
 아래는 매우 간단한 뉴럴 네트워크에 대한 시각화입니다. 이것은 딱 한 개의 '뉴런'으로 구성되어 있습니다. 뉴럴 네트워크의 가장 간단한 표현이며, 깊은 학습의 아버지인 Frank Rosenblatt가 만든 용어 '퍼셉트론'으로 잘 알려져 있습니다.
 
-<img src="/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_5.png" />
+<img src="/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_5.png" />
 
 <div class="content-ad"></div>
 
@@ -106,7 +106,7 @@ Sarah Connor:
 
 저희의 입력 변수(x1과 x2) 각각에는 해당하는 w 값(w1과 w2)이 있습니다. 이것들은 가중치를 나타냅니다.
 
-![image](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_6.png)
+![image](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_6.png)
 
 가중치는 우리의 뉴런에서 매우 중요한 부분이며, 입력으로 들어오는 각 특성에 얼마나 중요성을 부여할지 결정합니다. 그래서 각 특성당 하나의 가중치가 있습니다. 예를 들어 주택 가격 예측 예제에서 침실 수가 위치보다 가격을 더 잘 예측하는 경우, 해당 특성의 가중치는 귀하의 신경망을 교육하고 결과적으로 높아질 것입니다.
 
@@ -125,7 +125,7 @@ Sarah Connor:
 
 이러한 epoch의 끝에서 매개변수가 업데이트되므로 이상적으로는 다음 번 훈련에서 예측이 좋아지도록 손실(잘못된 예측)이 줄어든다. 계속해서 좋은 예측 능력을 갖게 될 때까지!
 
-![이미지](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_7.png)
+![이미지](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_7.png)
 
 간단한 다이어그램을 돌아보면 우리의 입력과 함께 'b'로 표시된 것을 알 수 있습니다. b는 편향(bias)을 나타내며, 또 하나의 중요한 기계 학습 개념입니다. 저희의 가중치와 마찬가지로, 신경망 훈련 과정 중에 변경되는 '매개변수'입니다.
 
@@ -149,7 +149,7 @@ Sarah Connor:
 
 다행히도 이건 꽤 쉬운 부분이에요. 그리스 글자 'Σ'는 시그마(Sigma)라고 불리며, 수학 용어로는 합계를 나타냅니다. 기본적으로 더해주는 개념이죠. 그래서 우리 뉴런의 이 부분에서:
 
-<img src="/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_8.png" />
+<img src="/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_8.png" />
 
 <div class="content-ad"></div>
 
@@ -169,7 +169,7 @@ Sarah Connor:
 
 뉴런은 레이어에 더 많이 추가할 때 더 복잡한 문제에 대한 예측 능력이 더 커져요:
 
-![neural net image](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_9.png)
+![neural net image](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_9.png)
 
 <div class="content-ad"></div>
 
@@ -179,7 +179,7 @@ Sarah Connor:
 
 # 뉴런 만들기
 
-![image](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_10.png)
+![image](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_10.png)
 
 <div class="content-ad"></div>
 
@@ -193,7 +193,7 @@ Sarah Connor:
 
 우리의 실험에서는 Kaggle에서 가져온 합성 데이터셋을 사용할 것입니다. 이 데이터셋에는 다음이 포함되어 있습니다:
 
-![그림](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_11.png)
+![그림](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_11.png)
 
 이 데이터의 아이디어는 각 행이 학생의 시험 1과 시험 2의 결과라는 것입니다. 패스(pass) 열은 해당 학생이 3번째 시험에 통과했는지 여부를 나타냅니다. 우리가 신경망을 사용해 예측하고자 하는 것은 바로 이 열입니다. 실제로는 학생이 처음 두 시험에서의 결과를 기반으로 3번째 시험을 통과할지 예측하려고 하는 것이죠.
 
@@ -236,7 +236,7 @@ model = Sequential([
 
 마침내, 모델을 컴파일합니다. 'Adam' (적응 적 모멘트 추정) 옵티마이저를 사용 중이며 다른 여러 옵티마이저도 있습니다. 옵티마이저는 서로 다른 메커니즘을 사용하여 가중치를 업데이트하거나 '손실' 개념을 측정함으로써 학습 프로세스를 돕는 알고리즘 또는 방법입니다. 옵티마이저는 또한 학습 속도를 제어합니다 (우리 예제에서는 0.01로 설정되어 있음).
 
-![이미지](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_12.png)
+![이미지](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_12.png)
 
 학습률은 다른 개념과 깊게 연결되어 있는데, 여기서 많이 다루지는 않았지만 손실 기욘(gradient)입니다. 간단히 말해서, 손실 기욘은 학습 에포크의 끝에 우리가 얼마나 성공적인 예측에 가까이 갔는지를 측정하는 것입니다. 앞에서 알 수 있듯이, 신경망은 다음 반복 전에 가중치를 조정할 수 있습니다.
 
@@ -250,7 +250,7 @@ model = Sequential([
 
 보너스로, 노트북의 다음 셀에는 우리의 신경망을 시각적으로 표시하는 멋진 방법이 포함되어 있어요. 불행히도 우리의 단일 뉴런에 대해 매우 매료적인 이미지는 아니에요;
 
-<img src="/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_13.png" />
+<img src="/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_13.png" />
 
 <div class="content-ad"></div>
 
@@ -285,7 +285,7 @@ new_samples = np.array([
 
 여기 있습니다! 여러분은 전체 모험을 무사히 마치고 미쳐 날뛰는 그리스 문자나 방정식에게 습격당하거나 끌려가지 않고 이것을 해내셨습니다.
 
-![Neural Net](/TIL/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_14.png)
+![Neural Net](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_14.png)
 
 잘 했어요! 여러분은 신경망의 역사에 대한 간략한 개요를 보고 오늘날까지 어떻게 이르렀는지 살펴보고, 뉴런을 구성하는 추상적인 내용을 탐험하며, 심지어 자신만의 (간단한) 신경망을 만들고 훈련하고 검토하셨습니다!
 

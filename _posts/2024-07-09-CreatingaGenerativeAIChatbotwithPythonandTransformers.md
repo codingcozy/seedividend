@@ -1,7 +1,7 @@
 ---
 title: "파이썬과 트랜스포머로 생성형 AI 챗봇 만들기 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png"
+coverImage: "/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png"
 date: 2024-07-09 19:40
 ogImage:
   url: /assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png
@@ -33,13 +33,13 @@ link: "https://medium.com/@tc2017057888/creating-a-generative-ai-chatbot-with-py
 
 <div class="content-ad"></div>
 
-![2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png)
+![2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png)
 
 # Step 2: Loading GPT-2 Model and Tokenizer
 
 To begin, import the required libraries and load the pretrained GPT-2 model and its corresponding tokenizer:
 
-![2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_1.png](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_1.png)
+![2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_1.png](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_1.png)
 
 <div class="content-ad"></div>
 
@@ -47,7 +47,7 @@ To begin, import the required libraries and load the pretrained GPT-2 model and 
 
 사용자 입력을 가져와 인코딩하고 GPT-2 모델을 사용하여 응답을 생성하는 함수를 정의하세요:
 
-![image](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_2.png)
+![image](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_2.png)
 
 # 단계 4: Flask 어플리케이션 설정
 
@@ -55,15 +55,15 @@ To begin, import the required libraries and load the pretrained GPT-2 model and 
 
 다음으로 웹 요청을 처리하고 챗봇을 위한 직관적 인터페이스를 제공하기 위해 Flask 애플리케이션을 설정하세요:
 
-![image1](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_3.png)
+![image1](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_3.png)
 
-![image2](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_4.png)
+![image2](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_4.png)
 
-![image3](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_5.png)
+![image3](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_5.png)
 
 <div class="content-ad"></div>
 
-![사진](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_6.png)
+![사진](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_6.png)
 
 # 단계 5: Flask 앱 실행 및 상호 작용
 
@@ -76,13 +76,13 @@ To begin, import the required libraries and load the pretrained GPT-2 model and 
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_7.png)
+![Image](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_7.png)
 
 - 어플리케이션이 시작되면 웹 브라우저를 열고 챗봇과 상호 작용하기 위해 http://127.0.0.1:5000/ 로 이동하세요.
 
-![Image](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_8.png)
+![Image](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_8.png)
 
-![Image](/TIL/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_9.png)
+![Image](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_9.png)
 
 <div class="content-ad"></div>
 

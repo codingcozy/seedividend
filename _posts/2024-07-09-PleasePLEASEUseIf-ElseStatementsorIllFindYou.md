@@ -1,7 +1,7 @@
 ---
 title: "제발, 제발 If-Else 문 사용하기, 아니면 후회할 거예요"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png"
+coverImage: "/assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png"
 date: 2024-07-09 14:51
 ogImage:
   url: /assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png
@@ -10,7 +10,7 @@ originalTitle: "Please, PLEASE Use If-Else Statements, or I’ll Find You"
 link: "https://medium.com/@jakemer10/please-please-use-if-else-statements-or-ill-find-you-4e4c6af38912"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png)
+![이미지](/assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png)
 
 프로그래밍 세계에서 명확한 조건문이 없는 코드는 미치도록 짜증이 납니다. 교통 부호 없는 도시를 운전하는 것과 같습니다. 난잡하고 혼란스럽고 정말 위험합니다. 그래서 논리적으로 생각한다면, if-else 문을 사용해주세요. 그렇지 않다면, 당신을 찾아가서 강제로 코드 리팩토링을 시킬지도 몰라요.
 

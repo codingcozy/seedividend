@@ -1,7 +1,7 @@
 ---
 title: "SpaceX 이중 부스터 착륙 비디오 분석과 Python 모델 구축 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png"
+coverImage: "/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png"
 date: 2024-07-09 19:02
 ogImage:
   url: /assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png
@@ -22,7 +22,7 @@ link: "https://medium.com/@rjallain/video-analysis-and-pytof-the-spacex-double-b
 
 첫 번째 단계는 비디오의 크기를 조정하는 것입니다. 이 경우에는 부스터 자체의 길이를 사용할 수 있습니다. 이 SpaceX 페이지에는 Falcon Heavy의 길이가 70m로 나와 있습니다. 이를 통해 부스터의 길이를 측정할 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png)
+![이미지](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png)
 
 이를 통해 높이가 약 46m임을 알았습니다. 완벽한 측정이 아니더라도 괜찮습니다. 이제 이 길이를 비디오에서 사용할 수 있습니다. 그런데 기다려 보세요! 이 착륙 중에 카메라가 팬 및 줌을 조정합니다. 걱정하지 마세요. Tracker Video에서 코디네이트 참조 프레임을 조정할 수 있습니다(보정 포인트 쌍을 사용).
 
@@ -38,7 +38,7 @@ link: "https://medium.com/@rjallain/video-analysis-and-pytof-the-spacex-double-b
 
 각 프레임에 설정된 좌표 시스템으로 각 로켓의 위치를 표시할 수 있습니다. 실제로 각 로켓에 대해 두 개의 위치를 표시할 거에요 — 상단 위치와 하단 위치를 표시할 거에요. 그래도, 여기 하나의 로켓에 대한 시간에 따른 수직 위치입니다.
 
-![image](/TIL/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_1.png)
+![image](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_1.png)
 
 <div class="content-ad"></div>
 
@@ -52,7 +52,7 @@ link: "https://medium.com/@rjallain/video-analysis-and-pytof-the-spacex-double-b
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_2.png)
+![image](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_2.png)
 
 빠른 참고 — 만약 파이썬에서의 리스트에 서투르다면, 여기 튜토리얼(또는 리프레셔)가 있어요. 그리고, 물어보기 전에 — 아니요, 이걸 넘파이 배열로 변환할 수 없어요. 웹 VPython이 실제 파이썬이 아니라서 우리가 사용할 모듈들에 모두 접근할 수 없어요 (넘파이를 사용할 수 있는 방법은 있지만, 이 자리에서는 건드리지 않겠어요). 아마도 (명확하지 않다면) 잘라 말할 필요가 있을 것 같아요 — 이들은 긴 리스트에요 — 362개의 요소가 있어요. 제 파이썬 고대인 방식으로 모든 것이 제대로 가져와졌는지 확인하기 위해 길이를 프린트했어요.
 
@@ -62,11 +62,11 @@ link: "https://medium.com/@rjallain/video-analysis-and-pytof-the-spacex-double-b
 
 <div class="content-ad"></div>
 
-![Image of Video Analysis](/TIL/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_3.png)
+![Image of Video Analysis](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_3.png)
 
 한쪽 끝에서 다른 쪽 끝으로 향하는 축 벡터가 있을 때 pos는 실린더의 한쪽 끝의 벡터 위치이고 axis는 축 벡터입니다. 반지름은 여기서 다루기 까다로울 수 있어요. 도움이 될 만한 그림이 있어요.
 
-![Image of Cylinder](/TIL/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_4.png)
+![Image of Cylinder](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_4.png)
 
 적은 문제가 있어요. 실린더의 맨 위와 맨 아래에 대한 벡터 위치가 있는게 맞아요. 이러한 벡터 값들을 사용하여 축 벡터를 찾을 수 있겠죠. 그러나 이러한 벡터 위치는 약간 변경될 수 있어 로켓 부스터의 길이가 약간 변할 수 있어요. 그래서 대신에 이러한 맨 위와 맨 아래 위치를 사용하여 축 벡터의 방향을 찾고, 그 후에 상수 길이를 곱해서 사용할 거예요. 아, 코드를 보여드릴게요. 그게 더 쉬울 거에요.
 
@@ -87,7 +87,7 @@ link: "https://medium.com/@rjallain/video-analysis-and-pytof-the-spacex-double-b
 
 좀더 살펴봐야 할 점이 있어요, 그러니까 일단 코드의 간단한 버전부터 시작해볼까요? 이거 봐봐요.
 
-![이미지](/TIL/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_6.png)
+![이미지](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_6.png)
 
 자세한 내용은 아래와 같아요:
 

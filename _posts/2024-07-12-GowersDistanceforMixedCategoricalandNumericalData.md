@@ -1,10 +1,10 @@
 ---
 title: "범주형 및 수치형 데이터를 위한 Gower 거리 설명"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_0.png"
+coverImage: "/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_0.png"
 date: 2024-07-12 20:33
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_0.png
+  url: /assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_0.png
 tag: Tech
 originalTitle: "Gower’s Distance for Mixed Categorical and Numerical Data"
 link: "https://medium.com/towards-data-science/gowers-distance-for-mixed-categorical-and-numerical-data-799fedd1080c"
@@ -15,7 +15,7 @@ link: "https://medium.com/towards-data-science/gowers-distance-for-mixed-categor
 
 아마도 맨해튼 거리 또는 유클리드 거리에 대해 들어보았을 것입니다. 이들은 두 주어진 데이터 포인트가 얼마나 멀리 떨어져 있는지 (또는 얼마나 다른지)에 대한 정보를 제공하는 두 가지 다른 측정 기준입니다.
 
-![image](/TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_0.png)
+![image](/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_0.png)
 
 간단히 말해서, 유클리드 거리는 점 A에서 점 B까지의 최단 거리입니다. 맨해튼 거리는 x와 y 좌표 간의 절대적인 차이들의 합을 계산하고, 대각선 방향으로 움직일 수 없고 위, 아래, 왼쪽 또는 오른쪽으로만 이동할 수 있는 격자 상에 위치한 것처럼 두 점 사이의 거리를 찾습니다.
 
@@ -27,7 +27,7 @@ link: "https://medium.com/towards-data-science/gowers-distance-for-mixed-categor
 
 이 프로세스를 보여주기 위해 유클리드 거리를 사용한 예제를 통해 시작하겠습니다.
 
-![image](/TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_1.png)
+![image](/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_1.png)
 
 <div class="content-ad"></div>
 
@@ -73,7 +73,7 @@ print(census_income.variables)
 
 이제 이 두 열을 가지고 데이터 포인트/행에 대한 거리 추정을 얻을 수 있는지 확인해 봅시다.
 
-<img src="/TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_2.png" />
+<img src="/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_2.png" />
 
 
 <div class="content-ad"></div>
@@ -206,7 +206,7 @@ X.iloc[gower_topn_index]
 
 다음은 제 결과입니다:
 
-<img src="/TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_5.png" />
+<img src="/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_5.png" />
 
 여기서 첫 번째 레코드와 가장 유사한 레코드는 해당 레코드 자체입니다. 이는 Gower가 각각의 레코드를 모든 레코드와 비교하기 때문입니다. 레코드 1과 가장 유사한 상위 n개의 레코드를 가져오고 레코드 1을 제외한 결과를 얻고 싶다면, 초기에 상위 n+1을 가져와 X.iloc[gower_topn_index][1:]를 쿼리하면 해당 최상위 레코드를 결과에서 제외시킬 수 있습니다.
 
@@ -214,7 +214,7 @@ X.iloc[gower_topn_index]
 
 만약 y.loc[gower_topn_index]을 호출하면, 첫 번째 행에 대한 가장 유사한 상위 10개 레코드의 대응하는 타겟 값을 볼 수 있습니다.
 
-![image](/TIL/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_6.png)
+![image](/assets/img/2024-07-12-GowersDistanceforMixedCategoricalandNumericalData_6.png)
 
 여기서 가장 유사한 상위 10개 레코드 중에서 9개 중 6개가 첫 번째 레코드의 수입(≤50K)과 일치했음을 볼 수 있습니다. 9개 중 3개만 일치하지 않고 '50K'를 만들었습니다. 이것은 우리가 4가지 기능만 가지고 있었기 때문에 꽤 괜찮은 결과입니다!
 

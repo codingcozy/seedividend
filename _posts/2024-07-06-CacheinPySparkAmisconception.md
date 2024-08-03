@@ -1,7 +1,7 @@
 ---
 title: "PySpark의 Cache 기능에 대한 오해"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-CacheinPySparkAmisconception_0.png"
+coverImage: "/assets/img/2024-07-06-CacheinPySparkAmisconception_0.png"
 date: 2024-07-06 10:34
 ogImage:
   url: /assets/img/2024-07-06-CacheinPySparkAmisconception_0.png

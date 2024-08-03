@@ -1,10 +1,10 @@
 ---
 title: "Python __all__ 이해하기 - 15초 설명"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-__all__inPythonExplainedin15Seconds_0.png"
+coverImage: "/assets/img/2024-07-13-__all__inPythonExplainedin15Seconds_0.png"
 date: 2024-07-13 20:09
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-__all__inPythonExplainedin15Seconds_0.png
+  url: /assets/img/2024-07-13-__all__inPythonExplainedin15Seconds_0.png
 tag: Tech
 originalTitle: "__all__ in Python Explained in 15 Seconds"
 link: "https://medium.com/gitconnected/all-in-python-explained-in-15-seconds-0cdb2135fdfd"
@@ -12,7 +12,7 @@ link: "https://medium.com/gitconnected/all-in-python-explained-in-15-seconds-0cd
 
 
 
-![image](/TIL/assets/img/2024-07-13-__all__inPythonExplainedin15Seconds_0.png)
+![image](/assets/img/2024-07-13-__all__inPythonExplainedin15Seconds_0.png)
 
 ## Case 1: No __all__
 

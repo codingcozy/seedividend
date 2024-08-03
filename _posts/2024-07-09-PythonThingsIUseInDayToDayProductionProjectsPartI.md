@@ -1,7 +1,7 @@
 ---
 title: "일상적인 프로덕션 프로젝트에서 사용하는 파이썬 도구들  Part I"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PythonThingsIUseInDayToDayProductionProjectsPartI_0.png"
+coverImage: "/assets/img/2024-07-09-PythonThingsIUseInDayToDayProductionProjectsPartI_0.png"
 date: 2024-07-09 20:45
 ogImage:
   url: /assets/img/2024-07-09-PythonThingsIUseInDayToDayProductionProjectsPartI_0.png
@@ -10,7 +10,7 @@ originalTitle: "Python Things I Use In Day To Day Production Projects — Part I
 link: "https://medium.com/python-in-plain-english/python-things-i-use-in-day-to-day-production-projects-part-i-68b80c7c9962"
 ---
 
-![Python Project](/TIL/assets/img/2024-07-09-PythonThingsIUseInDayToDayProductionProjectsPartI_0.png)
+![Python Project](/assets/img/2024-07-09-PythonThingsIUseInDayToDayProductionProjectsPartI_0.png)
 
 Let's talk about real-world projects. I like to share things that can have a real impact on your Python journey, and today I've decided to share how I structure, code, test, and deploy a real Python project.
 

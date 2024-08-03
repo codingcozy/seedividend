@@ -1,10 +1,10 @@
 ---
 title: "파이썬으로 GenAI 사용하기 LLM과 에이전트 비교"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png"
+coverImage: "/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png"
 date: 2024-07-12 19:31
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png
+  url: /assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png
 tag: Tech
 originalTitle: "GenAI with Python: LLM vs Agents"
 link: "https://medium.com/towards-data-science/genai-with-python-llm-vs-agents-5c3de7ec82a7"
@@ -12,11 +12,11 @@ link: "https://medium.com/towards-data-science/genai-with-python-llm-vs-agents-5
 
 
 
-![2024-07-12-GenAIwithPythonLLMvsAgents_0.png](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png)
+![2024-07-12-GenAIwithPythonLLMvsAgents_0.png](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png)
 
 이 글에서는 제너레이티브 인공지능(GenAI) 최첨단 기술인 에이전트를 로컬에서 구축하는 방법을 소개하겠습니다. 일반 LLM과의 차이를 설명하면서요.
 
-![2024-07-12-GenAIwithPythonLLMvsAgents_1.png](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_1.png)
+![2024-07-12-GenAIwithPythonLLMvsAgents_1.png](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_1.png)
 
 일반적으로, 지능형 에이전트는 환경을 인식할 수 있는 충분한 이해력으로 행동하는 존재로, 특정 목표를 달성하기 위해 자율적으로 행동하고 지식을 습득하며(사람과 같이) 개선합니다.
 
@@ -79,7 +79,7 @@ res = llm.invoke(input=["What day is today?"]).split("\n")[0]
 print(res)
 ```
 
-![이미지](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_2.png)
+![이미지](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_2.png)
 
 <div class="content-ad"></div>
 
@@ -93,7 +93,7 @@ from langchain.tools import DuckDuckGoSearchResults
 DuckDuckGoSearchResults().run("오늘은 무슨 요일인가요?")
 ```
 
-<img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_3.png" />
+<img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_3.png" />
 
 ... 또는 메타데이터 없이 텍스트만 원하면요.
 
@@ -105,7 +105,7 @@ from langchain_community.tools import DuckDuckGoSearchRun
 DuckDuckGoSearchRun().run("What day is today?")
 ```
 
-<img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_4.png" />
+<img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_4.png" />
 
 이제 첫 번째 에이전트를 만들어봅시다. LLM에게 우리가 방금 한 것처럼 웹을 탐색할 수 있는 기능을 제공하여. 그러면 인공지능은:
 
@@ -165,7 +165,7 @@ print(res)
 
 <div class="content-ad"></div>
 
-![GenAIwithPythonLLMvsAgents_5](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_5.png)
+![GenAIwithPythonLLMvsAgents_5](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_5.png)
 
 보시다시피, 에이전트는 LLM이 대답하지 못한 질문에 대답할 수 있어요. 개요를 파악하셨으니, 다음 단계로 넘어가볼까요?
 
@@ -190,7 +190,7 @@ for n,file in enumerate(folder):
     ax[n].set(title=file)
 ```
 
-<img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_6.png" />
+<img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_6.png" />
 
 LLM에게 게시물을 생성하도록 요청하려면(사진 하나를 선택하고 캡션을 작성하도록 하기 위해서), 이미지는 모델이 처리할 수 있도록 문자열로 인코딩되어야 합니다.
 
@@ -217,7 +217,7 @@ res = vision_llm.invoke(input=[prompt], images=lst_imgs)
 print(res)
 ```
 
-<img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_7.png" />
+<img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_7.png" />
 
 <div class="content-ad"></div>
 
@@ -249,7 +249,7 @@ for n,img in enumerate(lst_imgs):
 print(des)
 ```
 
-![이미지](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_8.png)
+![이미지](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_8.png)
 
 CrewAI에서는 에이전트 실행 시 입력을 제공해야 하며, 'inputs'를 이용하여 프롬프트에서 참조할 수 있습니다.
 
@@ -279,17 +279,17 @@ print("Res:", res)
 
 로그를 분석하기 위해 verbose=True로 설정했습니다. 에이전트는 요청을 처리하면서 필요한 도구인… 
 
-![이미지](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_9.png)
+![이미지](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_9.png)
 
 …을 사용해 작업을 시작합니다. 요청 결과를 검토하는 것으로 계속됩니다.
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_10.png" />
+<img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_10.png" />
 
 ... 그러고 나면 최종 답변이 나옵니다.
 
-<img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_11.png" />
+<img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_11.png" />
 
 그래서 Agents는 LLM과 같은 이미지를 선택하고 더 나은 캡션을 생성했습니다.
 
@@ -400,14 +400,14 @@ crew = crewai.Crew(agents=[agent_photograper, agent_social],
 res = crew.kickoff(inputs={"images":des})
 ```
 
-<img src="/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_12.png" />
+<img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_12.png" />
 
 
 <div class="content-ad"></div>
 
 로그에서 확인할 수 있듯이, 매니저가 요청을 처리하고 첫 번째 작업을 첫 번째 에이전트에게 위임했습니다. 첫 번째 결과는 완벽합니다. AI가 최근 소셜 미디어 트렌드와 인스타그램 알고리즘 논리를 분석했습니다.
 
-![첫 번째 결과](/TIL/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_13.png)
+![첫 번째 결과](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_13.png)
 
 그러나 두 번째 결과는 약간 납득하기 어렵습니다. 에이전트가 제품에 대한 "할인"을 언급했습니다. 요금 및 판매와 같은 주제는 지시에 포함되어 있지 않으며 인간 감독자가 승인해야 합니다 (human_input 매개변수 덕분에).
 

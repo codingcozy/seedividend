@@ -1,7 +1,7 @@
 ---
 title: "진정한 인공지능의 벽에 부딪힌 AGI의 발전 현황"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_0.png"
+coverImage: "/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_0.png"
 date: 2024-07-09 19:38
 ogImage:
   url: /assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_0.png
@@ -10,7 +10,7 @@ originalTitle: "Progress towards true Artificial General Intelligence (AGI) has 
 link: "https://medium.com/generative-ai/progress-towards-true-artificial-general-intelligence-agi-has-hit-a-wall-80a35c048f41"
 ---
 
-![image](/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_0.png)
+![image](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_0.png)
 
 인공 일반 지능(AGI)을 향한 탐구는 몇십 년 동안 연구 커뮤니티의 관심을 사로 잡아 왔습니다.
 
@@ -64,7 +64,7 @@ LLM은 독창적이거나 혁신적인 상황에 기반한 새로운 추론을 �
 
 지능은 넓거나 일반적인 능력에 있습니다; 훈련 데이터 외에도 새로운 기술을 효율적으로 습득할 수 있는 시스템으로 AGI를 정의하는 방식을 조정해야 합니다. 아니, 더 나아가...
 
-![이미지](/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_1.png)
+![이미지](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_1.png)
 
 # 이러한 종류의 지능을 어떻게 측정할 수 있을까요?
 
@@ -76,7 +76,7 @@ LLM은 독창적이거나 혁신적인 상황에 기반한 새로운 추론을 �
 
 **추상화 및 추론 말뭉치(ARC)**는 AI 시스템의 작업 범위에 걸쳐 습득 능률을 테스트하도록 특별히 설계된 벤치마크입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_2.png)
+![이미지](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_2.png)
 
 이는 추론과 추상화가 필요한 이미지 작업들을 포함한 과제 모음처럼 보입니다.
 
@@ -89,7 +89,7 @@ ARC 벤치마크는 중요한 이유가 있습니다.
 - 이는 이러한 추상적 추론을 필요로 하는 작업에 어려움을 겪는 현재의 기계 학습 방법에 도전합니다.
 - 이것은 연구자들이 인간 수준의 지능을 달성하기에 더 가까운 AI 시스템을 개발하는 데 도움이 됩니다.
 
-![이미지](/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_3.png)
+![이미지](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_3.png)
 
 <div class="content-ad"></div>
 
@@ -103,7 +103,7 @@ Chollet이 만든 2019년 Abstraction and Reasoning Corpus for Artificial Genera
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_4.png)
+![image](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_4.png)
 
 저는 이 도발을 좋아하고, 모든 AI 연구자가 이 도전에 대해 잘 알고 있다고 믿습니다. 대학 연구자들이 이 분야에서 몇 발자국 앞서 나가야 한다고 생각합니다. 학계는 보통 문제에 대해 다학제적 접근에 숙달되어 있지만, 그들은 자금과 컴퓨팅 파워 등 자원이 부족합니다.
 
@@ -123,7 +123,7 @@ ARC Challenge는 대규모 경쟁을 진행하는 역사가 있으며, 2020년 K
 
 <div class="content-ad"></div>
 
-![2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_5.png](/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_5.png)
+![2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_5.png](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_5.png)
 
 # 결론…
 
@@ -149,7 +149,7 @@ AGI를 위한 탐험은 복잡하고 도전적인 목표이지만 불가능한 �
 
 자료 및 참고 자료:
 
-![Generative AI](/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_6.png)
+![Generative AI](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_6.png)
 
 이 이야기는 Generative AI에서 게시되었습니다. LinkedIn에서 저희와 연락을 유지하고 최신 AI 이야기에 대해 최신 정보를 얻으려면 Zeniteq를 팔로우하세요.
 
@@ -157,4 +157,4 @@ AGI를 위한 탐험은 복잡하고 도전적인 목표이지만 불가능한 �
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_7.png)
+![Image](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_7.png)

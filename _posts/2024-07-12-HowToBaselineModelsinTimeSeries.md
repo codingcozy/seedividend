@@ -1,10 +1,10 @@
 ---
 title: "시계열 데이터에서 기본 모델 적용하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_0.png"
+coverImage: "/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_0.png"
 date: 2024-07-12 19:52
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_0.png
+  url: /assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_0.png
 tag: Tech
 originalTitle: "How To: Baseline Models in Time Series"
 link: "https://medium.com/towards-data-science/baseline-models-in-time-series-c76d44a826b3"
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/baseline-models-in-time-series-c7
 
 
 
-![이미지](/TIL/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_0.png)
+![이미지](/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_0.png)
 
 데이터 수집을 완료했습니다. 사업 케이스를 개요하고 후보 모델(예: 랜덤 포레스트)을 결정했으며, 개발 환경을 설정하고 키보드에 손을 대었습니다. 이제 시계열 모델을 구축하고 훈련할 준비가 되었습니다.
 
@@ -90,7 +90,7 @@ fig.show()
 
 여기 제 결과물입니다:
 
-<img src="/TIL/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_1.png" />
+<img src="/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_1.png" />
 
 <div class="content-ad"></div>
 
@@ -154,7 +154,7 @@ fig.show()
 
 이렇게 보이도록 표 태그를 마크다운 형식으로 변경해보세요. 
 
-![Moving Average Chart](/TIL/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_2.png)
+![Moving Average Chart](/assets/img/2024-07-12-HowToBaselineModelsinTimeSeries_2.png)
 
 에러 메트릭을 얻으려면, 이전과 같은 과정을 따르되 moving_avg 배열을 사용하면 됩니다.
 

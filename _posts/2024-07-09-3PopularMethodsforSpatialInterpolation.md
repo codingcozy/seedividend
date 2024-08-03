@@ -1,7 +1,7 @@
 ---
 title: "공간 보간을 위한 3가지 인기 있는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_0.png"
+coverImage: "/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_0.png"
 date: 2024-07-09 19:17
 ogImage:
   url: /assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/3-best-methods-for-spatial-interp
 
 ## 처음부터, Python에서
 
-<img src="/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_0.png" />
+<img src="/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_0.png" />
 
 보간법은 데이터 과학자 뿐만 아니라 다양한 분야의 사람들에 의해 사용되는 매우 일반적인 수학적 개념입니다. 그러나 지리 공간 데이터를 다룰 때, 보간은 종종 희소한 관측치를 기반으로 대표적인 그리드를 만들어야 하기 때문에 더 복잡해집니다.
 
@@ -30,13 +30,13 @@ x = np.arange(-5,5, 0.1)
 y = F(x)
 ```
 
-<img src="/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_1.png" />
+<img src="/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_1.png" />
 
 이제 [-4.2, 0, 2.5]에서 몇 개의 점을 무작위로 샘플링하고 이를 연결해 보겠습니다:
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_2.png)
+![이미지](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_2.png)
 
 이것은 선형 보간법이라고 불립니다. 각 구간에서 직선으로 함수를 근사하고 있으며, 이제 3개의 점에서 함수의 값을 알고 있을 때 [-4.2;2.5] 구간 내의 값을 찾을 수 있습니다.
 
@@ -55,7 +55,7 @@ shape = gpd.read_file('gadm41_CHE_0.shp')
 shape.plot()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_3.png" />
+<img src="/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_3.png" />
 
 정말 대단해요! 스위스인 것 같네요 =)
 
@@ -88,7 +88,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![그리드 및 지도 오버레이를 시각화하기 위해 다음을 수행하겠습니다:](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_4.png)
+![그리드 및 지도 오버레이를 시각화하기 위해 다음을 수행하겠습니다:](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_4.png)
 
 ```js
 import matplotlib.ticker as mticker
@@ -109,7 +109,7 @@ gl.yformatter = LATITUDE_FORMATTER
 plt.show()
 ```
 
-![결과 이미지](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_5.png)
+![결과 이미지](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_5.png)
 
 <div class="content-ad"></div>
 
@@ -123,7 +123,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_6.png)
+![Image](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_6.png)
 
 두 번째는 NN 메소드 자체입니다. 관측값을 저장할 빈 배열을 만든 후, 모든 위도와 경도를 반복하면서 각 포인트에서 현재 그리드 노드까지의 거리를 계산하고 그 그리드 노드에 가장 가까운 관측값을 할당합니다.
 
@@ -164,7 +164,7 @@ ds = xr.Dataset(
 
 이제 결과를 플로팅할 수 있습니다:
 
-![](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_7.png)
+![](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_7.png)
 
 보기 좋지만, regionmask 라이브러리를 사용하여 스위스 매스크를 만들어 플롯을 더 보기 좋게 변경해 보겠습니다:
 
@@ -183,7 +183,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_8.png" />
+<img src="/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_8.png" />
 
 보시다시피 이 방법은 범주형 데이터에만 적용될 수 있습니다. 우리가 다루는 것은 온도로, 이는 연속 변수로 어떤 범위 안에서 어떤 값이든 가질 수 있다는 것을 의미합니다. 이 보간은 혼동스러울 수 있습니다. 현실에서는 항상 그라데이션과 무작위성이 있습니다.
 
@@ -213,13 +213,13 @@ def IDW(data, LAT, LON, betta=2):
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_9.png)
+![image](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_9.png)
 
-![image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_10.png)
+![image](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_10.png)
 
 Let’s plot it:
 
-![image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_11.png)
+![image](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_11.png)
 
 <div class="content-ad"></div>
 
@@ -250,7 +250,7 @@ Let’s plot it:
 
 이론적 변이그램은 다소 복잡합니다. 먼저, 그런것이 많이 있습니다:
 
-![Variogram](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_13.png)
+![Variogram](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_13.png)
 
 여기서 p는 부분 재, d는 거리(h를 사용했었죠), n은 극소값, r은 범위를 나타냅니다.
 
@@ -258,7 +258,7 @@ CDT 콜롬비아에서 이러한 매개변수에 대한 정말 좋은 시각적 
 
 <div class="content-ad"></div>
 
-![Spatial Interpolation Method](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_14.png)
+![Spatial Interpolation Method](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_14.png)
 
 알고리즘의 전체 아이디어는 이론적 변이그램의 매개변수를 조정하여 실험적인 것에 맞게 맞추고, 그것을 사용하여 노드의 값을 예측하는 것입니다.
 
@@ -426,7 +426,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_15.png)
+![image](/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_15.png)
 
 위와 같이 결과가 IDW에서 얻은 것과는 꽤 다르다는 것을 알 수 있어요. 크리깅에서 가장 중요한 매개변수는 선택한 이론적 변이그램 종류인데, 이는 사실 상 예측된 값과 거리 간의 관계를 정의합니다. 코드를 사용하기 귀찮으시거나 직접 작성하고 싶지 않다면 많은 변이그램 모델의 구현을 갖고 있는 PyKrige 라이브러리를 살펴보세요.
 

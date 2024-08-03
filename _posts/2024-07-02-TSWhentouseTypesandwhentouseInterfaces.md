@@ -1,10 +1,10 @@
 ---
 title: "TS Types와 Interfaces를 사용하는 방법 및 시기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-02-TSWhentouseTypesandwhentouseInterfaces_0.png"
+coverImage: "/assets/img/2024-07-02-TSWhentouseTypesandwhentouseInterfaces_0.png"
 date: 2024-07-02 21:53
 ogImage:
-  url: /TIL/assets/img/2024-07-02-TSWhentouseTypesandwhentouseInterfaces_0.png
+  url: /assets/img/2024-07-02-TSWhentouseTypesandwhentouseInterfaces_0.png
 tag: Tech
 originalTitle: "TS: When to use Types and when to use Interfaces"
 link: "https://medium.com/@a.kago1988/ts-when-to-use-types-and-when-to-use-interfaces-561e8cab2166"

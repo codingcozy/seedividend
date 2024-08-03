@@ -1,17 +1,17 @@
 ---
 title: "파이썬 속도를 떨어뜨리는 다섯 가지 코딩 실수 및 오늘 해결하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png"
+coverImage: "/assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png"
 date: 2024-07-12 20:38
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png
+  url: /assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png
 tag: Tech
 originalTitle: "5 Python Coding Errors That Are Killing Your Speed (And How to Fix Them Today)"
 link: "https://medium.com/python-in-plain-english/5-python-coding-errors-that-are-killing-your-speed-and-how-to-fix-them-today-8064f4d32e20"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png" />
+<img src="/assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png" />
 
 안녕하세요, 파이썬 개발자 여러분! 저는 구글 출신인 다니엘입니다. 현재는 Django를 사용하여 웹 애플리케이션을 개발하고 파이썬에 대한 집착을 키우는 데 시간을 할애하고 있습니다. 저는 주말에는 Medium에서 활발하게 활동하며 시간이 흐른 만큼 축적한 가치 있는 통찰을 전달하고, 여러분을 프로그래밍 대가로 변신시키기 위해 노력하고 있습니다.
 

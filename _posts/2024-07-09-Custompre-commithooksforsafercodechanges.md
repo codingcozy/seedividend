@@ -1,7 +1,7 @@
 ---
 title: "코드 변경을 안전하게 하는 커스텀 pre-commit 훅 사용하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_0.png"
+coverImage: "/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_0.png"
 date: 2024-07-09 21:03
 ogImage:
   url: /assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/custom-pre-commit-hooks-for-safer
 
 ## 첫 번째 pre-commit 훅을 작성하는 단계별 가이드
 
-![이미지](/TIL/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_0.png)
+![이미지](/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_0.png)
 
 대부분의 소프트웨어는 코드를 업데이트하고 배포하기 위해 git 버전 관리 시스템을 사용하여 개발됩니다. 코드를 협업하여 작성하는 한 가지 어려움은 각 참여자가 깨끗한 코드로 간주되는 것에 대한 자기 스타일과 의견이 있을 때 특정한 표준을 보장하는 것입니다.
 
@@ -90,7 +90,7 @@ repos:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_1.png" />
+<img src="/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_1.png" />
 
 ## 2. 훅 로직 작성
 
@@ -176,7 +176,7 @@ cli-command = "hooks.cli_command:main"
 - 훅을 테스트하고 싶은 디렉토리 /my-project로 이동하세요.
 - pre-commit try-repo ../LOCAL/PATH/TO/my-hooks 명령을 실행하고, 로컬 초기화 메시지가 표시되어야 합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_2.png)
+![이미지](/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_2.png)
 
 한 가지 제한 사항은이 명령을 통해 훅에 직접 매개변수를 전달할 수 없다는 것입니다.
 
@@ -195,7 +195,7 @@ repos:
 
 4. `pre-commit run --config .local-pre-commit-config.yaml --all-files` 명령어를 사용하여 로컬 후크를 실행하세요. `--all-files` 플래그를 사용하면 현재 스테이징된 파일뿐만 아니라 저장소의 모든 파일에 후크가 적용됩니다.
 
-![Custom Pre-Commit Hooks](/TIL/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_3.png)
+![Custom Pre-Commit Hooks](/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_3.png)
 
 ## 5. Pre-Commit 후크 공개하기
 
@@ -205,19 +205,19 @@ repos:
 
 - GitHub 저장소에서 Releases 섹션으로 이동하세요
 
-![image](/TIL/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_4.png)
+![image](/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_4.png)
 
 2. 새 릴리스 초안 작성을 클릭하세요
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_5.png)
+![이미지](/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_5.png)
 
 3. 새 릴리스 페이지에서는 버전 태그, 제목 및 설명을 추가해야 합니다. 첫 번째 릴리스인 경우, GitHub에서 권장하는 시맨틱 버전을 따르기 위해 태그를 v0.1.0으로 설정하는 것이 좋습니다.
 
 변경 사항을 만들고 실험 버전을 배포하려는 경우 버전을 v0.1.1-rc로 설정하고 "릴리스 후보"로 표시하려면 확인란을 사용하세요.
 
-![이미지](/TIL/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_6.png)
+![이미지](/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_6.png)
 
 <div class="content-ad"></div>
 

@@ -1,7 +1,7 @@
 ---
 title: "UV vs PIP 2024년에 Python 패키지 관리를 혁신하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_0.png"
+coverImage: "/assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_0.png"
 date: 2024-07-07 12:57
 ogImage:
   url: /assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@sumakbn/uv-vs-pip-revolutionizing-python-package-mana
 
 파이썬은 단순한 자동화 스크립트부터 복잡한 머신 러닝 응용프로그램까지 모든 것에 선호되는 언어로 계속해서 주도하고 있습니다. 이에 효율적인 패키지 관리는 중요합니다. 과거에는 파이썬의 패키지 설치 관리자인 pip이 이 관리 시스템의 최전선에 있었습니다. 그러나 Rust로 작성된 현대적인 패키지 설치 관리자인 UV의 등장은 속도, 효율성, 신뢰성을 향상시켜 혁명적인 변화를 약속합니다. 이 블로그는 UV와 pip 사이의 성능, 기능 및 파이썬 개발에 미치는 전반적인 영향에 초점을 맞추어 차이점을 탐구합니다.
 
-![UV와 PIP를 비교하는 이미지](/TIL/assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_0.png)
+![UV와 PIP를 비교하는 이미지](/assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_0.png)
 
 # PIP 개요
 
@@ -59,9 +59,9 @@ UV는 향상된 오류 진단 기능을 제공하여 pip에서 자주 나타나�
 
 간단한 판다스 설치 예제를 사용하여 두 가지를 비교해보겠습니다.
 
-![이미지 1](/TIL/assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_1.png)
+![이미지 1](/assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_1.png)
 
-![이미지 2](/TIL/assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_2.png)
+![이미지 2](/assets/img/2024-07-07-UVvsPIPRevolutionizingPythonPackageManagement_2.png)
 
 <div class="content-ad"></div>
 

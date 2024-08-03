@@ -1,7 +1,7 @@
 ---
 title: "Pytest로 소프트웨어 테스트하는 종합 가이드 2"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png"
+coverImage: "/assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png"
 date: 2024-07-07 19:17
 ogImage:
   url: /assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png
@@ -10,7 +10,7 @@ originalTitle: "A Comprehensive Guide to Software Testing with Pytest #2"
 link: "https://medium.com/@rockeyrockssandeep1994/a-comprehensive-guide-to-software-testing-with-pytest-2-e0e59fdf1933"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png" />
+<img src="/assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png" />
 
 두 번째 부분에서는 소프트웨어 테스트의 원칙과 실천 방법에 대해 이야기하겠습니다. 또한 "pytest가 이러한 원칙과 실천 방법을 구현하는 데 어떻게 도움이 되는지"에 대한 질문에 대답할 것입니다.
 

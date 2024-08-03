@@ -1,10 +1,10 @@
 ---
 title: "파이썬을 사용한 탐색적 데이터 분석EDA을 위한 데이터 시각화 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_0.png"
+coverImage: "/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_0.png"
 date: 2024-07-13 19:08
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_0.png
+  url: /assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_0.png
 tag: Tech
 originalTitle: "Data Visualization for Exploratory Data Analysis (EDA) in Python"
 link: "https://medium.com/@pythonfundamentals/data-visualization-for-exploratory-data-analysis-eda-in-python-4aea402648e7"
@@ -13,7 +13,7 @@ link: "https://medium.com/@pythonfundamentals/data-visualization-for-exploratory
 
 데이터 시각화는 탐색적 데이터 분석의 중요한 부분이에요. 데이터를 분석하고 시각화함으로써 데이터의 분포, 변수 간의 관계, 그리고 이상값을 파악하는데 도움이 되죠.
 
-![Data Visualization Image](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_0.png)
+![Data Visualization Image](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_0.png)
 
 파이썬에는 시각화를 빠르고 효율적으로 만들 수 있는 다양한 라이브러리가 있어요. 파이썬을 사용하여 탐색적 데이터 분석 시 흔히 사용되는 시각화 유형은 다음과 같아요:
 
@@ -79,7 +79,7 @@ heart = pd.read_csv('heart.csv')
 heart.head()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_1.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_1.png" />
 
 데이터셋은 환자가 심장마비를 겪었는지 여부를 나타내는 출력 열을 포함한 총 14개의 열을 가지고 있는 것을 확인할 수 있습니다. 이제 시각화 작업을 시작해봅시다.
 
@@ -94,7 +94,7 @@ heart.head()
 heart.isnull().sum().sort_values(ascending=False).head(11)
 ```
 
-![image](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_2.png)
+![image](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_2.png)
 
 여기서는 누락된 값이 없는 것을 확인할 수 있습니다.
 
@@ -104,12 +104,12 @@ heart.isnull().sum().sort_values(ascending=False).head(11)
 # 중복된 값 체크
 heart.duplicated().sum()
 
-![Screenshot](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_3.png)
+![Screenshot](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_3.png)
 
 # 중복된 값 삭제
 heart.drop_duplicates(keep='first', inplace=True)
 
-![Screenshot](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_4.png)
+![Screenshot](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_4.png)
 ```
 
 <div class="content-ad"></div>
@@ -123,7 +123,7 @@ heart.drop_duplicates(keep='first', inplace=True)
 heart.describe().T
 ```
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_5.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_5.png" />
 
 <div class="content-ad"></div>
 
@@ -152,7 +152,7 @@ plt.xticks(rotation=0)
 <div class="content-ad"></div>
 
 
-![Image](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_6.png)
+![Image](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_6.png)
 
 ```js
 fig = px.pie(heart2,
@@ -181,7 +181,7 @@ fig.update_traces(textposition='outside',  textinfo='percent+label', rotation=20
 fig.show()
 ```
 
-![Image](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_7.png)
+![Image](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_7.png)
 
 해석: 남성은 심장 공격의 위험이 더 높습니다.
 
@@ -204,7 +204,7 @@ plt.ylabel("수", fontsize=16)
 plt.show()
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_8.png)
+![이미지](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_8.png)
 
 ```js
 # 연령에 기반한 분석
@@ -225,7 +225,7 @@ plt.show()
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_9.png)
+![이미지](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_9.png)
 
 해석: 대부분의 환자의 나이는 50-60대입니다. 그 중에서도 가장 많은 환자의 나이는 58세입니다.
 
@@ -252,7 +252,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_10.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_10.png" />
 
 ```js
 plt.figure(figsize=(8,6))
@@ -267,7 +267,7 @@ plt.ylabel("Cholesterol Level",fontsize=16)
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_11.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_11.png" />
 
 해석:
 
@@ -296,7 +296,7 @@ plt.legend(['낮은 위험','높은 위험'], fontsize=14)
 plt.xticks(rotation=0);
 ```
 
-<img src="/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_12.png" />
+<img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_12.png" />
 
 해석:
 
@@ -318,7 +318,7 @@ plt.title("변수 간 상관 관계", size=15)
 plt.show()
 ```
 
-![그림](/TIL/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_13.png)
+![그림](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_13.png)
 
 해석:
 

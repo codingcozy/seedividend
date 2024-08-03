@@ -1,17 +1,17 @@
 ---
 title: "수학적 프로그래밍으로 자산 저장 문제 해결하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png"
+coverImage: "/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png"
 date: 2024-07-12 20:05
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png
+  url: /assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png
 tag: Tech
 originalTitle: "How to Solve an Asset Storage Problem with Mathematical Programming"
 link: "https://medium.com/towards-data-science/how-to-solve-an-asset-storage-problem-with-mathematical-programming-3b96b7cc22d1"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png" />
+<img src="/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png" />
 
 이사는 어려워요. 솔직히 말해서, 매우 귀찮아요. 좀 짜증나죠. 특히 새로 이사갈 곳이 없으면 더 어려워요. 그런 경우에는 친구 집에 머물면서 물건을 임시 보관할 곳을 빌려야 할 수도 있는데, 보관 장소는 사용 면적에 따라 요금을 부과하기 때문에 가격이 비싸질 수 있어요. (그런 일은 절대 없다고 하시기 전에, 프랑스에서 폴란드로 이사 올 때 제 친구 중 한 명에게 일어났던 정황을 알려드립니다.)
 
@@ -23,7 +23,7 @@ link: "https://medium.com/towards-data-science/how-to-solve-an-asset-storage-pro
 
 제 매니저인 뛰어난 분이 이 문제를 제게 제기했어요. 우리는 전체 서비스 부문의 모든 자산을 본 시설로 이전하여 안전하고 제한된 공간에 보관할 계획이라고 말씀해 주셨어요. 이러한 자산들이 매우 귀중하기 때문에 도난이나 손상 가능성을 최대한 피하고 싶었습니다. 특히 몇몇 특수 트럭은 수천 달러가치의 부품이 장착되어 있었고, 국가의 상황을 감안할 때 도난 유혹이 높았어요. 따라서, 관리 부서의 허락이 없는 한 누구도 안전 구역에 들어가선 안 되었죠. 이 규칙을 시행하기 위해 우리는 전기 울타리와 경계를 침범한 사람이 있을 경우 알람이 울리도록 연결된 적외선 센서로 해당 영역을 둘러쌌어요 (진짜 말이죠; 이건 실화입니다). 그러나 이 계획의 문제는 그 모든 방어 조치가 비용이 많이 든다는 것이었고, 이 방어 시스템을 빌려주는 회사는 총 둘러싸인 영역을 기준으로 비용을 부과했어요. 제 매니저는 안전 구역 면적을 최소화하여 비용을 줄이기 위해 이 자산들의 공간 배치 방법을 찾아보라고 했어요. 전기 울타리 회사는 둘러싸인 영역이 직사각형이나 정사각형이어야 한다고 요구했어요. 게다가, 자산에 손상을 피하기 위해 자산을 쌓을 수 없었죠 (트럭 위에 다른 트럭을 올릴 수 없어요). 그래서 우리는 문서에 공통되게 "조합 문제"라고 알려진 이차원 저장 문제를 다루게 되었어요.
 
-![](/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_1.png)
+![](/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_1.png)
 
 수학적 프로그래밍 능력으로 이 문제를 해결했다고 말씀 드리고 싶지만, 그렇지는 않아요. 이것은 나에게 박사 학위를 취득하기 훨씬 이전의 일이었고, 그 당시에는 이 문제를 수학적 최적화로 어떻게 다루어야 하는지 조차 모르고 있었거든요 - 사실, 어떻게 검색을 시작해야 하는지에 대해선 전혀 알고 있었을 리도 없었어요 (문제가 "조합 문제"라는 걸 어떻게 알고 시작해야 하는지 말이죠?). 삶에선 때로는 아무것도 모르는 걸 모르는 법이 있어요.
 
@@ -59,7 +59,7 @@ Gurobi를 사용해본 적이 없다면, 특히 Google Colab에서 사용하는 
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_2.png)
+![image](/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_2.png)
 
 - 변수 x_i와 y_i는 우리 문제의 각 "사각형" 자산의 (x, y) 좌표에 해당합니다. 모든 자산 또는 직사각형을 포함하는 I 집합이 있습니다.
 - 변수 b_i_j_k는 모델에서 "OR" 조건을 설정하기 위해 필요한 보조 이진 변수이며, 사용 방법은 나중에 자세히 설명됩니다.
@@ -68,7 +68,7 @@ Gurobi를 사용해본 적이 없다면, 특히 Google Colab에서 사용하는 
 
 다음과 같은 포맷을 사용하여 문제를 모델링할 수 있습니다
 
-![image](/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_3.png)
+![image](/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_3.png)
 
 
 <div class="content-ad"></div>
@@ -220,7 +220,7 @@ model.optimize()
 
 600초 후에도 최적 솔루션에는 아직 멀리 떨어져 있지만 사용 영역이 크게 줄어들었습니다. 초기 값 620에서 최종 값 238로 줄었습니다. 이는 초기 솔루션의 약 1/3에 해당하는 값입니다. 나쁘지 않죠.
 
-![이미지](/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_4.png)
+![이미지](/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_4.png)
 
 문제가 해결되었으므로 솔루션을 추출하고 플롯해야 합니다. 다음 코드를 따라하기만 하면 matplotlib의 Rectangle 객체를 사용하여 쉽게 이 작업을 수행할 수 있습니다:
 
@@ -268,7 +268,7 @@ plt.show()
 
 아래의 그림 5에서 얻은 조합 솔루션을 시각화할 수 있습니다.
 
-![Figure 5](/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_5.png)
+![Figure 5](/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_5.png)
 
 마지막으로, 솔루션을 데이터프레임에 저장할 수 있습니다. 이후 동료와 공유하고 싶을 때 CSV 또는 Excel 파일로 다운로드할 수 있습니다. 아래 코드 스니펫을 따라하면 됩니다:
 
@@ -392,7 +392,7 @@ plt.show()
 
 얻은 출력 솔루션은 아래 그림 6에 표시되어 있습니다:
 
-<img src="/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_6.png" />
+<img src="/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_6.png" />
 
 <div class="content-ad"></div>
 
@@ -470,7 +470,7 @@ plt.show()
 
 위 코드를 사용하여 얻은 출력 결과는 아래 그림 7에 표시되어 있습니다:
 
-<img src="/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_7.png" />
+<img src="/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_7.png" />
 
 
 <div class="content-ad"></div>
@@ -594,7 +594,7 @@ model.optimize()
 
 만약 모든 게 예정대로 진행된다면, 최적화 프로세스를 시작하기 위해 사용자가 제공한 솔루션으로부터 시작한다는 솔버의 메시지가 나타날 것입니다. 아래 그림 8과 같이 보일 것입니다.
 
-![Figure 8](/TIL/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_8.png)
+![Figure 8](/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_8.png)
 
 # 결론
 

@@ -1,7 +1,7 @@
 ---
 title: "견고성 원칙으로 정적 타입 검사기 무력화하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png"
+coverImage: "/assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png"
 date: 2024-07-06 02:22
 ogImage:
   url: /assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png

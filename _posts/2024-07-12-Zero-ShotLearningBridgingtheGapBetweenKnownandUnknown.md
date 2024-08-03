@@ -1,10 +1,10 @@
 ---
 title: "Zero-Shot Learning 알려진 것과 미지의 것을 잇는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_0.png"
+coverImage: "/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_0.png"
 date: 2024-07-12 19:50
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_0.png
+  url: /assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_0.png
 tag: Tech
 originalTitle: "Zero-Shot Learning: Bridging the Gap Between Known and Unknown"
 link: "https://medium.com/@evertongomede/zero-shot-learning-bridging-the-gap-between-known-and-unknown-5059a7c89460"
@@ -33,7 +33,7 @@ link: "https://medium.com/@evertongomede/zero-shot-learning-bridging-the-gap-bet
 
 박물관에 들어가 새로운 동물을 그린 그림을 보게 된다면 어떤 기술들을 가지고 있는지를 살펴보면서, 비늘, 날개, 그리고 뱀 모양의 몸 등의 특징을 보고, 이것이 바로 용이라는 것을 유추할 수 있습니다. 용을 한번도 본 적이 없더라도 설명을 토대로 추론하고 인식하는 인간의 능력은 바로 인공 지능의 Zero-shot learning (ZSL)이 목표로 하는 것입니다. 데이터가 풍부하지만 항상 레이블이 되어있지 않은 세계에서, ZSL은 기계가 학습하는 방식의 한계를 뛰어넘어, 그동안 본 적 없는 물체를 식별하고 분류할 수 있도록 가능하게 합니다.
 
-![그림](/TIL/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_0.png)
+![그림](/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_0.png)
 
 # Zero-Shot Learning의 이해
 
@@ -190,7 +190,7 @@ plt.show()
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_1.png)
+![image](/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_1.png)
 
 정확도: 0.995 모델은 99.5%의 정확도를 달성했습니다. 이는 예측 중 99.5%가 정확했음을 나타냅니다. 이 뛰어난 정확도 점수는 모델이 이 데이터셋에서 매우 잘 수행한다는 것을 시사합니다.
 
@@ -206,7 +206,7 @@ plt.show()
 
 제로샷 러닝 예측 산점도: 산점도는 제로샷 러닝 예측을 시각화합니다. 각 포인트는 테스트 인스턴스를 나타내며, 다른 색상은 예측된 클래스를 나타냅니다. 포인트들의 명확한 군집화는 모델이 특징에 기반하여 두 클래스를 구별하는 능력을 나타냅니다.
 
-![Zero-Shot Learning Predictions Scatter Plot](/TIL/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_2.png)
+![Zero-Shot Learning Predictions Scatter Plot](/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_2.png)
 
 교차 검증 결과: 막대 차트는 정규화 매개변수 CCC의 다른 값에 대한 교차 검증에서의 평균 테스트 점수를 보여줍니다:
 
@@ -216,7 +216,7 @@ plt.show()
 <div class="content-ad"></div>
 
 
-![Zero-Shot Learning Approach](/TIL/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_3.png)
+![Zero-Shot Learning Approach](/assets/img/2024-07-12-Zero-ShotLearningBridgingtheGapBetweenKnownandUnknown_3.png)
 
 최종 생각:
 

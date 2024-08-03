@@ -1,7 +1,7 @@
 ---
 title: "웹 서비스 개발을 위한 언어 선택 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png"
+coverImage: "/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png"
 date: 2024-07-09 15:08
 ogImage:
   url: /assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png
@@ -53,27 +53,27 @@ Singularity에서는 주로 웹 서비스에 Python을 사용합니다. 프론�
 
 Python
 
-![이미지](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png)
+![이미지](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png)
 
 <div class="content-ad"></div>
 
 NodeJS
 
-![NodeJS](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_1.png)
+![NodeJS](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_1.png)
 
 Elixir
 
-![Elixir](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_2.png)
+![Elixir](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_2.png)
 
 <div class="content-ad"></div>
 
 Rust
 
-![Rust](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_3.png)
+![Rust](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_3.png)
 
 Async Python
 
-![Async Python](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_4.png)
+![Async Python](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_4.png)
 
 <div class="content-ad"></div>
 
@@ -91,19 +91,19 @@ sorry, too many clients already
 
 파이썬
 
-![이미지](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_5.png)
+![이미지](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_5.png)
 
 NodeJS
 
 <div class="content-ad"></div>
 
-![Elixir](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_6.png)
+![Elixir](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_6.png)
 
-![Rust](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_7.png)
+![Rust](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_7.png)
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_8.png)
+![이미지](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_8.png)
 
 여기서는 초당 약 2,000개의 요청에 대한 설정을 유지하도록 요청하고 있습니다. 모든 프레임워크가 이를 처리하는 데 예쁘게 처리하지만 Python은 그렇지 않습니다. Python은 왜 따라잡지 못할까요? 왜 약 200개의 요청/초까지 제한될까요? 제 정확한 설정은 무엇인가요?
 
@@ -115,21 +115,21 @@ NodeJS
 
 Python
 
-![Python image](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_9.png)
+![Python image](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_9.png)
 
 NodeJS
 
-![NodeJS image](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_10.png)
+![NodeJS image](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_10.png)
 
 <div class="content-ad"></div>
 
 # Elixir
 
-![Elixir](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_11.png)
+![Elixir](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_11.png)
 
 # Rust
 
-![Rust](/TIL/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_12.png)
+![Rust](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_12.png)
 
 <div class="content-ad"></div>
 

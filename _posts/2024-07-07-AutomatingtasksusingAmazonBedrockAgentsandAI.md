@@ -1,7 +1,7 @@
 ---
 title: "Amazon Bedrock Agents 및 AI로 작업 자동화하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_0.png"
+coverImage: "/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_0.png"
 date: 2024-07-07 13:00
 ogImage:
   url: /assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_0.png
@@ -10,7 +10,7 @@ originalTitle: "Automating tasks using Amazon Bedrock Agents and AI"
 link: "https://medium.com/@leejamesgilmore/automating-tasks-using-amazon-bedrock-agents-and-ai-4b6fb8856589"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_0.png" />
+<img src="/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_0.png" />
 
 ## 서문
 
@@ -27,19 +27,19 @@ Amazon Bedrock Agents은 당신이 회사 내에서 스스로 작업을 수행�
 
 이들은 기본 모델, 데이터 소스, 지식베이스, 소프트웨어 응용 프로그램 및 사용자 대화 간의 상호작용을 관리하는 조정자 역할을 합니다. 추가로, 이들은 API 호출을 자동화하여 조치를 수행하고 이러한 조치와 관련된 정보를 풍부하게 하는 지식 베이스에 접근합니다.
 
-![Automating tasks using Amazon Bedrock Agents and AI](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_1.png)
+![Automating tasks using Amazon Bedrock Agents and AI](/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_1.png)
 
 본 문서에서는 가상의 호텔 및 스파 회사인 LJ Resorts를 다루어 AWS 구조와 코드를 살펴보겠습니다. 우리의 고객은 당사 애플리케이션을 사용하여 호텔 숙박, 골프 세션 및 스파 치료를 한꺼번에 예약하거나 이용 가능한 치료 및 할인, 영업 시간과 같은 회사 정보를 요청할 수 있습니다.
 
 <div class="content-ad"></div>
 
-![Image 1](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_2.png)
+![Image 1](/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_2.png)
 
 The full code repository can be found here:
 
 👇 Before we go any further — please connect with me on LinkedIn for future blog posts and Serverless news [Lee James Gilmore](https://www.linkedin.com/in/lee-james-gilmore/)
 
-![Image 2](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_3.png)
+![Image 2](/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_3.png)
 
 <div class="content-ad"></div>
 
@@ -63,7 +63,7 @@ The full code repository can be found here:
 
 <div class="content-ad"></div>
 
-![Automating tasks using Amazon Bedrock Agents and AI](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_4.png)
+![Automating tasks using Amazon Bedrock Agents and AI](/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_4.png)
 
 ## Amazon Bedrock 에이전트는 어떻게 작동하나요? 🤖
 
@@ -73,7 +73,7 @@ The full code repository can be found here:
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_5.png)
+![이미지](/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_5.png)
 
 다음 섹션에서는 본문에서 무엇을 구축 중인지 살펴보겠습니다. 그러면 코드를 살펴보고 응용 프로그램을 배포하고 테스트할 수 있습니다.
 
@@ -83,7 +83,7 @@ The full code repository can be found here:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_6.png" />
+<img src="/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_6.png" />
 
 저희는 이전 글에서 Amazon Bedrock Knowledge Bases에 대해 다뤘었는데, 해당 글은 여기에서 찾아볼 수 있어요:
 
@@ -428,7 +428,7 @@ export const handler = middy(adapter)
 
 <div class="content-ad"></div>
 
-![스테이트리스 스택](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_7.png)
+![스테이트리스 스택](/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_7.png)
 
 이제 우리 에이전트를 쿼리하는 스테이트리스 스택을 살펴보겠습니다.
 
@@ -611,7 +611,7 @@ export const handler = streamifyResponse(queryModelAdapter);
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_8.png)
+![이미지](/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_8.png)
 
 지금은 다른 시나리오에서도 이를 테스트할 수 있어요. 예를 들면 거래 확인, 스파 세션 예약 등등! 댓글에서 솔루션을 어떻게 찾았는지 알려주세요!
 
@@ -623,7 +623,7 @@ export const handler = streamifyResponse(queryModelAdapter);
 
 비슷한 콘텐츠를 위해 내 YouTube 채널을 구독해주세요!
 
-![Automating tasks using Amazon Bedrock Agents and AI](/TIL/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_9.png)
+![Automating tasks using Amazon Bedrock Agents and AI](/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_9.png)
 
 아래의 링크를 통해 연락하고 싶어요:
 

@@ -1,7 +1,7 @@
 ---
 title: "Django 앱 사이에서 모델을 이동하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png"
+coverImage: "/assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png"
 date: 2024-07-06 10:26
 ogImage:
   url: /assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png

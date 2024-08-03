@@ -1,17 +1,17 @@
 ---
 title: "위성으로 보이지 않는 용암 흐름과 활활 타오르는 산불을 어떻게 포착할 수 있을까 Python 사용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_0.png"
+coverImage: "/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_0.png"
 date: 2024-07-12 20:44
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_0.png
+  url: /assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_0.png
 tag: Tech
 originalTitle: "Satellites Can See Invisible Lava Flows and Active Wildfires, But How? (Python)"
 link: "https://medium.com/towards-data-science/satellites-can-see-invisible-lava-flows-and-active-wildires-but-how-python-371915464d1c"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_0.png" />
+<img src="/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_0.png" />
 
 # 목차
 
@@ -91,7 +91,7 @@ Band 2 (Blue), 3 (Green), 4 (Red), 및 8 (NIR)의 공간 해상도는 10 미터�
 
 이슬란드 화산:
 
-![이슬란드 화산](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_1.png)
+![이슬란드 화산](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_1.png)
 
 화산 분화는 현지 시간으로 2월 8일 목요일 오전 5시 30분에 발생했으며, 화면 캡처에 표시된 바와 같이 분화 후 정확히 7시간 후인 2월 8일 13:03 UTC(현지 시간 12시 30분)에 촬영된 이미지가 하나만 가능합니다.
 
@@ -99,7 +99,7 @@ Band 2 (Blue), 3 (Green), 4 (Red), 및 8 (NIR)의 공간 해상도는 10 미터�
 
 ## 크릭 파이어:
 
-![크릭 파이어](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_2.png)
+![크릭 파이어](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_2.png)
 
 크릭 파이어는 9월 4일에 발생했으며 12월 24일에 소멸되었습니다. 목록의 두 이미지 모두 8일에 촬영되었습니다 (산불 발생 후 4일이 지난 후), 그러나 두 번째 이미지의 컨텐츠 길이는 0입니다. 따라서, 이 게시물에서는 첫 번째 이미지 (S2A_MSIL1C_20200908T183921_N0500_R070_T11SKB_20230309T124945)를 사용하겠습니다.
 
@@ -120,14 +120,14 @@ f"{product_name}/{root[0][0][12][0][0][12].text}.jp2" # Shortwave infrared-2
 
 ## 아이슬란드 화산:
 
-<img src="/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_3.png" />
+<img src="/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_3.png" />
 
 
 <div class="content-ad"></div>
 
 ## Creek Fire:
 
-![Creek Fire Image](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_4.png)
+![Creek Fire Image](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_4.png)
 
 ⚙️ Processing Sentinel-2 Images (Clipping and Downscaling)
 
@@ -304,13 +304,13 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 ## Iceland Volcano:
 
-![Iceland Volcano](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_5.png)
+![Iceland Volcano](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_5.png)
 
 ## Creek Fire:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_6.png" />
+<img src="/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_6.png" />
 
 같은 차원의 모든 밴드를 가지고 있으므로 이제 이 게시물의 "스택, Geotiff로 변환한 다음 AOI( TOA)에 자르기" 섹션을 기반으로 스택 파일을 생성할 수 있습니다.
 
@@ -322,17 +322,17 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 ## 아이슬란드 화산:
 
-![아이슬란드 화산](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_7.png)
+![아이슬란드 화산](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_7.png)
 
 이 그림은 시각적 영역에서 기록된 것으로, 화산 주변에 용암이 퍼져 있음을 볼 수 있습니다 (검은 픽셀), 화산의 연기 기둥, 그리고 몇 가지 매우 작은 빨간색 영역은 활성 용암을 보여줍니다. 앞에서 언급한 대로, 시각 대역에서 빛은 쉽게 산란되어, 우리는 이 이미지에서 연기 기둥을 흰색 픽셀로 볼 수 있습니다. 시각 대역에서 빛의 산란은 물체를 가리는데, 연기 아래에 있는 활성 용암을 관측하기 어렵게 만듭니다. 스크립트의 밝기를 제어하는 이득 매개변수를 조정해도 (스크립트의 이득 매개변수), 서쪽으로 흐르는 용암 흐름만 볼 수 있습니다:
 
-![활성 용암을 볼 수 있나요?](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_8.png)
+![활성 용암을 볼 수 있나요?](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_8.png)
 
 <div class="content-ad"></div>
 
 가시 스펙트럼에서 조정된 이득 매개 변수로 인해 화산재가 서쪽으로 이동하는 것을 더 명확하게 볼 수 있습니다. 하지만 여전히 연기 구름 아래에서 무슨 일이 일어나고 있는지는 모릅니다. 이번에는 근적외선 정보를 추가하여 이미지를 다시 그려보겠습니다.
 
-![image](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_9.png)
+![image](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_9.png)
 
 이것을 통해 해당 시간에 두 개의 활동적인 용암 흐름이 있었음을 알 수 있습니다. 하나는 서쪽으로 향하는 것으로서 가시 스펙트럼에서 어느 정도 감지할 수 있었으며, 다른 하나는 남쪽으로 이동하고 있었는데 이는 근적외선 빛을 통해 확인되었습니다. 남쪽으로 향하는 흐름은 그리인다비크 근처에 있었는데, 해당 지역은 이전 11월의 분출 이후 대피된 지역입니다.
 
@@ -342,7 +342,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 앞으로 나아가서 이미지를 다시 그려봅시다. 이번에는 단파적 초적외선 및 근적외선 대역만 사용하겠습니다:
 
-![image](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_10.png)
+![image](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_10.png)
 
 단파적 초적외선을 추가함으로써 이미지에 또 다른 정보가 더해졌음을 확인할 수 있습니다. 화산재를 나타내는 더 밝은 픽셀에 더해, 첫 번째와 두 번째 이미지의 검은 용암이 이제 두 영역으로 분리되었음을 보실 수 있습니다: 붉은색과 검은색. 붉은 영역은 새롭게 화재가 발생한 지역을 나타내며, 단파적 대역에서 더 많이 반사되는 온한 용암을 포함하고 있을 가능성이 높습니다. 나머지 부분은 활동이 없는 용암을 보여줍니다.
 
@@ -352,11 +352,11 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 이전 섹션과 유사하게, 화재를 위한 센티넬-2 이미지를 플로팅할 것인데요. 이를 위해 가시 파장대 (적색, 청색, 녹색), 가시 및 근적외선 파장대 (녹색, 적색, 근적외선), 그리고 적외선 파장대(단파 및 근적외선)을 결합하여 사용할 거에요. 우선 가시 영역부터 시작해보죠:
 
-![Sentinel-2 이미지](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_11.png)
+![Sentinel-2 이미지](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_11.png)
 
 이 사진은 Creek Fire를 위한 가시 파장대를 사용해 촬영한 센티넬-2 이미지입니다. 앞서 언급한 대로 이 지역에서 빛은 쉽게 산란되기 때문에, 보이는 것은 불타는 지역으로부터 대기로 솟아 오르는 매우 밀도 높은 연기 구름뿐입니다. 그러나 화산 예시와 같이, 적외선 영역의 빛은 연기로 투과할 수 있어 가시 영역에서 보이지 않는 것을 드러낼 수 있습니다. 연기 속 상황을 평가하기 위해, 가까운 적외선과 가시 파장대를 사용해 이미지를 플로팅하여 연기 아래에서 무슨 일이 일어나고 있는지 알아봅시다:
 
-![Sentinel-2 이미지](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_12.png)
+![Sentinel-2 이미지](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_12.png)
 
 <div class="content-ad"></div>
 
@@ -364,7 +364,7 @@ downscale_raster(input_band_path_B12, output_band_path_B12, scale_factor)
 
 여기에 설명된 대로, 화산 상황과는 달리 근적외선은 가시적인 대역과 유사하게 산란되어 연기 아래에서 무슨 일이 일어나는지 밝혀내기에 유용하지 않았습니다. Sentinel-2에는 근적외선보다 파장이 긴 두 개의 단파장 적외선 대역이 있기 때문에, 이 이미지를 그 두 개의 단파장 적외선 대역과 근적외선을 사용하여 한 번 더 그려보고 시각화에서 가시 대역을 제거했습니다:
 
-![이미지](/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_13.png)
+![이미지](/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_13.png)
 
 인상적이지 않나요?
 
@@ -437,9 +437,9 @@ with rasterio.open("stacked_TOA.tif") as src:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_14.png" />
+<img src="/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_14.png" />
 
-<img src="/TIL/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_15.png" />
+<img src="/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_15.png" />
 
 Sentinel-2 섹션에서 언급했듯이, 이 위성은 13개의 밴드를 가지고 있으며, 이 중 9개는 적외선 영역에 해당됩니다. 우리는 연기 아래 숨겨진 물체들을 드러내기 위해 적외선 영역의 세 밴드만 사용했습니다. 다른 적외선 밴드들인 레드 엣지(Band 5, 6, 7, 그리고 8A)를 사용하여 용암이나 화재가 발생한 지역의 시각화를 탐색해보세요. 그 결과에 미치는 영향을 관찰해보세요.
 

@@ -1,7 +1,7 @@
 ---
 title: "유지보수성을 높이는 5가지 TypeScript 실천법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-5TypescriptPracticesforImprovedMaintainability_0.png"
+coverImage: "/assets/img/2024-07-07-5TypescriptPracticesforImprovedMaintainability_0.png"
 date: 2024-07-07 19:20
 ogImage:
   url: /assets/img/2024-07-07-5TypescriptPracticesforImprovedMaintainability_0.png
@@ -10,7 +10,7 @@ originalTitle: "5 Typescript Practices for Improved Maintainability"
 link: "https://medium.com/@davislaura/5-typescript-practices-for-improved-maintainability-cd52bc5c8eda"
 ---
 
-![이미지](/TIL/assets/img/2024-07-07-5TypescriptPracticesforImprovedMaintainability_0.png)
+![이미지](/assets/img/2024-07-07-5TypescriptPracticesforImprovedMaintainability_0.png)
 
 아래의 권장 사항은 Typescript를 사용하여 더 유지보수가 용이한 코드를 만드는 데 도움이 되었던 몇 가지 조언에 대한 것입니다. 이 조언들은 새로운 구성 요소에서 Typescript를 사용하고 기존 페이지에서는 여전히 순수 JavaScript를 사용하는 프런트엔드 코드 베이스에서 특히 유용했습니다. 여러분에게도 조금 도움이 되기를 바랍니다.
 

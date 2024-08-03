@@ -1,7 +1,7 @@
 ---
 title: "파이썬 비동기 프로세싱 소개"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_0.png"
+coverImage: "/assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_0.png"
 date: 2024-07-09 20:08
 ogImage:
   url: /assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_0.png
@@ -10,13 +10,13 @@ originalTitle: "Python — Asynchronous Processing Introduction"
 link: "https://medium.com/@tonylixu/python-asynchronous-processing-introduction-601be5ba361c"
 ---
 
-![image](/TIL/assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_0.png)
+![image](/assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_0.png)
 
 # Asynchronous Processing이란 무엇인가요?
 
 비동기 처리는 작업이나 동작을 메인 프로그램의 실행을 차단하지 않고 동시에 실행할 수 있는 프로그래밍 패러다임입니다.
 
-![image](/TIL/assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_1.png)
+![image](/assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_1.png)
 
 <div class="content-ad"></div>
 

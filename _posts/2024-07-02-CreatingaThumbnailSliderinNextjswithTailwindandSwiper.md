@@ -1,10 +1,10 @@
 ---
 title: "Nextjs에서 Tailwind와 Swiper로 썸네일 슬라이더 만드는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-02-CreatingaThumbnailSliderinNextjswithTailwindandSwiper_0.png"
+coverImage: "/assets/img/2024-07-02-CreatingaThumbnailSliderinNextjswithTailwindandSwiper_0.png"
 date: 2024-07-02 21:47
 ogImage:
-  url: /TIL/assets/img/2024-07-02-CreatingaThumbnailSliderinNextjswithTailwindandSwiper_0.png
+  url: /assets/img/2024-07-02-CreatingaThumbnailSliderinNextjswithTailwindandSwiper_0.png
 tag: Tech
 originalTitle: "Creating a Thumbnail Slider in Next.js with Tailwind and Swiper"
 link: "https://medium.com/@dadateniola/creating-a-thumbnail-slider-in-next-js-with-tailwind-and-swiper-88cd3fd67709"

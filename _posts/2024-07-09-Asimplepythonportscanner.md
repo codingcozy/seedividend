@@ -1,7 +1,7 @@
 ---
 title: "간단한 파이썬 포트 스캐너 사용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Asimplepythonportscanner_0.png"
+coverImage: "/assets/img/2024-07-09-Asimplepythonportscanner_0.png"
 date: 2024-07-09 09:14
 ogImage:
   url: /assets/img/2024-07-09-Asimplepythonportscanner_0.png
@@ -10,7 +10,7 @@ originalTitle: "A simple python port scanner"
 link: "https://medium.com/@alhobabtagiddin/a-simple-python-port-scanner-57f99c154cef"
 ---
 
-![포트 스캐너](/TIL/assets/img/2024-07-09-Asimplepythonportscanner_0.png)
+![포트 스캐너](/assets/img/2024-07-09-Asimplepythonportscanner_0.png)
 
 포트 스캐너는 시스템의 네트워크 보안을 분석하기 위해 사용되는 도구로, 열린 포트를 스캔하여 확인합니다. 포트는 컴퓨터의 문과 같이 다양한 유형의 통신을 허용합니다. 포트 스캐너는 대상 시스템에서 열린 포트, 닫힌 포트 또는 필터링된 포트를 식별할 수 있어 잠재적인 취약점을 평가하고 네트워크를 보호하는 데 도움이 됩니다.
 

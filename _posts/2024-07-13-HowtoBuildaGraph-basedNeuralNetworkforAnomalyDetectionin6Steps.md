@@ -1,10 +1,10 @@
 ---
 title: "6단계로 그래프 기반 이상 탐지 신경망 만드는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-HowtoBuildaGraph-basedNeuralNetworkforAnomalyDetectionin6Steps_0.png"
+coverImage: "/assets/img/2024-07-13-HowtoBuildaGraph-basedNeuralNetworkforAnomalyDetectionin6Steps_0.png"
 date: 2024-07-13 19:22
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-HowtoBuildaGraph-basedNeuralNetworkforAnomalyDetectionin6Steps_0.png
+  url: /assets/img/2024-07-13-HowtoBuildaGraph-basedNeuralNetworkforAnomalyDetectionin6Steps_0.png
 tag: Tech
 originalTitle: "How to Build a Graph-based Neural Network for Anomaly Detection in 6 Steps"
 link: "https://medium.com/towards-data-science/how-to-build-a-graph-based-neural-network-for-anomaly-detection-in-6-steps-a7dc47723788"
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/how-to-build-a-graph-based-neural
 
 
 
-![이미지](/TIL/assets/img/2024-07-13-HowtoBuildaGraph-basedNeuralNetworkforAnomalyDetectionin6Steps_0.png)
+![이미지](/assets/img/2024-07-13-HowtoBuildaGraph-basedNeuralNetworkforAnomalyDetectionin6Steps_0.png)
 
 본 글은 그래프 데이터를 활용한 이상 감지 모델을 구축하는 방법에 대해 자세히 설명한 기술적인 내용입니다. 이 모델은 다른 유형의 엔티티가 포함된 그래프 데이터(이질적 그래프 데이터)를 다룰 수 있습니다.
 

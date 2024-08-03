@@ -1,7 +1,7 @@
 ---
 title: "파이썬 함수에서 x 사용을 멈춰야 하는 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-StopUsingxinPythonFunctionParameters_0.png"
+coverImage: "/assets/img/2024-07-06-StopUsingxinPythonFunctionParameters_0.png"
 date: 2024-07-06 10:31
 ogImage:
   url: /assets/img/2024-07-06-StopUsingxinPythonFunctionParameters_0.png

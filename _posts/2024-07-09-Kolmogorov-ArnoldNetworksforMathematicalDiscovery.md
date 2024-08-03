@@ -1,7 +1,7 @@
 ---
 title: "수학적 발견을 위한 Kolmogorov-Arnold 네트워크 소개"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Kolmogorov-ArnoldNetworksforMathematicalDiscovery_0.png"
+coverImage: "/assets/img/2024-07-09-Kolmogorov-ArnoldNetworksforMathematicalDiscovery_0.png"
 date: 2024-07-09 14:46
 ogImage:
   url: /assets/img/2024-07-09-Kolmogorov-ArnoldNetworksforMathematicalDiscovery_0.png
@@ -10,7 +10,7 @@ originalTitle: "Kolmogorov-Arnold Networks for Mathematical Discovery"
 link: "https://medium.com/towards-artificial-intelligence/kolmogorov-arnold-networks-for-mathematical-discovery-4e1054b10219"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-Kolmogorov-ArnoldNetworksforMathematicalDiscovery_0.png"/>
+<img src="/assets/img/2024-07-09-Kolmogorov-ArnoldNetworksforMathematicalDiscovery_0.png"/>
 
 이전 논문인 Kolmogorov-Arnold Networks 해석에서 MIT에서 개발한 새로운 프레임워크인 KAN의 매커니즘을 소개했습니다. KAN 뒤에 있는 이론인 Kolmogorov-Arnold Representation Theorem을 면밀히 연구한 결과, KAN이 많은 수학 문제를 해결할 뿐만 아니라 발견을 할 수 있다는 것을 깨달았습니다.
 

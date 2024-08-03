@@ -1,7 +1,7 @@
 ---
 title: "Ruff로 파이썬 코드를 강화하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_0.png"
+coverImage: "/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_0.png"
 date: 2024-07-09 20:56
 ogImage:
   url: /assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/bitgrit-data-science-publication/supercharge-your-pyth
 
 ## PYTHON
 
-![Python Image](/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_0.png)
+![Python Image](/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_0.png)
 
 아직 프로젝트에서 Black, isort, 그리고 Flake8을 사용하고 계신가요? 업그레이드할 때입니다.
 
@@ -34,7 +34,7 @@ Ruff는 러스트로 작성된 매우 빠른 Python 린터 및 코드 포매터�
 
 그 얼마나 빠른지 궁금하신가요? 이 이미지가 모두를 알려줍니다.
 
-![Supercharge your Python Code with Ruff](/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_1.png)
+![Supercharge your Python Code with Ruff](/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_1.png)
 
 Ruff는 Flake8(그리고 수십 개의 플러그인), Black, isort, pydocstyle, pyupgrade, autoflake 등을 대체할 수 있으며, 10~100배의 속도 향상을 자랑합니다.
 
@@ -64,7 +64,7 @@ FastAPI 창시자 Sebastián Ramírez:
 
 궁금하시다면, 웹사이트에서 Ruff가 코드를 파싱하는 방식을 탐색할 수 있는 플레이그라운드가 준비되어 있습니다.
 
-![Ruff Playground](/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_2.png)
+![Ruff Playground](/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_2.png)
 
 해당 페이지에는 AST, 토큰, 형식 지정 IR(중간 표현), 그리고 형식 지정 주석을 보여줍니다.
 
@@ -86,7 +86,7 @@ pip install ruff
 
 마니매 진행 및 확인하기 Manim, the animation engine 3blue1brown이 수학 비디오에서 사용하는 엔진입니다.
 
-<img src="/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_3.png" />
+<img src="/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_3.png" />
 
 ## 코드 분석
 
@@ -108,7 +108,7 @@ ruff check <filename.py>
 
 총 415개의 오류가 있었어요. 이 중 33개는 수정할 수 있어요!
 
-![이미지](/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_4.png)
+![이미지](/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_4.png)
 
 해결하기 위해선 다음과 같이 --fix 플래그를 사용해요
 
@@ -118,7 +118,7 @@ ruff check --fix .
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_5.png" />
+<img src="/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_5.png" />
 
 알 수 있듯이, 33개가 수정되었고, 383개가 남아 있습니다.
 
@@ -132,7 +132,7 @@ ruff check --fix .
 format을 변경하십시오.
 ```
 
-<img src="/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_6.png" />
+<img src="/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_6.png" />
 
 아마도 당신은 이렇게 Ruff를 사용하지 않을 것이며, 에디터를 사용하고 있기 때문에, 이제 설정하는 방법을 살펴봅시다!
 
@@ -231,7 +231,7 @@ extend-include = ["*.ipynb"]
 
 많은 다른 통합 기능들을 지원합니다. Vim도 포함돼요!
 
-<img src="/TIL/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_7.png" />
+<img src="/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_7.png" />
 
 <div class="content-ad"></div>
 

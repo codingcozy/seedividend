@@ -1,17 +1,17 @@
 ---
 title: "지구과학자를 위한 파이썬 시작 가이드 코드를 개선하는 5가지 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_0.png"
+coverImage: "/assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_0.png"
 date: 2024-07-13 20:31
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_0.png
+  url: /assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_0.png
 tag: Tech
 originalTitle: "Getting Started With Python as a Geoscientist? Here Are 5 Ways You Can Improve Your Code!"
 link: "https://medium.com/towards-data-science/getting-started-with-python-as-a-geoscientist-here-are-5-ways-you-can-improve-your-code-82b42c21462b"
 ---
 
 
-![Getting Started With Python as a Geoscientist](/TIL/assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_0.png)
+![Getting Started With Python as a Geoscientist](/assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_0.png)
 
 여러 해 동안 지질 과학 및 암페트로물리컬 분야에서 다양한 Python 스크립트를 보고 작업해왔습니다. 그동안 다양한 코딩 스타일을 보았고(또는 작성한 적도 있습니다), 잘 구성된 코드에서 문서화가 잘 되어 있는 것부터 모든 내용이 하나의 Python 파일에 있고 거의 구조화되지 않은 것까지 다양합니다. 후자의 경우, 코드를 몇 달 후에 다시 살펴보면 유지, 디버그 및 이해가 어려울 수 있습니다. 적용된 스타일을 결정하는 요구 사항이 종종 코드 작성 목적을 결정합니다.
 
@@ -102,7 +102,7 @@ def calculate_density_porosity(rho_matrix, rho_bulk, rho_fluid):
 
 # 코드에 문서 추가하기
 
-![Python 개발자로 시작하는 방법: 지질학자로 시작하기](/TIL/assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_1.png)
+![Python 개발자로 시작하는 방법: 지질학자로 시작하기](/assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_1.png)
 
 스크립트, 함수 또는 클래스를 작성할 때 문서화가 중요합니다. 코드 내에 주석과 문서화 문자열(docstrings)을 작성하면 몇 달 후에 애플리케이션을 다시 방문했을 때 머리 아픔을 예방하는 데 큰 도움이 될 수 있습니다. 또한, 다른 사람들이 코드를 살펴보는 경우에도 코드를 이해하는 데 도움이 될 수 있습니다.
 

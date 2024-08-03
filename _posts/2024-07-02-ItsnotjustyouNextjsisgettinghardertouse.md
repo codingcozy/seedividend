@@ -1,20 +1,20 @@
 ---
 title: "Nextjs 사용이 점점 더 어려워지는 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png"
+coverImage: "/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png"
 date: 2024-07-02 21:52
 ogImage:
-  url: /TIL/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png
+  url: /assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png
 tag: Tech
 originalTitle: "It’s not just you, Next.js is getting harder to use"
 link: "https://medium.com/@PropelAuth/its-not-just-you-next-js-is-getting-harder-to-use-5ab30a24282a"
 ---
 
-![image 1](/TIL/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png)
+![image 1](/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png)
 
 이전에 언급한 것처럼, Next.js 미들웨어를 사용하면 서버 컴포넌트가 부과한 일부 제한을 해결하는 데 유용할 수 있다는 블로그 글을 썼어요. 이에 대한 토론으로 인해 Next.js 개발 경험이 좋지 않다는 의견이 나왔어요.
 
-![image 2](/TIL/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_1.png)
+![image 2](/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_1.png)
 
 저의 관점에서, Next.js 의 앱 라우터에는 채택하기 어렵게 만드는 두 가지 주요 문제가 있어요:
 
@@ -82,7 +82,7 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_2.png)
+![image](/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_2.png)
 
 그것이 반드시 잘못된 것은 아니라는 점을 유의하십시오.
 
@@ -126,7 +126,7 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 앱 라우터를 사용함에 있어서 제가 겪은 가장 큰 문제 중 하나는 딱 이거였어요:
 
-![이미지](/TIL/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_3.png)
+![이미지](/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_3.png)
 
 Next.js는 제품으로 충분히 준비되기 전부터 공식적으로 앱 라우터를 사용할 것을 권장해 왔어요. Next.js는 TypeScript, ESLint, Tailwind가 프로젝트에 적합한지 여부에 대한 권장사항을 갖고 있지 않아요 (TS/ESLint에는 기본 값으로 Yes, Tailwind에는 No를 제공하지만, Tailwind 팬들에게는 죄송합니다). 그러나, Next.js는 분명히 당신이 앱 라우터를 사용해야 한다고 믿고 있어요.
 

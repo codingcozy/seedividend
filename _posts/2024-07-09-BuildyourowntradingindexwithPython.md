@@ -1,7 +1,7 @@
 ---
 title: "Python으로 나만의 트레이딩 인덱스 만드는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png"
+coverImage: "/assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png"
 date: 2024-07-09 20:37
 ogImage:
   url: /assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/python-in-plain-english/build-your-own-trading-index-w
 
 ## 거래 결정 도구
 
-![Trading Index](/TIL/assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png)
+![Trading Index](/assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png)
 
 맞춤 지수는 자산 구성 및 가중치에 대한 유연성과 제어를 제공하여 전통적인 지수와 비교했을 때 투자 전략을 더 잘 반영할 수 있는 고유한 기준을 제공합니다. 이 기사에서는 Python을 사용하여 맞춤 지수를 작성하는 방법을 안내하겠습니다.
 
@@ -149,7 +149,7 @@ mpf.plot(ohlc, (type = "candle"), (figratio = (30, 10)));
 mpf.plot(usd_dollar_index, (type = "candle"), (figratio = (30, 10)));
 ```
 
-<img src="/TIL/assets/img/2024-07-09-BuildyourowntradingindexwithPython_1.png" />
+<img src="/assets/img/2024-07-09-BuildyourowntradingindexwithPython_1.png" />
 
 다른 방법은 종가의 상관 관계를 점검하는 것이에요.
 

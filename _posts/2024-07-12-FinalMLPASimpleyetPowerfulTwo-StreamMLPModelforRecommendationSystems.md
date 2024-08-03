@@ -1,10 +1,10 @@
 ---
 title: "FinalMLP 추천 시스템을 위한 간단하지만 강력한 Two-Stream MLP 모델 사용 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_0.png"
+coverImage: "/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_0.png"
 date: 2024-07-12 20:35
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_0.png
+  url: /assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_0.png
 tag: Tech
 originalTitle: "FinalMLP: A Simple yet Powerful Two-Stream MLP Model for Recommendation Systems"
 link: "https://medium.com/towards-data-science/finalmlp-a-simple-yet-powerful-two-stream-mlp-model-for-recommendation-systems-fc21f3e3fb3d"
@@ -36,7 +36,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 - Gating 기반의 특징 선택은 두 스트림 간의 차이를 증가시켜, 각 스트림이 서로 다른 특징 세트로부터 서로 다른 패턴을 학습하도록 만듭니다. 예를 들어, 하나의 스트림은 사용자 특징을 처리하고, 다른 하나는 항목 특징에 중점을 둡니다.
 - Multi-Head Bilinear Fusion은 두 스트림에서 나온 출력을 결합하는 방법을 개선하여 특징 상호작용을 모델링합니다. 이는 덧셈 또는 연결과 같은 선형 연산에 의존하는 전통적인 방식을 사용할 때 발생하지 않을 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_1.png)
+![이미지](/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_1.png)
 
 <div class="content-ad"></div>
 
@@ -54,7 +54,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 다중값 특성은 값 시퀀스를 하나의 길이가 k인 원-핫 인코딩 벡터로 변환한 다음 학습 가능한 임베딩 행렬과 곱하여 임베딩을 생성할 수 있습니다 [3].
 
-![이미지](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_2.png)
+![이미지](/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_2.png)
 
 특성 선택 레이어는 모델 예측에 중요한 영향을 미치도록 중요한 특성에 더 높은 영향을 미치도록 잡음이 많은 특성을 억제하기 위한 특성 중요도 가중치를 얻기 위해 사용됩니다.
 
@@ -64,7 +64,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 이 과정을 통해 두 스트림 간 균질한 학습이 감소되어 특성 상호작용의 보다 보완적인 학습이 가능해집니다. 유저나 아이템 차원에 집중하도록 각 스트림에 독립적으로 적용되어 특성 입력을 구분합니다.
 
-![](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_3.png)
+![](/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_3.png)
 
 양 스트림의 출력을 결합하여 최종 예측 확률을 얻기 위해 스트림 수준 융합 계층이 필요합니다. 일반적으로 두 출력을 결합하는 것은 합산 또는 연결 작업을 기반으로 합니다. 그러나 FinalMLP의 저자들은 선형 조합이 실패할 수 있는 특성 상호작용 정보를 얻기 위해 두 출력을 결합하는 데에 양선형 상호작용 집계 계층을 제안합니다.
 
@@ -74,7 +74,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 바이리니어 퓨전 방정식은 다음과 같이 구성됩니다:
 
-![image](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_4.png)
+![image](/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_4.png)
 
 여기서 σ는 시그모이드 함수, b는 편향 항목이며, o1은 한 스트림의 출력입니다. w1은 o1에 적용되는 학습 가능한 가중치이고, o2는 다른 스트림의 출력이며, w2는 o2에 적용되는 학습 가능한 가중치입니다. 마지막으로, w3는 특성 상호작용 정보를 추출하는 바이리니어 항목의 학습 가능한 매트릭스입니다. w3가 제로 매트릭스로 설정되면 전통적인 연결 퓨전으로 약화됩니다.
 
@@ -82,7 +82,7 @@ FinalMLP [1]은 DualMLP [2] 위에 구축된 두 개의 스트림 Multi-Layer Pe
 
 Bilinear Fusion과 Multi-Head Bilinear Fusion의 차이점은, 두 스트림에서 전체 벡터를 사용하는 대신 출력 o1과 o2를 k 개의 하위 공간으로 나눈다는 것입니다. 각 하위 공간에서 이루어진 bilinear 퓨전은 sigmoid 함수에 공급하여 최종 확률을 생성합니다.
 
-![그림](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_5.png)
+![그림](/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_5.png)
 
 # FinalMLP로 도서 추천 모델 만들기
 
@@ -198,7 +198,7 @@ plt.title('도서 평점 분포')
 plt.show()
 ```
 
-![이미지](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_6.png)
+![이미지](/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_6.png)
 
 
 <div class="content-ad"></div>
@@ -382,7 +382,7 @@ ndcg_score(true_relevance, y_relevance)
 
 남은 테스트 세트에 대한 nDCG 점수를 계산하고, Figure 7에서 FinalMLP 성능을 CatBoost Ranker와 비교했습니다. 두 모델 모두 잘 수행했지만, 이 테스트 세트에서 FinalMLP가 조금 더 우수한 성능을 보였습니다. 사용자 당 평균 nDCG가 0.963298인 반면 CatBoost Ranker는 0.959977에 그쳤습니다.
 
-<img src="/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_7.png" />
+<img src="/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_7.png" />
 
 
 <div class="content-ad"></div>
@@ -405,7 +405,7 @@ ndcg_score(true_relevance, y_relevance)
 
 한 번 훈련을 받으면, 각 스트림의 선형 변환 결과에서 절대 값을 예측하고 플롯할 수 있습니다. 그림 8에 보여진 것처럼, 상품 스트림이 사용자 스트림보다 중요성이 높습니다. 이는 상품에 대한 기능이 훨씬 많기 때문이지만 사용자 특성이 상당히 일반적이기 때문에 발생합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_9.png)
+![이미지](/assets/img/2024-07-12-FinalMLPASimpleyetPowerfulTwo-StreamMLPModelforRecommendationSystems_9.png)
 
 # 결론
 

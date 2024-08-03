@@ -1,7 +1,7 @@
 ---
 title: "한 번의 클릭으로 LLMs가 현실이 되다 - 휴대 가능한 AI로 가는 길 두 번째 이야기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-One-clickLLMsarenowarealityRoadtoportableAIpart2_0.png"
+coverImage: "/assets/img/2024-07-09-One-clickLLMsarenowarealityRoadtoportableAIpart2_0.png"
 date: 2024-07-09 14:52
 ogImage:
   url: /assets/img/2024-07-09-One-clickLLMsarenowarealityRoadtoportableAIpart2_0.png
@@ -16,7 +16,7 @@ link: "https://medium.com/generative-ai/one-click-llm-are-now-reality-road-to-po
 
 이 기사에서는 Method 2를 사용하는 방법을 배워보려고 해요— 아주 작지만 매우 강력한 qwen-1.5-chat-0.5b의 .exe 파일을 생성하는 방법을 배울 거예요. Qwen05.exe를 실행하면 기존 애플리케이션에 대해 준비된 OpenAI 호환 API 서버가 시작돼요!
 
-![이미지](/TIL/assets/img/2024-07-09-One-clickLLMsarenowarealityRoadtoportableAIpart2_0.png)
+![이미지](/assets/img/2024-07-09-One-clickLLMsarenowarealityRoadtoportableAIpart2_0.png)
 
 <div class="content-ad"></div>
 

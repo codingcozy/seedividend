@@ -1,7 +1,7 @@
 ---
 title: "파이썬 리스트 내포 쉽게 사용하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-ListComprehensionsinPython_0.png"
+coverImage: "/assets/img/2024-07-07-ListComprehensionsinPython_0.png"
 date: 2024-07-07 21:31
 ogImage:
   url: /assets/img/2024-07-07-ListComprehensionsinPython_0.png
@@ -10,7 +10,7 @@ originalTitle: "List Comprehensions in Python"
 link: "https://medium.com/@mmalhotra183/list-comprehensions-in-python-a7284cdb11b4"
 ---
 
-![이미지](/TIL/assets/img/2024-07-07-ListComprehensionsinPython_0.png)
+![이미지](/assets/img/2024-07-07-ListComprehensionsinPython_0.png)
 
 파이썬은 간결함과 가독성으로 유명하며, 그 중 가장 강력한 기능 중 하나는 리스트 컴프리헨션입니다. 리스트 컴프리헨션은 리스트를 생성하는 간결한 방법을 제공합니다. 이 글에서는 리스트 컴프리헨션을 자세히 살펴보고, 작동 방식을 설명하며, 사용 예시를 통해 그 활용을 설명할 것입니다.
 

@@ -1,7 +1,7 @@
 ---
 title: "Python으로 머신러닝에서 불균형 데이터 다루는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_0.png"
+coverImage: "/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_0.png"
 date: 2024-07-09 14:33
 ogImage:
   url: /assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_0.png
@@ -113,7 +113,7 @@ plt.legend()
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_0.png" />
+<img src="/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_0.png" />
 
 <div class="content-ad"></div>
 
@@ -164,7 +164,7 @@ plt.show()
 
 아래와 같이 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-![image](/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_1.png)
+![image](/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_1.png)
 
 그러니까, 이 경우에는 클래스에 속하는 데이터의 모든 발생을 계산하는 내장 메소드 len()을 사용할 수 있습니다.
 
@@ -183,7 +183,7 @@ plt.show()
 
 - 정확도. 데이터 세트에서 올바르게 예측된 인스턴스의 비율을 측정합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_2.png)
+![이미지](/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_2.png)
 
 <div class="content-ad"></div>
 
@@ -218,7 +218,7 @@ print("정확도:", accuracy)
 
 <div class="content-ad"></div>
 
-![How to Handle Imbalanced Data for Machine Learning in Python](/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_3.png)
+![How to Handle Imbalanced Data for Machine Learning in Python](/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_3.png)
 
 한 예제를 통해 Python에서 정밀도 지표를 계산하는 방법을 살펴보겠습니다:
 
@@ -251,7 +251,7 @@ print("Precision:", precision)
 
 - 재현율 (또는 민감도). 재현율은 또한 민감도 또는 진양성율로 알려져 있으며, 올바르게 예측된 긍정적 인스턴스의 비율을 측정합니다:
 
-![Example](/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_4.png)
+![Example](/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_4.png)
 
 파이썬을 사용하여 재현율 지표를 계산하는 예제를 만들어 보겠습니다:
 
@@ -284,7 +284,7 @@ print("재현율:", recall)
 
 - F1 스코어. F1 스코어는 정밀도와 재현율의 조화평균입니다. 정밀도와 재현율 사이의 균형을 제공합니다:
 
-![image](/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_5.png)
+![image](/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_5.png)
 
 파이썬을 사용하여 F1 스코어 메트릭을 계산하는 예제를 만들어봅시다:
 
@@ -372,7 +372,7 @@ print(cm)
 
 특이도는 분류기가 모든 부정적인 샘플을 찾는 능력을 의미합니다:
 
-![이미지](/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_6.png)
+![이미지](/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_6.png)
 
 AUC는 ROC 곡선 아래 영역을 나타내며 "곡선 아래 영역"을 의미합니다. 이는 0에서 1사이의 전체적인 성능 지표로, 1은 분류기가 레이블의 100%를 실제 값으로 예측한다는 것을 의미하며, 서로 다른 분류기들을 비교할 때 더 적합합니다.
 
@@ -412,7 +412,7 @@ plt.legend(loc='lower right')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_7.png" />
+<img src="/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_7.png" />
 
 <div class="content-ad"></div>
 
@@ -503,7 +503,7 @@ plt.xticks(range(3), ['클래스 0', '클래스 1', '클래스 2'])
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_8.png" />
+<img src="/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_8.png" />
 
 ## 언더샘플링
 
@@ -570,7 +570,7 @@ plt.show()
 
 아래는 Markdown 형식으로 표를 변경한 것입니다.
 
-![image](/TIL/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_9.png)
+![image](/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_9.png)
 
 ## 성능 비교
 

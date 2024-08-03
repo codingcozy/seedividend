@@ -1,17 +1,17 @@
 ---
 title: "데이터 시각화 갓템, Quad-Tile Chart와 Squaremap 사용법 소개"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0.png"
+coverImage: "/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0.png"
 date: 2024-07-13 19:59
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0.png
+  url: /assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0.png
 tag: Tech
 originalTitle: "Introducing the Quad-Tile Chart , Squaremap: Squarify Your Data"
 link: "https://medium.com/towards-data-science/introducing-the-quad-tile-chart-squaremap-squarify-your-data-20be336a1dd7"
 ---
 
 
-![2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0.png)
+![2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0.png)
 
 # 소개
 
@@ -23,7 +23,7 @@ link: "https://medium.com/towards-data-science/introducing-the-quad-tile-chart-s
 
 이 기사를 통해 달성하고자 하는 목표는 일반적이고 비표준적인 컨테이너 모양(아래 그림 참조)을 고려하고, 이와 유사한 모양의 값 집합을 제시하여 사용 가능한 공간을 최적화하고 직관적인 크기 비교를 제공하며 데이터를 사각형 모양으로 표현하는 것입니다!
 
-![image](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_1.png)
+![image](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_1.png)
 
 새로운 축 없이 접근하기 전에, 결과를 측정할 좋은 기준을 찾을 수 있는 기존 축 기반 및 축 없는 방법에 대해 생각해 봅시다. 예를 들어, Wikipedia에서 제공하는 동물 중 상위 20마리의 최고 속도를 나타내는 정보를 활용하겠습니다. 
 
@@ -56,7 +56,7 @@ plt.grid(False)
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_2.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_2.png" />
 
 <div class="content-ad"></div>
 
@@ -74,7 +74,7 @@ cbc = crystals(df, 'id', 'speed', height_range=5, width_override=5,
 cbc.cbc_plot(legend=False, alternate_color=True, color=False)
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_3.png)
+![이미지](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_3.png)
 
 비스웜 플롯
 
@@ -92,7 +92,7 @@ bs = swarm(df, 'id', 'speed', None, size_override=pi*(diameter/2)**2)
 bs.beeswarm_plot(color=False)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_4.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_4.png" />
 
 각각의 메소드들은 값의 크기를 반영하는 모양과 위치를 제공하면서 데이터 집합의 밀도 프로필을 제공하는 독특한 방식을 제공합니다.
 
@@ -132,7 +132,7 @@ o_rt.plot_levels()
 <div class="content-ad"></div>
 
 
-![Bubble Chart (grid)](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_5.png)
+![Bubble Chart (grid)](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_5.png)
 
 ```js
 import numpy as np
@@ -170,7 +170,7 @@ grid_bubbles(data['speed'], size_by='area')
 grid_bubbles(data['speed'], size_by='diameter')
 ```
 
-![Bubble Chart (grid)](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_6.png)
+![Bubble Chart (grid)](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_6.png)
 
 
 <div class="content-ad"></div>
@@ -202,7 +202,7 @@ o_pq.polyquadtile_plot(show_constraints=True, poly_color='w',
     poly_line='black', squares_off=True, circles=True)
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_7.png)
+![이미지](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_7.png)
 
 이러한 방법들은 값이 어떤 크기인지 직접적인 참조를 제공하는 축이 없어서 위치 변경 기능이 작동합니다. 따라서 값의 모양, 크기 및 레이아웃이 데이터 인사이트를 수집하는 데 중요합니다. 값 표현 간의 공간을 보존하는 방식으로 이러한 차트를 유용하게 만드는 파라미터 조정이 중요합니다.
 
@@ -265,7 +265,7 @@ df.to_csv(os.path.dirname(__file__) + '/circles.csv',
 # select packed bubbles -> Size by [Speed], [Id] on Detail
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_8.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_8.png" />
 
 경쟁 상대를 선택했으니 이제 포장된 Bubble Chart가 홀로 서 있는지 또는 컨테이너 포장 목표를 충족하는 상대적 가치 비교를 위해 활용할 수 있는 다른 단순한 모양이 있는지 살펴보겠습니다. 이제 정사각형의 응용을 탐색해 보겠습니다!
 
@@ -283,7 +283,7 @@ df.to_csv(os.path.dirname(__file__) + '/circles.csv',
 
 간단한 비교를 하고 어떤 것을 발견해 봅시다:
 
-![image](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_9.png)
+![image](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_9.png)
 
 위의 경우 1:2 비율을 사용하여 넓이나 길이를 비교하는 데 둥근 모양이나 사각형 모두 다른 것보다 직관성을 제공하지 않는 것으로 보입니다. 하지만 원은 더 부드럽고 사각형은 더 날카로운 것 같아요.
 
@@ -330,7 +330,7 @@ def diamond_tessellation(rows, cols):
 diamond_tessellation(2, 9)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_10.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_10.png" />
 
 유감스럽게도, 테셀레이션은 데이터셋의 값이 동일하거나 편리한 비율을 가지는 것으로 가정하는 것이 현실적이지 않기 때문에 일반적인 해결책은 아닙니다. 그러나 간격이 없는 가장의 개념은 원보다 잠재적인 이점으로 더 탐구할 가치가 있습니다.
 
@@ -550,7 +550,7 @@ plot_shapes(packed_squares, 'square')
 
 위 코드에서는 'L-BFGS-B' 메서드를 선택하여 scipy의 'minimize' 함수에서 반복 횟수를 300으로 설정했습니다. 초기 위치를 제어하는 난수 시드는 결과에 영향을 미칠 수 있으므로 두 모양에 대해 각각 3가지 다른 시드를 살펴봅시다.
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_11.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_11.png" />
 
 각 테스트 케이스를 생성하는 데 랩톱에서 약 5분이 걸렸으므로, 이 방법의 시간 요구 사항은 고려해야 할 불안정한 요소입니다. 이미 긴 대기 시간 때문에 컨테이너 중첩 비용을 목적 함수에 추가하여 컨테이너 패킹 통찰을 검토하는 것은 현재 필요하지 않은 것으로 보입니다.
 
@@ -592,7 +592,7 @@ plot_shapes(packed_squares, 'square')
 
 첫 번째 버전을 개발하고 Tableau Public 시각화와 몇 가지 다른 기술과 함께 구체화된 결과물을 시험해 보았어요. 여기에는 18개의 사각형을 포함하는 Voronoi Treemaps가 있는 (v1) Quad-Tile Chart가 표시된 발췌본이 있어요. (Voronoi Treemaps는 D3.js를 사용하여 계산되었어요).
 
-![Quad-Tile Chart](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_12.png)
+![Quad-Tile Chart](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_12.png)
 
 아래에서는 이 알고리즘에 대해 설명하고, 몇 일 전에 다시 시작했을 때 최종적으로 채택한 방식을 설명할게요.
 
@@ -609,7 +609,7 @@ plot_shapes(packed_squares, 'square')
 - 측면 전환 - 크기에 따라 정사각형들을 고르게 분산하기 위해, 원하는 순서로 하나를 배치한 후 측면을 전환합니다. (나는 기본적으로 윗쪽-오른쪽-아래쪽-왼쪽으로 전환했습니다.)
 - 사용자 정의 - 이 방법은 값 정렬을 배제하지만, 일련의 규칙에 따라 다음 측면을 선택할 수 있는 기능을 구현할 수 있는 능력을 제공합니다.
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_13.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_13.png" />
 
 <div class="content-ad"></div>
 
@@ -631,11 +631,11 @@ v1 알고리즘은 다음과 같아요:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_14.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_14.png" />
 
 재미로, 몇 가지 측면 선택 옵션을 구현했는데 'constraints' 입력란은 다각형을 받아들이고 외곽을 벗어나면 측면을 전환하려고 시도하여 다각형과 겹치는 특정 영역에서의 성장을 촉진합니다.
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_15.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_15.png" />
 
 이것이 제 두 번째 영감으로 이어집니다. Quad-Tile Chart v1을 내 vizmath 패키지에 통합할 때 다각형 입력과 더 많은 작업을 할 수 있는지 생각하기 시작했습니다.
 
@@ -655,7 +655,7 @@ v2에 대한 주요 세부 내용은 다음과 같습니다. 특별한 점을 �
 - Backward Segment Extension(‘축소’ 옵션)
 - Value Multiplier Bisection Optimization(컨테이너 패킹)
 
-![image](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_16.png)
+![image](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_16.png)
 
 다음은 v2 알고리즘입니다:
 
@@ -699,7 +699,7 @@ v2에 대한 주요 세부 내용은 다음과 같습니다. 특별한 점을 �
 
 v2 알고리즘은 컨테이너 패킹을 맞추기 위해 훨씬 더 많은 작업을 필요로했기 때문에 v1 알고리즘의 간단함에 비해 더 많은 노력이 필요했습니다. 하지만 정말 그만한 가치가 있었어요! v2에서 몇 가지 레이아웃 예제를 살펴봅시다.
 
-![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_17.png)
+![이미지](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_17.png)
 
 위의 원 형태의 외곽선은 '축소' 기능을 사용하여 참조용으로 포함했습니다. v2의 이론적 한계는 아마도 자기 자신을 내부로 돌리는 다각형들일 것입니다 (이는 사분면의 타일링 평면에서 고유 다각형 갭을 처리하기 위한 향상된 세그먼트 논리가 필요할 것입니다).
 
@@ -745,7 +745,7 @@ qt_o_area.quadtile_plot(color='quad', cw=0.75, opacity=.9)
 qt_o_width.quadtile_plot(color='quad', cw=0.75, opacity=.9)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_18.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_18.png" />
 
 <div class="content-ad"></div>
 
@@ -790,7 +790,7 @@ pqt_o_area.polyquadtile_plot(color='quad', cw=0.75, opacity=0.9)
 pqt_o_width.polyquadtile_plot(color='quad', cw=0.75, opacity=0.9)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_19.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_19.png" />
 
 이제 v1 및 v2의 랜덤 초기화 옵션을 포함한 몇 가지 추가 옵션을 조사해 봅시다:
 
@@ -824,7 +824,7 @@ pqt_o3 = pqt.random_polyquadtile(1000, constraints=[(1,1)],
 pqt_o3.polyquadtile_plot(color='quad', cw=0.75, opacity=.9, circles=False)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_20.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_20.png" />
 
 위 내용은 각 버전 간 배치 방법의 미묘한 차이를 보여줍니다 (v1은 y값이 가장 낮고 가장 긴 길이로 선택된 세그먼트, v2는 계단식 접근 방식). 또한 v2에 대한 무작위 초기화는 무작위 볼록 다각형을 생성할 것입니다 — 무엇이 나올지 아무도 모릅니다!
 
@@ -841,7 +841,7 @@ pqt_o.polyquadtile_plot(color='quad', cw=0.75, opacity=.9, circles=True,
 <div class="content-ad"></div>
 
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_21.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_21.png" />
 
 그리고 끝으로, 우리는 중심점을 사용하여 부모 사각형의 경계 상자 크기에 맞는 모든 모양으로 플롯할 수 있음을 기억하세요. 원형 차트의 경우에는 반소형 Bubble Chart만 플로팅한다는 소개를 참조하세요!
 
@@ -878,7 +878,7 @@ o_pq1.o_polyquadtile_chart.df[['id','item','a','w','x','y','path']].head()
 o_pq2.o_polyquadtile_chart.df[['id','item','a','w','x','y','path']].head()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_22.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_22.png" />
 
 사각형 중심점은 'id' 대신 'item'으로 동일한 속성으로 추출될 수도 있습니다:
 
@@ -892,7 +892,7 @@ o_pq1.o_polysquares.df[['id','a','w','x','y']].head()
 o_pq2.o_polysquares.df[['id','a','w','x','y']].head()
 
 
-![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_23.png)
+![이미지](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_23.png)
 
 이제 Quad-Tile 차트로 무엇을 더 할 수 있는지 알아봅시다.
 
@@ -903,7 +903,7 @@ o_pq2.o_polysquares.df[['id','a','w','x','y']].head()
 
 캔버스 레이아웃을 활용하는 원래의 목표를 표준 및 비표준 컨테이너와 함께 다시 살펴보겠습니다. 볼록 다각형과 간단한 오목 다각형을 수용할 수 있는 방법을 보여드렸고, 이제는 소개에서 소개된 레이아웃을 채워봤습니다. 각각 100개의 정사각형이 들어가는 컨테이너에 대해 다양한 회전을 적용했습니다.
 
-![image](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_24.png)
+![image](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_24.png)
 
 가장 일반적인 캔버스 레이아웃은 직사각형 컨테이너일 것이므로, 원하는 종횡비를 간단하게 전달하는 것이 유용합니다. 다음은 너비를 다양하게 조절한 예시입니다 (높이 조절 방법도 동일합니다):
 
@@ -918,7 +918,7 @@ pqt_o.polyquadtile_plot(color='quad', cw=0.75, opacity=.9)
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_25.png)
+![이미지](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_25.png)
 
 Extensibility의 또 다른 흥미로운 측면은 계층적 데이터를 포함하는 것입니다. 기존 방법의 일부 단점은 다음과 같습니다:
 
@@ -933,7 +933,7 @@ Quad-Tile Chart는 계층의 상위 수준을 유사한 모양으로 캡처하�
 
 다음 단계의 직사각형 Treemaps에 대한 예시 몇 가지를 함께 공유드리겠습니다. 상위 수준에 정사각형을 포함한 Quad-Tile Chart에 중첩된 이들을 제가 “Squaremaps”라고 부르겠습니다!
 
-![Squaremaps](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_26.png)
+![Squaremaps](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_26.png)
 
 제가 vizmath에서 Squaremaps에 대한 구현을 다음과 같이 작성했습니다(그리고 필요 시 계층적 데이터를 동적으로 생성하는 기능도 추가했습니다!):
 
@@ -979,7 +979,7 @@ o_sm2 = sm(df, ['a','b','c'], 'value', constraints=[(1,1)], buffer=.2)
 o_sm2.o_squaremap.plot_levels(level=3, fill='w')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_27.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_27.png" />
 
 ## Tableau Public Implementation
 
@@ -1011,7 +1011,7 @@ o_sm.o_squaremap.o_rad_treemap.dataframe_rescale(
 o_sm.o_squaremap.o_rad_treemap.dataframe_to_csv('squaremap')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_28.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_28.png" />
 
 <div class="content-ad"></div>
 
@@ -1035,7 +1035,7 @@ o_sm.o_squaremap.o_rad_treemap.dataframe_to_csv('squaremap')
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_29.png) 
+![image](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_29.png) 
 
 이 Squaremap 구현이 당신의 계층적 데이터를 더 자세히 탐색하는 데 유용한 시작점이 되길 바랍니다!
 
@@ -1176,7 +1176,7 @@ o_pqt_legend.o_polyquadtile_chart.dataframe_to_csv('quadtile_legend')
 
 <div class="content-ad"></div>
 
-![그림](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_31.png)
+![그림](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_31.png)
 
 이제 Tableau를 준비했으니, 다음 3개 파일을 모두 가져오기 위해 텍스트 파일 옵션을 사용하여 시작해보겠습니다. Sheet 1로 이동한 다음, 상단 왼쪽 데이터 탭에서 쿼드타일 데이터 소스를 선택하고 다음과 같은 계산 열을 생성하세요:
 
@@ -1219,7 +1219,7 @@ Tableau에서 올바른 크기 조정을 위해 길이를 제곱한 것을 알 �
 
 오른쪽 하단에 널 경고 표시가 나타납니다. 이를 마우스 오른쪽 단추로 클릭하고 숨김 표시를 선택할 수 있습니다. 이 시점에서 상호작용 및 레이블을 나중에 구현하기 위해 아래에 표시된 몇 가지 다른 세부 정보와 속성을 추가한 것처럼 보일 것입니다:
 
-![image](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_32.png)
+![image](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_32.png)
 
 이제 대시보드의 소스 자료를 완성하기 위해 세 개의 시트를 추가해 보겠습니다. 설정을 위해 이미지를 참조하십시오.
 
@@ -1228,18 +1228,18 @@ Tableau에서 올바른 크기 조정을 위해 길이를 제곱한 것을 알 �
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_33.png)
+![이미지](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_33.png)
 
 - “범례” - quadtile_legend 데이터 소스 사용
 
-![이미지](/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_34.png)
+![이미지](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_34.png)
 
 - “강” - quadtile_centroids 데이터 소스 사용, [이름]을 '정렬 기준: 필드, 정렬 순서: 내림차순, 필드 이름: [길이 Km], 집계: 최대값'으로 정렬 ('이름' 항목을 오른쪽 클릭하여 정렬... 선택)
 
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_35.png" />
+<img src="/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_35.png" />
 
 마지막 단계로, 이제 4개의 시트를 대시보드에 정리하고 대시보드 `동작` 아래의 상단 메뉴에서 몇 가지 동작을 설정해보겠습니다. 대시보드 `동작` 아래의 추가 동작 드롭다운을 클릭하고 `하이라이트`를 선택합니다. 대상 하이라이트에서 `선택한 필드`를 선택하고 [Outflow]과 [River] 필드를 선택합니다 ([Outflow]가 상기 시트에 세부사항으로 추가되었는지 확인). 마지막으로 오른쪽 상단의 `실행 동작` 아래에서 `가리키기` 옵션을 선택합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: "NiceGUI를 만나보세요 곧 여러분의 최애 파이썬 UI 라이브러리가 될 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-MeettheNiceGUIYourSoon-to-beFavoritePythonUILibrary_0.png"
+coverImage: "/assets/img/2024-07-09-MeettheNiceGUIYourSoon-to-beFavoritePythonUILibrary_0.png"
 date: 2024-07-09 14:57
 ogImage:
   url: /assets/img/2024-07-09-MeettheNiceGUIYourSoon-to-beFavoritePythonUILibrary_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/meet-the-nicegui-your-soon-to-be-
 
 ## 사용자 정의 웹 앱을 쉽고 빠르게 만드세요
 
-![이미지](/TIL/assets/img/2024-07-09-MeettheNiceGUIYourSoon-to-beFavoritePythonUILibrary_0.png)
+![이미지](/assets/img/2024-07-09-MeettheNiceGUIYourSoon-to-beFavoritePythonUILibrary_0.png)
 
 만나보세요, NiceGUI! 이 간단한 Python 기반 UI 프레임워크는 웹 브라우저나 데스크톱 앱에서 원활하게 작동합니다. 작은 웹 앱, 대시보드, 또는 로봇 프로젝트를 만들고 있는 중이던 중이든, NiceGUI는 쉬운 인터페이스와 다양한 기능으로 여러분을 도와줄 거예요.
 

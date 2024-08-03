@@ -1,7 +1,7 @@
 ---
 title: "초보 때 알았더라면 좋았을 Python 코딩 꿀팁 10가지"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png"
+coverImage: "/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png"
 date: 2024-07-09 15:05
 ogImage:
   url: /assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png
@@ -10,13 +10,13 @@ originalTitle: "Python Coding Tips: Lessons I Wish I Knew When I Started Coding"
 link: "https://medium.com/@yaduvanshineelam09/python-coding-tips-lessons-i-wish-i-knew-when-i-started-coding-4e9d9cd0aefb"
 ---
 
-![Python Coding Tips](/TIL/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png)
+![Python Coding Tips](/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png)
 
 코딩 여정을 시작할 때 파이썬 세계에 뛰어 들어가면서 약간의 어려움을 겪었어요. 코딩의 기본은 이해했지만, 내 코드를 효율적으로 만드는 방법을 알아내는 것은 퍼즐을 푸는 것처럼 어려웠죠. 예전에는 종종 파이썬의 신이 이끌어 준다는 말을 기억해요 — 정말 좋은 조언이긴 하지만, 내 생각에는 너무 추상적이었어요. 더 구체적인 예시가 필요했고, 그래서 이 가이드를 만들게 되었답니다.
 
 재미있게도, ChatGPT 시대 이후에 코딩을 배우기 시작한 사람들이 어떻게 코딩을 접근하는지에 변화를 주목했어요. ChatGPT 시대에 배운 사람들은 오류 수정과 디버깅에 뛰어나는 것 같아요. 그 반면, GPT 이전에 코딩한 사람들은 답을 분석하고 Stack Overflow나 문서와 같은 자료를 활용하는 데 능숙해요 — 아마도 조금의 복사-붙여넣기 기술도 있겠죠! ;)
 
-![Python Coding Tips](/TIL/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_1.png)
+![Python Coding Tips](/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_1.png)
 
 <div class="content-ad"></div>
 

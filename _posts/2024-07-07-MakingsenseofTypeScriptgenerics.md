@@ -1,7 +1,7 @@
 ---
 title: "TypeScript 제네릭 이해하기 쉽게 정리하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_0.png"
+coverImage: "/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_0.png"
 date: 2024-07-07 21:53
 ogImage:
   url: /assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_0.png
@@ -10,7 +10,7 @@ originalTitle: "Making sense of TypeScript generics"
 link: "https://medium.com/jobteaser-dev-team/making-sense-of-typescript-generics-6b830e66eeff"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_0.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_0.png" />
 
 TypeScript는 JavaScript 개발을 혁신적으로 개선했습니다. 코드 신뢰성과 유지 보수성을 향상시키며 개발자들에게 더 적은 런타임 오류를 보장하고 생산성을 높여줍니다.
 
@@ -20,7 +20,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_1.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_1.png" />
 
 그러나 걱정하지 마세요. 단계별로 진행하겠습니다. 제네릭을 이해하면 얼마나 강력한지 알게 될 거예요.
 
@@ -30,21 +30,21 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_2.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_2.png" />
 
 어떻게 타입을 지정할까요? 🤔 배열의 타입은 무엇이어야 할까요? 이 함수에서는 어떤 것이든 들어갈 수 있는 배열일 수 있습니다 (문자열, 숫자, 객체). 따라서 유혹받아 "any"라는 이름을 부를 수 없는 타입으로 지정하는 것이 유혹스러울 수 있습니다 😱
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_3.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_3.png" />
 
 하지만 이는 매우 나쁜 타이핑입니다. 왜냐하면 TypeScript가 이 함수의 반환 타입을 올바르게 추론할 수 없기 때문입니다.
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_4.png)
+![이미지](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_4.png)
 
 어쨌든, 우리가 가능한 모든 다른 유형들을 지정할 수 있을까요?
 
-![이미지](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_5.png)
+![이미지](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_5.png)
 
 좋은 생각이 아닙니다. 먼저, 이 함수에 대한 가능한 모든 유형의 큰 목록을 유지해야 한다는 점 때문입니다. 그리고 무엇보다 중요한 것은 이 추론 문제를 해결하지 못한다는 것입니다. TypeScript는 함수를 호출할 때 유형을 추측할 수 없을 만큼 똑똑하지 않습니다.
 
@@ -52,7 +52,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 그럼 TypeScript에서 as를 사용해 캐스팅하는 것을 도와줄 수 있을 것 같네요!
 
-![image](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_6.png)
+![image](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_6.png)
 
 하지만 그렇게 하는 건 이기적인 행동이에요! 이 타입 어설션으로 TypeScript에게 말하는 건, "타입 검사를 멈추고 나를 믿어, 내가 뭐 하는 지 안다"고 하는 거예요. 이렇게 하면 타입 안전성이 약화되고, TypeScript를 사용하는 핵심 목적이 퇴색됩니다.
 
@@ -73,7 +73,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 이렇게 보일 것입니다:
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_7.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_7.png" />
 
 이 코드의 일부를 자세히 살펴보겠습니다:
 
@@ -91,7 +91,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_8.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_8.png" />
 
 이 소개가 제네릭의 본질을 이해하는 데 도움이 되기를 바랍니다.
 
@@ -101,19 +101,19 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_9.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_9.png" />
 
 이 예에서 querySelector는 반환된 요소가 HTMLElement 유형인지를 보장하기 위해 제네릭을 사용합니다. 이 유형 정보는 TypeScript가 반환된 요소에 대한 정확한 자동완성 및 유형 확인을 제공할 수 있도록 합니다. TypeScript에서 HTMLElement와 같은 네이티브 유형은 표준 라이브러리의 타입 선언인 lib.dom.d.ts에 의해 정의됩니다.
 
 제네릭을 사용하면 요소를 다음과 같이 처리할 수 있습니다:
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_10.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_10.png" />
 
 <div class="content-ad"></div>
 
 이렇게 제네릭을 사용하지 않은 경우와의 차이는 다음과 같습니다:
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_11.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_11.png" />
 
 제네릭 타입을 사용하지 않으면 TypeScript는 요소의 특정 타입을 알 수 없어서 도움이 되는 자동완성을 받을 수 없으며 오류가 발생할 수 있습니다 (캐스팅을 통해 수정 가능하지만 여전히 좋은 아이디어는 아닙니다).
 
@@ -131,7 +131,7 @@ TypeScript에서 가장 두려운 기능 중 하나는 "제네릭"입니다. 아
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_12.png)
+![이미지](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_12.png)
 
 ApiResponse 유형을 정의합니다. 이 유형은 항상 숫자 상태, 문자열 메시지 및 모든 유형의 데이터를 반환합니다.
 
@@ -141,7 +141,7 @@ ApiResponse 유형을 정의합니다. 이 유형은 항상 숫자 상태, 문�
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_13.png)
+![Image](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_13.png)
 
 이 코드에 조금 더 가까이 들어가 봅시다.
 
@@ -166,7 +166,7 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 `extends` 키워드를 사용하여 가능합니다.
 
-![image](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_14.png)
+![image](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_14.png)
 
 만약 객체가 아닌 다른 것으로 함수를 호출하려고 하면 TypeScript에서 오류가 발생합니다.
 
@@ -174,7 +174,7 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 특정 속성을 갖는 객체를 제약하는 방법도 있습니다. 예를 들어 API 데이터가 항상 id를 포함하는 객체여야 하는 경우:
 
-![이미지](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_15.png)
+![이미지](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_15.png)
 
 # 제네릭을 위한 기본 타입
 
@@ -186,13 +186,13 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 그러나 만약 당신이 자주 동일한 타입을 제네릭에 사용한다면, 타입 정의에서 =로 기본값을 지정할 수 있습니다.
 
-![image](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_16.png)
+![image](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_16.png)
 
 심지어 제약 조건과 함께 사용할 수도 있습니다.
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_17.png" />
+<img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_17.png" />
 
 # 여러 제네릭
 
@@ -204,7 +204,7 @@ API 응답의 예제를 계속 사용하면 데이터가 항상 객체여야하�
 
 한 예시를 살펴보겠습니다:
 
-![generics](/TIL/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_18.png)
+![generics](/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_18.png)
 
 제네릭은 처음에는 무서울 수 있지만, 이들이 어떻게 작동하는지 이해하면 그들의 힘을 빨리 깨닫고 TypeScript 생태계의 중심에 왜 있는지 이해하게 됩니다.
 

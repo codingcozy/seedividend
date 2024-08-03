@@ -1,17 +1,17 @@
 ---
 title: "소형 언어 모델의 가정 내 수용 테스트 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_0.png"
+coverImage: "/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_0.png"
 date: 2024-07-12 20:03
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_0.png
+  url: /assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_0.png
 tag: Tech
 originalTitle: "Home Acceptance Test for Small Language Models"
 link: "https://medium.com/stackademic/home-acceptance-test-for-small-language-models-57d098c8e094"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_0.png" />
+<img src="/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_0.png" />
 
 요즘 인공지능 커뮤니티에서 멋진 소식들이 있었어요. 모두가 작은 언어 모델과 낮은 계산 자원 가용성과 관련이 있어요.
 
@@ -25,7 +25,7 @@ link: "https://medium.com/stackademic/home-acceptance-test-for-small-language-mo
 
 컴퓨터에 전용 GPU가 없는 경우에 대한 완벽한 직접 테스트 가이드를 제공해 드릴게요.
 
-![이미지](/TIL/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_1.png)
+![이미지](/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_1.png)
 
 # 전문적인 사전 설명
 
@@ -111,7 +111,7 @@ pip install streamlit
 
 cosmo-1b.Q4_K_M.gguf, gemma-2b-it.q4_K_M.gguf, 그리고 h2o-danube-1.8b-chat.Q5_K_M.gguf의 모델 파일들은 model이라는 하위 폴더에 있어야 합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_2.png)
+![이미지](/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_2.png)
 
 <div class="content-ad"></div>
 
@@ -141,7 +141,7 @@ streamlit run .\Danube1.8-stChat_API.py
 
 기본 브라우저를 열어 기본 챗봇 그래픽 인터페이스를 확인하세요.
 
-![Chatbot Interface](/TIL/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_3.png)
+![Chatbot Interface](/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_3.png)
 
 바로 채팅을 시작할 수 있어요. 몇 가지 매개변수를 변경할 수 있어요 (예를 들어
 
@@ -154,7 +154,7 @@ streamlit run .\Danube1.8-stChat_API.py
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_4.png)
+![image](/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_4.png)
 
 # 모든 마법이 일어나는 곳은 어디인가요?
 

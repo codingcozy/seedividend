@@ -1,7 +1,7 @@
 ---
 title: "JAX를 배워야 하는 이유 분자동역학 적용 사례 소개"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png"
+coverImage: "/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png"
 date: 2024-07-07 12:50
 ogImage:
   url: /assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@hghcomphys/why-you-should-learn-jax-a-molecular-dynam
 
 파이썬 스크립트를 최적화하기 위해 PyTorch에 실망한 후 JAX를 사용하기 시작했습니다. 내 프로젝트는 주로 두 가지 주요 구성 요소로 이루어져 있었습니다: 원자 위치를 기반으로 설명자를 계산하고 이러한 설명자를 여러 신경망에 입력으로 사용하여 입자 시스템의 총 잠재 에너지와 힘을 예측하는 것이었습니다. 신경망 부분은 충분히 빠르지만, 특히 TorchScript를 사용한 후에도 설명자 계산, 특히 그래디언트 평가는 효율적으로 수행되지 않았습니다. 자동 미분을 지원하는 Python의 대체 프레임워크를 찾던 중 JAX를 발견했습니다. (물리학적인) 머신러닝 모델을 구축하는 데 매우 효과적이었고 필요한 유연성과 성능을 모두 제공했습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png)
+![이미지](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png)
 
 PyTorch를 사용하는 데 이의를 제기하는 것은 없습니다. 사실, 자주 사용하여 언어 처리나 객체 탐지 작업을 포함한 머신러닝 모델을 구축할 때 사용합니다. 그러나 Python에서 사용자 정의 및 최적화된 모델을 개발하려는 경우, 아마도 PyTorch가 가장 적합한 선택이 아닐 수도 있습니다. PyTorch는 여러 면에서 뛰어나지만 매우 사용자 정의 및 특정한 모델 아키텍처에 대해서는 성능이 좀 더 우수한 대안이 있을 수 있습니다.
 
@@ -281,7 +281,7 @@ initial_structure = Structure.from_ase(unit_cell.repeat((10, 10, 10)))
 view(atoms=initial_structure.to_ase(), viewer='ngl')
 ```
 
-<img src="/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_1.png" />
+<img src="/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_1.png" />
 
 ## 레너드-존스 힘장력
 
@@ -342,7 +342,7 @@ LJPotential 클래스는 입력 구조를 가져와 필수 인자를 두 내부 
 이론
 두 원자 간의 레너드-존스 포텐셜은 다음 방정식으로 정의됩니다:
 
-![equation](/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_2.png)
+![equation](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_2.png)
 
 <div class="content-ad"></div>
 
@@ -423,13 +423,13 @@ ljpot(initial_structure)
 이론
 레너드-존스 시스템 내 두 입자 사이의 힘은 포텐셜 에너지에서 유도될 수 있습니다. i 입자에 대한 입자 j로 인한 힘 벡터 Fij는 레너드-존스 포텐셜 V(rij)의 음의 그래디언트로 주어집니다:
 
-<img src="/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_4.png" />
+<img src="/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_4.png" />
 
 <div class="content-ad"></div>
 
 rij = ri — rj은 j 입자에서 i 입자를 가리키는 벡터를 나타냅니다. 우리는 힘에 대한 cutoff도 적용합니다. 입자 i에 작용하는 총 힘을 계산할 때, 다른 모든 입자 j로부터의 기여를 합산합니다:
 
-![image](/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_5.png)
+![image](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_5.png)
 
 이는 시스템 내의 다른 모든 입자들로 인해 입자 i에 작용하는 순 힘을 제공하면서 자기 상호작용은 제외합니다.
 
@@ -549,7 +549,7 @@ output_freq=1000: 이 매개변수는 시뮬레이션 결과를 얼마나 자주
 
 결과적으로 각 1000단계 후에 단계, 온도, 포텐셜 에너지 및 압력과 같은 물리적 특성을 출력합니다.
 
-![링크 텍스트](/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_6.png)
+![링크 텍스트](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_6.png)
 
 <div class="content-ad"></div>
 
@@ -560,13 +560,13 @@ output_freq=1000: 이 매개변수는 시뮬레이션 결과를 얼마나 자주
 성능
 아래 그래프에서 볼 수 있듯이, 우리의 JAX 커널은 GPU (장치 1)의 거의 전체 용량을 효율적으로 활용하여 시뮬레이션을 수행합니다. 이 높은 수준의 자원 이용은 GPU의 계산 성능이 최대화되어 시뮬레이션의 속도와 성능이 크게 향상되는 것을 보장합니다.
 
-![그림](/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_7.png)
+![그림](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_7.png)
 
 <div class="content-ad"></div>
 
 저는 노트북 CPU와 더 강력한 GPU인 A100에서 동일한 MD 시뮬레이션을 수행했습니다. 결과는 GPU 계산으로 인한 상당한 속도 향상을 보여줍니다. GPU 하드웨어 사용의 중요성을 강조하기 위해 원자가 2000개인 시스템을 시뮬레이션했습니다. JAX의 훌륭한 기능 중 하나는 원본 코드를 수정하지 않고 CPU에서 GPU로 코드 실행을 원활하게 전환할 수 있다는 것이며, 이는 상당한 시간과 노력을 절약할 수 있습니다.
 
-![image](/TIL/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_8.png)
+![image](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_8.png)
 
 나노초당 일은 MD 시뮬레이션의 성능과 효율성을 나타내는 일반적인 측정 지표로, 시뮬레이션이 얼마나 빠르게 진행되는지를 보여줍니다. 그림에서 나타나듯이 GPU 가속 컴퓨팅은 코드의 성능을 수십 배 향상시킬 수 있습니다. 대규모 시뮬레이션의 경우, 도메인 분해를 사용하여 시스템을 병렬화하는 것이 최적의 접근 방식입니다. 이 방법을 사용하면 각 도메인은 제한된 GPU 메모리 요구 사항을 가지고 힘을 계산하고 원자 상태를 업데이트하는 데 사용할 수 있습니다.
 

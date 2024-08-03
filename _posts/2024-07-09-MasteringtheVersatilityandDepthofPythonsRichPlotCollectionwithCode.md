@@ -1,7 +1,7 @@
 ---
 title: "Python의 풍부한 플롯 컬렉션 마스터하기 코드 포함"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_0.png"
+coverImage: "/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_0.png"
 date: 2024-07-09 20:05
 ogImage:
   url: /assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_0.png
@@ -10,7 +10,7 @@ originalTitle: "Mastering the Versatility and Depth of Python’s Rich Plot Coll
 link: "https://medium.com/towards-data-science/mastering-the-versatility-and-depth-of-pythons-rich-plot-collection-with-code-b136b584d143"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_0.png" />
+<img src="/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_0.png" />
 
 모든 데이터 과학자들이 그래픽이 그들의 데이터 이야기에 중요하다는 것을 알고 있습니다. Python 개발자들은 풍부한 플롯 컬렉션을 제공하는 언어로 일할 수 있어 행운입니다. 이 기사에서는 Sankey 다이어그램, 리지 플롯, 인셋, 스파이더 플롯 및 워드클라우드 플롯과 같이 잘 알려지지 않은 시각화를 사용하는 사용 사례에 대해 논의하여 이 풍부함을 시연할 것입니다. 또한 산점도 및 막대 플롯과 같은 더 익숙한 그래픽 표현에 대한 사용 사례도 논의할 것입니다. 대부분의 플롯은 Matplotlib, Seaborn 및 Plotly Python 라이브러리를 활용할 것입니다.
 
@@ -42,7 +42,7 @@ link: "https://medium.com/towards-data-science/mastering-the-versatility-and-dep
 
 이 사용 사례를 마무리하면, 우리는 주택의 다섯 가지 속성을 2D 플롯에 나타내기 위해 산점도와 이모지의 형태, 색상, 크기를 사용했습니다. 웃는 얼굴 같은 복잡한 객체를 데이터 포인트로 나타내는 것은 플롯에 많은 정보를 담을 수 있도록 도와주었습니다.
 
-![plot](/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_2.png)
+![plot](/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_2.png)
 
 사용 사례 3. 대학의 다른 단과대학과 학과의 구성을 2D 그래프로 보여줍니다. 각 단과대학과 학과의 크기에 대한 정보도 전달되어야 합니다.
 
@@ -54,7 +54,7 @@ link: "https://medium.com/towards-data-science/mastering-the-versatility-and-dep
 
 요약하면 선크로스 그래프는 대학의 다양한 엔티티의 계층 구조를 설명하기 위해 크기, 색상 및 텍스트를 사용합니다.
 
-![Figure 3](/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_3.png)
+![Figure 3](/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_3.png)
 
 사용 사례 4. 부동산 고객님은 지난 달에 판매된 주택에 관한 다음 정보를 보여주는 2D 그래프를 원합니다: (a) 판매 가격, (b) 크기, (c) 바다로부터의 거리, (d) 기차역으로부터의 거리. 같은 그래프 내에서 가장 많이 판매된 주택을 포함하는 그래프 세그먼트의 확대도 보여주어야 합니다.
 
@@ -72,7 +72,7 @@ link: "https://medium.com/towards-data-science/mastering-the-versatility-and-dep
 
 이 경우, 워드 클라우드 그래프를 사용할 것입니다. 이 유형의 그래프는 단어를 다양한 크기로 포함하며, 단어의 크기는 원래 텍스트에서 나타나는 빈도에 따라 결정됩니다. 이는 가장 빈도가 높은 단어를 한 눈에 파악할 수 있는 매우 효과적인 방법입니다. 도표 5는 워드 클라우드 그래프를 보여주고, 아래의 코드 조각은 그래프를 생성한 Python 코드를 보여줍니다.
 
-![그래프 이미지](/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_5.png)
+![그래프 이미지](/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_5.png)
 
 사용 사례 6. 새로운 스낵 제품의 장점을 명확하고 매력적으로 소개하기
 
@@ -90,7 +90,7 @@ link: "https://medium.com/towards-data-science/mastering-the-versatility-and-dep
 
 이 사용 사례에서는 두 제품 간의 색상과 모양을 거미 그래프에 사용하여 효과적으로, 효율적으로 및 시각적으로 매력적으로 구별하는 방법을 보았습니다.
 
-![image](/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_6.png)
+![image](/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_6.png)
 
 사용 사례 7. 동일한 플롯에서 해당 장르의 책 축제 주변에서 발생하는 다른 책 장르의 판매를 보여줍니다.
 
@@ -98,7 +98,7 @@ link: "https://medium.com/towards-data-science/mastering-the-versatility-and-dep
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_7.png)
+![이미지](/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_7.png)
 
 사용 사례 8. 신용 카드 회사로부터 연령과 구매 금액에 대한 데이터가 주어졌을 때, 가장 높은 구매를 한 그룹을 플롯으로 강조합니다.
 
@@ -108,7 +108,7 @@ link: "https://medium.com/towards-data-science/mastering-the-versatility-and-dep
 
 <div class="content-ad"></div>
 
-![그림 9: 다양한 학부 학생 인원의 적층 영역 그래픽](/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_9.png)
+![그림 9: 다양한 학부 학생 인원의 적층 영역 그래픽](/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_9.png)
 
 실제 사용 사례 9. 한 개의 그래프에서 1990년부터 2010년까지 생물학, 천문학, 물리학, 수학 학부의 학생 수를 보여줍니다.
 
@@ -120,9 +120,9 @@ link: "https://medium.com/towards-data-science/mastering-the-versatility-and-dep
 
 이전 유스 케이스와 마찬가지로, 이 유스 케이스에서도 스택된 영역 그래프를 사용할 수 있습니다. 그러나 스택된 영역 그래프는 카테고리별로 시간에 따른 차이를 그리는 유일한 솔루션이 아닙니다. 현재 유스 케이스에서는 수익 막대그래프와 마케팅 비용을 추세선으로 나타내는 것이 더 효과적인 비교 방법입니다. Figure 10은 막대그래프를 보여주고, Figure 11은 비교용 스택된 영역 그래프를 보여줍니다. 아래 스니펫에 코드가 표시되어 있습니다. 마케팅 비용이 수익 막대 앞에 추세선으로 그려질 때, 마케팅 비용이 증가하는 메시지가 더 효과적으로 전달됩니다.
 
-![image1](/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_10.png)
+![image1](/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_10.png)
 
-![image2](/TIL/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_11.png)
+![image2](/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_11.png)
 
 <div class="content-ad"></div>
 

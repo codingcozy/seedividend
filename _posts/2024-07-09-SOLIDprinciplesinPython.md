@@ -1,7 +1,7 @@
 ---
 title: "파이썬에서 SOLID 원칙 적용하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-SOLIDprinciplesinPython_0.png"
+coverImage: "/assets/img/2024-07-09-SOLIDprinciplesinPython_0.png"
 date: 2024-07-09 14:45
 ogImage:
   url: /assets/img/2024-07-09-SOLIDprinciplesinPython_0.png
@@ -10,7 +10,7 @@ originalTitle: "SOLID principles in Python"
 link: "https://medium.com/@tai.him18/solid-principles-in-python-0e01b66c1afe"
 ---
 
-![SOLID principles in Python](/TIL/assets/img/2024-07-09-SOLIDprinciplesinPython_0.png)
+![SOLID principles in Python](/assets/img/2024-07-09-SOLIDprinciplesinPython_0.png)
 
 # SOLID이란 무엇인가요?
 

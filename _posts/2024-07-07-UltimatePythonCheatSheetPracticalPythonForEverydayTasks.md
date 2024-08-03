@@ -1,7 +1,7 @@
 ---
 title: "궁극의 파이썬 치트 시트 일상적인 작업을 위한 실용적인 파이썬 사용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-UltimatePythonCheatSheetPracticalPythonForEverydayTasks_0.png"
+coverImage: "/assets/img/2024-07-07-UltimatePythonCheatSheetPracticalPythonForEverydayTasks_0.png"
 date: 2024-07-07 21:34
 ogImage:
   url: /assets/img/2024-07-07-UltimatePythonCheatSheetPracticalPythonForEverydayTasks_0.png
@@ -10,7 +10,7 @@ originalTitle: "Ultimate Python Cheat Sheet: Practical Python For Everyday Tasks
 link: "https://medium.com/stackademic/ultimate-python-cheat-sheet-practical-python-for-everyday-tasks-c267c1394ee8"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-UltimatePythonCheatSheetPracticalPythonForEverydayTasks_0.png" />
+<img src="/assets/img/2024-07-07-UltimatePythonCheatSheetPracticalPythonForEverydayTasks_0.png" />
 
 (다른 내 궁극적인 안내서)
 

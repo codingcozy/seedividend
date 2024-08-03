@@ -1,7 +1,7 @@
 ---
 title: "SQLAlchemy ORM 시작하기  데이터 가져오기 버전 35"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-GettingStartedwithSQLAlchemyORMDataFetching35_0.png"
+coverImage: "/assets/img/2024-07-07-GettingStartedwithSQLAlchemyORMDataFetching35_0.png"
 date: 2024-07-07 21:46
 ogImage:
   url: /assets/img/2024-07-07-GettingStartedwithSQLAlchemyORMDataFetching35_0.png
@@ -10,7 +10,7 @@ originalTitle: "Getting Started with SQLAlchemy ORM — Data Fetching (3 5)"
 link: "https://medium.com/@tomas-svojanovsky/getting-started-with-sqlalchemy-orm-data-fetching-3-5-a968414fd871"
 ---
 
-![이미지](/TIL/assets/img/2024-07-07-GettingStartedwithSQLAlchemyORMDataFetching35_0.png)
+![이미지](/assets/img/2024-07-07-GettingStartedwithSQLAlchemyORMDataFetching35_0.png)
 
 ORM에서 Core와 동일하게 많은 것들이 작동합니다. 한 가지 다른 점은 연결 실행 방법 대신 세션을 사용한다는 것입니다.
 

@@ -1,17 +1,17 @@
 ---
 title: "와 를 사용해서 Python 함수 파라미터를 깔끔하게 정리하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-UseandtoMakeYourPythonFunctionParametersLookNeater_0.png"
+coverImage: "/assets/img/2024-07-13-UseandtoMakeYourPythonFunctionParametersLookNeater_0.png"
 date: 2024-07-13 19:03
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-UseandtoMakeYourPythonFunctionParametersLookNeater_0.png
+  url: /assets/img/2024-07-13-UseandtoMakeYourPythonFunctionParametersLookNeater_0.png
 tag: Tech
 originalTitle: "Use * and   to Make Your Python Function Parameters Look Neater"
 link: "https://medium.com/gitconnected/use-and-to-make-your-python-function-parameters-look-neater-7ca80f874893"
 ---
 
 
-![TIL 이미지](/TIL/assets/img/2024-07-13-UseandtoMakeYourPythonFunctionParametersLookNeater_0.png)
+![TIL 이미지](/assets/img/2024-07-13-UseandtoMakeYourPythonFunctionParametersLookNeater_0.png)
 
 파이썬에서는 위치 매개변수 또는 키워드 매개변수를 사용하여 함수에 데이터를 전달할 수 있습니다. 이는 파이썬에서 함수를 매우 유연하게 사용할 수 있게 해줍니다. 그러나 이에는 일부 제한 사항이 있습니다. 예를 들어, 일부 매개변수를 위치 전용으로 지정하고 일부를 키워드 전용으로 지정할 수 있습니다. 또 다른 일반적인 사용 사례는 기본 값이 있는 매개변수를 기본 값이 없는 매개변수보다 먼저 놓아 매개변수가 더 구성되고 사용하기 쉽도록 만드는 것입니다. 이러한 요청은 파이썬의 * 및 / 기호를 사용하여 수행할 수 있습니다.
 

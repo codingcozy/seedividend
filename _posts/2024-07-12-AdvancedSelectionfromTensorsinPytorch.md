@@ -1,10 +1,10 @@
 ---
 title: "Pytorch에서 텐서 고급 선택 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_0.png"
+coverImage: "/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_0.png"
 date: 2024-07-12 20:32
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_0.png
+  url: /assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_0.png
 tag: Tech
 originalTitle: "Advanced Selection from Tensors in Pytorch"
 link: "https://medium.com/towards-data-science/advanced-selection-from-tensors-in-pytorch-f012e52eef80"
@@ -15,7 +15,7 @@ link: "https://medium.com/towards-data-science/advanced-selection-from-tensors-i
 
 이 게시물에서는 이러한 작업을 수행하는 가장 일반적인 세 가지 방법인 torch.index_select, torch.gather 및 torch.take를 소개합니다. 우리는 이러한 방법을 자세히 설명하고 서로 비교합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_0.png)
+![이미지](/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_0.png)
 
 솔직히 말해서, 이 게시물의 동기 중 하나는 어떤 기능을 언제 사용해야 하는지를 잊어버려 구글링하거나 스택 오버플로우를 찾아보거나, 내 의견으로는 비교적 간단하고 그리 도움이 되지 않는 공식 설명서를 보는 것 때문입니다. 그래서 여기에서는 언급한 바와 같이 이러한 기능에 대해 심층적으로 알아보겠습니다: 언제 어떻게 사용해야 하는지 동기부여를 해주고, 2D 및 3D에서 예제를 제공하며, 결과적으로 선택된 요소를 그래픽으로 표시할 것입니다.
 
@@ -42,7 +42,7 @@ picked = torch.index_select(values, 1, indices)
 
 그 결과 텐서는 형태 [len_dim_0, num_picks]를 가집니다: 차원 0을 따라 각 요소에 대해 차원 1에서 동일한 요소를 선택했습니다. 이를 시각화해 봅시다:
 
-![image](/TIL/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_1.png)
+![image](/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_1.png)
 
 이제 세 가지 차원으로 이동합니다. 이것은 기계 학습 / 데이터 과학의 세계에 더 가까워지며, 형상이 [batch_size, num_elements, num_features]인 텐서를 상상해 보겠습니다. num_elements 요소가 있고 num_feature 특징이 있으며 모든 것이 배치 처리됩니다. torch.index_select를 사용하여 모든 배치 / 특징 조합에 대해 동일한 요소를 선택할 수 있습니다:
 
@@ -99,7 +99,7 @@ picked = torch.gather(values, 1, indices)
 
 이를 시각화할 때, 우리는 이제 선택이 직선으로 특징지어지지 않고, 차원 0의 각 인덱스마다 차원 1의 다른 요소가 선택된다는 것을 관찰할 수 있습니다:
 
-![image](/TIL/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_2.png)
+![image](/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_2.png)
 
 이를 바탕으로 세 가지 차원으로 이동하고, 또한 Python 코드를 통해 이 선택을 다시 구현해보겠습니다:
 
@@ -144,7 +144,7 @@ picked = torch.take(values, indices)
 
 아래에서 볼 수 있듯이, 우리는 이제 두 개의 요소만 얻게 되었습니다:
 
-![image](/TIL/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_3.png)
+![image](/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_3.png)
 
 다음은 3D 선택 후 재구현입니다. 인덱스 텐서는 이제 임의의 모양을 가질 수 있으며, 결과 선택은 이 모양으로 제공됩니다:
 
@@ -178,7 +178,7 @@ assert torch.all(torch.eq(picked, picked_manual))
 
 이 게시물을 마무리하면 이러한 함수들 간의 차이점을 테이블로 요약하고 싶습니다. 이 테이블은 간단한 설명 및 샘플 모양을 포함하며, 샘플 모양은 이전에 언급한 3D ML 예제에 맞게 조정되어 있습니다. 색인 텐서의 필요한 모양과 결과적으로 출력될 모양을 나열할 것입니다:
 
-<img src="/TIL/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_4.png" />
+<img src="/assets/img/2024-07-12-AdvancedSelectionfromTensorsinPytorch_4.png" />
 
 <div class="content-ad"></div>
 

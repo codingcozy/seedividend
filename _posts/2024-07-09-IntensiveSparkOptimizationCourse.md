@@ -1,7 +1,7 @@
 ---
 title: "스파크 최적화 집중 강좌 최고의 성능을 위한 단계별 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png"
+coverImage: "/assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png"
 date: 2024-07-09 20:14
 ogImage:
   url: /assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png
@@ -10,7 +10,7 @@ originalTitle: "Intensive Spark Optimization Course"
 link: "https://medium.com/@kevinchwong/intensive-spark-optimization-course-082bdd0592bc"
 ---
 
-![Intensive Spark Optimization Course](/TIL/assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png)
+![Intensive Spark Optimization Course](/assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png)
 
 # 로컬에서 플레이그라운드 설정하기
 

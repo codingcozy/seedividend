@@ -1,17 +1,17 @@
 ---
 title: "파이썬 동시성 완벽 정복을 위한 12가지 필수 팁"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-12EssentialTipsforMasteringPythonConcurrency_0.png"
+coverImage: "/assets/img/2024-07-13-12EssentialTipsforMasteringPythonConcurrency_0.png"
 date: 2024-07-13 19:35
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-12EssentialTipsforMasteringPythonConcurrency_0.png
+  url: /assets/img/2024-07-13-12EssentialTipsforMasteringPythonConcurrency_0.png
 tag: Tech
 originalTitle: "12 Essential Tips for Mastering Python Concurrency"
 link: "https://medium.com/top-python-libraries/12-essential-tips-for-mastering-python-concurrency-4bcd5fe4b432"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-12EssentialTipsforMasteringPythonConcurrency_0.png" />
+<img src="/assets/img/2024-07-13-12EssentialTipsforMasteringPythonConcurrency_0.png" />
 
 ## 파이썬 동시성이 프로그래밍 병목 현상을 해결하는 방법
 

@@ -1,10 +1,10 @@
 ---
 title: "아직 잘 알려지지 않은 5가지 파이썬 데이터 시각화 기법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_0.png"
+coverImage: "/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_0.png"
 date: 2024-07-12 20:09
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_0.png
+  url: /assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_0.png
 tag: Tech
 originalTitle: "Top 5 Python Data Visualization Techniques You Probably Aren’t Using"
 link: "https://medium.com/top-python-libraries/top-5-python-data-visualization-techniques-you-probably-arent-using-ecde053f578b"
@@ -12,7 +12,7 @@ link: "https://medium.com/top-python-libraries/top-5-python-data-visualization-t
 
 
 
-![이미지](/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_0.png)
+![이미지](/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_0.png)
 
 ## 이 5가지 고급 시각화 차트를 마스터하세요
 
@@ -24,9 +24,9 @@ link: "https://medium.com/top-python-libraries/top-5-python-data-visualization-t
 
 Chord Diagram(코드 다이어그램)은 데이터 포인트 간의 복잡한 관계를 창조적으로 보여줍니다. 노드들이 원 주위에 배열되어 아크로 연결됩니다. 아크의 길이는 연결 값을 반영하며 두께는 관계의 중요도를 나타냅니다. 색상은 데이터를 분류하여 비교를 쉽게 만듭니다. 유전자 데이터 시각화를 위해 특히 다양한 분야에서 널리 사용됩니다.
 
-![Chord Diagram example](/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_1.png)
+![Chord Diagram example](/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_1.png)
 
-![Chord Diagram example 2](/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_2.png)
+![Chord Diagram example 2](/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_2.png)
 
 다음은 Holoviews 및 Bokeh를 사용하여 다섯 개국 간의 무역 관계를 보여주는 코드 다이어그램 예시입니다.
 
@@ -71,7 +71,7 @@ chord.opts(
 chord
 ```
 
-![Chord Diagram](/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_3.png)
+![Chord Diagram](/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_3.png)
 
 - [Chord 호환성](https://holoviews.org/reference/elements/matplotlib/Chord.html)
 - [pyCirclize GitHub](https://github.com/moshi4/pyCirclize)
@@ -107,7 +107,7 @@ fig.show()
 
 # 3. Hexbin Plot
 
-[그림](/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_5.png)
+[그림](/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_5.png)
 
 
 <div class="content-ad"></div>
@@ -144,7 +144,7 @@ plt.colorbar(hb.cmap, ax=ax, label='데이터 포인트 수')  # 컬러바 추�
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_6.png" />
+<img src="/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_6.png" />
 
 <div class="content-ad"></div>
 
@@ -154,7 +154,7 @@ https://matplotlib.org/stable/gallery/statistics/hexbin_demo.html
 
 샌키 다이어그램은 엔터프라이즈 시스템과 시계열 데이터의 흐름을 시각적으로 보여주는 차트입니다. 데이터의 유입과 유출을 보여주며 주로 에너지, 재료, 금융 데이터에 사용됩니다. 매튜 헨리 핀리어스 릴 샌키(Mattew Henry Phineas Riall Sankey)의 이름을 따와 만들어졌습니다. 다이어그램은 시스템의 단계들 간의 데이터 양을 바로 알 수 있게 해줍니다. 노드의 너비는 흐름의 양과 비례하기 때문에 데이터의 규모와 방향을 이해하기 쉽습니다.
 
-<img src="/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_7.png" />
+<img src="/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_7.png" />
 
 <div class="content-ad"></div>
 
@@ -187,7 +187,7 @@ fig.update_layout(title_text="모델 도시의 에너지 흐름", font_size=12)
 fig.show()
 ```
 
-[이미지 바로가기](/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_8.png)
+[이미지 바로가기](/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_8.png)
 
 [Plotly 샌키 다이어그램 자세히 보기](https://plotly.com/python/sankey-diagram/)
 
@@ -197,7 +197,7 @@ fig.show()
 
 스트림 그래프는 변화를 나타내는 강을 닮았습니다. 색상이 카테고리를 구분하며, "강"의 너비는 각 카테고리의 값으로 나타냅니다. 데이터 동태를 이해하기 쉽게 보여주며, 추세와 관계를 시각적으로 표현합니다.
 
-![Stream Graph](/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_9.png)
+![Stream Graph](/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_9.png)
 
 여기에는 Altair 라이브러리를 사용하여 스트림 그래프를 만드는 예시가 있습니다.
 
@@ -220,7 +220,7 @@ alt.Chart(source).mark_area().encode(
 ).interactive()
 ```
 
-<img src="/TIL/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_10.png" />
+<img src="/assets/img/2024-07-12-Top5PythonDataVisualizationTechniquesYouProbablyArentUsing_10.png" />
 
 https://altair-viz.github.io/gallery/streamgraph.html
 

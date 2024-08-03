@@ -1,7 +1,7 @@
 ---
 title: "Langchain이 필요하지 않은 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_0.png"
+coverImage: "/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_0.png"
 date: 2024-07-09 19:54
 ogImage:
   url: /assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_0.png
@@ -14,7 +14,7 @@ link: "https://medium.com/gitconnected/chat-with-csv-files-using-googles-gemini-
 
 LangChain, LangGraph, LlamaIndex, CrewAI... 한 가지 도구에 익숙해지기 시작하면 또 다른 도구가 등장합니다. 이 도구들을 깎아내리거나 싫어하지는 않지만, 이 중 하나와 개발하는 것은 학습 곡선 때문에 진정으로 무섭고 당황스러울 수 있습니다. 이 도서관들을 배우는 것으로 끝내는 대신에 실제로 무언가를 구축하고 싶다면 낙담하기 쉬울 수 있습니다. LangChain은 훌륭하지만 정말 밀도있게 포장되어 있습니다. 문서 자체로는 Python용, JavaScript용 하나씩, 그리고 아마도 API를 위한 부모 문서가 있을 거라고 생각합니다. 그리고 Python 내에서도 비슷한 작업을 수행하는 여러 기능들이 있습니다. 이 모든 것은 좋지만, 코드에 충분한 제어권이 없습니다. 예를 들어, 이전 블로그에서 PDF를 바이트로 로더에 전달하려고 했지만, 함수는 파일 URL만 허용했기 때문에 제대로 수행할 수 없었습니다. 나에게 따르면, 무언가를 간단히 구축할 때 LangChain은 마지막 선택이어야 합니다. 항상 KISS (Keep it simple, stupid)를 지키세요.
 
-![이미지](/TIL/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_0.png)
+![이미지](/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_0.png)
 
 음, 그들이 나가리키는 만큼 사악하지 않을 수도 있지만, 충분하지 않다고 판단된다면 먼저 원시적인 것을 시도한 다음에 더 고급 도구로 넘어가는 것이 항상 좋습니다.
 
@@ -22,7 +22,7 @@ LangChain, LangGraph, LlamaIndex, CrewAI... 한 가지 도구에 익숙해지기
 
 이번 달은 상당히 바쁘게 보냈어요 (사실, 2022년 11월 이후 모든 달이 그랬어요) GPT-4o의 발매와 Gemini 업데이트가 두 날에 걸쳐 연이어 발표되면서요.
 
-![image](/TIL/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_1.png)
+![image](/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_1.png)
 
 GPT-4o의 'ScarJo' - 아니, 'Sky' - 음성은 데모에서 영향을 주었는데, 이로 인해 인공지능 산업에 파도를 일으키고 구글 I/O의 Gemini 성능을 가려버렸어요. 솔직히 말해서, GPT는 항상 모든 LLM들보다 한 발 앞서 있을 거예요만 MVP 및 개인 프로젝트를 만들 때, 무료 티어를 제공하는 Gemini는 제 같은 가난한 개발자들에게 축복이예요. 최신 모델에 액세스할 수 있는 무료 티어로 API 제한 속도가 15 rpm로 정해져 있어요. 나쁘지 않죠?
 
@@ -158,13 +158,13 @@ temperature는 생성된 응답의 무작위성을 제어하는 데 사용됩니
 
 # 사용자 인터페이스
 
-![이미지 1](/TIL/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_2.png)
+![이미지 1](/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_2.png)
 
-![이미지 2](/TIL/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_3.png)
+![이미지 2](/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_3.png)
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_4.png)
+![이미지](/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_4.png)
 
 # 결론
 

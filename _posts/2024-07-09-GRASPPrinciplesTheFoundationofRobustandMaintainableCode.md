@@ -1,7 +1,7 @@
 ---
 title: "GRASP 원칙 견고하고 유지보수 가능한 코드의 기초"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_0.png"
+coverImage: "/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_0.png"
 date: 2024-07-09 14:55
 ogImage:
   url: /assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@okanyenigun/grasp-principles-the-foundation-of-robust
 
 ## 일반 책임 할당 소프트웨어 패턴
 
-![그림](/TIL/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_0.png)
+![그림](/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_0.png)
 
 GRASP(일반 책임 할당 소프트웨어 패턴) 원칙은 객체지향 설계에서 객체와 클래스에 책임을 할당하는 데 도움이 되는 지침 세트입니다.
 
@@ -20,7 +20,7 @@ GRASP(일반 책임 할당 소프트웨어 패턴) 원칙은 객체지향 설계
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_1.png" />
+<img src="/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_1.png" />
 
 이러한 패턴들은 개발자가 핵심 객체 지향 설계 원칙을 이해하고 적용하는 데 도움이 되는 교육 도구입니다. 이 패턴들은 개발자들이 책임을 클래스와 객체에 체계적으로 할당하고, 잘 구조화되고 유지보수 가능한 소프트웨어를 촉진하는 데 도움을 줍니다.
 
@@ -74,7 +74,7 @@ GRASP 원칙:
 
 예를 들어, 작업을 수행하는 메서드를 가지고 있다고 가정해보겠습니다. 이 메서드가 데이터를 사용한다면, 해당 메서드는 데이터가 포함된 클래스에 배치되어야 합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_2.png)
+![이미지](/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_2.png)
 
 제품에 대한 할인을 계산하려고 합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: "consolelog 대신 이 서비스 사용을 시작해야 하는 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png"
+coverImage: "/assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png"
 date: 2024-07-07 19:25
 ogImage:
   url: /assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png
@@ -10,7 +10,7 @@ originalTitle: "Stop Using console.log and Start Using This Service!"
 link: "https://medium.com/stackademic/stop-using-console-log-and-start-using-this-service-0d3eaddfde45"
 ---
 
-![Logging Image](/TIL/assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png)
+![Logging Image](/assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png)
 
 로그 기록은 모든 소프트웨어 개발 과정에서 중요한 부분입니다. 이는 개발자가 응용 프로그램을 디버깅하고 작업 흐름을 이해하며 문제를 추적하는 데 도움이 됩니다. 그러나 Angular 응용 프로그램에서 로깅을 위해 console.log에만 의존하면 개발 환경에서 제품 환경으로 넘어갈 때 문제가 발생할 수 있습니다.
 

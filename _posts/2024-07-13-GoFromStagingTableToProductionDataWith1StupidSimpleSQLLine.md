@@ -1,10 +1,10 @@
 ---
 title: "1줄짜리 SQL로 스테이징 테이블 데이터를 프로덕션 데이터로 이동하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-GoFromStagingTableToProductionDataWith1StupidSimpleSQLLine_0.png"
+coverImage: "/assets/img/2024-07-13-GoFromStagingTableToProductionDataWith1StupidSimpleSQLLine_0.png"
 date: 2024-07-13 19:37
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-GoFromStagingTableToProductionDataWith1StupidSimpleSQLLine_0.png
+  url: /assets/img/2024-07-13-GoFromStagingTableToProductionDataWith1StupidSimpleSQLLine_0.png
 tag: Tech
 originalTitle: "Go From Staging Table To Production Data With 1 Stupid Simple SQL Line"
 link: "https://medium.com/pipeline-a-data-engineering-resource/go-from-staging-table-to-production-data-with-1-stupid-simple-sql-line-79ddf31c5129"
@@ -44,7 +44,7 @@ link: "https://medium.com/pipeline-a-data-engineering-resource/go-from-staging-t
 <div class="content-ad"></div>
 
 
-<img src="/TIL/assets/img/2024-07-13-GoFromStagingTableToProductionDataWith1StupidSimpleSQLLine_0.png" />
+<img src="/assets/img/2024-07-13-GoFromStagingTableToProductionDataWith1StupidSimpleSQLLine_0.png" />
 
 저는 새로운 직업에서 3년이 지난 지금도 데이터 엔지니어링 분야에 관심을 가지고 있는 행운아라 생각합니다. 이야기하고자 하는 것은 앞으로 하지 않으면 안 될 작업이 없다는 것은 아니라는 점입니다.
 

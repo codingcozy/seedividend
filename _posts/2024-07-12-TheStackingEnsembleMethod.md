@@ -1,10 +1,10 @@
 ---
 title: "스태킹 앙상블 기법 이해하고 활용하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_0.png"
+coverImage: "/assets/img/2024-07-12-TheStackingEnsembleMethod_0.png"
 date: 2024-07-12 20:20
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_0.png
+  url: /assets/img/2024-07-12-TheStackingEnsembleMethod_0.png
 tag: Tech
 originalTitle: "The Stacking Ensemble Method"
 link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f5134463a"
@@ -72,7 +72,7 @@ link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f
 <div class="content-ad"></div>
 
 
-![Image](/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_1.png)
+![Image](/assets/img/2024-07-12-TheStackingEnsembleMethod_1.png)
 
 스태킹의 특징 중요한 것은 다음과 같습니다: 내부적으로 스택의 최종 모델은 일반적인 입력 데이터 집합 X와 함께 작동하지 않고, 대신에 베이스 모델의 예측값에서 학습/예측합니다. 아이디어는 모델을 사용하여 기초 모델이 출력 y를 예측하는 방법을 학습하고, 이러한 예측을 실제 참값 y_true와 비교하는 것입니다.
 
@@ -85,7 +85,7 @@ link: "https://medium.com/towards-data-science/the-stacking-ensemble-method-984f
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_2.png" />
+<img src="/assets/img/2024-07-12-TheStackingEnsembleMethod_2.png" />
 
 다시 말해, 스태킹은 기본 모델의 y-예측으로 구성된 내부 2D 데이터셋 행렬이 생성되고, 이 행렬이 최종 모델의 입력으로 사용된다는 것을 의미합니다. 따라서 최종 모델은 y-공간 값의 2D 행렬을 입력으로 받아 실제 1D 예측인 y-공간 값의 출력을 생성합니다.
 
@@ -114,18 +114,18 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_4.png" />
+<img src="/assets/img/2024-07-12-TheStackingEnsembleMethod_4.png" />
 
 다시 말해 이미 학습된 기본 추정기를 사용하여 입력 데이터 세트를 최종 추정기에 맞출 수 없습니다. 대신, 각 추정기는 동일한 교차 검증 폴드로 cross_val_predict 함수에 공급되어 모든 기본 추정기에 대한 y_pred를 생성합니다. 이러한 기본 예측값은 X_final 훈련 데이터 세트에 수평으로 연결되어 최종 추정기가 X_final, y로 적합하게 됩니다.
 
-<img src="/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_5.png" />
+<img src="/assets/img/2024-07-12-TheStackingEnsembleMethod_5.png" />
 
 이제 문제를 아래와 같이 분해하는 방법을 알게 되었습니다: "최종 추정기가 대상 y에 적합하도록 사용하는 X 데이터 세트는 모든 추정기에 의해 제공된 예측 값들을 연결하여 생성됩니다. (모든 추정기에 대해 동일한 cv 전략을 사용하여, 모든 기본 추정기가 항상 동일한 입력/출력을 보는 사실을 고려하기 위함). 이는 첫 번째 단계에서 적합된 기본 모델들(전체 X 데이터 세트로 적합된 모델들)이 최종 추정기를 적합하기 위해 사용되지 않는다는 것을 의미합니다. 대신, 각 폴드에 대해 적합되지 않은 기본 모델의 사본이 사용되며, 각 폴드에 대한 예측값이 연결되어 X_final을 생성합니다. (각 모델에 대해 수직으로, 그리고 수평으로 X_final을 만들기 위해)
 
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_6.png)
+![image](/assets/img/2024-07-12-TheStackingEnsembleMethod_6.png)
 
 이 방법을 통해 최종 추정기는 베이스 모델의 예측값이 이미 확인되지 않은 샘플에 적합됩니다.
 
@@ -140,7 +140,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 사이킷런에서는 이를 스택 모델의 passthrough=True 매개변수를 통해 수행합니다.
 
-![Stacking Ensemble Method](/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_7.png)
+![Stacking Ensemble Method](/assets/img/2024-07-12-TheStackingEnsembleMethod_7.png)
 
 물론 X 행렬은 학습 시간과 예측 시간 모두 X_final에 추가됩니다.
 
@@ -150,7 +150,7 @@ scikit-learn에서는 어떤 추정기든 자동으로 이 작업이 처리됩�
 
 스태킹 모델의 디자인 방식을 통해 추가적인 스택을 간단히 만들 수 있어 더 복잡한 모델을 만들 수 있습니다. 이는 새로운 스택을 중첩하여 수행될 수 있는데, 새로운 스택은 이전 스택의 최종 에스티메이터로 설정됩니다. 이 작업은 모델의 복잡성을 높이지만, 학습/예측 시간과 과적합 가능성이 증가할 수 있다는 점을 유의해야 합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-TheStackingEnsembleMethod_8.png)
+![이미지](/assets/img/2024-07-12-TheStackingEnsembleMethod_8.png)
 
 # 스택 모델 튜닝
 

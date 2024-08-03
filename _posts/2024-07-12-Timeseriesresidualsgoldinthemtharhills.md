@@ -1,17 +1,17 @@
 ---
 title: "시계열 잔차 분석 숨겨진 가치를 찾아라"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png"
+coverImage: "/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png"
 date: 2024-07-12 19:36
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png
+  url: /assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png
 tag: Tech
 originalTitle: "Time series residuals: gold in them thar hills"
 link: "https://medium.com/python-in-plain-english/time-series-residuals-gold-in-them-thar-hills-387faa9b85b0"
 ---
 
 
-![2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png](/TIL/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png)
+![2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png)
 
 실무자들은 종종 모델이 데이터 집합과 얼마나 잘 맞는지를 평가하는 데 어려움을 겪습니다. 대부분의 경우 이는 여러 손실 지표를 살피는 것을 포함하거나 때로는 세분화된 지표를 살펴보는 것 또는 모델의 약점이나 편향을 식별하기 위해 예상 성능과 실제 성능을 보여주는 끝없는 차트를 살피는 것을 의미합니다.
 
@@ -37,7 +37,7 @@ link: "https://medium.com/python-in-plain-english/time-series-residuals-gold-in-
 
 우리는 영국 도로 교통 사고의 월별 발생 건수를 모델링할 것입니다. 이 데이터는 사고 당 세부 정보를 제공하는 STATS19¹ 데이터입니다. 이를 월별 도로 교통 사고 발생 건수로 집계했는데, 다음과 같이 보입니다:
 
-![image](/TIL/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_1.png)
+![image](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_1.png)
 
 일부 중요한 점들이 있습니다:
 
@@ -115,7 +115,7 @@ def fit_and_visualise_model(
 
 아래의 차트는 우리가 원하는 것과 정확히 일치하는 것처럼 보이는데요. 하지만 시계열 데이터에는 상당한 계절성이 있고, 모델에 전혀 고려하지 않았기 때문에 실제로 그런지 알 수 없습니다. 모델 residual을 더 자세히 살펴보겠습니다. 지난 5년 동안의 정보를 확대해서 살펴보겠습니다:
 
-![image](/TIL/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_3.png)
+![image](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_3.png)
 
 <div class="content-ad"></div>
 
@@ -125,7 +125,7 @@ def fit_and_visualise_model(
 
 이제 시계열의 계절성만을 포착하는 모델을 구축해 봅시다.
 
-![image](/TIL/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_4.png)
+![image](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_4.png)
 
 <div class="content-ad"></div>
 
@@ -140,7 +140,7 @@ def fit_and_visualise_model(
 <div class="content-ad"></div>
 
 
-![그래프](/TIL/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_5.png)
+![그래프](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_5.png)
 
 잔차에 여전히 패턴이 보이는 것을 주목하세요. 세 가지 구분 시기로 보이는 것: 1994년 이전, 1994년~2008년, 2008년부터.
 

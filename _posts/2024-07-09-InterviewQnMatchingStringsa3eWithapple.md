@@ -1,7 +1,7 @@
 ---
 title: "인터뷰 질문 apple과 a3e 문자열 매칭 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-InterviewQnMatchingStringsa3eWithapple_0.png"
+coverImage: "/assets/img/2024-07-09-InterviewQnMatchingStringsa3eWithapple_0.png"
 date: 2024-07-09 09:10
 ogImage:
   url: /assets/img/2024-07-09-InterviewQnMatchingStringsa3eWithapple_0.png
@@ -10,7 +10,7 @@ originalTitle: "[Interview Qn] Matching Strings “a3e” With “apple”"
 link: "https://medium.com/@zlliu/interview-qn-matching-strings-a3e-with-apple-5b0740e84a74"
 ---
 
-![image](/TIL/assets/img/2024-07-09-InterviewQnMatchingStringsa3eWithapple_0.png)
+![image](/assets/img/2024-07-09-InterviewQnMatchingStringsa3eWithapple_0.png)
 
 함수 match(string, pattern)을 작성하세요. 이 함수는 2개의 문자열을 입력받고, 문자열이 값과 일치하면 True를 반환하고 그렇지 않으면 False를 반환합니다.
 

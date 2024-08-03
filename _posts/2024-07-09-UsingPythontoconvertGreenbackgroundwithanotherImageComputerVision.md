@@ -1,7 +1,7 @@
 ---
 title: "컴퓨터 비전으로 파이썬을 사용해 녹색 배경을 다른 이미지로 교체하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_0.png"
+coverImage: "/assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_0.png"
 date: 2024-07-09 14:37
 ogImage:
   url: /assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_0.png
@@ -42,7 +42,7 @@ replacement_image = cv2.resize(replacement_image, (500, 500))
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_0.png)
+![Image](/assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_0.png)
 
 ## HSV로 변환
 
@@ -93,7 +93,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_1](/TIL/assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_1.png)
+![2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_1](/assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_1.png)
 
 # 결론
 

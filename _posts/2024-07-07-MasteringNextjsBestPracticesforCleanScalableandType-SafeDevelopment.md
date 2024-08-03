@@ -1,7 +1,7 @@
 ---
 title: "Nextjs 마스터하기 깔끔하고 확장 가능하며 타입 안전한 개발을 위한 모범 사례"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_0.png"
+coverImage: "/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_0.png"
 date: 2024-07-07 21:56
 ogImage:
   url: /assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@iqbalpa/mastering-next-js-best-practices-for-clean-sc
 
 현대 웹 개발에서 Next.js는 견고하고 동적인 웹 애플리케이션을 구축하는 강력한 프레임워크로 떠오르고 있습니다. 그 유연성과 서버 측 렌더링(SSR) 및 정적 사이트 생성(SSG)과 같은 기능들로 인해, 개발자들이 고성능 웹 사이트를 만드는 데 선택하는 주요 도구가 되었습니다. 그러나 Next.js의 최대 잠재력을 활용하려면, 코드 품질, 유지 보수성 및 확장성을 보장하는 최상의 사례에 따라야 합니다. 본 문서에서는 SOLID 원칙, TypeScript 지침 및 Next.js 특화 전략을 아우르는 포괄적인 최상의 사례를 탐구하여, Next.js 프로젝트를 탁월한 수준으로 발전시킬 수 있도록 돕겠습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_0.png)
+![이미지](/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_0.png)
 
 ## 제 1장: Next.js 개발에서 객체 지향 원칙
 
@@ -464,13 +464,13 @@ Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 
 
 <div class="content-ad"></div>
 
-![Mastering Next.js: Best Practices for Clean, Scalable, and Type-Safe Development](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_1.png)
+![Mastering Next.js: Best Practices for Clean, Scalable, and Type-Safe Development](/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_1.png)
 
-![Mastering Next.js: Best Practices for Clean, Scalable, and Type-Safe Development](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_2.png)
+![Mastering Next.js: Best Practices for Clean, Scalable, and Type-Safe Development](/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_2.png)
 
 3. Leverage Functional Components and React Hooks. Functional components and React hooks are a powerful combination in Next.js. Functional components are easier to read and maintain, while hooks like useState and useEffect provide a cleaner way to manage state and side effects.
 
-![Mastering Next.js: Best Practices for Clean, Scalable, and Type-Safe Development](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_3.png)
+![Mastering Next.js: Best Practices for Clean, Scalable, and Type-Safe Development](/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_3.png)
 
 <div class="content-ad"></div>
 
@@ -478,7 +478,7 @@ Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 
 
 5. ESLint로 코드 서식 일관성 유지 설정하기. ESLint는 코드 서식 지원 도구로 프로젝트 전체에서 일관된 코드 스타일을 유지하는 데 도움을 줍니다. Next.js 프로젝트에 설정하면 코드가 일관되게 서식이 맞춰져 가독성과 유지보수가 쉬워집니다.
 
-![이미지](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_4.png)
+![이미지](/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_4.png)
 
 6. "?"로 옵션으로 지정하기. TypeScript에서는 타입 정의에서 속성 이름 뒤에 "?"를 추가하여 속성을 옵션으로 표시할 수 있습니다. 이는 가끔 필요하지 않은 프롭스나 상태 속성이 있는 경우 유용합니다.
 
@@ -490,17 +490,17 @@ Next.js 프로젝트에서 SOLID 원칙을 적용하면 여러 가지 이점을 
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_7.png)
+![이미지](/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_7.png)
 
 9. 타입 정의, 인터페이스 및 상수를 하나의 파일로 분리하세요. 타입 정의, 인터페이스 및 상수를 하나의 파일에 유지하면 깔끔하고 조직적인 프로젝트 구조를 유지할 수 있습니다. 이렇게 하면 프로젝트가 성장함에 따라 타입 정의를 찾고 관리하는 것이 쉬워집니다.
 
-![이미지](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_8.png)
+![이미지](/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_8.png)
 
 10. 항목 목록을 만들고 배열을 반복하여 컴포넌트 목록을 만드세요. Next.js에서 항목 목록을 렌더링할 때 map 함수를 사용하여 배열을 반복하고 각 항목에 대해 컴포넌트를 렌더링할 수 있습니다. 이를 통해 기본 데이터가 변경될 때 자동으로 업데이트되는 동적 목록을 만들 수 있습니다.
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_9.png)
+![이미지](/assets/img/2024-07-07-MasteringNextjsBestPracticesforCleanScalableandType-SafeDevelopment_9.png)
 
 ## Next.js의 장점 - TypeScript Best Practice
 

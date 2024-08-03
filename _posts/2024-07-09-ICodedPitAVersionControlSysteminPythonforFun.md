@@ -1,7 +1,7 @@
 ---
 title: "취미로 만든 파이썬 버전 관리 시스템 I Coded Pit 소개 "
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png"
+coverImage: "/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png"
 date: 2024-07-09 14:31
 ogImage:
   url: /assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png
@@ -10,7 +10,7 @@ originalTitle: "I Coded Pit: A Version Control System in Python for Fun 😏"
 link: "https://medium.com/@zaid-kamil/i-coded-pit-a-version-control-system-in-python-for-fun-67b23cf17018"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png" />
+<img src="/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png" />
 
 안녕하세요! Git이라는 신비한 도구를 모든 개발자가 지켜왔다는데, 그 실제 동작 원리가 궁금한 적이 있으신가요? 저도 그랬어요. Sanket Singh의 "I coded Git in 1.5 hours | Make your own Version Control System 😎"라는 YouTube 비디오에서 영감을 받아, 조금씩 코딩하는 모험을 떠났어요. 파이썬으로 제가 직접 버전 관리 시스템을 만들어보는 건 어떨까요?
 
@@ -21,7 +21,7 @@ Pit을 알아보기 전에 Git을 먼저 살펴볼까요? 2005년 Linus Torvalds
 
 <div class="content-ad"></div>
 
-![2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_1](/TIL/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_1.png)
+![2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_1](/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_1.png)
 
 안녕하세요! 이 두 부분으로 구성된 기사에서 Pit이 어떻게 작동하는지 알아보겠습니다. 환경을 설정하고 VCS의 핵심 구성 요소를 만드는 것부터 시작해서 변경 내용을 커밋하고 로그를 확인하는 고급 기능까지 살펴볼 거에요. 그러니 당신의 삽(아니, 키보드!)을 쥐고 함께 파는 것을 시작해봐요!
 

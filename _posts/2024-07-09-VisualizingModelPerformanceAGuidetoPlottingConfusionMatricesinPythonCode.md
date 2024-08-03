@@ -1,7 +1,7 @@
 ---
 title: "모델 성능 시각화 Python 코드로 혼동 행렬 그리는 방법 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png"
+coverImage: "/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png"
 date: 2024-07-09 14:27
 ogImage:
   url: /assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png
@@ -10,7 +10,7 @@ originalTitle: "Visualizing Model Performance: A Guide to Plotting Confusion Mat
 link: "https://medium.com/@hussainmiraqib/in-this-article-we-delve-into-the-importance-of-confusion-matrices-in-evaluating-machine-learning-d1f70abf0ffc"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png" />
+<img src="/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png" />
 
 안녕하세요! 이 기사에서는 머신러닝 모델을 평가하는데 있어서 혼동 행렬의 중요성에 대해 살펴보겠습니다. 혼동 행렬이 무엇이며, 어떻게 작동하는지, 그리고 분류 모델의 성능을 평가하는 데 왜 중요한지에 대한 자세한 설명을 제공할 것입니다. 게다가, 우리는 혼동 행렬을 그리는 Python 함수를 살펴보고, 결과를 효과적으로 해석하는 방법에 대한 통찰을 제공할 것입니다.
 
@@ -24,7 +24,7 @@ link: "https://medium.com/@hussainmiraqib/in-this-article-we-delve-into-the-impo
 
 이진 분류 문제의 혼동 행렬은 일반적으로 다음과 같은 모습을 갖습니다:
 
-![Confusion Matrix](/TIL/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_1.png)
+![Confusion Matrix](/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_1.png)
 
 다중 클래스 분류 문제의 경우, 행렬은 더 많은 클래스를 수용하도록 확장됩니다.
 

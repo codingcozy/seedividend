@@ -1,10 +1,10 @@
 ---
 title: "퀀트 트레이딩에 뛰어들기 전에 꼭 알아야 할 데이터 과학 분석의 비법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_0.png"
+coverImage: "/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_0.png"
 date: 2024-07-13 19:25
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_0.png
+  url: /assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_0.png
 tag: Tech
 originalTitle: "Before you hit the quant trading scene, swing by my data science analysis– your secret weapon for making those trades work harder!"
 link: "https://medium.com/@datalev/before-you-hit-the-quant-trading-scene-swing-by-my-data-science-analysis-your-secret-weapon-for-03914c1ad318"
@@ -13,7 +13,7 @@ link: "https://medium.com/@datalev/before-you-hit-the-quant-trading-scene-swing-
 
 의심에서 전략으로: 시장 동향, 거래 전술 및 데이터 과학 통찰력의 복잡한 망을 해체해보세요
 
-![이미지](/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_0.png)
+![이미지](/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_0.png)
 
 숫자와 화려한 수학 기교에 능숙하다는 것이 주식 시장에서 많은 돈을 벌 수 있는 열쇠라고 들어왔어요. 솔직히 말해서, 저도 그것에 대해 조금 의심스러웠어요. 그 이유는 여기 있어요.
 
@@ -194,7 +194,7 @@ RSI(상대강도지수)는 주식의 건강도를 나타내는 미터와 같습�
 
 먼저 2020년 11월부터 2024년 2월까지, 총 40개월 동안의 시장의 상승과 하락을 다룬 분석 결과를 확인해 보겠습니다:
 
-![analysis](/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_1.png)
+![analysis](/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_1.png)
 
 이게 무슨 의미가 있을까요? 여기에서 ChatGPT가 빛을 발합니다. 우리가 하는 것은 어떤 움직임을 해야 하는지 알려주는 것뿐만이 아니라, 그 움직임의 이유를 이해하는 데 중점을 둡니다. 코딩하는 것보다 ChatGPT에게 탐색적 데이터 분석(EDA) 결과를 제공하는 것이 더 유익할 수 있습니다. 제가 원하는 것은 이렇습니다:
 
@@ -228,11 +228,11 @@ ChatGPT는 매우 구체적이고 상세한 결과를 제공할 수 있습니다
 <div class="content-ad"></div>
 
 
-![2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_2.png](/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_2.png)
+![2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_2.png](/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_2.png)
 
 2021–12부터 2022–10까지: 코로나 이후의 곰 시장을 통해:
 
-![2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_3.png](/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_3.png)
+![2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_3.png](/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_3.png)
 
 2022–02부터 2023–05까지: 혼합 시장, 첫 곰 시장에서 시작하여 후에 황홀 시장으로 바뀜:
 
@@ -240,11 +240,11 @@ ChatGPT는 매우 구체적이고 상세한 결과를 제공할 수 있습니다
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_4.png)
+![이미지](/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_4.png)
 
 2020–12부터 2022–12까지: 상승에서 하락으로 바뀌는 혼합 시장, 결과는 호황:
 
-![이미지](/TIL/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_5.png)
+![이미지](/assets/img/2024-07-13-Beforeyouhitthequanttradingsceneswingbymydatascienceanalysisyoursecretweaponformakingthosetradesworkharder_5.png)
 
 백테스팅을 위한 Python 스크립트는 제 깃허브 저장소에서 확인하실 수 있습니다:
 

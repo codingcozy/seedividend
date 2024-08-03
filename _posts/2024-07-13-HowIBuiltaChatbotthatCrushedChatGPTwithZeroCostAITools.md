@@ -1,10 +1,10 @@
 ---
 title: "비용 없이 AI 도구만으로 ChatGPT를 능가하는 챗봇을 구축한 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_0.png"
+coverImage: "/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_0.png"
 date: 2024-07-13 19:52
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_0.png
+  url: /assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_0.png
 tag: Tech
 originalTitle: "How I Built a Chatbot that Crushed ChatGPT with Zero Cost AI Tools"
 link: "https://medium.com/@fabio.matricardi/how-i-built-a-chatbot-that-crushed-chatgpt-with-zero-cost-ai-tools-f31ae7b48f59"
@@ -33,7 +33,7 @@ link: "https://medium.com/@fabio.matricardi/how-i-built-a-chatbot-that-crushed-c
 
 Well done! You've done amazing work by creating a chatbot that can engage in fluent and diverse conversations. What's even more impressive is that you accomplished this on your own computer without relying on external cloud services or APIs. This allowed you to maintain full control and privacy over your data and model.
 
-![Image](/TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_0.png)
+![Image](/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_0.png)
 
 ## The Issue
 
@@ -45,7 +45,7 @@ With the article "Apple's iOS App Store announces sweeping changes in the EU," t
 
 # ChatGPT 결과
 
-![이미지](/TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_1.png)
+![이미지](/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_1.png)
 
 # 우리의 개인 AI가 지역에서 이것을 어떻게 할까요?
 
@@ -55,11 +55,11 @@ With the article "Apple's iOS App Store announces sweeping changes in the EU," t
 
 그런 일은 없어요. 내가 구글 콜랩에서 실행하는 Mixtures of Experts (SoMoE)를 만들기로 결정했어. 또한 내 미니PC(130 달러짜리 팬리스 컴퓨터로 윈도우 11이 돌아가며 16GB RAM과 7세대 Intel 4코어 4스레드를 가지고 있는)에서도 테스트했어. 그래서 결론적으로 누구나 내 SoMoE를 실행할 수 있어.
 
-![이미지](/TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_2.png)
+![이미지](/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_2.png)
 
 비밀 조리법? 작은 T5 모델이 텍스트를 요약하고 문서의 주요 질문을 제안하며, StableLM-Zephyr-3B의 양자화 버전이 질문에 대답하고 해당 문서에 대한 챗봇 역할을 한다는 것. 모든 것을 연결하기 위해 영어에만 BAAI/bge-base-en-v1.5 임베딩을 사용해서 벡터 데이터베이스를 만들고 유사성 검색 및 관련성 재랭킹에 작동시키고 있어.
 
-![이미지](/TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_3.png)
+![이미지](/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_3.png)
 
 <div class="content-ad"></div>
 
@@ -117,7 +117,7 @@ template = f"""<|user|>\n주어진 텍스트 일부는 다음과 같습니다:\n
 <div class="content-ad"></div>
 
 ```
-![Image](/TIL/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_4.png)
+![Image](/assets/img/2024-07-13-HowIBuiltaChatbotthatCrushedChatGPTwithZeroCostAITools_4.png)
 
 # The SoMoE way
 

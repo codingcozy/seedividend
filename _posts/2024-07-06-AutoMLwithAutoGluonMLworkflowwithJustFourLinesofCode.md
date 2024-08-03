@@ -1,7 +1,7 @@
 ---
 title: "AutoGluon으로 AutoML 시작하기 4줄 코드로 완료하는 ML 워크플로우"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_0.png"
+coverImage: "/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_0.png"
 date: 2024-07-06 02:26
 ogImage:
   url: /assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_0.png
@@ -58,7 +58,7 @@ AutoML 공간에는 개별적인 기능과 기능을 제공하는 여러 업체�
 
 ## 2.2: AutoML의 주요 구성 요소
 
-![AutoML Workflow](/TIL/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_1.png)
+![AutoML Workflow](/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_1.png)
 
 머신 러닝 파이프라인에서의 첫 번째 단계는 데이터 전처리입니다. 이는 결측값 처리, 중복 제거, 오류 수정 등을 통해 데이터를 정리하는 것을 포함합니다. 데이터 전처리에는 값의 정규화, 범주형 변수의 인코딩, 피처의 스케일 조정과 같이 분석에 적합한 형식으로 데이터를 변환하는 것도 포함됩니다. 적절한 데이터 전처리는 데이터의 품질이 머신 러닝 모델의 성능에 직접적으로 영향을 미치기 때문에 매우 중요합니다.
 
@@ -178,11 +178,11 @@ joblib.dump(bagging, 'model.pkl')
 
 회귀 분석:
 
-![AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_3](/TIL/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_3.png)
+![AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_3](/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_3.png)
 
 분류:
 
-![AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_4](/TIL/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_4.png)
+![AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_4](/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_4.png)
 
 <div class="content-ad"></div>
 
@@ -258,7 +258,7 @@ for epoch in range(100):
 자원 할당 전략
 효과적인 자원 할당은 제한된 컴퓨팅 자원을 다룰 때 하이퍼파라미터 최적화에 중요합니다. AutoGluon은 다양한 성능 최적화 전략을 사용합니다. 시스템은 초기에 일부 데이터 또는 더 적은 에폭으로 모델을 훈련하여 빠르게 잠재력을 평가합니다. 유망한 모델에는 이후에 더 많은 자원이 할당되어 철저한 평가를 수행합니다. 이 접근 방식은 탐색과 활용을 균형 있게 유지하여 컴퓨팅 자원이 효율적으로 사용되도록 합니다:
 
-![AutoML with AutoGluon ML workflow with Just Four Lines of Code](/TIL/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_7.png)
+![AutoML with AutoGluon ML workflow with Just Four Lines of Code](/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_7.png)
 
 이 공식에서:
 

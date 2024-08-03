@@ -1,7 +1,7 @@
 ---
 title: "FastAPI Apppy에서 모듈러 아키텍처로 전환하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png"
+coverImage: "/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png"
 date: 2024-07-09 20:24
 ogImage:
   url: /assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png
@@ -10,7 +10,7 @@ originalTitle: "FastAPI: From App.py to a Modular Architecture"
 link: "https://medium.com/towardsdev/fastapi-from-app-py-to-a-modular-architecture-54ca9e0044eb"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png" />
+<img src="/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png" />
 
 패스트API를 사용하여 백엔드를 구축할 때, 일반적으로 하나의 app.py 파일로 시작하는 것이 흔합니다. 이 접근 방식은 작은 프로젝트에 적합하지만, 응용 프로그램이 성장함에 따라 유지 보수와 확장이 어려워집니다.
 
@@ -22,7 +22,7 @@ link: "https://medium.com/towardsdev/fastapi-from-app-py-to-a-modular-architectu
 
 리팩터링 프로세스에 뛰어들기 전에 함께 작업할 API를 살펴보겠습니다. 다음과 같은 엔드포인트를 가진 간단한 할 일 애플리케이션을 구축 중입니다.
 
-![API Image](/TIL/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_1.png)
+![API Image](/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_1.png)
 
 이러한 API를 통해 사용자는 할 일 항목에 대한 CRUD(Create, Read, Update, Delete) 작업을 수행할 수 있습니다. 각 할 일 항목은 다음과 같은 속성을 가지게 될 것입니다.
 
@@ -135,7 +135,7 @@ API를 시작하려면 python3 app.py 명령어를 사용해요
 
 <div class="content-ad"></div>
 
-![FastAPIFromApppytoaModularArchitecture](/TIL/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_2.png)
+![FastAPIFromApppytoaModularArchitecture](/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_2.png)
 
 Refactoring journey starts now...
 
@@ -453,7 +453,7 @@ class TodoService:
 
 <div class="content-ad"></div>
 
-`<img src="/TIL/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_3.png" />`
+`<img src="/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_3.png" />`
 
 FastAPI 애플리케이션을 모듈식 아키텍처로 리팩토링함으로써, 지속적인 성장과 유연성을 위한 견고한 기반을 마련했습니다. 이 접근 방식은 현재 개발 노력을 향상시킬 뿐만 아니라 앞으로의 도전과 기회에 대비하는 데 도움이 됩니다.
 

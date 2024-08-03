@@ -1,7 +1,7 @@
 ---
 title: "Python으로 델타 뉴트럴 트레이딩 전략 백테스트 하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png"
+coverImage: "/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png"
 date: 2024-07-09 14:50
 ogImage:
   url: /assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png
@@ -10,7 +10,7 @@ originalTitle: "Backtest a delta-neutral trading strategy in Python"
 link: "https://medium.com/@tng-daryl/backtest-a-delta-neutral-trading-strategy-in-python-602cd85e22e0"
 ---
 
-![image](/TIL/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png)
+![image](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png)
 
 옵션의 가장 강력한 사용 방법 중 하나는 투자 포트폴리오를 기본 자산의 방향성 스윙으로부터 격리시키는 능력입니다.
 
@@ -21,7 +21,7 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_1.png" />
+<img src="/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_1.png" />
 
 당신의 포지션은 방향성 노출이 있으며 델타가 1이라고 합니다.
 
@@ -45,9 +45,9 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 현재 인벤토리에 주식 보유 중이라면, 방향성 노출을 조정하는 간편한 방법은 콜 옵션을 매수하거나 공매도하는 것입니다.
 
-![이미지1](/TIL/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_2.png)
+![이미지1](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_2.png)
 
-![이미지2](/TIL/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_3.png)
+![이미지2](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_3.png)
 
 <div class="content-ad"></div>
 
@@ -71,13 +71,13 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_4.png)
+![image](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_4.png)
 
 이 예제에서는 1000개의 숏 콜(short calls)을 시작으로 책이 시작됩니다. 이것은 10만 주의 가치가 있는 숏 포지션을 나타냅니다.
 
 이 연습의 목표는 콜의 델타에 기반하여 매주 포트폴리오를 리밸런싱하는 것입니다.
 
-![image](/TIL/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_5.png)
+![image](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_5.png)
 
 <div class="content-ad"></div>
 

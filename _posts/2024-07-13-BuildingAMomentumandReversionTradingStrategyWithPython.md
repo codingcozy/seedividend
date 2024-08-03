@@ -1,10 +1,10 @@
 ---
 title: "파이썬으로 모멘텀 및 되돌림 트레이딩 전략 구축 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_0.png"
+coverImage: "/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_0.png"
 date: 2024-07-13 19:01
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_0.png
+  url: /assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_0.png
 tag: Tech
 originalTitle: "Building A Momentum and Reversion Trading Strategy With Python"
 link: "https://medium.com/gitconnected/building-a-momentum-and-reversion-trading-strategy-with-python-b49efee4533c"
@@ -242,7 +242,7 @@ plt.show()
 <div class="content-ad"></div>
 
 
-![Strategy](/TIL/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_0.png)
+![Strategy](/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_0.png)
 
 지난 2년 동안 이 전략은 30%의 수익을 창출했습니다. 최근 S&P 500의 10%의 수익과 비교했을 때, 강력한 전략으로 보입니다.
 
@@ -294,7 +294,7 @@ ax1.legend(loc='upper left', fontsize=10)
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_1.png" />
+<img src="/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_1.png" />
 
 <div class="content-ad"></div>
 
@@ -370,7 +370,7 @@ ax1.legend(loc='upper left', fontsize=10)
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_2.png" />
+<img src="/assets/img/2024-07-13-BuildingAMomentumandReversionTradingStrategyWithPython_2.png" />
 
 <div class="content-ad"></div>
 

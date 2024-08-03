@@ -1,10 +1,10 @@
 ---
 title: "Yang-Zhang 방법으로 정확한 변동성 추정하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_0.png"
+coverImage: "/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_0.png"
 date: 2024-07-12 19:34
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_0.png
+  url: /assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_0.png
 tag: Tech
 originalTitle: "Yang-Zhang as an Accurate Volatility Estimator"
 link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
@@ -12,7 +12,7 @@ link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
 
 
 
-![Yang-Zhang volatility estimator](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_0.png)
+![Yang-Zhang volatility estimator](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_0.png)
 
 양-장 변동성 추정자는 초고값 점프나 밤사이 갭을 가진 자산에 특히 유용한 역사적 변동성 측정값입니다. 이 추정자는 이전 게시된 로젤스-사첼과 가만-클라스 추정자의 장점을 결합해 단순한 변동성 측정값에서 발생하는 편향과 오류를 줄이도록 설계되었습니다.
 
@@ -29,16 +29,16 @@ link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
 
 - 차분(첫 번째 함수) 또는 로그 방법(두 번째 함수)을 사용하여 수익률을 계산합니다.
 
-![image](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_1.png)
+![image](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_1.png)
 
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_2.png)
+![이미지](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_2.png)
 
 - 수익률의 평균(평균)을 계산하세요:
 
-![이미지](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_3.png)
+![이미지](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_3.png)
 
 - 일일 수익률의 분산을 계산하세요:
 
@@ -46,11 +46,11 @@ link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_4.png)
+![이미지](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_4.png)
 
 - 표준 편차는 분산의 제곱근이다:
 
-![이미지](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_5.png)
+![이미지](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_5.png)
 
 어떤 통계적 측정 값처럼 장단점이 있습니다. 역사적 표준 편차는 쉽게 계산할 수 있습니다. 스프레드시트 및 프로그래밍 언어에서 쉽게 구현할 수 있는 기본 통계 작업이 필요합니다. 변동성에 대한 공식적인 측정 방법으로 이해되며, 깊은 통계 배경을 갖지 않을 수 있는 이해관계자들에게 쉽게 설명할 수 있습니다. 많은 금융 모델 및 위험 지표(예: 샤프 비율)는 리스크 측정 값으로서 표준 편차를 의존합니다.
 
@@ -100,13 +100,13 @@ Yang-Zhang 변동성 추정기는 Rogers-Satchell 및 Garman-Klass 추정기의 
 
 Yang-Zhang 변동성 추정기는 다음 공식을 사용하여 계산된다:
 
-![equation](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_6.png)
+![equation](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_6.png)
 
 참고:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_7.png" />
+<img src="/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_7.png" />
 
 첫 번째 표준 편차 용어는 open-close 변동성을 나타내고, 두 번째는 close-close 변동성을 나타내며, 세 번째는 Rogers-Satchell 변동성 추정값입니다.
 
@@ -117,7 +117,7 @@ K factor는 open-close 변동성과 close-close 변동성의 기여도를 균형
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_8.png)
+![image](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_8.png)
 
 # Python에서 Yang-Zhang 변동성 계산하기
 
@@ -177,7 +177,7 @@ plt.axhline(y=np.mean(rolling_volatility), color='red', linestyle='dashed)
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_9.png)
+![이미지](/assets/img/2024-07-12-Yang-ZhangasanAccurateVolatilityEstimator_9.png)
 
 과거 표준 편차는 변동성의 유용하고 널리 채택된 측정 방법이며, 간단함, 계산의 용이성 및 금융 산업에서의 일반적인 수용으로 인해 가치가 있습니다. 그러나 작은 표본 크기, 비정상적 변동성 및 수익의 비정규 분포를 처리하는 데 있어서 특히 한계가 있어 조심해서 사용해야 합니다.
 

@@ -1,7 +1,7 @@
 ---
 title: "데이터 과학자와 데이터 분석가를 위한 10개의 고급 파이썬 코드 조각 모음"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_0.png"
+coverImage: "/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_0.png"
 date: 2024-07-09 09:15
 ogImage:
   url: /assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@andreastegusks/free-10advanced-code-snippets-for-pyth
 
 매수 분석가 또는 분석가로 활동할 때 효과적인 데이터 분석과 통찰을 얻기 위해서는 고급 코딩 기술을 배우는 것이 중요합니다. 이 게시물에서는 타이타닉 데이터셋을 중심으로 15가지 고급 Python 코드 조각을 살펴보겠습니다. 데이터 조작, 시각화, 머신러닝과 같은 분석 능력을 향상시키는데 도움이 될 것입니다.
 
-![Image](/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_0.png)
+![Image](/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_0.png)
 
 ## 1. 타이타닉 데이터셋 불러오기
 
@@ -78,7 +78,7 @@ plt.show()
 
 이 코드 스니펫은 승객 클래스의 분포를 보여주는 카운트 플롯을 생성하며, 아름다움을 위해 하늘색을 사용했습니다.
 
-<img src="/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_1.png" />
+<img src="/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_1.png" />
 
 # 5. 상관 분석
 
@@ -116,7 +116,7 @@ plt.show()
 
 이 코드 스니펫은 상관 행렬을 계산하고, 수치형 특성 간의 상관 관계를 시각화하는 heatmap을 생성합니다. 쿨 웜 컬러를 사용하며, 빨간색은 양의 상관 관계를 나타냅니다.
 
-<img src="/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_2.png" />
+<img src="/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_2.png" />
 
 <div class="content-ad"></div>
 
@@ -138,7 +138,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_3.png)
+![image](/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_3.png)
 
 # 7. Distribution of Age by Survival Status
 
@@ -184,7 +184,7 @@ plt.show()
 
 이 코드 조각은 나이와 요금 사이의 관계를 보여주는 산점도를 생성하며, 시각적으로 녹색을 사용합니다.
 
-<img src="/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_5.png" />
+<img src="/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_5.png" />
 
 # 9. 클래스별 생존율 막대 그래프
 
@@ -204,7 +204,7 @@ plt.show()
 
 이 코드 조각은 각 승객 클래스의 생존율을 보여주는 막대 그래프를 생성하며, 아름다운 하늘색을 사용했습니다.
 
-![생존율](/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_6.png)
+![생존율](/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_6.png)
 
 <div class="content-ad"></div>
 
@@ -223,7 +223,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_7.png)
+![image](/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_7.png)
 
 # 11. 승선 도시 분포를 위한 막대 그래프
 
@@ -243,7 +243,7 @@ plt.show()
 
 이 코드 스니펫은 승선한 마을별 승객 분포를 보여주는 막대 플롯을 만듭니다. 시각적인 아름다움을 위해 하늘색이 사용되었습니다.
 
-![Distribution of passengers by embarked town](/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_8.png)
+![Distribution of passengers by embarked town](/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_8.png)
 
 # 12. 함께 탑승한 형제/배우자의 분포
 
@@ -262,7 +262,7 @@ plt.show()
 
 이 코드 스니펫은 함께 탑승한 형제자매/배우자 수에 대한 분포를 보여주는 히스토그램을 생성합니다. 아름다운 목적으로 하늘색을 사용했어요.
 
-<img src="/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_9.png" />
+<img src="/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_9.png" />
 
 # 13. 성별 분포를 보여주는 파이 차트
 
@@ -281,7 +281,7 @@ plt.show()
 
 이 코드 스니펫은 성별에 따른 탑승객 분포를 보여주는 파이 차트를 생성하며, 남성과 여성을 나타내기 위해 서로 다른 색상을 사용합니다.
 
-<img src="/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_10.png" />
+<img src="/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_10.png" />
 
 <div class="content-ad"></div>
 
@@ -303,7 +303,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_11.png)
+![이미지](/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_11.png)
 
 # 15. 클래스 및 성별별 요금 분포에 대한 바이올린 플롯
 
@@ -323,6 +323,6 @@ plt.show()
 
 이 코드 스니펫은 각 승객 클래스별로 성별로 나누어 지불요금의 분포를 보여주는 바이올린 플롯을 생성합니다. 이 때, 시각적으로 녹색 색상을 사용합니다.
 
-![Violin Plot](/TIL/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_12.png)
+![Violin Plot](/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_12.png)
 
 이러한 고급 코드 스니펫은 파이썬을 사용한 데이터 조작, 시각화 및 분석의 다양한 측면을 다룹니다. 이 기술들을 숙달함으로써 우리는 복잡한 데이터셋을 처리하고 데이터에서 의미 있는 통찰을 얻는 데 더 잘 대비할 수 있습니다.

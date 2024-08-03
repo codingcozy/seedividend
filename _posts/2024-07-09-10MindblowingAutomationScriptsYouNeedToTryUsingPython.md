@@ -1,7 +1,7 @@
 ---
 title: "파이썬으로 꼭 시도해볼 10가지 놀라운 자동화 스크립트"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png"
+coverImage: "/assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png"
 date: 2024-07-09 14:49
 ogImage:
   url: /assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/pythoneers/10-mindblowing-automation-scripts-you-need-
 
 ## 시도해볼 자동화 스크립트 — 파트 8
 
-![이미지](/TIL/assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png)
+![이미지](/assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png)
 
 자동화는 현대의 효율성을 뒷받침하는 핵심 요소로, Python은 다양한 해결책을 갖춘 언어로, 작업을 원활하게 최적화하는 데 이상적인 동반이 됩니다. 방대한 라이브러리 지원, 내장 함수, 그리고 번창하는 기여자 커뮤니티로 Python은 전례없이 업무를 단순화하는 데 최적 동반이라 할 수 있습니다. 본 블로그에서는 Python을 사용하여 시도해볼 10가지 놀라운 자동화 스크립트에 대해 살펴보겠습니다.
 

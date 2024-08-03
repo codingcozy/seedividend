@@ -1,10 +1,10 @@
 ---
 title: "빅데이터 처리를 위한 Python 사용 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-PythonforBigData_0.png"
+coverImage: "/assets/img/2024-07-12-PythonforBigData_0.png"
 date: 2024-07-12 21:01
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-PythonforBigData_0.png
+  url: /assets/img/2024-07-12-PythonforBigData_0.png
 tag: Tech
 originalTitle: "Python for Big Data"
 link: "https://medium.com/@kaanalperucan/python-for-big-data-b5c5a539fe41"
@@ -20,7 +20,7 @@ link: "https://medium.com/@kaanalperucan/python-for-big-data-b5c5a539fe41"
 
 Python은 간단함과 데이터 처리 및 분석을 위한 강력한 라이브러리가 많이 제공되어 인기 있는 언어입니다. Python이 빅 데이터 기술과 어떻게 결합되는지 알아봅시다.
 
-![Python을 위한 빅 데이터 이미지](/TIL/assets/img/2024-07-12-PythonforBigData_0.png)
+![Python을 위한 빅 데이터 이미지](/assets/img/2024-07-12-PythonforBigData_0.png)
 
 <div class="content-ad"></div>
 

@@ -1,7 +1,7 @@
 ---
 title: "Snowflake 네이티브 앱 2024년 데이터 공유의 혁명"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-SnowflakeNativeAppsTheNewFormofDataSharing_0.png"
+coverImage: "/assets/img/2024-07-06-SnowflakeNativeAppsTheNewFormofDataSharing_0.png"
 date: 2024-07-06 10:33
 ogImage:
   url: /assets/img/2024-07-06-SnowflakeNativeAppsTheNewFormofDataSharing_0.png

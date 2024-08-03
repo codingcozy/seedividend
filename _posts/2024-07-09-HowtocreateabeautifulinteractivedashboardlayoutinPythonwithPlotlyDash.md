@@ -1,7 +1,7 @@
 ---
 title: "Plotly Dash로 아름답고 상호작용하는 대시보드 레이아웃 만드는 방법 Python"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_0.png"
+coverImage: "/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_0.png"
 date: 2024-07-09 14:39
 ogImage:
   url: /assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_0.png
@@ -16,7 +16,7 @@ link: "https://medium.com/plotly/how-to-create-a-beautiful-interactive-dashboard
 
 우리가 최종으로 얻게 될 모습은 이렇습니다:
 
-![How to create a beautiful interactive dashboard layout in Python with Plotly Dash](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_0.png)
+![How to create a beautiful interactive dashboard layout in Python with Plotly Dash](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_0.png)
 
 <div class="content-ad"></div>
 
@@ -68,7 +68,7 @@ import dash_bootstrap_components as dbc
 
 본질적으로, Dash 애플리케이션은 중첩된 직사각형 DIV 컨테이너 구조에요. 이러한 컨테이너에는 그래프, 텍스트, 이미지 및 탐색 요소들을 배치해요. 배경을 고려하면, 우리 페이지는 여러 레이어로 구성되어 있어요:
 
-![대화형 대시보드 레이아웃을 만드는 방법](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_1.png)
+![대화형 대시보드 레이아웃을 만드는 방법](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_1.png)
 
 <div class="content-ad"></div>
 
@@ -231,7 +231,7 @@ p {
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_2.png)
+![이미지](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_2.png)
 
 ## 기본 스타일을 사용하는 방법 및 왜 설정해야 하는가?
 
@@ -279,7 +279,7 @@ app.layout = dbc.Container(
 
 첫 번째 DIV 컨테이너의 층은 대시보드를 네비게이션 바와 콘텐츠(우리의 경우에는 그래프 및 출력)로 나눕니다.
 
-![대시보드 구성](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_3.png)
+![대시보드 구성](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_3.png)
 
 <div class="content-ad"></div>
 
@@ -329,7 +329,7 @@ app.layout = dbc.Container(
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_4.png)
+![이미지](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_4.png)
 
 왼쪽 "네비게이션" 컨테이너는 네 개의 부분으로 나뉩니다: 대시보드 제목 및 설명, 버튼 막대, 드롭다운 메뉴 막대 및 이미지입니다. 그래서 네 개의 빈 DIV 컨테이너 목록을 넣어봅시다.
 
@@ -421,7 +421,7 @@ style={
 
 저장하고 업데이트하세요. 이제 우리 대시보드는 이렇습니다:
 
-<img src="/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_5.png" />
+<img src="/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_5.png" />
 
 ## 버튼 스타일링
 
@@ -429,7 +429,7 @@ style={
 
 저희 네비게이션 바의 두 번째 컨테이너에는 버튼이 포함되어 있습니다. 처음 두 개는 그룹 버튼이고 세 번째는 독립적인 버튼입니다. 이 컨테이너는 마지막 DIV 레이어에 속해 있어요.
 
-![image](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_6.png)
+![image](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_6.png)
 
 따라서 이 컨테이너를 2:1의 비율로 나누되, CSS 파일에서 제목과 텍스트에 15px의 여백을 주었던 것을 기억하면, 버튼 패널에도 같은 여백을 유지하는 것이 좋아요. 그리고 "display"를 "flex"로 설정하여 두 자식 컨테이너를 일렬로 유지해 주세요.
 
@@ -605,7 +605,7 @@ html.Div(
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_7.png)
+![Image](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_7.png)
 
 ## 드롭다운 스타일링
 
@@ -776,7 +776,7 @@ html.Div(
 
 저장하고 결과를 확인해봅시다. 이제 애플리케이션이 다음과 같이 보여져야 합니다:
 
-<img src="/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_8.png" />
+<img src="/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_8.png" />
 
 <div class="content-ad"></div>
 
@@ -802,7 +802,7 @@ html.Div(
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_9.png)
+![이미지](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_9.png)
 
 ## 그래프 추가
 
@@ -859,7 +859,7 @@ html.Div(dcc.Graph((figure = fig)), (style = { width: 790 }));
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_10.png)
+![image](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_10.png)
 
 ## 그래프 출력 섹션 추가
 
@@ -910,7 +910,7 @@ h3 {
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_11.png)
+![이미지](/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_11.png)
 
 우리는 그래프와 모든 탐색 요소가 포함된 레이아웃을 완성했으므로 Plotly Dash에서 대시보드를 만드는 첫 번째 단계를 완료했습니다. 다음 단계는 상호 작용이 가능하게 만드는 것인데, 이 단계에서 이전에 생성한 모든 탐색 요소들을 "작동"시킬 것입니다. 세 번째는 일반 사용자가 이용할 수 있는 실시간 웹 애플리케이션을 배포하는 것입니다.
 

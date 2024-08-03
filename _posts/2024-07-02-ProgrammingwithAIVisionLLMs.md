@@ -1,10 +1,10 @@
 ---
 title: "AI와 함께하는 프로그래밍  Vision LLMs 사용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-02-ProgrammingwithAIVisionLLMs_0.png"
+coverImage: "/assets/img/2024-07-02-ProgrammingwithAIVisionLLMs_0.png"
 date: 2024-07-02 21:44
 ogImage:
-  url: /TIL/assets/img/2024-07-02-ProgrammingwithAIVisionLLMs_0.png
+  url: /assets/img/2024-07-02-ProgrammingwithAIVisionLLMs_0.png
 tag: Tech
 originalTitle: "Programming with AI — Vision LLMs"
 link: "https://medium.com/@sausheong/programming-with-ai-vision-llms-e4d1107c0be1"

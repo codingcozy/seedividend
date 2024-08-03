@@ -1,17 +1,17 @@
 ---
 title: "SOLID 원칙으로 테니스 리팩토링 도전 과제 해결하기 Python 사용"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png"
+coverImage: "/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png"
 date: 2024-07-13 19:41
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png
+  url: /assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png
 tag: Tech
 originalTitle: "Solving a Tennis Refactoring Challenge in Python using SOLID"
 link: "https://medium.com/towards-data-science/solving-a-tennis-refactoring-challenge-in-python-using-solid-f1282f85e7e0"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png" />
+<img src="/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png" />
 
 ## 소개
 
@@ -22,7 +22,7 @@ link: "https://medium.com/towards-data-science/solving-a-tennis-refactoring-chal
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_1.png)
+![이미지](/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_1.png)
 
 [여기](https://github.com/emilybache/Tennis-Refactoring-Kata)로 이동하여 녹색 상단 오른쪽 버튼에서 "템플릿으로 사용"을 선택해주세요.
 
@@ -41,7 +41,7 @@ pytest
 <div class="content-ad"></div>
 
 
-![Tennis Refactoring Challenge](/TIL/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_2.png)
+![Tennis Refactoring Challenge](/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_2.png)
 
 터미널의 출력 결과는 위의 스크린샷과 유사해야 합니다.
 

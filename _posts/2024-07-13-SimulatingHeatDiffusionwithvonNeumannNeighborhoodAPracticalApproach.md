@@ -1,10 +1,10 @@
 ---
 title: "폰 노이만 이웃을 사용한 열 확산 시뮬레이션 실용적인 접근 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_0.png"
+coverImage: "/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_0.png"
 date: 2024-07-13 19:09
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_0.png
+  url: /assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_0.png
 tag: Tech
 originalTitle: "Simulating Heat Diffusion with von Neumann Neighborhood: A Practical Approach"
 link: "https://medium.com/@evertongomede/simulating-heat-diffusion-with-von-neumann-neighborhood-a-practical-approach-46802c877468"
@@ -33,7 +33,7 @@ link: "https://medium.com/@evertongomede/simulating-heat-diffusion-with-von-neum
 
 컴퓨터 모델링에서 일부 개념이 열 확산만큼 광범위하게 적용되는 것은 없습니다. 열 확산은 재료의 열 속성을 최적화하려는 엔지니어이든 기후 패턴을 모델링하는 과학자이든 상관없이, 서로 다른 매체를 통해 열이 이동하는 방식을 이해하는 것이 중요합니다. 그렇다면 이 복잡한 물리적 과정을 컴퓨터 모델로 어떻게 전환할까요? 답은 세포 자동자에서 기본 개념인 폰 노이만 이웃[von Neumann neighborhood]에 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_0.png)
+![이미지](/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_0.png)
 
 ## 폰 노이만 이웃: 세포 자동자의 중추 개념
 
@@ -51,7 +51,7 @@ link: "https://medium.com/@evertongomede/simulating-heat-diffusion-with-von-neum
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_1.png)
+![image](/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_1.png)
 
 여기서 T_(i,j)t은 시각 t에서 (i,j) 위치의 셀 온도를 나타내고, α는 열 확산 상수입니다. 이 방정식은 열 확산의 본질을 포착합니다: 셀의 온도는 주변 셀이 더 뜨거우면 증가하고, 주변 셀이 더 차가우면 감소합니다.
 
@@ -102,7 +102,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![Heat Diffusion Simulation](/TIL/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_2.png)
+![Heat Diffusion Simulation](/assets/img/2024-07-13-SimulatingHeatDiffusionwithvonNeumannNeighborhoodAPracticalApproach_2.png)
 
 해당 이미지는 폰 노이만 이웃을 사용하여 2차원 그리드에서 열 확산 시뮬레이션 결과를 보여주는 히트맵입니다. 이 히트맵의 해석은 다음과 같습니다:
 

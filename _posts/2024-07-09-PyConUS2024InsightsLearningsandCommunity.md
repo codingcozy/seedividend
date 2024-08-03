@@ -1,7 +1,7 @@
 ---
 title: "PyCon US 2024 인사이트, 배움, 그리고 커뮤니티"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png"
+coverImage: "/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png"
 date: 2024-07-09 09:11
 ogImage:
   url: /assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png
@@ -10,7 +10,7 @@ originalTitle: "PyCon US 2024: Insights, Learnings, and Community."
 link: "https://medium.com/@afimaamedufie/pycon-us-2024-insights-learnings-and-community-75442260a2df"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png)
+![이미지](/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png)
 
 파이썬 프로그래밍 언어가 크리스마스 휴가동안의 취미 프로젝트로 출생했다는 사실을 아셨나요? 그러니까 이제 제가 크리스마스 휴가에 사용하는 것에 대해 의문을 품게 되네요 🤭😂.
 
@@ -58,12 +58,12 @@ PSF 부스 셀피 월 세팅을 도와서 멋지게 마무리했어요. 그리�
 
 또한, Jay Miller의 키노트를 듣고 Black Python Devs 웹사이트를 확인해보세요: [링크](https://www.youtube.com/watch?v=jYZBpoYjxLo)
 
-![이미지 1](/TIL/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_1.png)
+![이미지 1](/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_1.png)
 
 PyLadies 경매
 이곳은 실제 경매장에 처음 와본 적이 있어서 즐거웠고 재미난 경험이었습니다. 다음 PyCon US에 참석한다면 이 행사에 참가하는 것을 추천합니다.
 
-![이미지 2](/TIL/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_2.png)
+![이미지 2](/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_2.png)
 
 <div class="content-ad"></div>
 
@@ -97,7 +97,7 @@ BPD 회원들이 높은 수준에 도달하고 자신들의 업적을 인정받�
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_3.png" />
+<img src="/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_3.png" />
 
 ## 개인 팁
 

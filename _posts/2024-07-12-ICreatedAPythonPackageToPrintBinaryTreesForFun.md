@@ -1,17 +1,17 @@
 ---
 title: "이진 트리 출력용 파이썬 패키지 제작기 재미로 했어요"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png"
+coverImage: "/assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png"
 date: 2024-07-12 20:57
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png
+  url: /assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png
 tag: Tech
 originalTitle: "I Created A Python Package To Print Binary Trees For Fun"
 link: "https://medium.com/gitconnected/i-created-a-python-package-to-print-binary-trees-for-fun-e68011db9b08"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png" />
+<img src="/assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png" />
 
 이번에 이진 트리와 힙을 다루다가, 나만의 트리를 빠르고 쉽게 표시하고 시각화하는 방법이 필요했어요.
 

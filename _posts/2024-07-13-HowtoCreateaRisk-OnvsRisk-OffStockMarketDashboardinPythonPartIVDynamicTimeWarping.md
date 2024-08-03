@@ -1,10 +1,10 @@
 ---
 title: "Python을 사용한 리스크 온 vs 리스크 오프 주식 시장 대시보드 만들기 - Part IV 동적 시간 왜곡 Dynamic Time Warping 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_0.png"
+coverImage: "/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_0.png"
 date: 2024-07-13 19:33
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_0.png
+  url: /assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_0.png
 tag: Tech
 originalTitle: "How to Create a Risk-On vs Risk-Off Stock Market Dashboard in Python — Part IV: Dynamic Time Warping"
 link: "https://medium.com/ai-advances/how-to-create-a-risk-on-vs-risk-off-stock-market-dashboard-in-python-part-iv-dynamic-time-b1e4485f764c"
@@ -12,7 +12,7 @@ link: "https://medium.com/ai-advances/how-to-create-a-risk-on-vs-risk-off-stock-
 
 
 
-![그림](/TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_0.png)
+![그림](/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_0.png)
 
 코델 태니는 금융 서비스 분야에서 23년 이상의 경험을 가진 전문가로, 양적 금융을 전문으로 하고 있습니다. 코델은 이전에 캐나다 주요 기관에서 양적 분석가 및 포트폴리오 매니저로 일하며 20억 달러 규모의 다자산 소매 투자 프로그램을 지도했습니다.
 
@@ -73,7 +73,7 @@ c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, �
 
 가장 "명백한" 위험 증감 지표들의 상대 성능을 먼저 살펴봅시다.
 
-![image](/TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_1.png)
+![image](/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_1.png)
 
 1월 1일부터 기술주 (XLK)만 SPY에 대해 양호한 상대 성과를 보이고 있습니다. 생명공학 (XBI)과 ARKK는 하락하고 있습니다. 금 (GLD)과 현금 (BIL)도 하락하고 있습니다. 고베타 주식 (SPHB)은 평평합니다. 그러므로 다시 한 번 대형 기술주가 시장을 이끌고 있는 것 같습니다. 그렇다면 이것은 위험 중립적 환경인가요? 나중에 대비하여 대시보드에 세 번째 상태를 추가하고 미래를 예측해야 할 수도 있습니다.
 
@@ -81,7 +81,7 @@ c. 필요한 자원, 데이터 및 기술 요구사항(프로그래밍 언어, �
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_2.png" />
+<img src="/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_2.png" />
 
 그래서 우리가 해야 할 일에 대한 요약을 보여드리겠습니다. 초기 단계의 목표는 리스크온 및 리스크오프 프록시를 선택하는 것입니다 (다음 단계에 대한 모든 아이디어 요약은 부록 III도 참고해주세요):
 
@@ -142,11 +142,11 @@ Dynamic Time Warping (DTW)는 두 개의 시계열 사이의 유사성을 측정
 <div class="content-ad"></div>
 
 
-![HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_3](/TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_3.png)
+![HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_3](/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_3.png)
 
 The resulting heatmap might appear more complex than the correlation matrix. To facilitate interpretation, let’s visualize this as a cluster map, allowing us to examine the dendrogram for clusters based on these values.
 
-![HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_4](/TIL/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_4.png)
+![HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_4](/assets/img/2024-07-13-HowtoCreateaRisk-OnvsRisk-OffStockMarketDashboardinPythonPartIVDynamicTimeWarping_4.png)
 
 This visualization provides slightly more insight. To understand this graph, follow the lines to observe which assets are grouped together. As you move up the dendrogram, smaller clusters aggregate into larger ones.
 

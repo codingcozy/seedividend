@@ -1,10 +1,10 @@
 ---
 title: "유튜브 영상을 요약하는 서버리스 API 배포하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-HowtoDeployaServerlessAPIThatSummarizesYouTubeVideos_0.png"
+coverImage: "/assets/img/2024-07-12-HowtoDeployaServerlessAPIThatSummarizesYouTubeVideos_0.png"
 date: 2024-07-12 19:43
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-HowtoDeployaServerlessAPIThatSummarizesYouTubeVideos_0.png
+  url: /assets/img/2024-07-12-HowtoDeployaServerlessAPIThatSummarizesYouTubeVideos_0.png
 tag: Tech
 originalTitle: "How to Deploy a Serverless API That Summarizes YouTube Videos"
 link: "https://medium.com/gitconnected/how-to-deploy-a-serverless-api-that-summarizes-youtube-videos-c5b705f95f03"
@@ -409,7 +409,7 @@ pulumi up
 
 업데이트를 하기 전에 Pulumi는 먼저 미리보기를 보여주고 사용자가 확인을 하면 리소스가 생성됩니다.
 
-<img src="/TIL/assets/img/2024-07-12-HowtoDeployaServerlessAPIThatSummarizesYouTubeVideos_1.png" />
+<img src="/assets/img/2024-07-12-HowtoDeployaServerlessAPIThatSummarizesYouTubeVideos_1.png" />
 
 이 엔드포인트를 Postman에서 시도함으로써 API가 작동하는지 확인할 수 있습니다.
 

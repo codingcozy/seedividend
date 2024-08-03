@@ -1,7 +1,7 @@
 ---
 title: "Kafka, Redis, Postgres, Kubernetes를 활용한 실시간 파이프라인 마이크로서비스 프로젝트 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png"
+coverImage: "/assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png"
 date: 2024-07-09 19:43
 ogImage:
   url: /assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png
@@ -14,7 +14,7 @@ link: "https://medium.com/stackademic/real-time-pipeline-microservices-project-w
 
 이 문서는 데이터를 처리하여 분석을 위해 데이터베이스를 채우는 데 사용되는 실시간 마이크로서비스 프로젝트에 대한 안내서입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png)
+![이미지](/assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png)
 
 # STG-Service
 

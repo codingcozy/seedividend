@@ -1,17 +1,17 @@
 ---
 title: "파이썬으로 셀러 파이낸싱 계산기 만들기 창의적 금융의 힘을 활용하는 방법 "
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png"
+coverImage: "/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png"
 date: 2024-07-13 19:45
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png
+  url: /assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png
 tag: Tech
 originalTitle: "Unlock the Power of Creative Financing: Build Your Own Seller Financing Calculator in Python 🏠💡"
 link: "https://medium.com/@analyticsariel/unlock-the-power-of-creative-financing-build-your-own-seller-financing-calculator-in-python-97759329e9e0"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png" />
+<img src="/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png" />
 
 # 크리에이티브 파이낸스 소개 📊
 
@@ -23,7 +23,7 @@ link: "https://medium.com/@analyticsariel/unlock-the-power-of-creative-financing
 
 # 판매자 융자란 무엇인가요? 🤔
 
-![이미지](/TIL/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_1.png)
+![이미지](/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_1.png)
 
 판매자 융자는 판매자가 구매자를 위해 구매를 융자하는 거래로, 은행 대출을 받는 대신 구매자가 직접 판매자에게 지불하는 방식을 말합니다 🤝.
 

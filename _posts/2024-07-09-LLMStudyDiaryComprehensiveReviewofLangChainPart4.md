@@ -1,7 +1,7 @@
 ---
 title: "LangChain 심층 분석  Part 4 최신 LLM 스터디 다이어리"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-LLMStudyDiaryComprehensiveReviewofLangChainPart4_0.png"
+coverImage: "/assets/img/2024-07-09-LLMStudyDiaryComprehensiveReviewofLangChainPart4_0.png"
 date: 2024-07-09 09:23
 ogImage:
   url: /assets/img/2024-07-09-LLMStudyDiaryComprehensiveReviewofLangChainPart4_0.png
@@ -203,7 +203,7 @@ ReAct라는 용어는 익숙하지 않았지만 아래 설명대로 보면, 추�
 
 이 에이전트를 상세 모드로 실행할 때 아래와 같은 추론 프로세스가 실행되고 있다는 것을 확인할 수 있었습니다.
 
-![이미지](/TIL/assets/img/2024-07-09-LLMStudyDiaryComprehensiveReviewofLangChainPart4_0.png)
+![이미지](/assets/img/2024-07-09-LLMStudyDiaryComprehensiveReviewofLangChainPart4_0.png)
 
 최종 답변은 다음과 같았습니다:
 

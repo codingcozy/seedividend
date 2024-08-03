@@ -1,7 +1,7 @@
 ---
 title: "Mojo, Python보다 90,000배 빠르다 드디어 오픈소스 공개 출시 즉시 17,000 스타 돌파"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Mojo90000TimesFasterThanPythonFinallyOpenSourcedJustLaunchedAlreadySurpassing17000Stars_0.png"
+coverImage: "/assets/img/2024-07-09-Mojo90000TimesFasterThanPythonFinallyOpenSourcedJustLaunchedAlreadySurpassing17000Stars_0.png"
 date: 2024-07-09 15:00
 ogImage:
   url: /assets/img/2024-07-09-Mojo90000TimesFasterThanPythonFinallyOpenSourcedJustLaunchedAlreadySurpassing17000Stars_0.png
@@ -20,6 +20,6 @@ Modular은 Mojo를 더 편리한 대안으로 위치시킵니다. Python과 유�
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-Mojo90000TimesFasterThanPythonFinallyOpenSourcedJustLaunchedAlreadySurpassing17000Stars_0.png" />
+<img src="/assets/img/2024-07-09-Mojo90000TimesFasterThanPythonFinallyOpenSourcedJustLaunchedAlreadySurpassing17000Stars_0.png" />
 
 지난해 Mojo가 소개됐을 때, 일부 개발자들은 그 등장에 들뜬 기대를 표현했습니다. 그러나 Chris Lattner은 디스코드에서 오픈 소스 날짜에 대해 물어볼 때 "알았다면 말했을 거야." 라고 말했습니다. 약 1년 동안 많은 개발자들이 관찰하며 의심의 태도를 보였습니다:

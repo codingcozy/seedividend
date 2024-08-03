@@ -1,17 +1,17 @@
 ---
 title: "Apache Iceberg PySpark로 데이터 웨어하우스를 만드는 4가지 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_0.png"
+coverImage: "/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_0.png"
 date: 2024-07-12 20:24
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_0.png
+  url: /assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_0.png
 tag: Tech
 originalTitle: "Apache Iceberg: 4 Methods To Create A Warehouse With PySpark"
 link: "https://medium.com/gitconnected/apache-iceberg-4-methods-to-create-a-warehouse-with-pyspark-d962ede83a74"
 ---
 
 
-![image](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_0.png)
+![image](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_0.png)
 
 ## 온디맨드 강좌| 추천
 
@@ -68,7 +68,7 @@ Apache Iceberg은 데이터 레이크 내에서 매우 큰 데이터 세트를 �
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_1.png)
+![image](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_1.png)
 
 # 환경 설정하기
 
@@ -250,13 +250,13 @@ spark.sql(f'SHOW TABLES IN {icb_catalog_name}.TEST_SCHEMA').show(truncate=False)
 <div class="content-ad"></div>
 
 [Markdown 형식으로 변경한 텍스트]
-![이미지1](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_2.png)
+![이미지1](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_2.png)
 
-![이미지2](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_3.png)
+![이미지2](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_3.png)
 
 - 선호하는 DBMS를 통해 Postgres DB에 연결하고 iceberg_tables를 쿼리하세요:
 
-![이미지3](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_4.png)
+![이미지3](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_4.png)
 
 <div class="content-ad"></div>
 
@@ -352,12 +352,12 @@ spark.sql(f"""CREATE OR REPLACE TABLE {icb_catalog_name}.TEST_SCHEMA.TEST_TABLE_
 
 실제로, 위의 명령은 데이터 웨어하우스와 TEST_TABLE_S3_HDP 테이블을 위한 전용 폴더를 생성합니다:
 
-![이미지](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_5.png)
+![이미지](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_5.png)
 
 <div class="content-ad"></div>
 
 
-<img src="/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_6.png" />
+<img src="/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_6.png" />
 
 ## Method #3 - Spark Session On EMR (via CLI) + All Layers On S3 Bucket
 
@@ -400,11 +400,11 @@ aws emr add-steps --profile aws_personal --cluster-id j-xxxxxxxxxxx \
 
 만약 명령이 성공적으로 실행되면, stepID가 반환됩니다:
 
-![StepID](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_7.png)
+![StepID](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_7.png)
 
 EMR 클러스터 UI에서도 동일한 stepID가 나타나며, 이는 PySpark 스크립트가 실행 준비가 된 것을 나타냅니다:
 
-![StepID](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_8.png)
+![StepID](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_8.png)
 
 <div class="content-ad"></div>
 
@@ -426,7 +426,7 @@ INFO:root:Main APPLICATION was executed!
 
 결과적으로, iceberg-bucket-9004 S3 버킷 내에서 add-steps 명령어의 일부로 지정된 이름인 iceberg-warehouse-emr가 생성되었습니다:
 
-![이미지](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_9.png)
+![이미지](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_9.png)
 
 <div class="content-ad"></div>
 
@@ -480,17 +480,17 @@ AWS EMR에서 Airflow를 사용하여 PySpark 파이프라인을 자동화하는
 - EmrAddStepsOperator를 통해 PySpark 스크립트를 배포하고 실행할 단계를 EMR에 추가하도록 지시합니다.
 - EMRStepSensor를 통해 EMR 단계 상태를 지속적으로 모니터링합니다.
 
-<img src="/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_10.png" />
+<img src="/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_10.png" />
 
 <div class="content-ad"></div>
 
 #method3에 대해 이야기해보겠습니다. DAG가 트리거된 직후에 PySpark 스크립트를 실행하는 단계가 EMR UI의 Steps 섹션 아래에 나타납니다.
 
-![Step](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_11.png)
+![Step](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_11.png)
 
 해당 단계가 완료 상태가 되면 S3 버킷 내에 새 Iceberg 웨어하우스인 "iceberg-warehouse-prod-hdp"가 생성된 것을 확인할 수 있습니다.
 
-![Iceberg Warehouse](/TIL/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_12.png)
+![Iceberg Warehouse](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_12.png)
 
 <div class="content-ad"></div>
 

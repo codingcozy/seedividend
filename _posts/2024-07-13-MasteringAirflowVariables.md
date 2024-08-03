@@ -1,17 +1,17 @@
 ---
 title: "Airflow 변수 완전 정복하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-MasteringAirflowVariables_0.png"
+coverImage: "/assets/img/2024-07-13-MasteringAirflowVariables_0.png"
 date: 2024-07-13 20:34
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-MasteringAirflowVariables_0.png
+  url: /assets/img/2024-07-13-MasteringAirflowVariables_0.png
 tag: Tech
 originalTitle: "Mastering Airflow Variables"
 link: "https://medium.com/towards-data-science/mastering-airflow-variables-32548a53b3c5"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-MasteringAirflowVariables_0.png" />
+<img src="/assets/img/2024-07-13-MasteringAirflowVariables_0.png" />
 
 만약 여러 데이터 파이프라인이 동일한 API 엔드포인트와 상호 작용해야 하는 상황이 있다면, 정말 모든 파이프라인에서 이 엔드포인트를 선언해야 할까요? 이 엔드포인트가 나중에 변경된다면, 모든 파일에서 해당 값을 업데이트해야 합니다.
 

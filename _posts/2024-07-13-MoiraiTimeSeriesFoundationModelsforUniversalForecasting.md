@@ -1,10 +1,10 @@
 ---
 title: "Moirai 모든 예측을 위한 시계열 기초 모델"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_0.png"
+coverImage: "/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_0.png"
 date: 2024-07-13 19:42
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_0.png
+  url: /assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_0.png
 tag: Tech
 originalTitle: "Moirai: Time Series Foundation Models for Universal Forecasting"
 link: "https://medium.com/towards-data-science/moirai-time-series-foundation-models-for-universal-forecasting-dc93f74b330f"
@@ -27,7 +27,7 @@ Moirai 뒤의 아키텍처와 제로샷 추론을 가능하게 하는 주요 구
 
 이론적 개요를 마친 후에는 Moirai를 특정 사용 사례와 데이터셋에 적용합니다. 우리는 구체적인 실행 세부 사항을 다루고 모델의 성능을 철저히 분석합니다. 마지막으로, Moirai의 성능을 TiDE와 Chronos와 공개 데이터셋을 사용하여 비교합니다.
 
-![이미지](/TIL/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_0.png)
+![이미지](/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_0.png)
 
 <div class="content-ad"></div>
 
@@ -118,7 +118,7 @@ To achieve permutation equivariance/invariance, Moirai employs two different tec
 <div class="content-ad"></div>
 
 
-![Moirai Time Series Foundation Models for Universal Forecasting](/TIL/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_3.png)
+![Moirai Time Series Foundation Models for Universal Forecasting](/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_3.png)
 
 # 혼합 분포
 
@@ -262,7 +262,7 @@ forecast_df = utils.moirai_forecast_to_pandas(forecasts, test, FORECAST_HORIZON,
 
 예측이 완료되면 실제 값과 예측값을 그래프로 나타낼 수 있습니다.
 
-![Plot](/TIL/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_5.png)
+![Plot](/assets/img/2024-07-13-MoiraiTimeSeriesFoundationModelsforUniversalForecasting_5.png)
 
 그림 7은 Moirai가 시계열을 예측하는 데 어려움을 겪고 안정적인 예측을 생성하지 못했음을 보여줍니다. 대신, 예상보다 더 높은 크기의 연속적인 점프를 예측했습니다.
 

@@ -1,7 +1,7 @@
 ---
 title: "여러 기간의 시계열 확률 예측을 위한 XGB, LightGBM, CatBoost 모델 비교 분석"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png"
+coverImage: "/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png"
 date: 2024-07-09 19:34
 ogImage:
   url: /assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png
@@ -10,7 +10,7 @@ originalTitle: "Tree-based XGB, LightGBM, and CatBoost Models for Multi-period T
 link: "https://medium.com/dataman-in-ai/tree-based-xgb-lightgbm-and-catboost-models-for-multi-period-time-series-probabilistic-6b12d1500779"
 ---
 
-![Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png)
+![Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png)
 
 Sample eBook chapters (free): [https://github.com/dataman-git/modern-time-series/blob/main/20240522beauty_TOC.pdf](https://github.com/dataman-git/modern-time-series/blob/main/20240522beauty_TOC.pdf)
 
@@ -24,17 +24,17 @@ The print edition on Amazon.com: $65 [https://a.co/d/25FVsMx](https://a.co/d/25F
 
 챕터 제목은 "확률 예측", "다기간", "트리 기반" 세 가지 중요한 개념을 다룹니다. 첫 번째로 "확률 예측"이 있습니다. 많은 실세계 응용 프로그램에서는 자원 계획이나 이상 징후 감지를 위해 예측 구간을 요청하며, 이는 1장에서 언급한 것과 같습니다. 이 책의 Part 2에서 언급한 네 가지 해결책 중 하나는 분위수 회귀입니다. 분위 예측은 예측 값을 매우 가능성이 높은 50 번째 백분위 값이거나 상위 90 번째 백분위 값과 같이 매우 낮은 가능성을 보여줍니다 (A) 그림에서 확인할 수 있습니다.
 
-<img src="/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_1.png" />
+<img src="/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_1.png" />
 
 제목에서 두 번째 개념은 다기간 예측입니다. 우리는 일일 예측이 아닌 여러 기간을 위한 예측이 필요한 경우가 많습니다. 한 주간 휴가를 계획할 때, 한 날이 아닌 5일간의 날씨 예보가 필요합니다. 그러나 선형 회귀 또는 트리 기반 알고리즘은 일반적으로 점 추정만 제공합니다. 이러한 경우 어떻게 예측 프로세스를 설계하여 다기간을 제공할 수 있을까요? 직관적으로, 다음 기간을 예측하면 동일한 모델의 입력으로 사용하여 다다음 기간을 예측할 수도 있지 않을까요? 이 해결책은 인기가 있으며 (B) 그림에서 보이는 것과 같이 재귀적 예측 전략이라고 합니다. 재귀적 예측 전략은 모델의 예측을 후속 예측의 입력으로 사용합니다. 전략은 모델이 1 단계 앞으로 예측하기 위해 yt에서 yt-k까지의 과거 값을 사용합니다. 그런 다음 yt+1을 통합하고 다른 입력을 업데이트하여 yt+2를 예측합니다. 이 프로세스를 반복하여 모든 후속 시간 단계를 예측합니다. Darts 라이브러리에서도 이 전략을 할당할 수 있습니다.
 
-<img src="/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_2.png" />
+<img src="/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_2.png" />
 
 <div class="content-ad"></div>
 
 새로운 시각으로 생각해보는 건 어때요? n 기간을 예측하는 것이 목표인 경우, 왜 n 개의 모델을 따로 구축하지 않을까요? 각 모델은 각각의 다음 n 기간을 예측할 것입니다. 이는 직접 예측 전략이라고 불립니다. Darts 라이브러리의 기본 전략이며, 라이브러리에 포함된 모든 모델에 대해 적용됩니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_3.png)
+![이미지](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_3.png)
 
 마지막으로, 장 제목에 있는 "tree-based"에 대해 논의해보겠습니다. Tree-based 알고리즘들은 지도 학습 알고리즘입니다. 샘플을 행으로, 피처를 열로 갖는 데이터 프레임이 필요합니다. 단변량 시계열 데이터를 데이터 프레임으로 어떻게 변환할까요? 기본 아이디어는 단변량 시계열 데이터에서 샘플을 생성하는 것입니다. 이렇게 함으로써, 모델링을 위해 단변량 시계열 데이터를 데이터 프레임으로 재구성하고, 원하는 경우 단변량 시계열 데이터에서 피처를 생성할 수도 있습니다.
 
@@ -42,7 +42,7 @@ The print edition on Amazon.com: $65 [https://a.co/d/25FVsMx](https://a.co/d/25F
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_4.png)
+![image](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_4.png)
 
 이번 장에서는 Darts 라이브러리를 사용할 것입니다. 시계열 모델링은 많은 기능과 데이터를 저장해야 하므로 Darts 라이브러리는 자체 데이터 형식을 갖추고 있습니다. 시간 순서에 풍부한 정보를 담을 수 있는 다양한 데이터 형식의 장점을 설명하기 위해 본 책은 '10장: 시계열 데이터 형식 쉽게 만들기'를 별도로 마련했습니다. 마지막으로, 이 장은 '11장: 다기간 확률 예측을 위한 자기회귀 선형 회귀'와 함께 읽을 수 있습니다. 두 장은 프로젝트에 적합한 모델을 선택하기 위해 선형 회귀 및 트리 기반 모델을 구축하는 데 도움이 됩니다.
 
@@ -108,7 +108,7 @@ data = data.drop('Date', axis=1)
 data.head()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_5.png" />
+<img src="/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_5.png" />
 
 <div class="content-ad"></div>
 
@@ -196,11 +196,11 @@ multi_models 매개변수가 True로 설정된 것에 주목해주세요. 이는
 
 <div class="content-ad"></div>
 
-![Dart data array](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_6.png)
+![Dart data array](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_6.png)
 
 The outputs are stored in the Dart data array:
 
-![Dart data array](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_7.png)
+![Dart data array](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_7.png)
 
 We will plot the actual and the predicted values. We make this in a function for repeating use.
 
@@ -222,7 +222,7 @@ plotit()
 
 MAPE 값은 10.55% 입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_8.png)
+![이미지](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_8.png)
 
 이제 분위수 예측을 추가해보겠습니다. 모델에게 5개의 분위수를 생성해 달라고 요청하겠습니다.
 
@@ -249,7 +249,7 @@ pred
 
 각 예측에는 5개의 샘플이 있습니다. 이는 5개의 분위 수치 값을 생성했기 때문입니다.
 
-![](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_9.png)
+![](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_9.png)
 
 실제 값과 분위 예측을 시각화할 수 있습니다.
 
@@ -267,7 +267,7 @@ plotQuantile()
 
 양자 예측은 다음과 같습니다:
 
-![그림](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_10.png)
+![그림](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_10.png)
 
 모델을 구축하고 예측을 제공하는 것이 매우 쉽다는 것을 발견할 수 있을 것 입니다. 계속해서 LightGBM 모델을 구축해 봅시다.
 
@@ -304,7 +304,7 @@ plotit();
 
 MAPE는 5.09%입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_11.png)
+![이미지](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_11.png)
 
 <div class="content-ad"></div>
 
@@ -338,7 +338,7 @@ plotQuantile();
 
 양자수치 예측값은:
 
-![image](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_12.png)
+![image](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_12.png)
 
 좋아요. 이미 두 개의 모델이 구축되었습니다. 이제 CatBoost 모델을 구축해봅시다.
 
@@ -376,7 +376,7 @@ plotit();
 
 MAPE는 5.96% 입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_13.png)
+![이미지](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_13.png)
 
 모델에 분위 예측을 포함해 봅시다.
 
@@ -410,7 +410,7 @@ plotQuantile();
 
 <div class="content-ad"></div>
 
-![Tree-based Models](/TIL/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_14.png)
+![Tree-based Models](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_14.png)
 
 결론
 

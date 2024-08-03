@@ -1,17 +1,17 @@
 ---
 title: "파이썬으로 AI 노래 목소리 클로닝 하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png"
+coverImage: "/assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png"
 date: 2024-07-13 19:38
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png
+  url: /assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png
 tag: Tech
 originalTitle: "AI Singing Voice Cloning in Python"
 link: "https://medium.com/@crisvelasquez/ai-singing-voice-cloning-in-python-7b7cf5e5dbdd"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png" />
+<img src="/assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png" />
 
 음성이 어떤 음조와 조화를 이루거나 어떤 사투리를 쓰거나 전설적인 가수들의 특이한 음색을 복제할 수 있는 세계를 상상해보세요. 이것은 AI 노래 음성 복제를 통해 가능해진 현실입니다.
 
@@ -44,11 +44,11 @@ SO-VITS-SVC 시스템은 심층 학습 기술을 사용하여 노래 목소리 �
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_1.png)
+![image](/assets/img/2024-07-13-AISingingVoiceCloninginPython_1.png)
 
 - GANs enhance the realism of the synthesized audio. The discriminator in the GAN critiques the output of the generator, improving its accuracy. The GAN loss function is given by:
 
-![image](/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_2.png)
+![image](/assets/img/2024-07-13-AISingingVoiceCloninginPython_2.png)
 
 For a comprehensive understanding of Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs), you might want to refer to the original papers introducing these concepts:
 
@@ -62,7 +62,7 @@ For a comprehensive understanding of Variational Autoencoders (VAEs) and Generat
 
 - 인접 다이어그램에 나와 있는 것처럼, 얕은 확산 프로세스는 소음 샘플로 시작되어 일련의 변환을 통해 구조화된 멜 스펙트로그램으로 점진적으로 정제됩니다.
 
-<img src="/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_3.png" />
+<img src="/assets/img/2024-07-13-AISingingVoiceCloninginPython_3.png" />
 
 <div class="content-ad"></div>
 
@@ -70,7 +70,7 @@ For a comprehensive understanding of Variational Autoencoders (VAEs) and Generat
 
 2. 변환 단계: 노이즈는 확산 모델 내에서 일련의 단계를 거치며 비구조적인 상태에서 구조화된 멜 스펙트로그램으로 전환됩니다. 아래와 같이 설명할 수 있으며, 여기서 xt는 t단계에서의 데이터를 나타내고 ϵ은 가우시안 노이즈를 나타냅니다.
 
-![이미지](/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_4.png)
+![이미지](/assets/img/2024-07-13-AISingingVoiceCloninginPython_4.png)
 
 - SO-VITS-SVC의 맥락에서 '얕은'이라고 할 때는 아마도 계층이나 단계가 적은 것을 의미하며, 계산 효율성과 오디오 품질 사이의 균형을 맞출 것으로 예상됩니다.
 
@@ -288,7 +288,7 @@ display(Audio(output_audio_path, autoplay=True))
 svcg
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_5.png)
+![이미지](/assets/img/2024-07-13-AISingingVoiceCloninginPython_5.png)
 
 - 설정: GUI를 실행하고 모델, 구성 및 오디오 파일의 필요한 경로를 '찾아보기' 버튼을 사용하여 구성합니다.
 - 모델 선택: 'Model path' 필드를 통해 적절한 사전 훈련된 모델을 선택합니다.
@@ -385,13 +385,13 @@ slice_audio(input_audio_path, output_directory, snippet_length)
 <div class="content-ad"></div>
 
 
-![Training Configuration](/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_6.png)
+![Training Configuration](/assets/img/2024-07-13-AISingingVoiceCloninginPython_6.png)
 
 ## 2.3 Training Configuration
 
 학습을 시작하기 전에 모델을 구성하여 최적의 학습 조건을 확보하는 것이 중요합니다. 이는 전처리 중에 생성된 config.json 파일을 편집하는 작업을 포함합니다. 이 구성 파일 내의 주요 매개변수는 다음과 같습니다: log_interval, eval_interval, epochs, batch_size:
 
-![Config Parameters](/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_7.png)
+![Config Parameters](/assets/img/2024-07-13-AISingingVoiceCloninginPython_7.png)
 
 
 <div class="content-ad"></div>
@@ -453,4 +453,4 @@ config_path = f"\"{os.path.join('.', config_filename)}\""
 
 이러한 프로젝트와 더불어 AI, 데이터 과학, 기술 분야의 또 다른 혁신적인 데이터 기반 개발을 위해 독자 여러분이 www.entreprenerdly.com의 다양한 정보 자원을 탐험할 것을 장려합니다.
 
-![이미지](/TIL/assets/img/2024-07-13-AISingingVoiceCloninginPython_8.png)
+![이미지](/assets/img/2024-07-13-AISingingVoiceCloninginPython_8.png)

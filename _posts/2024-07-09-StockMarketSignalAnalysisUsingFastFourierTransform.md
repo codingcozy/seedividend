@@ -1,7 +1,7 @@
 ---
 title: "빠른 푸리에 변환을 이용한 주식 시장 신호 분석 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_0.png"
+coverImage: "/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_0.png"
 date: 2024-07-09 15:03
 ogImage:
   url: /assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_0.png
@@ -115,7 +115,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_0.png" />
+<img src="/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_0.png" />
 
 하지만, 이러한 우세 주파수의 중요성은 단순히 시계열을 재구성하는 데서 그치지 않습니다. 이들은 시계열 구조에 영향을 미치는 주요 경제 보고서나 거시경제 사건과 관련될 수 있습니다.
 
@@ -137,7 +137,7 @@ plt.legend();
 plt.show();
 ```
 
-<img src="/TIL/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_1.png" />
+<img src="/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_1.png" />
 
 ## 주요 주파수를 갖는 파형의 재구성
 
@@ -163,7 +163,7 @@ plt.legend();
 plt.show();
 ```
 
-<img src="/TIL/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_2.png" />
+<img src="/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_2.png" />
 
 # 결론
 

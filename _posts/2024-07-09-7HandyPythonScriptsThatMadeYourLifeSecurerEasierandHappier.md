@@ -1,7 +1,7 @@
 ---
 title: "당신의 삶을 안전하고, 쉬우며, 행복하게 만들어주는 7가지 유용한 Python 스크립트"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-7HandyPythonScriptsThatMadeYourLifeSecurerEasierandHappier_0.png"
+coverImage: "/assets/img/2024-07-09-7HandyPythonScriptsThatMadeYourLifeSecurerEasierandHappier_0.png"
 date: 2024-07-09 09:04
 ogImage:
   url: /assets/img/2024-07-09-7HandyPythonScriptsThatMadeYourLifeSecurerEasierandHappier_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/techtofreedom/7-handy-python-scripts-that-made-your-li
 
 ## 파이썬
 
-![Python](/TIL/assets/img/2024-07-09-7HandyPythonScriptsThatMadeYourLifeSecurerEasierandHappier_0.png)
+![Python](/assets/img/2024-07-09-7HandyPythonScriptsThatMadeYourLifeSecurerEasierandHappier_0.png)
 
 파이썬 프로그래밍 기술은 적절히 활용할 수 있다면 취업뿐만 아니라 삶을 더욱 효율적으로 자동화하고 간소화할 수 있습니다.
 

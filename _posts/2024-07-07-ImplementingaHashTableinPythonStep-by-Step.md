@@ -1,7 +1,7 @@
 ---
 title: "파이썬 해시 테이블 구현 방법 단계별 설명"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png"
+coverImage: "/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png"
 date: 2024-07-07 12:53
 ogImage:
   url: /assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png
@@ -10,7 +10,7 @@ originalTitle: "Implementing a Hash Table in Python: Step-by-Step"
 link: "https://medium.com/python-in-plain-english/implementing-a-hash-table-in-python-step-by-step-716f61323a4d"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png" />
+<img src="/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png" />
 
 # 1. 소개
 
@@ -66,11 +66,11 @@ link: "https://medium.com/python-in-plain-english/implementing-a-hash-table-in-p
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_1.png)
+![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_1.png)
 
 - 테스트 설정: 해시 테이블을 작성하는 과정에서 확인할 수 있는 간단한 테스트 메커니즘을 설정하는 것이 좋습니다. Python의 내장된 unittest 프레임워크를 사용하여 테스트 케이스를 작성할 수 있습니다:
 
-![이미지](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_2.png)
+![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_2.png)
 
 - 스크립트 실행: 명령줄에서 파일이 있는 디렉토리로 이동하여 python hash_table.py를 실행하여 스크립트를 실행하고 작성한 테스트를 실행할 수 있습니다.
 
@@ -82,7 +82,7 @@ link: "https://medium.com/python-in-plain-english/implementing-a-hash-table-in-p
 
 해시테이블 클래스는 우리의 해시 테이블의 청사진 역할을 합니다. 이는 키-값 쌍의 저장, 검색 및 삭제를 효율적으로 관리하기 위해 설계되었습니다. 아래는 초기화, 데이터 처리를 위한 메서드 및 해시 함수를 적용하는 메서드가 포함된 클래스의 기본 구조입니다:
 
-![해시테이블 클래스 구조](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_3.png)
+![해시테이블 클래스 구조](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_3.png)
 
 <div class="content-ad"></div>
 
@@ -100,23 +100,23 @@ link: "https://medium.com/python-in-plain-english/implementing-a-hash-table-in-p
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_4.png)
+![image](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_4.png)
 
 - Open Addressing: Open addressing stores all elements directly in the array and resolves collisions by finding another empty slot within the array. The common strategies for open addressing include linear probing, quadratic probing, and double hashing, each with distinct approaches to resolving collisions efficiently.
 
 Here’s an implementation of linear probing:
 
-![image](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_5.png)
+![image](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_5.png)
 
 <div class="content-ad"></div>
 
 다음은 이차 조사법의 구현 예시입니다:
 
-![quadric_probing](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_6.png)
+![quadric_probing](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_6.png)
 
 다음은 두 번째 해싱(double hashing)의 구현 예시입니다:
 
-![double_hashing](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_7.png)
+![double_hashing](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_7.png)
 
 <div class="content-ad"></div>
 
@@ -130,7 +130,7 @@ Python에서의 구현: 해시 테이블에서 체이닝을 구현하는 상세 
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_8.png)
+![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_8.png)
 
 이 구현에서 각 버킷은 연결 리스트로 연결된 여러 항목을 잠재적으로 저장할 수 있습니다. 새 키-값 쌍이 삽입될 때 해시 테이블은 계산된 인덱스에 이미 항목이 있는지 확인합니다. 버킷이 비어있으면 새 노드를 간단히 삽입합니다. 그렇지 않으면 기존 키를 업데이트하거나 키가 존재하지 않으면 체인 끝에 새 노드를 추가합니다. 이 방법은 메모리 사용량 면에서 효율적이며 충돌 처리를 단순화합니다.
 
@@ -184,7 +184,7 @@ Python에서의 구현:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-파이썬 단계별 해시테이블 구현_10.png" />
+<img src="/assets/img/2024-07-07-파이썬 단계별 해시테이블 구현_10.png" />
 
 이 구현에서는 이차 탐사가 선형 탐사에서 발생하는 주요 클러스터링 문제를 크게 줄이기 위해 탐사 시도 횟수의 이차 함수를 사용하여 다음 인덱스를 계산합니다. 탐사 함수는 다음과 같은 공식을 사용합니다: (index + c1*trial + c2*trial^2) % table_size, 여기서 c1과 c2는 상수이고, trial은 빈 슬롯을 찾거나 루프가 감지될 때까지 각 탐사마다 1씩 증가합니다.
 
@@ -210,7 +210,7 @@ Python에서의 구현:
 
 파이썬에서의 구현:
 
-![Implementing a Hash Table in Python Step-by-Step](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_11.png)
+![Implementing a Hash Table in Python Step-by-Step](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_11.png)
 
 이 구현에서 첫 번째 해시 함수는 초기 슬롯을 결정하고 충돌이 발생하는 경우 두 번째 해시 함수는 다음 프로브를 위한 오프셋을 제공합니다. 이는 단순 혹은 제곱 프로빙과는 다르며 단계가 고정되어 있거나 예측 가능한 패턴으로 증가하는 것이 아닙니다. 따라서 더블 해싱은 주요 및 보조 클러스터링을 모두 줄여 데이터 분포를 더 균일하게 만듭니다.
 
@@ -268,23 +268,23 @@ Python에서의 구현:
 
 - 체이닝: pytest 픽스처를 사용하여 여러 항목이 동일한 버킷으로 해싱되는 시나리오를 만들고 해당 항목이 검색 및 삭제 가능한지 확인합니다. 버킷 내에서 광범위한 목록을 처리하는 체이닝이 어떻게 처리되는지 테스트합니다.
 
-![이미지](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_12.png)
+![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_12.png)
 
 <div class="content-ad"></div>
 
 2. Linear Probing: 해시 테이블이 충돌을 해결하는 방법을 테스트하는 것에 초점을 맞추세요. 다음으로 사용 가능한 슬롯을 찾아 보세요. 항목이 올바르게 덮어쓰기되거나 업데이트되는지, 그리고 테이블이 필요에 따라 어떻게 확장되는지 확인하세요.
 
-![이미지](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_13.png)
+![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_13.png)
 
 3. Quadratic Probing: 선형 조사와 유사하지만 다른 초기 충돌을 테스트하고, 이차 단계 계산이 항목을 충돌하지 않는 슬롯에 올바르게 배치하는지 확인하세요.
 
-![이미지](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_14.png)
+![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_14.png)
 
 <div class="content-ad"></div>
 
 4. 더블 해싱: 보조 해시 함수를 사용하여 충돌을 줄이는 효과를 테스트해보세요. 더블 해싱 방법이 다른 방법보다 항목을 테이블에 더 균등하게 분배하는지 확인해보세요.
 
-![image](/TIL/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_15.png)
+![image](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_15.png)
 
 ## 6.2 해시 테이블 구현에서 발생하는 일반적인 문제 해결
 

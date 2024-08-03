@@ -1,7 +1,7 @@
 ---
 title: "시와 파이썬의 타이핑 문제 해결 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png"
+coverImage: "/assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png"
 date: 2024-07-07 21:32
 ogImage:
   url: /assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png
@@ -10,7 +10,7 @@ originalTitle: "Pesky typing issues with poetry and python"
 link: "https://medium.com/@mnghamaty/pesky-typing-issues-with-poetry-and-python-6666a958d1f4"
 ---
 
-![이미지](/TIL/assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png)
+![이미지](/assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png)
 
 파이썬에서 커스텀 타입을 더 자주 사용하게 되었습니다. TypeScript와 달리 파이썬의 typing은 비교적 자유롭게 정의됩니다(학술적 정의도 있지만, 본 글을 위해서는 IDE가 가장 중요하게 생각합니다). 계약 포지션에서 일할 때 코드베이스를 빨리 적응할 수 있도록 합니다.
 

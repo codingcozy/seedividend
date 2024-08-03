@@ -1,7 +1,7 @@
 ---
 title: "NanoLlava 가장 작은 시각적 언어란"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png"
+coverImage: "/assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png"
 date: 2024-07-09 15:02
 ogImage:
   url: /assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png
@@ -10,7 +10,7 @@ originalTitle: "NanoLlava is the smallest Visual Language"
 link: "https://medium.com/generative-ai/nanollava-is-the-smallest-visual-language-9b89b139eadf"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png)
+![이미지](/assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png)
 
 요즘 뉴스에는 시각 언어 모델이 많이 등장하고 있어요. 지난 몇 일간의 발표 속에 믿기 어려운 소식이 많았는데, 이미지를 통해 대화를 하려면 돈을 내야 할까요?
 

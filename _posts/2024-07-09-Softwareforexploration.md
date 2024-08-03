@@ -1,7 +1,7 @@
 ---
 title: "탐험을 위한 최고의 소프트웨어 10가지"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Softwareforexploration_0.png"
+coverImage: "/assets/img/2024-07-09-Softwareforexploration_0.png"
 date: 2024-07-09 20:26
 ogImage:
   url: /assets/img/2024-07-09-Softwareforexploration_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 ## 연구 소프트웨어에서 빠른 길을 선택해야 하는 때
 
-![2024-07-09-Softwareforexploration_0](/TIL/assets/img/2024-07-09-Softwareforexploration_0.png)
+![2024-07-09-Softwareforexploration_0](/assets/img/2024-07-09-Softwareforexploration_0.png)
 
 내 인생 동안 연구에 종사해왔기 때문에 연구자들이 못생긴 코드를 작성한다는 편견을 알고 있어요 (예: 여기, 여기, 또는 여기를 참고하세요). 하지만, 이를 해결할 수 있다고 생각했어요. 그래서 여러 번 멋진 연구 프레임워크를 디자인하려고 노력했어요. 좋아하는 소프트웨어 엔지니어링 책과 블로그를 참고하여 인터페이스를 도입하고 좋은 추상화를 만들려고 노력했죠.
 
@@ -26,7 +26,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 회사의 성공적인 연구 프로젝트에는 두 가지 단계가 있습니다: 탐색과 활용. "탐색" 단계에서는 가능한 다양한 경로를 시도해보려고 합니다. "활용" 단계에서는 가장 좋은 해결책을 견고하게 만들어 유용한 제품으로 전환하려고 합니다.
 
-![Software for exploration](/TIL/assets/img/2024-07-09-Softwareforexploration_1.png)
+![Software for exploration](/assets/img/2024-07-09-Softwareforexploration_1.png)
 
 <div class="content-ad"></div>
 
@@ -36,7 +36,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 이 글에서 소개한 많은 관행은 일반적으로 "기술적 부채"가 되는 예시입니다. 깨끗하고 재사용 가능하며 잘 추상화된 코드를 작성하지 않아서 생기는 결과입니다. 부채는 항상 나쁜 것일까요? 대출이나 모기지를 받지 않는 것이 좋겠지만, 돈을 빌리는 것은 종종 인생에서 좋은 전략입니다. 빠르게 움직이고 후에 수익을 얻기 위해 부채를 불러들이는 것은 괜찮습니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Softwareforexploration_2.png)
+![이미지](/assets/img/2024-07-09-Softwareforexploration_2.png)
 
 <div class="content-ad"></div>
 
@@ -75,7 +75,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 <div class="content-ad"></div>
 
-![Software Exploration](/TIL/assets/img/2024-07-09-Softwareforexploration_3.png)
+![Software Exploration](/assets/img/2024-07-09-Softwareforexploration_3.png)
 
 "복사 붙여 넣기는 불법이어야 한다"는 사람들이 있다고 해요. 하지만 제 놀람은 자주 그것을 옹호하는 데 주장을 하게 된다는 것이었어요. 탐색 단계에서 복사 붙여 넣기가 최적의 선택일 수도 있어요.
 
@@ -91,7 +91,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 많이 사용되는 공유 코드를 유지보수하는 것은 많은 작업이 필요해요. torch.nn.Module의 파일 라인 수를 Pytorch 버전에 대해 그래프로 나타낸 것을 살펴봐요. 심지어 가장 선물된 연구 팀도 복잡성을 유지하기 어렵다는 것을 알 수 있어요.
 
-![Softwareforexploration_4](/TIL/assets/img/2024-07-09-Softwareforexploration_4.png)
+![Softwareforexploration_4](/assets/img/2024-07-09-Softwareforexploration_4.png)
 
 <div class="content-ad"></div>
 
@@ -120,7 +120,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 ## 공통 경로 가속화
 
-![Screenshot](/TIL/assets/img/2024-07-09-Softwareforexploration_5.png)
+![Screenshot](/assets/img/2024-07-09-Softwareforexploration_5.png)
 
 시도하고 싶은 여러 가지 연구 경로가 있습니다. 대부분의 경로에서 시간을 단축시킬 수 있는 디자인, 라이브러리 또는 최적화가 있습니까? 시도할 아이디어를 항상 알 수 없으므로 너무 많은 것을 과도하게 설계하지는 마십시오. 이는 각 프로젝트마다 맞춤적이지만, 여기에 일부 예시가 있습니다:
 
@@ -132,7 +132,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 ## 빠르게 분기 내리기
 
-![image](/TIL/assets/img/2024-07-09-Softwareforexploration_6.png)
+![image](/assets/img/2024-07-09-Softwareforexploration_6.png)
 
 연구자들은 빠르게 새로운 다양한 아이디어를 시작할 수 있어야 합니다. 프로젝트 초반에는 쉬워 보이지만, 사람들이 자신이 선호하는 연구 경로에 빠지면서 점차 더 어려워지는 경향이 있습니다. 이를 해결하기 위해 문화적인 변화와 조직적인 변화가 필요합니다. 비영리적인 연구가 너무 많은 비용과 감정을 들이기 전에 중단시킬 수 있는 프로세스가 있어야 합니다. 정기적인 데모 데이와 기술 동료 검토는 이를 위한 효과적인 전략으로 기능할 수 있습니다. 또한 새롭고 반짝거리는 아이디어에 뛰어드는 사람들과 현재 프로젝트를 적절하게 마무리하는 사람들 사이의 균형을 찾는 것이 중요합니다.
 
@@ -146,7 +146,7 @@ link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
 
 ## 신호 대 잡음 비율 증가
 
-![](/TIL/assets/img/2024-07-09-Softwareforexploration_7.png)
+![](/assets/img/2024-07-09-Softwareforexploration_7.png)
 
 잡음이 많고 버그가 있는 코드는 결과를 너무 모호하고 결론이 나지 않게 만들어 전체 프로젝트가 시간 낭비가 될 수 있습니다. 여러분이 과도하게 엔지니어링을 하지 않아도 되지만, 코드를 지저분하게 만들지 않으려면 다음과 같은 간단한 지침을 쉽게 따를 수 있습니다:
 

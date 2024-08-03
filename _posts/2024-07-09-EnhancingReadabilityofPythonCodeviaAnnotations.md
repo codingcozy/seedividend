@@ -1,7 +1,7 @@
 ---
 title: "Python 코드 가독성을 높이는 어노테이션 사용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_0.png"
+coverImage: "/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_0.png"
 date: 2024-07-09 19:05
 ogImage:
   url: /assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/enhancing-readability-of-python-c
 
 ## 파이썬 프로그래밍
 
-![Python Image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_0.png)
+![Python Image](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_0.png)
 
 코드의 명확성은 덕목이자 필수불가결한 것입니다. 코드를 명확하고 가독성 있게 작성한다면, 다른 개발자가 이해할 수 있고, 사용자들도 어떻게 사용해야 하는지 이해할 수 있으며, 미래의 여러분도 시간이 흐르면서 구현한 코드의 세부사항을 대부분 잊어버릴텐데, 그때에도 그 코드를 감사히 여기게 될 것입니다. 프로젝트와 코드베이스의 규모가 커질수록 코드의 명확성은 더욱 중요해집니다.
 
@@ -276,7 +276,7 @@ def baz(x: float) -> tuple[int, float, str]:
 
 VSC에는 단순한 내장 어노테이션 강조 기능이 있습니다. 우리 예시 스크립트에서는 이 기능이 어떻게 작동하는지 살펴보겠습니다:
 
-![example](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_1.png)
+![example](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_1.png)
 
 <div class="content-ad"></div>
 
@@ -295,13 +295,13 @@ VSC에는 주석을 강조 표시하는 도구가 있으며 TODO Highlight 확�
 
 그래서, 확장 프로그램을 설치해봐요:
 
-![이미지](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_2.png)
+![이미지](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_2.png)
 
 "설치" 버튼을 누른 후에, 우리는 확장 프로그램 버전 1.0.5를 사용할 수 있을 거에요. 스크립트가 있는 탭으로 이동한 후에, 이것을 볼 수 있을 거에요:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_3.png" />
+<img src="/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_3.png" />
 
 이번에는 주요 주석이 훨씬 더 눈에 띄게 표시됩니다. 그러나 모두가 아닙니다. 명확히 말하자면 TODO Highlight는 모든 주석을 주석 처리하지 않습니다. 예를 들어, 이 예제에서 BUG와 NOTE, 심지어 사용자 정의 주석 중 하나인 RECONSIDER도 주석 처리하지 않습니다. BUG와 NOTE는 여전히 강조 표시되지만 내장 VSC 주석 강조 기능에 의해 강조 표시됩니다.
 
@@ -315,23 +315,23 @@ VSC에는 주석을 강조 표시하는 도구가 있으며 TODO Highlight 확�
 
 기본 설정을 확인하려면 F1을 누르고 "default settings"를 입력하세요. 다음을 보게 됩니다:
 
-![이미지](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_4.png)
+![이미지](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_4.png)
 
 이 파일을 읽어 기본 설정을 확인할 수 있지만 수정하지 마세요. 사용자 설정은 다른 파일에 있으므로 다시 F1을 누르고 "user settings"를 입력하세요:
 
 <div class="content-ad"></div>
 
-![Screenshot of the second option](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_5.png)
+![Screenshot of the second option](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_5.png)
 
 두 번째 옵션인 사용자 설정이 있는 JSON 파일을 선택해주세요. 이곳에는 TODO Highlighter를 위한 사용자 지정 설정을 추가할 수 있습니다. 이를 하는 방법은 확장 프로그램을 열고 DETAILS 탭을 읽어보시면 알 수 있습니다:
 
-![Screenshot of the DETAILS tab](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_6.png)
+![Screenshot of the DETAILS tab](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_6.png)
 
 확장 프로그램이 강조하지 않는 주석을 스크립트에 추가해보겠습니다: BUG, NOTE 및 RECONSIDER입니다. 이를 위해서는 새로운 필드인 todohighlight.keywords를 추가하는 단 한 줄의 코드를 추가해야 합니다:
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_7.png)
+![Image](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_7.png)
 
 만약 콜론을 강조하고 싶다면, 주석의 일부로 취급해야 합니다. 그렇지 않으면, 이러한 주석은 콜론 없이 강조되어 표시됩니다. 이는 내장 주석에 대해 TODO 하이라이터가 사용하는 동작과 다른 동작입니다 (다음 이미지에서 TODO가 어떻게 강조되는지 확인해보세요).
 
@@ -341,19 +341,19 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_8.png)
+![image](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_8.png)
 
 좋아요! 그리고 자주 그것만으로 충분합니다.
 
 하지만 한 발 더 나아가 다른 색상으로 설정하고 싶다면 — 사실 더 많은 것도 할 수 있습니다 — 이 파일에서 할 수 있습니다. 지금처럼 BUG 주석을 더 강조해 봅시다:
 
-![image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_9.png)
+![image](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_9.png)
 
 <div class="content-ad"></div>
 
 이것이 어떻게 작동하는지 확인할 수 있어요. 정말로 눈에 띄고, 이게 전체적인 목적이었죠. baz() 함수에 대해서만 확인해 보겠습니다:
 
-![이미지](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_10.png)
+![이미지](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_10.png)
 
 어노테이션이 추가적인 줄로 확장되는 경우, baz() 함수의 BUG처럼 그 부분은 전혀 강조되지 않아요. 어노테이션 태그만 강조될 때는 문제가 되지 않지만, 여기서는 전체 줄을 강조하려고 해요. 그래서 baz()에서 버그를 설명하는 두 줄 모두 태그가 달려 있어요.
 
@@ -365,7 +365,7 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 다양한 주석에 대해 설정을 다르게 할 수 있습니다:
 
-![Python Readability Annotations](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_11.png)
+![Python Readability Annotations](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_11.png)
 
 여기서는 BUG에 대해 자세한 설정을 제공하고, FIXME에 대해서는 덜 자세한 설정을 하며, NOTE 및 RECONSIDER 주석을 기본 설정으로 사용할 것입니다.
 
@@ -375,17 +375,17 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 마지막으로, TODO 하이라이트의 기본 스타일을 변경하는 방법을 보여드릴게요:
 
-![TODO 하이라이트 기본 스타일 변경](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_12.png)
+![TODO 하이라이트 기본 스타일 변경](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_12.png)
 
 이제 다음 구성으로 예시 스크립트가 어떻게 보이는지 확인해볼게요:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_13.png" />
+<img src="/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_13.png" />
 
 이게 스크립트야:
 
-<img src="/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_14.png" />
+<img src="/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_14.png" />
 
 # 결론 및 제안
 
@@ -435,17 +435,17 @@ settings.JSON에 사용자 정의 구성을 추가하면 확장 프로그램이 
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_15.png" />
+<img src="/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_15.png" />
 
 VSC의 확장 기능 TODO Highlight에서, 가장 인기있는 주석들을 주석 처리하는 것을 의미합니다: TODO, NOTE, REVIEW, BUG 및 FIXME. 내장 TODO Highlight의 주석인 TODO는 자체 색상을 갖게 될 것입니다. BUG 및 FIXME는 다른 주석들과 달리 동일한 스타일을 사용합니다. BUG에는 "color": "white"를 추가해야 했는데, 그렇지 않으면 기본 색상으로 검정색이 사용되었을 것입니다:
 
-<img src="/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_16.png" />
+<img src="/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_16.png" />
 
 이로써 다음 효과가 발생합니다:
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_17.png)
+![image](/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_17.png)
 
 안녕하세요! 파이썬 코드의 가독성과 코드 개발의 효율성을 높일 수 있는 주석에 대해 이야기해봅니다. 그러나 주석을 과하게 사용하지 않는 것이 중요합니다. 과도한 구성은 주석을 너무 눈에 띄게 만들어 코드에 불필요한 시각적 혼란을 줄 수 있습니다.
 

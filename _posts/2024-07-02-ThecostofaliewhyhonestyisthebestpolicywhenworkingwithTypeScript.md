@@ -1,16 +1,16 @@
 ---
 title: "TypeScript와 함께 작업할 때 정직이 최선의 정책인 이유  거짓말의 대가"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png"
+coverImage: "/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png"
 date: 2024-07-02 21:49
 ogImage:
-  url: /TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png
+  url: /assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png
 tag: Tech
 originalTitle: "The cost of a lie — why honesty is the best policy when working with TypeScript"
 link: "https://medium.com/swinginc/the-cost-of-a-lie-5d9814fe2853"
 ---
 
-![이미지](/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png)
+![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png)
 
 # 서문
 
@@ -20,7 +20,7 @@ link: "https://medium.com/swinginc/the-cost-of-a-lie-5d9814fe2853"
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_1.png)
+![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_1.png)
 
 코드 세계에서 거짓말은 현실 세계에서와 마찬가지로 치명적일 수 있습니다. TypeScript 컴파일러를 속이면 전체 응용 프로그램의 무결성이 위험에 빠집니다. 모든 X와 같이 알 수 없는 것은 시간이 지남에 따라 증가할 수 있는 가격이 따릅니다.
 
@@ -38,7 +38,7 @@ link: "https://medium.com/swinginc/the-cost-of-a-lie-5d9814fe2853"
 
 하지만 거짓말은 프로그래밍과 무슨 공통점이 있는 걸까요 🤔? 실은 상당히 많은 부분이 비슷합니다.
 
-![이미지](/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_2.png)
+![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_2.png)
 
 <div class="content-ad"></div>
 
@@ -107,7 +107,7 @@ const checkIfAllowed = (userType: UserType) => {
 
 이제 한 발자국 물러나서 이 경우들을 다시 살펴보고 "거짓말"을 찾아보세요.
 
-![이미지](/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_3.png)
+![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_3.png)
 
 찾았나요? 네, 아니오? (혹시라도? 모르겠어요). 네라면, 축하해요 🎉 찾지 못했다면 걱정마시고 계속해서 읽어보세요.
 
@@ -280,7 +280,7 @@ const checkIfAllowed = (userType: UserType) => {
 
 이 형변환(casting)이 안전한 이유는 `isSpecialUser` 유형 가드 함수 내부에서 사용하기 때문입니다. TypeScript는 includes 확인이 통과되면 `userType`이 `SpecialUsers` 유형이어야 한다는 것을 이해합니다. 따라서 형변환은 안전하며 유형 안전성을 위반하지 않습니다. 이렇게 하면 `userType` 변수는 if 블록의 범위 내에서 `SpecialUsers` 유형을 유지합니다.
 
-![이미지](/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_4.png)
+![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_4.png)
 
 3/3 사건 마무리 수사관 - 훌륭한 일했어요.
 
@@ -314,7 +314,7 @@ const users: Users = await response.json() as Users;
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_5.png" />
+<img src="/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_5.png" />
 
 ## 게으름 (좋은겁니다 😎)
 
@@ -369,7 +369,7 @@ export default TodoList;
 
 # 제 3장: 진실의 힘.
 
-![이미지](/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_6.png)
+![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_6.png)
 
 지금까지 코드에서 거짓이 어떻게 보이는지와 그 코드베이스에 나타난 이유에 중점을 두었습니다. 그러나 우리는 진실을 말할 수 있는 방법이 무엇이며 어떻게 거짓을 멈출 수 있을까요?
 
@@ -429,4 +429,4 @@ TypeScript는 개발자가 오류를 잡고 코드 품질을 향상시키는 데
 
 거짓말 하지 마세요.
 
-![이미지](/TIL/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_7.png)
+![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_7.png)

@@ -1,7 +1,7 @@
 ---
 title: "2024년에 풀스택 데이터 과학자가 되는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Howwillyoubeafull-stackdatascientistin2024_0.png"
+coverImage: "/assets/img/2024-07-09-Howwillyoubeafull-stackdatascientistin2024_0.png"
 date: 2024-07-09 09:03
 ogImage:
   url: /assets/img/2024-07-09-Howwillyoubeafull-stackdatascientistin2024_0.png
@@ -10,7 +10,7 @@ originalTitle: "How will you be a full-stack data scientist in 2024?"
 link: "https://medium.com/@aserdargun/how-will-you-become-a-full-stack-data-scientist-in-2024-d1cecb471782"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-Howwillyoubeafull-stackdatascientistin2024_0.png)
+![이미지](/assets/img/2024-07-09-Howwillyoubeafull-stackdatascientistin2024_0.png)
 
 내 꿈이었던 직업은 데이터 과학자가 되는 것이었습니다. 이 끝없는 여정은 2021년 9월 7일에 시작되었습니다. 고등학교 때부터 컴퓨터 과학에 관심을 가졌습니다. 삶은 나를 산업계의 생산 엔지니어로 이끌었습니다. 경력 동안 많은 데이터 주도 비즈니스 개발 프로젝트를 수행했습니다. 코로나 시기 이후, 내 열정을 찾고 미래로 나아가기로 결심했습니다. 파이썬 프로그래밍 언어를 배우기 시작했습니다. 학습 습관을 형성하는 데 74일이 걸렸습니다. 학습을 멈추지 않았습니다. 파이썬이 데이터 과학에서 가장 인기 있는 언어임을 알아보고 목표를 데이터 과학 분야로 변경했습니다. 제 생애 13년을 제조 엔지니어로 보낸 뒤에 데이터 과학이 경력 전환에 가장 적합한 분야임을 깨달았습니다.
 

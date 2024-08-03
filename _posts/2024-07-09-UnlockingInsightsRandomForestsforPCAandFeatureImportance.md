@@ -1,7 +1,7 @@
 ---
 title: "랜덤 포레스트로 PCA와 특징 중요도 해제하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_0.png"
+coverImage: "/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_0.png"
 date: 2024-07-09 20:18
 ogImage:
   url: /assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_0.png
@@ -10,7 +10,7 @@ originalTitle: "Unlocking Insights: Random Forests for PCA and Feature Importanc
 link: "https://medium.com/towards-data-science/unlocking-insights-random-forests-for-pca-and-feature-importance-2d0d1b4adb70"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_0.png" />
+<img src="/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_0.png" />
 
 안녕하세요!
 
@@ -157,7 +157,7 @@ mean_absolute_error(val_y, rf.predict(val_xs))
 pd.DataFrame(dict((cols = trn_xs.columns), (imp = rf.feature_importances_))).plot("cols", "imp", "barh");
 ```
 
-<img src="/TIL/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_1.png" />
+<img src="/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_1.png" />
 
 여기서요. 생존 예측에서 성별이 가장 중요한 요소임을 알 수 있습니다. 이 단계에서는 다른 알고리즘을 실험하면서 현재 특성을 유지하거나, 랜덤 포레스트 모델을 성능 기준으로 활용할 수 있습니다. 또한, 모델의 예측 성능이 부족하다면, 더 많은 특성 엔지니어링을 수행할 수도 있습니다. 이 방법은 극히 작은 데이터셋으로만 실험했지만, 매우 효율적으로 확장할 수 있는 방법입니다. 1000개 이상의 특성이 있는 데이터셋이 있다고 상상해보세요. 이 방법을 사용하면 빠르게 상위 특성을 추출하여 프로젝트를 어떻게 가장 잘 진행할지 계획을 세울 수 있습니다.
 
@@ -301,7 +301,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_2.png)
+![image](/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_2.png)
 
 와우, 수동 분리 결과와 동일한 결과를 얻었네요. 이 모델의 성능을 측정해 봅시다:
 
@@ -335,7 +335,7 @@ plot_tree(model, feature_names=trn_xs.columns, filled=True, rounded=True, precis
 plt.show()
 ```
 
-![image](/TIL/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_3.png)
+![image](/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_3.png)
 
 이제 큰 모델의 성능을 측정해 보겠습니다:
 

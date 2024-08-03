@@ -1,7 +1,7 @@
 ---
 title: "Python을 사용한 PDF를 Word로 변환하는 5가지 방법 비교 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-5WaystoConvertPDFtoWordinPythonAComparisonGuide_0.png"
+coverImage: "/assets/img/2024-07-09-5WaystoConvertPDFtoWordinPythonAComparisonGuide_0.png"
 date: 2024-07-09 14:43
 ogImage:
   url: /assets/img/2024-07-09-5WaystoConvertPDFtoWordinPythonAComparisonGuide_0.png
@@ -10,7 +10,7 @@ originalTitle: "5 Ways to Convert PDF to Word in Python: A Comparison Guide"
 link: "https://medium.com/@alexaae9/5-ways-to-convert-pdf-to-word-in-python-a-comparison-guide-1771cfd109e7"
 ---
 
-![image](/TIL/assets/img/2024-07-09-5WaystoConvertPDFtoWordinPythonAComparisonGuide_0.png)
+![image](/assets/img/2024-07-09-5WaystoConvertPDFtoWordinPythonAComparisonGuide_0.png)
 
 PDF 문서를 편집 가능한 Microsoft Word 파일로 변환하면 변경 사항을 가할 수 있고 주석을 추가하며 PDF 콘텐츠에 대해 더 효율적으로 협업할 수 있습니다.
 

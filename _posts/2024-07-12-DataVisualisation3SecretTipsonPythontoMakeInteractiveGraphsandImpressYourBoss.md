@@ -1,17 +1,17 @@
 ---
 title: "데이터 시각화 상사를 놀라게 할 Python으로 인터랙티브 그래프 만드는 3가지 비밀 팁"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_0.png"
+coverImage: "/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_0.png"
 date: 2024-07-12 19:54
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_0.png
+  url: /assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_0.png
 tag: Tech
 originalTitle: "Data Visualisation: 3 Secret Tips on Python to Make Interactive Graphs and Impress Your Boss"
 link: "https://medium.com/gitconnected/data-visualisation-3-secret-tips-on-python-to-make-interactive-graphs-and-impress-your-boss-761f090cf339"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_0.png" />
+<img src="/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_0.png" />
 
 해당 글과 함께, 그래프를 인터랙티브하게 만들어 보여줌으로써 Python의 가능성을 향상시킬 것이고, 당신의 상사를 감명시킬 것입니다. 이 팁들의 목표는 더 나은 인상을 주고 사용자/고객 경험을 향상하는 데 있습니다. 효과가 있습니다!
 
@@ -59,7 +59,7 @@ pip install DateTime
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_1.png" />
+<img src="/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_1.png" />
 
 이제 전제 조건이 해결되었으니, 첫 번째 팁부터 시작할 수 있어요.
 
@@ -91,7 +91,7 @@ pip install DateTime
 
 다른 예시로 여러 주식을 여러 개 가져올 수 있는 경우가 있습니다. 그리고 이러한 주식을 동일한 척도에 맞추어 인덱싱할 수도 있습니다 (출처 1). 아래는 결과입니다: 
 
-![image](/TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_3.png)
+![image](/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_3.png)
 
 ## 팁 2: 대화형 버튼 추가하기
 
@@ -105,7 +105,7 @@ pip install DateTime
 
 상호 작용 필터링은 고객/사용자가 직관적으로 데이터를 필터링하거나 강조하려는 특정 시간이나 그래프 부분에 직접 확대하는 것을 도와줍니다.
 
-![그래프 이미지](/TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_4.png)
+![그래프 이미지](/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_4.png)
 
 <div class="content-ad"></div>
 
@@ -131,7 +131,7 @@ fig.update_layout(
 
 한 번 코드 블록을 가지고 있으면 변경할 수 있는 변수는 다음과 같습니다:
 
-![이미지](/TIL/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_5.png)
+![이미지](/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_5.png)
 
 심지어 첫 번째 팁과 함께 혼합하여 청중을 황홀하게 만들 수도 있어요.
 

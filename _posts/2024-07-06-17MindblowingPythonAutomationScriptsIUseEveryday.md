@@ -1,7 +1,7 @@
 ---
 title: "일상에서 유용한 놀라운 17가지 Python 자동화 스크립트"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-17MindblowingPythonAutomationScriptsIUseEveryday_0.png"
+coverImage: "/assets/img/2024-07-06-17MindblowingPythonAutomationScriptsIUseEveryday_0.png"
 date: 2024-07-06 10:26
 ogImage:
   url: /assets/img/2024-07-06-17MindblowingPythonAutomationScriptsIUseEveryday_0.png

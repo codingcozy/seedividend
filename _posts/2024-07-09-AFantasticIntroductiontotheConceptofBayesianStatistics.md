@@ -1,7 +1,7 @@
 ---
 title: "훌륭한 베이즈 통계 개념 입문"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-AFantasticIntroductiontotheConceptofBayesianStatistics_0.png"
+coverImage: "/assets/img/2024-07-09-AFantasticIntroductiontotheConceptofBayesianStatistics_0.png"
 date: 2024-07-09 09:05
 ogImage:
   url: /assets/img/2024-07-09-AFantasticIntroductiontotheConceptofBayesianStatistics_0.png

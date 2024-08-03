@@ -1,10 +1,10 @@
 ---
 title: "튜토리얼 Typescript로 배우는 함수형 프로그래밍 실전 적용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png"
+coverImage: "/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png"
 date: 2024-07-13 20:37
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png
+  url: /assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png
 tag: Tech
 originalTitle: "Tutorial: Functional Programming in Action with Typescript"
 link: "https://medium.com/@andrewrobertallison/tutorial-functional-programming-in-action-with-typescript-ab136b3db9a3"
@@ -12,7 +12,7 @@ link: "https://medium.com/@andrewrobertallison/tutorial-functional-programming-i
 
 
 
-![Tutorial Image](/TIL/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png)
+![Tutorial Image](/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png)
 
 # 소개
 
@@ -29,7 +29,7 @@ link: "https://medium.com/@andrewrobertallison/tutorial-functional-programming-i
 
 map과 같은 고차 함수는 한 개 이상의 함수를 인수로 받아 새로운 함수를 반환하는데 함수형 프로그래밍에서 기본적인 역할을 합니다. 재사용성과 모듈성을 통해 기반 함수를 설정하고 확장해 나가는 데 더 빠르게 이동할 수 있습니다. 객체 지향 프로그래밍 (OOP)은 데이터 변환 프로세스를 다룰 때 복잡해지는 반면, 싱글톤, 정적 함수 또는 정적 변수를 사용해야 하는지 여부에 대한 문제가 발생할 수 있는 반면, 함수형 프로그래밍은 평이한 함수의 사용을 옹호함으로써 이러한 시나리오를 단순화합니다. 말 그대로 모든 것이 함수입니다
 
-<img src="/TIL/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_1.png" />
+<img src="/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_1.png" />
 
 <div class="content-ad"></div>
 

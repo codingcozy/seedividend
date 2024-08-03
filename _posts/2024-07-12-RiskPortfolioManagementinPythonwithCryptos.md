@@ -1,10 +1,10 @@
 ---
 title: "암호화폐를 이용한 파이썬 리스크 포트폴리오 관리 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_0.png"
+coverImage: "/assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_0.png"
 date: 2024-07-12 19:42
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_0.png
+  url: /assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_0.png
 tag: Tech
 originalTitle: "Risk Portfolio Management in Python with Cryptos"
 link: "https://medium.com/algo-trading-mastery/risk-portfolio-management-in-python-with-cryptos-f205a178df54"
@@ -50,7 +50,7 @@ link: "https://medium.com/algo-trading-mastery/risk-portfolio-management-in-pyth
 - 시장의 예측 불가능성: 견고한 리스크 관리 실천에도 불구하고 시장은 예측할 수 없으며 예기치 못한 사건이 포트폴리오에 여전히 영향을 줄 수 있습니다.
 - 소규모 투자자에 대한 적용 범위가 제한적: 복잡성과 비용 제한으로 인해 고급 리스크 관리의 혜택이 소규모 투자자에게 덜 접근하기 어려울 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_0.png)
+![이미지](/assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_0.png)
 
 ```js
 바이낸스에서의 역사적 데이터 획득 중...
@@ -63,7 +63,7 @@ ETH/USDT: -5.538816095795286e-23
 최소 포트폴리오 분산: 0.0195
 ```
 
-![이미지](/TIL/assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_1.png)
+![이미지](/assets/img/2024-07-12-RiskPortfolioManagementinPythonwithCryptos_1.png)
 
 <div class="content-ad"></div>
 

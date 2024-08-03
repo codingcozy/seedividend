@@ -1,7 +1,7 @@
 ---
 title: "Python으로 LoRa 모듈레이션 시뮬레이션 하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-HowtoSimulateLoRaModulationWithPython_0.png"
+coverImage: "/assets/img/2024-07-09-HowtoSimulateLoRaModulationWithPython_0.png"
 date: 2024-07-09 09:09
 ogImage:
   url: /assets/img/2024-07-09-HowtoSimulateLoRaModulationWithPython_0.png
@@ -91,7 +91,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-HowtoSimulateLoRaModulationWithPython_0.png" />
+<img src="/assets/img/2024-07-09-HowtoSimulateLoRaModulationWithPython_0.png" />
 
 의견과 피드백은 댓글에서 환영합니다. 여기 테스트 용 전체 코드가 있습니다:
 

@@ -1,7 +1,7 @@
 ---
 title: "TensorFlow Transform 프로덕션에서 매끄러운 데이터 준비를 위한 필수 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png"
+coverImage: "/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png"
 date: 2024-07-09 14:29
 ogImage:
   url: /assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/tensorflow-transform-ensuring-sea
 
 ## 제품 환경을 위한 데이터 파이프라인 확장을 위한 TensorFlow Transform 활용
 
-![이미지](/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png)
+![이미지](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png)
 
 데이터 전처리는 머신 러닝 파이프라인에서 중요한 단계 중 하나입니다. TensorFlow Transform은 거대한 데이터셋 위에서 분산 환경에서 이를 달성하는 데 도움이 됩니다.
 
@@ -32,7 +32,7 @@ ML 파이프라인 작업은 데이터 수집 및 검증으로 시작하여 변�
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_1.png" />
+<img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_1.png" />
 
 그 다음은 imports가 옵니다.
 
@@ -58,7 +58,7 @@ import os
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_2.png" />
+<img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_2.png" />
 
 데이터 변환 부분을 시작하기 위해서는 파이프라인 구성 요소를 배치할 폴더를 생성하는 것이 좋습니다(그렇지 않으면 기본 디렉터리에 배치됩니다). 저는 파이프라인 구성 요소를 위한 하나와 훈련 데이터를 위한 다른 하나의 폴더를 만들었습니다.
 
@@ -108,11 +108,11 @@ context.run(example_gen)
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_3.png" />
+<img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_3.png" />
 
 확장하면 이 상세 정보를 볼 수 있어야 합니다.
 
-<img src="/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_4.png" />
+<img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_4.png" />
 
 디렉토리 구조는 아래 이미지와 같습니다. 이 모든 아티팩트들은 TFX에 의해 자동으로 생성되었습니다. 또한 자동으로 버전이 지정되며 세부 정보는 metadata.sqlite에 저장됩니다. 해당 sqlite 파일은 데이터 출처 또는 데이터 계보를 유지하는 데 도움이 됩니다.
 
@@ -133,7 +133,7 @@ print(f'artifact uri: {artifact.uri}')
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_6.png)
+![Image](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_6.png)
 
 이제 train uri를 복사하여 파일 내부의 세부 정보를 살펴보겠습니다. 파일은 zip 파일로 저장되어 있으며 TFRecordDataset 형식으로 저장되어 있습니다.
 
@@ -195,7 +195,7 @@ pp.pprint(sample_records)
 
 3개의 레코드를 요청했고, 출력은 다음과 같습니다. 각 레코드와 해당 메타데이터가 사전 형식으로 저장됩니다.
 
-<img src="/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_7.png" />
+<img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_7.png" />
 
 <div class="content-ad"></div>
 
@@ -225,7 +225,7 @@ context.show(statistics_gen.outputs['statistics'])
 
 TFDV (TensorFlow Data Validation) 기사에서 설명한 통계 생성과 매우 유사하다는 것을 알 수 있습니다. 그 이유는 TFX가 이러한 작업을 수행하기 위해 내부적으로 TFDV를 사용하기 때문입니다. TFDV에 익숙해지면 이러한 프로세스를 더 잘 이해하는 데 도움이 될 것입니다.
 
-<img src="/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_8.png" />
+<img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_8.png" />
 
 다음 단계는 스키마를 생성하는 것입니다. 이 작업은 statistics_gen 객체를 전달하여 SchemaGen을 사용하여 수행됩니다. 구성 요소를 실행하고 context.show를 사용하여 시각화하세요.
 
@@ -248,7 +248,7 @@ context.show(schema_gen.outputs['schema'])
 
 출력 결과에는 데이터의 기본 스키마에 관한 세부 정보가 표시됩니다. TFDV와 마찬가지로입니다.
 
-<img src="/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_9.png" />
+<img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_9.png" />
 
 여기에 제시된 스키마를 수정해야 하는 경우 tfdv를 사용하여 수정하고 스키마 파일을 생성할 수 있습니다. ImportSchemaGen을 사용하여 새 파일을 tfx에 사용하도록 요청할 수 있습니다.
 
@@ -277,11 +277,11 @@ context.run(example_validator)
 
 <div class="content-ad"></div>
 
-![TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_10](/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_10.png)
+![TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_10](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_10.png)
 
 At this point, our directory structure looks like the image above. We can see that for every step in the process, the corresponding artifacts are created.
 
-![TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_11](/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_11.png)
+![TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_11](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_11.png)
 
 Let us move on to the actual transformation part. We will now create the `constants.py` file to add all the constants required for the process.
 
@@ -402,7 +402,7 @@ context.run(transform)
 
 <div class="content-ad"></div>
 
-![TensorFlow Transform](/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_12.png)
+![TensorFlow Transform](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_12.png)
 
 # 그냥 scikit-learn 라이브러리나 pandas를 사용하는 것은 왜 아닌가요?
 
@@ -414,7 +414,7 @@ context.run(transform)
 
 변환을 적용한 후에 폴더 구조가 다음과 같이 보입니다
 
-![folder structure](/TIL/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_13.png)
+![folder structure](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_13.png)
 
 여기에는 변환 전후의 세부 내용이 포함되어 있습니다. 또한 변환 그래프도 만들어졌습니다.
 

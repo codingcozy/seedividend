@@ -1,7 +1,7 @@
 ---
 title: "2024년 최고의 파이썬 IDE는"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-ThebestPythonIDEin2024_0.png"
+coverImage: "/assets/img/2024-07-06-ThebestPythonIDEin2024_0.png"
 date: 2024-07-06 10:29
 ogImage:
   url: /assets/img/2024-07-06-ThebestPythonIDEin2024_0.png

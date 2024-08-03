@@ -1,10 +1,10 @@
 ---
 title: "Python으로 삼체 문제를 시각적으로 시뮬레이션하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-02-VisuallySimulatingtheThree-BodyProblemonPython_0.png"
+coverImage: "/assets/img/2024-07-02-VisuallySimulatingtheThree-BodyProblemonPython_0.png"
 date: 2024-07-02 21:44
 ogImage:
-  url: /TIL/assets/img/2024-07-02-VisuallySimulatingtheThree-BodyProblemonPython_0.png
+  url: /assets/img/2024-07-02-VisuallySimulatingtheThree-BodyProblemonPython_0.png
 tag: Tech
 originalTitle: "Visually Simulating the Three-Body Problem on Python"
 link: "https://medium.com/@2305sakake/visually-simulating-the-three-body-problem-on-python-136d3667c820"

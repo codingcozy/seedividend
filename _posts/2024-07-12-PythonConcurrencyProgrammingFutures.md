@@ -1,10 +1,10 @@
 ---
 title: "Python 동시성 프로그래밍 Futures 사용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_0.png"
+coverImage: "/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_0.png"
 date: 2024-07-12 20:22
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_0.png
+  url: /assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_0.png
 tag: Tech
 originalTitle: "Python Concurrency Programming: Futures"
 link: "https://medium.com/@cstoppgmr/python-concurrency-programming-futures-f6fe99ec19fe"
@@ -12,7 +12,7 @@ link: "https://medium.com/@cstoppgmr/python-concurrency-programming-futures-f6fe
 
 
 
-![Image](/TIL/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_0.png)
+![Image](/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_0.png)
 
 협업 프로그래밍을 올바르고 합리적으로 사용하면 우리 프로그램에 상당한 성능 향상을 가져다 줄 것입니다. 오늘의 글에서는 파이썬에서 동시성 프로그래밍 및 Future를 중점으로 하는 동시성 프로그래밍을 이해하고 적용하는 방법을 안내하겠습니다.
 
@@ -25,7 +25,7 @@ link: "https://medium.com/@cstoppgmr/python-concurrency-programming-futures-f6fe
 
 먼저 일반적으로 오해되는 것을 명확하게 해 봅시다: 파이썬에서 동시성은 여러 작업(스레드 또는 태스크)이 동시에 동시에 발생한다는 것을 의미하지 않습니다. 대신, 한 번에 하나의 작업만 진행되도록 허용하고, 스레드 또는 태스크가 완료될 때까지 서로 전환됩니다. 아래 다이어그램을 살펴보겠습니다:
 
-![Concurrency Diagram](/TIL/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_1.png)
+![Concurrency Diagram](/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_1.png)
 
 이 다이어그램은 태스크 전환을 관리하는 두 가지 다른 방법을 보여줍니다. 이는 파이썬에서 동시성의 두 형태에 대응됩니다: 스레딩과 asyncio입니다.
 
@@ -37,7 +37,7 @@ link: "https://medium.com/@cstoppgmr/python-concurrency-programming-futures-f6fe
 
 병렬성에 대해 이야기하면, 동시에 동시에 실행되는 작업을 가리킵니다. Python에서 이는 멀티 프로세싱을 통해 달성됩니다. 예를 들어, 컴퓨터가 6코어 프로세서를 사용한다면, 실행 속도를 높이기 위해 6개의 프로세스를 동시에 실행할 수 있습니다. 멀티 프로세싱의 기본 아이디어는 다음과 같이 나타낼 수 있습니다:
 
-![멀티 프로세싱](/TIL/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_2.png)
+![멀티 프로세싱](/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_2.png)
 
 두 가지를 비교해보면:
 
@@ -315,4 +315,4 @@ https://en.wikipedia.org/wiki/Go_(programming_language)에서 324,039을 읽음
 
 기억해야 할 중요한 점은 Python이 글로벌 인터프리터 락(GIL) 때문에 한 번에 하나의 스레드만 실행되도록 한다는 것입니다. 그러나 I/O 작업에 대해서는 스레드가 차단될 때 GIL이 해제되어 다른 스레드가 계속 실행될 수 있습니다.
 
-<img src="/TIL/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_3.png" />
+<img src="/assets/img/2024-07-12-PythonConcurrencyProgrammingFutures_3.png" />

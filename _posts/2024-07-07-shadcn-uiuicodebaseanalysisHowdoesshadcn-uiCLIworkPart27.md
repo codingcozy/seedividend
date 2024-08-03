@@ -1,7 +1,7 @@
 ---
 title: "shadcn-ui UI 코드베이스 분석 shadcn-ui CLI는 어떻게 작동하나요  27부"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png"
+coverImage: "/assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png"
 date: 2024-07-07 22:00
 ogImage:
   url: /assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png
@@ -16,7 +16,7 @@ shadcn-ui CLI가 어떻게 작동하는지 알아보고 싶었어요. 이 글에
 
 이제 다음 코드 라인으로 넘어가 봅시다.
 
-![이미지](/TIL/assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png)
+![이미지](/assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png)
 
 <div class="content-ad"></div>
 

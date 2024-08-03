@@ -1,7 +1,7 @@
 ---
 title: "프로처럼 파이썬 폼 만드는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-HowtoMakePythonFormsasaPro_0.png"
+coverImage: "/assets/img/2024-07-07-HowtoMakePythonFormsasaPro_0.png"
 date: 2024-07-07 02:31
 ogImage:
   url: /assets/img/2024-07-07-HowtoMakePythonFormsasaPro_0.png
@@ -10,7 +10,7 @@ originalTitle: "How to Make Python Forms as a Pro"
 link: "https://medium.com/python-in-plain-english/how-to-make-python-forms-as-a-pro-e4164f5ddcde"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-HowtoMakePythonFormsasaPro_0.png" />
+<img src="/assets/img/2024-07-07-HowtoMakePythonFormsasaPro_0.png" />
 
 과거에 설문은 데이터 수집의 효과적인 수단이었지만, 오늘날의 빠른 세상에서는 사람들이 길거리에서 질문에 답변하기 위해 멈추기에는 너무 바쁘다. 인터넷을 둘러보는 동안 온라인 양식을 작성하는 것이 그들에게 더 편리하며, 출근길에 낯선 사람에게 5분을 할애하는 것보다 더 나은 방법이다. 결과적으로, 회사와 개인은 이제 사람들에게 접근하는 대신 Google Forms와 같은 디지털 도구를 사용하고 있다.
 

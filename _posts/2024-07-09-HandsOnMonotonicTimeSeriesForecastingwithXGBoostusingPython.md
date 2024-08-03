@@ -1,7 +1,7 @@
 ---
 title: "Python으로 XGBoost를 사용한 모노토닉 시계열 예측 실습"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_0.png"
+coverImage: "/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_0.png"
 date: 2024-07-09 20:12
 ogImage:
   url: /assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_0.png
@@ -10,7 +10,7 @@ originalTitle: "Hands On Monotonic Time Series Forecasting with XGBoost, using P
 link: "https://medium.com/towards-data-science/hands-on-monotonic-time-series-forecasting-with-xgboost-using-python-ebcd2c27f9e6"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_0.png)
+![이미지](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_0.png)
 
 몇 달 전에 리서치 프로젝트를 진행하면서 시계열을 다루는 문제를 해결해야 했어요.
 
@@ -28,13 +28,13 @@ Machine Learning 애호가들에게는 "Hello World"를 작성하는 것과 같�
 일련의 매개변수 X와 시간 단계 t가 있는 시계열 데이터가 있다고 가정해 봅시다.
 표준 시간 예측 문제는 다음과 같습니다:
 
-![image](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_1.png)
+![image](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_1.png)
 
 <div class="content-ad"></div>
 
 우리가 직면한 문제는 다음과 같습니다:
 
-![이미지](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_2.png)
+![이미지](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_2.png)
 
 따라서 입력 매개변수가 d 차원이라고 가정할 때, 저는 차원 1을 위한 함수가 단조적이 되기를 원합니다. 그렇다면 어떻게 처리해야 할까요? 어떻게 "단조적" 시계열을 예측할 수 있을까요? 이 문제에 대한 설명은 XGBoost를 사용할 것입니다.
 
@@ -59,7 +59,7 @@ XGBoost의 XG는 extreme gradient(부스팅)을 의미합니다.
 
 첫 번째 예측기는 “약한 예측기”라고 불리는 것을 목표로 합니다. 이는 예측된 y1과 실제 출력 y 사이에 무시할 수 없는 차이가 있는 것을 의미합니다. 두 번째 예측기는 첫 번째 예측의 오류를 보정하는 것을 목표로 하므로 X에서 y로 이동하는 것이 아니라 y2 = y-y1로 이동하는 것으로 훈련됩니다. 이 작업은 예측기의 수인 N번 반복되며, 아래 이미지에 나타난 바와 같습니다:
 
-![image](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_3.png)
+![image](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_3.png)
 
 각 예측기는 의사 결정 트리(decision tree)입니다. 의사 결정 트리에 대한 설명을 할 때마다, 나는 그것을 게임 “guess who”에 비유하여 설명합니다. 그 게임은 다음과 같이 진행됩니다.
 
@@ -67,7 +67,7 @@ XGBoost의 XG는 extreme gradient(부스팅)을 의미합니다.
 
 <div class="content-ad"></div>
 
-![Hands on Monotonic Time Series Forecasting with XGBoost using Python](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_4.png)
+![Hands on Monotonic Time Series Forecasting with XGBoost using Python](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_4.png)
 
 As you can see, the structure resembles an upside-down tree, starting from the leaves (bottom) and extending to the root (top).
 
@@ -92,7 +92,7 @@ The XGBoost algorithm cleverly utilizes all these decision trees to "boost" the 
 
 예를 들어, 다음과 같은 함수가 있다고 가정해 봅시다:
 
-![Alt text](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_5.png)
+![Alt text](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_5.png)
 
 이 함수는 x2에 대해 단조적입니다. x1과 x2가 주어졌을 때 XGBoost를 사용하여 f(x1, x2)의 결과를 예측하려고 한다고 상상해 봅니다. 이제 현실에서 f(x1, x2)는 알려지지 않았습니다 (그렇지 않으면 기계 학습을 하지 않고 휴가를 가기위해 플로리다로 비행을 갈 것입니다), 하지만 x2에 대해 단조적이라는 점을 알거나 원할 수 있습니다. 실제로 저는 다른 양과 관련하여 단조적임을 알고 있던 물리량이 있었던 적이 있습니다. XGBoost의 구조를 수정하여 해당 특징에 대한 요구 사항을 충족시킬 수 있습니다. 우리의 경우, x2에 대한 단조적 행동을 강제하는 예측을 할 수 있습니다.
 
@@ -110,7 +110,7 @@ The XGBoost algorithm cleverly utilizes all these decision trees to "boost" the 
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_6.png)
+![Image](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_6.png)
 
 이것이 플롯입니다.
 
@@ -137,13 +137,13 @@ Pandas를 사용하여 데이터를 가져와서 5개의 행을 표시했습니�
 
 그리고 이 문제에 대해 잘 다루는 블로그 포스트가 있습니다. 우리는 한 단계 더 나아가려고 합니다. 우리는 이 다른 열인 "City_Index"를 추가할 것입니다. 이 City_Index는 뉴델리보다 더 덥거나 더 추운 다른 도시가 있다는 사실을 모방할 것입니다. 세계의 다른 부분별로 도시 지수를 그룹화하는 것처럼\*:
 
-![이미지](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_7.png)
+![이미지](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_7.png)
 
 이제 City_Index=1이 mean_temp의 기본 값이 되도록 만들 것입니다. City_Index = 2는 목표 값으로 2*mean_temp를 가져오도록 만들 것이고, City_Index=9는 목표 값으로 9*mean_temp를 가져오도록 할 것입니다. 이는 다른 변수를 모두 고정시킨다면 City_Index가 단조 변수가 될 수 있다는 것을 의미합니다:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_8.png" />
+<img src="/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_8.png" />
 
 실제로 이것은 로스엔젤레스, 캘리포니아의 온도가 앵코리지, 알래스카의 온도보다 항상 높다는 것을 의미합니다 (알래스카에 있는 도시를 몰라서 구글링했어요).
 
@@ -161,7 +161,7 @@ Pandas를 사용하여 데이터를 가져와서 5개의 행을 표시했습니�
 
 그리고 이것이 우리의 예측 결과입니다:
 
-![image](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_9.png)
+![image](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_9.png)
 
 <div class="content-ad"></div>
 
@@ -192,7 +192,7 @@ Pandas를 사용하여 데이터를 가져와서 5개의 행을 표시했습니�
 
 내 이름은 Piero Paialunga이고 난 이 사람이야:
 
-![이미지](/TIL/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_10.png)
+![이미지](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_10.png)
 
 <div class="content-ad"></div>
 

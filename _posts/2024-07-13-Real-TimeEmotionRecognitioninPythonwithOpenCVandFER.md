@@ -1,17 +1,17 @@
 ---
 title: "Python과 OpenCV, FER을 사용한 실시간 감정 인식 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_0.png"
+coverImage: "/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_0.png"
 date: 2024-07-13 19:28
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_0.png
+  url: /assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_0.png
 tag: Tech
 originalTitle: "Real-Time Emotion Recognition in Python with OpenCV and FER"
 link: "https://medium.com/@crisvelasquez/real-time-emotion-recognition-in-python-with-opencv-and-fer-9ac56fec29c6"
 ---
 
 
-![이미지](/TIL/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_0.png)
+![이미지](/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_0.png)
 
 감정 인식 기술은 심리학, 인공지능 및 컴퓨터 과학의 흥미로운 교차점을 제시합니다. 우리는 영상 처리를 위해 OpenCV의 기능을 이용하고, 얼굴 감정 인식(FER) 라이브러리를 활용하여 비디오 피드에서 실시간 감정 검출을 제공합니다.
 
@@ -370,7 +370,7 @@ combined_frame.paste(static_chart_resized, (2 * desired_width, 0))
 
 이 프로젝트와 다른 많은 프로젝트의 완전한 코드를 찾을 수 있습니다. 최신 기술 솔루션을 배우고 구현하는 실전적인 방법을 제공합니다.
 
-![이미지](/TIL/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_1.png)
+![이미지](/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_1.png)
 
 ## 5. 실용적인 응용
 
@@ -408,4 +408,4 @@ combined_frame.paste(static_chart_resized, (2 * desired_width, 0))
 
 <div class="content-ad"></div>
 
-![Real-Time Emotion Recognition in Python with OpenCV and FER](/TIL/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_2.png)
+![Real-Time Emotion Recognition in Python with OpenCV and FER](/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_2.png)

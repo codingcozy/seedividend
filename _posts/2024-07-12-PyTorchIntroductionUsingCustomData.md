@@ -1,17 +1,17 @@
 ---
 title: "PyTorch 입문  커스텀 데이터 사용 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_0.png"
+coverImage: "/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_0.png"
 date: 2024-07-12 20:17
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_0.png
+  url: /assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_0.png
 tag: Tech
 originalTitle: "PyTorch Introduction — Using Custom Data"
 link: "https://medium.com/@ivopbernardo/pytorch-introduction-using-custom-data-4c70940d5358"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_0.png" />
+<img src="/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_0.png" />
 
 파이토치는 현재 딥 러닝 분야에서 가장 핫한 라이브러리 중 하나입니다. ChatGPT가 출시된 이후 데이터 과학가와 머신 러닝 엔지니어들 사이에서 딥 러닝 라이브러리가 아마도 가장 많은 관심을 받고 있다고 볼 수 있습니다. 특히 이러한 라이브러리는 매우 빠르게 복잡한 다차원 계산을 수행하는 능력이 뛰어나며, 이러한 라이브러리는 우리가 신경망 모델을 훈련하는 방식을 바꾸었습니다. 특히 이러한 모델이 저장하고 최적화하는 많은 수의 가중치를 관리하는 데 매우 도움이 됩니다. TensorFlow(구글의 프레임워크)와 경쟁하며, PyTorch는 Meta의 오픈 소스 프레임워크로, 아주 멋지고 실용적인 문법을 사용하여 딥 러닝 모델을 훈련할 수 있는 기회를 제공합니다.
 
@@ -83,7 +83,7 @@ data, labels = next(iter(dataset_loader))
 data
 ```
 
-<img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_1.png" />
+<img src="/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_1.png" />
 
 <div class="content-ad"></div>
 
@@ -144,7 +144,7 @@ data_iterator = iter(dataset_loader)
 data, labels = next(data_iterator)
 ```
 
-<img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_2.png" />
+<img src="/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_2.png" />
 
 멋져요! 이것들은 데이터셋에서 무작위로 선택한 처음 20개의 예시입니다. 위 이미지에서는 피처와 해당 레이블을 확인할 수 있어요.
 
@@ -163,7 +163,7 @@ data_path = Path(“data/dogs_cats”)
 
 폴더 안에는 강아지 이미지와 고양이 이미지가 있는 두 개의 폴더가 있습니다. 각 폴더에서 이미지 경로를 추출해 봅시다:
 
-![이미지](/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_3.png)
+![이미지](/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_3.png)
 
 <div class="content-ad"></div>
 
@@ -210,7 +210,7 @@ print(f"Image width: {img.width}")
 img
 ```
 
-![Cute little doggo!](/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_5.png)
+![Cute little doggo!](/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_5.png)
 
 귀여운 강아지!
 
@@ -266,7 +266,7 @@ plot_transformed_images(image_paths,
  n=1)
 ```
 
-<img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_6.png" />
+<img src="/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_6.png" />
 
 저런! 변환을 통해 기본 텐서에 액세스하는 방법을 살펴보겠습니다. 예를 들어, 첫 번째 이미지의 경우:
 
@@ -277,7 +277,7 @@ image_path = image_paths[0]
 data_transform(Image.open(image_path))
 ```
 
-![image](/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_7.png)
+![image](/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_7.png)
 
 데이터 변환은 RGB 채널이 3개이고 64x64 텐서를 생성했습니다!
 
@@ -296,13 +296,13 @@ class_names = train_data.classes
 class_names
 ```
 
-<img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_8.png" />
+<img src="/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_8.png" />
 
 <div class="content-ad"></div>
 
 class_names에는 현재 태그(폴더 이름에서 읽음)가 컴퓨터 비전 모델에 포함되어 있습니다. train_data에는 컴퓨터 비전 프로세스에 대한 중요한 메타데이터가 포함되어 있습니다:
 
-![이미지](/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_9.png)
+![이미지](/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_9.png)
 
 그리고 이제 데이터 세트 ImageFolders를 DataLoaders로 변환하는 것은 매우 간단합니다:
 
@@ -325,7 +325,7 @@ print(f"이미지 형태: {img.shape} -> [배치 크기, 색상 채널, 높이, 
 print(f"레이블 형태: {label.shape}")
 ```
 
-![image](/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_10.png)
+![image](/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_10.png)
 
 멋져요! 이 배치 크기가 5인 경우, 3채널(RGB)의 64x64 픽셀 이미지를 나타내는 3x64x64 텐서를 얻을 수 있습니다.
 
@@ -405,13 +405,13 @@ len(vocab)
 
 이미지 파일:
 
-![이미지 파일](/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_11.png)
+![이미지 파일](/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_11.png)
 
 단어장은 2만 6천 개가 조금 넘는 단어를 포함하고 있으며, 각 단어는 정수로 매핑되어 있습니다:
 
 이미지 파일:
 
-![이미지 파일](/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_12.png)
+![이미지 파일](/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_12.png)
 
 이렇게 설정을 했으면, 문자를 정수로 변환하여 텐서로 변환하는 함수를 사용할 수 있습니다.
 
@@ -448,7 +448,7 @@ snippet = corpus[0][0:200]
 print('텍스트 "{}"는 다음과 같이 텐서로 표현됩니다: {}'.format(snippet, text_to_tensor(snippet, vocab)))
 ```
 
-<img src="/TIL/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_13.png" />
+<img src="/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_13.png" />
 
 
 <div class="content-ad"></div>

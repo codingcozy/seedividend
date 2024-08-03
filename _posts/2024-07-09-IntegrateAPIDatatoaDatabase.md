@@ -1,7 +1,7 @@
 ---
 title: "API 데이터를 데이터베이스에 통합하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-IntegrateAPIDatatoaDatabase_0.png"
+coverImage: "/assets/img/2024-07-09-IntegrateAPIDatatoaDatabase_0.png"
 date: 2024-07-09 09:12
 ogImage:
   url: /assets/img/2024-07-09-IntegrateAPIDatatoaDatabase_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/python-in-plain-english/integrate-api-data-to-a-databa
 
 DLT, Postgres 및 Python을 사용합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-IntegrateAPIDatatoaDatabase_0.png)
+![이미지](/assets/img/2024-07-09-IntegrateAPIDatatoaDatabase_0.png)
 
 오늘의 블로그 포스트에서는 데이터 원본으로서 API(Application Programming Interface)를 사용하는 방법을 살펴보겠습니다. 우리의 데이터 중심 세계에서는 다양한 소스에서 데이터를 통합하는 것이 정보 기반 의사결정에 중요합니다. 이 중요한 데이터 소스 중 하나는 환율 정보 API인데, 이는 금융 분석과 보고서 작성에 중요합니다. ExchangeRate-API.com에서 환율 데이터를 가져와 PostgreSQL 데이터베이스에 통합하는 방법을 설명하겠습니다.
 

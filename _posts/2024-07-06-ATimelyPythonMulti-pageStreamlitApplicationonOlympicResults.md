@@ -1,7 +1,7 @@
 ---
 title: "최신 파이썬 멀티페이지 Streamlit 애플리케이션으로 올림픽 결과 분석하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png"
+coverImage: "/assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png"
 date: 2024-07-06 10:27
 ogImage:
   url: /assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png

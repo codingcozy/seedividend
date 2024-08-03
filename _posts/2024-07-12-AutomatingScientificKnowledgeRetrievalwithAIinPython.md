@@ -1,10 +1,10 @@
 ---
 title: "파이썬으로 AI를 사용해 과학 지식 자동으로 가져오는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_0.png"
+coverImage: "/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_0.png"
 date: 2024-07-12 20:53
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_0.png
+  url: /assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_0.png
 tag: Tech
 originalTitle: "Automating Scientific Knowledge Retrieval with AI in Python"
 link: "https://medium.com/@crisvelasquez/automating-scientific-knowledge-retrieval-with-ai-in-python-05e1ef5c0860"
@@ -12,7 +12,7 @@ link: "https://medium.com/@crisvelasquez/automating-scientific-knowledge-retriev
 
 
 
-![Automating Scientific Knowledge Retrieval with AI in Python](/TIL/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_0.png)
+![Automating Scientific Knowledge Retrieval with AI in Python](/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_0.png)
 
 과학 논문, 데이터 집합 및 학술 논문의 거대한 양은 오늘날 연구원, 학자 및 전문가들에게 그들의 분야에서 최신 개발 동향을 따라가기 위한 어려움을 제기합니다.
 
@@ -378,7 +378,7 @@ arxiv_functions = [
 
 이 프로젝트 유형뿐만 아니라 AI, 데이터 과학 및 기술 분야의 다양한 혁신적인 데이터 기반 이니셔티브에 대해 www.entreprenerdly.com의 다양한 자원을 살펴보기를 권장합니다.
 
-![image](/TIL/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_1.png)
+![image](/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_1.png)
 
 ## 4. 연구 챗봇과 상호작용하기
 
@@ -524,4 +524,4 @@ display(Markdown(updated_response["choices"][0]["message"]["content"]))
 
 Entreprenerdly.com에는 행동 가능한 지식을 제공하기 위해 설계된 전체 자습서, 코드 및 전략이 제공됩니다.
 
-![2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_2.png](/TIL/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_2.png)
+![2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_2.png](/assets/img/2024-07-12-AutomatingScientificKnowledgeRetrievalwithAIinPython_2.png)

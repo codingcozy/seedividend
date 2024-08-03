@@ -1,7 +1,7 @@
 ---
 title: "2024년 최신 LangChain, Python, Heroku 사용 방법 실제 사용 사례와 팁"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_0.png"
+coverImage: "/assets/img/2024-07-09-LangChainPythonandHeroku_0.png"
 date: 2024-07-09 20:59
 ogImage:
   url: /assets/img/2024-07-09-LangChainPythonandHeroku_0.png
@@ -10,7 +10,7 @@ originalTitle: "LangChain, Python, and Heroku"
 link: "https://medium.com/gitconnected/langchain-python-and-heroku-f87369a258dc"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_0.png" />
+<img src="/assets/img/2024-07-09-LangChainPythonandHeroku_0.png" />
 
 ## 커피숍에서 코딩하기
 
@@ -270,17 +270,17 @@ INFO: Uvicorn이 http://localhost:8000에서 실행 중 (종료하려면 CTRL+C�
 
 브라우저에서 http://localhost:8000/docs 로 이동할 수 있어요. 여기에서 확인할 수 있는 내용은:
 
-<img src="/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_1.png" />
+<img src="/assets/img/2024-07-09-LangChainPythonandHeroku_1.png" />
 
 <div class="content-ad"></div>
 
 LangServe는 Swagger UI를 사용하는 API 문서 페이지를 제공합니다! 이제 LangServe를 통해 사용 가능한 엔드포인트들이 있습니다. 우리는 invoke/ 엔드포인트로 POST 요청을 보낼 수 있습니다. 하지만 LangServe는 우리에게 chain을 직접 다룰 수 있는 웹 인터페이스가 있는 playground/ 엔드포인트도 제공합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_2.png)
+![이미지](/assets/img/2024-07-09-LangChainPythonandHeroku_2.png)
 
 우리는 입력을 제공하고 시작을 클릭합니다. 결과는 다음과 같습니다:
 
-![이미지](/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_3.png)
+![이미지](/assets/img/2024-07-09-LangChainPythonandHeroku_3.png)
 
 <div class="content-ad"></div>
 
@@ -396,13 +396,13 @@ remote: 배포 확인... 완료.
 
 우리의 Heroku 앱 URL이 표시됩니다. 브라우저에서 https://my-langchain-app-ea95419b2750.herokuapp.com/playground을 방문해주세요.
 
-![이미지](/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_4.png)
+![이미지](/assets/img/2024-07-09-LangChainPythonandHeroku_4.png)
 
 또한 Swagger UI 문서 페이지를 확인하려면 https://my-langchain-app-ea95419b2750.herokuapp.com/docs를 방문해주세요.
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-LangChainPythonandHeroku_5.png)
+![이미지](/assets/img/2024-07-09-LangChainPythonandHeroku_5.png)
 
 그리고 그렇게해서 우리는 시작했어요!
 

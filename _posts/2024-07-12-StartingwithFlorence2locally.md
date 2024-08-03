@@ -1,10 +1,10 @@
 ---
 title: "로컬에서 Florence 2 시작하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-StartingwithFlorence2locally_0.png"
+coverImage: "/assets/img/2024-07-12-StartingwithFlorence2locally_0.png"
 date: 2024-07-12 20:11
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-StartingwithFlorence2locally_0.png
+  url: /assets/img/2024-07-12-StartingwithFlorence2locally_0.png
 tag: Tech
 originalTitle: "Starting with Florence 2 locally."
 link: "https://medium.com/@alexbuzunov/starting-with-florence-2-locally-722f035caba1"
@@ -13,7 +13,7 @@ link: "https://medium.com/@alexbuzunov/starting-with-florence-2-locally-722f035c
 
 플로렌스-2는 Microsoft의 고급 비전 기반 모델로, 프롬프트 기반 방식을 사용하여 다양한 비전 및 비전-언어 작업을 처리하기 위해 설계되었습니다. 로컬에서 플로렌스-2를 설정하고 실행하는 데 도움이 되는 시작 스크립트가 여기 있어요.
 
-![이미지](/TIL/assets/img/2024-07-12-StartingwithFlorence2locally_0.png)
+![이미지](/assets/img/2024-07-12-StartingwithFlorence2locally_0.png)
 
 # 시작 스크립트
 
@@ -158,7 +158,7 @@ with patch("transformers.dynamic_module_utils.get_imports", fixed_get_imports):
 
 ## 입력 이미지
 
-<img src="/TIL/assets/img/2024-07-12-StartingwithFlorence2locally_1.png" />
+<img src="/assets/img/2024-07-12-StartingwithFlorence2locally_1.png" />
 
 
 <div class="content-ad"></div>

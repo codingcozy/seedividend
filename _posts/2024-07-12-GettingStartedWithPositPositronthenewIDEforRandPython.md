@@ -1,10 +1,10 @@
 ---
 title: "새로운 R 및 Python IDE, Posit Positron 시작하기 사용법 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_0.png"
+coverImage: "/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_0.png"
 date: 2024-07-12 19:38
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_0.png
+  url: /assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_0.png
 tag: Tech
 originalTitle: "Getting Started With Posit Positron, the new IDE for R and Python"
 link: "https://medium.com/codex/getting-started-with-posit-positron-the-new-ide-for-r-and-python-de1beab9c70d"
@@ -12,7 +12,7 @@ link: "https://medium.com/codex/getting-started-with-posit-positron-the-new-ide-
 
 
 
-![image](/TIL/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_0.png)
+![image](/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_0.png)
 
 Positron sounds like the latest Autobot to join Optimus Prime in the Transformer movies (and toys — can’t forget those!!). Instead, it is a new IDE meant to transform programming and data science workflows if its creator Posit has its way.
 
@@ -77,7 +77,7 @@ GitHub 페이지에 따르면 데이터 탐색기에는 데이터 그리드, 요
 
 **2. 요약 패널** - 각 열 이름, 유형 및 결측 데이터 비율을 보여주는 디스플레이입니다. 탐색적 데이터 분석을 보완하는데 사용되며, 각 열 이름과 그에 해당하는 유형을 나타내는 아이콘을 나란히 표시합니다. 또한 인라인 막대 그래프 내에서 결측 데이터 양을 증가하는 백분율로 표시합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_3.png)
+![이미지](/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_3.png)
 
 **3. 필터 막대** - 열의 관측값 유형에 따라 특정 열을 필터링하는 기능을 제공합니다. 예를 들어, 문자열 열은 포함하거나 시작하거나 끝나거나 비어있거나 정확히 일치하는 등의 필터를 가지고 있습니다. 숫자 열은 논리 연산의 필터를 가지고 있어 작거나 크거나, 동일하거나, 두 값 사이에 포함되는 등의 작업을 수행할 수 있습니다.
 
@@ -86,7 +86,7 @@ GitHub 페이지에 따르면 데이터 탐색기에는 데이터 그리드, 요
 <div class="content-ad"></div>
 
 
-![Data Explorer Screenshot](/TIL/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_4.png)
+![Data Explorer Screenshot](/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_4.png)
 
 데이터 익스플로러(Data Explorer)를 사용하면 Python(pandas)이나 R(data.frame, tibble, data.table)에서 해당 데이터 프레임을 표시할 수 있어, 대부분의 데이터 모델링 요구를 보완할 수 있습니다.
 
@@ -113,7 +113,7 @@ Positron에 대한 초기 대중 응답은 긍정적이지만, 아직 IDE가 완
 
 Posit의 수석 과학자 인 Hadley Wickham은 R 프로그래밍에 대해 방대한 글을 쓴 사람으로, Positron을 사용한 후 계속해서 지원이 가능하며 RStudio의 개발은 장래에 계속될 것이라고 팔로워들에게 안심시켰습니다. 그는 또 다른 게시물에서, 몇 가지 버그 해결이 남아 있기 때문에 처음 공부하는 학습자들에게는 문제가 해결된 IDE가 필요하다는 점을 주의했습니다.
 
-![Getting Started with Posit: Positron, the new IDE for R and Python](/TIL/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_5.png)
+![Getting Started with Posit: Positron, the new IDE for R and Python](/assets/img/2024-07-12-GettingStartedWithPositPositronthenewIDEforRandPython_5.png)
 
 <div class="content-ad"></div>
 

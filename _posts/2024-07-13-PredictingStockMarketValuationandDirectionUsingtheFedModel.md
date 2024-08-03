@@ -1,17 +1,17 @@
 ---
 title: "Fed 모델을 이용한 주식 시장 가치 평가 및 방향 예측 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png"
+coverImage: "/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png"
 date: 2024-07-13 19:06
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png
+  url: /assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png
 tag: Tech
 originalTitle: "Predicting Stock Market Valuation and Direction Using the Fed Model"
 link: "https://medium.com/ai-advances/predicting-stock-market-valuation-and-direction-using-the-fed-model-85576b3228a2"
 ---
 
 
-![image](/TIL/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png)
+![image](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png)
 
 코르델 태니(Cordell Tanny)는 금융 서비스 분야에서 24년 이상의 경험을 보유한 전문가로, 주로 양적 금융에 특화되어 있습니다. 코르델는 이전에 주요 캐나다 기관에서 양적 분석가 및 포트폴리오 매니저로 근무하며 20억 달러 규모의 다자산 소매 투자 프로그램을 관리했습니다.
 
@@ -86,7 +86,7 @@ Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 �
 
 ## 모델 시간에 따른 간단한 검토
 
-![이미지](/TIL/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_1.png)
+![이미지](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_1.png)
 
 <div class="content-ad"></div>
 
@@ -126,11 +126,11 @@ Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 �
 
 먼저, 연간 기준 소비자물가지수(CPI) 플롯을 Fed 모델과 함께 살펴보겠습니다 (그림 2). 흥미로운 그래프군요. 경기 침체 시에는 분명한 관련성이 있습니다. 그러나 이 그래프에서 어떤 결론을 도출하는 것은 매우 어렵습니다.
 
-![Figure 2](/TIL/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_2.png)
+![Figure 2](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_2.png)
 
 그림 3은 각 시리즈의 월별 값에 대한 산점도를 보여줍니다. 두 값 사이에 상관관계가 전혀 없음을 알 수 있습니다 (로 = -0.11). 그러나 이 관계는 선형일 필요는 없으며, 연이어 발생하는 상관관계를 고려하지 않았습니다. 선형 관계가 없으므로 표준 회귀 분석도 도움이 되지 않을 것입니다.
 
-![Figure 3](/TIL/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_3.png)
+![Figure 3](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_3.png)
 
 <div class="content-ad"></div>
 
@@ -140,7 +140,7 @@ The Granger Causality Test
 
 이 분석에서는 과거 소비자물가지수(CPI) 인플레이션율이 Fed 모델차와를 예측할 수 있는지를 검정합니다. 결과는 3~4개월의 지연으로 중요한 예측력을 보여주며, 이는 지난 인플레이션 데이터가 Fed 모델에 의한 시장 가치평가를 예측하는 데 도움이 되는 것으로 나타납니다 (테이블 1, Python 함수에서의 결과). 이는 인플레이션의 과거값(3 또는 4개월 전)이 Fed 모델의 미래 방향을 추론하는 데 사용될 수 있다는 것을 시사합니다!
   
-![image](/TIL/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_4.png)
+![image](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_4.png)
 
 <div class="content-ad"></div>
 

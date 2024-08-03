@@ -1,10 +1,10 @@
 ---
 title: "PapersWithCode와 채팅할 수 있는 LLM-Powered 앱 만드는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png"
+coverImage: "/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png"
 date: 2024-07-13 20:10
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png
+  url: /assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png
 tag: Tech
 originalTitle: "How To Build an LLM-Powered App To Chat with PapersWithCode"
 link: "https://medium.com/towards-data-science/how-to-build-an-llm-powered-app-to-chat-with-paperswithcode-09ddd9ee753a"
@@ -32,7 +32,7 @@ Papers With Code(일명 PWC)는 연구원과 실무자들을 위한 무료 웹�
 <div class="content-ad"></div>
 
 
-<img src="/TIL/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png" />
+<img src="/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png" />
 
 다행히도, PWC와 상호 작용하여 연구 논문을 프로그래밍 방식으로 검색할 수도 있습니다. 이 Swagger UI를 살펴보면 모든 사용 가능한 엔드포인트를 찾고 시도해 볼 수 있습니다.
 
@@ -436,7 +436,7 @@ ChatGPT에 이러한 모델에 대해 질문을 하면 얻을 수 있는 것들�
 
 
 
-![RAGs 사용 예시](/TIL/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_1.png)
+![RAGs 사용 예시](/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_1.png)
 
 - RAG를 사용하면 생성된 응답을 지탱하는 소스 문서를 인용할 수 있습니다. 이는 사용자 신뢰를 높이고 디버깅 및 해석 가능성에 도움을 줍니다.
 - RAG는 답변을 지탱하기 위해 외부 데이터만 활용하므로 LLM의 환형 경향을 제한합니다.

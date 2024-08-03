@@ -1,10 +1,10 @@
 ---
 title: "초보자를 위한 P-해킹 시작 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-P-HackingforBeginners_0.png"
+coverImage: "/assets/img/2024-07-12-P-HackingforBeginners_0.png"
 date: 2024-07-12 19:45
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-P-HackingforBeginners_0.png
+  url: /assets/img/2024-07-12-P-HackingforBeginners_0.png
 tag: Tech
 originalTitle: "P-Hacking for Beginners"
 link: "https://medium.com/@epiren/p-hacking-for-beginners-996d0e8f5094"
@@ -91,7 +91,7 @@ analyze_data(4)  # 20개 케이스와 12개 컨트롤을 사용하여
 
 (이안의 얀트스의 연속 보정(Yates' continuity correction)에 대해 궁금한 점이 있다면, 여기서 이와 같은 사용 사례를 읽어볼 수 있습니다: https://www.jstor.org/stable/2983604. 혹은 왜 피셔의 정확 테스트(Fisher's Exact Test)를 사용했는지 궁금하다면, 여기서 확인해보세요: https://online.stat.psu.edu/stat504/lesson/4/4.5. 이러한 것들은 이 게시물의 범위를 벗어난 복잡한 통계 개념들입니다.)
 
-<img src="/TIL/assets/img/2024-07-12-P-HackingforBeginners_0.png" />
+<img src="/assets/img/2024-07-12-P-HackingforBeginners_0.png" />
 
 <div class="content-ad"></div>
 

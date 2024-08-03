@@ -1,7 +1,7 @@
 ---
 title: "초보 부트스트래퍼를 위한 간단한 기술 스택 추천"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-ASimpleTechStackforBeginnerBootstrappers_0.png"
+coverImage: "/assets/img/2024-07-07-ASimpleTechStackforBeginnerBootstrappers_0.png"
 date: 2024-07-07 21:59
 ogImage:
   url: /assets/img/2024-07-07-ASimpleTechStackforBeginnerBootstrappers_0.png
@@ -16,7 +16,7 @@ link: "https://medium.com/gitconnected/a-simple-tech-stack-for-beginner-bootstra
 
 여기에는 해당 도구를 구축하기 위해 사용한 기술 스택을 공유해봤어요. 입문자 루트 개발자들에게 완벽한 간단한 스택이라고 생각해요 (초보에서 중급 프로그래머들 😉).
 
-![image](/TIL/assets/img/2024-07-07-ASimpleTechStackforBeginnerBootstrappers_0.png)
+![image](/assets/img/2024-07-07-ASimpleTechStackforBeginnerBootstrappers_0.png)
 
 <div class="content-ad"></div>
 

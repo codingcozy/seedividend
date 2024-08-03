@@ -1,7 +1,7 @@
 ---
 title: "Angular의 inject 함수 사용으로 1000줄의 코드를 절약한 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png"
+coverImage: "/assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png"
 date: 2024-07-07 21:51
 ogImage:
   url: /assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png
@@ -14,7 +14,7 @@ link: "https://medium.com/javascript-in-plain-english/how-using-the-angulars-inj
 
 Angular 14에서 소개된 inject() 함수는 서비스, 컴포넌트, 디렉티브 등에 종속성을 주입하는 데 사용됩니다. 클래스 생성자를 사용하여 종속성을 주입하는 대신 inject() 함수를 사용할 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png)
+![이미지](/assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png)
 
 ## 생성자를 사용하여 종속성을 주입하는 예전 방식:
 

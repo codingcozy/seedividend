@@ -1,10 +1,10 @@
 ---
 title: "Python으로 WhatsApp에서 AI를 사용하여 자신 복제하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png"
+coverImage: "/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png"
 date: 2024-07-12 20:13
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png
+  url: /assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png
 tag: Tech
 originalTitle: "Cloning Yourself on WhatsApp with AI in Python"
 link: "https://medium.com/@crisvelasquez/cloning-yourself-on-whatsapp-with-ai-in-python-7eea05f60fe6"
@@ -12,7 +12,7 @@ link: "https://medium.com/@crisvelasquez/cloning-yourself-on-whatsapp-with-ai-in
 
 
 
-![Cloning Yourself on WhatsApp with AI in Python](/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png)
+![Cloning Yourself on WhatsApp with AI in Python](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png)
 
 친구들, 가족, 동료들로부터 온 WhatsApp 메시지를 계속해서 따라갈 수 있는 자신을 복제할 수 있다면 얼마나 좋을까요? 이 글에서는 정확히 그렇게 해볼 것입니다.
 
@@ -54,7 +54,7 @@ Ngrok은 로컬 개발 환경으로 안전한 터널을 생성하여 로컬 서�
 
 3. Ngrok 인증: ngrok을 사용하기 전에 ngrok 인증 토큰을 사용하여 인증해야 합니다. ngrok 대시보드에서 인증 토큰을 찾을 수 있습니다. 터미널이나 명령 프롬프트를 열고 다음 명령을 실행하여 ngrok 인증 토큰을 실제 ngrok 인증 토큰으로 바꿔치기하세요: 
 
-[2024-07-12-CloningYourselfonWhatsAppwithAIinPython_1.png](/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_1.png)
+[2024-07-12-CloningYourselfonWhatsAppwithAIinPython_1.png](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_1.png)
 
 <div class="content-ad"></div>
 
@@ -73,7 +73,7 @@ ngrok http 5000
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_2.png)
+![이미지](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_2.png)
 
 5. 전달 URL 주의: ngrok가 실행되면 https://12345.ngrok.io와 같은 전달 URL을 제공합니다. 이 URL은 WhatsApp에서 수신된 메시지를 받기 위해 Twilio 구성에서 웹훅 URL로 사용됩니다.
 
@@ -91,7 +91,7 @@ ngrok http 5000
 - ngrok URL 다음에 /whatsapp 엔드포인트가 이어지도록 '메시지 수신 시' 웹훅을 구성합니다. https://12345.ngrok.io/whatsapp와 같은 형식이어야 합니다. 아래 이미지를 참고하세요.
 - 변경 사항을 저장하세요.
 
-![이미지](/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_3.png)
+![이미지](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_3.png)
 
 ## 단계 5. Twilio 자격 증명 얻기
 
@@ -99,7 +99,7 @@ ngrok http 5000
 
 Twilio 대시보드에서 "설정"으로 이동하여 "계정 SID" 및 "인증 토큰"을 메모해주세요. 이 정보는 Python에서 API 요청을 인증하는 데 사용됩니다.
 
-![이미지](/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_4.png)
+![이미지](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_4.png)
 
 ## 단계 6. OpenAI API 자격 증명 획득
 
@@ -107,7 +107,7 @@ OpenAI의 모델과 상호 작용하려면 API 자격 증명을 획득해야 합
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_5.png" />
+<img src="/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_5.png" />
 
 # 2. Python Automation Script
 
@@ -471,7 +471,7 @@ assistant = client.beta.assistants.create(
 
 OpenAI 어시스턴트를 사용하여 WhatsApp 대화를 자동화하는 방법을 자세히 살펴보고 싶은 분들을 위해 www.entreprenerdly.com에서 상세한 안내가 제공되고 있어요:
 
-![이미지](/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_6.png)
+![이미지](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_6.png)
 
 ## 3.3 Twilio와 어시스턴트 통합
 
@@ -713,7 +713,7 @@ if __name__ == '__main__':
 
 Entrepren erdly.com에서는 행동 가능한 지식으로 권한을 부여하는 튜토리얼, 코드 및 전략 전체 스위트를 제공합니다.
 
-<img src="/TIL/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_7.png" />
+<img src="/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_7.png" />
 
 <div class="content-ad"></div>
 

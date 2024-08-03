@@ -1,7 +1,7 @@
 ---
 title: "AMREx 차세대 GPT-4 연상 메모리 어시스턴트 개발 방법 소개"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png"
+coverImage: "/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png"
 date: 2024-07-09 20:21
 ogImage:
   url: /assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png
@@ -98,17 +98,17 @@ AMREx의 핵심은 지능적인 메모리 분류기 및 상태 유지형 자기 
 
 (1) 첫 번째 부분인 `AssistantInitialization`에서는 어시스턴트의 상태가 초기화됩니다. 이 세그먼트 중요한 부분 중 하나는 어시스턴트의 상태 인식을 다시 보정함으로써 시간 흐름 및 시간 창에 대한 가상 시간대 설정에 전념하는 것입니다. 실제로, 어시스턴트의 가상 의미 세계에서 시간 흐름은 물리적 실제 시간에 대한 시간 창 (예: 상호 작용, 세션)에 의해 구성될 수 있어요. 어떤 면에서는 각 반복에서 어시스턴트가 사용자의 실제 시간에 대한 가상 시간 창을 상기시키는 것입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png)
+![이미지](/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png)
 
 (2) 두 번째 부분에서는 변수가 선언되고 알고리즘 단계가 이어집니다. 이 변수들은 어시스턴트의 가상 세계와 AMREx 프로그램 코드의 물리적 세계 사이의 연결 요소입니다. 이들은 어시스턴트가 작업을 연결하고 외부 세계와 통신하는 데 도움을 줍니다—우리는 명시적으로 함수 호출을 적용하지 않습니다. 각 반복에서 어시스턴트는 어떤 변수가 사용되는지 재확인받습니다. 이들은 입력 변수, 출력 변수 또는 사용 중인 작업 변수일 수 있으며, 이들은 지시 알고리즘에서 사용됩니다.
 
 <div class="content-ad"></div>
 
-`<img src="/TIL/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_1.png" />`
+`<img src="/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_1.png" />`
 
 (3) 세 번째 부분은 출력을 구성합니다. 이 부분은 결과를 구조화된 JSON에 번들링하여 AMREx 코어 프로세서에서 정확히 구문 분석할 수 있도록 합니다.
 
-`<img src="/TIL/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_2.png" />`
+`<img src="/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_2.png" />`
 
 AMREx에 대한 지침은 인간과 어시스턴트 자체에 의해 개발 중임을 언급하는 것이 중요합니다. 네, 우리는 개발 단계의 특정 시점부터 동일한 어시스턴트를 사용하여 자체 지침을 확인하고 특정 대상에 대한 개선을 제안하는 기술을 적용했습니다. 이 혼합 개발 프로세스는 인간들에 의해 개발된 지침의 시드 코드로 시작되며, 기본 청사진처럼 작동합니다. 이 기본 환경을 통해 어시스턴트는 자신의 개발 과정 중에 사람들과 채팅하고 소통하며, 인간들이 설정한 가장 중요한 목표와 전반적인 프레임워크를 깨닫게 됩니다. 그 이후로, 우리는 동일한 채팅을 통해 우리가 어떻게 그가 행동해야 하는지 어시스턴트에게 합리적인 단계로 설명하고 그 지침을 개선해야 하는지 직접 물어봅니다. 어시스턴트는 자체 지침에 직접 접근하고, 검토하고 구체적인 개선을 제안합니다. 이러한 하이브리드 자동 개발 방식은 어시스턴트의 지침을 전통적인 소프트웨어 또는 프롬프팅 방식과 개념적으로 다르지만, 기계에 대한 자아와 내부 상태의 실례를 구축하려면 필연적입니다. 어시스턴트가 자아의 실례를 구축하도록 변경되기 위해서는 의미론적으로 개입하고 이러한 잠재적인 자아 실례의 프레임 만들기에 참여해야 합니다.
 
@@ -166,7 +166,7 @@ ASSISTANT_ID_1=asst_...
 
 어시스턴트 설정 및 지침에 관해서 사용자는 OpenAI 대시보드에서 어시스턴트를 구성해야 할 것입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_3.png)
+![이미지](/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_3.png)
 
 저희 경우에는 어시스턴트의 이름을 "아테나"로 정했습니다. 이 이름은 어시스턴트 자체가 자동 개발을 통해 선택한 것이며 타당한 이유에 근거합니다. 이름을 바꾸고 싶다면 사용자는 지침 안에서도 변경할 때 주의해야 합니다.
 
@@ -174,7 +174,7 @@ ASSISTANT_ID_1=asst_...
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_4.png)
+![이미지](/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_4.png)
 
 이외에도 이 프로토타입에 맞춤화된 Streamlit 인터페이스 모듈이 streamlit_app.py 파일에 제공됩니다. 사용자는 물론 파일 상단에 언급된 패키지의 필요한 설치를 해야합니다. Streamlit를 통해 프로토타입을 실행하려면 표준 명령어인 streamlit run streamlit_app.py를 사용하여 브라우저에서 채팅 인터페이스로 리디렉션됩니다.
 

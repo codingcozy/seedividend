@@ -1,7 +1,7 @@
 ---
 title: "내 경험 없이 AI 스타트업을 처음 구축한 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-HowIBuiltMyFirstAIStartupWithNoExperience_0.png"
+coverImage: "/assets/img/2024-07-06-HowIBuiltMyFirstAIStartupWithNoExperience_0.png"
 date: 2024-07-06 10:31
 ogImage:
   url: /assets/img/2024-07-06-HowIBuiltMyFirstAIStartupWithNoExperience_0.png

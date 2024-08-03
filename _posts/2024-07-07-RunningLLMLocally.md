@@ -1,7 +1,7 @@
 ---
 title: "로컬에서 LLM 실행하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-RunningLLMLocally_0.png"
+coverImage: "/assets/img/2024-07-07-RunningLLMLocally_0.png"
 date: 2024-07-07 02:31
 ogImage:
   url: /assets/img/2024-07-07-RunningLLMLocally_0.png
@@ -20,7 +20,7 @@ Ollama는 Llama 3, Mistral 등 다양한 대규모 언어 모델을 운영할 �
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-RunningLLMLocally_0.png" />
+<img src="/assets/img/2024-07-07-RunningLLMLocally_0.png" />
 
 여기서는 다른 모델들을 실행하는 유사한 프로세스를 따라 우리의 로컬 시스템에서 Llama3 모델 실행에 초점을 맞춥니다.
 
@@ -52,7 +52,7 @@ Llama 3 다운로드 :
 
 다른 모델 목록은 여기에서 확인할 수 있어요: https://ollama.com/library. 동일한 명령어를 사용하여 다른 모델을 가져와서 사용할 수 있어요.
 
-![RunningLLMLocally_1](/TIL/assets/img/2024-07-07-RunningLLMLocally_1.png)
+![RunningLLMLocally_1](/assets/img/2024-07-07-RunningLLMLocally_1.png)
 
 Llama 3 실행:
 
@@ -60,7 +60,7 @@ Llama 3 실행:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-RunningLLMLocally_2.png" />
+<img src="/assets/img/2024-07-07-RunningLLMLocally_2.png" />
 
 API 사용 방법:
 
@@ -70,11 +70,11 @@ API 사용 방법:
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-RunningLLMLocally_3.png)
+![이미지](/assets/img/2024-07-07-RunningLLMLocally_3.png)
 
 - 이제 "curl"이나 다른 코드를 사용하여 요청을 보낼 수 있습니다. 여기서는 Postman 도구를 사용하여 llama3 모델에 요청했습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-RunningLLMLocally_4.png)
+![이미지](/assets/img/2024-07-07-RunningLLMLocally_4.png)
 
 - 이 요청과 함께 전달할 수 있는 다른 매개변수도 있습니다. 자세한 API를 탐색할 수 있는 링크는 아래에 있습니다.
 

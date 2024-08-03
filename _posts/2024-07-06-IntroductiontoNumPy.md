@@ -1,7 +1,7 @@
 ---
 title: "초보자를 위한 NumPy 입문 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-IntroductiontoNumPy_0.png"
+coverImage: "/assets/img/2024-07-06-IntroductiontoNumPy_0.png"
 date: 2024-07-06 02:23
 ogImage:
   url: /assets/img/2024-07-06-IntroductiontoNumPy_0.png

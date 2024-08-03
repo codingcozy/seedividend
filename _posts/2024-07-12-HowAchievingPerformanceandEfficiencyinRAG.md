@@ -1,10 +1,10 @@
 ---
 title: "RAG에서 성능 및 효율성을 달성하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_0.png"
+coverImage: "/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_0.png"
 date: 2024-07-12 19:29
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_0.png
+  url: /assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_0.png
 tag: Tech
 originalTitle: "How Achieving Performance and Efficiency in RAG"
 link: "https://medium.com/gitconnected/how-achieving-performance-and-efficiency-in-rag-d5bb693efb91"
@@ -13,7 +13,7 @@ link: "https://medium.com/gitconnected/how-achieving-performance-and-efficiency-
 
 ## | LLM | RAG | BENCHMARK |
 
-<img src="/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_0.png" />
+<img src="/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_0.png" />
 
 LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기업에게 가장 큰 머리아픔 중 하나입니다. 특히 민감한 분야를 다룰 때 환각은 참사적인 결과를 초래할 수 있습니다.
 
@@ -25,7 +25,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 사실, RAG는 여러 부분으로 구성되어 있고, 우리는 능숙하고 최적화된 시스템을 만들고 싶습니다. 따라서 모델이 쿼리를 문맥적으로 설정하는 방법, 가장 유사한 청크를 찾는 방법, 중요도 순서 등을 최적화해야 합니다. 시간이 흐름에 따라 몇 가지 전문 구성 요소가 발전해 왔습니다.
 
-<img src="/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_1.png" />
+<img src="/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_1.png" />
 
 각 단계에 대해 다른 방법들이 있기 때문에 복잡성이 증가합니다. 게다가, 더 정교한 RAG 패러다임은 여러 구성 요소로 구성되어 있으며, 각 단계마다 여러 가지 해결책이 가능합니다. 예를 들어, 다양한 종류의 청크화와 수십 가지 패턴의 임베더가 있습니다. 따라서 실무자는 여러 가지 결정을 내려야 합니다. 이러한 각각의 결정은 검색과 생성 단계에 모두 영향을 미칩니다.
 
@@ -44,13 +44,13 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_2.png)
+![image](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_2.png)
 
 모든 쿼리가 검색을 요구하지는 않습니다(이는 LLM이 매개 변수화 메모리를 가지고 있기 때문입니다). RAG도 지연 시간을 늘리고 계산 비용이 발생합니다. 따라서 LLM으로 직접 응답할 쿼리와 RAG가 필요한 쿼리를 선택하는 흥미로운 방법이 있습니다. 실제로, 검색은 모델 매개 변수 이상의 지식 및 작업이 요구하는 것에 대해서만 수행되어야 합니다.
 
 따라서 이 연구에서 저자들은 매개 변수 모델 메모리가 충분한 작업과 충분하지 않은 작업(따라서 검색이 필요할 수 있음)으로 작업을 분류합니다. 저자들은 의사 결정 프로세스를 자동화하기 위해 분류기를 훈련시킵니다.
 
-![image](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_3.png)
+![image](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_3.png)
 
 
 <div class="content-ad"></div>
@@ -63,23 +63,23 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 의도적으로 너무 크거나 작은 블록은 유익하지 않습니다. 512가 가장 적당한 크기로 보입니다.
 
-![그림](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_4.png)
+![그림](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_4.png)
 
 <div class="content-ad"></div>
 
 슬라이딩 윈도우는 최상의 결과를 제공하는 기법인 것 같아요.
 
-![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_5.png)
+![이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_5.png)
 
 작가들은 임베딩을 위해 여러 모델을 시험한 후, 성능과 크기의 균형 때문에 LLM-Embedder를 선택했어요.
 
-![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_6.png)
+![이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_6.png)
 
 <div class="content-ad"></div>
 
 벡터 데이터베이스도 중요합니다. 이 연구에서는 여러 기준을 고려합니다: 다양한 데이터 유형을 지원하는 여러 인덱스 유형, 십억 단위의 벡터 지원 (확장성), 하이브리드 검색 및 클라우드 네이티브 기능을 고려합니다. 보통은 이러한 기준을 선택하여 유연성, 확장성 및 배포 용이성에 미치는 영향을 평가합니다. 그들에게 가장 좋은 것은 Milvus입니다:
 
-![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_7.png)
+![이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_7.png)
 
 검색을 위해 임베딩이 수행되면 상위 k개의 문서가 선택되어 생성에 사용됩니다. 원본 쿼리가 최적이 아닐 수 있으므로 쿼리 변환 시스템이 사용됩니다:
 
@@ -91,11 +91,11 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 저자들은 이러한 방법들과 혼합 검색을 테스트하기도 합니다. 여러 가짜 문서를 원본 쿼리와 함께 연결하면 검색 성능을 크게 향상시킬 수 있습니다. 물론 이렇게 하면 지연 비용이 증가하지만, 가상 문서 하나만으로도 충분한 것 같습니다.
 
-[해당 이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_8.png)를 확인해보세요.
+[해당 이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_8.png)를 확인해보세요.
 
 또한, 저자들은 혼합 검색에 대한 다양한 값들을 테스트합니다 (희소 검색 대 밀집 검색 비율). 결과는 α 값이 0.3일 때 가장 좋은 성능을 보인다는 것을 보여줍니다 (희소 검색의 중요도를 조절하는 하이퍼파라미터).
 
-[해당 이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_9.png)도 확인해보세요.
+[해당 이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_9.png)도 확인해보세요.
 
 <div class="content-ad"></div>
 
@@ -103,7 +103,7 @@ LLM들은 답을 모를 때 환각을 일으키곤 합니다. 연구자와 기�
 
 monoT5는 성능과 효율성을 균형 있게 유지하는 것으로 보이며, TILDEv2가 가장 빠릅니다.
 
-![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_10.png)
+![이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_10.png)
 
 저자들은 또한 재랭킹 후 문서를 다시 정렬하는 repacking에 대해 고려합니다. 관련성 순서는 생성 성능에 영향을 미칩니다.
 
@@ -116,13 +116,13 @@ monoT5는 성능과 효율성을 균형 있게 유지하는 것으로 보이며,
 
 Recomp이 가장 잘 수행하는 모델로 보입니다:
 
-![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_11.png)
+![이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_11.png)
 
 <div class="content-ad"></div>
 
 작가들은 또한 RAG에 대한 LLM의 세밀한 조정을 탐구합니다. 결과는 모델이 세밀하게 조정되면 특히 교육 중 몇 가지 관련성 있는 문서와 임의로 선택된 문서들로 세밀하게 조정된 경우에 더 잘 작동함을 보여줍니다.
 
-![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_12.png)
+![이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_12.png)
 
 이 시점에서, 작가들은 다양한 구성 요소 선택과 관련하여 다양한 도메인인 사실 확인, 다중 점프 및 특수 도메인과 비교를 실시합니다. 또한 더 포괄적인 평가를 위해 여러 지표를 측정합니다.
 
@@ -136,7 +136,7 @@ Recomp이 가장 잘 수행하는 모델로 보입니다:
 - 재포장은 영향을 미칠 것으로 보이며 문서를 오름차순의 관련성 점수로 정리하는 것이 최선인 해결책입니다.
 - 요약은 결과를 향상시키지만 대기 시간 비용이 듭니다. 요약과 유사한 성능은 여전히 얻을 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_13.png)
+![이미지](/assets/img/2024-07-12-HowAchievingPerformanceandEfficiencyinRAG_13.png)
 
 재현성을 위해 코드는 여기에 있습니다:
 

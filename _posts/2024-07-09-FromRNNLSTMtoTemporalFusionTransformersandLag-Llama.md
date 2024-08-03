@@ -1,7 +1,7 @@
 ---
 title: "RNN LSTM부터 Temporal Fusion Transformers와 Lag-Llama까지 최신 시계열 예측 기술들"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_0.png"
+coverImage: "/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_0.png"
 date: 2024-07-09 20:52
 ogImage:
   url: /assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_0.png
@@ -10,7 +10,7 @@ originalTitle: "From RNN LSTM to Temporal Fusion Transformers and Lag-Llama"
 link: "https://medium.com/dataman-in-ai/from-rnn-lstm-to-temporal-fusion-transformers-and-lag-llama-6e6a62c811bd"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_0.png)
+![이미지](/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_0.png)
 
 샘플 eBook 챕터(무료): [링크](https://github.com/dataman-git/modern-time-series/blob/main/20240522beauty_TOC.pdf)
 
@@ -50,11 +50,11 @@ Ilya Sutskever, Oriol Vinyals 및 Quoc V. Le이 2014년에 "Neural Networks를 �
 
 <div class="content-ad"></div>
 
-![Figure (2)](/TIL/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_1.png)
+![Figure (2)](/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_1.png)
 
 인코더 RNN과 디코더 RNN의 펼침 표현이 포함된 그림 (2)입니다. 컨텍스트 벡터는 입력 시퀀스의 의미적인 의미를 포착합니다. Seq2Seq 모델은 정보를 해석하여 다른 언어로 번역하기 위한 방법으로 생각할 수 있습니다.
 
-![RNN/LSTM](/TIL/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_2.png)
+![RNN/LSTM](/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_2.png)
 
 RNN/LSTM은 시계열 모델링 도구이며 이제는 언어 모델링 도구로 활용되고 있습니다. 언어 데이터와 시계열 데이터 사이에 기본적인 차이가 있습니다. 언어 데이터는 단어와 문장부호이고, 시계열 데이터는 숫자 값입니다. 언어 데이터는 신경망 알고리즘에 피드하기 위해 숫자 벡터 표현으로 변환되어야 합니다. 출력 또한 단어가 되도록 디코딩되어야 합니다. 논문 [1]에서는 입력 데이터로 16만개의 자주 사용되는 단어를 사용했습니다. 단어 "I"는 "I"의 요소 위치가 1.0이고 그렇지 않으면 0.0인 16만 길이의 벡터가 됩니다. 마찬가지로, 단어 "love"는 다른 16만 길이의 벡터로 "love"의 요소 위치가 1.0이 되고 그렇지 않으면 0.0이 됩니다. 텍스트 표현에 대한 자세한 설명은 Kuo (2023)의 "The Handbook of NLP with Gensim" [3]에서 찾아볼 수 있습니다.
 

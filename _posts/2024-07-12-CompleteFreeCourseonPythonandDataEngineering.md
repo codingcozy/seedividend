@@ -1,10 +1,10 @@
 ---
 title: "완전 무료 강좌 Python과 데이터 엔지니어링 완벽 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png"
+coverImage: "/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png"
 date: 2024-07-12 20:16
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png
+  url: /assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png
 tag: Tech
 originalTitle: "Complete Free Course on Python and Data Engineering"
 link: "https://medium.com/@dataakkadian/complete-free-course-on-python-and-data-engineering-716bb9c94417"
@@ -27,7 +27,7 @@ link: "https://medium.com/@dataakkadian/complete-free-course-on-python-and-data-
 아래 코드는 실제 예시입니다:
 
 
-![image](/TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png)
+![image](/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png)
 
 
 # 튜플:
@@ -52,7 +52,7 @@ city, year, pop, chg, area = ('Tokyo', 2003, 32_450, 0.66, 8014)
 <div class="content-ad"></div>
 
 
-![Course Image](/TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_1.png)
+![Course Image](/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_1.png)
 
 # Sets:
 
@@ -68,7 +68,7 @@ The code below is a practical example:
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_2.png)
+![이미지](/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_2.png)
 
 # 딕셔너리:
 
@@ -82,7 +82,7 @@ The code below is a practical example:
 - 키에 의한 항목 접근은 매우 빠르다. 딕셔너리에 수백만 개의 키가 있을 수 있지만, 파이썬은 키의 해시 코드를 계산하고 해시 테이블에 대한 색인 오프셋을 파생하여 키를 직접 찾을 수 있으며 일치하는 항목을 찾기 위해 소수의 시도를 하게 된다.
 - Python 3.7부터 dict 내장의 새로운 개선 사항은 다음과 같다: 사전 객체의 삽입 순서 보존 속성은 파이썬 언어 사양의 공식 부분으로 선언되었다. 이는 더 이상 OrderedDict가 필요하지 않다는 것을 의미한다. 거의 똑같다.
 
-![이미지](/TIL/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_3.png)
+![이미지](/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_3.png)
 
 
 <div class="content-ad"></div>

@@ -1,21 +1,21 @@
 ---
 title: "RAG 설정에서 기본 및 고급 검색 기능을 통해 Gemma 2B 종합 평가하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_0.png"
+coverImage: "/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_0.png"
 date: 2024-07-12 19:58
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_0.png
+  url: /assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_0.png
 tag: Tech
 originalTitle: "Comprehensive Evaluation of Gemma 2B in a RAG setup with Basic and Advanced Retrievers"
 link: "https://medium.com/ai-advances/gemma-2b-a-deep-dive-with-basic-and-advanced-retrievers-in-rag-156ad26d56af"
 ---
 
 
-![image](/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_0.png)
+![image](/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_0.png)
 
 몇 주 전에 Google은 Gemma 언어 모델을 소개했습니다. 두 가지 크기의 경량 모델, Gemma 2B와 7B가 있습니다. 이러한 모델들은 다른 오픈 소스 모델과 비교했을 때 해당 크기에 대해 최고 수준의 성능을 달성한다고 주장됩니다. 이 모델들은 주로 소비자급 장치를 대상으로 하고 있습니다. Google의 테스트에서도, 특정 주요 성능 기준에서 Gemma가 일부 더 큰 모델들을 크게 능가했음이 확인되었습니다. 그 결과는 그림 1에서 확인할 수 있습니다.
 
-![image](/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_1.png)
+![image](/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_1.png)
 
 이 기사에서는 Gemma 2B를 검색 보강 생성(RAG) 설정에서 사용하여, 모델이 훈련 중에 본 적이 없는 문서에 대한 질문-응답에 활용할 것입니다. RAG는 모델의 응답을 향상시키는 프로세스로, 훈련 데이터 외부의 권위 있는 지식 소스를 활용합니다. 검색 시스템은 관련 문서 스니펫을 검색하여 Gemma가 생성에 영향을 미치기 위한 컨텍스트로 사용할 것입니다. 우리는 어떻게 Gemma가 기본 검색기와 고급 검색기로부터 컨텍스트를 활용하는지 다양한 성능 각도에서 평가할 것입니다. 또한, 해당 성능은 제한된 자원 시스템을 위한 또 다른 LLM로, TinyLlama 1.1B와 비교될 것입니다.
 
@@ -61,7 +61,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 이 QA 시스템에는 그림 2에 설명된 세 가지 모듈이 있습니다.
 
-![모듈](/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_2.png)
+![모듈](/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_2.png)
 
 이 다이어그램에서 강조된 두 구성 요소는 이 기사의 후반에서 성능 향상을 위해 다시 다룰 예정입니다. 각 모듈의 역할은 다음과 같습니다:
 
@@ -135,7 +135,7 @@ def get_mem_cpu_util(ppid) -> tuple[float, float]:
 
 주요 모듈은 주로 QA 파이프라인을 정의하는 데 관여합니다. 또한 이 앱의 리소스 사용 추적을 용이하게하기 위해 별도의 스레드에서 수행될 때에만 가능합니다. 따라서 본 모듈은 메인 스레드가 전체 LangChain 파이프라인을 수행하고, 단일 자식 스레드가 일정 간격으로 부모의 통계를 수집하고 공유 데이터 구조에 저장하는 간단한 멀티 스레드 시스템을 가능하게 합니다. 이러한 병렬 처리 설계를 캡처한 스레드 다이어그램은 Figure 3에 나와 있습니다.
 
-![Thread Diagram](/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_3.png)
+![Thread Diagram](/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_3.png)
 
 부모는 자신의 pid, 리스트 객체인 공유 데이터 구조 및 스레딩 이벤트 객체를 사용하여 자식을 생성합니다. 이벤트 객체는 자식이 종료할 때를 결정하는 데 사용됩니다. 자식이 작동 중일 때, 1초 간격으로 메모리 및 CPU 사용량을 수집하고 이를 리스트인 shared_list에 저장합니다. 부모는 각 쿼리에 대해 QA 체인을 실행하고, 자식이 수집한 데이터를 사용하여 통계를 계산합니다. 부모가 모든 질문을 실행한 후, 이벤트 객체를 설정하고 자식이 종료될 때까지 기다립니다. 자식이 이벤트가 설정된 것을 확인하면, 1초 내에 가장 길게 while 루프를 종료하고 부모도 종료됩니다.
 
@@ -330,17 +330,17 @@ Gemma가 FAISS 리트리버에서의 컨텍스트로 급유되었을 때, 제6�
 
 간접적으로 응답 정확도를 파악하기 위해, 그림 6은 모든 질문에 대한 LLMs 간의 코사인 유사도를 사용하여 샘플 답변에 대한 트리맵 차트를 보여줍니다. 답변이 잘못되었더라도 선택된 단어 때문에 높은 유사도 값이 있을 수 있으니 주의해야 합니다. 이 결과를 나타내기 위해 트리맵을 채택했습니다. 이 데이터에는 내재된 계층 구조가 있으며, 차트에서 직사각형의 면적과 색상 음영을 사용하여 선택한 측정 항목의 크기를 구별할 수 있습니다. 이 차트에서 Gemma는 더 어두운 음영의 사각형이 많고, 심지어 LLM 수준에서도 더 짙은 파란색 음영을 갖고 있습니다. 이는 Gemma가 TinyLlama보다 더 높은 응답 정확도를 자랑한다는 것을 의미합니다.
 
-<img src="/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_6.png" />
+<img src="/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_6.png" />
 
 <div class="content-ad"></div>
 
 LLM의 응답 시간을 비교하기 위해 Treemap이 그림 7에 표시되어 있습니다. 거의 모든 TinyLlama 질문 사각형이 연하게 그려져 있어요. 평균적으로 Gemma는 TinyLlama에 비해 질문에 대한 응답이 1.5배 더 오래 걸렸어요. TinyLlama가 크기적으로 더 작은 모델이기 때문에 빠르게 응답할 것으로 예상됩니다.
 
-![Figure 7](/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_7.png)
+![Figure 7](/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_7.png)
 
 그림 8에서 Gemma와 TinyLlama의 메모리 사용량이 나타나 있어요. 여기서 더 짙은 색이 낮은 메모리 사용을 나타내요. 앞과 마찬가지로, TinyLlama가 1.1B 모델인 반면 Gemma 2B와 비교했을 때, 전자가 더 낮은 메모리 사용량을 갖고 있어요.
 
-![Figure 8](/TIL/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_8.png)
+![Figure 8](/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_8.png)
 
 <div class="content-ad"></div>
 

@@ -1,7 +1,7 @@
 ---
 title: "Pandas 코드 최적화 연산 순서가 미치는 영향"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_0.png"
+coverImage: "/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_0.png"
 date: 2024-07-09 20:47
 ogImage:
   url: /assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/optimizing-pandas-code-the-impact
 
 ## 파이썬 프로그래밍
 
-![image](/TIL/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_0.png)
+![image](/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_0.png)
 
 Pandas는 데이터프레임에서 작업할 때 환상적인 프레임워크를 제공합니다. 데이터 과학에서는 작은 데이터프레임부터 크고 때로는 아주 큰 데이터프레임까지 다룹니다. 작은 데이터프레임을 분석하는 것은 매우 빠를 수 있지만, 큰 데이터프레임에서 심지어 단일 작업도 상당한 시간이 걸릴 수 있습니다.
 
@@ -76,7 +76,7 @@ df가 크기 때문에 네 가지 버전 간 성능이 다를 것으로 예상�
 
 저희의 벤치마크는 다음과 같습니다:
 
-![벤치마크 이미지](/TIL/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_1.png)
+![벤치마크 이미지](/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_1.png)
 
 다음 섹션에서는 벤치마크 결과를 분석한 후 결과를 해석하겠습니다.
 
@@ -185,27 +185,27 @@ df.query(query).filter(take_cols);
 
 위에서 배운 내용을 바탕으로, 우리가 작업 순서를 선택하는 주요 기준은 결과 데이터프레임의 크기입니다. 그래서 다음 시나리오를 분석해봅시다:
 
-![이미지](/TIL/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_2.png)
+![이미지](/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_2.png)
 
 <div class="content-ad"></div>
 
 이거 봤어요? 718 µs 대 121 ms로 첫 번째 접근 방식(먼저 열을 선택)이 훨씬 빠릅니다. 거의 170 배나 빠르죠! 그 이유는 이전과 같아요 — 첫 번째 작업 후 데이터프레임의 크기 때문이에요. 이번에는 차이가 엄청나죠:
 
-![이미지](/TIL/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_3.png)
+![이미지](/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_3.png)
 
 두 번째 작업도 매우 다른 크기의 데이터프레임에서 작동합니다:
 
-![이미지](/TIL/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_4.png)
+![이미지](/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_4.png)
 
 <div class="content-ad"></div>
 
 Pandas 연쇄 작업은 이러한 데이터프레임에 대해 매우 비효율적으로 작동하는 흥미로운 점입니다:
 
-![Image](/TIL/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_5.png)
+![Image](/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_5.png)
 
 열을 먼저 처리했음에도 불구하고 이 파이프는 위의 느린 작업보다 시간을 세 배나 적게 소요했음을 유념하세요. 순서를 바꾼 상태의 대응하는 파이프를 벤치마킹 해보려고 했지만, 3시간 후에 벤치마킹을 종료했습니다:
 
-![Image](/TIL/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_6.png)
+![Image](/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_6.png)
 
 <div class="content-ad"></div>
 

@@ -1,7 +1,7 @@
 ---
 title: "파이썬 데이터 시각화 Seaborn 라이브러리 사용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png"
+coverImage: "/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png"
 date: 2024-07-09 20:10
 ogImage:
   url: /assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@pythonfundamentals/data-visualization-in-python-seabo
 
 시각화는 데이터에서 통찰을 전달하는 강력한 방법입니다. 파이썬의 Seaborn 라이브러리는 Matplotlib을 기반으로 한, 시각적으로 매력적이고 정보를 제공하는 높은 수준의 인터페이스를 제공합니다. 이 기사에서는 Seaborn 라이브러리를 자세히 살펴보며 그 기능을 탐구하고 다양성을 보여주는 실용적인 코드 예제를 제시할 것입니다.
 
-![image](/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png)
+![image](/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png)
 
 ## Seaborn이란
 
@@ -50,7 +50,7 @@ plt.title('Seaborn을 사용한 기본 산점도')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_1.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_1.png" />
 
 <div class="content-ad"></div>
 
@@ -79,7 +79,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_2.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_2.png" />
 
 ## 2. 상자 그림
 
@@ -106,7 +106,7 @@ plt.title('Seaborn을 사용한 기본 상자 그림')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_3.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_3.png" />
 
 - b) 색상 팔레트를 사용한 가로 상자 그림
 
@@ -131,7 +131,7 @@ plt.title('색상 팔레트를 이용한 수평 상자 그림')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_4.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_4.png" />
 
 <div class="content-ad"></div>
 
@@ -159,7 +159,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_5.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_5.png" />
 
 - d) Notched Box Plot
 
@@ -184,7 +184,7 @@ plt.title('Notched Box Plot')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_6.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_6.png" />
 
 - e) 사용자 정의 상자 그림
 
@@ -210,7 +210,7 @@ plt.legend(title='Cylinders')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_7.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_7.png" />
 
 ## 3. Pair Plot
 
@@ -237,7 +237,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_8.png)
+![image](/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_8.png)
 
 - b) Pair Plot with Custom Color Palette
 
@@ -260,7 +260,7 @@ plt.title('사용자 정의 색상 팔레트로 Pair Plot 만들기')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_9.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_9.png" />
 
 - c) 다른 플롯 유형을 사용한 Pair Plot
 
@@ -286,7 +286,7 @@ plt.title('다른 플롯 유형을 사용한 페어 플롯')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_10.png" />
+<img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_10.png" />
 
 # 결론
 

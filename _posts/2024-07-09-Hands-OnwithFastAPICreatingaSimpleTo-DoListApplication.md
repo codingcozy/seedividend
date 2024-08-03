@@ -1,7 +1,7 @@
 ---
 title: "FastAPI 실습 간단한 할 일 목록 애플리케이션 만들기 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_0.png"
+coverImage: "/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_0.png"
 date: 2024-07-09 09:18
 ogImage:
   url: /assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_0.png
@@ -84,7 +84,7 @@ def read_root():
 
 - 이 예제에서 @app.get("/")은 루트 URL("/")에서 GET 요청에 응답하는 라우트를 정의합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_0.png)
+![이미지](/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_0.png)
 
 <div class="content-ad"></div>
 
@@ -92,13 +92,13 @@ def read_root():
 
 - FastAPI는 자동으로 대화식 API 문서를 생성합니다. 브라우저에서 http://localhost:8000/docs 에 방문하여 Swagger UI를 탐색해보세요.
 
-![FastAPI Swagger UI](/TIL/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_1.png)
+![FastAPI Swagger UI](/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_1.png)
 
 - 또는, http://localhost:8000/redoc 에 방문하여 ReDoc 문서를 확인할 수도 있습니다.
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_2.png)
+![image](/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_2.png)
 
 5- Expand Your Application:
 
@@ -186,23 +186,23 @@ async def delete_todo(todo_id: int):
 
 - GET 라우트 (/todos/): 모든 할 일 항목을 검색하여 리스트 형식으로 반환합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_3.png)
+![이미지](/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_3.png)
 
 - POST 라우트 (/todos/): 고유한 ID, 제목 및 설명을 갖는 새로운 할 일 항목을 만들고 목록에 추가합니다.
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_4.png)
+![image](/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_4.png)
 
 - PUT Route (/todos/'todo_id'/): 기존에 있는 ID로 식별된 to-do 항목을 업데이트합니다. 부분적 업데이트가 가능합니다 (제목 또는 설명만 업데이트할 수 있음).
 
-![image](/TIL/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_5.png)
+![image](/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_5.png)
 
 - DELETE Route (/todos/'todo_id'/): 목록에서 ID로 식별된 to-do 항목을 삭제합니다.
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_6.png" />
+<img src="/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_6.png" />
 
 이러한 경로들은 클라이언트가 할 일 항목에 대해 모든 CRUD 작업(생성, 읽기, 업데이트, 삭제)을 수행할 수 있도록 합니다. 이를 통해 FastAPI가 다양한 유형의 HTTP 요청과 응답을 처리하는 방법을 보여줍니다.
 

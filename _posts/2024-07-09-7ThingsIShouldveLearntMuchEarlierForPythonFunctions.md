@@ -1,7 +1,7 @@
 ---
 title: "파이썬 함수 사용법을 일찍 배웠어야 했던 7가지 팁"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png"
+coverImage: "/assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png"
 date: 2024-07-09 14:44
 ogImage:
   url: /assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png
@@ -10,7 +10,7 @@ originalTitle: "7 Things I Should’ve Learnt Much Earlier For Python Functions"
 link: "https://medium.com/gitconnected/7-things-i-shouldve-learnt-much-earlier-for-python-functions-69d1108f0f62"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png)
+![이미지](/assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png)
 
 파이썬에 대한 내 이해력이 더 좋았을 텐데, 이런 것들을 내 여정에서 이른 시일 내에 어떻게든 배웠더라면 훨씬 더 좋았을 텐데요. 하지만 인생은 인생대로이고, 늦게 배우는 것은 결코 늦기보다는 낫습니다.
 

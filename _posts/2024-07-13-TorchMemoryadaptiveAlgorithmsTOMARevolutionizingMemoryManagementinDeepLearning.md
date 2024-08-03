@@ -1,10 +1,10 @@
 ---
 title: "딥러닝 메모리 관리 혁명 Torch Memoryadaptive Algorithms TOMA의 비밀"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-TorchMemoryadaptiveAlgorithmsTOMARevolutionizingMemoryManagementinDeepLearning_0.png"
+coverImage: "/assets/img/2024-07-13-TorchMemoryadaptiveAlgorithmsTOMARevolutionizingMemoryManagementinDeepLearning_0.png"
 date: 2024-07-13 19:50
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-TorchMemoryadaptiveAlgorithmsTOMARevolutionizingMemoryManagementinDeepLearning_0.png
+  url: /assets/img/2024-07-13-TorchMemoryadaptiveAlgorithmsTOMARevolutionizingMemoryManagementinDeepLearning_0.png
 tag: Tech
 originalTitle: "Torch Memoryadaptive Algorithms (TOMA): Revolutionizing Memory Management in Deep Learning"
 link: "https://medium.com/@evertongomede/torch-memoryadaptive-algorithms-toma-revolutionizing-memory-management-in-deep-learning-627d24fc36cc"
@@ -33,7 +33,7 @@ link: "https://medium.com/@evertongomede/torch-memoryadaptive-algorithms-toma-re
 
 상상해보세요. 당신의 최첨단 GPU 메모리에 맞기 어려운 정도로 방대한 신경망을 훈련한다고 상상해봅시다. 훈련 중에 메모리 부족 오류가 발생하여 진행이 멈추고 모델을 축소하거나 하드웨어를 업그레이드해야 하는 상황입니다. 그러나 메모리를 적응적으로 관리하여 가장 복잡한 모델들에도 원만하고 효율적인 훈련을 보장할 수 있는 방법이 있다면 어떨까요? Torch Memoryadaptive Algorithms (TOMA) [1]가 바로 그 메모리 최적화의 게임 체인저입니다.
 
-![이미지](/TIL/assets/img/2024-07-13-TorchMemoryadaptiveAlgorithmsTOMARevolutionizingMemoryManagementinDeepLearning_0.png)
+![이미지](/assets/img/2024-07-13-TorchMemoryadaptiveAlgorithmsTOMARevolutionizingMemoryManagementinDeepLearning_0.png)
 
 # 메모리 병목 현상: 흔한 장애물
 
@@ -227,7 +227,7 @@ Torch Memoryadaptive Algorithms (TOMA)을 활용하여 신경망을 효율적으
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-TorchMemoryadaptiveAlgorithmsTOMARevolutionizingMemoryManagementinDeepLearning_1.png" />
+<img src="/assets/img/2024-07-13-TorchMemoryadaptiveAlgorithmsTOMARevolutionizingMemoryManagementinDeepLearning_1.png" />
 
 모델의 성능 지표와 산점도 결과는 모델의 성능을 얼마나 잘 평가했는지에 대한 소중한 통찰력을 제공합니다. 여기에 결과에 대한 해석이 있습니다:
 

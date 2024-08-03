@@ -1,10 +1,10 @@
 ---
 title: "지구 이동 거리로 분포 비교하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_0.png"
+coverImage: "/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_0.png"
 date: 2024-07-13 19:19
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_0.png
+  url: /assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_0.png
 tag: Tech
 originalTitle: "Comparison of Distributions with Earth Mover’s Distance"
 link: "https://medium.com/towards-data-science/comparison-of-distributions-with-earth-movers-distance-71f714440923"
@@ -37,7 +37,7 @@ link: "https://medium.com/towards-data-science/comparison-of-distributions-with-
 
 위의 그래픽에 대한 운송 계획은 다음과 같습니다:
 
-![이미지](/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_1.png)
+![이미지](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_1.png)
 
 이 운송 계획은 우리에게 분포 A를 분포 B로 가장 효율적으로 변환하는 방법을 보여줍니다. 이 운송 계획의 총 작업량이 두 분포 간의 EMD입니다.
 
@@ -69,7 +69,7 @@ EMD(지구 이동자 거리)의 정의 중 하나인 중요한 부분 중 하나
 
 만약 두 분포가 n개의 관찰을 가지고 있다고 가정하면 (몇 가지 예외 상황에 대해 조금 후에 논의하겠습니다), n!개의 고유한 운송 계획이 있습니다. 계승에 익숙하지 않다면, 계승은 신속하게, 정말 빨리 증가합니다. 예를 들어, 위 섹션에서의 소규모 예제의 경우, 크기가 8인 두 분포가 있습니다. 모두 8! = 40,320개의 고유한 운송 계획이 있습니다! 이는 그러한 소규모 분포에 대해 매우 많은 양이며, 분포 크기가 커질수록 빠르게 처리할 수 없게 됩니다.
 
-<img src="/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_2.png" />
+<img src="/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_2.png" />
 
 <div class="content-ad"></div>
 
@@ -79,17 +79,17 @@ EMD(지구 이동자 거리)의 정의 중 하나인 중요한 부분 중 하나
 
 목표:
 
-<img src="/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_3.png" />
+<img src="/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_3.png" />
 
 <div class="content-ad"></div>
 
 제약 사항:
 
-![Constraint 1](/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_4.png)
+![Constraint 1](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_4.png)
 
-![Constraint 2](/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_5.png)
+![Constraint 2](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_5.png)
 
-![Constraint 3](/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_6.png)
+![Constraint 3](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_6.png)
 
 <div class="content-ad"></div>
 
@@ -104,11 +104,11 @@ EMD(지구 이동자 거리)의 정의 중 하나인 중요한 부분 중 하나
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_7.png)
+![이미지](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_7.png)
 
 Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매핑합니다.
 
-![이미지](/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_8.png)
+![이미지](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_8.png)
 
 최적화 함수는 이동 계획과 비용 행렬의 내적을 취하여 특정 이동 계획에 대한 총 작업량을 계산합니다. 최적화 프로세스는 작업을 최소화하는 이동 계획을 찾습니다. 이 최소 작업량이 지구 이동자 거리입니다.
 
@@ -117,7 +117,7 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 이제 운송 계획이 포함된 상태에서 해당 비용 행렬을 통해 총 작업량이 어떻게 계산되는지 살펴봅시다.
 
-![image](/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_9.png)
+![image](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_9.png)
 
 위의 행렬에 대한 점곱은 다음과 같이 계산됩니다:
 
@@ -137,7 +137,7 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 아래는 세 가지의 무효한 운송 계획과 하나의 유효한 계획이 있습니다. 이 중 몇 가지를 살펴보고 제약 조건이 어떻게 비현실적인 운송 계획을 막는지 이해해 보겠습니다.
 
-![image](/TIL/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_10.png)
+![image](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_10.png)
 
 왼쪽 상단: 위치 1에서 단위 하나가 위치 5로 이동하고 단위 하나가 위치 7로 이동합니다. 이는 위치 1에 단위 하나만 있는데 두 곳으로 한 단위를 이동시키는 것은 위배 사항입니다! 따라서 한 단위를 두 곳으로 이동시키는 것은 불가능합니다. 첫 번째 제약은 이런 일이 일어나지 않도록 합니다.
 

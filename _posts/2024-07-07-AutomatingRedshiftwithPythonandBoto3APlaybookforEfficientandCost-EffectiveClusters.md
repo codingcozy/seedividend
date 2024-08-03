@@ -1,7 +1,7 @@
 ---
 title: "Python과 Boto3로 Redshift 자동화 효율적이고 비용 효과적인 클러스터 구축 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png"
+coverImage: "/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png"
 date: 2024-07-07 21:41
 ogImage:
   url: /assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png
@@ -10,7 +10,7 @@ originalTitle: "Automating Redshift with Python and Boto3: A Playbook for Effici
 link: "https://medium.com/@thedataengineeringblogpost/automating-redshift-with-python-and-boto3-a-playbook-for-efficient-and-cost-effective-clusters-1fc10e1130fb"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png" />
+<img src="/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png" />
 
 파이썬과 Boto3를 활용한 Amazon Redshift 클러스터 자동화에 관한 궁극의 안내서에 오신 것을 환영합니다! Redshift 관리 프로세스를 최적화하고 클러스터 및 스냅샷을 생성 및 관리하며 비용을 절감하고 효율성을 향상시키려면 올바른 곳에 왔습니다. 이 블로그에서는 환경 설정부터 Python을 사용한 고급 자동화 스크립트 구현까지 필수 단계를 안내합니다. 이 가이드를 마치면 실용적인 지식과 프로처럼 Redshift 클러스터를 처리할 준비가 된 코드 조각을 가지고 있을 것입니다. 시작해보죠! 💻📊
 
@@ -70,7 +70,7 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 아래 이미지는 코드에서 수행되는 주요 단계를 보여줍니다:
 
-![Redshift Cluster Creation](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_1.png)
+![Redshift Cluster Creation](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_1.png)
 
 <div class="content-ad"></div>
 
@@ -96,7 +96,7 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 클러스터를 다시 시작해보겠습니다. 아래는 코드 설명입니다:
 
-![code explanation](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_2.png)
+![code explanation](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_2.png)
 
 제공된 코드 스니펫은 Boto3를 사용하여 Redshift 클러스터를 재개하는 Redshift 클라이언트를 생성합니다. 클러스터가 성공적으로 재개되면 성공 메시지를 출력하고, 그렇지 않으면 발생하는 모든 오류를 잡아서 출력합니다.
 
@@ -114,7 +114,7 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 <div class="content-ad"></div>
 
-![Redshift Cluster Pause](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_3.png)
+![Redshift Cluster Pause](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_3.png)
 
 The code snippet creates a Redshift client using Boto3 to pause ⏸️ a Redshift cluster identified by cluster_identifier. If the cluster pauses successfully, it prints a success message; otherwise, it catches and prints any errors that occur during the process.
 
@@ -134,7 +134,7 @@ Check out this video tutorial to see the execution of the code in action:
 
 이 섹션에서는 Python과 Boto3를 사용하여 모든 실행 중인 Redshift 클러스터를 자동으로 일시 중지하는 멋진 프로젝트를 살펴보겠습니다. 이 자동화는 비용을 절약하고 클러스터 관리를 간편화할 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_4.png)
+![이미지](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_4.png)
 
 이 Python 스크립트는 Boto3를 사용하여 Amazon Redshift와 상호 작용하여 모든 클러스터를 설명하고 상태를 확인하고 사용 가능한 클러스터를 일시 중지합니다. 그렇게 하기 위해 Redshift 클라이언트의 describe_clusters 및 pause_cluster 함수를 활용하여 클러스터 상태와 일시 중지 시 클러스터 상태 및 성공 메시지를 출력합니다.
 
@@ -169,7 +169,7 @@ Check out this video tutorial to see the execution of the code in action:
 
 먼저, Redshift 클러스터를 모두 검색하고 표시해 봅시다:
 
-![image](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_5.png)
+![image](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_5.png)
 
 <div class="content-ad"></div>
 
@@ -193,7 +193,7 @@ Check out this video tutorial to see the execution of the code in action:
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_6.png)
+![image](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_6.png)
 
 이 코드 조각은 Boto3를 사용하여 지정된 Redshift 클러스터 (myredshiftcluster)를 최종 스냅샷을 찍지 않고 삭제하는 방법을 보여줍니다. 삭제 프로세스의 현재 상태를 출력합니다.
 
@@ -228,7 +228,7 @@ Amazon Redshift에서 스냅샷은 클러스터의 데이터와 메타데이터�
 
 Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 스냅샷을 나열하는 것부터 시작해보세요.
 
-![스냅샷](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_7.png)
+![스냅샷](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_7.png)
 
 이 코드는 지정된 Redshift 클러스터의 스냅샷 목록을 가져와 표시합니다. Redshift 서비스와 상호 작용하기 위해 Boto3를 사용하여 스냅샷을 효율적으로 모니터링하고 관리할 수 있습니다.
 
@@ -246,7 +246,7 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_8.png)
+![이미지](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_8.png)
 
 이 코드는 지정된 Redshift 클러스터의 수동 스냅샷을 생성하고 스냅샷 상태가 'available'일 때까지 기다립니다. 이렇게 함으로써 스냅샷 생성 프로세스가 완료된 후 추가 작업을 진행할 수 있습니다.
 
@@ -272,11 +272,11 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 아래 이미지는 코드에서 수행되는 주요 단계를 설명합니다:
 
-![워크스루](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_9.png)
+![워크스루](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_9.png)
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_10.png" />
+<img src="/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_10.png" />
 
 이 스크립트는 Amazon Redshift 클러스터를 관리하는 여러 핵심 작업을 자동화합니다. 일시 중지된 클러스터를 다시 시작하고 사용 가능해질 때까지 대기합니다. 클러스터가 준비되면 redshift_connector를 사용하여 클러스터에 연결하고 새 데이터베이스를 만듭니다. 그 후 클러스터의 수동 스냅샷을 만들고 스냅샷이 사용 가능해질 때까지 대기합니다. 마지막으로 스크립트는 비용을 절약하기 위해 클러스터를 일시 중지합니다. 프로세스 전반에 걸쳐 스크립트는 오류 처리를 포함하고 데이터베이스 연결이 올바르게 닫혀 있는지 확인합니다. 이 포괄적인 방법은 효율적이고 자동화된 Redshift 클러스터 관리를 보장합니다.
 
@@ -298,7 +298,7 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 더 많은 고급 기술과 프로젝트가 있는 것을 기대해 주세요. AWS 관리 기술을 더 향상시킬 수 있도록 도와 드리겠습니다. 자동화 작업을 즐기세요! 🚀💼
 
-![Automating Redshift with Python and Boto3](/TIL/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_11.png)
+![Automating Redshift with Python and Boto3](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_11.png)
 
 ## 다음 단계
 

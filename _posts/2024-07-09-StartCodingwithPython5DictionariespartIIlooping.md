@@ -1,7 +1,7 @@
 ---
 title: "파이썬으로 코딩 시작하기 5 딕셔너리 part II  반복문 사용법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_0.png"
+coverImage: "/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_0.png"
 date: 2024-07-09 20:57
 ogImage:
   url: /assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_0.png
@@ -215,10 +215,10 @@ One can also make a set using braces ({}). However, in contrast to a dictionary 
 
 딕셔너리와 집합 사이의 차이를 알아두면 혼란을 방지할 수 있어요.
 
-![이미지](/TIL/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_0.png)
+![이미지](/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_0.png)
 
-![이미지](/TIL/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_1.png)
+![이미지](/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_1.png)
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_2.png)
+![image](/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_2.png)

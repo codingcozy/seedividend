@@ -1,10 +1,10 @@
 ---
 title: "파이썬을 사용하여 Log Analytics 작업 영역 데이터를 쿼리하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_0.png"
+coverImage: "/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_0.png"
 date: 2024-07-12 20:01
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_0.png
+  url: /assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_0.png
 tag: Tech
 originalTitle: "How to Query Log Analytics Workspace Data Using Python"
 link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-workspace-data-using-python-8d454b7c3dd7"
@@ -24,7 +24,7 @@ link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-wor
 
 해당 테이블에서 어떤 유용한 데이터를 얻을 수 있을까요?
 
-![Table Screenshot](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_0.png)
+![Table Screenshot](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_0.png)
 
 이는 전체 테이블 중 일부에 불과합니다. 실제로 Cosmos DB에서 사용할 수 있는 테이블은 더 많습니다. 더불어, 모든 Azure 리소스를 위한 가능한 모든 테이블을 상상해보세요!
 
@@ -44,7 +44,7 @@ link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-wor
 
 # 사전 준비 사항 📚
 
-![이미지](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_1.png)
+![이미지](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_1.png)
 
 이 글을 처음부터 끝까지 따라하고 싶다면 이 사항을 준비해주세요:
 
@@ -60,7 +60,7 @@ link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-wor
 
 # 솔루션 💯
 
-<img src="/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_2.png" />
+<img src="/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_2.png" />
 
 이 섹션에서는 샘플 Python 스크립트를 부분별로 분해합니다. 모든 부분을 이해한 후에 모두 조합해도 괜찮습니다(부분은 위에서 아래로 순서대로 나열되어 있습니다)!
 
@@ -99,9 +99,9 @@ DefaultAzureCredential() 클래스를 이해하는 데 어려움이 있는 경�
 
 Log Analytics 워크 스페이스 ID를 얻으려면 Azure Portal로 이동하여 'Log Analytics 워크 스페이스 - 개요'로 이동하면 됩니다. 예시:
 
-![이미지](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_3.png)
+![이미지](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_3.png)
 
-![이미지](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_4.png)
+![이미지](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_4.png)
 
 ```js
 # 로그 분석 워크 스페이스 ID를 정의합니다
@@ -203,7 +203,7 @@ df.to_csv(csv_filename)
 
 1. 우선, 스크립트 확장자를 ".ipynb"로 변경하세요:
 
-![Change your script extension to ".ipynb"](https://yourwebsite.com/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_5.png)
+![Change your script extension to ".ipynb"](https://yourwebsite.com/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_5.png)
 
 2. VS Code에서 Jupyter 노트북을 실행할 수 있도록 필요한 확장 프로그램/패키지를 설치하세요. 처음으로 노트북을 실행하려고 시도하면 아래 항목을 설치하라는 메시지가 자동으로 표시됩니다:
 
@@ -215,7 +215,7 @@ df.to_csv(csv_filename)
 
 - ipykernel 패키지
 
-![image](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_6.png)
+![image](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_6.png)
 
 <div class="content-ad"></div>
 
@@ -223,18 +223,18 @@ VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 
 [3] 위의 모든 것들을 설치한 후에는 VS Code에서 Jupyter Notebook을 실행할 수 있어야 합니다! 그러나 실행하면 출력물이 잘못 서식이 지정된 것을 볼 수 있습니다 (아래 스크린샷이 잘린 상태로 표시됨):
 
-![screenshot](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_7.png)
+![screenshot](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_7.png)
 
 [4] Jupyter 노트북의 오른쪽 상단 어딘가에서 "Variables" 탭을 클릭하세요:
 
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_8.png)
+![이미지](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_8.png)
 
 [5] 터미널에 새 탭이 생성됩니다. "JUPYTER: VARIABLES"라고 표시된 탭을 찾아 "df" 변수를 찾은 다음, 사각형 기호 위로 커서를 가져가면 "데이터 뷰어에 변수 표시"라는 메시지가 표시됩니다. 이것을 클릭하세요.
 
-![이미지](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_9.png)
+![이미지](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_9.png)
 
 [6] 그러면 이전에 찾고 있던 완벽하게 표시된 결과를 보여주는 새 탭이 열립니다:
 
@@ -243,7 +243,7 @@ VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 
 # 배운 점 👊
 
-![image](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_10.png)
+![image](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_10.png)
 
 만약 지금까지 이 글을 주의 깊게 따라오셨다면 다음 개념들을 배우셨을 것입니다:
 
@@ -256,7 +256,7 @@ VS Code를 설치한 후에는 VS Code를 다시 로드해주세요.
 
 # 다음 스텝 🤔
 
-![image](/TIL/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_11.png)
+![image](/assets/img/2024-07-12-HowtoQueryLogAnalyticsWorkspaceDataUsingPython_11.png)
 
 이 글에 대한 궁금한 점이나 피드백이 있다면 댓글로 남겨주세요 (네, 댓글을 확인해요). 또한 쓸 주제에 대한 제안도 환영합니다.
 

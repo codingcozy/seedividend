@@ -1,7 +1,7 @@
 ---
 title: "정말 유용한 7가지 GitHub 프로젝트"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-7SuperUsefulGitHubProjects_0.png"
+coverImage: "/assets/img/2024-07-09-7SuperUsefulGitHubProjects_0.png"
 date: 2024-07-09 20:07
 ogImage:
   url: /assets/img/2024-07-09-7SuperUsefulGitHubProjects_0.png

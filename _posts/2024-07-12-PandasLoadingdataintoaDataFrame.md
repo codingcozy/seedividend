@@ -1,17 +1,17 @@
 ---
 title: "Pandas DataFrame에 데이터 로드하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png"
+coverImage: "/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png"
 date: 2024-07-12 20:58
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png
+  url: /assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png
 tag: Tech
 originalTitle: "Pandas: Loading data into a DataFrame"
 link: "https://medium.com/coinmonks/pandas-loading-data-into-a-dataframe-4ca57442744e"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png" />
+<img src="/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png" />
 
 판다스는 파이썬 데이터 라이브러리 중 주축에 서 있으며, 데이터 조작을 위한 다양한 함수 보물 묶음을 제공합니다. 핵심은 데이터프레임(DataFrame)으로, 이를 사용하여 테이블 형식의 데이터를 쉽게 저장하고 조작할 수 있습니다.
 
@@ -22,7 +22,7 @@ link: "https://medium.com/coinmonks/pandas-loading-data-into-a-dataframe-4ca5744
 <div class="content-ad"></div>
 
 
-![Pandas Loading Data into a DataFrame](/TIL/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_1.png)
+![Pandas Loading Data into a DataFrame](/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_1.png)
 
 타이타닉 데이터셋은 카글에서 제공하는 클래식한 챌린지로, 비극적인 타이타닉 호에 탑승한 승객들에 대한 데이터를 제공합니다. 이 데이터셋을 Pandas DataFrame으로 로드해보겠습니다:
 

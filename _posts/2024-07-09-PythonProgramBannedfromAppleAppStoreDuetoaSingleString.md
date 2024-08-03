@@ -1,7 +1,7 @@
 ---
 title: "한 줄의 문자열 때문에 Apple App Store에서 금지된 Python 프로그램"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_0.png"
+coverImage: "/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_0.png"
 date: 2024-07-09 20:02
 ogImage:
   url: /assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_0.png
@@ -22,7 +22,7 @@ link: "https://medium.com/top-python-libraries/python-program-banned-from-apple-
 
 # 앱 리뷰 실패의 이유: 하나의 문자열 때문
 
-![image](/TIL/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_0.png)
+![image](/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_0.png)
 
 개발자인 Eric Froemling은 GitHub에서 경험을 공유했습니다.
 
@@ -62,7 +62,7 @@ Python 3.12에서 “itms-services” 문자열이 추가되었어요. 애플은
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_1.png)
+![image](/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_1.png)
 
 에릭 프롬링은 "itms-services" 문자열 자체에 화를 내지 않았어요. 그보다 애플 앱 스토어 심사 규칙에 답답해했던 거예요.
 
@@ -74,7 +74,7 @@ Python 3.12에서 “itms-services” 문자열이 추가되었어요. 애플은
 
 # CPython 코어 개발자: 앱 스토어 리뷰 규칙은 엄격하고 예측할 수 없어요!
 
-![Image](/TIL/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_2.png)
+![Image](/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_2.png)
 
 CPython 코어 개발자인 Russell Keith-Magee가 이 문제에 대해 기사를 썼어요. 그는 질문을 던지며 말했어요: 앱 스토어 규정에 맞추기 위해 얼마나 많은 변경을 해야 할까요?
 
@@ -120,7 +120,7 @@ Keith-Magee가 이 해결책이 더 수용 가능한 것 같다고 물었습니�
 
 # 결론
 
-![이미지](/TIL/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_3.png)
+![이미지](/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_3.png)
 
 몇 일을 생각한 후, Keith-Magee가 6월 25일에 답변했습니다. 그는 --with-app-store-compliance 옵션을 추가하는 풀 리퀘스트(#120984)를 제출했습니다. 이것은 문자열 때문에 App Store에서 앱이 거부당하는 문제를 해결해야 할 것입니다.
 

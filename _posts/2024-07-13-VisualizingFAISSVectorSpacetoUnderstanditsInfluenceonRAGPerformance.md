@@ -1,17 +1,17 @@
 ---
 title: "FAISS 벡터 공간 시각화를 통한 RAG 성능 이해하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_0.png"
+coverImage: "/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_0.png"
 date: 2024-07-13 19:04
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_0.png
+  url: /assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_0.png
 tag: Tech
 originalTitle: "Visualizing FAISS Vector Space to Understand its Influence on RAG Performance"
 link: "https://medium.com/ai-advances/visualizing-faiss-vector-space-to-understand-its-influence-on-rag-performance-14d71c6a4f47"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_0.png" />
+<img src="/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_0.png" />
 
 오픈 소스 대형 언어 모델의 성능이 계속해서 향상되면서, 코드 작성 및 분석, 추천, 텍스트 요약 및 질문-응답(QA)을 포함한 다양한 응용 프로그램에 진입하고 있습니다. QA 관련 질문에 대해 언어 모델이 자주 실패하는데, 이는 훈련 중에 사용되지 않은 문서와 관련된 질문들에 적용될 때 발생합니다. 그리고 이러한 내부 문서들 중 많은 것들은 규정 준수, 영업 비밀 또는 개인 정보 보호를 위해 기업의 벽 안에 유지되어야 합니다. 이러한 문서에 대해 쿼리를 실행할 때, 언어 모델은 가상 현상을 겪는데, 이는 관련 없거나 가짜 또는 일관성 없는 내용을 생성합니다.
 
@@ -59,7 +59,7 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 이 QA 시스템에는 그림 1에 설명된 두 모듈이 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_1.png)
+![이미지](/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_1.png)
 
 LoadFVectorize 모듈은 PDF 또는 웹 문서를 로드하는 작업을 포함합니다. 초기 테스트 및 시각화를 위해, 최근에 출시된 (2023년 12월) 440페이지의 벤더 배포 가이드가 관심 문서로 사용됩니다. 이 모듈은 문서의 분할 및 벡터화를 처리합니다.
 
@@ -279,11 +279,11 @@ Fig. 2는 스포트라이트의 스크린샷을 나타냅니다. 왼쪽 상단�
 
 <div class="content-ad"></div>
 
-![링크 텍스트](/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_2.png)
+![링크 텍스트](/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_2.png)
 
 가시적인 열 버튼을 사용하여 표시되는 열을 제어할 수 있습니다. "dist"로 테이블을 정렬하면 상위에 질문, 답변 및 가장 관련성 높은 문서 스니펫이 나타납니다. 임베딩 시각화를 살펴보면 여기의 거의 모든 문서를 하나의 클러스터로 나타냅니다. 이는 원래 pdf가 특정 제품의 배포 가이드임을 감안할 때 합리적일 것으로 생각됩니다. Similarity Map 탭 내의 필터 아이콘을 클릭하면 선택한 문서 목록만 강조 표시되며 나머지는 회색으로 표시됩니다(Fig. 3 참조).
 
-![링크 텍스트](/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_3.png)
+![링크 텍스트](/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_3.png)
 
 ## 3.1 테스트 청크 크기 및 겹치기 매개변수
 
@@ -291,11 +291,11 @@ Fig. 2는 스포트라이트의 스크린샷을 나타냅니다. 왼쪽 상단�
 
 리트리버가 RAG 성능에 중요한 영향을 미친다고 해서, 우리는 임베딩 공간에 영향을 주는 몇 가지 매개변수를 살펴보겠습니다. 테이블 1은 문서 분할 중 TextSplitter의 청크 크기 (1000, 2000) 및/또는 오버랩 (100, 200) 매개변수가 다양하게 변할 때, TinyLlama의 응답을 포착하고 정리합니다.
 
-![Image](/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_4.png)
+![Image](/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_4.png)
 
 첫눈에, 모든 조합의 LLM 응답이 비슷해 보입니다. 그러나 정확한 답변과 각 응답을 주의 깊게 비교하면, 정확한 답변은 (1000, 200) 조합에 해당합니다. 다른 응답에서의 부정확한 세부사항은 빨간색으로 강조되었습니다. 이러한 행동을 설명하기 위해, Fig. 3은 각 조합에 대한 임베딩 맵을 옆으로 나란히 보여줍니다.
 
-![Image](/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_5.png)
+![Image](/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_5.png)
 
 <div class="content-ad"></div>
 
@@ -316,7 +316,7 @@ def load_doc():
 
 나머지 코드는 그대로 유지하고 있는 것을 확인하면, 우리는 그림 5에 나타난 벡터 공간 시각화를 얻을 수 있습니다.
 
-<img src="/TIL/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_6.png" />
+<img src="/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_6.png" />
 
 예상대로, 여기에는 두 개의 명확하게 겹치지 않는 클러스터가 있습니다. 우리가 두 클러스터 모두 벗어난 질문을 하면, 검색기에서 얻는 결과 문맥은 적어도 LLM에게 도움이 되지는 않을 것이지만 오히려 해로울 것입니다. 그리고 재미로, 나는 이전에 묻은 같은 질문을 한 번 더 던져보기로 결정했습니다. 그리고 확실히 LLM은 환각하기 시작했습니다.
 

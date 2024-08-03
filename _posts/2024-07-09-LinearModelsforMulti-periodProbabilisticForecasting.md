@@ -1,7 +1,7 @@
 ---
 title: "다중 기간 확률 예측을 위한 선형 모델 이해하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_0.png"
+coverImage: "/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_0.png"
 date: 2024-07-09 19:30
 ogImage:
   url: /assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_0.png
@@ -10,7 +10,7 @@ originalTitle: "Linear Models for Multi-period Probabilistic Forecasting"
 link: "https://medium.com/dataman-in-ai/linear-regression-for-multi-period-probabilistic-forecasts-67719f59e5ca"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_0.png" />
+<img src="/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_0.png" />
 
 샘플 eBook 장(chapters) (무료): [여기](https://github.com/dataman-git/modern-time-series/blob/main/20240522beauty_TOC.pdf)
 
@@ -24,7 +24,7 @@ Amazon.com에서 인쇄본: $65 [여기](https://a.co/d/25FVsMx)
 
 (1)에 대한 해결책은 분위 회귀를 사용하여 예측 불확실성을 제공하는 것입니다. (A) 그림은 분위 예측을 보여줍니다. 미래의 시간 t에 대해 10번째, 50번째 및 90번째 백분위수를 기반으로 예측 샘플을 반환합니다. 필요하다면 더 많은 분위 샘플을 생성할 수 있습니다. 이에 대해서는 "6장: 예측 불확실성을 위한 분위 회귀"를 참조해주세요.
 
-![quantile forecasts](/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_1.png)
+![quantile forecasts](/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_1.png)
 
 (2)는 어떻게 해결할까요? 선형 회귀는 점 예측을 생성하지만, 다기간 예측을 어떻게 만들까요? 한 가지 방법은 동일한 모델을 재귀적으로 사용하는 것일 수 있습니다. 한 기간 예측을 모델로부터 얻어 다음 기간을 예측하는 데 입력으로 사용합니다. 그런 다음 두 번째 기간을 예측하기 위해 두 번째 기간의 예측을 입력으로 사용합니다. 이전 기간의 예측을 사용하여 모든 기간을 반복할 수 있습니다. 이것이 재귀 예측 또는 반복적 예측 전략이 하는 일입니다. (B) 그림은 모델이 먼저 yt+1을 생성하고, 그런 다음 같은 모델이 yt+1을 사용하여 yt+2를 생성하는 것을 보여줍니다.
 
@@ -38,7 +38,7 @@ Amazon.com에서 인쇄본: $65 [여기](https://a.co/d/25FVsMx)
 
 <div class="content-ad"></div>
 
-![그림](/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_4.png)
+![그림](/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_4.png)
 
 선형 모델은 Figure (A)에 표시된 분위수 예측 및 Figure (D)에 표시된 직접 예측을 수행해야 할 때 복잡해 보입니다. 다행히 Python 시계열 라이브러리인 Darts에서 이러한 프로세스가 구현되었습니다. Darts 라이브러리는 "scikit-learn" 함수를 많이 포함하고 있어 "scikit-learn"의 기능을 활용할 수 있습니다. 이 중에는 sklearn의 분위수 회귀기능도 포함되어 있습니다. 따라서 우리는 Darts 라이브러리에 초점을 맞출 수 있습니다.
 
@@ -85,7 +85,7 @@ data = data.drop('Date', axis=1)
 data.head()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_5.png" />
+<img src="/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_5.png" />
 
 <div class="content-ad"></div>
 
@@ -186,7 +186,7 @@ pred.values()"
 
 결과는 다음 n 기간을 예측한 것입니다. 위의 코드가 이미 직접 예측 전략을 실행했음을 주목하세요.
 
-![image](/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_6.png)"
+![image](/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_6.png)"
 
 <div class="content-ad"></div>
 
@@ -201,7 +201,7 @@ test['Weekly_Sales'][:n].plot(label='실제값')
 
 그림 (G)은 위의 플롯을 보여줍니다.
 
-<img src="/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_7.png" />
+<img src="/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_7.png" />
 
 <div class="content-ad"></div>
 
@@ -244,7 +244,7 @@ pred.values()
 
 상기된 매개변수 output_chunk_length에 대해 자세한 설명이 필요합니다. 이는 단변량 시리즈에서 샘플을 생성하는 데 관한 것입니다. Figure (H)에서는 y0부터 y15까지의 시리즈에서 생성된 샘플을 보여줍니다. 각 샘플은 입력 청크와 출력 청크를 포함합니다. 입력 청크의 길이가 5이고 출력 청크의 길이가 2인 것으로 가정해 봅시다. 첫 번째 샘플은 입력 청크로 y0부터 y4를, 출력 청크로 y5, y6을 가집니다. 창이 시리즈를 따라 이동하여 시리즈의 끝까지 샘플을 만듭니다.
 
-![이미지](/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_8.png)
+![이미지](/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_8.png)
 
 출력 청크의 길이는 예측 가능한 최대 길이를 정의합니다. 이를 12로 지정했습니다. 12보다 더 많이 예측하고자 한다면 에러 메시지를 받게 될 것입니다.
 
@@ -252,7 +252,7 @@ pred.values()
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_9.png)
+![image](/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_9.png)
 
 모델링과 예측을 한 뒤에는 실제 값과 예측값을 플롯에 함께 표시해보겠습니다.
 
@@ -267,7 +267,7 @@ test['Weekly_Sales'][:n].plot(label='실제값')
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_10.png)
+![Image](/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_10.png)
 
 성능을 측정해 봅시다.
 
@@ -310,7 +310,7 @@ pred
 
 각 기간에 대한 예측은 한 샘플 대신 5개의 샘플이 될 것입니다. (그래서 Darts의 데이터 형식을 "샘플"이라고 부릅니다.)
 
-![이미지](/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_11.png)
+![이미지](/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_11.png)
 
 실제 값과 확률 예측을 그래플에 플로팅할 것입니다.
 
@@ -323,7 +323,7 @@ test['Weekly_Sales'][:n].plot(label='actual')
 
 <div class="content-ad"></div>
 
-![위 예측은 확률적 예측을 위한 연한 파란색 영역을 포함합니다.](/TIL/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_12.png)
+![위 예측은 확률적 예측을 위한 연한 파란색 영역을 포함합니다.](/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_12.png)
 
 결론
 

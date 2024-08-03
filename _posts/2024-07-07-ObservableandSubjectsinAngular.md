@@ -1,7 +1,7 @@
 ---
 title: "Angular에서 Observable과 Subject 사용법 차이점 및 활용 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_0.png"
+coverImage: "/assets/img/2024-07-07-ObservableandSubjectsinAngular_0.png"
 date: 2024-07-07 19:19
 ogImage:
   url: /assets/img/2024-07-07-ObservableandSubjectsinAngular_0.png
@@ -10,7 +10,7 @@ originalTitle: "Observable and Subjects in Angular"
 link: "https://medium.com/@jaydeepvpatil225/observables-and-subjects-in-angular-a4d73dfa5bb"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_0.png" />
+<img src="/assets/img/2024-07-07-ObservableandSubjectsinAngular_0.png" />
 
 안녕하세요! 이 글에서는 옵저버블(observable)과 서브젝트(subject)의 기본에 대해 알아볼 거에요. 또한 그들 간의 차이를 실제 예시를 통해 설명하고 다양한 종류의 서브젝트에 대해 이야기할 거에요.
 
@@ -72,7 +72,7 @@ Angular은 웹 애플리케이션을 구축하기 위한 인기있는 오픈 소
 
 Observable과 Subject는 모두 JavaScript의 Reactive Extensions (RxJS) 라이브러리의 일부이며 Angular에서 비동기 데이터 스트림 및 이벤트 처리를 관리하는 데 사용됩니다. 그러나 이들 간에 몇 가지 주요 차이점이 있습니다.
 
-![Observable vs Subject](/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_1.png)
+![Observable vs Subject](/assets/img/2024-07-07-ObservableandSubjectsinAngular_1.png)
 
 # Angular에서의 다양한 Subject 유형 및 예제
 
@@ -142,7 +142,7 @@ RxJS 라이브러리에서 사용할 수 있는 주제 유형은 다음과 같�
     //--------------------------------------------------------
 ```
 
-![Illustration](/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_2.png)
+![Illustration](/assets/img/2024-07-07-ObservableandSubjectsinAngular_2.png)
 
 <div class="content-ad"></div>
 
@@ -175,7 +175,7 @@ behaviorSubject.subscribe((ele) => {
 //--------------------------------------------------------------------------
 ```
 
-![Observableand SubjectsinAngular](/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_3.png)
+![Observableand SubjectsinAngular](/assets/img/2024-07-07-ObservableandSubjectsinAngular_3.png)
 
 ## 3. ReplaySubject
 
@@ -215,7 +215,7 @@ replaySuject.next(555);
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_4.png)
+![image](/assets/img/2024-07-07-ObservableandSubjectsinAngular_4.png)
 
 ## 4. AsyncSubject
 
@@ -252,7 +252,7 @@ replaySuject.next(555);
     //--------------------------------------------------------------------------
 ```
 
-![이미지](/TIL/assets/img/2024-07-07-ObservableandSubjectsinAngular_5.png)
+![이미지](/assets/img/2024-07-07-ObservableandSubjectsinAngular_5.png)
 
 # GitHub URL
 

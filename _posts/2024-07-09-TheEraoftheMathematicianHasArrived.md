@@ -1,7 +1,7 @@
 ---
 title: "2024년, 수학자가 대세가 된 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-TheEraoftheMathematicianHasArrived_0.png"
+coverImage: "/assets/img/2024-07-09-TheEraoftheMathematicianHasArrived_0.png"
 date: 2024-07-09 14:54
 ogImage:
   url: /assets/img/2024-07-09-TheEraoftheMathematicianHasArrived_0.png
@@ -10,7 +10,7 @@ originalTitle: "The Era of the Mathematician Has Arrived"
 link: "https://medium.com/@keith-mcnulty/the-era-of-the-mathematician-has-arrived-bc2d59b95245"
 ---
 
-![라는 링크된 이미지](/TIL/assets/img/2024-07-09-TheEraoftheMathematicianHasArrived_0.png)
+![라는 링크된 이미지](/assets/img/2024-07-09-TheEraoftheMathematicianHasArrived_0.png)
 
 저는 순수수학자로 훈련받았어요. 사실 알게 치는 사람이죠. 박사 학위를 받을 쯤에는 너무나 특이한 전문분야로 깊숙이 들어가 있어, 심사위원을 찾기도 어려울 정도였어요. 학자가 되고 싶었다는 생각 때문에 이 토끼굴 속으로 빠져들게 된 거예요. 그런데 가만 생각하니 결론은 변했어요.
 

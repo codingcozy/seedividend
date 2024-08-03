@@ -1,7 +1,7 @@
 ---
 title: "Scikit-learn 2024 시각화 가이드 모델을 이해하기 쉽게 만드는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_0.png"
+coverImage: "/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_0.png"
 date: 2024-07-09 20:32
 ogImage:
   url: /assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_0.png
@@ -18,7 +18,7 @@ link: "https://medium.com/towards-data-science/scikit-learn-visualization-guide-
 
 <div class="content-ad"></div>
 
-![Scikit-learn Visualization Guide Making Models Speak](/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_1.png)
+![Scikit-learn Visualization Guide Making Models Speak](/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_1.png)
 
 이 그래프를 보면 동일한 데이터 세트에서 오른쪽 모델이 더 일반화하는 데 더 좋다는 것을 알 수 있습니다.
 
@@ -115,7 +115,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_2.png" />
+<img src="/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_2.png" />
 
 기억해 주세요. Display 기능은 2D만 그릴 수 있으므로 데이터가 두 개의 특성 또는 축소된 차원만 가지고 있는지 확인하세요.
 
@@ -156,7 +156,7 @@ CalibrationDisplay.from_estimator(hist_clf,
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_3.png" />
+<img src="/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_3.png" />
 
 ## 혼동 행렬에 대한 metrics.ConfusionMatrixDisplay 사용하기
 
@@ -186,7 +186,7 @@ plt.show()
 
 아래는 이미지 링크입니다:
 
-![Scikit-learn Visualization Guide](/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_4.png)
+![Scikit-learn Visualization Guide](/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_4.png)
 
 ## metrics.RocCurveDisplay 및 metrics.DetCurveDisplay
 
@@ -231,7 +231,7 @@ for name, clf in classifiers.items():
     DetCurveDisplay.from_estimator(clf, X_test, y_test, ax=ax_det, name=name)
 ```
 
-<img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_5.png" />
+<img src="/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_5.png" />
 
 ## Using metrics.PrecisionRecallDisplay to adjust thresholds
 
@@ -264,7 +264,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_6.png" />
+<img src="/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_6.png" />
 
 Scikit-learn의 디자인을 따르는 모델은 여기처럼 그릴 수 있습니다. 편리하죠?
 
@@ -293,7 +293,7 @@ PredictionErrorDisplay.from_estimator(reg, X, y, ax=axes[1], kind="residual_vs_p
 plt.show()
 ```
 
-![Image](/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_7.png)
+![Image](/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_7.png)
 
 그림에서와 같이 두 종류의 그래프를 그릴 수 있습니다. 왼쪽 그래프는 예측 대 실제 값 비교를 보여주며, 선형 회귀 분석에 적합합니다.
 
@@ -313,7 +313,7 @@ plt.show()
 reg = make_pipeline(StandardScaler(), SVR((kernel = "rbf"), (C = 10)));
 ```
 
-![Image](/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_8.png)
+![Image](/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_8.png)
 
 이렇게 rbf를 사용하면 잔차 플롯이 더 나아 보여요.
 
@@ -355,7 +355,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_9.png" />
+<img src="/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_9.png" />
 
 해당 그래프는 트리 기반 GradientBoostingClassifier가 훈련 데이터에서 높은 정확도를 유지하더라도, 테스트 데이터에서는 DecisionTreeClassifier와 비교하여 상당한 장점이 없다는 것을 보여줍니다.
 
@@ -384,7 +384,7 @@ ValidationCurveDisplay.from_estimator(lr_clf, X, y,
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_10.png" />
+<img src="/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_10.png" />
 
 <div class="content-ad"></div>
 

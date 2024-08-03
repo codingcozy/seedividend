@@ -1,7 +1,7 @@
 ---
 title: "PyBroker를 사용한 포트폴리오 최적화 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png"
+coverImage: "/assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png"
 date: 2024-07-09 14:26
 ogImage:
   url: /assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png
@@ -10,7 +10,7 @@ originalTitle: "Portfolio Optimization with PyBroker"
 link: "https://medium.com/@edtechre/portfolio-optimization-with-pybroker-5ce0af389bfa"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png" />
+<img src="/assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png" />
 
 포트폴리오 최적화는 포트폴리오 내 자산을 특정 목표를 충족시키기 위해 할당하는 방법입니다. 예를 들어, 이는 리스크를 최소화하고 수익을 극대화하는 목표로 자산 포트폴리오를 구성하는 데 사용할 수 있습니다.
 

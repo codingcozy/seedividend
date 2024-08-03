@@ -1,7 +1,7 @@
 ---
 title: "프라이빗 데이터를 활용한 Amazon Bedrock 지식 베이스 구축 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png"
+coverImage: "/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png"
 date: 2024-07-07 19:23
 ogImage:
   url: /assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png
@@ -10,7 +10,7 @@ originalTitle: "Amazon Bedrock Knowledge Bases with Private Data"
 link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-private-data-7685d04ef396"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png" />
+<img src="/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png" />
 
 ## 서문
 
@@ -25,17 +25,17 @@ link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-p
 
 이 기사에서는 Amazon Bedrock Knowledge Bases에 대해 이야기하고, 최신 비공개 회사 정보로 AI 모델을 장착하는 방법에 대해 얘기할 것입니다. 이를 통해 사용자들이 자체 사용자 정의 데이터로 AI를 활용할 수 있게 됩니다. 우리는 코드 예제와 관련된 AWS 아키텍처에 대해 설명할 것입니다.
 
-![이미지](/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_1.png)
+![이미지](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_1.png)
 
 우리의 예시에서는 'LJ Medical Center'라는 허구의 회사를 위한 사용 사례에 대해 이야기할 것입니다. 여기서 우리의 접수 직원들이 회사 정보를 질의하기 위해 AI 모델을 사용할 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_2.png)
+![이미지](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_2.png)
 
 <div class="content-ad"></div>
 
 접대 직원은 자연어를 사용하여 사설 데이터를 쿼리할 수 있습니다. 예를 들어, 의료 분야에서 지불 지연에 대한 정책이 무엇인지 묻는 것이 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_3.png)
+![이미지](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_3.png)
 
 아래에 TypeScript로 작성된 전체 코드 예제와 AWS CDK를 찾을 수 있습니다:
 
@@ -43,7 +43,7 @@ link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-p
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_4.png" />
+<img src="/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_4.png" />
 
 # 아마존 베드락은 무엇인가요? 🤖
 
@@ -58,7 +58,7 @@ link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-p
 - FMs — Foundational Models.
 - RAG — Retrieval Augmented Generation.
 
-![이미지](/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_5.png)
+![이미지](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_5.png)
 
 <div class="content-ad"></div>
 
@@ -86,7 +86,7 @@ link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-p
 
 데이터 검색을 개선하기 위해 문서를 작은 세그먼트로 나누어 임베딩으로 변환한 후 벡터 인덱스에 저장하여 원본 문서와의 연결을 유지합니다. 이러한 임베딩은 데이터 원본에서 효율적인 쿼리 일치를 위한 의미 유사성 비교를 가능하게 합니다. 이 과정은 첨부된 이미지에 설명되어 있습니다.
 
-![image](/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_6.png)
+![image](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_6.png)
 
 ✔️ 런타임 실행
 
@@ -94,7 +94,7 @@ link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-p
 
 실시간으로 모델은 사용자의 쿼리를 벡터로 변환하고 의미적으로 유사한 청크를 찾기 위해 벡터 인덱스를 탐색합니다. 이러한 청크들은 사용자 프롬프트를 보강하는 데 사용되고, 그 후에 모델로 전송되어 응답을 생성합니다. 이 프로세스는 아래 이미지에서 RAG의 실행 중인 작업을 보여줍니다.
 
-![RAG의 실행 중인 작업](/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_7.png)
+![RAG의 실행 중인 작업](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_7.png)
 
 ✔️ 데이터 동기화
 
@@ -108,7 +108,7 @@ link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-p
 
 자, 이제 Amazon Bedrock의 지식 베이스에 대해 심도있는 탐구를 했고, 이론적으로 어떻게 작동하는지 이해했으니, 이제 이 글에서 무엇을 만드는지 살펴보겠습니다:
 
-![Amazon Bedrock Knowledge Bases with Private Data](/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_8.png)
+![Amazon Bedrock Knowledge Bases with Private Data](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_8.png)
 
 <div class="content-ad"></div>
 
@@ -356,7 +356,7 @@ postman/Bedrock Knowledge Bases.postman_collection.json 파일을 사용하여 �
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_9.png)
+![이미지](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_9.png)
 
 함께 소통하고 싶어요! 아래 링크에서 저와 연계해 주세요:
 

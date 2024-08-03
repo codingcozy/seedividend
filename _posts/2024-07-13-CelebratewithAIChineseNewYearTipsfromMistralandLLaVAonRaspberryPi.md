@@ -1,10 +1,10 @@
 ---
 title: "라즈베리 파이에서 Mistral과 LLaVA로 AI와 함께 중국 설날 즐기는 팁 10가지"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_0.png"
+coverImage: "/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_0.png"
 date: 2024-07-13 19:47
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_0.png
+  url: /assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_0.png
 tag: Tech
 originalTitle: "Celebrate with AI: Chinese New Year Tips from Mistral and LLaVA on Raspberry Pi"
 link: "https://medium.com/towards-data-science/celebrate-with-ai-chinese-new-year-tips-from-mistral-and-llava-on-raspberry-pi-ffef598ecf30"
@@ -23,7 +23,7 @@ link: "https://medium.com/towards-data-science/celebrate-with-ai-chinese-new-yea
 
 시작해 봅시다!
 
-![image](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_0.png)
+![image](/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_0.png)
 
 ## 하드웨어 전제 조건
 
@@ -61,7 +61,7 @@ SD 카드를 통해 라즈베리 파이를 부팅하려면, 우선 라즈베리 
 
 그 사용자 정의 설정을 마무리하면 아래에서 보여주는 대로 SD 카드를 플래시할 수 있어요.
 
-![화면 캡처](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_1.png)
+![화면 캡처](/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_1.png)
 
 <div class="content-ad"></div>
 
@@ -70,7 +70,7 @@ SD 카드를 통해 라즈베리 파이를 부팅하려면, 우선 라즈베리 
 
 SD 카드를 준비한 후 라즈베리 파이에 삽입할 수 있습니다. 전원을 켜고 몇 분을 기다리면 익숙한 리눅스 (데비안) 데스크톱 화면이 화면에 나타납니다. 사용하기 쉬운 깨끗하고 간단한 UI로 이 점을 감사히 여깁니다.
 
-<img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_3.png" />
+<img src="/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_3.png" />
 
 
 <div class="content-ad"></div>
@@ -84,7 +84,7 @@ SSH 연결 없이 Raspberry Pi에서 아래 모든 몤령을 직접 실행하려
 ifconfig
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_4.png)
+![이미지](/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_4.png)
 
 <div class="content-ad"></div>
 
@@ -104,7 +104,7 @@ sudo apt-get update && sudo apt-get upgrade
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_5.png)
+![이미지](/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_5.png)
 
 도커 설치를 몇 가지 간단한 명령어로 안내해 드리겠습니다. 먼저 라즈베리 파이에 Docker를 설치할 적절한 스크립트를 다운로드합니다. 다음 명령어를 사용하여 설치 스크립트를 다운로드하세요:
 
@@ -121,7 +121,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 
-![image](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_6.png)
+![image](/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_6.png)
 
 설치 후에는 일반 사용자를 Docker 그룹에 추가하는 것이 좋습니다. 이렇게하면 루트 액세스 없이도 Docker 명령을 실행할 수 있습니다.
 
@@ -152,7 +152,7 @@ ssh my_user_name@raspberry_pi_ip_adress
 
 다음 스크린 캡처에서 확인할 수 있듯이 도커가 올바르게 설치되었으며 루트 권한이 없는 사용자에 대해 실행됩니다.
 
-<img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_7.png" />
+<img src="/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_7.png" />
 
 # Ollama, Mistral AI 및 LLaVA 설치하기
 
@@ -175,14 +175,14 @@ Ollama를 설치하려면 먼저 다음 명령을 실행하여 Ollama를 다운�
 curl https://ollama.ai/install.sh | sh
 ```
 
-<img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_8.png" />
+<img src="/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_8.png" />
 
 Ollama를 설치한 후에는 Raspberry의 웹 브라우저에서 http://127.0.0.1:11434/을 방문하여 작동 여부를 확인하세요. 기본적으로 포트 번호를 사용하는데, 사용자 설정에 따라 다를 수 있습니다. 기본 포트 번호는 11434입니다.
 
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_9.png)
+![이미지](/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_9.png)
 
 ## Mistral AI 설치하기
 
@@ -195,11 +195,11 @@ ollama run mistral
 <div class="content-ad"></div>
 
 
-![링크 텍스트](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_10.png)
+![링크 텍스트](/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_10.png)
 
 미스트럴 AI 모델 다운로드를 완료하면 명령줄에서 LLM 모델에 직접 질문할 수 있습니다. 여기서 제가 물었던 질문은 "2024년 중국 새해는 언제인가요?" 이었고, 중국 새해가 2월 10일 토요일에 시작됨을 정확히 알아냈습니다.
 
-![링크 텍스트](/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_11.png)
+![링크 텍스트](/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_11.png)
 
 ## LLaVA 설치
 
@@ -212,7 +212,7 @@ ollama run mistral
 ollama run llava
 ```
 
-<img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_12.png" />
+<img src="/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_12.png" />
 
 ## Ollama 웹 UI 설치
 
@@ -230,7 +230,7 @@ docker run -d --network=host -v ollama-webui:/app/backend/data -e OLLAMA_API_BAS
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_13.png" />
+<img src="/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_13.png" />
 
 웹 UI 도커가 실행되면 이제 라즈베리 파이 UI로 돌아가서, 도커에서 웹 UI를 시작한 후 http://localhost:8080을 방문할 수 있습니다.
 
@@ -240,7 +240,7 @@ Ollama 웹 UI를 http://localhost:8080을 통해 열었을 때, 처음 해야 �
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_14.png" />
+<img src="/assets/img/2024-07-13-CelebratewithAIChineseNewYearTipsfromMistralandLLaVAonRaspberryPi_14.png" />
 
 Ollama 웹 UI에 로그인하고 처음 화면을 확인해 보았습니다. 이미 Mistal AI와 LLaVA 두 개의 AI 모델을 다운로드했기 때문에 원하는 모델을 직접 선택할 수 있습니다.
 

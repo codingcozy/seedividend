@@ -1,7 +1,7 @@
 ---
 title: "E-도서관 데이터베이스 설계, 핵심 요약"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_0.png"
+coverImage: "/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_0.png"
 date: 2024-07-07 21:44
 ogImage:
   url: /assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@mesinketikrusak/e-library-database-designing-in-a-nut
 
 내가 이것을 쓰기 전에, 팝컬쳐 특히 원피스에 너무 많은 선호를 준 것에 대해 죄송합니다. 강조해야 할 특정한 것이 하나 있거든요. 오하라 섬과 그 도서관에 관한 것입니다.
 
-![이미지](/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_0.png)
+![이미지](/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_0.png)
 
 여기서 무슨 일이 있었는지에 대해 너무 많이 이야기하고 싶지 않겠습니다. 이 기사의 초점은 책에 있습니다. 어떻게 디자인하고 관리하며 관련 정보를 수집하는지 등의 것이요. 그러나 이 기사에서는 컴퓨터의 도움을 받아서 이 작업을 잘 할 겁니다. 여전히 책들과 다루긴 하지만, 지난 큰 도서관과의 추악한 역사처럼 이번에는 이 책들이 쉽게 태울 수 없어요. 그러니 시작해봅시다.
 
@@ -42,11 +42,11 @@ link: "https://medium.com/@mesinketikrusak/e-library-database-designing-in-a-nut
 
 그리고 이후에 전자 도서관 시스템을 위한 표를 만들고, 주요 및 외래 키를 정의하여 그들의 관계를 확립할 수 있습니다. 아래 그림은 저가 만든 개체 관계 다이어그램(ERD)이며, 각 표에 대한 설명이 포함되어 있습니다. 전체로 10개의 표가 있습니다.
 
-![E-Library ERD](/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_1.png)
+![E-Library ERD](/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_1.png)
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_2.png)
+![Image](/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_2.png)
 
 Libraries table
 
@@ -276,7 +276,7 @@ ORDER BY total_book_collections DESC
 
 그리고 아래는 결과입니다:
 
-![이미지](/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_3.png)
+![이미지](/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_3.png)
 
 Baca Di Tebet은 책 수집량을 기준으로 하면 가장 많이 모은 도서관이며, Taman Baca Amin은 가장 작은 책 모음을 가진 1196 대비 1304개를 수집했습니다.
 
@@ -306,7 +306,7 @@ order by amount_of_borrow desc limit 10
 
 그런 다음 우리가 결과물로 다음을 받았어요:
 
-<img src="/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_4.png" />
+<img src="/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_4.png" />
 
 <div class="content-ad"></div>
 
@@ -342,7 +342,7 @@ ORDER BY kb.quantity_available DESC
 
 이후 다음이 결과로 나타납니다:
 
-![이미지](/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_5.png)
+![이미지](/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_5.png)
 
 푸스타카 코노하에는 카테고리 소설 - 로맨스에 속하는 131개의 컬렉션이 있습니다.
 
@@ -371,7 +371,7 @@ ORDER BY ab.quantity_available
 
 위 쿼리를 실행한 결과는 아래와 같습니다:
 
-![이미지](/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_6.png)
+![이미지](/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_6.png)
 
 위 결과를 보면, 수라바야에서 볼 수 있는 사회과학 분야의 도서 총 174권이 있습니다.
 
@@ -411,7 +411,7 @@ limit 10
 
 그런 다음 다음을 결과로 받았습니다:
 
-<img src="/TIL/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_7.png" />
+<img src="/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_7.png" />
 
 <div class="content-ad"></div>
 

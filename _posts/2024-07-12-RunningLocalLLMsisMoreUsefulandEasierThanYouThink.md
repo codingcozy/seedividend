@@ -1,17 +1,17 @@
 ---
 title: "로컬 LLMs 실행이 생각보다 더 유용하고 쉬운 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_0.png"
+coverImage: "/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_0.png"
 date: 2024-07-12 19:27
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_0.png
+  url: /assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_0.png
 tag: Tech
 originalTitle: "Running Local LLMs is More Useful and Easier Than You Think"
 link: "https://medium.com/towards-data-science/running-local-llms-is-more-useful-and-easier-than-you-think-f735631272ad"
 ---
 
 
-![image](/TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_0.png)  
+![image](/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_0.png)  
 
 # #1 로컬 LLM을 사용해야 하는 이유  
 
@@ -45,7 +45,7 @@ Ollama는 그 자체로는 빈 껍데기에 불과하며 작동하려면 LLM이 
 
 설치 프로세스에 들어가기 전에 사용 가능한 모델들을 살펴보겠습니다:
 
-![](/TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_1.png)
+![](/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_1.png)
 
 그리고 더 많은 모델이 있습니다!
 
@@ -53,7 +53,7 @@ Ollama는 그 자체로는 빈 껍데기에 불과하며 작동하려면 LLM이 
 
 이 글에서는 Meta사의 최신 모델인 Llama 3에 초점을 맞추어 놀라운 성능을 약속하는 이 모델이 이 플랫폼에서 가장 인기 있는 모델이라고 합니다. 이 글을 작성하는 시점에 이 모델은 440만 회 이상의 다운로드를 기록하고 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_2.png)
+![이미지](/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_2.png)
 
 다음 단계에서는 컴퓨터에 Ollama를 설치하고 Llama3로 공급하여 마침내 그 모델을 ChatGPT처럼 사용하는 방법을 보여줍니다.
 
@@ -76,13 +76,13 @@ STEP 3/4/5:
 <div class="content-ad"></div>
 
 
-![Running Local LLM is More Useful and Easier Than You Think](/TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_5.png)
+![Running Local LLM is More Useful and Easier Than You Think](/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_5.png)
 
 And this article could stop right here. A few clicks and a line of code later, here we are running an LLM locally!
 
 You can ask it anything, like explaining the differences between the 8 billion and 70 billion parameters versions of Llama 3.
 
-![Running Local LLM is More Useful and Easier Than You Think](/TIL/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_6.png)
+![Running Local LLM is More Useful and Easier Than You Think](/assets/img/2024-07-12-RunningLocalLLMsisMoreUsefulandEasierThanYouThink_6.png)
 
 
 <div class="content-ad"></div>

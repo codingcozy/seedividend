@@ -1,7 +1,7 @@
 ---
 title: "React와 TypeScript로 Google Analytics 사용 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-GoogleAnalyticsWithReactTypescript_0.png"
+coverImage: "/assets/img/2024-07-07-GoogleAnalyticsWithReactTypescript_0.png"
 date: 2024-07-07 21:58
 ogImage:
   url: /assets/img/2024-07-07-GoogleAnalyticsWithReactTypescript_0.png
@@ -10,7 +10,7 @@ originalTitle: "Google Analytics With React Typescript"
 link: "https://medium.com/@itay.ey/google-analytics-with-react-typescript-a405da7a3fc3"
 ---
 
-<img src="/TIL/assets/img/2024-07-07-GoogleAnalyticsWithReactTypescript_0.png" />
+<img src="/assets/img/2024-07-07-GoogleAnalyticsWithReactTypescript_0.png" />
 
 ## GA 란?!!
 

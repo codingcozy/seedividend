@@ -1,7 +1,7 @@
 ---
 title: "인과 검증과 인과 추론에서 V-구조의 중요성과 그 역할 이해하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_0.png"
+coverImage: "/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_0.png"
 date: 2024-07-09 20:40
 ogImage:
   url: /assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_0.png
@@ -10,7 +10,7 @@ originalTitle: "Understanding V-Structures and the Critical Role They Play in Ca
 link: "https://medium.com/towards-data-science/understanding-v-structures-and-the-role-they-play-in-causal-validation-and-causal-infrence-7e7910200f9f"
 ---
 
-<img src="/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_0.png" />
+<img src="/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_0.png" />
 
 # 소개
 
@@ -50,7 +50,7 @@ DAG(Directed Acyclic Graph) 내에서 특정 종류의 결합인 v-structure은 
 
 <div class="content-ad"></div>
 
-![Understanding V-Structures and the Critical Role They Play in Causal Validation and Causal Inference](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_1.png)
+![Understanding V-Structures and the Critical Role They Play in Causal Validation and Causal Inference](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_1.png)
 
 X는 "치료" 또는 원인이고 Y는 "결과" 또는 효과이며 인과 추론의 목표는 다른 변수들의 효과와 독립적으로 치료가 결과에 미치는 진정하고 고립된 효과를 확인하는 것입니다.
 
@@ -66,13 +66,13 @@ X는 "치료" 또는 원인이고 Y는 "결과" 또는 효과이며 인과 추�
 
 다음은 데이터를 생성하기 위해 선택된 가중치입니다 -
 
-![Data Weightings](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_2.png)
+![Data Weightings](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_2.png)
 
 <div class="content-ad"></div>
 
 다음은 각 노드에 대한 하나의 방정식이 생성되는 구조 방정식 집합을 얻게 됩니다 -
 
-![structural equations](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_3.png)
+![structural equations](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_3.png)
 
 설명을 완성하기 위해서는 외생 노드/변수와 내생 변수/노드 사이의 구분을 이해하는 것만으로 충분합니다. 외생 노드는 수용하는 인과 화살표가 없습니다. 따라서 위 예제 DAG에서 외생 변수는 Z1과 Z2이며 내생 변수는 X, W, Y, 그리고 Z3입니다. 외생 변수는 값이 무작위로 할당되어야 하며, 일반적으로 분포 규칙을 따라 할당됩니다.
 
@@ -89,7 +89,7 @@ X는 "치료" 또는 원인이고 Y는 "결과" 또는 효과이며 인과 추�
 
 이것은 합성으로 생성된 데이터의 미리보기입니다…
 
-![이미지](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_4.png)
+![이미지](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_4.png)
 
 # 인과성의 방향을 감지하는 것의 겉으로는 불가능함
 
@@ -99,7 +99,7 @@ X는 "치료" 또는 원인이고 Y는 "결과" 또는 효과이며 인과 추�
 
 그 토론에서는 "포크" 접점의 탐구와 시작 노드에서 끝 노드까지 메시지가 전달되는 방법에 대해 다루었습니다. 아래 DAG에서 X에서 Y로 Z3를 통해 하이라이트된 접점을 고려해보세요...
 
-![DAG 이미지](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_5.png)
+![DAG 이미지](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_5.png)
 
 분명히 "메시지"가 Z3에서 Y로 흐를 수 있습니다(Z3의 변화가 Y의 변화를 일으킵니다) 왜냐하면 Y = 3 x Z3입니다. 하지만 접점에 대한 기사에서 설명한대로 X에서도 Z3로 메시지가 흐를 수 있다는 것을 알아두세요.
 
@@ -121,7 +121,7 @@ V-구조를 사용한 문헌에서 해결책의 깜박거림이 있지만, 그�
 
 교차로에 관한 글에서는 시작 노드와 끝 노드가 중간 노드를 가리키는 교차로들을 설명했으며 예시 DAG의 모든 교차로들을 식별하는 것은 쉽다고 합니다...
 
-![이미지](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_6.png)
+![이미지](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_6.png)
 
 <div class="content-ad"></div>
 
@@ -129,7 +129,7 @@ V-구조를 사용한 문헌에서 해결책의 깜박거림이 있지만, 그�
 
 이 아이디어는 통계식으로 표현할 수 있습니다…
 
-![링크](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_7.png)
+![링크](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_7.png)
 
 이 표현은 위의 최종 콜라이더를 살펴보고 다음을 진술하고 있습니다.
 
@@ -159,7 +159,7 @@ V-구조를 사용한 문헌에서 해결책의 깜박거림이 있지만, 그�
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_8.png" />
+<img src="/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_8.png" />
 
 Y가 X와 독립적일 수 없는 것은 직관적으로 명백합니다. 그들 사이에 콜라이더가 있더라도 "메시지"가 X에서 Y로 직접 흘러갈 수 있기 때문이며, 이 직관적인 결론은 위의 코드를 다시 실행하여 증명할 수 있습니다...
 
@@ -176,13 +176,13 @@ Y가 X와 독립적일 수 없는 것은 직관적으로 명백합니다. 그들
 
 우리의 예제 DAG를 검토해 보면, 5개의 콜라이더 중 2개가 "인접"하며 데이터에서 신뢰할 수 없이 감지할 수 없습니다...
 
-<img src="/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_9.png" />
+<img src="/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_9.png" />
 
 이로써 이제 근접성을 나타내지 않는 3개의 콜라이더가 남아 있습니다(이를 이제 v-구조체로 알고 있습니다) 이론상 이러한 콜라이더를 데이터에서 의존성 테스트를 사용하여 감지할 수 있습니다...
 
 <div class="content-ad"></div>
 
-![Here is the output table for the test harness](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_11.png)
+![Here is the output table for the test harness](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_11.png)
 
 위의 Python 코드에서 이미 데이터에서 1번째 v-구조 Z1 -`Z3`- Z2가 식별될 수 있다는 것이 보여졌습니다. 그렇다면 나머지 두 개에 대해서는 어떨까요?
 
@@ -196,7 +196,7 @@ Y가 X와 독립적일 수 없는 것은 직관적으로 명백합니다. 그들
 
 W - Y - Z3에서의 콜라이더를 살펴보고, 시작 노드 W와 끝 노드 Z3 사이의 백도어 경로를 검토해 봅시다...
 
-![이미지](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_12.png)
+![이미지](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_12.png)
 
 <div class="content-ad"></div>
 
@@ -227,7 +227,7 @@ W -`Y`- Z2는 W `- X `- Z3 -` Z2로부터 백도어 경로로 인해 정확히 �
 
 알고리즘의 첫 단계는 DAG(Directed Acyclic Graph; 방향성이 있는 비순환 그래프)의 모든 간선을 반복할 것입니다. 이는 다음과 같이 시각화될 수 있습니다...
 
-![DAG](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_13.png)
+![DAG](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_13.png)
 
 ## 단계 2: 현재 간선을 뒤집어 새 DAG 만들기
 
@@ -235,7 +235,7 @@ W -`Y`- Z2는 W `- X `- Z3 -` Z2로부터 백도어 경로로 인해 정확히 �
 
 가정하에 여러분이 첫 번째 반복 단계에 있다고 가정합니다 (Z2 -` Z3의 엣지를 뒤집는 경우). 이 엣지를 역전시킨 결과, 원본 및 뒤집기로 인해 생성된 변형 2개의 DAGs가 생깁니다...
 
-<img src="/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_14.png" />
+<img src="/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_14.png" />
 
 ## 단계 3: V-구조가 파괴된 경우...
 
@@ -262,7 +262,7 @@ v-structure found in data: True
 
 첫 번째 반복 즉, 엣지 Z2 -` Z3의 반전은 새로운 v-구조를 만들지 않기 때문에, 이제 X -` W 엣지를 반전하는 두 번째 반복으로 빨리 진행하겠습니다...
 
-![이미지](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_15.png)
+![이미지](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_15.png)
 
 <div class="content-ad"></div>
 
@@ -303,7 +303,7 @@ X -` W를 반전한 결과 새로운 DAG에 두 개의 v-structure가 생성되�
 
 첫 번째 단계, 즉 생성된 v-structures를 고려하는 단계가 예상대로 작동합니다...
 
-![image](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_16.png)
+![image](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_16.png)
 
 이 새로운 v-structure는 데이터에서 감지되지 않기 때문에 알고리즘의 이 단계는 데이터가 현재 DAG와 일치한다고 정확히 예측합니다.
 
@@ -386,7 +386,7 @@ X -` W를 반전한 결과 새로운 DAG에 두 개의 v-structure가 생성되�
 
 기본 DAG
 
-![기본 DAG 이미지](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_18.png)
+![기본 DAG 이미지](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_18.png)
 
 저는 "삼각형 DAG", "사다리꼴 DAG", "E-모양 DAG"라고 하는 추가 테스트 DAG들이 모두 추가 힌트 없이 100%의 테스트 케이스에서 추가 테스트를 통과했다고 말할 수 있습니다.
 
@@ -394,7 +394,7 @@ X -` W를 반전한 결과 새로운 DAG에 두 개의 v-structure가 생성되�
 
 복잡한 DAG
 
-![Complex DAG](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_19.png)
+![Complex DAG](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_19.png)
 
 이 더 복잡한 DAG는 테스트 케이스의 90%를 통과하지만 약 10%에서 Z - W 및 Uw - W 엣지가 잘못된 방향으로 식별된다.
 
@@ -404,7 +404,7 @@ X -` W를 반전한 결과 새로운 DAG에 두 개의 v-structure가 생성되�
 
 DAG 복잡도 증가하기
 
-![DAG 복잡도 증가하기](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_20.png)
+![DAG 복잡도 증가하기](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_20.png)
 
 추가 노드/변수 (Ut 및 T) 및 추가 경로를 추가하여 복잡성을 증가하면 테스트 결과가 저하될 수 있습니다.
 
@@ -416,7 +416,7 @@ DAG 복잡도 증가하기
 
 최대 DAG 복잡성
 
-![image](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_21.png)
+![image](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_21.png)
 
 마지막 테스트는 9개의 노드/변수, 16개의 엣지, 모든 유형의 접점 및 관측되지 않은 혼입 변수 (노드 C)를 포함한 가장 복잡한 예제 DAG입니다.
 
@@ -446,7 +446,7 @@ DAG 복잡도 증가하기
 
 다음은 알고리즘의 테스트 결과입니다...
 
-![Test Results](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_22.png)
+![Test Results](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_22.png)
 
 이는 매우 유망한 시작입니다. 알고리즘은 데이터와 일치하지 않는 DAG를 올바르게 식별했으며 어떤 엣지가 잘못되었는지도 정확히 식별했습니다!
 
@@ -466,7 +466,7 @@ Z1 -` X, Z2 -` Y, Z3 -` Y 엣지는 테스트되지 않았음을 유의해 주�
 - Reverse Z2 -` Z3
 - Reverse Z3 -` X
 
-![image](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_23.png)
+![image](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_23.png)
 
 결과는 혼재되어 있습니다. 이 알고리즘은 데이터의 유효한 표현이 아님을 올바르게 식별하고, 테스트 케이스의 100%에서 의도적으로 반전된 엣지를 선택합니다.
 
@@ -509,7 +509,7 @@ V-구조를 이해하는 데서부터 관련 데이터셋과 비교했을 때 DA
 
 표준 예제 DAG
 
-![image](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_24.png)
+![image](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_24.png)
 
 먼저 테스트할 DAG는 이 기사의 주요 내용으로 사용된 우리의 옛 친구입니다.
 
@@ -545,7 +545,7 @@ V-구조를 이해하는 데서부터 관련 데이터셋과 비교했을 때 DA
 
 다음은 트라페조이드 DAG에 대한 정보입니다.
 
-![Trapezium DAG](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_25.png)
+![Trapezium DAG](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_25.png)
 
 트라페조이드 DAG에는 3개의 단일 엣지 반전이 있습니다(즉, 다른 경우는 acyclic DAG를 생성합니다). 시험 결과는 다음과 같습니다.
 
@@ -567,7 +567,7 @@ E-자형태 DAG
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_26.png)
+![image](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_26.png)
 
 7개의 가능한 단일 엣지 반전 테스트가 있고, 테스트 결과는 다음과 같습니다...
 
@@ -587,7 +587,7 @@ E-자형태 DAG
 
 The Complex Exogenous DAG
 
-![Complex Exogenous DAG](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_27.png)
+![Complex Exogenous DAG](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_27.png)
 
 <div class="content-ad"></div>
 
@@ -619,7 +619,7 @@ The Complex Exogenous DAG
 
 슈퍼 복잡한 현실 세계 DAg
 
-![image](/TIL/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_28.png)
+![image](/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_28.png)
 
 슈퍼 복잡한 DAG는 B -` X, E-` X 및 G -` X로 테스트되기 전에 힌트가 있었습니다.
 

@@ -1,17 +1,17 @@
 ---
 title: "MLOps - 쉽게 배우는 2024년 Mlflow Pipelines 기초"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png"
+coverImage: "/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png"
 date: 2024-07-12 19:47
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png
+  url: /assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png
 tag: Tech
 originalTitle: "MLOps — A Gentle Introduction to Mlflow Pipelines"
 link: "https://medium.com/towards-data-science/mlops-a-gentle-introduction-to-mlflow-pipelines-c7bcec88a6ec"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png" />
+<img src="/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png" />
 
 # 소개
 
@@ -139,7 +139,7 @@ mlflow run . -P data_url="https://raw.githubusercontent.com/datasciencedojo/data
 
 터미널 로그에서 처음에 Mlflow가 conda.yml을 사용하여 개발 환경을 재생성하려고 시도하고(첫 번째 시도에 시간이 걸릴 수 있음) 그런 다음 코드를 실행합니다. 결과적으로 데이터셋이 다운로드되는 것을 볼 수 있어야 합니다!
 
-![이미지](/TIL/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_2.png)
+![이미지](/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_2.png)
 
 <div class="content-ad"></div>
 
@@ -147,20 +147,20 @@ mlflow run . -P data_url="https://raw.githubusercontent.com/datasciencedojo/data
 
 좋아요, 이제 한 구성 요소로 구성된 MLflow 프로젝트를 만드는 기초가 마련되었습니다. 하지만 전체 파이프라인을 어떻게 개발할까요? MLflow에서 파이프라인이란 다른 MLflow 프로젝트로 이뤄진 것으로 구성됩니다!
 
-![이미지](/TIL/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_3.png)
+![이미지](/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_3.png)
 
 루트 디렉토리에서 여러 구성 요소로 파이프라인을 생성하고 싶으므로 각 구성 요소용 서브디렉토리를 두 개 만들겠습니다. 다음 이미지에서 확인할 수 있습니다.
 
 <div class="content-ad"></div>
 
 
-![Step 1](/TIL/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_4.png)
+![Step 1](/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_4.png)
 
 간단하게 말하자면, 데이터 다운로드 및 데이터 정리 두 단계만 실행합니다. 물론, 실제 파이프라인은 훈련, 추론 등 훨씬 많은 단계로 구성됩니다.
 
 위 다이어그램에서 각 구성 요소/단계는 자체적으로 3개의 파일로 설명된 MLflow 프로젝트입니다. 전체 구조는 다음 이미지에서 확인할 수 있습니다.
 
-![Step 2](/TIL/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_5.png)
+![Step 2](/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_5.png)
 
 
 <div class="content-ad"></div>
@@ -283,7 +283,7 @@ mlflow run . -P steps="data_download,data_cleaning" -P data_url="https://raw.git
 
 모든 단계가 올바르게 수행될 것이며, 여러분의 디렉토리에 두 개의 새 CSV 파일이 생길 것입니다! 🚀
 
-![image](/TIL/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_6.png)
+![image](/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_6.png)
 
 # 결론
 

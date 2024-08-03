@@ -1,7 +1,7 @@
 ---
 title: "딥 뉴럴 네트워크 파인튜닝의 수학적 원리"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_0.png"
+coverImage: "/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_0.png"
 date: 2024-07-09 19:56
 ogImage:
   url: /assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_0.png
@@ -10,7 +10,7 @@ originalTitle: "The Math Behind Fine-Tuning Deep Neural Networks"
 link: "https://medium.com/towards-data-science/the-math-behind-fine-tuning-deep-neural-networks-8138d548da69"
 ---
 
-![이미지](/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_0.png)
+![이미지](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_0.png)
 
 머신 러닝에서는 몇 가지 모델을 시도해 가장 성능이 좋은 것을 선택하고 몇 가지 설정을 조정하여 그나마 성공할 수 있을지도 모릅니다. 그러나 딥러닝은 그런 룰에 맞지 않습니다. 신경망을 실험해 본 적이 있다면, 성능이 꽤 불안정할 수 있다는 것을 눈치챌 수 있습니다. 어쩌면 로지스틱 회귀와 같이 간단한 모델이 멋진 200층 심층 신경망을 이길 수도 있습니다.
 
@@ -325,11 +325,11 @@ class Trainer:
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_1.png" />
+<img src="/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_1.png" />
 
 그런 다음, 훈련이 끝난 후 손실을 그래프로 그려볼 수 있습니다:
 
-<img src="/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_2.png" />
+<img src="/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_2.png" />
 
 훈련 및 검증 손실이 꾸준히 감소하는 것을 보는 것은 좋은 신호입니다. 이는 에포크 수를 늘리고 학습률 스텝 크기를 증가시킨다면 잘 작동할 수 있다는 신호일 수 있습니다. 그러나 반대로 손실이 감소한 후 급상승하는 것을 관찰하면, 학습률 스텝 크기를 줄이는 것이 명백한 신호입니다. 그렇지만 재미있는 점이 있습니다: 에포크 0부터 50까지 우리의 손실이 어떤 이상한 일이 일어나고 있습니다. 우리는 그 부분을 확인하기 위해 다시 살펴보겠습니다.
 
@@ -442,7 +442,7 @@ Glorot 초기화
 
 글로럿 초기화에서의 가중치는 균일 분포나 정규 분포로 생성할 수 있습니다. 균일 분포를 사용하는 경우, 가중치는 [-a, a] 범위로 초기화됩니다. 여기서 a 값은:
 
-![식](/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_3.png)
+![식](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_3.png)
 
 ```js
 def glorot_uniform(self, fan_in, fan_out):
@@ -458,7 +458,7 @@ weights = glorot_uniform(layers[i - 1], layers[i])
 
 정상 분포에 대한 정보입니다:
 
-![](/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_4.png)
+![](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_4.png)
 
 ```js
 def glorot_normal(self, fan_in, fan_out):
@@ -485,11 +485,11 @@ Glorot 초기화와 마찬가지로, 가중치는 균등 분포 또는 정규 �
 
 균일 분포를 위해 가중치는 [-a, a] 범위를 사용하여 초기화됩니다. 여기서 a는 다음과 같이 계산됩니다:
 
-![a 계산 공식](/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_5.png)
+![a 계산 공식](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_5.png)
 
 따라서 가중치 W는 균일 분포에서 추출됩니다:
 
-![균일 분포에서 가중치 추출 공식](/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_6.png)
+![균일 분포에서 가중치 추출 공식](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_6.png)
 
 <div class="content-ad"></div>
 
@@ -503,7 +503,7 @@ weights = self.he_uniform(layers[i - 1], layers[i])
 
 일반 분포를 사용할 때, 가중치는 다음과 같은 수식에 따라 초기화됩니다:
 
-![수식](/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_7.png)
+![수식](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_7.png)
 
 여기서 W는 가중치를, N은 정규 분포를, 0은 분포의 평균을, 그리고 2/n은 분산을 나타냅니다. n-in은 레이어로 들어오는 입력 단위의 수를 나타냅니다.
 
@@ -592,7 +592,7 @@ weights = self.he_normal(layers[i - 1], layers[i])
 
 Dropout은 신경망에서 오버피팅을 방지하기 위해 설계된 정규화 기술로, 훈련 단계에서 네트워크에서 임시로 그리고 무작위로 유닛(뉴런)과 해당 연결을 제거함으로써 사용합니다. 이 방법은 Srivastava 및 그 동료들이 2014 년 논문에서 고안한 간단하면서도 효과적인 방법으로 견고한 신경망을 훈련하는 데 사용됩니다.
 
-![이미지](/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_8.png)
+![이미지](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_8.png)
 
 각 훈련 반복에서 각 뉴런(입력 단위 포함되지만 보통 출력 단위는 제외)은 일시적으로 "드랍아웃"될 확률 p를 가집니다. 이는 해당 뉴런이 이 전방 및 역방향 패스 동안 완전히 무시된다는 것을 의미합니다. 이 확률 p은 "드랍아웃 비율"로 불리며 성능을 최적화하기 위해 조절할 수 있는 하이퍼파라미터입니다. 예를 들어, 0.5의 드랍아웃 비율은 각 뉴런이 각 훈련 패스에서 계산에서 제외될 확률이 50% 라는 것을 의미합니다.
 
@@ -673,14 +673,14 @@ is_training 부울 플래그는 네트워크가 현재 훈련되고 있는지를
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_9.png" />
+<img src="/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_9.png" />
 
 gi는 기울기 벡터의 각 구성 요소를 나타냅니다.
 
 노름에 의한 클리핑
 이 방법은 각 기울기 구성 요소를 개별적으로 클리핑하는 대신, 일정 임계값을 초과하는 경우 전체 기울기를 조절합니다. 이렇게 하면 기울기의 방향을 보존한 채 크기가 지정된 한도를 초과하지 않도록 할 수 있습니다. 이는 모든 매개변수를 통해 업데이트의 상대적 방향을 유지하는 데 특히 유용하며, 값에 의한 클리핑보다 학습 과정에 더 유익할 수 있습니다.
 
-<img src="/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_10.png" />
+<img src="/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_10.png" />
 
 <div class="content-ad"></div>
 
@@ -797,7 +797,7 @@ class NeuralNetwork:
 학습 동태 관찰
 더 많은 레이어를 추가할 때 학습과 검증 손실을 모니터링하세요. 이 두 지표 사이에 차이가 발생하는 경우 — 학습 손실이 감소하지만 검증 손실이 그렇지 않을 때 — 오버피팅을 나타낼 수 있으며, 현재 깊이가 지나칠 수 있다는 것을 시사할 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_11.png)
+![이미지](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_11.png)
 
 <div class="content-ad"></div>
 

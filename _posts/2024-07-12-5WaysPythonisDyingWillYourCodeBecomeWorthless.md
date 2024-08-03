@@ -1,17 +1,17 @@
 ---
 title: "파이썬의 종말 코드를 쓸모없게 만들 5가지 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png"
+coverImage: "/assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png"
 date: 2024-07-12 19:55
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png
+  url: /assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png
 tag: Tech
 originalTitle: "5 Ways Python is Dying: Will Your Code Become Worthless?"
 link: "https://medium.com/python-in-plain-english/5-ways-python-is-dying-will-your-code-become-worthless-f59b5c84041b"
 ---
 
 
-![이미지](/TIL/assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png)
+![이미지](/assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png)
 
 정말이야. 아마도 온라인 포럼에서 봤을 그런 댓글들이나 늦은 밤에 마음속에 스며드는 의심들을 본 적이 있을 거야: '파이썬은 심각한 작업에는 너무 느리다', '그걸로 큰 것은 못 만든다', '진정한 프로그래머들은 자바를 사용해...' 조금 신경 쓰이는데, 그렇지 않니?
 

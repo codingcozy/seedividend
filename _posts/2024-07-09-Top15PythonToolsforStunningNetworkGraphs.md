@@ -1,7 +1,7 @@
 ---
 title: "환상적인 네트워크 그래프를 위한 최고의 15가지 Python 도구"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png"
+coverImage: "/assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png"
 date: 2024-07-09 14:53
 ogImage:
   url: /assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png
@@ -30,7 +30,7 @@ NetworkX는 네트워크 처리에 도움이 되는 파이썬 도구입니다. �
 
 <div class="content-ad"></div>
 
-![그래프 도구](/TIL/assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png)
+![그래프 도구](/assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png)
 
 - GitHub: https://github.com/networkx/networkx
 - Documentation: https://networkx.org

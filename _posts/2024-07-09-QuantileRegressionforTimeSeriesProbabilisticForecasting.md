@@ -1,7 +1,7 @@
 ---
 title: "시계열 확률 예측을 위한 분위 회귀 방법 "
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_0.png"
+coverImage: "/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_0.png"
 date: 2024-07-09 19:41
 ogImage:
   url: /assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_0.png
@@ -10,7 +10,7 @@ originalTitle: "Quantile Regression for Time Series Probabilistic Forecasting"
 link: "https://medium.com/dataman-in-ai/quantile-regression-for-time-series-probabilistic-forecasts-6fbd5ee298eb"
 ---
 
-![Quantile Regression for Time Series Probabilistic Forecasting](/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_0.png)
+![Quantile Regression for Time Series Probabilistic Forecasting](/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_0.png)
 
 가끔 우리는 유일한 확실한 것은 불확실함이라는 것을 듣습니다. 우리는 불확실성을 좋아하지 않습니다. "내일 날씨는 50% 폭염, 50% 허리케인일 것이다"라는 말을 듣고 싶지 않습니다. 그러나 반대로 불확실성을 양적으로 나타내기 위해 가능한 예측 범위를 요청하기도 합니다. 불확실성 속에서도 확실성을 원하는 건데요. 미래를 위해 계획을 세우는 데 도움을 주기 위해서입니다. 조직의 재정 계획을 수행 중이라고 상상해 봅시다. 두 가지 중 어느 것이 더 나을까요:
 
@@ -21,7 +21,7 @@ link: "https://medium.com/dataman-in-ai/quantile-regression-for-time-series-prob
 
 <div class="content-ad"></div>
 
-![Quantile Regression for Time Series Probabilistic Forecasting](/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_1.png)
+![Quantile Regression for Time Series Probabilistic Forecasting](/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_1.png)
 
 "Monte Carlo Simulation for Time Series Probabilistic Forecasts"에서 몬테카를로 시뮬레이션 기술을 배웠습니다. 양분위 회귀(Quantile regression)가 몬테카를로 시뮬레이션보다 어떤 장점을 가지고 있는지 알아보았습니다. 첫째로, 양분위 회귀는 예측 변수가 주어졌을 때 종속 변수의 조건부 양분위를 직접 추정합니다. 이는 몬테카를로 시뮬레이션에서와 같이 많은 가능한 결과를 생성하는 대신에 양분위 회귀는 종속 변수의 분포의 특정 양분위를 추정해줍니다. 이는 중앙값, 사분위 또는 극단적 양분위에서 예측 불확실성을 이해하는 데 특히 유용할 수 있습니다. 둘째로, 양분위 회귀는 예측 불확실성을 추정하기 위한 모델 기반 접근 방식을 제공합니다. 이는 관찰 데이터를 이용하여 변수 간의 관계를 추정하고, 이 관계를 기반으로 예측을 수행합니다. 반면에 몬테카를로 시뮬레이션은 입력 변수에 대한 확률 분포를 지정하고 무작위 샘플링을 통해 결과를 생성하는 데 의존합니다.
 
@@ -77,7 +77,7 @@ data = pd.read_csv(path + '/bike_sharing_daily.csv')
 data.tail()
 ```
 
-<img src="/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_2.png" />
+<img src="/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_2.png" />
 
 <div class="content-ad"></div>
 
@@ -94,7 +94,7 @@ plt.ylabel("수량")
 plt.show()
 ```
 
-![그림](/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_3.png)
+![그림](/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_3.png)
 
 모델링을 위해 매우 기본적인 데이터 준비를 할 거에요. NeuralProphet에서는 칼럼 이름을 “ds”와 “y”로 지정해야 해요. Prophet과 동일하죠.
 
@@ -140,7 +140,7 @@ metrics.tail()
 
 예측값은 "forecast" 데이터 프레임에 저장됩니다.
 
-![이미지](/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_4.png)
+![이미지](/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_4.png)
 
 위 데이터 프레임은 플로팅을 위한 모든 데이터 요소를 갖고 있습니다.
 
@@ -156,7 +156,7 @@ m.plot(
 
 아래와 같이 플롯이 표시됩니다. 예측 구간은 분위값으로 제공됩니다!
 
-<img src="/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_5.png" />
+<img src="/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_5.png" />
 
 분위 회귀에 의한 예측 구간과 OLS에 의한 신뢰 구간은 다릅니다.
 
@@ -164,7 +164,7 @@ m.plot(
 
 예측 구간이 인기를 얻으면, 분위수 회귀와 최소 자승법(OLS)에서의 신뢰 구간의 차이를 구별하는 것이 도움이 될 것입니다. 그림 (F)에서 좌측에는 선형 회귀를 그리고 우측에는 분위수 회귀를 표시했습니다.
 
-![그림](/TIL/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_6.png)
+![그림](/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_6.png)
 
 우선, 이들의 목표는 다릅니다:
 

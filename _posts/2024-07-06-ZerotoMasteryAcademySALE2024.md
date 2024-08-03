@@ -1,7 +1,7 @@
 ---
 title: "제로 투 마스터리 아카데미 2024 세일 정보"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-ZerotoMasteryAcademySALE2024_0.png"
+coverImage: "/assets/img/2024-07-06-ZerotoMasteryAcademySALE2024_0.png"
 date: 2024-07-06 02:30
 ogImage:
   url: /assets/img/2024-07-06-ZerotoMasteryAcademySALE2024_0.png

@@ -1,7 +1,7 @@
 ---
 title: "Nodejs 프로젝트에서 TypeScript 설정하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-TypeScriptsetupforNodejsproject_0.png"
+coverImage: "/assets/img/2024-07-07-TypeScriptsetupforNodejsproject_0.png"
 date: 2024-07-07 12:58
 ogImage:
   url: /assets/img/2024-07-07-TypeScriptsetupforNodejsproject_0.png
@@ -10,7 +10,7 @@ originalTitle: "TypeScript setup for Node.js project"
 link: "https://medium.com/@aleksei_golubev/typescript-setup-for-node-js-project-28699ed3f6d0"
 ---
 
-![이미지](/TIL/assets/img/2024-07-07-TypeScriptsetupforNodejsproject_0.png)
+![이미지](/assets/img/2024-07-07-TypeScriptsetupforNodejsproject_0.png)
 
 지난 몇 년 동안 저는 Angular를 사용하여 프런트엔드 애플리케이션을 작성해 왔는데, 이 기간 동안 TypeScript가 일반 JavaScript보다 강력함을 느꼈습니다. Svelte 앱을 구현할 때 Node.js 기반의 TypeScript를 사용하여 작은 백엔드 서비스도 개발했습니다. 이 작은 기사에서는 코딩 프로세스를 간소화하는 데 도움이 된 구성에 대해 설명하고 싶습니다.
 

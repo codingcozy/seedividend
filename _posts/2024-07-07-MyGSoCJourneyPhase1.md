@@ -1,7 +1,7 @@
 ---
 title: "내 GSoC 여정  1단계"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-MyGSoCJourneyPhase1_0.png"
+coverImage: "/assets/img/2024-07-07-MyGSoCJourneyPhase1_0.png"
 date: 2024-07-07 12:47
 ogImage:
   url: /assets/img/2024-07-07-MyGSoCJourneyPhase1_0.png
@@ -46,7 +46,7 @@ GSoC 참여자가 발표된 후 PictoPy에는 저 외에 두 명의 사람이 �
 
 2GB는 여전히 많은 것 같았어요. 우리가 필요한 모델이 약 80MB 크기면서도요. 그때 ONNX 형식에 대해 알게 되었어요. 이것은 큰 도움이 되었고, 우리는 대략 400MB의 가상 환경과 우리가 사용하는 모델 크기를 더한 객체 탐지 모델을 설정할 수 있었어요.
 
-![image](/TIL/assets/img/2024-07-07-MyGSoCJourneyPhase1_0.png)
+![image](/assets/img/2024-07-07-MyGSoCJourneyPhase1_0.png)
 
 <div class="content-ad"></div>
 
@@ -62,7 +62,7 @@ GSoC 참여자가 발표된 후 PictoPy에는 저 외에 두 명의 사람이 �
 
 마침내, 우리는 asyncio를 사용하기로 결정했어요. FastAPI는 asyncio를 완전히 지원하는 비동기 웹 프레임워크인 Starlette 위에서 구축되었어요.
 
-![이미지](/TIL/assets/img/2024-07-07-MyGSoCJourneyPhase1_1.png)
+![이미지](/assets/img/2024-07-07-MyGSoCJourneyPhase1_1.png)
 
 이러한 결정들은 커뮤니티, 팀 및 멘토의 피드백을 기반으로 시간이 지남에 따라 개선되었어요.
 
@@ -72,11 +72,11 @@ GSoC 참여자가 발표된 후 PictoPy에는 저 외에 두 명의 사람이 �
 
 전통적인 이미지 갤러리 데스크톱 애플리케이션으로, 구조화된 방식으로 작업을 수행하기 위해 일종의 데이터베이스 스키마가 필요했습니다. 이미지에 대한 경로를 키로 원래 저장하면서(이는 클라이언트로부터의 페이로드이기도 합니다), 이미지를 처리하여 모델이 감지한 클래스를 기반으로 해당 객체에 속하는 인덱스를 추가했습니다. 이미지의 메타데이터(생성 날짜, 크기, 형식 등)도 저장하고, 미래에는 이미지에서 발견된 얼굴 임베딩 목록(파란색으로 표시)을 저장할 예정입니다.
 
-![이미지](/TIL/assets/img/2024-07-07-MyGSoCJourneyPhase1_2.png)
+![이미지](/assets/img/2024-07-07-MyGSoCJourneyPhase1_2.png)
 
 이렇게 구성된 상태에서 우리는 앨범 스키마를 정의하여 앞으로 나아갔는데, 이는 많은 이미지와 일부 앨범 기능으로 이루어져 있었습니다. 여기서 주요 키는 앨범 이름 자체이며, 사용자가 필요한 경우 제공할 수 있는 간단한 설명이 함께 포함된 앨범의 경로입니다.
 
-![이미지](/TIL/assets/img/2024-07-07-MyGSoCJourneyPhase1_3.png)
+![이미지](/assets/img/2024-07-07-MyGSoCJourneyPhase1_3.png)
 
 <div class="content-ad"></div>
 

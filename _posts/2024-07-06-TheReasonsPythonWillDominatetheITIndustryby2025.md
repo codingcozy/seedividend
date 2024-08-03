@@ -1,7 +1,7 @@
 ---
 title: "2025년까지 파이썬이 IT 산업을 지배할 7가지 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-TheReasonsPythonWillDominatetheITIndustryby2025_0.png"
+coverImage: "/assets/img/2024-07-06-TheReasonsPythonWillDominatetheITIndustryby2025_0.png"
 date: 2024-07-06 02:21
 ogImage:
   url: /assets/img/2024-07-06-TheReasonsPythonWillDominatetheITIndustryby2025_0.png

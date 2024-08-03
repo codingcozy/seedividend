@@ -1,10 +1,10 @@
 ---
 title: "형태학적 이미지 처리 실용 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_0.png"
+coverImage: "/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_0.png"
 date: 2024-07-12 20:50
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_0.png
+  url: /assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_0.png
 tag: Tech
 originalTitle: "A practical guide to morphological image processing"
 link: "https://medium.com/ai-in-plain-english/a-practical-guide-to-morphological-image-processing-8df5cb6ec39f"
@@ -13,7 +13,7 @@ link: "https://medium.com/ai-in-plain-english/a-practical-guide-to-morphological
 
 ## | 인공지능 | 컴퓨터 비전 | 전처리 |
 
-<img src="/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_0.png" />
+<img src="/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_0.png" />
 
 Python에서 모폴로지 연산을 어떻게 구현하는지 및 왜 디지털 이미지 처리에서 중요한지에 대해 설명하는 가이드입니다.
 
@@ -23,7 +23,7 @@ Python에서 모폴로지 연산을 어떻게 구현하는지 및 왜 디지털 
 
 # 형태학 소개
 
-![이미지](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_1.png)
+![이미지](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_1.png)
 
 형태학(가끔 수학적 형태학으로도 불립니다)은 이웃 처리의 한 분야로 여겨질 수 있습니다. 1964년 Georges Matheron과 Jean Serra에 의해 개발되었으며, 광물 단면의 특성을 정량화하기 위해 고안되었지만 다른 다양한 응용 분야에서도 가치가 있다는 것이 입증되었습니다. 일반적으로 형태학은 이미지에 일관된 노출이 없는 경우에 발생하는 노이즈를 제거하는 데 사용할 수 있습니다. 실제로 형태학은 역처리로 얻은 바이너리 이미지와 매우 잘 작동하지만(하지만 그레이스케일 이미지에서도 사용할 수 있습니다).
 
@@ -32,7 +32,7 @@ Python에서 모폴로지 연산을 어떻게 구현하는지 및 왜 디지털 
 <div class="content-ad"></div>
 
 
-![A practical guide to morphological image processing](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_2.png)
+![A practical guide to morphological image processing](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_2.png)
 
 여기서 나는 히트 또는 핏 연산, 팽창, 침식을 적용했는데, 이에 대해 자세히 알아볼 것이다.
 
@@ -44,13 +44,13 @@ Python에서 모폴로지 연산을 어떻게 구현하는지 및 왜 디지털 
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_3.png)
+![image](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_3.png)
 
 임계처리는 전역 작업으로 (이미지의 모든 픽셀에 대해) 지역 위치를 고려하지 않고 수행되며, 결과적으로 과소 세분화 또는 과대 세분화된 영역을 유발할 수 있습니다.
 
 대신, 형태학은 이웃 처리와 비슷하게 적용됩니다. 이 경우에는 값이 아닌 모양이 중요합니다 (상자 모양 커널은 날카로운 모서리를 보존하고 둥근/디스크 모양 커널은 모서리를 둥글게 만듭니다).
 
-![image](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_4.png)
+![image](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_4.png)
 
 
 <div class="content-ad"></div>
@@ -65,13 +65,13 @@ Python에서 모폴로지 연산을 어떻게 구현하는지 및 왜 디지털 
 
 <div class="content-ad"></div>
 
-![풍부한 이진화와 침식](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_5.png)
+![풍부한 이진화와 침식](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_5.png)
 
 ## 팽창과 침식
 
 전체 이미지에 히트를 적용하는 것을 '팽창'이라고 합니다. 왜냐하면 그 이미지의 요소들이 변환 후에 크기가 증가하기 때문입니다. 또한, 작은 구멍이 닫히고 일부 객체가 병합됩니다. 증가량은 커널 요소의 크기에 따라 달라지거나, 대안으로 작은 커널을 반복적으로 적용할 수 있습니다. 문제는 잡음이 있는 객체도 확대될 수 있다는 것입니다. 커널 k를 사용한 방정식은 다음과 같습니다:
 
-![팽창과 침식](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_6.png)
+![팽창과 침식](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_6.png)
 
 <div class="content-ad"></div>
 
@@ -79,7 +79,7 @@ Python에서 모폴로지 연산을 어떻게 구현하는지 및 왜 디지털 
 
 말했듯이, 커널 크기는 영향을 미치며 작은 커널을 반복적으로 적용할 때 영향이 유사합니다 (예: 6x6 커널은 3x3 커널을 2배 적용한 것과 유사한 효과를 줍니다). 이미지에 다른 커널의 효과를 시도해 보겠습니다. 우선 이전 튜토리얼에서 언급했던대로 이미지에 Otsu의 임계값 처리를 적용한 이미지로 시작하겠습니다 (이는 일정 임계값 이상인 픽셀이 255 또는 흰색이 되고 나머지는 0인 바이너리 이미지를 반환합니다).
 
-![image](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_7.png)
+![image](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_7.png)
 
 그런 다음 이 바이너리 이미지에 다양한 커널 크기와 팽창을 적용합니다:
 
@@ -103,7 +103,7 @@ dilated1 = ndimage.binary_dilation(binary, structure=np.ones((5,5)))
 dilated2 = ndimage.binary_dilation(binary, structure=np.ones((9,9)))
 ```
 
-![image](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_8.png)
+![image](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_8.png)
 
 물체가 커지고 이미지의 구멍이 메꿔지며 일부 잡음 요소가 확대되는 것을 알 수 있습니다.
 
@@ -114,7 +114,7 @@ dilated2 = ndimage.binary_dilation(binary, structure=np.ones((9,9)))
 
 여기 방정식입니다:
 
-![equation](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_9.png)
+![equation](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_9.png)
 
 여기에 Python 구현이 있습니다:
 
@@ -137,7 +137,7 @@ eroded2 = ndimage.binary_erosion(binary, structure=np.ones((9,9)))
 아래의 표를 마크다운 형식으로 바꿔보세요.
 
 
-<img src="/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_10.png" />
+<img src="/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_10.png" />
 
 주의할 점은 작은 물체가 사라지는 것과, 관심 대상물체에 구멍이 형성되는 것입니다.
 
@@ -150,7 +150,7 @@ eroded2 = ndimage.binary_erosion(binary, structure=np.ones((9,9)))
 
 보통 클로징은 구멍을 메우는 연산입니다. 팽창에 이어 침식이 이루어지면 얻을 수 있습니다. 이미지 내부의 구멍은 보통 이 작업 이후에 닫힙니다. 팽창을 사용하여 객체의 크기 (그리고 잡음의 크기)를 키우고 출력 객체는 입력 크기와 같습니다. 따라서 클로징이 이 문제를 해결합니다. 다음 작업을 위한 커널의 크기도 동일합니다. 클로징 연산은 항등성을 갖고 있어 한 번만 사용할 수 있습니다. 그렇지 않으면 이미지 전체를 축소시키는 것만 일어나서 뚜렷한 효과가 없습니다 (경계 문제). 아래 방정식을 볼 수 있습니다:
 
-![](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_11.png)
+![](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_11.png)
 
 여기서 커널의 크기를 다르게 사용하는 경우 무슨 일이 일어나는지 주목해 보세요:
 
@@ -163,11 +163,11 @@ closed2 = ndimage.binary_closing(binary, structure=np.ones((9,9)))
 <div class="content-ad"></div>
 
 
-![Opening operation](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_12.png)
+![Opening operation](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_12.png)
 
 Opening is generally used to avoid fractioning bigger objects when removing the noise. In this case, we use first erosion and then dilation. The output image presents an object with the original size but the noise is removed. Another idempotent transformation and the equation is:
 
-![Idempotent transformation](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_13.png)
+![Idempotent transformation](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_13.png)
 
 Let’s also test the opening operation to see what is happening:
 
@@ -180,7 +180,7 @@ opened1 = ndimage.binary_opening(binary, structure=np.ones((5,5)))
 opened2 = ndimage.binary_opening(binary, structure=np.ones((9,9)))
 ```
 
-![Image](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_14.png)
+![Image](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_14.png)
 
 두 가지 과정을 결합할 수도 있지만, 커널은 서로 달라야 합니다 (opening에 사용되는 것과 closing에 사용되는 것이 서로 다른 커널이어야 함)
 
@@ -189,11 +189,11 @@ opened2 = ndimage.binary_opening(binary, structure=np.ones((9,9)))
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_15.png)
+![image](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_15.png)
 
 Boundary detection is an edge detection technique on binary images, where you subtract the eroded image, obtaining the boundary. The idea is that with eroding we are obtaining a smaller version of the object and if we subtract the image only the boundary will remain. In formula:
 
-![formula](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_16.png)
+![formula](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_16.png)
 
 ```js
 eroded = ndimage.binary_erosion(binary, structure=np.ones((3,3)))
@@ -203,7 +203,7 @@ boundary =binary ^ eroded
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_17.png" />
+<img src="/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_17.png" />
 
 뺄셈이 아니라 두 개의 논리 마스크 (참/거짓)를 사용하기 때문에 논리 연산자 AND를 사용하는 것에 유의하세요. 그렇지 않으면 Numpy가 오류를 반환합니다. (하지만 원리는 같습니다)
 
@@ -225,7 +225,7 @@ opening = ndimage.binary_opening(eroded, structure=np.ones((11,11)))
 boundary = binary ^ opening
 ```
 
-![image](/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_18.png)
+![image](/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_18.png)
 
 보너스 예제: 자동차 이미지의 번호판을 읽고 싶다면, 복잡한 딥 러닝 모델 대신 간단한 전처리 단계로 시작할 수 있습니다. 하얀색과 검은색 모자(흰색은 회색 이미지에서 개방 이미지를 뺀 것이고 검은색은 회색 입력 이미지에서 닫힘을 뺀 것)와 같은 몇 가지 간단한 연산을 사용할 수 있습니다. 여기서 우리는 번호판이 가로보다 세로가 길기 때문에 사각형 커널을 사용했습니다. 그리고 임의의 크기의 커널을 사용할 수 있습니다. 몇 가지 간단한 작업만으로도 결과가 꽤 좋아집니다.
 
@@ -241,11 +241,11 @@ white_hat = im - opening
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_19.png" />
+<img src="/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_19.png" />
 
 # 마무리
 
-<img src="/TIL/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_20.png" />
+<img src="/assets/img/2024-07-12-Apracticalguidetomorphologicalimageprocessing_20.png" />
 
 우리는 간단한 연산으로 다양한 결과를 얻을 수 있는 형태학적 연산이 얼마나 강력한지 보았습니다. 각 연산에는 그만의 반대가 있다는 것을 주목할 가치가 있으며, 이들을 결합하여 더 정교한 작업을 수행할 수 있습니다.
 

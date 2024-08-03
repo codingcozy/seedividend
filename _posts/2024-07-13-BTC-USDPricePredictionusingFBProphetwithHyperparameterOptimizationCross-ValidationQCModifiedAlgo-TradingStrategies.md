@@ -1,17 +1,17 @@
 ---
 title: "FB Prophet과 하이퍼파라미터 최적화를 사용한 BTC-USD 가격 예측, 교차 검증 QC, 수정된 알고리즘 거래 전략"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png"
+coverImage: "/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png"
 date: 2024-07-13 19:54
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png
+  url: /assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png
 tag: Tech
 originalTitle: "BTC-USD Price Prediction using FB Prophet with Hyperparameter Optimization, Cross-Validation QC , Modified Algo-Trading Strategies"
 link: "https://medium.com/@alexzap922/btc-usd-price-prediction-using-fb-prophet-with-hyperparameter-optimization-cross-validation-qc-7848b41dac30"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png" />
+<img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png" />
 
 - 본 글은 이전 연구를 이어가며, Python에서 Facebook의 Prophet을 활용한 BTC-USD 가격 예측에 대한 자세한 프레임워크를 개발하는 것을 목표로 합니다 [1–5] (참고 문헌).
 - 현재의 비교 분석은 시간 시리즈 교차 검증 QC를 기반으로 한 히스토리컬 데이터를 사용하여 예측 오차를 측정하는 HPO 또는 모델 튜닝에 대해 자세히 살펴봅니다.
@@ -118,7 +118,7 @@ plt.ylabel('종가(USD)')
 plt.title('BTC-USD 종가')
 ```
 
-![BTC-USD Close Price](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_1.png)
+![BTC-USD Close Price](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_1.png)
 
 ## 데이터 준비
 
@@ -210,7 +210,7 @@ forecast= model.predict(future)
 model.plot(forecast,figsize=(14, 8))
 ```
 
-![BTC-USD 가격 예측](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_2.png)
+![BTC-USD 가격 예측](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_2.png)
 
 ```js
 model.plot_components(forecast,figsize=(16, 10));
@@ -267,7 +267,7 @@ forecast["yhat_upper"]=bc.untransform_boxcox(x=forecast["yhat_upper"], lmbda=lmb
 forecast.plot(x="ds", y=["yhat_lower", "yhat", "yhat_upper"])
 ```
 
-![BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_7](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_7.png)
+![BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_7](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_7.png)
 
 - 수동으로 선택한 cutoff를 사용하여 예측 성능의 몇 가지 유용한 통계를 계산합니다
 
@@ -282,7 +282,7 @@ df_cv2 = cross_validation(model, cutoffs=cutoffs, horizon='90 days')
 fig = plot_cross_validation_metric(df_cv2, metric='rmse')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_8.png" />
+<img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_8.png" />
 
 - 성능 메트릭 요약 정보 출력
 
@@ -306,7 +306,7 @@ df_p.head()
 fig = plot_cross_validation_metric(df_cv2, metric='mape')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_9.png" />
+<img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_9.png" />
 
 - MAE 그래프 그리기
 
@@ -316,7 +316,7 @@ fig = plot_cross_validation_metric(df_cv2, metric='mape')
 fig = plot_cross_validation_metric(df_cv2, metric='mae')
 ```
 
-![BTC-USD Price Prediction using FB Prophet with Hyperparameter Optimization Cross-Validation QC Modified Algorithm Trading Strategies](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_10.png)
+![BTC-USD Price Prediction using FB Prophet with Hyperparameter Optimization Cross-Validation QC Modified Algorithm Trading Strategies](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_10.png)
 
 ## Hyperparameter Optimization (HPO)
 
@@ -387,7 +387,7 @@ forecast["yhat_upper"]=bc.untransform_boxcox(x=forecast["yhat_upper"], lmbda=lmb
 forecast.plot(x="ds", y=["yhat_lower", "yhat", "yhat_upper"])
 
 
-<img src="/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_11.png" />
+<img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_11.png" />
 
 - 수동 cutoff로 교차 검증 QC 실행 중
 
@@ -401,14 +401,14 @@ fig = plot_cross_validation_metric(df_cv2, metric='rmse')
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_12.png)
+![image](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_12.png)
 
 
 ```js
 fig = plot_cross_validation_metric(df_cv2, metric='mape')
 ```
 
-![image](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_13.png)
+![image](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_13.png)
 
 ```js
 fig = plot_cross_validation_metric(df_cv2, metric='mae')
@@ -418,7 +418,7 @@ fig = plot_cross_validation_metric(df_cv2, metric='mae')
 <div class="content-ad"></div>
 
 
-![BTC-USD Price Prediction](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_14.png)
+![BTC-USD Price Prediction](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_14.png)
 
 ## 2020년부터 2024년까지 BTC-USD 역사적 데이터 준비
 
@@ -495,7 +495,7 @@ forecast = model.predict(future)
 model.plot(forecast);
 ```
 
-![BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_15](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_15.png)
+![BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_15](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_15.png)
 
 - 주요 구성 요소를 플롯합니다.
 
@@ -505,7 +505,7 @@ model.plot(forecast);
 model.plot_components(forecast);
 
 
-![Forecast Plot](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_16.png)
+![Forecast Plot](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_16.png)
 
 - 원래 가격과 예측을 신뢰 구간과 함께 그래픽으로 표시합니다.
 
@@ -518,7 +518,7 @@ df.set_index('ds').plot(figsize=(16,8), color=['royalblue', "#34495e", "#e74c3c"
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_17.png)
+![image](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_17.png)
 
 - Date 열을 3 부분(연/월/일)으로 분할하고 Prophet 모델을 fitting합니다.
 
@@ -573,7 +573,7 @@ for num, item in enumerate(loop_list):
 데이터프레임.set_index('일자')[['실제가격', '예측값', '예측값_하한', '예측값_상한']].plot(figsize=(16,8), color=['royalblue', "#34495e", "#e74c3c", "#e74c3c"], grid=True)
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_18.png)
+![이미지](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_18.png)
 
 - 교차 검증 수행 중
 
@@ -596,7 +596,7 @@ from prophet.plot import plot_cross_validation_metric
 <div class="content-ad"></div>
 
 
-![Plotting MAPE](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_19.png)
+![Plotting MAPE](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_19.png)
 
 - MAPE 플로팅
 
@@ -604,7 +604,7 @@ from prophet.plot import plot_cross_validation_metric
 fig = plot_cross_validation_metric(df_cv, metric='mape')
 ```
 
-![MAPE Plot](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_20.png)
+![MAPE Plot](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_20.png)
 
 
 <div class="content-ad"></div>
@@ -615,7 +615,7 @@ fig = plot_cross_validation_metric(df_cv, metric='mape')
 fig = plot_cross_validation_metric(df_cv, metric='mae')
 ```
 
-![MAE Plot](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_21.png)
+![MAE Plot](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_21.png)
 
 - 그리드 검색 하이퍼파라미터 최적화 구현 및 MAE를 사용하여 모델 평가하기
 
@@ -685,7 +685,7 @@ ax.set_xlabel("날짜", size=15)
 ax.set_ylabel("가격", size=15)
 ```
 
-![BTC-USD Stock Price Forecast](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_22.png)
+![BTC-USD Stock Price Forecast](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_22.png)
 
 
 <div class="content-ad"></div>
@@ -718,7 +718,7 @@ df_cv = cross_validation(m_best, initial='1125 days', period='180 days', horizon
 fig = plot_cross_validation_metric(df_cv, metric='rmse')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_23.png" />
+<img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_23.png" />
 
 - MAPE 플로팅하기
 
@@ -728,7 +728,7 @@ fig = plot_cross_validation_metric(df_cv, metric='rmse')
 fig = plot_cross_validation_metric(df_cv, metric='mape')
 ```
 
-![image](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_24.png)
+![image](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_24.png)
 
 - MAE 그리기
 
@@ -738,7 +738,7 @@ fig = plot_cross_validation_metric(df_cv, metric='mae')
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_25.png" />
+<img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_25.png" />
 
 - In-Sample 및 Out-of-Sample 1년 Prophet 예측과 신뢰 구간을 동시에 플로팅합니다 (원래 스케일)
 
@@ -771,7 +771,7 @@ df1['Percent Change'] = df1['y'].pct_change()
 df1.set_index('ds')[['y', 'yhat', 'yhat_lower', 'yhat_upper']].plot(figsize=(16,8), color=['royalblue', "#34495e", "#e74c3c", "#e74c3c"], grid=True)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_26.png" />
+<img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_26.png" />
 
 <div class="content-ad"></div>
 
@@ -800,7 +800,7 @@ Prophet Thresh = 18,681
 Seasonality = 7,172
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_27.png)
+![이미지](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_27.png)
 
 <div class="content-ad"></div>
 
@@ -821,7 +821,7 @@ f'최적의 Yhat = {best_yhat:,.2f}'
 '최적의 Yhat = 0.92'
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_28.png)
+![이미지](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_28.png)
 
 - Best Yhat = 0.92로 백테스트 실행중
 
@@ -847,7 +847,7 @@ Seasonality = 7,172
 Optimized Prophet Thresh = 36,769
 ```
 
-<img src="/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_29.png" />
+<img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_29.png" />
 
 - 요약:
     - ROI(Prophet)/ROI(Optimized Prophet Thresh) 약 2.4배
@@ -873,7 +873,7 @@ from prophet.plot import plot_plotly
 plot_plotly(mm, forecast)
 ```
 
-![Prophet Plotly Visualization](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_30.png)
+![Prophet Plotly Visualization](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_30.png)
 
 - Plotly를 사용하여 Prophet 예측값과 변화점을 시각화합니다.
 
@@ -885,7 +885,7 @@ from prophet.plot import plot_plotly
 plot_plotly(mm, forecast, changepoints=True)
 ```
 
-![BTC-USD Price Prediction](/TIL/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_31.png)
+![BTC-USD Price Prediction](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_31.png)
 
 ## 결론
 

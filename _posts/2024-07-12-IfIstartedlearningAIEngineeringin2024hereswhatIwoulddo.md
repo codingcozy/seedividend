@@ -1,10 +1,10 @@
 ---
 title: "2024년에 AI 엔지니어링을 시작한다면 이렇게 하세요"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-IfIstartedlearningAIEngineeringin2024hereswhatIwoulddo_0.png"
+coverImage: "/assets/img/2024-07-12-IfIstartedlearningAIEngineeringin2024hereswhatIwoulddo_0.png"
 date: 2024-07-12 20:30
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-IfIstartedlearningAIEngineeringin2024hereswhatIwoulddo_0.png
+  url: /assets/img/2024-07-12-IfIstartedlearningAIEngineeringin2024hereswhatIwoulddo_0.png
 tag: Tech
 originalTitle: "If I started learning AI Engineering in 2024, here’s what I would do."
 link: "https://medium.com/ai-advances/if-i-started-learning-ai-engineering-in-2024-heres-what-i-would-do-25dc37bc015a"

@@ -1,7 +1,7 @@
 ---
 title: "오픈 과학 실습 및 출판을 위한 플랫폼 LeapFROGS 소개"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_0.png"
+coverImage: "/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_0.png"
 date: 2024-07-09 09:17
 ogImage:
   url: /assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/cyberpaleo/introducing-leapfrogs-a-platform-for-open-s
 
 요약: Python과 R을 이용한 LeapFROGS는 과학 응용 프로그램 및 시계열 분석을 위한 비동기 플랫폼으로, 여러분의 과학을 공유하고 공개 및 재현 가능하게 만들기 위해 개발되었습니다. 이 플랫폼은 비동기식 학습 활동과 교육 워크샵을 지원합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_0.png)
+![이미지](/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_0.png)
 
 작년 가을에 발표된 최신 LinkedEarth 프로젝트는 오픈 지구과학 연구 및 게재 영역에서 동기식 및 비동기식 학습 활동으로 구성되어 있습니다. 이 블로그 포스트는 LeapFROGS (Python 및 R) 비동기 플랫폼을 소개합니다.
 
@@ -32,11 +32,11 @@ LeapFROGS의 목표는 Python, R, 시계열 분석 및 오픈 사이언스 출�
 
 - 파이썬 또는 R 소개. 이 모듈은 이 두 언어에 대한 기본적인 프로그래밍 소개에 초점을 맞춥니다. 주요 데이터 유형부터 루프 및 조건문까지 다룹니다. 또한 함수 작성에 대해서도 소개합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_1.png)
+![이미지](/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_1.png)
 
 2. 과학 애플리케이션을 위한 Python/R. 두 번째 모듈은 Python/R을 과학 분야에서 사용하는 방법을 다룹니다. Python의 경우, 이 모듈은 NumPy, Pandas, Matplotlib 및 지도를 위한 Cartopy와 같은 라이브러리를 포함한 과학 Python 스택의 기본을 다룹니다. R의 경우, 해당 모듈은 R 데이터 프레임 및 dplyr, tidyr, tibble 및 ggplot2와 같은 tidyverse의 유용한 패키지를 다룹니다.
 
-![이미지](/TIL/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_2.png)
+![이미지](/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_2.png)
 
 <div class="content-ad"></div>
 
@@ -44,7 +44,7 @@ LeapFROGS의 목표는 Python, R, 시계열 분석 및 오픈 사이언스 출�
 
 4. 미래의 과학 논문. 이 모듈은 공개과학 발간의 기본 원칙을 제공하며 데이터, 소프트웨어 및 작업흐름을 공유하는 방법에 대한 모범 사례를 안내합니다. Yolanda Gil과 동료들이 모은 원래 논문 자료를 기반으로 하여 Binder와 같은 새로운 기술을 위해 업데이트하였습니다. 새 자료는 Figshare에 있으며 LeapFROGS에 요약되어 재료 이해도를 테스트하는 퀴즈가 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_3.png)
+![이미지](/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_3.png)
 
 5. Github 소개. 이 모듈은 연구를 공유하고 협업하기 위한 GitHub 플랫폼 소개를 제공합니다.
 

@@ -1,17 +1,17 @@
 ---
 title: "심볼릭 회귀로 데이터 속 숨겨진 법칙 찾는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_0.png"
+coverImage: "/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_0.png"
 date: 2024-07-13 19:30
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_0.png
+  url: /assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_0.png
 tag: Tech
 originalTitle: "Find Hidden Laws Within Your Data with Symbolic Regression"
 link: "https://medium.com/towards-data-science/find-hidden-laws-within-your-data-with-symbolic-regression-ebe55c1a4922"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_0.png" />
+<img src="/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_0.png" />
 
 기계 학습 전문가로서, 보통 데이터셋(X, y)을 갖고 있고, M이라고도 불리는 함수를 찾고 싶어합니다. M(X) ≈ y를 만족하는 함수입니다. 보통, 우리는 M의 함수 형태에 크게 신경 쓰지 않습니다. 우리 관점에서는, 모델이 신경망, 트리 기반 알고리즘 또는 완전히 다른 것이든 간에 테스트 세트에서 좋은 성능을 보이면 만족합니다.
 
@@ -81,7 +81,7 @@ shapley_values = te(X)
 shap.plots.scatter(shap_values=shapley_values)
 ```
 
-![FindHiddenLawsWithinYourDatawithSymbolicRegression_2](/TIL/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_2.png)
+![FindHiddenLawsWithinYourDatawithSymbolicRegression_2](/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_2.png)
 
 왼쪽에서는 높은 h 값이 더 높은 모델 출력, 즉 더 높은 t 값을 초래한다는 것을 볼 수 있습니다. 오른쪽에서는 g 값이 낮을수록 모델에 따르면 더 높은 t 값을 얻는 것을 볼 수 있습니다. 두 관측 결과는 모두 이해하기 쉽습니다: 높은 곳에서 물체를 떨어뜨리면 땅에 닿을 때까지 더 오래 걸립니다. 그리고 지면 쪽으로 강한 힘으로 끌려오게 되면 그것은 더 빨리 땅에 닿을 것입니다.
 
@@ -136,14 +136,14 @@ sr.fit(X_train, y_train)
 
 제 경우에는 다음과 같은 결과가 나왔어요:
 
-![이미지](/TIL/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_3.png)
+![이미지](/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_3.png)
 
 <div class="content-ad"></div>
 
 아래는
 
 
-![Physical laws rediscovered by PySR authors](/TIL/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_4.png)
+![Physical laws rediscovered by PySR authors](/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_4.png)
 
 since x₀ = h and x₁ = g. Apart from having a test r² of over 0.999, this is actually the correct physics formula that describes falling objects without air resistance! You might also find the equivalent formula h = 0.5 · g · t² in literature.
 

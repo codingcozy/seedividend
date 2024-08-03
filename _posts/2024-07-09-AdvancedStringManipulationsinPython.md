@@ -1,7 +1,7 @@
 ---
 title: "파이썬 고급 문자열 조작 기법들"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-AdvancedStringManipulationsinPython_0.png"
+coverImage: "/assets/img/2024-07-09-AdvancedStringManipulationsinPython_0.png"
 date: 2024-07-09 19:28
 ogImage:
   url: /assets/img/2024-07-09-AdvancedStringManipulationsinPython_0.png
@@ -10,7 +10,7 @@ originalTitle: "Advanced String Manipulations in Python"
 link: "https://medium.com/scriptserpent/advanced-string-manipulations-in-python-dfd7f3812b6f"
 ---
 
-![Advanced String Manipulations in Python](/TIL/assets/img/2024-07-09-AdvancedStringManipulationsinPython_0.png)
+![Advanced String Manipulations in Python](/assets/img/2024-07-09-AdvancedStringManipulationsinPython_0.png)
 
 파이썬에서 문자열은 기본적이며 거의 모든 파이썬 애플리케이션에서 널리 사용됩니다. 연결 및 슬라이싱과 같은 기본적인 문자열 작업은 간단하지만, 파이썬은 코드를 보다 효율적이고 가독성 있게 만들어주는 다양한 고급 문자열 조작 기술을 제공합니다. 이 기사는 파이썬에서의 고급 문자열 조작에 대해 자세히 설명하고 있으며, 중급 개발자들이 문자열 처리 능력을 향상할 수 있도록 예제와 함께 제공합니다.
 

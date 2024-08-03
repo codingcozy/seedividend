@@ -1,10 +1,10 @@
 ---
 title: "코딩 없이 바로 사용할 수 있는 실용적인 파이썬 팁 5가지"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_0.png"
+coverImage: "/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_0.png"
 date: 2024-07-12 20:52
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_0.png
+  url: /assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_0.png
 tag: Tech
 originalTitle: "5 Practical Python Tips: No Coding Required, Ready to Use!"
 link: "https://medium.com/top-python-libraries/5-practical-python-tips-no-coding-required-ready-to-use-b433e8e9e407"
@@ -25,7 +25,7 @@ link: "https://medium.com/top-python-libraries/5-practical-python-tips-no-coding
 
 컴퓨터에 파이썬이 설치되어 있다면, 파이썬 명령줄에 `python --help`를 입력하여 지원되는 모든 매개변수를 표시할 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_0.png)
+![이미지](/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_0.png)
 
 출력이 길기 때문에 위 이미지는 일부만 보여줍니다. 여기서 강조하고 싶은 것은 `-m mod` 매개변수인데, 이는 파이썬 모듈을 스크립트로 실행합니다. 모듈이 명령줄 작업을 지원한다면, 해당 모듈을 명령줄에서 바로 사용할 수 있습니다.
 
@@ -56,13 +56,13 @@ python -m http.server
 <div class="content-ad"></div>
 
 
-![2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_1](/TIL/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_1.png)
+![2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_1](/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_1.png)
 
 이 웹 서버는 로컬 파일 시스템을 명령 시작 경로의 루트 디렉토리로 표시합니다. 다시 말해서 우리는 그의 상위 디렉토리에 액세스할 수 없습니다.
 
 이 기능의 사용처는 무엇인가요? 예를 들어, 컴퓨터의 디렉토리에서 많은 텍스트/PDF/이미지 파일/하위 디렉토리를 친구들과 공유하려고 한다면, 이 방법을 사용하면 쉽습니다.
 
-![2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_2](/TIL/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_2.png)
+![2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_2](/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_2.png)
 
 
 <div class="content-ad"></div>
@@ -98,7 +98,7 @@ python -m idlelib get_time_app/print_time.py
 
 파일 디렉토리가 존재하지 않으면 `idlelib`가 생성할 수 없으므로 필요한 경우 직접 만들어야 합니다. 명령을 실행한 후 `print_time.py` 파일은 저장되어 로컬에만 생성됩니다. 이제 편집기가 나타나며 구문 강조 기능이 있는 코드를 작성할 수 있습니다.
 
-![Image](/TIL/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_3.png)
+![Image](/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_3.png)
 
 <div class="content-ad"></div>
 
@@ -122,7 +122,7 @@ python -m zipapp get_time_app -m "print_time:main"
 
 우리는 `zipapp` 이름을 `get_time_app`으로 설정하고, 파이썬 프로그램의 진입 파일과 진입 함수를 지정하기만 하면 됩니다. `.pyz` 확장자를 가진 파일이 우리가 만든 애플리케이션입니다. 이 프로젝트를 폴더가 아닌 단일 파일로 배포할 수 있습니다.
 
-![image](/TIL/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_4.png)
+![image](/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_4.png)
 
 프로그램을 실행하는 것은 간단합니다. Python을 사용하여 직접 호출하면 됩니다.
 

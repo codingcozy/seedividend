@@ -1,7 +1,7 @@
 ---
 title: "iTransformer 최신 시계열 예측 기법 대공개"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png"
+coverImage: "/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png"
 date: 2024-07-09 19:21
 ogImage:
   url: /assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png
@@ -10,7 +10,7 @@ originalTitle: "iTransformer: The Latest Breakthrough in Time Series Forecasting
 link: "https://medium.com/towards-data-science/itransformer-the-latest-breakthrough-in-time-series-forecasting-d538ddc6c5d1"
 ---
 
-![2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting](/TIL/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png)
+![2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png)
 
 예측 분야에서는 Lag-LLaMA, Time-LLM, Chronos, Moirai와 같은 모델들이 2024년 초부터 제안되어 기초 모델 분야에서 많은 활동을 보이고 있습니다.
 
@@ -40,11 +40,11 @@ iTransformer의 아이디어는 바닐라 Transformer 모델이 시간 토큰을
 
 <div class="content-ad"></div>
 
-![iTransformer image 1](/TIL/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_1.png)
+![iTransformer image 1](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_1.png)
 
 In iTransformer, we push patching to the extreme by simply applying the model on the inverted dimensions.
 
-![iTransformer image 2](/TIL/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_2.png)
+![iTransformer image 2](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_2.png)
 
 In the figure above, we can see how the iTransformer differs from the vanilla Transformer. Instead of looking at all features at one time step, it looks at one feature across many time steps. This is done simply by inverting the shape of the input.
 
@@ -361,7 +361,7 @@ for i, dataset_name in enumerate(dataset_names):
 plt.tight_layout()
 ```
 
-![Image](/TIL/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_4.png)
+![Image](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_4.png)
 
 From the figure above, we can see that the iTransformer performs fairly well on all datasets, but TSMixer is overall slightly better than iTransformer, and PatchTST is the overall champion model in this experiment.
 
@@ -395,7 +395,7 @@ iTransformer는 많은 벤치마크 데이터셋에서 장기 예측에 대한 �
 
 제 작업을 즐기고 계신가요? Buy me a coffee로 제게 지원을 표현해주세요. 여러분의 응원을 받으면 저는 커피 한 잔을 즐길 수 있어요! 만약 그렇게 느끼신다면, 아래 버튼을 클릭해주세요 👇
 
-![Image](/TIL/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_5.png)
+![Image](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_5.png)
 
 <div class="content-ad"></div>
 

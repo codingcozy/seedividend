@@ -1,7 +1,7 @@
 ---
 title: "1921680024 이해하기 - 30초만에 설명"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-The24in1921680024Explainedin30Seconds_0.png"
+coverImage: "/assets/img/2024-07-06-The24in1921680024Explainedin30Seconds_0.png"
 date: 2024-07-06 02:32
 ogImage:
   url: /assets/img/2024-07-06-The24in1921680024Explainedin30Seconds_0.png

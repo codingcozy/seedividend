@@ -1,17 +1,17 @@
 ---
 title: "Python과 Streamlit으로 주식 등급 시스템 만들기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_0.png"
+coverImage: "/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_0.png"
 date: 2024-07-13 19:13
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_0.png
+  url: /assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_0.png
 tag: Tech
 originalTitle: "Stock grade system with Python and Streamlit."
 link: "https://medium.com/@avetik.babayan/stock-grade-system-with-python-and-streamlit-7a65331971b1"
 ---
 
 
-![링크](/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_0.png)
+![링크](/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_0.png)
 
 주식 시장에 투자하고 싶다니 멋지네요. 어떤 것을 선택하시겠습니까? 투자에 좋은 것과 그렇지 않은 것을 어떻게 정의하겠습니까? 현재 주식 분류를 이해하기 위해 등급 시스템 또는 평가 시스템이 필요할 것입니다. 지금 개발된 해당 시스템의 한 예시를 살펴보죠.
 
@@ -37,7 +37,7 @@ link: "https://medium.com/@avetik.babayan/stock-grade-system-with-python-and-str
 
 내가 아는 바로는 주식 신뢰도를 이해하는 데 도움이 되는 여러 지표들이 있습니다. 물론, 이 기사는 참된 지표 범위를 보여주는 유일한 것은 아닙니다. 결국, 이것은 실전을 연습하고, 훨씬 더 많은 지표 및 KPI와 함께 나중에 직접 개발한 시스템을 가지기 위한 연습입니다. 아마도 보다 유연하고 맞춤 설정할 수 있을 것입니다. 그러나 다음 빌드의 기초를 마련합시다.
 
-![StockgradesystemwithPythonandStreamlit_1](/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_1.png)
+![StockgradesystemwithPythonandStreamlit_1](/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_1.png)
 
 <div class="content-ad"></div>
 
@@ -67,7 +67,7 @@ streamlit은 Python 스크립트에서 직접 인터랙티브 웹 애플리케�
 
 부채-자본 비율: 이 기본적인 지표는 기업의 총 부채를 지분 자본과 비교합니다. 낮은 부채-자본 비율은 기업이 빌린 자금에 대한 의존도가 낮고 부채를 관리할 재정적 여력이 있는 것을 시사합니다. 이 비율을 분석함으로써 기업의 재정 안정성과 위험을 평가할 수 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_2.png)
+![이미지](/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_2.png)
 
 <div class="content-ad"></div>
 
@@ -316,11 +316,11 @@ if __name__ == "__main__":
 streamlit run .\test.py
 ```
 
-![Image](/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_3.png)
+![Image](/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_3.png)
 
 결과를 확인하세요:
 
-![Image](/TIL/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_4.png)
+![Image](/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_4.png)
 
 
 <div class="content-ad"></div>

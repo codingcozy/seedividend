@@ -1,7 +1,7 @@
 ---
 title: "FastAPI에서 Celery와 RabbitMQ 사용 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png"
+coverImage: "/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png"
 date: 2024-07-09 19:19
 ogImage:
   url: /assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png
@@ -10,7 +10,7 @@ originalTitle: "Using Celery + RabbitMQ With FastAPI"
 link: "https://medium.com/stackademic/using-celery-rabbitmq-with-fastapi-2e6f0236841e"
 ---
 
-![표](/TIL/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png)
+![표](/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png)
 
 안녕하세요, 우주 여러분! 오늘은 Celery + RabbitMQ와 FastAPI를 사용한 최근 경험을 공유하려고 합니다. 최근에 오디오 분석 관련 프로젝트를 하고 있었어요. 이 프로젝트에서 일부 작업은 완료하는 데 조금 시간이 걸렸어요. 따라서 클라이언트가 서버에 요청을 보내면 이러한 작업 때문에 서버가 잠시 바쁠 거예요. 그래서 클라이언트 요청에 대한 응답을 보내는 데 상당한 시간이 소요되었죠. 이 상황을 방지하기 위해 백그라운드에서 작업을 실행하는 방법을 찾았어요. 결국 해결책인 Celery — 분산 작업 큐를 찾았고, 이 글에서는 어떻게 Celery를 사용해 목표를 이루었는지 설명할 거예요.
 
@@ -28,7 +28,7 @@ docker run -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
 Docker 컨테이너가 시작되면, 브라우저를 통해 127.0.0.1:5672로 RabbitMQ 대시보드에 로그인할 수 있어요. 사용자 이름과 비밀번호는 모두 'guest'에요.
 
-<img src="/TIL/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_1.png" />
+<img src="/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_1.png" />
 
 <div class="content-ad"></div>
 
@@ -199,7 +199,7 @@ celery --app app.config.celery_config.celery_app worker --loglevel=info --pool=s
 
 만약 세럴리가 어떠한 오류 없이 실행된다면, 터미널에서 다음과 유사한 출력을 확인할 수 있습니다.
 
-<img src="/TIL/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_2.png" />
+<img src="/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_2.png" />
 
 <div class="content-ad"></div>
 
@@ -211,7 +211,7 @@ uvicorn app.main:app --port 8000
 
 Swagger 문서 페이지에서 엔드포인트를 시도해 봅시다. 엔드포인트에 요청을 보낸 후 celery 터미널을 확인하면 다음과 같은 출력을 볼 수 있습니다.
 
-<img src="/TIL/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_3.png" />
+<img src="/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_3.png" />
 
 <div class="content-ad"></div>
 
@@ -235,7 +235,7 @@ celery flower --app app.config.celery_config.celery_app --broker:amqp://localhos
 
 웹 브라우저에서 flower 모니터링 도구를 확인할 수 있습니다. http://localhost:5555/ 으로 이동하세요.
 
-![Flower Monitoring Tool](/TIL/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_4.png)
+![Flower Monitoring Tool](/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_4.png)
 
 <div class="content-ad"></div>
 

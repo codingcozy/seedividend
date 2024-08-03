@@ -1,17 +1,17 @@
 ---
 title: "Quantstats, TA, PyPortfolioOpt, FinanceToolkit을 이용한 미국 빅테크 주식 통합 퀀트 트레이딩 분석"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_0.png"
+coverImage: "/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_0.png"
 date: 2024-07-13 20:25
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_0.png
+  url: /assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_0.png
 tag: Tech
 originalTitle: "An Integrated Quant Trading Analysis of US Big Techs using Quantstats, TA, PyPortfolioOpt, and FinanceToolkit"
 link: "https://medium.com/@alexzap922/an-integrated-quant-trading-analysis-of-us-big-techs-using-quantstats-ta-pyportfolioopt-and-5287b6cd9163"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_0.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_0.png" />
 
 - 이 게시물에서는 기술적, 근본적 분석 도구 및 현대 포트폴리오 최적화(PO) 알고리즘을 통합하여 파이썬에서 미국 대형 기술 기업들의 양적 거래 분석에 초점을 맞추고 있습니다.
 
@@ -175,7 +175,7 @@ qs.plots.daily_returns(aapl,benchmark='SPY')
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_1.png)
+![image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_1.png)
 
 - 주식의 성과를 평가하는 가장 좋은 방법 중 하나는 일일 수익률을 계산하는 것입니다.
 - 위에 있는 플롯은 기본적으로 주식 가치가 하루 동안 얼마나 변화했는지 보여줍니다. 이 기본 정보를 사용하여 회사에 더 많이 투자하거나 다른 곳에 투자를 시도할지 결정할 수 있습니다.
@@ -188,7 +188,7 @@ print('\nStock Cumulative Returns Plot\n')
 qs.plots.returns(aapl)
 ```
 
-![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_2.png)
+![image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_2.png)
 
 
 <div class="content-ad"></div>
@@ -219,7 +219,7 @@ plt.legend()
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_3.png)
+![image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_3.png)
 
 - 첨도(Kurtosis)는 분포의 꼬리 모양을 측정합니다.
 - 금융 분석에서 첨도는 투자의 가격 변동성 리스크를 측정하는 데 사용됩니다. 첨도는 투자의 가격이 정기적으로 경험하는 변동성을 측정합니다. 수익 분포의 높은 첨도는 투자가 가끔 극단적인 수익을 내줄 것을 시사합니다. 높은 첨도는 큰 양의 양수 수익 또는 극단적인 음수 수익을 나타낼 수 있다는 것을 염두에 두세요.
@@ -248,7 +248,7 @@ qs.stats.skew(aapl).round(2).plot.bar(label='Skewness')
 plt.legend()
 ```
 
-![분산 도표](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_4.png)
+![분산 도표](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_4.png)
 
 - 왜도는 데이터가 대칭적 벨 곡선에서 벗어나는 방향과 정도를 나타냅니다.
 - 왜도가 0인 분포는 완전히 대칭적이며 분포의 왼쪽과 오른쪽이 거울 이미지인 것을 의미합니다. 양수 왜도는 오른쪽 꼬리가 왼쪽보다 길거나 더 두껍다는 것을 의미하며, 데이터가 높은 값을 가질 가능성이 높음을 시사합니다. 음수 왜도는 왼쪽 꼬리가 오른쪽보다 길거나 더 두꺼워 낮은 값을 가질 가능성을 시사합니다.
@@ -281,7 +281,7 @@ aapl.std().round(3).plot.bar(label='STD')
 plt.legend()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_5.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_5.png" />
 
 - 표준 편차는 투자를 비교하는 기본적인 방법으로, 데이터의 변동이나 분산을 측정합니다. 더 높은 표준 편차는 더 높은 위험을 의미합니다.
 - 데이터 포인트가 평균에서 더 멀리 떨어져 있는 경우 데이터 세트 내에서 더 높은 편차가 있습니다. 표준 편차는 분산의 제곱근으로 계산됩니다.
@@ -301,7 +301,7 @@ sns.pairplot(aapl, kind='reg')
 plt.show()
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_6.png)
+![이미지](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_6.png)
 
 <div class="content-ad"></div>
 
@@ -317,7 +317,7 @@ sns.heatmap(corr, annot=True, mask=mask)
 plt.show()
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_7.png)
+![이미지](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_7.png)
 
 - GOOG와 AAPL, AMZN, META의 3개 주식 간에는 0.64~0.66 정도의 강한 양의 상관 관계가 있습니다.
 
@@ -434,7 +434,7 @@ ax.set_title('Asset Beta', fontsize=18)
 plt.tight_layout()
 ```
 
-![Pie Chart](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_8.png)
+![Pie Chart](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_8.png)
 
 ```python
 #import numpy as np
@@ -454,7 +454,7 @@ plt.title("Asset Beta Values")
 plt.show()
 ```
 
-![Bar Chart](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_9.png)
+![Bar Chart](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_9.png)
 
 
 <div class="content-ad"></div>
@@ -484,7 +484,7 @@ plt.legend()
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_10.png)
+![image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_10.png)
 
 - Sharpe ratio가 높을수록 투자가 다른 Sharpe ratio가 낮은 투자에 비해 주어진 위험 수준에서 더 높은 수익을 제공함을 나타냅니다.
 - 결론: AAPL은 다른 3개 주식 (AMZN, GOOG, META)에 비해 주어진 위험 수준에서 더 높은 수익을 제공할 수 있습니다. AAPL의 Sharpe ratio가 거의 1에 가깝다는 것은 투자의 평균 수익이 리스크-프리 이자율과 거의 같다는 것을 의미합니다.
@@ -527,7 +527,7 @@ Length: 1136, dtype: float64
 portfolio.plot()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_11.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_11.png" />
 
 
 <div class="content-ad"></div>
@@ -536,13 +536,13 @@ portfolio.plot()
 portfolio.hist()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_12.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_12.png" />
 
 ```js
 qs.plots.returns(portfolio)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_13.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_13.png" />
 
 <div class="content-ad"></div>
 
@@ -643,26 +643,26 @@ Treynor Ratio           -            161.56%
 최악 5 번 하락
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_14.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_14.png" />
 
 <div class="content-ad"></div>
 
 - 전략 시각화 대 SPY 벤치마크
 
-![이미지1](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_15.png)
+![이미지1](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_15.png)
 
-![이미지2](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_16.png)
+![이미지2](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_16.png)
 
-![이미지3](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_17.png)
+![이미지3](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_17.png)
 
 <div class="content-ad"></div>
 
 
-![image 1](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_18.png)
+![image 1](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_18.png)
 
-![image 2](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_19.png)
+![image 2](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_19.png)
 
-![image 3](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_20.png)
+![image 3](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_20.png)
 
 - 결과:
 
@@ -733,7 +733,7 @@ mu.plot.bar(label='연간화된 기대수익률')
 plt.legend()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_21.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_21.png" />
 
 
 <div class="content-ad"></div>
@@ -754,7 +754,7 @@ S
 S.style.background_gradient(cmap='coolwarm')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_22.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_22.png" />
 
 - MSR에 대한 포트폴리오 최적화
 
@@ -808,7 +808,7 @@ optimized_portfolio.plot(label='최적화된 포트폴리오')
 plt.legend()
 ```
 
-![이미지](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_23.png)
+![이미지](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_23.png)
 
 - MSR PO는 BF 대신 AAPL과 GOOG (총 2개 자산)만 고려하여 220%의 수익을 제공합니다. 이는 B2로 불리며 페어 트레이딩의 잠재적 후보입니다.
 - MSR B2 포트폴리오 성과 보고서 및 전략 시각화를 SPY 벤치마크 대비 생성
@@ -908,22 +908,22 @@ YTD                      34.8%        23.43%
 
 - 최악의 5번의 Drawdown
 
-![Worst Drawdowns](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_24.png)
+![Worst Drawdowns](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_24.png)
 
 - MSR PO 전략 시각화
 
-![MSR PO Strategy Visualization](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_25.png)
+![MSR PO Strategy Visualization](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_25.png)
 
 <div class="content-ad"></div>
 
 
-![Image 1](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_26.png)
+![Image 1](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_26.png)
 
-![Image 2](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_27.png)
+![Image 2](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_27.png)
 
-![Image 3](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_28.png)
+![Image 3](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_28.png)
 
-![Image 4](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_29.png)
+![Image 4](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_29.png)
 
 
 <div class="content-ad"></div>
@@ -1028,7 +1028,7 @@ ax.grid(True, linestyle="--", alpha=0.7)
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_30.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_30.png" />
 
 ## 변동성
 
@@ -1046,7 +1046,7 @@ Name: 2024-07-09, dtype: float64
 historical_data['Volatility'].iloc[-1].plot.bar(title='Volatility')
 ```
 
-![Image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_31.png)
+![Image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_31.png)
 
 - 저희 두 자산의 변동성이 벤치마크의 3배 정도 더 높다는 것을 알 수 있습니다.
 
@@ -1123,14 +1123,14 @@ ax.yaxis.set_major_formatter(
 plt.show()
 ```
 
-![차트1](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_32.png)
+![차트1](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_32.png)
 
-![차트2](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_33.png)
+![차트2](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_33.png)
 
 <div class="content-ad"></div>
 
 
-![Profitability Ratios](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_34.png)
+![Profitability Ratios](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_34.png)
 
 ## 수익성 비율
 
@@ -1185,9 +1185,9 @@ plt.show()
 
 -md
 
-![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_35.png)
+![image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_35.png)
 
-![image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_36.png)
+![image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_36.png)
 
 - AMD 수익성 비율 그래픽 그리기
 
@@ -1236,7 +1236,7 @@ plt.show()
 <div class="content-ad"></div>
 
 
-![Image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_37.png)
+![Image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_37.png)
 
 - 2023년 NVDA 대 AMD 수익성 비율 검토
 
@@ -1283,7 +1283,7 @@ cols = ['NVDA', 'AMD']
 prof[cols].plot(kind='bar')
 ```
 
-![Image](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_38.png)
+![Image](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_38.png)
 
 
 <div class="content-ad"></div>
@@ -1298,7 +1298,7 @@ prof[cols].plot(kind='bar')
 plt.ylim(-1, 2.5)
 ```
 
-![Profitability Ratios](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_39.png)
+![Profitability Ratios](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_39.png)
 
 ## AMD 대 NVDA 그리스 민감도
 
@@ -1397,7 +1397,7 @@ plt.show()
 185 0.2582 0.3212 0.3555 0.3828 0.3985 0.4108
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_40.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_40.png" />
 
 - NVDA에 대한 그리스 감수치 분석 중 [9]
 
@@ -1495,7 +1495,7 @@ plt.show()
 155 0.0033 0.0224 0.049 0.0822 0.1063 0.128
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_41.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_41.png" />
 
 해석: 옵션 그리스는 옵션 가격이 변동성이나 기초 자산의 가격과 같은 기본 결정 요소에 대한 민감성을 나타내는 재정적 측정치입니다. 그리스는 옵션 포트폴리오를 분석하고 옵션 또는 옵션 포트폴리오의 민감성 분석에 활용됩니다. 이러한 측정치는 많은 투자자에 의해 옵션 거래에 대한 정보를 얻기 위한 필수적인 요소로 간주됩니다.
 
@@ -1544,7 +1544,7 @@ Delta: 기초 자산의 가격이 $1 증가하면 옵션의 가격이 Delta 금�
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_42.png)
+![이미지](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_42.png)
 
 2024-07 추론: NVDA, AMD 및 S&P 500의 VaR은 각각 약 5%, 3% 및 1%입니다.
 
@@ -1752,7 +1752,7 @@ plt.show()
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_45.png)
+![이미지](/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_45.png)
 
 - 이 그래프는 NVDA 및 AMD가 각각 상승 및 하락하는 단기 추세를 따르는 것을 보여줍니다. AMD 플롯을 보면 2024년 7월에 Tenkan Sen(파란색 선)과 Kijun Sen(빨간색 선)이 명확히 교차하는 것을 볼 수 있습니다.
 
@@ -1791,7 +1791,7 @@ fig.tight_layout()
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_46.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_46.png" />
 
 - 이러한 예측은 시간이 흐름에 따른 자본 가격의 이항 리턴 분포에 기반합니다. 이 모델에서는 각 반복마다 두 가지 가능한 결과가 있습니다 — 상승하거나 하락하며, 이는 이항 트리를 따릅니다.
 - 시간에 따라 이 두 값을 그리는 것은 이항 트리를 만드는 것으로 알려져 있습니다. 이항 모델에 대한 자세한 내용은 Equity Derivatives의 가격 결정 및 분석(금융 Toolbox)을 참조하십시오.
@@ -1864,7 +1864,7 @@ fig.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_47.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_47.png" />
 
 ## META RSI 대 MA 백테스팅
 
@@ -1967,7 +1967,7 @@ fig.show()
 총 수익률: 7.97%
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_48.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_48.png" />
 
 - MA 백테스팅 전략 구현하기
 
@@ -2047,7 +2047,7 @@ fig.show()
 총 수익률: 8.00%
 ```
 
-<img src="/TIL/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_49.png" />
+<img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_49.png" />
 
 - RSI 및 MA 전략은 모두 2022년부터 2024년까지 META 데이터에서 약 8%의 예상 수익을 산출함을 확인할 수 있습니다. 그러나 거래 횟수 측면에서 RSI 전략이 더 우수함을 알 수 있습니다. 즉, 11 (RSI) vs 50 (MA).
 

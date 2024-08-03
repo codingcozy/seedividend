@@ -1,17 +1,17 @@
 ---
 title: "첫 로컬 LLM 실행 방법 "
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_0.png"
+coverImage: "/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_0.png"
 date: 2024-07-13 20:12
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_0.png
+  url: /assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_0.png
 tag: Tech
 originalTitle: "How to run your first local LLMs 🚀"
 link: "https://medium.com/gitconnected/how-to-run-your-first-local-llms-a5f56a50876e"
 ---
 
 
-![How to run your first local LLMs](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_0.png)
+![How to run your first local LLMs](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_0.png)
 
 작년 동안 (2024년에 이 글을 쓰고 있기 때문에) 대형 언어 모델(LLMs)은 전문적인 환경과 작업 수행 방식을 변화시켰습니다.
 
@@ -44,7 +44,7 @@ Chat GPT와 그들의 Chat 버전에 익숙하실 것입니다. 당신은 Chat G
 - GGUF 모델을 CPU로 로컬 컴퓨터에서 실행하는 방법에 대해 이야기하며 이것이 내가 알고 있는 가장 쉬운 옵션입니다. 입문자에게 100% 친숙합니다.
 - 모든 내용은 Windows 10에서 작동합니다.
 
-![그림링크](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_1.png)
+![그림링크](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_1.png)
 
 # 몇 가지 기본 개념
 
@@ -77,7 +77,7 @@ Hugging Face은 다양한 LLM 모델을 다운로드할 수 있는 한 곳(주�
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_2.png)
+![이미지](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_2.png)
 
 아마도 많은 모델들이 특정 사용자 "The Bloke"로부터 온 것을 알게 될 것입니다. 다음 자습서에서는 그의 모델 중 일부를 사용할 것이지만, 선호하는 다른 모델을 선택해도 괜찮습니다!
 
@@ -96,7 +96,7 @@ The Bloke가 제공하는 GGUF 모델은 다른 모델의 양자화 버전입니
 - 파일 크기는 4.37GB입니다.
 - 6.87GB의 RAM이 필요합니다.
 
-![이미지](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_3.png)
+![이미지](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_3.png)
 
 <div class="content-ad"></div>
 
@@ -124,7 +124,7 @@ GPT4All은 로컬 컴퓨터에서 실행되는 채팅 인터페이스에요. 홈
 
 위 이미지를 보시면 ChatGPT의 인터페이스와 비슷하게 보입니다:
 
-![ChatGPT Interface](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_4.png)
+![ChatGPT Interface](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_4.png)
 
 상당히 직관적인 것 같아요. 그러나 위 그림에 있는 것과 같이 3가지 중요한 요소를 언급하고 싶어요:
 
@@ -139,7 +139,7 @@ GPT4All은 로컬 컴퓨터에서 실행되는 채팅 인터페이스에요. 홈
 
 GPT4All에서 모델을 다운로드하려면 화면 오른쪽 상단의 버거 메뉴로 이동하십시오. 그리고 "다운로드"를 선택하십시오.
 
-![다운로드](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_5.png)
+![다운로드](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_5.png)
 
 선택할 모델 목록이 표시됩니다. 원하는 모델을 선택하고 "다운로드"를 클릭하면 첫 번째 모델을 사용할 수 있습니다!
 
@@ -147,7 +147,7 @@ GPT4All에서 모델을 다운로드하려면 화면 오른쪽 상단의 버거 
 
 미스트랄의 OpenOrca를 사용하고 있는데, 이 채팅 봇은 상당히 좋아요. 여기에서는 API 키를 제공하여 ChatGPT 모델을 선택할 수도 있습니다. 이 마지막 옵션은 아직 시도해보지 않았는데, 개인적으로는 의미가 없다고 생각해요.
 
-![이미지](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_6.png)
+![이미지](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_6.png)
 
 ## 다른 모델을 다운로드할 GPT4All 폴더 선택하기
 
@@ -157,7 +157,7 @@ HuggingFace와 같은 다른 모델을 사용하고 싶다면, 그 모델이 GPT
 
 해당 위치를 찾으려면 설정 메뉴(오른쪽 상단의 작은 휠)를 클릭하세요. "애플리케이션"을 선택합니다. 로컬 폴더 경로는 "다운로드 경로" 옆에 있습니다:
 
-![이미지](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_7.png)
+![이미지](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_7.png)
 
 첫 번째 LLM 모델을 로컬에서 실행하는 가장 쉬운 방법은 아니더라도 가깝습니다! 즐겁게 사용하시길 바랍니다!
 
@@ -226,7 +226,7 @@ prompt = """
 llm.invoke(f"{prompt_addon}[INST]{prompt}[/INST]")
 ```
 
-<img src="/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_8.png" />
+<img src="/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_8.png" />
 
 # Taipy를 사용하여 작은 채팅 인터페이스 만들기
 
@@ -450,7 +450,7 @@ def style_conv(state: State, idx: int, row: int) -> str:
 <div class="content-ad"></div>
 
 
-![image](/TIL/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_9.png)
+![image](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_9.png)
 
 Thank you for reading!
 

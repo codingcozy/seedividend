@@ -1,17 +1,17 @@
 ---
 title: "파이썬으로 랜덤 포레스트 직접 구현하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_0.png"
+coverImage: "/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_0.png"
 date: 2024-07-13 20:17
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_0.png
+  url: /assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_0.png
 tag: Tech
 originalTitle: "Building a Random Forest by Hand in Python"
 link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-in-python-187ac0620875"
 ---
 
 
-![Building a Random Forest by Hand in Python](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_0.png)
+![Building a Random Forest by Hand in Python](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_0.png)
 
 약물 발견에서 종 분류, 신용 점수 매기기, 사이버 보안 등 랜덤 포레스트는 복잡한 세상을 모델링하는 인기 있고 강력한 알고리즘입니다. 그 다양성과 예측 능력은 첨단 복잡성을 필요로 할 것 같지만, 랜덤 포레스트가 실제로 무엇인지 파헤쳐보면 놀랍게 간단한 일련의 반복 단계들로 이뤄져 있습니다.
 
@@ -27,13 +27,13 @@ link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-
 
 의사 결정 트리의 주요 장점 중 하나는 해석 가능성입니다. 분류를 위해 카테고리를 예측하는 트리가나 회귀를 위해 연속 값을 예측하는 각 단계는 트리 노드에서 확인할 수 있습니다. 예를 들어, 온라인에서 본 제품을 구매할지 예측하는 모델은 다음과 같이 보일 수 있습니다.
 
-![의사 결정 트리](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_1.png)
+![의사 결정 트리](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_1.png)
 
 <div class="content-ad"></div>
 
 루트부터 시작하여, 트리의 각 노드는 이진 질문을 하며 (예: "세션 길이가 5분보다 길었습니까?"), 답변에 따라 피처 벡터를 두 개의 자식 노드 중 하나로 전달합니다. 자식 노드가 없는 경우 - 즉, 리프 노드에 도달한 경우 - 트리는 응답을 반환합니다.
 
-![image](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_2.png)
+![image](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_2.png)
 
 (이 블로그 포스트에서는 분류에 초점을 맞추겠지만, 의사 결정 트리 회귀기는 순차적 값이 아닌 클래스 레이블이 아닌 연속 값을 반환하게 됩니다.)
 
@@ -50,13 +50,13 @@ link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_4.png)
+![이미지](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_4.png)
 
 그렇게 간단하지는 않죠. 이 장난감 예제에서는 모든 삼각형과 사각형이 동일하기 때문에 그들의 특성 벡터를 분리하는 것이 쉬워요. (하나의 삼각형에 대해 작동하는 규칙이 모든 삼각형에 적용됩니다!)
 
 하지만 실제 세상에서는 특성이 레이블로 깔끔하게 매핑되지 않습니다. 전자 상거래 예제로 돌아가서, 세션에서 사이트에 보낸 시간과 같은 특성은 어떤 임계값에서도 클래스를 완벽하게 분할하지 못할 수도 있어요.
 
-![이미지](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_5.png)
+![이미지](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_5.png)
 
 
 <div class="content-ad"></div>
@@ -73,7 +73,7 @@ Gini = 1 - Σ(pk)^2
 
 아래는 p✓, 집합에서 양성 레이블을 무작위로 선택할 확률에 따른 지니 불순도의 시각적 표현입니다. [1] (우리는 pk를 p✓로 대체하여 확인 표지가 양성 클래스임을 나타냈습니다.) 집합의 요소가 모두 확인 표지가 아닌 경우(즉, x인 경우) 또는 모두 확인 표지인 경우에 지니 불순도가 가장 낮습니다. 지니 불순도는 x와 확인 표지가 같은 수 일 때 최대치에 도달합니다.
 
-![image](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_8.png)
+![image](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_8.png)
 
 그렇기 때문에 클래스를 분할하기 위해 규칙을 식별할 때, 우리는 단순히 각 하위 집합의 가중치를 고려해 지니 불순도를 최소화하는 분할을 선택할 수 있습니다. (각 하위 집합은 고유의 불순도를 가지고 있으므로 각 하위 집합의 샘플 수로 가중 평균을 취합니다.) 주어진 특성에 대해, 해당 특성의 모든 가능한 값으로 데이터를 분할하고, 하위 집합의 가중치가 적용된 지니 불순도를 기록한 다음, 가장 낮은 불순도를 초래한 특성 값을 선택할 수 있습니다.
 
@@ -81,11 +81,11 @@ Gini = 1 - Σ(pk)^2
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_9.png)
+![이미지](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_9.png)
 
 우리는 모든 특성에 대해 이 과정을 반복하고, 최적 분할 결과 지니 불순도가 가장 낮은 특성을 선택할 수 있습니다. 아래에서 세션 길이의 최적 분할이 계정 연령과 빈번한 쇼핑객에 대한 최적 분할보다 낮은 지니 불순도를 보여줍니다. 빈번한 쇼핑객은 이진 특성이므로 분할할 값이 하나뿐입니다.
 
-![이미지](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_10.png)
+![이미지](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_10.png)
 
 세션 길이에 대한 분할 ` 5분`이 우리 결정 트리에서 첫 번째 분기가 됩니다. 그런 다음 특성 및 값 반복 프로세스를 반복하고 각 부분집합, 그들의 하위 부분집합 등에 대해 데이터를 최적으로 분할하는 최상의 특성을 선택합니다. 이렇게 완벽하게 분할된 데이터가 필요하거나 트리가 허용된 최대 깊이에 도달할 때까지 진행합니다. (다음 섹션에서 자세히 설명하겠습니다.)
 
@@ -93,7 +93,7 @@ Gini = 1 - Σ(pk)^2
 
 여기에 앞서 본 트리가 나타난 것이지만 각 노드에 훈련 데이터가 표시되어 있습니다. 트리를 아래로 이동할수록 양성 및 음성 클래스가 점점 분리되는 것을 주목하세요. 트리의 맨 아래에 도달하면 잎 노드는 데이터 하위 집합에서의 과반 클래스를 출력합니다. (우리의 경우에는 유일한 클래스입니다.)
 
-![image](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_11.png)
+![image](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_11.png)
 
 ## 랜덤 포레스트
 
@@ -103,7 +103,7 @@ Gini = 1 - Σ(pk)^2
 
 과적합을 방지하는 몇 가지 방법이 있습니다. 한 가지 방법은 트리의 깊이를 제한하는 것입니다. 예를 들어 위의 트리를 두 레벨로 제한하면 왼쪽 가지를 자주 쇼핑 고객 분할에서 끝낼 수 있습니다.
 
-![image](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_12.png)
+![image](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_12.png)
 
 이제 왼쪽 가지의 잎 노드에는 자신들의 하위 집합에서 혼합된 레이블이 있습니다. 이 "불순도"를 허용하는 것은 비최적적으로 보일 수 있지만, 이는 잡음이 있는 피쳐에 대한 강력한 방어 수단입니다. 예를 들어, 훈련 데이터에서 Time idle과 Age of account가 우연히 예측력이 있었다면, 해당 피쳐를 제외한 모델이 새 데이터에 대해 일반화하는 데 더 좋을 것입니다.
 
@@ -112,7 +112,7 @@ Gini = 1 - Σ(pk)^2
 <div class="content-ad"></div>
 
 
-![Image](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_13.png)
+![Image](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_13.png)
 
 이거 굉장히 좋은데, 전체 모델 예측에 변동이 있어야 앙상블이 유용해집니다. 지난 섹션에서 설명한 알고리즘 - 모든 피처의 모든 값에 대해 Gini 불순도가 가장 낮은 지점에서 분할 - 은 결정론적입니다. 주어진 데이터 세트에 대해 저희 알고리즘은 항상 동일한 의사결정 나무 [2]를 출력하므로, 앙상블로 10개 또는 100개의 트리를 학습시켜도 실제로 아무것도 이루지 못할 것입니다. 그렇다면 왜 숲이 단일 트리보다 나은가요?
 
@@ -123,13 +123,13 @@ Gini = 1 - Σ(pk)^2
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_14.png" />
+<img src="/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_14.png" />
 
 두 번째 방법은 랜덤 포레스트가 데이터를 분할할 때 일부 기능의 임계값을 찾을 때 무작위로 기능의 서브셋만 선택한다는 것입니다. 예를 들어, scikit-learn의 RandomForestClassifier는 지니 불순도를 최소화하는 임계값을 찾을 때 기능 수의 제곱근만 고려합니다.
 
 이 방법들은 이상하게 보일 수 있습니다. 왜 우리가 모든 기능을 사용하지 않는 걸까요? 그리고 왜 의도적으로 데이터에서 행을 중복하거나 삭제할까요? 실제로, 이 방식으로 생성하는 각 개별 트리는 종종 보통의 결정 트리보다 예측 능력이 상당히 떨어집니다. 그러나 수십 개의 이러한 Swiss-cheese 트리를 집계하면 놀라운 결과가 나타납니다: 원래의 결정 트리보다 더 정확한 랜덤 포레스트가 형성됩니다.
 
-<img src="/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_15.png" />
+<img src="/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_15.png" />
 
 <div class="content-ad"></div>
 
@@ -509,7 +509,7 @@ class RandomForest
 
 <div class="content-ad"></div>
 
-![img](/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_16.png)
+![img](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_16.png)
 
 # 결론
 
@@ -530,7 +530,7 @@ Matt
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_17.png" />
+<img src="/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_17.png" />
 
 ## 2. 랜덤 포레스트
 

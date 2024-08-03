@@ -1,7 +1,7 @@
 ---
 title: "자바스크립트와 파이썬의 비동기 프로그래밍 비교 어떤 언어가 더 나을까"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_0.png"
+coverImage: "/assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_0.png"
 date: 2024-07-06 02:24
 ogImage:
   url: /assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_0.png
@@ -176,11 +176,11 @@ Tasks and Futures Internals:
 
 **이벤트 루프 및 논블로킹 I/O**
 
-![AsyncProgramminginJavaScriptvsPython_1](/TIL/assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_1.png)
+![AsyncProgramminginJavaScriptvsPython_1](/assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_1.png)
 
 **구문 및 가독성**
 
-![AsyncProgramminginJavaScriptvsPython_2](/TIL/assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_2.png)
+![AsyncProgramminginJavaScriptvsPython_2](/assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_2.png)
 
 <div class="content-ad"></div>
 

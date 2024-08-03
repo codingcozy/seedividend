@@ -1,7 +1,7 @@
 ---
 title: "MLOps란  머신러닝 운영 쉽게 이해하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_0.png"
+coverImage: "/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_0.png"
 date: 2024-07-09 20:49
 ogImage:
   url: /assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/stackademic/what-is-mlops-machine-learning-operations-
 
 MLOps는 AI 통합과 혁신을 위한 기계 학습 모델과 실제 응용 프로그램 사이의 다리 역할을 합니다.
 
-![MLOps](/TIL/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_0.png)
+![MLOps](/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_0.png)
 
 저희가 사는 세상의 모든 측면에 AI가 통합된 시대에, 실리콘 밸리의 작은 팀이 기계 학습과 상호 작용하는 방식을 바꿀 수 있는 위험을 감지했습니다.
 
@@ -34,7 +34,7 @@ MLOps는 DevOps 철학 중 일부 중요한 요소를 통합하여 데이터 과
 
 # MLOps의 주요 구성 요소
 
-![이미지](/TIL/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_1.png)
+![이미지](/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_1.png)
 
 MLOps에는 다양한 구성 요소가 있습니다:
 
@@ -85,7 +85,7 @@ MLOps 생태계의 일부인 여러 도구와 기술들이 ML 라이프사이클
 
 # DevOps vs MLOps
 
-![MLOps 이미지](/TIL/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_2.png)
+![MLOps 이미지](/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_2.png)
 
 <div class="content-ad"></div>
 
@@ -121,7 +121,7 @@ MLOps를 수용하려면 올바른 장치와 최상의 실천 방법을 준수�
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_3.png" />
+<img src="/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_3.png" />
 
 MLOps은 이론적인 개념뿐만 아니라 다양한 산업 분야에서 현실 세계 문제 해결을 위해 적용될 수 있습니다. 아래는 MLOps가 실무에서 활용되는 몇 가지 예시입니다:
 

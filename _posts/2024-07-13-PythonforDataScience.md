@@ -1,10 +1,10 @@
 ---
 title: "데이터 과학을 위한 Python 완벽 가이드"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-PythonforDataScience_0.png"
+coverImage: "/assets/img/2024-07-13-PythonforDataScience_0.png"
 date: 2024-07-13 19:36
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-PythonforDataScience_0.png
+  url: /assets/img/2024-07-13-PythonforDataScience_0.png
 tag: Tech
 originalTitle: "Python for Data Science"
 link: "https://medium.com/dev-genius/python-for-data-science-de1c55b4761c"
@@ -13,7 +13,7 @@ link: "https://medium.com/dev-genius/python-for-data-science-de1c55b4761c"
 
 <table>
     <tr>
-        <td><img src="/TIL/assets/img/2024-07-13-PythonforDataScience_0.png" /></td>
+        <td><img src="/assets/img/2024-07-13-PythonforDataScience_0.png" /></td>
     </tr>
 </table>
 

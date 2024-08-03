@@ -1,7 +1,7 @@
 ---
 title: "파이썬으로 파킨슨 변동성 계산하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png"
+coverImage: "/assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png"
 date: 2024-07-07 02:29
 ogImage:
   url: /assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png
@@ -10,7 +10,7 @@ originalTitle: "Calculating Parkinson’s Volatility in Python"
 link: "https://medium.com/@kaabar-sofien/calculating-parkinsons-volatility-in-python-477ec5f13a1b"
 ---
 
-![Parkinson’s volatility](/TIL/assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png)
+![Parkinson’s volatility](/assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png)
 
 파킨슨 변동성은 특정 기간 동안 금융 상품의 고가 및 저가를 활용한 역사적 변동성의 측정입니다. 일일 가격 범위를 반영하여 내일의 가격 변동에 대한 추가 정보를 제공하기 때문에 표준 종가 대 종가 변동성 추정치보다 더 효율적이라고 여겨집니다.
 

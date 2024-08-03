@@ -1,7 +1,7 @@
 ---
 title: "드래그 앤 드롭 Nextjs 프로젝트에 커스텀 아이템 추가하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png"
+coverImage: "/assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png"
 date: 2024-07-07 12:59
 ogImage:
   url: /assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png
@@ -22,7 +22,7 @@ link: "https://medium.com/@programming-advice/adding-custom-draggable-items-to-d
 
 하지만 시작하기 전에 여기서 정확히 무엇을 하는지 이해하려면 이전 기사를 읽어야 합니다. 그래서 그것을 확인하고 돌아와주세요. 여러분과 공유할 많은 코드가 있습니다. 그러니 함께 시작해봅시다!
 
-![이미지](/TIL/assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png)
+![이미지](/assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png)
 
 # 이전 프로그래밍 팁에서
 

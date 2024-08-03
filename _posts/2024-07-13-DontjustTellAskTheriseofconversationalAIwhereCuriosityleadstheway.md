@@ -1,10 +1,10 @@
 ---
 title: "알려주는 대신 물어보세요 호기심이 이끄는 대화형 AI의 시대"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_0.png"
+coverImage: "/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_0.png"
 date: 2024-07-13 20:14
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_0.png
+  url: /assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_0.png
 tag: Tech
 originalTitle: "Don’t just Tell, Ask! The rise of conversational AI where Curiosity leads the way"
 link: "https://medium.com/generative-ai/dont-just-tell-ask-the-rise-of-conversational-ai-where-curiosity-leads-the-way-5cf9f63c6f99"
@@ -42,7 +42,7 @@ link: "https://medium.com/generative-ai/dont-just-tell-ask-the-rise-of-conversat
 <div class="content-ad"></div>
 
 
-![Image](/TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_0.png)
+![Image](/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_0.png)
 
 그리고 실제로 그렇습니다! 초기 훈련에서는 이 작업을 수행하기 위해 3가지 다른 모델이 필요했지만 논문 'Transformer-based End-to-End Question Generation'에서 제안된 방법을 사용할 것입니다.
 
@@ -103,7 +103,7 @@ torch를 사용하여 Hugging Face에서 .bin 파일 형식 모델을 읽는 핵
 !wget https://github.com/patil-suraj/question_generation/raw/master/pipelines.py
 ```
 
-![Image](/TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_1.png)
+![Image](/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_1.png)
 
 # 질문 생성 추론 테스트
 
@@ -193,7 +193,7 @@ print(ques)
 너무 복잡하게 생각하지 말고 함께 알아보겠습니다.
 
 
-<img src="/TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_2.png" />
+<img src="/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_2.png" />
 
 
 # 문서(지금은 텍스트 파일)로부터 질문 생성하기
@@ -299,12 +299,12 @@ texts = mysplit(doc,3700,50)
 
 더 많은 정보를 원한다면 이곳에서 작은 로컬 모델을 사용한 몇 가지 아이디어가 있어요:
 
-![image](https://yourwebsite.com/TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_3.png)
+![image](https://yourwebsite.com/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_3.png)
 
 이 이야기는 Generative AI에서 게시되었습니다. LinkedIn에서 우리와 연락하고 최신 AI 이야기에 대한 소식을 받으려면 Zeniteq를 팔로우하세요. 함께 AI의 미래를 만들어 갑시다!
 
 <div class="content-ad"></div>
 
 ```js
-![Image](/TIL/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_4.png)
+![Image](/assets/img/2024-07-13-DontjustTellAskTheriseofconversationalAIwhereCuriosityleadstheway_4.png)
 ```

@@ -1,17 +1,17 @@
 ---
 title: "드롭할지 유지할지 수학적 최적화로 비디오 게임 인벤토리 문제를 해결하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_0.png"
+coverImage: "/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_0.png"
 date: 2024-07-13 18:58
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_0.png
+  url: /assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_0.png
 tag: Tech
 originalTitle: "To Drop-It or to Keep-It? How to Solve a Video Game Inventory Problem with Mathematical Optimization"
 link: "https://medium.com/ai-advances/to-drop-it-or-to-keep-it-126af0f7ece1"
 ---
 
 
-![게임 인벤토리 문제 해결을 위한 수학적 최적화를 통한 비디오 게임 인벤토리 문제 해결 방법](/TIL/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_0.png)
+![게임 인벤토리 문제 해결을 위한 수학적 최적화를 통한 비디오 게임 인벤토리 문제 해결 방법](/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_0.png)
 
 지금은 벌써 늦은 밤입니다. 비디오 게임을 즐기고 있고 몇 시간 동안 보석을 모으고 있습니다 🎮 (경험치 또는 아이템을 얻기 위해 동일한 적과 반복적으로 싸우는 것). 갑자기, 당신이 몇 일째 찾고 있던 방어구를 떨어뜨린 적이 나타납니다. 하지만 이미 인벤토리가 꽉 차 있어서 넣을 수가 없습니다. 재배열을 시도해봐도 맞추기 힘듭니다. 이제 무엇을 유지하고 무엇을 버릴지 결정해야 합니다. 다차원 배낭 문제의 흥미로운 세계로 환영합니다. 이 기사에서는 이 문제에 대한 수학적 프로그래밍 모델을 만드는 방법을 보여주고, 파이썬과 Gurobi를 사용하여 문제를 해결하며, 이를 해결하기 위해 적용할 수 있는 일부 휴리스틱 절차를 간단히 논의하겠습니다.
 
@@ -140,7 +140,7 @@ model.optimize()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_3.png" />
+<img src="/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_3.png" />
 
 문제를 해결한 후에는 아래 코드 스니펫을 사용하여 솔루션을 쉽게 추출할 수 있습니다:
 
@@ -152,7 +152,7 @@ for item in x.keys():
 print("인벤토리의 총 가치:",model.ObjVal)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_4.png" />
+<img src="/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_4.png" />
 
 <div class="content-ad"></div>
 
@@ -167,7 +167,7 @@ print("인벤토리의 총 가치:",model.ObjVal)
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_5.png)
+![이미지](/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_5.png)
 
 - 변수 z_i는 재고에 항목 i를 포함할지 여부에 대한 결정에 해당합니다.
 - 변수 x_i 및 y_i는 문제의 각 자산을 나타내는 “사각형”의 (x, y) 좌표에 해당합니다. 우리의 문제에는 모든 자산 또는 사각형으로 구성된 I라는 집합이 있습니다.
@@ -176,7 +176,7 @@ print("인벤토리의 총 가치:",model.ObjVal)
 
 또한 문제는 다음과 같은 입력 매개변수를 필요로 합니다:
 
-![이미지](/TIL/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_6.png)
+![이미지](/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_6.png)
 
 
 <div class="content-ad"></div>
@@ -350,7 +350,7 @@ for item in Z.keys():
 
 저희 인벤토리에는 빨간색 항목이 선택되지 않았는지 확인할 수 있습니다. 공간이 소비되었으나 포함하지 않을 가치가 충분하지 않아 보입니다. 아래 표 10을 확인하여 최종 인벤토리의 시각적 표현을 확인할 수도 있습니다.
 
-<img src="/TIL/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_9.png" />
+<img src="/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_9.png" />
 
 # 휴리스틱 접근법
 

@@ -1,7 +1,7 @@
 ---
 title: "프로그래밍 언어를 만드는 데 얼마나 많은 작업이 필요할까"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png"
+coverImage: "/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png"
 date: 2024-07-07 21:54
 ogImage:
   url: /assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png
@@ -16,7 +16,7 @@ link: "https://medium.com/zenstack/how-much-work-does-it-take-to-build-a-program
 
 15년 전, 어린 시절 컴파일러를 만들게 된 이래팀의 구조 설계자가 나에게 드래곤 북을 건넬 때 이렇게 말했다. 아쉽게도 그 책을 읽다가 밤에 잠이 들어 바닥에 넘어뜨리고 말았다. 반납할 때 표지에 작은 흠이 살짝 들어간 것을 발견하지 않길 바라며.
 
-![이미지](/TIL/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png)
+![이미지](/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png)
 
 <div class="content-ad"></div>
 
@@ -121,7 +121,7 @@ ZModel 문법
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_1.png" />
+<img src="/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_1.png" />
 
 ## 단계 2: 구문 트리에서 링크드 트리로
 
@@ -131,7 +131,7 @@ ZModel 문법
 
 <div class="content-ad"></div>
 
-![Image](/TIL/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_2.png)
+![Image](/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_2.png)
 
 기술적으로 말하면 그것은 트리가 아닌 그래프이지만, 관례상 파스 트리라고 계속 부르겠습니다.
 
@@ -200,7 +200,7 @@ export class ZModelValidator {
 
 렉싱, 파싱, 링킹과는 달리, 의미 체크 프로세스는 매우 선언적이거나 체계적이지 않습니다. 복잡한 언어의 경우, 명령적 코드로 많은 규칙을 작성하게 될 것입니다.
 
-![Programming Language](/TIL/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_3.png)
+![Programming Language](/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_3.png)
 
 ## 4단계. 개발자 경험 향상
 
@@ -211,7 +211,7 @@ export class ZModelValidator {
 - IDE 지원
   좋은 IDE 지원 — 구문 강조, 서식 지정, 자동 완성 등 — 은 학습 곡선을 크게 낮추고 개발자의 삶의 질을 향상시킵니다. Langium에 대해 좋아하는 점 중 하나는 Language Server Protocol을 내장 지원한다는 것이에요. 구문 분석 규칙과 유효성 검사가 자동으로 적절한 기본 LSP 구현이 되어서 VSCode와 최신 JetBrains IDE와 직접 작동합니다(일부 제한 사항이 있을 수 있습니다). 그러나 탁월한 IDE 경험을 제공하기 위해서는 Langium에 의한 LSP 관련 서비스의 기본 구현을 많이 수정하여 광택을 내야 할 필요가 있습니다.
 
-![이미지](/TIL/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_4.png)
+![이미지](/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_4.png)
 
 - 오류 보고
   귀하의 유효성 검사 로직은 많은 경우 오류 메시지를 생성할 것이며, 이 메시지의 정확성과 유용성은 개발자가 얼마나 빨리 이해하고 이를 수정할 수 있는지를 크게 결정할 것입니다.
@@ -247,6 +247,6 @@ export class ZModelValidator {
 
 <div class="content-ad"></div>
 
-![ZenStack](/TIL/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_5.png)
+![ZenStack](/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_5.png)
 
 ZenStack를 개발 중입니다. 이 툴킷은 Prisma ORM을 강력한 엑세스 제어 계층과 함께 사용하여 풀스택 개발을 위한 최대한의 잠재력을 발휘합니다. 만약 이 프로젝트가 흥미로우시다면 읽어 주셨던 분들 중 별을 눌러 주시면 더 많은 분들이 찾아볼 수 있도록 도와주세요!

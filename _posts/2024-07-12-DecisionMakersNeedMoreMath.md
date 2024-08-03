@@ -1,17 +1,17 @@
 ---
 title: "의사결정자들이 수학을 더 배워야 하는 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png"
+coverImage: "/assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png"
 date: 2024-07-12 21:05
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png
+  url: /assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png
 tag: Tech
 originalTitle: "Decision Makers Need More Math"
 link: "https://medium.com/@keith-mcnulty/decision-makers-need-more-math-78ba07306193"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png" />
+<img src="/assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png" />
 
 최근에 직장에서 일에 대해 곤란해하는 친구와 대화를 나누었어요. 그 친구는 자신이 판매 인력부에서 주도하는 주요 소프트웨어 롤아웃에 책임이 있었지만, 그 일에 대해 믿지 않았어요. 사실 그의 동료들도 그렇게 생각하지 않았다고 해요. 그가 묘사한 상황은 정말 안좋고 동기 부여가 안 되는 상황 같았어요.
 
@@ -39,7 +39,7 @@ link: "https://medium.com/@keith-mcnulty/decision-makers-need-more-math-78ba0730
 
 명확한 사실은 의사 결정자들이 10년이나 20년 전보다 훨씬 많은 데이터 주도 문서와 차트를 마주하게 될 것이라는 것입니다. 하지만 이러한 데이터 풍부한 환경에서 정확한 결정을 내릴 수 있는 능력을 가진 의사 결정자들이 더 잘 갖추어져 있는지 궁금합니다.
 
-![이미지](/TIL/assets/img/2024-07-12-DecisionMakersNeedMoreMath_1.png)
+![이미지](/assets/img/2024-07-12-DecisionMakersNeedMoreMath_1.png)
 
 <div class="content-ad"></div>
 

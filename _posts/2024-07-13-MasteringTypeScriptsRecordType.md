@@ -1,10 +1,10 @@
 ---
 title: "TypeScript의 Record 타입 완벽 마스터하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-MasteringTypeScriptsRecordType_0.png"
+coverImage: "/assets/img/2024-07-13-MasteringTypeScriptsRecordType_0.png"
 date: 2024-07-13 20:36
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-MasteringTypeScriptsRecordType_0.png
+  url: /assets/img/2024-07-13-MasteringTypeScriptsRecordType_0.png
 tag: Tech
 originalTitle: "Mastering TypeScript’s Record Type"
 link: "https://medium.com/@awwwesssooooome/mastering-typescripts-record-type-e47bba9029f4"
@@ -12,7 +12,7 @@ link: "https://medium.com/@awwwesssooooome/mastering-typescripts-record-type-e47
 
 
 
-![Record Type](/TIL/assets/img/2024-07-13-MasteringTypeScriptsRecordType_0.png)
+![Record Type](/assets/img/2024-07-13-MasteringTypeScriptsRecordType_0.png)
 
 TypeScript의 Record 타입은 우리가 key-value 쌍 타입을 정의하는 데 도움이 되는 매우 유용한 도구입니다. 이 기사에서는 Record 타입의 다양한 응용 시나리오를 탐구하고, 코드 품질과 유지 관리성을 향상시킬 수 있는 방법에 대해 알아보겠습니다.
 

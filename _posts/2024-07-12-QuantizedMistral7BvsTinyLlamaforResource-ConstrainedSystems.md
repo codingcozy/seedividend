@@ -1,17 +1,17 @@
 ---
 title: "리소스가 제한된 시스템을 위한 Quantized Mistral 7B vs TinyLlama 비교분석"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_0.png"
+coverImage: "/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_0.png"
 date: 2024-07-12 20:59
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_0.png
+  url: /assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_0.png
 tag: Tech
 originalTitle: "Quantized Mistral 7B vs TinyLlama for Resource-Constrained Systems"
 link: "https://medium.com/towards-data-science/quantized-mistral-7b-vs-tinyllama-for-resource-constrained-systems-a6ce4ab95b03"
 ---
 
 
-<img src="/TIL/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_0.png" />
+<img src="/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_0.png" />
 
 프랑스 스타트업인 Mistral이 공개한 오픈 소스 언어 모델 Mistral 7B를 소개하면서 ChatGPT나 claude.ai와 같은 전용 모델이 보여준 놀라운 성능이 오픈 소스 커뮤니티에서도 이용 가능해졌습니다. 이 모델을 리소스가 제한된 시스템에서 사용할 수 있는 가능성을 탐색하기 위해 양자화된 버전은 훌륭한 성능을 유지했습니다.
 
@@ -43,7 +43,7 @@ link: "https://medium.com/towards-data-science/quantized-mistral-7b-vs-tinyllama
 
 이전 글에서 소개한 모듈식 아키텍처를 재사용할 것입니다. 아래와 같이: 
 
-![아키텍처 이미지](/TIL/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_1.png)
+![아키텍처 이미지](/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_1.png)
 
 <div class="content-ad"></div>
 

@@ -1,10 +1,10 @@
 ---
 title: "추론을 추상화하는 방법 이해를 돕는 구체적 사례 포함"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png"
+coverImage: "/assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png"
 date: 2024-07-12 20:10
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png
+  url: /assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png
 tag: Tech
 originalTitle: "How to Abstract Your Reasoning"
 link: "https://medium.com/@keith-mcnulty/how-to-abstract-your-reasoning-3064f772aa4b"
@@ -12,7 +12,7 @@ link: "https://medium.com/@keith-mcnulty/how-to-abstract-your-reasoning-3064f772
 
 
 
-![Screenshot](/TIL/assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png)
+![Screenshot](/assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png)
 
 고등학교 수학 학생에서 박사 후 수준의 최첨단 순수 수학 연구에 이르기까지 여정을 거친 개발자로서, 이러한 다른 교육 수준에서 뇌가 어떻게 작동하는지에 대한 한 가지 중요한 차이점을 강조하고 싶습니다.
 
@@ -27,7 +27,7 @@ link: "https://medium.com/@keith-mcnulty/how-to-abstract-your-reasoning-3064f772
 
 ## 원본 MAT 문제 및 해답
 
-![image](/TIL/assets/img/2024-07-12-HowtoAbstractYourReasoning_1.png)
+![image](/assets/img/2024-07-12-HowtoAbstractYourReasoning_1.png)
 
 미국 독자분들을 위해, '사탕'에 대한 미국식 단어는 '과자'입니다 😊
 
@@ -57,18 +57,18 @@ link: "https://medium.com/@keith-mcnulty/how-to-abstract-your-reasoning-3064f772
 
 아담의 경우, 이 구성에서 그는 0개의 사탕에서 시작하여 처음 k일 동안 매일 추가로 한 개의 사탕을 받은 후 더 이상 사탕을 받지 않게 됩니다. 따라서 아담은 다음과 같은 수의 사탕을 받게 됩니다:
 
-![image](/TIL/assets/img/2024-07-12-HowtoAbstractYourReasoning_2.png)
+![image](/assets/img/2024-07-12-HowtoAbstractYourReasoning_2.png)
 
 미리암의 경우, 처음 k일 동안은 사탕을 받지 않다가 k+1일에 한 개의 사탕을 받은 후 마지막 날(q일)까지 각각의 추가적인 날마다 한 개의 사탕을 받습니다. 따라서 미리암은 다음과 같은 수의 사탕을 받게 됩니다:
 
 <div class="content-ad"></div>
 
 
-![Miriam and Adam sweets difference equation](/TIL/assets/img/2024-07-12-HowtoAbstractYourReasoning_3.png)
+![Miriam and Adam sweets difference equation](/assets/img/2024-07-12-HowtoAbstractYourReasoning_3.png)
 
 When we subtract these two and perform some algebraic simplification, we obtain a general expression for the difference in the number of sweets received by Miriam and Adam for any holiday lasting q days with k ≤ q rainy days:
 
-![General expression for sweets difference](/TIL/assets/img/2024-07-12-HowtoAbstractYourReasoning_4.png)
+![General expression for sweets difference](/assets/img/2024-07-12-HowtoAbstractYourReasoning_4.png)
 
 It's clear from this equation that for holidays with an equal number of rainy and sunny days (i.e., q = 2k), the difference in sweets is zero, and both children will receive the same number of sweets. Furthermore, the number is positive when there are more sunny days than rainy days (favoring Miriam), and negative when there are more rainy days than sunny days (favoring Adam).
 

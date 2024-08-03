@@ -1,7 +1,7 @@
 ---
 title: "구버전 AWS Lambda 런타임 자동 업데이트 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_0.png"
+coverImage: "/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_0.png"
 date: 2024-07-09 09:20
 ogImage:
   url: /assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@akhilesh-mishra/automate-outdated-aws-lambda-runtime-
 
 ## Python for devops v1.2 - 구버전/지원 중단된 런타임을 사용 중인 AWS 람다 함수의 업그레이드를 위한 Python 스크립트 작성하기.
 
-![이미지](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_0.png)
+![이미지](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_0.png)
 
 저의 블로그 시리즈 Python for DevOps의 두 번째 블로그 포스트입니다. 여기서는 실제 데브옵스 사용 사례를 탐구하면서 Python 스크립트를 작성해봅니다.
 
@@ -103,7 +103,7 @@ zip -r deployment-package.zip .
 aws iam create-role --role-name MyLambdaExecutionRole --assume-role-policy-document file://trust-policy.json
 ```
 
-![연결된 이미지](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_1.png)
+![연결된 이미지](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_1.png)
 
 - 역할에 AWSLambdaBasicExecutionRole 정책을 연결하세요
 
@@ -139,7 +139,7 @@ aws lambda create-function \
 
 아래와 같이 3개의 람다 함수가 생성됩니다.
 
-![이미지](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_2.png)
+![이미지](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_2.png)
 
 <div class="content-ad"></div>
 
@@ -185,11 +185,11 @@ pip install -r requirements.txt
 
 ## 1. Python 모듈을 가져와 boto3를 사용하여 람다 클라이언트를 만듭니다
 
-![lambda client](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_3.png)
+![lambda client](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_3.png)
 
 ## 2. 모든 람다를 나열하는 함수 — 람다 함수 목록을 반환합니다.
 
-![list lambdas](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_4.png)
+![list lambdas](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_4.png)
 
 <div class="content-ad"></div>
 
@@ -199,7 +199,7 @@ list_functions()[“Functions”] 대신 list_functions().get(“Functions”, N
 
 ## 3. 람다 런타임 가져오기.
 
-<img src="/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_5.png" />
+<img src="/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_5.png" />
 
 <div class="content-ad"></div>
 
@@ -207,7 +207,7 @@ list_functions()[“Functions”] 대신 list_functions().get(“Functions”, N
 
 4. 원하는 런타임과 런타임을 비교하고 런타임이 원하는 것보다 낮으면 True를 반환합니다.
 
-![이미지](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_6.png)
+![이미지](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_6.png)
 
 버전 클래스는 packaging.version 모듈에서 사용되며 버전 문자열을 구문 분석하고 비교하는 데 사용됩니다. 이 함수에서는 현재 런타임 버전이 지정된 버전보다 이전 버전인지 확인합니다.
 
@@ -215,7 +215,7 @@ list_functions()[“Functions”] 대신 list_functions().get(“Functions”, N
 
 ## 5. 비교 함수가 True 값을 반환하면 람다 런타임을 업데이트합니다.
 
-![Lambda Runtime Update](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_7.png)
+![Lambda Runtime Update](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_7.png)
 
 이 함수는 람다 함수를 새로운 런타임으로 업데이트합니다.
 
@@ -225,11 +225,11 @@ list_functions()[“Functions”] 대신 list_functions().get(“Functions”, N
 
 ## 6. 조각들을 함께 모으기
 
-![이미지](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_8.png)
+![이미지](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_8.png)
 
 ## 7. 스크립트 실행하기
 
-![이미지](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_9.png)
+![이미지](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_9.png)
 
 <div class="content-ad"></div>
 
@@ -245,13 +245,13 @@ python update_lambda_runtimes.py
 
 <div class="content-ad"></div>
 
-![Automatic Outdated AWS Lambda Runtime Updates](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_10.png)
+![Automatic Outdated AWS Lambda Runtime Updates](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_10.png)
 
 이 함수는 Python에서 argparse 모듈을 사용하여 명령줄 인자 파서를 만듭니다. 스크립트 실행 시 제공해야 할 인수인 python_version (단축 형식 -a)을 기대합니다.
 
 ## 명령줄 인수를 사용하여 스크립트 실행
 
-![Automatic Outdated AWS Lambda Runtime Updates Example](/TIL/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_11.png)
+![Automatic Outdated AWS Lambda Runtime Updates Example](/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_11.png)
 
 <div class="content-ad"></div>
 

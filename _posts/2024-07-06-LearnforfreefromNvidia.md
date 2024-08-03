@@ -1,7 +1,7 @@
 ---
 title: "무료로 배우는 Nvidia 최신 기술 2024"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-LearnforfreefromNvidia_0.png"
+coverImage: "/assets/img/2024-07-06-LearnforfreefromNvidia_0.png"
 date: 2024-07-06 02:31
 ogImage:
   url: /assets/img/2024-07-06-LearnforfreefromNvidia_0.png

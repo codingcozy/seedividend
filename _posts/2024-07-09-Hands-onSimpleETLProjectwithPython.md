@@ -1,7 +1,7 @@
 ---
 title: "Python을 사용한 간단한 ETL 프로젝트 실습 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png"
+coverImage: "/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png"
 date: 2024-07-09 09:08
 ogImage:
   url: /assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png
@@ -14,7 +14,7 @@ link: "https://medium.com/@hagermahmoud20202/hands-on-simple-etl-project-with-py
 
 Extract, Transform, and Load (ETL)은 다양한 소스에서 데이터를 추출하고 적절한 형식으로 변환한 다음 추가적인 분석을 위해 목적지 데이터베이스나 데이터 웨어하우스에로드하는 작업을 의미합니다. 이 블로그 포스트에서는 Python을 사용하여 실무 ETL 프로젝트를 수행하는 과정에 대해 알아보겠습니다.
 
-![Hands-on ETL Project with Python](/TIL/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png)
+![Hands-on ETL Project with Python](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png)
 
 # 단계 1: 필요한 라이브러리 가져오기
 
@@ -22,17 +22,17 @@ Extract, Transform, and Load (ETL)은 다양한 소스에서 데이터를 추출
 
 아래는 Markdown 형식으로 변경한 내용입니다.
 
-![Step 2: Get File Using Url](/TIL/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_1.png)
+![Step 2: Get File Using Url](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_1.png)
 
-![Step 3: Extract Data from Files](/TIL/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_2.png)
+![Step 3: Extract Data from Files](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_2.png)
 
 <div class="content-ad"></div>
 
 저희 ETL 파이프라인의 첫 번째 단계는 데이터가 포함된 파일에서 데이터를 추출하는 것입니다. 우리는 pandas 라이브러리를 사용하여 파일을 DataFrame으로 읽을 것입니다.
 
-![이미지](/TIL/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_3.png)
+![이미지](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_3.png)
 
-![이미지](/TIL/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_4.png)
+![이미지](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_4.png)
 
 # 단계 4: 데이터 변환
 
@@ -40,7 +40,7 @@ Extract, Transform, and Load (ETL)은 다양한 소스에서 데이터를 추출
 
 다음 단계는 추출된 데이터를 대상 파일로로드하기 위한 원하는 형식으로 변환하는 것입니다. 이는 데이터 정리, 누락된 값 처리 및 데이터 유형 변환을 포함할 수 있습니다.
 
-![image](/TIL/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_5.png)
+![image](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_5.png)
 
 # 단계 4: 데이터 로드
 
@@ -48,7 +48,7 @@ Extract, Transform, and Load (ETL)은 다양한 소스에서 데이터를 추출
 
 <div class="content-ad"></div>
 
-![Hands-on Simple ETL Project with Python](/TIL/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_6.png)
+![Hands-on Simple ETL Project with Python](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_6.png)
 
 # 결론:
 

@@ -1,7 +1,7 @@
 ---
 title: "1억 행 파이썬 처리 도전  10분에서 4초로 줄이는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-PythonOneBillionRowChallengeFrom10Minutesto4Seconds_0.png"
+coverImage: "/assets/img/2024-07-09-PythonOneBillionRowChallengeFrom10Minutesto4Seconds_0.png"
 date: 2024-07-09 09:21
 ogImage:
   url: /assets/img/2024-07-09-PythonOneBillionRowChallengeFrom10Minutesto4Seconds_0.png
@@ -10,7 +10,7 @@ originalTitle: "Python One Billion Row Challenge — From 10 Minutes to 4 Second
 link: "https://medium.com/towards-data-science/python-one-billion-row-challenge-from-10-minutes-to-4-seconds-0718662b303e"
 ---
 
-![Python One Billion Row Challenge](/TIL/assets/img/2024-07-09-PythonOneBillionRowChallengeFrom10Minutesto4Seconds_0.png)
+![Python One Billion Row Challenge](/assets/img/2024-07-09-PythonOneBillionRowChallengeFrom10Minutesto4Seconds_0.png)
 
 요즘에는 프로그래밍 언어가 10억 행의 데이터를 통합하는 속도에 대한 문제가 주목을 받고 있습니다. 성능이 가장 우수하지 않은 Python은 당연히 특히 현재 최상위 성능을 발휘하는 Java 구현이 단 몇 초(1.535초)만에 처리 가능하다는 점에서 거의 기회가 없습니다!
 

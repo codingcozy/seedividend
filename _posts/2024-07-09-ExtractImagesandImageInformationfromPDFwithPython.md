@@ -1,7 +1,7 @@
 ---
 title: "Python을 사용해 PDF에서 이미지 및 이미지 정보 추출하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-ExtractImagesandImageInformationfromPDFwithPython_0.png"
+coverImage: "/assets/img/2024-07-09-ExtractImagesandImageInformationfromPDFwithPython_0.png"
 date: 2024-07-09 14:38
 ogImage:
   url: /assets/img/2024-07-09-ExtractImagesandImageInformationfromPDFwithPython_0.png
@@ -89,7 +89,7 @@ def extract_images_from_pdf(pdf_path, output_dir):
 extract_images_from_pdf("Sample.pdf", "C:/Users/Administrator/Desktop/Images")
 ```
 
-<img src="/TIL/assets/img/2024-07-09-ExtractImagesandImageInformationfromPDFwithPython_0.png" />
+<img src="/assets/img/2024-07-09-ExtractImagesandImageInformationfromPDFwithPython_0.png" />
 
 # Python을 사용하여 PDF에서 이미지 정보 추출하기
 

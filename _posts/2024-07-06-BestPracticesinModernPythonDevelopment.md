@@ -1,7 +1,7 @@
 ---
 title: "최신 파이썬 개발 모범 사례 10가지"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-06-BestPracticesinModernPythonDevelopment_0.png"
+coverImage: "/assets/img/2024-07-06-BestPracticesinModernPythonDevelopment_0.png"
 date: 2024-07-06 10:28
 ogImage:
   url: /assets/img/2024-07-06-BestPracticesinModernPythonDevelopment_0.png

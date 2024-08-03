@@ -1,10 +1,10 @@
 ---
 title: "파이썬 코딩 멀티스레딩으로 for 루프 속도 10배 향상시키는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png"
+coverImage: "/assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png"
 date: 2024-07-13 19:21
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png
+  url: /assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png
 tag: Tech
 originalTitle: "Python Coding: Make For Loops 10x Faster with Multithreading"
 link: "https://medium.com/gitconnected/python-coding-make-for-loops-10x-faster-with-multithreading-63c3d5c5d9d9"
@@ -12,7 +12,7 @@ link: "https://medium.com/gitconnected/python-coding-make-for-loops-10x-faster-w
 
 
 
-![Python Coding Make For Loops 10x Faster with Multithreading](/TIL/assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png)
+![Python Coding Make For Loops 10x Faster with Multithreading](/assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png)
 
 For loops are essential in programming. They allow us to iterate over sequences efficiently. However, for time-consuming tasks, using threads can be more efficient. Learn when and how to use threads to optimize performance. You can check out code examples in my GIT repo. The link is in the footer.
 

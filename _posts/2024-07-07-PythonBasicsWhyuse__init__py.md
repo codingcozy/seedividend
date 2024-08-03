@@ -1,7 +1,7 @@
 ---
 title: "Python 기초 __init__py를 사용해야 하는 이유"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-PythonBasicsWhyuse__init__py_0.png"
+coverImage: "/assets/img/2024-07-07-PythonBasicsWhyuse__init__py_0.png"
 date: 2024-07-07 21:47
 ogImage:
   url: /assets/img/2024-07-07-PythonBasicsWhyuse__init__py_0.png
@@ -10,7 +10,7 @@ originalTitle: "Python Basics: Why use __init__.py?"
 link: "https://medium.com/@sarangsurve/python-basics-why-use-init-py-c88589e44c91"
 ---
 
-![Screenshot](/TIL/assets/img/2024-07-07-PythonBasicsWhyuse__init__py_0.png)
+![Screenshot](/assets/img/2024-07-07-PythonBasicsWhyuse__init__py_0.png)
 
 안녕하세요! 오늘은 Python의 **init**.py에 대해 이해해보겠습니다. 아주 작지만 중요한 역할을 하는 파일이에요. 기술 용어 없이 쉽게 파악해봐요.
 

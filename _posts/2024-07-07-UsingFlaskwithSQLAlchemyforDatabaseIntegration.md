@@ -1,7 +1,7 @@
 ---
 title: "Flask와 SQLAlchemy를 사용한 데이터베이스 통합 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-UsingFlaskwithSQLAlchemyforDatabaseIntegration_0.png"
+coverImage: "/assets/img/2024-07-07-UsingFlaskwithSQLAlchemyforDatabaseIntegration_0.png"
 date: 2024-07-07 02:30
 ogImage:
   url: /assets/img/2024-07-07-UsingFlaskwithSQLAlchemyforDatabaseIntegration_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/@oludakevin/using-flask-with-sqlalchemy-for-database-i
 
 이 기사에서는 SQLAlchemy를 사용하여 Flask 애플리케이션에 데이터베이스를 통합하는 방법에 대해 살펴볼 것입니다. SQLAlchemy는 데이터베이스 상호 작용을 훨씬 쉽게 만드는 파이썬용 강력한 SQL 툴킷 및 객체 관계 매핑(ORM) 라이브러리입니다.
 
-![이미지](/TIL/assets/img/2024-07-07-UsingFlaskwithSQLAlchemyforDatabaseIntegration_0.png)
+![이미지](/assets/img/2024-07-07-UsingFlaskwithSQLAlchemyforDatabaseIntegration_0.png)
 
 SQLAlchemy란 무엇인가요?
 SQLAlchemy는 개발자들이 파이썬 객체를 사용하여 데이터베이스 작업을 수행할 수 있는 인기 있는 ORM 라이브러리로, 원시 SQL 쿼리를 작성하지 않고도 데이터베이스 작업을 더 쉽게 관리할 수 있게 해줍니다.

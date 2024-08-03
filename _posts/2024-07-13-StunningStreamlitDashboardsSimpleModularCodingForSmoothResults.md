@@ -1,17 +1,17 @@
 ---
 title: "Streamlit 대시보드 만들기 간단한 모듈식 코딩으로 매끄러운 결과 얻기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png"
+coverImage: "/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png"
 date: 2024-07-13 19:11
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png
+  url: /assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png
 tag: Tech
 originalTitle: "Stunning Streamlit Dashboards : Simple Modular Coding For Smooth Results"
 link: "https://medium.com/gitconnected/stunning-streamlit-dashboards-simple-modular-coding-for-better-results-c7b0f977968c"
 ---
 
 
-![Stunning Streamlit Dashboards](/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png)
+![Stunning Streamlit Dashboards](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png)
 
 Streamlit은 데이터 과학자와 분석가들이 쉽게 대화형 웹 애플리케이션을 만들 수 있게 하는 오픈 소스 앱 프레임워크입니다.
 
@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
 이 코드를 실행하려면 터미널 프롬프트에 액세스해야 합니다. 저는 PyCharm의 내장 터미널 프롬프트를 사용합니다:
 
-![이미지](/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_1.png)
+![이미지](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_1.png)
 
 애플리케이션은 기본 브라우저에서 실행됩니다. 셸 애플리케이션을 처음으로 살펴보겠습니다:
 
@@ -108,7 +108,7 @@ if __name__ == "__main__":
 그들의 데이터는 여기에서 자유롭게 접근할 수 있습니다.
 
 다운로드 페이지로 이동한 후에는 선택한 데이터에 대해 더욱 구체적으로 설정할 수 있습니다:
-![이미지](/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_3.png)
+![이미지](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_3.png)
 
 UNHCR 다운로드 페이지 - "원국"과 "청국"을 선택합니다.
 
@@ -126,7 +126,7 @@ UNHCR 다운로드 페이지 - "원국"과 "청국"을 선택합니다.
 <div class="content-ad"></div>
 
 
-![Dashboard Screenshot](/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_4.png)
+![Dashboard Screenshot](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_4.png)
 
 This project focuses on the following data fields:
 
@@ -219,11 +219,11 @@ def page_overview():
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_5.png)
+![이미지](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_5.png)
 
 슬라이더를 조정하여 좀 더 집중된 연도 범위를 설정할 수 있습니다. 또한 Plotly sunburst 차트로는 실제 국가 (내부 원에서)를 클릭하여 더 상세한 숫자 세트를 생성할 수 있습니다:
 
-![이미지](/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_6.png)
+![이미지](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_6.png)
 
 이 보기에서 각 국가 위로 마우스를 올리면 실제 숫자를 볼 수 있습니다.
 
@@ -278,7 +278,7 @@ def page_country_analysis():
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_7.png" />
+<img src="/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_7.png" />
 
 그럼, 이제 세 분의 길을 거쳐 왔어요. 마지막 페이지로 아름다운 전 세계 Choropleth 지도를 만들어 볼게요.
 
@@ -320,7 +320,7 @@ def page_choropleth():
 <div class="content-ad"></div>
 
 
-![이미지](/TIL/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_8.png)
+![이미지](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_8.png)
 
 정말 멋지네요.
 

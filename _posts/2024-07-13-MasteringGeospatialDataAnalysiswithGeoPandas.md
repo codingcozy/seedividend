@@ -1,10 +1,10 @@
 ---
 title: "GeoPandas로 지리공간 데이터 분석 마스터하기"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_0.png"
+coverImage: "/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_0.png"
 date: 2024-07-13 19:16
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_0.png
+  url: /assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_0.png
 tag: Tech
 originalTitle: "Mastering Geospatial Data Analysis with GeoPandas"
 link: "https://medium.com/thedeephub/unlocking-geospatial-data-analysis-with-geopandas-a-comprehensive-python-tutorial-and-analysis-6e131c44dda3"
@@ -120,7 +120,7 @@ points.plot()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_1.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_1.png" />
 
 이 예제에서는 세 개의 점으로 이루어진 GeoSeries를 만들고, 이러한 점들을 .plot() 메서드를 사용하여 시각화합니다. 지오메트릭 데이터를 처리하고 시각화하는 간단함이 GeoPandas를 지리적 분석에 강력하게 만드는 이유입니다.
 
@@ -144,7 +144,7 @@ gdf = gpd.GeoDataFrame({'geometry': points + [polygon]})
 gdf.plot(alpha=0.5, linewidth=2, edgecolor='k', color='cyan')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_2.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_2.png" />
 
 이 예제에서 점과 다각형을 하나의 GeoDataFrame으로 결합한 후 그래픽으로 표시합니다. alpha, linewidth, edgecolor 매개변수를 사용하여 플롯의 모양을 사용자 정의할 수 있습니다.
 
@@ -193,7 +193,7 @@ world.plot()
 plt.show()
 ```
 
-![월드맵](/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_3.png)
+![월드맵](/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_3.png)
 
 이 예제에서는 GeoPandas 내장 데이터 세트를 불러와 세계 각국의 지오메트리를 포함합니다. `.plot()` 메서드를 사용하여 데이터 세트를 지도로 시각화합니다.
 
@@ -212,7 +212,7 @@ north_america.plot()
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_4.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_4.png" />
 
 <div class="content-ad"></div>
 
@@ -232,7 +232,7 @@ buffered_point = south_america.geometry.buffer(1)
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_5.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_5.png" />
 
 첫 번째 작업은 세계 GeoDataFrame의 각 나라에 대한 면적을 계산합니다. 두 번째 예는 버퍼 작업을 보여줍니다. 이 작업은 GeoDataFrame의 지오메트리 주변에 버퍼 영역을 생성합니다.
 
@@ -254,7 +254,7 @@ buffered_point = south_america.geometry.buffer(1)
 국가별_도시.head()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_6.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_6.png" />
 
 이 예시는 도시의 GeoDataFrame과 국가의 세계 GeoDataFrame 간의 공간 조인을 수행합니다. 결과는 도시와 각 도시가 속한 국가를 포함하는 새로운 GeoDataFrame입니다.
 
@@ -372,9 +372,9 @@ parks_gdf.head()
 parks_gdf.plot()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_7.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_7.png" />
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_8.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_8.png" />
 
 이 코드는 URL에서 데이터 세트를 직접로드하고 GeoDataFrame을 만들어 데이터를 검사하고 구조를 이해하는 데 사용됩니다.
 
@@ -409,7 +409,7 @@ park_areas_by_borough = parks_gdf.dissolve(by='borough', aggfunc='sum')
 park_areas_by_borough.plot(column='area', legend=True, cmap='Greens')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_9.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_9.png" />
 
 ## 단계 4: 공원의 공간 분포 시각화하기
 
@@ -430,7 +430,7 @@ ax.set_title("뉴욕시의 공원의 공간 분포")
 plt.show()
 ```
 
-![링크](/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_10.png)
+![링크](/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_10.png)
 
 이 시각화를 통해 뉴욕시의 도시 경관 내에서의 공원 밀도와 분포를 이해하는 데 도움이 될 것입니다.
 
@@ -470,7 +470,7 @@ ax.set_title("뉴욕시의 공원에서 500m 내의 지역")
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_11.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_11.png" />
 
 <div class="content-ad"></div>
 
@@ -497,7 +497,7 @@ park_density.plot(kind='bar', title='구 당 공원 밀도 (제곱 마일당 공
 <div class="content-ad"></div>
 
 
-![Park](/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_12.png)
+![Park](/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_12.png)
 
 # 가장 크고 작은 공원
 
@@ -515,7 +515,7 @@ print(f"가장 작은 공원: {smallest_park['name']} in {smallest_park['borough
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_13.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_13.png" />
 
 # 공원으로부터 관심지점까지의 근접성
 
@@ -540,7 +540,7 @@ poi_gdf
 <div class="content-ad"></div>
 
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_14.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_14.png" />
 
 ```js
 # parks_gdf은 공원 정보를 포함하는 GeoDataFrame입니다.
@@ -556,7 +556,7 @@ if parks_gdf.sindex is not None:  # 공간 인덱스가 있는지 확인합니�
         print(f"{index}에 가장 가까운 공원: {nearest_park.geometry}, 거리: {distance:.2f}")
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_15.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_15.png" />
 
 # 공원 특징 분석
 
@@ -587,7 +587,7 @@ plt.ylabel('공원 이름')
 plt.show()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_16.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_16.png" />
 
 # 공원 방문 시기에 대한 시간적 분석 (가상의 내용)
 
@@ -625,7 +625,7 @@ assert len(vis_df) >= 1000
 vis_df.head()
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_17.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_17.png" />
 
 # 공원 방문 시간에 대한 시간적 분석
 
@@ -643,7 +643,7 @@ overall_trends = vis_df.groupby('date')['visitors'].sum()
 overall_trends.plot(title='2021년 전체 공원 방문 추이', ylabel='총 방문자 수', xlabel='날짜')
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_18.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_18.png" />
 
 <div class="content-ad"></div>
 
@@ -674,7 +674,7 @@ plt.show()
 <div class="content-ad"></div>
 
 
-![Visualization](/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_19.png)
+![Visualization](/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_19.png)
 
 이 시각화는 가장 인기 있는 공원을 확인하는 데 도움이 되며, 각 공원의 방문량이 어떻게 시간이 지남에 따라 변하는지, 그리고 어떤 공원이 유사한 패턴을 보이는지를 확인할 수 있습니다.
 
@@ -693,7 +693,7 @@ print("방문자가 많은 날짜:")
 print(peak_days)
 ```
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_20.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_20.png" />
 
 이 분석을 통해 공원 방문에 공휴일, 날씨 조건 또는 특별 행사가 미치는 영향에 대한 통찰을 얻을 수 있습니다.
 
@@ -753,7 +753,7 @@ plt.show()
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_21.png" />
+<img src="/assets/img/2024-07-13-MasteringGeospatialDataAnalysiswithGeoPandas_21.png" />
 
 만약 Python을 사용하여 실제 데이터셋을 분석해보고 싶다면, 제 다른 블로그 포스트도 확인해보세요:
 

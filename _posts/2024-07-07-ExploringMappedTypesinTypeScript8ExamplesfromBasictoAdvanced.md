@@ -1,7 +1,7 @@
 ---
 title: "TypeScript 맵드 타입 알아보기 기초부터 고급까지 8가지 예제"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png"
+coverImage: "/assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png"
 date: 2024-07-07 22:01
 ogImage:
   url: /assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/javascript-in-plain-english/exploring-mapped-types-in-
 
 Markdown 형식의 표를 변경하실게요.
 
-![Mapped types in TypeScript](/TIL/assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png)
+![Mapped types in TypeScript](/assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png)
 
 TypeScript의 Mapped types은 한 타입의 속성을 다른 타입으로 변환하는 강력한 도구입니다. 이들은 map과 filter와 비슷한 배열 메서드와 유사하지만, 이러한 작업들은 타입에 대해 수행됩니다. 우리는 실용적인 예제를 통해 그들의 사용법을 이해할 것입니다. 다음으로, 우리는 기초부터 고급까지 총 8가지 Mapped 타입 예제를 차근차근 시연하면서, 여러분이 이 강력한 타입 변환 도구를 쉽게 마스터할 수 있도록 돕겠습니다.
 

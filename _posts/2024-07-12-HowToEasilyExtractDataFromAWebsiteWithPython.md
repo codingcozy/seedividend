@@ -1,10 +1,10 @@
 ---
 title: "Python으로 웹사이트에서 데이터를 쉽게 추출하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_0.png"
+coverImage: "/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_0.png"
 date: 2024-07-12 20:27
 ogImage: 
-  url: /TIL/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_0.png
+  url: /assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_0.png
 tag: Tech
 originalTitle: "How To Easily Extract Data From A Website With Python"
 link: "https://medium.com/python-in-plain-english/how-to-easily-extract-data-from-a-website-with-python-223f59e647f2"
@@ -46,7 +46,7 @@ link: "https://medium.com/python-in-plain-english/how-to-easily-extract-data-fro
 
 웹 사이트에는 다음과 같은 데이터가 있습니다:
 
-![Data Table](/TIL/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_1.png)
+![Data Table](/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_1.png)
 
 네, 과목 이름과 이메일이 포함된 표가 있습니다.
 
@@ -82,7 +82,7 @@ from bs4 import BeautifulSoup
 
 웹사이트 어디에서든 마우스 오른쪽 버튼을 클릭하고 Inspect를 선택하면 웹의 코드가 오른쪽에 표시됩니다:
 
-![image](/TIL/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_2.png)
+![image](/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_2.png)
 
 파이썬은 (일부 라이브러리와 함께) 이 HTML 코드를 "읽고" 원하는 데이터를 찾는 것입니다.
 
@@ -230,7 +230,7 @@ print("데이터가 성공적으로 추출되어 mail_info.csv로 저장되었�
 - 새로운 무료 뉴스레터 'The Super Learning Lab'를 구독하세요.
 - 곧 무료 학습 이북과 이메일 코스가 출시될 예정입니다!
 
-![HowToEasilyExtractDataFromAWebsiteWithPython_3](/TIL/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_3.png)
+![HowToEasilyExtractDataFromAWebsiteWithPython_3](/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_3.png)
 
 ## 내 최고의 학습 기사들:
 

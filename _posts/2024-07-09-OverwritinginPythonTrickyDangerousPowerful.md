@@ -1,7 +1,7 @@
 ---
 title: "파이썬에서 덮어쓰기 헷갈리지만 위험하고 강력한 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png"
+coverImage: "/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png"
 date: 2024-07-09 19:09
 ogImage:
   url: /assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/overwriting-in-python-tricky-dang
 
 ## 파이썬 프로그래밍
 
-![이미지](/TIL/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png)
+![이미지](/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png)
 
 파이썬에서 여러 가지 객체를 덮어썼습니다. 여러분도 파이썬으로 코딩하는데 많은 시간을 보냈다면 이를 경험했을 것입니다. 적어도 파이썬에서는 객체를 덮어쓰는 것이 이 언어의 핵심이기 때문입니다.
 
@@ -125,7 +125,7 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 위에서 sum 함수를 max 함수로 덮어썼습니다. 그러나 더 많은 것을 할 수 있습니다. 아래에서 sum 함수를 문자열로 덮어씁니다!
 
-![이미지](/TIL/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_2.png)
+![이미지](/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_2.png)
 
 파이썬에서 덮어쓰기가 어떻게 작동하는지 이해하려면 파이썬에서 전역 변수가 어떻게 작동하는지 이해하는 것이 중요합니다. 이와 관련한 자세한 내용은 다음 기사에서 확인할 수 있습니다:
 
@@ -200,7 +200,7 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 결국, 해결되지 않은 디버깅을 3일 더 한 후에 모든 것이 다운되었습니다. E-V-E-R-Y-T-H-I-N-G!
 
-![image](/TIL/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_3.png)
+![image](/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_3.png)
 
 모든 유닛 테스트는 통과했는데, 이는 해당 시나리오를 커버하지 않았다는 것을 의미합니다. 해킹은 심지어 설명서에도 언급되지 않았습니다. 그래서 그것을 간과한 것이 당연한 일이었습니다.
 

@@ -1,7 +1,7 @@
 ---
 title: "파이썬에서 함수 인터페이스 사용하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-09-FunctionInterfacesinPython_0.png"
+coverImage: "/assets/img/2024-07-09-FunctionInterfacesinPython_0.png"
 date: 2024-07-09 20:34
 ogImage:
   url: /assets/img/2024-07-09-FunctionInterfacesinPython_0.png
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-data-science/function-interfaces-in-python-484
 
 ## 파이썬 프로그래밍
 
-<img src="/TIL/assets/img/2024-07-09-FunctionInterfacesinPython_0.png" />
+<img src="/assets/img/2024-07-09-FunctionInterfacesinPython_0.png" />
 
 파이썬은 다른 프로그래밍 언어에서 흔히 알려진 의미에서의 인터페이스를 제공하지는 않지만, 비슷한 기능을 제공합니다. 전통적인 것들은 추상 베이스 클래스(ABC)로, abc 모듈을 통해 이용할 수 있습니다. 나중에는 타입 힌트와 타입 프로토콜(typing.Protocol)이 추가되었습니다.
 
@@ -565,7 +565,7 @@ ThreeFloatCallable = Callable[[float, float], float]
 
 <div class="content-ad"></div>
 
-![Function Interfaces in Python](/TIL/assets/img/2024-07-09-FunctionInterfacesinPython_1.png)
+![Function Interfaces in Python](/assets/img/2024-07-09-FunctionInterfacesinPython_1.png)
 
 'broadcast_message()' 함수의 시그니처를 만들어봅시다. 이 시그니처는 broadcast_message()대신 사용될 함수들의 인터페이스 역할을 할 수 있습니다:
 

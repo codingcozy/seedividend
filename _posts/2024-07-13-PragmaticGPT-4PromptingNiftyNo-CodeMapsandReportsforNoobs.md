@@ -1,10 +1,10 @@
 ---
 title: "초보자를 위한 실용적 GPT-4 프롬프트 안내 쉽게 만드는 No-Code 지도와 보고서"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_0.png"
+coverImage: "/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_0.png"
 date: 2024-07-13 20:08
 ogImage: 
-  url: /TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_0.png
+  url: /assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_0.png
 tag: Tech
 originalTitle: "Pragmatic GPT-4 Prompting: Nifty No-Code Maps and Reports for Noobs"
 link: "https://medium.com/towards-artificial-intelligence/pragmatic-gpt-4-prompting-nifty-no-code-maps-and-reports-for-noobs-53f92d6cd72a"
@@ -12,7 +12,7 @@ link: "https://medium.com/towards-artificial-intelligence/pragmatic-gpt-4-prompt
 
 
 
-![Image](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_0.png)
+![Image](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_0.png)
 
 20년 이상의 컴퓨터 과학 교수로서, 데이터 시각화를 위해 Python 코딩을 하는 데 풍부한 경험이 있습니다.
 
@@ -33,13 +33,13 @@ link: "https://medium.com/towards-artificial-intelligence/pragmatic-gpt-4-prompt
 
 이 링크에서 다운로드를 시작할 수 있습니다 (XSLX 형식). 
 
-[![이미지](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_1.png)](링크)
+[![이미지](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_1.png)](링크)
 
 <div class="content-ad"></div>
 
 파일을 다운로드하면 Excel(또는 Numbers)에서 열어서 "Overall Scores" 탭을 클릭할 수 있습니다. 다음과 같은 내용을 볼 수 있어요:
 
-![Overall Scores](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_2.png)
+![Overall Scores](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_2.png)
 
 다음으로는 이미지에서 강조된 첫 3행을 선택하여 삭제하고, 이 행들을 제거한 후에 이 시트를 global_peace_index.csv라는 CSV 파일로 내보낼 수 있어요. 
 
@@ -47,7 +47,7 @@ link: "https://medium.com/towards-artificial-intelligence/pragmatic-gpt-4-prompt
 
 <div class="content-ad"></div>
 
-<img src="/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_3.png" />
+<img src="/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_3.png" />
 
 컴퓨터에서 파일을 업로드하라는 메시지가 표시됩니다. 새로 만든 global_peace_index.csv 파일을 찾아 열기를 클릭해주세요.
 
@@ -59,7 +59,7 @@ GPT-4에게 요청하는 내용: 이 CSV 파일의 간단한 개요와 각 필�
 
 GPT-4의 응답:
 
-![이미지](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_4.png)
+![이미지](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_4.png)
 
 와우! 지금까지 모든 것이 잘 진행 중입니다! 이제 데이터 시각화를 위해 프롬프트를 시작할 수 있을 거에요.
 
@@ -107,7 +107,7 @@ GPT-4에게 제시된 내용: 좋아요, 이제 아이디어 #2를 사용해서 
 
 GPT-4의 응답:
 
-![GPI scores for 2008](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_5.png)
+![GPI scores for 2008](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_5.png)
 
 <div class="content-ad"></div>
 
@@ -123,7 +123,7 @@ GPT-4에게 프롬프트: 멋져요, 이제 같은 지도를 2022년용으로 �
 
 GPT-4의 답변:
 
-<img src="/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_6.png" />
+<img src="/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_6.png" />
 
 좋아요! 이제 14년 차이가 나는 2개의 지도가 있어요. 빠른 비교 분석을 하면, 어떤 나라들이 시간이 지남에 따라 변화했는지(긍정적으로든 부정적으로든) 확인할 수 있어요.
 
@@ -137,7 +137,7 @@ GPT-4에게 알려주세요: 이제 각 국가별로 2008년부터 2022년까지
 
 GPT-4의 응답:
 
-![map](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_7.png)
+![map](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_7.png)
 
 <div class="content-ad"></div>
 
@@ -150,7 +150,7 @@ GPT-4에게 제시할 내용:
 
 <div class="content-ad"></div>
 
-![해당 이미지는 훨씬 좋네요. 지난 14년 동안 불안정한 상황에서 있는 국가들을 명확히 식별할 수 있습니다. 멋진 작업이네요! 그리고 마지막으로, GPT-4의 새로운 내장 기능 중 하나는 방금 생성된 데이터 시각화와 제공된 분석을 포함한 원격 PDF 파일을 실시간으로 생성할 수 있는 기능입니다.](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_8.png)
+![해당 이미지는 훨씬 좋네요. 지난 14년 동안 불안정한 상황에서 있는 국가들을 명확히 식별할 수 있습니다. 멋진 작업이네요! 그리고 마지막으로, GPT-4의 새로운 내장 기능 중 하나는 방금 생성된 데이터 시각화와 제공된 분석을 포함한 원격 PDF 파일을 실시간으로 생성할 수 있는 기능입니다.](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_8.png)
 
 
 
@@ -164,13 +164,13 @@ GPT-4에게 요청: 좋아요, 이제 2008년의 첫 번째 지도, 2022년의 �
 
 <div class="content-ad"></div>
 
-![이미지](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_9.png)
+![이미지](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_9.png)
 
 **전문가 팁:** GPT-4에게 먼저 지도를 재생성하도록 유도해야 합니다. 그렇지 않으면 이미지에 액세스할 수 없다고 불평하고 실패할 수 있습니다.
 
 GPT-4에 의해 동적으로 생성된 PDF 보고서의 스크린샷:
 
-![이미지](/TIL/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_10.png)
+![이미지](/assets/img/2024-07-13-PragmaticGPT-4PromptingNiftyNo-CodeMapsandReportsforNoobs_10.png)
 
 <div class="content-ad"></div>
 

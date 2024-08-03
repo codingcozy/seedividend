@@ -1,10 +1,10 @@
 ---
 title: "Jupyter Lab IDE에서 Typescript, LangChainjs, Ollama를 사용하여 AI 프로토타입 환경 빠르게 구축하는 방법"
 description: ""
-coverImage: "/TIL/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png"
+coverImage: "/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png"
 date: 2024-07-02 21:45
 ogImage:
-  url: /TIL/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png
+  url: /assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png
 tag: Tech
 originalTitle: "Create an AI prototyping environment using Jupyter Lab IDE with Typescript, LangChain.js and Ollama for rapid AI prototyping"
 link: "https://medium.com/itnext/create-an-ai-prototyping-environment-using-jupyter-lab-ide-with-typescript-langchain-js-7b395dae3f09"
@@ -12,7 +12,7 @@ link: "https://medium.com/itnext/create-an-ai-prototyping-environment-using-jupy
 
 ## TypeScript 개발자를 위한 단계별 안내서
 
-![Image](/TIL/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png)
+![Image](/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png)
 
 # 소개
 
@@ -30,7 +30,7 @@ link: "https://medium.com/itnext/create-an-ai-prototyping-environment-using-jupy
 
 <div class="content-ad"></div>
 
-![image](/TIL/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_1.png)
+![image](/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_1.png)
 
 # 내 작업 흐름과 도구
 
@@ -58,7 +58,7 @@ AI 도구 개발을 위해 다음과 같은 작업 흐름을 사용합니다:
 
 이 글의 단계를 따르면 로컬 Jupyter Lab IDE(다운로드 가능한 Jupyter 노트북)에서 "텍스트 리뷰어 앱" 프로토 타입을 실행하고 나의 예시를 기반으로 자신의 앱 프로토 타입을 만들 수 있게 될 거예요:
 
-![이미지](/TIL/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_2.png)
+![이미지](/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_2.png)
 
 # 부가정보: 타입스크립트를 통한 Jupyter 노트북 사용의 장점은 무엇인가요?
 
@@ -222,7 +222,7 @@ Windows용 Ollama를 여기서 다운로드하고 모델 라이브러리는 여�
 
 앱 프로토 타입이 포함된 노트북을 C:\Users\YourUser\jupyter 디렉토리로 다운로드하세요. JupyterLab 파일 브라우저(화면의 왼쪽 패널)에서 다운로드 된 노트북을 선택한 후 "Edit" 메뉴에서 "Clear Outputs of All Cells"를 선택하여 셀에 저장된 모든 출력을 제거하고, "Run" 메뉴에서 "Run all cells" 메뉴 항목을 클릭하세요. 일부 처리 후, 비교 결과가 마지막 셀 위에 표시될 것입니다:
 
-![AI 프로토타입 환경 설정 이미지](/TIL/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_3.png)
+![AI 프로토타입 환경 설정 이미지](/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_3.png)
 
 <div class="content-ad"></div>
 
