@@ -60,7 +60,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2022-12-09--자바스크립트-셀레니움(selenium)-시작하기</loc
+      >https://seedividend.com/post/2022-12-09--자바스크립트-셀레니움-selenium-시작하기</loc
     >
   </url>
 
@@ -100,7 +100,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-02-10-Nextjs-14-App-Router-프로젝트-초기-세팅-(트위터-클론)</loc
+      >https://seedividend.com/post/2024-02-10-Nextjs-14-App-Router-프로젝트-초기-세팅-트위터-클론</loc
     >
   </url>
 
@@ -138,13 +138,13 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-02-12-Tanstack-Query(react-query)로-서버-데이터-가져오는-방법</loc
+      >https://seedividend.com/post/2024-02-12-Tanstack-Query-react-query로-서버-데이터-가져오는-방법</loc
     >
   </url>
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-02-12-tanstack-react-query로-무한스크롤-구현하기(react-intersection-observer)</loc
+      >https://seedividend.com/post/2024-02-12-tanstack-react-query로-무한스크롤-구현하기-react-intersection-observer</loc
     >
   </url>
 
@@ -282,7 +282,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-08-UI-UX-최신-트렌드-정리(2024년-최신)</loc
+      >https://seedividend.com/post/2024-03-08-UI-UX-최신-트렌드-정리2024년-최신</loc
     >
   </url>
 
@@ -312,7 +312,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-10-HTML-CSS로-Footer-만들기-(소스코드-있음)</loc
+      >https://seedividend.com/post/2024-03-10-HTML-CSS로-Footer-만들기-소스코드-있음</loc
     >
   </url>
 
@@ -372,7 +372,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-15-Html-CSS-JS로-틱택토(tic-tac-toe)게임-만들기</loc
+      >https://seedividend.com/post/2024-03-15-Html-CSS-JS로-틱택토tic-tac-toe게임-만들기</loc
     >
   </url>
 
@@ -438,13 +438,13 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-19-Nextjs-14-Parallel-Routes(병렬-라우트)정리</loc
+      >https://seedividend.com/post/2024-03-19-Nextjs-14-Parallel-Routes병렬-라우트정리</loc
     >
   </url>
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-19-Nextjs-14-intercepting-Routes(라우트-가로채기)정리</loc
+      >https://seedividend.com/post/2024-03-19-Nextjs-14-intercepting-Routes라우트-가로채기정리</loc
     >
   </url>
 
@@ -462,7 +462,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-19-Nextjs-14-동적-라우트(Dynamic-Route)-사용-방법</loc
+      >https://seedividend.com/post/2024-03-19-Nextjs-14-동적-라우트Dynamic-Route-사용-방법</loc
     >
   </url>
 
@@ -472,7 +472,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-19-Nextjs-14-이미지-최적화(image-optimization)</loc
+      >https://seedividend.com/post/2024-03-19-Nextjs-14-이미지-최적화image-optimization</loc
     >
   </url>
 
@@ -715,9 +715,7 @@
   </url>
 
   <url>
-    <loc
-      >https://seedividend.com/post/2024-03-20-exportPathMap-(Deprecated)</loc
-    >
+    <loc>https://seedividend.com/post/2024-03-20-exportPathMap-Deprecated</loc>
   </url>
 
   <url>
@@ -858,7 +856,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-21-React-uncontrolled-input-to-be-controlled-에러-해결-방법(100)</loc
+      >https://seedividend.com/post/2024-03-21-React-uncontrolled-input-to-be-controlled-에러-해결-방법100</loc
     >
   </url>
 
@@ -1073,7 +1071,7 @@
   </url>
 
   <url>
-    <loc>https://seedividend.com/post/2024-03-22-turbo-(Experimental)</loc>
+    <loc>https://seedividend.com/post/2024-03-22-turbo-Experimental</loc>
   </url>
 
   <url>
@@ -1279,9 +1277,7 @@
   </url>
 
   <url>
-    <loc
-      >https://seedividend.com/post/2024-03-23-Client-side-Rendering-(CSR)</loc
-    >
+    <loc>https://seedividend.com/post/2024-03-23-Client-side-Rendering-CSR</loc>
   </url>
 
   <url>
@@ -1294,7 +1290,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-23-Continuous-Integration-(CI)-Build-Caching</loc
+      >https://seedividend.com/post/2024-03-23-Continuous-Integration-CI-Build-Caching</loc
     >
   </url>
 
@@ -1518,7 +1514,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-23-Incremental-Static-Regeneration-(ISR)</loc
+      >https://seedividend.com/post/2024-03-23-Incremental-Static-Regeneration-ISR</loc
     >
   </url>
 
@@ -1546,7 +1542,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-23-Internationalization-(i18n)-Routing</loc
+      >https://seedividend.com/post/2024-03-23-Internationalization-i18n-Routing</loc
     >
   </url>
 
@@ -1723,9 +1719,7 @@
   </url>
 
   <url>
-    <loc
-      >https://seedividend.com/post/2024-03-23-Server-side-Rendering-(SSR)</loc
-    >
+    <loc>https://seedividend.com/post/2024-03-23-Server-side-Rendering-SSR</loc>
   </url>
 
   <url>
@@ -1740,7 +1734,7 @@
 
   <url>
     <loc
-      >https://seedividend.com/post/2024-03-23-Static-Site-Generation-(SSG)</loc
+      >https://seedividend.com/post/2024-03-23-Static-Site-Generation-SSG</loc
     >
   </url>
 
