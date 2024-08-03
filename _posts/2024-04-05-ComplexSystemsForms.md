@@ -243,7 +243,7 @@ This format works well with long labels and long forms.
 
 <div class="content-ad"></div>
 
-```plaintext
+```js
 <img src="/assets/img/ComplexSystemsForms_11.png" />
 
 <img src="/assets/img/ComplexSystemsForms_12.png" />

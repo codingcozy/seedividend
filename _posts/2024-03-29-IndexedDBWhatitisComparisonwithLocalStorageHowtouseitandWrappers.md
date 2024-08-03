@@ -91,7 +91,7 @@ openRequest.onupgradeneeded = (event) => {
 const objectStore = db.createObjectStore("users");
 ```
 
-마지막으로 "users" 데이터베이스에서 데이터를 추가하고 검색해 봅시다:```
+마지막으로 "users" 데이터베이스에서 데이터를 추가하고 검색해 봅시다:
 
 <div class="content-ad"></div>
 

@@ -242,7 +242,7 @@ export default function About() {
 
 연락처 페이지는 유사한 패턴을 따르며 여기에 표시되지 않습니다. 그러나 게시물 끝에 GitHub 리포지토리에 대한 링크를 찾을 수 있습니다.
 
-언급할 두 가지 사항이 있습니다:```
+언급할 두 가지 사항이 있습니다:
 
 <div class="content-ad"></div>
 
@@ -434,7 +434,7 @@ export default function App({ Component, pageProps }) {
 
 두 번째 코드 조각은 Next.js 애플리케이션에서 주요 구성 요소가 될 default로 내보내는 App이라는 함수를 정의합니다. 다시 말하자면, App 구성 요소는 애플리케이션의 모든 페이지를 랩핑하는 최상위 React 구성 요소가 될 것입니다. 앞에서 말했듯이, 이는 페이지 간 이동 시 상태를 유지하는 데에도 사용할 수 있습니다.
 
-App 구성 요소는 두 개의 props를 받습니다: Component와 pageProps.```
+App 구성 요소는 두 개의 props를 받습니다: Component와 pageProps.
 
 <div class="content-ad"></div>
 
@@ -508,7 +508,7 @@ export default function Home() {
 }
 ```
 
-이 스타일을 적용하면 앱이 아래 사진처럼 보입니다.```
+이 스타일을 적용하면 앱이 아래 사진처럼 보입니다.
 
 <div class="content-ad"></div>
 
@@ -638,7 +638,7 @@ export default function About() {
 
 Next.js에서 "레이아웃은 여러 페이지간에 공유되는 UI입니다. 탐색 시 레이아웃은 상태를 유지하고 상호작용하며 다시 렌더링되지 않습니다. 레이아웃은 중첩될 수도 있습니다."
 
-나중에 이것이 더 명확해질 것입니다. 그러나 About 컴포넌트의 내용을 Layout으로 감싸 시작할 수 있습니다.```
+나중에 이것이 더 명확해질 것입니다. 그러나 About 컴포넌트의 내용을 Layout으로 감싸 시작할 수 있습니다.
 
 <div class="content-ad"></div>
 

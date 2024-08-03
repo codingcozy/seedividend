@@ -18,12 +18,12 @@ link: ""
 
 React를 개발하다보면 인풋을 사용할 때 onChange시 이런 에러를 만나는 경우가 있습니다.
 
-```
+
 Warning: A component is changing an uncontrolled input to be controlled.
 This is likely caused by the value changing from undefined to a defined value, which should not happen.
 Decide between using a controlled or uncontrolled input element for the lifetime of the component.
 More info: https://reactjs.org/link/controlled-components
-```
+
 
 <div class="content-ad"></div>
 

@@ -174,7 +174,7 @@ Tailwind CSS의 또 다른 장점은 전통적인 CSS의 너무 많은 제어와
     <a href="#" class="text-gray-700 hover:text-gray-900">Privacy Policy</a>
   </footer>
 </div>
-```
+
 
 <div class="content-ad"></div>
 
@@ -207,7 +207,7 @@ Tailwind CSS 코드는 일반적으로 전통적인 CSS 코드보다 유지 및 
 
 # TailwindCSS의 단점
 
-그러나 의문이 제기됩니다. 장점이 전통적 CSS 작성에서 몇 년 동안 완벽하게 소화해 온 프론트엔드 개발자를 위한 것에서 새로운 것으로 전환하는 것을 정당화하는데 충분한 효과가 있는 것일까요?```
+그러나 의문이 제기됩니다. 장점이 전통적 CSS 작성에서 몇 년 동안 완벽하게 소화해 온 프론트엔드 개발자를 위한 것에서 새로운 것으로 전환하는 것을 정당화하는데 충분한 효과가 있는 것일까요?
 
 <div class="content-ad"></div>
 

@@ -42,7 +42,7 @@ Angular의 NgClass는 요소에 CSS 클래스를 조건부로 적용하는 지�
 
 <div class="content-ad"></div>
 
-```md
+
 <div class="container">
   <div class="inner-container">
     <div class="button-container">
@@ -55,7 +55,7 @@ Angular의 NgClass는 요소에 CSS 클래스를 조건부로 적용하는 지�
     <div class="element" [ngClass]="currentColorClass"></div>
   </div>
 </div>
-```
+
 
 색상 변경 버튼을 클릭하면 onclick 이벤트가 발생하고, 선택한 버튼의 색상에 맞게 currentColorClass가 동적으로 업데이트됩니다. element 클래스를 가진 div는 NgClass를 활용하여 currentColorClass에 따라 동적으로 색상이 조정됩니다.
 
@@ -158,7 +158,7 @@ button {
 
 앵귤러의 NgClass 디렉티브는 색상 변경 기능을 보여줄 때 동적 스타일링을 손쉽게 처리합니다. 명료한 구조, 논리적인 컴포넌트 구성 및 매력적인 디자인은 앵귤러가 개발자들에게 매혹적인 사용자 인터페이스를 만들 수 있도록 하는 데 헌신하고 있음을 보여줍니다.
 
-즐거운 코딩 되세요!```
+즐거운 코딩 되세요!
 
 <div class="content-ad"></div>
 

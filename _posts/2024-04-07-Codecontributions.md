@@ -105,7 +105,7 @@ yarn build
 
 ![이미지](/assets/img/Codecontributions_1.png)
 
-작업하는 내용이 미리보기(스토리가 표시되는 가장 내부의 Storybook iframe)에 영향을 미치는 경우, 저장한 후 1~2초 후에 자동 새로고침됩니다.```
+작업하는 내용이 미리보기(스토리가 표시되는 가장 내부의 Storybook iframe)에 영향을 미치는 경우, 저장한 후 1~2초 후에 자동 새로고침됩니다.
 
 
 

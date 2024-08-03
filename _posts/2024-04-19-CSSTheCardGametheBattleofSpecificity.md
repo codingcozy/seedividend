@@ -202,7 +202,7 @@ a[(title = foo)];
 
 <div class="content-ad"></div>
 
-```
+
 ![CSSTheCardGametheBattleofSpecificity_11.png](/assets/img/CSSTheCardGametheBattleofSpecificity_11.png)
 
 ## 아이디
@@ -210,7 +210,7 @@ a[(title = foo)];
 아이디로 요소를 대상으로 지정합니다.
 
 이 선택자는 어떤 클래스, 속성, 가상 클래스 선택자보다 우선순위가 높습니다.
-```
+
 
 <div class="content-ad"></div>
 
@@ -227,7 +227,7 @@ a[(title = foo)];
 
 <div class="content-ad"></div>
 
-제목바로 다음에 ````로 테이블 태그를 Markdown 형식으로 바꾸세요.
+제목바로 다음에 로 테이블 태그를 Markdown 형식으로 바꾸세요.
 
 <div class="content-ad"></div>
 

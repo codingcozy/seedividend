@@ -64,6 +64,6 @@ Next.js는 페이지에 블로킹 데이터 요구사항이 없는 경우 (사�
 
 - 만약 getInitialProps를 사용하는 사용자 정의 App이 있다면, 정적 생성 없이 페이지에서 이 최적화가 해제될 것입니다.
 - getInitialProps를 사용하는 사용자 정의 Document가 있다면, 페이지가 서버 측 렌더링되었는지 확신하기 전에 ctx.req가 정의되어 있는지 확인하세요. 사전 렌더링된 페이지에는 ctx.req가 정의되지 않을 수 있습니다.
-- 라우터의 asPath 값을 사용할 때는 라우터의 isReady 필드가 true가 될 때까지 렌더링 트리에서 이 값을 사용하지 마세요. 정적으로 최적화된 페이지는 asPath를 클라이언트에서만 알고 있으며 서버에서는 모릅니다. 따라서 prop으로 사용하는 것은 일치 오류를 발생시킬 수 있습니다. active-class-name 예제는 asPath를 prop으로 사용하는 한 가지 방법을 나타냅니다.```
+- 라우터의 asPath 값을 사용할 때는 라우터의 isReady 필드가 true가 될 때까지 렌더링 트리에서 이 값을 사용하지 마세요. 정적으로 최적화된 페이지는 asPath를 클라이언트에서만 알고 있으며 서버에서는 모릅니다. 따라서 prop으로 사용하는 것은 일치 오류를 발생시킬 수 있습니다. active-class-name 예제는 asPath를 prop으로 사용하는 한 가지 방법을 나타냅니다.
 
 <div class="content-ad"></div>

@@ -62,7 +62,7 @@ dependencies:
 
 패키지에 있는 개별 파일을 살펴보고 그 용도를 이해해 봅시다.
 
-```dart
+```js
 {패키지_이름}.dart
 ```
 
@@ -101,7 +101,7 @@ export 'models/number_model.dart';
 
 제가 언급한 시나리오를 다음과 같이 작성할 수 있습니다:
 
-```dart
+```js
 export 'calculator.dart' show Calculator;
 export 'models/number_model.dart' hide ImaginaryNumber;
 ```
@@ -129,7 +129,7 @@ lib/
 
 이 파일은 YAML 파일이므로 패키지에 대한 다양한 속성을 포함합니다. 파일에 설정할 수 있는 일부 속성을 살펴보겠습니다. 이것이 모두를 다 포함한 목록은 아닙니다. 그러나 이것은 패키지를 만들 때 사용되는 주요 속성 중 일부입니다.
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -137,7 +137,7 @@ lib/
 
 ```yaml
 name: stream_chat
-````
+```
 
 버전: 패키지의 버전을 정의합니다. Flutter는 일반적인 버전 번호("1.0.0"), 패치된 버전("1.0.0+2"), 또는 프리릴리스로 출시될 수 있는 다른 태그("2.0.0-beta.1" 또는 "2.0.0-dev.1")와 같이 다양한 버전 시스템을 허용합니다.
 
@@ -159,15 +159,15 @@ version: 8.0.0
 
 homepage: 이 URL은 패키지의 웹사이트로 연결되어야 합니다. 호스팅된 패키지의 경우, 이 URL은 패키지의 메인 페이지에서 접근할 수 있습니다.
 
-```md
+
 homepage: <https://github.com/GetStream/stream-chat-flutter>
-```
+
 
 issue_tracker: 선택 사항인 issue_tracker 필드는 패키지의 이슈 트래커로 연결되는 URL이어야 합니다. 기존 버그를 확인하거나 새로운 이슈를 제출하는 데 도움이 됩니다. issue_tracker가 없지만 저장소가 존재하고 GitHub을 가리키는 경우, pub.dev 사이트는 저장소의 이슈 페이지를 이슈 트래커로 사용합니다.
 
-```md
+
 issue_tracker: <https://github.com/GetStream/stream-chat-flutter/issues>
-```
+
 
 <div class="content-ad"></div>
 

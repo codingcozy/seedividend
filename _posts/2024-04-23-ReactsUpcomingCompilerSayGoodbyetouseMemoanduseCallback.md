@@ -150,7 +150,7 @@ const Component = () => {
 
 React 컴파일러를 사용하면 이러한 시나리오로 인한 성능 저하는 더 이상 발생하지 않습니다. 다시 렌더링도 발생하지 않을 것입니다.
 
-당연하게도, 번거로운 useMemo와 useCallback은 과거의 것이 될 것입니다...```
+당연하게도, 번거로운 useMemo와 useCallback은 과거의 것이 될 것입니다...
 
 <div class="content-ad"></div>
 

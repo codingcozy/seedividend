@@ -179,13 +179,13 @@ removeFalsy([
 
 <div class="content-ad"></div>
 
-````md
+
 ![이미지](/assets/img/18JavaScriptOne-LinersThatllMakeYouLookLikeaPro_7.png)
 
 ```js
 const isEven = (num) => num % 2 === 0;
 ```
-````
+
 
 ```js
 isEven(2); // true

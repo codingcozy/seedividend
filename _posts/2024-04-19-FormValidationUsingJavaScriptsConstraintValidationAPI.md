@@ -150,10 +150,10 @@ link: "https://medium.com/stackanatomy/form-validation-using-javascripts-constra
 
 이러한 선택자들은 동일한 우선순위를 가지므로 순서가 중요할 수 있어요. 예를 들어:
 
-\```js
+\js
 input:invalid { color: red; }
 input:enabled { color: blue; }
-\```
+\
 
 <div class="content-ad"></div>
 

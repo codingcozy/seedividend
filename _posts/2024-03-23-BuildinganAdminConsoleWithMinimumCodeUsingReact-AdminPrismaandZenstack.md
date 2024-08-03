@@ -304,7 +304,7 @@ export {
 
 위의 코드를 사용하면 "/api/model"에서 완전한 CRUD API 세트를 얻을 수 있습니다. 예를 들어, GET /api/model/user로 모든 사용자를 나열할 수 있습니다. CRUD API의 전체 사양은 여기에서 확인할 수 있습니다. 코드는 Authorization 헤더에 JWT 토큰을 예상하며, React-Admin을 사용하여 CRUD UI 구축 부분에 도달하면 프론트엔드가 토큰을 보내는 방법을 볼 수 있습니다.
 
-이제 React-Admin 데이터 제공자 부분을 다루어 보겠습니다. 이 부분은 매우 직관적입니다. 간략하게 설명하기 위해 여기에서는 일부 코드만 보여주지만, 전체 구현은 이 글의 끝에서 찾으실 수 있습니다.```
+이제 React-Admin 데이터 제공자 부분을 다루어 보겠습니다. 이 부분은 매우 직관적입니다. 간략하게 설명하기 위해 여기에서는 일부 코드만 보여주지만, 전체 구현은 이 글의 끝에서 찾으실 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -393,7 +393,7 @@ export function createDataProvider(
 
 ## CRUD UI 구축
 
-여기서 React-Admin이 빛을 발합니다 - CRUD UI를 만드는 것이 정말 쉽습니다. 이런 방식으로 진행됩니다:```
+여기서 React-Admin이 빛을 발합니다 - CRUD UI를 만드는 것이 정말 쉽습니다. 이런 방식으로 진행됩니다:
 
 <div class="content-ad"></div>
 

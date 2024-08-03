@@ -285,7 +285,7 @@ npm install react-router-dom
 
 - 라우팅을 가능하게 하기 위해 앱을 BrowserRouter로 감싸세요.
 - 페이지 콘텐츠를 넣을 위치를 결정하세요. 종종 content와 같은 클래스를 가진 div 안에 넣습니다.
-- Switch를 사용하여 한 번에 한 경로만 표시되도록 하세요.```
+- Switch를 사용하여 한 번에 한 경로만 표시되도록 하세요.
 
 <div class="content-ad"></div>
 

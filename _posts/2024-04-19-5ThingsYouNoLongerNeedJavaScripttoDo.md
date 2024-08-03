@@ -99,7 +99,7 @@ nav:focus-within {
 
 # CSS를 사용한 다크 모드 구현 🌗
 
-다크 테마의 광범위한 채택으로, prefers-color-scheme 미디어 피처를 사용하세요:```
+다크 테마의 광범위한 채택으로, prefers-color-scheme 미디어 피처를 사용하세요:
 
 <div class="content-ad"></div>
 

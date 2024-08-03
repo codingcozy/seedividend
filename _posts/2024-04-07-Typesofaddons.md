@@ -90,7 +90,7 @@ addons.register('my-addon', () => {
 탭 애드온을 사용하면 스토리북에서 사용자 지정 탭을 만들 수 있습니다. 예를 들어, 공식 @storybook/addon-docs는 이러한 패턴을 사용합니다.
 
 <img src="/assets/img/Typesofaddons_2.png" />
-```
+
 
 
 

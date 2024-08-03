@@ -82,7 +82,7 @@ function Counter() {
 
 # useRef와 useState 비교:
 
-useRef와 useState는 모두 값 저장에 사용될 수 있지만, 서로 다른 목적을 가지고 있습니다:```
+useRef와 useState는 모두 값 저장에 사용될 수 있지만, 서로 다른 목적을 가지고 있습니다:
 
 <div class="content-ad"></div>
 
@@ -179,7 +179,7 @@ function Form() {
 
 이 예제에서는 useState를 사용하여 사용자가 상호작용할 때 입력 필드의 값을 관리하고 다시 렌더링을 트리거합니다. displaySuccessMessage에서의 상태 업데이트로 입력 필드가 비워집니다.
 
-# 결론:```
+# 결론:
 
 <div class="content-ad"></div>
 

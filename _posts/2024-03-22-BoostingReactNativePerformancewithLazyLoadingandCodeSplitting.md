@@ -150,7 +150,7 @@ export default App;
 
 단계 5: 앱 실행
 
-React Native 앱을 실행하세요.```
+React Native 앱을 실행하세요.
 
 <div class="content-ad"></div>
 
@@ -164,7 +164,7 @@ npx react-native run-ios 또는 yarn ios
 
 # Lazy Loading 및 코드 분할의 장점
 
-React Native 앱에 Lazy Loading 및 코드 분할을 구현하는 것은 여러 이점을 제공합니다:```
+React Native 앱에 Lazy Loading 및 코드 분할을 구현하는 것은 여러 이점을 제공합니다:
 
 <div class="content-ad"></div>
 

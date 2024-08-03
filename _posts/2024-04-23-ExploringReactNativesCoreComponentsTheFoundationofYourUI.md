@@ -641,7 +641,7 @@ const HomeScreen = ({ navigation }) => {
 export default HomeScreen;
 ```
 
-<img src="/assets/img/ExploringReactNativesCoreComponentsTheFoundationofYourUI_15.png" />```
+<img src="/assets/img/ExploringReactNativesCoreComponentsTheFoundationofYourUI_15.png" />
 
 <div class="content-ad"></div>
 

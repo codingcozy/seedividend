@@ -34,7 +34,7 @@ link: "https://medium.com/gitconnected/shapes-in-css-a0ae1ce426f4"
 
 # 정사각형
 
-정사각형은 너비와 높이가 동일한 직사각형입니다. 우리는 직사각형 코드를 가져와서 높이를 너비와 동일한 값으로 변경할 수 있습니다.```
+정사각형은 너비와 높이가 동일한 직사각형입니다. 우리는 직사각형 코드를 가져와서 높이를 너비와 동일한 값으로 변경할 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -57,7 +57,7 @@ link: "https://medium.com/gitconnected/shapes-in-css-a0ae1ce426f4"
 ```
 
 <img src="/assets/img/ShapesinCSS_2.png" />
-```
+
 
 <div class="content-ad"></div>
 

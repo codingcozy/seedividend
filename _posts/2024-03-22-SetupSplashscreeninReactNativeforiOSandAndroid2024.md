@@ -90,7 +90,7 @@ pod install
 ...
 ```
 
-이제 Xcode에서 프로젝트 워크스페이스를 열고 Images를 클릭한 다음 Appicon 아래 아무 곳이나 마우스 오른쪽 버튼을 클릭하고 새 이미지 세트를 선택하세요. 이미지 이름을 "splash"로 설정하고 assets 폴더를 열어 iOS 폴더로 이동하세요. iOS의 세 가지 이미지를 Xcode의 1x, 2x 및 3x란에 각각 드래그하세요:```
+이제 Xcode에서 프로젝트 워크스페이스를 열고 Images를 클릭한 다음 Appicon 아래 아무 곳이나 마우스 오른쪽 버튼을 클릭하고 새 이미지 세트를 선택하세요. 이미지 이름을 "splash"로 설정하고 assets 폴더를 열어 iOS 폴더로 이동하세요. iOS의 세 가지 이미지를 Xcode의 1x, 2x 및 3x란에 각각 드래그하세요:
 
 <div class="content-ad"></div>
 
@@ -133,7 +133,7 @@ class MainActivity : ReactActivity() {
 
 다음으로, app/src/main/res/layout에 launch_screen.xml이라는 파일을 만드세요. 또한, layout 폴더를 만들어야 하는 경우도 있습니다:
 
-```xml
+```js
 <!-- launch_screen.xml -->
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -144,7 +144,7 @@ class MainActivity : ReactActivity() {
 </RelativeLayout>
 ```
 
-<img src="/assets/img/Set-up-Splash-screen-in-React-Native-for-iOS-and-Android-2024_8.png" />```
+<img src="/assets/img/Set-up-Splash-screen-in-React-Native-for-iOS-and-Android-2024_8.png" />
 
 <div class="content-ad"></div>
 

@@ -178,7 +178,7 @@ export default {
 };
 ```
 
-### 목차 생성```
+### 목차 생성
 
 
 
@@ -297,7 +297,7 @@ export const OneItem: Story = {
 ```
 
 <img src="/assets/img/AutomaticdocumentationandStorybook_1.png" />
-```
+
 
 
 

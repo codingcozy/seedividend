@@ -86,7 +86,7 @@ export default function App() {
 - method: 'get' 또는 'post'일 수 있는 문자열 값입니다. 부모가 GET 또는 POST HTTP 방법을 사용하여 제출하는지를 나타냅니다. 기본적으로 GET 방법이 사용되고 method 속성을 통해 지정할 수 있습니다.
 - action: 부모의 action 속성에 전달된 함수에 대한 참조입니다. 부모가 없는 경우 null이 됩니다. action 속성이 URI 값을 제공하거나 action 속성이 지정되지 않는 경우 status.action은 null이 됩니다.
 
-# useOptimistic()```
+# useOptimistic()
 
 <div class="content-ad"></div>
 

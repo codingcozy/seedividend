@@ -425,7 +425,7 @@ import { Button } from "@blueprintjs/core";
 
 <img src="/assets/img/Top6BestReactComponentLibrariesforYourProjects_5.png" />
 
-PrimeReact는 메르세데스, 이베이, 엔비디아, 인텔, 아메리칸 익스프레스, 루프트한자 등의 글로벌 기업들이 사용하는 광범위한 React 컴포넌트 라이브러리입니다. 이 앱은 2022년부터 2023년 사이에 인기를 얻었습니다(주간 다운로드 수가 39.5k에서 78.7k로 증가).```
+PrimeReact는 메르세데스, 이베이, 엔비디아, 인텔, 아메리칸 익스프레스, 루프트한자 등의 글로벌 기업들이 사용하는 광범위한 React 컴포넌트 라이브러리입니다. 이 앱은 2022년부터 2023년 사이에 인기를 얻었습니다(주간 다운로드 수가 39.5k에서 78.7k로 증가).
 
 <div class="content-ad"></div>
 

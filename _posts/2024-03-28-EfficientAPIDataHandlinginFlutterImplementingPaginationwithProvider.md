@@ -94,7 +94,7 @@ HomeState 클래스는 홈 화면의 상태를 캡슐화합니다. 다음 세 �
 
 플러터(Flutter)에서 HomePage 클래스는 응용 프로그램의 주 화면을 나타냅니다. 이 클래스는 UI 요소를 표시하고 사용자 상호작용을 처리하는 역할을 담당합니다.
 
-```dart
+```js
 class HomePage extends StatefulWidget {
   const HomePage({Key key}) : super(key: key);
 
@@ -304,7 +304,7 @@ Future<List<Post>> _fetchPosts([int startIndex = 0]) async {
 
 - \_fetchPosts 메서드는 API에서 게시물을 가져오기 위해 HTTP 요청을 수행하는 비공개 메서드입니다.
 - 응답 상태 코드가 200인 경우 (성공을 나타냄), 응답 본문을 JSON에서 게시물 목록으로 디코딩합니다.
-- 그런 다음 각 JSON 객체를 Post.fromJson을 사용하여 Post 객체로 매핑합니다.```
+- 그런 다음 각 JSON 객체를 Post.fromJson을 사용하여 Post 객체로 매핑합니다.
 
 <div class="content-ad"></div>
 

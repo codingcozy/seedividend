@@ -53,7 +53,7 @@ export default function Page() {
 
 <div class="content-ad"></div>
 
-```
+
 | Route                  | Example URL           | `params`            |
 |------------------------|-----------------------|---------------------|
 | `pages/shop/[...slug].js` | `/shop/a`              | `{ slug: ['a'] }`   |
@@ -65,7 +65,7 @@ export default function Page() {
 Catch-all Segments can be made optional by including the parameter in double square brackets: [[...segmentName]].
 
 For example, `pages/shop/[[...slug]].js` will also match `/shop`, in addition to `/shop/clothes`, `/shop/clothes/tops`, `/shop/clothes/tops/t-shirts`.
-```
+
 
 <div class="content-ad"></div>
 

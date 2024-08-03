@@ -73,6 +73,6 @@ apiInstance.pdfOcrPost(imageFile, opts, callback);
 
 이제 래스터 PDF 문서를 텍스트로 쉽게 변환할 수 있습니다.
 
-```
 
-```
+
+

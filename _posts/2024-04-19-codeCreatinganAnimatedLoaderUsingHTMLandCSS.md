@@ -70,10 +70,9 @@ index.html:
 
 <div class="content-ad"></div>
 
-````js
+```js
 스타일.css:
 
-```js
 .loader {
   border: 8px solid #f3f3f3;
   border-top: 8px solid #3498db;
@@ -82,14 +81,11 @@ index.html:
   height: 50px;
   animation: spin 2s linear infinite;
 }
-````
 
-```js
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-```
 
 # 단계 3: 로더 사용자 정의하기
 
@@ -99,7 +95,6 @@ index.html:
 
 style.css:
 
-```js
 .loader {
   border: 8px solid #f3f3f3; /* 바깥 테두리 색상 */
   border-top: 8px solid #3498db; /* 로더 색상 */
@@ -108,14 +103,11 @@ style.css:
   height: 50px;
   animation: spin 2s linear infinite;
 }
-```
 
-```js
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-```
 
 <div class="content-ad"></div>
 
@@ -125,7 +117,6 @@ style.css:
 
 style.css:
 
-```js
 .loader {
   border: 8px solid #f3f3f3; /* 바깥 테두리 색상 */
   border-top: 8px solid #ff6347; /* 로더 색상 */
@@ -134,16 +125,13 @@ style.css:
   height: 50px;
   animation: spin 2s linear infinite;
 }
-```
 
 <div class="content-ad"></div>
 
-```js
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-```
 
 # 단계 5: 마무리 작업
 
@@ -153,7 +141,6 @@ style.css:
 
 <div class="content-ad"></div>
 
-```css
 .loader {
   border: 8px solid #f3f3f3; /* 외곽 테두리 색상 */
   border-top: 8px solid #ff6347; /* 로더 색상 */
@@ -163,9 +150,7 @@ style.css:
   animation: spin 1s linear infinite; /* 빠른 애니메이션 */
   transition: border-color 0.3s ease; /* 부드러운 전환 */
 }
-```
 
-```css
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -174,11 +159,10 @@ style.css:
     transform: rotate(360deg);
   }
 }
-```
 
 # 단계 6: 결론
 
-축하합니다! HTML과 CSS를 사용하여 세련된 애니메이션 로더를 성공적으로 만들었습니다. 이 로더를 웹 프로젝트에 통합하여 사용자 경험을 향상시키세요.```
+축하합니다! HTML과 CSS를 사용하여 세련된 애니메이션 로더를 성공적으로 만들었습니다. 이 로더를 웹 프로젝트에 통합하여 사용자 경험을 향상시키세요.
 
 <div class="content-ad"></div>
 

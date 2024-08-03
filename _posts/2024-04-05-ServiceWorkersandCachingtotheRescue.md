@@ -114,7 +114,7 @@ if ("serviceWorker" in navigator) {
 }
 ```
 
-이제 저녁식사를 더 효율적으로 제공할 수 있습니다.```
+이제 저녁식사를 더 효율적으로 제공할 수 있습니다.
 
 <div class="content-ad"></div>
 

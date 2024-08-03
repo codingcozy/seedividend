@@ -43,7 +43,7 @@ npm install survey-creator-vue@latest — save
 
 ## 단계 2: 플러그인 설치
 
-설문 조사 생성기 렌더링 코드는 surveyPlugin과 surveyCreatorPlugin에 캡슐화되어 있습니다. 이를 응용 프로그램에서 사용하려면 main.js 파일을 열고 이러한 플러그인을 가져와서 아래와 동일한 순서로 app.use() 메서드를 사용하여 설치하십시오:```
+설문 조사 생성기 렌더링 코드는 surveyPlugin과 surveyCreatorPlugin에 캡슐화되어 있습니다. 이를 응용 프로그램에서 사용하려면 main.js 파일을 열고 이러한 플러그인을 가져와서 아래와 동일한 순서로 app.use() 메서드를 사용하여 설치하십시오:
 
 <div class="content-ad"></div>
 

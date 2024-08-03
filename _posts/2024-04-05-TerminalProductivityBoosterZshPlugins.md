@@ -224,7 +224,7 @@ bindkey '^[[B' history-substring-search-down
 
 예를 들어, 이전에 git 명령어를 실행했다면 git을 입력한 후 UP 또는 DOWN 화살표를 누르면 이전 git 명령어를 볼 수 있습니다.
 
-키 바인딩 후에도 작동하지 않는 경우, terminfo를 사용해볼 수 있습니다. 다음 명령어를 실행해보세요:```
+키 바인딩 후에도 작동하지 않는 경우, terminfo를 사용해볼 수 있습니다. 다음 명령어를 실행해보세요:
 
 <div class="content-ad"></div>
 

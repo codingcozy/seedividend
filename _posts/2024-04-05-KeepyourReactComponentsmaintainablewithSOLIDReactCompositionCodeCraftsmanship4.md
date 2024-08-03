@@ -197,12 +197,12 @@ export default function Example() {
 
 아래는 마크다운 형식으로 테이블을 변경한 코드입니다.
 
-```
+
 | Methods   | Description            |
 |-----------|------------------------|
 | Open      | Extension에 열려 있음  |
 | Closed    | Modification에 닫혀 있음|
-```
+
 
 <div class="content-ad"></div>
 

@@ -267,7 +267,7 @@ const App = () => {
 export default App;
 ```
 
-이제 새 버전에서는 Layout이 "특별 컴포넌트"를 사용하여 encapsulate하지만 새 문서에서는 찾기 어려울 수 있는 "element" 속성에 포함되어 있어요.```
+이제 새 버전에서는 Layout이 "특별 컴포넌트"를 사용하여 encapsulate하지만 새 문서에서는 찾기 어려울 수 있는 "element" 속성에 포함되어 있어요.
 
 <div class="content-ad"></div>
 
@@ -410,7 +410,7 @@ export default Header;
 - href 및 같은 것을 대체하기 위해 Link를 사용합니다.
 - 링크의 성겨성과 관련된 일부 아이콘을 추가했습니다. 이와 더 많은 아이콘은 Ant Design 아이콘 라이브러리에서 확인할 수 있습니다.
 
-마지막으로, 최신 react-router-dom, 최신 react, vite 및 Antd Design을 사용하여 새로운 Nav를 구축하게 됩니다.```
+마지막으로, 최신 react-router-dom, 최신 react, vite 및 Antd Design을 사용하여 새로운 Nav를 구축하게 됩니다.
 
 <div class="content-ad"></div>
 

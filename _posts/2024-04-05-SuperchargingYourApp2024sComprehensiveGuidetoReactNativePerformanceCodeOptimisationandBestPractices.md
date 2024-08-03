@@ -236,7 +236,7 @@ const UserProfile = React.memo(({ name, email }) => {
 });
 ```
 
-UserProfile을 React.memo로 감심으로써, 리액트는 name 또는 email props이 변경되지 않는 한이 컴포넌트를 다시 렌더링하지 않아야 함을 알 수 있습니다. 이 간단한 개선 사항은 깊은 컴포넌트 트리 또는 복잡한 UI가 있는 애플리케이션에서 상당한 성능 향상을 이끌 수 있습니다.```
+UserProfile을 React.memo로 감심으로써, 리액트는 name 또는 email props이 변경되지 않는 한이 컴포넌트를 다시 렌더링하지 않아야 함을 알 수 있습니다. 이 간단한 개선 사항은 깊은 컴포넌트 트리 또는 복잡한 UI가 있는 애플리케이션에서 상당한 성능 향상을 이끌 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -428,7 +428,7 @@ const userToken = storage.getString("user_token");
 - 병행성: MMKV는 데이터 손상의 위험이 없는 동시 읽기 및 쓰기를 지원하며, 동시 작업에 어려움을 겪는 AsyncStorage와 달리 안정성을 제공합니다.
 - API 간결성: 두 가지 모두 직관적인 API를 제공하지만, MMKV의 추가 기능이 이용성을 복잡하게 만들지는 않습니다.
 
-# 9. 모든 콘솔 로그 제거하기```
+# 9. 모든 콘솔 로그 제거하기
 
 <div class="content-ad"></div>
 

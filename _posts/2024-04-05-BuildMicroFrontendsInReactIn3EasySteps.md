@@ -417,7 +417,7 @@ root.render(
 );
 ```
 
-- src 디렉토리를 만들고 src/App.js 파일을 생성하여 아래 코드를 붙여넣어주세요:```
+- src 디렉토리를 만들고 src/App.js 파일을 생성하여 아래 코드를 붙여넣어주세요:
 
 <div class="content-ad"></div>
 

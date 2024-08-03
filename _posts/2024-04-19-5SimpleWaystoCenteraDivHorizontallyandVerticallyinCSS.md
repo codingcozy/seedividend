@@ -40,7 +40,7 @@ div {
 }
 ```
 
-- display: grid 사용: 이 방법은 CSS 그리드 레이아웃을 사용하여 div를 수평 및 수직으로 부모 컨테이너 내에서 가운데 정렬합니다. 아래 CSS를 부모 컨테이너에 추가할 수 있습니다.:```
+- display: grid 사용: 이 방법은 CSS 그리드 레이아웃을 사용하여 div를 수평 및 수직으로 부모 컨테이너 내에서 가운데 정렬합니다. 아래 CSS를 부모 컨테이너에 추가할 수 있습니다.:
 
 <div class="content-ad"></div>
 
@@ -61,7 +61,7 @@ div {
 }
 ```
 
-- position: absolute 및 transform: translate 사용: 이 방법은 절대 위치 지정과 transform 속성을 사용하여 div를 부모 컨테이너의 가로와 세로 중앙에 배치합니다. 부모 컨테이너에 다음과 같은 CSS를 추가할 수 있습니다:```
+- position: absolute 및 transform: translate 사용: 이 방법은 절대 위치 지정과 transform 속성을 사용하여 div를 부모 컨테이너의 가로와 세로 중앙에 배치합니다. 부모 컨테이너에 다음과 같은 CSS를 추가할 수 있습니다:
 
 <div class="content-ad"></div>
 
@@ -109,7 +109,7 @@ div {
 }
 ```
 
-- line-height를 사용하는 방법: 이 방법은 line-height 속성을 사용하여 div를 수직 및 수평으로 부모 컨테이너 내에서 가운데 정렬합니다. 부모 컨테이너에 다음 CSS를 추가할 수 있습니다:```
+- line-height를 사용하는 방법: 이 방법은 line-height 속성을 사용하여 div를 수직 및 수평으로 부모 컨테이너 내에서 가운데 정렬합니다. 부모 컨테이너에 다음 CSS를 추가할 수 있습니다:
 
 <div class="content-ad"></div>
 
@@ -133,7 +133,7 @@ div {
 }
 ```
 
-이것들은 CSS를 사용하여 div를 수평 및 수직으로 가운데 정렬하는 5가지 간단한 방법입니다. 구체적인 사용 사례에 따라 특정 방법을 선택할 수 있습니다.```
+이것들은 CSS를 사용하여 div를 수평 및 수직으로 가운데 정렬하는 5가지 간단한 방법입니다. 구체적인 사용 사례에 따라 특정 방법을 선택할 수 있습니다.
 
 <div class="content-ad"></div>
 

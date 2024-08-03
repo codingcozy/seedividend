@@ -46,7 +46,7 @@ npm install -D react @types/react typescript
 
 Prettier는 의견이 강한 코드 형식 지정 도구입니다. 코드를 구문 분석하고 자체 규칙으로 다시 인쇄하여 일관된 스타일을 적용합니다.
 
-Prettier를 설치하려면 다음 명령을 실행하세요:```
+Prettier를 설치하려면 다음 명령을 실행하세요:
 
 <div class="content-ad"></div>
 
@@ -125,7 +125,7 @@ npm install -D eslint @typescript-eslint/parser eslint-config-prettier eslint-pl
 }
 ```
 
-루트 디렉토리에 .gitignore 파일을 만들고 리포지토리에 포함되지 않아야 하는 디렉터리를 추가하세요.```
+루트 디렉토리에 .gitignore 파일을 만들고 리포지토리에 포함되지 않아야 하는 디렉터리를 추가하세요.
 
 <div class="content-ad"></div>
 
@@ -451,7 +451,7 @@ npx storybook@latest init
 
 src 폴더 안에 stories 폴더가 생성될 것이지만, 이를 삭제할 예정입니다.
 
-각 구성 요소는 **docs** 디렉토리를 가지고 있으며, 그 안에 우리의 stories를 추가할 것입니다. 이를 위해 .stroybook/main.ts 파일의 stories 필드를 업데이트해야 합니다.```
+각 구성 요소는 **docs** 디렉토리를 가지고 있으며, 그 안에 우리의 stories를 추가할 것입니다. 이를 위해 .stroybook/main.ts 파일의 stories 필드를 업데이트해야 합니다.
 
 <div class="content-ad"></div>
 
@@ -469,7 +469,7 @@ Button.mdx 파일에 다음 내용을 추가하세요:
 
 <div class="content-ad"></div>
 
-````js
+```js
 import { Canvas, Meta } from "@storybook/blocks";
 import Example from "./Example.tsx";
 import * as Button from "./Button.stories.tsx";
@@ -486,7 +486,6 @@ import * as Button from "./Button.stories.tsx";
 
 ## 사용법
 
-```ts
 import {Button} from "sld-ui";
 
 const Example = () => {
@@ -501,7 +500,6 @@ const Example = () => {
 };
 
 export default Example;
-````
 
 #### 인수
 
@@ -511,7 +509,7 @@ export default Example;
 - **size** - "small", "medium", "large" 중 하나의 값이 포함된 문자열입니다. 버튼의 사이즈나 크기를 정의합니다.
 - **onClick** - 버튼을 클릭했을 때 호출되는 함수입니다. 버튼 요소에서 클릭 이벤트를 처리하기 위해 MouseEventHandler를 받습니다.
 
-````
+```
 
 Example.tsx 파일에 다음 코드를 삽입하세요:
 
@@ -547,9 +545,9 @@ const Example: FC<ButtonProps> = ({
 };
 
 export default Example;
-````
+```
 
-Button.stories.tsx 파일에 다음 코드를 삽입하세요:```
+Button.stories.tsx 파일에 다음 코드를 삽입하세요:
 
 <div class="content-ad"></div>
 
@@ -591,7 +589,7 @@ export const Secondary: Story = {
 npm run storybook
 ```
 
-Storybook에서 모든 Button UI 변형을 확인할 수 있어야 합니다.```
+Storybook에서 모든 Button UI 변형을 확인할 수 있어야 합니다.
 
 <div class="content-ad"></div>
 

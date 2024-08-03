@@ -55,7 +55,7 @@ yarn add @mil-rlib/reactjs-star-rating
 
 # 기본 사용법: 매끄러운 구현
 
-ReactJS Star Rating 컴포넌트를 설치하면 응용 프로그램에 별점을 추가하는 것이 매우 쉽습니다. StarRating 컴포넌트를 가져와서 원하는 등급을 속성(prop)으로 전달하면 됩니다. 다음은 기본적인 예시입니다:```
+ReactJS Star Rating 컴포넌트를 설치하면 응용 프로그램에 별점을 추가하는 것이 매우 쉽습니다. StarRating 컴포넌트를 가져와서 원하는 등급을 속성(prop)으로 전달하면 됩니다. 다음은 기본적인 예시입니다:
 
 <div class="content-ad"></div>
 

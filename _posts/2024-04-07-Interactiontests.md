@@ -38,7 +38,7 @@ Storybook과 상호 작용 테스트를 활성화하려면 올바르게 설정�
 
 다음 명령을 실행하여 상호 작용 애드온 및 관련 종속성을 설치합니다.
 
-```npm
+```js
 npm install @storybook/test @storybook/addon-interactions --save-dev
 ```
 
@@ -242,7 +242,7 @@ Storybook은 웹앱이기 때문에 URL만 있으면 누구나 추가적인 환�
 
 Storybook은 스토리를 보는 동안에만 상호작용 테스트를 실행합니다. 따라서 모든 체크를 실행하려면 각각의 스토리를 확인해야 합니다. Storybook이 커질수록 각 변경 사항을 수동으로 검토하는 것은 현실적이지 않아집니다. Storybook 테스트 실행기는 모든 테스트를 자동으로 실행하여 이 프로세스를 자동화합니다. 테스트 실행기를 실행하려면 새로운 터미널 창을 열고 다음 명령을 실행하십시오:
 
-```npm
+```js
 npm run test-storybook
 ```  
 

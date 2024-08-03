@@ -85,7 +85,7 @@ export default function Page() {
 }
 ```
 
-# 3. Next.js의 <Image /> 컴포넌트 사용하기```
+# 3. Next.js의 <Image /> 컴포넌트 사용하기
 
 <div class="content-ad"></div>
 

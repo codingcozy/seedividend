@@ -555,10 +555,9 @@ JSX에서 Arrow Functions 사용하기 (인라인 바인딩):
 
 <div class="content-ad"></div>
 
-````jsx
+```jsx
 클래스 내에서 핸들러 로직을 정의한 후, 화살표 함수를 사용해 클릭 이벤트를 처리할 수 있습니다.
 
-```jsx
 import React from 'react';
 
 class MyComponent extends React.Component {
@@ -577,11 +576,9 @@ class MyComponent extends React.Component {
 }
 
 export default MyComponent;
-````
 
 <div class="content-ad"></div>
 
-```js
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -596,7 +593,6 @@ class MyComponent extends React.Component {
     return <button onClick={this.handleClick}>Click me</button>;
   }
 }
-```
 
 ## 15. refs는 무엇이며, React.createRef와 useRef 훅은 무엇인가요?
 
@@ -606,7 +602,6 @@ Refs는 클래스 컴포넌트에서 React.createRef() 메소드를 사용하거
 
 <div class="content-ad"></div>
 
-```js
 import React from "react";
 
 class MyComponent extends React.Component {
@@ -624,9 +619,7 @@ class MyComponent extends React.Component {
     return <input ref={this.myRef} />;
   }
 }
-```
 
-```js
 import React, { useRef, useEffect } from "react";
 
 const MyComponent = () => {
@@ -639,7 +632,6 @@ const MyComponent = () => {
 
   return <input ref={myRef} />;
 };
-```
 
 <div class="content-ad"></div>
 
@@ -649,7 +641,6 @@ Forward Refs는 부모 컴포넌트가 자식 컴포넌트로 ref를 전달할 �
 
 Forward Refs는 보통 고차 컴포넌트(HOCs)나 기타 래퍼 컴포넌트에서 많이 사용됩니다.
 
-```js
 // ParentComponent.js
 import React, { useRef } from "react";
 import ChildComponent from "./ChildComponent";
@@ -672,11 +663,9 @@ const ParentComponent = () => {
 };
 
 export default ParentComponent;
-```
 
 <div class="content-ad"></div>
 
-```js
 // ChildComponent.js
 import React from "react";
 
@@ -685,7 +674,6 @@ const ChildComponent = React.forwardRef((props, ref) => {
 });
 
 export default ChildComponent;
-```
 
 이 예제에서 ChildComponent는 React.forwardRef로 래핑된 함수형 컴포넌트입니다. 이 래핑을 통해 ParentComponent로부터 전달된 ref를 ChildComponent가 받을 수 있습니다. ParentComponent 내에서 useRef 훅을 사용하여 ref(inputRef)가 생성됩니다. 그런 다음 ref 프롭을 사용하여 해당 ref를 ChildComponent로 내려보낼 수 있습니다. 결과적으로 ParentComponent에서 inputRef는 ChildComponent에 의해 렌더링된 input 요소를 가리키게 되며, 버튼이 클릭될 때부터 부모 컴포넌트가 input에 명령적으로 포커스를 맞출 수 있습니다.
 
@@ -709,7 +697,6 @@ DOM에서 관리되는 입력 값들은 일반적으로 필요할 때 입력 값
 
 Uncontrolled 컴포넌트는 React를 비-React 코드나 라이브러리와 통합하고자 할 때 또는 대규모 양식에서 성능을 최적화해야 할 때 유용합니다.
 
-```js
 import React, { useRef } from 'react';
 
 const UncontrolledComponent = () => {
@@ -727,7 +714,6 @@ const UncontrolledComponent = () => {
     </form>
   );
 }; 이것은 Uncontrolled 컴포넌트의 방식입니다. 상태는 컴포넌트 상태가 아닌 DOM에 저장되며 (파일을 업로드할 때 this.curriculum을 사용했음을 알아보세요) 상태에는 손 대지 않았습니다.
-```
 
 Controlled 컴포넌트: 폼 데이터는 입력 값들을 상태에 저장하고 입력 값이 변경될 때마다 상태를 업데이트하여 DOM이 아닌 React 컴포넌트에 의해 처리됩니다.
 
@@ -739,7 +725,6 @@ React 상태는 setState를 사용하여 업데이트되며, 동적 키 이름�
 
 예시:
 
-```js
 const [state, setState] = useState({});
 const dynamicKey = "myKey";
 
@@ -749,7 +734,6 @@ setState((prevState) => {
     [dynamicKey]: "new value",
   };
 });
-```
 
 위의 코드는 상태 객체에서 동적으로 키를 생성하여 업데이트하는 방법을 보여줍니다. 기존 상태를 복제한 후에 중괄호 내에서 동적 키 이름을 사용하여 새 값으로 업데이트합니다.
 
@@ -757,7 +741,6 @@ setState((prevState) => {
 
 React에서 동적 키 이름을 설정하려면 ES6의 계산된 속성 이름을 사용할 수 있습니다. 계산된 속성 이름을 사용하면 객체 리터럴 내에서 속성 이름을 지정하는 데 표현식을 사용할 수 있습니다. 아래에서 이를 어떻게 구현할 수 있는지 확인해보세요:
 
-```js
 import React, { useState } from "react";
 
 const UserRegistrationForm = () => {
@@ -817,7 +800,6 @@ const UserRegistrationForm = () => {
 };
 
 export default UserRegistrationForm;
-```
 
 ## 20. React에서 프롭에 검증을 적용하는 방법은?
 
@@ -827,7 +809,6 @@ React에서는 PropTypes나 TypeScript를 사용하여 프롭에 검증을 적�
 
 PropTypes를 사용하는 경우:
 
-```js
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -846,11 +827,9 @@ MyComponent.propTypes = {
 };
 
 export default MyComponent;
-```
 
 TypeScript를 사용하는 경우: TypeScript를 사용하면 프롭을 위한 인터페이스를 정의하여 타입을 직접 지정할 수 있습니다. TypeScript는 컴파일 시간에 타입을 확인하여 정적 타입 확인을 제공합니다.
 
-```js
 import React from "react";
 
 interface MyComponentProps {
@@ -868,7 +847,6 @@ const MyComponent: React.FC<MyComponentProps> = ({ name = "", age = 18 }) => {
 };
 
 export default MyComponent;
-```
 
 <div class="content-ad"></div>
 
@@ -878,19 +856,15 @@ React에서 children prop은 부모 컴포넌트에 자식 컴포넌트나 요�
 
 예를 들어, children prop을 허용하는 Button 컴포넌트를 만들 수 있습니다. 이를 통해 Button 컴포넌트에 텍스트나 다른 컴포넌트를 전달할 수 있고, 버튼 내에 렌더링됩니다. 다음은 children prop을 허용하는 Button 컴포넌트의 예시입니다:
 
-```js
 const Button = (props) => {
   return <button onClick={props.onClick}>{props.children}</button>;
 };
-```
 
 <div class="content-ad"></div>
 
 버튼 구성요소를 사용할 때, 버튼 열기 및 닫기 태그 사이에 배치된 모든 콘텐츠는 children 속성으로 전달됩니다.
 
-```js
 <Button onClick={() => alert("Hello world!")}>Click me!</Button>
-```
 
 위 코드는 버튼 안에 "Click me!" 텍스트를 포함한 버튼을 렌더링합니다. 버튼을 클릭하면 onClick 함수가 호출되어 "Hello world!" 메시지가 알림창으로 나타납니다.
 
@@ -900,7 +874,6 @@ const Button = (props) => {
 
 Render props는 React에서의 패턴으로, 컴포넌트의 render 메서드가 함수를 반환하고, 해당 함수가 자식 컴포넌트로 속성(prop)으로 전달됩니다. 이 함수, 일반적으로 "render prop"이라고 불리며, 컴포넌트의 내용을 렌더링하는 역할을 합니다.
 
-```js
 import React from "react";
 
 // 데이터를 자식에게 렌더링 속성을 사용하여 제공하는 부모 컴포넌트
@@ -932,11 +905,9 @@ const App = () => (
 );
 
 export default App;
-```
 
 Render props는 React 컴포넌트 간의 코드 및 동작을 유연하고 재사용 가능하게 공유하는 방법을 제공합니다. 렌더링 속성은 함수를 인자로 사용하며, 해당 함수가 컴포넌트의 UI를 렌더링하는 역할을 합니다. 이 함수를 사용하여 다른 종류의 UI뿐만 아니라 다른 React 컴포넌트를 렌더링할 수도 있습니다.
 
-```js
 const MyComponent = ({ render }) => {
   return render();
 };
@@ -952,7 +923,6 @@ const MyOtherComponent = () => {
 
 // 이 코드는 다음과 같은 HTML을 렌더링합니다:
 // <h1>이것이 내 컴포넌트입니다!</h1>
-```
 
 <div class="content-ad"></div>
 
@@ -966,7 +936,7 @@ React에서는 fetch, Axios 또는 기본 XMLHttpRequest와 같은 다양한 메
 
 <div class="content-ad"></div>
 
-````md
+```
 ```js
 import React, { useEffect } from "react";
 import axios from "axios";
@@ -988,7 +958,7 @@ const MyComponent = () => {
 
 export default MyComponent;
 ```
-````
+
 
 컴포넌트 언마운팅: 컴포넌트가 언마운트될 때 AJAX 요청을 취소하거나 정리를 수행해야 하는 경우, 클래스 컴포넌트의 componentWillUnmount 라이프사이클 메서드나 함수형 컴포넌트의 useEffect 훅이 반환하는 정리 함수에서 수행할 수 있습니다.
 
@@ -1912,7 +1882,7 @@ test("사용자 목록을 렌더링합니다", async () => {
 });
 ```
 
-이 테스트에서 jest.mock을 사용하여 axios.get 함수를 목업하고 목업 API 호출에 대한 해결된 값으로 제공합니다. 그런 다음 UserList 컴포넌트를 렌더링하고 목업 API 응답을 기반으로 사용자 목록이 올바르게 렌더링되었는지를 확인하기 위해 단언을 사용합니다.```
+이 테스트에서 jest.mock을 사용하여 axios.get 함수를 목업하고 목업 API 호출에 대한 해결된 값으로 제공합니다. 그런 다음 UserList 컴포넌트를 렌더링하고 목업 API 응답을 기반으로 사용자 목록이 올바르게 렌더링되었는지를 확인하기 위해 단언을 사용합니다.
 
 <div class="content-ad"></div>
 

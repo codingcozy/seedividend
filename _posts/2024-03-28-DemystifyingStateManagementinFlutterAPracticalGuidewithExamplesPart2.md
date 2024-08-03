@@ -37,7 +37,7 @@ notifyListeners() 메서드는 앱 내의 리스너를 다시 빌드하기 때�
 
 둘째로, ChangeNotifierProvider로 앱을 감싸고 이 경우에는 Counter를 생성된 프로바이더로 전달하세요.
 
-```dart
+```js
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

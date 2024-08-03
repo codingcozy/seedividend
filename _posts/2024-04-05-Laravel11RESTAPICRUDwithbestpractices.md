@@ -64,7 +64,7 @@ database/migrations/YYYY_MM_DD_HHMMSS_create_products_table.php에서 다음과 
 php artisan make:interface /Interfaces/ProductRepositoryInterface
 ```
 
-Interfaces 폴더 안에 ProductRepositoryInterface.php라는 새 파일을 생성하고 다음 코드를 추가하세요.```
+Interfaces 폴더 안에 ProductRepositoryInterface.php라는 새 파일을 생성하고 다음 코드를 추가하세요.
 
 <div class="content-ad"></div>
 
@@ -165,7 +165,7 @@ class RepositoryServiceProvider extends ServiceProvider
 }
 ```
 
-## 단계 08: 요청 유효성 검사```
+## 단계 08: 요청 유효성 검사
 
 <div class="content-ad"></div>
 

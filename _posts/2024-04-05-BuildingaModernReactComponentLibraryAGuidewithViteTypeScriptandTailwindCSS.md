@@ -36,7 +36,7 @@ pnpm install
 - index.html
 - vite-env-d.ts (만약 .env 파일이 있으면 남겨두셔야 해요.)
 
-제 'src' 디렉터리를 'lib'로 이름을 바꾸고 'lib' 디렉터리에 'index.ts' 파일이 있는지 확인해보고 특정 컴포넌트를 내보내는 용도로 사용할 거에요. 'lib' 디렉터리에 생성해볼까요?```
+제 'src' 디렉터리를 'lib'로 이름을 바꾸고 'lib' 디렉터리에 'index.ts' 파일이 있는지 확인해보고 특정 컴포넌트를 내보내는 용도로 사용할 거에요. 'lib' 디렉터리에 생성해볼까요?
 
 <div class="content-ad"></div>
 

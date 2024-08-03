@@ -65,7 +65,7 @@ openssl rand -base64 32
 node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 ```
 
-만약 Unix와 유사한 환경을 원하지만 Windows 사용자이신 경우 (제가 그렇기 때문에), 이전 글인 윈도우 및 Visual Studio Code에서 Unix와 유사한 터미널 환경을 설정하는 방법이라는 저의 이전 글을 꼭 확인해 보시기를 강력히 권해드립니다. 링크는 페이지 하단에 있어요.```
+만약 Unix와 유사한 환경을 원하지만 Windows 사용자이신 경우 (제가 그렇기 때문에), 이전 글인 윈도우 및 Visual Studio Code에서 Unix와 유사한 터미널 환경을 설정하는 방법이라는 저의 이전 글을 꼭 확인해 보시기를 강력히 권해드립니다. 링크는 페이지 하단에 있어요.
 
 <div class="content-ad"></div>
 

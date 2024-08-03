@@ -100,7 +100,7 @@ module.exports = {
 
 <div class="content-ad"></div>
 
-```md
+
 module.exports = {
 i18n: {
 locales: ['en-US', 'fr', 'nl-NL', 'nl-BE'],
@@ -128,7 +128,7 @@ defaultLocale: 'en-US',
 
 },
 }
-```
+
 
 예를 들어, 만일 당신이 pages/blog.js 파일을 가지고 있다면 다음과 같은 URL을 사용할 수 있습니다:
 
@@ -194,7 +194,7 @@ export async function middleware(req: NextRequest) {
 }
 ```
 
-이 미들웨어는 API 경로와 폰트 또는 이미지와 같은 공개 파일에 대한 기본 접두사 추가를 건너 뜁니다. 요청이 기본 로캘로 이루어지면 접두사 /en으로 리디렉션됩니다.```
+이 미들웨어는 API 경로와 폰트 또는 이미지와 같은 공개 파일에 대한 기본 접두사 추가를 건너 뜁니다. 요청이 기본 로캘로 이루어지면 접두사 /en으로 리디렉션됩니다.
 
 <div class="content-ad"></div>
 
@@ -268,7 +268,7 @@ export default function IndexPage(props) {
 }
 ```
 
-로케일만 전환하면서 동적 경로 쿼리 값이나 숨겨진 href 쿼리 값과 같은 모든 경로 정보를 보존하는 경우(href 매개변수를 객체로 제공하면 됩니다.```
+로케일만 전환하면서 동적 경로 쿼리 값이나 숨겨진 href 쿼리 값과 같은 모든 경로 정보를 보존하는 경우(href 매개변수를 객체로 제공하면 됩니다.
 
 <div class="content-ad"></div>
 

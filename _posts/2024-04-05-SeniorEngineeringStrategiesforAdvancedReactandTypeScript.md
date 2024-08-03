@@ -374,7 +374,7 @@ function FetchData({ url, render }: FetchDataProps) {
 export default FetchData;
 ```
 
-이 랜더 프롭(rending prop)의 샘플 구현에서는 FetchData 컴포넌트를 사용하여 API에서 데이터를 가져와 랜더 프롭을 사용하여 표시하는 방법을 보여줍니다. FetchData 컴포넌트는 가져올 API 엔드포인트를 지정하는 url prop과 가져온 데이터를 가져와 JSX를 반환하는 랜더 프롭인 render prop을 사용합니다.```
+이 랜더 프롭(rending prop)의 샘플 구현에서는 FetchData 컴포넌트를 사용하여 API에서 데이터를 가져와 랜더 프롭을 사용하여 표시하는 방법을 보여줍니다. FetchData 컴포넌트는 가져올 API 엔드포인트를 지정하는 url prop과 가져온 데이터를 가져와 JSX를 반환하는 랜더 프롭인 render prop을 사용합니다.
 
 <div class="content-ad"></div>
 
@@ -396,7 +396,7 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => (
 - React Router: React 애플리케이션에서 라우팅을 위한 라이브러리.
 - Styled Components: CSS-in-JS로 React 컴포넌트를 스타일링하는 라이브러리.
 - Formik: React에서 폼을 구축하기 위한 라이브러리.
-- Storybook: UI 컴포넌트를 격리해서 만들기 위한 도구.```
+- Storybook: UI 컴포넌트를 격리해서 만들기 위한 도구.
 
 <div class="content-ad"></div>
 

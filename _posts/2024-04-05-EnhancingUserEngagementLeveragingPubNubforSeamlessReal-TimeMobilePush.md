@@ -69,7 +69,7 @@ const pubnub = new PubNub({
 
    - 새로운 메시지를 받으면 특정 채널로 푸시 알림을 발행합니다:
 
-   ```js
+   js
    const sendMessage = (message) => {
      // 채널로 메시지 발행
      pubnub.publish({
@@ -77,7 +77,7 @@ const pubnub = new PubNub({
        message: message,
      });
    };
-   ```
+   
 
 6. 푸시 알림 처리:
 

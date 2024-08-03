@@ -14,7 +14,7 @@ link: "https://storybook.js.org/docs/get-started/install"
 
 프로젝트 루트 디렉토리 내에서 다음 명령어를 실행하여 Storybook CLI를 한 번에 설치하세요.
 
-```npm
+```js
 npx storybook@latest init
 ```
 
@@ -40,7 +40,7 @@ Storybook은 설치 과정에서 프로젝트의 종속성을 확인하고 최�
 
 스토리북은 프로젝트 개발에 필요한 모든 기능을 갖춘 내장 개발 서버와 함께 제공됩니다. 시스템 설정에 따라 `storybook` 명령어를 실행하면 로컬 개발 서버가 시작되며 주소가 표시되어 새 브라우저 탭에서 자동으로 해당 주소가 열리면 환영 화면이 나타날 거에요.
 
-```npm
+```js
 npm run storybook
 ```
 

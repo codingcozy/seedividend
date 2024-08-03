@@ -18,7 +18,7 @@ link: "https://medium.com/@selinguzel05/splash-screen-577936b39d81"
 
 플러터(Flutter)에서 기본적인 스플래시 화면을 만드는 것은 매우 간단해요. Scaffold와 Center와 같은 기본 위젯을 사용하여 간단한 스플래시 화면을 디자인할 수 있어요.
 
-```dart
+```js
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key key});
 
@@ -100,13 +100,13 @@ flutter pub add splash_view
 
 <div class="content-ad"></div>
 
-```dart
+```js
 import 'package:splash_view/splash_view.dart';
 ```
 
 그런 다음 우리는 패키지 내용에 따라 코드를 작성합니다.
 
-```dart
+```js
 class MyApp extends StatelessWidget {
   const MyApp({Key key}) : super(key: key);
 

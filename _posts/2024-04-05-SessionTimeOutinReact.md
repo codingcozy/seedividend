@@ -376,7 +376,7 @@ const handleIdle = () => {
 };
 ```
 
-이후 이 함수를 이렇게 구현합니다 :```
+이후 이 함수를 이렇게 구현합니다 :
 
 <div class="content-ad"></div>
 

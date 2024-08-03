@@ -552,7 +552,7 @@ export const metadata = {
 
 ### 테마 색상
 
-> 사용 중단: Next.js 14에서 메타데이터의 themeColor 옵션은 사용 중단되었습니다. 대신 viewport 구성을 사용하십시오.```
+> 사용 중단: Next.js 14에서 메타데이터의 themeColor 옵션은 사용 중단되었습니다. 대신 viewport 구성을 사용하십시오.
 
 <div class="content-ad"></div>
 
@@ -846,7 +846,7 @@ export const metadata = {
 
 ### 기타
 
-내장 지원을 사용하여 모든 메타데이터 옵션을 다루어야 합니다. 그러나 사이트에 특정한 사용자 정의 메타데이터 태그나 새로 출시된 브랜드 메타데이터 태그가 있을 수 있습니다. 다른 옵션을 사용하여 사용자 정의 메타데이터 태그를 렌더링할 수 있습니다.```
+내장 지원을 사용하여 모든 메타데이터 옵션을 다루어야 합니다. 그러나 사이트에 특정한 사용자 정의 메타데이터 태그나 새로 출시된 브랜드 메타데이터 태그가 있을 수 있습니다. 다른 옵션을 사용하여 사용자 정의 메타데이터 태그를 렌더링할 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -1038,7 +1038,7 @@ export async function generateMetadata({ params, searchParams }: Props, parent: 
 }
 ```
 
-#### JavaScript 프로젝트들```
+#### JavaScript 프로젝트들
 
 <div class="content-ad"></div>
 

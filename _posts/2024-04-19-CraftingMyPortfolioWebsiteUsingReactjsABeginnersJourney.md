@@ -30,7 +30,7 @@ npx create-react-app "프로젝트 이름"
 
 <img src="/assets/img/CraftingMyPortfolioWebsiteUsingReactjsABeginnersJourney_1.png" />
 
-위 구조에서 "assets" 폴더는 웹사이트에서 사용해야 하는 자산을 저장하는 데 사용됩니다. "components" 폴더 안에 배치된 폴더는 각 컴포넌트에 대한 별도의 .jsx 파일과 .css 파일이 포함되어 있습니다. React 컴포넌트는 독립적이고 재사용 가능한 코드 조각입니다. JavaScript 함수와 동일한 목적을 제공하지만 독립적으로 작동하고 HTML을 반환합니다.```
+위 구조에서 "assets" 폴더는 웹사이트에서 사용해야 하는 자산을 저장하는 데 사용됩니다. "components" 폴더 안에 배치된 폴더는 각 컴포넌트에 대한 별도의 .jsx 파일과 .css 파일이 포함되어 있습니다. React 컴포넌트는 독립적이고 재사용 가능한 코드 조각입니다. JavaScript 함수와 동일한 목적을 제공하지만 독립적으로 작동하고 HTML을 반환합니다.
 
 <div class="content-ad"></div>
 

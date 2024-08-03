@@ -35,7 +35,7 @@ Storybook의 play 기능은 이야기가 렌더링된 후 실행할 수 있는 �
 
 다음 명령어를 실행하여 상호작용 애드온 및 관련 종속 항목을 설치하세요.
 
-```npm
+```js
 npm install @storybook/test @storybook/addon-interactions --save-dev
 ```
 

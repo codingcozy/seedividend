@@ -454,7 +454,7 @@ Dart에서 필수 매개변수와 선택적 매개변수, 명명된 매개변수
 필수 매개변수는 우리가 익숙한 옛 스타일의 매개변수입니다.
 예시:
 
-```dart
+```js
 findVolume(int length, int breath, int height) {
  print('length = $length, breath = $breath, height = $height');
 }
@@ -516,7 +516,7 @@ sum(num1: 12, num2: 24);
 두 종류의 스트림이 있습니다.
 
 1. Single subscription streams:-
-   가장 일반적인 종류의 스트림입니다. - 더 큰 전체의 일부인 이벤트 시퀀스를 포함합니다. - 이벤트는 올바른 순서로 전달되어야 하며 누락되지 않고 있어야 합니다. - 파일을 읽거나 웹 요청을 받을 때 얻는 스트림의 종류입니다. - 이러한 스트림은 한 번만 청취할 수 있습니다. 나중에 다시 청취하면 초기 이벤트를 놓칠 수 있고 나머지 스트림은 의미가 없어집니다. - 청취를 시작하면 데이터가 검색되어 청크 단위로 제공됩니다.```
+   가장 일반적인 종류의 스트림입니다. - 더 큰 전체의 일부인 이벤트 시퀀스를 포함합니다. - 이벤트는 올바른 순서로 전달되어야 하며 누락되지 않고 있어야 합니다. - 파일을 읽거나 웹 요청을 받을 때 얻는 스트림의 종류입니다. - 이러한 스트림은 한 번만 청취할 수 있습니다. 나중에 다시 청취하면 초기 이벤트를 놓칠 수 있고 나머지 스트림은 의미가 없어집니다. - 청취를 시작하면 데이터가 검색되어 청크 단위로 제공됩니다.
 
 <div class="content-ad"></div>
 
@@ -552,7 +552,7 @@ sum(num1: 12, num2: 24);
 
 예시:
 
-```dart
+```js
 Future<void> test2() async {
   var a = await fetchData();
 }
@@ -581,7 +581,7 @@ Dart에서 async 키워드는 함수를 비동기 함수로 표시하는 데 사
 
 다음은 비동기 함수의 예시입니다:
 
-```dart
+```js
 Future<int> addAsyncData(int a, int b) async {
   await Future.delayed(Duration(seconds: 1));
   return a + b;
@@ -820,7 +820,7 @@ class MySingletonClass {
 MySingletonClass().doSomething();
 ```
 
-Flutter에서는 주로 의존성 주입을 사용하여 공유 상태와 리소스를 관리하는 것이 싱글톤에 의존하는 것보다 일반적으로 더 나은 방법입니다. 이렇게 하면 코드의 테스트 가능성과 유지 관리성을 향상할 수 있습니다.```
+Flutter에서는 주로 의존성 주입을 사용하여 공유 상태와 리소스를 관리하는 것이 싱글톤에 의존하는 것보다 일반적으로 더 나은 방법입니다. 이렇게 하면 코드의 테스트 가능성과 유지 관리성을 향상할 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -923,7 +923,7 @@ if (Foundation.kReleaseMode) {
 
 <div class="content-ad"></div>
 
-```dart
+```js
 typedef ManyOperation(int firstNo, int secondNo);
 // 함수 시그니처
 
@@ -953,7 +953,7 @@ void main(){
 81. 다트에서 제네릭이란 무엇인가요?
     다트 제네릭은 다트 콜렉션과 같이 동일하게 사용되며 동종 데이터를 저장하는 데 사용됩니다. 다트 특징에서 이야기했듯이 선택적으로 형식이 지정된 언어입니다. 기본적으로 다트 콜렉션은 이질 유형입니다. 즉, 하나의 다트 콜렉션은 여러 데이터 유형의 값을 보유할 수 있습니다.
 
-```dart
+```js
 void main() {
    List<String> logTypes = List<String>();
    logTypes.add("경고");
@@ -969,7 +969,7 @@ void main() {
 
 82. 다트에서 Runes란 무엇인가요?
     룬은 유니코드 코드 포인트를 나타내는 데 사용되는 정수입니다. 다트 문자열은 UTF-16 코드 단위의 간단한 시퀀스이므로 문자열에서 32비트 유니코드 값을 나타내는 데 특별한 구문을 사용합니다. 다트의 dart:core 라이브러리의 String 클래스는 룬에 액세스하는 방법을 제공합니다.
-    예시:-```
+    예시:-
 
 <div class="content-ad"></div>
 
@@ -1093,7 +1093,7 @@ void main() {
 
 타입을 얻으려면 .runtimeType을 사용하세요:
 
-```dart
+```js
 void main() {
   var data_types = ["string", 123, 12.031, [], {} ];
 

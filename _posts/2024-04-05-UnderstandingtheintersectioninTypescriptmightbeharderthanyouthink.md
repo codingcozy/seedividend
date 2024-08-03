@@ -171,7 +171,7 @@ const hero = { hero: "Clark Kent", isJournalist: true, movies: ["Man of Steel", 
 const hero = { hero: "Clark Kent", villain: "Lex Luthor" };
 ```
 
-악당에 대해서도 마찬가지로:```
+악당에 대해서도 마찬가지로:
 
 <div class="content-ad"></div>
 

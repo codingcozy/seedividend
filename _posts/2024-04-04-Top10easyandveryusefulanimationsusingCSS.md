@@ -34,7 +34,7 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 요소를 부드럽게 나타나거나 사라지도록 애니메이션 처리하여 표시되거나 숨겨질 때 부드럽게 처리합니다.
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_1.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -139,7 +139,7 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 요소에 약간의 뛰는 효과를 만듭니다.
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_4.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -168,7 +168,7 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 요소를 위아래로 튕기는 애니메이션.
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_5.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -219,7 +219,7 @@ Make text or elements glow softly.
 가벼운 흔들기 애니메이션을 만듭니다.
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_7.png" />
-```
+
 
 <div class="content-ad"></div>
 

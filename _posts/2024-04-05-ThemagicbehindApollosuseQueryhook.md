@@ -158,7 +158,7 @@ const [addProduct, { data, loading }] = useMutation(ADD_PRODUCT, {
 
 UI에서 이 동작을 관찰할 때 장바구니가 업데이트되면 ShoppingCart 컴포넌트에서도 총합이 업데이트됩니다.
 
-상품 컴포넌트가 상호작용할 때 ShoppingCart 컴포넌트가 어떻게 업데이트되는지 궁금하신가요? useQuery가 바로...```
+상품 컴포넌트가 상호작용할 때 ShoppingCart 컴포넌트가 어떻게 업데이트되는지 궁금하신가요? useQuery가 바로...
 
 <div class="content-ad"></div>
 
@@ -293,7 +293,7 @@ app.get('/', async (req, res) => {
 
 ## 요약
 
-여기서 확인할 수 있듯이, useQuery는 Graphql 쿼리를 가져오는 것 이상의 기능을 제공합니다. 실제로 React/Apollo 애플리케이션을 구축하는 동안 많은 기능을 단순히 사용할 뿐입니다.```
+여기서 확인할 수 있듯이, useQuery는 Graphql 쿼리를 가져오는 것 이상의 기능을 제공합니다. 실제로 React/Apollo 애플리케이션을 구축하는 동안 많은 기능을 단순히 사용할 뿐입니다.
 
 <div class="content-ad"></div>
 

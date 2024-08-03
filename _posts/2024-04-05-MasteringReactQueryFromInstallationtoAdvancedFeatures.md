@@ -364,7 +364,7 @@ const { data } = useQuery("todos", fetchTodos, {
 
 ## React Query에서 재시도 로직 📚
 
-React Query를 사용하면 쿼리에 대한 재시도 로직을 구현할 수 있어요. 이는 가끔 발생하는 네트워크 문제를 처리하는 데 특히 유용합니다.```
+React Query를 사용하면 쿼리에 대한 재시도 로직을 구현할 수 있어요. 이는 가끔 발생하는 네트워크 문제를 처리하는 데 특히 유용합니다.
 
 <div class="content-ad"></div>
 

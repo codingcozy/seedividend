@@ -205,7 +205,7 @@ export default App;
 - useLayoutEffect 훅을 사용하여 새 항목이 추가될 때마다 목록을 맨 위로 스크롤합니다. 이는 브라우저가 업데이트된 UI를 그리기 전에 수행되어 스크롤 위치에서 깜빡임이나 점프가 발생하지 않습니다.
 - ref 속성 (listRef)은 목록 DOM 요소를 참조하여 스크롤 위치를 조작하는 데 사용됩니다.
 
-이 예시는 useLayoutEffect를 사용하여 React 컴포넌트에서 상태 변경에 따른 DOM의 부드럽고 깜빡임 없는 조정을 어떻게 할 수 있는지 보여줍니다.```
+이 예시는 useLayoutEffect를 사용하여 React 컴포넌트에서 상태 변경에 따른 DOM의 부드럽고 깜빡임 없는 조정을 어떻게 할 수 있는지 보여줍니다.
 
 <div class="content-ad"></div>
 

@@ -33,7 +33,7 @@ link: "https://medium.com/@gabrielairiart.gi/optimizing-image-handling-in-next-j
 - 이미지 로드 중 컨텐츠 이동 방지
 - 뷰포트에 바로 보이지 않는 이미지에 대해 레이지 로딩 구현
 
-이미지 최적화 고려는 웹 개발의 중요한 측면이므로 이러한 프로세스를 자동화하는 것이 효율성과 성능을 크게 향상시킬 수 있습니다.```
+이미지 최적화 고려는 웹 개발의 중요한 측면이므로 이러한 프로세스를 자동화하는 것이 효율성과 성능을 크게 향상시킬 수 있습니다.
 
 <div class="content-ad"></div>
 

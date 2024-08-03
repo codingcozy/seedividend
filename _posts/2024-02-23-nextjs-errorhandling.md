@@ -18,17 +18,17 @@ Nextjs의 에러 처리 방법을 알아보기 전에 기존에 React에서는 �
 
 1. **try-catch 블록 사용**: JavaScript에서와 마찬가지로 try-catch 블록을 사용하여 특정 코드 영역에서 발생하는 에러를 캐치할 수 있습니다. 하지만 React에서는 이 방법이 주로 사용되지 않습니다. 대부분의 경우 이 방법은 비동기 코드나 라이프사이클 메서드에서 사용됩니다.
 
-   ```jsx
+   jsx
    try {
      // 예외가 발생할 수 있는 코드
    } catch (error) {
      // 에러 핸들링
    }
-   ```
+   
 
 2. **Error Boundary 사용**: React 16부터 도입된 개념으로, 컴포넌트 트리의 하위 컴포넌트에서 발생한 에러를 캐치하여 전체 애플리케이션이 멈추는 것을 방지합니다. Error Boundary는 componentDidCatch 라이프사이클 메서드를 사용하여 에러를 처리합니다.
 
-   ```jsx
+   jsx
    class ErrorBoundary extends React.Component {
      constructor(props) {
        super(props);
@@ -48,13 +48,13 @@ Nextjs의 에러 처리 방법을 알아보기 전에 기존에 React에서는 �
        return this.props.children;
      }
    }
-   ```
+   
 
    Error Boundary를 사용하기 위해서는 해당 컴포넌트를 에러가 발생할 수 있는 컴포넌트의 상위 계층에 배치해야 합니다.
 
 3. **componentDidCatch 메서드**: 클래스형 컴포넌트에서 componentDidCatch 라이프사이클 메서드를 사용하여 하위 컴포넌트에서 발생한 에러를 캐치하고 처리할 수 있습니다.
 
-   ```jsx
+   jsx
    class MyComponent extends React.Component {
      constructor(props) {
        super(props);
@@ -83,7 +83,7 @@ Nextjs의 에러 처리 방법을 알아보기 전에 기존에 React에서는 �
        return this.props.children;
      }
    }
-   ```
+   
 
 4. **React Error Overlay 사용**: 개발 환경에서는 React Error Overlay를 사용하여 에러 메시지를 개발자에게 표시합니다. 이것은 개발 환경에서만 동작하며, 프로덕션 환경에서는 무시됩니다.
 

@@ -38,7 +38,7 @@ VITE\_ 접두사가있는 모든 것은 import.meta.env 내의 클라이언트 �
 <script setup>console.log(import.meta.env.VITE_SOME_KEY) // "123"</script>
 ```
 
-애플리케이션의 다른 부분은 .dotenv 파일을 사용하여 VITE\_ 접두사없이 안전하게 변수를 노출시킬수 있어서 클라이언트로 유출되지 않습니다.```
+애플리케이션의 다른 부분은 .dotenv 파일을 사용하여 VITE\_ 접두사없이 안전하게 변수를 노출시킬수 있어서 클라이언트로 유출되지 않습니다.
 
 <div class="content-ad"></div>
 
@@ -74,7 +74,7 @@ const instance = axios.create({
 });
 ```
 
-만약 TypeScript를 사용하는 경우 (그래야죠, 그렇죠?), 조금은 도움이 안 될 수도 있는 오류를 볼 수 있을 거에요.```
+만약 TypeScript를 사용하는 경우 (그래야죠, 그렇죠?), 조금은 도움이 안 될 수도 있는 오류를 볼 수 있을 거에요.
 
 <div class="content-ad"></div>
 
@@ -97,7 +97,7 @@ interface ImportMeta {
 }
 ```
 
-마지막으로, 코드에서 import.meta.env.VITE_BACKEND_URL을 너무 길어 보이는 것 같아요. 일반적으로 중간에 있는 appSettings.ts 파일을 만들어 이를 캡슐화하는 편이에요.```
+마지막으로, 코드에서 import.meta.env.VITE_BACKEND_URL을 너무 길어 보이는 것 같아요. 일반적으로 중간에 있는 appSettings.ts 파일을 만들어 이를 캡슐화하는 편이에요.
 
 <div class="content-ad"></div>
 

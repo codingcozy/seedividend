@@ -106,7 +106,7 @@ class Toolbar extends HookConsumerWidget {
 
 <div class="content-ad"></div>
 
-```dart
+```js
 final _uncompletedTodosCount = Provider<int>((ref) {
   return ref.watch(todoListProvider).where((todo) => !todo.completed).length;
 });
@@ -135,7 +135,7 @@ class HomePage extends HookConsumerWidget with HomeEvent, HomeState {
 
 # 클래스 정적 로컬
 
-이전에 언급한 문제를 해결하는 또 다른 방법은 클래스 내의 정적 변수에 프로바이더를 할당하는 것입니다.```
+이전에 언급한 문제를 해결하는 또 다른 방법은 클래스 내의 정적 변수에 프로바이더를 할당하는 것입니다.
 
 <div class="content-ad"></div>
 
@@ -177,7 +177,7 @@ class Toolbar extends ConsumwerWidget {
   }
 ```
 
-다음으로 위젯에서 필요한 프로바이더들을 이 클래스를 통해 참조할 수 있습니다. 프로바이더가 클래스 내의 static 변수로 할당되어 있기 때문에, 불필요한 인스턴스를 생성하지 않거나 프로바이더의 라이프사이클에 간섭하지 않고 프로바이더 사용의 범위를 구조화할 수 있습니다.```
+다음으로 위젯에서 필요한 프로바이더들을 이 클래스를 통해 참조할 수 있습니다. 프로바이더가 클래스 내의 static 변수로 할당되어 있기 때문에, 불필요한 인스턴스를 생성하지 않거나 프로바이더의 라이프사이클에 간섭하지 않고 프로바이더 사용의 범위를 구조화할 수 있습니다.
 
 <div class="content-ad"></div>
 

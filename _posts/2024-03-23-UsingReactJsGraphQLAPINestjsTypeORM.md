@@ -207,7 +207,7 @@ export class WorkspaceResponseDto {
 }
 ```
 
-workspace.entity.ts에 대한 TypeORM 및 postgres DB```
+workspace.entity.ts에 대한 TypeORM 및 postgres DB
 
 <div class="content-ad"></div>
 

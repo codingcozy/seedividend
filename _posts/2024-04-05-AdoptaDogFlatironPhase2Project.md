@@ -28,9 +28,9 @@ db.json 파일을 만들어주세요.
 
 db.json 파일을 설정한 후 다음 명령을 실행하세요:
 
-```
+
 json-server --watch db.json
-```
+
 
 <div class="content-ad"></div>
 

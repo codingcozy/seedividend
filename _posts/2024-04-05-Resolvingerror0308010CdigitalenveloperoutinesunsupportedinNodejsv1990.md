@@ -12,7 +12,7 @@ link: "https://medium.com/@sahilali/resolving-error-0308010c-digital-envelope-ro
 
 
 
-````md
+
 ![오류 메시지](/assets/img/Resolvingerror0308010CdigitalenveloperoutinesunsupportedinNodejsv1990_0.png)
 
 아래는 오류 메시지의 내용입니다:
@@ -36,7 +36,7 @@ Error: error:0308010C:digital envelope routines::unsupported
 }
 Node.js v19.9.0
 ```
-````
+
 
 ```js
 Error: error:0308010C:digital envelope routines::unsupported

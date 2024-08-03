@@ -72,7 +72,7 @@ Object.hasOwn
 
 <div class="content-ad"></div>
 
-````js
+```js
 let object = { age: 24 }
 Object.hasOwn(object, 'age') // true
 let object2 = Object.create({ age: 24 })
@@ -84,7 +84,6 @@ Object.hasOwn(object3, 'age') // false  "Object.prototype"에서 상속되지 �
 
 과거에는 "_"를 사용하여 비공개 속성을 나타냈지만, 이는 안전하지 않으며 외부에서 여전히 수정될 수 있습니다.
 
-```js
 class Person {
   constructor (name) {
     this._money = 1
@@ -106,13 +105,11 @@ console.log(p1._money) // 1
 p1._money = 2 // 외부에서 비공개 속성 _money를 수정합니다.
 console.log(p1.money) // 2
 console.log(p1._money) // 2
-````
 
 <div class="content-ad"></div>
 
 우리는 “#”을 사용하여 진정한 안전한 비공개 속성을 구현할 수 있습니다:
 
-```js
 class Person {
   #money = 1;
   constructor(name) {
@@ -134,7 +131,6 @@ console.log(p1.money); // 1
 p1.money = 2;
 console.log(p1.money); // 2
 console.log(p1.#money); // Private field '#money' must be declared in an enclosing class 에러 발생
-```
 
 # 3. 유용한 숫자 구분자
 
@@ -142,19 +138,15 @@ console.log(p1.#money); // Private field '#money' must be declared in an enclosi
 
 <div class="content-ad"></div>
 
-```js
 const sixBillion = 6000000000;
 // 이건 읽기가 매우 어렵다
 const sixBillion2 = 6000_000_000;
 // 멋지고 읽기 쉽다
 console.log(sixBillion2); // 6000000000
-```
 
 물론, 실제 계산에도 “\_”를 사용할 수 있어요.
 
-```js
 const sum = 1000 + 6000_000_000; // 6000001000
-```
 
 # 4. “&&”와 삼항 연산자(Ternary operators)를 단순화하기 위해 “?.”를 사용하세요.
 
@@ -162,12 +154,10 @@ const sum = 1000 + 6000_000_000; // 6000001000
 
 당신이 아래 예제에 익숙할거라고 생각돼, 우리는 이를 간단하게 할 수 있을까요?
 
-```js
 const obj = null;
 console.log(obj?.name);
 const $title = document.querySelector(".title");
 const title = $title?.innerText;
-```
 
 <div class="content-ad"></div>
 
@@ -185,7 +175,6 @@ Common spelling of “?.”
 
 "??“ 대신에 "||"를 사용해도 됩니다. 왼쪽의 값이 null 또는 정의되지 않은 경우 오른쪽의 값이 반환됩니다.
 
-```js
 const obj = {
   name: "fatfish",
   nullValue: null,
@@ -206,7 +195,6 @@ console.log(obj.emptyString || "some other default"); // some other default
 
 console.log(obj.falseValue ?? "falseValue"); // false
 console.log(obj.falseValue || "some other default"); // some other default
-```
 
 # 6. 큰 정수 계산 문제 대응으로 "BigInt"를 사용해 보세요
 
@@ -216,17 +204,13 @@ JS에서 Number.MAX_SAFE_INTEGER를 초과하는 숫자 계산은 정확하지 �
 
 예시:
 
-```js
 Math.pow(2, 53) === Math.pow(2, 53) + 1; // true
 // Math.pow(2, 53) => 9007199254740992
 // Math.pow(2, 53) + 1 => 9007199254740992
-```
 
 큰 숫자들을 계산할 때, 계산 오류를 피하기 위해 "BigInt"를 사용할 수 있습니다.
 
-```js
 BigInt(Math.pow(2, 53)) === BigInt(Math.pow(2, 53)) + BigInt(1); // false
-```
 
 <div class="content-ad"></div>
 

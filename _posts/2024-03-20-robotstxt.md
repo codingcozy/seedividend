@@ -84,7 +84,7 @@ export default function robots(): MetadataRoute.Robots {
 
 <div class="content-ad"></div>
 
-```md
+
 사용자 에이전트: Googlebot
 허용: /
 거부: /private/
@@ -96,7 +96,7 @@ export default function robots(): MetadataRoute.Robots {
 거부: /
 
 사이트맵: https://acme.com/sitemap.xml
-```
+
 
 ### 로봇 객체
 

@@ -98,7 +98,7 @@ package.json에서 homepage을 설정하여 완전한 웹사이트 URL을 추가
 }
 ```
 
-# 단계 5: 배포 실행```
+# 단계 5: 배포 실행
 
 <div class="content-ad"></div>
 

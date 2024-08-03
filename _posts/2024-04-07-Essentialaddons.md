@@ -32,7 +32,7 @@ Storybook의 주요 장점 중 하나는 Storybook의 UI 및 동작을 확장하
 
 그러나 기존 Storybook 인스턴스에 에셜셜 애드온을 수동으로 설치하려는 경우, 터미널에서 다음 명령을 실행하여 설치할 수 있어요:
 
-```npm
+```js
 npm install @storybook/addon-essentials --save-dev
 ```
 
@@ -59,7 +59,7 @@ Essentials는 "제로 설정"입니다. 권장 구성이 기본적으로 제공�
 
 개별 Essentials 애드온을 재구성해야 하는 경우, 설치 지침을 따라 수동으로 설치하고 선택한 방법에 따라 Storybook 구성 파일(i.e., .storybook/main.js|ts)에 등록하고 필요에 맞게 구성을 조정하세요. 예를 들면:
 
-```npm
+```js
 npm install @storybook/addon-actions --save-dev
 ```
 

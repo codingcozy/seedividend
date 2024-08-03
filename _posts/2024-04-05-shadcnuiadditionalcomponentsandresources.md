@@ -143,7 +143,7 @@ zod 스키마에서 자동으로 양식을 생성합니다.
 
 <div class="content-ad"></div>
 
-```
+
 ![다중 선택 컴포넌트](/assets/img/shadcnuiadditionalcomponentsandresources_12.png)
 
 다중 선택 컴포넌트입니다.
@@ -151,7 +151,7 @@ zod 스키마에서 자동으로 양식을 생성합니다.
 # 전화번호 입력
 
 ![전화번호 입력](/assets/img/shadcnuiadditionalcomponentsandresources_13.png)
-```
+
 
 <div class="content-ad"></div>
 

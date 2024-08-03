@@ -70,7 +70,7 @@ export default {
 ## Create React App로 커버리지 테스트를 실행하고 스토리를 제외하려면 어떻게 해야 하나요?
 
 Create React App은 패키지.json에 Jest 옵션을 지정하는 것을 허용하지 않지만, 명령행 인수와 함께 jest를 실행할 수 있습니다:
-```
+
 
 
 
@@ -138,7 +138,7 @@ export default config;
 만약 설치된 React 버전이 18.0.0 이상이라면, 새로운 React Root API가 자동으로 사용되며 최신 React 동시성 기능을 사용할 수 있습니다.
 
 다음 속성을 .storybook/main.js 파일에 설정하여 새로운 React Root API를 비활성화할 수 있습니다:
-```
+
 
 
 
@@ -259,7 +259,7 @@ npx http-server storybook-static
 
 Vue 2는 2023년 12월 31일부로 End of Life(EOL) 상태로 전환되었으며 Vue 팀에서 더 이상 지원되지 않습니다. 이에 따라, Storybook 8 이상에서 Vue 2를 지원하는 것을 중단했으며 해당 버전을 지원하는 새로운 버전을 릴리스하지 않을 것입니다. Vue 3로 프로젝트를 업그레이드하는 것을 권장하며, Storybook이 완전히 지원합니다. 그렇지 않은 경우, 다음 명령어를 사용하여 Storybook 7의 최신 버전을 설치하여 Vue 2에서 Storybook을 계속 사용할 수 있습니다:
 
-```npm
+```js
 npx storybook@^7 init
 ```
 
@@ -342,7 +342,7 @@ Angular에서 가장 일반적인 문제는 mockServiceWorker.js 파일의 위�
 ## Storybook의 MSW 애드온을 사용하여 다른 GraphQL 제공 업체를 사용할 수 있나요?
 
 네, 애드온의 예시를 확인하여 다양한 제공 업체를 통합하는 방법을 배울 수 있습니다.
-```
+
 
 
 

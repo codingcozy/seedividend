@@ -47,10 +47,9 @@ function Counter() {
 
 <div class="content-ad"></div>
 
-````js
+```js
 useEffect 훅은 함수형 컴포넌트에서 부수 효과를 수행하는 데 사용됩니다. 데이터 가져 오기, 구독, 정리 함수 실행과 같은 동작을 수행할 수 있습니다. 콜백 함수와 선택적 종속성 배열을 사용합니다.
 
-```js
 function UsersList() {
   const [users, setUsers] = useState([]);
 
@@ -68,7 +67,6 @@ function UsersList() {
     </ul>
   );
 }
-````
 
 useEffect 훅은 React Hooks의 중심이되어 함수형 컴포넌트에서 부수 효과를 활성화합니다. 컴포넌트가 렌더링된 후 데이터 가져 오기, 구독, 타이머, DOM 조작과 같은 동작을 수행할 수 있습니다.
 
@@ -76,11 +74,9 @@ useEffect 훅은 React Hooks의 중심이되어 함수형 컴포넌트에서 부
 
 <div class="content-ad"></div>
 
-```js
 useEffect(() => {
   // 부수 효과 함수 (콜백 함수)
 }, [의존성 배열]);
-```
 
 - 콜백 함수: 이 함수에는 실행하고 싶은 실제 부수 효과 로직이 포함되어 있습니다. 비동기적일 수 있습니다 (예: fetch를 사용) 또는 동기적일 수 있습니다 (예: 구독 설정).
 - 의존성 배열 (선택사항): 이 배열은 효과를 다시 실행해야 할 때를 지정합니다. 비어 있는 의존성 배열 ([])은 초기 렌더링 이후에 한 번만 효과가 실행됨을 의미합니다. 의존성 배열을 완전히 생략하면, 효과가 각 렌더링마다 실행되며, 클래스 컴포넌트의 componentDidMount와 componentDidUpdate를 합친 것과 유사합니다.
@@ -91,7 +87,6 @@ useEffect(() => {
 
 <div class="content-ad"></div>
 
-```js
 useEffect(() => {
   const fetchData = async () => {
     const response = await fetch("https://api.example.com/data");
@@ -100,26 +95,21 @@ useEffect(() => {
   };
   fetchData();
 }, []); // 초기 렌더링 후 한 번만 실행
-```
 
 - 구독: 외부 데이터 소스(예: 웹소켓)에 대한 구독을 설정하고 컴포넌트가 언마운트될 때 정리하여 메모리 누수를 방지하세요.
 
-```js
 useEffect(() => {
   const subscription = someService.subscribe((data) => setData(data));
   return () => subscription.unsubscribe(); // 정리 함수
 }, []); // 초기 렌더링 후 한 번만 실행하고 언마운트시 정리
-```
 
 - 마운트 및 업데이트 시 코드 실행: 의존성 배열을 사용하여 특정 상태나 프로퍼티 변화에 따라 효과가 다시 실행되는 시점을 제어하세요.
 
 <div class="content-ad"></div>
 
-```js
 useEffect(() => {
   console.log("컴포넌트가 마운트되었거나 count가 변경되었습니다");
 }, [count]); // count가 변경될 때만 실행됩니다
-```
 
 중요한 사항:
 
@@ -134,7 +124,6 @@ useEffect(() => {
 
 useRef 후크는 다시 렌더링 사이에 지속되는 변경 가능한 ref 객체를 생성합니다. DOM 참조를 저장하거나 포커스를 관리하거나 이전 값들을 추적하는 데 유용합니다.
 
-```js
 function InputWithFocus() {
   const inputRef = useRef(null);
 
@@ -149,13 +138,11 @@ function InputWithFocus() {
     </div>
   );
 }
-```
 
 # useContext
 
 <div class="content-ad"></div>
 
-```js
 const ThemeContext = React.createContext("light");
 
 function App() {
@@ -182,7 +169,6 @@ function Toolbar({ toggleTheme }) {
     </button>
   );
 }
-```
 
 # useReducer
 
@@ -190,7 +176,6 @@ function Toolbar({ toggleTheme }) {
 
 <div class="content-ad"></div>
 
-```js
 const reducer = (state, action) => {
   switch (action.type) {
     case "increment":
@@ -213,7 +198,6 @@ function CounterReducer() {
     </div>
   );
 }
-```
 
 이것들은 단순한 Hooks에 불과해요. 다음 섹션에서는 덜 일반적이지만 유용한 Hooks와 사용자 정의 Hooks를 살펴볼게요.
 
@@ -225,7 +209,6 @@ function CounterReducer() {
 
 useCallback 훅은 메모이제된 콜백 함수를 반환합니다. 메모이제이션은 함수 자체가 캐시되어 종속성이 변경될 때까지 동일한 참조가 반환됩니다. 이는 콜백 함수를 prop으로 사용하는 자식 컴포넌트의 불필요한 다시 렌더링을 방지하는 데 유용합니다.
 
-```js
 function ParentComponent() {
   const [count, setCount] = useState(0);
   const handleClick = () => setCount(count + 1);
@@ -243,7 +226,6 @@ function ParentComponent() {
 function ChildComponent({ onClick }) {
   return <button onClick={onClick}>Click me</button>;
 }
-```
 
 # useMemo
 
@@ -251,7 +233,6 @@ useMemo 훅은 useCallback과 유사하지만 함수와 해당 종속성에 기�
 
 <div class="content-ad"></div>
 
-```js
 function UserListWithSearch() {
   const [users, setUsers] = useState([]);
   const [searchText, setSearchText] = useState("");
@@ -276,7 +257,6 @@ function UserListWithSearch() {
     </div>
   );
 }
-```
 
 이러한 Hooks는 특정 시나리오에 대한 최적화 기술을 제공합니다.
 
@@ -286,7 +266,6 @@ function UserListWithSearch() {
 
 <div class="content-ad"></div>
 
-```js
 기본값을 사용하는 useForm 함수를 정의합니다.
 함수는 초기값을 받아 상태값(values)과 값을 설정하는 함수(setValues)를 반환합니다.
 handleChange 함수는 input 요소의 변화를 감지하고 해당 값을 업데이트합니다.
@@ -297,4 +276,3 @@ handleSubmit 함수는 form 제출 시의 이벤트를 처리합니다.
 Custom Hooks는 React 애플리케이션의 복잡한 상호작용에 대한 코드 재사용성과 유지보수성을 촉진합니다.
 
 이 게시물이 React Hooks의 이해와 활용에 튼튼한 기반을 제공하는 데 도움이 되길 바랍니다. 자세한 설명과 추가 Hooks에 대해 알아보려면 공식 React 문서를 참고해 주세요.
-```

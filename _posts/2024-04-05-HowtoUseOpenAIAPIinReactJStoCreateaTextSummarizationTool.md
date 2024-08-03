@@ -54,7 +54,7 @@ module.exports = {
 };
 ```
 
-src/index.css 파일을 열어 내용을 다음과 같이 교체해주세요:```
+src/index.css 파일을 열어 내용을 다음과 같이 교체해주세요:
 
 <div class="content-ad"></div>
 
@@ -68,7 +68,7 @@ src/index.css 파일을 열어 내용을 다음과 같이 교체해주세요:```
 
 <img src="/assets/img/HowtoUseOpenAIAPIinReactJStoCreateaTextSummarizationTool_1.png" />
 
-src/App.js 파일의 내용을 다음 코드로 교체하십시오:```
+src/App.js 파일의 내용을 다음 코드로 교체하십시오:
 
 <div class="content-ad"></div>
 
@@ -234,7 +234,7 @@ fetch(url, {
   });
 ```
 
-`YOUR_API_KEY`를 실제 OpenAI API 키로 대체하십시오.```
+`YOUR_API_KEY`를 실제 OpenAI API 키로 대체하십시오.
 
 <div class="content-ad"></div>
 

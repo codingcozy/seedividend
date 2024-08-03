@@ -70,7 +70,7 @@ header {
 ```
 
 <img src="/assets/img/Building-Responsive-Design-Using-Viewport-CSS-Units_1.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -104,7 +104,7 @@ main {
 }
 ```
 
-장치별로 텍스트가 비율을 유지하기 위해 뷰포트 단위를 사용하여 글꼴 크기를 조정하는 것이 유혹스러울 수 있습니다.```
+장치별로 텍스트가 비율을 유지하기 위해 뷰포트 단위를 사용하여 글꼴 크기를 조정하는 것이 유혹스러울 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -122,7 +122,7 @@ body {
 }
 ```
 
-clamp() 함수는 body 요소의 글꼴 크기를 동적으로 조정하는 데 사용되며 세 매개변수가 전달됩니다:```
+clamp() 함수는 body 요소의 글꼴 크기를 동적으로 조정하는 데 사용되며 세 매개변수가 전달됩니다:
 
 <div class="content-ad"></div>
 

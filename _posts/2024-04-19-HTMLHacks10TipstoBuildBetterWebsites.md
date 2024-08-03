@@ -162,7 +162,7 @@ link: "https://medium.com/@nile.bits/html-hacks-10-tips-to-build-better-websites
 </footer>
 ```
 
-시멘틱 HTML 요소를 사용하여 웹 콘텐츠를 구조화하고 검색 엔진에 유용한 맥락을 제공하여, 검색 엔진 결과 페이지(SERPs)에서 웹사이트의 가시성과 순위를 향상시킬 수 있습니다. 이는 궁극적으로 당신의 사이트로 더 많은 유기적 트래픽을 유도할 수 있습니다.```
+시멘틱 HTML 요소를 사용하여 웹 콘텐츠를 구조화하고 검색 엔진에 유용한 맥락을 제공하여, 검색 엔진 결과 페이지(SERPs)에서 웹사이트의 가시성과 순위를 향상시킬 수 있습니다. 이는 궁극적으로 당신의 사이트로 더 많은 유기적 트래픽을 유도할 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -646,7 +646,7 @@ JSON-LD (JavaScript Object Notation for Linked Data)은 Google에서 권장하�
 </html>
 ```
 
-웹 페이지에 구조화된 데이터를 추가함으로써 검색 엔진에 내용에 대한 추가적인 컨텍스트를 제공하게 되어 검색 가시성을 향상시키고 웹 사이트 정보를 검색 결과에서 더 나은 방식으로 표시할 수 있습니다.```
+웹 페이지에 구조화된 데이터를 추가함으로써 검색 엔진에 내용에 대한 추가적인 컨텍스트를 제공하게 되어 검색 가시성을 향상시키고 웹 사이트 정보를 검색 결과에서 더 나은 방식으로 표시할 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -1008,26 +1008,22 @@ Google PageSpeed Insights나 WebPageTest 같은 도구를 사용하여 폰트 �
 
 <div class="content-ad"></div>
 
-````js
+```js
 # 4. Open Graph 이미지:
 
-```js
 <head>
   <meta property="og:image" content="https://example.com/image.jpg">
 </head>
-````
 
 ## Open Graph URL:
 
-```js
 <head>
   <meta property="og:url" content="https://example.com/page">
 </head>
-```
 
 # 4. Twitter Cards:
 
-````
+```
 
 <div class="content-ad"></div>
 
@@ -1039,7 +1035,7 @@ Twitter 카드는 Open Graph 태그와 유사하지만 Twitter에 특화되어 �
 <head>
   <meta name="twitter:title" content="Your Page Title">
 </head>
-````
+```
 
 ## Twitter 카드 설명:
 
@@ -1063,7 +1059,7 @@ Twitter 카드는 Open Graph 태그와 유사하지만 Twitter에 특화되어 �
 
 <div class="content-ad"></div>
 
-````md
+
 # 5. 파비콘:
 
 파비콘은 웹사이트를 나타내는 작은 아이콘이며 브라우저 탭과 즐겨찾기에 표시됩니다.
@@ -1073,7 +1069,7 @@ Twitter 카드는 Open Graph 태그와 유사하지만 Twitter에 특화되어 �
   <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
 </head>
 ```
-````
+
 
 <div class="content-ad"></div>
 

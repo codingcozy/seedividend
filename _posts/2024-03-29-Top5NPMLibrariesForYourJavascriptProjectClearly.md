@@ -67,7 +67,7 @@ console.log(validate(data)); // true
 Chart.js는 차트 렌더링 라이브러리입니다. 매우 맞춤화 및 확장 가능하여 선, 파이, 또는 막대 차트와 같은 여러 차트 유형을 제공합니다. 일반적인 솔루션 덕분에 Chart.js를 Vue, React 또는 일반 Javascript와 거의 모든 프론트엔드 프레임워크와 함께 사용할 수 있습니다.
 
 <img src="/assets/img/Top5NPMLibrariesForYourJavascriptProjectClearly_3.png" />
-```
+
 
 <div class="content-ad"></div>
 

@@ -58,7 +58,7 @@ JSX는 JavaScript의 camelCase 규칙에 따라 속성에 대한 수정된 구�
 
 ## React 요소 스타일
 
-JSX에서 인라인 스타일을 적용하는 방법은 이중 중괄호를 사용하는 것입니다. 스타일은 일반 문자열로 표현되는 것이 아니라 객체 내의 속성으로 표현됩니다:```
+JSX에서 인라인 스타일을 적용하는 방법은 이중 중괄호를 사용하는 것입니다. 스타일은 일반 문자열로 표현되는 것이 아니라 객체 내의 속성으로 표현됩니다:
 
 <div class="content-ad"></div>
 
@@ -534,7 +534,7 @@ function PlayerList({ players, handleRemovePlayer }) {
 
 이어서, useMemo는 성능을 향상시키는 훅으로, 비싼 계산 결과를 기억하여 불필요한 다시 계산을 피할 수 있게 합니다.
 
-useEffect 및 useCallback과 달리, useMemo는 값의 반환을 설계된 것입니다. 콜백 함수와 의존성 배열이 필요하며, 콜백은 명시적으로 값을 반환해야 합니다. mdx-bundler 문서에서 .mdx 파일을 React 구성 요소로 변환하는 실제 예제를 살펴보겠습니다.```
+useEffect 및 useCallback과 달리, useMemo는 값의 반환을 설계된 것입니다. 콜백 함수와 의존성 배열이 필요하며, 콜백은 명시적으로 값을 반환해야 합니다. mdx-bundler 문서에서 .mdx 파일을 React 구성 요소로 변환하는 실제 예제를 살펴보겠습니다.
 
 <div class="content-ad"></div>
 

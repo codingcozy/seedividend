@@ -234,7 +234,7 @@ Dart의 내장 라이브러리를 사용하여 파일 내용을 base64 문자열
 
 home_controller.dart
 
-```dart
+```js
   Future<String> getBase64(File file) async {
     String? base64;
     String? contentType = getContentType(file.path);
@@ -338,7 +338,7 @@ removeItems
 
 home_controller.dart
 
-```dart
+```js
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
@@ -533,7 +533,7 @@ class HomeController extends GetxController {
 
 home_screen.dart
 
-```dart
+```js
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:uploadfile_base64_fltter/controller/home_controller.dart';

@@ -464,7 +464,7 @@ By The First The Last from Ukraine.
 
 <div class="content-ad"></div>
 
-```
+
 ![Top Sites of The Month That You Must See - March 2024](/assets/img/TopSitesOfTheMonthThatYouMustSeeMarch2024_21.png)
 
 By CUSP from Canada.
@@ -472,7 +472,7 @@ By CUSP from Canada.
 ## About:
 
 REFIRE electrolyser and fuel cell technologies are helping to drive the revolution in clean hydrogen energy and power.
-```
+
 
 <div class="content-ad"></div>
 

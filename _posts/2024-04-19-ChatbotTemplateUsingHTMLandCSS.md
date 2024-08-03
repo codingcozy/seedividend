@@ -424,7 +424,7 @@ Step2: 높이와 너비를 클래스 선택자 (.chat-box)를 사용하여 각�
 ```
 
 <img src="/assets/img/ChatbotTemplateUsingHTMLandCSS_3.png" />
-```
+
 
 <div class="content-ad"></div>
 

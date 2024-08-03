@@ -66,7 +66,7 @@ Yarn 1은 더 이상 지원되지 않습니다.
 
 Storybook을 업그레이드하려면:
 
-```npm
+```js
 npx storybook@latest upgrade
 ```
 
@@ -106,7 +106,7 @@ Storybook 7에서 storyStoreV7: false를 필요로 하는 storiesOf API를 사�
 
 현재 Storybook을 사용하지 않는 프로젝트에 Storybook을 추가하려면:
 
-```npm
+```js
 npx storybook@latest init
 ```
 
@@ -127,7 +127,7 @@ npx storybook@latest init
 
 Storybook에서는 이제 MDX 페이지가 이전의 .stories.mdx 하이브리드 접근 방식이 아닌 CSF로 작성된 스토리를 참조해야 합니다. 다음의 codemod를 사용하여 파일을 자동으로 변환할 수 있습니다 (파일에 맞게 glob을 업데이트해야 합니다):
 
-```npm
+```js
 # Convert stories in MDX to CSF
 npx storybook@latest migrate mdx-to-csf --glob "src/**/*.stories.mdx"
 ```
@@ -171,7 +171,7 @@ CSF 2에서 CSF 3으로 이야기를 변환하는 이유는 많습니다. 대부
 
 
 
-```npm
+```js
 # CSF 2를 CSF 3으로 변환
 npx storybook@latest migrate csf-2-to-3 --glob="**/*.stories.tsx" --parser=tsx
 ```

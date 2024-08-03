@@ -160,7 +160,7 @@ return NextResponse.next({
 });
 ```
 
-```
+
 
 <div class="content-ad"></div>
-```
+

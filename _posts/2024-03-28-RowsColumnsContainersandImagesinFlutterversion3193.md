@@ -87,7 +87,7 @@ Expanded 위젯은 Column이 부모인 Container의 최대 높이를 가져가�
 
 <div class="content-ad"></div>
 
-```dart
+```js
 class HeroCard extends StatelessWidget {
   HeroCard({super.key, required this.theme});
 
@@ -157,7 +157,7 @@ Column 위젯 및 따라서 일련의 위젯을 화면에 가운데 정렬하려
 
 <div class="content-ad"></div>
 
-```dart
+```js
 Scaffold(
         backgroundColor: theme.backgroundColor,
         body: Column(

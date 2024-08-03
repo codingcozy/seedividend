@@ -125,7 +125,7 @@ export const getServerAuthSession = () => getServerSession(authOptions); //(6)
 
 타입 생성
 
-Typescript 인텔리센스가 User 타입에 id 속성이 있다는 것을 알 수 있도록 next-auth 모듈 변경을 추가하십시오.```
+Typescript 인텔리센스가 User 타입에 id 속성이 있다는 것을 알 수 있도록 next-auth 모듈 변경을 추가하십시오.
 
 <div class="content-ad"></div>
 
@@ -366,6 +366,6 @@ https://create.t3.gg/en/usage/next-auth
 https://next-auth.js.org/configuration/providers/credentials
 https://orm.drizzle.team/kit-docs/overview
 
-```
 
-```
+
+

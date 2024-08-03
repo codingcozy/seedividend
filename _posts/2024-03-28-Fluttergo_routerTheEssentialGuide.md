@@ -46,7 +46,7 @@ dependencies:
 
 이제 그렇게 한 다음에 GoRouter 설정을 앱에 추가해 봅시다:
 
-```dart
+```js
 import 'package:go_router/go_router.dart';
 
 // GoRouter 구성
@@ -157,7 +157,7 @@ build(BuildContext context) {
 
 이름으로 URL 대신에 이동할 수도 있어요. `context.goNamed()`를 호출해 보세요.
 
-```dart
+```js
 build(BuildContext context) {
   return TextButton(
     // 라우트에 "name"을 추가하는 것을 잊지 마세요
@@ -168,7 +168,7 @@ build(BuildContext context) {
 
 쿼리 매개변수를 포함한 URI를 만들려면 Uri 클래스를 사용할 수 있어요:
 
-```dart
+```js
 context.go(
   Uri(
     path: '/fruit-detail',
@@ -309,7 +309,7 @@ dev_dependencies:
 
 <div class="content-ad"></div>
 
-```dart
+```js
 class HomeRoute extends GoRouteData {
   const HomeRoute();
 
@@ -322,7 +322,7 @@ class HomeRoute extends GoRouteData {
 
 Route 트리는 각 최상위 route에 속성으로 정의됩니다:
 
-```dart
+```js
 import 'package:go_router/go_router.dart';
 
 part 'go_router.g.dart'; // 생성된 파일의 이름

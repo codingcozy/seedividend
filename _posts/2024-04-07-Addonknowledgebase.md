@@ -56,7 +56,7 @@ const meta: Meta<typeof Button> = {
 export default meta;
 ```
 
-### 애드온 스타일링하기```
+### 애드온 스타일링하기
 
 
 

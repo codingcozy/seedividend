@@ -122,7 +122,7 @@ CustomInput을 가져와서 아이콘으로 AiOutlineMail을 설정했어요. �
 <img src="/assets/img/ReactFormDesignCreatingCustomReusableInputsandButtonsinReactJS_2.png" />
 
 이 아이콘으로 쓸만하고 사용자 친화적으로 보여요.
-간단한 텍스트 타입을 위한 커스텀 입력을 생성했으니 이제 비밀번호 타입을 받도록 코드를 수정하고 아이콘을 조건부로 토글해봐요.```
+간단한 텍스트 타입을 위한 커스텀 입력을 생성했으니 이제 비밀번호 타입을 받도록 코드를 수정하고 아이콘을 조건부로 토글해봐요.
 
 <div class="content-ad"></div>
 
@@ -212,7 +212,7 @@ export default App;
 Output:
 
 <img src="/assets/img/ReactFormDesignCreatingCustomReusableInputsandButtonsinReactJS_3.png" />
-```
+
 
 <div class="content-ad"></div>
 

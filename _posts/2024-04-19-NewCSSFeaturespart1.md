@@ -52,7 +52,7 @@ CSS 중첩은 하나의 요소의 스타일 규칙을 다른 요소 내부에서
 브라우저 지원: 94.36%
 
 <img src="/assets/img/NewCSSFeaturespart1_0.png" />
-```
+
 
 <div class="content-ad"></div>
 

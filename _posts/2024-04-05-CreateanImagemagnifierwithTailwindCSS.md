@@ -93,7 +93,7 @@ Explanation:
 const [showMagnifier, setShowMagnifier] = useState(false);
 ```
 
-2. 해당 상태를 업데이트하는 이벤트 핸들러.```
+2. 해당 상태를 업데이트하는 이벤트 핸들러.
 
 <div class="content-ad"></div>
 
@@ -132,7 +132,7 @@ const [[x, y], setXY] = useState([0, 0]);
 
 4. The pageX/Y coordinates are relative to the left/top corner of the current page.
    The pageXOffset/pageYOffset are the page’s scroll offsets.
-   The left/top coordinates represent the image’s left and top positions.```
+   The left/top coordinates represent the image’s left and top positions.
 
 <div class="content-ad"></div>
 

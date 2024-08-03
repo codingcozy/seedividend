@@ -78,7 +78,7 @@ this.textArray
   }
 ```
 
-이제 섞인 랜덤 길이의 텍스트로 접근할 거예요:```
+이제 섞인 랜덤 길이의 텍스트로 접근할 거예요:
 
 <div class="content-ad"></div>
 
@@ -117,7 +117,7 @@ getRandomText(length?: { min?: number; max?: number } | number): string {
 }
 ```
 
-멋지죠. 이제 여기처럼 사용할 수 있습니다:```
+멋지죠. 이제 여기처럼 사용할 수 있습니다:
 
 <div class="content-ad"></div>
 

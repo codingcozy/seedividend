@@ -124,7 +124,7 @@ export const withPaywall = (Component: React.FC<any>) => (props: any) => {
 
 useEffect 대신 useFocusEffect를 사용하는 이유가 뭔지 궁금하신가요? 간단합니다. useEffect는 열 때마다 트리거를 보장하지 않지만, useFocusEffect는 함수가 항상 호출되어 일관된 동작을 보장합니다.
 
-HOC가 무엇이며 어떻게 사용되는지 잘 모르겠다면, 아래 예시를 살펴보세요. 그러면 이해하실 거예요.```
+HOC가 무엇이며 어떻게 사용되는지 잘 모르겠다면, 아래 예시를 살펴보세요. 그러면 이해하실 거예요.
 
 <div class="content-ad"></div>
 

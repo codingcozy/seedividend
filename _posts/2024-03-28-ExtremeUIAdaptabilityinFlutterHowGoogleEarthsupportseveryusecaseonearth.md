@@ -203,7 +203,7 @@ Google Earth와 같이 매우 적응형인 UI의 경우, 오직 하나의 특정
 
 그러나 코드 공유는 코드 구성이 아니며, 이를 일관되게 구현하는 방법이 남아 있습니다. 여기서 구글 어스 팀은 오랜 플러터 핵심 요소인 빌더 패턴을 활용했습니다.
 
-```dart
+```js
 /// 사용자 입력의 높은 수준 범주.
 enum InputType { gamepad, keyboardAndMouse, touch }
 

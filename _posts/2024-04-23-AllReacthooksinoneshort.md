@@ -170,7 +170,7 @@ function ShoppingCart() {
 
 또한 addItem 및 removeItem 두 함수를 정의하여 cartReducer에 작업을 디스패치하여 장바구니 상태에서 항목을 추가하거나 제거합니다.
 
-마지막으로 장바구니 항목과 항목을 추가하거나 제거할 수 있는 버튼이 있는 쇼핑 카트를 렌더링합니다. 버튼이 클릭되면 useReducer 훅을 통해 반환된 dispatch 함수를 사용하여 카트 상태를 업데이트하기 위해 addItem 또는 removeItem 함수가 호출됩니다.```
+마지막으로 장바구니 항목과 항목을 추가하거나 제거할 수 있는 버튼이 있는 쇼핑 카트를 렌더링합니다. 버튼이 클릭되면 useReducer 훅을 통해 반환된 dispatch 함수를 사용하여 카트 상태를 업데이트하기 위해 addItem 또는 removeItem 함수가 호출됩니다.
 
 <div class="content-ad"></div>
 

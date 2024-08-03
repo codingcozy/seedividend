@@ -175,7 +175,7 @@ if (gallery) {
 
 ![이미지1](/assets/img/IconographyAnOutSystemsapproach_14.png)
 
-![이미지2](/assets/img/IconographyAnOutSystemsapproach_15.png)```
+![이미지2](/assets/img/IconographyAnOutSystemsapproach_15.png)
 
 <div class="content-ad"></div>
 

@@ -296,7 +296,7 @@ readFile("file1.txt")
 
 ## 7. Promise와 Promise 체이닝이란?
 
-Promise: Promise는 JavaScript에서 사용되는 비동기 계산에 사용되는 객체입니다. 비동기 작업의 결과를 나타내며, 결과는 해결(resolve)되거나 거부(reject)될 수 있습니다.```
+Promise: Promise는 JavaScript에서 사용되는 비동기 계산에 사용되는 객체입니다. 비동기 작업의 결과를 나타내며, 결과는 해결(resolve)되거나 거부(reject)될 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -851,7 +851,7 @@ console.log(add5(3)); // 결과: 8
 
 ## 20. ES6의 주요 기능은 무엇인가요?
 
-ES6, 또는 ECMAScript 2015로도 알려진 ES6는 JavaScript의 능력을 크게 확장하는 여러 가지 새로운 기능과 개선사항을 도입했습니다. ES6의 주요 기능 중 일부는 다음과 같습니다:```
+ES6, 또는 ECMAScript 2015로도 알려진 ES6는 JavaScript의 능력을 크게 확장하는 여러 가지 새로운 기능과 개선사항을 도입했습니다. ES6의 주요 기능 중 일부는 다음과 같습니다:
 
 <div class="content-ad"></div>
 
@@ -979,7 +979,7 @@ const clone = user;
 
 객체의 깊은 복사를 만드는 다양한 방법이 있습니다.
 
-a) JSON.parse 및 JSON.stringify: 중첩 객체에도 유용합니다.```
+a) JSON.parse 및 JSON.stringify: 중첩 객체에도 유용합니다.
 
 <div class="content-ad"></div>
 
@@ -1040,7 +1040,7 @@ JavaScript에서는 Object.seal() 및 Object.freeze() 메서드를 사용하여 
 
 Object.freeze(): (완전히 불변) 이 메서드는 객체를 동결하여 봉인하고 그 속성을 읽기 전용으로 설정합니다. 객체를 동결한 후에는 해당 속성을 수정, 추가 또는 삭제할 수 없습니다.
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -1050,7 +1050,7 @@ Object.freeze(): (완전히 불변) 이 메서드는 객체를 동결하여 봉�
  obj.name = 'Bob'; // 허용되지 않음
  obj.address = '123 Street'; // 허용되지 않음
  delete obj.age; // 허용되지 않음
-````
+```
 
 Object.seal(): (부분적 불변) 이 메서드는 개체를 봉인하여 새 속성이 추가되는 것을 방지하고 모든 기존 속성을 구성할 수 없게 표시합니다. 그러나 쓰기 가능한 기존 속성의 값을 수정할 수는 있습니다.
 

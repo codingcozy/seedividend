@@ -39,7 +39,7 @@ background-image: url("data:image/svg+xml, ${encodeURIcomponent(mysvg)}");
 - 올바른 상태 관리
   로컬 상태 사용 시점 파악; flux/redux를 사용하여 불변 상태 유지; HOC; Context, React hooks(불필요한 재랜더링 및 재계산을 줄이기 위해).
 
-3. 스크립트를 head에서 body 하단으로 이동하여 블로킹되지 않도록 하기```
+3. 스크립트를 head에서 body 하단으로 이동하여 블로킹되지 않도록 하기
 
 <div class="content-ad"></div>
 

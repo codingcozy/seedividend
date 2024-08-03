@@ -209,12 +209,12 @@ Figma에서 흐름 화살표를 자동으로 그려보세요! 손 그림 또는 
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-```
+
 | Header One | Header Two |
 |------------|------------|
 | Row 1      | Data 1     |
 | Row 2      | Data 2     |
-```
+
 
 <div class="content-ad"></div>
 

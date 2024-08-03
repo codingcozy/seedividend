@@ -233,7 +233,7 @@ export default withStyles(styles)(withRouter( keepaliveLifeCycle(Index) ))
 }
 ```
 
-매개변수를 필요로 하는 HOC의 경우에는 프록시에 추가적인 레이어를 추가해야 합니다:```
+매개변수를 필요로 하는 HOC의 경우에는 프록시에 추가적인 레이어를 추가해야 합니다:
 
 <div class="content-ad"></div>
 
@@ -253,7 +253,6 @@ High Order Components (HOCs)에는 두 가지 주요 접근 방식이 있어요.
 
 <div class="content-ad"></div>
 
-````js
 ```js
 기능 HOC(WrapComponent){
     return class Advance extends React.Component{
@@ -265,11 +264,9 @@ High Order Components (HOCs)에는 두 가지 주요 접근 방식이 있어요.
        }
     }
 }
-````
 
 역방향 상속은 래핑된 구성 요소가 비즈니스 구성 요소 자체를 상속받는다는 점에서 속성 프록시와 다릅니다. 따라서 비즈니스 구성 요소를 별도로 인스턴스화할 필요가 없습니다. 현재의 고차 컴포넌트는 상속 후 비즈니스 컴포넌트의 향상된 버전입니다. 이 접근 방식은 구성 요소 향상과 유사한 점이 있으므로 현재 상황을 인식해야 합니다.
 
-```js
 class Index extends React.Component{
   render(){
     return <div> 안녕, 세상아 </div>
@@ -281,9 +278,7 @@ function HOC(Component){
     }
 }
 export default HOC(Index)
-```
 
-```js
 class Index extends React.Component {
   render() {
     return <div> 안녕, 세상아 </div>;
@@ -297,7 +292,6 @@ function HOC(Component) {
 }
 const newIndex = HOC(Index);
 console.log(newIndex.say);
-```
 
 <div class="content-ad"></div>
 

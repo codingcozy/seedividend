@@ -40,7 +40,7 @@ OrderTrackingPage라는 StatefulWidget을 만들어 해당 State 클래스를 �
 
 <div class="content-ad"></div>
 
-```dart
+```js
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -232,7 +232,7 @@ body: currentLocation == null
 ```
 
 <img src="https://miro.medium.com/v2/resize:fit:1280/1*lq4JEPj6y4N7RTP1wNMjdg.gif" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -322,6 +322,6 @@ position: destination,
 ```
 
 <img src="https://miro.medium.com/v2/resize:fit:1280/1*033cnsS3JIBh_Z847oqFSw.gif" />
-```
+
 
 <div class="content-ad"></div>

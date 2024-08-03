@@ -604,7 +604,7 @@ const Form = () => {
 
 하지만 그렇게 하려면 우리의 onClick을 useCallback으로 감싸야 합니다. 하지만 이것은 상태에 따라 바뀌기 때문에 매 타자를 칠 때마다 변경될 것입니다. 우리는 돌아온 꼴: 우리의 무거운 컴포넌트는 매 상태 변경 시 다시 렌더링될 것이며, 우리가 피하려고 시도했던 것과 정확히 반대 상황이 될 것입니다.
 
-우리는 합성을 이용하여 상태나 HeavyComponent를 추출 및 분리해볼 수 있지만, 쉽지 않을 것입니다: input과 HeavyComponent 둘 다 그 상태에 의존하고 있기 때문이죠.```
+우리는 합성을 이용하여 상태나 HeavyComponent를 추출 및 분리해볼 수 있지만, 쉽지 않을 것입니다: input과 HeavyComponent 둘 다 그 상태에 의존하고 있기 때문이죠.
 
 <div class="content-ad"></div>
 
@@ -759,7 +759,7 @@ a.value = "two";
 console.log(b.value); // "two"가 출력됩니다
 ```
 
-우리의 경우에는 심지어 그렇지 않습니다: useCallback 내부와 useEffect 내부에서 정확히 같은 참조를 가지고 있습니다. 따라서 useEffect 내부에서 ref 객체의 현재 속성을 변경할 때, 우리는 해당 속성에 접근할 수 있습니다. 이 속성은 최신 상태 데이터를 캡처한 클로저입니다.```
+우리의 경우에는 심지어 그렇지 않습니다: useCallback 내부와 useEffect 내부에서 정확히 같은 참조를 가지고 있습니다. 따라서 useEffect 내부에서 ref 객체의 현재 속성을 변경할 때, 우리는 해당 속성에 접근할 수 있습니다. 이 속성은 최신 상태 데이터를 캡처한 클로저입니다.
 
 <div class="content-ad"></div>
 

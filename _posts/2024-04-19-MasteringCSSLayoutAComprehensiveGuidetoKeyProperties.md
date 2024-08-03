@@ -212,7 +212,7 @@ div.ex2 {
 # 요소 배치: position 속성
 
 <img src="/assets/img/MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_3.png" />
-```
+
 
 <div class="content-ad"></div>
 

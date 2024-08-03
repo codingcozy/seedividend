@@ -28,7 +28,7 @@ Storybook 테스트 실행기는 모든 이야기를 실행 가능한 테스트�
 
 다음 명령을 실행하여 설치하세요.
 
-```npm
+```js
 npm install @storybook/test-runner --save-dev
 ```
 
@@ -46,7 +46,7 @@ package.json 스크립트를 업데이트하고 테스트 러너를 활성화하
 
 다음을 사용하여 Storybook를 시작하십시오:
 
-```npm
+```js
 npm run storybook
 ```
 
@@ -54,7 +54,7 @@ npm run storybook
 
 
 
-```npm
+```js
 npm run test-storybook
 ```
 
@@ -68,7 +68,7 @@ npm run test-storybook
 
 테스트 러너는 Jest로 구동되며 Jest CLI 옵션의 일부를 허용합니다(예: --watch, --maxWorkers). 이미 프로젝트에서 해당 플래그 중 하나를 사용 중이라면 문제없이 Storybook의 테스트 러너로 이동할 수 있어야 합니다. 아래에 모든 사용 가능한 플래그와 사용 예제가 나와 있습니다.
 
-```npm
+```js
 npm run test-storybook -- --watch
 ```
 
@@ -449,7 +449,7 @@ export default config;
 
 혹시 로컬과 원격 Storybook이 동기화되지 않은 상황에 직면하거나 코드에 액세스할 수 없는 경우가 있을 수 있습니다. 이때 index.json 파일은 테스트 중인 배포된 Storybook의 가장 정확한 표현임이 보장됩니다. 이 기능을 사용하여 로컬 Storybook을 테스트하려면 다음과 같이 --index-json 플래그를 사용하십시오:
 
-```npm
+```js
 npm run test-storybook -- --index-json
 ```
 
@@ -457,7 +457,7 @@ npm run test-storybook -- --index-json
 
 
 
-```npm
+```js
 npm run test-storybook -- --no-index-json
 ```
 

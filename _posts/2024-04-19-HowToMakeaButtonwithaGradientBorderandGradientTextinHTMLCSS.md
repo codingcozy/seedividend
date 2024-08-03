@@ -122,7 +122,7 @@ position: absolute 및 position: relative에 대해 더 자세히 알고 싶다�
 
 <img src="/assets/img/HowToMakeaButtonwithaGradientBorderandGradientTextinHTML-CSS_4.png" />
 
-자세히 보면, ::before의 모서리가 사각형 모양이며 따라서 우리 버튼의 둥근 모서리에 잘릴 수 있습니다. 이는 ::before의 색상이 배경색과 동일할 때 간격처럼 보이게 합니다. 이 문제를 해결하기 위해 ::before에 일정한 border-radius를 추가하겠습니다. 두 요소 사이에 균일한 간격을 얻을 수 있도록 중첩된 요소에 얼마나 많은 border-radius를 줘야 하는지 계산하는 다음 공식을 사용하는 것을 선호합니다:```
+자세히 보면, ::before의 모서리가 사각형 모양이며 따라서 우리 버튼의 둥근 모서리에 잘릴 수 있습니다. 이는 ::before의 색상이 배경색과 동일할 때 간격처럼 보이게 합니다. 이 문제를 해결하기 위해 ::before에 일정한 border-radius를 추가하겠습니다. 두 요소 사이에 균일한 간격을 얻을 수 있도록 중첩된 요소에 얼마나 많은 border-radius를 줘야 하는지 계산하는 다음 공식을 사용하는 것을 선호합니다:
 
 <div class="content-ad"></div>
 
@@ -194,7 +194,7 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 <img src="/assets/img/HowToMakeaButtonwithaGradientBorderandGradientTextinHTML-CSS_8.png" />
 
-아마도 우리가 텍스트를 보지 못한다는 것을 눈치챘을 것입니다. 그러나 이제 우리의 버튼은 더 커져서 .btn 클래스에 추가한 패딩이 어딘가를 밀어올리고 있음을 의미합니다. 우리가 텍스트를 보지 못하는 이유는 현재 ::before (position: absolute 때문에)가 현재 ::after도 가리고 있기 때문입니다. 우선 ::before를 주석 처리해 봅시다:```
+아마도 우리가 텍스트를 보지 못한다는 것을 눈치챘을 것입니다. 그러나 이제 우리의 버튼은 더 커져서 .btn 클래스에 추가한 패딩이 어딘가를 밀어올리고 있음을 의미합니다. 우리가 텍스트를 보지 못하는 이유는 현재 ::before (position: absolute 때문에)가 현재 ::after도 가리고 있기 때문입니다. 우선 ::before를 주석 처리해 봅시다:
 
 <div class="content-ad"></div>
 
@@ -216,7 +216,7 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 <img src="/assets/img/HowToMakeaButtonwithaGradientBorderandGradientTextinHTML-CSS_9.png" />
 
-그래디언트 텍스트 효과를 만들기 위해 먼저 ::after의 배경에 같은 색상을 사용하여 선형 그라데이션을 적용해야 합니다. 단, 방향만 반대로 설정합니다:```
+그래디언트 텍스트 효과를 만들기 위해 먼저 ::after의 배경에 같은 색상을 사용하여 선형 그라데이션을 적용해야 합니다. 단, 방향만 반대로 설정합니다:
 
 <div class="content-ad"></div>
 
@@ -232,7 +232,7 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 <img src="/assets/img/HowToMakeaButtonwithaGradientBorderandGradientTextinHTML-CSS_10.png" />
 
-다음 단계는 ::after 에 -webkit-background-clip: text 및 color: transparent를 추가하는 것입니다. background-clip에 -webkit 접두사를 사용하고 있습니다. 이 속성은 아직 모든 브라우저에서 완전히 지원되지 않기 때문입니다.```
+다음 단계는 ::after 에 -webkit-background-clip: text 및 color: transparent를 추가하는 것입니다. background-clip에 -webkit 접두사를 사용하고 있습니다. 이 속성은 아직 모든 브라우저에서 완전히 지원되지 않기 때문입니다.
 
 <div class="content-ad"></div>
 
@@ -250,7 +250,7 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 백그라운드 클립 속성은 요소의 배경이 콘텐츠를 넘어서 얼마큼 확장되는지를 결정합니다. 값으로 text를 설정하면 ::after에 설정한 그라디언트 배경이 문자 텍스트 자체가 차지하는 공간 뒤에만 표시되기를 원한다는 것을 의미합니다. color: transparent를 설정하면 클립된 배경이 텍스트를 통해 드러나며 그라디언트 텍스트 효과를 얻을 수 있습니다.
 
-백그라운드 클립 속성에 대한 더 많은 정보는 이 문서를 참조하실 것을 권장합니다.```
+백그라운드 클립 속성에 대한 더 많은 정보는 이 문서를 참조하실 것을 권장합니다.
 
 <div class="content-ad"></div>
 

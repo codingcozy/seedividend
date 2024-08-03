@@ -580,7 +580,7 @@ export default async function AddToCart() {
 }
 ```
 
-## 마무리 및 결론```
+## 마무리 및 결론
 
 <div class="content-ad"></div>
 

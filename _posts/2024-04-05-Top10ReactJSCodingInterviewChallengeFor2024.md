@@ -722,7 +722,7 @@ const App = () => {
 export default App;
 ```
 
-## Task-10: 무한 스크롤 갤러리와 지연 로딩```
+## Task-10: 무한 스크롤 갤러리와 지연 로딩
 
 <div class="content-ad"></div>
 

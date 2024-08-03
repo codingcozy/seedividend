@@ -23,7 +23,7 @@ link: "https://storybook.js.org/docs/writing-stories/play-function"
 
 
 
-```npm
+```js
 npm install @storybook/test @storybook/addon-interactions --save-dev
 ```
 

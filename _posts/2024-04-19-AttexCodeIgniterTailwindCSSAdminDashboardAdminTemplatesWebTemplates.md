@@ -149,8 +149,8 @@ Konrix — CakePHP Tailwind CSS Admin & Dashboard by coderthemes
 
 <div class="content-ad"></div>
 
-```md
+
 ![이미지](/assets/img/AttexCodeIgniterTailwindCSSAdmin-DashboardAdminTemplatesWebTemplates_8.png)
 
 PowerX — Bootstrap 5 Admin & Dashboard UI Kit by coderthemes
-```
+

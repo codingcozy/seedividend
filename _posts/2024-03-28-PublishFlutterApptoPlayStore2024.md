@@ -381,7 +381,7 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 <div class="content-ad"></div>
 
-```
+
 ![PublishFlutterApptoPlayStore2024_43](/assets/img/PublishFlutterApptoPlayStore2024_43.png)
 
 그 다음으로 앱에 광고가 포함되어 있는지 여부에 따라 선택하세요.
@@ -389,7 +389,7 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 ![PublishFlutterApptoPlayStore2024_44](/assets/img/PublishFlutterApptoPlayStore2024_44.png)
 
 이제 이 단계를 완료하고 위쪽에 있는 화살표로 되돌아갑니다.
-```
+
 
 <div class="content-ad"></div>
 

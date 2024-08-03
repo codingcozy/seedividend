@@ -40,7 +40,7 @@ link: "https://medium.com/imu-framework-design/how-to-test-your-web-frontend-des
 
 ![How to Test your web frontend design in mobile device via VS Code - Step 4](/assets/img/HowtoTestyourwebfrontenddesigninmobiledeviceviaVScode_4.png)
 
-Step 4: 명령 프롬프트(CMD)로 이동하여 ipconfig를 입력하십시오. IP 주소를 확인할 수 있습니다. 이 주소를 모바일 장치에서 사용해야 합니다(192.168.XXX.XXX:5500).```
+Step 4: 명령 프롬프트(CMD)로 이동하여 ipconfig를 입력하십시오. IP 주소를 확인할 수 있습니다. 이 주소를 모바일 장치에서 사용해야 합니다(192.168.XXX.XXX:5500).
 
 <div class="content-ad"></div>
 

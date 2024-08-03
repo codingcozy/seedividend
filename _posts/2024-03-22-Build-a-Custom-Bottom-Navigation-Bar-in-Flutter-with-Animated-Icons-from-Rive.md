@@ -81,7 +81,7 @@ List<RiveModel> bottomNavItems = [
 
 새 StatefulWidget인 BottomNavWithAnimatedIcons를 만들어 보세요. 그리고 main.dart에서 이것을 애플리케이션의 홈으로 설정하세요.
 
-```dart
+```js
 import 'package:flutter/material.dart';
 
 const Color bottonNavBgColor = Color(0xFF17203A);
@@ -169,7 +169,7 @@ artboard: bottomNavItems[index].artboard,
 
 ## 애니메이션 제어하기
 
-일부 아이콘이 애니메이션되고 일부는 그렇지 않다는 것을 알 수 있습니다. 애니메이션을 관리하려면 컨트롤러를 설정해야 합니다. 이를 위해 riveOnInIt이라는 함수를 생성하고 StateMachineController를 정의한 다음, artboard 및 stateMachineName을 전달해야 합니다. 그런 다음 이 컨트롤러를 artboard에 연결하는 것이 다음 단계입니다.```
+일부 아이콘이 애니메이션되고 일부는 그렇지 않다는 것을 알 수 있습니다. 애니메이션을 관리하려면 컨트롤러를 설정해야 합니다. 이를 위해 riveOnInIt이라는 함수를 생성하고 StateMachineController를 정의한 다음, artboard 및 stateMachineName을 전달해야 합니다. 그런 다음 이 컨트롤러를 artboard에 연결하는 것이 다음 단계입니다.
 
 <div class="content-ad"></div>
 
@@ -203,7 +203,7 @@ List<StateMachineController?> controllers = [];
 int selctedNavIndex = 0;
 ```
 
-컨트롤러를 저장하여 더 이상 필요하지 않을 때 삭제할 수 있도록 합니다. 선택된 NavIndex는 이후에 서로 다른 페이지 간을 탐색하고 기타 목적을 위해 사용될 것입니다.```
+컨트롤러를 저장하여 더 이상 필요하지 않을 때 삭제할 수 있도록 합니다. 선택된 NavIndex는 이후에 서로 다른 페이지 간을 탐색하고 기타 목적을 위해 사용될 것입니다.
 
 <div class="content-ad"></div>
 

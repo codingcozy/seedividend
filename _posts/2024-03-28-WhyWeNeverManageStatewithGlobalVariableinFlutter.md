@@ -133,7 +133,7 @@ ValueNotifier는 값을 보존하는 업데이트를 알리고, ValueListenableB
 
 먼저, ValueNotifier를 확장한 클래스인 Counter로 카운터 변수를 업데이트합니다.
 
-```dart
+```js
 final counter = Counter();
 
 class Counter extends ValueNotifier<int> {
@@ -280,7 +280,7 @@ $ flutter test test/second_page_test.dart
 00:01 +1: All tests passed!
 ```
 
-그러나 아래와 같이 다른 testWidgets를 추가하면,```
+그러나 아래와 같이 다른 testWidgets를 추가하면,
 
 <div class="content-ad"></div>
 
@@ -326,7 +326,7 @@ void main() {
 ...
 ```
 
-이는 global 변수가 main()에서 계속 유지되어 각 테스트에서 동일한 객체가 공유된다는 이유입니다. 따라서 각 testWidget 이전에 모든 상태를 초기화해주어야 합니다.```
+이는 global 변수가 main()에서 계속 유지되어 각 테스트에서 동일한 객체가 공유된다는 이유입니다. 따라서 각 testWidget 이전에 모든 상태를 초기화해주어야 합니다.
 
 <div class="content-ad"></div>
 

@@ -621,7 +621,7 @@ p::first-letter {
 
 <div class="content-ad"></div>
 
-```
+
 ![Initial-letter](/assets/img/StartingtowriteCSSin2023willbedifferent_41.png)
 
 initial-letter는 초기 글자를 스타일링하는데 사용할 수 있는 작지만 아름다운 CSS 기능입니다.
@@ -629,7 +629,7 @@ initial-letter는 초기 글자를 스타일링하는데 사용할 수 있는 �
 # 👁️ 균형 잡히고 아름다운
 
 ![Initial-letter](/assets/img/StartingtowriteCSSin2023willbedifferent_42.png)
-```
+
 
 <div class="content-ad"></div>
 
@@ -804,7 +804,7 @@ light-dark() 함수를 사용하는 것이 prefers-color-scheme 미디어 쿼리
 # 반응형 디자인
 
 <img src="/assets/img/StartingtowriteCSSin2023willbedifferent_53.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -940,7 +940,7 @@ Una Kravets은 CSS Day 2023에서 "CSS 커뮤니티의 현재 상황"과 관련�
 
 <img src="/assets/img/StartingtowriteCSSin2023willbedifferent_63.png" />
 
-스크립트된 미디어 쿼리(스크립팅)를 사용하면 JavaScript가 사용 가능한지 확인할 수 있습니다. 이는 점진적 기능 향상에 매우 유용합니다. 이 미디어 쿼리가 소개되기 전에는 JavaScript가 사용 가능한지를 감지하는 전략으로 HTML에 nojs 클래스를 배치한 다음 JavaScript를 사용하여 제거하는 방법이 있었습니다. 이제 CSS가 JavaScript를 감지하고 그에 맞게 조정할 수 있기 때문에 이러한 스크립트를 제거할 수 있습니다.```
+스크립트된 미디어 쿼리(스크립팅)를 사용하면 JavaScript가 사용 가능한지 확인할 수 있습니다. 이는 점진적 기능 향상에 매우 유용합니다. 이 미디어 쿼리가 소개되기 전에는 JavaScript가 사용 가능한지를 감지하는 전략으로 HTML에 nojs 클래스를 배치한 다음 JavaScript를 사용하여 제거하는 방법이 있었습니다. 이제 CSS가 JavaScript를 감지하고 그에 맞게 조정할 수 있기 때문에 이러한 스크립트를 제거할 수 있습니다.
 
 <div class="content-ad"></div>
 

@@ -53,7 +53,7 @@ export const OneItem: Story = {
 
 <img src="/assets/img/Storiesformultiplecomponents_0.png" />
 
-서브컴포넌트는 주로 문서화 목적으로 사용되며 일부 제한 사항이 있습니다:```
+서브컴포넌트는 주로 문서화 목적으로 사용되며 일부 제한 사항이 있습니다:
 
 
 

@@ -46,7 +46,7 @@ function MyComponent() {
 
 # 2. React를 기반으로한 테스팅 피라미드를 설명하세요
 
-피라미드는 세 개의 계층으로 나누어집니다:```
+피라미드는 세 개의 계층으로 나누어집니다:
 
 <div class="content-ad"></div>
 

@@ -112,7 +112,7 @@ def protected():
 
 ![Best Practices for API Authorization](/assets/img/Best-Practices-for-API-Authorization_2.png)
 
-세밀한 접근 제어는 응용 프로그램 권한과 액세스 권한에 대한 자세한 제어를 제공하는 보안 관리 접근 방식입니다. 해당 사용자나 서비스가 필요한 권한만 갖도록하여 최소한의 권한 원칙을 준수합니다.```
+세밀한 접근 제어는 응용 프로그램 권한과 액세스 권한에 대한 자세한 제어를 제공하는 보안 관리 접근 방식입니다. 해당 사용자나 서비스가 필요한 권한만 갖도록하여 최소한의 권한 원칙을 준수합니다.
 
 <div class="content-ad"></div>
 
@@ -256,7 +256,7 @@ def lambda_handler(event, context):
 
 <div class="content-ad"></div>
 
-```nginx
+```js
 server {
     listen 443 ssl;
     server_name yourdomain.com;

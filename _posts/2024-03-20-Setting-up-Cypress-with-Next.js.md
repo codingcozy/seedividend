@@ -70,7 +70,7 @@ E2E 테스트 및/또는 구성 요소 테스트를 구성할 수 있습니다. 
 
 ## 첫 번째 Cypress E2E 테스트 만들기
 
-cypress.config.js 파일이 다음 구성을 가지고 있는지 확인하십시오:```
+cypress.config.js 파일이 다음 구성을 가지고 있는지 확인하십시오:
 
 <div class="content-ad"></div>
 

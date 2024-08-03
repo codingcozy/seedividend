@@ -86,7 +86,7 @@ function MyPage(props) {
 
 MyPage 컴포넌트에서는 name과 age 매개변수를 props.location.search 문자열을 URLSearchParams API를 사용하여 액세스합니다.
 
-3. State: 상태를 사용하여 페이지 간 데이터를 전달할 수도 있습니다. 전송 페이지에서는 데이터를 history 객체의 state 객체에 추가하고 수신 페이지에서는 location.state 객체에서 데이터에 액세스할 수 있습니다.```
+3. State: 상태를 사용하여 페이지 간 데이터를 전달할 수도 있습니다. 전송 페이지에서는 데이터를 history 객체의 state 객체에 추가하고 수신 페이지에서는 location.state 객체에서 데이터에 액세스할 수 있습니다.
 
 <div class="content-ad"></div>
 

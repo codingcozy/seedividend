@@ -183,7 +183,7 @@ foo_devtools_extension/lib/main.dart 파일에 다음을 추가해주세요:
 
 <div class="content-ad"></div>
 
-```dart
+```js
 import 'package:devtools_extensions/devtools_extensions.dart';
 import 'package:flutter/material.dart';
 
@@ -209,7 +209,7 @@ DevToolsExtension 위젯은 DevTools와 상호작용하는 데 필요한 모든 
 - serviceManager: 연결된 VM 서비스와 상호작용하는 매니저(있는 경우)
 - dtdManager: Dart Tooling Daemon과 상호작용하는 매니저(있는 경우)
 
-## 도우미 패키지 활용하기```
+## 도우미 패키지 활용하기
 
 <div class="content-ad"></div>
 

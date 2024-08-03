@@ -83,11 +83,11 @@ final lightTheme = ThemeData(
 );
 ```
 
-이제 MaterialApp 위젯에 이를 연결하여 계속 진행할 수 있습니다.```
+이제 MaterialApp 위젯에 이를 연결하여 계속 진행할 수 있습니다.
 
 <div class="content-ad"></div>
 
-```dart
+```js
 ThemeData theme = ThemeData(
   extensions: [
     XDesignSystem()
@@ -117,20 +117,19 @@ class MyApp extends StatelessWidget {
 
 이 클래스는 아래 코드를 사용하여 쉽게 액세스할 수 있습니다.
 
-```dart
+```js
 Theme.of(this).extension<DesignSystem>().textColor
 ```
 
-하지만 이렇게 하는 것이 그렇게 쉽지는 않죠. 조금 더 깔끔하게 만들기 위해 BuildContext에 확장(extension)을 생성할 수 있습니다.```
+하지만 이렇게 하는 것이 그렇게 쉽지는 않죠. 조금 더 깔끔하게 만들기 위해 BuildContext에 확장(extension)을 생성할 수 있습니다.
 
 <div class="content-ad"></div>
 
-````js
+```js
 확장팩으로 BuildContext에 디자인 시스템을 추가합니다.
 
 이제 이 확장을 사용하여 어디에서든 컨텍스트를 통해 쉽게 액세스할 수 있습니다. 아래 예시를 확인해보세요!
 
-```js
 Container(
   decoration: context.designSystem.defaultBoxShadow,
 )
@@ -138,9 +137,8 @@ Container(
 Text("일부 텍스트",
   style: context.designSystem.defaultTextStyle,
 )
-````
 
-그리고 완료! 매우 간단하죠?```
+그리고 완료! 매우 간단하죠?
 
 <div class="content-ad"></div>
 
@@ -148,11 +146,9 @@ Text("일부 텍스트",
 
 사용자가 색상 선택기를 사용할 수 있다고 가정하면, 해당 구현 또한 매우 쉽습니다.
 
-```js
 theme.copyWith(
   defaultTextColor: // 사용자가 선택한 색상 뭐시기
 );
-```
 
 상태 관리 기술은 여러분에게 맡기겠습니다. 그러나 이가 다소 직관적이었기를 희망합니다.
 

@@ -35,7 +35,7 @@ Storybook for Next.js은 Next.js 어플리케이션에서 UI 컴포넌트를 개
 
 다음 명령을 Next.js 프로젝트의 루트 디렉토리에서 실행한 후 안내에 따라 진행하세요:
 
-```npm
+```js
 npx storybook@latest init
 ```
 
@@ -47,7 +47,7 @@ npx storybook@latest init
 
 이 프레임워크는 스토리북 7+와 함께 작동하도록 설계되었습니다. 이미 v7을 사용하고 있지 않다면 다음 명령으로 업그레이드하세요:
 
-```npm
+```js
 npx storybook@latest upgrade
 ```
 
@@ -63,7 +63,7 @@ npx storybook@latest upgrade
 
 
 
-```npm
+```js
 npm install --save-dev @storybook/nextjs
 ```
 
@@ -81,7 +81,7 @@ const config: StorybookConfig = {
 export default config;
 ```
 
-마지막으로, Next.js와 통합하기 위해 Storybook 플러그인을 사용하고 있다면, 이 프레임워크를 사용할 때는 더 이상 필요하지 않으므로 삭제할 수 있습니다:```
+마지막으로, Next.js와 통합하기 위해 Storybook 플러그인을 사용하고 있다면, 이 프레임워크를 사용할 때는 더 이상 필요하지 않으므로 삭제할 수 있습니다:
 
 
 
@@ -106,7 +106,7 @@ export default config;
 만약 모든 것이 잘 되면, 시작하기 위한 설정 마법사가 나타날 것입니다. 이 마법사는 Storybook을 시작하는 데 도움을 주며, 주요 개념과 기능을 소개해줄 것입니다. UI가 어떻게 구성되는지, 첫 번째 스토리를 작성하는 방법, 그리고 컴포넌트가 다양한 입력에 대한 응답을 어떻게 테스트하는지 등을 소개합니다.
 
 <img src="/assets/img/StorybookforNextjs_0.png" />
-```
+
 
 
 
@@ -206,7 +206,7 @@ const config: StorybookConfig = {
 export default config;
 ```
 
-### next/font에서 지원되지 않는 기능들```
+### next/font에서 지원되지 않는 기능들
 
 
 
@@ -535,7 +535,7 @@ const meta: Meta<typeof NavigationBasedComponent> = {
 export default meta;
 ```
 
-위 구성을 사용하면 이야기에 렌더링된 구성 요소는 훅에서 다음과 같은 값을 받게 됩니다:```
+위 구성을 사용하면 이야기에 렌더링된 구성 요소는 훅에서 다음과 같은 값을 받게 됩니다:
 
 
 
@@ -554,7 +554,7 @@ export default function ParamsBasedComponent() {
 
 ### 기본 네비게이션 컨텍스트
 
-스텁된 네비게이션 컨텍스트의 기본 값은 다음과 같습니다:```
+스텁된 네비게이션 컨텍스트의 기본 값은 다음과 같습니다:
 
 
 

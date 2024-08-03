@@ -25,13 +25,13 @@ link: "https://storybook.js.org/docs/sharing/publish-storybook"
 
 
 
-```npm
+```js
 npm run build-storybook
 ```
 
 Storybook은 어떤 웹 서버에도 제공될 수 있는 정적 웹 응용 프로그램을 만들어 줍니다. 다음 명령을 실행하여 로컬에서 미리보기할 수 있습니다:
 
-```npm
+```js
 npx http-server ./path/to/build
 ```
 
@@ -41,7 +41,7 @@ npx http-server ./path/to/build
 
 기본적으로 Storybook의 프로덕션 빌드는 모든 스토리와 문서를 프로덕션 번들에 캡슐화합니다. 이는 작은 프로젝트에 이상적이지만 더 큰 프로젝트이거나 빌드 시간을 단축해야 할 때(예: 테스트, CI/CD) 성능 문제를 초래할 수 있습니다. 필요한 경우 main.js|ts 구성 파일에서 test 옵션을 사용하여 프로덕션 빌드를 사용자 정의하고 빌드 스크립트를 수정하여 --test 플래그로 최적화를 활성화할 수 있습니다.
 
-```npm
+```js
 npm run build-storybook -- --test
 ```
 
@@ -57,7 +57,7 @@ Storybook을 정적 웹 애플리케이션으로 빌드한 후에는 해당 애�
 
 다음으로 npm을 통해 Chromatic CLI 패키지를 설치하세요:
 
-```npm
+```js
 npm install chromatic --save-dev
 ```
 

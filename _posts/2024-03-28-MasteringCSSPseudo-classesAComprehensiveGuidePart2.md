@@ -282,7 +282,7 @@ p:lang(fr) {
 p:lang(fr-CA) {
   color: #ff0000; /* 텍스트 색상을 빨강으로 변경 */
 }
-````
+```
 
 <div class="content-ad"></div>
 
@@ -706,7 +706,7 @@ CSS에서 :invalid 가상 클래스는 지정된 제약 조건에 따라 유효�
   <input type="email" id="email" name="email" required>
   <button type="submit">제출</button>
 </form>
-````
+```
 
 이제, 값이 유효하지 않을 때 (즉, 유효한 이메일 주소가 아닐 때) 입력 필드를 스타일링하려면 :invalid을 사용할 수 있습니다:
 

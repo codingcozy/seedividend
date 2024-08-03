@@ -57,7 +57,7 @@ ARIA 속성을 사용하면:
 
 여기서 중요한 점은 "aria-current="page"가 활성 링크에 필요한 스타일링에 관계없이 포함되어야 한다는 것입니다. 다른 방식으로 이미 선택할 수 있는 상태인데 왜 추가 클래스를 추가해야 할 지 생각할 수 없습니다. 최악의 경우, 상태 관리를 두 번 구현하게 될 수도 있습니다.
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -102,7 +102,7 @@ Keith의 기사에 있는 예시:
 .Card[data-border-collapse~="right"] { border-right: 0 }
 .Card[data-border-collapse~="bottom"] { border-bottom: 0 }
 .Card[data-border-collapse~="left"] { border-left: 0 }
-````
+```
 
 <div class="content-ad"></div>
 

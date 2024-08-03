@@ -30,7 +30,7 @@ Storybook을 사용하면 React 및 Vite로 구축된 애플리케이션의 UI �
 
 React 프로젝트의 루트 디렉토리에서 다음 명령어를 실행한 후 안내에 따르세요:
 
-```npm
+```js
 npx storybook@latest init
 ```
 
@@ -40,7 +40,7 @@ Storybook 시작하기에 대해 더 알아보세요.
 
 이 프레임워크는 Storybook 7+와 함께 작동하도록 설계되었습니다. 이미 v7을 사용하고 있지 않다면 다음 명령을 사용하여 업그레이드하세요:
 
-```npm
+```js
 npx storybook@latest upgrade
 ```
 
@@ -52,7 +52,7 @@ npx storybook@latest upgrade
 
 먼저 프레임워크를 설치하십시오:
 
-```npm
+```js
 npm install --save-dev @storybook/react-vite
 ```
 

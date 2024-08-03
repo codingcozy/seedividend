@@ -145,7 +145,7 @@ export const config = {
 - 반드시 /로 시작해야 합니다.
 - Named parameters를 포함할 수 있습니다: /about/:path는 /about/a 및 /about/b와 일치하지만 /about/a/c와 일치하지 않습니다.
 - Named parameters에 수정자를 추가할 수 있습니다 (:로 시작): /about/:path*는 *가 0개 이상이므로 /about/a/b/c와 일치합니다. ?는 0 또는 1이고 +는 1 이상입니다.
-- 괄호로 묶인 정규 표현식을 사용할 수 있습니다: /about/(.*)는 /about/:path*와 동일합니다.```
+- 괄호로 묶인 정규 표현식을 사용할 수 있습니다: /about/(.*)는 /about/:path*와 동일합니다.
 
 <div class="content-ad"></div>
 

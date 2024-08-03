@@ -47,7 +47,7 @@ export default async function Page() {
 # Nuxt 데이터 가져오기
 
 <img src="/assets/img/HowNextjscanenhanceitsfetchfunctionalitybydrawinginspirationfromNuxtjsandVuejsecosystem_2.png" />
-```
+
 
 <div class="content-ad"></div>
 

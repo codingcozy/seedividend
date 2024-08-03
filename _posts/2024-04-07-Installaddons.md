@@ -23,7 +23,7 @@ Storybook에는 애드온 설정을 자동화하는 storybook@latest add 명령�
 
 
 
-```npm
+```js
 npx storybook@latest add @storybook/addon-a11y
 ```
 
@@ -35,7 +35,7 @@ Storybook 애드온은 항상 .storybook/main.js|ts 파일의 addons 구성 배�
 
 
 
-```npm
+```js
 npm install @storybook/addon-a11y --save-dev
 ```
 
@@ -67,6 +67,6 @@ Storybook을 실행하면 접근성 테스트 애드온이 활성화됩니다.
 
 Storybook에서 애드온을 제거하려면 수동으로 제거하고 구성 파일(즉, .storybook/main.js|ts)에서 해당 애드온을 제거하거나 CLI를 통해 자동으로 제거할 수 있습니다. 예를 들어, CLI를 사용하여 Storybook에서 접근성 애드온을 제거하려면 다음 명령을 실행하세요:
 
-```npm
+```js
 npx storybook@latest remove @storybook/addon-a11y
 ```

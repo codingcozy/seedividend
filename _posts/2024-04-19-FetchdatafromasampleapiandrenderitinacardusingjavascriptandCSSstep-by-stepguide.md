@@ -110,7 +110,7 @@ renderData();
 ```
 
 <img src="/assets/img/FetchdatafromasampleapiandrenderitinacardusingjavascriptandCSSstep-by-stepguide_0.png" />
-```
+
 
 <div class="content-ad"></div>
 

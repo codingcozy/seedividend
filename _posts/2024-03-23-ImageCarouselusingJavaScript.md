@@ -128,7 +128,7 @@ link: "https://medium.com/@imPradhyumn/image-carousel-using-javascript-19b96afa9
 
 이 코드 블록을 이해하는 데 어려움이 없습니다. 버튼에 이벤트 리스너를 추가하여 해당 기능을 호출합니다.
 
-이미지를 DOM에서 가져와 배열에 저장합니다.```
+이미지를 DOM에서 가져와 배열에 저장합니다.
 
 <div class="content-ad"></div>
 

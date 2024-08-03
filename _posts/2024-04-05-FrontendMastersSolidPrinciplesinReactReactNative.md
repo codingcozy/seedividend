@@ -85,7 +85,7 @@ export default ListItems;
 - 리스트 아이템 요청 및 가져오기 과정 처리
 - 컴포넌트 렌더링
 
-처음에는 전형적인 컴포넌트처럼 보일 수 있지만, SRP(단일 책임 원칙)에 따르면 할당된 책임보다 더 많은 책임을 다루고 있습니다.```
+처음에는 전형적인 컴포넌트처럼 보일 수 있지만, SRP(단일 책임 원칙)에 따르면 할당된 책임보다 더 많은 책임을 다루고 있습니다.
 
 <div class="content-ad"></div>
 
@@ -501,7 +501,7 @@ const EditListItemForm = () => {
 <img src="/assets/img/FrontendMastersSolidPrinciplesinReact-ReactNative_4.png" />
 
 <img src="/assets/img/FrontendMastersSolidPrinciplesinReact-ReactNative_5.png" />
-```
+
 
 <div class="content-ad"></div>
 

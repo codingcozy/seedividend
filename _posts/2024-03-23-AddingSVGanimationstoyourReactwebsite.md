@@ -142,7 +142,7 @@ svg#freepik_stories-programming.animated #freepik--speech-bubble--inject-2 {
 마침내 최종 결과물:
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*8Xy-_V8Ga7wwpOMUUcNI7g.gif" />
-```
+
 
 <div class="content-ad"></div>
 

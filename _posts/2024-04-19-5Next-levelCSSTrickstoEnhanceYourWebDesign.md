@@ -74,7 +74,7 @@ counter-reset: item-counter 5;
 counter-increment: item-counter
 ```
 
-현재 카운터를 특정 숫자만큼 증가시키고 싶다면 다음과 같이 할 수 있습니다.```
+현재 카운터를 특정 숫자만큼 증가시키고 싶다면 다음과 같이 할 수 있습니다.
 
 <div class="content-ad"></div>
 

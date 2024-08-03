@@ -46,7 +46,7 @@ img {
 
 color 속성을 사용하여 이미지의 배경 색상을 변경할 수도 있습니다. 이를 위해서는 background-color 속성을 사용해야 합니다.
 
-background-color 속성은 color 속성과 동일한 방식으로 값을 취합니다. 예를 들어, 다음 코드는 이미지의 배경색을 파란색으로 변경합니다:```
+background-color 속성은 color 속성과 동일한 방식으로 값을 취합니다. 예를 들어, 다음 코드는 이미지의 배경색을 파란색으로 변경합니다:
 
 <div class="content-ad"></div>
 

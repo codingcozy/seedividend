@@ -56,7 +56,7 @@ export const ExampleStory: Story = {
 
 #### Vite로
 
-기본적으로 Storybook은 Node.js 글로벌 객체인 process.env와 같은 것을 출력하지 않는 Vite 빌더를 제공해요. Storybook에서 환경 변수에 액세스하려면(import.meta.env를 사용해야 해요. 예를 들어:```
+기본적으로 Storybook은 Node.js 글로벌 객체인 process.env와 같은 것을 출력하지 않는 Vite 빌더를 제공해요. Storybook에서 환경 변수에 액세스하려면(import.meta.env를 사용해야 해요. 예를 들어:
 
 
 
@@ -85,7 +85,7 @@ build-storybook로 Storybook을 빌드할 때 이 환경 변수들을 전달할 
 
 그렇게 하면 이들은 Storybook의 정적 버전에 하드코딩됩니다.
 
-### Storybook 구성 사용하기```
+### Storybook 구성 사용하기
 
 
 

@@ -403,7 +403,7 @@ pnpm run serve:container
 - 애플리케이션을 빌드한 후에는 dist 폴더에서 style.css 테일윈드 스타일 및 애니메이션을 볼 수 있습니다.
 
 <img src="/assets/img/SharedTailwindSetupForMicroFrontendApplicationwithNxWorkspace_3.png" />
-```
+
 
 <div class="content-ad"></div>
 

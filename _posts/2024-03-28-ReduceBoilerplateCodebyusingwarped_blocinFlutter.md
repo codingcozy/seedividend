@@ -129,7 +129,7 @@ BlocBuilder<HomeCubit, BlocState>(
 
 <div class="content-ad"></div>
 
-```dart
+```js
 import 'package:warped_bloc/warped_bloc.dart';
 
 class HomeActionSuccess extends DataState<void> {
@@ -150,7 +150,7 @@ class HomeActionCubit extends AsyncCubit {
 }
 ```
 
-```dart
+```js
 class HomeRepo {
   final Dio dio;
 
@@ -163,7 +163,7 @@ class HomeRepo {
 
 이제 UI를 다음과 같이 간단하게 처리할 수 있습니다:
 
-```dart
+```js
 final actionCubit = HomeActionCubit(repo: HomeRepo(dio: Dio()));
 ...
 BlocListener<HomeActionCubit, BlocState>(

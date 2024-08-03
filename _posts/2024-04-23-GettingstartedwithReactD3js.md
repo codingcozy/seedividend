@@ -245,7 +245,7 @@ const Barchart = () => {
 export default Barchart;
 ```
 
-React와 함께 이 d3 예제를 작동하도록 만들기 위해 몇 가지 변경 사항이 있습니다. 먼저 svg를 선택할 때 index.html에 "my_dataviz" id로 된 svg가 없습니다. 이 문제를 해결하는 방법은 useRef 훅을 사용하는 것입니다. React 문서에서 useRef에 대해 다음과 같이 설명합니다:```
+React와 함께 이 d3 예제를 작동하도록 만들기 위해 몇 가지 변경 사항이 있습니다. 먼저 svg를 선택할 때 index.html에 "my_dataviz" id로 된 svg가 없습니다. 이 문제를 해결하는 방법은 useRef 훅을 사용하는 것입니다. React 문서에서 useRef에 대해 다음과 같이 설명합니다:
 
 <div class="content-ad"></div>
 

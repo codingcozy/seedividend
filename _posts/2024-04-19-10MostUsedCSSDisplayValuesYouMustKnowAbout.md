@@ -281,7 +281,7 @@ display: grid; 속성은 컨테이너를 그리드 컨테이너로 변환하고 
 
 Markdown:
 
-```md
+
 - div.container {
   - display: grid;
   - border: 2px solid black;
@@ -291,7 +291,7 @@ Markdown:
   - margin: 10px;
   - padding: 10px;
 - }
-```
+
 
 <div class="content-ad"></div>
 

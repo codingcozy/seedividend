@@ -168,7 +168,7 @@ export const Form: FC = (props) => {
 - form 요소는 handleSubmit에 설정된 onSubmit 이벤트 핸들러를 가지고 있습니다. 양식이 제출될 때 트리거됩니다.
 - 각 입력 요소는 해당 상태 변수 (name, email, phoneNumber, address)와 연결되어 있습니다. onChange 이벤트 핸들러가 onChange으로 설정되어 있습니다. 이렇게하면 입력 값이 변경될 때 onChange 함수가 상태를 해당하는 방식으로 업데이트합니다.
 
-전반적으로, 이 Form 컴포넌트는 이름, 이메일, 전화번호 및 주소에 대한 필드가 있는 양식을 생성합니다. 사용자가 양식과 상호 작용하는 동안 useReducer 훅과 reducer 함수를 통해 상태가 업데이트됩니다. React에서 제어된 양식 동작을 제공합니다. 양식이 제출되면 양식 필드가 지워집니다.```
+전반적으로, 이 Form 컴포넌트는 이름, 이메일, 전화번호 및 주소에 대한 필드가 있는 양식을 생성합니다. 사용자가 양식과 상호 작용하는 동안 useReducer 훅과 reducer 함수를 통해 상태가 업데이트됩니다. React에서 제어된 양식 동작을 제공합니다. 양식이 제출되면 양식 필드가 지워집니다.
 
 <div class="content-ad"></div>
 

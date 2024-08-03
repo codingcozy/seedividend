@@ -24,7 +24,7 @@ link: ""
 
 OnboardingPage부터 시작해보겠습니다. 이 페이지는 StatefulWidget입니다. 또한 \_selectedIndex라는 변수를 정의하고 기본 값을 0으로 설정하세요.
 
-```dart
+```js
 class OnboardingPage extends StatefulWidget {
   const OnboardingPage({Key? key});
 
@@ -183,7 +183,7 @@ class AnimatedDot extends StatelessWidget {
 
 <div class="content-ad"></div>
 
-```dart
+```js
 테이블을 Markdown 형식으로 변경하십시오.
 ```
 
@@ -195,7 +195,7 @@ class AnimatedDot extends StatelessWidget {
 
 <div class="content-ad"></div>
 
-```dart
+```js
 ElevatedButton(
   onPressed: () {},
   child: Text(

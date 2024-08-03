@@ -124,7 +124,7 @@ const Hello = () => {
 
 ## Redux의 사용 사례
 
-Redux는 다음과 같은 상황에서 일반적으로 사용됩니다:```
+Redux는 다음과 같은 상황에서 일반적으로 사용됩니다:
 
 <div class="content-ad"></div>
 

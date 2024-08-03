@@ -62,7 +62,7 @@ Storybook 6에서 7, 그리고 Storybook 7에서 8로 이주하기 전에 전체
 
 Storybook을 업그레이드하려면:
 
-```npm
+```js
 npx storybook@latest upgrade
 ```
 
@@ -132,7 +132,7 @@ CSF 2에서 CSF 3으로 이야기를 변환하는 것에는 많은 이유가 있
 
 
 
-```npm
+```js
 # CSF 2에서 CSF 3로 변환하기
 npx storybook@latest migrate csf-2-to-3 --glob="**/*.stories.tsx" --parser=tsx
 ```

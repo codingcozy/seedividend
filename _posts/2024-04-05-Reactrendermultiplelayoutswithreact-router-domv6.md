@@ -107,7 +107,7 @@ export default ListUsers;
 
 # 4— 레이아웃 생성
 
-이제 2개의 레이아웃만 있다고 가정하고 레이아웃을 생성합시다.```
+이제 2개의 레이아웃만 있다고 가정하고 레이아웃을 생성합시다.
 
 <div class="content-ad"></div>
 
@@ -435,7 +435,7 @@ const subRoutes = generateFlattenRoutes(routes);
 
 이 Route의 하위 요소는 또한 Route 요소이지만 ProtectedRoute 컴포넌트를 나타냅니다. element prop은 해당 props와 함께 'ProtectedRoute /' 컴포넌트를 가져옵니다.
 
-ProtectedRoute 컴포넌트 내부에서는 컴포넌트 prop이 이전에 언급했던대로 element로 바뀌어 v.5의 react-router-dom을 사용하고 있습니다.```
+ProtectedRoute 컴포넌트 내부에서는 컴포넌트 prop이 이전에 언급했던대로 element로 바뀌어 v.5의 react-router-dom을 사용하고 있습니다.
 
 <div class="content-ad"></div>
 
@@ -553,7 +553,7 @@ export default App;
 
 지금까지 react-router-dom의 6번째 버전에서 여러 레이아웃을 다루는 방법을 살펴봤습니다. 또한, 모든 라우트가 한 파일에 추가되어 있는 것이 아니라 동적 라우트를 생성하는 방법도 살펴보았습니다.
 
-이 게시물을 읽어주셔서 감사합니다. 도움이 되었기를 바라며, 궁금한 점이 있으시면 댓글란에 남겨주세요. 기꺼이 답변해 드리겠습니다. 그리고 이 게시물이 마음에 드신다면 응원해 주세요.```
+이 게시물을 읽어주셔서 감사합니다. 도움이 되었기를 바라며, 궁금한 점이 있으시면 댓글란에 남겨주세요. 기꺼이 답변해 드리겠습니다. 그리고 이 게시물이 마음에 드신다면 응원해 주세요.
 
 <div class="content-ad"></div>
 

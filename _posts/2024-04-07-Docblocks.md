@@ -183,7 +183,7 @@ IconGallery 블록은 프로젝트와 관련된 모든 아이콘을 깔끔한 �
 Markdown 블록을 사용하면 MDX 파일에 일반적인 마크다운을 가져와 포함할 수 있습니다.
 
 <img src="/assets/img/Docblocks_8.png" />
-```
+
 
 
 

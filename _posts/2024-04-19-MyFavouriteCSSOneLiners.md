@@ -104,9 +104,9 @@ h1 {
 
 아래와 같이 변경해 보세요:
 
-```
+
 ![MyFavouriteCSSOneLiners_2](/assets/img/MyFavouriteCSSOneLiners_2.png)
-```
+
 
 참고: 현재 이 기능은 Chrome과 Safari에서만 작동합니다. 문제를 피하려면 대비책을 마련해두시는 것이 좋습니다.
 

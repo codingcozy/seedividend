@@ -310,7 +310,7 @@ input 태그를 사용하여 입력 필드를 스타일링할 수 있습니다. 
 ```
 
 <img src="/assets/img/CreateLoginFormValidationUsingJavaScript_5.png" />
-```
+
 
 <div class="content-ad"></div>
 

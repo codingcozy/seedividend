@@ -303,7 +303,7 @@ const selectOptions = async (input, options) => {
 };
 ```
 
-react-select-event를 사용하는 또 다른 장점은 동일한 API를 사용하여 여러 요소를 선택할 수 있다는 것입니다.```
+react-select-event를 사용하는 또 다른 장점은 동일한 API를 사용하여 여러 요소를 선택할 수 있다는 것입니다.
 
 <div class="content-ad"></div>
 
@@ -325,7 +325,7 @@ it("멀티셀렉트와 함께 작동해야 합니다", async () => {
 
 ## 비동기 react-select 테스트
 
-비동기 react-select을 테스트하는 것은 기본 react-select 컴포넌트와는 조금 다릅니다. 이는 요소들을 쿼리하기 전에 선택 옵션이 로드되기를 기다려야 하는 필요 때문입니다.```
+비동기 react-select을 테스트하는 것은 기본 react-select 컴포넌트와는 조금 다릅니다. 이는 요소들을 쿼리하기 전에 선택 옵션이 로드되기를 기다려야 하는 필요 때문입니다.
 
 <div class="content-ad"></div>
 

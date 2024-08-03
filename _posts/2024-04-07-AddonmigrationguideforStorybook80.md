@@ -80,7 +80,7 @@ Storybook 8에서 웹팩5 빌더에서 babel-loader가 제거되었습니다. �
 
 
 
-```npm
+```js
 npx storybook@latest add @storybook/addon-webpack5-compiler-babel
 ```
 

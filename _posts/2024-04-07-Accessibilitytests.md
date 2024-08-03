@@ -33,7 +33,7 @@ Storybook은 공식 a11y 애드온을 제공합니다. Deque의 axe-core를 기�
 
 
 
-```npm
+```js
 npm install @storybook/addon-a11y --save-dev
 ```
 
@@ -271,7 +271,7 @@ export const NonA11yStory: Story = {
 
 다음 명령을 실행하여 필수 종속성을 설치하세요.
 
-```npm
+```js
 npm install axe-playwright --save-dev
 ```
 

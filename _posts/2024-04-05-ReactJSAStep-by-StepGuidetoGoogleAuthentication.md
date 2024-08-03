@@ -162,7 +162,7 @@ function App() {
 export default App;
 ```
 
-위의 코드는 Google 로그인을 사용하는 방법을 간단하게 보여주는 방법입니다. @react-oauth/google에서 GoogleLogin 모듈을 가져와 컴포넌트에서 호출했습니다. 그 다음 로그인이 성공했을 때 응답을 console에 기록하는 두 함수를 만들었고, 로그인에 실패했을 때는 오류를 기록했습니다.```
+위의 코드는 Google 로그인을 사용하는 방법을 간단하게 보여주는 방법입니다. @react-oauth/google에서 GoogleLogin 모듈을 가져와 컴포넌트에서 호출했습니다. 그 다음 로그인이 성공했을 때 응답을 console에 기록하는 두 함수를 만들었고, 로그인에 실패했을 때는 오류를 기록했습니다.
 
 <div class="content-ad"></div>
 
@@ -240,7 +240,7 @@ export default App;
 
 useGoogleLogin API를 사용하면 사용자 정의 버튼으로 Google에 로그인할 수 있습니다. @react-oauth/google이 제공하는 GoogleLogin 버튼을 사용하고 싶지 않다면, 선호하는 버튼을 스타일링하고 제공한 클라이언트 ID로 로그인 요청을 만들기 위해 useGoogleLogin API를 사용할 수 있습니다.
 
-요청이 성공하면 useGoogleLogin이 여전히 제공하는 onSuccess 함수에서 처리하고, 요청이 실패하면 실패 함수에서 오류를 처리합니다.```
+요청이 성공하면 useGoogleLogin이 여전히 제공하는 onSuccess 함수에서 처리하고, 요청이 실패하면 실패 함수에서 오류를 처리합니다.
 
 <div class="content-ad"></div>
 

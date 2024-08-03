@@ -289,9 +289,9 @@ pages/api/auth 폴더에 [...nextauth].js라는 파일을 만듭니다. 이 파�
 
 <div class="content-ad"></div>
 
-```md
+
 큰 영향을 미치는 작업은 아니지만 HTML에서 table 태그를 Markdown 형식으로 바꾸면 더 읽기 쉽고 편리합니다.
-```
+
 
 <div class="content-ad"></div>
 

@@ -87,7 +87,7 @@ function Counter() {
 }
 ```
 
-## 2. Effect Hooks:```
+## 2. Effect Hooks:
 
 <div class="content-ad"></div>
 

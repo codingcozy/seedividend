@@ -522,7 +522,7 @@ const PostUser = () => {
 export default PostUser;
 ```
 
-index.css 파일에서 29번째 줄을 제거하세요. 더 나은 레이아웃을 위해:```
+index.css 파일에서 29번째 줄을 제거하세요. 더 나은 레이아웃을 위해:
 
 <div class="content-ad"></div>
 
@@ -534,7 +534,7 @@ place-items: center;
 
 <img src="/assets/img/DockerizeaReactapplicationwithNodejsPostgresandNginx_7.png" />
 
-마지막으로 Vite에서 모든 주소에서 수신하도록 서버 옵션을 변경해야 합니다. vite.config.js로 이동하여 다음과 같이 파일을 변경하세요:```
+마지막으로 Vite에서 모든 주소에서 수신하도록 서버 옵션을 변경해야 합니다. vite.config.js로 이동하여 다음과 같이 파일을 변경하세요:
 
 <div class="content-ad"></div>
 
@@ -556,7 +556,7 @@ export default defineConfig({
 
 Nginx는 클라이언트로부터의 요청을 처리하고 해당 요청을 적합한 백엔드 서버로 전달하는 역방향 프록시 서버로 사용할 수 있습니다.
 
-Nginx를 역방향 프록시로 구성하려면 프로젝트의 루트 디렉토리로 이동하여 nginx 폴더를 만들어야 합니다. 이 폴더 안에 default.conf라는 파일을 만들고 다음 구성을 추가하세요.```
+Nginx를 역방향 프록시로 구성하려면 프로젝트의 루트 디렉토리로 이동하여 nginx 폴더를 만들어야 합니다. 이 폴더 안에 default.conf라는 파일을 만들고 다음 구성을 추가하세요.
 
 <div class="content-ad"></div>
 

@@ -75,7 +75,7 @@ const singlePassMoreGeneral = (
 
 # 성능 측정
 
-성능은 어떻게 측정합니까? 실제 정확한 타이밍을 얻어야합니다. 또한 코드의 성능은 사용할 함수 및 데이터에 크게 의존하기 때문에 단일 측정으로는 충분하지 않습니다.```
+성능은 어떻게 측정합니까? 실제 정확한 타이밍을 얻어야합니다. 또한 코드의 성능은 사용할 함수 및 데이터에 크게 의존하기 때문에 단일 측정으로는 충분하지 않습니다.
 
 <div class="content-ad"></div>
 
@@ -337,7 +337,7 @@ const singlePassMoreGeneralWithLoopsAndManyVars = (
 코드 크기가 실제로 커졌군요! 하지만 결과는 기대에 미치지 못하는군요; 성능은 본질적으로 동일하며, 때로는 약간 높고 때로는 약간 낮은 경우가 있지만 뚜렷한 차이는 없습니다.
 
 <img src="/assets/img/ForeverFunctional35OptimizingJavaScriptWhichWay_4.png" />
-```
+
 
 <div class="content-ad"></div>
 

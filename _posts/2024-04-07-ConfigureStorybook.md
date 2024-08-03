@@ -100,7 +100,7 @@ Storybook가 시작되면 packages/components 디렉토리 안에 stories 확장
 
 ### 디렉토리와 함께
 
-또한 디렉토리를 이용하여 Storybook 구성을 간단하게 할 수 있고 스토리를 불러올 수 있습니다. 예를 들어, packages/MyStories 안에 있는 모든 스토리를 불러오고 싶다면, 아래와 같이 구성을 조정할 수 있습니다:```
+또한 디렉토리를 이용하여 Storybook 구성을 간단하게 할 수 있고 스토리를 불러올 수 있습니다. 예를 들어, packages/MyStories 안에 있는 모든 스토리를 불러오고 싶다면, 아래와 같이 구성을 조정할 수 있습니다:
 
 
 

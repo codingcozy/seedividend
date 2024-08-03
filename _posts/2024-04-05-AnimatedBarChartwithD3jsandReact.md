@@ -266,7 +266,7 @@ selection
 
 결과는:
 
-````
+
 <img src="/assets/img/AnimatedBarChartwithD3jsandReact_8.png" />
 
 # 5. Polish it!
@@ -390,7 +390,7 @@ const ref = useCallback(
 )
 
 return <div ref={ref} />
-````
+```
 
 <div class="content-ad"></div>
 

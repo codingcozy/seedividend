@@ -43,7 +43,7 @@ ListView.builder는 일반적으로 다음 시나리오에서 사용됩니다:
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*tH6teEqAw_NXp3LELGBcdA.gif)
 
-```dart
+```js
 import 'package:flutter/material.dart';
 
 void main() {

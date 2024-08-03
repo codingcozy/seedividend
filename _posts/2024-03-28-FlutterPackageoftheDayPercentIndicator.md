@@ -59,7 +59,7 @@ dependencies:
 flutter pub get
 ```
 
-단계 3: 패키지 가져오기 Dart 파일에서 Dot Indicators 패키지를 가져올 위치에 가져오세요:```
+단계 3: 패키지 가져오기 Dart 파일에서 Dot Indicators 패키지를 가져올 위치에 가져오세요:
 
 <div class="content-ad"></div>
 
@@ -80,7 +80,7 @@ DotIndicator(
 ),
 ```
 
-예시: 이 예시에서 pageLength는 표시할 총 도트 수를 나타내고 currentIndexPage는 강조할 위치 (활성 도트)를 나타냅니다.```
+예시: 이 예시에서 pageLength는 표시할 총 도트 수를 나타내고 currentIndexPage는 강조할 위치 (활성 도트)를 나타냅니다.
 
 <div class="content-ad"></div>
 

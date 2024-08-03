@@ -33,7 +33,7 @@ dependencies:
 
 이제, 카운터 컨트롤러를 만들어 봅시다:
 
-```dart
+```js
 import 'package:get/get.dart';
 
 class CounterController extends GetxController {
@@ -45,7 +45,7 @@ class CounterController extends GetxController {
 }
 ```
 
-이제, 해당 컨트롤러를 앱에 통합하세요:```
+이제, 해당 컨트롤러를 앱에 통합하세요:
 
 <div class="content-ad"></div>
 
@@ -84,4 +84,4 @@ class CounterApp extends StatelessWidget {
 
 위 예제에서는 GetX를 사용하여 CounterController를 정의합니다. Obx 위젯은 count 변수의 변경사항을 감지하고 플로팅 액션 버튼을 누를 때 UI를 업데이트합니다.
 
-결론: 상태 관리는 플러터 개발의 기본 요소로서, 애플리케이션의 확장성, 성능 및 유지보수 기능성에 영향을 미칩니다. 플러터에서 사용 가능한 다양한 상태 관리 기술과 각각의 강점을 이해하여, 프로젝트 요구사항과 개발 워크플로에 가장 잘 맞는 방법을 선택할 수 있습니다. setState, Provider와 같은 내장 솔루션부터 Bloc, GetX와 같은 고급 패턴까지 선택하게 되는데, 상태 관리를 숙달하는 것은 뛰어난 플러터 앱을 구축하고, 원활한 사용자 경험을 제공하는 데 꼭 필요합니다.```
+결론: 상태 관리는 플러터 개발의 기본 요소로서, 애플리케이션의 확장성, 성능 및 유지보수 기능성에 영향을 미칩니다. 플러터에서 사용 가능한 다양한 상태 관리 기술과 각각의 강점을 이해하여, 프로젝트 요구사항과 개발 워크플로에 가장 잘 맞는 방법을 선택할 수 있습니다. setState, Provider와 같은 내장 솔루션부터 Bloc, GetX와 같은 고급 패턴까지 선택하게 되는데, 상태 관리를 숙달하는 것은 뛰어난 플러터 앱을 구축하고, 원활한 사용자 경험을 제공하는 데 꼭 필요합니다.

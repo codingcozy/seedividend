@@ -147,7 +147,7 @@ screenshots:
 
 # 플러터 Favorites에 대해
 
-출판 웹 사이트에서 Flutter Favorites라는 프로그램이 다음과 같이 나열된 특정 패키지와 함께 표시됩니다:```
+출판 웹 사이트에서 Flutter Favorites라는 프로그램이 다음과 같이 나열된 특정 패키지와 함께 표시됩니다:
 
 <div class="content-ad"></div>
 
@@ -248,18 +248,14 @@ pubspec.yaml 파일에 패키지를 수동으로 추가하지 않고 추가하�
 
 <div class="content-ad"></div>
 
-````js
+```js
 플러터 패키지 관리자를 통해 stream_chat_flutter를 추가할 수 있어요.
 
-```js
 flutter pub add stream_chat_flutter
-````
 
 같은 방식으로 제거하려면 pub remove 하위 명령어를 사용하세요:
 
-```js
 flutter pub remove stream_chat_flutter
-```
 
 # 종속성 업그레이드 / 다운그레이드
 
@@ -267,15 +263,11 @@ flutter pub remove stream_chat_flutter
 
 어떤 프로젝트에 있는 의존성들은 시간이 지남에 따라 구식이 될 수 있어요. 새로운 업데이트가 출시되면 더 이상 최신이 아닌 패키지를 업그레이드하려면 다음을 사용할 수 있어요:
 
-```js
 flutter pub upgrade
-```
 
 비슷하게, 구식 의존성을 찾으려면 `pub outdated` 서브명령어를 사용할 수 있어요:
 
-```js
 flutter pub outdated
-```
 
 <div class="content-ad"></div>
 
@@ -285,9 +277,7 @@ flutter pub outdated
 
 또한 특정 패키지를 제외하고 모든 패키지를 다운그레이드하는 명령어도 있어요:
 
-```js
 flutter pub downgrade
-```
 
 <div class="content-ad"></div>
 
@@ -297,9 +287,7 @@ flutter pub downgrade
 
 전역으로 필요한 패키지를 활성화하기 위해 일반적으로 다음과 같이 사용됩니다:
 
-```js
 flutter pub global activate melos
-```
 
 <div class="content-ad"></div>
 
@@ -307,18 +295,14 @@ flutter pub global activate melos
 
 Pub은 의존성을 한 번 내려받으면 로컬로 저장합니다. 패키지 캐시에서 패키지를 수동으로 추가하거나 제거할 수도 있습니다. 이를 위해 `flutter pub cache add` 및 `flutter pub cache clean` 명령을 사용하세요:
 
-```js
 flutter pub cache add stream_chat_flutter
 flutter pub cache clean
-```
 
 가끔은 이러한 로컬 파일들이 어떤 이유로 인해 변경될 수 있습니다. 이런 상황에서는 캐시를 복원하여 문제를 해결할 수 있습니다:
 
 <div class="content-ad"></div>
 
-```js
 flutter pub cache repair
-```
 
 # Pub Token
 
@@ -328,22 +312,16 @@ pub token add를 사용하여 토큰을 추가할 수 있습니다.
 
 <div class="content-ad"></div>
 
-```js
 dart pub token add https://some-package-repo.com/my-org/my-repo
-```
 
-```js
 결과: 비밀 토큰 입력하십시오: <stdin에 토큰 입력>
      "https://some-package-repo.com/my-org/my-repo"로의 요청은 이제
      비밀 토큰을 사용하여 인증됩니다.
-```
 
 이미 추가된 토큰을 확인하고 제거할 수도 있습니다:
 
-```js
 flutter pub token list
 flutter pub token remove -all
-```
 
 <div class="content-ad"></div>
 

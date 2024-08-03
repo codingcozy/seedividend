@@ -71,7 +71,7 @@ export const getAuth = () => getServerSession(authOptions);
 
 # Google 공급자 구성
 
-Google 인증을 통합하려면 authOptions의 providers 배열을 업데이트하세요:```
+Google 인증을 통합하려면 authOptions의 providers 배열을 업데이트하세요:
 
 <div class="content-ad"></div>
 

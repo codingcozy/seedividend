@@ -126,7 +126,7 @@ Velonic — PHP Admin & Dashboard Template by Techzaa
 
 <div class="content-ad"></div>
 
-```
+
 ![Velonic Laravel Admin Dashboard Template](/assets/img/VelonicLaravelAdmin-DashboardTemplateAdminTemplatesWebTemplates_4.png)
 
 Symox - Laravel 9 관리자 및 대시보드 템플릿 by themesdesign
@@ -134,7 +134,7 @@ Symox - Laravel 9 관리자 및 대시보드 템플릿 by themesdesign
 ## Techzaa의 더 많은 정보
 
 더 보기
-```
+
 
 <div class="content-ad"></div>
 

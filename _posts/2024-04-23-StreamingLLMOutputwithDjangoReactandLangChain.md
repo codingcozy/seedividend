@@ -250,7 +250,7 @@ ASGI_APPLICATION = "Django_React_Langchain_Stream.asgi.application";
 
 # views.py 파일을 생성해주세요
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -260,7 +260,7 @@ LangChain 및 관련 패키지를 LLM 통합과 웹소켓 지원을 위해 설�
 
 ```js
 pip install langchain==0.1.11 langchain-community==0.0.26 langchain-openai==0.0.8 channels==4.0.0 daphne==4.1.0 python-dotenv==1.0.1
-````
+```
 
 langchain_stream/views.py 파일에서 다음 코드로 대체해주세요:
 
@@ -316,7 +316,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
 WebSocket 연결을 처리하는 방법을 정의하려면 langchain_stream 앱에서 routing.py와 urls.py를 생성하십시오.
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -331,7 +331,7 @@ from . import views
 websocket_urlpatterns = [
     re_path(r'ws/chat/$', views.ChatConsumer.as_asgi()),
 ]
-````
+```
 
 langchain_stream/urls.py 파일을 만들어서 다음 코드를 추가해주세요.
 

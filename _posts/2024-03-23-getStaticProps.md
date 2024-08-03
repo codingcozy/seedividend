@@ -147,7 +147,7 @@ export async function getStaticProps() {
 또는 데이터를 가져오기 위해 API 라우트를 사용하지 않는 경우, fetch() API를
 getStaticProps에서 직접 사용할 수 있습니다.
 
-Next.js가 클라이언트 측 번들에서 제거하는 항목을 확인하려면 next-code-elimination 도구를 사용할 수 있습니다.```
+Next.js가 클라이언트 측 번들에서 제거하는 항목을 확인하려면 next-code-elimination 도구를 사용할 수 있습니다.
 
 <div class="content-ad"></div>
 

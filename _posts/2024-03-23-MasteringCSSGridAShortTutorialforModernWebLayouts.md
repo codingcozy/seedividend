@@ -38,7 +38,7 @@ CSS Grid를 시작하려면 display: grid; 속성을 사용하여 그리드 컨�
 }
 ```
 
-이 예시에서 생성한 그리드 컨테이너는 두 개의 행과 두 개의 열을 가지고 있습니다. 첫 번째 행은 높이가 100px이고, 두 번째 행은 높이가 200px이며, 각각의 열은 사용 가능한 공간의 1/2와 1/3을 차지합니다.```
+이 예시에서 생성한 그리드 컨테이너는 두 개의 행과 두 개의 열을 가지고 있습니다. 첫 번째 행은 높이가 100px이고, 두 번째 행은 높이가 200px이며, 각각의 열은 사용 가능한 공간의 1/2와 1/3을 차지합니다.
 
 <div class="content-ad"></div>
 
@@ -254,7 +254,7 @@ grid-template-rows: <track-size> | <line-name> <track-size> | repeat(<number>, <
 - min-content: 행을 최소 콘텐츠에 맞게 크기 조정합니다.
 - max-content: 행을 최대 콘텐츠에 맞게 크기 조정합니다.
 - minmax(`min`, `max`): 행의 최소 및 최대 크기를 지정합니다. 사용 가능한 공간에 맞도록 행이 이 값 사이에 맞추어 크기가 조정됩니다.
-- fit-content(`size`): 행을 사용 가능한 콘텐츠에 맞게 크기 조정하지만 지정된 크기를 초과하지는 않습니다.```
+- fit-content(`size`): 행을 사용 가능한 콘텐츠에 맞게 크기 조정하지만 지정된 크기를 초과하지는 않습니다.
 
 <div class="content-ad"></div>
 
@@ -488,7 +488,7 @@ justify-content: start | end | center | stretch | space-around | space-between |
 
 예시:
 
-8. grid-auto-rows / grid-auto-columns: 그리드 항목이 명시적 위치 지정 없이 그리드에 배치되었을 때 암묵적으로 생성되는 행과 열의 크기를 정의합니다.```
+8. grid-auto-rows / grid-auto-columns: 그리드 항목이 명시적 위치 지정 없이 그리드에 배치되었을 때 암묵적으로 생성되는 행과 열의 크기를 정의합니다.
 
 <div class="content-ad"></div>
 
@@ -566,7 +566,7 @@ CSS 그리드 레이아웃 내의 자식 요소 (그리드 항목)에 대해 자
 }
 ```
 
-2. grid-area: 이 속성은 grid 템플릿에 지정된 그리드 영역 이름을 사용하여 그리드 항목의 크기와 위치를 단일 압축형 선언으로 지정할 수 있습니다.```
+2. grid-area: 이 속성은 grid 템플릿에 지정된 그리드 영역 이름을 사용하여 그리드 항목의 크기와 위치를 단일 압축형 선언으로 지정할 수 있습니다.
 
 <div class="content-ad"></div>
 

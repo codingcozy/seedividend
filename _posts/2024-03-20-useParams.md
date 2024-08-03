@@ -57,14 +57,14 @@ useParams 함수는 현재 라우트의 동적 매개변수가 채워진 객체�
 
 예시:
 
-```
+
 | Route                     | URL         | useParams()            |
 |---------------------------|-------------|----------------------- |
 | app/shop/page.js          | /shop       | {}                     |
 | app/shop/[slug]/page.js    | /shop/1     | { slug: '1' }          |
 | app/shop/[tag]/[item]/page.js | /shop/1/2 | { tag: '1', item: '2' } |
 | app/shop/[...slug]/page.js | /shop/1/2   | { slug: ['1', '2'] }    |
-```
+
 
 ## 버전 기록
 

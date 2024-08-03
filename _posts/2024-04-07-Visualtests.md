@@ -27,7 +27,7 @@ Storybook은 Storybook 팀이 만든 클라우드 서비스인 Chromatic을 사�
 
 프로젝트에 시각적 테스트를 추가하려면, Storybook 유지보수자가 제공하는 공식 애드온인 @chromatic-com/storybook을 설치해주세요:
 
-```npm
+```js
 npx storybook@latest add @chromatic-com/storybook
 ```
 

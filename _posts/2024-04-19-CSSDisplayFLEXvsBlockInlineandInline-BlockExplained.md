@@ -66,7 +66,7 @@ link: "https://medium.com/dev-genius/css-display-flex-vs-block-inline-and-inline
 
 ![이미지](/assets/img/CSSDisplayFLEXvsBlockInlineandInline-BlockExplained_2.png)
 
-이것은 많은 사람들이 하는 일반적인 실수야. 작은 너비를 지정하더라도 지정된 (작은) 너비 여부와 관계없이 여전히 블록 수준의 표시 동작을 유지해.```
+이것은 많은 사람들이 하는 일반적인 실수야. 작은 너비를 지정하더라도 지정된 (작은) 너비 여부와 관계없이 여전히 블록 수준의 표시 동작을 유지해.
 
 <div class="content-ad"></div>
 
@@ -164,7 +164,7 @@ flex의 이점은 해당 컨테이너 내의 요소에만 적용될 수 있고, 
 }
 ```
 
-이렇게 하면 이 상자들이 모두 옆으로 자동으로 배치되어 표시되며, 표시 동작을 변경하지 않아도 됩니다:```
+이렇게 하면 이 상자들이 모두 옆으로 자동으로 배치되어 표시되며, 표시 동작을 변경하지 않아도 됩니다:
 
 <div class="content-ad"></div>
 
@@ -193,7 +193,7 @@ display: inline - flex;
 ```
 
 <img src="/assets/img/CSSDisplayFLEXvsBlockInlineandInline-BlockExplained_6.png" />
-```
+
 
 <div class="content-ad"></div>
 

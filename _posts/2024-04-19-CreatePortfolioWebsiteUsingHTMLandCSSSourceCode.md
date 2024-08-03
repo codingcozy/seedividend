@@ -119,7 +119,7 @@ rel="stylesheet">
 그래서 현재 저희 네비게이션 바는 이렇게 생겼어요:
 
 <img src="/assets/img/CreatePortfolioWebsiteUsingHTMLandCSSSourceCode_5.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -211,7 +211,7 @@ header nav .logo {
 
 검은색이 저의 좋아하는 색상입니다! 배경을 어떻게 할지 모를 때 정말 큰 도움이 됩니다. 이제 'hero' 클래스에 대한 CSS를 살펴보세요.
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -252,7 +252,7 @@ color: var(--primary);
 .hero .right p{
 line-height: 1.9;
 margin-bottom: 2rem;
-````
+```
 
 픽셀 값 사용을 최대한 피하는 것을 주목했나요? 픽셀은 절대 단위이기 때문에 값 변경이 px 값을 변경하지 않으며 이경이 상당히 구식으로 만듭니다. 그에 비해 'em'과 'rem'은 부모나 루트 요소를 기준으로 값이 변경되어 반응형으로 만들어 줍니다. 이 둘은 값을 조정하므로 더욱 유연해집니다. 차이에 대해 더 많은 정보를 알아보려면 여기서 더 읽어보세요. 설명이 꽤 좋습니다.
 
@@ -502,7 +502,7 @@ color: var(--white);
 # 포트폴리오 웹사이트 소스 코드:-
 
 <img src="/assets/img/CreatePortfolioWebsiteUsingHTMLandCSSSourceCode_11.png" />
-```
+
 
 <div class="content-ad"></div>
 

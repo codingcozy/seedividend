@@ -387,7 +387,7 @@ input[type=text]:valid:focus {
 
 <img src="https://miro.medium.com/v2/resize:fit:1110/1*dFzjKp1L8rOCitOPSLRB0w.gif" />
 
-가상 요소는 주요 요소의 하위 요소를 스타일링하는 데 도움을 줍니다. 예를 들어 ::placeholder 요소는 텍스트 입력란의 플레이스홀더를 선택합니다:```
+가상 요소는 주요 요소의 하위 요소를 스타일링하는 데 도움을 줍니다. 예를 들어 ::placeholder 요소는 텍스트 입력란의 플레이스홀더를 선택합니다:
 
 <div class="content-ad"></div>
 

@@ -24,15 +24,15 @@ link: "https://medium.com/@bseleng/the-real-dynamic-use-of-gatsbyimage-with-stor
 
 이게 요구하는 내용이에요:
 
-```
+
 <img src="/assets/img/TheRealDynamicUseofGatsbyImagewithStoryblokPt2CaveatsandPitfalls_1.png" />
-```
+
 
 그리고 이게 얻게 되는 결과에요:
 
-```
+
 <img src="/assets/img/TheRealDynamicUseofGatsbyImagewithStoryblokPt2CaveatsandPitfalls_2.png" />
-```
+
 
 <div class="content-ad"></div>
 

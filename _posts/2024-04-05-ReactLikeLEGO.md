@@ -241,7 +241,7 @@ crossGate(gateRequest, {
 
 ![LEGO 블록 이미지](/assets/img/ReactLikeLEGO_3.png)
 
-위 그림에서 보시다시피, 흐름은 아래와 같습니다:```
+위 그림에서 보시다시피, 흐름은 아래와 같습니다:
 
 <div class="content-ad"></div>
 
@@ -317,7 +317,7 @@ export const useAxios = <D, T, E>(gateId: string) => { // ⬅️ 새로운 gateI
 
 <img src="/assets/img/ReactLikeLEGO_4.png" />
 
-이제 onIdle 및 onPending에 관계된 두 개의 전방 포털이 꺼져 있습니다. 왜냐하면 이 시나리오에서 호출자가 그 값을 전달하지 않았기 때문이죠. 그러나 코드에서 볼 수 있듯이 기본 콜백을 나타내는 두 개의 켜진 포털이 뒤에 있습니다.```
+이제 onIdle 및 onPending에 관계된 두 개의 전방 포털이 꺼져 있습니다. 왜냐하면 이 시나리오에서 호출자가 그 값을 전달하지 않았기 때문이죠. 그러나 코드에서 볼 수 있듯이 기본 콜백을 나타내는 두 개의 켜진 포털이 뒤에 있습니다.
 
 <div class="content-ad"></div>
 

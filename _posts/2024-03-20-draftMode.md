@@ -36,10 +36,10 @@ export default function Page() {
 
 아래는 Markdown 형식으로 변경한 표입니다.
 
-```
+
 | Version | Changes            |
 |---------|--------------------|
 | v13.4.0 | `draftMode` introduced. |
-```
+
 
 <div class="content-ad"></div>

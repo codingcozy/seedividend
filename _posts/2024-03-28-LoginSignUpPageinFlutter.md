@@ -16,7 +16,7 @@ link: "https://medium.com/@flutterdynasty/login-signup-page-design-with-code-c59
 
 ![로그인 및 회원가입 페이지](/assets/img/LoginSignUpPageinFlutter_0.png)
 
-```dart
+```js
 import 'package:flutter/material.dart';
 
 void main() {

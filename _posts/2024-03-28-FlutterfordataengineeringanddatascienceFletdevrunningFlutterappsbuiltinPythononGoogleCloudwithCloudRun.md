@@ -108,7 +108,7 @@ ft.app(target=main, port=int(os.environ.get("PORT", 8080)),
 view = ft.AppView.WEB_BROWSER)
 ```
 
-이것이 우리가 Flet에게 우리 애플리케이션의 웹 인터페이스를 준비하도록 지시하는 방법입니다.```
+이것이 우리가 Flet에게 우리 애플리케이션의 웹 인터페이스를 준비하도록 지시하는 방법입니다.
 
 <div class="content-ad"></div>
 

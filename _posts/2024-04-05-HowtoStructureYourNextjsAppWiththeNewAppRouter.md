@@ -181,7 +181,7 @@ link: "https://medium.com/better-programming/how-to-structure-your-next-js-app-w
 
 <div class="content-ad"></div>
 
-```
+
 .
 └── app/
     ├── home
@@ -189,7 +189,7 @@ link: "https://medium.com/better-programming/how-to-structure-your-next-js-app-w
     └── (root)/
         ├── page.tsx
         └── useAuth.ts
-```
+
 
 루트 폴더에서만 사용되는 파일을 저장해야 할 경우, 해당 파일들을 루트 폴더 안에 그룹화할 수 있습니다. 이 경우에는 괄호 안에 폴더 이름을 감싸서 라우트 그룹을 만들고 있습니다. 이는 URL 경로에 영향을 주지 않도록하는 것입니다.
 
@@ -254,7 +254,7 @@ link: "https://medium.com/better-programming/how-to-structure-your-next-js-app-w
 - 사용자 모델(User).
 - useAuth 훅입니다.
 
-# 모두를 모아보기```
+# 모두를 모아보기
 
 <div class="content-ad"></div>
 

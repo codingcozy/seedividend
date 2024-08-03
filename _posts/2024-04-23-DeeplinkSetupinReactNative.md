@@ -108,7 +108,7 @@ npx uri-scheme open "demoapp://domain/sub_domain" --ios
 npx uri-scheme open "demoapp://domain/sub_domain" --android
 ```
 
-아래는 앱의 닫힘 및 열린 상태에 대한 딥 링크 처리 최종 코드이며 결과는 다음과 같습니다.```
+아래는 앱의 닫힘 및 열린 상태에 대한 딥 링크 처리 최종 코드이며 결과는 다음과 같습니다.
 
 <div class="content-ad"></div>
 

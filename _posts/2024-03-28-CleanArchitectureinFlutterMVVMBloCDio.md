@@ -63,7 +63,7 @@ class User {
 
 Flutter에서 뷰는 위젯으로 나타낼 수 있습니다. 위젯은 UI 요소를 렌더링하고 사용자 상호작용을 캡처하는 데 책임이 있습니다. UI 구성 요소에서 로직을 최소화하여 위젯을 가능한 "덤" 으로 유지하십시오.
 
-```dart
+```js
 class UserView extends StatelessWidget {
   final User user;
 
@@ -89,7 +89,7 @@ class UserView extends StatelessWidget {
 
 예시
 
-```dart
+```js
 import 'dart:async';
 
 class UserViewModel {
@@ -381,7 +381,7 @@ article_model.dart
 
 <div class="content-ad"></div>
 
-```dart
+```js
 part 'media_meta_data_model.g.dart';
 
 @JsonSerializable(fieldRename: FieldRename.snake)
@@ -408,7 +408,7 @@ class MediaMetaDataModel {
 
 articles_params.dart
 
-```dart
+```js
 class ArticlesParams {
   ArticlesParams({
     required this.period,
@@ -444,7 +444,7 @@ class ArticlesParams {
 
 absract_article_api.dart
 
-```dart
+```js
 import 'package:articles_app/articles/data/models/article_model.dart';
 
 abstract class AbstractArticleApi {
@@ -459,7 +459,7 @@ abstract class AbstractArticleApi {
 
 article_impl_api.dart
 
-```dart
+```js
 class ArticlesImplApi extends AbstractArticleApi {
   final Dio dio;
 
@@ -556,7 +556,7 @@ class ArticlesRepositoryImpl extends AbstractArticlesRepository {
 
 도메인/usecases 폴더에 articles_usecase.dart라는 Dart 파일을 만듭니다:
 
-```dart
+```js
 class ArticlesUseCase extends UseCase<List<ArticleModel>, ArticlesParams> {
   final AbstractArticlesRepository repository;
 

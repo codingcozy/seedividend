@@ -62,7 +62,7 @@ CustomPainter 및 Canvas API를 탐험하여 화면에 자유롭게 그림을 �
 
 <div class="content-ad"></div>
 
-```dart
+```js
 @override
 Widget build(BuildContext context) {
   return CustomPaint(
@@ -77,7 +77,7 @@ class SquareCustomPainter extends CustomPainter {
 
 `CustomPainter` 구현체는 두 가지 메소드를 오버라이드합니다. `paint` 메소드는 Canvas를 사용하여 그림을 그리는 곳이며, `shouldRepaint` 메소드는 Canvas를 업데이트해야 할 때를 지정합니다. 우리는 일단 false를 반환할 수 있습니다.
 
-```dart
+```js
 class SquareCustomPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
@@ -123,7 +123,7 @@ void paint(Canvas canvas, Size size) {
 }
 ```
 
-그런 다음 Paint 객체를 추가할 수 있습니다. 이 Paint 객체를 통해 다음과 같은 속성을 지정할 수 있습니다:```
+그런 다음 Paint 객체를 추가할 수 있습니다. 이 Paint 객체를 통해 다음과 같은 속성을 지정할 수 있습니다:
 
 <div class="content-ad"></div>
 
@@ -383,7 +383,7 @@ void drawNestedSquares(
 
 ## Widgetbook 및 입력 매개변수 실험하기
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -412,13 +412,13 @@ WidgetbookUseCase(
       );
   },
 )
-````
+```
 
 다음은 이것이 어떻게 보일지에 대한 미리보기입니다:
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*n-2NX35Byy3zbV1OD_lxYA.gif" />
 
-좋아요, 흑백은 조금 지루하죠. 조금 색상을 넣어 봅시다!```
+좋아요, 흑백은 조금 지루하죠. 조금 색상을 넣어 봅시다!
 
 <div class="content-ad"></div>
 
@@ -531,7 +531,7 @@ canvas.drawPoints(
 
 # 반복 — 창조적인 예술 도구 #5
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -563,7 +563,7 @@ for (int i = 0; i < repetition; i++) {
     paint,
   );
 }
-````
+```
 
 위젯북을 사용하여 랜덤한 다각형의 외형을 확인할 때 minRepetition 값이 어떤 영향을 미치는지 살펴볼 수 있습니다.
 
@@ -716,7 +716,7 @@ for (int i = 0; i < polygons.length; i++) {
 
 이렇게 하면 다음 결과가 생성됩니다:
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -748,7 +748,7 @@ class PolygonsCustomPainter extends CustomPainter {
   late final List<Polygon> polygons;
   /* ... */
 }
-````
+```
 
 <div class="content-ad"></div>
 

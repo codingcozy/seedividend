@@ -336,7 +336,7 @@ export class UserProfileComponent {
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*bdcgo1ESr9ZLPjlfoOynrQ.gif" />
 
-페이지의 프로젝트 섹션으로 스크롤할 때 뷰에 로딩 메시지가 표시되므로 확인이 쉽습니다. 멋져요 😎.```
+페이지의 프로젝트 섹션으로 스크롤할 때 뷰에 로딩 메시지가 표시되므로 확인이 쉽습니다. 멋져요 😎.
 
 <div class="content-ad"></div>
 
@@ -454,7 +454,7 @@ export class UserProfileComponent {}
 
 하지만 이미 알아차린 작은 디테일이 있습니다: Project 컴포넌트가 템플릿에 이미 존재하기 때문에, 템플릿 종속성이 감지되고 접근 가능하도록 컴포넌트 메타데이터의 imports 배열에 import해야 합니다. 그러나 컴파일러는 이에 대해 알고 있기 때문에 모든 것이 원활하게 작동합니다.
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -474,7 +474,7 @@ export class UserProfileComponent {}
   `
 })
 export class UserProfileComponent {}
-````
+```
 
 @loading 블록에 제공된 매개변수는 뷰에 렌더링되는 시기와 기간을 제어합니다. 우리의 경우, 매개변수는 로딩 프로세스가 시작된 후 1초 후에 @loading 블록을 표시하고 적어도 3초 동안 보이도록 지정합니다:
 

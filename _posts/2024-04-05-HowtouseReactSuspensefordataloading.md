@@ -96,7 +96,7 @@ export function ProductListWithEffect({ products }: { products?: Product[] }) {
 }
 ```
 
-페이지 라우터 코드와 데이터 로딩을 구현한 부분은 다음과 같습니다:```
+페이지 라우터 코드와 데이터 로딩을 구현한 부분은 다음과 같습니다:
 
 <div class="content-ad"></div>
 
@@ -127,7 +127,7 @@ export async function getServerSideProps() {
 
 초안에서는 Suspense와 Next.js의 서버 컴포넌트를 사용하여 코드를 훨씬 간단한 방식으로 작성할 수 있습니다. 상태와 useEffect를 없애고 코드를 간소화할 수 있습니다.
 
-앱 폴더에서는 페이지 로직을 간단히 작성할 수 있습니다:```
+앱 폴더에서는 페이지 로직을 간단히 작성할 수 있습니다:
 
 <div class="content-ad"></div>
 
@@ -146,7 +146,7 @@ export default async function Page() {
 
 이를 해결하기 위해 Suspense를 추가하거나 페이지를 위한 로딩 상태를 정의할 수 있습니다. 페이지의 로딩 상태를 작성하고 싶지 않아 컴포넌트가 로딩 중에 모양과 느낌을 제어하도록하려면 Suspense를 시도해 보겠습니다.
 
-데이터를 로드하고 ProductList 컴포넌트와 함께 렌더링하는 새로운 컴포넌트 ProductListWithSuspense를 추가할 수 있습니다:```
+데이터를 로드하고 ProductList 컴포넌트와 함께 렌더링하는 새로운 컴포넌트 ProductListWithSuspense를 추가할 수 있습니다:
 
 <div class="content-ad"></div>
 

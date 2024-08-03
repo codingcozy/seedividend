@@ -38,10 +38,10 @@ const Component = () => {
 
 nextjs에서 svg를 사용하기 위해서는 `@svgr/webpack` 모듈을 설치해주어야합니다.
 
-```
+
 npm i -D @svgr/webpack
 yarn add -D @svgr/webpack
-```
+
 
 설치를 마쳤다면 next.config.js 파일을 수정해주어야합니다.
 

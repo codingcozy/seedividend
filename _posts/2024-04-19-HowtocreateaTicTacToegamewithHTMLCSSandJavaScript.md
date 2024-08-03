@@ -247,7 +247,7 @@ function restartButton() {
 }
 ```
 
-게임에서 생성된 기능을 확인하기 위해 for 루프에서 사용했습니다. 이 루프에서 각 프레임을 클릭할 때, 특정 조건이 충족되는 경우 endMessage 변수를 사용하여 게임 상태가 화면에 출력됩니다. 저는 addEventListener 메서드를 사용하여 이 작업을 수행했습니다.```
+게임에서 생성된 기능을 확인하기 위해 for 루프에서 사용했습니다. 이 루프에서 각 프레임을 클릭할 때, 특정 조건이 충족되는 경우 endMessage 변수를 사용하여 게임 상태가 화면에 출력됩니다. 저는 addEventListener 메서드를 사용하여 이 작업을 수행했습니다.
 
 <div class="content-ad"></div>
 
@@ -355,7 +355,7 @@ function restartButton() {
 }
 ```
 
-여기는 소스 코드에 액세스할 수 있는 GitHub 링크입니다.```
+여기는 소스 코드에 액세스할 수 있는 GitHub 링크입니다.
 
 <div class="content-ad"></div>
 

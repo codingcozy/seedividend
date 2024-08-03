@@ -12,7 +12,7 @@ link: "https://medium.com/@eisenbergeffect/using-global-styles-in-shadow-dom-5b8
 
 
 
-```
+
 ![/assets/img/UsingGlobalStylesinShadowDOM_0.png](/assets/img/UsingGlobalStylesinShadowDOM_0.png)
 
 Web Components에 대한 가장 일반적인 오해 중 하나는 전역 CSS를 활용할 수 없다는 것입니다. 이는 사실이 아닙니다. 몇 줄의 JavaScript 만으로 전역 CSS에 반응할 수 있는 Web Component를 활성화할 수 있습니다. 이 기사에서는 이를 자체 컴포넌트에 빌드하는 방법과 기존의 FAST 및 Lit 컴포넌트를 수정하여 전역 스타일에 반응하게 하는 방법을 보여 드리겠습니다. 또한 이를 Declarative Shadow DOM (DSD)로 수행하는 방법도 살펴보겠습니다.
@@ -20,7 +20,7 @@ Web Components에 대한 가장 일반적인 오해 중 하나는 전역 CSS를 
 디자인 상 Shadow DOM은 스타일의 캡슐화를 제공합니다. 이는 셰도우 루트에 명시적으로 추가하는 스타일만이 그 표현에 영향을 미친다는 것을 의미합니다. 마찬가지로 명시적으로 노출시킨 스타일만이 외부 DOM에 영향을 줍니다. 몇 가지 표준 HTML 기능을 활용하여 글로벌 스타일을 셰도우 루트에 가져올 수 있습니다. 이 작동 방식을 알아보겠습니다...
 
 # VanillaJS 웹 컴포넌트에서 전역 스타일 사용하기
-```
+
 
 <div class="content-ad"></div>
 
@@ -105,7 +105,7 @@ export class UsingGlobalStyles extends HTMLElement {
 customElements.define("using-global-styles", UsingGlobalStyles);
 ```
 
-이 모든 마법은 내가 작성한 단일 도우미 함수에 있습니다: addGlobalStylesToShadowRoot. 셰도우 돔에서 전역 CSS를 상속하려면 그 함수를 가져와서 셰도우 루트와 함께 호출하면 됩니다. 다음은 그 함수의 구현 방법입니다:```
+이 모든 마법은 내가 작성한 단일 도우미 함수에 있습니다: addGlobalStylesToShadowRoot. 셰도우 돔에서 전역 CSS를 상속하려면 그 함수를 가져와서 셰도우 루트와 함께 호출하면 됩니다. 다음은 그 함수의 구현 방법입니다:
 
 <div class="content-ad"></div>
 
@@ -232,7 +232,7 @@ ExistingLitElement.styles = [
 customElements.define("existing-lit-element", ExistingLitElement);
 ```
 
-이것은 약간 더 복잡해 보입니다. 주로 3rd-party element의 기존 스타일을 처리하기 위해 더 많은 작업을 해야 하기 때문입니다. undefined, 단일 및 배열 가능성을 확인하는 조건부 논리만 필요합니다. 그러나 개념은 FAST와 동일합니다. 전역 스타일을 가져와 기존 스타일과 병합한 다음 이를 다시 styles static 필드에 할당합니다. 완료했습니다.```
+이것은 약간 더 복잡해 보입니다. 주로 3rd-party element의 기존 스타일을 처리하기 위해 더 많은 작업을 해야 하기 때문입니다. undefined, 단일 및 배열 가능성을 확인하는 조건부 논리만 필요합니다. 그러나 개념은 FAST와 동일합니다. 전역 스타일을 가져와 기존 스타일과 병합한 다음 이를 다시 styles static 필드에 할당합니다. 완료했습니다.
 
 <div class="content-ad"></div>
 

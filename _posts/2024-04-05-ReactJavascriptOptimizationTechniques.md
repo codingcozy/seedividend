@@ -390,7 +390,7 @@ export const MyComponent = (props) => {
 };
 ```
 
-useCallback의 사용에 대해 더 알고 싶다면 추가 사용 사례가 설명된 공식 문서를 계속 읽어보세요.```
+useCallback의 사용에 대해 더 알고 싶다면 추가 사용 사례가 설명된 공식 문서를 계속 읽어보세요.
 
 <div class="content-ad"></div>
 

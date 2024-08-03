@@ -286,7 +286,7 @@ export default function ClientSideRoot(): any {
 
 # 세션 토큰 콘텐츠 사용자 정의
 
-기본적으로 세션 토큰에는 기본적인 이름과 이메일이 포함됩니다. 그러나 우리의 경우엔 세션에 지속되어야 하는 다른 데이터(역할 및 외부 API 토큰 같은)가 있습니다. Next Auth는 커스터마이즈 가능하며 세션 콘텐츠를 수정하기 위한 콜백을 제공합니다. /app/api/auth/[...nextauth]/route.ts의 Next Auth 구성을 편집할 수 있습니다.```
+기본적으로 세션 토큰에는 기본적인 이름과 이메일이 포함됩니다. 그러나 우리의 경우엔 세션에 지속되어야 하는 다른 데이터(역할 및 외부 API 토큰 같은)가 있습니다. Next Auth는 커스터마이즈 가능하며 세션 콘텐츠를 수정하기 위한 콜백을 제공합니다. /app/api/auth/[...nextauth]/route.ts의 Next Auth 구성을 편집할 수 있습니다.
 
 <div class="content-ad"></div>
 

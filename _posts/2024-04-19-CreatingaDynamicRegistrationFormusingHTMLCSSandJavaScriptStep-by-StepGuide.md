@@ -573,7 +573,7 @@ window.onload = function () {
 };
 ```
 
-마지막으로 이러한 함수들을 main.html 파일의 해당 입력 요소 태그와 링크해야 합니다.```
+마지막으로 이러한 함수들을 main.html 파일의 해당 입력 요소 태그와 링크해야 합니다.
 
 <div class="content-ad"></div>
 
@@ -694,4 +694,4 @@ window.onload = function () {
 
 이제 HTML, CSS 및 JavaScript로 등록 양식을 성공적으로 만들었습니다.
 
-감사합니다.```
+감사합니다.

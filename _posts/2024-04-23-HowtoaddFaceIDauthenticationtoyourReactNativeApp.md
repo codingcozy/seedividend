@@ -56,7 +56,7 @@ npm install react-native-biometrics --save
 npx pod-install
 ```
 
-React Native 0.60 이상에서는 CLI 자동 링크 기능이 앱을 빌드하는 동안 모듈을 자동으로 링크합니다.```
+React Native 0.60 이상에서는 CLI 자동 링크 기능이 앱을 빌드하는 동안 모듈을 자동으로 링크합니다.
 
 <div class="content-ad"></div>
 

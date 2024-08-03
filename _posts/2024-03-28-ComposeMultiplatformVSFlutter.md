@@ -441,7 +441,7 @@ iOS:
 
 또한, Flutter는 네이티브 iOS 및 Android 뷰를 포함할 수 있는 기능을 제공합니다. 그리고 그 반대도 가능하며, 기존의 네이티브 iOS 및 Android 프로젝트에 Flutter를 포함시킬 수 있습니다.
 
-네이티브 코드나 네이티브 위젯을 다루어야 하는 경우, 이미 공식 또는 비공식 라이브러리가 생성되어 있는 경우가 많으므로 주목할 가치가 있습니다.```
+네이티브 코드나 네이티브 위젯을 다루어야 하는 경우, 이미 공식 또는 비공식 라이브러리가 생성되어 있는 경우가 많으므로 주목할 가치가 있습니다.
 
 <div class="content-ad"></div>
 
@@ -472,7 +472,7 @@ actual class Platform actual constructor() {
 }
 ```
 
-Android 모듈에서 사용하는 실제 클래스:```
+Android 모듈에서 사용하는 실제 클래스:
 
 <div class="content-ad"></div>
 
@@ -487,7 +487,7 @@ Android 모듈에서 사용하는 실제 클래스:```
 
 objective-C와의 상호 운용도 있습니다.
 
-네이티브 위젯과 함께 Compose 위젯을 사용하는 것에 대해선 다음과 같습니다.```
+네이티브 위젯과 함께 Compose 위젯을 사용하는 것에 대해선 다음과 같습니다.
 
 <div class="content-ad"></div>
 

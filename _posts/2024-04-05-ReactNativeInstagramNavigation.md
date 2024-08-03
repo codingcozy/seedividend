@@ -734,7 +734,7 @@ function App(): React.JSX.Element {
 export default App;
 ```
 
-다음으로, Post 구성 요소에 일부 속성을 추가해야하며, 목록에서 고유한 키를 가져야 합니다. 여기서 중요한 속성은 sharedTransitionTag이며, 다음 네비게이션을 식별하는 데 사용됩니다. Reanimated가 sharedTransitionTag가있는 구성 요소가 마운트되거나 언마운트되고 있는 것을 감지하면, 동일한 sharedTransitionTag를 가진 마지막 등록된 뷰를 찾으려고 합니다.```
+다음으로, Post 구성 요소에 일부 속성을 추가해야하며, 목록에서 고유한 키를 가져야 합니다. 여기서 중요한 속성은 sharedTransitionTag이며, 다음 네비게이션을 식별하는 데 사용됩니다. Reanimated가 sharedTransitionTag가있는 구성 요소가 마운트되거나 언마운트되고 있는 것을 감지하면, 동일한 sharedTransitionTag를 가진 마지막 등록된 뷰를 찾으려고 합니다.
 
 <div class="content-ad"></div>
 
@@ -926,7 +926,7 @@ const DetailScreen: React.FC<IProps> = () => {
 };
 ```
 
-<img src="https://miro.medium.com/v2/resize:fit:1200/1*zdwPocG-Nij61NtxOW_e9w.gif" /> ```
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*zdwPocG-Nij61NtxOW_e9w.gif" /> 
 
 <div class="content-ad"></div>
 
@@ -1011,7 +1011,7 @@ function PostScreen() {
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*8jp748Kppa12IE88cNr04A.gif" />
 
-이 글은 Instagram과 유사한 React Native 앱에서 아름다운 내비게이션을 만드는 방법에 대해 설명합니다. 탭 내비게이션, 모달 화면, 스와이프 제스처의 중요성을 이야기하며 사용자 친화적인 경험을 제공합니다. react-navigation 설정, 서로 다른 화면을 위한 UI 구성 요소 작성, 애니메이션을 위해 react-native-reanimated 사용하는 과정을 다룹니다. Instagram의 부드러운 내비게이션을 복제하고 사용자를 효과적으로 동원하는 것이 목표입니다.```
+이 글은 Instagram과 유사한 React Native 앱에서 아름다운 내비게이션을 만드는 방법에 대해 설명합니다. 탭 내비게이션, 모달 화면, 스와이프 제스처의 중요성을 이야기하며 사용자 친화적인 경험을 제공합니다. react-navigation 설정, 서로 다른 화면을 위한 UI 구성 요소 작성, 애니메이션을 위해 react-native-reanimated 사용하는 과정을 다룹니다. Instagram의 부드러운 내비게이션을 복제하고 사용자를 효과적으로 동원하는 것이 목표입니다.
 
 <div class="content-ad"></div>
 

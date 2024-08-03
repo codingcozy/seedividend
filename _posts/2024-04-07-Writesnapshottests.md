@@ -52,7 +52,7 @@ export default config;
 
 ### 구성
 
-기본 설정으로, 테스트 러너는 대부분의 사용 사례를 다루는 내장된 스냅샷 테스트 구성을 제공합니다. test-storybook --eject를 통해 구성을 세밀하게 조정하거나 프로젝트 루트에 test-runner-jest.config.js 파일을 만들어 필요에 맞게 구성할 수 있습니다.```
+기본 설정으로, 테스트 러너는 대부분의 사용 사례를 다루는 내장된 스냅샷 테스트 구성을 제공합니다. test-storybook --eject를 통해 구성을 세밀하게 조정하거나 프로젝트 루트에 test-runner-jest.config.js 파일을 만들어 필요에 맞게 구성할 수 있습니다.
 
 
 

@@ -72,7 +72,7 @@ export const dynamic = "auto";
 - `force-static`: 정적 렌더링을 강제하고 레이아웃이나 페이지의 데이터를 캐시하는 옵션으로 cookies(), headers() 및 useSearchParams()가 빈 값을 반환하도록 합니다.
 
 > 좋아요:
-> getServerSideProps 및 getStaticProps에서 동적으로 마이그레이션하는 방법에 대한 지침은 업그레이드 가이드에서 찾을 수 있습니다.```
+> getServerSideProps 및 getStaticProps에서 동적으로 마이그레이션하는 방법에 대한 지침은 업그레이드 가이드에서 찾을 수 있습니다.
 
 <div class="content-ad"></div>
 

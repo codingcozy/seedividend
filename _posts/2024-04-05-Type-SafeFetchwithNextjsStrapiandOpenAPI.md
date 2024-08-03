@@ -326,7 +326,7 @@ const pages = await client.GET("/pages", {
 });
 ```
 
-기본적으로 Strapi 예제에서 qs를 사용하여 개체를 추가할 수 없습니다. 예를 들어, 경로 /에 대해 qs 스타일 쿼리를 추가하고 동적 존 필드 블록에서 사용되는 모든 구성 요소를 채우려면 다음 쿼리를 수행할 수 있습니다:```
+기본적으로 Strapi 예제에서 qs를 사용하여 개체를 추가할 수 없습니다. 예를 들어, 경로 /에 대해 qs 스타일 쿼리를 추가하고 동적 존 필드 블록에서 사용되는 모든 구성 요소를 채우려면 다음 쿼리를 수행할 수 있습니다:
 
 <div class="content-ad"></div>
 
@@ -354,7 +354,7 @@ const pages = await client.GET("/pages", {
 
 <img src="/assets/img/Type-SafeFetchwithNextjsStrapiandOpenAPI_14.png" />
 
-기본적으로 openapi-fetch에 복잡한 객체를 쿼리로 전달할 수 없기 때문에 이런 오류가 발생합니다. 그래서 클라이언트에 전달되는 쿼리 객체를 변환하는 역할을 오버라이딩할 수 있습니다. 그래서 openapi-fetch의 querySerializer가 qs를 사용하도록 하는 것이 필요하며, 클라이언트가 생성될 때 이것을 수행할 수 있습니다:```
+기본적으로 openapi-fetch에 복잡한 객체를 쿼리로 전달할 수 없기 때문에 이런 오류가 발생합니다. 그래서 클라이언트에 전달되는 쿼리 객체를 변환하는 역할을 오버라이딩할 수 있습니다. 그래서 openapi-fetch의 querySerializer가 qs를 사용하도록 하는 것이 필요하며, 클라이언트가 생성될 때 이것을 수행할 수 있습니다:
 
 <div class="content-ad"></div>
 
@@ -384,7 +384,7 @@ export { client };
 
 # 클라이언트 측 데이터 가져오기
 
-지금까지 본 내용은 React Server Components와 함께 Next.js를 사용하는 서버에서 데이터를 가져올 때 특히 잘 작동합니다. 그러나 클라이언트 측에서 데이터를 가져오는 것은 종종 조금 더 복잡합니다. 최소한 원하는 것은 데이터 로딩 표시와 실제로 클라이언트에서 데이터를 사용할 수 있는 시기를 알기를 원할 것입니다.```
+지금까지 본 내용은 React Server Components와 함께 Next.js를 사용하는 서버에서 데이터를 가져올 때 특히 잘 작동합니다. 그러나 클라이언트 측에서 데이터를 가져오는 것은 종종 조금 더 복잡합니다. 최소한 원하는 것은 데이터 로딩 표시와 실제로 클라이언트에서 데이터를 사용할 수 있는 시기를 알기를 원할 것입니다.
 
 <div class="content-ad"></div>
 

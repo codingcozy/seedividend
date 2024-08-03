@@ -175,7 +175,7 @@ class StreamLocationService {
 
 <div class="content-ad"></div>
 
-```dart
+```js
 late StreamSubscription<Position>? locationStreamSubscription;
 
 @override
@@ -195,7 +195,7 @@ void initState() {
 
 - 구글맵 위젯을 StreamBuilder로 감싸고 스트림 데이터로 마커를 업데이트하십시오:
 
-```dart
+```js
 StreamBuilder<List<User>>(
     stream: FirestoreService.userCollectionStream(),
     builder: (context, snapshot) {
@@ -233,7 +233,7 @@ StreamBuilder<List<User>>(
   )
 ```
 
-스트림을 dispose하는 것을 잊지 마세요.```
+스트림을 dispose하는 것을 잊지 마세요.
 
 <div class="content-ad"></div>
 

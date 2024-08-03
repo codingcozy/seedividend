@@ -255,7 +255,7 @@ export type GET_USER_BY_ID = typeof GET_USER_BY_ID; // TypeScript 라인
 
 이 기법을 사용하면 프로젝트가 커지면 코딩이 더 안전해질 것이며 "usres"와 같이 "users"를 잘못 입력할 수도 있습니다. 그래서 TypeScript가 경고를 표시해줄 것입니다.
 
-(2)도 마찬가지입니다 — GET_USER_BY_ID```
+(2)도 마찬가지입니다 — GET_USER_BY_ID
 
 <div class="content-ad"></div>
 

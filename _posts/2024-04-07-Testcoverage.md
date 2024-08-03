@@ -35,7 +35,7 @@ Storybook은 공식 테스트 커버리지 애드온을 제공합니다. Istanbu
 
 
 
-```npm
+```js
 npm install @storybook/addon-coverage --save-dev
 ```
 
@@ -56,17 +56,17 @@ const config: StorybookConfig = {
 export default config;
 ```
 
-Storybook을 시작하세요:```
+Storybook을 시작하세요:
 
 
 
-```npm
+```js
 npm run storybook
 ```
 
 마지막으로 새 터미널 창을 열고 다음 명령을 실행하여 테스트 러너를 실행합니다:
 
-```npm
+```js
 npm run test-storybook -- --coverage
 ```
 

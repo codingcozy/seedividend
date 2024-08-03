@@ -72,7 +72,7 @@ df = df.with_columns(pl.col("price").log10().suffix("_log10"))
 
 <img src="/assets/img/FeatureEngineeringWithLatitudeandLongitude_0.png" />
 
-이제 column을 추가해서 train과 test 데이터를 구분할 수 있으면 이 모든 것이 잘 될 것 같습니다.```
+이제 column을 추가해서 train과 test 데이터를 구분할 수 있으면 이 모든 것이 잘 될 것 같습니다.
 
 <div class="content-ad"></div>
 

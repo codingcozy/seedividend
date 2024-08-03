@@ -36,7 +36,7 @@ $myWidth: 680px;
 
 # SCSS 중첩:
 
-Sass는 SCSS에서 중첩을 소개하여 스타일을 보다 구조화되고 가독성있게 구성할 수 있습니다. 다음의 SCSS 코드:```
+Sass는 SCSS에서 중첩을 소개하여 스타일을 보다 구조화되고 가독성있게 구성할 수 있습니다. 다음의 SCSS 코드:
 
 <div class="content-ad"></div>
 

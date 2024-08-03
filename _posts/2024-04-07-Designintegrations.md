@@ -80,7 +80,7 @@ Designs 추가 기능을 사용하면 Figma 파일 및 프로토타입을 Storyb
 
 다음 명령어를 실행하여 애드온을 설치해보세요.
 
-```npm
+```js
 npm install --save-dev @storybook/addon-designs
 ```
 

@@ -240,7 +240,7 @@ Controller 컴포넌트는 제어 입력을 React Hook Form에 추가하는 기�
 
 <div class="content-ad"></div>
 
-```
+
 양식을 제출하려면 onPress props이 양식을 제출하도록 유도하며 React Hook Form에서 handleSubmit 함수를 호출하여 onSubmit 함수를 콜백 함수로 전달합니다. 이 함수는 양식 유효성 검사가 성공한 경우 호출됩니다.
 
 위 코드를 사용하면 값을 입력하고 제출할 때 양식 세부 정보가 포함된 알림이 표시됩니다.
@@ -248,7 +248,7 @@ Controller 컴포넌트는 제어 입력을 React Hook Form에 추가하는 기�
 ![이미지](/assets/img/HowtobuildReactNativeformswithReactHookFormandZod_2.png)
 
 양식의 유효성을 검사해보겠습니다.
-```
+
 
 <div class="content-ad"></div>
 
@@ -278,7 +278,7 @@ useForm 훅에 defaultValue로 전달된 객체와 각 controller에 대한 name
 
 폼 내 값들을 추적하기 위해서 React Hook Form이 값을 추적하는 방식인 각 값에 할당된 이름을 사용해야 합니다.
 
-formSchema 내에서 세 가지 항목을 정의했습니다.```
+formSchema 내에서 세 가지 항목을 정의했습니다.
 
 <div class="content-ad"></div>
 

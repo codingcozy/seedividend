@@ -107,7 +107,7 @@ docker push <ACR-registry-name>.azurecr.io/<image-name>:<image-tag>
 
 ## 단계 7: Azure App Service에 애플리케이션 배포
 
-배포를 완료하기 위해, Azure App Service에 애플리케이션을 설정하는 방법은 다음 단계를 따르세요.```
+배포를 완료하기 위해, Azure App Service에 애플리케이션을 설정하는 방법은 다음 단계를 따르세요.
 
 <div class="content-ad"></div>
 

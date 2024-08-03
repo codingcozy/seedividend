@@ -80,7 +80,7 @@ String(0.0000005); // => '5e-7' 여기에 주의하세요
 
 사용자 SeyyedKhandon이 스택 오버플로우 응답에서 설명한 대로:
 
-“parseInt(0.0000005)를 사용하면 parseInt(`5e-7`)와 같고 정의에 따라:```
+“parseInt(0.0000005)를 사용하면 parseInt(`5e-7`)와 같고 정의에 따라:
 
 <div class="content-ad"></div>
 

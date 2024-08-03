@@ -113,7 +113,7 @@ CORS_OPTIONS = {
 
 - Superset 사용자
 - Superset 대시보드
-- 대시보드 내에서 Superset 차트```
+- 대시보드 내에서 Superset 차트
 
 <div class="content-ad"></div>
 

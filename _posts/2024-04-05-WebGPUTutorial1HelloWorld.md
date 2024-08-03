@@ -148,7 +148,7 @@ context.configure({
 
 <div class="content-ad"></div>
 
-```JavaScript
+```js
 export default /* wgsl */ `
 
 @vertex fn vs (@builtin(vertex_index) i : u32) -> @builtin(position) vec4f {
@@ -232,7 +232,7 @@ const renderPassDesc = {
 
 `context.getCurrentTexture().createView()`는 캔버스를 위한 GPU 뷰를 만들어 충돌 없이 접근할 수 있게 합니다.
 
-커맨드 인코더는 CPU가 GPU를 위한 명령을 기록할 수 있도록 해줍니다. 렌더패스는 렌더패스 디스크립터로부터의 지침을 가지고 만들어져요.```
+커맨드 인코더는 CPU가 GPU를 위한 명령을 기록할 수 있도록 해줍니다. 렌더패스는 렌더패스 디스크립터로부터의 지침을 가지고 만들어져요.
 
 <div class="content-ad"></div>
 

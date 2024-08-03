@@ -36,12 +36,12 @@ permanentRedirect(path, type);
 
 표를 Markdown 형식으로 변경하겠습니다.
 
-```
+
 | Parameter | Type              | Description                                       |
 | --------- | ----------------- | ------------------------------------------------- |
 | path      | `string`          | 리디렉트할 URL입니다. 상대 또는 절대 경로일 수 있습니다. |
 | type      | `'replace'` (기본값) 또는 `'push'`(Server Actions의 기본값) | 수행할 리디렉트 유형입니다.                 |
-```
+
 
 기본적으로 permanentRedirect는 Server Actions에서 push(브라우저 히스토리 스택에 새 항목 추가)를 사용하고, 다른 곳에서는 replace(브라우저 히스토리 스택에 현재 URL을 대체)를 사용합니다. 이 동작은 type 매개변수를 지정하여 재정의할 수 있습니다.
 

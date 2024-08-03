@@ -98,7 +98,7 @@ import { AwesomeComponent } from "@/features/awesome-feature";
 
 <div class="content-ad"></div>
 
-```diff
+```js
 - 그리고 아닙니다.
 
 import { AwesomeComponent } from "@/features/awesome-feature/components/AwesomeComponent"

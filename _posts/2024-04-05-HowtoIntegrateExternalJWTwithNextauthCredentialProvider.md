@@ -114,7 +114,7 @@ export default function App({
 
 pages/api/auth 디렉토리에 […nextauth].js라는 파일을 생성하세요. 이 파일은 Next Auth의 동적 라우트 핸들러를 포함하며 전역 NextAuth.js 구성을 모두 포함할 것입니다.
 
-이 예제에서는 백엔드가 인증에 이메일과 비밀번호를 요구하기 때문에 자격 증명 제공자(Credentials provider)를 사용할 것입니다.```
+이 예제에서는 백엔드가 인증에 이메일과 비밀번호를 요구하기 때문에 자격 증명 제공자(Credentials provider)를 사용할 것입니다.
 
 <div class="content-ad"></div>
 

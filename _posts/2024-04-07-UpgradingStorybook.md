@@ -23,7 +23,7 @@ link: "https://storybook.js.org/docs/configure/upgrading"
 
 
 
-```npm
+```js
 npx storybook@latest upgrade
 ```
 
@@ -33,7 +33,7 @@ npx storybook@latest upgrade
 - storybook@7.6.10 upgrade를 사용하면 7.6.10으로 업그레이드됩니다.
 - storybook@latest upgrade를 사용하면 최신 7.x.x 버전으로 업그레이드됩니다.
 
-명령을 실행한 후에는 스크립트가 다음을 수행합니다:```
+명령을 실행한 후에는 스크립트가 다음을 수행합니다:
 
 
 
@@ -44,7 +44,7 @@ npx storybook@latest upgrade
 
 업그레이드가 완료되었고 프로젝트가 여전히 예상대로 작동하는지 확인하기 위해 Storybook CLI는 doctor 명령을 제공합니다. 이 명령을 사용하여 업그레이드 후에 발생할 수 있는 문제를 확인할 수 있습니다. 중복된 종속성, 호환되지 않는 애드온 또는 버전 불일치와 같은 일반적인 문제를 확인할 수 있습니다. 건강 상태 확인을 수행하려면 다음 명령을 원하는 패키지 관리자로 실행하세요:
 
-```npm
+```js
 npx storybook@latest doctor
 ```
 
@@ -54,7 +54,7 @@ npx storybook@latest doctor
 
 Storybook 업그레이드만 고려해야 할 사항은 아닙니다: 생태계 변화는 도전을 제기합니다. 예를 들어, Angular, Next.js 또는 Svelte와 같은 잘 알려진 프론트엔드 프레임워크는 생태계에 상당한 변화를 도입했으므로 Storybook 버전을 업그레이드하지 않더라도 구성을 업데이트해야 할 수 있습니다. 이것이 Automigrate가 하는 일입니다:
 
-```npm
+```js
 npx storybook@latest automigrate
 ```
 
@@ -68,7 +68,7 @@ npx storybook@latest automigrate
 
 최신 미리 릴리스로 업그레이드하려면:
 
-```npm
+```js
 npx storybook@latest upgrade
 ```
 

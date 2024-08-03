@@ -232,7 +232,7 @@ export const EmployeesList = () => {
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*ujILWeq1n9REvDZeyPemAg.gif" />
 
-## 하지만 이 구현에 문제가 있습니다 😢```
+## 하지만 이 구현에 문제가 있습니다 😢
 
 <div class="content-ad"></div>
 

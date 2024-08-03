@@ -236,7 +236,7 @@ UserGreeting.defaultProps = {
 
 ## 8. React.memo를 사용하여 불필요한 렌더링 방지
 
-React.memo는 함수형 컴포넌트의 렌더링 성능을 최적화하는 React의 하이어오더 컴포넌트입니다. 현재 및 새로운 props를 얕은 비교하여, props가 변경됐을 때에만 컴포넌트를 재렌더링하여 불필요한 렌더링을 방지합니다.```
+React.memo는 함수형 컴포넌트의 렌더링 성능을 최적화하는 React의 하이어오더 컴포넌트입니다. 현재 및 새로운 props를 얕은 비교하여, props가 변경됐을 때에만 컴포넌트를 재렌더링하여 불필요한 렌더링을 방지합니다.
 
 <div class="content-ad"></div>
 
@@ -365,9 +365,9 @@ function DangerousComponent({ htmlContent }) {
 
 HTTP를 통해 API 호출을하거나 사용자 입력을 적절하게 인코딩하지 않으면 보안 취약점이 발생할 수 있습니다.
 
-```
+
 fetch(`http://api.example.com/data?param=${userInput}`)
-```
+
 
 리뷰 코멘트 및 해결책:
 
@@ -403,7 +403,7 @@ const API_KEY = "12345-SECRET-API-KEY";
 
 ## 외부 자료: React 스타일 가이드
 
-React의 이해와 숙련도를 더 향상시키기 위해 다양한 스타일 가이드를 탐색하는 것이 중요합니다. 이 가이드는 React 커뮤니티에서 채택한 모범 사례, 코딩 규칙 및 패턴에 대한 통찰을 제공합니다. 여기 몇 가지 필수 자원이 있습니다:```
+React의 이해와 숙련도를 더 향상시키기 위해 다양한 스타일 가이드를 탐색하는 것이 중요합니다. 이 가이드는 React 커뮤니티에서 채택한 모범 사례, 코딩 규칙 및 패턴에 대한 통찰을 제공합니다. 여기 몇 가지 필수 자원이 있습니다:
 
 <div class="content-ad"></div>
 

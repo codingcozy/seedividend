@@ -58,7 +58,7 @@ React Testing Library 설치: 프로젝트에 React Testing Library를 추가하
 npm install --save-dev @testing-library/react @testing-library/dom
 ```
 
-설치 확인: 설치가 완료되면 package.json 파일을 확인하거나 다음을 실행하여 React Testing Library가 올바르게 설치되었는지 확인할 수 있습니다:```
+설치 확인: 설치가 완료되면 package.json 파일을 확인하거나 다음을 실행하여 React Testing Library가 올바르게 설치되었는지 확인할 수 있습니다:
 
 <div class="content-ad"></div>
 

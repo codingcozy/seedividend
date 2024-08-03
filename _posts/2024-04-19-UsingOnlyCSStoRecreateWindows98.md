@@ -99,7 +99,7 @@ link: "https://medium.com/gitconnected/using-only-css-to-recreate-windows-98-958
 
 # CSS AND Selector는 없습니다
 
-매우 안타깝게도, 체크된 상자를 연결하여 CSS AND 선택자를 만들 방법이 없었습니다. 예를 들어, 체크된 상태를 기반으로 일부 CSS를 적용하는 상황을 고려해 보겠습니다.```
+매우 안타깝게도, 체크된 상자를 연결하여 CSS AND 선택자를 만들 방법이 없었습니다. 예를 들어, 체크된 상태를 기반으로 일부 CSS를 적용하는 상황을 고려해 보겠습니다.
 
 <div class="content-ad"></div>
 
@@ -117,7 +117,7 @@ link: "https://medium.com/gitconnected/using-only-css-to-recreate-windows-98-958
 
 하지만, 불행히도 그것은 작동하지 않았습니다. 따라서 CSS에서 상태를 추적할 수 있는 방법이 있지만, 그를 기반으로 논리 명령문과 스타일을 생성하기 위해 다중 조건의 체크박스 상태를 추적하는 것은 다소 어렵습니다. 이는 실망스럽지만, Windows 98 구현에 크게 제한을 두지는 않습니다.
 
-````
+
 
 <div class="content-ad"></div>
 
@@ -130,7 +130,7 @@ body {
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: grayscale;
 }
-````
+```
 
 <div class="content-ad"></div>
 

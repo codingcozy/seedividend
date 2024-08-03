@@ -247,7 +247,7 @@ HTML에서는 웹 페이지의 다른 부분을 정의하는 데 사용할 수 �
 
 HTML 코드 출력 :-
 
-# 대시보드 CSS 코드:-```
+# 대시보드 CSS 코드:-
 
 <div class="content-ad"></div>
 
@@ -553,7 +553,7 @@ Step3: 사이드바에 스타일이 적용됩니다. overflow 속성을 사용�
 # Html 및 Css를 사용한 대시보드 최종 출력:-
 
 <img src="/assets/img/SimpleDashboardUsingHTMLandCSSSourceCode_1.png" />
-```
+
 
 <div class="content-ad"></div>
 

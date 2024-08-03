@@ -74,7 +74,7 @@ npx nest new sse-test
 
 <div class="content-ad"></div>
 
-```
+
 ![/assets/img/PushDataMaybeYouDontNeedWebSocket_5.png](/assets/img/PushDataMaybeYouDontNeedWebSocket_5.png)
 
 로컬호스트(http://localhost:3000)를 방문하면 서버가 성공적으로 실행 중임을 나타내는 "Hello World"가 표시됩니다.
@@ -82,7 +82,7 @@ npx nest new sse-test
 ![/assets/img/PushDataMaybeYouDontNeedWebSocket_6.png](/assets/img/PushDataMaybeYouDontNeedWebSocket_6.png)
 
 그런 다음 AppController에 스트림 인터페이스를 추가하세요.
-```
+
 
 <div class="content-ad"></div>
 

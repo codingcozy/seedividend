@@ -128,7 +128,7 @@ export default PrivateRoute;
 
 ## 단계 5 — 인증 로직 구현
 
-PrivateRoute 컴포넌트에서 isAuthenticated 변수를 실제 인증 로직으로 대체하세요. Redux, context 또는 로컬 스토리지와 같은 상태 관리 라이브러리를 사용하여 사용자의 인증 상태를 저장하고 확인할 수 있습니다.```
+PrivateRoute 컴포넌트에서 isAuthenticated 변수를 실제 인증 로직으로 대체하세요. Redux, context 또는 로컬 스토리지와 같은 상태 관리 라이브러리를 사용하여 사용자의 인증 상태를 저장하고 확인할 수 있습니다.
 
 <div class="content-ad"></div>
 

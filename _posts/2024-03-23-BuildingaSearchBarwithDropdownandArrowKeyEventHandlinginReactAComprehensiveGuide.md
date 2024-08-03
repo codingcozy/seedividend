@@ -312,7 +312,7 @@ export const colors = [
 
 이 설정 후 브라우저에서 다음과 같은 것을 찾을 수 있습니다
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*F9v4zCtWJddPW_QHgAf9Ng.gif" />```
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*F9v4zCtWJddPW_QHgAf9Ng.gif" />
 
 <div class="content-ad"></div>
 
@@ -511,6 +511,6 @@ export default Search;
 우리가 가진 내용을 검토해보고 궁금한 점이 있으면 알려주세요. 그리고 마음에 드신다면 기립 박수를 추가해 주세요.
 
 <img src="https://miro.medium.com/v2/resize:fit:904/1*6h2-hGeAdwENKl2c5cXCTg.gif" />  
-```
+
 
 <div class="content-ad"></div>

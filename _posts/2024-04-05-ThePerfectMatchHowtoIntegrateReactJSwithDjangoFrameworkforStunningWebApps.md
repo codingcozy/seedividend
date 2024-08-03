@@ -198,7 +198,7 @@ export default HelloWorld;
 
 ## 단계 5: React 컴포넌트 렌더링
 
-마지막으로, myapp 디렉토리의 src 디렉토리 내 App.js 파일 내에서 HelloWorld 컴포넌트를 렌더링해야 합니다. App.js 파일의 내용을 다음 코드로 교체하세요.```
+마지막으로, myapp 디렉토리의 src 디렉토리 내 App.js 파일 내에서 HelloWorld 컴포넌트를 렌더링해야 합니다. App.js 파일의 내용을 다음 코드로 교체하세요.
 
 <div class="content-ad"></div>
 

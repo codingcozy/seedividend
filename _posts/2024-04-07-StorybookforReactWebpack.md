@@ -29,7 +29,7 @@ link: "https://storybook.js.org/docs/get-started/react-webpack5"
 
 React 프로젝트의 루트 디렉토리에서 다음 명령어를 실행한 후 나오는 프롬프트를 따라 주세요:
 
-```npm
+```js
 npx storybook@latest init
 ```
 
@@ -41,7 +41,7 @@ npx storybook@latest init
 
 이 프레임워크는 스토리북 7+와 함께 작동하도록 설계되었습니다. 아직 v7을 사용하고 있지 않다면 다음 명령을 사용하여 업그레이드하세요:
 
-```npm
+```js
 npx storybook@latest upgrade
 ```
 
@@ -55,7 +55,7 @@ npx storybook@latest upgrade
 
 먼저, 프레임워크를 설치하세요:
 
-```npm
+```js
 npm install --save-dev @storybook/react-webpack5
 ```
 
@@ -63,13 +63,13 @@ npm install --save-dev @storybook/react-webpack5
 
 다음으로, 사용 중인 SWC(권장) 또는 Babel에 따라 적절한 컴파일러 애드온을 설치하고 등록하세요:
 
-```npm
+```js
 npx storybook@latest add @storybook/addon-webpack5-compiler-swc
 ```
 
 또는
 
-```npm
+```js
 npx storybook@latest add @storybook/addon-webpack5-compiler-babel
 ```
 

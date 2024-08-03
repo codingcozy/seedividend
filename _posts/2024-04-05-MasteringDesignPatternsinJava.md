@@ -101,7 +101,7 @@ public class Clipboard {
 }
 ```
 
-싱글톤 패턴을 구현함으로써 프로그램 실행 중에 Clipboard 클래스의 단일 인스턴스만 존재함을 보장합니다.```
+싱글톤 패턴을 구현함으로써 프로그램 실행 중에 Clipboard 클래스의 단일 인스턴스만 존재함을 보장합니다.
 
 <div class="content-ad"></div>
 
@@ -436,7 +436,7 @@ public class AdapterMain {
 - CellPhoneAdapter는 CellPhone 인터페이스를 구현하는 어댑터 클래스로, FriendCellPhone의 인스턴스를 래핑합니다. 어댑터의 call 메서드는 FriendCellPhone 클래스의 ring 메서드로 호출을 위임합니다.
 - AdapterMain 클래스는 어댑터 패턴의 사용법을 보여주는 클라이언트 역할을 합니다.
 
-어댑터 패턴을 사용하는 이유는 무엇일까요?```
+어댑터 패턴을 사용하는 이유는 무엇일까요?
 
 <div class="content-ad"></div>
 
@@ -593,7 +593,7 @@ public class DecoratorMain {
 
 <div class="content-ad"></div>
 
-````md
+
 ![MasteringDesignPatternsinJava_5.png](/assets/img/MasteringDesignPatternsinJava_5.png)
 
 유튜브 채널 구독자 시나리오에서 유튜브 채널은 주체이고, 구독자는 관찰자입니다. 유튜브 채널에서 이벤트가 발생하면 모든 구독자에게 새로운 비디오에 대해 알림을 보내어 시청하도록 합니다.
@@ -623,7 +623,7 @@ public class YoutubeEvent {
     }
 }
 ```
-````
+
 
 <div class="content-ad"></div>
 

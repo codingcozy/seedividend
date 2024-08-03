@@ -104,7 +104,7 @@ Polaris는 이 문제를 해결하기 위해 해당 검사를 지연시키고 �
 
 <div class="content-ad"></div>
 
-````md
+
 ![How Meta Improved Their Cache Consistency](/assets/img/Howmetaimprovedtheircacheconsistencyto9999999999_3.png)
 
 ```js
@@ -113,7 +113,7 @@ cache_version = {};
 meta_data_table = { 1: 42 };
 version_table = { 1: 4 };
 ```
-````
+
 
 - 읽기 요청이 올 때, 먼저 캐시에서 값이 있는지 확인하고, 캐시에 값이 없다면 데이터베이스에서 값을 반환합니다.
 
@@ -171,7 +171,7 @@ def write_in_databse_transactionally(key, data, version):
     version_table[key] = version
 ```
 
-3. 캐시에 버전 데이터가 채워지는 동안 데이터베이스에는 메타 데이터 값 및 버전 값을 갱신하는 새로운 쓰기 요청이 있습니다. 이 시점에서 버그처럼 보일 수 있지만, 캐시 무효화를 통해 캐시를 데이터베이스와 일관된 상태로 되돌릴 것이므로 문제가 아닙니다. (참고로 캐시 및 데이터베이스 쓰기 기능에 time.sleep를 추가하여 문제를 재현했습니다).```
+3. 캐시에 버전 데이터가 채워지는 동안 데이터베이스에는 메타 데이터 값 및 버전 값을 갱신하는 새로운 쓰기 요청이 있습니다. 이 시점에서 버그처럼 보일 수 있지만, 캐시 무효화를 통해 캐시를 데이터베이스와 일관된 상태로 되돌릴 것이므로 문제가 아닙니다. (참고로 캐시 및 데이터베이스 쓰기 기능에 time.sleep를 추가하여 문제를 재현했습니다).
 
 <div class="content-ad"></div>
 

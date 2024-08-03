@@ -84,7 +84,7 @@ if (response.state === "hasData") {
 }
 ```
 
-data 속성은 state가 hasData인 경우 데이터를 포함하고, error 속성은 state가 hasError인 경우 오류를 포함합니다. async atom을 사용하는 구성 요소 예제는 다음과 같습니다:```
+data 속성은 state가 hasData인 경우 데이터를 포함하고, error 속성은 state가 hasError인 경우 오류를 포함합니다. async atom을 사용하는 구성 요소 예제는 다음과 같습니다:
 
 <div class="content-ad"></div>
 

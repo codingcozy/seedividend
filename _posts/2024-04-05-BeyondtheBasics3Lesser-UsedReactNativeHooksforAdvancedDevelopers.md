@@ -88,7 +88,7 @@ export default SinglePageForm;
 
 하지만 useState로도 충분히 처리 가능한 간단한 상태 관리 시나리오에서 useReducer를 과도하게 사용하는 것은 피해야 합니다. useReducer의 남용은 불필요하게 복잡한 코드로 이어질 수 있습니다.
 
-2. useMemo를 활용한 성능 최적화: 비용이 많이 드는 계산 결과를 메모화하기```
+2. useMemo를 활용한 성능 최적화: 비용이 많이 드는 계산 결과를 메모화하기
 
 <div class="content-ad"></div>
 

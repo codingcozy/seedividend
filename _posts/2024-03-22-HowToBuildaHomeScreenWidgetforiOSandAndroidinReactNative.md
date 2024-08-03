@@ -217,7 +217,7 @@ updateAppWidget 함수를 수정하여 위젯 내용을 업데이트하는 역�
 여기까지입니다. 이제 React Native 앱이 위젯 내용을 제어합니다. 앱을 실행하고 위젯을 확인해보세요 (앱을 실행하고 열어서 SharedStorage에 쓰도록 해야합니다):
 
 <img src="/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_6.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -368,7 +368,7 @@ const SharedStorage = NativeModules.SharedStorage;
 SharedStorage.set(JSON.stringify({ text: "리액트 네이티브 앱에서 온 데이터입니다" }));
 ```
 
-예를 들어 App.tsx 파일이나 데이터를 설정하는 것이 적절한 React Native 코드에서 이 작업을 수행할 수 있습니다:```
+예를 들어 App.tsx 파일이나 데이터를 설정하는 것이 적절한 React Native 코드에서 이 작업을 수행할 수 있습니다:
 
 <div class="content-ad"></div>
 

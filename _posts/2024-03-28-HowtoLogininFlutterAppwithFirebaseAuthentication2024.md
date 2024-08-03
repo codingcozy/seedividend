@@ -86,7 +86,7 @@ dependencies:
 
 Firebase를 Flutter 앱에서 초기화하려면 앱의 진입점(main.dart)에 다음 코드를 추가해주세요:
 
-```dart
+```js
 import 'package:firebase_core/firebase_core.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

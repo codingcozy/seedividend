@@ -1140,7 +1140,7 @@ export default counterReducer;
 - increment 액션에 문제가 있는지 확인하기 위해 액션 생성자와 리듀서를 확인합니다.
 - console.log 문장이나 debugger를 사용하여 액션과 상태 변화의 흐름을 추적합니다.
 
-일반 디버깅 단계:```
+일반 디버깅 단계:
 
 <div class="content-ad"></div>
 

@@ -347,7 +347,7 @@ index.html
 ```
 
 <img src="/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_6.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -378,7 +378,7 @@ h3 {
 
 index.html
 
-````md
+
 ```js
 <div class="rightPanel">
   <div>
@@ -389,14 +389,14 @@ index.html
   </div>
 </div>
 ```
-````
 
-```
+
+
 
 ![CreatingaresumeusingHTMLandCSSandsavingitasaPDF_7](/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_7.png)
 
 index.html
-```
+
 
 <div class="content-ad"></div>
 
@@ -419,7 +419,7 @@ index.html
 
 ## 연결된 글머리 기호
 
-아래 마지막 도전 과제는 작업 경험 섹션 항목의 글머리 기호를 연결하는 예쁜 선을 추가하는 것이었습니다. 이를 구현하기 위해 이 좋은 기사를 참고했습니다.```
+아래 마지막 도전 과제는 작업 경험 섹션 항목의 글머리 기호를 연결하는 예쁜 선을 추가하는 것이었습니다. 이를 구현하기 위해 이 좋은 기사를 참고했습니다.
 
 <div class="content-ad"></div>
 

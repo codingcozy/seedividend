@@ -22,7 +22,7 @@ link: "https://itnext.io/learn-flutter-animation-by-doing-build-complex-animatio
 
 <div class="content-ad"></div>
 
-```dart
+```js
 class CardHiddenAnimationPage extends StatefulWidget {
   const CardHiddenAnimationPage({Key? key}) : super(key: key);
 
@@ -62,11 +62,11 @@ class CardHiddenAnimationPageState extends State<CardHiddenAnimationPage>
 
 ## 블랙홀 애니메이션
 
-계획은 간단합니다. 마이너스 버튼을 클릭하면 블랙홀이 나타나고 잠시 후 사라집니다. 이러한 시나리오에서 Tween 위젯은 매우 유용합니다. 이를 보여드리겠습니다.```
+계획은 간단합니다. 마이너스 버튼을 클릭하면 블랙홀이 나타나고 잠시 후 사라집니다. 이러한 시나리오에서 Tween 위젯은 매우 유용합니다. 이를 보여드리겠습니다.
 
 <div class="content-ad"></div>
 
-```dart
+```js
 늦은 최종 holeSizeTween = Tween<double>(
   begin: 0,
   end: 1.5 * cardSize,
@@ -80,7 +80,7 @@ double get holeSize => holeSizeTween.evaluate(holeAnimationController);
 
 다음으로, 애니메이션 변경 사항을 청취하고 더 이상 필요하지 않을 때 적절히 dispo‌se해야 합니다.
 
-```dart
+```js
 @override
 void initState() {
   holeAnimationController.addListener(() => setState(() {}));

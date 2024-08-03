@@ -192,7 +192,7 @@ LoginWithValidCredentials.test = async (browser) => {
 
 예제에서는 로그인 요청을 시뮬레이션하기 위해 목 서버를 사용합니다. @nightwatch/apitesting 플러그인에 함께 제공되는 통합 목 서버를 사용할 것입니다.
 
-이를 위해 테스트 파일에 직접 작성할 수 있는 설정 및 해제 훅을 사용할 것입니다. 이 두 훅은 Node.js 컨텍스트에서 실행됩니다.```
+이를 위해 테스트 파일에 직접 작성할 수 있는 설정 및 해제 훅을 사용할 것입니다. 이 두 훅은 Node.js 컨텍스트에서 실행됩니다.
 
 <div class="content-ad"></div>
 
@@ -233,7 +233,7 @@ LoginWithValidCredentials.play = async ({ canvasElement }) => {
 npx nightwatch test/login.spec.jsx --debug --devtools
 ```
 
-이것은 Dev Tools가 열린 새로운 Chrome 창을 엽니다. 이제 Dev Tools에서 중단점을 설정하고 코드를 단계별로 실행할 수 있습니다.```
+이것은 Dev Tools가 열린 새로운 Chrome 창을 엽니다. 이제 Dev Tools에서 중단점을 설정하고 코드를 단계별로 실행할 수 있습니다.
 
 <div class="content-ad"></div>
 

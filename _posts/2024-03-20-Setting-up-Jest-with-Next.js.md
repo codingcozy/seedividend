@@ -120,7 +120,7 @@ moduleNameMapper: {
 
 ## 선택 사항: 사용자 정의 일치자를 사용하여 Jest 확장하기
 
-@testing-library/jest-dom에는 .toBeInTheDocument()와 같은 편리한 사용자 정의 일치자 집합이 포함되어 있어 테스트 작성이 더 쉬워집니다. Jest 구성 파일에 다음 옵션을 추가하여 모든 테스트에 사용자 정의 일치자를 가져올 수 있습니다:```
+@testing-library/jest-dom에는 .toBeInTheDocument()와 같은 편리한 사용자 정의 일치자 집합이 포함되어 있어 테스트 작성이 더 쉬워집니다. Jest 구성 파일에 다음 옵션을 추가하여 모든 테스트에 사용자 정의 일치자를 가져올 수 있습니다:
 
 <div class="content-ad"></div>
 

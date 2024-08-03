@@ -24,7 +24,7 @@ link: "https://medium.com/@flutterqueen5/introducing-the-redacted-widget-for-flu
 
 플러터 앱에 Redacted 위젯을 통합하는 것은 매우 간단해요! 프로젝트에 패키지를 가져와서 사용하면 됩니다. Redacted 위젯으로 로딩 콘텐츠를 감싸면 나머지는 그 위젯이 알아서 처리해 줍니다. 이 위젯은 레이아웃과 디자인을 유지하면서 보다 정교한 플레이스홀더를 제공해줍니다.
 
-```dart
+```js
 import 'package:redacted_example/src/redacted_widget.dart';
 
 // 로딩 콘텐츠를 Redacted 위젯으로 감싸보세요
@@ -66,7 +66,7 @@ const loadingWidget = ShoeWidget().redacted(
 - 기존의 Flutter 프로젝트에 Redacted 위젯을 방대한 수정 없이 통합하세요.
 - 텍스트부터 이미지, 콘텐츠의 전체 섹션까지 앱의 다양한 구성요소에 이 위젯을 활용하세요.
 
-```dart
+```js
 class ShoeWidget extends StatelessWidget {
   const ShoeWidget({Key key}) : super(key: key);
 

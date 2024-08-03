@@ -122,7 +122,7 @@ class _WeatherAppHomePageState extends State<WeatherAppHomePage>
   }
 ```
 
-그래서 사용자가 홈 페이지에 접속할 때 위치 서비스가 비활성화되어 있으면 위치 서비스를 활성화하도록 유도됩니다.```
+그래서 사용자가 홈 페이지에 접속할 때 위치 서비스가 비활성화되어 있으면 위치 서비스를 활성화하도록 유도됩니다.
 
 <div class="content-ad"></div>
 
@@ -454,7 +454,7 @@ class _WeatherAppHomePageState extends State<WeatherAppHomePage>
 
 아이콘 데이터를 가져오는 함수를 만들어볼게요. 날씨 코드에 따라 다른 아이콘을 반환합니다.
 
-```dart
+```js
 class CitiesList extends StatelessWidget {
 /// 가끔 도시를 찾을 수 없을 때가 있습니다. 매우 지역적인 도시의 경우도 그렇죠.
 /// 홈 페이지에서 왔을 때 여기에 있는 이유를 명확히 해야 합니다. 사용자에게 도시를 놓치셨나요?

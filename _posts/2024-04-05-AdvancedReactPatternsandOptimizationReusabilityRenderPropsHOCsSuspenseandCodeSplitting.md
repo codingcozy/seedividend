@@ -136,7 +136,7 @@ export default App;
 
 # 고차 컴포넌트 (HOC)
 
-HOC는 무엇인가요?```
+HOC는 무엇인가요?
 
 <div class="content-ad"></div>
 

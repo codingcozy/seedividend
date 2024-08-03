@@ -274,7 +274,7 @@ config.yml 파일의 25번째 줄인 jobs:`test:`steps:에는 다음 단계들�
 - run: : npm install 명령을 사용하여 프로젝트와 관련된 모든 종속성을 설치합니다.
 - run: : npm run test:staged_all 명령을 실행하여 테스트를 수행합니다.
 
-나머지 내용은 무시해도 상관없어요 🙇‍♂️.```
+나머지 내용은 무시해도 상관없어요 🙇‍♂️.
 
 <div class="content-ad"></div>
 

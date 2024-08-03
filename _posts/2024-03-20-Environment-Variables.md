@@ -150,7 +150,7 @@ export default function Component() {
 - register 함수를 사용하여 서버 시작 시 코드를 실행할 수 있습니다.
 - standalone 출력 모드와 호환되지 않는 runtimeConfig 옵션 사용을 권장하지 않습니다. 대신 App Router를 점진적으로 채택하는 것을 권장합니다.
 
-## 기본 환경 변수```
+## 기본 환경 변수
 
 <div class="content-ad"></div>
 
@@ -178,7 +178,7 @@ vercel env pull .env.local
 
 ## 테스트 환경 변수
 
-개발 및 프로덕션 환경 이외에도 3번째 옵션으로 테스트 환경이 있습니다. 개발 또는 프로덕션 환경에 기본값을 설정할 수 있는 것처럼, 테스트 환경을 위해 .env.test 파일에 동일한 작업을 할 수 있습니다 (이는 이전 두 환경보다는 일반적이지 않습니다). 테스트 환경에서는 Next.js가 .env.development나 .env.production에서 환경 변수를 로드하지 않습니다.```
+개발 및 프로덕션 환경 이외에도 3번째 옵션으로 테스트 환경이 있습니다. 개발 또는 프로덕션 환경에 기본값을 설정할 수 있는 것처럼, 테스트 환경을 위해 .env.test 파일에 동일한 작업을 할 수 있습니다 (이는 이전 두 환경보다는 일반적이지 않습니다). 테스트 환경에서는 Next.js가 .env.development나 .env.production에서 환경 변수를 로드하지 않습니다.
 
 <div class="content-ad"></div>
 

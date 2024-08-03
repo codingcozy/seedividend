@@ -82,7 +82,7 @@ link: "https://medium.com/@imPradhyumn/tic-tac-toe-using-javascript-48b079bcd015
 
 2. CSS
 
-여기에는 기본적인 스타일이 구현되어 있습니다. 더 많은 스타일링을 추가하여 색상, 테두리 등을 변경하여 더 좋아 보이게 할 수 있습니다.```
+여기에는 기본적인 스타일이 구현되어 있습니다. 더 많은 스타일링을 추가하여 색상, 테두리 등을 변경하여 더 좋아 보이게 할 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -224,7 +224,7 @@ if (totalMovesMade >= size * 2 - 1) checkIsGameOver(row, col);
 
 함수 안에는 각 상자에 클릭 이벤트 리스너가 추가되었는데, 이는 함수를 2번째 인수로 전달하여 실행됩니다.
 
-현재 플레이어가 상자 중 하나를 클릭하면 이 코드 블록이 실행됩니다. 여기서 makeMove(), updateBoard(), checkIsGameOver()와 같이 호출된 3개의 추가 함수를 볼 수 있습니다. 마지막에는 현재 플레이어를 토글합니다.```
+현재 플레이어가 상자 중 하나를 클릭하면 이 코드 블록이 실행됩니다. 여기서 makeMove(), updateBoard(), checkIsGameOver()와 같이 호출된 3개의 추가 함수를 볼 수 있습니다. 마지막에는 현재 플레이어를 토글합니다.
 
 <div class="content-ad"></div>
 

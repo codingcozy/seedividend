@@ -64,7 +64,7 @@ Chrome의 개발자 도구에는 Coverage라는 매우 흥미로운 도구가 �
 https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 ```
 
-내 경우에는 유틸리티.css (104.09 kB)와 그리드.css (68.28 kB)만 필요하다는 것을 알고 있습니다.```
+내 경우에는 유틸리티.css (104.09 kB)와 그리드.css (68.28 kB)만 필요하다는 것을 알고 있습니다.
 
 <div class="content-ad"></div>
 

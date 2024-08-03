@@ -100,7 +100,7 @@ npm install --save-dev @testing-library/react @testing-library/jest-dom jest ts-
 
 ![ReactjsUnitTestingBestPracticesandToolswithexamples_0.png](/assets/img/ReactjsUnitTestingBestPracticesandToolswithexamples_0.png)
 
-3. mockApi를 작성하고, 테스트마다 모든 모의 객체를 지우기 위해 beforeEach를 호출하는 hooks를 작성합니다.```
+3. mockApi를 작성하고, 테스트마다 모든 모의 객체를 지우기 위해 beforeEach를 호출하는 hooks를 작성합니다.
 
 <div class="content-ad"></div>
 

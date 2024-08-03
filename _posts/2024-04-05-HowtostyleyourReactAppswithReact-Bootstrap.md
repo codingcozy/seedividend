@@ -43,7 +43,7 @@ cd react-bootstrap-demo\
 npm install react-bootstrap bootstrap
 ```
 
-이 단계에서 프레임워크를 프로젝트에 실제로 가져올 수 있습니다. 'index.js' 파일을 편집하고 파일의 시작 부분에 다음을 추가하세요:```
+이 단계에서 프레임워크를 프로젝트에 실제로 가져올 수 있습니다. 'index.js' 파일을 편집하고 파일의 시작 부분에 다음을 추가하세요:
 
 <div class="content-ad"></div>
 
@@ -55,7 +55,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 # 버튼 및 폼
 
-가장 먼저, 우리의 예제 애플리케이션에는 거의 모든 웹사이트와 웹 앱에서 사용되는 컴포넌트가 추가될 것입니다: 버튼! 이 컴포넌트는 이미 표준 HTML을 통해 간단하게 통합할 수 있지만 CSS를 향상시키기 위해 전용 클래스나 ID를 추가해야 합니다. React Bootstrap을 통해 색상, 외곽선, 크기 조절을 쉽게 할 수 있으며 많은 양의 텍스트 없이 인라인으로 처리할 수 있습니다. 첫 번째 단계는 import 문입니다:```
+가장 먼저, 우리의 예제 애플리케이션에는 거의 모든 웹사이트와 웹 앱에서 사용되는 컴포넌트가 추가될 것입니다: 버튼! 이 컴포넌트는 이미 표준 HTML을 통해 간단하게 통합할 수 있지만 CSS를 향상시키기 위해 전용 클래스나 ID를 추가해야 합니다. React Bootstrap을 통해 색상, 외곽선, 크기 조절을 쉽게 할 수 있으며 많은 양의 텍스트 없이 인라인으로 처리할 수 있습니다. 첫 번째 단계는 import 문입니다:
 
 <div class="content-ad"></div>
 
@@ -72,7 +72,7 @@ import Button from "react-bootstrap/Button";
 ```
 
 <img src="/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_1.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -109,7 +109,7 @@ const radios = [
 ];
 ```
 
-radioValue와 setRadioValue를 사용하여 각 버튼의 값을 추적하고 필요할 때 변경할 수 있습니다. radios 변수를 사용하여 다음 예제에서 각 버튼을 매핑할 수 있습니다:```
+radioValue와 setRadioValue를 사용하여 각 버튼의 값을 추적하고 필요할 때 변경할 수 있습니다. radios 변수를 사용하여 다음 예제에서 각 버튼을 매핑할 수 있습니다:
 
 <div class="content-ad"></div>
 
@@ -136,7 +136,7 @@ radioValue와 setRadioValue를 사용하여 각 버튼의 값을 추적하고 �
 
 <img src="/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_3.png" />
 
-좋아요! 이제 첫 번째 컴포넌트를 실용적인 애플리케이션에 통합해 봅시다. 전통적인 HTML 폼 컨테이너는 사용자 데이터를 수집하고 정보를 서버로 보내는 데 여러 가지 요소를 포함합니다. React Bootstrap 폼도 약간의 구문 조정을 통해 거의 동일하게 작동합니다. 시작하려면 다음과 같이 추가 컴포넌트 클래스를 가져와야 합니다:```
+좋아요! 이제 첫 번째 컴포넌트를 실용적인 애플리케이션에 통합해 봅시다. 전통적인 HTML 폼 컨테이너는 사용자 데이터를 수집하고 정보를 서버로 보내는 데 여러 가지 요소를 포함합니다. React Bootstrap 폼도 약간의 구문 조정을 통해 거의 동일하게 작동합니다. 시작하려면 다음과 같이 추가 컴포넌트 클래스를 가져와야 합니다:
 
 <div class="content-ad"></div>
 
@@ -285,7 +285,7 @@ import { Link } from "react-router-dom";
 
 이 예제는 쉽게 이해할 수 있습니다. 그러나 이 컴포넌트가 제공하는 다른 기능은 무엇일까요? '브랜드', '드롭다운'과 같은 나란히 구현된 컴포넌트에 대한 다중 하위 요소가 있습니다. 내비게이션 바 뒤로 콘텐츠가 축소되도록 하려면 `Navbar.Toggle` 및 `Navbar.Collapse` 컴포넌트를 삽입할 수도 있습니다.
 
-이러한 항목들을 함께 사용하여 사용자 정의 내비게이션 바를 만들어보겠습니다. 앱의 브랜드, 간단한 링크, 링크가 포함된 드롭다운 메뉴 및 검색 기능으로 작동하는 폼 요소를 표시할 것입니다. 먼저 일부 추가로 가져와야 할 구성 요소가 필요합니다:```
+이러한 항목들을 함께 사용하여 사용자 정의 내비게이션 바를 만들어보겠습니다. 앱의 브랜드, 간단한 링크, 링크가 포함된 드롭다운 메뉴 및 검색 기능으로 작동하는 폼 요소를 표시할 것입니다. 먼저 일부 추가로 가져와야 할 구성 요소가 필요합니다:
 
 <div class="content-ad"></div>
 
@@ -341,7 +341,7 @@ import Col from 'react-bootstrap/Col';
 </Navbar>
 ```
 
-처음에는 복잡해 보일 수 있지만, 개별 항목 기능과 링크로 분해하면 이것이 어떻게 출력되는지 이해하는 데 도움이 됩니다:```
+처음에는 복잡해 보일 수 있지만, 개별 항목 기능과 링크로 분해하면 이것이 어떻게 출력되는지 이해하는 데 도움이 됩니다:
 
 <div class="content-ad"></div>
 

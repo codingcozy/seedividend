@@ -25,7 +25,7 @@ Storybook에서 빌더는 컴포넌트와 이야기를 브라우저에서 실행
 
 빌더를 선택하려면 사용자는 종속성으로 추가한 후 구성 파일(.storybook/main.js)을 편집하여 활성화해야 합니다. 예를 들어, Vite 빌더를 사용하는 경우:
 
-```npm
+```js
 npm install @storybook/builder-vite --save-dev
 ```
 

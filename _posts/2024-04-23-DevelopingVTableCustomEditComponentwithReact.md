@@ -79,7 +79,7 @@ npm install @visactor/vtable-editors
 yarn add @visactor/vtable-editors
 ```
 
-코드에서 필요한 유형의 편집기 모듈을 가져와서 사용하세요(구현을 사용자 정의하거나 vtable-editors 패키지의 편집기 클래스를 참조할 수 있습니다):```
+코드에서 필요한 유형의 편집기 모듈을 가져와서 사용하세요(구현을 사용자 정의하거나 vtable-editors 패키지의 편집기 클래스를 참조할 수 있습니다):
 
 <div class="content-ad"></div>
 
@@ -100,7 +100,7 @@ const dateInputEditor = new DateInputEditor();
 const listEditor = new ListEditor({ values: ["女", "男"] });
 ```
 
-위 예제에서는 텍스트 입력 상자 에디터(InputEditor), 날짜 선택기 에디터(DateInputEditor), 그리고 드롭다운 목록 에디터(ListEditor)를 생성했습니다. 실제 필요에 따라 적절한 에디터 유형을 선택할 수 있습니다.```
+위 예제에서는 텍스트 입력 상자 에디터(InputEditor), 날짜 선택기 에디터(DateInputEditor), 그리고 드롭다운 목록 에디터(ListEditor)를 생성했습니다. 실제 필요에 따라 적절한 에디터 유형을 선택할 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -285,7 +285,7 @@ export class CascaderEditor extends IEditor{
 }
 ```
 
-사용자가 상호 작용을 통해 편집 상태를 트리거하면, VTable은 onStart 메서드를 호출합니다. onStart 메서드에서 React 컴포넌트를 초기화하고 editorContext를 사용하여 셀의 위치를 가져와 컴포넌트를 위치시킵니다. onStart 메서드는 다음과 같습니다:```
+사용자가 상호 작용을 통해 편집 상태를 트리거하면, VTable은 onStart 메서드를 호출합니다. onStart 메서드에서 React 컴포넌트를 초기화하고 editorContext를 사용하여 셀의 위치를 가져와 컴포넌트를 위치시킵니다. onStart 메서드는 다음과 같습니다:
 
 <div class="content-ad"></div>
 
@@ -329,7 +329,7 @@ onStart 메서드는 먼저 getCascaderOptions 메서드를 호출하여 구성 
   }
 ```
 
-그런 다음 findValuesAndParents 메서드를 호출하여 사용자가 구성 요소에서 선택한 값을 반환합니다. findValuesAndParents 메서드의 구현은 다음과 같습니다:```
+그런 다음 findValuesAndParents 메서드를 호출하여 사용자가 구성 요소에서 선택한 값을 반환합니다. findValuesAndParents 메서드의 구현은 다음과 같습니다:
 
 <div class="content-ad"></div>
 

@@ -191,7 +191,7 @@ export default App;
 ## 프로파일러
 
 <img src="/assets/img/AmIOverreactingOrisReactOver-Reacting_3.png" />
-```
+
 
 <div class="content-ad"></div>
 
@@ -285,7 +285,7 @@ export default App;
 
 <img src="/assets/img/AmIOverreactingOrisReactOver-Reacting_4.png" />
 
-이 첫 번째 시도는 안타깝게도 실패했습니다. 그 이유는 굉장히 명백하지 않습니다. hoveredElementId 상태가 변경되면 App 컴포넌트를 다시 렌더링합니다. handleMouseEnter와 handleMouseLeave 콜백이 각 렌더링마다 재정의됩니다. 이는 MemoedElement에 다시 전달될 때 동일한 참조가 아니기 때문에 MemoedElement가 다시 완전히 자체를 다시 렌더링하게 됩니다.```
+이 첫 번째 시도는 안타깝게도 실패했습니다. 그 이유는 굉장히 명백하지 않습니다. hoveredElementId 상태가 변경되면 App 컴포넌트를 다시 렌더링합니다. handleMouseEnter와 handleMouseLeave 콜백이 각 렌더링마다 재정의됩니다. 이는 MemoedElement에 다시 전달될 때 동일한 참조가 아니기 때문에 MemoedElement가 다시 완전히 자체를 다시 렌더링하게 됩니다.
 
 <div class="content-ad"></div>
 
@@ -379,7 +379,7 @@ export default App;
 
 <img src="/assets/img/AmIOverreactingOrisReactOver-Reacting_5.png" />
 
-프로파일러 스크린샷을 보면 이것이 모든 새로운 호버마다 모든 컴포넌트를 다시 렌더링하지 않는 목표를 성공적으로 달성했음을 확인할 수 있습니다.```
+프로파일러 스크린샷을 보면 이것이 모든 새로운 호버마다 모든 컴포넌트를 다시 렌더링하지 않는 목표를 성공적으로 달성했음을 확인할 수 있습니다.
 
 <div class="content-ad"></div>
 

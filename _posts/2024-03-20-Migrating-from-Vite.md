@@ -99,7 +99,7 @@ export default nextConfig;
 
 ### 단계 3: TypeScript 구성 업데이트
 
-TypeScript를 사용하는 경우, tsconfig.json 파일을 다음 변경사항과 함께 업데이트하여 Next.js와 호환되도록 해야 합니다. TypeScript를 사용하지 않는 경우, 이 단계는 건너뛸 수 있습니다.```
+TypeScript를 사용하는 경우, tsconfig.json 파일을 다음 변경사항과 함께 업데이트하여 Next.js와 호환되도록 해야 합니다. TypeScript를 사용하지 않는 경우, 이 단계는 건너뛸 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -217,7 +217,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 ```
 
-- favicon.ico, icon.png, robots.txt와 같은 메타데이터 파일은 앱 디렉토리의 최상위에 배치되어 있다면 자동으로 애플리케이션 `head` 태그에 추가됩니다. 지원되는 모든 파일을 앱 디렉토리로 이동한 후 이들의 `link` 태그를 안전하게 삭제할 수 있습니다:```
+- favicon.ico, icon.png, robots.txt와 같은 메타데이터 파일은 앱 디렉토리의 최상위에 배치되어 있다면 자동으로 애플리케이션 `head` 태그에 추가됩니다. 지원되는 모든 파일을 앱 디렉토리로 이동한 후 이들의 `link` 태그를 안전하게 삭제할 수 있습니다:
 
 <div class="content-ad"></div>
 
@@ -258,7 +258,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 ```
 
-위 변경 사항을 통해 index.html에서 모두 선언하는 방식에서 Next.js의 프레임워크 내장 (Metadata API) 규칙 기반 접근 방식으로 전환하였습니다. 이 접근 방법을 통해 페이지의 SEO 및 웹 공유 가능성을 보다 쉽게 향상시킬 수 있습니다.```
+위 변경 사항을 통해 index.html에서 모두 선언하는 방식에서 Next.js의 프레임워크 내장 (Metadata API) 규칙 기반 접근 방식으로 전환하였습니다. 이 접근 방법을 통해 페이지의 SEO 및 웹 공유 가능성을 보다 쉽게 향상시킬 수 있습니다.
 
 <div class="content-ad"></div>
 
@@ -380,7 +380,7 @@ import logo from "../public/logo.png";
 <img src={logo.src} />
 ```
 
-또는 파일 이름을 기반으로 이미지 자산의 공개 URL을 참조할 수 있습니다. 예를 들어, public/logo.png는 애플리케이션에서 /logo.png에 있는 이미지를 제공하므로 해당 값이 src로 사용될 것입니다.```
+또는 파일 이름을 기반으로 이미지 자산의 공개 URL을 참조할 수 있습니다. 예를 들어, public/logo.png는 애플리케이션에서 /logo.png에 있는 이미지를 제공하므로 해당 값이 src로 사용될 것입니다.
 
 <div class="content-ad"></div>
 
@@ -443,7 +443,7 @@ export default nextConfig;
 }
 ```
 
-```gitignore
+```js
 # ...
 .next
 next-env.d.ts

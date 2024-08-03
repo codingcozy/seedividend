@@ -121,6 +121,6 @@ AVIF 애니메이션 예시
 
 <div class="content-ad"></div>
 
-```
+
 ![WhyyoushoulduseAVIFoverJPEGWebPPNGandGIFIn2024_2](/assets/img/WhyyoushoulduseAVIFoverJPEGWebPPNGandGIFIn2024_2.png)
-```
+

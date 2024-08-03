@@ -230,7 +230,7 @@ jobs:
 needs: [build_with_signing];
 ```
 
-이는 업로드를 하기 위해 먼저 ipa 파일을 얻어야 하기 때문에 필요합니다.```
+이는 업로드를 하기 위해 먼저 ipa 파일을 얻어야 하기 때문에 필요합니다.
 
 <div class="content-ad"></div>
 
@@ -457,7 +457,7 @@ jobs:
             cd ios && xcrun altool --upload-app -f $RUNNER_TEMP/build/Apps/your_app.ipa -t ios -u $USERNAME -p $PASSWORD
 ```
 
-## 안드로이드 앱 Play 스토어 내부 테스트로 업로드하기```
+## 안드로이드 앱 Play 스토어 내부 테스트로 업로드하기
 
 <div class="content-ad"></div>
 
@@ -559,6 +559,6 @@ jobs:
 
 이 종합 가이드에서는 iOS 및 안드로이드 앱의 빌드 및 배포 프로세스를 자동화하는 GitHub Actions의 강력함을 탐색했습니다. 이러한 워크플로우를 구현함으로써 개발자들은 앱 배포를 크게 간소화하고 테스트를 단순화하며 제품으로의 원활한 전환을 보장할 수 있습니다.
 
-GitHub Actions를 앱 개발 파이프라인에 신속하게 통합할 수 있는 능력은 시간을 절약할 뿐만 아니라 수동 오류를 최소화하여 팀이 혁신에 더 많은 시간을 투자하고 반복적인 작업을 줄일 수 있도록 도와줍니다.```
+GitHub Actions를 앱 개발 파이프라인에 신속하게 통합할 수 있는 능력은 시간을 절약할 뿐만 아니라 수동 오류를 최소화하여 팀이 혁신에 더 많은 시간을 투자하고 반복적인 작업을 줄일 수 있도록 도와줍니다.
 
 <div class="content-ad"></div>

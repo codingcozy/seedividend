@@ -44,15 +44,15 @@ node - v;
 
 <div class="content-ad"></div>
 
-```md
+
 cd Desktop
-```
+
 
 mkdir 명령어는 새로운 디렉토리를 생성하는 데 사용됩니다. 이 경우에는 tailwindProject라는 새 폴더를 만들고 있습니다.
 
-```md
+
 mkdir tailwindProject
-```
+
 
 방금 만든 폴더 안에는 몇 가지 더 폴더(src 및 styles 폴더)를 추가해야 합니다.
 

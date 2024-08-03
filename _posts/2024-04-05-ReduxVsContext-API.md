@@ -138,7 +138,7 @@ const store = configureStore({
 export default store;
 ```
 
-4. 위에서 생성한 Store를 React 컴포넌트에 추가합니다.```
+4. 위에서 생성한 Store를 React 컴포넌트에 추가합니다.
 
 <div class="content-ad"></div>
 

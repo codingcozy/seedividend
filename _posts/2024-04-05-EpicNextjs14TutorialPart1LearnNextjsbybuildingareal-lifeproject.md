@@ -216,9 +216,9 @@ mkdir epic-next-course
 
 폴더를 생성한 후에는 `cd epic-next-course`를 입력하여 해당 폴더로 이동한 다음 아래 명령을 실행해봅시다:
 
-```
+
 npx create-next-app@latest
-```
+
 
 <div class="content-ad"></div>
 
@@ -503,7 +503,7 @@ export default async function Home() {
 
 <div class="content-ad"></div>
 
-```
+
 
 다음 변경 사항을 적용한 후, 프로젝트가 실행 중인지 확인하고 `http://localhost:3000`으로 이동하면 다음을 확인할 수 있습니다.
 
@@ -511,7 +511,7 @@ export default async function Home() {
 
 잘 했습니다. 이제 **백엔드**에서 **프론트엔드**로 데이터를 가져올 수 있다는 것을 알게 되었습니다.
 
-```
+
 
 <div class="content-ad"></div>
 

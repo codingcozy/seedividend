@@ -584,7 +584,7 @@ const { status } = useFormStatus();
 - method: HTTP 메서드 — GET 또는 POST. 기본적으로 GET입니다.
 - action: 함수 참조입니다.
 
-이 훅은 사용자가 제출하고 있는 데이터와 보류 상태를 표시하는 데 사용될 것입니다.```
+이 훅은 사용자가 제출하고 있는 데이터와 보류 상태를 표시하는 데 사용될 것입니다.
 
 <div class="content-ad"></div>
 

@@ -181,7 +181,7 @@ AppLifecycleListener 클래스를 활용하면 상태 간 전환을 효과적으
 
 <div class="content-ad"></div>
 
-```dart
+```js
 class AppLifecyclePage extends StatefulWidget {
   const AppLifecyclePage({super.key});
 
