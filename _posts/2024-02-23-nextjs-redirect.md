@@ -120,10 +120,9 @@ export default function Page() {
 }
 ```
 
-:::tip
+
 
 - 사용자를 프로그래밍 방식으로 이동시키지 않아도 된다면 `<Link>` 컴포넌트를 사용해야 합니다.
-  :::
 
 더 많은 정보는 useRouter API 참조를 참고하세요.
 
@@ -193,10 +192,9 @@ export const config = {
 };
 ```
 
-:::tip
+
 
 - 미들웨어는 next.config.js의 리다이렉트 이후에 실행되고 렌더링 전에 실행됩니다.
-  :::
 
   더 많은 정보는 미들웨어 문서를 참고하세요.
 
@@ -351,8 +349,5 @@ export function GET(request: NextRequest) {
 }
 ```
 
-:::tip
-
 - 블룸 필터를 생성하려면 bloom-filters와 같은 라이브러리를 사용할 수 있습니다.
 - 악의적인 요청을 방지하기 위해 Route Handler로의 요청을 유효성 검사해야 합니다.
-  :::

@@ -14,10 +14,8 @@ link: ""
 
 # Nextjs + Zustand, "Text content does not match server-rendered HTML." 에러 해결 방법 (React Hydration Error)
 
-:::tip 목표
 Nextjs와 Zustand를 같이 사용할 때 아래와 같은 에러가 발생할 때 해결할 수 있습니다.
 "Text content does not match server-rendered HTML."
-:::
 
 ![1](/assets/img/2024-03-21-zustand-react-hydration-error-1.png)
 

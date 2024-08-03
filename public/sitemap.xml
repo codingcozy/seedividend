@@ -18,6 +18,12 @@
 
   <url>
     <loc
+      >https://seedividend.com/post/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기</loc
+    >
+  </url>
+
+  <url>
+    <loc
       >https://seedividend.com/post/2022-11-25-Nextjs-Static-HTML-사이트-배포하는-방법</loc
     >
   </url>
@@ -59,6 +65,28 @@
   </url>
 
   <url>
+    <loc>https://seedividend.com/post/2022-12-06-CSS-말줄임-처리-방법</loc>
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기Embla-Carousel</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2022-12-06-HTML-CSS만-사용해서-슬라이더-만드는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기IE대응</loc
+    >
+  </url>
+
+  <url>
     <loc
       >https://seedividend.com/post/2022-12-09--자바스크립트-셀레니움-selenium-시작하기</loc
     >
@@ -72,7 +100,19 @@
 
   <url>
     <loc
+      >https://seedividend.com/post/2022-12-09-lottie-react-web-사용해서-로띠-애니메이션-적용하기</loc
+    >
+  </url>
+
+  <url>
+    <loc
       >https://seedividend.com/post/2022-12-15-egjs-react-grid로-Masonry레이아웃-만드는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2022-12-15-scss에서-for-each-반복문-사용하는-방법</loc
     >
   </url>
 
@@ -81,8 +121,34 @@
   </url>
 
   <url>
+    <loc>https://seedividend.com/post/2022-12-19-Slack-API-사용법-2022최신</loc>
+  </url>
+
+  <url>
     <loc
       >https://seedividend.com/post/2022-12-19-vuepress-블로그-구글애널리틱스-적용하기</loc
+    >
+  </url>
+
+  <url>
+    <loc>https://seedividend.com/post/2022-12-20-css-has-속성-사용법</loc>
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2022-12-22-HTML-이메일-템플릿-마크업하는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2022-12-22-html-css로-이미지-반응형-중앙-정렬하는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2022-12-22-이메일-템플릿-마크업에-사용해도-되는-CSS-속성인지-확인하는-방법</loc
     >
   </url>
 
@@ -94,7 +160,31 @@
 
   <url>
     <loc
+      >https://seedividend.com/post/2022-12-23-selenium으로-화면-스크린샷-찍는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
       >https://seedividend.com/post/2023-01-05-모달-오픈시-Body-스크롤-막는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-02-10-2024-최신-반응형-웹-디자인-트렌드</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-02-10-CSS-Filter로-다양한-효과-주는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-02-10-Html-Unclosedtag-encoundtered-Error-해결방법</loc
     >
   </url>
 
@@ -110,6 +200,12 @@
 
   <url>
     <loc>https://seedividend.com/post/2024-02-10-nvm-사용방법</loc>
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-02-10-가장-많이-실수하는-CSS-attribute-Error</loc
+    >
   </url>
 
   <url>
@@ -171,6 +267,12 @@
   </url>
 
   <url>
+    <loc
+      >https://seedividend.com/post/2024-02-23-html-css-js로-progressbar-만드는-방법</loc
+    >
+  </url>
+
+  <url>
     <loc>https://seedividend.com/post/2024-02-23-nextjs-errorhandling</loc>
   </url>
 
@@ -225,6 +327,12 @@
   </url>
 
   <url>
+    <loc
+      >https://seedividend.com/post/2024-03-05-VScode에-숨겨진-꿀팁-및-트릭-10가지</loc
+    >
+  </url>
+
+  <url>
     <loc>https://seedividend.com/post/2024-03-05-api-보안-방법-정리</loc>
   </url>
 
@@ -236,7 +344,19 @@
 
   <url>
     <loc
+      >https://seedividend.com/post/2024-03-05-css로-border-그라데이션-적용하는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
       >https://seedividend.com/post/2024-03-05-react-textarea-autosize-라이브러리-사용-방법-정리</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-03-05-꼭-설치해야하는-Vscode-extension-10가지</loc
     >
   </url>
 
@@ -288,7 +408,25 @@
 
   <url>
     <loc
+      >https://seedividend.com/post/2024-03-08-당신만의-서비스를-만들기-위한-AI-도구-5가지-2024년</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-03-08-당신의-작업속도를-대폭-줄여줄-AI기반-크롬-확장프로그램-10가지-</loc
+    >
+  </url>
+
+  <url>
+    <loc
       >https://seedividend.com/post/2024-03-08-더-인정받는-웹-디자인을-하는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-03-08-숏폼-비디오를-5분만에-만들-수-있는-AI-서비스-5가지</loc
     >
   </url>
 
@@ -306,6 +444,12 @@
 
   <url>
     <loc
+      >https://seedividend.com/post/2024-03-08-크리에이터라면-알아야하는-AI-서비스-5가지</loc
+    >
+  </url>
+
+  <url>
+    <loc
       >https://seedividend.com/post/2024-03-10-HTML-CSS-JS로-음악-플레이어-만들기</loc
     >
   </url>
@@ -313,6 +457,18 @@
   <url>
     <loc
       >https://seedividend.com/post/2024-03-10-HTML-CSS로-Footer-만들기-소스코드-있음</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-03-10-HTML-CSS로-레이아웃-잡는-방법-10가지</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-03-10-HTML-CSS로-원형-프로그레스바-만드는-방법</loc
     >
   </url>
 
@@ -336,7 +492,39 @@
 
   <url>
     <loc
+      >https://seedividend.com/post/2024-03-10-SNS를-키우기-위해-필요한-Chat-GPT-프롬프트-20가지</loc
+    >
+  </url>
+
+  <url>
+    <loc
       >https://seedividend.com/post/2024-03-10-코딩-공부하기에-좋은-사이트-및-유튜브-10가지</loc
+    >
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-03-12-Tailwind-CSS로-복잡한-애니메이션-만드는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc>https://seedividend.com/post/2024-03-12-border-animation</loc>
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-03-12-html-css로-반응형-테이블-만드는-방법</loc
+    >
+  </url>
+
+  <url>
+    <loc>https://seedividend.com/post/2024-03-12-imageset</loc>
+  </url>
+
+  <url>
+    <loc
+      >https://seedividend.com/post/2024-03-12-웹-서비스-디자인-시스템-컬러-설계-하는-방법</loc
     >
   </url>
 
