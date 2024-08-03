@@ -1,10 +1,10 @@
 ---
 title: "코드를 깔끔하게 만드는 TypeScript 절대 경로 설정 방법"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 19:25
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Configuring Absolute Paths to your TS for Cleaner Code"
 link: "https://medium.com/@akhshyganesh/configuring-absolute-paths-your-ts-for-cleaner-code-bdaf81e01736"

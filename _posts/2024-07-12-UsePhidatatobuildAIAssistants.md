@@ -1,10 +1,10 @@
 ---
 title: "Phidata를 사용하여 AI 어시스턴트 구축하는 방법"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-12 19:48
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Use Phidata to build AI Assistants"
 link: "https://medium.com/ai-advances/use-phidata-to-build-ai-assistants-5e0a07074b64"

@@ -1,10 +1,10 @@
 ---
 title: "Anthropic Claude V3 함수 호출 방법"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-12 19:56
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Anthropic Claude V3 Function Calling"
 link: "https://medium.com/gitconnected/anthropic-claude-v3-function-calling-2c7b5dc8f715"

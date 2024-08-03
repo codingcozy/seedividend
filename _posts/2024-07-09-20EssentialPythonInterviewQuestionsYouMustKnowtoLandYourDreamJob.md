@@ -1,10 +1,10 @@
 ---
 title: "꿈의 직장을 잡기 위해 반드시 알아야 할 필수 Python 면접 질문 20개"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:52
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "20 Essential Python Interview Questions You Must Know to Land Your Dream Job"
 link: "https://medium.com/top-python-libraries/20-essential-python-interview-questions-you-must-know-to-land-your-dream-job-5e8882253130"

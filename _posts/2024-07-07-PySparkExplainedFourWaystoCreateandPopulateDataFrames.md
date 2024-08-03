@@ -1,10 +1,10 @@
 ---
 title: "PySpark 완벽 가이드 DataFrame 생성과 데이터를 채우는 네 가지 방법"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 21:43
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "PySpark Explained: Four Ways to Create and Populate DataFrames"
 link: "https://medium.com/towards-data-science/pyspark-explained-four-ways-to-create-and-populate-dataframes-31f3e4322ad9"

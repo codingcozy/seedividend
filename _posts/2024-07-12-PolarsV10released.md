@@ -1,10 +1,10 @@
 ---
 title: "Polars V10 출시 소식 놓치지 마세요"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-12 20:43
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Polars V1.0 released"
 link: "https://medium.com/@thomas_reid/polars-v1-0-released-1833c8ab79c9"

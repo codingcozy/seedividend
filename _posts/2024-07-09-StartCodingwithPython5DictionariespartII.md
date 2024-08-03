@@ -1,10 +1,10 @@
 ---
 title: "파이썬 코딩 시작하기 5 딕셔너리 2부"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 15:07
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Start Coding with Python: 5. Dictionaries (part II)"
 link: "https://medium.com/@audrey_evans/start-coding-with-python-5-dictionaries-part-ii-e9316455f083"

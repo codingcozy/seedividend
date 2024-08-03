@@ -1,10 +1,10 @@
 ---
 title: "모든 개발자가 알아야 할 Top 10 Python 인터뷰 질문"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 20:28
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Top 10 Python Interview Questions Every Developer Must Know"
 link: "https://medium.com/top-python-libraries/top-10-python-interview-questions-every-developer-must-know-de7894fb3826"

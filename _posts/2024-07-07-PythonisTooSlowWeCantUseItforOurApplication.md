@@ -1,10 +1,10 @@
 ---
 title: "Python이 너무 느려요 우리 응용 프로그램에 사용할 수 없는 이유 5가지"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 02:24
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Python is Too Slow… We Can’t Use It for Our Application"
 link: "https://medium.com/@danielbuilescu/python-is-too-slow-we-cant-use-it-for-our-application-a5c8bdec41fd"

@@ -1,10 +1,10 @@
 ---
 title: "Flask 모델 작업 성공을 위한 유효성 검사 방법"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:53
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Working with Flask Models: Validate Your Way to Success!"
 link: "https://medium.com/@turtle40965/working-with-flask-models-validate-your-way-to-success-e1fe7af96737"

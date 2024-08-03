@@ -1,10 +1,10 @@
 ---
 title: "리스트 병합을 쉽게 만드는 상위 5가지 파이썬 기법"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 21:33
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Top 5 Python Techniques for Seamless List Merging"
 link: "https://medium.com/top-python-libraries/top-5-python-techniques-for-seamless-list-merging-fcd52c05dc2d"

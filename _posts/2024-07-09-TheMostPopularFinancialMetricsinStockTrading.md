@@ -1,10 +1,10 @@
 ---
 title: "주식 거래에서 가장 인기 있는 10가지 금융 지표"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:59
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "The Most Popular Financial Metrics in Stock Trading."
 link: "https://medium.com/@larry.prestosa/the-most-popular-financial-metrics-in-stock-trading-b00480398618"

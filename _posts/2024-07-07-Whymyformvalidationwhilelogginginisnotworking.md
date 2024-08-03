@@ -1,10 +1,10 @@
 ---
 title: "로그인 시 폼 유효성 검사가 작동하지 않는 이유는"
 description: ""
-coverImage: "/TIL/assets/no-image.jpg"
+coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 19:18
 ogImage: 
-  url: /TIL/assets/no-image.jpg
+  url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Why my form validation while logging in is not working?"
 link: "https://medium.com/@fixitblog/solved-why-my-form-validation-while-logging-in-is-not-working-b910e7dd50dc"
