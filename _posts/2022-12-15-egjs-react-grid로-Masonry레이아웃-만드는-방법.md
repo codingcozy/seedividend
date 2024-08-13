@@ -14,9 +14,7 @@ link: ""
 
 # egjs react-grid로 Masonry레이아웃 만드는 방법
 
-::: tip 💡이 포스팅을 읽으면
 Masonry 레이아웃을 쉽게 구현할 수 있습니다.
-:::
 
 <img src="/assets/img/2022-12-15-egjs-react-grid로-Masonry레이아웃-만드는-방법-1.png" width="500" />
 

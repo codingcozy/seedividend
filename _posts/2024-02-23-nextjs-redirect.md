@@ -54,14 +54,12 @@ export async function createPost(id: string) {
 }
 ```
 
-::: tip
 
 - redirect는 기본적으로 307 (임시 리다이렉트) 상태 코드를 반환합니다. Server Action에서 사용할 때는 일반적으로 POST 요청 결과로 성공 페이지로 리다이렉트할 때 사용되는 303 (다른 곳 보기) 상태 코드를 반환합니다.
 - redirect는 내부적으로 오류를 throw하므로 try/catch 블록 외부에서 호출해야 합니다.
 - redirect는 렌더링 프로세스 중에 Client Components에서 호출할 수 있지만 이벤트 핸들러에서는 호출할 수 없습니다. 이 경우 useRouter 훅을 사용할 수 있습니다.
 - redirect는 절대 URL도 허용하며 외부 링크로 리다이렉트하는 데 사용할 수 있습니다.
 - 렌더링 프로세스 전에 리다이렉트를 하려면 next.config.js 또는 Middleware를 사용하세요.
-  :::
 
   더 많은 정보는 redirect API 참조를 참고하세요.
 
@@ -89,12 +87,10 @@ export async function updateUsername(username: string, formData: FormData) {
 }
 ```
 
-::: tip
 
 - permanentRedirect는 기본적으로 308 (영구적 리다이렉트) 상태 코드를 반환합니다.
 - permanentRedirect는 절대 URL도 허용하며 외부 링크로 리다이렉트하는 데 사용할 수 있습니다.
 - 렌더링 프로세스 전에 리다이렉트를 하려면 next.config.js 또는 Middleware를 사용하세요.
-  :::
 
 더 많은 정보는 permanentRedirect API 참조를 참고하세요.
 
@@ -157,11 +153,9 @@ module.exports = {
 
 더 많은 정보는 redirects API 참조를 참고하세요.
 
-::: tip
 
 - redirects는 permanent 옵션을 사용하여 307 (임시 리다이렉트) 또는 308 (영구적 리다이렉트) 상태 코드를 반환할 수 있습니다.
 - 플랫폼에 따라 redirects에 제한이 있을 수 있습니다. 예를 들어 Vercel에서는 1,024개의 리다이렉트 제한이 있습니다. 대규모 리다이렉트(1000개 이상)를 관리하려면 Middleware를 사용하여 사용자 지정 솔루션을 만드는 것이 좋습니다.
-  :::
 
 ## 미들웨어의 NextResponse.redirect
 

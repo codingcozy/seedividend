@@ -14,9 +14,7 @@ link: ""
 
 # Tanstack Query(react-query)로 서버 데이터 가져오는 방법
 
-::: tip 💡이 포스팅을 읽으면
 
-:::
 
 React-Query의 버전 5는 Tanstack Query로 이름이 바뀌었는데, 사용방법이 간단하니 오늘은 그 내용에 대해서 알아보겠습니다.
 

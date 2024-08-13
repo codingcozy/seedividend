@@ -158,10 +158,8 @@ export async function getServerSideProps() {
 사용방법은 위와 같이 기존 Static 함수들과 동일합니다.
 차이점은 아래와 같습니다.
 
-:::
 static : 빌드시에 한번만 호출
 server-side : request를 할 때마다 호출함.
-:::
 
 위와 같은 차이점이 있기 때문에 상황에 맞게 사용해야합니다.
 데이터의 업데이트가 자주 발생하는 페이지의 경우에는 `getServerSideProps`를 사용하고 위에서 말한 것처럼 문서, 블로그, 상품 페이지와 같이 데이터의 변경이 잦지 않은 페이지에서는 `getStaticProps`를 사용하는 것이 효율적입니다.

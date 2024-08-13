@@ -47,9 +47,8 @@ publish directory를 정적 웹사이트가 있는 `out`으로 수정해주고 `
 
 netlify의 환경변수에서 `NETLIFY_NEXT_PLUGIN_SKIP`를 살펴보면 아래와 같이 설명되어있습니다. **이 값을 true로 변경하면 next.js 런타임을 사용하지 않는 것이고 next export를 이용해서 static html를 생성한다고 나와있습니다.**
 
-:::
+
 NETLIFY_NEXT_PLUGIN_SKIP: when set to true for a Next.js site, the build doesn’t use the Next.js Runtime. Use this variable with projects that generate static HTML using next export.
-:::
 
 ![](/assets/img/2022-11-28-Netlify에-Nextjs-프로젝트-out-디렉토리로-배포하는-방법-3.png)
 

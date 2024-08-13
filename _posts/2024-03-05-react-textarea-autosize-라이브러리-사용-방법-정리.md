@@ -14,7 +14,6 @@ link: ""
 
 # react-textarea-autosize 라이브러리 사용 방법 정리
 
-::: tip 목차
 
 1. 소개
 
@@ -48,7 +47,6 @@ link: ""
 
    - 주의해야 할 점 및 알아두면 유용한 팁 소개
 
-:::
 
 **React-textarea-autosize 라이브러리 소개**
 

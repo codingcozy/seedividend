@@ -14,9 +14,6 @@ link: ""
 
 # Nextjs App Router 라우팅 정리
 
-::: tip 💡이 포스팅을 읽으면
-
-:::
 
 App Router는 말 그대로 App 디렉토리의 모든 파일과 폴더들을 라우터로 사용하는 Nextjs 14의 방법입니다.
 기존의 Page Router는 Page하위의 디렉토리들을 라우터로 사용했었는데요. 그것보다 많은 것들이 업그레이드가 되었으니 차근차근 알아가보겠습니다.
@@ -114,14 +111,11 @@ export default function Page() {
 }
 ```
 
-::: tip
-
 1. 페이지에는 .js, .jsx 또는 .tsx 파일 확장명을 사용할 수 있습니다.
 2. 페이지는 항상 경로 디렉토리 하위에 위치할 수 있습니다.
 3. 경로 세그먼트이 사이트 url로 사용되려면 page.js 파일이 필요합니다.
 4. 페이지는 기본적으로 서버 컴포넌트입니다만 클라이언트 컴포넌트로 설정할 수 있습니다. 'use client' 사용
 5. 페이지는 데이터를 가져올 수 있습니다.
-   :::
 
  <div class="content-ad"></div>
 
@@ -192,7 +186,6 @@ export default function adminLayout({
 
 위의 두 레이아웃을 결합하면 루트 레이아웃(app/layout.js)이 대시보드 레이아웃(app/admin/layout.js)을 래핑하고, 대시보드/\* 내의 경로 세그먼트를 래핑합니다.
 
-::: tip
 
 - .js, .jsx 또는 .tsx 파일 확장명을 레이아웃에 사용할 수 있습니다.
 - 루트 레이아웃에만 `<html>` 및 `<body>` 태그를 포함할 수 있습니다.
@@ -201,4 +194,3 @@ export default function adminLayout({
 - 레이아웃은 데이터를 가져올 수 있습니다. 데이터 가져오기 섹션을 참조하세요.
 - 부모 레이아웃과 그 자식 간에 데이터를 전달하는 것은 불가능합니다. 그러나 동일한 데이터를 경로에서 여러 번 가져올 수 있으며, React는 성능에 영향을 미치지 않고 요청을 자동으로 중복 처리합니다.
 - 레이아웃은 그 하위 경로 세그먼트에 액세스할 수 없습니다. 모든 경로 세그먼트에 접근하려면 클라이언트 컴포넌트에서 useSelectedLayoutSegment 또는 useSelectedLayoutSegments를 사용할 수 있습니다
-  :::

@@ -14,9 +14,7 @@ link: ""
 
 # scss에서 @for @each 반복문 사용하는 방법
 
-::: tip 💡이 포스팅을 읽으면
 scss에서 for, each 반복문을 작성할 수 있습니다.
-:::
 
 
 

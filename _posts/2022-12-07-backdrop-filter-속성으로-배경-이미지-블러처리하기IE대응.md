@@ -14,9 +14,7 @@ link: ""
 
 # backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)
 
-::: tip 💡이 포스팅을 읽으면
 backdrop-filter 속성으로 배경 이미지에 블러처리를 줄 수 있어요
-:::
 
 <img  src="./img/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기IE대응-2.png" width="300"/>
 

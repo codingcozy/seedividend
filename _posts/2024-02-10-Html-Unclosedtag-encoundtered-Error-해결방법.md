@@ -14,9 +14,6 @@ link: ""
 
 # Html Unclosedtag encoundtered Error 해결방법
 
-::: tip 💡이 포스팅을 읽으면
-
-:::
 
 ## 에러 메세지
 

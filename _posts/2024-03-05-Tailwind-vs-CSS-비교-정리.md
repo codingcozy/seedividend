@@ -14,9 +14,7 @@ link: ""
 
 # Tailwind vs CSS 비교 정리
 
-::: tip 💡이 포스팅을 읽으면
 Tailwind와 CSS의 장단점을 비교하여 이해합니다.
-:::
 
 ## Inline-classes VS CSS Nesting
 

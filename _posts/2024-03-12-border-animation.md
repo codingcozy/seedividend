@@ -14,10 +14,8 @@ link: ""
 
 # linear-gradient를 활용한 여러가지 border 애니메이션 5가지
 
-::: tip 목표
 `linear-gradient`, `conic-gradient`,`hue-rotate` 등을 활용해 아래 5가지 border 애니메이션을 만드는 방법에 대해서 공유합니다.
 단순 코드 공유가 아닌 결과물을 보고 애니메이션을 만들어가는 과정을 담아보려고 합니다.
-:::
 
 **1. 길이가 변하는 border 애니메이션**
 ![2](./img/double_border.gif)

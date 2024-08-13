@@ -14,9 +14,7 @@ link: ""
 
 # html2canvas로 html 요소 캡쳐해서 이미지로 다운로드 받기
 
-::: tip 💡이 포스팅을 읽으면
 html2canvas를 이용해 특정 html 태그를 캡쳐해서 이미지로 다운로드 받을 수 있는 방법에 대해서 알 수 있습니다.
-:::
 
 ## 1. html2canvas 설치
 

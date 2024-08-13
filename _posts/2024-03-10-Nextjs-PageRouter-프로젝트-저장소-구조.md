@@ -14,9 +14,7 @@ link: ""
 
 # Next.js 페이지 라우터 프로젝트 저장소 구조
 
-::: tip 💡 이 포스트를 읽으면
 Next.js 애플리케이션의 프로젝트 구조에 대한 개요를 얻을 수 있습니다.
-:::
 
 <div class="content-ad"></div>
 

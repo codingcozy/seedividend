@@ -14,9 +14,7 @@ link: ""
 
 # HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)
 
-::: tip 이 글을 읽으면
 HTML CSS로 자동으로 슬라이드 되는 캐러셀을 만들 수 있습니다.
-:::
 
 <img  src="./img/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기Embla-Carousel-1.gif" width="400"/>
 
