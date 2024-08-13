@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 
 export default function Document() {
@@ -17,8 +16,7 @@ export default function Document() {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
-        <GoogleAnalytics gaId="G-BP4J5BPNQN" />
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-BP4J5BPNQN"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BP4J5BPNQN"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
@@ -27,7 +25,7 @@ export default function Document() {
           
             gtag('config', 'G-BP4J5BPNQN');`,
           }}
-        ></script> */}
+        ></script>
         <Script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4877378276818686`}
