@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering JavaScript Closures: A Deep Dive ✨"
 link: "https://medium.com/@bhaskar-pandey/mastering-javascript-closures-a-deep-dive-3e347d95aea8"
+isUpdated: true
 ---
+
+
 
 
 자바스크립트 클로저는 이해하기 어려운 개념 중 하나입니다. 코드에서 클로저를 많이 사용할 수 있지만 그것을 사용하고 있다는 것을 깨닫지 못할 수도 있습니다.

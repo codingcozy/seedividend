@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Simple way to organize your code in Flutter"
 link: "https://medium.com/@kanellopoulos.leo/a-simple-way-to-organize-your-code-in-flutter-e175e7004fb5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_0.png" />

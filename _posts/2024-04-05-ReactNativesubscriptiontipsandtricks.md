@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native subscription tips and tricks"
 link: "https://medium.com/@l.reinaldodemelo/react-native-subscription-tips-and-tricks-163724062c66"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Graph ML: introduction to NetworkX"
 link: "https://medium.com/ai-advances/graph-ml-introduction-to-networkx-73e29a9bf40a"
+isUpdated: true
 ---
+
+
 
 
 ## | GRAPH| GRAPH ML| NETWORKX| PYTHON|

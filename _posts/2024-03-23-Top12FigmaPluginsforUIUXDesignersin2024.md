@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 12 Figma Plugins for UI UX Designers in 2024"
 link: "https://uxplanet.org/top-12-figma-plugins-for-ui-ux-designers-in-2024-c54e320dadf9"
+isUpdated: true
 ---
+
+
 
 
 

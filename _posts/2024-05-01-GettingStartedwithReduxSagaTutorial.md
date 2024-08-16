@@ -3,12 +3,15 @@ title: "리덕스 사가 사용하는 방법(기초)"
 description: ""
 coverImage: "/assets/img/2024-05-01-GettingStartedwithReduxSagaTutorial_0.png"
 date: 2024-05-01 17:33
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-01-GettingStartedwithReduxSagaTutorial_0.png
 tag: Tech
 originalTitle: "Getting Started with Redux Saga Tutorial"
 link: "https://medium.com/@ibjects/getting-started-with-redux-saga-tutorial-740954fc9e49"
+isUpdated: true
 ---
+
+
 
 ## 리덕스 기초를 제공하는 새가 튜토리얼입니다. 기초부터 고급 수준까지의 예제를 통해 리덕스 사가를 배워보세요. 리덕스 사가 개념을 활용하여 블로그 앱을 만들어보세요.
 

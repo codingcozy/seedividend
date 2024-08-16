@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NextJS Authentication with NextAuth, Prisma and Postgres"
 link: "https://medium.com/@rabin.nyaundi254/nextjs-authentication-with-nextauth-prisma-an-postgres-7d55b14e68ad"
+isUpdated: true
 ---
+
+
 
 
 

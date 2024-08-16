@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to fix HTML video issues in iOS Safari"
 link: "https://medium.com/@otterlord/how-to-fix-html-video-issues-in-ios-safari-05e180b3a9f1"
+isUpdated: true
 ---
+
+
 
 
 

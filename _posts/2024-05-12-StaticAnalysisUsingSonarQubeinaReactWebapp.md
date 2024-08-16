@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Static Analysis Using SonarQube in a React Webapp"
 link: "https://medium.com/allient/static-analysis-using-sonarqube-in-a-react-webapp-dd4b335d6062"
+isUpdated: true
 ---
+
+
 
 
 (2023년 11월 업데이트) 보안은 코드를 작성할 때 집중해야 하는 가장 중요한 주제 중 하나입니다. 안정적이고 품질 높은 제품을 갖기 위해서는 코드에 취약점이 없는지 확인해야 합니다. 프로젝트에 따라 우리는 더 정교한 소프트웨어를 사용하여 코드를 테스트해야 할 수도 있습니다. 이 글에서는 샘플 React JS 프로젝트에 SonarQube를 사용하여 정적 분석을 실행할 것입니다. 주 언어로 javascript를 사용하는 장점 중 하나는 Veracode 보고서에 따르면 심각도가 낮은 결함이 있다는 것입니다.

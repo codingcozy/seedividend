@@ -3,12 +3,15 @@ title: "구글 Python 팀 전원 해고, Flutter 팀도 위기 직면"
 description: ""
 coverImage: "/assets/img/2024-07-06-GooglePythonTeamEntirelyLaidOffFlutterTeamAlsoFacingtheAxe_0.png"
 date: 2024-07-06 02:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-GooglePythonTeamEntirelyLaidOffFlutterTeamAlsoFacingtheAxe_0.png
 tag: Tech
 originalTitle: "Google Python Team Entirely Laid Off, Flutter Team Also “Facing the Axe”"
 link: "https://medium.com/stackademic/google-python-team-entirely-laid-off-flutter-team-also-facing-the-axe-88173d1bbf04"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-GooglePythonTeamEntirelyLaidOffFlutterTeamAlsoFacingtheAxe_0.png
 

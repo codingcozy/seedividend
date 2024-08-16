@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setting up a DNS server on Linux"
 link: "https://medium.com/@guemandeuhassler96/setting-up-a-dns-server-on-linux-985875f3250d"
+isUpdated: true
 ---
+
+
 
 
 오늘날, 우리가 인터넷을 브라우징하고 웹 페이지를 요청할 때마다, 브라우저에 입력한 웹 페이지 이름을 해당 IP 주소로 변환하기 위해 도메인 이름 시스템(DNS)에 의존하게 됩니다. 이를 통해 우리는 원하는 웹 페이지에 액세스할 수 있게 됩니다. DNS가 없으면 여러 웹 서버와 연결된 다양한 IP 주소를 인간의 두뇌가 기억하기가 어려워 인터넷 사용이 매우 어려울 것입니다. 이 글에서는 CentOS 8을 이용하여 DNS 서버를 설정하고 이름 해결 과정을 탐험하는 방법을 배우겠습니다. 시작해봅시다.

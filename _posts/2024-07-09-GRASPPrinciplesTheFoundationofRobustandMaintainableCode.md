@@ -3,12 +3,15 @@ title: "GRASP 원칙 견고하고 유지보수 가능한 코드의 기초"
 description: ""
 coverImage: "/assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_0.png"
 date: 2024-07-09 14:55
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-GRASPPrinciplesTheFoundationofRobustandMaintainableCode_0.png
 tag: Tech
 originalTitle: "GRASP Principles: The Foundation of Robust and Maintainable Code"
 link: "https://medium.com/@okanyenigun/grasp-principles-the-foundation-of-robust-and-maintainable-code-eb014711e60b"
+isUpdated: true
 ---
+
+
 
 ## 일반 책임 할당 소프트웨어 패턴
 

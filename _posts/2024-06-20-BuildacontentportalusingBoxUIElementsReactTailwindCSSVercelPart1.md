@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build a content portal using Box UI Elements, React, Tailwind CSS , Vercel Part 1"
 link: "https://medium.com/box-developer-blog/build-a-content-portal-using-box-ui-elements-react-tailwind-css-vercel-part-1-f1c509621ceb"
+isUpdated: true
 ---
+
+
 
 
 

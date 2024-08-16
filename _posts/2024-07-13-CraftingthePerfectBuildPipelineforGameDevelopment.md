@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Crafting the Perfect Build Pipeline for Game Development"
 link: "https://medium.com/gitconnected/crafting-the-perfect-build-pipeline-for-game-development-5a33a5d82ff7"
+isUpdated: true
 ---
+
+
 
 
 

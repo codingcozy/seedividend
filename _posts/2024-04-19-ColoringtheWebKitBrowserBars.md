@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Coloring the WebKit Browser Bars"
 link: "https://medium.com/@evkirkiles/coloring-the-webkit-browser-bars-28d75cd8cf7f"
+isUpdated: true
 ---
+
+
 
 
 

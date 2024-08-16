@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "To path or not to path…"
 link: "https://medium.com/juliusbaerengineering/to-path-or-not-to-path-34f06d26fff1"
+isUpdated: true
 ---
+
+
 
 
 ## 이야기…

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Swagger in Go: Why It’s the Genius Move You Haven’t Made Yet"
 link: "https://medium.com/gitconnected/swagger-in-go-why-its-the-genius-move-you-haven-t-made-yet-0326f6e2881f"
+isUpdated: true
 ---
+
+
 
 
 

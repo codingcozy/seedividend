@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Most Popular Financial Metrics in Stock Trading."
 link: "https://medium.com/@larry.prestosa/the-most-popular-financial-metrics-in-stock-trading-b00480398618"
+isUpdated: true
 ---
+
+
 
 
 주식 거래에서 사용되는 금융 지표는 많지만, 가장 인기 있는 일부는 다음과 같습니다:

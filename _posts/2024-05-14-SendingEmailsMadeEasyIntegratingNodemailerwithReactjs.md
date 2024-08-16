@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sending Emails Made Easy Integrating Nodemailer with Reactjs"
 link: "https://medium.com/@Scofield_Idehen/sending-emails-made-easy-integrating-nodemailer-with-reactjs-e8d0d04a595e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-SendingEmailsMadeEasyIntegratingNodemailerwithReactjs_0.png" />

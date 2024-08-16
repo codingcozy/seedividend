@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Benchmarking in Node.js with `perf_hooks`"
 link: "https://medium.com/@hardikkhanesa/benchmarking-in-node-js-with-perf-hooks-202467d287e9"
+isUpdated: true
 ---
+
+
 
 
 성능은 소프트웨어 개발에서 중요한 측면입니다, 특히 확장 가능하고 효율적인 애플리케이션을 구축할 때에는 더욱 그렇습니다. 비동기 및 이벤트 기반 아키텍처로 유명한 Node.js는 코드를 측정하고 최적화하는 데 도움이 되는 내장 도구를 제공합니다. 이 목적을 위해 가장 강력한 도구 중 하나는 `perf_hooks` 모듈입니다. 이 블로그에서는 Node.js의 벤치마킹을 위한 `perf_hooks` 사용 방법과 개발 툴킷에서 꼭 필요한 이유를 살펴보겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Custom Maps in WordPress with JS and CSS"
 link: "https://volodymyrzh.medium.com/integrating-custom-maps-in-wordpress-with-js-and-css-7207378f51a7"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "Langchain이 필요하지 않은 이유"
 description: ""
 coverImage: "/assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_0.png"
 date: 2024-07-09 19:54
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HeresWhyYouProbablyDontNeedLangchain_0.png
 tag: Tech
 originalTitle: "Here’s Why You Probably Don’t Need Langchain!"
 link: "https://medium.com/gitconnected/chat-with-csv-files-using-googles-gemini-flash-no-langchain-0e8f79d63348"
+isUpdated: true
 ---
+
+
 
 ## Langchain을 사용하지 않고 CSV 파일과 상호 작용하는 LLM 파이프라인
 

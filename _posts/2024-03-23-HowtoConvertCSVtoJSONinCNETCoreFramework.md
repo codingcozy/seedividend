@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Convert CSV to JSON in C NET Core Framework"
 link: "https://cloudmersive.medium.com/how-to-convert-csv-to-json-in-c-net-core-framework-123414c5b26c"
+isUpdated: true
 ---
+
+
 
 
 

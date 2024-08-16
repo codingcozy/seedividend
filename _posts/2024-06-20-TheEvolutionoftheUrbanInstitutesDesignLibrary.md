@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Evolution of the Urban Institute’s Design Library"
 link: "https://medium.com/@urban-institute/the-evolution-of-the-urban-institutes-design-library-7c96b1c2aa16"
+isUpdated: true
 ---
+
+
 
 
 1.한 해 동안 여러 웹사이트를 출시한다고 상상해보세요. 각 사이트는 버튼, 아이콘, 이미지, 제목, 요약 및 날짜와 같은 디자인 요소를 여러 페이지에 걸쳐 복제해야 합니다. 이 복제본마다 다른 카드 변형이 필요할 수도 있습니다. 아래 프로젝트를 참고해주세요:

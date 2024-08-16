@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Images, fonts, and assets"
 link: "https://storybook.js.org/docs/configure/images-and-assets"
+isUpdated: true
 ---
+
+
 
 
 

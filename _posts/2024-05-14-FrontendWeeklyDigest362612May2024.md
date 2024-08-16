@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Frontend Weekly Digest #362 (6–12 May 2024)"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-362-6-12-may-2024-dbebe672a393"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-FrontendWeeklyDigest362612May2024_0.png)

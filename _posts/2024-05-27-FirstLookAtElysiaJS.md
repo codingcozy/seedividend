@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "First Look At ElysiaJS"
 link: "https://medium.com/codex/first-look-at-elysiajs-84ecf1bc8b38"
+isUpdated: true
 ---
+
+
 
 
 ## 새로운 번 런타임 환경에서 현대적인 API 구축

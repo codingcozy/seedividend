@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Nextjs can enhance its fetch functionality by drawing inspiration from Nuxtjs and Vuejs ecosystem "
 link: "https://medium.com/@kristiyan.velkov/how-next-js-can-enhance-its-fetch-functionality-by-drawing-inspiration-from-nuxt-js-37534a09cce4"
+isUpdated: true
 ---
+
+
 
 
 

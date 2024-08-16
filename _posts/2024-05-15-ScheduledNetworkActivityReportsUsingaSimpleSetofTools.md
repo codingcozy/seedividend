@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Scheduled Network Activity Reports Using a Simple Set of Tools"
 link: "https://medium.com/@tentotheminus9/scheduled-network-activity-reports-using-a-simple-set-of-tools-646367b22c33"
+isUpdated: true
 ---
+
+
 
 
 # 소개

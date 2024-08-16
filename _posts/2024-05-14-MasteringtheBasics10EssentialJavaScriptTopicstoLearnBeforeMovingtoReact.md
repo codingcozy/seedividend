@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering the Basics: 10 Essential JavaScript Topics to Learn Before Moving to React."
 link: "https://medium.com/@shavaizali159/mastering-the-basics-10-essential-javascript-topics-to-learn-before-moving-to-react-da27ac050185"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-MasteringtheBasics10EssentialJavaScriptTopicstoLearnBeforeMovingtoReact_0.png)

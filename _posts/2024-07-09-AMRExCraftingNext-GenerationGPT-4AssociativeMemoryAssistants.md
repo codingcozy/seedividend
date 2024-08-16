@@ -3,12 +3,15 @@ title: "AMREx 차세대 GPT-4 연상 메모리 어시스턴트 개발 방법 소
 description: ""
 coverImage: "/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png"
 date: 2024-07-09 20:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png
 tag: Tech
 originalTitle: "AMREx: Crafting Next-Generation GPT-4 Associative Memory Assistants"
 link: "https://medium.com/ai-advances/amrex-crafting-next-generation-gpt-4-associative-memory-assistants-7de20b0cdf38"
+isUpdated: true
 ---
+
+
 
 ## AI 개발
 

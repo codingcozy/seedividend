@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Doc blocks"
 link: "https://storybook.js.org/docs/writing-docs/doc-blocks"
+isUpdated: true
 ---
+
+
 
 
 

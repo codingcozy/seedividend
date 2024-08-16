@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Frontend Masters Solid Principles in React   React Native"
 link: "https://medium.com/stackademic/react-native-masters-solid-principles-in-react-react-native-a1b8df8d261d"
+isUpdated: true
 ---
+
+
 
 
 

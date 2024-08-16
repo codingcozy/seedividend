@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "managerHead"
 link: "https://storybook.js.org/docs/api/main-config-manager-head"
+isUpdated: true
 ---
+
+
 
 
 

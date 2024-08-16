@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Neurodesign 7 tips for deeper emotional engagement"
 link: "https://bootcamp.uxdesign.cc/neurodesign-7-tips-for-deeper-emotional-engagement-fd18d569deb9"
+isUpdated: true
 ---
+
+
 
 
 

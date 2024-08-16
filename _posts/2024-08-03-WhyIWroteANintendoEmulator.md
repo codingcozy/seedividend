@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why I Wrote A Nintendo Emulator"
 link: "https://medium.com/engage/why-i-wrote-a-nintendo-emulator-804270d2e193"
+isUpdated: true
 ---
+
+
 
 
 ## 컴퓨터 과학

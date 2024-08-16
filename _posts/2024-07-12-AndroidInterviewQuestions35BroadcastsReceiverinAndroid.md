@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Android Interview Questions: 35 | Broadcasts Receiver in Android"
 link: "https://medium.com/@dawinderapps/android-interview-questions-35-broadcasts-receiver-in-android-636656bc8116"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-AndroidInterviewQuestions35BroadcastsReceiverinAndroid_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why you should never set 10px or 62.5% as your base font size in CSS"
 link: "https://medium.com/frontend-for-everyone/why-you-should-never-set-10px-or-62-5-as-your-base-font-size-in-css-a1c768f23d62"
+isUpdated: true
 ---
+
+
 
 
 세계와 기술이 발전함에 따라 억지로 무언가를 작동하려고 하면 나중에 문제가 발생할 수 있습니다. 특히 CSS에서 기본 글꼴 크기를 조정하는 개발자들에게 이는 특히 사실입니다. 이 기사에서는 기본 글꼴 크기를 처리하는 다양한 방법을 효과적인 방법부터 최적의 방법까지 다루고 그들을 올바르게 사용하는 방법을 설명하겠습니다. 그러나 가장 중요한 것은...

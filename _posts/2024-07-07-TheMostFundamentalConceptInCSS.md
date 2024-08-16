@@ -3,12 +3,15 @@ title: "CSS의 가장 기본적인 개념"
 description: ""
 coverImage: "/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_0.png"
 date: 2024-07-07 02:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-TheMostFundamentalConceptInCSS_0.png
 tag: Tech
 originalTitle: "The Most Fundamental Concept In CSS."
 link: "https://medium.com/@sai-mishra/the-most-fundamental-concept-in-css-90f6f975bdee"
+isUpdated: true
 ---
+
+
 
 상자 모델은 CSS의 가장 기본적인 개념 중 하나입니다. 심지어 가장 중요한 개념 중 하나로 꼽을 정도이며, CSS를 배울 때 가장 먼저 배워야 할 것입니다. 그래서 상자 모델에 대한 좋은 이해는 CSS 마스터가 되고 싶다면 필수적입니다. 오늘은 CSS에서 상자 모델을 몇 분 안에 가르쳐 드릴 거에요. 그러니 시작해볼까요?
 

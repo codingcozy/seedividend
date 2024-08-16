@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Electron , React: The Boilerplate"
 link: "https://medium.com/@rdarida/electron-react-the-boilerplate-fc3a7d9b9ec1"
+isUpdated: true
 ---
+
+
 
 
 이 글에서는 Electron 및 React를 사용하여 크로스 플랫폼 데스크톱 애플리케이션을 개발할 수 있는 보일러플레이트를 만드는 방법을 안내하겠습니다.

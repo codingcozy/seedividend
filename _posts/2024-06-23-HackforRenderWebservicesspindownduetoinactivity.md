@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hack for Render Web services spin down due to inactivity"
 link: "https://medium.com/@shriharshranjangupta/solution-for-render-com-web-services-spin-down-due-to-inactivity-a5c6061b581b"
+isUpdated: true
 ---
+
+
 
 
 백엔드 응용 프로그램을 취미로 배포할 때, Render는 간편성과 기능 세트로 인해 인기 있는 선택지입니다. 그러나 Render의 일반적인 문제 중 하나는 사용되지 않을 경우 무료 인스턴스가 중단될 수 있다는 것입니다. 이는 인스턴스를 다시 배포해야 할 때 최대 1분까지 응답이 지연되는 결과를 가져옵니다. Render에서 이러한 동작에 대해 명확히 설명되어 있습니다:

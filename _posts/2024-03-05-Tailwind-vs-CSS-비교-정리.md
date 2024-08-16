@@ -1,5 +1,5 @@
 ---
-title: "Tailwind vs CSS 비교 정리"
+title: "Tailwind vs CSS 비교 정리(2024년 최신)"
 description: "Tailwind와 CSS를 비교하여 장단점을 살펴봅니다"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

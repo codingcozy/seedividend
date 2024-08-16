@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Farewell, Ramda"
 link: "https://medium.com/better-programming/farewell-ramda-8f4d85bf64e0"
+isUpdated: true
 ---
+
+
 
 
 ## 옛날 코드를 해독하느라 수고스러운 적이 있으신가요? 종종 Ramda가 관련되어 복잡한 작업을 하게 만들어 다른 간단한 대안을 찾게 했었죠.

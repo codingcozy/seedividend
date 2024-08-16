@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Master 'Normalization' in SQL"
 link: "https://medium.com/learning-sql/master-normalization-in-sql-38143c7760ff"
+isUpdated: true
 ---
+
+
 
 
 

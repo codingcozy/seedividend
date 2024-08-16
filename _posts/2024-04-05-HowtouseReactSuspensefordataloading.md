@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use React Suspense for data loading"
 link: "https://medium.com/@amirilovic/how-to-use-react-suspense-for-data-loading-4b68f9200c19"
+isUpdated: true
 ---
+
+
 
 
 

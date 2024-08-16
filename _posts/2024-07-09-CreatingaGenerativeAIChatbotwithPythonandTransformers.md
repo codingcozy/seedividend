@@ -3,12 +3,15 @@ title: "파이썬과 트랜스포머로 생성형 AI 챗봇 만들기 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png"
 date: 2024-07-09 19:40
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CreatingaGenerativeAIChatbotwithPythonandTransformers_0.png
 tag: Tech
 originalTitle: "Creating a Generative AI Chatbot with Python and Transformers"
 link: "https://medium.com/@tc2017057888/creating-a-generative-ai-chatbot-with-python-and-transformers-1b1353ae91ff"
+isUpdated: true
 ---
+
+
 
 요즘의 디지털 시대에, 챗봇은 간단한 자동응답 도구에서 복잡하고 맥락을 이해하는 대화를 수행할 수 있는 가상 보조로 진화했습니다. 이 글에서는 파이썬과 허깅페이스의 트랜스포머 라이브러리를 사용하여 생성 모델인 GPT-2와 같은 고급 모델을 활용해 AI 챗봇을 구축하는 방법을 살펴보겠습니다.
 

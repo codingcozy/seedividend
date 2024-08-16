@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Art of Flexbox Mastering Modern Web Design Techniques"
 link: "https://medium.com/@batuhan.ozcan/the-art-of-flexbox-mastering-modern-web-design-techniques-8031123f7848"
+isUpdated: true
 ---
+
+
 
 
 

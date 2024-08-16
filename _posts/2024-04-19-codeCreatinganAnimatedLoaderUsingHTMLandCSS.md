@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "codeCreating an Animated Loader Using HTML and CSS"
 link: "https://medium.com/@withaarzoo/creating-an-animated-loader-using-html-and-css-0a2f319bc560"
+isUpdated: true
 ---
+
+
 
 
 

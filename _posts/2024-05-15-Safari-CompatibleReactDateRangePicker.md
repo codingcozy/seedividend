@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Safari-Compatible React Date Range Picker"
 link: "https://medium.com/nonstopio/safari-compatible-react-date-range-picker-ae310ccf214f"
+isUpdated: true
 ---
+
+
 
 
 ![Safari-Compatible React DateRangePicker](/assets/img/2024-05-15-Safari-CompatibleReactDateRangePicker_0.png)

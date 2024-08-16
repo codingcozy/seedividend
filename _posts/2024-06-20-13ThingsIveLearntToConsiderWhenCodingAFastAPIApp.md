@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "13 Things I’ve Learnt To Consider When Coding A FastAPI App"
 link: "https://medium.com/@zlliu/13-things-ive-learnt-to-consider-when-coding-a-fastapi-app-8a53f3ce1c88"
+isUpdated: true
 ---
+
+
 
 
 대학 시절에는 학교 프로젝트를 위해 쓸만한 한 페이지 FastAPI 백엔드 애플리케이션을 만들 수 있었어요. 솔직히 말해 많은 교수님들이 우리의 프로젝트 코드를 읽지도 않으셨다니까요.

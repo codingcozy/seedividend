@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hexagonal Architecture with Angular"
 link: "https://medium.com/@alet.aurelien/hexagonal-architecture-with-angular-7e4d070155ea"
+isUpdated: true
 ---
+
+
 
 
 ## Angular 앱에 육각형 아키텍처를 적용하는 방법을 보여주는 구체적인 예시입니다.

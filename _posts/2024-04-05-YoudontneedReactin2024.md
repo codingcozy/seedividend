@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "You dont need React in 2024"
 link: "https://medium.com/@dmitry.sobolevsky/you-dont-need-react-in-2024-45257fa9b25b"
+isUpdated: true
 ---
+
+
 
 
 

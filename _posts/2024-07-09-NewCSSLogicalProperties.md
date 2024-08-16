@@ -3,12 +3,15 @@ title: "새로운 CSS 논리 속성들"
 description: ""
 coverImage: "/assets/img/2024-07-09-NewCSSLogicalProperties_0.png"
 date: 2024-07-09 17:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-NewCSSLogicalProperties_0.png
 tag: Tech
 originalTitle: "New CSS Logical Properties!"
 link: "https://medium.com/@elad/new-css-logical-properties-bc6945311ce7"
+isUpdated: true
 ---
+
+
 
 ## CSS 진화의 다음 단계
 

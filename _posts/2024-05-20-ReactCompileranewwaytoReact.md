@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Compiler a new way to React…"
 link: "https://medium.com/@2710rajatsharma/react-compiler-a-new-way-to-react-e3be40bacc87"
+isUpdated: true
 ---
+
+
 
 
 최근 Meta사에서 React를 위한 새로운 컴파일러를 발표했어요. 이 소식은 생각보다 더 큰 뜻을 가지고 있어요. 이 블로그에서는 React의 새로운 컴파일러에 대한 기본적인 내용을 이해해보려 합니다.

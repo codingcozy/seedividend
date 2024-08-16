@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Communication Through LMS in LWC"
 link: "https://medium.com/@saurabh.samirs/communication-through-lms-in-lwc-ed892cedab94"
+isUpdated: true
 ---
+
+
 
 
 

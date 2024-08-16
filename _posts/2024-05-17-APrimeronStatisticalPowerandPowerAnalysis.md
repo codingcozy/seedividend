@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Primer on Statistical Power and Power Analysis"
 link: "https://medium.com/@keith-mcnulty/a-primer-on-statistical-power-and-power-analysis-bdce41e97475"
+isUpdated: true
 ---
+
+
 
 
 만약 내 경험이 너의 것과 비슷하다면, 너도 일할 때 '통계적 파워'에 대해 다양한 사람들이 이야기하는 것을 들어본 적이 있을 거야. 대부분의 경우, 이들 사람들은 더 큰 표본 크기를 주장하면서 보통 더 많은 n이 항상 좋다는 모호한 개념을 기반으로 이야기하는 것 같아.

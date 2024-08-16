@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "If youre struggling to learn to code, you must Read this"
 link: "https://medium.com/@cannon_circuit/if-youre-struggling-to-learn-to-code-you-must-read-this-8d4cc38ec81f"
+isUpdated: true
 ---
+
+
 
 
 

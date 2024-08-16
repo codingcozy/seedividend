@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Listen to the App Lifecycle Event after Flutter 313"
 link: "https://medium.com/stackademic/how-to-listen-to-the-app-lifecycle-event-after-flutter-3-13-120a4ecf1453"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to implement multiple file uploads in React?"
 link: "https://medium.com/gitconnected/how-to-implement-multiple-file-uploads-in-react-4cdcaadd0f6e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-02-HowtoimplementmultiplefileuploadsinReact_0.png" />

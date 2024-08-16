@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What If Java Collections Had Eager Methods for Filter, Map, FlatMap?"
 link: "https://medium.com/better-programming/what-if-java-collections-had-eager-methods-for-filter-map-flatmap-a61ef07fa52a"
+isUpdated: true
 ---
+
+
 
 
 ## 불필요한 탄수화물 없이 고단백 이터레이션 패턴을 탐색해보세요

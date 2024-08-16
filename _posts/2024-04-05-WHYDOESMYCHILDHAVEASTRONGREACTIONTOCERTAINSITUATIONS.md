@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "WHY DOES MY CHILD HAVE A STRONG REACTION TO CERTAIN SITUATIONS"
 link: "https://medium.com/@evabatsarii/why-does-my-child-have-a-strong-reaction-to-certain-situations-95d12a61df3d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What am I front-end identity crisis"
 link: "https://medium.com/@mail.davidredmond/what-am-i-front-end-identity-crisis-88db52ff029e"
+isUpdated: true
 ---
+
+
 
 
 

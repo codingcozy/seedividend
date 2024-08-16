@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using ChatGPT, the TypeScript Compiler, and Experimental Decorators to Build a Basic Code-First DB Tool"
 link: "https://medium.com/better-programming/using-chatgpt-the-typescript-compiler-and-experimental-decorators-to-build-a-code-first-db-tool-30fbb377cc04"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-UsingChatGPTtheTypeScriptCompilerandExperimentalDecoratorstoBuildaBasicCode-FirstDBTool_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating PHP Applications with Ecotone and RabbitMQ"
 link: "https://medium.com/dev-genius/integrating-php-applications-with-ecotone-and-rabbitmq-df60f93eb1db"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-18-IntegratingPHPApplicationswithEcotoneandRabbitMQ_0.png" />

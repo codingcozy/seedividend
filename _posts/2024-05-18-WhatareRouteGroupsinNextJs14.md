@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What are Route Groups in NextJs 14?"
 link: "https://medium.com/@prachigarg1923/what-are-route-groups-in-nextjs-14-221dd5460da1"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분! Next.js에서는 종종 페이지를 앱 디렉토리 내의 폴더로 구성하죠, 맞죠? 그런데 만약 URL 경로를 지저분하게 하지 않고 관련된 경로를 그룹화하고 싶다면 어떻게 할까요? 바로 Route Groups가 등장합니다!

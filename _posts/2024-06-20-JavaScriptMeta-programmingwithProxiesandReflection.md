@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript Meta-programming with Proxies and Reflection"
 link: "https://medium.com/ekino-france/javascript-meta-programming-with-proxies-and-reflection-26263fc8b52f"
+isUpdated: true
 ---
+
+
 
 
 개요, 응용 프로그램, 모범 사례 및 제한 사항

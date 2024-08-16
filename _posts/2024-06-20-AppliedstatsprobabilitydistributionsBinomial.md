@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Applied stats: probability distributions — Binomial"
 link: "https://medium.com/@vitorbeltrao300/applied-stats-probability-distributions-binomial-95276bdcab54"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_0.png" />

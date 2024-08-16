@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Simple Marquee Effect with CSS Animation"
 link: "https://medium.com/@stheodorejohn/creating-a-simple-marquee-effect-with-css-animation-bbd52bb0dbf8"
+isUpdated: true
 ---
+
+
 
 
 

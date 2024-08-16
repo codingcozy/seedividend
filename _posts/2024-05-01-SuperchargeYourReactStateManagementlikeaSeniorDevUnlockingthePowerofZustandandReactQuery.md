@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Supercharge Your React State Management like a Senior Dev: Unlocking the Power of Zustand and React Query"
 link: "https://medium.com/@iamashot/supercharge-your-react-state-management-like-a-senior-dev-unlocking-the-power-of-zustand-and-react-b2db33ecd12"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-SuperchargeYourReactStateManagementlikeaSeniorDevUnlockingthePowerofZustandandReactQuery_0.png" />

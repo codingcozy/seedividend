@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implement OPA preventive controls in AWS cloud using Terraform IaC with GitHub Actions workflow."
 link: "https://medium.com/@anshubathla86/implement-opa-preventive-controls-in-aws-cloud-using-terraform-iac-with-github-actions-workflow-8081b07e9161"
+isUpdated: true
 ---
+
+
 
 
 이 절차에서는 테라폼을 인프라스트럭처-애즈-코드(IaC)로 사용하는 동안 GitHub Actions와 함께 OPA(Open Policy Agent)를 활용한 Policy-as-Code 시프트-레프트 전략을 구현하는 방법을 보여드리고 있습니다.

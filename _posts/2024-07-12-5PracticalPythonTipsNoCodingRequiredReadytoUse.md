@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Practical Python Tips: No Coding Required, Ready to Use!"
 link: "https://medium.com/top-python-libraries/5-practical-python-tips-no-coding-required-ready-to-use-b433e8e9e407"
+isUpdated: true
 ---
+
+
 
 
 ## 파이썬 기술

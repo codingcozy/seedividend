@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to become a selftaught UI UX designer"
 link: "https://medium.com/@niamh-oshea/how-to-become-a-self-taught-ui-ux-designer-4d0ad113537e"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Handling Browser Refresh in React Best Practices and Pitfalls"
 link: "https://medium.com/@stheodorejohn/handling-browser-refresh-in-react-best-practices-and-pitfalls-5d4451d579ff"
+isUpdated: true
 ---
+
+
 
 
 

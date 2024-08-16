@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python Coding: Make For Loops 10x Faster with Multithreading"
 link: "https://medium.com/gitconnected/python-coding-make-for-loops-10x-faster-with-multithreading-63c3d5c5d9d9"
+isUpdated: true
 ---
+
+
 
 
 

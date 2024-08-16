@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top JavaScript Frameworks and Technology 2023"
 link: "https://medium.com/javascript-scene/top-javascript-frameworks-and-technology-2023-4e4a06d6be93"
+isUpdated: true
 ---
+
+
 
 
 ## TL;DR: JavaScript + React + Redux는 여전히 약세를 유지하고 있습니다. 가장 좋은 결과를 얻으려면 Next.js와 Vercel을 함께 사용하세요. AI는 SudoLang + Agents로 폭발적으로 성장 중입니다. Web3의 성장세도 강합니다.

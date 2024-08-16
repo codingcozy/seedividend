@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying a Nextjs 14 app to Google Cloud Run"
 link: "https://medium.com/@callumeddisford/deploying-a-next-js-14-app-to-google-cloud-run-c193895f5bd4"
+isUpdated: true
 ---
+
+
 
 
 

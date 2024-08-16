@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Journey Through Linux: Discovering the Best Distro"
 link: "https://medium.com/@apedik.dev/my-journey-through-linux-discovering-the-best-distro-32915c80a7a7"
+isUpdated: true
 ---
+
+
 
 
 저는 Slackware로 약 30년 전에 리눅스를 시작했어요. 당시에는 XFree86이라는 그래픽 인터페이스가 선택사항이었고, 모든 것을 수동으로 설치하고 종종 마우스나 오디오와 같은 구성 요소가 제대로 작동하도록 커널을 컴파일해야 했어요. 그 때의 경험은 도전적이었지만 매우 보람있었죠. 리눅스의 원시적인 파워를 보여줬어요.

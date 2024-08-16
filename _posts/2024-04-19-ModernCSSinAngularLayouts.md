@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Modern CSS in Angular Layouts"
 link: "https://medium.com/angular-blog/modern-css-in-angular-layouts-4a259dca9127"
+isUpdated: true
 ---
+
+
 
 
 

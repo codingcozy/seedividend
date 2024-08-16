@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Execa 9: our biggest release"
 link: "https://medium.com/@ehmicky/execa-9-release-d0d5daaa097f"
+isUpdated: true
 ---
+
+
 
 
 

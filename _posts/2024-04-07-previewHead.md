@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "previewHead"
 link: "https://storybook.js.org/docs/api/main-config-preview-head"
+isUpdated: true
 ---
+
+
 
 
 

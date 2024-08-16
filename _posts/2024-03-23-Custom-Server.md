@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "사용자 지정 서버"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

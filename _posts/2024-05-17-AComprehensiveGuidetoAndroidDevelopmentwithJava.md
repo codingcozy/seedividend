@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Comprehensive Guide to Android Development with Java"
 link: "https://medium.com/@oishik1907/a-comprehensive-guide-to-android-development-with-java-c3b2683d5952"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 안드로이드 개발은 기술 산업에서 중심이 되어, 전 세계의 수백만 대의 장치를 구동합니다. 방대한 사용자 기반과 유연성을 갖고 있어 Android 애플리케이션을 개발하는 것은 보람찬 일일 수 있습니다. 안드로이드 개발을 위한 가장 인기 있는 언어 중 하나는 Java입니다. 이 안내서는 Java를 사용하여 Android 개발의 기본 사항을 소개하며 환경 설정부터 첫 번째 앱을 배포하는 과정까지 안내해 드릴 것입니다.

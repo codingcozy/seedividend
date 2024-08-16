@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to effectively manage database changes using Flyway"
 link: "https://medium.com/itnext/how-to-effectively-manage-database-changes-using-flyway-6a4c6a727f42"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_0.png" />

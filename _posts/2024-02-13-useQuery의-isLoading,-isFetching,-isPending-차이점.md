@@ -1,5 +1,5 @@
 ---
-title: "useQuery의 isLoading, isFetching, isPending 차이점"
+title: "useQuery의 isLoading, isFetching, isPending 차이점 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

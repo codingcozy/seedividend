@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Flutter SDK Part 1 Breaking Down a Flutter Package"
 link: "https://medium.com/flutter-community/building-a-flutter-sdk-part-1-breaking-down-a-flutter-package-49fe36ec4b4b"
+isUpdated: true
 ---
+
+
 
 
 

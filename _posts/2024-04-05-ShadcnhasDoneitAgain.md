@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Shadcn has Done it Again"
 link: "https://medium.com/@danielcracbusiness/shadcn-has-done-it-again-cad209b16181"
+isUpdated: true
 ---
+
+
 
 
 

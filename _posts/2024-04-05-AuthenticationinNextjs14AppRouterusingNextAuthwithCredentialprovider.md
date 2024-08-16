@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Authentication in Nextjs 14 App Router using NextAuth with Credential provider"
 link: "https://medium.com/@julispitangso/authentication-in-next-js-14-app-router-using-nextauth-with-credential-provider-c6c6e64433de"
+isUpdated: true
 ---
+
+
 
 
 

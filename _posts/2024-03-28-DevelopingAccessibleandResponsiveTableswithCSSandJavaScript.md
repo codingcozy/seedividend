@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Developing Accessible and Responsive Tables with CSS and JavaScript"
 link: "https://medium.com/@volodymyrzh/developing-accessible-and-responsive-tables-with-css-and-javascript-7e1e420f13e4"
+isUpdated: true
 ---
+
+
 
 
 

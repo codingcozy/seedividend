@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with MongoDB Atlas for Semantic Search"
 link: "https://medium.com/data-engineer-things/getting-started-with-mongodb-atlas-for-semantic-search-7ac77ed3d195"
+isUpdated: true
 ---
+
+
 
 
 ## 최신 MongoDB Atlas Vector Search 기능을 소개합니다

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s new in Flutter 3.22"
 link: "https://medium.com/flutter/whats-new-in-flutter-3-22-fbde6c164fe3"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 새로운 Flutter 안정 버전으로 다시 돌아왔습니다! 이번에는 Flutter 3.22를 소개해 드리게 되어 매우 기쁘게 생각합니다. 안정 채널에 WebAssembly를 도입하고, Android에서 Impeller용으로 완전히 강화된 Vulkan 백엔드를 제공하여 그래픽이 좀 더 부드럽고 성능이 크게 향상되었습니다. 또한, 새로운 위젯 상태 속성, 동적 뷰 크기 조정, 개선된 폼 유효성 검사를 통해 간편화된 작업 흐름을 소개하고 있습니다. 그 외에도, 플레이버 조건부 자산 번들링, Dart에서 Firebase의 Vertex AI 미리보기, 개선된 DevTools 등 다양한 업데이트가 있어 여러분의 개발 생활을 더욱 편리하게 만들어 줄 것입니다.

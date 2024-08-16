@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Let’s Talk About My IDE Choice for Kotlin Multiplatform Development"
 link: "https://medium.com/@callmeryan/lets-talk-about-my-ide-choice-for-kotlin-multiplatform-development-6fc2b11a8a64"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-01-LetsTalkAboutMyIDEChoiceforKotlinMultiplatformDevelopment_0.png" />

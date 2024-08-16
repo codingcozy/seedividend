@@ -1,5 +1,5 @@
 ---
-title: "자주 만나는 React 에러 18가지 해결방법"
+title: "자주 겪는 React 에러 18가지 해결방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "18 common React errors and a comprehensive guide on React error handling"
 link: "https://zipy-ai.medium.com/18-common-react-errors-and-a-comprehensive-guide-on-react-error-handling-ccac5a0f63f4"
+isUpdated: true
 ---
+
+
 
 
 

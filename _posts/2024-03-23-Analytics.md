@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "분석"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

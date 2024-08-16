@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Amazon Phone Interview Experience for Front-End Engineer"
 link: "https://medium.com/@ghewadesumit/amazon-phone-interview-experience-for-front-end-engineer-ba2d429a3ea2"
+isUpdated: true
 ---
+
+
 
 
 프론트엔드 엔지니어 포지션(4-5년 경력)에 지원했어요. 인터뷰는 행동 질문, 프론트엔드 질문 및 역 인터뷰 세 가지 부분으로 나뉘었어요.

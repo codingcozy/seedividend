@@ -3,12 +3,15 @@ title: "React에서 Tailwind CSS 설치 및 구성하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_0.png"
 date: 2024-07-09 13:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_0.png
 tag: Tech
 originalTitle: "How to Install and Configure Tailwind CSS in React"
 link: "https://medium.com/@miahossain8888/how-to-install-and-configure-tailwind-css-in-react-13accc4c5b4b"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-HowtoInstallandConfigureTailwindCSSinReact_0.png)
 

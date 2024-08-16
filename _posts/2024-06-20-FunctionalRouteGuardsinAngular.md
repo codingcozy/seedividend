@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Functional Route Guards in Angular"
 link: "https://medium.com/ngconf/functional-route-guards-in-angular-8829f0e4ca5c"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-FunctionalRouteGuardsinAngular_0.png" />

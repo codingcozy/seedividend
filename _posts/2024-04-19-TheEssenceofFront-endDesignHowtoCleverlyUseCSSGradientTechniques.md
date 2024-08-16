@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Essence of Front-end Design How to Cleverly Use CSS Gradient Techniques"
 link: "https://medium.com/gitconnected/the-essence-of-front-end-design-how-to-cleverly-use-css-gradient-techniques-ddc2a50c3fa1"
+isUpdated: true
 ---
+
+
 
 
 

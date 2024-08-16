@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding useImperativeHandle A Powerful Hook for React Development"
 link: "https://medium.com/@nadeem.ahmad.na/understanding-useimperativehandle-a-powerful-hook-for-react-development-46063e44e52a"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Supporting Multiple Modals in React Native: A New Approach"
 link: "https://medium.com/whitespectre/supporting-multiple-modals-in-react-native-a-new-approach-a6a4f4ff0339"
+isUpdated: true
 ---
+
+
 
 
 ## 여러 모달을 관리하는 것은 React Native의 표준 모달 구현 및 인기있는 서드 파티 라이브러리에서 볼 수 있는 제한 사항입니다. 이 문제에 대한 우리만의 접근 방식 및 우리의 rn-modal-presenter 라이브러리 사용 방법을 알아보세요.

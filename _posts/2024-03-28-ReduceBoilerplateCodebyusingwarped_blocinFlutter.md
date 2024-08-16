@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reduce Boilerplate Code by using warped_bloc in Flutter"
 link: "https://medium.com/@sushaanshakya88/reduce-boilerplate-code-by-using-warped-bloc-in-flutter-9ae76c2d1f1b"
+isUpdated: true
 ---
+
+
 
 
 

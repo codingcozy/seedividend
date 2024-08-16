@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "All JavaScript and TypeScript Features of the last 3 years"
 link: "https://medium.com/better-programming/all-javascript-and-typescript-features-of-the-last-3-years-629c57e73e42"
+isUpdated: true
 ---
+
+
 
 
 

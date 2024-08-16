@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Login SignUp Page in Flutter"
 link: "https://medium.com/@flutterdynasty/login-signup-page-design-with-code-c593e7c82a4c"
+isUpdated: true
 ---
+
+
 
 
 

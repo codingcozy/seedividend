@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Art Drawing Santa Claus in CSS"
 link: "https://medium.com/gitconnected/css-art-drawing-santa-claus-in-css-1f27a764d43f"
+isUpdated: true
 ---
+
+
 
 
 

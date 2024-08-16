@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Bézier Curves"
 link: "https://medium.com/@mmrndev/understanding-b%C3%A9zier-curves-f6eaa0fa6c7d"
+isUpdated: true
 ---
+
+
 
 
 ![Understanding Bézier Curves](/assets/img/2024-05-17-UnderstandingBzierCurves_0.png)

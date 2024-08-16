@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Paginated vs Virtualized List"
 link: "https://medium.com/@akramnarejo/paginated-vs-virtualized-list-1afc32e3e00b"
+isUpdated: true
 ---
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "CSS Container Query를 반드시 사용해야하는 이유 "
+title: "CSS Container Query를 반드시 사용해야하는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "This is why you should include Container Queries in your code"
 link: "https://medium.com/@mkachsah/why-do-you-need-to-include-container-queries-in-your-code-facadb83a5d2"
+isUpdated: true
 ---
+
+
 
 
 

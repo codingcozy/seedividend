@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Become a React Native Developer  The New Architecture"
 link: "https://medium.com/@under_the_hook/react-native-the-new-architecture-c4ba8ed8b452"
+isUpdated: true
 ---
+
+
 
 
 

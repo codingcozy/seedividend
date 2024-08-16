@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Accessing route params in Angular"
 link: "https://medium.com/ngconf/accessing-route-params-in-angular-1f8e12770617"
+isUpdated: true
 ---
+
+
 
 
 

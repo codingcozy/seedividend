@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Senior React Native Admob Integration"
 link: "https://medium.com/@tayfunkaya/senior-react-native-admob-integration-fe1588af5767"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분,

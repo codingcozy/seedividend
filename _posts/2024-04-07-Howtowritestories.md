@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to write stories"
 link: "https://storybook.js.org/docs/writing-stories"
+isUpdated: true
 ---
+
+
 
 
 

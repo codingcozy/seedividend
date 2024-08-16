@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setup Jest in a typescript React project"
 link: "https://medium.com/@abhishekpn98/setup-jest-in-a-typescript-react-project-cfb8188534ec"
+isUpdated: true
 ---
+
+
 
 
 

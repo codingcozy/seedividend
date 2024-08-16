@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Improve Angular Application Performance 🚀"
 link: "https://medium.com/@chandrabhushan1323/how-to-improve-angular-application-performance-fadde3890e71"
+isUpdated: true
 ---
+
+
 
 
 ![그림](/assets/img/2024-06-22-HowtoImproveAngularApplicationPerformance_0.png)

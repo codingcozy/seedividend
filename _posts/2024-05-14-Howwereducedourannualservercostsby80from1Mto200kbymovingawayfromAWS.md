@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How we reduced our annual server costs by 80% — from $1M to $200k — by moving away from AWS"
 link: "https://medium.com/gitconnected/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46"
+isUpdated: true
 ---
+
+
 
 
 ## Prerender의 기술 리드이자 총괄 매니저 인 Zsolt Varga와의 인터뷰

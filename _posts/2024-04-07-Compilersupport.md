@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Compiler support"
 link: "https://storybook.js.org/docs/configure/compilers"
+isUpdated: true
 ---
+
+
 
 
 

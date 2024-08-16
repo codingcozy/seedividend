@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Switch to Another Way to Inject Your Bean Instead of @Autowired on Your Fields"
 link: "https://medium.com/stackademic/switch-to-another-way-to-inject-your-bean-instead-of-autowired-on-your-fields-a399bd9ca3ed"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript 101: All About Timers"
 link: "https://medium.com/bitsrc/javascript-101-all-about-timers-cec07db55b86"
+isUpdated: true
 ---
+
+
 
 
 ## 타이머는 사용 방법을 알고 있다면 강력한 도구가 될 수 있어요

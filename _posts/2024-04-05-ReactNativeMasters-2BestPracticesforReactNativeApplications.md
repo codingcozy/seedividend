@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native Masters-2 Best Practices for React Native Applications"
 link: "https://medium.com/stackademic/optimizing-react-native-best-practices-for-effective-development-28516c8df413"
+isUpdated: true
 ---
+
+
 
 
 

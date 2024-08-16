@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular v18 announcements"
 link: "https://medium.com/@hmidihamdi7/angular-v18-announcements-784bac2f55ab"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-Angularv18announcements_0.png" />

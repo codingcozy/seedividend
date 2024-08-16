@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Calling Parent Components Function from Child Component in Reactjs"
 link: "https://medium.com/@s.salman0193/calling-parent-components-function-from-child-component-in-react-js-e2d550ccd66b"
+isUpdated: true
 ---
+
+
 
 
 

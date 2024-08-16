@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Generics in TypeScript: Write Flexible, Secure, and Duplicity-Free Code"
 link: "https://medium.com/@felipefreitasa/mastering-generics-in-typescript-write-flexible-secure-and-duplicity-free-code-b3027e20c108"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-19-MasteringGenericsinTypeScriptWriteFlexibleSecureandDuplicity-FreeCode_0.png)

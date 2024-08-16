@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "History of CSS Grid and CSS Flexbox"
 link: "https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2"
+isUpdated: true
 ---
+
+
 
 
 2018년 초에 발표된 WesBos CSS Grid를 앞서 소개한 이후, 트위터는 이를 향한 리뷰와 열정으로 가득 찼습니다. 이로 인해 일부 개발자들이 Flex와 Grid 레이아웃을 비교하기 시작했습니다. 이러한 유사성으로 인해 '이미 Flex를 알고 있기 때문에 Grid를 배워야 할까?’라는 질문이 나오게 되었습니다.

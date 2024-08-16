@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Rate Limiting in Next.js API Routes without External Packages"
 link: "https://medium.com/@abrar.adam.09/implementing-rate-limiting-in-next-js-api-routes-without-external-packages-7195ca4ef768"
+isUpdated: true
 ---
+
+
 
 
 ---

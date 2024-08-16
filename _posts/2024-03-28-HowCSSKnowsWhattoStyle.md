@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How CSS Knows What to Style"
 link: "https://medium.com/@rashmipatil24/css-selectors-59db4d9a97aa"
+isUpdated: true
 ---
+
+
 
 
 

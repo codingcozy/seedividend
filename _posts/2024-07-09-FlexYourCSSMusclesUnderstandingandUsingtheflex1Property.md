@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flex Your CSS Muscles: Understanding and Using the flex:1 Property"
 link: "https://medium.com/@ozantekindev/flex-your-css-muscles-understanding-and-using-the-flex-1-property-6657fb2382b3"
+isUpdated: true
 ---
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*ykK41RatkzwYeC7NB8G7PQ.gif" />

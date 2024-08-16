@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced CSS Animations and Examples"
 link: "https://medium.com/@eleftheriabatsou/advanced-css-animations-and-examples-7199e19f6e5d"
+isUpdated: true
 ---
+
+
 
 
 

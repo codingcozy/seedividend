@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Docker Logs with Filebeat and Elasticsearch"
 link: "https://medium.com/@vosarat1995/advanced-docker-logs-with-filebeat-and-elasticsearch-30073166a68e"
+isUpdated: true
 ---
+
+
 
 
 시스템 내에서 무슨 일이 일어나고 있는지 추적하고 싶다면 아마 애플리케이션 로그를 관측 스택에 연결하는 것부터 시작할 것입니다. 우리의 애플리케이션 로그는 아마 이미 도커에 저장되어 있고 가장 견고한 기술을 지향한다면 아마 엘라스틱 스택을 선택할 것입니다. 그렇다면 양쪽을 연결하는 것이 과제입니다. 저는 이를 위해 Filebeat를 사용할 것을 제안합니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tech Hacks: The Best Ways to Overcomplicate Simple Tasks"
 link: "https://medium.com/@TheOstrichNetwork/tech-hacks-the-best-ways-to-overcomplicate-simple-tasks-90748276905d"
+isUpdated: true
 ---
+
+
 
 
 테크오스트리치에 다시 오신 것을 환영합니다. 우리는 현대 기술의 이상하고 종종 필요하지 않은 면을 탐험하는 곳입니다. 오늘은 '테크 해킹' 세계로 뛰어들어보겠습니다 — 간단한 작업을 지나치게 복잡하게 만들어 '간편화'하려는 가전제품들에 대해요. 먹는 속도를 판단하는 스마트 포크에서부터 강아지의 모든 움직임을 추적하는 반려동물 기술까지, 우리가 만난 가장 말도 안 되는 혁신들에 대해 웃어봅시다. 가장 일상적인 작업조차 기술적으로 향상되기 위해 얼마나 많은 노력을 기울였는지 함께 살펴보죠!

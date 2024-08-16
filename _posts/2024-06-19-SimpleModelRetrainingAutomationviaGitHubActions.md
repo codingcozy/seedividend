@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple Model Retraining Automation via GitHub Actions"
 link: "https://medium.com/towards-data-science/simple-model-retraining-automation-via-github-actions-b0f61d5c869c"
+isUpdated: true
 ---
+
+
 
 
 

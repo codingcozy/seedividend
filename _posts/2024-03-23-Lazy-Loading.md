@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "게으름을 떼다"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

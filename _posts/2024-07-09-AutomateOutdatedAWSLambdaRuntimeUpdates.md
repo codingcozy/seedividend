@@ -3,12 +3,15 @@ title: "구버전 AWS Lambda 런타임 자동 업데이트 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_0.png"
 date: 2024-07-09 09:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-AutomateOutdatedAWSLambdaRuntimeUpdates_0.png
 tag: Tech
 originalTitle: "Automate Outdated AWS Lambda Runtime Updates"
 link: "https://medium.com/@akhilesh-mishra/automate-outdated-aws-lambda-runtime-updates-752ec4dc9fd4"
+isUpdated: true
 ---
+
+
 
 ## Python for devops v1.2 - 구버전/지원 중단된 런타임을 사용 중인 AWS 람다 함수의 업그레이드를 위한 Python 스크립트 작성하기.
 

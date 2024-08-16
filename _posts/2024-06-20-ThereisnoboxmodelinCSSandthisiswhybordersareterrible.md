@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "There is no box model in CSS — and this is why borders are terrible"
 link: "https://medium.com/@decketts/there-is-no-box-model-in-css-and-this-is-why-borders-are-terrible-dd7e4b736955"
+isUpdated: true
 ---
+
+
 
 
 ## 자바스크립트UI — 개발 블로그 #7

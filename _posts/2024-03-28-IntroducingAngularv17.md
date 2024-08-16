@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing Angular v17"
 link: "https://medium.com/angular-blog/introducing-angular-v17-4d7033312e4b"
+isUpdated: true
 ---
+
+
 
 
 

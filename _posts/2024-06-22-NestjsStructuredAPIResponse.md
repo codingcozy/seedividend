@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nest.js Structured API Response"
 link: "https://medium.com/@zigbalthazar/nest-js-structured-api-response-5b1c165c262b"
+isUpdated: true
 ---
+
+
 
 
 

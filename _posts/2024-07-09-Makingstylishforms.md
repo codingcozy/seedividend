@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Making stylish forms"
 link: "https://medium.com/@gaurav111shirodkar/making-stylish-forms-01c7d5e459f2"
+isUpdated: true
 ---
+
+
 
 
 ```js

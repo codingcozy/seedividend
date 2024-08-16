@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Execute asynchronous tasks in parallel without using built-in functions in JavaScript"
 link: "https://medium.com/@sasmita-ojha/execute-asynchronous-tasks-in-parallel-without-using-built-in-functions-in-javascript-a2da20619a5f"
+isUpdated: true
 ---
+
+
 
 
 ![Excute Asynchronous Tasks in Parallel without Using Built-in Functions in JavaScript](/assets/img/2024-05-14-Executeasynchronoustasksinparallelwithoutusingbuilt-infunctionsinJavaScript_0.png)

@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 14 현재 경로 세그먼트들 전부 가져오는 방법useSelectedLayoutSegments "
+title: "Nextjs 14 현재 경로 세그먼트들 전부 가져오는 방법useSelectedLayoutSegments"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

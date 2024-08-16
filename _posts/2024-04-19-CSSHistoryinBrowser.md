@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS History in Browser"
 link: "https://medium.com/stackademic/css-history-in-browser-7a9d9f45861f"
+isUpdated: true
 ---
+
+
 
 
 

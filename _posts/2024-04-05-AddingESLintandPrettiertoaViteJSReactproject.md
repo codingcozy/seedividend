@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adding ESLint and Prettier to a ViteJS React project"
 link: "https://medium.com/stackademic/adding-eslint-and-prettier-to-a-vitejs-react-project-84a0752c0fc5"
+isUpdated: true
 ---
+
+
 
 
 

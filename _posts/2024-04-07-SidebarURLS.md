@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sidebar , URLS"
 link: "https://storybook.js.org/docs/configure/sidebar-and-urls"
+isUpdated: true
 ---
+
+
 
 
 

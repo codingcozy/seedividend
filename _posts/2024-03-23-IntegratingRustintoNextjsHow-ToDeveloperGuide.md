@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Rust into Nextjs How-To Developer Guide"
 link: "https://medium.com/@capJavert/integrating-rust-into-next-js-how-to-developer-guide-10e533470d71"
+isUpdated: true
 ---
+
+
 
 
 

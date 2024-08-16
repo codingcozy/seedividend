@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Load, Unload, and BeforeUnload Event Listeners in React Significance, Use Cases, Best Practices, and Pitfalls"
 link: "https://medium.com/@stheodorejohn/load-unload-and-beforeunload-event-listeners-in-react-significance-use-cases-best-practices-59b31ffb5097"
+isUpdated: true
 ---
+
+
 
 
 

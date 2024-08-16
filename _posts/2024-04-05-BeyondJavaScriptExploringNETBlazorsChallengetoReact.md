@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Beyond JavaScript Exploring NET Blazors Challenge to React"
 link: "https://medium.com/itnext/beyond-javascript-exploring-net-blazors-challenge-to-react-e9bcd41ef4a0"
+isUpdated: true
 ---
+
+
 
 
 

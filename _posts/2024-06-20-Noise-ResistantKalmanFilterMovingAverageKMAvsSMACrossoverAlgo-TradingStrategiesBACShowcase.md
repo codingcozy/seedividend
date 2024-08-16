@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Noise-Resistant Kalman Filter Moving Average (KMA) vs SMA Crossover Algo-Trading Strategies: BAC Showcase"
 link: "https://medium.com/@alexzap922/noise-resistant-kalman-filter-moving-average-kma-vs-sma-crossover-algo-trading-strategies-bac-b1573e7d38ee"
+isUpdated: true
 ---
+
+
 
 
 - 대부분의 기술적거래지표(TTI)는 과거 주식 데이터에서 유래되며 미래 가격 흐름 반전을 예측하고 거래 결정을 내리는 데 거래자들에 의해 사용됩니다.

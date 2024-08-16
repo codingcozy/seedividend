@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Is there a place for Frontend Engineering in OutSystems"
 link: "https://medium.com/itnext/is-there-a-place-for-frontend-engineering-in-outsystems-7e1ebbdef900"
+isUpdated: true
 ---
+
+
 
 
 

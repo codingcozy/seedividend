@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Migrating Remix to Vite"
 link: "https://medium.com/@fernandoabolafio/migrating-remix-to-vite-0fc96c183f2d"
+isUpdated: true
 ---
+
+
 
 
 

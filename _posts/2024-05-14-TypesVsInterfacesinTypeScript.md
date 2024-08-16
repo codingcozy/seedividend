@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Types Vs Interfaces in TypeScript"
 link: "https://medium.com/@vikaskum660/types-vs-interfaces-in-typescript-053a3d6c4dc1"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding between Angular , React Part 1 Dumb , Smart Components"
 link: "https://medium.com/itnext/understanding-between-angular-react-part-1-dumb-smart-components-705b020a9ed9"
+isUpdated: true
 ---
+
+
 
 
 

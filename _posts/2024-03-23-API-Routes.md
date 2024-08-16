@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "API 라우트"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

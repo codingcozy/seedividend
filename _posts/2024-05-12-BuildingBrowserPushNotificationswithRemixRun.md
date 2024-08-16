@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Browser Push Notifications🔔 with Remix Run💿"
 link: "https://medium.com/@kirankumal714/building-browser-push-notifications-with-remix-run-21803e96e4f7"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-BuildingBrowserPushNotificationswithRemixRun_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Infinite Scroll with Nextjs Server Actions A Simple Guide"
 link: "https://medium.com/@ferlat.simon/infinite-scroll-with-nextjs-server-actions-a-simple-guide-76a894824cfd"
+isUpdated: true
 ---
+
+
 
 
 

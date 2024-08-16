@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "번들 분석 도구"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

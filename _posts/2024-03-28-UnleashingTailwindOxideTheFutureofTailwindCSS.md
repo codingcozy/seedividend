@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unleashing Tailwind Oxide The Future of Tailwind CSS"
 link: "https://medium.com/@tanay7/unleashing-tailwind-oxide-the-future-of-tailwind-css-7f1235de1751"
+isUpdated: true
 ---
+
+
 
 
 

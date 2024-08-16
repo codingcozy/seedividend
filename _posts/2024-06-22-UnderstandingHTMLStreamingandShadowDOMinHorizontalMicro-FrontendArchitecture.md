@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding HTML Streaming and Shadow DOM in Horizontal Micro-Frontend Architecture"
 link: "https://medium.com/stackademic/understanding-html-streaming-and-shadow-dom-in-horizontal-micro-frontend-architecture-51cdada138f5"
+isUpdated: true
 ---
+
+
 
 
 웹 개발 분야에서, 마이크로 프론트엔드 개념은 거대한 응용프로그램을 작은 관리 가능한 부분으로 분해하는 능력으로 인해 상당한 인기를 얻고 있습니다. 마이크로 프론트엔드 아키텍처에서 자주 사용되는 두 가지 중요한 기술은 HTML 스트리밍과 쉐도우 DOM입니다. 이 글에서는 이러한 기술들이 무엇을 의미하는지, 서로 어떻게 보완하는지, 코드 예제를 제공하고 수평적인 마이크로 프론트엔드 아키텍처에서의 장단점에 대해 논의할 것입니다.

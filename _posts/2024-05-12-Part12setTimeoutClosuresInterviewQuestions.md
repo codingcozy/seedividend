@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Part 12: setTimeout + Closures Interview Questions 🤓"
 link: "https://medium.com/@swati.developer17/part-12-settimeout-closures-interview-questions-cfa0d402831f"
+isUpdated: true
 ---
+
+
 
 
 # 사전 준비 사항:

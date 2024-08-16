@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ultimate Guide to N+1 Loading Problem in Hibernate JPA."
 link: "https://medium.com/@chikim79/ultimate-guide-to-n-1-loading-problem-in-hibernate-jpa-42e8e6cfb9f3"
+isUpdated: true
 ---
+
+
 
 
 하이버네이트/JPA 시리즈 두 번째 시간에 오신 걸 환영합니다! 이 기사에 뛰어들기 전에, Spring Data JPA에서 모든 데이터베이스 쿼리 기술을 탐색한 첫 번째 기사를 확인하는 것을 추천합니다.

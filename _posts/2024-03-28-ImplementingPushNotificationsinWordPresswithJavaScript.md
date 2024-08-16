@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Push Notifications in WordPress with JavaScript"
 link: "https://medium.com/@volodymyrzh/implementing-push-notifications-in-wordpress-with-javascript-4ba910832e46"
+isUpdated: true
 ---
+
+
 
 
 

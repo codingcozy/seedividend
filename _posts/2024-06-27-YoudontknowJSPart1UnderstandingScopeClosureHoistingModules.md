@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "You don’t know JS Part 1 — Understanding Scope , Closure , Hoisting, Modules"
 link: "https://medium.com/@venkateshb-03/you-dont-know-js-understanding-scope-closure-hoisting-modules-69c9ced2d62a"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-27-YoudontknowJSPart1UnderstandingScopeClosureHoistingModules_0.png)

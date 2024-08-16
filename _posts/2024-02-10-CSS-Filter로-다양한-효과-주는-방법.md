@@ -1,5 +1,5 @@
 ---
-title: "CSS Filter로 다양한 효과 주는 방법 블러,흑백,반전"
+title: "CSS Filter로 다양한 효과 주는 방법(블러,흑백,반전)"
 description: ""
 coverImage: ""
 date: 2024-08-03 16:52
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

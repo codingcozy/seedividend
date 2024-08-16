@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Databricks Champion : Journey"
 link: "https://medium.com/@muthu.bharanidharan/databricks-champion-journey-f3b423a2c319"
+isUpdated: true
 ---
+
+
 
 
 다음은 Databricks 챔피언 배지를 획득하고 지명되기 위한 요구 사항입니다.

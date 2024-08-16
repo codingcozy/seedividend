@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Micro Frontends in OutSystems"
 link: "https://medium.com/itnext/micro-frontends-in-outsystems-a6aafd0d0e65"
+isUpdated: true
 ---
+
+
 
 
 

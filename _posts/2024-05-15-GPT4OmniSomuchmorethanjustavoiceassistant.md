@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "GPT4 Omni — So much more than just a voice assistant"
 link: "https://medium.com/@daniellefranca96/gpt4-omni-so-much-more-than-just-a-voice-assistant-c5ae43bdc6be"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-15-GPT4OmniSomuchmorethanjustavoiceassistant_0.png)

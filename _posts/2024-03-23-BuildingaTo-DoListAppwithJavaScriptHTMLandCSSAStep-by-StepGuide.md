@@ -1,5 +1,5 @@
 ---
-title: "JavaScript, HTML, CSS로 Todolist 앱 만들기코드 있음"
+title: "JavaScript, HTML, CSS로 Todolist 앱 만들기(코드 있음)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a To-Do List App with JavaScript, HTML, and CSS, A Step-by-Step Guide"
 link: "https://medium.com/@jangacharysri/building-a-to-do-list-app-with-javascript-html-and-css-a-step-by-step-guide-4103d5d9402f"
+isUpdated: true
 ---
+
+
 
 
 

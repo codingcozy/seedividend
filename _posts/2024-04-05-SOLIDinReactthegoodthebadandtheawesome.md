@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SOLID in React the good, the bad, and the awesome"
 link: "https://medium.com/itnext/solid-in-react-the-good-the-bad-and-the-awesome-79d6cc518d1f"
+isUpdated: true
 ---
+
+
 
 
 

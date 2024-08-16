@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Data Visualisation: 3 Secret Tips on Python to Make Interactive Graphs and Impress Your Boss"
 link: "https://medium.com/gitconnected/data-visualisation-3-secret-tips-on-python-to-make-interactive-graphs-and-impress-your-boss-761f090cf339"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-DataVisualisation3SecretTipsonPythontoMakeInteractiveGraphsandImpressYourBoss_0.png" />

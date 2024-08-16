@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Use CSS Backgrounds and Borders"
 link: "https://medium.com/@ed.wacc1995/how-to-use-css-backgrounds-and-borders-bf95d6448967"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-20-HowToUseCSSBackgroundsandBorders_0.png)

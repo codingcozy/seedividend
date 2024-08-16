@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sending HTML Email Templates with Images using Node.js and Nodemailer"
 link: "https://medium.com/@raghavendralacharya/sending-html-email-templates-with-images-using-node-js-and-nodemailer-719a1f1dc894"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-02-SendingHTMLEmailTemplateswithImagesusingNodejsandNodemailer_0.png" />

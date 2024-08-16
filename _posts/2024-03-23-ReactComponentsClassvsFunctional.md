@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Components Class vs Functional"
 link: "https://medium.com/@mohimishra016/react-components-class-vs-functional-c3a080125d22"
+isUpdated: true
 ---
+
+
 
 
 

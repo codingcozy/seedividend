@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build these 5 Projects to Get Better at TypeScript"
 link: "https://medium.com/@mohit-vaswani/build-these-5-projects-to-get-better-at-typescript-1fd0937d6684"
+isUpdated: true
 ---
+
+
 
 
 

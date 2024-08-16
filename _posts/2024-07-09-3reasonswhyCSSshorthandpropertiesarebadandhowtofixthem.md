@@ -3,12 +3,15 @@ title: "CSS 축약 속성이 안 좋은 3가지 이유와 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-3reasonswhyCSSshorthandpropertiesarebadandhowtofixthem_0.png"
 date: 2024-07-09 14:08
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-3reasonswhyCSSshorthandpropertiesarebadandhowtofixthem_0.png
 tag: Tech
 originalTitle: "3 reasons why CSS shorthand properties are bad — and how to fix them"
 link: "https://medium.com/@decketts/3-reasons-why-css-shorthand-properties-are-bad-and-how-to-fix-them-f25220a86b21"
+isUpdated: true
 ---
+
+
 
 ## 자바스크립트 UI – 개발 블로그 #5
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "사용자 정의 오류"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

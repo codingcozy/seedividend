@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing a Heavy React Native Page: A Gradual Rewrite Journey"
 link: "https://medium.com/@ronitbhatia98/optimizing-a-heavy-react-native-page-a-gradual-rewrite-journey-c843c020dca9"
+isUpdated: true
 ---
+
+
 
 
 리액트는 쉽게 시작할 수 있는 프레임워크이지만 규모 확장에는 어렵습니다. 어플리케이션이 커지면 잘못된 상태 업데이트, 뒤얽힌 렌더 로직, 비효율적인 이벤트 핸들러 생성, 비효율적인 라이브러리 사용, 그리고 불필요한 useEffect가 매우 쉽게 발생하고 어플리케이션의 렌더 성능에 심각한 영향을 미칠 수 있습니다. 이 느려짐은 React Native 어플리케이션에서 특히 더 눈에 띄며, 여기서 모든 렌더링이 강력한 웹 서버에 의해 수행되지 않기 때문입니다. 저는 현재 진행 중인 피트니스 어플리케이션의 프로필 페이지를 작성하면서 이 현상을 다시 한번 깨닫게 되었습니다.

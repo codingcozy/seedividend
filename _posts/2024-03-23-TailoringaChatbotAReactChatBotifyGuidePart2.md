@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailoring a Chatbot A React ChatBotify Guide Part 2"
 link: "https://tjtanjin.medium.com/tailoring-a-chat-bot-a-react-chatbotify-guide-part-2-97ae8914b80c"
+isUpdated: true
 ---
+
+
 
 
 

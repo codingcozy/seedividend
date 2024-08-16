@@ -3,12 +3,15 @@ title: "반응형 웹 페이지를 위한 최고의 화면 크기 목록"
 description: ""
 coverImage: "/assets/img/2024-07-06-TheBestScreenSizesforResponsiveWebPages_0.png"
 date: 2024-07-06 10:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-TheBestScreenSizesforResponsiveWebPages_0.png
 tag: Tech
 originalTitle: "The Best Screen Sizes for Responsive Web Pages"
 link: "https://medium.com/@corewebvitals-fixer/the-best-screen-sizes-for-responsive-web-pages-3d5614175009"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-TheBestScreenSizesforResponsiveWebPages_0.png
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Node.js Gets Even Easier: Native Support for .env Files"
 link: "https://medium.com/@eztechupdates/node-js-gets-even-easier-native-support-for-env-files-affd133c18dd"
+isUpdated: true
 ---
+
+
 
 
 

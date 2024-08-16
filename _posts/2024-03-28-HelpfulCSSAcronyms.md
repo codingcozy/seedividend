@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Helpful CSS Acronyms"
 link: "https://medium.com/@forsethingvild/helpful-css-acronyms-d16010e5dd5f"
+isUpdated: true
 ---
+
+
 
 
 

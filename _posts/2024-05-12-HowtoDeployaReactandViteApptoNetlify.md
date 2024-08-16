@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Deploy a React and Vite App to Netlify"
 link: "https://medium.com/@lucasrosvall/how-to-deploy-a-react-and-vite-app-to-netlify-9bcf57890d10"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-HowtoDeployaReactandViteApptoNetlify_0.png" />

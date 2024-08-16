@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating JavaScript My Journey to Building a Simple Calculator"
 link: "https://medium.com/@cyrilbassey/navigating-javascript-my-journey-to-building-a-simple-calculator-088146f45f85"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why I want to become a bug bounty hunter"
 link: "https://medium.com/@riccilovesdogs/why-i-want-to-become-a-bug-bounty-hunter-135e4f584af6"
+isUpdated: true
 ---
+
+
 
 
 대학을 졸업하고 쉽게 기술 직업을 얻는 것보다는, 나는 대학 공부를 하면서 스스로 버그 바운티 헌팅을 가르치고 있다. 그런데 왜 이런 일을 하고 있을까?

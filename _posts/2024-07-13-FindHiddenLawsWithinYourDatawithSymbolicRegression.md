@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Find Hidden Laws Within Your Data with Symbolic Regression"
 link: "https://medium.com/towards-data-science/find-hidden-laws-within-your-data-with-symbolic-regression-ebe55c1a4922"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-FindHiddenLawsWithinYourDatawithSymbolicRegression_0.png" />

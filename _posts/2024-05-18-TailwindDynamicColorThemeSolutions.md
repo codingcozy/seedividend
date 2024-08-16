@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind Dynamic Color Theme Solutions"
 link: "https://medium.com/@oodri/tailwind-dynamic-color-theme-solution-4351d0495c7f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-18-TailwindDynamicColorThemeSolutions_0.png" />

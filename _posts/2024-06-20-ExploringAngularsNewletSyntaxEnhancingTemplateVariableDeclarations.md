@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Angular’s New @let Syntax: Enhancing Template Variable Declarations"
 link: "https://medium.com/netanelbasal/exploring-angulars-new-let-syntax-enhancing-template-variable-declarations-40487b022b44"
+isUpdated: true
 ---
+
+
 
 
 

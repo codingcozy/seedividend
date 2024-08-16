@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Secure Your NextJs App A Simple Guide to Supabase Auth"
 link: "https://medium.com/@whateverittech/secure-your-nextjs-app-a-simple-guide-to-supabase-auth-4e69cf9ecf99"
+isUpdated: true
 ---
+
+
 
 
 

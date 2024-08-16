@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Przelewy24 P24 integration with Nextjs App Router  no library in use"
 link: "https://medium.com/@pether.maciejewski/przelewy24-p24-integration-with-next-js-app-router-no-library-in-use-89557c3aa4fc"
+isUpdated: true
 ---
+
+
 
 
 

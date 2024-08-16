@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Testing Library Understanding act and when to use it"
 link: "https://medium.com/@AbbasPlusPlus/react-testing-library-understanding-act-and-when-to-use-it-301bd06fd1bc"
+isUpdated: true
 ---
+
+
 
 
 

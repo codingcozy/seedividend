@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dot Product in Video Games"
 link: "https://medium.com/@mahmoudelmansari/dot-product-in-video-games-81c7e9b078e7"
+isUpdated: true
 ---
+
+
 
 
 ## 내적이란 무엇인가요?

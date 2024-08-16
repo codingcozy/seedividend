@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Query useSuspenseQuery Render Your Components Without Blocking the UI"
 link: "https://medium.com/@amalhan43/react-query-usesuspensequery-render-your-components-without-blocking-the-ui-fc746ec5467e"
+isUpdated: true
 ---
+
+
 
 
 

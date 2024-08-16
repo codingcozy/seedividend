@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Generative AI Chatbot: Tools and Languages for Every Developer"
 link: "https://medium.com/@sa2019062986/creating-a-generative-ai-chatbot-tools-and-languages-for-every-developer-6742b5611cab"
+isUpdated: true
 ---
+
+
 
 
 인공 지능 분야에서 끊임없이 발전하는 가운데, 챗봇은 사용자 참여를 증진시키고 고객 서비스를 자동화하는 중요한 돌출점이 되었습니다. 특히 생성형 인공 지능 챗봇은 대화의 맥락에 기반하여 실시간으로 응답을 생성하여 이를 더욱 발전시킵니다. 이 글에서는 각종 언어와 도구를 사용하여 생성형 인공 지능 챗봇을 만드는 방법을 탐구하며, 모든 개발자들이 참고할 만한 내용을 제공할 것입니다.

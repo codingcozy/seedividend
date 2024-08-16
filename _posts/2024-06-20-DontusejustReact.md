@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Don’t use just React"
 link: "https://medium.com/enlear-academy/dont-use-just-react-680c093986bb"
+isUpdated: true
 ---
+
+
 
 
 ## Next.js 초보자를 위한 소개

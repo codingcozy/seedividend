@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Implement Two-Factor Authentication using Node.js: Step-by-Step Guide"
 link: "https://medium.com/gitconnected/go-beyond-passwords-secure-your-node-js-empire-with-two-factor-authentication-2fa-ff63c4b93112"
+isUpdated: true
 ---
+
+
 
 
 오늘날의 디지턈 시대에서는 보안이 매우 중요합니다, 특히 웹 애플리케이션의 경우에는 더욱 그렇습니다. 두 단계 인증(2FA)을 구현하는 것은 애플리케이션의 보안을 향상시키는 효율적인 기술입니다.

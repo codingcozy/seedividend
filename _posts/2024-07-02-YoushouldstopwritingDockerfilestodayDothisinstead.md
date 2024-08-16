@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "You should stop writing Dockerfiles today — Do this instead"
 link: "https://medium.com/kpmg-uk-engineering/you-should-stop-writing-dockerfiles-today-do-this-instead-3cd8a44cb8b0"
+isUpdated: true
 ---
+
+
 
 
 ## Dockerfile 및 docker-compose 설정을 작성하기 위해 docker init 사용하기

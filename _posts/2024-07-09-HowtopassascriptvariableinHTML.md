@@ -3,12 +3,15 @@ title: "HTML에서 스크립트 변수를 전달하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtopassascriptvariableinHTML_0.png"
 date: 2024-07-09 18:07
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtopassascriptvariableinHTML_0.png
 tag: Tech
 originalTitle: "How to pass a script variable in HTML?"
 link: "https://medium.com/@brajagopal.tripathi/how-to-pass-a-script-variable-in-html-4436eb41a12e"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-HowtopassascriptvariableinHTML_0.png" />
 

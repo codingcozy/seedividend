@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reactjs Cheatsheet"
 link: "https://codedthemes.medium.com/react-js-cheatsheet-dcf7964e732c"
+isUpdated: true
 ---
+
+
 
 
 

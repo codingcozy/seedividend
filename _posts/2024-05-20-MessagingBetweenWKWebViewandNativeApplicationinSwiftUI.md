@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Messaging Between WKWebView and Native Application in SwiftUI"
 link: "https://medium.com/@yeeedward/messaging-between-wkwebview-and-native-application-in-swiftui-e985f0bfacf"
+isUpdated: true
 ---
+
+
 
 
 이 문서는 WKWebView와 네이티브 측 간의 프로세스간 통신을 탐구합니다. 이는 로컬/임베디드 웹 페이지에 집중할 것입니다.

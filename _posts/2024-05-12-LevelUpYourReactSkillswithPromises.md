@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Level Up Your React Skills with Promises"
 link: "https://medium.com/@swfungineer/react-promise-19417375eaad"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-LevelUpYourReactSkillswithPromises_0.png" />

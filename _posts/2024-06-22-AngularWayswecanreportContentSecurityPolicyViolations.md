@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular: Ways we can report Content Security Policy Violations"
 link: "https://medium.com/@ramya-bala221190/angular-ways-we-can-report-content-security-policy-violations-e5f36d971904"
+isUpdated: true
 ---
+
+
 
 
 귀하의 애플리케이션에서 발생한 CSP 위반 사항을 추적하여 해당 보고서를 응용 프로그램 서버로 전송하여 분석할 수 있습니다. 이를 위해 Content-Security-Policy 헤더의 report-to 또는 report-uri 지시문을 사용하면 됩니다.

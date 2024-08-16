@@ -3,12 +3,15 @@ title: "파이썬 데이터 시각화 Seaborn 라이브러리 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png"
 date: 2024-07-09 20:10
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png
 tag: Tech
 originalTitle: "Data Visualization in Python: Seaborn Library"
 link: "https://medium.com/@pythonfundamentals/data-visualization-in-python-seaborn-library-be9febe601bc"
+isUpdated: true
 ---
+
+
 
 시각화는 데이터에서 통찰을 전달하는 강력한 방법입니다. 파이썬의 Seaborn 라이브러리는 Matplotlib을 기반으로 한, 시각적으로 매력적이고 정보를 제공하는 높은 수준의 인터페이스를 제공합니다. 이 기사에서는 Seaborn 라이브러리를 자세히 살펴보며 그 기능을 탐구하고 다양성을 보여주는 실용적인 코드 예제를 제시할 것입니다.
 

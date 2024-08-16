@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular and Golang: A Rapid Guide — Advanced"
 link: "https://medium.com/@eduitfree/angular-and-golang-a-rapid-guide-advanced-5ea84875ccbd"
+isUpdated: true
 ---
+
+
 
 
 ![Angular and Golang Course](/assets/img/2024-06-20-AngularandGolangARapidGuideAdvanced_0.png)

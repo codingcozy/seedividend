@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create a reproduction"
 link: "https://storybook.js.org/docs/contribute/how-to-reproduce"
+isUpdated: true
 ---
+
+
 
 
 

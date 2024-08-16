@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dockerizing a React App: A Step-by-Step Guide with Code Example"
 link: "https://medium.com/@muhammedcuma/dockerizing-a-react-app-a-step-by-step-guide-with-code-example-3a802ea8874d"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-DockerizingaReactAppAStep-by-StepGuidewithCodeExample_0.png" />

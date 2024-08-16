@@ -3,12 +3,15 @@ title: "Flask와 코사인 유사도를 이용한 영화 추천 시스템 만들
 description: ""
 coverImage: "/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_0.png"
 date: 2024-07-07 12:40
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_0.png
 tag: Tech
 originalTitle: "Movie Recommendation System Using Flask and Cosine Similarity"
 link: "https://medium.com/@Mehmtcnangn/movie-recommendation-system-using-flask-and-cosine-similarity-f24eb9756ba7"
+isUpdated: true
 ---
+
+
 
 # 프로젝트 목적
 

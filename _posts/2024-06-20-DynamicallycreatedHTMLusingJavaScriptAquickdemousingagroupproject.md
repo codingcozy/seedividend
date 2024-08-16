@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dynamically created HTML using JavaScript — A quick demo using a group project"
 link: "https://medium.com/@jmpresto1/dynamically-created-html-using-javascript-a-quick-demo-using-a-group-project-3a0af111620b"
+isUpdated: true
 ---
+
+
 
 
 JavaScript를 사용하여 HTML 요소를 동적으로 생성하는 것은 당신이 생각하는 것보다 복잡하지 않아요! 중요한 기본 원칙을 기억하면 괜찮아요! 사용자 상호작용 후 페이지 내용이 변경되어야 하는 모든 애플리케이션에는 어떠한 형태의 동적 요소 조작이 필요해요. 여기서는 특히 요소 생성과 "제거" (불완전한 용어로)에 초점을 맞출 거예요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Guide to Module Federation and Micro-Frontend Applications in Angular — Part 1"
 link: "https://medium.com/@hurkanugur/a-guide-to-module-federation-and-micro-frontend-applications-in-angular-part-1-1ec0a62191b5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-AGuidetoModuleFederationandMicro-FrontendApplicationsinAngularPart1_0.png" />

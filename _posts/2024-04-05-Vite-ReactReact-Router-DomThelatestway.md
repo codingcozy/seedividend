@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Vite-React  React-Router-Dom The latest way"
 link: "https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Login and Registration Form in HTML and CSS With Source Code"
 link: "https://medium.com/@cwrworksite/login-and-registration-form-in-html-and-css-with-source-code-64f16f472510"
+isUpdated: true
 ---
+
+
 
 
 

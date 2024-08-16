@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Documentation updates"
 link: "https://storybook.js.org/docs/contribute/documentation-updates"
+isUpdated: true
 ---
+
+
 
 
 

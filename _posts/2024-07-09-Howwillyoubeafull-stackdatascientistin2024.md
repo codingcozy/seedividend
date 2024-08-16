@@ -3,12 +3,15 @@ title: "2024년에 풀스택 데이터 과학자가 되는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Howwillyoubeafull-stackdatascientistin2024_0.png"
 date: 2024-07-09 09:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Howwillyoubeafull-stackdatascientistin2024_0.png
 tag: Tech
 originalTitle: "How will you be a full-stack data scientist in 2024?"
 link: "https://medium.com/@aserdargun/how-will-you-become-a-full-stack-data-scientist-in-2024-d1cecb471782"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-Howwillyoubeafull-stackdatascientistin2024_0.png)
 

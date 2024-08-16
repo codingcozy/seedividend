@@ -3,12 +3,15 @@ title: "FastAPI에서 Celery와 RabbitMQ 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png"
 date: 2024-07-09 19:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png
 tag: Tech
 originalTitle: "Using Celery + RabbitMQ With FastAPI"
 link: "https://medium.com/stackademic/using-celery-rabbitmq-with-fastapi-2e6f0236841e"
+isUpdated: true
 ---
+
+
 
 ![표](/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png)
 

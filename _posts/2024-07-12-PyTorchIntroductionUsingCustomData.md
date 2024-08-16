@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "PyTorch Introduction — Using Custom Data"
 link: "https://medium.com/@ivopbernardo/pytorch-introduction-using-custom-data-4c70940d5358"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-PyTorchIntroductionUsingCustomData_0.png" />

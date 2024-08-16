@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Rules to write maintainable React unit tests with testing-library  CodeCraftsmanship 6"
 link: "https://medium.com/interaction-dynamics/5-rules-to-write-maintainable-react-unit-tests-with-testing-library-codecraftsmanship-6-02572833ec4b"
+isUpdated: true
 ---
+
+
 
 
 

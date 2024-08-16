@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How can we run a Java program on an HTML-coded website"
 link: "https://medium.com/@brajagopal.tripathi/how-can-we-run-a-java-program-on-an-html-coded-website-eaac7c600d2e"
+isUpdated: true
 ---
+
+
 
 
 

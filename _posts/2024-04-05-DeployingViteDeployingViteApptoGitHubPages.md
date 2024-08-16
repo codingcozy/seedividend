@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying Vite Deploying Vite App to GitHub Pages"
 link: "https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Implement SSR(Server Side Rendering) in React 18"
 link: "https://medium.com/simform-engineering/how-to-implement-ssr-server-side-rendering-in-react-18-e49bc43e9531"
+isUpdated: true
 ---
+
+
 
 
 "renderToPipeableStream" 서버 API를 구현하는 방법을 배우세요. 이 API를 사용하면 React 트리를 HTML로 Node.js 스트림에 렌더링할 수 있습니다.

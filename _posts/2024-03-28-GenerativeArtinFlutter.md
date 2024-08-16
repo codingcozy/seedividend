@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Generative Art in Flutter"
 link: "https://medium.com/flutter-community/generative-art-in-flutter-9e53701f7805"
+isUpdated: true
 ---
+
+
 
 
 

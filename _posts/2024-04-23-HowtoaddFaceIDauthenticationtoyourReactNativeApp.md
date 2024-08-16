@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to add Face ID authentication to your React Native App"
 link: "https://medium.com/@withframe/how-to-add-face-id-authentication-to-your-react-native-app-6de31497ef2a"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stateless Authentication: Integrating JWT for Google API in React and Django Rest Framework (Part — 1)"
 link: "https://medium.com/@lcbiplove1/stateless-authentication-integrating-jwt-for-google-api-in-react-and-django-rest-framework-part-6aab7f47a190"
+isUpdated: true
 ---
+
+
 
 
 # 개요

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Custom Input Component with Form Validation in Angular"
 link: "https://medium.com/@hish.abdelshafouk/building-a-custom-input-component-with-form-validation-in-angular-fa3f93d5363e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-02-BuildingaCustomInputComponentwithFormValidationinAngular_0.png" />

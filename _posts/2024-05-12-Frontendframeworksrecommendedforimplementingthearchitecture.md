@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Frontend frameworks recommended for implementing the architecture"
 link: "https://medium.com/aws-tip/frontend-frameworks-recommended-for-implementing-the-architecture-a3ffa04eec9b"
+isUpdated: true
 ---
+
+
 
 
 ![Frontend Frameworks Recommended for Implementing the Architecture](/assets/img/2024-05-12-Frontendframeworksrecommendedforimplementingthearchitecture_0.png)

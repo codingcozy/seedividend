@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "iOS 17.5 Is Way Bigger Than We’ve Expected — 15+ Amazing Features!"
 link: "https://medium.com/macoclock/ios-17-5-is-way-bigger-than-weve-expected-15-amazing-features-7e1960b03c7d"
+isUpdated: true
 ---
+
+
 
 
 iOS 17.5 업데이트가, 4차례의 엄격한 베타 버전 테스트 끝에 드디어 어제 공개되었어요.

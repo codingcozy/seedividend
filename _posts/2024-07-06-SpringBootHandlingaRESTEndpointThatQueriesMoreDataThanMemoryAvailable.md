@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Spring Boot: Handling a REST Endpoint That Queries More Data Than Memory Available"
 link: "https://medium.com/javajams/spring-boot-handling-a-rest-endpoint-that-queries-more-data-than-memory-available-a0c049548d04"
+isUpdated: true
 ---
+
+
 
 
 만약 개발자이고 아직 이 문제에 직면해 보지 않은 경우라도, 언젠가는 Spring Boot REST 엔드포인트를 만들어야 하는 상황에 직면하게 될 것이므로 이 글을 읽는 것이 여전히 가치가 있습니다.

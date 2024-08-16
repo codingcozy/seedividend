@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Forever Functional 35  Optimizing JavaScript Which Way"
 link: "https://medium.com/stackanatomy/forever-functional-35-optimizing-javascript-which-way-b51ae420b600"
+isUpdated: true
 ---
+
+
 
 
 

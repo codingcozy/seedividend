@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nextjs App Router Routing patterns you should know"
 link: "https://medium.com/israeli-tech-radar/next-js-app-router-routing-patterns-you-should-know-9dfa6b669983"
+isUpdated: true
 ---
+
+
 
 
 

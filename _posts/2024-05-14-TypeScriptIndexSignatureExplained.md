@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TypeScript Index Signature Explained"
 link: "https://medium.com/gitconnected/typescript-index-signature-explained-b040a78a0467"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-TypeScriptIndexSignatureExplained_0.png" />

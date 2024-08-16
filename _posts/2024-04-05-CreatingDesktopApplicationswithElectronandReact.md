@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Desktop Applications with Electron and React"
 link: "https://medium.com/@azer.maslow/creating-desktop-applications-with-electron-and-react-b7f81f78c9d5"
+isUpdated: true
 ---
+
+
 
 
 

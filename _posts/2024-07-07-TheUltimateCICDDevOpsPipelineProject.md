@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Ultimate CI CD DevOps Pipeline Project"
 link: "https://medium.com/@zk36708/the-ultimate-ci-cd-devops-pipeline-project-ea450ca50a94"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-07-TheUltimateCICDDevOpsPipelineProject_0.png)

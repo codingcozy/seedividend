@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rails at Scale Real-World Architecture Decisions and Lessons Learned  Ruby Deep Dive18"
 link: "https://medium.com/@diversepixel/rails-at-scale-real-world-architecture-decisions-and-lessons-learned-ruby-deep-dive-17-0451b2f156d3"
+isUpdated: true
 ---
+
+
 
 
 루비 온 레일즈는 기술 거물부터 혁신적인 스타트업 및 오픈 소스 프로젝트까지 다양한 성공적인 애플리케이션을 구동해 왔습니다. 이 글에서는 각기 다른 조직이 레일즈를 어떻게 확장하고 중요한 아키텍처 결정을 내렸으며, 그 과정에서 얻은 귀중한 교훈에 대해 알아보겠습니다.

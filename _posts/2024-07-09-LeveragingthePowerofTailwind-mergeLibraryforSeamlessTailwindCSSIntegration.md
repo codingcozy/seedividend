@@ -3,12 +3,15 @@ title: "Tailwind-merge 라이브러리를 활용한 무결점 Tailwind CSS 통�
 description: ""
 coverImage: "/assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_0.png"
 date: 2024-07-09 18:28
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-LeveragingthePowerofTailwind-mergeLibraryforSeamlessTailwindCSSIntegration_0.png
 tag: Tech
 originalTitle: "Leveraging the Power of Tailwind-merge Library for Seamless Tailwind CSS Integration"
 link: "https://medium.com/@emmycodes/leveraging-the-power-of-tailwind-merge-library-for-seamless-tailwind-css-integration-f861959001af"
+isUpdated: true
 ---
+
+
 
 웹 개발 커뮤니티에서 Tailwind CSS는 유틸리티 우선 접근방식과 스타일링 애플리케이션의 간단함으로 인해 엄청난 인기를 얻었습니다. Tailwind는 광범위한 유틸리티 클래스 세트를 제공하지만, ReactJS 또는 NextJS 애플리케이션에서 이러한 클래스를 동적으로 관리하고 구성하는 것은 매우 어려울 수 있습니다. 이때 tailwind-merge 라이브러리가 구해줍니다.
 

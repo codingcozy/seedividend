@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Deploy a Self-Hosted LLM on EKS and Why You Should"
 link: "https://medium.com/@eliran89c/how-to-deploy-a-self-hosted-llm-on-eks-and-why-you-should-e9184e366e0a"
+isUpdated: true
 ---
+
+
 
 
 생산 환경에서 가격이 폭등하는 토큰에 대해 계속 걱정하고 있나요? 외부 업체가 민감한 데이터를 어떻게 처리하는지 걱정되나요? 이 게시물은 자체 호스팅 LLM을 EKS(Elastic Kubernetes Service)에 배포하는 방법을 안내해 드립니다. 이를 통해 제어권과 비용 효율성을 높일 수 있습니다. 우리는 자체 호스팅을 원하는 이유부터 설정에 필수적인 도구 및 지표에 이르기까지 모든 것을 탐구할 것입니다. 게다가 모델과 상호 작용할 수 있는 간단한 채팅 애플리케이션을 설정하는 방법을 따라해 보겠습니다.

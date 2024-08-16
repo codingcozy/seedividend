@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TypeScript NPM Package Publishing: A Beginner’s Guide"
 link: "https://medium.com/@pauloe-me/typescript-npm-package-publishing-a-beginners-guide-40b95908e69c"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_0.png)

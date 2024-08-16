@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Flexbox: Guide to Modern Layout Design"
 link: "https://medium.com/@hassani20120/css-flexbox-guide-to-modern-layout-design-051c9c36a4c1"
+isUpdated: true
 ---
+
+
 
 
 <table>

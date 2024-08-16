@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Add a Dynamic Sitemap to Nextjs Website Using Pages or App Directory"
 link: "https://medium.com/gitconnected/add-a-dynamic-sitemap-to-next-js-website-using-pages-or-app-directory-eaf49f980097"
+isUpdated: true
 ---
+
+
 
 
 

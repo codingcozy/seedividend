@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The All-New display Property"
 link: "https://medium.com/javascript-in-plain-english/the-all-new-display-property-e8a41f7ac396"
+isUpdated: true
 ---
+
+
 
 
 

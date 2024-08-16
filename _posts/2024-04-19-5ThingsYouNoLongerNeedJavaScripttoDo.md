@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Things You No Longer Need JavaScript to Do"
 link: "https://medium.com/@xiuerold/5-things-you-no-longer-need-javascript-to-do-a4c21e4332ac"
+isUpdated: true
 ---
+
+
 
 
 

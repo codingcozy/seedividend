@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Text-To-Speech Application with JavaScript in 3 Easy Steps"
 link: "https://medium.com/bitsrc/building-a-text-to-speech-application-with-javascript-in-3-easy-steps-fdf6aeddfb68"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-BuildingaText-To-SpeechApplicationwithJavaScriptin3EasySteps_0.png)

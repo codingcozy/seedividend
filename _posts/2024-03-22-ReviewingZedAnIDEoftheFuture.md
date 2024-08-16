@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reviewing Zed An IDE of the Future"
 link: "https://blog.stackademic.com/reviewing-zed-the-ide-of-the-future-305d681d990c"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "오픈 과학 실습 및 출판을 위한 플랫폼 LeapFROGS 소개"
 description: ""
 coverImage: "/assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_0.png"
 date: 2024-07-09 09:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-IntroducingLeapFROGSaplatformforopensciencepracticeandpublishing_0.png
 tag: Tech
 originalTitle: "Introducing LeapFROGS: a platform for open science practice and publishing"
 link: "https://medium.com/cyberpaleo/introducing-leapfrogs-a-platform-for-open-science-practice-and-publishing-c4c47f591ec4"
+isUpdated: true
 ---
+
+
 
 요약: Python과 R을 이용한 LeapFROGS는 과학 응용 프로그램 및 시계열 분석을 위한 비동기 플랫폼으로, 여러분의 과학을 공유하고 공개 및 재현 가능하게 만들기 위해 개발되었습니다. 이 플랫폼은 비동기식 학습 활동과 교육 워크샵을 지원합니다.
 

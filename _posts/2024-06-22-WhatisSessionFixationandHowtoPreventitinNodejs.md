@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is Session Fixation and How to Prevent it in Node.js"
 link: "https://medium.com/gitconnected/what-is-session-fixation-and-how-to-prevent-it-in-node-js-03580b6acd67"
+isUpdated: true
 ---
+
+
 
 
 세션 고정(Session Fixation) 공격자는 유효한 사용자 세션을 탈취할 수 있으므로 이 취약점과 그에 대한 보호에 대해 알아야 합니다.

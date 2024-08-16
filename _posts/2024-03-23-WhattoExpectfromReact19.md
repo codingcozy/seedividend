@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What to Expect from React 19"
 link: "https://medium.com/@onix_react/what-to-expect-from-react-19-3c7ed152f0e8"
+isUpdated: true
 ---
+
+
 
 
 

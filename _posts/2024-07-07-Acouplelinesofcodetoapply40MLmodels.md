@@ -3,12 +3,15 @@ title: "코드 몇 줄로 40개의 머신러닝 모델 적용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_0.png"
 date: 2024-07-07 19:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_0.png
 tag: Tech
 originalTitle: "A couple lines of code to apply 40 ML models"
 link: "https://medium.com/@benhui.ca/a-couple-lines-of-code-to-apply-40-ml-models-d6024a98197e"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_0.png" />
 

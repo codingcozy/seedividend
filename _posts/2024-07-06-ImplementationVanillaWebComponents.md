@@ -3,12 +3,15 @@ title: "구체적인 기술 명시- Vanilla 웹 컴포넌트 구현하는 방법
 description: ""
 coverImage: "/assets/img/2024-07-06-ImplementationVanillaWebComponents_0.png"
 date: 2024-07-06 02:13
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-ImplementationVanillaWebComponents_0.png
 tag: Tech
 originalTitle: "Implementation: Vanilla Web Components"
 link: "https://medium.com/@javarome/implementation-vanilla-web-components-66347b4dafca"
+isUpdated: true
 ---
+
+
 
 ## 일반적인 방식으로 진행해 보세요
 

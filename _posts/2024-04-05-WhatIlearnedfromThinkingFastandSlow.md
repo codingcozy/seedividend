@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What I learned from Thinking Fast and Slow"
 link: "https://machine-learning-made-simple.medium.com/what-i-learned-from-thinking-fast-and-slow-2adb4b952859"
+isUpdated: true
 ---
+
+
 
 
 

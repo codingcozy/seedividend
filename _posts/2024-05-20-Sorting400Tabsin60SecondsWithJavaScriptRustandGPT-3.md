@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sorting 400+ Tabs in 60 Seconds With JavaScript, Rust, and GPT-3"
 link: "https://medium.com/better-programming/sorting-400-tabs-in-60-seconds-with-js-rust-gpt3-part-2-macros-recursion-92384ab96348"
+isUpdated: true
 ---
+
+
 
 
 ## 모든 재미를 위해 GPT-3 사용 중.

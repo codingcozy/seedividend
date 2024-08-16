@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Missing Human Flaws The Telling Flaw of AI"
 link: "https://medium.com/ai-ai-oh/the-missing-human-flaws-the-telling-flaw-of-ai-3bdf4a63959f"
+isUpdated: true
 ---
+
+
 
 
 

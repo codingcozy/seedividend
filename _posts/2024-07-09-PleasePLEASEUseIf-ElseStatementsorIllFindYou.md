@@ -3,12 +3,15 @@ title: "제발, 제발 If-Else 문 사용하기, 아니면 후회할 거예요"
 description: ""
 coverImage: "/assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png"
 date: 2024-07-09 14:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png
 tag: Tech
 originalTitle: "Please, PLEASE Use If-Else Statements, or I’ll Find You"
 link: "https://medium.com/@jakemer10/please-please-use-if-else-statements-or-ill-find-you-4e4c6af38912"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Razorpay Payment Gateway Integration In Node JS , React JS"
 link: "https://medium.com/@aifuture/razorpay-payment-gateway-integration-in-node-js-react-js-6a560740bba7"
+isUpdated: true
 ---
+
+
 
 
 # Node.js 및 React JS에서 Razorpay 결제 게이트웨이 통합

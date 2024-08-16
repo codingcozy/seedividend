@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring React 19 The Power of useOptimistic hook for Instant UI Feedback"
 link: "https://medium.com/javascript-in-plain-english/exploring-react-19-the-power-of-useoptimistic-hook-for-instant-ui-feedback-993fa3ca28e0"
+isUpdated: true
 ---
+
+
 
 
 

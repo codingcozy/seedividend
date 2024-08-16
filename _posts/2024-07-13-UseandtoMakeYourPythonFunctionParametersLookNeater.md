@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use * and   to Make Your Python Function Parameters Look Neater"
 link: "https://medium.com/gitconnected/use-and-to-make-your-python-function-parameters-look-neater-7ca80f874893"
+isUpdated: true
 ---
+
+
 
 
 ![TIL 이미지](/assets/img/2024-07-13-UseandtoMakeYourPythonFunctionParametersLookNeater_0.png)

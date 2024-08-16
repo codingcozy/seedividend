@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Layouts with Tailwind CSS"
 link: "https://medium.com/@satyamv57/mastering-layouts-with-tailwind-css-adf3b814a0de"
+isUpdated: true
 ---
+
+
 
 
 테이블 태그를 마크다운 형식으로 변경해주세요.

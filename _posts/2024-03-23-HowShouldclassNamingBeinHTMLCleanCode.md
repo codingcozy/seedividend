@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Should class Naming Be in HTML  Clean Code"
 link: "https://blog.stackademic.com/how-should-class-naming-be-in-html-clean-code-3b13e86f58b1"
+isUpdated: true
 ---
+
+
 
 
 

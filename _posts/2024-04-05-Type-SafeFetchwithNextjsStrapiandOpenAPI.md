@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Type-Safe Fetch with Nextjs, Strapi, and OpenAPI"
 link: "https://medium.com/strapi/type-safe-fetch-with-next-js-strapi-and-openapi-4375fb924655"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reactmemo  Optimize React Functional Components"
 link: "https://medium.com/@amalhan43/react-memo-optimize-react-functional-components-0e42f91e6579"
+isUpdated: true
 ---
+
+
 
 
 

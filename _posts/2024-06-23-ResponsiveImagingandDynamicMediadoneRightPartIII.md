@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Responsive Imaging and Dynamic Media done Right — Part III"
 link: "https://medium.com/@achimkoch/responsive-imaging-and-dynamic-media-done-right-part-iii-945a09794709"
+isUpdated: true
 ---
+
+
 
 
 # 동적 미디어 및 HTML 5

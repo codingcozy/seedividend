@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I Tried to Build a WebApp Without Spinners , Loaders Using Replicache"
 link: "https://medium.com/bitsrc/i-tried-to-build-a-webapp-without-spinners-loaders-using-replicache-450aaf5b870"
+isUpdated: true
 ---
+
+
 
 
 

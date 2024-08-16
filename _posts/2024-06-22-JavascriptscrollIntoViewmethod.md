@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Javascript scrollIntoView() method"
 link: "https://medium.com/@twinkal189/javascript-scrollintoview-method-198436f81648"
+isUpdated: true
 ---
+
+
 
 
 

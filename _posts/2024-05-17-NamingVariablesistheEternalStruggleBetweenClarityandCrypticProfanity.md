@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Naming Variables is the Eternal Struggle Between Clarity and Cryptic Profanity"
 link: "https://medium.com/@PurpleGreenLemon/naming-variables-is-the-eternal-struggle-between-clarity-and-cryptic-profanity-6213cf930692"
+isUpdated: true
 ---
+
+
 
 
 그 깜빡이는 커서를 응시하며, 머릿속에서 지나치게 구체적이거나 혼란스러운 적절하지 않은 가능성 범위를 지나갑니다.

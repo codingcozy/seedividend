@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Advantages of Using Sass and Less in Web Development"
 link: "https://medium.com/@kasata/the-advantages-of-using-sass-and-less-in-web-development-137748bfd955"
+isUpdated: true
 ---
+
+
 
 
 웹 개발은 지난 몇 년 동안 크게 발전해 왔고, 우리가 CSS를 작성하는 방식을 변화시킨 중요한 도구 중 하나가 CSS 전처리기입니다. Sass와 Less는 표준 CSS에 확장 기능과 유연성을 제공하여 현대 웹 개발에서 귀중한 도구로 자리 잡았습니다. 이 글에서는 Sass와 Less를 사용하는 장점을 자세히 살펴보고, 다음 프로젝트에 어떤 것이 가장 적합한지 결정하는 데 도움을 드리겠습니다.

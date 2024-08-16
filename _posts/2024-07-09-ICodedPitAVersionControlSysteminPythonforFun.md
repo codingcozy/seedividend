@@ -3,12 +3,15 @@ title: "취미로 만든 파이썬 버전 관리 시스템 I Coded Pit 소개 "
 description: ""
 coverImage: "/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png"
 date: 2024-07-09 14:31
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png
 tag: Tech
 originalTitle: "I Coded Pit: A Version Control System in Python for Fun 😏"
 link: "https://medium.com/@zaid-kamil/i-coded-pit-a-version-control-system-in-python-for-fun-67b23cf17018"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png" />
 

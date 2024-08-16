@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bluetooth connection between Arduino and iOS"
 link: "https://medium.com/academy-eldoradocps/bluetooth-connection-between-arduino-and-ios-70415ca57f53"
+isUpdated: true
 ---
+
+
 
 
 # 소개

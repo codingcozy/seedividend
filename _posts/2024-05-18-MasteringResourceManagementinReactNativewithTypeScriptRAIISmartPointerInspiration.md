@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Resource Management in React Native with TypeScript: RAII , Smart Pointer Inspiration"
 link: "https://medium.com/@mohamed.ma872/mastering-resource-management-in-react-native-with-typescript-raii-smart-pointer-inspiration-b99727a208e9"
+isUpdated: true
 ---
+
+
 
 
 

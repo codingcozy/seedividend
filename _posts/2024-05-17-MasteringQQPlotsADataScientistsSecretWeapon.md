@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering QQ Plots: A Data Scientist’s Secret Weapon"
 link: "https://medium.com/@stoic_sapien1/mastering-qq-plots-a-data-scientists-secret-weapon-57b36287d76f"
+isUpdated: true
 ---
+
+
 
 
 ## QQ Plot을 사용하여 Python | Statsmodel QQ Plot | SciPy QQ Plot

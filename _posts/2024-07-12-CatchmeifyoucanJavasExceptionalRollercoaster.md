@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Catch me if you can: Java’s Exceptional Rollercoaster"
 link: "https://medium.com/javarevisited/catch-me-if-you-can-javas-exceptional-rollercoaster-3b527e62904f"
+isUpdated: true
 ---
+
+
 
 
 

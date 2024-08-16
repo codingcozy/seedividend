@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Template-Level Lazy Loading in Angular"
 link: "https://medium.com/itnext/template-level-lazy-loading-in-angular-8adde7dad50a"
+isUpdated: true
 ---
+
+
 
 
 

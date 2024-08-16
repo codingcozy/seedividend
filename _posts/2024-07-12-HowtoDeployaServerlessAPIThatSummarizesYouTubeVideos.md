@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Deploy a Serverless API That Summarizes YouTube Videos"
 link: "https://medium.com/gitconnected/how-to-deploy-a-serverless-api-that-summarizes-youtube-videos-c5b705f95f03"
+isUpdated: true
 ---
+
+
 
 
 이 게시물에서는 Google Cloud의 서버리스 클라우드 함수를 자동화하는 방법을 배울 수 있습니다.

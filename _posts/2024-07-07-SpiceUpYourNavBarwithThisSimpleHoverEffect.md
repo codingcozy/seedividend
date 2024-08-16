@@ -3,12 +3,15 @@ title: "간단한 호버 효과로 네비게이션 바 멋지게 꾸미는 방�
 description: ""
 coverImage: "/assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png"
 date: 2024-07-07 12:44
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png
 tag: Tech
 originalTitle: "Spice Up Your Nav Bar with This Simple Hover Effect"
 link: "https://medium.com/@support_59471/spice-up-your-nav-bar-with-this-simple-hover-effect-09fcdeeac9d7"
+isUpdated: true
 ---
+
+
 
 PreCodeCamp.com의 로브가 만든 이 흥미로운 비디오 튜토리얼은 네비게이션 바를 간단한 호버 효과로 향상시키는 방법을 소개하고 보여줍니다.
 

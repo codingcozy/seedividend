@@ -1,5 +1,5 @@
 ---
-title: "HTML CSS로 자동 슬라이드 캐러셀 만들기Embla Carousel"
+title: "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)"
 description: "Embla Carousel라이브러리를 이용해 자동 스와이프 캐러셀을 만들어봅니다"
 coverImage: ""
 date: 2024-08-03 16:52
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

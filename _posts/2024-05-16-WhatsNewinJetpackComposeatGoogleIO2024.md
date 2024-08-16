@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s New in Jetpack Compose at Google I O 2024"
 link: "https://medium.com/@android-world/whats-new-in-jetpack-compose-at-google-i-o-2024-d3350d2e3745"
+isUpdated: true
 ---
+
+
 
 
 Google I/O 2024에서는 특히 Jetpack Compose를 활용한 UI 개발 영역에서 개발자들을 위한 중요한 진전 사항이 소개되었습니다. 최신 업데이트를 자세히 살펴보고, 개발 경험을 향상시키는 방법을 탐색해 보겠습니다.

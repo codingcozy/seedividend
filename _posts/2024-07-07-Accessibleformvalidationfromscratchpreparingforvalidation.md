@@ -3,12 +3,15 @@ title: "처음부터 시작하는 접근성 있는 폼 유효성 검사 준비 �
 description: ""
 coverImage: "/assets/img/2024-07-07-Accessibleformvalidationfromscratchpreparingforvalidation_0.png"
 date: 2024-07-07 21:25
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-Accessibleformvalidationfromscratchpreparingforvalidation_0.png
 tag: Tech
 originalTitle: "Accessible form validation from scratch — preparing for validation"
 link: "https://medium.com/user-experience-design-1/accessible-form-validation-from-scratch-preparing-for-validation-6fc9e5b98d68"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-Accessibleformvalidationfromscratchpreparingforvalidation_0.png" />
 

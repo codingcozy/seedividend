@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Persisting State in Your React App with Redux-Persist"
 link: "https://medium.com/@xbstrxct/persisting-state-in-your-react-app-with-redux-persist-1e7dd877c58a"
+isUpdated: true
 ---
+
+
 
 
 프런트엔드 개발 세계에서 React는 주요한 역할을 하는 기술로 떠올랐어요. 컴포넌트 기반 아키텍처와 가상 DOM을 통해 사용자 인터페이스를 구축하는 데 강력한 도구로 작용해요. React 애플리케이션의 상태를 관리할 때 Redux는 예측 가능성과 디버깅의 용이성으로 인해 인기 있는 선택지에요. 그렇다면 Redux 상태를 페이지 새로고침이나 앱 재시작에 걸쳐 유지하려면 어떻게 해야 할까요? 이때 "redux-persist"가 등장해요.

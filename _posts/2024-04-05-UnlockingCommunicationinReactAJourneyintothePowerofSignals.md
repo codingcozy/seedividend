@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking Communication in React A Journey into the Power of Signals"
 link: "https://medium.com/comsystoreply/unlocking-communication-in-react-a-journey-into-the-power-of-signals-f013d3a1ad7d"
+isUpdated: true
 ---
+
+
 
 
 

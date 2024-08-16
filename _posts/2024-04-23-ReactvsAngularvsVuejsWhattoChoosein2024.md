@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React vs Angular vs Vuejs  What to Choose in 2024"
 link: "https://medium.com/@learnwithstatanalytica/react-vs-angular-vs-vue-js-what-to-choose-in-2024-87bf9ed38a80"
+isUpdated: true
 ---
+
+
 
 
 

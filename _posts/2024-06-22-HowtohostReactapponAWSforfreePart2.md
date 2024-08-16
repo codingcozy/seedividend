@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to host React app on AWS for free. Part 2"
 link: "https://medium.com/@maxim.kolomiiets/how-to-host-react-app-on-aws-for-free-part-2-35d936b3c3d6"
+isUpdated: true
 ---
+
+
 
 
 이 기사는 React 앱을 AWS에 무료로 호스팅하는 방법 시리즈의 연재물입니다. Part 1

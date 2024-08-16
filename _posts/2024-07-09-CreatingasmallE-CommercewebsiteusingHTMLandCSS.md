@@ -3,12 +3,15 @@ title: "HTML과 CSS로 작은 전자상거래 웹사이트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_0.png"
 date: 2024-07-09 18:30
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_0.png
 tag: Tech
 originalTitle: "Creating a small E-Commerce website using HTML and CSS"
 link: "https://medium.com/@amashashalindi/creating-a-small-e-commerce-website-using-html-and-css-df799808d12"
+isUpdated: true
 ---
+
+
 
 그렇게 어렵지 않아요😉
 

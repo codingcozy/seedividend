@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Say Goodbye to the Full Screen of Imports"
 link: "https://medium.com/gitconnected/say-goodbye-to-the-full-screen-of-import-42d40b21d829"
+isUpdated: true
 ---
+
+
 
 
 

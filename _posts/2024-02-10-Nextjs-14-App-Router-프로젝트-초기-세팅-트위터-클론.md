@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 14 App Router 프로젝트 초기 세팅 방법"
+title: "Nextjs 14 App Router 프로젝트 저장소 세팅 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

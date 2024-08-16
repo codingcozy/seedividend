@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "getStaticProps"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

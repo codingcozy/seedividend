@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Detecting Mobile vs. Desktop Browsers in JavaScript"
 link: "https://medium.com/geekculture/detecting-mobile-vs-desktop-browsers-in-javascript-ad46e8d23ce5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-DetectingMobilevsDesktopBrowsersinJavaScript_0.png" />

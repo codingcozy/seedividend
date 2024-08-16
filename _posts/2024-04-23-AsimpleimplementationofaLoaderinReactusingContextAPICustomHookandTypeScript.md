@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " A simple implementation of a Loader in React  using ContextAPI, Custom Hook, and TypeScript"
 link: "https://medium.com/@prithirajmajumder8/a-simple-implementation-of-a-loader-in-react-%EF%B8%8F-using-contextapi-custom-hook-and-typescript-5bc36a277e29"
+isUpdated: true
 ---
+
+
 
 
 

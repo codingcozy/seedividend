@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Designing a new style system to replace CSS"
 link: "https://medium.com/@decketts/designing-a-new-style-system-to-replace-css-182d68d2d11b"
+isUpdated: true
 ---
+
+
 
 
 ## 자바스크립트 UI — 개발블로그 #3

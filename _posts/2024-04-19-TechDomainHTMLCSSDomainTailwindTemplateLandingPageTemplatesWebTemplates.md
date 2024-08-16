@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TechDomain  HTML , CSS Domain Tailwind Template Landing Page Templates Web Templates"
 link: "https://medium.com/@codecatalina/techdomain-html-css-domain-tailwind-template-landing-page-templates-web-templates-4ca2af7e4bd3"
+isUpdated: true
 ---
+
+
 
 
 

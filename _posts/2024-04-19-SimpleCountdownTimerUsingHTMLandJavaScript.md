@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple Countdown Timer Using HTML and JavaScript"
 link: "https://medium.com/@cwrworksite/simple-countdown-timer-using-html-and-javascript-6bd77818bedf"
+isUpdated: true
 ---
+
+
 
 
 

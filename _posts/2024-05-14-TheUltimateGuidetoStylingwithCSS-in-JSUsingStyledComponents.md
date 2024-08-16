@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Ultimate Guide to Styling with CSS-in-JS Using Styled Components"
 link: "https://medium.com/@vinyldavyl/the-ultimate-guide-to-styling-with-css-in-js-using-styled-components-0c93b058f6d0"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-TheUltimateGuidetoStylingwithCSS-in-JSUsingStyledComponents_0.png)

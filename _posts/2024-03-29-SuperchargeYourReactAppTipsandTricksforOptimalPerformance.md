@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Supercharge Your React App Tips and Tricks for Optimal Performance"
 link: "https://medium.com/@adnan172203/supercharge-your-react-app-tips-and-tricks-for-optimal-performance-ee56b1b21982"
+isUpdated: true
 ---
+
+
 
 
 

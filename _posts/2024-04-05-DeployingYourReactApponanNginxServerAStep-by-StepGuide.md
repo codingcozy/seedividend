@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying Your React App on an Nginx Server A Step-by-Step Guide"
 link: "https://medium.com/@prateekpareekvyas/deploying-your-react-app-on-an-nginx-server-a-step-by-step-guide-71dd9e0533a5"
+isUpdated: true
 ---
+
+
 
 
 

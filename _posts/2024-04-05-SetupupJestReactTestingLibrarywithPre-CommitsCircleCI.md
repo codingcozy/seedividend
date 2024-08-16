@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setup up Jest , React Testing Library with Pre-Commits , CircleCI"
 link: "https://medium.com/readytowork-org/setup-up-jest-react-testing-library-with-pre-commits-circleci-2890d8453da1"
+isUpdated: true
 ---
+
+
 
 
 

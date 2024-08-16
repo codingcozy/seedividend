@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Speeding up our Angular app with esbuild"
 link: "https://medium.com/@mathieu.schnoor/speeding-up-our-angular-app-with-esbuild-3f7b0b716bef"
+isUpdated: true
 ---
+
+
 
 
 

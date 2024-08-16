@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fetching the original Pokemon using the Poke API"
 link: "https://medium.com/@sergio13prez/fetching-them-all-poke-api-62ca580981a2"
+isUpdated: true
 ---
+
+
 
 
 

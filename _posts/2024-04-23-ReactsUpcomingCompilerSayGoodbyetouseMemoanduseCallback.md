@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reacts Upcoming Compiler Say Goodbye to useMemo and useCallback"
 link: "https://medium.com/javascript-in-plain-english/reacts-upcoming-compiler-say-goodbye-to-usememo-and-usecallback-965e88cd4d79"
+isUpdated: true
 ---
+
+
 
 
 

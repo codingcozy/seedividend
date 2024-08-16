@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Get your Resume Terraformed in AWS (I)"
 link: "https://medium.com/towards-aws/get-your-resume-terraformed-in-aws-i-9b1e6f077305"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 👋 여러분! 오랜만이죠. 여기에 유용한(아니면 흥미로운?) 기사 몇 개를 올리고 싶다고 생각한 지 오래되었습니다. 그런데 좋거나 유용한 아이디어가 생각나지 않았어요. 몇 주 전 나를 위해 한 작업을 문서화하는 아이디어를 만났는데요: 이력서의 HTML 버전을 AWS에 Terraform과 GitHub Actions을 통해 배포(자동화)하는 것입니다. 요즘에는 이런 기술을 이력서에 넣는 것이 흥미로울 것 같아요. 근데 이력서 안에 그런 기술을 보여주면 어때요? 😜

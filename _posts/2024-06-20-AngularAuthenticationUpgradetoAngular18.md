@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Authentication: Upgrade to Angular 18 🚀"
 link: "https://medium.com/@nikosanif/angular-authentication-upgrade-to-angular-18-46489184b40f"
+isUpdated: true
 ---
+
+
 
 
 아래는 Markdown 형식의 표입니다.

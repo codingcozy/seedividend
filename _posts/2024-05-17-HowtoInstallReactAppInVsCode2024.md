@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Install React App In VsCode 2024"
 link: "https://medium.com/@reactmasters.in/how-to-install-react-app-in-vscode-2024-6b66f7c5358c"
+isUpdated: true
 ---
+
+
 
 
 React.js은 실시간 응용 프로그램 및 사용자 인터페이스 개발에 널리 사용되는 JavaScript 라이브러리입니다. 이는 종종 프런트엔드 JavaScript 프레임워크로 언급됩니다. Visual Studio Code (VSCode)는 가벼우면서 강력한 코드 편집기로, React.js 개발에 탁월한 지원을 제공합니다. 이 글에서는 React.js를 빠르고 주관적인 빌드 도구인 Vite와 함께 VSCode에 설정하는 과정을 안내해 드리겠습니다. 그러니, 빠르게 React 앱을 VS Code에 설치해 봅시다.

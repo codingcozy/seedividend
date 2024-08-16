@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stream Changes from a PostgreSQL Database to a Vector Store"
 link: "https://medium.com/ai-advances/stream-changes-from-a-postgresql-database-to-a-vector-store-83df7adc0bfa"
+isUpdated: true
 ---
+
+
 
 
 ## CDC (Change Data Capture)를 사용하여 벡터 저장소를 최신 상태로 유지하는 방법, Python 및 Redpanda

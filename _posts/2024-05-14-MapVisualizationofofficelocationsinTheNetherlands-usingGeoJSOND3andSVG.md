@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Map Visualization of (office locations in) The Netherlands -using GeoJSON, D3 and SVG"
 link: "https://medium.com/@lucasjellema/map-visualization-of-office-locations-in-the-netherlands-using-geojson-d3-and-svg-62ce923d747d"
+isUpdated: true
 ---
+
+
 
 
 ![지도 시각화](/assets/img/2024-05-14-MapVisualizationofofficelocationsinTheNetherlands-usingGeoJSOND3andSVG_0.png)

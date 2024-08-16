@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding between Angular , React Part 2 Lifecycle hooks"
 link: "https://medium.com/itnext/understanding-between-angular-react-part2-lifecycle-hooks-2a08e91f92b8"
+isUpdated: true
 ---
+
+
 
 
 

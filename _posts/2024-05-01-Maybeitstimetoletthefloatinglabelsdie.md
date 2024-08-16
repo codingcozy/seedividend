@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Maybe it’s time to let the floating labels die"
 link: "https://medium.com/user-experience-design-1/maybe-its-time-to-let-the-floating-labels-die-a97d6a4ea1b2"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-Maybeitstimetoletthefloatinglabelsdie_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is a Data Structure"
 link: "https://medium.com/must-read-articles-in-a-minute/what-is-a-data-structure-996eb66f3735"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-28-WhatisaDataStructure_0.png" />

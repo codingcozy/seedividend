@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JAVA WebSockets powered by AWS Lambda"
 link: "https://medium.com/solutions-architect-rocks/java-websockets-powered-by-aws-lambda-8cd974024030"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-09-JAVAWebSocketspoweredbyAWSLambda_0.png)

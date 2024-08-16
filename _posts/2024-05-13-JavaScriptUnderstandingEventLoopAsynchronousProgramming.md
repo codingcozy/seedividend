@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "[JavaScript] Understanding Event Loop , Asynchronous Programming"
 link: "https://medium.com/@tyliang/javascript-understanding-event-loop-asynchronous-programming-30419d919eed"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-13-JavaScriptUnderstandingEventLoopAsynchronousProgramming_0.png" />

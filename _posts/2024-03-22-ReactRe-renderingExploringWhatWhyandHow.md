@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Re-rendering Exploring What, Why, and How"
 link: "https://medium.com/simform-engineering/react-re-rendering-exploring-what-why-and-how-d180d5305892"
+isUpdated: true
 ---
+
+
 
 
 

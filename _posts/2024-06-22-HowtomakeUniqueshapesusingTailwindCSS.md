@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make Unique shapes using TailwindCSS"
 link: "https://medium.com/canopas/how-to-make-unique-shapes-using-tailwindcss-18a85523bc15"
+isUpdated: true
 ---
+
+
 
 
 

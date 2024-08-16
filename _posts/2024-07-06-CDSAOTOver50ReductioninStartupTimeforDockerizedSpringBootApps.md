@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CDS + AOT: Over 50% Reduction in Startup Time for Dockerized Spring Boot Apps"
 link: "https://medium.com/itnext/cds-aot-over-50-reduction-in-startup-time-for-dockerized-spring-boot-apps-e417aa68d936"
+isUpdated: true
 ---
+
+
 
 
 ## 자바 | JVM | CDS | AOT | 도커

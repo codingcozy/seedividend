@@ -3,12 +3,15 @@ title: "Angular 18의 새로운 기능 정리 비교"
 description: ""
 coverImage: "/assets/img/2024-05-12-Angular18NewFeatures_0.png"
 date: 2024-05-12 23:30
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-Angular18NewFeatures_0.png
 tag: Tech
 originalTitle: "Angular 18 New Features"
 link: "https://medium.com/@sergey.dudik/angular-18-new-features-babdeb6bc84e"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-Angular18NewFeatures_0.png" />
 

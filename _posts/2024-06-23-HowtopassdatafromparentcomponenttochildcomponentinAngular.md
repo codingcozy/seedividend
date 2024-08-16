@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to pass data from parent component to child component in Angular"
 link: "https://medium.com/fuzzy-code/how-to-pass-data-from-parent-component-to-child-component-in-angular-737ec17ecfd7"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-HowtopassdatafromparentcomponenttochildcomponentinAngular_0.png" />

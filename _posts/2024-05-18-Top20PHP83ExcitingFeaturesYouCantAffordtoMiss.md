@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 20 PHP 8.3 Exciting Features You Can’t Afford to Miss"
 link: "https://medium.com/gitconnected/top-20-php-8-3-exciting-features-you-cant-afford-to-miss-0c0a1f3e1172"
+isUpdated: true
 ---
+
+
 
 
 ## 웹 개발과 프로그래밍을 혁신하는 PHP 8.3의 최신 기능 및 개선 사항을 알아보세요.

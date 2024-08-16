@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "An Introduction to Statistical Learning — Introduction"
 link: "https://medium.com/pythons-gurus/an-introduction-to-statistical-learning-introduction-a5f706f88bd9"
+isUpdated: true
 ---
+
+
 
 
 ## "An Introduction to Statistical Learning: with Applications in Python by Hastie et. al." 에서의 첫 번째 날 메모를 공유합니다. 이것은 제 데이터 과학 학습 문서의 일부입니다.

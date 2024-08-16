@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Server Components with NextJS: Best Practices , Tips"
 link: "https://medium.com/@harshvsj/react-server-components-with-nextjs-best-practices-tips-500fe62fe4bb"
+isUpdated: true
 ---
+
+
 
 
 React Server Components (RSCs)는 React 애플리케이션의 서버 측 렌더링(SSR)에 대한 생각 방식을 변경할 것으로 약속합니다. 이 개념은 개발자 커뮤니티 내에서 긍정적인 관심을 불러일으켰어요. Next.js가 이제 RSCs를 지원함에 따라, 개발자들은 전통적인 싱글 페이지 애플리케이션에 일반적으로 연관된 복잡성 없이 SSR을 받아들일 수 있게 되었습니다. 그러나, 새로운 프레임워크나 기술에는 항상 개발자가 알아야 할 도전과 함정이 따르게 됩니다.

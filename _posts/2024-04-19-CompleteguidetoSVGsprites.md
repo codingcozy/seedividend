@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Complete guide to SVG sprites"
 link: "https://medium.com/@hayavuk/complete-guide-to-svg-sprites-7e202e215d34"
+isUpdated: true
 ---
+
+
 
 
 

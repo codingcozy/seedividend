@@ -3,12 +3,15 @@ title: "Plotly Dash로 아름답고 상호작용하는 대시보드 레이아웃
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_0.png"
 date: 2024-07-09 14:39
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtocreateabeautifulinteractivedashboardlayoutinPythonwithPlotlyDash_0.png
 tag: Tech
 originalTitle: "How to create a beautiful, interactive dashboard layout in Python with Plotly Dash"
 link: "https://medium.com/plotly/how-to-create-a-beautiful-interactive-dashboard-layout-in-python-with-plotly-dash-a45c57bb2f3c"
+isUpdated: true
 ---
+
+
 
 파이썬으로 만들어진 대시보드는 인상적인 디자인, 독특한 상호작용 및 최고의 처리 속도를 가질 수 있습니다. 그건 멋지게 들리지만, 주의할 점이 있어요: 생성 과정은 그다지 간단하지 않고 많은 함정이 숨어 있습니다. 이 기사는 대시보드 생성의 첫 번째 단계인 레이아웃 디자인에 주로 초점을 맞춥니다. 대시보드 그리드를 개발하고, 컨테이너, 텍스트 블록, 버튼, 드롭다운, 이미지 및 출력 양식과 같은 모든 기본 레이아웃 요소를 생성하고 스타일을 적용하는 방법을 살펴볼 것입니다.
 

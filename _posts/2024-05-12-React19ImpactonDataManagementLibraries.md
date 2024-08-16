@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React 19 Impact on Data Management Libraries"
 link: "https://medium.com/@sara-vanan/react-19-impact-on-data-management-libraries-90a0e01c11aa"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-React19ImpactonDataManagementLibraries_0.png)

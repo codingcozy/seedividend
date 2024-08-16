@@ -3,12 +3,15 @@ title: "FastAPI 실습 간단한 할 일 목록 애플리케이션 만들기 방
 description: ""
 coverImage: "/assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_0.png"
 date: 2024-07-09 09:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Hands-OnwithFastAPICreatingaSimpleTo-DoListApplication_0.png
 tag: Tech
 originalTitle: "Hands-On with FastAPI: Creating a Simple To-Do List Application"
 link: "https://medium.com/@ahmedfry34/hands-on-with-fastapi-creating-a-simple-to-do-list-application-478159a6959e"
+isUpdated: true
 ---
+
+
 
 # 먼저, FastAPI에 대한 간결한 소개부터 시작해보겠습니다.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Future of Micro Frontends"
 link: "https://medium.com/better-programming/the-future-of-micro-frontends-2f527f97d506"
+isUpdated: true
 ---
+
+
 
 
 ## 나는 이 퍼즐의 빠진 조각이 무엇인지 이해하고, 이 아키텍처 접근 방식을 더 개선할 수 있는 방법을 상상해 봐야겠어요

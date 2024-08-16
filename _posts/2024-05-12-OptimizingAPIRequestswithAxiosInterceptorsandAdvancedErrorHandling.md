@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing API Requests with Axios: Interceptors and Advanced Error Handling"
 link: "https://medium.com/@sarathadhithya/optimizing-api-requests-with-axios-interceptors-and-advanced-error-handling-3f69b1e05868"
+isUpdated: true
 ---
+
+
 
 
 

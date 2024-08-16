@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DEVELOPMENT OF A CHATBOT IN BOTPRESS WITH OWN KNOWLEDGE BASE AND IMPLEMENTATION IN MOODLE TO SUPPORT STUDENTS"
 link: "https://medium.com/@stefanpietrusky/development-of-a-chatbot-in-botpress-with-own-knowledge-base-and-implementation-in-moodle-to-55d3a46cbaff"
+isUpdated: true
 ---
+
+
 
 
 

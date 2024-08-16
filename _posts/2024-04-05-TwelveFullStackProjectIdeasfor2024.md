@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Twelve Full Stack Project Ideas for 2024"
 link: "https://medium.com/@mananshah3654/twelve-full-stack-project-ideas-for-2024-0319281d0f18"
+isUpdated: true
 ---
+
+
 
 
 

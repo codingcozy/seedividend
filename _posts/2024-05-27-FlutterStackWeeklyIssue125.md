@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter Stack Weekly — Issue#125"
 link: "https://medium.com/canopas/flutter-stack-weekly-issue-125-972aac728608"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-FlutterStackWeeklyIssue125_0.png" />

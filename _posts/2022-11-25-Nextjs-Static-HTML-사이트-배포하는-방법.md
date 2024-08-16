@@ -1,5 +1,5 @@
 ---
-title: "Nextjs Static HTML 사이트 배포하는 방법 feat Netlify"
+title: "Nextjs Static HTML 사이트 netlify에 배포하는 방법"
 description: "Nextjs Static HTML site를 Netlify에 deploy하는 방법에 대해서 소개합니다"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

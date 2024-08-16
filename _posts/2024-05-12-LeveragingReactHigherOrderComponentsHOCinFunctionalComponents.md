@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Leveraging React Higher Order Components (HOC) in Functional Components"
 link: "https://medium.com/@prathamchauhan/leveraging-react-higher-order-components-hoc-in-functional-components-30012900abbf"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-LeveragingReactHigherOrderComponentsHOCinFunctionalComponents_0.png" />

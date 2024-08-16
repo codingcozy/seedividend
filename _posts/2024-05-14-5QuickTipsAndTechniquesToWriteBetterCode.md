@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Quick Tips And Techniques To Write Better Code"
 link: "https://medium.com/gitconnected/5-quick-tips-and-techniques-to-write-better-code-f815bbc5bdb6"
+isUpdated: true
 ---
+
+
 
 
 오늘 깨끗한 코드를 작성하는 데 도움이 되는 몇 가지 간단한 팁과 기술이 있습니다.

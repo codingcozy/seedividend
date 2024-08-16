@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Blocks of the Web Unveiling HTML and CSS"
 link: "https://medium.com/@moncef.marzouqiwere/building-blocks-of-the-web-unveiling-html-and-css-741f3194ac76"
+isUpdated: true
 ---
+
+
 
 
 

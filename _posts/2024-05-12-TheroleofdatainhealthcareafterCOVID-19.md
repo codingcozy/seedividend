@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The role of data in healthcare after COVID-19"
 link: "https://medium.com/@saurabhofficial73/the-role-of-data-in-healthcare-after-covid-19-f1fccbb3f997"
+isUpdated: true
 ---
+
+
 
 
 코로나19 이후 건강 관리에서 데이터의 역할은 계속 발전하며 건강 관리 환경의 다양한 측면을 형성하고 있습니다. 데이터가 중요한 역할을 하는 주요 영역은 다음과 같습니다:

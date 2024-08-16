@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "PHP Obfuscation"
 link: "https://anshildev.medium.com/php-obfuscation-7e85d8a05225"
+isUpdated: true
 ---
+
+
 
 
 

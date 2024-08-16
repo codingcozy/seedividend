@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mine’s FORTRAN, His Was COBOL, and Theirs Is … C++?"
 link: "https://medium.com/code-like-a-girl/mines-fortran-his-became-cobol-and-theirs-is-c-0f06ab2c692f"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-13-MinesFORTRANHisWasCOBOLandTheirsIsC_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing CI CD for React Apps with GitLab and Hostinger: A Step-by-Step Guide"
 link: "https://medium.com/@deabdullahmanzoor/implementing-ci-cd-for-react-apps-with-gitlab-and-hostinger-a-step-by-step-guide-5fa68cf9214d"
+isUpdated: true
 ---
+
+
 
 
 

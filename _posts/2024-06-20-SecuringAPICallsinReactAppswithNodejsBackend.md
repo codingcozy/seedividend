@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Securing API Calls in React Apps with Node.js Backend"
 link: "https://medium.com/@aifuture/securing-api-calls-in-react-apps-with-node-js-backend-a485812955c6"
+isUpdated: true
 ---
+
+
 
 
 오늘날 연결된 세상에서 안전한 웹 앱을 만드는 것은 매우 중요합니다. 애플리케이션의 통신 링크는 민감한 사용자 데이터를 관리하거나 거래를 돕는 경우 모두 안전해야 합니다. 다른 이의 엿보는 데서 민감한 데이터를 보호하기 위해, 리액트 프로젝트에서 API 호출을 안전하게 하는 방법에 대해 살펴보면서 업계 모베스트 프랙티스를 준수합니다.

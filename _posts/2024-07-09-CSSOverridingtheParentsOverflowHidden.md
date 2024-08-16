@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS: Overriding the Parent’s Overflow Hidden"
 link: "https://medium.com/@thomas.ryu/css-overriding-the-parents-overflow-hidden-90c75a0e7296"
+isUpdated: true
 ---
+
+
 
 
 사용 사례: 아주 당연한 것이죠. 특정 요소를 돋보이게 하고 부모 요소의 overflow: hidden을 무시하고 싶을 때입니다.

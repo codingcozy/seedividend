@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Does College Stil Help You With Programming These Days?"
 link: "https://medium.com/javascript-in-plain-english/does-college-stil-help-you-with-programming-these-days-37ff815d24f1"
+isUpdated: true
 ---
+
+
 
 
 ## 프로그래밍

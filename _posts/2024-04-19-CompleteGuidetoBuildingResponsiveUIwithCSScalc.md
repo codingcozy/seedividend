@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Complete Guide to Building Responsive UI with CSS calc"
 link: "https://medium.com/@anton.martyniuk/complete-guide-to-building-responsive-ui-with-css-calc-a787832dc8b3"
+isUpdated: true
 ---
+
+
 
 
 

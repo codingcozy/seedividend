@@ -1,5 +1,5 @@
 ---
-title: "HTML, CSS, JS를 활용한 음악 플레이어 만들기"
+title: "HTML, CSS, JS로 음악 플레이어 만들기"
 description: "이 튜토리얼에서는 HTML, CSS, JavaScript를 사용하여 음악 플레이어를 만드는 방법을 배웁니다 플레이어에는 재생 목록이 있으며 JavaScript를 사용하여 음악을 제어할 수 있습니다"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

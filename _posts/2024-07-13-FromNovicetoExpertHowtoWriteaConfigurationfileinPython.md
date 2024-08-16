@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "From Novice to Expert: How to Write a Configuration file in Python"
 link: "https://medium.com/towards-data-science/from-novice-to-expert-how-to-write-a-configuration-file-in-python-273e171a8eb3"
+isUpdated: true
 ---
+
+
 
 
 ![From Novice to Expert: How to Write a Configuration File in Python](/assets/img/2024-07-13-FromNovicetoExpertHowtoWriteaConfigurationfileinPython_0.png)

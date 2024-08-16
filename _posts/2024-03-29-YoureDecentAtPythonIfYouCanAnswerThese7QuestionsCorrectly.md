@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Youre Decent At Python If You Can Answer These 7 Questions Correctly"
 link: "https://medium.com/@zlliu/youre-decent-at-python-if-you-can-answer-these-7-questions-correctly-7de5e8279e7f"
+isUpdated: true
 ---
+
+
 
 
 

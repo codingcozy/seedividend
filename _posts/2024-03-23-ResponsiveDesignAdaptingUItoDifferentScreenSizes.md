@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Responsive Design Adapting UI to Different Screen Sizes"
 link: "https://medium.com/@sikirus81/responsive-design-adapting-ui-to-different-screen-sizes-2de850e16582"
+isUpdated: true
 ---
+
+
 
 
 

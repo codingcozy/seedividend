@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Curious Case of Type Inference in TypeScript"
 link: "https://medium.com/gitconnected/the-curious-case-of-type-inference-in-typescript-65d269598494"
+isUpdated: true
 ---
+
+
 
 
 얼마 전에 사이드 프로젝트를 하고 있었어요. 많은 이벤트를 감지하는 특정 라이브러리를 사용했죠.

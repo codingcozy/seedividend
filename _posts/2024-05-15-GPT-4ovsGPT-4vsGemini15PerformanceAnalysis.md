@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "GPT-4o vs. GPT-4 vs. Gemini 1.5 ⭐ — Performance Analysis"
 link: "https://medium.com/@lars.chr.wiik/gpt-4o-vs-gpt-4-vs-gemini-1-5-performance-analysis-6bd207a2c580"
+isUpdated: true
 ---
+
+
 
 
 ## 오픈에이아이(OpenAI)의 새로운 프래그십 모델의 영어 언어 이해 능력 측정

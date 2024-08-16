@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Index Signatures in TypeScript"
 link: "https://medium.com/@szaranger/index-signatures-in-typescript-ccfffc097913"
+isUpdated: true
 ---
+
+
 
 
 

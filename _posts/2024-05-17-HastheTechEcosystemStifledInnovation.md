@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Has the Tech Ecosystem Stifled Innovation?"
 link: "https://medium.com/@omarzahran/has-the-tech-ecosystem-stifled-innovation-2380450e6514"
+isUpdated: true
 ---
+
+
 
 
 벽으로 둘러싸인 정원, 독점 표준, 기술 제품 간의 협력 부족에 대한 고찰

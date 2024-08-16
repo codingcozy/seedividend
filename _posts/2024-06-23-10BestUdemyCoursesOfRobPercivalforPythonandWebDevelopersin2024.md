@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Best Udemy Courses Of Rob Percival for Python and Web Developers in 2024"
 link: "https://medium.com/javarevisited/10-best-udemy-courses-of-rob-percival-for-python-and-web-developers-in-2024-159028a76ba9"
+isUpdated: true
 ---
+
+
 
 
 ## 2024년에 Python 및 JavaScript를 배우기 위한 Rob Percival 강사의 가장 좋아하는 Udemy 강의들

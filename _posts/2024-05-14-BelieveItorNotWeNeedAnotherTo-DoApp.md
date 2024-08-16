@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Believe It or Not, We Need Another To-Do App."
 link: "https://medium.com/@grigor.oganesyan/believe-it-or-not-we-need-another-to-do-app-b2113ce6f9ef"
+isUpdated: true
 ---
+
+
 
 
 ## 네, 이미 수백만 개 이상 구현된 것이 있음에도 불구하고...

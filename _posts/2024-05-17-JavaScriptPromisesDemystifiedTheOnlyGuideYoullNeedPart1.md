@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript Promises Demystified: The Only Guide You’ll Need : Part 1"
 link: "https://medium.com/@shubhritik/javascript-promises-demystified-the-only-guide-youll-need-part-1-a835910d8045"
+isUpdated: true
 ---
+
+
 
 
 

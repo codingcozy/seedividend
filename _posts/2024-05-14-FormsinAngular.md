@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Forms in Angular"
 link: "https://medium.com/@jaydeepvpatil225/forms-in-angular-8fde7d0dcdf6"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-FormsinAngular_0.png" />

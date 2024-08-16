@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Spend Mukesh Ambani’s Money now! A Step-by-Step Guide"
 link: "https://medium.com/@kartavyavg/spend-mukesh-ambanis-money-now-a-step-by-step-guide-34808cc2934d"
+isUpdated: true
 ---
+
+
 
 
 # 소개 🏹

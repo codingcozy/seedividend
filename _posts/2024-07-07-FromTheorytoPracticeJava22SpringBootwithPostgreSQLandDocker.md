@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "From Theory to Practice: Java 22 Spring Boot with PostgreSQL and Docker"
 link: "https://medium.com/@samuelwatson.swe/from-theory-to-practice-java-22-spring-boot-with-postgresql-and-docker-af0ccf6a769f"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-07-FromTheorytoPracticeJava22SpringBootwithPostgreSQLandDocker_0.png)

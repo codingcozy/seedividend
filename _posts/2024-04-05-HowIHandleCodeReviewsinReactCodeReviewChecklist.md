@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Handle Code Reviews in React Code Review Checklist"
 link: "https://medium.com/javascript-in-plain-english/how-i-handle-code-reviews-in-react-code-review-checklist-a106a16fb172"
+isUpdated: true
 ---
+
+
 
 
 

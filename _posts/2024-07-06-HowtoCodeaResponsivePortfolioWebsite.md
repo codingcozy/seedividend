@@ -3,12 +3,15 @@ title: "반응형 포트폴리오 웹사이트 코딩하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-HowtoCodeaResponsivePortfolioWebsite_0.png"
 date: 2024-07-06 02:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-HowtoCodeaResponsivePortfolioWebsite_0.png
 tag: Tech
 originalTitle: "How to Code a Responsive Portfolio Website"
 link: "https://medium.com/@learntocodetoday/how-to-code-a-responsive-portfolio-website-0df3d3d0bef7"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-HowtoCodeaResponsivePortfolioWebsite_0.png
 

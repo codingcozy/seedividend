@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hello JavaScript"
 link: "https://medium.com/@nihaan.ali/hello-javascript-day1-863c95ce9f42"
+isUpdated: true
 ---
+
+
 
 
 

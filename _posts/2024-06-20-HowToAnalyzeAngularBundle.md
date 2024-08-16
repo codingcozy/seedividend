@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Analyze Angular Bundle"
 link: "https://medium.com/gitconnected/how-to-analyze-angular-bundle-42529aa22cc4"
+isUpdated: true
 ---
+
+
 
 
 ## 세 가지 간단한 도구를 사용하여 Angular 번들 크기를 분석해 보세요

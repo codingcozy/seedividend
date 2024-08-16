@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Zod: Why you’re using TypeScript wrong"
 link: "https://medium.com/ekino-france/zod-why-youre-using-typescript-wrong-b0c1583df089"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-ZodWhyyoureusingTypeScriptwrong_0.png)

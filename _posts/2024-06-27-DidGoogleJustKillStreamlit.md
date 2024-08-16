@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Did Google Just Kill Streamlit?"
 link: "https://medium.com/google-cloud/did-google-just-kill-streamlit-76f719d9e275"
+isUpdated: true
 ---
+
+
 
 
 ## 구글의 Mesop 프레임워크를 살펴보면 Streamlit보다 더 나은지 확인해보세요.

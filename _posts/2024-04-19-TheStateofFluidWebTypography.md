@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The State of Fluid Web Typography"
 link: "https://medium.com/better-web-type/the-state-of-fluid-web-typography-135cd26e0612"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Microsoft is ditching React"
 link: "https://medium.com/javascript-in-plain-english/microsoft-is-ditching-react-f8b952b92b9b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-MicrosoftisditchingReact_0.png" />

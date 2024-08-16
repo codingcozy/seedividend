@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React js for Stupids by Stupid"
 link: "https://medium.com/@mdadilsharif2/react-for-stupids-by-stupid-075269c9c900"
+isUpdated: true
 ---
+
+
 
 
 저희는 HTML, CSS, 그리고 JavaScript (Typescript이면 더 좋지만 필수는 아닙니다!)에 대한 이전 지식이 있을 것으로 기대합니다!

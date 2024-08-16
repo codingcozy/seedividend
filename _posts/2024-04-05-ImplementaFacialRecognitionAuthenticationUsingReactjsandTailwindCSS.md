@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implement a Facial Recognition Authentication Using Reactjs and TailwindCSS"
 link: "https://medium.com/better-programming/replace-your-auth-system-with-facial-recognition-using-reactjs-and-tailwindcss-9af4898ab5a2"
+isUpdated: true
 ---
+
+
 
 
 

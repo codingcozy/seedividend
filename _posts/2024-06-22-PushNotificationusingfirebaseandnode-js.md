@@ -6,10 +6,12 @@ date: 2024-06-22 13:59
 ogImage: 
   url: /assets/img/2024-06-22-PushNotificationusingfirebaseandnode-js_0.png
 tag: Tech
-originalTitle: "P
-ush Notification using firebase and node-js."
+originalTitle: "P ush Notification using firebase and node-js."
 link: "https://medium.com/@Bisal.r/push-notification-using-firebase-and-node-js-7508f61fa25c"
+isUpdated: true
 ---
+
+
 
 
 ## 이 설명서는 Firebase Admin SDK를 사용하여 Node.js 애플리케이션에 Firebase Cloud Messaging (FCM) 푸시 알림을 구현하는 단계별 가이드를 제공합니다.

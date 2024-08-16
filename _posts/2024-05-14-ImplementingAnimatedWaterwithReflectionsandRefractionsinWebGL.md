@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Animated Water with Reflections and Refractions in WebGL"
 link: "https://medium.com/gitconnected/implementing-animated-water-with-reflections-and-refractions-in-webgl-1104b556d5c1"
+isUpdated: true
 ---
+
+
 
 
 ![워터 이미지](/assets/img/2024-05-14-ImplementingAnimatedWaterwithReflectionsandRefractionsinWebGL_0.png)

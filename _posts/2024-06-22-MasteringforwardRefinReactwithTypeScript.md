@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering forwardRef in React with TypeScript"
 link: "https://medium.com/@mattdeveloper/mastering-forwardref-in-react-with-typescript-c44857e7ff2f"
+isUpdated: true
 ---
+
+
 
 
 부모 컴포넌트에서 자식 컴포넌트의 DOM 요소에 액세스하거나 메서드를 호출합니다.

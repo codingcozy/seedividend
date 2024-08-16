@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Firebases Password Reset is Insecure Heres How to Fix It"
 link: "https://medium.com/better-programming/firebases-password-reset-is-insecure-here-s-how-to-fix-it-882629e3b779"
+isUpdated: true
 ---
+
+
 
 
 

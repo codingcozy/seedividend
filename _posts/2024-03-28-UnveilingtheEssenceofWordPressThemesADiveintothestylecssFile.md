@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unveiling the Essence of WordPress Themes A Dive into the stylecss File"
 link: "https://medium.com/@andisyafrianda/unveiling-the-essence-of-wordpress-themes-a-dive-into-the-style-css-file-4095236ca548"
+isUpdated: true
 ---
+
+
 
 
 

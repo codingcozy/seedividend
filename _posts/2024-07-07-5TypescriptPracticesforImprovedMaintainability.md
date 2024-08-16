@@ -3,12 +3,15 @@ title: "유지보수성을 높이는 5가지 TypeScript 실천법"
 description: ""
 coverImage: "/assets/img/2024-07-07-5TypescriptPracticesforImprovedMaintainability_0.png"
 date: 2024-07-07 19:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-5TypescriptPracticesforImprovedMaintainability_0.png
 tag: Tech
 originalTitle: "5 Typescript Practices for Improved Maintainability"
 link: "https://medium.com/@davislaura/5-typescript-practices-for-improved-maintainability-cd52bc5c8eda"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-5TypescriptPracticesforImprovedMaintainability_0.png)
 

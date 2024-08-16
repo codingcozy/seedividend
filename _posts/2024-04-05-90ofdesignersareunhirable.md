@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "90 of designers are unhirable"
 link: "https://uxdesign.cc/90-of-designers-are-unhirable-3a8238e3cca2"
+isUpdated: true
 ---
+
+
 
 
 

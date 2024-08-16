@@ -3,12 +3,15 @@ title: "CSS 선택자에서 , , 및  기호의 사용 방법 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-09-UnderstandinguseoftheandsymbolsinCSSselectors_0.png"
 date: 2024-07-09 18:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-UnderstandinguseoftheandsymbolsinCSSselectors_0.png
 tag: Tech
 originalTitle: "Understanding use of the +, >, and ~ symbols in CSS selectors"
 link: "https://medium.com/gitconnected/understanding-use-of-the-and-symbols-in-css-selectors-95552eb436f5"
+isUpdated: true
 ---
+
+
 
 ![CSS Selector](/assets/img/2024-07-09-UnderstandinguseoftheandsymbolsinCSSselectors_0.png)
 

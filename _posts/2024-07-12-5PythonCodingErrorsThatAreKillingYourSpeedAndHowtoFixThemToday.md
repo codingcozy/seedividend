@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Python Coding Errors That Are Killing Your Speed (And How to Fix Them Today)"
 link: "https://medium.com/python-in-plain-english/5-python-coding-errors-that-are-killing-your-speed-and-how-to-fix-them-today-8064f4d32e20"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png" />

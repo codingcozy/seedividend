@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Step-by-step guide to creating your first library in Angular"
 link: "https://medium.com/angular-in-depth/step-by-step-guide-to-creating-your-first-library-in-angular-6827276bfc9f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-Step-by-stepguidetocreatingyourfirstlibraryinAngular_0.png" />

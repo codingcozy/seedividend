@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "45 Game-Changing 2024 Figma Plugins You Cant Miss"
 link: "https://medium.muz.li/45-game-changing-2024-figma-plugins-you-cant-miss-5113d9601e5a"
+isUpdated: true
 ---
+
+
 
 
 

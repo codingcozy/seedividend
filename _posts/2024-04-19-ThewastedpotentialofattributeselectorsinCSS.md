@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The wasted potential of attribute selectors in CSS"
 link: "https://medium.com/@elisehein/the-wasted-potential-of-attribute-selectors-in-css-49102cb88f34"
+isUpdated: true
 ---
+
+
 
 
 

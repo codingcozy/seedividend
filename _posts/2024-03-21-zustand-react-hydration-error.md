@@ -1,5 +1,5 @@
 ---
-title: "Nextjs  Zustand, Text content does not match server-rendered HTML 에러 해결 방법 React Hydration Error"
+title: "Nextjs Zustand, Text content does not match server-rendered HTML 에러 해결 방법 React Hydration Error"
 description: "Nextjs와 Zustand를 사용할 때 발생하는 에러 해결방법에 대해서 공유합니다"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

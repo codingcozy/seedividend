@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "국제화 i18n 라우팅"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

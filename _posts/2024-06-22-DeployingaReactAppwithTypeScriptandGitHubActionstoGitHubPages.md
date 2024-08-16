@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🚀 Deploying a React App with TypeScript and GitHub Actions to GitHub Pages 🚀"
 link: "https://medium.com/@jagoda11/deploying-a-react-app-with-typescript-and-github-actions-to-github-pages-93c12d6c6675"
+isUpdated: true
 ---
+
+
 
 
 리액트 애플리케이션을 GitHub Pages에 배포하는 것은 적절한 설정으로 간단할 수 있어요. 이 안내서를 통해 TypeScript 및 GitHub Actions를 사용하여 미리 빌드된 React 앱을 GitHub Pages에 배포하는 방법을 안내할 거에요. 최적의 방법에 중점을 두어 배포를 깔끔하고 효율적으로 만들어보겠습니다.

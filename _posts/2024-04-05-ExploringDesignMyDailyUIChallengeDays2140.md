@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Design My Daily UI Challenge Days 2140"
 link: "https://medium.com/@ananyamaid/exploring-design-my-daily-ui-challenge-days-21-40-b466bef177c8"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "대규모 확장을 위해 React Native 앱에서 디자인 시스템 �
 description: ""
 coverImage: "/assets/img/2024-05-12-BuildforScaleUseaDesignSysteminyourReactNativeappPart3DevelopyourCustomThemeIntroduction_0.png"
 date: 2024-05-12 20:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-BuildforScaleUseaDesignSysteminyourReactNativeappPart3DevelopyourCustomThemeIntroduction_0.png
 tag: Tech
 originalTitle: "Build for Scale: Use a Design System in your React Native app. Part 3: Develop your Custom ThemeIntroduction"
 link: "https://medium.com/@malikchohra/build-for-scale-use-a-design-system-in-your-react-native-app-5790982cae7e"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-BuildforScaleUseaDesignSysteminyourReactNativeappPart3DevelopyourCustomThemeIntroduction_0.png" />
 

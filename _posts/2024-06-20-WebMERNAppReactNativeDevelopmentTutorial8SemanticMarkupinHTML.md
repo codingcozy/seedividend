@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Web (MERN) , App (React Native) Development Tutorial#8 | Semantic Markup in HTML"
 link: "https://medium.com/@mehtaba728/web-mern-app-react-native-development-tutorial-8-semantic-markup-in-html-5aa749e6638f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-WebMERNAppReactNativeDevelopmentTutorial8SemanticMarkupinHTML_0.png" />

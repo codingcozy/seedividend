@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Reactive forms: set value and patch value functions"
 link: "https://medium.com/@bhagirathsinhmakwana2001/angular-reactive-forms-set-value-and-patch-value-functions-c123705562f4"
+isUpdated: true
 ---
+
+
 
 
 setValue() 및 patchValue() 함수는 Angular에서 반응형 폼 컨트롤을 채우는 데 사용됩니다. 두 함수의 사용 사례가 다릅니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Effortless Page Routing Using HTMX"
 link: "https://medium.com/@paulallies/htmx-page-navigation-07b54742d251"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-02-EffortlessPageRoutingUsingHTMX_0.png)

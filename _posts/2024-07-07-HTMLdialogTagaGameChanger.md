@@ -3,12 +3,15 @@ title: "HTML dialog 태그가 혁신적인 이유 분석"
 description: ""
 coverImage: "/assets/img/2024-07-07-HTMLdialogTagaGameChanger_0.png"
 date: 2024-07-07 02:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-HTMLdialogTagaGameChanger_0.png
 tag: Tech
 originalTitle: "HTML <dialog> Tag a Game Changer"
 link: "https://medium.com/@developwithmi/html-dialog-tag-a-game-changer-bdd06d8c0317"
+isUpdated: true
 ---
+
+
 
 HTML5의 `dialog` 태그 소개는 개발자가 웹 페이지에서 모달과 대화 상자를 만들고 관리하는 방식을 혁신적으로 나타냅니다. `dialog` 태그 도입 이전에는 모달을 구현하는 데 HTML, CSS, JavaScript의 조합이나 jQuery UI 또는 Bootstrap과 같은 타사 라이브러리가 필요했지만, `dialog` 태그를 사용하면 이제 모달을 생성하는 것이 네이티브 HTML5 경험이 되어 프로세스가 간소화되고 보다 효율적인 접근 방식을 제공합니다. 다음은 작동 방법을 간략히 살펴보겠습니다:
 

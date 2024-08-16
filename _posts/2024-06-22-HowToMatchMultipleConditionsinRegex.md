@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Match Multiple Conditions in Regex"
 link: "https://medium.com/gitconnected/how-to-match-multiple-conditions-in-regex-a380affa175e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-HowToMatchMultipleConditionsinRegex_0.png" />

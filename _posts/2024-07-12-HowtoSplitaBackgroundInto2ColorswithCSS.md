@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Split a Background Into 2 Colors with CSS"
 link: "https://medium.com/@miguelznunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-HowtoSplitaBackgroundInto2ColorswithCSS_0.png" />

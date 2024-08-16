@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS isolation with Angular Micro frontends"
 link: "https://medium.com/@epavliy/css-isolation-with-angular-micro-frontends-eb3bd8261bb9"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-CSSisolationwithAngularMicrofrontends_0.png" />

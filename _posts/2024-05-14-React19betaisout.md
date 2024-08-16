@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React 19 beta is out!"
 link: "https://medium.com/@hassan.djirdeh/react-19-beta-is-out-4d41aa1d4eee"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-React19betaisout_0.png" />

@@ -1,5 +1,5 @@
 ---
-title: "플러터로 온보딩 페이지 캐로셀 만드는 방법패키지 사용 x"
+title: "플러터로 온보딩 페이지 캐로셀 만드는 방법 패키지 사용 x"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

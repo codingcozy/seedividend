@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "WebGPU  Tutorial 1 Hello World"
 link: "https://medium.com/@julienetienne/webgpu-a-beginners-hello-world-tutorial-8030747da390"
+isUpdated: true
 ---
+
+
 
 
 

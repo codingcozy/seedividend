@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "3 Useful HTML CSS Tricks For Developers and Non-Developers Of All Levels"
 link: "https://medium.com/@sebastians-studio/3-useful-html-css-tricks-for-developers-and-non-developers-of-all-levels-34a2f6f5f3da"
+isUpdated: true
 ---
+
+
 
 
 

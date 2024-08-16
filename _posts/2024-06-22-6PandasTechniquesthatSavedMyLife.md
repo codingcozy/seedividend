@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "6 Pandas Techniques that Saved My Life"
 link: "https://medium.com/@derekmeegan/6-pandas-techniques-that-saved-my-life-0d8fcf7d2c26"
+isUpdated: true
 ---
+
+
 
 
 

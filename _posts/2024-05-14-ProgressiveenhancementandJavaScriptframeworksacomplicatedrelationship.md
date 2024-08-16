@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Progressive enhancement and JavaScript frameworks — a complicated relationship"
 link: "https://medium.com/@rbultitudezone/progressive-enhancement-and-javascript-frameworks-a-complicated-relationship-254892b652cb"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-ProgressiveenhancementandJavaScriptframeworksacomplicatedrelationship_0.png" />

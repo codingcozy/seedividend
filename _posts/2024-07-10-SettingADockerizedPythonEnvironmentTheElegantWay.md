@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setting A Dockerized Python Environment — The Elegant Way"
 link: "https://medium.com/towards-data-science/setting-a-dockerized-python-environment-the-elegant-way-f716ef85571d"
+isUpdated: true
 ---
+
+
 
 
 이 게시물은 VScode 및 Dev Containers 확장 프로그램을 사용하여 Python 도커화 개발 환경을 설정하는 단계별 가이드를 제공합니다.

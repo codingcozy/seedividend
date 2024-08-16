@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Complete Free Course on Python and Data Engineering"
 link: "https://medium.com/@dataakkadian/complete-free-course-on-python-and-data-engineering-716bb9c94417"
+isUpdated: true
 ---
+
+
 
 
 파이썬에는 네 가지 복잡한 유형이 있습니다: 리스트, 튜플, 세트 및 사전이 있습니다. 각각에 대해 별도로 이야기하고 실제 예제를 제공하겠습니다.

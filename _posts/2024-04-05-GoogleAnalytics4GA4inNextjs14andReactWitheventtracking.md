@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Google Analytics 4 GA4 in Nextjs 14 and React With event tracking"
 link: "https://medium.com/@ospaarmann/google-analytics-4-ga4-in-next-js-14-and-react-with-event-tracking-2ceabb00c59a"
+isUpdated: true
 ---
+
+
 
 
 

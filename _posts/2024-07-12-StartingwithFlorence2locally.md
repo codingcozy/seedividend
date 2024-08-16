@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Starting with Florence 2 locally."
 link: "https://medium.com/@alexbuzunov/starting-with-florence-2-locally-722f035caba1"
+isUpdated: true
 ---
+
+
 
 
 플로렌스-2는 Microsoft의 고급 비전 기반 모델로, 프롬프트 기반 방식을 사용하여 다양한 비전 및 비전-언어 작업을 처리하기 위해 설계되었습니다. 로컬에서 플로렌스-2를 설정하고 실행하는 데 도움이 되는 시작 스크립트가 여기 있어요.

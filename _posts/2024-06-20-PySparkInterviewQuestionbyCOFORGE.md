@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "PySpark Interview Question by COFORGE"
 link: "https://medium.com/@bvsarathc06/pyspark-interview-question-by-coforge-88fbf8bb7339"
+isUpdated: true
 ---
+
+
 
 
 이 글에서는 고객 거래 데이터 세트를 사용하여 PySpark를 사용하여 데이터 변환 및 분석을 수행하는 방법을 살펴보겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use httpOnly cookie To Secure Your React App"
 link: "https://medium.com/@etearner/use-httponly-cookie-to-secure-your-react-app-4e8417d136b8"
+isUpdated: true
 ---
+
+
 
 
 

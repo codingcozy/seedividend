@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Attex  CodeIgniter Tailwind CSS Admin , Dashboard Admin Templates Web Templates"
 link: "https://medium.com/@glitchgoddess/attex-codeigniter-tailwind-css-admin-dashboard-admin-templates-web-templates-0f51956f4190"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "7가지 리액트 상태 관리 방법(2024년 최신)"
 description: ""
 coverImage: "/assets/img/2024-05-12-7BestPracticesReactStateManagement_0.png"
 date: 2024-05-12 22:22
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-7BestPracticesReactStateManagement_0.png
 tag: Tech
 originalTitle: "7 Best Practices React State Management"
 link: "https://medium.com/@asiandigitalhub/7-best-practices-react-state-management-1dd1ce4eaa15"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-7BestPracticesReactStateManagement_0.png" />
 

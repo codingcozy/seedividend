@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "자동 정적 최적화"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

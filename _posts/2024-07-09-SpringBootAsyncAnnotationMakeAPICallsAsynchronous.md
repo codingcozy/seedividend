@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Spring Boot @Async Annotation — Make API Calls Asynchronous"
 link: "https://medium.com/@basecs101/spring-boot-async-annotation-make-api-calls-asynchronous-2024-latest-dcce878d0fe2"
+isUpdated: true
 ---
+
+
 
 
 ## 스프링 부트 개념과 어노테이션

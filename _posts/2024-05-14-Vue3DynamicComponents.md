@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Vue 3 — Dynamic Components"
 link: "https://medium.com/javascript-in-plain-english/vue-3-dynamic-components-f53cbdc32fa8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-Vue3DynamicComponents_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Storyshots migration guide"
 link: "https://storybook.js.org/docs/writing-tests/storyshots-migration-guide"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Revamping Pew’s Fiscal 50 with Dynamic Visualizations"
 link: "https://medium.com/graphicacy/revamping-pews-fiscal-50-with-dynamic-visualizations-7bd9737c09dc"
+isUpdated: true
 ---
+
+
 
 
 ## Pew은 Graphicacy와 협력하여 2013년에 사이트를 발표한 후, Fiscal 50 웹사이트를 새롭게 할 필요를 느꼈습니다. 이 때문에 새로운 모바일 친화적이고 현대적인 디자인으로 업그레이드되었으며 새로운 주별 페이지가 추가되었습니다.

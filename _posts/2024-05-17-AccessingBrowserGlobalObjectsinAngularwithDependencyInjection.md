@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Accessing Browser Global Objects in Angular with Dependency Injection"
 link: "https://medium.com/@monsieur_ricky/accessing-browser-global-objects-in-angular-with-dependency-injection-3ebc9d764e84"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-AccessingBrowserGlobalObjectsinAngularwithDependencyInjection_0.png" />

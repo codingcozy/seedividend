@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using ReactJs, GraphQL API, Nestjs , TypeORM"
 link: "https://medium.com/@gangwanijayant737/using-reactjs-graphql-api-nestjs-typeorm-16548c050440"
+isUpdated: true
 ---
+
+
 
 
 

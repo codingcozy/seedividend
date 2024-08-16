@@ -3,12 +3,15 @@ title: "GraphQL API에서 인증 및 권한 관리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png"
 date: 2024-07-09 20:30
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png
 tag: Tech
 originalTitle: "How to handle authentication and authorization in GraphQL API"
 link: "https://medium.com/gitconnected/how-to-implement-authentication-and-authorization-in-graphql-api-90c17a92a5d9"
+isUpdated: true
 ---
+
+
 
 아래는 작성한 표의 내용이에요.
 

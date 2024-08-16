@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How we build no-code Data Enrichment Pipelines"
 link: "https://medium.com/@yotam.aharony/how-we-build-no-code-data-enrichment-pipelines-f5815b9d0fe4"
+isUpdated: true
 ---
+
+
 
 
 Explorium은 특정 산업 및 비즈니스 요구에 맞게 맞춤 데이터 시그널을 제작하는 것에 특화되어 있습니다. 이것이 바로 우리가 데이터 파이프라인을 만드는 책임을 지고 있는 데이터 제품 개발자(데이터 엔지니어)로 구성된 전담 팀을 모았던 이유입니다.

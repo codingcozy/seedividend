@@ -3,12 +3,15 @@ title: "2024년 최고의 파이썬 IDE는"
 description: ""
 coverImage: "/assets/img/2024-07-06-ThebestPythonIDEin2024_0.png"
 date: 2024-07-06 10:29
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-ThebestPythonIDEin2024_0.png
 tag: Tech
 originalTitle: "The best Python IDE in 2024?"
 link: "https://medium.com/@simeon.emanuilov/the-best-python-ide-in-2024-d4f536b6b6a2"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-ThebestPythonIDEin2024_0.png
 

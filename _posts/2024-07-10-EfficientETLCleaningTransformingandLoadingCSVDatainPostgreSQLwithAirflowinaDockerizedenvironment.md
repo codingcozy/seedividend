@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Efficient ETL: Cleaning, Transforming, and Loading CSV Data in PostgreSQL with Airflow in a Dockerized environment"
 link: "https://medium.com/@rajatbelgundi/efficient-etl-cleaning-transforming-and-loading-csv-data-in-postgresql-with-airflow-in-a-0bf062a0ed41"
+isUpdated: true
 ---
+
+
 
 
 데이터 엔지니어링이 현재 데이터 산업에서 화두입니다. 기업들이 데이터 엔지니어링 측면에 초점을 맞추기 시작했습니다. 최근에는 체계적인 데이터 파이프라인 구축이 주요 관심사입니다. 효율적인 데이터 파이프라인을 통해 품질 높은 데이터를 조직 내 다양한 팀에게 제공할 수 있습니다. 데이터 엔지니어들은 데이터 과학 프로젝트를 효율적으로 진행할 수 있는 이러한 파이프라인을 설계하는 데 도움을 줍니다. 이러한 파이프라인은 데이터 분석가와 비즈니스 분석팀이 데이터 시각화와 대시보드를 생성하여 비즈니스 결정을 지원하는 데 활용할 수도 있습니다.

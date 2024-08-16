@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JWT Authentication A Deep Dive into Access Tokens and Refresh Tokens"
 link: "https://medium.com/stackademic/jwt-authentication-a-deep-dive-into-access-tokens-and-refresh-tokens-274c6c3b352d"
+isUpdated: true
 ---
+
+
 
 
 

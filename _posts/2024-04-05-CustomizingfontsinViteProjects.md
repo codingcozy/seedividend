@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Customizing fonts in Vite Projects"
 link: "https://medium.com/@mosheedri20/customizing-fonts-in-vite-projects-c1c43d1bf411"
+isUpdated: true
 ---
+
+
 
 
 

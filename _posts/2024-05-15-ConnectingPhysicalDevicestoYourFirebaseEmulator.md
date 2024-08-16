@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Connecting Physical Devices to Your Firebase Emulator"
 link: "https://medium.com/@Toglefritz/connecting-physical-devices-to-your-firebase-emulator-dae629c6d192"
+isUpdated: true
 ---
+
+
 
 
 ## 플러터 개발 및 테스트를 위한 Firebase 에뮬레이터 스위트에 실제 기기 연결하기

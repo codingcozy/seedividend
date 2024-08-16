@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Filtering Complex Data with Power BI: A Case Study"
 link: "https://medium.com/@nedunuriharini263/filtering-complex-data-with-power-bi-a-case-study-8dd7e8b646a4"
+isUpdated: true
 ---
+
+
 
 
 ![2024-05-15-FilteringComplexDatawithPowerBIACaseStudy_0](/assets/img/2024-05-15-FilteringComplexDatawithPowerBIACaseStudy_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implement JWT authentication in a Spring Boot 3 application"
 link: "https://medium.com/@tericcabrel/implement-jwt-authentication-in-a-spring-boot-3-application-5839e4fd8fac"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-07-ImplementJWTauthenticationinaSpringBoot3application_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create a modal that can be opened from anywhere in Nextjs 13"
 link: "https://medium.com/@a.pirus/create-a-modal-that-can-be-opened-from-anywhere-in-next-js-13-36f6d0ce1bcf"
+isUpdated: true
 ---
+
+
 
 
 

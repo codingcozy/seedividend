@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter: Testing and Debugging (A Beginner’s Guide)"
 link: "https://medium.com/@cloderaldo/flutter-testing-and-debugging-a-beginners-guide-1178aa0a5dbc"
+isUpdated: true
 ---
+
+
 
 
 소프트웨어 개발에서 테스트와 디버깅은 중요한 구성 요소입니다. 이들을 통해 애플리케이션이 의도한 대로 작동하고 사용자에게 원활한 경험을 제공할 수 있습니다. 이 블로그에서는 플러터(Flutter)에서의 유닛 테스트, 통합 테스트 및 위젯 테스트에 대해 탐구할 것입니다. 만약 플러터에서의 테스트가 처음이라면, 이 안내서가 처음 시작하는 데 도움이 될 것입니다.

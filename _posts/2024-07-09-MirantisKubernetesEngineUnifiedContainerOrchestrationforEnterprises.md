@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mirantis Kubernetes Engine: Unified Container Orchestration for Enterprises"
 link: "https://medium.com/@harsh05/mirantis-kubernetes-engine-unified-container-orchestration-for-enterprises-ac3c7a5ab152"
+isUpdated: true
 ---
+
+
 
 
 # 컨테이너화 소개

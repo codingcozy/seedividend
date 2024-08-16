@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Embrace the Beauty of Material Design Colors"
 link: "https://medium.com/@hexcolors/embrace-the-beauty-of-material-design-colors-6fff89c30dfc"
+isUpdated: true
 ---
+
+
 
 
 

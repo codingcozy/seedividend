@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why I Use RTK Query for API Calls in React"
 link: "https://medium.com/codex/why-i-use-rtk-query-for-api-calls-in-react-fee9e2a4538"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple way to create a stopwatch in react js"
 link: "https://medium.com/how-to-react/simple-way-to-create-a-stopwatch-in-react-js-bcc0e08e041e"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*cpD3T-0TChZXMlfpRFBBAQ.gif)

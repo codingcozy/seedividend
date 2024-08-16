@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Dynamic Styling with Angulars NgClass Illustrated with Code"
 link: "https://medium.com/dev-genius/mastering-dynamic-styling-with-angular-ngclass-with-code-example-61b39078a79c"
+isUpdated: true
 ---
+
+
 
 
 

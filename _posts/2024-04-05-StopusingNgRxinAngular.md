@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stop using NgRx in Angular"
 link: "https://medium.com/@hclatomic/stop-using-ngrx-in-angular-a3ab7c694a14"
+isUpdated: true
 ---
+
+
 
 
 

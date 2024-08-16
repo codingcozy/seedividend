@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Practical Steps on How to Apply the useParams() Hook of React Router"
 link: "https://medium.com/stackademic/practical-steps-on-how-to-apply-the-useparams-hook-of-react-router-5cd43a2106b2"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-PracticalStepsonHowtoApplytheuseParamsHookofReactRouter_0.png)

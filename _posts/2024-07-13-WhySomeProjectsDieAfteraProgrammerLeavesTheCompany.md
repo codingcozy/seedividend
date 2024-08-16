@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Some Projects “Die” After a Programmer Leaves The Company"
 link: "https://medium.com/python-in-plain-english/why-some-projects-die-after-a-programmer-leaves-the-company-361e55dd44ba"
+isUpdated: true
 ---
+
+
 
 
 이 글에서는 프로그래머가 회사를 떠난 후 프로젝트가 종료되는 주요 이유 중 하나에 대해 이야기하겠습니다. 여기에 언급된 몇 가지 이유를 피할 수 있도록 좋고 나쁜 실제 사례를 함께 살펴보겠습니다.

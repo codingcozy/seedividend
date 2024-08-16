@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Migrate from Legacy Coding Practices in Java"
 link: "https://medium.com/@saranganjana/migrate-from-legacy-coding-practices-in-java-9d948d08f5c3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-09-MigratefromLegacyCodingPracticesinJava_0.png" />

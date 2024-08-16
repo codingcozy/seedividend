@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Angular Application in various environments using angular-CLI and server."
 link: "https://medium.com/yavar/building-an-angular-application-in-various-environments-using-angular-cli-and-server-18f94067154b"
+isUpdated: true
 ---
+
+
 
 
 이 블로그에서는 앵귤러 애플리케이션을 여러 환경에서 구축하는 방법을 설명합니다. 애플리케이션 및 서버 측에서 앵귤러-CLI 명령이 알려지지 않은 상태에서 작동합니다. 또한 앵귤러 애플리케이션에서 사용자 정의 터미널 명령을 사용하는 방법을 안내합니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nx Implicit Libraries: The Hidden Gem 💎"
 link: "https://medium.com/marmicode/nx-implicit-libraries-the-hidden-gem-d965d5118ecd"
+isUpdated: true
 ---
+
+
 
 
 Nx가 제공하는 엄청난 기능을 활용하기 위해, 여러 라이브러리로 애플리케이션을 분할하는 것이 일반적입니다. 사실, 애플리케이션을 라이브러리로 분리하는 것은 관심사와 경계를 명확히 분리하고, Nx의 캐싱, 그래프 및 병렬화 덕분에 빠른 작업 실행을 제공한다는 장점 중 하나입니다.

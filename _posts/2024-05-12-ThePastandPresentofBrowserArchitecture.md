@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Past and Present of Browser Architecture"
 link: "https://medium.com/gitconnected/the-past-and-present-of-browser-architecture-522c65d1c2cd"
+isUpdated: true
 ---
+
+
 
 
 

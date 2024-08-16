@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Alternatives after the deprecation of ng-deep"
 link: "https://medium.com/@simon.sharp_25406/angular-alternatives-after-the-deprecation-of-ng-deep-b51591a296e7"
+isUpdated: true
 ---
+
+
 
 
 

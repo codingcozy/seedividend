@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "18 JavaScript Tips You Should Know for Clean and Efficient Code"
 link: "https://medium.com/stackademic/18-javascript-tips-you-should-know-for-clean-and-efficient-code-1e185353a542"
+isUpdated: true
 ---
+
+
 
 
 

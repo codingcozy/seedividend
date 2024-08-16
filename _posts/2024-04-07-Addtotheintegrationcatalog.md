@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Add to the integration catalog"
 link: "https://storybook.js.org/docs/addons/integration-catalog"
+isUpdated: true
 ---
+
+
 
 
 

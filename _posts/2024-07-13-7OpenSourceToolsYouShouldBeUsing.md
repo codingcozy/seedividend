@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "7 Open Source Tools You Should Be Using"
 link: "https://medium.com/sourcescribes/7-open-source-tools-you-should-be-using-2a5ac6532565"
+isUpdated: true
 ---
+
+
 
 
 오픈 소스 소프트웨어 분야에서는 다양한 도구들이 등장하여 블로깅, 이미지 공유, 팀 협업, 비디오 제작 등 다양한 요구를 충족시키고 있습니다. 이번 개요에서는 WriteFreely, Picsur, Rocket.Chat, Dashy, Trilium Notes, OBS Studio, Matrix Dendrite와 같은 7가지 플랫폼을 살펴보겠습니다. 각 프로젝트는 독특한 기능과 기능성을 제공하며, 고유의 기술적 요구 사항을 해결하는데 커뮤니티 주도 개발의 강점과 유연성을 보여줍니다.

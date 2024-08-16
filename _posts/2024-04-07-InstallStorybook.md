@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Install Storybook"
 link: "https://storybook.js.org/docs/get-started/install"
+isUpdated: true
 ---
+
+
 
 
 

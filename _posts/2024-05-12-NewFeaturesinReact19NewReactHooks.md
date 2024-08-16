@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "New Features in React 19 — New React Hooks"
 link: "https://medium.com/@vageeshawihangi/new-features-in-react-19-new-react-hooks-af9c05d0d284"
+isUpdated: true
 ---
+
+
 
 
 🚀 React 19의 새로운 시대를 탐험하다: 혁명적인 훅의 일단 봐 🌟

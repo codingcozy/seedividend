@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 13 저장소의 Instrumentation 방법 정리 "
+title: "Nextjs 13 저장소의 Instrumentation 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "기관화"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

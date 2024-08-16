@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Write snapshot tests"
 link: "https://storybook.js.org/docs/writing-tests/snapshot-testing"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind CSS vs Bootstrap  2024 Edition"
 link: "https://blog.stackademic.com/tailwind-css-vs-bootstrap-2024-edition-da8e4cad62a1"
+isUpdated: true
 ---
+
+
 
 
 

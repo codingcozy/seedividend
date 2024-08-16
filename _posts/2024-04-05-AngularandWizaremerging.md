@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular and Wiz are merging"
 link: "https://medium.com/@kristiyan.velkov/angular-and-wiz-are-merging-c4c56de4f705"
+isUpdated: true
 ---
+
+
 
 
 

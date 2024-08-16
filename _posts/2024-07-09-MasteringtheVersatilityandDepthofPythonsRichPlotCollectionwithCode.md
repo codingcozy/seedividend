@@ -3,12 +3,15 @@ title: "Python의 풍부한 플롯 컬렉션 마스터하기 코드 포함"
 description: ""
 coverImage: "/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_0.png"
 date: 2024-07-09 20:05
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_0.png
 tag: Tech
 originalTitle: "Mastering the Versatility and Depth of Python’s Rich Plot Collection(with Code)"
 link: "https://medium.com/towards-data-science/mastering-the-versatility-and-depth-of-pythons-rich-plot-collection-with-code-b136b584d143"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-MasteringtheVersatilityandDepthofPythonsRichPlotCollectionwithCode_0.png" />
 

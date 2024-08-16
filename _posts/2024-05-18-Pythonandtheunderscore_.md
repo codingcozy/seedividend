@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python and the underscore (_)"
 link: "https://medium.com/towards-data-science/python-and-the-underscore-82d7ce8706d"
+isUpdated: true
 ---
+
+
 
 
 ## 파이썬 프로그래밍

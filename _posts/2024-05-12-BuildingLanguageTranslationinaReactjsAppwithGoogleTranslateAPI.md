@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Language Translation in a React.js App with Google Translate API"
 link: "https://medium.com/@vipinnation/building-language-translation-in-a-react-js-app-with-google-translate-api-45e1236e2bad"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-BuildingLanguageTranslationinaReactjsAppwithGoogleTranslateAPI_0.png)

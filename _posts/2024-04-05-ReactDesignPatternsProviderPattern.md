@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Design Patterns Provider Pattern"
 link: "https://medium.com/@vitorbritto/react-design-patterns-provider-pattern-b273ba665158"
+isUpdated: true
 ---
+
+
 
 
 

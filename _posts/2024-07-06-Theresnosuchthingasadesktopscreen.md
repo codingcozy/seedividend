@@ -3,12 +3,15 @@ title: "데스크탑 화면은 더 이상 존재하지 않는다"
 description: ""
 coverImage: "/assets/img/2024-07-06-Theresnosuchthingasadesktopscreen_0.png"
 date: 2024-07-06 10:11
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-Theresnosuchthingasadesktopscreen_0.png
 tag: Tech
 originalTitle: "There’s no such thing as a desktop screen"
 link: "https://medium.com/design-bootcamp/theres-no-such-thing-as-a-desktop-screen-b9e300c0b128"
+isUpdated: true
 ---
+
+
 
 ## 반응성을 더 높인 다음 단계로
 

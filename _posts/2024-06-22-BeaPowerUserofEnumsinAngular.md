@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Be a Power User of Enums in Angular"
 link: "https://medium.com/javascript-in-plain-english/be-a-power-user-of-enums-in-angular-d598f92fcb74"
+isUpdated: true
 ---
+
+
 
 
 테이블 태그를 마크다운 형식으로 변경해주세요.

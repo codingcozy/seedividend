@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The TypeScript Tax"
 link: "https://medium.com/javascript-scene/the-typescript-tax-132ff4cb175b"
+isUpdated: true
 ---
+
+
 
 
 ## 비용 대 수익 분석

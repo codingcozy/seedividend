@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make a fancy inverted border radius in CSS"
 link: "https://medium.com/itnext/how-to-make-a-fancy-inverted-border-radius-in-css-5db048a53f95"
+isUpdated: true
 ---
+
+
 
 
 

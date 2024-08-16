@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Chatbot cheat code: Qwen110B on Streamlit without spending a penny — Part 2"
 link: "https://medium.com/generative-ai/chatbot-cheat-code-qwen110b-on-streamlit-without-spending-a-penny-part-2-3731a827f27f"
+isUpdated: true
 ---
+
+
 
 
 제1부에서는 수십억 개의 매개변수를 가진 큰 언어 모델에 무료로 액세스하고 활용할 수 있다는 것을 발견했어요. 제처럼 여러분도 하드웨어 한정으로 고민 중이라면, 이 해킹 방법은 하이엔드 GPU나 유료 구독 없이도 Qwen-110B-chat과 같은 대규모 모델과 상호 작용할 수 있는 기쁨을 선사할 거예요.

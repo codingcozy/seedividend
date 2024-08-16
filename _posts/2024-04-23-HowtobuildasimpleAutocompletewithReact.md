@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to build a simple Autocomplete with React"
 link: "https://medium.com/@vickyvishal/how-to-build-a-simple-autocomplete-with-react-6d84240af18e"
+isUpdated: true
 ---
+
+
 
 
 

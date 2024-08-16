@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Whats the Difference Between localhost and 127001"
 link: "https://medium.com/stackademic/whats-the-difference-between-localhost-and-127-0-0-1-4102ba05d494"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-28-WhatstheDifferenceBetweenlocalhostand127001_0.png" />

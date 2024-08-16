@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Iconography An OutSystems approach"
 link: "https://medium.com/@rtbernardo/iconography-an-outsystems-approach-b145eab78449"
+isUpdated: true
 ---
+
+
 
 
 

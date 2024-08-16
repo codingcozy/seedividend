@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using WebView in Jetpack Compose"
 link: "https://medium.com/@kevinnzou/using-webview-in-jetpack-compose-bbf5991cfd14"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-02-UsingWebViewinJetpackCompose_0.png" />

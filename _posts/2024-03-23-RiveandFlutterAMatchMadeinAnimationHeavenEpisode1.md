@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rive and Flutter A Match Made in Animation Heaven  Episode 1"
 link: "https://medium.com/flutter-community/rive-and-flutter-a-match-made-in-animation-heaven-episode-1-3d8a6535bda9"
+isUpdated: true
 ---
+
+
 
 
 

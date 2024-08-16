@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Whats next for Flutter"
 link: "https://medium.com/flutter/whats-next-for-flutter-b94ce089f49c"
+isUpdated: true
 ---
+
+
 
 
 

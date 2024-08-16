@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Manifesto of a Passionate UX Researcher"
 link: "https://medium.com/@natecookux/the-manifesto-of-a-passionate-ux-researcher-ba0b60c15c56"
+isUpdated: true
 ---
+
+
 
 
 

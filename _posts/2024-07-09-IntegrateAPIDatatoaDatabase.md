@@ -3,12 +3,15 @@ title: "API 데이터를 데이터베이스에 통합하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-IntegrateAPIDatatoaDatabase_0.png"
 date: 2024-07-09 09:12
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-IntegrateAPIDatatoaDatabase_0.png
 tag: Tech
 originalTitle: "Integrate API Data to a Database"
 link: "https://medium.com/python-in-plain-english/integrate-api-data-to-a-database-48150d1c0093"
+isUpdated: true
 ---
+
+
 
 DLT, Postgres 및 Python을 사용합니다.
 

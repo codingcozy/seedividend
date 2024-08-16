@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ingest Data From Pub Sub directly to Bigquery - Google Cloud Project with Steps"
 link: "https://medium.com/@brilliantprogrammer/ingest-data-from-pub-sub-directly-to-bigquery-google-cloud-project-with-steps-ad3a2ba709e7"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-15-IngestDataFromPubSubdirectlytoBigquery-GoogleCloudProjectwithSteps_0.png)

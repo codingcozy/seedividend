@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Cat in a Bag!"
 link: "https://medium.com/@juliaeveritt09/cat-in-a-bag-567d8c5b3bda"
+isUpdated: true
 ---
+
+
 
 
 제 최종 프로젝트는 '가방 안 고양이(Cat in a Bag)' 라는 게임입니다. 이 게임의 아이디어는 제 룸메이트가 기르는 퍼시라는 이름의 고양이에서 영감을 받았어요. 퍼시는 가방을 좋아하는 회색 고양이예요. 그녀가 가장 좋아하는 가방은 녹색 퍼블릭스 가방인데, 그 속에 숨어들어 가끔 마주쳤었죠. 아래에서 진짜 퍼시가 가방 안에 있는 모습을 보실 수 있어요!

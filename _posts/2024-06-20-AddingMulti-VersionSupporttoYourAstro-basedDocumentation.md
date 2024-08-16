@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adding Multi-Version Support to Your Astro-based Documentation"
 link: "https://medium.com/bitsrc/adding-multi-version-support-to-your-astro-based-documentation-429aa2ca7089"
+isUpdated: true
 ---
+
+
 
 
 ## 같은 문서 안에 여러 버전을 가질 수 있는 방법은 무엇인가요?

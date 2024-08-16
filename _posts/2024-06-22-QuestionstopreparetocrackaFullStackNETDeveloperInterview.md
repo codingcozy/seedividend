@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Questions to prepare to crack a Full Stack .NET Developer Interview"
 link: "https://medium.com/@BhuvanaR/questions-to-prepare-to-crack-a-full-stack-net-developer-interview-a2fc5ee8e620"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-QuestionstopreparetocrackaFullStackNETDeveloperInterview_0.png" />

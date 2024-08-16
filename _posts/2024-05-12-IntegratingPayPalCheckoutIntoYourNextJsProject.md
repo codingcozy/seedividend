@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating PayPal Checkout Into Your Next.Js Project"
 link: "https://medium.com/@programming-advice/integrating-paypal-checkout-into-your-next-js-project-b395d3d81254"
+isUpdated: true
 ---
+
+
 
 
 ## NEXT.JS 앱 라우터에 관한 기사

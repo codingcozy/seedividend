@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Pre-Signed URLs to Upload Files to Amazon S3 From ReactJS"
 link: "https://medium.com/@allardqjy/using-pre-signed-urls-to-upload-files-to-amazon-s3-from-reactjs-5b15c94b66df"
+isUpdated: true
 ---
+
+
 
 
 ## 아마존 S3와 웹 애플리케이션을 연결하는 초보자 가이드

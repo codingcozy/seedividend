@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Real-Time Data Transfer with WebSockets and SignalR in .NET Core"
 link: "https://medium.com/@siva.veeravarapu/real-time-data-transfer-with-websockets-and-signalr-in-net-core-409b0d50719b"
+isUpdated: true
 ---
+
+
 
 
 실시간 데이터 전송은 즉각적인 업데이트와 알림이 필요한 애플리케이션에 꼭 필요합니다. .NET Core에서 WebSockets 및 SignalR은 클라이언트와 서버 간의 실시간 통신을 구현하는 강력한 도구를 제공합니다. 이 안내서에서는 WebSockets 및 SignalR을 사용하여 .NET Core 애플리케이션에서 실시간 데이터 전송을 어떻게 구현하는지 살펴볼 것입니다.

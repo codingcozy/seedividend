@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 9 most popular javascript libraries for front end and back end developer in 2023"
 link: "https://medium.com/@akchauhan556/top-9-most-popular-javascript-libraries-for-front-end-and-back-end-developer-in-2023-4d2718abe29e"
+isUpdated: true
 ---
+
+
 
 
 

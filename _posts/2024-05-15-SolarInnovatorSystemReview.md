@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Solar Innovator System Review"
 link: "https://medium.com/@junaidwaqar/solar-innovator-system-review-6db0b10c5707"
+isUpdated: true
 ---
+
+
 
 
 ## 360도 각도에서 지속적으로 패널 각도를 조절할 필요 없이 저렴하고 깨끗한 에너지를 생성하는 DIY 태양 에너지 프로젝트.

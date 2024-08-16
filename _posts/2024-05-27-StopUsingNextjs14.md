@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stop Using Next.js 14"
 link: "https://medium.com/gitconnected/stop-using-next-js-14-538f35404ea4"
+isUpdated: true
 ---
+
+
 
 
 

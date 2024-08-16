@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Chaos Engineering Part I: Introduction Concepts"
 link: "https://medium.com/@the14dayedition/chaos-engineering-part-i-introduction-concepts-823500e646ea"
+isUpdated: true
 ---
+
+
 
 
 ## 대규모 이벤트를 위한 준비

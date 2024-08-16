@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Position — Absolute , Relative"
 link: "https://medium.com/@sonikamaheshwari067/css-position-arelative-564c1eaed407"
+isUpdated: true
 ---
+
+
 
 
 # 위치: 상대적(relative);

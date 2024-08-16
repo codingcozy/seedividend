@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "APIs to Use for Creating React App"
 link: "https://medium.com/@saurabhbarot/apis-to-use-for-creating-react-app-0c4ab7130569"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-APIstoUseforCreatingReactApp_0.png" />

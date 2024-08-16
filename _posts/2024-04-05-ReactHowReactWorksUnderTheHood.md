@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React How React Works Under The Hood"
 link: "https://medium.com/@ruchivora16/react-how-react-works-under-the-hood-9b621ee69fb5"
+isUpdated: true
 ---
+
+
 
 
 

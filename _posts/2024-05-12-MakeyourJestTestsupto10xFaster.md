@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🏎 Make your Jest Tests upto 10x Faster"
 link: "https://medium.com/dev-genius/make-your-jest-tests-upto-10x-faster-d751b3428ded"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A comprehensive guide to TKG Service Cluster definition"
 link: "https://medium.com/@navneet-verma/a-comprehensive-guide-to-tkg-service-cluster-definition-fce2d3903b10"
+isUpdated: true
 ---
+
+
 
 
 지금부터 TKG 클러스터 리소스 정의 매니페스트의 세계로 뛰어들 준비를 해보세요! 이 설계도는 노드 구성, 저장 정책 및 네트워크 설정을 포함한 완벽한 클러스터를 정의합니다. 사용자 정의 가능한 옵션과 확장된 기능 세트로, 새 클러스터를 프로비저닝하는 것이 이제까지보다 쉬워졌습니다. 이 문서는 이 개념을 해체하고 주요 측면을 강조하며 전체 클러스터 구성 프로세스를 어떻게 간소화하는지 보여줍니다.

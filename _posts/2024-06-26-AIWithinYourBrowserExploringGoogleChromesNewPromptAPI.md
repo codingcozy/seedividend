@@ -3,12 +3,15 @@ title: "브라우저에서 AI 활용하기 2024년 Google Chrome의 새로운 Pr
 description: ""
 coverImage: "/assets/img/2024-06-26-AIWithinYourBrowserExploringGoogleChromesNewPromptAPI_0.png"
 date: 2024-06-26 12:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-26-AIWithinYourBrowserExploringGoogleChromesNewPromptAPI_0.png
 tag: Tech
 originalTitle: "AI Within Your Browser: Exploring Google Chrome’s New Prompt API"
 link: "https://medium.com/@muthuishere/ai-within-your-browser-exploring-google-chromes-new-prompt-api-a5c2c6bd5b4c"
+isUpdated: true
 ---
+
+
 
 브라우저에서 강력한 AI를 직접 사용할 수 있다면 어떻겠어요? WebGPU와 유사하지만 크롬이 모든 것을 처리해줍니다. 외부 서비스에 의존하거나 서버를 설정하거나 대용량 파일을 다운로드할 필요가 없어요. 이겔 시작하려고 600MB 모델을 다운로드하는 것이 아니에요. 이것은 브라우저에서 직접할 수 있는 것을 재정의하는 혁신적인 방법입니다.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Reuse Micro Frontends"
 link: "https://medium.com/javascript-in-plain-english/how-to-reuse-micro-frontends-72dcea9da15e"
+isUpdated: true
 ---
+
+
 
 
 ## 마이크로 프론트엔드는 재사용하기 어렵습니다. 그러나 적절한 도구 세트를 활용하면 서로 다른 프로젝트에 걸쳐 마이크로 프론트엔드를 재사용할 수 있습니다.

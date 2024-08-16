@@ -3,12 +3,15 @@ title: "E-도서관 데이터베이스 설계, 핵심 요약"
 description: ""
 coverImage: "/assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_0.png"
 date: 2024-07-07 21:44
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-E-LibraryDatabaseDesigninginaNutshell_0.png
 tag: Tech
 originalTitle: "E-Library Database Designing, in a Nutshell"
 link: "https://medium.com/@mesinketikrusak/e-library-database-designing-in-a-nutshell-2a1ff77ff0b6"
+isUpdated: true
 ---
+
+
 
 내가 이것을 쓰기 전에, 팝컬쳐 특히 원피스에 너무 많은 선호를 준 것에 대해 죄송합니다. 강조해야 할 특정한 것이 하나 있거든요. 오하라 섬과 그 도서관에 관한 것입니다.
 

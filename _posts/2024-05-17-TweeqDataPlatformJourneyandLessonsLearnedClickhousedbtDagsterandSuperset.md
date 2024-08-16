@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tweeq Data Platform: Journey and Lessons Learned: Clickhouse, dbt, Dagster, and Superset"
 link: "https://medium.com/tweeq-engineering/tweeq-data-platform-journey-and-lessons-learned-clickhouse-dbt-dagster-and-superset-fa27a4a61904"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-TweeqDataPlatformJourneyandLessonsLearnedClickhousedbtDagsterandSuperset_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to upload files on an s3 bucket in React js"
 link: "https://medium.com/how-to-react/how-to-upload-files-on-an-s3-bucket-in-react-js-97a3ccd519d1"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Designing a Banner for Content Preview Mode with Nextjs and Contentful"
 link: "https://medium.com/@micheburrito/designing-a-banner-for-content-preview-mode-with-next-js-and-contentful-6158f8f568f7"
+isUpdated: true
 ---
+
+
 
 
 

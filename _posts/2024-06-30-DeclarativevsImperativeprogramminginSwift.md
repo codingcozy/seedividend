@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Declarative vs Imperative programming in Swift"
 link: "https://medium.com/@dev.iayush27/declarative-vs-imperative-programming-in-swift-1fc2f9a20262"
+isUpdated: true
 ---
+
+
 
 
 선언적 및 명령형 프로그래밍은 코드 작성 방식에 영향을 미치는 두 가지 패러다임입니다. 이 두 패러다임이 Swift에서 어떻게 나타나는지 비교해보겠습니다:

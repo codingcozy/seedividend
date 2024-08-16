@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating Pitfalls: A Guide to React Hooks (useState , useEffect)"
 link: "https://medium.com/@Choco23/navigating-pitfalls-a-guide-to-react-hooks-usestate-useeffect-2aa2d1eca746"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-20-NavigatingPitfallsAGuidetoReactHooksuseStateuseEffect_0.png" />

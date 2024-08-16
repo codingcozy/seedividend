@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing Angular Component Flexibility with Fallback Content in ng-content"
 link: "https://netbasal.medium.com/enhancing-angular-component-flexibility-with-fallback-content-in-ng-content-50637eea7dd5"
+isUpdated: true
 ---
+
+
 
 
 

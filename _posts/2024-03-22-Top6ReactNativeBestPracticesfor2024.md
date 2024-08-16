@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 6 React Native Best Practices for 2024"
 link: "https://medium.com/@hello_chirag/top-6-react-native-best-practices-for-2024-d90763aeedfc"
+isUpdated: true
 ---
+
+
 
 
 

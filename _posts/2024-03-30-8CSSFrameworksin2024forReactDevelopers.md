@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "8 CSS Frameworks in 2024 for React Developers"
 link: "https://medium.com/@imPradhyumn/8-css-frameworks-in-2024-for-react-developers-e3512c196b35"
+isUpdated: true
 ---
+
+
 
 
 

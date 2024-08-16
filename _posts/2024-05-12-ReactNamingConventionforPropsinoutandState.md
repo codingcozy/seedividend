@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React — Naming Convention for Props (in out) and State"
 link: "https://medium.com/javascript-in-plain-english/part-1-react-naming-convention-for-props-in-out-handlers-and-state-e6af2696089a"
+isUpdated: true
 ---
+
+
 
 
 프로그래밍에서 가장 어려운 일 중 하나가 이름 짓기라고 자주 들어봤을 거예요.

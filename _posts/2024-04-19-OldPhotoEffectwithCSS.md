@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Old Photo Effect with CSS"
 link: "https://medium.com/gitconnected/old-photo-effect-with-css-54f5be9912b"
+isUpdated: true
 ---
+
+
 
 
 

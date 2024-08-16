@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Optimize PostgreSQL Queries"
 link: "https://medium.com/@nodeteam/how-to-optimize-postgresql-queries-226e6ff15f72"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-HowtoOptimizePostgreSQLQueries_0.png" />

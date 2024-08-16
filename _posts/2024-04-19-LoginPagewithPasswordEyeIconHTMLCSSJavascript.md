@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Login Page with Password Eye Icon HTML CSS Javascript"
 link: "https://medium.com/@mralgo/login-page-with-password-eye-icon-html-css-javascript-13b6e643d5e7"
+isUpdated: true
 ---
+
+
 
 
 

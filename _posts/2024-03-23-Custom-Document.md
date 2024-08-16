@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "사용자 정의 문서"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

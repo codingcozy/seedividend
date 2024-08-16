@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Add Firebase into Your Flutter App  Within 100 Seconds"
 link: "https://theflutterway.medium.com/add-firebase-into-your-flutter-app-within-100-seconds-5dd3573be094"
+isUpdated: true
 ---
+
+
 
 
 

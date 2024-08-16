@@ -3,12 +3,15 @@ title: "Python을 사용해 PDF에서 이미지 및 이미지 정보 추출하�
 description: ""
 coverImage: "/assets/img/2024-07-09-ExtractImagesandImageInformationfromPDFwithPython_0.png"
 date: 2024-07-09 14:38
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ExtractImagesandImageInformationfromPDFwithPython_0.png
 tag: Tech
 originalTitle: "Extract Images and Image Information from PDF with Python"
 link: "https://medium.com/@alice.yang_10652/extract-images-and-image-information-from-pdf-with-python-10719a3bda81"
+isUpdated: true
 ---
+
+
 
 PDF (Portable Document Format) 파일은 다양한 형식과 일관된 포맷팅을 가지고 있어 문서 공유와 보존에 널리 사용됩니다. 텍스트 콘텐츠 외에도 PDF 파일에는 종종 가치 있는 이미지가 포함되어 있습니다. 이러한 이미지를 추출하고 위치 (x와 y 좌표), 너비, 높이와 같은 관련 정보를 검색함으로써 이미지 분석, 조작, 그리고 다양한 프로젝트에 통합하는 많은 가능성을 발견할 수 있습니다. 이 블로그 포스트에서는 Python을 사용하여 PDF 파일에서 이미지와 이미지 정보를 추출하는 방법을 알아보겠습니다.
 

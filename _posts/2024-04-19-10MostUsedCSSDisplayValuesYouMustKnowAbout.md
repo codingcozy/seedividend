@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Most Used CSS Display Values You Must Know About"
 link: "https://medium.com/stackademic/10-most-used-css-display-values-you-must-know-about-6ae6be091c1a"
+isUpdated: true
 ---
+
+
 
 
 

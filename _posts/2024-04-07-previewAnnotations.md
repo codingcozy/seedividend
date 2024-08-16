@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "previewAnnotations"
 link: "https://storybook.js.org/docs/api/main-config-preview-annotations"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to quickly check if a front-end project has a cache"
 link: "https://medium.com/@jerrodnoliita/front-end-project-injection-version-number-743c29dcd16f"
+isUpdated: true
 ---
+
+
 
 
 

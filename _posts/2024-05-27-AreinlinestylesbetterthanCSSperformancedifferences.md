@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Are inline styles better than CSS performance differences?"
 link: "https://medium.com/stackademic/are-inline-styles-better-than-css-performance-differences-6d04d424bb6a"
+isUpdated: true
 ---
+
+
 
 
 ![Are inline styles better than CSS? Performance differences](/assets/img/2024-05-27-AreinlinestylesbetterthanCSSperformancedifferences_0.png)

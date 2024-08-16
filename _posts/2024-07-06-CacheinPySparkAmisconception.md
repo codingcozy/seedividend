@@ -3,12 +3,15 @@ title: "PySpark의 Cache 기능에 대한 오해"
 description: ""
 coverImage: "/assets/img/2024-07-06-CacheinPySparkAmisconception_0.png"
 date: 2024-07-06 10:34
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-CacheinPySparkAmisconception_0.png
 tag: Tech
 originalTitle: "Cache() in PySpark — A misconception"
 link: "https://medium.com/@rubihali/cache-in-pyspark-a-misconception-3b1f97dd149b"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-CacheinPySparkAmisconception_0.png
 

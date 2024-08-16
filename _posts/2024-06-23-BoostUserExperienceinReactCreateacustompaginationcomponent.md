@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Boost User Experience in React : Create a custom pagination component"
 link: "https://medium.com/@ichrak.azzouz/boost-user-experience-in-react-create-a-custom-pagination-component-d63de35b0af3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-BoostUserExperienceinReactCreateacustompaginationcomponent_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A way to mock and test navigation events in React by Vitest"
 link: "https://medium.com/@1992season/a-way-to-mock-and-test-navigation-events-in-react-by-vitest-c59f9c8ccc0b"
+isUpdated: true
 ---
+
+
 
 
 리액트 페이지 탐색 이벤트를 테스트하고 싶어서 노력 중이었는데, 가져온 모듈 함수를 MOCK 하는 것이 필요해 전혀 익숙하지 않았어요. 

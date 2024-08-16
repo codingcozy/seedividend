@@ -3,12 +3,15 @@ title: "무료 오픈 소스 ReactJS 템플릿 10가지 공유"
 description: ""
 coverImage: "/assets/img/2024-05-12-10FreeOpenSourceReactJSTemplates_0.png"
 date: 2024-05-12 21:38
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-10FreeOpenSourceReactJSTemplates_0.png
 tag: Tech
 originalTitle: "10 Free, Open Source ReactJS Templates"
 link: "https://medium.com/@adelpro/10-free-open-source-reactjs-templates-513e86fefae0"
+isUpdated: true
 ---
+
+
 
 이 글에서는 신중하게 선택된 10가지 무료 오픈 소스 ReactJS 템플릿을 소개합니다.
 

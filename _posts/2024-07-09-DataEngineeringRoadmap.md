@@ -3,12 +3,15 @@ title: "데이터 엔지니어링 로드맵 2024년 최신 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-DataEngineeringRoadmap_0.png"
 date: 2024-07-09 19:48
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-DataEngineeringRoadmap_0.png
 tag: Tech
 originalTitle: "Data Engineering Roadmap"
 link: "https://medium.com/@gaurav-adarshi/data-engineering-roadmap-f28eb1817b05"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-DataEngineeringRoadmap_0.png" />
 

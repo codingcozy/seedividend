@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Environment variables"
 link: "https://storybook.js.org/docs/configure/environment-variables"
+isUpdated: true
 ---
+
+
 
 
 

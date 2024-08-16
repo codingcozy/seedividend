@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a CLI App with Node.js in 2024"
 link: "https://medium.com/nmc-techblog/building-a-cli-with-node-js-in-2024-c278802a3ef5"
+isUpdated: true
 ---
+
+
 
 
 ## Node.js로 CLI 앱을 만드는 과정을 자세히 안내하는 스텝바이스텝 가이드입니다. 명령 처리와 사용자 프롬프트부터 사용자 경험 향상, 프로젝트 구조 정리 및 문서화에 이르기까지 모든 것을 다루고 있습니다.

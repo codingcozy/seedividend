@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Decoding useMemo and memo in React Understanding Their True Distinction"
 link: "https://medium.com/@avinashukla0704/decoding-usememo-and-memo-in-react-understanding-their-true-distinction-05bd5716bd94"
+isUpdated: true
 ---
+
+
 
 
 

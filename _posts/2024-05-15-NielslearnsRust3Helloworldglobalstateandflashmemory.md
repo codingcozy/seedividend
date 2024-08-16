@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Niels learns Rust 3 — Hello world!, global state, and flash memory"
 link: "https://medium.com/@nielsreijers/niels-learns-rust-3-debug-prints-global-state-and-flash-memory-c29a69023612"
+isUpdated: true
 ---
+
+
 
 
 이것은 내가 임베디드 Java 가상 머신을 Rust로 이식하면서 Rust 학습하는 여정을 문서화한 시리즈의 일부 3입니다.

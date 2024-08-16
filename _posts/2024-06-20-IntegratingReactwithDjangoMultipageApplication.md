@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating React with Django Multipage Application"
 link: "https://medium.com/wetheitguys/integrating-react-with-django-multipage-application-355462baaf5d"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-20-IntegratingReactwithDjangoMultipageApplication_0.png)

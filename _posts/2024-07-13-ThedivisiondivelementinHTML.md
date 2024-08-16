@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The division (<div>) element in HTML."
 link: "https://medium.com/@nagy_razvan/the-division-div-element-in-html-b5fb7daff9f6"
+isUpdated: true
 ---
+
+
 
 
 `div` 요소는 다른 페이지 요소를 캡슐화하는 블록 수준 요소입니다. 이러한 컨테이너는 CSS 또는 JavaScript를 사용하여 스타일링이나 레이아웃 목적으로 다른 HTML 요소를 그룹화하는 데 사용할 수 있습니다.

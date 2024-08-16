@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Use Adapter Pattern in React"
 link: "https://medium.com/javascript-in-plain-english/how-i-use-adapter-pattern-in-reactjs-cb331e9bef0c"
+isUpdated: true
 ---
+
+
 
 
 

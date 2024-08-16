@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Accessibility Led the DDoSecrets Redesign"
 link: "https://medium.com/@glenn.sorrentino/how-accessibility-led-the-ddosecrets-redesign-28077174987f"
+isUpdated: true
 ---
+
+
 
 
 

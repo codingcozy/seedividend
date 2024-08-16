@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Micro Frontend Architecture with Nx Workspace"
 link: "https://medium.com/javascript-in-plain-english/building-a-micro-frontend-architecture-with-nx-workspace-c0fd9b6bf322"
+isUpdated: true
 ---
+
+
 
 
 

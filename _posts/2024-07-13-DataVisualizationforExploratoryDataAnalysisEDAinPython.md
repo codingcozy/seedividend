@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Data Visualization for Exploratory Data Analysis (EDA) in Python"
 link: "https://medium.com/@pythonfundamentals/data-visualization-for-exploratory-data-analysis-eda-in-python-4aea402648e7"
+isUpdated: true
 ---
+
+
 
 
 데이터 시각화는 탐색적 데이터 분석의 중요한 부분이에요. 데이터를 분석하고 시각화함으로써 데이터의 분포, 변수 간의 관계, 그리고 이상값을 파악하는데 도움이 되죠.

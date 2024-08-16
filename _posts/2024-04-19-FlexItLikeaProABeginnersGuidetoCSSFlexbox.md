@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flex It Like a Pro A Beginners Guide to CSS Flexbox"
 link: "https://medium.com/@codebyshreya/flex-it-like-a-pro-a-beginners-guide-to-css-flexbox-f2ebebd1d9ba"
+isUpdated: true
 ---
+
+
 
 
 

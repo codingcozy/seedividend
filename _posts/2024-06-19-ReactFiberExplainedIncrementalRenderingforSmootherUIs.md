@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Fiber Explained: Incremental Rendering for Smoother UIs"
 link: "https://medium.com/@sharmfernando33/react-fiber-explained-incremental-rendering-for-smoother-uis-c8f5973aa1fb"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-19-ReactFiberExplainedIncrementalRenderingforSmootherUIs_0.png" />

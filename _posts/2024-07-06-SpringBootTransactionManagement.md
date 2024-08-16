@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Spring Boot Transaction Management"
 link: "https://medium.com/devops-dev/spring-boot-transaction-management-5e7c6944d47b"
+isUpdated: true
 ---
+
+
 
 
 저의 자세한 비디오를 확인해보시고 제 채널을 구독하여 우리 커뮤니티에 가입해보세요. 여러분의 지원은 저에게 큰 힘이 됩니다!

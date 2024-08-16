@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Continuous and embedded learning as a junior engineer"
 link: "https://medium.com/macquarie-engineering-blog/continuous-and-embedded-learning-as-a-junior-engineer-fcf7e78e5fd9"
+isUpdated: true
 ---
+
+
 
 
 맥쿼리 그룹의 시니어 어소시에이트인 자밀라 사바조바입니다

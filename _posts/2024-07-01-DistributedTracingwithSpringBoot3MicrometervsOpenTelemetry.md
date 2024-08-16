@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Distributed Tracing with Spring Boot 3 — Micrometer vs OpenTelemetry"
 link: "https://medium.com/itnext/distributed-tracing-with-spring-boot-3-micrometer-vs-opentelemetry-b3593546f61b"
+isUpdated: true
 ---
+
+
 
 
 <table> 태그를 Markdown 형식으로 변경해주세요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Packaging Front End React Applications under a Production Environment with Vite and Nginx in Docker"
 link: "https://medium.com/gitconnected/packaging-front-end-react-applications-under-a-production-environment-with-vite-and-nginx-in-docker-7e2739bc0494"
+isUpdated: true
 ---
+
+
 
 
 ## 현대 웹 개발의 효율적인 길을 탐험하다: 빠른 빌드를 위한 Vite, 고성능 서빙을 위한 Nginx, 그리고 견고한 React 애플리케이션을 위한 유연한 배포를 위해 도커를 활용하다.

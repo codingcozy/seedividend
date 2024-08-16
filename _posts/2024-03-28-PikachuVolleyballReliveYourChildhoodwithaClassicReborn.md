@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pikachu Volleyball Relive Your Childhood with a Classic Reborn"
 link: "https://medium.com/@byte-explorer/pikachu-volleyball-relive-your-childhood-with-a-classic-reborn-76fbf41c7e64"
+isUpdated: true
 ---
+
+
 
 
 

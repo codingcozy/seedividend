@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Programming with AI — Calling APIs"
 link: "https://medium.com/@sausheong/programming-with-ai-calling-apis-1a01f19074b4"
+isUpdated: true
 ---
+
+
 
 
 몇 주 전에 AI 프로그래밍 수업을 가르쳐달라는 요청을 받았어요. 그래서 슬라이드와 코드를 열심히 준비했는데, 물질들이 커져갔어요. 그래서 이 모든 자료들을 하나로 모아 시리즈 형식의 글로 만들어보자는 생각이 들었죠. 수업 이후에 이를 참고할 수 있는 사람들이 많을 것이라 생각해요. 또한 이 글들은 세션 이후에도 수업에 도움이 될 수 있는 참고 자료가 될 거예요.

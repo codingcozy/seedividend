@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Is *ngIf, *ngFor and ngSwitch Dead? Angular’s New Way to Control Your Templates"
 link: "https://medium.com/@hmidihamdi7/is-ngif-ngfor-and-ngswitch-dead-angulars-new-way-to-control-your-templates-881886f56516"
+isUpdated: true
 ---
+
+
 
 
 

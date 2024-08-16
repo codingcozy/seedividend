@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TailwindCSS How to overlap a div on the top of another div"
 link: "https://medium.com/@xavieryuhanliu/tailwindcss-how-to-put-a-component-on-the-top-of-another-component-eb236c8196ce"
+isUpdated: true
 ---
+
+
 
 
 

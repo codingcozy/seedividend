@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My favourite iOS 17 widget"
 link: "https://medium.com/macoclock/my-favourite-ios-widget-964ce89bacee"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-MyfavouriteiOS17widget_0.png" />

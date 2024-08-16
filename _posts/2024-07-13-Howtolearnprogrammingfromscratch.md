@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to learn programming from scratch?"
 link: "https://medium.com/@tomaszs2/how-to-learn-programming-from-scratch-92a2094511a1"
+isUpdated: true
 ---
+
+
 
 
 많은 사람들이 나에게 프로그래밍을 처음부터 배우는 방법을 묻곤 합니다. 이 답변을 통해 당신은 그 방법을 배울 수 있을 거예요. 나는 20년간 프로그래밍을 해 왔습니다. 나는 지금까지 도울 수 있었던 사람들과의 경험을 공유하며 이 직업 분야에서 성장해 온 것입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying NextJs Application on Window’s IIS Server"
 link: "https://medium.com/@patrick.jakobsen/deploying-nextjs-application-on-windows-iis-server-60793f416eb1"
+isUpdated: true
 ---
+
+
 
 
 

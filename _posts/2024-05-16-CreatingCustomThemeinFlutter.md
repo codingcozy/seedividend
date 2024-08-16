@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Custom Theme in Flutter"
 link: "https://medium.com/@kth4dev/creating-custom-themes-in-flutter-f9dbced59124"
+isUpdated: true
 ---
+
+
 
 
 플러터에서 테마는 애플리케이션의 시각적 디자인을 정의하는 강력한 도구입니다. 플러터는 기본적인 머티리얼 디자인 테마를 제공하지만, 디자이너가 머티리얼 테마의 규칙을 따르는 대신 커스텀 이름을 사용하는 경우가 있습니다. 이 기사에서는 플러터에서 이러한 사용자 정의 이름을 수용하는 사용자 정의 테마를 만드는 방법을 살펴보겠습니다.

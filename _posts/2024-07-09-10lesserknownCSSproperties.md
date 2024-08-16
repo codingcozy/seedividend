@@ -3,12 +3,15 @@ title: "덜 알려진 10가지 CSS 속성"
 description: ""
 coverImage: "/assets/img/2024-07-09-10lesserknownCSSproperties_0.png"
 date: 2024-07-09 17:57
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-10lesserknownCSSproperties_0.png
 tag: Tech
 originalTitle: "10 lesser known CSS properties"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-properties-09e3be0c77ab"
+isUpdated: true
 ---
+
+
 
 ![CSS properties](/assets/img/2024-07-09-10lesserknownCSSproperties_0.png)
 

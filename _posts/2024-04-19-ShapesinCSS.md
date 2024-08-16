@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Shapes in CSS"
 link: "https://medium.com/gitconnected/shapes-in-css-a0ae1ce426f4"
+isUpdated: true
 ---
+
+
 
 
 

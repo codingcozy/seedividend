@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Full-Stack Application with Ruby on Rails and React: A Step-by-Step Guide"
 link: "https://medium.com/@mihir0603/building-a-full-stack-application-with-ruby-on-rails-and-react-a-step-by-step-guide-a040ed1c0c62"
+isUpdated: true
 ---
+
+
 
 
 # 소개

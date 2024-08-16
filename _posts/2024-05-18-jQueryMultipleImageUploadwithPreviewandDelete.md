@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "jQuery Multiple Image Upload with Preview and Delete"
 link: "https://medium.com/@tutsmake.com/jquery-multiple-image-upload-with-preview-and-delete-6506a3b954ca"
+isUpdated: true
 ---
+
+
 
 
 jQuery를 이용한 다중 이미지 업로드 기능에 미리 보기 및 삭제가 포함되어 있습니다. 이 기능을 사용하면 사용자가 로컬 디바이스에서 여러 이미지를 선택하고 실제로 서버에 업로드하기 전에 미리 보여줄 수 있습니다. 또한 업로드 전에 미리 보기된 선택한 이미지를 삭제할 수 있는 기능도 포함되어 있습니다. 이 기능은 사진 갤러리, 이미지 공유 플랫폼, 콘텐츠 관리 시스템 등 사용자가 여러 이미지를 업로드해야 하는 웹 애플리케이션에서 일반적으로 사용됩니다.

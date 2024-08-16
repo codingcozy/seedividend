@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bootstrap a SaaS Project in Minutes with Nextjs, Supabase, and Stripe"
 link: "https://medium.com/udacity-engineering/bootstrap-a-saas-project-in-minutes-with-next-js-supabase-and-stripe-71cceb10c578"
+isUpdated: true
 ---
+
+
 
 
 

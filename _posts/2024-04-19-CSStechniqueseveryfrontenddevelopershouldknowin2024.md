@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS techniques every frontend developer should know in 2024"
 link: "https://medium.com/@dimeloper/css-techniques-every-frontend-developer-should-know-in-2024-d200e92d5b69"
+isUpdated: true
 ---
+
+
 
 
 

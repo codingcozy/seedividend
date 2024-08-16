@@ -3,12 +3,15 @@ title: "FastAPI 애플리케이션에서 Server-Sent EventSSE 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Server-SentEventSSEinFastAPIApplications_0.png"
 date: 2024-07-09 09:22
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Server-SentEventSSEinFastAPIApplications_0.png
 tag: Tech
 originalTitle: "Server-Sent Event(SSE) in FastAPI Applications"
 link: "https://medium.com/@rajansahu713/server-sent-event-sse-in-fastapi-applications-387dcd395d8d"
+isUpdated: true
 ---
+
+
 
 서버 전송 이벤트(Server-Sent Events, SSE)는 서버가 싱글 HTTP 연결을 통해 웹 클라이언트에 실시간 업데이트를 푸시할 수 있는 서버 푸시 기술입니다. 대시보드, 알림 또는 실시간 분석과 같이 실시간 업데이트가 필요한 애플리케이션에 특히 유용합니다.
 

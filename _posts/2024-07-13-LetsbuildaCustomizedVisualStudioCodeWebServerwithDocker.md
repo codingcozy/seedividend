@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Let's build a Customized Visual Studio Code Web Server with Docker"
 link: "https://medium.com/@kpatronas/lets-build-a-customized-visual-studio-code-web-server-with-docker-7a1151bf80d3"
+isUpdated: true
 ---
+
+
 
 
 ![Image](/assets/img/2024-07-13-LetsbuildaCustomizedVisualStudioCodeWebServerwithDocker_0.png)

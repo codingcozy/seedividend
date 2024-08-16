@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HCI Part 1: The Underrated Sense Shaping Our Interactions — Touch"
 link: "https://medium.com/heyjobs-tech/hci-part-1-the-underrated-sense-shaping-our-interactions-touch-ce97a8773a67"
+isUpdated: true
 ---
+
+
 
 
 인간-컴퓨터 상호작용 시리즈 첫 번째 기사에 오신 것을 환영합니다. 우리는 주변 세계와 상호작용하는 데 주로 시각과 청각을 생각합니다. 그러나 종종 간과되는 촉각은 우리의 일상생활과 기술과의 인터페이스 방법에서 중요한 역할을 합니다.

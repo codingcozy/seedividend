@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Install Node.js 20 on Ubuntu 22.04, 20.04, and 18.04 for Intel x64, AMD, and ARM64 CPUs"
 link: "https://medium.com/@gmusumeci/how-to-install-node-js-20-on-ubuntu-22-04-20-04-and-18-04-for-x64-amd-and-arm64-cpus-232d0f3c9f08"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-HowtoInstallNodejs20onUbuntu22042004and1804forIntelx64AMDandARM64CPUs_0.png" />

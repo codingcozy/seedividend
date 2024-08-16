@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Game-Changer: Ditch rgba() for color-mix()"
 link: "https://medium.com/@nico.maitre.stair/css-game-changer-ditch-rgba-for-color-mix-555b2f758830"
+isUpdated: true
 ---
+
+
 
 
 아, 당신은 Sass 변수에서 CSS 변수의 반짝이는 세계로 전환한 것인가요? 그런데 rgba() 함수를 사용하는 데 어려움을 겪고 있나요? 걱정 마세요, 혼자가 아니에요!

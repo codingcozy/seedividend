@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A developer’s daily checklist with only 3 items is elegant simplicity"
 link: "https://medium.com/developer-purpose/a-developers-daily-checklist-with-only-3-items-is-elegant-simplicity-79b1c6e0439"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-18-Adevelopersdailychecklistwithonly3itemsiselegantsimplicity_0.png" />

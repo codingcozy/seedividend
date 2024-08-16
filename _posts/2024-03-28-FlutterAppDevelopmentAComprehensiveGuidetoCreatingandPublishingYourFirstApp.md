@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter App Development A Comprehensive Guide to Creating and Publishing Your First App"
 link: "https://medium.com/@JorgeEGraham/flutter-app-development-a-comprehensive-guide-to-creating-and-publishing-your-first-app-af83e3336476"
+isUpdated: true
 ---
+
+
 
 
 

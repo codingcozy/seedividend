@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "If Google no Longer Supports Flutter"
 link: "https://medium.com/gitconnected/if-google-no-longer-supports-flutter-9c5b22ba6a17"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-04-IfGooglenoLongerSupportsFlutter_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "UI Design Trends in 2024"
 link: "https://medium.com/@morshedurrana/ui-design-trends-in-2024-37cd3e1e51b0"
+isUpdated: true
 ---
+
+
 
 
 

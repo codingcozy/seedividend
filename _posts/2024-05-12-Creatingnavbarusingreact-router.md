@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating navbar using react-router"
 link: "https://medium.com/@swati.sharma_216/creating-navbar-using-react-router-63c4e785c2d4"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분! 어떻게 하고 계신가요?

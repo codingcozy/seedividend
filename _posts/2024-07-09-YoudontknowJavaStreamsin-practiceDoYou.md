@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "You don’t know Java Streams in-practice , Do You?"
 link: "https://medium.com/javarevisited/you-dont-know-java-streams-in-practice-do-you-826e6aebba81"
+isUpdated: true
 ---
+
+
 
 
 ## 오늘 Java Streams를 배워야 하는 이유

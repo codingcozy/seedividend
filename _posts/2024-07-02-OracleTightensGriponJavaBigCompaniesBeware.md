@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Oracle Tightens Grip on Java: Big Companies Beware!"
 link: "https://medium.com/stackademic/oracle-tightens-grip-on-java-big-companies-beware-63f5a6dbd539"
+isUpdated: true
 ---
+
+
 
 
 

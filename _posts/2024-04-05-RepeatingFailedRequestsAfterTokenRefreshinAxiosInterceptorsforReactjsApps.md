@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Repeating Failed Requests After Token Refresh in Axios Interceptors for Reactjs Apps"
 link: "https://medium.com/@sina.alizadeh120/repeating-failed-requests-after-token-refresh-in-axios-interceptors-for-react-js-apps-50feb54ddcbc"
+isUpdated: true
 ---
+
+
 
 
 

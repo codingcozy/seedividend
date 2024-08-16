@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Advanced JavaScript Tricks for Experienced Developers "
 link: "https://medium.com/@lokesh-prajapati/10-advanced-javascript-tricks-for-experienced-developers-8afb44b24427"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DevOps Project Ideas 💡 with Solutions: Intermediate Level"
 link: "https://medium.com/devops-dev/devops-project-ideas-with-solutions-intermediate-level-705bb7e6989c"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분 👋, 이번 글에서는 저의 데브옵스 학습 과정 중 실습한 몇 가지 프로젝트 아이디어를 공유하려고 해요. 시도하실 프로젝트 아이디어들은 중급 수준일 거예요. 글에서는 각각의 프로젝트 아이디어와 레포지토리 링크를 함께 공유할 거라, 여러분들도 손쉽게 스스로 시도해볼 수 있을 거예요. 모든 소스 코드는 레포지토리에서 찾으실 수 있어요.

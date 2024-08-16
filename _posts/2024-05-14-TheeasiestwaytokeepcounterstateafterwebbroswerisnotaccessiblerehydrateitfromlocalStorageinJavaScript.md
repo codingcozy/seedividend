@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The easiest way to keep counter state after web broswer is not accessible (rehydrate it from localStorage) in JavaScript"
 link: "https://medium.com/@guilherme-de-oliveira/the-easiest-way-to-keep-counter-state-after-web-broswer-is-not-accessible-rehydrate-it-from-62d6e309acbf"
+isUpdated: true
 ---
+
+
 
 
 최근 QA 팀에서 흥미로운 질문을 받았어요. 그 질문은, 왜 우리 이메일 토큰 카운터가 그들이 컴퓨터를 절전 상태로 변경할 때 멈추는지였어요? 처음에는 웹 브라우저가 실행 중이 아니면 우리의 JavaScript 애플리케이션이 작동하지 않는다는 일반적인 가정을 공유했어요. 하지만 그들의 우려는 사용자가 시간을 조작하여 이메일로 토큰을 다시 보낼 수 있는 보안 문제로 유효한 지점을 제기했어요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " CSS Lab 2 I got the blues"
 link: "https://medium.com/@mina-pecheux/css-lab-2-i-got-the-blues-6bb678319ce3"
+isUpdated: true
 ---
+
+
 
 
 

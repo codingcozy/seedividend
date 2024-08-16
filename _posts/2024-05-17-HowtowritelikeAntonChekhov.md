@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to write like Anton Chekhov"
 link: "https://medium.com/@antonkutselyk/how-to-write-like-anton-chekhov-8a98cd745aea"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-HowtowritelikeAntonChekhov_0.png" />

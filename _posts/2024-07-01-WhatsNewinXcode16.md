@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s New in Xcode 16"
 link: "https://medium.com/simform-engineering/whats-new-in-xcode-16-5c981927d68e"
+isUpdated: true
 ---
+
+
 
 
 WWDC 24에서 공개된 Xcode 16의 새로운 기능을 알아보세요.

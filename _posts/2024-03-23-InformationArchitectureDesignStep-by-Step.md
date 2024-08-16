@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Information Architecture Design Step-by-Step"
 link: "https://uxplanet.org/information-architecture-design-step-by-step-7036897511d7"
+isUpdated: true
 ---
+
+
 
 
 

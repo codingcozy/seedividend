@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "GraphQL and MongoDB with React"
 link: "https://medium.com/@xenbel/graphql-and-mongodb-with-react-285196d39a48"
+isUpdated: true
 ---
+
+
 
 
 ![그림](/assets/img/2024-05-14-GraphQLandMongoDBwithReact_0.png)

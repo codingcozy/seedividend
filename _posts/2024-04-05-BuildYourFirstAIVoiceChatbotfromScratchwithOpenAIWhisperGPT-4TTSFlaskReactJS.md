@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build Your First AI Voice Chatbot from Scratch with OpenAI Whisper, GPT-4, TTS, Flask , ReactJS"
 link: "https://medium.com/ai-advances/build-your-first-ai-voice-chatbot-from-scratch-with-openai-whisper-gpt-4-tts-flask-reactjs-b1539a976e48"
+isUpdated: true
 ---
+
+
 
 
 

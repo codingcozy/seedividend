@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flyweight Design Pattern in iOS"
 link: "https://medium.com/@thekrazyjames/flyweight-design-pattern-in-ios-e5666433cd08"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-FlyweightDesignPatterniniOS_0.png" />

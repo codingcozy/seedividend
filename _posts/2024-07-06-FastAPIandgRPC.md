@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "FastAPI and gRPC"
 link: "https://medium.com/@arturocuicas/fastapi-and-grpc-19c9b329b211"
+isUpdated: true
 ---
+
+
 
 
 /assets/img/2024-07-06-FastAPIandgRPC_0.png

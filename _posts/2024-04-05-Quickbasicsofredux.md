@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Quick basics of redux"
 link: "https://medium.com/@devi.u/quick-basics-of-redux-acd2ec20a709"
+isUpdated: true
 ---
+
+
 
 
 

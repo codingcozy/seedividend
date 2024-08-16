@@ -3,12 +3,15 @@ title: "딥 뉴럴 네트워크 파인튜닝의 수학적 원리"
 description: ""
 coverImage: "/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_0.png"
 date: 2024-07-09 19:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_0.png
 tag: Tech
 originalTitle: "The Math Behind Fine-Tuning Deep Neural Networks"
 link: "https://medium.com/towards-data-science/the-math-behind-fine-tuning-deep-neural-networks-8138d548da69"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-TheMathBehindFine-TuningDeepNeuralNetworks_0.png)
 

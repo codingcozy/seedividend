@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Memories of Twenty Years of Eclipse Collections Development"
 link: "https://medium.com/@donraab/memories-of-twenty-years-of-eclipse-collections-development-ddd545969dcf"
+isUpdated: true
 ---
+
+
 
 
 만약 오픈 소스에서 멀리 가고 싶다면, 함께 가야죠!

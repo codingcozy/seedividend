@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React js how to add an image  a beginners guide"
 link: "https://medium.com/@vitaliysteffensen/react-js-how-to-add-an-image-a-beginners-guide-66334f1d18be"
+isUpdated: true
 ---
+
+
 
 
 

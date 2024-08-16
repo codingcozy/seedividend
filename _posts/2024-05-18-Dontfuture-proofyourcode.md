@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Don’t future-proof your code"
 link: "https://medium.com/developer-purpose/dont-future-proof-your-code-aad04ef75584"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-18-Dontfuture-proofyourcode_0.png" />

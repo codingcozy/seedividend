@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sending HTML emails"
 link: "https://medium.com/snowball-insider-the-frosty-fintech-from-the/sending-html-emails-d0776876edfd"
+isUpdated: true
 ---
+
+
 
 
 HTML 이메일을 보내는 것은 생각보다 쉽지 않아요. 이메일 클라이언트들은 HTML 및 CSS 기술을 다루는 데 90년대에 멈춰 있어요.

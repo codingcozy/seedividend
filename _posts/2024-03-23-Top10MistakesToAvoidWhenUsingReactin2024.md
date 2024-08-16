@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 Mistakes To Avoid When Using React in 2024"
 link: "https://blog.bitsrc.io/10-mistakes-when-building-react-apps-in-2024-9a3ab6775348"
+isUpdated: true
 ---
+
+
 
 
 

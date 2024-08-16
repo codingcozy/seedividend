@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Position stuck  and a way to fix it"
 link: "https://medium.com/user-experience-design-1/position-stuck-96c9f55d9526"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "정적 사이트 생성SSG"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "디자인 시스템에서 색상 사용법 실용적인 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-ColorinDesignSystems_0.png"
 date: 2024-07-09 17:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ColorinDesignSystems_0.png
 tag: Tech
 originalTitle: "Color in Design Systems"
 link: "https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3"
+isUpdated: true
 ---
+
+
 
 ## 오랫동안 유지되는 시스템 설정을 위한 16가지 팁
 

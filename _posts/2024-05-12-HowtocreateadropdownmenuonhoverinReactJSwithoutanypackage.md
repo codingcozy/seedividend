@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create a dropdown menu on hover in React JS without any package"
 link: "https://medium.com/how-to-react/how-to-create-a-dropdown-menu-on-hover-in-react-js-without-any-package-b16b2f76db71"
+isUpdated: true
 ---
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:796/1*AXro4l-eefcJcsCr40yw2w.gif" />

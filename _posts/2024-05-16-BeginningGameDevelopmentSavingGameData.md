@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Beginning Game Development: Saving Game Data"
 link: "https://medium.com/@lemapp09/beginning-game-development-saving-game-data-09a6e73be81b"
+isUpdated: true
 ---
+
+
 
 
 ## Unity에서 C#을 활용한 저장 게임 기능 구현하기: 메소드, 저장소, 그리고 개인정보 보호

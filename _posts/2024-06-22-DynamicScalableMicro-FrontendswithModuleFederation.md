@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dynamic , Scalable: Micro-Frontends with Module Federation"
 link: "https://medium.com/@jaisadarsh/dynamic-scalable-micro-frontends-with-module-federation-8197f09921e5"
+isUpdated: true
 ---
+
+
 
 
 ![DynamicScalableMicro-FrontendswithModuleFederation_0](/assets/img/2024-06-22-DynamicScalableMicro-FrontendswithModuleFederation_0.png)

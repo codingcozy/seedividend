@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "the apartment we won’t share"
 link: "https://medium.com/@sawndcheck/the-apartment-we-wont-share-a6fb2d4051d7"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-20-theapartmentwewontshare_0.png](/assets/img/2024-06-20-theapartmentwewontshare_0.png)

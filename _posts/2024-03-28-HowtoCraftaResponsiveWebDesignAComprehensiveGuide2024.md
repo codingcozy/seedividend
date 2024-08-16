@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Craft a Responsive Web Design  A Comprehensive Guide 2024"
 link: "https://medium.com/@pxcode/how-to-craft-a-responsive-web-design-a-comprehensive-guide-44c2f974c19a"
+isUpdated: true
 ---
+
+
 
 
 

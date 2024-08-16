@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create a Countdown Snackbar in Android with Jetpack Compose"
 link: "https://medium.com/@kappdev/how-to-create-a-countdown-snackbar-in-android-with-jetpack-compose-d58bcd8011cf"
+isUpdated: true
 ---
+
+
 
 
 환영합니다 👋

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Gower’s Distance for Mixed Categorical and Numerical Data"
 link: "https://medium.com/towards-data-science/gowers-distance-for-mixed-categorical-and-numerical-data-799fedd1080c"
+isUpdated: true
 ---
+
+
 
 
 # 거리 측정이란 무엇인가요?

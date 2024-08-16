@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hands On Optimization with Expected Improvement and Gaussian Process Regression, in Python"
 link: "https://medium.com/towards-data-science/hands-on-optimization-with-expected-improvement-and-gaussian-process-regression-in-python-3c416eaa84f3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-19-HandsOnOptimizationwithExpectedImprovementandGaussianProcessRegressioninPython_0.png" />

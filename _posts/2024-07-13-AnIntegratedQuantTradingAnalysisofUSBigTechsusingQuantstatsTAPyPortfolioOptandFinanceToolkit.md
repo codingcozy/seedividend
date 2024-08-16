@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "An Integrated Quant Trading Analysis of US Big Techs using Quantstats, TA, PyPortfolioOpt, and FinanceToolkit"
 link: "https://medium.com/@alexzap922/an-integrated-quant-trading-analysis-of-us-big-techs-using-quantstats-ta-pyportfolioopt-and-5287b6cd9163"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-AnIntegratedQuantTradingAnalysisofUSBigTechsusingQuantstatsTAPyPortfolioOptandFinanceToolkit_0.png" />

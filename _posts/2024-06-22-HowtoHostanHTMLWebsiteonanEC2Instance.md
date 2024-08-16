@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Host an HTML Website on an EC2 Instance"
 link: "https://medium.com/@Biswaraj333/how-to-host-an-html-website-on-an-ec2-instance-3c0f83bb0b32"
+isUpdated: true
 ---
+
+
 
 
 AWS에서 HTML 웹사이트 호스팅하기

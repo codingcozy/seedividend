@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building NestJS with PKG Module is a Resource-Saving Game Changer"
 link: "https://medium.com/@adityadirgantara1/building-nestjs-with-pkg-module-is-a-resource-saving-game-changer-8674226c0fd4"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-BuildingNestJSwithPKGModuleisaResource-SavingGameChanger_0.png" />

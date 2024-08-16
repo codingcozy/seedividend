@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Firebase authentication in angular"
 link: "https://medium.com/@gabriel.cournelle/firebase-authentication-in-angular-ab1b66d041dc"
+isUpdated: true
 ---
+
+
 
 
 이 기사에서는 Angular 프로젝트에 Firebase 인증을 Google Single Sign-On (SSO)과 빠르게 설정하는 방법을 제안합니다. 또한 선택한 백엔드에 인증된 요청을 하는 방법도 포함되어 있습니다.

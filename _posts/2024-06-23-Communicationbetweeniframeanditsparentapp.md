@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Communication between iframe and it’s parent app"
 link: "https://medium.com/@thinuwanwickramaarachchi/communication-between-iframe-and-its-parent-app-ed39ba65cde1"
+isUpdated: true
 ---
+
+
 
 
 여기에서는 iframe과 해당 부모 앱 간의 통신이 가능한 방법을 간단히 설명하고 있어요.

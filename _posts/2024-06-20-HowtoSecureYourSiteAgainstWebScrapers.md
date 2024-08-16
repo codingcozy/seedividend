@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Secure Your Site Against Web Scrapers"
 link: "https://medium.com/bitsrc/how-to-secure-your-site-against-web-scrapers-the-best-browser-fingerprinting-techniques-9b0a996efb91"
+isUpdated: true
 ---
+
+
 
 
 ## 가장 좋은 브라우저 지문 기술입니다. 당신만의 지문 코드를 몇 분 안에 구현하는 법을 배워보세요!

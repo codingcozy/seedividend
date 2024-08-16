@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why We Never Manage State with Global Variable in Flutter"
 link: "https://medium.com/@chooyan/why-we-never-manage-state-with-global-variable-in-flutter-3e92f41ac8fa"
+isUpdated: true
 ---
+
+
 
 
 

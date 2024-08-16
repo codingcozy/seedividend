@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Build a Budget-Friendly Design System"
 link: "https://medium.com/@branda.bg/how-to-build-a-budget-friendly-design-system-7d7723a7abe1"
+isUpdated: true
 ---
+
+
 
 
 

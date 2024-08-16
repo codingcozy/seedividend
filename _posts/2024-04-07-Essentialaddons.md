@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Essential addons"
 link: "https://storybook.js.org/docs/essentials"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How do I test Signals (signal, computed, effect)?"
 link: "https://medium.com/ngconf/how-do-i-test-signals-signal-computed-effect-6d97e0732f2c"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-20-HowdoItestSignalssignalcomputedeffect_0.png)

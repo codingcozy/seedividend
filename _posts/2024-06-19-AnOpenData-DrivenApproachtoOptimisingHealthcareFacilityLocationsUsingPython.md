@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "An Open Data-Driven Approach to Optimising Healthcare Facility Locations Using Python"
 link: "https://medium.com/towards-data-science/an-open-data-driven-approach-to-optimising-healthcare-facility-locations-using-python-397b3ce38185"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-19-AnOpenData-DrivenApproachtoOptimisingHealthcareFacilityLocationsUsingPython_0.png)

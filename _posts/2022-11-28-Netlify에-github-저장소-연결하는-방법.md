@@ -1,5 +1,5 @@
 ---
-title: "Netlify에 github 저장소 연결하는 방법"
+title: "Netlify에 github 레포지토리 연결하는 방법"
 description: "Netlify에 github 저장소를 연결하여 푸시만 하면 배포되는 방법을 알아봅니다"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

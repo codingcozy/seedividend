@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JS Regexp Performance Issue"
 link: "https://medium.com/@arielguata/one-common-reason-for-performance-problems-in-input-or-string-validations-is-the-complexity-of-2fa66bd2c2dd"
+isUpdated: true
 ---
+
+
 
 
 ## 자주, 우리는 잠재적인 성능 문제를 인식하지 못하고 간단한 문자열 검색을 위해 정규식 표현을 사용합니다.

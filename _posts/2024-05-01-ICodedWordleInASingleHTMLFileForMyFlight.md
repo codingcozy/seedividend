@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I Coded Wordle In A Single HTML File For My Flight"
 link: "https://medium.com/gitconnected/i-coded-wordle-in-a-single-html-file-for-my-flight-f30f0f6e8ed2"
+isUpdated: true
 ---
+
+
 
 
 ![ICodedWordleInASingleHTMLFileForMyFlight](/assets/img/2024-05-01-ICodedWordleInASingleHTMLFileForMyFlight_0.png)

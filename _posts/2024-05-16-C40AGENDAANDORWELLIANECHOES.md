@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "C40 AGENDA AND ORWELLIAN ECHOES"
 link: "https://medium.com/@joshtstephens00/c40-agenda-and-orwellian-echoes-126cf852c46a"
+isUpdated: true
 ---
+
+
 
 
 ## 감시 속의 지속 가능성 탐색

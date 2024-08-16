@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pluggable PBCs with Bit Harmony"
 link: "https://medium.com/bitsrc/pluggable-pbcs-with-bit-harmony-aaa2cb4e3638"
+isUpdated: true
 ---
+
+
 
 
 ## 패키지 비즈니스 능력을 표준화하고 통합을 간소화하는 방법

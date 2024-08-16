@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Customizing the Backstage Kubernetes Plugin"
 link: "https://medium.com/itnext/customizing-the-backstage-kubernetes-plugin-1c8e2d7ad802"
+isUpdated: true
 ---
+
+
 
 
 백스테이지의 새로운 백엔드 시스템에서 쿠버네티스 플러그인을 사용자 정의하는 방법 소개

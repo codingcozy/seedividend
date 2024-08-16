@@ -3,12 +3,15 @@ title: "hsl과 rgb로 스타일링 쉽게 하기 상대 색상과 투명도 활�
 description: ""
 coverImage: "/assets/img/2024-07-09-SimplifyingStylingwithhslandrgbLeveragingRelativeColorsandOpacity_0.png"
 date: 2024-07-09 14:06
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-SimplifyingStylingwithhslandrgbLeveragingRelativeColorsandOpacity_0.png
 tag: Tech
 originalTitle: "Simplifying Styling with hsl() and rgb(): Leveraging Relative Colors and Opacity"
 link: "https://medium.com/@guhaprasaanth/simplifying-styling-with-hsl-and-rgb-leveraging-relative-colors-and-opacity-1d4161ec0cf4"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-SimplifyingStylingwithhslandrgbLeveragingRelativeColorsandOpacity_0.png)
 

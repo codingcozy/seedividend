@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "배포하기"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

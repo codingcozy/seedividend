@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The fastest way to deploy your own Ollama LLM chatbot frontend on Vercel"
 link: "https://medium.com/@roschnowski8/the-fastest-way-to-deploy-your-own-ollama-llm-chatbot-frontend-on-vercel-d735e8611c92"
+isUpdated: true
 ---
+
+
 
 
 

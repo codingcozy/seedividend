@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tutorial: Functional Programming in Action with Typescript"
 link: "https://medium.com/@andrewrobertallison/tutorial-functional-programming-in-action-with-typescript-ab136b3db9a3"
+isUpdated: true
 ---
+
+
 
 
 

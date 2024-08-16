@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Is Django Dying? An Honest Look at the Future"
 link: "https://medium.com/python-in-plain-english/is-django-dying-an-honest-look-at-the-future-86ed684415b1"
+isUpdated: true
 ---
+
+
 
 
 

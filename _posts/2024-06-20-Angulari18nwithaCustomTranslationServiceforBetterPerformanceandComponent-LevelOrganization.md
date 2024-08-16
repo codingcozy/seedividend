@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular i18n with a Custom Translation Service for Better Performance and Component-Level Organization"
 link: "https://medium.com/@ajaygajjarkar512001/angular-i18n-with-a-custom-translation-service-for-better-performance-and-component-level-2bdf38ef4bc2"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-Angulari18nwithaCustomTranslationServiceforBetterPerformanceandComponent-LevelOrganization_0.png" />

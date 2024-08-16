@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Validations in Spring Boot"
 link: "https://medium.com/@himani.prasad016/validations-in-spring-boot-e9948aa6286b"
+isUpdated: true
 ---
+
+
 
 
 ![그림](/assets/img/2024-07-09-ValidationsinSpringBoot_0.png)

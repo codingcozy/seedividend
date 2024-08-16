@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Style Your Django Forms"
 link: "https://medium.com/swlh/how-to-style-your-django-forms-7e8463aae4fa"
+isUpdated: true
 ---
+
+
 
 
 

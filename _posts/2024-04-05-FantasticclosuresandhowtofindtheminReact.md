@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fantastic closures and how to find them in React"
 link: "https://medium.com/@adevnadia/fantastic-closures-and-how-to-find-them-in-react-d81f000919d2"
+isUpdated: true
 ---
+
+
 
 
 

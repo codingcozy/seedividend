@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Core Product Design Principles"
 link: "https://medium.com/ux-planet/10-core-product-design-principles-8f3ae8a9481b"
+isUpdated: true
 ---
+
+
 
 
 

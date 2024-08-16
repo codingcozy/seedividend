@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Responsive Web Design  Make websites look great on all devices"
 link: "https://medium.com/@hanekcud/responsive-web-design-make-websites-look-great-on-all-devices-ea32ea6d67b9"
+isUpdated: true
 ---
+
+
 
 
 

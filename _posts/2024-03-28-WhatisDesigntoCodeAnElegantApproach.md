@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is Design to Code An Elegant Approach"
 link: "https://medium.com/@pxcode/what-is-design-to-code-an-elegant-approach-bdb73b858dfb"
+isUpdated: true
 ---
+
+
 
 
 

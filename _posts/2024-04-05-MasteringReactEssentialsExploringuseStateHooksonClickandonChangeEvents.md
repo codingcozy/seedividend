@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering React Essentials Exploring useState Hooks, onClick, and onChange Events"
 link: "https://medium.com/@otahaghogho/mastering-react-essentials-exploring-usestate-hooks-onclick-and-onchange-events-3534cf8dd023"
+isUpdated: true
 ---
+
+
 
 
 

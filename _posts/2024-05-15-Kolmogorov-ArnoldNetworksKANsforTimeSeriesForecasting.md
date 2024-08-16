@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kolmogorov-Arnold Networks (KANs) for Time Series Forecasting"
 link: "https://medium.com/towards-data-science/kolmogorov-arnold-networks-kans-for-time-series-forecasting-9d49318c3172"
+isUpdated: true
 ---
+
+
 
 
 

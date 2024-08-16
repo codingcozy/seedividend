@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhance React Native Performance A Deep Dive into Hooks"
 link: "https://medium.com/@tonimaxx/enhance-react-native-performance-a-deep-dive-into-hooks-675515c58e69"
+isUpdated: true
 ---
+
+
 
 
 

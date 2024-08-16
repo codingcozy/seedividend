@@ -3,12 +3,15 @@ title: "자바스크립트로 인터랙티브 웹 애플리케이션 구축하�
 description: ""
 coverImage: "/assets/img/2024-07-09-DeBuildingInteractiveWebApplicationswithJavaScript_0.png"
 date: 2024-07-09 14:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-DeBuildingInteractiveWebApplicationswithJavaScript_0.png
 tag: Tech
 originalTitle: "DeBuilding Interactive Web Applications with JavaScript"
 link: "https://medium.com/@rajataha062/building-interactive-web-applications-with-javascript-c805159d720c"
+isUpdated: true
 ---
+
+
 
 프론트엔드 개발자로서, 최근 나는 JavaScript 스킬을 더 깊게 키우기 위해 두 가지 대화형 웹 애플리케이션을 만들었습니다: GitHub 프로필 웹사이트와 할 일 앱입니다. 이 글에서는 이러한 프로젝트를 구축하는 과정을 안내하면서 JavaScript의 웹 개발에서의 강력함을 보여주는 주요 기능과 기능을 강조하겠습니다.
 

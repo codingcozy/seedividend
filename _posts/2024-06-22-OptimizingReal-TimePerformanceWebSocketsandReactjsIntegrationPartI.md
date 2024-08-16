@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Real-Time Performance: WebSockets and React.js Integration Part I"
 link: "https://medium.com/@SanchezAllanManuel/optimizing-real-time-performance-websockets-and-react-js-integration-part-i-e563664647d3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-OptimizingReal-TimePerformanceWebSocketsandReactjsIntegrationPartI_0.png" />

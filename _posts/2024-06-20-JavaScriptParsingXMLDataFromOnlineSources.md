@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript — Parsing XML Data From Online Sources"
 link: "https://medium.com/@mohamad.razzi.my/javascript-parsing-xml-data-from-online-sources-e291af841073"
+isUpdated: true
 ---
+
+
 
 
 

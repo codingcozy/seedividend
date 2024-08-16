@@ -3,12 +3,15 @@ title: "반응형 이미지 깔끔하고 효율적인 적용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-ResponsiveimagesAcleanandefficientapproach_0.png"
 date: 2024-07-06 02:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-ResponsiveimagesAcleanandefficientapproach_0.png
 tag: Tech
 originalTitle: "Responsive images: A clean and efficient approach"
 link: "https://medium.com/@jangya.satapathy/responsive-images-with-css-a-clean-and-efficient-approach-a600990c47c3"
+isUpdated: true
 ---
+
+
 
 요즘 제가 마주한 문제는 JavaScript를 사용하지 않고도 뷰어의 디스플레이에 가장 적합한 이미지를 로드하는 것입니다. 문제와 해결책에 대해 함께 알아보겠습니다. 즐거운 읽기 되세요.
 

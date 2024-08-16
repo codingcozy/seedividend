@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding React Components: Function vs Class — Building Modular UIs Made Simple"
 link: "https://medium.com/@iamalexcarter/understanding-react-components-function-vs-class-building-modular-uis-made-simple-38d1714d9e48"
+isUpdated: true
 ---
+
+
 
 
 리액트에서 컴포넌트는 사용자 인터페이스의 주요 구성 요소입니다. 이를 사용하면 UI를 독립적이고 재사용 가능한 조각으로 나눌 수 있으며, 각각이 자체 동작 및 렌더링 로직을 캡슐화합니다. 이 모듈식 접근 방식은 애플리케이션을 유지하고 확장하기 쉽게 만들어줍니다.

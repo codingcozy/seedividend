@@ -3,12 +3,15 @@ title: "초보자를 위한 전자상거래 웹사이트 만들기 코딩 가이
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildYourOwnE-CommerceWebsiteCodingGuideforBeginners_0.png"
 date: 2024-07-09 13:58
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-BuildYourOwnE-CommerceWebsiteCodingGuideforBeginners_0.png
 tag: Tech
 originalTitle: "Build Your Own E-Commerce Website: Coding Guide for Beginners"
 link: "https://medium.com/@learntocodetoday/build-your-own-e-commerce-website-coding-guide-for-beginners-30597335bffa"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-BuildYourOwnE-CommerceWebsiteCodingGuideforBeginners_0.png" />
 

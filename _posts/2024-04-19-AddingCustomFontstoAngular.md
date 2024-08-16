@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adding Custom Fonts to Angular"
 link: "https://medium.com/@infowithkiiru/adding-custom-fonts-to-angular-cc24072d9ed3"
+isUpdated: true
 ---
+
+
 
 
 

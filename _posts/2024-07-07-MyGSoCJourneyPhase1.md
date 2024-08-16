@@ -3,12 +3,15 @@ title: "내 GSoC 여정  1단계"
 description: ""
 coverImage: "/assets/img/2024-07-07-MyGSoCJourneyPhase1_0.png"
 date: 2024-07-07 12:47
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-MyGSoCJourneyPhase1_0.png
 tag: Tech
 originalTitle: "My GSoC Journey — Phase 1"
 link: "https://medium.com/@mailbassam/my-gsoc-journey-phase-1-14a6bf654799"
+isUpdated: true
 ---
+
+
 
 제가 말한 블로그 시리즈의 첫 부분을 아직 확인하지 않으셨다면 확인해주세요. 이것은 필수는 아니지만 일부 맥락을 제공합니다.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying Django Application’s using Docker"
 link: "https://medium.com/@adityabakshiextra/deploying-danjo-application-using-docker-8af035c88008"
+isUpdated: true
 ---
+
+
 
 
 디자고 컨테이너와 도커 탐험: 개발과 배포 혁신하기

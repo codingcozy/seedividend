@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking the Potential of AI: A Journey Beyond Automation"
 link: "https://medium.com/@alishbaadeel19/unlocking-the-potential-of-ai-a-journey-beyond-automation-298202dc6a8c"
+isUpdated: true
 ---
+
+
 
 
 ![AI Image](/assets/img/2024-05-16-UnlockingthePotentialofAIAJourneyBeyondAutomation_0.png)

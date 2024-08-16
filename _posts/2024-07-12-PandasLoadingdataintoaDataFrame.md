@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pandas: Loading data into a DataFrame"
 link: "https://medium.com/coinmonks/pandas-loading-data-into-a-dataframe-4ca57442744e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png" />

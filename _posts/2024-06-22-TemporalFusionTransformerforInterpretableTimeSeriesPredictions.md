@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Temporal Fusion Transformer for Interpretable Time Series Predictions"
 link: "https://medium.com/dataman-in-ai/temporal-fusion-transformer-for-interpretable-time-series-predictions-4b439aa3d9bd"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-22-TemporalFusionTransformerforInterpretableTimeSeriesPredictions_0](/assets/img/2024-06-22-TemporalFusionTransformerforInterpretableTimeSeriesPredictions_0.png)

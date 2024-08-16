@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Model Pulley Systems"
 link: "https://medium.com/@keith-mcnulty/how-to-model-pulley-systems-7dc71ab4eb6b"
+isUpdated: true
 ---
+
+
 
 
 

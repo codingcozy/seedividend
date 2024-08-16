@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "An Analysis of Voice Mode in GPT-4o"
 link: "https://medium.com/@FastFedora/an-analysis-of-voice-mode-in-gpt-4o-cc0ab4c8a2c0"
+isUpdated: true
 ---
+
+
 
 
 OpenAI가 어제 그들의 주요 대형 언어 모델인 GPT-4o의 다음 버전을 발표했어요. 이번 경우의 "o"는 "omni"의 의미로, omni-modal을 뜻해요.

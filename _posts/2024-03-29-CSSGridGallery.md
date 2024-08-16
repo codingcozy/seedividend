@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Grid Gallery"
 link: "https://medium.com/@ehtmlu/css-image-grid-gallery-4ec8824560a1"
+isUpdated: true
 ---
+
+
 
 
 

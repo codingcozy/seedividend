@@ -1,5 +1,5 @@
 ---
-title: "프런트엔드 마스터스 피처-슬라이스 디자인 FSD 패턴"
+title: "프론트엔드 개발자라면 알아둬야할 FSD 패턴 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Frontend Masters Feature-Sliced Design FSD Pattern"
 link: "https://blog.stackademic.com/frontend-masters-feature-sliced-design-fsd-pattern-81416088b006"
+isUpdated: true
 ---
+
+
 
 
 

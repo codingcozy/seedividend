@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying URL Parameters A Guide for Developers"
 link: "https://medium.com/code-like-a-girl/demystifying-url-parameters-a-guide-for-developers-969e7d960a2c"
+isUpdated: true
 ---
+
+
 
 
 

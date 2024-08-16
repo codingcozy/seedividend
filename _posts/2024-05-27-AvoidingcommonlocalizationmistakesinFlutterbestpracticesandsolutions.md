@@ -3,12 +3,15 @@ title: "플러터에서 흔히 하는 로컬라이제이션 실수 방지하는 
 description: ""
 coverImage: "/assets/img/2024-05-27-AvoidingcommonlocalizationmistakesinFlutterbestpracticesandsolutions_0.png"
 date: 2024-05-27 19:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-AvoidingcommonlocalizationmistakesinFlutterbestpracticesandsolutions_0.png
 tag: Tech
 originalTitle: "Avoiding common localization mistakes in Flutter: best practices and solutions"
 link: "https://medium.com/@pomis172/avoiding-common-localization-mistakes-in-flutter-best-practices-and-solutions-eeba39fa91ac"
+isUpdated: true
 ---
+
+
 
 완벽한 로컬라이제이션을 달성하려면 번역만으로는 충분하지 않습니다. 언어적 뉘앙스와 지역적 선호도를 신중히 고려해야 합니다. 이 글에서는 Flutter 앱 로컬라이제이션 중에 생길 수 있는 일반적인 오류들과 그것들을 극복하기 위한 효과적인 전략을 탐구해보겠습니다.
 

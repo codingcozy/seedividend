@@ -3,12 +3,15 @@ title: "파이썬으로 코딩 시작하기 5 딕셔너리 part II  반복문 �
 description: ""
 coverImage: "/assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_0.png"
 date: 2024-07-09 20:57
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-StartCodingwithPython5DictionariespartIIlooping_0.png
 tag: Tech
 originalTitle: "Start Coding with Python: 5. Dictionaries (part II — looping)"
 link: "https://medium.com/@audrey_evans/start-coding-with-python-5-dictionaries-part-ii-e9316455f083"
+isUpdated: true
 ---
+
+
 
 딕셔너리를 순회하는 방법을 배울 거에요. 딕셔너리는 여러 가지 방법으로 정보를 저장할 수 있기 때문에 이를 순회하는 다양한 방법이 있어요. 주어진 딕셔너리의 키, 값 또는 모든 키-값 쌍을 순회할 수 있어요.
 

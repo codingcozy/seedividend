@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I Want To Be Bad Alexa"
 link: "https://medium.com/minds-without-borders/i-want-to-be-bad-alexa-c95eb6c9ee59"
+isUpdated: true
 ---
+
+
 
 
 ## LIFE

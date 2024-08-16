@@ -3,12 +3,15 @@ title: "파이썬에서 함수 인터페이스 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-FunctionInterfacesinPython_0.png"
 date: 2024-07-09 20:34
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-FunctionInterfacesinPython_0.png
 tag: Tech
 originalTitle: "Function Interfaces in Python"
 link: "https://medium.com/towards-data-science/function-interfaces-in-python-4846ede71cd9"
+isUpdated: true
 ---
+
+
 
 ## 파이썬 프로그래밍
 

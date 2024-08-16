@@ -3,12 +3,15 @@ title: "HTMX가 개발자들에게 인기 없는 이유"
 description: ""
 coverImage: "/assets/img/2024-05-02-SorryImNotDigginHTMX_0.png"
 date: 2024-05-02 00:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-02-SorryImNotDigginHTMX_0.png
 tag: Tech
 originalTitle: "Sorry, I’m Not Diggin’ HTMX"
 link: "https://medium.com/@kentondejong/sorry-im-not-diggin-htmx-cc28df862910"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-05-02-SorryImNotDigginHTMX_0.png)
 

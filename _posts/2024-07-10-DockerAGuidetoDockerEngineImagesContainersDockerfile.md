@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker: A Guide to Docker Engine, Images, Containers , Dockerfile"
 link: "https://medium.com/@s-zainrashid98/docker-a-guide-to-docker-engine-images-containers-dockerfile-366a5c074e18"
+isUpdated: true
 ---
+
+
 
 
 # 소개

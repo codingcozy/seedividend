@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The fundamentals of iOS at Revolut"
 link: "https://medium.com/revolut/the-fundamentals-of-ios-at-revolut-f75acb765ac8"
+isUpdated: true
 ---
+
+
 
 
 Revolut에서의 iOS 개발 뒷면을 살펴보겠습니다. 우리는 고객이 금융 앱을 통해 금융 생활을 관리하는 것에 의존하는 고객들을 위해 우수한 금융 서비스와 원활한 고객 경험을 제공하기 위해 노력하고 있습니다.

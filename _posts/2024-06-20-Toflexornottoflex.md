@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "To flex or not to flex"
 link: "https://medium.com/@adam.mathis05/to-flex-or-not-to-flex-673d0cdb8727"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-20-Toflexornottoflex_0.png](/assets/img/2024-06-20-Toflexornottoflex_0.png)

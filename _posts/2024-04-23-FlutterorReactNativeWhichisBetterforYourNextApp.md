@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter or React Native Which is Better for Your Next App"
 link: "https://medium.com/@ayaanhaider.dev/flutter-or-react-native-which-is-better-for-your-next-app-d69ac62e96a2"
+isUpdated: true
 ---
+
+
 
 
 

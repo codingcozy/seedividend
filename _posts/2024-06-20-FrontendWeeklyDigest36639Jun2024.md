@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Frontend Weekly Digest #366 (3–9 Jun 2024)"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-366-3-9-jun-2024-c507affc6136"
+isUpdated: true
 ---
+
+
 
 
 

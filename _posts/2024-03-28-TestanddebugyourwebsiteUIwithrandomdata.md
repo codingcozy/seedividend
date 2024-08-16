@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Test and debug your website UI with random data"
 link: "https://medium.com/@mahdizarei0614/test-and-debug-your-website-ui-with-random-data-c0e4874a33b5"
+isUpdated: true
 ---
+
+
 
 
 

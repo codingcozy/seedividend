@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Vector Fields and Fuel Consumption Wrapped in 3D"
 link: "https://medium.com/better-programming/vector-fields-and-fuel-consumption-wrapped-in-3d-475a8a9fd57c"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-18-VectorFieldsandFuelConsumptionWrappedin3D_0.png)

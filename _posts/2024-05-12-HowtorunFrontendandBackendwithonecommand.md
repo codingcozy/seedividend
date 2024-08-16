@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to run Frontend and Backend with one command?"
 link: "https://medium.com/@rwijayabandu/how-to-run-frontend-and-backend-with-one-command-55d5f2ce952c"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-HowtorunFrontendandBackendwithonecommand_0.png" />

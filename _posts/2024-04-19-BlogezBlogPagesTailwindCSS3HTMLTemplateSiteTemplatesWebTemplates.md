@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Blogez  Blog Pages Tailwind CSS 3 HTML Template Site Templates Web Templates"
 link: "https://medium.com/@vectorverve/blogez-blog-pages-tailwind-css-3-html-template-site-templates-web-templates-a07699a720a4"
+isUpdated: true
 ---
+
+
 
 
 

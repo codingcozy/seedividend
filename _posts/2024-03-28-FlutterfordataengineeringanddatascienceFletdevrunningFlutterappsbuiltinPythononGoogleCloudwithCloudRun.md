@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter for data engineering and data science Fletdev  running Flutter apps built in Python on Google Cloud with Cloud Run"
 link: "https://medium.com/google-cloud/flutter-for-data-engineering-and-data-science-1ab54381f9d3"
+isUpdated: true
 ---
+
+
 
 
 

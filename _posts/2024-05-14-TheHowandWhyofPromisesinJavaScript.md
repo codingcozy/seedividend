@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The How and Why of Promises in JavaScript"
 link: "https://medium.com/gitconnected/the-how-and-why-of-promises-in-javascript-f051361afb6b"
+isUpdated: true
 ---
+
+
 
 
 ![Promises](/assets/img/2024-05-14-TheHowandWhyofPromisesinJavaScript_0.png)

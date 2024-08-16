@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use JSON file as a server for fake API in React JS"
 link: "https://medium.com/how-to-react/how-to-use-json-file-as-a-server-for-fake-api-in-react-js-6b72606023b7"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-HowtouseJSONfileasaserverforfakeAPIinReactJS_0.png)

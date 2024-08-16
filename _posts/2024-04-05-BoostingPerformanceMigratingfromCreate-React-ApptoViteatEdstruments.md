@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Boosting Performance Migrating from Create-React-App to Vite at Edstruments"
 link: "https://medium.com/@arjundubeycr/boosting-performance-migrating-from-create-react-app-to-vite-at-edstruments-bfb9f1d22706"
+isUpdated: true
 ---
+
+
 
 
 

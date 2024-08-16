@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Business Planning with Python — Inventory and Cash Flow Management"
 link: "https://medium.com/towards-data-science/business-planning-with-python-inventory-and-cash-flow-management-4f9beb7ecbec"
+isUpdated: true
 ---
+
+
 
 
 ## 데이터 분석을 활용하여 소기업이 재고를 관리하고 유동성 요구를 예측하며 수익을 극대화하는 방법은 무엇인가요?

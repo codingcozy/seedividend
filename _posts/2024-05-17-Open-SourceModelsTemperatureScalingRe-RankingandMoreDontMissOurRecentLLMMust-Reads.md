@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Open-Source Models, Temperature Scaling, Re-Ranking, and More: Don’t Miss Our Recent LLM Must-Reads"
 link: "https://medium.com/towards-data-science/open-source-models-temperature-scaling-re-ranking-and-more-dont-miss-our-latest-llm-must-reads-ed8e43190333"
+isUpdated: true
 ---
+
+
 
 
 새로운 LLM들이 거의 매일 등장하고, 그들이 가능케 하는 도구와 워크플로우도 더 빨리 확산됩니다. 우리는 이 영원히 변화하는 지형에서 최근 대화들을 되짚는 좋은 순간이라고 생각했고, 그것을 하는 더 나은 방법을 생각해내지 못했습니다. 과거 몇 주간의 강력한 기사 중 몇 가지를 강조함으로써 그것을 할 수 있다고 판단했습니다.

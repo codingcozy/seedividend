@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Google Authentication Made Easy Step-by-Step Integration with Supabase in SSR Nextjs React"
 link: "https://medium.com/@pierrobj5/google-authentication-made-easy-step-by-step-integration-with-supabase-in-ssr-next-js-react-e70cc918e150"
+isUpdated: true
 ---
+
+
 
 
 

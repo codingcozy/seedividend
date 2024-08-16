@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A tale from 30 years of HTML"
 link: "https://medium.com/@jankammerath/a-tale-from-30-years-of-html-ef4d11069d28"
+isUpdated: true
 ---
+
+
 
 
 몇 일 후에 대부분이 간단히 "HTML"로 알고 있는 하이퍼텍스트 마크업 언어가 30세가 됩니다. 1992년 11월 3일에 첫 버전이 출시된 이후로 긴 여정을 걷고 있어요. 정말 오래된 여정이죠.

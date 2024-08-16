@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Auth Login with GitHub and Google in a React and Backend App"
 link: "https://medium.com/bitsrc/how-to-auth-login-with-github-and-google-in-a-react-and-backend-app-77423565b506"
+isUpdated: true
 ---
+
+
 
 
 

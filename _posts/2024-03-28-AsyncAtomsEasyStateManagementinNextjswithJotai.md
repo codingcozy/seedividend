@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Async Atoms  Easy State Management in Nextjs with Jotai"
 link: "https://medium.com/@rasitcolakel/async-atoms-easy-state-management-in-next-js-with-jotai-39fc29adecae"
+isUpdated: true
 ---
+
+
 
 
 

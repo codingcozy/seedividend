@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "3 Key Recipes to Navigate Your Angular Routes"
 link: "https://medium.com/better-programming/3-key-recipes-to-navigate-your-angular-routes-c04528b8a38"
+isUpdated: true
 ---
+
+
 
 
 ![Angular](/assets/img/2024-05-17-3KeyRecipestoNavigateYourAngularRoutes_0.png)

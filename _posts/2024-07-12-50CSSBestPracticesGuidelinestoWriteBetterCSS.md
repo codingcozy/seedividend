@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "50 CSS Best Practices , Guidelines to Write Better CSS"
 link: "https://medium.com/before-semicolon/50-css-best-practices-guidelines-to-write-better-css-c60807e9eee2"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-50CSSBestPracticesGuidelinestoWriteBetterCSS_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build a custom Push Notification layout for iOS Apps"
 link: "https://medium.com/kinandcartacreated/build-a-custom-push-notification-layout-for-ios-apps-fade83927c51"
+isUpdated: true
 ---
+
+
 
 
 ## 푸시 알림을위한 사용자 정의 레이아웃을 만드는 방법에 대한 빠르고 쉬운 안내서입니다. NotificationExtendedContent를 사용하세요.

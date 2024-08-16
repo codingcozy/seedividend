@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Terminal Productivity Booster Zsh Plugins"
 link: "https://medium.com/codimis/terminal-productivity-booster-zsh-plugins-e8750ad1453d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "6 Cool Modern JavaScript Features Most Developers Dont Know About"
 link: "https://medium.com/javascript-in-plain-english/6-cool-modern-javascript-features-most-developers-dont-know-about-fc9ad774645a"
+isUpdated: true
 ---
+
+
 
 
 

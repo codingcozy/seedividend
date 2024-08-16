@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Ship Faster with TypeScript, Schemata, and Inference"
 link: "https://medium.com/gitconnected/how-i-ship-faster-with-typescript-schemata-and-inference-20bd4dd3ff56"
+isUpdated: true
 ---
+
+
 
 
 거의 10년 전에 Java 개발자로서 경력을 시작했고, 여전히 변수를 끊임없이 타이핑했던 기억이 나네요! TypeScript로 전향한 후에는 타입 추론에 의존하기 시작했습니다. 이 언어 기능을 넘어서 이를 이해하고 있고, 이 덕분에 일상적으로 많은 키 스트로크를 절약하고 있어요.

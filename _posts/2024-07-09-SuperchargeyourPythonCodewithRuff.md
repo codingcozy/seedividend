@@ -3,12 +3,15 @@ title: "Ruff로 파이썬 코드를 강화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_0.png"
 date: 2024-07-09 20:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-SuperchargeyourPythonCodewithRuff_0.png
 tag: Tech
 originalTitle: "Supercharge your Python Code with Ruff"
 link: "https://medium.com/bitgrit-data-science-publication/supercharge-your-python-code-with-ruff-4c75b890ed40"
+isUpdated: true
 ---
+
+
 
 ## PYTHON
 

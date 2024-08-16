@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular 17 New Changes You Should Know"
 link: "https://medium.com/habilelabs/angular-17-new-changes-you-should-know-39491de6afad"
+isUpdated: true
 ---
+
+
 
 
 

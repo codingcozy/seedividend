@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Airflow Variables"
 link: "https://medium.com/towards-data-science/mastering-airflow-variables-32548a53b3c5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-MasteringAirflowVariables_0.png" />

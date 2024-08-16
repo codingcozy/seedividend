@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Improving API performance: Parallel processing, batching and Bson filters"
 link: "https://medium.com/@mr.subhamdhillon/improving-api-performance-parallel-processing-batching-and-bson-filters-6bc43b3886af"
+isUpdated: true
 ---
+
+
 
 
 이 글에서는 개발자가 API의 성능을 향상시키기 위해 사용할 수 있는 최적화 시리즈를 탐색해 보겠습니다. API를 디자인할 때 최적의 성능을 확보하는 것이 중요합니다. 그러나 때로는 사용 가능한 도구를 효과적으로 활용하지 못하거나, 충분한 정보가 없어 판단을 내리기 어려울 수 있습니다.

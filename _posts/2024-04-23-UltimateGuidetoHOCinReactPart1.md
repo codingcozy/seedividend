@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ultimate Guide to HOC in React Part 1"
 link: "https://medium.com/javascript-in-plain-english/ultimate-guide-to-hoc-in-react-part-1-8e2be7557751"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 30 JavaScript Interview Questions and Answers for 2024"
 link: "https://medium.com/@javascriptcentric/top-30-javascript-interview-questions-and-answers-for-2024-7f1e2d1d0638"
+isUpdated: true
 ---
+
+
 
 
 

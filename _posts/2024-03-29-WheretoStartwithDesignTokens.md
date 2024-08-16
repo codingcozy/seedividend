@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Where to Start with Design Tokens"
 link: "https://medium.com/@mcapoz/where-to-start-with-design-tokens-fbfd1c168101"
+isUpdated: true
 ---
+
+
 
 
 

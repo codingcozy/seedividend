@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Make a Responsive Form using HTML, Css and JavaScript"
 link: "https://medium.com/@techloons/how-to-make-a-responsive-form-using-html-css-and-javascript-d2daf84c991d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native News React Native 073 Whats New"
 link: "https://medium.com/stackademic/react-native-news-react-native-0-73-whats-new-3387915c0a41"
+isUpdated: true
 ---
+
+
 
 
 

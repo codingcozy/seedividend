@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Batman-Comic.CSS"
 link: "https://medium.com/gitconnected/batman-comic-css-cee100461579"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-Batman-ComicCSS_0.png" />

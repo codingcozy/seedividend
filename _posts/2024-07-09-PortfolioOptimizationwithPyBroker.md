@@ -3,12 +3,15 @@ title: "PyBroker를 사용한 포트폴리오 최적화 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png"
 date: 2024-07-09 14:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png
 tag: Tech
 originalTitle: "Portfolio Optimization with PyBroker"
 link: "https://medium.com/@edtechre/portfolio-optimization-with-pybroker-5ce0af389bfa"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png" />
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Styling with Sass"
 link: "https://medium.com/@khguruge/advanced-styling-with-sass-7bbbba978e01"
+isUpdated: true
 ---
+
+
 
 
 

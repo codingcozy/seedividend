@@ -3,12 +3,15 @@ title: "TypeScript와 함께 작업할 때 정직이 최선의 정책인 이유 
 description: ""
 coverImage: "/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png"
 date: 2024-07-02 21:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png
 tag: Tech
 originalTitle: "The cost of a lie — why honesty is the best policy when working with TypeScript"
 link: "https://medium.com/swinginc/the-cost-of-a-lie-5d9814fe2853"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png)
 

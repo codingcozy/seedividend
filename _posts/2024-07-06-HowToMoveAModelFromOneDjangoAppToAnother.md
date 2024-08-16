@@ -3,12 +3,15 @@ title: "Django 앱 사이에서 모델을 이동하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png"
 date: 2024-07-06 10:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png
 tag: Tech
 originalTitle: "How To Move A Model From One Django App To Another"
 link: "https://medium.com/@shweta17/how-to-move-a-model-from-one-django-app-to-another-743184d6a5b2"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png
 

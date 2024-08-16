@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building and Deploying a Simple Web App with FastAPI, React, and Docker"
 link: "https://medium.com/@chigwel/building-and-deploying-a-simple-web-app-with-fastapi-react-and-docker-0ff07bc78ffb"
+isUpdated: true
 ---
+
+
 
 
 

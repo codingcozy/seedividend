@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Spring Statemachine — Using Spring for Tracking State in Your Application."
 link: "https://medium.com/gitconnected/spring-statemachine-using-spring-for-tracking-state-in-your-application-031f7fd9027f"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Karpenter — An Open-Source High-Performance Kubernetes Cluster Autoscaler"
 link: "https://medium.com/dev-genius/karpenter-an-open-source-high-performance-kubernetes-cluster-autoscaler-05bee7ca1b61"
+isUpdated: true
 ---
+
+
 
 
 # 소개

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Displaying UX Research in your Design Portfolio  4 mistakes you dont want to make"
 link: "https://medium.com/@uxsurvivalguide/displaying-ux-research-in-your-design-portfolio-4-mistakes-you-dont-want-to-make-9d5cb97c9063"
+isUpdated: true
 ---
+
+
 
 
 

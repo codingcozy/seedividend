@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TIL: Node.js timers have promise API"
 link: "https://medium.com/@salimbinusman/til-node-js-timers-have-promise-api-ff9dc9124ca1"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 코드 개발자 여러분!

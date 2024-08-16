@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A practical guide to morphological image processing"
 link: "https://medium.com/ai-in-plain-english/a-practical-guide-to-morphological-image-processing-8df5cb6ec39f"
+isUpdated: true
 ---
+
+
 
 
 ## | 인공지능 | 컴퓨터 비전 | 전처리 |

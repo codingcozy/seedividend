@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "8 Must-Know CSS Properties for Styling Websites"
 link: "https://medium.com/@Itsmemuna/8-must-know-css-properties-for-styling-websites-70de2ef22e2e"
+isUpdated: true
 ---
+
+
 
 
 

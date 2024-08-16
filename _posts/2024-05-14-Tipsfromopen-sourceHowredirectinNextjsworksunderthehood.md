@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tips from open-source: How redirect in Next.js works under the hood"
 link: "https://medium.com/@ramu.narasinga_61050/tips-from-open-source-how-redirect-in-next-js-works-under-the-hood-da0c489aecb6"
+isUpdated: true
 ---
+
+
 
 
 이 기사에서는 넥스트.js에서 리다이렉션 작동 방식을 살펴보면서 넥스트.js 소스 코드 주변의 리다이렉션 기능에 대해 배우게 됩니다.

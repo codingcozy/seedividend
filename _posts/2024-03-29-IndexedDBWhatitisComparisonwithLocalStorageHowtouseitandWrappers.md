@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "IndexedDB What it is, Comparison with LocalStorage, How to use it, and Wrappers"
 link: "https://medium.com/@lorenzobloedow/indexeddb-what-it-is-comparison-with-localstorage-how-to-use-it-and-wrappers-035269cb94b0"
+isUpdated: true
 ---
+
+
 
 
 

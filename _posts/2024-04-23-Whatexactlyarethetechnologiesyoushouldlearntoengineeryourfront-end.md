@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What exactly are the technologies you should learn to engineer your front-end"
 link: "https://medium.com/@nanvon/what-exactly-are-the-technologies-you-should-learn-to-engineer-your-front-end-bef150f075a9"
+isUpdated: true
 ---
+
+
 
 
 

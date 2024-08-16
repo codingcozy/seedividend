@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SASS vs Native CSS Choosing the Right Tool for the Job"
 link: "https://medium.com/@temiye13/sass-vs-native-css-choosing-the-right-tool-for-the-job-db37d8c7feb5"
+isUpdated: true
 ---
+
+
 
 
 

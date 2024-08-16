@@ -3,12 +3,15 @@ title: "HTML에서 클래스 이름을 정하는 방법  클린 코드 가이드
 description: ""
 coverImage: "/assets/img/2024-07-09-HowshouldclassnamingbeinHTMLCleanCode_0.png"
 date: 2024-07-09 18:38
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowshouldclassnamingbeinHTMLCleanCode_0.png
 tag: Tech
 originalTitle: "How should class naming be in HTML? — Clean Code."
 link: "https://medium.com/@erennaktas/how-should-class-naming-be-in-html-clean-code-8703425a1c3e"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-HowshouldclassnamingbeinHTMLCleanCode_0.png" />
 

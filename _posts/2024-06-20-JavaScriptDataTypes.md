@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript Data Types"
 link: "https://medium.com/@webdevloper134/javascript-data-types-f6740e75e86b"
+isUpdated: true
 ---
+
+
 
 
 이해하기 쉬워요

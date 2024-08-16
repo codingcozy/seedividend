@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "MUI Data Grid Style Customization"
 link: "https://medium.com/@epcm18/mui-data-grid-style-customization-ff54b530dfcd"
+isUpdated: true
 ---
+
+
 
 
 

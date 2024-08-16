@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Search Bar with Dropdown and Arrow Key Event Handling in React A Comprehensive Guide"
 link: "https://medium.com/@adi8090808766/building-a-search-bar-with-dropdown-and-arrow-key-event-handling-in-react-a-comprehensive-guide-084440ffe017"
+isUpdated: true
 ---
+
+
 
 
 

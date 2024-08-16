@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying a Netflix Clone on AWS: A DevSecOps Project"
 link: "https://medium.com/@aashiqconnects/deploying-a-netflix-clone-on-aws-a-devsecops-project-a64bf6aeaa14"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-07-DeployingaNetflixCloneonAWSADevSecOpsProject_0.png)

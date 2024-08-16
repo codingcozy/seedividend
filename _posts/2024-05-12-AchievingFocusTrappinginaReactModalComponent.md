@@ -3,12 +3,15 @@ title: "리액트 모달 컴포넌트에서 포커스 트래핑 구현하기"
 description: ""
 coverImage: "/assets/img/2024-05-12-AchievingFocusTrappinginaReactModalComponent_0.png"
 date: 2024-05-12 21:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AchievingFocusTrappinginaReactModalComponent_0.png
 tag: Tech
 originalTitle: "Achieving Focus Trapping in a React Modal Component"
 link: "https://medium.com/cstech/achieving-focus-trapping-in-a-react-modal-component-3f28f596f35b"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-AchievingFocusTrappinginaReactModalComponent_0.png" />
 

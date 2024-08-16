@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Data Visualization with Matplotlib"
 link: "https://medium.com/coinmonks/data-visualization-with-matplotlib-9d4847d9f3d5"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png)

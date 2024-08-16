@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 Microservice Anti-Patterns"
 link: "https://blog.bitsrc.io/10-microservice-anti-patterns-278bcb7f385d"
+isUpdated: true
 ---
+
+
 
 
 

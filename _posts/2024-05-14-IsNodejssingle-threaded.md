@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Is Node.js single-threaded?"
 link: "https://medium.com/@relja.jovicevic/is-node-js-single-threaded-c57c4f193c0d"
+isUpdated: true
 ---
+
+
 
 
 

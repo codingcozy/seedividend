@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to scale data fetching with SWR"
 link: "https://medium.com/@boomimagestudio-techblog/how-to-scale-data-fetching-with-swr-699911506284"
+isUpdated: true
 ---
+
+
 
 
 

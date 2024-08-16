@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My experience learning Rust as a TypeScript developer"
 link: "https://medium.com/gitconnected/my-experience-learning-rust-as-a-typescript-developer-df3abebb5abb"
+isUpdated: true
 ---
+
+
 
 
 ![My experience learning Rust as a TypeScript developer](/assets/img/2024-05-13-MyexperiencelearningRustasaTypeScriptdeveloper_0.png)

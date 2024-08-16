@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Essential for Lazy Developers: Five Efficient Python Decorators"
 link: "https://medium.com/faun/essential-for-lazy-developers-five-efficient-python-decorators-a8d5964994f8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png" />

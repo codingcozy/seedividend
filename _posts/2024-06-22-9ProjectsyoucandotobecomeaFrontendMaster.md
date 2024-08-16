@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "9 Projects you can do to become a Frontend Master"
 link: "https://medium.com/@safdaralii/9-projects-you-can-do-to-become-a-frontend-master-c33da5c721b4"
+isUpdated: true
 ---
+
+
 
 
 

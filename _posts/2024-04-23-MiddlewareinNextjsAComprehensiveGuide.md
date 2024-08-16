@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Middleware in Nextjs A Comprehensive Guide"
 link: "https://medium.com/@zachshallbetter/middleware-in-next-js-a-comprehensive-guide-7dd0a928541a"
+isUpdated: true
 ---
+
+
 
 
 

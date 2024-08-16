@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Storybook Composition"
 link: "https://storybook.js.org/docs/sharing/storybook-composition"
+isUpdated: true
 ---
+
+
 
 
 

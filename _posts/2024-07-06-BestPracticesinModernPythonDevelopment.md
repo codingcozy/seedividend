@@ -3,12 +3,15 @@ title: "최신 파이썬 개발 모범 사례 10가지"
 description: ""
 coverImage: "/assets/img/2024-07-06-BestPracticesinModernPythonDevelopment_0.png"
 date: 2024-07-06 10:28
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-BestPracticesinModernPythonDevelopment_0.png
 tag: Tech
 originalTitle: "Best Practices in Modern Python Development"
 link: "https://medium.com/gitconnected/best-practices-in-modern-python-development-870a97c5593d"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-BestPracticesinModernPythonDevelopment_0.png
 

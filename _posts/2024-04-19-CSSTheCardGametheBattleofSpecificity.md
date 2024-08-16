@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS The Card Game  the Battle of Specificity"
 link: "https://medium.com/@hanilim/css-the-card-game-the-battle-of-specificity-4d9606011458"
+isUpdated: true
 ---
+
+
 
 
 

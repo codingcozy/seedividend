@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Lifecycle Events in React and Performance Optimization"
 link: "https://medium.com/@srw.aditya/understanding-lifecycle-events-in-react-and-performance-optimization-dbf4a0f6b4f5"
+isUpdated: true
 ---
+
+
 
 
 

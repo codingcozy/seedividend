@@ -3,12 +3,15 @@ title: "Tailwind CSS에 Signals가 도입된다"
 description: ""
 coverImage: "/assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png"
 date: 2024-07-09 13:57
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png
 tag: Tech
 originalTitle: "Signals are Now Coming to Tailwind CSS?"
 link: "https://medium.com/javascript-in-plain-english/about-me-yevhen-a03fb7d03d20"
+isUpdated: true
 ---
+
+
 
 ![Signals](/assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png)
 

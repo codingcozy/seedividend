@@ -3,12 +3,15 @@ title: "LangChain 심층 분석  Part 4 최신 LLM 스터디 다이어리"
 description: ""
 coverImage: "/assets/img/2024-07-09-LLMStudyDiaryComprehensiveReviewofLangChainPart4_0.png"
 date: 2024-07-09 09:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-LLMStudyDiaryComprehensiveReviewofLangChainPart4_0.png
 tag: Tech
 originalTitle: "LLM Study Diary: Comprehensive Review of LangChain — Part 4"
 link: "https://medium.com/@mizutori/llm-study-diary-comprehensive-review-of-langchain-part-4-566fb1bbea0d"
+isUpdated: true
 ---
+
+
 
 오늘은 Greg Kamradt의 "The LangChain Cookbook - 7 Core Concepts"의 나머지 챕터들을 끝까지 리뷰하겠습니다!
 

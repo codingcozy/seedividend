@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Response to Cancer Treatment"
 link: "https://medium.com/john-snow-labs/response-to-cancer-treatment-d7d3b6f40aa3"
+isUpdated: true
 ---
+
+
 
 
 ## 암 치료 반응 지표의 정확한 추출

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Figma to Frontend Synchronizing Design and Code Automatically"
 link: "https://vkteam.medium.com/figma-to-frontend-synchronizing-design-and-code-automatically-62e493054631"
+isUpdated: true
 ---
+
+
 
 
 

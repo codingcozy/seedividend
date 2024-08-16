@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Routing in Angular"
 link: "https://medium.com/@jaydeepvpatil225/routing-in-angular-924066bde43"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-RoutinginAngular_0.png" />

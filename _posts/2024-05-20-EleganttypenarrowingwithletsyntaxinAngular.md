@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Elegant type narrowing with @let syntax in Angular"
 link: "https://medium.com/javascript-everyday/elegant-type-narrowing-with-let-syntax-in-angular-a6cf2cd18964"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-20-EleganttypenarrowingwithletsyntaxinAngular_0.png)

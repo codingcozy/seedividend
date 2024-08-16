@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to pass state data from one component to another in Reactjs"
 link: "https://medium.com/@babux1/how-to-pass-state-data-from-one-component-to-another-in-react-js-9b4850887163"
+isUpdated: true
 ---
+
+
 
 
 

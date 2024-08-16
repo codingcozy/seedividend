@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building A Momentum and Reversion Trading Strategy With Python"
 link: "https://medium.com/gitconnected/building-a-momentum-and-reversion-trading-strategy-with-python-b49efee4533c"
+isUpdated: true
 ---
+
+
 
 
 양적 거래에서는 금융 시장에서 우위를 차지하기 위해 다양한 전략이 사용됩니다. 모멘텀 및 추세 기반 전략은 인기가 많지만, 종종 중요한 알파를 창출하는 데 어려움을 겪습니다. 이들은 종종 유튜브에서 금융 강좌로 판매될 때만 알파를 창출하게 됩니다.

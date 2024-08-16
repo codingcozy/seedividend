@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React snippet for Function Component in TS"
 link: "https://medium.com/@vjnvisakh/react-snippet-for-function-component-in-ts-cd3e5125fe88"
+isUpdated: true
 ---
+
+
 
 
 알아야 할 사실을 직시합시다. React 없이는 살 수 없어요. React는 우리 삶을 정말 쉽게 만들어 주었죠. 요즘에는 웹 앱을 만드는 게 아주 쉽죠. 하지만 많은 보일러플레이트 때문에 때로는 지루할 수도 있어요. 새로운 기능을 제품에 추가할 때마다 React 함수 컴포넌트를 설정해야 하는 것 중 하나죠.

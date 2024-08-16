@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NestJS, TypeORM and PostgreSQL — full example development and project setup working with database migrations."
 link: "https://medium.com/@gausmann.simon/nestjs-typeorm-and-postgresql-full-example-development-and-project-setup-working-with-database-c1a2b1b11b8f"
+isUpdated: true
 ---
+
+
 
 
 상태 데이터와 데이터베이스를 다루는 것은 어렵습니다. 특히 프로젝트가 시간이 지남에 따라 커지면 더욱 어려워집니다. 개발 프로젝트의 성공을 위해서는 처음부터 좋은 개발 및 프로젝트 설정을 갖추는 것이 중요합니다. 이 글에서는 대부분의 프로젝트를 설정하는 방법을 보여드리고, 설정 뒤에 있는 몇 가지 생각을 강조하려고 합니다.

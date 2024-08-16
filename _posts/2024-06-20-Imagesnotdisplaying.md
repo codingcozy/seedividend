@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Images not displaying"
 link: "https://medium.com/@meganelise_23551/images-not-displaying-07683b97dad4"
+isUpdated: true
 ---
+
+
 
 
 음식 레시피와 농담을 가져오는 애플리케이션을 개발하면서 우리 팀은 흥미로운, 귀찮은, 작지만 크고 매우 눈에 띄는 문제에 직면했어요.

@@ -3,12 +3,15 @@ title: "여러 기간의 시계열 확률 예측을 위한 XGB, LightGBM, CatBoo
 description: ""
 coverImage: "/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png"
 date: 2024-07-09 19:34
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png
 tag: Tech
 originalTitle: "Tree-based XGB, LightGBM, and CatBoost Models for Multi-period Time Series Probabilistic Forecasting"
 link: "https://medium.com/dataman-in-ai/tree-based-xgb-lightgbm-and-catboost-models-for-multi-period-time-series-probabilistic-6b12d1500779"
+isUpdated: true
 ---
+
+
 
 ![Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png)
 

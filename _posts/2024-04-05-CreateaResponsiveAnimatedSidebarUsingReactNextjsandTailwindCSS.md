@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create a Responsive Animated Sidebar Using React   Nextjs and Tailwind CSS"
 link: "https://medium.com/designly/create-a-responsive-animated-sidebar-using-react-next-js-and-tailwind-css-bd5a0f42f103"
+isUpdated: true
 ---
+
+
 
 
 

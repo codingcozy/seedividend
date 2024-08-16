@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Containerize Your App And Use Nginx As A Proxy"
 link: "https://medium.com/devops-dev/how-to-containerize-your-app-and-use-nginx-as-a-proxy-024cffca8cea"
+isUpdated: true
 ---
+
+
 
 
 ![How To Containerize Your App And Use Nginx As A Proxy](/assets/img/2024-07-07-HowToContainerizeYourAppAndUseNginxAsAProxy_0.png)

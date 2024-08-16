@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Code contributions"
 link: "https://storybook.js.org/docs/contribute/code"
+isUpdated: true
 ---
+
+
 
 
 

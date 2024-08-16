@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Write a backend server, and you get an Admin Dashboard for free!"
 link: "https://medium.com/@victor.teo/write-a-backend-server-and-you-get-an-admin-dashboard-for-free-bb2d2aeb041f"
+isUpdated: true
 ---
+
+
 
 
 테오(Teo)는 당신을 위해 관리자 대시보드를 생성할 수 있는 훌륭한 웹 프레임워크입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React , Javascript Optimization Techniques"
 link: "https://medium.com/globant/javascript-optimization-techniques-20d8d167dadd"
+isUpdated: true
 ---
+
+
 
 
 

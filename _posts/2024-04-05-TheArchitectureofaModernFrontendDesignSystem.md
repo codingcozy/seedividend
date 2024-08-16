@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Architecture of a Modern Frontend Design System"
 link: "https://medium.com/bitsrc/the-architecture-of-a-modern-frontend-design-system-cc884bd9c1a0"
+isUpdated: true
 ---
+
+
 
 
 

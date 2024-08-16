@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering JavaScript Interviews: 20 Interesting Questions and Detailed Solutions"
 link: "https://medium.com/@amitmishraam941/mastering-javascript-interviews-20-interesting-questions-and-detailed-solutions-bc2661f37ee0"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-MasteringJavaScriptInterviews20InterestingQuestionsandDetailedSolutions_0.png)

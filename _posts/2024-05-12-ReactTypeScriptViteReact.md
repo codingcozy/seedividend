@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React TypeScript — Vite + React"
 link: "https://medium.com/@nhannguyendevjs/react-typescript-vite-react-52a8d0f57432"
+isUpdated: true
 ---
+
+
 
 
 Vite는 현대 웹 프로젝트용 빌드 도구입니다. 더 빠르고 간결한 개발 경험을 제공하도록 목표로 합니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Test your web frontend design in mobile device via VS code"
 link: "https://medium.com/imu-framework-design/how-to-test-your-web-frontend-design-in-mobile-device-via-vs-code-2b49d2df5415"
+isUpdated: true
 ---
+
+
 
 
 

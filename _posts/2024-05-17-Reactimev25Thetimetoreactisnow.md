@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reactime v25: The time to react is now!"
 link: "https://medium.com/@loganjnelsen/reactime-v25-the-time-to-react-is-now-ace90e45a9c7"
+isUpdated: true
 ---
+
+
 
 
 강력한 개발자 도구가 더욱 강력하고 직관적으로 업그레이드되었습니다.

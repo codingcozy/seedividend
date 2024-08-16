@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JSON is incredibly slow Heres Whats Faster"
 link: "https://medium.com/data-science-community-srm/json-is-incredibly-slow-heres-what-s-faster-ca35d5aaf9e8"
+isUpdated: true
 ---
+
+
 
 
 

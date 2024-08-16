@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "env file in React js"
 link: "https://medium.com/@bhairabpatra.iitd/env-file-in-react-js-09d11dc77924"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Custom Pipes"
 link: "https://medium.com/@babatundelamidi/angular-custom-pipes-e0dac5f64b68"
+isUpdated: true
 ---
+
+
 
 
 Markdown 형식으로 테이블 태그를 변경하세요.

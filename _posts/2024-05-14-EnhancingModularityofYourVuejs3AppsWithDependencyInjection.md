@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing Modularity of Your Vue.js 3 Apps With Dependency Injection"
 link: "https://medium.com/javascript-in-plain-english/enhancing-modularity-of-your-vuejs-3-apps-with-dependency-injection-761d287d5da1"
+isUpdated: true
 ---
+
+
 
 
 VueJS를 사용하면 반응형 컴포넌트, 함수, 라이브러리 및 플러그인을 효율적으로 재사용할 수 있습니다. 이러한 기능들은 VueJS의 한 가지 우아하고 강력한 API 중 하나인 의존성 주입을 활용합니다.

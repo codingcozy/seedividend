@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Avoid cache trap when serving Angular app"
 link: "https://medium.com/@elelad/avoid-cache-trap-when-serving-angular-app-c5981653d156"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-AvoidcachetrapwhenservingAngularapp_0.png)

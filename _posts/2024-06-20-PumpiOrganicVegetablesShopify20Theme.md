@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pumpi — Organic Vegetables Shopify 2.0 Theme"
 link: "https://medium.com/@logocraft99/pumpi-organic-vegetables-shopify-2-0-theme-ac0c947f6b3d"
+isUpdated: true
 ---
+
+
 
 
 🔍 Pumpi- Organic Vegetables Shopify 2.0 테마를 확인해보세요! 📁 Shopify CMS 템플릿 라이브러리를 살펴보고 🆓 무료 다운로드를 받아보세요. 함께 만들어 봐요! 🚀

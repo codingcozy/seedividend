@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reduce rendering time with large data in react"
 link: "https://medium.com/@shivanggarg48/reduce-rendering-time-with-large-data-in-react-274778adbe09"
+isUpdated: true
 ---
+
+
 
 
 

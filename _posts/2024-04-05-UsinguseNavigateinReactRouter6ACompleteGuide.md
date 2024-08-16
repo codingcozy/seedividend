@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using useNavigate in React Router 6 A Complete Guide"
 link: "https://medium.com/@bobjunior542/using-usenavigate-in-react-router-6-a-complete-guide-46f51403f430"
+isUpdated: true
 ---
+
+
 
 
 

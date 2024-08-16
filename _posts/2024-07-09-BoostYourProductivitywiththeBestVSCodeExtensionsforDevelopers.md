@@ -3,12 +3,15 @@ title: "개발자들을 위한 최고의 VS Code 확장 프로그램으로 생�
 description: ""
 coverImage: "/assets/img/2024-07-09-BoostYourProductivitywiththeBestVSCodeExtensionsforDevelopers_0.png"
 date: 2024-07-09 08:54
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-BoostYourProductivitywiththeBestVSCodeExtensionsforDevelopers_0.png
 tag: Tech
 originalTitle: "Boost Your Productivity with the Best VS Code Extensions for Developers!"
 link: "https://medium.com/@itsmohitprajapat/boost-your-productivity-with-the-best-vs-code-extensions-for-developers-8c93d7c217e9"
+isUpdated: true
 ---
+
+
 
 아래는 필수적인 VS Code 확장 프로그램 목록입니다:
 

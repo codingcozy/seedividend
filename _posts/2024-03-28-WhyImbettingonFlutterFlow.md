@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Im betting on FlutterFlow"
 link: "https://medium.com/design-bootcamp/why-im-betting-on-flutterflow-5be09b551a70"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Structure my React Projects"
 link: "https://medium.com/@rikiphukon/how-i-structure-my-react-projects-as-a-frontend-developer-22bd18e83f5b"
+isUpdated: true
 ---
+
+
 
 
 

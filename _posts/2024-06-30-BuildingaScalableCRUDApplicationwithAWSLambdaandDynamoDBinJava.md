@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Scalable CRUD Application with AWS Lambda and DynamoDB in Java"
 link: "https://medium.com/@amreshujoshi/building-a-scalable-crud-application-with-aws-lambda-and-dynamodb-in-java-ed7a8cec8741"
+isUpdated: true
 ---
+
+
 
 
 오늘날의 클라우드 컴퓨팅 환경에서는, 서버리스 아키텍처가 확장성, 비용 효율성, 그리고 쉬운 관리로 많은 인기를 얻고 있습니다. AWS Lambda와 DynamoDB가 결합된 것은 서버리스 애플리케이션을 개발하는 데 강력한 조합을 제공합니다.

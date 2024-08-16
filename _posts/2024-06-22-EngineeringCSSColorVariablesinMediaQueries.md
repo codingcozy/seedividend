@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Engineering: CSS Color Variables in Media Queries"
 link: "https://medium.com/@naqvishahwar120/engineering-css-color-variables-in-media-queries-7015fcfcccd6"
+isUpdated: true
 ---
+
+
 
 
 공학 (CSS)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding JavaScript’s call, apply, and bind Methods with Real-Life Analogies"
 link: "https://medium.com/@harshitkishor2/understanding-javascripts-call-apply-and-bind-methods-with-real-life-analogies-5e8ec2ea3996"
+isUpdated: true
 ---
+
+
 
 
 

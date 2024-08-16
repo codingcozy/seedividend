@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create Gradient Background for Messaging Apps"
 link: "https://medium.com/@gokhanipek/how-to-create-gradient-background-for-messaging-apps-05e958bf5356"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Weekly digest #7"
 link: "https://medium.com/devdiscoveries/weekly-digest-7-bd83d0c5a45b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-Weeklydigest7_0.png" />

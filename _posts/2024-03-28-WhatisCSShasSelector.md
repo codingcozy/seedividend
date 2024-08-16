@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is CSS has Selector"
 link: "https://medium.com/@thetechplatform/what-is-css-has-selector-38b3aee9fbdf"
+isUpdated: true
 ---
+
+
 
 
 

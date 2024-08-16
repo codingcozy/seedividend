@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 minutes to create your own Spark Cluster for free: A Step-by-Step Guide"
 link: "https://medium.com/@bricefotzo/5-minutes-to-create-your-own-spark-cluster-a-step-by-step-guide-31afe5f84641"
+isUpdated: true
 ---
+
+
 
 
 /assets/img/2024-07-06-5minutestocreateyourownSparkClusterforfreeAStep-by-StepGuide_0.png

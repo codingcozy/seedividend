@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter Soars at Google I O Shoreline: A Developer’s take from the Latest Announcements"
 link: "https://medium.com/@dilumdesilva/flutter-soars-at-google-i-o-shoreline-a-developers-perspective-to-the-latest-announcements-14b72a8d580b"
+isUpdated: true
 ---
+
+
 
 
 

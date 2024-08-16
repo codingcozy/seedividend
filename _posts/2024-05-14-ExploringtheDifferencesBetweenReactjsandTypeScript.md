@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Differences Between React.js and TypeScript"
 link: "https://medium.com/@Thosynpax/exploring-the-differences-between-react-js-and-typescript-d5c4958c1c73"
+isUpdated: true
 ---
+
+
 
 
 ![React vs TypeScript](/assets/img/2024-05-14-ExploringtheDifferencesBetweenReactjsandTypeScript_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "✨Explore what is new in Next.js 14.2! ✨"
 link: "https://medium.com/@nikhilgupta946/explore-what-is-new-in-next-js-14-2-810dcb10973c"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-ExplorewhatisnewinNextjs142_0.png)

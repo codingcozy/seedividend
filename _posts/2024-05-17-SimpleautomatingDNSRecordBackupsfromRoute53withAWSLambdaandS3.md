@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple automating DNS Record Backups from Route 53 with AWS Lambda and S3"
 link: "https://medium.com/@WillEvaristo/automating-dns-record-backups-from-route-53-with-aws-lambda-and-s3-16f817f48336"
+isUpdated: true
 ---
+
+
 
 
 # 소개

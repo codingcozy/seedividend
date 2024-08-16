@@ -3,12 +3,15 @@ title: "대기업 프론트엔드 단골 useState 질문"
 description: ""
 coverImage: "/assets/img/2024-05-12-AuseStateQuestionThatAlmostAllBeginnersGetWrong_0.png"
 date: 2024-05-12 20:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AuseStateQuestionThatAlmostAllBeginnersGetWrong_0.png
 tag: Tech
 originalTitle: "A useState Question That Almost All Beginners Get Wrong"
 link: "https://medium.com/javascript-in-plain-english/a-usestate-question-that-almost-all-beginners-get-wrong-076009be61ed"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-AuseStateQuestionThatAlmostAllBeginnersGetWrong_0.png" />
 

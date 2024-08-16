@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React JS Best Practices From The New Docs"
 link: "https://medium.com/@sebastiancarlos/react-js-best-practices-from-the-new-docs-1c65570e785d"
+isUpdated: true
 ---
+
+
 
 
 

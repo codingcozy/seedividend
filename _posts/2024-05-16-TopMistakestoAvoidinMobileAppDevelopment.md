@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top Mistakes to Avoid in Mobile App Development"
 link: "https://medium.com/@kasata/top-mistakes-to-avoid-in-mobile-app-development-5d7ade014546"
+isUpdated: true
 ---
+
+
 
 
 휴대폰 앱을 개발하는 것은 혁신과 배움으로 가득한 흥미진진한 여정일 수 있어요. 하지만 특정 함정들은 프로젝트를 방해하여 효과적이지 못하게 만들거나 완전히 불가능하게 만들 수 있어요. 여기서는 일반적인 실수들과 그것을 피하는 방법에 대해 알아볼 거예요.

@@ -3,12 +3,15 @@ title: "디자인 시스템에서 공간 활용 방법 효과적인 레이아웃
 description: ""
 coverImage: "/assets/img/2024-07-09-SpaceinDesignSystems_0.png"
 date: 2024-07-09 18:47
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-SpaceinDesignSystems_0.png
 tag: Tech
 originalTitle: "Space in Design Systems"
 link: "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62"
+isUpdated: true
 ---
+
+
 
 ## 기본 사항부터 확장된 개념까지 의도적으로 공간을 활용해보세요
 

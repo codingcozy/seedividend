@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Image Pieces"
 link: "https://medium.com/@saurabh.kayasth10/image-pieces-f7fabad2e2be"
+isUpdated: true
 ---
+
+
 
 
 

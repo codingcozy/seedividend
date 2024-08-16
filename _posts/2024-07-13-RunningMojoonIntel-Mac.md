@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Running Mojo on Intel-Mac"
 link: "https://medium.com/@nik.vee.p/running-mojo-on-intel-mac-82324f2e557b"
+isUpdated: true
 ---
+
+
 
 
 ![Mojo](/assets/img/2024-07-13-RunningMojoonIntel-Mac_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Human Centric UI 2023"
 link: "https://medium.com/@carlosalmonte04/human-centric-ui-2023-f836fbc838d7"
+isUpdated: true
 ---
+
+
 
 
 

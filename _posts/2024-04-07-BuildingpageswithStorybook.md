@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building pages with Storybook"
 link: "https://storybook.js.org/docs/writing-stories/build-pages-with-storybook"
+isUpdated: true
 ---
+
+
 
 
 

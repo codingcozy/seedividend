@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the React Component Lifecycle: A Deep Dive into the Life of a React Component"
 link: "https://medium.com/@arpitparekh54/understanding-the-react-component-lifecycle-a-deep-dive-into-the-life-of-a-react-component-74813cb8dfb5"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-12-UnderstandingtheReactComponentLifecycleADeepDiveintotheLifeofaReactComponent_0.png)

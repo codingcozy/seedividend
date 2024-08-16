@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Component Lifecycle Methods"
 link: "https://medium.com/@arunangshudas/react-component-lifecycle-methods-ea2f2e3407c4"
+isUpdated: true
 ---
+
+
 
 
 ![React Component Lifecycle Methods](/assets/img/2024-05-14-ReactComponentLifecycleMethods_0.png)

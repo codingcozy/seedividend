@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "REACT NATIVE SETUP FOR MAC OS M1 M2 CHIP!"
 link: "https://medium.com/@7nirbhay/react-native-setup-for-mac-os-m1-m2-chip-28895dd2defb"
+isUpdated: true
 ---
+
+
 
 
 리액트 네이티브 M1/M2 칩을 위한 환경 설정

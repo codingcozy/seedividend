@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JAVA: What Happens When a Thread Calls Start Twice?"
 link: "https://medium.com/@haiou-a/java-what-happens-when-a-thread-calls-start-twice-7b85ddd22c05"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-09-JAVAWhatHappensWhenaThreadCallsStartTwice_0.png)

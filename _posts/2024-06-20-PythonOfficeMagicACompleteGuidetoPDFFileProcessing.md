@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python Office Magic: A Complete Guide to PDF File Processing"
 link: "https://medium.com/gitconnected/python-office-magic-a-complete-guide-to-pdf-file-processing-70552bc49151"
+isUpdated: true
 ---
+
+
 
 
 ![Python Office Magic](/assets/img/2024-06-20-PythonOfficeMagicACompleteGuidetoPDFFileProcessing_0.png)

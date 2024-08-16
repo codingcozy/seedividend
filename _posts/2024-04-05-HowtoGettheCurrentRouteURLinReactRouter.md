@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Get the Current Route URL in React Router"
 link: "https://medium.com/codingbeauty-tutorials/react-router-get-current-route-9c2e6bd8d689"
+isUpdated: true
 ---
+
+
 
 
 

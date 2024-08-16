@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Virtualized Masonry"
 link: "https://medium.com/@onix_react/react-virtualized-masonry-221c7a4f297b"
+isUpdated: true
 ---
+
+
 
 
 

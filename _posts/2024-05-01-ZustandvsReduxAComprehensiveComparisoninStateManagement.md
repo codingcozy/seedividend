@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Zustand vs. Redux: A Comprehensive Comparison in State Management"
 link: "https://medium.com/@breakingbadjs/zustand-vs-redux-a-comprehensive-comparison-in-state-management-687a86156b14"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-ZustandvsReduxAComprehensiveComparisoninStateManagement_0.png)

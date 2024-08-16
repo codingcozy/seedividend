@@ -3,12 +3,15 @@ title: "한 줄의 문자열 때문에 Apple App Store에서 금지된 Python �
 description: ""
 coverImage: "/assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_0.png"
 date: 2024-07-09 20:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PythonProgramBannedfromAppleAppStoreDuetoaSingleString_0.png
 tag: Tech
 originalTitle: "Python Program Banned from Apple App Store Due to a Single String"
 link: "https://medium.com/top-python-libraries/python-program-banned-from-apple-app-store-due-to-a-single-string-a67df6d8fa66"
+isUpdated: true
 ---
+
+
 
 ## APPLE APP STORE 리뷰의 투명성 부족
 

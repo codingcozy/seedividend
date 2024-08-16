@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to send mail to users directly from Next.js using Resend?"
 link: "https://medium.com/coffeed/how-to-send-mail-to-users-directly-from-next-js-using-resend-9c558fc767e6"
+isUpdated: true
 ---
+
+
 
 
 Next.js는 매우 다재다능한 프론트엔드를 제공해줘요. 이를 단독으로 사용하여 웹 사이트의 대부분 요구 사항을 해결할 수 있어요. 프로젝트 구조 자체에 서버 측 렌더링을 활용하고 API를 생성할 수 있는 기능이 내장되어 있어 Next.js 앱의 기능을 확장할 수 있어요.

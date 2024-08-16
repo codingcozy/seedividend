@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Next.js Implementing Server-Side Sessions"
 link: "https://medium.com/@tareqaziz0065/next-js-implementing-server-side-sessions-b15333d9ef8d"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-NextjsImplementingServer-SideSessions_0.png" />

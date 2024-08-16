@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Server-side Pagination and Sorting with TanStack Table and React"
 link: "https://medium.com/@aylo.srd/server-side-pagination-and-sorting-with-tanstack-table-and-react-bd493170125e"
+isUpdated: true
 ---
+
+
 
 
 

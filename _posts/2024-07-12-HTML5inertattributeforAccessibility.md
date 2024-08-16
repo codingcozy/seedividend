@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTML5 inert attribute for Accessibility"
 link: "https://medium.com/javascript-in-plain-english/html5-inert-attribute-for-accessibility-992b592b7480"
+isUpdated: true
 ---
+
+
 
 
 아래는 Markdown 형식으로 변경된 내용입니다.

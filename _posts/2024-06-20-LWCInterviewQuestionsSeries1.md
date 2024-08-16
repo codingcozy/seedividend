@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "LWC Interview Questions: Series 1"
 link: "https://medium.com/@saurabh.samirs/top-lwc-interview-questions-and-answers-2024-dec2ca786453"
+isUpdated: true
 ---
+
+
 
 
 ## (2024)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "15+ Shopping Cart Template HTML and CSS(Free Demo+Code)"
 link: "https://medium.com/@codewithrandomartical/15-shopping-cart-template-html-and-css-free-demo-code-2e5c04a70f91"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-15ShoppingCartTemplateHTMLandCSSFreeDemoCode_0.png" />

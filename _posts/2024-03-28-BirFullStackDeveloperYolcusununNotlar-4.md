@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bir Full Stack Developer Yolcusunun Notlar-4"
 link: "https://medium.com/@yasin-aydin/bir-full-stack-developer-yolcusunun-notlar%C4%B1-4-cbbee301664f"
+isUpdated: true
 ---
+
+
 
 
 

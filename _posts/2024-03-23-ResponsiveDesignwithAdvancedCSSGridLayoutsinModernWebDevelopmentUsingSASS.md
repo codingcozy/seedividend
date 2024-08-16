@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Responsive Design with Advanced CSS Grid Layouts in Modern Web Development Using SASS"
 link: "https://medium.com/@ironhack/responsive-design-with-advanced-css-grid-layouts-in-modern-web-development-using-sass-c4ca3dfc10a6"
+isUpdated: true
 ---
+
+
 
 
 

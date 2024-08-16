@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a ReactJS App with GraphQL Middleware and NodeJS-MongoDB Backend"
 link: "https://medium.com/@carloscuba014/building-a-reactjs-app-with-graphql-middleware-and-nodejs-mongodb-backend-b19dbce9ddcb"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-BuildingaReactJSAppwithGraphQLMiddlewareandNodeJS-MongoDBBackend_0.png" />

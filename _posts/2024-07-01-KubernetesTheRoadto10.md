@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kubernetes: The Road to 1.0"
 link: "https://medium.com/itnext/kubernetes-the-road-to-1-0-525a9420fdf0"
+isUpdated: true
 ---
+
+
 
 
 Kubernetes 1.0 출시 기념 행사에서 어제 이 강을 건너 앉던 곳에서 Kubernetes 프로젝트가 시작된 곳에 대해 이야기했어요. 다만 10분은 너무 짧아서 깊게 다루진 못했어요. 그래도 Kelsey가 제게 30장의 슬라이드를 꼭 준다고 했던 건 사실이에요. 그 이유는 청중들이 무엇을 알고 싶어할지 확신하지 못해서 그랬고, 또 제 자신을 위한 메모도 필요했거든요.

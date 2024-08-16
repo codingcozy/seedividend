@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fewer Taps, Faster Rides: A Journey Creating the Lock Screen Widget"
 link: "https://medium.com/ridedott/fewer-taps-faster-rides-a-journey-creating-the-lock-screen-widget-00dc943c9592"
+isUpdated: true
 ---
+
+
 
 
 

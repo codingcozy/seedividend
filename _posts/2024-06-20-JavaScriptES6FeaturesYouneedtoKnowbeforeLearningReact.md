@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript ES6 Features You need to Know before Learning React"
 link: "https://medium.com/javascript-in-plain-english/javascript-es6-features-you-need-to-know-before-learning-react-2327501d0972"
+isUpdated: true
 ---
+
+
 
 
 ## React를 배우기 전에 이 개념들을 꼭 익히세요

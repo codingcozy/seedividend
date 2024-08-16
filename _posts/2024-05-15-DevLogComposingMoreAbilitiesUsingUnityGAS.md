@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dev Log : Composing More Abilities Using Unity GAS"
 link: "https://medium.com/@megastructurestudios/dev-log-composing-more-abilities-using-unity-gas-a8c680211194"
+isUpdated: true
 ---
+
+
 
 
 # 개요

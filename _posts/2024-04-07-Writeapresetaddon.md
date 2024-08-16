@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Write a preset addon"
 link: "https://storybook.js.org/docs/addons/writing-presets"
+isUpdated: true
 ---
+
+
 
 
 

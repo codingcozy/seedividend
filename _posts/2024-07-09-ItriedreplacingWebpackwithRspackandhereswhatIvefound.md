@@ -3,12 +3,15 @@ title: "Webpack 대신 Rspack을 써봤더니 이런 차이가 있더라"
 description: ""
 coverImage: "/assets/img/2024-07-09-ItriedreplacingWebpackwithRspackandhereswhatIvefound_0.png"
 date: 2024-07-09 18:06
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ItriedreplacingWebpackwithRspackandhereswhatIvefound_0.png
 tag: Tech
 originalTitle: "I tried replacing Webpack with Rspack and here’s what I’ve found"
 link: "https://medium.com/@uu9924079/i-tried-replacing-webpack-with-rspack-and-heres-what-i-ve-found-c15579c6e823"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-ItriedreplacingWebpackwithRspackandhereswhatIvefound_0.png" />
 

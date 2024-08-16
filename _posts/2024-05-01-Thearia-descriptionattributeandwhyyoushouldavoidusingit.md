@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The aria-description attribute and why you should avoid using it"
 link: "https://medium.com/user-experience-design-1/the-aria-description-attribute-and-why-you-should-avoid-using-it-2ac15e7e24ae"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-Thearia-descriptionattributeandwhyyoushouldavoidusingit_0.png)

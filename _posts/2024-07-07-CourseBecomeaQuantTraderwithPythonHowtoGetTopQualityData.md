@@ -3,12 +3,15 @@ title: "코스 파이썬으로 퀀트 트레이더 되기 - 최고 품질 데이
 description: ""
 coverImage: "/assets/img/2024-07-07-CourseBecomeaQuantTraderwithPythonHowtoGetTopQualityData_0.png"
 date: 2024-07-07 12:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-CourseBecomeaQuantTraderwithPythonHowtoGetTopQualityData_0.png
 tag: Tech
 originalTitle: "Course: Become a Quant Trader with Python — How to Get Top Quality Data"
 link: "https://medium.com/modern-ai/course-become-a-quant-trader-with-python-chapter-1-how-to-get-top-quality-data-bbbd5798f86a"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-CourseBecomeaQuantTraderwithPythonHowtoGetTopQualityData_0.png)
 

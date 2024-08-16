@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to get ready for zoneless future in Angular"
 link: "https://medium.com/javascript-everyday/how-to-get-ready-for-zoneless-future-in-angular-3fd495ed572b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-HowtogetreadyforzonelessfutureinAngular_0.png" />

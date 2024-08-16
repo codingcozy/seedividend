@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering CSS Pseudo-classes A Comprehensive Guide  Part 2"
 link: "https://medium.com/@paddyuiux/mastering-css-pseudo-classes-a-comprehensive-guide-part-2-87af1e8bc0a4"
+isUpdated: true
 ---
+
+
 
 
 

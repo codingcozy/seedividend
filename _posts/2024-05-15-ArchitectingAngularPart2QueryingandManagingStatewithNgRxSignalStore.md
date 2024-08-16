@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Architecting Angular: Part 2 — Querying and Managing State with NgRx SignalStore"
 link: "https://medium.com/itnext/architecting-angular-part-2-querying-and-managing-state-with-ngrx-signalstore-1c931ad309c4"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-ArchitectingAngularPart2QueryingandManagingStatewithNgRxSignalStore_0.png" />

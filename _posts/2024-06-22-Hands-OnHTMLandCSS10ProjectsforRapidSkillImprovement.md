@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hands-On HTML and CSS: 10 Projects for Rapid Skill Improvement"
 link: "https://medium.com/@gitbitpy/hands-on-html-and-css-10-projects-for-rapid-skill-improvement-27465bedbe0c"
+isUpdated: true
 ---
+
+
 
 
 HTML과 CSS를 숙달하는 것은 시각적으로 매력적인 웹사이트를 만드는 데 그치지 않습니다 — 사용자 경험을 공감시키는 것입니다. 처음부터 시작하든지 기술을 더욱 향상시키는 중이든, 저희가 선별한 10일 가이드는 실전 프로젝트로 학습을 가속화하는 데 도움이 될 것입니다.

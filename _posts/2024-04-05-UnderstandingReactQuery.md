@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding React Query"
 link: "https://medium.com/bina-nusantara-it-division/understanding-react-query-11e56960e90c"
+isUpdated: true
 ---
+
+
 
 
 

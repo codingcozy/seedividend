@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Your Personal Copy Editor: Build a LLM-backed App Using LangChain.js and Electron"
 link: "https://medium.com/better-programming/llm-backed-desktop-app-from-poc-to-mvp-843d71061e45"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-YourPersonalCopyEditorBuildaLLM-backedAppUsingLangChainjsandElectron_0.png)

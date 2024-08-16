@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pagination in React Native with Page"
 link: "https://medium.com/@okerioh/pagination-in-react-native-with-page-ebfca1874f17"
+isUpdated: true
 ---
+
+
 
 
 소개:

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the New langchain_huggingface library: A Hands-On Experiment"
 link: "https://medium.com/@shreyasshinde/exploring-the-new-langchain-huggingface-library-a-hands-on-experiment-45e5163cb8f8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-ExploringtheNewlangchain_huggingfacelibraryAHands-OnExperiment_0.png" />

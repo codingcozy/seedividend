@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "𝗖𝗹𝗮𝘂𝗱𝗲 𝟯.𝟱 𝗦𝗼𝗻𝗻𝗲𝘁 𝗯𝘆 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 for the Data Scientist"
 link: "https://medium.com/@vinay1996/for-data-scientist-1dfe535f75d6"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-22-fortheDataScientist_0.png)

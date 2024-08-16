@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Streamline Your Templates: Control Flow in Angular 17"
 link: "https://medium.com/@mayankjain1394/streamline-your-templates-control-flow-in-angular-17-6045eca1a6c0"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-18-StreamlineYourTemplatesControlFlowinAngular17_0.png" />

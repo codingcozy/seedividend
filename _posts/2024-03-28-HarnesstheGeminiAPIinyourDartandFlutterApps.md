@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Harness the Gemini API in your Dart and Flutter Apps"
 link: "https://medium.com/flutter/harness-the-gemini-api-in-your-dart-and-flutter-apps-00573e560381"
+isUpdated: true
 ---
+
+
 
 
 

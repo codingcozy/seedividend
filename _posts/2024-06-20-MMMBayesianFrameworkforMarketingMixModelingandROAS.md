@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "MMM: Bayesian Framework for Marketing Mix Modeling and ROAS"
 link: "https://medium.com/towards-data-science/mmm-bayesian-framework-for-marketing-mix-modeling-and-roas-ccade4005bd5"
+isUpdated: true
 ---
+
+
 
 
 이 게시물은 Rafael Guedes와 함께 공동 저술되었습니다.

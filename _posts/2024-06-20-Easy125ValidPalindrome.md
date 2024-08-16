@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Easy 125 Valid Palindrome"
 link: "https://medium.com/@jacktsai045/easy-125-valid-palindrome-ec4f5da21e9c"
+isUpdated: true
 ---
+
+
 
 
 LeetCode 50 두 포인터

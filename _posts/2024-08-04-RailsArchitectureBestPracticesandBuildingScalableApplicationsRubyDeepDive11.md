@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rails Architecture Best Practices and Building Scalable Applications  Ruby Deep Dive11"
 link: "https://medium.com/@diversepixel/rails-architecture-best-practices-and-building-scalable-applications-ruby-deep-dive-11-7cc514766728"
+isUpdated: true
 ---
+
+
 
 
 아키텍처의 최선의 실천 방법 및 Rails에서 확장 가능한 애플리케이션을 구축하는 방법을 자세히 살펴봅시다.

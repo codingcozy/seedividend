@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why ['1', '5', '11'].map(parseInt) returns [1, NaN, 3] in Javascript"
 link: "https://medium.com/coding-beauty/parseint-strange-behavior-cdff5e1f9ff7"
+isUpdated: true
 ---
+
+
 
 
 

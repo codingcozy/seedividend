@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Express gateway : Your next API Gateway Solution."
 link: "https://medium.com/@tushar_chavan/express-gateway-your-next-api-gateway-solution-658587e37e11"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-ExpressgatewayYournextAPIGatewaySolution_0.png" />

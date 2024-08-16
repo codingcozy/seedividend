@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Step-by-Step Guide for Deploying a React Application on Azure App Service, Docker, Azure Container Registry , Azure DevOps Pipeline  Part 1"
 link: "https://medium.com/@yogender.singh.wd/step-by-step-guide-for-deploying-a-react-application-on-azure-app-service-docker-azure-container-a3ad2f79bdb1"
+isUpdated: true
 ---
+
+
 
 
 

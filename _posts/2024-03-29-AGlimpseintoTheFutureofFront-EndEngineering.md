@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Glimpse into The Future of Front-End Engineering"
 link: "https://medium.com/hackernoon/a-glimpse-into-the-future-of-front-end-engineering-21bbebfc7008"
+isUpdated: true
 ---
+
+
 
 
 

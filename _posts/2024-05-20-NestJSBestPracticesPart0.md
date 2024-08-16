@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NestJS Best Practices Part #0"
 link: "https://medium.com/javascript-in-plain-english/nestjs-best-practices-0-9d4b0cd00631"
+isUpdated: true
 ---
+
+
 
 
 # 용어

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Compare React vs Vuejs  Determining The Best by Frontend Developer"
 link: "https://medium.com/@ori.holis/compare-react-vs-vuejs-determining-the-best-by-frontend-developer-b3e208d703a2"
+isUpdated: true
 ---
+
+
 
 
 

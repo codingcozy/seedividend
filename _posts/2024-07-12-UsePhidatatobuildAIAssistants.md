@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use Phidata to build AI Assistants"
 link: "https://medium.com/ai-advances/use-phidata-to-build-ai-assistants-5e0a07074b64"
+isUpdated: true
 ---
+
+
 
 
 지금까지 기능 호출을 사용하는 심플한 AI 시스템을 만드는 것은 다소 까다로웠습니다. 일반적으로 사용되는 대형 언어 모델 (LLM)의 특정 API 명세에 대한 심층적인 지식이 필요했으며 코딩 기술 수준도 일정 수준 이상이어야 했습니다.

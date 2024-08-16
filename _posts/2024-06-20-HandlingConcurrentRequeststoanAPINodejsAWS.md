@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Handling Concurrent Requests to an API: Node.js , AWS."
 link: "https://medium.com/@myjob.rajesh/handling-concurrent-requests-node-js-aws-815e489127cd"
+isUpdated: true
 ---
+
+
 
 
 동시에 여러 입찰을 처리하고 실시간 입찰 시스템에서 우승자를 결정하는 것은 데이터 일관성과 공정성을 보장할 때 특히 어려울 수 있습니다. diff database를 사용할 수도 있어요.

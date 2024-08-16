@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Animated Rocket Loader Using HTML and CSS"
 link: "https://medium.com/@withaarzoo/building-an-animated-rocket-loader-using-html-and-css-b72a38e366e5"
+isUpdated: true
 ---
+
+
 
 
 ![로켓 로더](https://miro.medium.com/v2/resize:fit:1200/1*fE47ZekcAWWg54RB5WWodg.gif)

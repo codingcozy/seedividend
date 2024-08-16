@@ -3,12 +3,15 @@ title: "Tailwind CSS에 대해 다시 생각해야 할 것들  2부 색상"
 description: ""
 coverImage: "/assets/img/2024-07-09-ThingstorethinkwithTailwindCSSPart2Colors_0.png"
 date: 2024-07-09 18:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ThingstorethinkwithTailwindCSSPart2Colors_0.png
 tag: Tech
 originalTitle: "Things to rethink with Tailwind CSS — Part 2: Colors"
 link: "https://medium.com/@mrtnschndlr/things-to-rethink-with-tailwind-css-part-2-colors-6664c8079cfc"
+isUpdated: true
 ---
+
+
 
 이미 제 공개한 시리즈 "Tailwind CSS로 다시 생각해야 할 것들"의 첫 번째 부분에서 알 수 있듯이, 저는 10년 이상 웹 개발에 종사해왔으며 많은 트렌드, 기술 및 접근 방식이 오고 가는 것을 보았습니다.
 

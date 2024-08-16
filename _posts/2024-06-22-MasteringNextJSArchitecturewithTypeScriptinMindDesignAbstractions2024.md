@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering NextJS Architecture with TypeScript in Mind | Design Abstractions 2024"
 link: "https://medium.com/@sviat-kuzhelev/mastering-nextjs-architecture-with-typescript-in-mind-design-abstractions-2024-a6f9612300d1"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_0.png" />

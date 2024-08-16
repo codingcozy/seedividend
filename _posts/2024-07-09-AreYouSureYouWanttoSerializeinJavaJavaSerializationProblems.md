@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Are You Sure You Want to Serialize in Java? Java Serialization Problems"
 link: "https://medium.com/techkoala-insights/are-you-sure-you-want-to-serialize-in-java-java-serialization-problems-1b5db3302a03"
+isUpdated: true
 ---
+
+
 
 
 

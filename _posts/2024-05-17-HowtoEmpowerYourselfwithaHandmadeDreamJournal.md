@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Empower Yourself with a Handmade Dream Journal"
 link: "https://medium.com/the-diy-diaries/how-to-empower-yourself-with-a-handmade-dream-journal-f39d0783648f"
+isUpdated: true
 ---
+
+
 
 
 ## DIY

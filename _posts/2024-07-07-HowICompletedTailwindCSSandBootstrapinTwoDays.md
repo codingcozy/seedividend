@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Completed Tailwind CSS and Bootstrap in Two Days"
 link: "https://medium.com/@daydreamer_anwe/how-i-completed-tailwind-css-and-bootstrap-in-two-days-328ec160a49b"
+isUpdated: true
 ---
+
+
 
 
 새로운 프레임워크를 빠르게 배우는 것은 도전적일 수 있지만, CSS에 튼튼한 기초가 있다면 훨씬 더 관리하기 쉬워집니다. 이렇게 하여 저는 단 두 날 동안 Bootstrap과 Tailwind CSS를 습득하는 데 성공했습니다.

@@ -3,12 +3,15 @@ title: "취업 전에 반드시 알아야하는 Reactjs의 10가지 핵심 개�
 description: ""
 coverImage: "/assets/img/2024-05-12-10CoreConceptsofReactjsAFunJourneyThroughtheWorldofWebDevelopment_0.png"
 date: 2024-05-12 20:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-10CoreConceptsofReactjsAFunJourneyThroughtheWorldofWebDevelopment_0.png
 tag: Tech
 originalTitle: "10 Core Concepts of React.js: A Fun Journey Through the World of Web Development!"
 link: "https://medium.com/@sahadebabrata570/10-core-concepts-of-react-js-a-fun-journey-through-the-world-of-web-development-08e590ca014a"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-05-12-10CoreConceptsofReactjsAFunJourneyThroughtheWorldofWebDevelopment_0.png)
 

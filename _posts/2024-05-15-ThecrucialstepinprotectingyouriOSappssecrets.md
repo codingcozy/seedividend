@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The crucial step in protecting your iOS app’s secrets"
 link: "https://medium.com/@alexlotsu/the-crucial-step-in-protecting-your-ios-apps-secrets-4bb5ce151fbe"
+isUpdated: true
 ---
+
+
 
 
 암호화와 적절한 솔루션 선택

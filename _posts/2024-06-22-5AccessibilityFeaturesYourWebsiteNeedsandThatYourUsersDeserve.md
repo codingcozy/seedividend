@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Accessibility Features Your Website Needs and That Your Users Deserve"
 link: "https://medium.com/@alcaph/5-accessibility-features-your-website-needs-and-that-your-users-deserve-2282fa8385cd"
+isUpdated: true
 ---
+
+
 
 
 상위 백만 대 웹사이트 중 95% 이상*의 홈페이지가 기본 접근성 기준을 준수하지 못한다는 사실을 알고 계셨나요? 세계 인구의 16%*가 장애를 가지고 살고 있다고 하니(세계보건기구 기준), 접근성 있는 사용자 경험은 결코 간과되어서는 안 됩니다. 웹사이트의 모든 상호작용은 방문 예정인 모든 사람을 위해 작동해야 합니다.

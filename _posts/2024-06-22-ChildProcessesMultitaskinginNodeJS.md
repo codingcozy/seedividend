@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Child Processes: Multitasking in NodeJS"
 link: "https://medium.com/@manikmudholkar831995/child-processes-multitasking-in-nodejs-751f9f7a85c8"
+isUpdated: true
 ---
+
+
 
 
 ## 자식 프로세스, Spawn, Exec, ExecFile, Fork, IPC의 심층 탐험

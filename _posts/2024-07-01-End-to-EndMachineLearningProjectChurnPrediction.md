@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "End-to-End Machine Learning Project: Churn Prediction"
 link: "https://medium.com/@ramazanolmeez/end-to-end-machine-learning-project-churn-prediction-e9c4d0322ac9"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-01-End-to-EndMachineLearningProjectChurnPrediction_0.png)

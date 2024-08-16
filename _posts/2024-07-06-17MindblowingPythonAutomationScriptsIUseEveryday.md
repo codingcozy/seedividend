@@ -3,12 +3,15 @@ title: "일상에서 유용한 놀라운 17가지 Python 자동화 스크립트"
 description: ""
 coverImage: "/assets/img/2024-07-06-17MindblowingPythonAutomationScriptsIUseEveryday_0.png"
 date: 2024-07-06 10:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-17MindblowingPythonAutomationScriptsIUseEveryday_0.png
 tag: Tech
 originalTitle: "17 Mindblowing Python Automation Scripts I Use Everyday"
 link: "https://medium.com/pythoneers/17-mindblowing-python-automation-scripts-i-use-everyday-523fb1eb9284"
+isUpdated: true
 ---
+
+
 
 ## 해야 할 자동화 스크립트 (컬렉션)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Techniques for enhancing OCR accuracy by assessing image sharpness"
 link: "https://medium.com/data-science-at-microsoft/techniques-for-enhancing-ocr-accuracy-by-assessing-image-sharpness-10b6cea60e8f"
+isUpdated: true
 ---
+
+
 
 
 

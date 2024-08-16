@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Form Validation in React with Formik and Yup with TypeScript"
 link: "https://medium.com/@olaishola/mastering-form-validation-in-react-with-formik-and-yup-with-typescript-9dc4b3885538"
+isUpdated: true
 ---
+
+
 
 
 

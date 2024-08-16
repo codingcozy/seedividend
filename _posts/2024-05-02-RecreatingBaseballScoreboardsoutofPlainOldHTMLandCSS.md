@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Recreating Baseball Scoreboards out of Plain Old HTML and CSS"
 link: "https://medium.com/on-building-software/recreating-baseball-scoreboards-out-of-plain-old-html-and-css-55576f771920"
+isUpdated: true
 ---
+
+
 
 
 웹 디자인을 시작할 때는 HTML과 CSS만으로 사이트를 멋지게 꾸밀 방법이 많지 않았어요. 그래서 Photoshop 이미지를 잘라서 'table'로 페이지에 고정하는 것이 많은 사람들이 사이트를 만드는 방법이었죠.

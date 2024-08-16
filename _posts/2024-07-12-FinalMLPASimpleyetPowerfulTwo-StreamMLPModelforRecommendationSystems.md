@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "FinalMLP: A Simple yet Powerful Two-Stream MLP Model for Recommendation Systems"
 link: "https://medium.com/towards-data-science/finalmlp-a-simple-yet-powerful-two-stream-mlp-model-for-recommendation-systems-fc21f3e3fb3d"
+isUpdated: true
 ---
+
+
 
 
 이 게시물은 Rafael Guedes와 공동 저자로 작성되었습니다.

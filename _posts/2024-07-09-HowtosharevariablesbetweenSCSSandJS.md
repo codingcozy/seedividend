@@ -3,12 +3,15 @@ title: "SCSS와 JS 사이에 변수를 공유하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png"
 date: 2024-07-09 18:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png
 tag: Tech
 originalTitle: "How to share variables between SCSS and JS"
 link: "https://medium.com/@miroslav_petrov/how-to-share-variables-between-scss-and-js-7b4225830abe"
+isUpdated: true
 ---
+
+
 
 어플리케이션 스타일의 일관성을 강화하고 SCSS와 JavaScript 간 변수를 공유하여 코드를 보다 효율적으로 관리할 수 있습니다. JS 코드에서 이러한 변수에 손쉽게 접근할 수 있으면서도 수동 개입 없이 사용할 수 있게 하고 싶으신가요? 컬러 예시를 통해 단계별로 알아보겠습니다.
 

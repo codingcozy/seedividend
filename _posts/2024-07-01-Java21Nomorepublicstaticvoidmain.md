@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Java 21— No more public static void main()"
 link: "https://medium.com/@shwetha.hey/java-21-no-more-public-static-void-main-c90334d6d95e"
+isUpdated: true
 ---
+
+
 
 
 ## 새로운 main() 메서드로 길을 찾아가기

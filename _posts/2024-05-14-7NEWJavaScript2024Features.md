@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "7 NEW JavaScript 2024 Features"
 link: "https://medium.com/@Luna-Rojas/7-new-javascript-2024-features-41557b19db37"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-7NEWJavaScript2024Features_0.png" />

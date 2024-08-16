@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python’s Most Powerful Decorator"
 link: "https://medium.com/towards-data-science/pythons-most-powerful-decorator-6bc39e6a8dd8"
+isUpdated: true
 ---
+
+
 
 
 ![파이썬의 강력한 데코레이터](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Java 8–Java 21: Your Code Deserves a Makeover- Hop on to 21"
 link: "https://medium.com/@rishab178_96621/java-8-java-21-your-code-deserves-a-makeover-hop-on-to-21-271377b94322"
+isUpdated: true
 ---
+
+
 
 
 자바 8은 훌륭하지만, 후속 버전인 자바에는 멋진 새로운 기능들이 있습니다! 함께 새로운 기능들을 살펴봐요!

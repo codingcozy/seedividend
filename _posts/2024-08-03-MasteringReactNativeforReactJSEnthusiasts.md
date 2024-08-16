@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering React Native for ReactJS Enthusiasts "
 link: "https://medium.com/@sarahisdevs/mastering-react-native-for-reactjs-enthusiasts-604218765d9e"
+isUpdated: true
 ---
+
+
 
 
 

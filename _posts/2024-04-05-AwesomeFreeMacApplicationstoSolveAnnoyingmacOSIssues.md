@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Awesome Free Mac Applications to Solve Annoying macOS Issues"
 link: "https://medium.com/@pthapa1/awesome-free-mac-applications-to-solve-annoying-macos-issues-330849fcbd9f"
+isUpdated: true
 ---
+
+
 
 
 

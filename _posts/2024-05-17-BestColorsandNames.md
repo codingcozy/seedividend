@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Best Colors and Names"
 link: "https://medium.com/@hexcolors/best-colors-and-names-e257c19abe27"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-17-BestColorsandNames_0.png)

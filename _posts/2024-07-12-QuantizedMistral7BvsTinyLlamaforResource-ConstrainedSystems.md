@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Quantized Mistral 7B vs TinyLlama for Resource-Constrained Systems"
 link: "https://medium.com/towards-data-science/quantized-mistral-7b-vs-tinyllama-for-resource-constrained-systems-a6ce4ab95b03"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-QuantizedMistral7BvsTinyLlamaforResource-ConstrainedSystems_0.png" />

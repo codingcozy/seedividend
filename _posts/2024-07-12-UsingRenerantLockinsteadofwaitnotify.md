@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using RenerantLock instead of wait notify"
 link: "https://medium.com/itnext/using-renerantlock-instead-of-wait-notify-cadf4510e390"
+isUpdated: true
 ---
+
+
 
 
 지난 주에는 Java 동기화 유틸리티에 관한 기사를 작성해보았어요! 📝 그리고 Java에서 다양한 동기화 기술을 사용하여 멀티스레드 파일 다운로더를 구현해 보았어요. 

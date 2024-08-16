@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "New Features in React 19 — Document Metadata"
 link: "https://medium.com/@vageeshawihangi/new-features-in-react-19-document-metadata-176db0733766"
+isUpdated: true
 ---
+
+
 
 
 🚀 React 19에서 SEO 및 접근성 향상하기 🌟

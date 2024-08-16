@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a CRUD Create, Read, Update, Delete FORM in Angular and Bootstrap"
 link: "https://medium.com/stackademic/creating-a-crud-create-read-update-delete-form-in-angular-and-bootstrap-55bc4ee9e247"
+isUpdated: true
 ---
+
+
 
 
 

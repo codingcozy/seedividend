@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Automating Code Review Chores Using Danger.js"
 link: "https://medium.com/better-programming/code-review-chores-that-we-should-automate-using-danger-js-6cf72ff3bf98"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-23-AutomatingCodeReviewChoresUsingDangerjs_0.png)

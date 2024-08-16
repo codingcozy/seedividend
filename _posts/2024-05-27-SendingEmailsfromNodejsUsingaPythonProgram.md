@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sending Emails from Node.js Using a Python Program"
 link: "https://medium.com/@preranapupadhya/sending-emails-from-node-js-using-a-python-program-042ac5b04d80"
+isUpdated: true
 ---
+
+
 
 
 이 블로그 포스트에서는 Node.js 애플리케이션에서 Python 스크립트를 호출하여 이메일을 보내는 방법을 살펴보겠습니다. 우리는 프로젝트 구조를 설계하여 관심사를 분리하고 코드베이스를 깔끔하게 유지할 것입니다.

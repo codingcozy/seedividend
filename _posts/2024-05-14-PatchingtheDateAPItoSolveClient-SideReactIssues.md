@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Patching the Date API to Solve Client-Side React Issues"
 link: "https://medium.com/javascript-in-plain-english/patching-the-date-api-to-solve-client-side-reactjs-issues-cd320c8478af"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-PatchingtheDateAPItoSolveClient-SideReactIssues_0.png" />

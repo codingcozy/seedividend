@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker Volumes and Network"
 link: "https://medium.com/@m.qasimnauman/docker-volumes-and-network-90ba2ddc581c"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분! 데브옵스 여정을 계속해요. 오늘은 더 고급 컨테이너화 개념에 대해 이야기할게요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create an angular micro frontends using single SPA?"
 link: "https://medium.com/@ShubhamRout_00/microfrontend-application-using-angular-17-standalone-0e24f50ae062"
+isUpdated: true
 ---
+
+
 
 
 ANGULAR 17을 사용한 마이크로프론트엔드 애플리케이션 (독립형).

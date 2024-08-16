@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Utilizing URL Parameters for State Management in Nextjs"
 link: "https://medium.com/@Choco23/utilizing-url-parameters-for-state-management-in-next-js-dade0d5cde88"
+isUpdated: true
 ---
+
+
 
 
 

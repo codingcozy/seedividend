@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular vs React  Choosing the right Frontend for your next product"
 link: "https://medium.com/@alisa97/angular-vs-react-choosing-the-right-frontend-for-your-next-product-503fcb5cfeb9"
+isUpdated: true
 ---
+
+
 
 
 

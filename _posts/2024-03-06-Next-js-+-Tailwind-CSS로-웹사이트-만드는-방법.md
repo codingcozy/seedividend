@@ -1,5 +1,5 @@
 ---
-title: "Next js  Tailwind CSS로 웹사이트 만드는 방법"
+title: "Next js Tailwind CSS로 웹사이트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

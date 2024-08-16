@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Node js and Express js"
 link: "https://medium.com/@cyrilondanje/node-js-and-express-js-327a6898e20c"
+isUpdated: true
 ---
+
+
 
 
 지금 이 시점에서 자바스크립트 노드 프레임워크에 대해 초보자인 경우, 이 글은 당신이 노드와 익스프레스가 어떻게 관련되는지 쉽게 이해하는 데 도움이 될 것입니다.

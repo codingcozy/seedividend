@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Best Tables in React Pros and Cons"
 link: "https://medium.com/@debpanda17/5-best-tables-in-react-pros-and-cons-5c5d08cfe69a"
+isUpdated: true
 ---
+
+
 
 
 

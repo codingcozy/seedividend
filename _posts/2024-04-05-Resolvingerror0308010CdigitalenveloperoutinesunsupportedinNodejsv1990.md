@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Resolving error0308010Cdigital envelope routinesunsupported in Nodejs v1990"
 link: "https://medium.com/@sahilali/resolving-error-0308010c-digital-envelope-routines-unsupported-in-node-js-v19-9-0-2114021209cb"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Data Fetching in React: Introducing useFetchCache"
 link: "https://medium.com/@tonimaxx/mastering-data-fetching-in-react-introducing-usefetchcache-12954d09e8fb"
+isUpdated: true
 ---
+
+
 
 
 # TL;DR

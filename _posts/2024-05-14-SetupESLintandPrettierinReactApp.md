@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setup ESLint and Prettier in React App"
 link: "https://medium.com/@grantsky0503/setup-eslint-and-prettier-in-react-app-7c46b37697f6"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-SetupESLintandPrettierinReactApp_0.png" />

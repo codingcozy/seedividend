@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying Docker for Spring Boot: Automation with GitHub Actions"
 link: "https://medium.com/@dharshib.8/demystifying-docker-for-spring-boot-automation-with-github-actions-716652668d7e"
+isUpdated: true
 ---
+
+
 
 
 이 블로그에서는 Docker의 기본 개념, 구성 아키텍처, Spring Boot 애플리케이션의 Docker화, 그리고 GitHub Actions를 이용한 Docker 프로세스 자동화에 대해 살펴보겠습니다.

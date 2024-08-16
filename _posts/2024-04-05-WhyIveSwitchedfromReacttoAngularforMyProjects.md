@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Ive Switched from React to Angular for My Projects"
 link: "https://medium.com/@alexseifert/why-ive-switched-from-react-to-angular-for-my-projects-9838144f3732"
+isUpdated: true
 ---
+
+
 
 
 

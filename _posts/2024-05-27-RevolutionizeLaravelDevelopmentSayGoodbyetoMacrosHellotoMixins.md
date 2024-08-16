@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Revolutionize Laravel Development: Say Goodbye to Macros, Hello to Mixins!"
 link: "https://medium.com/@ismayil-dev/revolutionize-laravel-development-say-goodbye-to-macros-hello-to-mixins-82019211bfbb"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-RevolutionizeLaravelDevelopmentSayGoodbyetoMacrosHellotoMixins_0.png" />

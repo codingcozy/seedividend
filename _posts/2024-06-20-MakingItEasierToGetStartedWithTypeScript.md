@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Making It Easier To Get Started With TypeScript"
 link: "https://medium.com/gitconnected/making-it-easier-to-get-started-with-typescript-a39dc2abffd9"
+isUpdated: true
 ---
+
+
 
 
 

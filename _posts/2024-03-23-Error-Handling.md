@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "에러 처리"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

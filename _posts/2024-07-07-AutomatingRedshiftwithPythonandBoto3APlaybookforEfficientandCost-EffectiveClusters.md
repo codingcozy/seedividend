@@ -3,12 +3,15 @@ title: "Python과 Boto3로 Redshift 자동화 효율적이고 비용 효과적�
 description: ""
 coverImage: "/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png"
 date: 2024-07-07 21:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png
 tag: Tech
 originalTitle: "Automating Redshift with Python and Boto3: A Playbook for Efficient and Cost-Effective Clusters"
 link: "https://medium.com/@thedataengineeringblogpost/automating-redshift-with-python-and-boto3-a-playbook-for-efficient-and-cost-effective-clusters-1fc10e1130fb"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png" />
 

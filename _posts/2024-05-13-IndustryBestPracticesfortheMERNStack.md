@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Industry Best Practices for the MERN Stack"
 link: "https://medium.com/nerd-for-tech/industry-best-practices-for-the-mern-stack-9fc1d49683be"
+isUpdated: true
 ---
+
+
 
 
 ## MERN 스택(MongoDB, Express.js, React, 그리고 Node.js)은 강력한 웹 앱을 구축하는 데 인기 있는 도구입니다! 웹 개발 세계는 계속 변화하지만, 이 스택은 여전히 많은 사람들에게 사랑받고 있어요.

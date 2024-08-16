@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build a Shopping Cart with Nextjs 14 Server Actions"
 link: "https://medium.com/javascript-in-plain-english/build-a-shopping-cart-with-next-js-14-and-server-actions-a9368e023b96"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Basic of Web Development"
 link: "https://medium.com/@aarishbangash/basic-of-web-development-da5d925a6650"
+isUpdated: true
 ---
+
+
 
 
 

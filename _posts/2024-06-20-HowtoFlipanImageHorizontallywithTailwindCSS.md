@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Flip an Image Horizontally with Tailwind CSS"
 link: "https://medium.com/@awaitdeveloper/how-to-flip-an-image-horizontally-with-tailwind-css-7144e55c464b"
+isUpdated: true
 ---
+
+
 
 
 만약 웹 사이트에서 이미지가 다른 방향을 향하도록 만드는 방법이 궁금했던 적이 있나요? 왼쪽을 보고 있는 사람의 사진이 있고, 그 사람이 오른쪽을 응시하고 있는 것처럼 보이도록 하고 싶은 경우가 있을 수 있습니다. 그런데, 좋은 소식이 있어요! Tailwind CSS를 사용하면 쉽게 할 수 있어요!

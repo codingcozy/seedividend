@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Mapped Types in TypeScript: 8 Examples from Basic to Advanced"
 link: "https://medium.com/@awwwesssooooome/exploring-mapped-types-in-typescript-8-examples-from-basic-to-advanced-b3b409172c35"
+isUpdated: true
 ---
+
+
 
 
 **Mapped types**는 TypeScript에서 한 타입의 속성을 다른 타입으로 변환하는 강력한 도구입니다. 이것들은 `map` 및 `filter`와 같은 배열 메서드와 유사하지만, 이러한 작업은 타입에 대해 수행됩니다. 실용적인 예제를 통해 그 사용법을 이해할 것이고, 이어서 기초부터 고급까지 점진적으로 8가지 Mapped type 예제를 보여드릴 것입니다. 이를 통해 이 강력한 타입 변환 도구를 손쉽게 마스터할 수 있을 거예요.

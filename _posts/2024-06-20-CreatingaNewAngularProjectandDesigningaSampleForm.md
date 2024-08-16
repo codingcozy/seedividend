@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a New Angular Project and Designing a Sample Form"
 link: "https://medium.com/@minduladilthushan/creating-a-new-angular-project-and-designing-a-sample-form-729e7dcccc42"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-20-CreatingaNewAngularProjectandDesigningaSampleForm_0.png)

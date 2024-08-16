@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter Display Data from API with Skelton Loading , Custom Error Message"
 link: "https://theflutterway.medium.com/flutter-display-data-from-api-with-skelton-loading-custom-error-message-4f557a05abdf"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Reconciliation , React Fiber  Babel"
 link: "https://medium.com/gitconnected/react-reconciliation-react-fiber-babel-85a2219bd88e"
+isUpdated: true
 ---
+
+
 
 
 

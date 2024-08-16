@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Power and Simplicity of Nextjs A Modern Approach to Web Development"
 link: "https://medium.com/@rajeshraman/exploring-the-power-and-simplicity-of-next-js-a-modern-approach-to-web-development-27a6ad559553"
+isUpdated: true
 ---
+
+
 
 
 

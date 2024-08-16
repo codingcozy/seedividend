@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Home Acceptance Test for Small Language Models"
 link: "https://medium.com/stackademic/home-acceptance-test-for-small-language-models-57d098c8e094"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-HomeAcceptanceTestforSmallLanguageModels_0.png" />

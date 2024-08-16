@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Handling Form Validations in React with React Hook Form and Zod"
 link: "https://medium.com/@olaishola/handling-form-validations-in-react-with-react-hook-form-and-zod-18e070bbdda6"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-HandlingFormValidationsinReactwithReactHookFormandZod_0.png" />

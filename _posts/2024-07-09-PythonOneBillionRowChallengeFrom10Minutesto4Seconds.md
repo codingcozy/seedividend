@@ -3,12 +3,15 @@ title: "1억 행 파이썬 처리 도전  10분에서 4초로 줄이는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-PythonOneBillionRowChallengeFrom10Minutesto4Seconds_0.png"
 date: 2024-07-09 09:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PythonOneBillionRowChallengeFrom10Minutesto4Seconds_0.png
 tag: Tech
 originalTitle: "Python One Billion Row Challenge — From 10 Minutes to 4 Seconds"
 link: "https://medium.com/towards-data-science/python-one-billion-row-challenge-from-10-minutes-to-4-seconds-0718662b303e"
+isUpdated: true
 ---
+
+
 
 ![Python One Billion Row Challenge](/assets/img/2024-07-09-PythonOneBillionRowChallengeFrom10Minutesto4Seconds_0.png)
 

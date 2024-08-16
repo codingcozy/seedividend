@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Solve the CORS Issue in a Create React App Project with a Proxy"
 link: "https://medium.com/@jafreitas90/how-to-solve-the-cors-issue-in-a-create-react-app-project-with-a-proxy-5403141d7f32"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-HowtoSolvetheCORSIssueinaCreateReactAppProjectwithaProxy_0.png" />

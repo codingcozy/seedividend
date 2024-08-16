@@ -3,12 +3,15 @@ title: "기본기를 넘어 WebSockets로 고성능 실시간 채팅 애플리�
 description: ""
 coverImage: "/assets/img/2024-07-09-BeyondtheBasicsCreateaHigh-PerformanceReal-TimeChatApplicationwithWebSockets_0.png"
 date: 2024-07-09 09:00
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-BeyondtheBasicsCreateaHigh-PerformanceReal-TimeChatApplicationwithWebSockets_0.png
 tag: Tech
 originalTitle: "Beyond the Basics: Create a High-Performance Real-Time Chat Application with WebSockets!"
 link: "https://medium.com/@learntocodetoday/beyond-the-basics-create-a-high-performance-real-time-chat-application-with-websockets-8c0cc49036c5"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-09-BeyondtheBasicsCreateaHigh-PerformanceReal-TimeChatApplicationwithWebSockets_0.png)
 

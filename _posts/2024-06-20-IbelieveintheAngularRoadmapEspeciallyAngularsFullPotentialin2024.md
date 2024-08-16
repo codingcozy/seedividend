@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I believe in the Angular Roadmap: Especially Angular’s Full Potential in 2024"
 link: "https://medium.com/@fhrvri.mmxiv/i-believe-in-the-angular-roadmap-especially-angulars-full-potential-in-2024-50e7171e5408"
+isUpdated: true
 ---
+
+
 
 
 Angular은 개발 커뮤니티에서 필수적인 프레임워크로 자리매김했습니다. GitHub에서 26만 개의 스타를 획득한 Angular은 개발자들에게 중요한 도구로 자리를 굳혀가고 있습니다. Angular은 범용 해법, 최적의 방법, 그리고 포괄적인 안내를 제공하여, 프론트엔드 개발자들에게 필수적인 도구로 자리매김하고 있습니다.

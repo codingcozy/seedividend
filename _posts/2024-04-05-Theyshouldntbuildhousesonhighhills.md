@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "They shouldnt build houses on high hills"
 link: "https://medium.com/@joya00228/they-shouldnt-build-houses-on-high-hills-98ba005ce372"
+isUpdated: true
 ---
+
+
 
 
 

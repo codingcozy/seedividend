@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Authentication in a Next.js 14 App Using NextAuth and Prisma."
 link: "https://medium.com/@pawanrijal/building-authentication-in-a-next-js-14-app-using-nextauth-and-prisma-59c9d67a0eca"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-BuildingAuthenticationinaNextjs14AppUsingNextAuthandPrisma_0.png" />

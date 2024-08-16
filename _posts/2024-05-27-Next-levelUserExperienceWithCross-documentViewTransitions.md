@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Next-level User Experience With Cross-document View Transitions"
 link: "https://medium.com/gitconnected/next-level-user-experience-with-cross-document-view-transitions-74ee0ab8b6a1"
+isUpdated: true
 ---
+
+
 
 
 ## 파워포인트 슬라이드쇼처럼 웹사이트를 만드는 방법

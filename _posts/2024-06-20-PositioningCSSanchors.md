@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Positioning CSS anchors"
 link: "https://medium.com/@evayde/positioning-css-anchors-f847c03b4f78"
+isUpdated: true
 ---
+
+
 
 
 ![](/assets/img/2024-06-20-PositioningCSSanchors_0.png)

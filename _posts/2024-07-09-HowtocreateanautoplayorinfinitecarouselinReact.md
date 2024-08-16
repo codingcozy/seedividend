@@ -3,12 +3,15 @@ title: "React에서 자동 재생 또는 무한 캐러셀 만드는 방법 "
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_0.png"
 date: 2024-07-09 14:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtocreateanautoplayorinfinitecarouselinReact_0.png
 tag: Tech
 originalTitle: "How to create an autoplay or infinite carousel in React 👀"
 link: "https://medium.com/@divyakoneti0001/how-to-create-an-autoplay-or-infinite-carousel-in-react-d9f9bff11048"
+isUpdated: true
 ---
+
+
 
 프로젝트를 진행하며 React에서 자동 재생되는 캐러셀을 구현해야 했어요. 프로젝트에서 작은 기능을 위해 사전 제작된 라이브러리를 사용하고 싶지 않았기 때문에, 몇 가지 아이디어를 고안하고 기능을 이해하기 위해 몇 가지 기사를 읽었어요.
 

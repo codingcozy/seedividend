@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " Exploring the Future with Reacts useOptimistic Hook "
 link: "https://medium.com/gitconnected/exploring-the-future-with-reacts-useoptimistic-hook-%EF%B8%8F-1615c4f68a02"
+isUpdated: true
 ---
+
+
 
 
 

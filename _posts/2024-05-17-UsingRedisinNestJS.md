@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Redis in NestJS"
 link: "https://medium.com/@mut1aq/using-redis-in-nestjs-8ca1a009670f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-UsingRedisinNestJS_0.png" />

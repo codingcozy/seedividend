@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Beginners Guide to Programming Top 5 Questions Answered"
 link: "https://medium.com/@jk-educate/the-beginners-guide-to-programming-top-5-questions-answered-b020b828d476"
+isUpdated: true
 ---
+
+
 
 
 

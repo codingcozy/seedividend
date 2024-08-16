@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript’s Hidden Gem: Exploring the Power of Mutation Observer"
 link: "https://medium.com/javascript-in-plain-english/javascripts-hidden-gem-exploring-the-power-of-mutation-observer-f8a92c01a374"
+isUpdated: true
 ---
+
+
 
 
 ![Javascript Hidden Gem](/assets/img/2024-05-13-JavaScriptsHiddenGemExploringthePowerofMutationObserver_0.png)

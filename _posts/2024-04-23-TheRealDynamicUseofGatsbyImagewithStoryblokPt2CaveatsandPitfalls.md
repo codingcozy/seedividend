@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Real Dynamic Use of GatsbyImage with Storyblok Pt 2 Caveats and Pitfalls"
 link: "https://medium.com/@bseleng/the-real-dynamic-use-of-gatsbyimage-with-storyblok-pt-2-caveats-and-pitfalls-fd7904b5ef07"
+isUpdated: true
 ---
+
+
 
 
 

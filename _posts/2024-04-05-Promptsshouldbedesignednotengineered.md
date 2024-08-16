@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Prompts should be designed  not engineered"
 link: "https://medium.com/user-experience-design-1/prompts-should-be-designed-not-engineered-45838a9c3564"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Its time for the NATIVE mobile development to end"
 link: "https://medium.com/mobilepeople/its-time-for-the-native-mobile-development-to-end-f677e37be5a8"
+isUpdated: true
 ---
+
+
 
 
 

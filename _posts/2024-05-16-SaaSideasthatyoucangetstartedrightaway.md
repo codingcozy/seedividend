@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SaaS ideas that you can get started right away!"
 link: "https://medium.com/long-sweet-valuable/saas-ideas-that-you-can-get-started-right-away-d3fe81d82280"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-16-SaaSideasthatyoucangetstartedrightaway_0.png" />

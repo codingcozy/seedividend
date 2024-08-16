@@ -3,12 +3,15 @@ title: "반응형 이미지를 미리 로드하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Preloadingresponsiveimages_0.png"
 date: 2024-07-09 18:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Preloadingresponsiveimages_0.png
 tag: Tech
 originalTitle: "Preloading responsive images"
 link: "https://medium.com/@akashjha9041/preloading-responsive-images-3aecf114968e"
+isUpdated: true
 ---
+
+
 
 브라우저는 태그를 발견하기 전에 지정된 반응형 이미지의 적절한 변형을 미리로드할 수 있습니다. 이미지 CDN을 사용하지 않는 경우 각 이미지에 대해 여러 차원을 저장하고 해당 속성에 지정해야 합니다. 미리로딩으로 인해 이미지가 1.2초 더 빨리로드됩니다.
 

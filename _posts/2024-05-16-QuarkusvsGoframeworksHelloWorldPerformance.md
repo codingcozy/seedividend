@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Quarkus vs Go frameworks: Hello World Performance"
 link: "https://medium.com/deno-the-complete-reference/quarkus-vs-go-frameworks-hello-world-performance-03b8eb84dec7"
+isUpdated: true
 ---
+
+
 
 
 

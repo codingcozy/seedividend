@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Jupyter Hacks That You Never Knew Even Existed"
 link: "https://medium.com/datadriveninvestor/5-jupyter-hacks-that-you-never-knew-even-existed-b2316bcc4c0f"
+isUpdated: true
 ---
+
+
 
 
 아래는 이 기사의 코드입니다.

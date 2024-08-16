@@ -3,12 +3,15 @@ title: "멋진 데이터 시각화를 위한 최고의 10가지 Python 도구"
 description: ""
 coverImage: "/assets/img/2024-07-07-Top10PythonToolsforStunningDataVisualizations_0.png"
 date: 2024-07-07 02:27
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-Top10PythonToolsforStunningDataVisualizations_0.png
 tag: Tech
 originalTitle: "Top 10 Python Tools for Stunning Data Visualizations"
 link: "https://medium.com/top-python-libraries/top-10-python-tools-for-stunning-data-visualizations-e51a8e96c03a"
+isUpdated: true
 ---
+
+
 
 ## 파이썬 시각화
 

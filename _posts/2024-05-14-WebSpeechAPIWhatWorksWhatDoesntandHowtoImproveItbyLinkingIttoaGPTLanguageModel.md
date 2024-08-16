@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Web Speech API: What Works, What Doesn’t, and How to Improve It by Linking It to a GPT Language Model"
 link: "https://medium.com/towards-data-science/web-speech-api-what-works-what-doesnt-and-how-to-improve-it-by-linking-it-to-a-gpt-language-dc1afde54ced"
+isUpdated: true
 ---
+
+
 
 
 ![웹 스피치 API가 작동하는 방식이 무엇이고, 어떻게 개선할 수 있는지에 대한 리스트와 GPT 언어 모델과 연결하는 방법](/assets/img/2024-05-14-WebSpeechAPIWhatWorksWhatDoesntandHowtoImproveItbyLinkingIttoaGPTLanguageModel_0.png)

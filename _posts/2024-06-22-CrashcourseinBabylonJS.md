@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Crash course in BabylonJS"
 link: "https://medium.com/dev-jam/crash-course-in-babylonjs-88f9aa8bc22e"
+isUpdated: true
 ---
+
+
 
 
 이 가이드와 함께 사용할 수 있는 GitHub 저장소가 있습니다. 저장소는 여기에서 찾을 수 있습니다. GitHub 페이지에서 호스팅 된 라이브 앱은 여기에서 볼 수 있습니다.

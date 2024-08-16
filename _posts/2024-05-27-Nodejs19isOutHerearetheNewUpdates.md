@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Node.js 19 is Out! Here are the New Updates"
 link: "https://medium.com/bitsrc/node-js-19-is-out-here-are-the-new-updates-291beb89ba7f"
+isUpdated: true
 ---
+
+
 
 
 ## 노드 v19의 새로운 기능을 강조한 릴리스 노트의 친숙한 버전

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Replace the Apache Default Web Page With Sample HTML File Inside Container — Docker Assignment 5"
 link: "https://medium.com/devops-guides/replace-the-apache-default-web-page-with-sample-html-file-inside-container-docker-assignment-5-9a835b8fb20c"
+isUpdated: true
 ---
+
+
 
 
 당신은 다음을 해야 합니다:

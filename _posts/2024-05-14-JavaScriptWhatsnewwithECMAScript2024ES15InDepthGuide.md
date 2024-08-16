@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript — What’s new with ECMAScript® 2024 (ES15) — In Depth Guide"
 link: "https://medium.com/@yourfuse/javascript-whats-new-with-ecmascript-2024-es15-ef056d2f4bf1"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-14-JavaScriptWhatsnewwithECMAScript2024ES15InDepthGuide_0.png)

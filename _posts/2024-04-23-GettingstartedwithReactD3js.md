@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " Getting started with React  D3js"
 link: "https://medium.com/@kamibrumi/getting-started-with-react-d3-js-d86ccea05f08"
+isUpdated: true
 ---
+
+
 
 
 

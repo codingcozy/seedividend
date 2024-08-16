@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kolmogorov-Arnold Networks: A Comprehensive Guide to Neural Network Advancement"
 link: "https://medium.com/@saadsalmanakram/kolmogorov-arnold-networks-a-comprehensive-guide-to-neural-network-advancement-5919fc8f81b1"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-Kolmogorov-ArnoldNetworksAComprehensiveGuidetoNeuralNetworkAdvancement_0.png" />

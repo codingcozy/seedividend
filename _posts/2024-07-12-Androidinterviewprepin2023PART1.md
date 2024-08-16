@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Android interview prep in 2023 — PART 1"
 link: "https://medium.com/gitconnected/android-interview-prep-in-2023-part-1-40e38b2531b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-Androidinterviewprepin2023PART1_0.png" />

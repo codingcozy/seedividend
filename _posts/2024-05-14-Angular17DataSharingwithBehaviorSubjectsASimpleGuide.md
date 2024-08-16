@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular 17 Data Sharing with BehaviorSubjects: A Simple Guide"
 link: "https://medium.com/@mohsinogen/angular-17-data-sharing-with-behaviorsubjects-a-simple-guide-bab56530c832"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-Angular17DataSharingwithBehaviorSubjectsASimpleGuide_0.png" />

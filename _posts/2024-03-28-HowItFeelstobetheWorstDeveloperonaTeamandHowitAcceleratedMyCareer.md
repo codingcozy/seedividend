@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How It Feels to be the Worst Developer on a Team and How it Accelerated My Career"
 link: "https://medium.com/@brianjenney/how-it-feels-to-be-the-worst-developer-on-a-team-and-how-it-accelerated-my-career-85a24d54c7f9"
+isUpdated: true
 ---
+
+
 
 
 

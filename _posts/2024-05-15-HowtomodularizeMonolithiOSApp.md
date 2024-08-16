@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to modularize Monolith iOS App"
 link: "https://medium.com/@batrakov.vitaly/how-to-modularize-monolith-ios-app-e4d0a9477c9e"
+isUpdated: true
 ---
+
+
 
 
 이것은 내 블로그에서의 게시물 전문입니다. 만약 원하신다면 거기서 읽어보실 수 있습니다. 혹은 비디오를 선호하신다면 여기서 찾아볼 수도 있어요.

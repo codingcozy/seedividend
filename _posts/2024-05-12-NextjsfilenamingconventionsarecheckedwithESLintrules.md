@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Next.js file naming conventions are checked with ESLint rules"
 link: "https://medium.com/@hiro08gh/next-js-naming-conventions-are-checked-with-eslint-rules-946371d67882"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-NextjsfilenamingconventionsarecheckedwithESLintrules_0.png" />

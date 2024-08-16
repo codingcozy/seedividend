@@ -3,12 +3,15 @@ title: "외부 라이브러리 없이 Nextjs에서 테마 전환 간단하게 �
 description: ""
 coverImage: "/assets/img/2024-07-06-SimplifyingThemeSwitchinginNextjsWithoutExternalLibraries_0.png"
 date: 2024-07-06 02:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-SimplifyingThemeSwitchinginNextjsWithoutExternalLibraries_0.png
 tag: Tech
 originalTitle: "Simplifying Theme Switching in Next.js Without External Libraries"
 link: "https://medium.com/@niralspectrum/simplifying-theme-switching-in-next-js-without-external-libraries-c889c4b76573"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-SimplifyingThemeSwitchinginNextjsWithoutExternalLibraries_0.png
 

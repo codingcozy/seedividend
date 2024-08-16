@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Relearning Java What Principles Are Dynamic Proxies Based On"
 link: "https://medium.com/@cstoppgmr/relearning-java-what-principles-are-dynamic-proxies-based-on-726ea74d6f0a"
+isUpdated: true
 ---
+
+
 
 
 

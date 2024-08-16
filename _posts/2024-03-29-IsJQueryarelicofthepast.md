@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Is JQuery a relic of the past"
 link: "https://medium.com/@ori.holis/is-jquery-a-relic-of-the-past-38011986e43a"
+isUpdated: true
 ---
+
+
 
 
 

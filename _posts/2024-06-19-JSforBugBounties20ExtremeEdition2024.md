@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JS for Bug Bounties 2.0 Extreme Edition 2024"
 link: "https://medium.com/@kongsec/js-for-bug-bounties-2-0-extreme-edition-2024-f167fa48276a"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분,

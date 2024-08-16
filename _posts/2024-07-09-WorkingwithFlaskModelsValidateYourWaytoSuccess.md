@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Working with Flask Models: Validate Your Way to Success!"
 link: "https://medium.com/@turtle40965/working-with-flask-models-validate-your-way-to-success-e1fe7af96737"
+isUpdated: true
 ---
+
+
 
 
 알다시피, Flask는 간단하고 유연성이 뛰어난 Python의 인기 웹 프레임워크입니다. Flask를 사용하여 애플리케이션을 개발할 때 데이터를 나타내는 방법으로 모델을 사용해야 합니다. 이 블로그에서는 Flask에서 모델을 작성하고 데이터 유효성 검사에 @validates 데코레이터를 사용하는 방법을 탐구해보겠습니다.

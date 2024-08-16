@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Hacks To Improve Your RAG Application"
 link: "https://medium.com/@mansoorsyed05/5-hacks-to-improve-your-rag-application-7b4aa76397fb"
+isUpdated: true
 ---
+
+
 
 
 RAG는 기업 및 비즈니스에서 Gen AI 기능을 사용자 지정 데이터와 통합하는 데 중요한 도구가 되었습니다.

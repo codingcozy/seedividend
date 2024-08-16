@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Micro Frontends and Implementation with React +Vite"
 link: "https://medium.com/javascript-in-plain-english/exploring-micro-frontends-and-implementation-with-react-vite-7178aa1886d4"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-ExploringMicroFrontendsandImplementationwithReactVite_0.png)

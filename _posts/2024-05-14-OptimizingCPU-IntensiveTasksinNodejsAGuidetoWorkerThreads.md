@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing CPU-Intensive Tasks in Node.js: A Guide to Worker Threads"
 link: "https://medium.com/@danish512/optimizing-cpu-intensive-tasks-in-node-js-a-guide-to-worker-threads-8fd55374f84a"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-OptimizingCPU-IntensiveTasksinNodejsAGuidetoWorkerThreads_0.png" />

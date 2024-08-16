@@ -3,12 +3,15 @@ title: "React에서 페이지 이동, 새로고침할 때 상태 유지하는 5�
 description: ""
 coverImage: "/assets/img/2024-05-12-5MethodstoPersistingStateBetweenPageReloadsinReact_0.png"
 date: 2024-05-12 22:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-5MethodstoPersistingStateBetweenPageReloadsinReact_0.png
 tag: Tech
 originalTitle: "5 Methods to Persisting State Between Page Reloads in React"
 link: "https://medium.com/bitsrc/5-methods-to-persisting-state-between-page-reloads-in-react-8fc9abd3fa2f"
+isUpdated: true
 ---
+
+
 
 ## 페이지 새로 고침 간에 React 상태 유지하는 다양한 방법 배우기
 

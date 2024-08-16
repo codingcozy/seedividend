@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Figma Plugins to Convert Designs into HTML and CSS Code"
 link: "https://medium.com/@ajay.singh07/10-figma-plugins-to-convert-designs-into-html-and-css-code-de6752bbbd78"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](https://miro.medium.com/v2/resize:fit:960/0*63WG6R0wvA90tl3C.gif)

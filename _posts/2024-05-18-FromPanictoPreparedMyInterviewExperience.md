@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "From Panic to Prepared: My Interview Experience"
 link: "https://medium.com/@web.pinkisingh/unmasking-the-interview-ritual-embracing-authenticity-in-a-world-of-pretense-03a9084093d7"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-18-FromPanictoPreparedMyInterviewExperience_0.png" />

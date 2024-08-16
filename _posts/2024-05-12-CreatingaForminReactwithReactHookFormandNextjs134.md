@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Form in React with React Hook Form and Next.js 13.4"
 link: "https://medium.com/@prithvi128717/creating-a-form-in-react-with-react-hook-form-and-next-js-13-4-5dae780daaef"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-CreatingaForminReactwithReactHookFormandNextjs134_0.png)

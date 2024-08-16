@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s new in Flutter 3.22: let’s discuss the top 10 new things"
 link: "https://medium.com/@shirsh94/whats-new-in-flutter-3-22-let-s-discuss-the-top-10-new-things-03f6d12eed38"
+isUpdated: true
 ---
+
+
 
 
 ## 플러터 3.22 릴리스는 웹 어셈블리, 불칸 그래픽, 위젯 상태 향상 등을 포함하고 있습니다

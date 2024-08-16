@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Every iOS developer should know"
 link: "https://medium.com/@nirosha.iosdeveloper/every-ios-developer-should-know-part-1-74165cbf0823"
+isUpdated: true
 ---
+
+
 
 
 # iOS 개발자가 알아야 할 프레임워크와 개념 목록

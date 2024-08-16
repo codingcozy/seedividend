@@ -3,12 +3,15 @@ title: "2024년 최신 LangChain, Python, Heroku 사용 방법 실제 사용 사
 description: ""
 coverImage: "/assets/img/2024-07-09-LangChainPythonandHeroku_0.png"
 date: 2024-07-09 20:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-LangChainPythonandHeroku_0.png
 tag: Tech
 originalTitle: "LangChain, Python, and Heroku"
 link: "https://medium.com/gitconnected/langchain-python-and-heroku-f87369a258dc"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-LangChainPythonandHeroku_0.png" />
 

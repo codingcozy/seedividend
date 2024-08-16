@@ -3,12 +3,15 @@ title: "비동기 자바스크립트 완전 정복 개념, 작동 방식, 실용
 description: ""
 coverImage: "/assets/img/2024-07-09-ExploringAsynchronousJavaScriptConceptsHowItWorksandPracticalExamples_0.png"
 date: 2024-07-09 08:57
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ExploringAsynchronousJavaScriptConceptsHowItWorksandPracticalExamples_0.png
 tag: Tech
 originalTitle: "Exploring Asynchronous JavaScript: Concepts, How It Works, and Practical Examples"
 link: "https://medium.com/@rajataha062/exploring-asynchronous-javascript-concepts-how-it-works-and-practical-examples-ea35dcd5b0d6"
+isUpdated: true
 ---
+
+
 
 현대 웹 개발에서 비동기 JavaScript는 기본적인 개념으로, 서버에서 데이터를 가져오거나 코드 실행을 지연시키면서 전체 응용 프로그램이 멈추지 않게 하는 것을 가능하게 합니다. 이 기사에서는 비동기 JavaScript의 핵심 개념, 작동 방식, GitHub 프로필 웹사이트와 같은 프로젝트에서 얻은 통찰을 포함한 실용적인 예제를 살펴볼 것입니다.
 

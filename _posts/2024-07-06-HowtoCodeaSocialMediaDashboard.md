@@ -3,12 +3,15 @@ title: "소셜 미디어 대시보드 코딩하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-HowtoCodeaSocialMediaDashboard_0.png"
 date: 2024-07-06 10:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-HowtoCodeaSocialMediaDashboard_0.png
 tag: Tech
 originalTitle: "How to Code a Social Media Dashboard"
 link: "https://medium.com/@learntocodetoday/how-to-code-a-social-media-dashboard-1b1a2c8e9c40"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-HowtoCodeaSocialMediaDashboard_0.png
 

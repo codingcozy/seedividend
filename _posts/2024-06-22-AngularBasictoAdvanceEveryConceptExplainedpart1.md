@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular — Basic to Advance — Every Concept Explained! — part 1"
 link: "https://medium.com/@Rushabh_/angular-basic-to-advance-every-concept-explained-part-1-e8f8692e04b3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-AngularBasictoAdvanceEveryConceptExplainedpart1_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adding SVG animations to your React website"
 link: "https://medium.com/@0n9aldrin/adding-svg-animations-to-your-react-website-1056a82988bc"
+isUpdated: true
 ---
+
+
 
 
 

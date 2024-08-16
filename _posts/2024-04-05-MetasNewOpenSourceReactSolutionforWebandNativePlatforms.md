@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " Metas New Open Source React Solution for Web and Native Platforms"
 link: "https://medium.com/@Choco23/metas-new-open-source-react-solution-for-web-and-native-platforms-19d633d46a5f"
+isUpdated: true
 ---
+
+
 
 
 

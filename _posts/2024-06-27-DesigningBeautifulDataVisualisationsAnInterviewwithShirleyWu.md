@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Designing Beautiful Data Visualisations: An Interview with Shirley Wu"
 link: "https://medium.com/ux-and-front-end-interviews/designing-beautiful-data-visualisations-an-interview-with-shirley-wu-4c2f6d01c0d1"
+isUpdated: true
 ---
+
+
 
 
 ## 셜리 우는 인기 있는 Data Sketches 프로젝트의 절반으로, 매우 상호 작용적인 데이터 시각화와 데이터 주도적 예술을 만들어냅니다. 여기서 그녀는 뒷면을 엿보게 해주며 배운 교훈을 공유합니다

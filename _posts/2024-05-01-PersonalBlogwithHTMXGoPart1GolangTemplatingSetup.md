@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Personal Blog with HTMX + Go Part 1 — Golang Templating Setup"
 link: "https://medium.com/gravel-engineering/this-blogpost-also-posted-in-my-personal-blog-which-you-can-access-here-dd856c61001"
+isUpdated: true
 ---
+
+
 
 
 이 블로그 포스트는 내 개인 블로그에도 게시되어 있으며 여기에서 액세스할 수 있습니다.

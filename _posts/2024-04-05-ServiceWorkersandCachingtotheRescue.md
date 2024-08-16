@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Service Workers and Caching to the Rescue"
 link: "https://medium.com/@denisultanoglu/service-workers-and-caching-to-the-rescue-3ca58a7101b0"
+isUpdated: true
 ---
+
+
 
 
 

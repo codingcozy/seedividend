@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 easy and very useful animations using CSS"
 link: "https://medium.com/@tajammalmaqbool11/top-10-easy-and-very-useful-animations-using-css-00b75b49cd0d"
+isUpdated: true
 ---
+
+
 
 
 

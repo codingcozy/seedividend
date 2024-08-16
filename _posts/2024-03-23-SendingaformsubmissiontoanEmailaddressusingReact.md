@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sending a form submission to an Email address using React"
 link: "https://medium.com/@ryandengland/sending-a-form-submission-to-an-email-address-using-react-9578737e4223"
+isUpdated: true
 ---
+
+
 
 
 

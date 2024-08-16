@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular: Downloading files and implementing a progress bar for tracking the download"
 link: "https://medium.com/stackademic/angular-downloading-files-and-implementing-a-progress-bar-for-tracking-the-download-bd1cb552d646"
+isUpdated: true
 ---
+
+
 
 
 이 이야기는 몇 년 전에 썼던 것과 매우 비슷한 내용입니다. 그 이야기는 여러 파일을 업로드하는 진행 막대를 구현하는 것과 관련이 있었습니다. 각 파일의 업로드를 추적하는 데 사용되는 진행 막대가 1개 있었습니다.

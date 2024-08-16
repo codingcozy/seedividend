@@ -3,12 +3,15 @@ title: "Pydantic Settings로 Python 설정 완벽하게 하기 위한 방법"
 description: ""
 coverImage: "/assets/img/2024-07-02-GetYourPythonConfigurationsRightEveryTimewithPydanticSettings_0.png"
 date: 2024-07-02 21:43
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-GetYourPythonConfigurationsRightEveryTimewithPydanticSettings_0.png
 tag: Tech
 originalTitle: "Get Your Python Configurations Right Every Time with Pydantic Settings"
 link: "https://medium.com/@vik-y/get-your-python-configurations-right-every-time-with-pydantic-settings-441d8a46c832"
+isUpdated: true
 ---
+
+
 
 # 소개
 

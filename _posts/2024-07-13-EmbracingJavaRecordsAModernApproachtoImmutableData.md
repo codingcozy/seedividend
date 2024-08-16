@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Embracing Java Records: A Modern Approach to Immutable Data"
 link: "https://medium.com/@MSeidl/embracing-java-records-a-modern-approach-to-immutable-data-bd477a458c73"
+isUpdated: true
 ---
+
+
 
 
 

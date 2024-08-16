@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dockerize a Next.js App"
 link: "https://medium.com/@itsuki.enjoy/dockerize-a-next-js-app-4b03021e084d"
+isUpdated: true
 ---
+
+
 
 
 Vercel에 Next.js 앱을 배포하려면 이 경우에는 컨테이너가 필요하지 않습니다. Next.js는 Vercel에서 생성 및 유지 관리되기 때문에 배포를 쉽게 할 수 있습니다. 그러나 AWS, Google Cloud Run 또는 기타 클라우드 제공업체를 통해 앱을 실행하고자 하는 경우에는 컨테이너가 필요합니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Client Side Form Validation with Zod , useFormState in Nextjs 14"
 link: "https://medium.com/javascript-in-plain-english/client-side-form-validation-with-zod-useformstate-in-next-js-14-dc011a9c44fb"
+isUpdated: true
 ---
+
+
 
 
 

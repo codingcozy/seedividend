@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 14 devIndicators란 "
+title: "Nextjs 14 devIndicators란"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

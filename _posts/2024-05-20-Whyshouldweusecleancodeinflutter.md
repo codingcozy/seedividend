@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why should we use clean code in flutter?"
 link: "https://medium.com/@sanjaysharmajw/why-should-we-use-clean-code-in-flutter-6d6fb204f269"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-20-Whyshouldweusecleancodeinflutter_0.png)

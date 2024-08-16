@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlock Your Coding Superpowers: Top 10 VS Code Extensions for React and React Native"
 link: "https://medium.com/@mankum8798/unlock-your-coding-superpowers-top-10-vs-code-extensions-for-react-and-react-native-5d9a90f92ec9"
+isUpdated: true
 ---
+
+
 
 
 React 또는 React Native 개발자이신가요? 코딩 경험을 더욱 향상시켜보고 싶다면요? Visual Studio Code(VS Code)는 이미 웹 및 모바일 앱 개발에 대한 환상적인 선택지입니다. 하지만 이 멋진 10가지 확장 기능을 추가하여 더욱 효율적으로 개발할 수 있습니다. 이 확장 기능들은 시간을 절약할 뿐만 아니라 코딩을 더욱 쉽게 만들어줍니다.

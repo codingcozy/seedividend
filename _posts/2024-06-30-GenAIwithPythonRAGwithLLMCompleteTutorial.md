@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "GenAI with Python: RAG with LLM (Complete Tutorial)"
 link: "https://medium.com/towards-data-science/genai-with-python-rag-with-llm-complete-tutorial-c276dda6707b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-30-GenAIwithPythonRAGwithLLMCompleteTutorial_0.png" />

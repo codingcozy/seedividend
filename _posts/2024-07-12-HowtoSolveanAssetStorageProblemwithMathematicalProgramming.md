@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Solve an Asset Storage Problem with Mathematical Programming"
 link: "https://medium.com/towards-data-science/how-to-solve-an-asset-storage-problem-with-mathematical-programming-3b96b7cc22d1"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png" />

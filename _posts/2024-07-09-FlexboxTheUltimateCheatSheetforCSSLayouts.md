@@ -3,12 +3,15 @@ title: "Flexbox 완벽한 CSS 레이아웃 치트 시트 "
 description: ""
 coverImage: "/assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_0.png"
 date: 2024-07-09 17:48
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_0.png
 tag: Tech
 originalTitle: "Flexbox: The Ultimate Cheat Sheet for CSS Layouts! 🎨"
 link: "https://medium.com/@mdtaqui.jhar/flexbox-the-ultimate-cheat-sheet-for-css-layouts-e1d200eda2bf"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-09-FlexboxTheUltimateCheatSheetforCSSLayouts_0.png)
 

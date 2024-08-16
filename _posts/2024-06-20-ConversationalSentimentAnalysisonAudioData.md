@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Conversational Sentiment Analysis on Audio Data"
 link: "https://medium.com/datadriveninvestor/conversational-sentiment-analysis-on-audio-data-3142a874e327"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-ConversationalSentimentAnalysisonAudioData_0.png" />

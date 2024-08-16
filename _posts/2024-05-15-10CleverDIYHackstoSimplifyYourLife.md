@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Clever DIY Hacks to Simplify Your Life!"
 link: "https://medium.com/@productivebrand10/10-clever-diy-hacks-to-simplify-your-life-b05d5c79a970"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-10CleverDIYHackstoSimplifyYourLife_0.png" />

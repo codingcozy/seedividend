@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NestJS: The Good, The Bad, and The Ugly"
 link: "https://medium.com/better-programming/nestjs-the-good-the-bad-and-the-ugly-d51aea04f267"
+isUpdated: true
 ---
+
+
 
 
 ## 다음 프로젝트에 NestJS를 선택하시겠습니까?

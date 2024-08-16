@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native In-App Purchases (iOS) — Part 2"
 link: "https://medium.com/simform-engineering/react-native-in-app-purchases-ios-part-2-9ac7ce752105"
+isUpdated: true
 ---
+
+
 
 
 ## iOS에서 인앱 구매 구성

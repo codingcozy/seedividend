@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Remote Contract Senior Frontend Engineer no longer open"
 link: "https://medium.com/@sensiblecode/remote-contract-senior-frontend-engineer-739fcafa153f"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fantastic CSS border animation"
 link: "https://medium.com/frontend-canteen/fantastic-css-border-animation-b02e06828beb"
+isUpdated: true
 ---
+
+
 
 
 오늘 나는 블로그 사이트인 shoptalkshow를 방문했는데, 그 사이트에서 다음과 같은 스타일을 보게 되어 정말 흥미로웠어요:

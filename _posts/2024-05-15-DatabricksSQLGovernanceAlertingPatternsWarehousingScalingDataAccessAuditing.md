@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Databricks SQL Governance Alerting Patterns — Warehousing Scaling + Data Access Auditing"
 link: "https://medium.com/dbsql-sme-engineering/databricks-sql-governance-alerting-patterns-warehousing-scaling-data-access-auditing-674275024908"
+isUpdated: true
 ---
+
+
 
 
 아래와 같이 Markdown 형식으로 표 태그를 변경해주세요.

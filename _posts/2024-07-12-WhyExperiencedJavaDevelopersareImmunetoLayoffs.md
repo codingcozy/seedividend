@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Experienced Java Developers are Immune to Layoffs"
 link: "https://medium.com/gitconnected/why-experienced-java-developers-are-immune-to-layoffs-2370a772a47f"
+isUpdated: true
 ---
+
+
 
 
 

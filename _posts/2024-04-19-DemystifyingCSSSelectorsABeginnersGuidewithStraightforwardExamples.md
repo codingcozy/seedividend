@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying CSS Selectors A Beginners Guide with Straightforward Examples"
 link: "https://medium.com/@iamalexcarter/demystifying-css-selectors-a-beginners-guide-with-straightforward-examples-eaf541077fb9"
+isUpdated: true
 ---
+
+
 
 
 

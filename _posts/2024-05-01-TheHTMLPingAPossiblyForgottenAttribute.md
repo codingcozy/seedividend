@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The HTML Ping: A Possibly Forgotten Attribute"
 link: "https://medium.com/gitconnected/the-html-ping-a-possibly-forgotten-attribute-8deb563ff470"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-TheHTMLPingAPossiblyForgottenAttribute_0.png)

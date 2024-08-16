@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Going mobile with AnalogJS + Ionic Framework + Capacitor"
 link: "https://medium.com/ngconf/going-mobile-with-analogjs-ionic-framework-capacitor-e773735c95c7"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-22-GoingmobilewithAnalogJSIonicFrameworkCapacitor_0.png)

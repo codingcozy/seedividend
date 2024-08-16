@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Flutter Web Applications for Enhanced SEO Performance"
 link: "https://medium.com/@function12/optimizing-flutter-web-applications-for-enhanced-seo-performance-0650869024b2"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is JVM?"
 link: "https://medium.com/@singourhimanshu3/what-is-jvm-473a67366e0e"
+isUpdated: true
 ---
+
+
 
 
 

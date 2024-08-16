@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 ways deepfakes or synthetic image-based abuse is used against women"
 link: "https://medium.com/hack-for-chayn/5-ways-deepfakes-or-synthetic-image-based-abuse-is-used-against-women-ffd100c577e9"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "Redis 대신 PostgreSQL을 사용해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-07-WhoneedsRediswhenPostgreswilldo_0.png"
 date: 2024-07-07 21:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-WhoneedsRediswhenPostgreswilldo_0.png
 tag: Tech
 originalTitle: "Who needs Redis, when Postgres will do?"
 link: "https://medium.com/stackademic/who-needs-redis-when-postgres-will-do-9ad54379fb94"
+isUpdated: true
 ---
+
+
 
 ![이미지1](/assets/img/2024-07-07-WhoneedsRediswhenPostgreswilldo_0.png)
 

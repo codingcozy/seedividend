@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Customer Segmentation: Implementing the RFM Model with SQL"
 link: "https://medium.com/@shirvaron/customer-segmentation-implementing-the-rfm-model-with-sql-8d07fd990d32"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-CustomerSegmentationImplementingtheRFMModelwithSQL_0.png" />

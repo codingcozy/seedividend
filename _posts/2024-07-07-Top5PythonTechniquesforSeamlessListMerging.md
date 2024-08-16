@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 5 Python Techniques for Seamless List Merging"
 link: "https://medium.com/top-python-libraries/top-5-python-techniques-for-seamless-list-merging-fcd52c05dc2d"
+isUpdated: true
 ---
+
+
 
 
 ## 파이썬 리스트 병합 간단히 알아보기

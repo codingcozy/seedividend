@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Publish Flutter App to Play Store 2024"
 link: "https://medium.com/@affansultan901/publish-flutter-app-to-play-store-69cb0cd5a30b"
+isUpdated: true
 ---
+
+
 
 
 

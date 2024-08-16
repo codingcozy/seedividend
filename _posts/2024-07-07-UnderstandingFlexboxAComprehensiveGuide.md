@@ -3,12 +3,15 @@ title: "Flexbox 완벽 가이드 상세 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-07-UnderstandingFlexboxAComprehensiveGuide_0.png"
 date: 2024-07-07 21:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-UnderstandingFlexboxAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Understanding Flexbox: A Comprehensive Guide"
 link: "https://medium.com/@MakeComputerScienceGreatAgain/understanding-flexbox-a-comprehensive-guide-992bcd5f04de"
+isUpdated: true
 ---
+
+
 
 ![Understanding Flexbox](/assets/img/2024-07-07-UnderstandingFlexboxAComprehensiveGuide_0.png)
 

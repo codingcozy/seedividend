@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Authentication with Nextjs 13 and Next Auth"
 link: "https://medium.com/ascentic-technology/authentication-with-next-js-13-and-next-auth-9c69d55d6bfd"
+isUpdated: true
 ---
+
+
 
 
 

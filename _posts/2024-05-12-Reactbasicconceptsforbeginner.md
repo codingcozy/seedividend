@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React basic concepts for beginner"
 link: "https://medium.com/@tim-lin/react-basic-concepts-for-beginner-77477a9731d5"
+isUpdated: true
 ---
+
+
 
 
 글을 쓰는 것은 제가 배운 것을 다시 상기시키는 데 도움이 돼요. 그럼 시작해볼까요!

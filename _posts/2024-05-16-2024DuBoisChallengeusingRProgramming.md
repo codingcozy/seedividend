@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "2024 Du Bois Challenge using R Programming."
 link: "https://medium.com/illumination/2024-du-bois-challenge-using-r-programming-02af8afa5626"
+isUpdated: true
 ---
+
+
 
 
 ![2024 Du Bois Challenge](/assets/img/2024-05-16-2024DuBoisChallengeusingRProgramming_0.png)

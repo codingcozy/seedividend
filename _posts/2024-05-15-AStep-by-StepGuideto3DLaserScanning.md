@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Step-by-Step Guide to 3D Laser Scanning"
 link: "https://medium.com/3dprintjunction/a-step-by-step-guide-to-3d-laser-scanning-907d6de69824"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-15-AStep-by-StepGuideto3DLaserScanning_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Comprehensive Guide of CSS: Part I Basic CSS, Selectors, Specificity"
 link: "https://medium.com/@fangjy.alice2011/comprehensive-guide-of-css-e9e81b797f3d"
+isUpdated: true
 ---
+
+
 
 
 # 소개

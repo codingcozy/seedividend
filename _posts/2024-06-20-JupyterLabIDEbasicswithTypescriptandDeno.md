@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Jupyter Lab IDE basics with Typescript and Deno"
 link: "https://medium.com/gitconnected/jupyter-lab-ide-basics-with-typescript-and-deno-a4255f2b36f1"
+isUpdated: true
 ---
+
+
 
 
 ## TypeScript 개발자를 위한 단계별 가이드

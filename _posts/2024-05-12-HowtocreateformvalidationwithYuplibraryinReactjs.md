@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create form validation with Yup library in Reactjs"
 link: "https://medium.com/@olivier.trinh/how-to-create-form-validation-with-yup-library-in-reactjs-4846f045957a"
+isUpdated: true
 ---
+
+
 
 
 폼 유효성 검사는 모든 웹 애플리케이션의 중요한 부분입니다. 사용자가 입력한 데이터가 올바르고 완전한지 확인하는 데 도움이 됩니다. Yup은 Reactjs의 인기있는 유효성 검사 라이브러리로, 폼 유효성을 쉽게 만들고 관리할 수 있습니다.

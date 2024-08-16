@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Configure Redux Tool Kit in Next Js 13 project."
 link: "https://medium.com/@xavierdev16/step-by-step-tutorial-how-to-configure-redux-tool-kit-in-next-js-13-app-3595460d11e5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-ConfigureReduxToolKitinNextJs13project_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nest.js for beginners"
 link: "https://medium.com/@ckekula/nest-js-for-beginners-0da843caccb2"
+isUpdated: true
 ---
+
+
 
 
 Nest.js는 TypeScript를 사용하여 확장 가능한 서버 측 애플리케이션을 구축하기 위한 Node.js 프레임워크입니다.

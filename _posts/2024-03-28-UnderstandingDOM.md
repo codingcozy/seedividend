@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding DOM"
 link: "https://medium.com/@sudipstha08/understanding-dom-3c0edf9d96b7"
+isUpdated: true
 ---
+
+
 
 
 

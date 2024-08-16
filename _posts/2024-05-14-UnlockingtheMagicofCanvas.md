@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking the Magic of Canvas"
 link: "https://medium.com/gitconnected/unlocking-the-magic-of-canvas-4a8ec6f63c5"
+isUpdated: true
 ---
+
+
 
 
 ## 예술이 코드와 만나는 곳

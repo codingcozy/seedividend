@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "8 Ways to Implement Conditional Rendering Techniques in React"
 link: "https://medium.com/gitconnected/code-like-a-pro-advanced-conditional-rendering-techniques-in-react-8e0cfb9aa04f"
+isUpdated: true
 ---
+
+
 
 
 

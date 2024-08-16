@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to add dark mode in Laravel (with toggle button)"
 link: "https://medium.com/@marcosklender/dark-mode-in-laravel-breeze-541f79cf1162"
+isUpdated: true
 ---
+
+
 
 
 첫 번째 미디엄 게시물에 오신 것을 환영합니다! 제가 사랑하는 다크 모드 덕후로서 여러분에게 라라벨 프로젝트에서 라이트 모드와 다크 모드 간 전환을 가능하게 하는 버튼을 소개해 드리겠습니다. 함께 알아보도록 하죠!

@@ -3,12 +3,15 @@ title: "Python 리스트 내포 List Comprehension 문법의 진정한 강점 �
 description: ""
 coverImage: "/assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_0.png"
 date: 2024-07-09 19:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PythonListComprehensionIsNotJustSyntacticSugar_0.png
 tag: Tech
 originalTitle: "Python List Comprehension Is Not Just Syntactic Sugar"
 link: "https://medium.com/towards-data-science/python-list-comprehension-is-not-just-syntactic-sugar-346463b4853d"
+isUpdated: true
 ---
+
+
 
 아마 수많은 기사들을 보면, 파이썬에서 for-loop 대신 리스트 컴프리헨션을 사용하는 것을 권장하는 내용이 많다는 것을 이미 알아차렸을 것 같아요. 저도 많이 봤어요. 그런데 놀랍게도 그 이유에 대해 설명한 기사는 거의 찾아보기 힘들었죠.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use NextAuth.JS with Discord"
 link: "https://medium.com/javascript-in-plain-english/how-to-use-nextauth-js-with-discord-d2f274c4c1b4"
+isUpdated: true
 ---
+
+
 
 
 ## Discord API를 사용하여 NextJS에서 NextAuth.JS를 통한 "Discord를 사용한 로그인"을 구현하는 방법을 배워보세요.

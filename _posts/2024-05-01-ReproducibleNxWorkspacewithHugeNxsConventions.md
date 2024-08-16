@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reproducible Nx Workspace with HugeNx’s Conventions"
 link: "https://medium.com/javascript-in-plain-english/reproducible-nx-workspace-with-hugenxs-conventions-a247c0541049"
+isUpdated: true
 ---
+
+
 
 
 ## 거대한 Nx 모노 레포 유지 및 확장에 대한 주관적인 접근

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 Free Frontend and Backend Development Courses in 2024"
 link: "https://medium.com/javarevisited/top-10-free-frontend-and-backend-development-courses-in-2024-ad9f681a95fe"
+isUpdated: true
 ---
+
+
 
 
 ## 초보자와 중급 개발자를 위한 내가 좋아하는 무료 웹 개발 강좌

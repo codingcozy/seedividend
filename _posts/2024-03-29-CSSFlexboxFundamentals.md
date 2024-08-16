@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Flexbox Fundamentals"
 link: "https://medium.com/@muskan.vgupta306/css-flexbox-fundamentals-fd9f769bcdad"
+isUpdated: true
 ---
+
+
 
 
 

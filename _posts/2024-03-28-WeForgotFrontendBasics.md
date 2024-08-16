@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "We Forgot Frontend Basics"
 link: "https://medium.com/stackademic/we-forgot-frontend-basics-2f9a1c4dabaa"
+isUpdated: true
 ---
+
+
 
 
 

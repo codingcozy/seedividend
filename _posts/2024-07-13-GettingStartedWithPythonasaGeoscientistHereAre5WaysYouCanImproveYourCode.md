@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started With Python as a Geoscientist? Here Are 5 Ways You Can Improve Your Code!"
 link: "https://medium.com/towards-data-science/getting-started-with-python-as-a-geoscientist-here-are-5-ways-you-can-improve-your-code-82b42c21462b"
+isUpdated: true
 ---
+
+
 
 
 ![Getting Started With Python as a Geoscientist](/assets/img/2024-07-13-GettingStartedWithPythonasaGeoscientistHereAre5WaysYouCanImproveYourCode_0.png)

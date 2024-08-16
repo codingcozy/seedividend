@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Passed the Certified Kubernetes Administrator (CKA) Exam — 2024"
 link: "https://medium.com/@artiodev/how-i-passed-the-certified-kubernetes-administrator-cka-exam-2024-60da4f7552b3"
+isUpdated: true
 ---
+
+
 
 
 자격증 Kubernetes Administrator (CKA) 취득을 위한 여정이 시작되면 도전적일 수 있습니다. 

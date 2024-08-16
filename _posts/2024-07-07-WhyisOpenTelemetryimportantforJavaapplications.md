@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why is OpenTelemetry important for Java applications?"
 link: "https://medium.com/itnext/why-is-opentelemetry-important-for-java-applications-b0430c9f1552"
+isUpdated: true
 ---
+
+
 
 
 옵저버빌리티를 논의할 때, 오픈텔레미트리는 텔레미터 데이터를 통해 조직이 시스템의 내부 상태를 이해할 수 있도록 해주기 때문에 중요합니다. 이 글에서는 오픈텔레미트리가 자바 애플리케이션에서 옵저버빌리티를 가능하게 하는 중요한 역할에 대해 논의하겠습니다.

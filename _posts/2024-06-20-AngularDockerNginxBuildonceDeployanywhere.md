@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular, Docker , Nginx: Build once, Deploy anywhere."
 link: "https://medium.com/@fabiozuin/build-once-deploy-anywhere-with-angular-17-bf477c49668f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-AngularDockerNginxBuildonceDeployanywhere_0.png" />

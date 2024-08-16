@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Checkbox border color using css"
 link: "https://medium.com/@frontendinterviewquestions/checkbox-border-color-using-c-87e80ba7414d"
+isUpdated: true
 ---
+
+
 
 
 

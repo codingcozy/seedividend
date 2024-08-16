@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Essential Python Topics to Master Before Learning Django"
 link: "https://medium.com/@kingrayhan/essential-python-topics-to-master-before-learning-django-e56e6233d162"
+isUpdated: true
 ---
+
+
 
 
 Django는 빠른 속도로 안전하고 유지보수가 쉬운 웹 사이트를 개발할 수 있도록 하는 Python의 강력하고 인기 있는 웹 프레임워크입니다. 그러나 Django를 최대한 활용하려면 Python에 튼튼한 기반을 갖추는 것이 중요합니다. 이 블로그 포스트는 Django에 뛰어들기 전에 반드시 숙달해야 할 주요 Python 주제를 안내해 드릴 것입니다.

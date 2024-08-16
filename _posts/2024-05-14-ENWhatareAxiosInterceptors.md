@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "[EN] What are Axios Interceptors?"
 link: "https://medium.com/@OzturkSirin/en-what-are-axios-interceptors-b0f68c645965"
+isUpdated: true
 ---
+
+
 
 
 ![Axios Interceptors](/assets/img/2024-05-14-ENWhatareAxiosInterceptors_0.png)

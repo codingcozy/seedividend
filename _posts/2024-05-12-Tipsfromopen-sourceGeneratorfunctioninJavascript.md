@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tips from open-source: Generator function in Javascript."
 link: "https://medium.com/dev-genius/tips-from-open-source-generator-function-in-javascript-1093f9eabe47"
+isUpdated: true
 ---
+
+
 
 
 Next.js 소스 코드를 읽다가 *로 접두사가 붙은 함수 이름을 본 적이 있어요. 제 첫 생각은 "이거 Javascript에서 포인터인가?" 였어요. 구글 검색을 해보니 *로 접두사가 붙은 이 함수들은 제너레이터 함수라고 불린다는 걸 알았어요. 지금까지는 Javascript에서 제너레이터 함수에 대해 알지 못했어요.

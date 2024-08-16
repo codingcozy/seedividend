@@ -3,12 +3,15 @@ title: "iTransformer 최신 시계열 예측 기법 대공개"
 description: ""
 coverImage: "/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png"
 date: 2024-07-09 19:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png
 tag: Tech
 originalTitle: "iTransformer: The Latest Breakthrough in Time Series Forecasting"
 link: "https://medium.com/towards-data-science/itransformer-the-latest-breakthrough-in-time-series-forecasting-d538ddc6c5d1"
+isUpdated: true
 ---
+
+
 
 ![2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png)
 

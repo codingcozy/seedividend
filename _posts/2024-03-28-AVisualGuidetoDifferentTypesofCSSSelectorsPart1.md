@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Visual Guide to Different Types of CSS Selectors Part 1"
 link: "https://medium.com/@Itsmemuna/a-visual-guide-to-different-types-of-css-selectors-part-1-0c32b9740509"
+isUpdated: true
 ---
+
+
 
 
 

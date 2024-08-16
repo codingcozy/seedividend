@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Its 2024, you should be using React Server Components already"
 link: "https://medium.com/itnext/its-2024-you-should-be-using-react-server-components-already-6cb24a7140a1"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TimeGPT vs TiDE: Is Zero-Shot Inference the Future of Forecasting or Just Hype?"
 link: "https://medium.com/towards-data-science/timegpt-vs-tide-is-zero-shot-inference-the-future-of-forecasting-or-just-hype-9063bdbe0b76"
+isUpdated: true
 ---
+
+
 
 
 이 게시물은 Rafael Guedes와 공저한 것입니다.

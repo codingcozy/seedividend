@@ -3,12 +3,15 @@ title: "반응형 디자인 마스터하기 2024년 최신 CSS 크기 단위 베
 description: ""
 coverImage: "/assets/img/2024-07-09-MasteringResponsiveDesignBestPracticesforSizeUnitsinCSS_0.png"
 date: 2024-07-09 18:40
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-MasteringResponsiveDesignBestPracticesforSizeUnitsinCSS_0.png
 tag: Tech
 originalTitle: "Mastering Responsive Design: Best Practices for Size Units in CSS"
 link: "https://medium.com/@jjcx/mastering-responsive-design-best-practices-for-size-units-in-css-973f532ebbdf"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-MasteringResponsiveDesignBestPracticesforSizeUnitsinCSS_0.png" />
 

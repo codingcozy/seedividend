@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Express Error Handling Like a Pro using Typescript"
 link: "https://medium.com/@xiaominghu19922/proper-error-handling-in-express-server-with-typescript-8cd4ffb67188"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-22-ExpressErrorHandlingLikeaProusingTypescript_0](/assets/img/2024-06-22-ExpressErrorHandlingLikeaProusingTypescript_0.png)

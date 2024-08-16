@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "25 CSS Hacks Every Developer Should Know"
 link: "https://medium.com/@amitmishraam941/25-css-hacks-every-developer-should-know-1317102ab791"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "Amazon Bedrock Agents 및 AI로 작업 자동화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_0.png"
 date: 2024-07-07 13:00
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_0.png
 tag: Tech
 originalTitle: "Automating tasks using Amazon Bedrock Agents and AI"
 link: "https://medium.com/@leejamesgilmore/automating-tasks-using-amazon-bedrock-agents-and-ai-4b6fb8856589"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-AutomatingtasksusingAmazonBedrockAgentsandAI_0.png" />
 

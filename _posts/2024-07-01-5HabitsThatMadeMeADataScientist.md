@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Habits That Made Me A Data Scientist"
 link: "https://medium.com/towards-data-science/5-habits-that-made-me-a-data-scientist-2036bb609d0d"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_0.png" />

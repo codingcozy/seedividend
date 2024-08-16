@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SaasterKit: Building the Perfect Next.js Boilerplate for SaaS applications"
 link: "https://medium.com/@leandroercoli/saasterkit-building-the-perfect-next-js-boilerplate-for-saas-applications-a521d2c4827b"
+isUpdated: true
 ---
+
+
 
 
 가져다달라며 컴퓨터에 뛰어가서 새 프로젝트를 설정하고 칸반 보드에 작업 및 기능을 추가하기 시작하는 순간이 있나요? 하지만 그런 다짐을 하자마자 현실이 닥칩니다. 인증 또는 데이터베이스와 같은 기본 기능을 설정하는 잡일은 당신의 열정을 꺾는 일이 됩니다. 처음에 흥미로웠던 프로젝트 아이디어가 기술적인 일의 번거로운 목록으로 변몽합니다.

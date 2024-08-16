@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Comments, Models, and Users— Oh My! Generating Full-Stack Functionality for Individual Users"
 link: "https://medium.com/@jasen.miyamoto/comments-models-and-users-oh-my-generating-full-stack-functionality-for-individual-users-8c870e20c9f5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-CommentsModelsandUsersOhMyGeneratingFull-StackFunctionalityforIndividualUsers_0.png" />

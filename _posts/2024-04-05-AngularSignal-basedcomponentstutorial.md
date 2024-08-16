@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Signal-based components tutorial"
 link: "https://medium.com/angular-training/angular-signal-based-components-tutorial-4e4b4b1dfa96"
+isUpdated: true
 ---
+
+
 
 
 

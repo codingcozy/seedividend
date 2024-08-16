@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Satellites Can See Invisible Lava Flows and Active Wildfires, But How? (Python)"
 link: "https://medium.com/towards-data-science/satellites-can-see-invisible-lava-flows-and-active-wildires-but-how-python-371915464d1c"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-SatellitesCanSeeInvisibleLavaFlowsandActiveWildfiresButHowPython_0.png" />

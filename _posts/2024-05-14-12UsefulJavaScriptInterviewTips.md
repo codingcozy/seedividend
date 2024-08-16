@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "12 Useful JavaScript Interview Tips"
 link: "https://medium.com/javascript-in-plain-english/12-useful-javascript-interview-tips-c85288284595"
+isUpdated: true
 ---
+
+
 
 
 제 3 부: 자바스크립트에 대해 반드시 알아야 할 일반 지식 포인트 목록

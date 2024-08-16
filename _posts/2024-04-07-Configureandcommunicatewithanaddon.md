@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Configure and communicate with an addon"
 link: "https://storybook.js.org/docs/addons/configure-addons"
+isUpdated: true
 ---
+
+
 
 
 

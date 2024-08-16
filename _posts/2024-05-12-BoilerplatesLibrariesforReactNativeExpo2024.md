@@ -3,12 +3,15 @@ title: "2024년 최신 React Native Expo용 보일러플레이트 라이브러�
 description: ""
 coverImage: "/assets/img/2024-05-12-BoilerplatesLibrariesforReactNativeExpo2024_0.png"
 date: 2024-05-12 19:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-BoilerplatesLibrariesforReactNativeExpo2024_0.png
 tag: Tech
 originalTitle: "Boilerplates Libraries for React Native Expo (2024)"
 link: "https://medium.com/@emilyxiong/boilerplates-libraries-for-react-native-expo-2024-abfb43b0ecff"
+isUpdated: true
 ---
+
+
 
 지금은 2024년입니다. 프로그래밍에서는 항상 우리가 선택할 수 있는 최신하이팅 라이브러리들이 있지만, 최신하이팅 라이브러리들이 항상 완벽하지는 않습니다.
 

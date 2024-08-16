@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Transform your navigation with a sleek, shrinkable header on scroll! 🚀✨"
 link: "https://medium.com/@codingmadeeasy92/transform-your-navigation-with-a-sleek-shrinkable-header-on-scroll-7d326e534632"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-Transformyournavigationwithasleekshrinkableheaderonscroll_0.png" />

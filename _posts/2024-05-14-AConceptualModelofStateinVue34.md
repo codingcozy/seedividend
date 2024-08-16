@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Conceptual Model of State in Vue 3.4"
 link: "https://medium.com/itnext/a-conceptual-model-of-state-in-vue-3-4-9390c8e68aa5"
+isUpdated: true
 ---
+
+
 
 
 상태와 컴포넌트 경계의 배치를 이해하는 것은 현대 프론트엔드 웹 개발에서 가장 중요한 도전 중 하나이며, 어플리케이션의 규모가 커짐에 따라 개발을 가속화하거나 가장 큰 마찰 원인이 될 수 있는 팀이 내릴 수 있는 가장 중요한 결정 중 하나입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "18 JavaScript One-Liners Thatll Make You Look Like a Pro"
 link: "https://medium.com/javascript-in-plain-english/18-javascript-one-liners-thatll-make-you-look-like-a-pro-c5a383a41f4e"
+isUpdated: true
 ---
+
+
 
 
 

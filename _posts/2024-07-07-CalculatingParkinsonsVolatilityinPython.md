@@ -3,12 +3,15 @@ title: "파이썬으로 파킨슨 변동성 계산하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png"
 date: 2024-07-07 02:29
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png
 tag: Tech
 originalTitle: "Calculating Parkinson’s Volatility in Python"
 link: "https://medium.com/@kaabar-sofien/calculating-parkinsons-volatility-in-python-477ec5f13a1b"
+isUpdated: true
 ---
+
+
 
 ![Parkinson’s volatility](/assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png)
 

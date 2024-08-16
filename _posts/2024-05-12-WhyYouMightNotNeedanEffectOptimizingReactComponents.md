@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why You Might Not Need an Effect: Optimizing React Components"
 link: "https://medium.com/@prachirai/why-you-might-not-need-an-effect-optimizing-react-components-703792738ba3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-WhyYouMightNotNeedanEffectOptimizingReactComponents_0.png" />

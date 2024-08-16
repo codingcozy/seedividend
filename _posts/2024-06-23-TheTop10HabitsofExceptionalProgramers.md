@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Top 10 Habits of Exceptional Programers"
 link: "https://medium.com/@tonylixu/the-top-10-habits-of-exceptional-programers-5ca505524d8b"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-23-TheTop10HabitsofExceptionalProgramers_0.png)

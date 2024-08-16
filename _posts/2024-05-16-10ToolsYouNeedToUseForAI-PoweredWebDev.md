@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Tools You Need To Use For AI-Powered Web Dev…"
 link: "https://medium.com/@fadingeek/10-tools-you-need-to-use-for-ai-powered-web-dev-4d39fc9608e4"
+isUpdated: true
 ---
+
+
 
 
 ## 이 중에서 각각을 신중하게 시도해본 결과, 정말로 여러분의 삶을 변화시킬 것입니다!

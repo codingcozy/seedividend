@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "It’s time to deprecate the .env file"
 link: "https://medium.com/@tony.infisical/its-time-to-deprecate-the-env-file-for-a-better-stack-a519ac89bab0"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-Itstimetodeprecatetheenvfile_0.png" />

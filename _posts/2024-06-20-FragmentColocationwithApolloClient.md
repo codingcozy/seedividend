@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fragment Colocation with ApolloClient"
 link: "https://medium.com/shippio/fragment-colocation-with-apolloclient-815edbcf7a69"
+isUpdated: true
 ---
+
+
 
 
 

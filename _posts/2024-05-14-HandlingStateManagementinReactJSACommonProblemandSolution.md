@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Handling State Management in ReactJS: A Common Problem and Solution"
 link: "https://medium.com/@barrytwice/handling-state-management-in-reactjs-a-common-problem-and-solution-e67576db1812"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-HandlingStateManagementinReactJSACommonProblemandSolution_0.png)

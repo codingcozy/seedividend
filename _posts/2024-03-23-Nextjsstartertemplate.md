@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nextjs starter template"
 link: "https://medium.com/@skolakmichal1/next-js-starter-template-c4c823ffae51"
+isUpdated: true
 ---
+
+
 
 
 

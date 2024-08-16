@@ -3,12 +3,15 @@ title: "FastAPI에서 Pydantic 직렬화 단계별 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-PydanticserializationstepbystepsforFastAPI_0.png"
 date: 2024-07-07 12:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-PydanticserializationstepbystepsforFastAPI_0.png
 tag: Tech
 originalTitle: "Pydantic serialization step by steps for FastAPI"
 link: "https://medium.com/@gayashangamage/pydantic-serialization-step-by-steps-for-fastapi-f51ee20d4f10"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-PydanticserializationstepbystepsforFastAPI_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Install Secure GitLab Self-Managed on AWS Ubuntu with Docker Compose"
 link: "https://medium.com/@varunmanik1/how-to-install-secure-gitlab-self-managed-on-aws-ubuntu-with-docker-compose-7d61d2264c13"
+isUpdated: true
 ---
+
+
 
 
 HTTPS 설치 (https://varuncloud.shop/users/sign_in)

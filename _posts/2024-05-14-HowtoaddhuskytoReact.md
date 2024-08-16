@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to add husky to React"
 link: "https://medium.com/@mariokandut/how-to-add-husky-to-react-233f0ca48752"
+isUpdated: true
 ---
+
+
 
 
 ## Husky를 사용하여 오류를 줄이고 일관된 코드베이스를 유지하세요

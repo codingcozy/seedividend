@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Title Secure Your Flutter App with Biometric Authentication Fingerprint"
 link: "https://medium.com/@zbadisalim/title-secure-your-flutter-app-with-biometric-authentication-fingerprint-28598c358114"
+isUpdated: true
 ---
+
+
 
 
 

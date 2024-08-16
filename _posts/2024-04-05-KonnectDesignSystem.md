@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Konnect Design System"
 link: "https://medium.com/@maysaandrade/konnect-design-system-3c67c9afad37"
+isUpdated: true
 ---
+
+
 
 
 

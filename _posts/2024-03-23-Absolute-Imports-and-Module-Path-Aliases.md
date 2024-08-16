@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "절대 경로 Imports와 모듈 경로 별칭"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

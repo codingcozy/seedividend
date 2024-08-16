@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Supercharging Your App 2024s Comprehensive Guide to React Native Performance, Code Optimisation, and Best Practices"
 link: "https://medium.com/@ahmad.almezaal/supercharging-your-app-2024s-comprehensive-guide-to-react-native-performance-code-optimisation-677040868df1"
+isUpdated: true
 ---
+
+
 
 
 

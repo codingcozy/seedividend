@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How We Used Server-Sent Events (SSE) to Deliver Real-Time Notifications on Our Backend"
 link: "https://medium.com/trendyol-tech/how-we-used-server-sent-events-sse-to-deliver-real-time-notifications-on-our-backend-ebae41d3b5cb"
+isUpdated: true
 ---
+
+
 
 
 판매자 성장팀으로서, 우리의 업무에는 판매자들의 시스템과의 상호작용을 향상시키기 위해 고안된 작업들로 구성된 다양한 도전 과제를 지정, 추적 및 관리하는 것이 포함되어 있습니다.

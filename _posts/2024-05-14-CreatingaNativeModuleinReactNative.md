@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Native Module in React Native"
 link: "https://medium.com/@mohamed.ma872/creating-a-native-module-in-react-native-df1a694c89a7"
+isUpdated: true
 ---
+
+
 
 
 리액트 네이티브는 JavaScript와 React를 사용하여 모바일 앱을 개발할 수 있게 해주는 인기 있는 프레임워크입니다. 때때로 자바스크립트에서 사용할 수 없는 플랫폼별 기능에 액세스해야 할 수도 있습니다. 이때 네이티브 모듈이 필요한데, 이를 통해 iOS의 Swift나 안드로이드의 코틀린과 같은 네이티브 언어로 코드를 작성하여 사용할 수 있습니다.

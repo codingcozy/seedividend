@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Starting a Frontend project that won’t turn into a nightmare in 2 years"
 link: "https://medium.com/@miladd3/starting-a-frontend-project-that-wont-turn-into-a-nightmare-in-2-years-cbe5b5509386"
+isUpdated: true
 ---
+
+
 
 
 새 프로젝트를 시작하면 항상 세상에서 가장 기분 좋은 순간 중 하나입니다. 새로운 시작에는 신선함과 훌륭한 아이디어가 넘쳐납니다. 이번에는 회사에 여러 해 동안 도움이 되는 깨끗하고 유지보수가 용이하며 확장 가능한 프로젝트가 될 것이라고 자신과 팀원들에게 이야기합니다.

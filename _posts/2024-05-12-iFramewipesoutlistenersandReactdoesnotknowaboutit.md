@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "iFrame wipes out listeners and React does not know about it 🤔"
 link: "https://medium.com/@manansharma18_22712/iframe-wipes-out-listeners-and-react-does-not-know-about-it-7c5aa069691a"
+isUpdated: true
 ---
+
+
 
 
 # 개요

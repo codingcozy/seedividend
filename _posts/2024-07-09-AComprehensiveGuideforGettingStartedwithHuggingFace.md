@@ -3,12 +3,15 @@ title: "Hugging Face 시작을 위한 종합 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_0.png"
 date: 2024-07-09 21:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_0.png
 tag: Tech
 originalTitle: "A Comprehensive Guide for Getting Started with Hugging Face"
 link: "https://medium.com/towards-artificial-intelligence/a-comprehensive-guide-for-getting-started-with-huggingface-94aeea38692f"
+isUpdated: true
 ---
+
+
 
 ![Hugging Face](/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_0.png)
 

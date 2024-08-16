@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Vue Form Builder"
 link: "https://medium.com/@surveyjs/vue-form-builder-d5f22f38d806"
+isUpdated: true
 ---
+
+
 
 
 

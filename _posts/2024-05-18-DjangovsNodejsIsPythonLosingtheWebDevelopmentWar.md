@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Django vs Node.js: Is Python Losing the Web Development War?"
 link: "https://medium.com/@devshi_bambhaniya/django-vs-node-js-is-python-losing-the-web-development-war-88379d1a6ada"
+isUpdated: true
 ---
+
+
 
 
 웹 개발에 관한 이야기를 할 때, 선택할 수있는 코딩 언어와 프레임 워크가 많이 있습니다. 두 가지 인기있는 옵션은 파이썬 기반의 Django와 JavaScript 기반의 Node.js입니다.

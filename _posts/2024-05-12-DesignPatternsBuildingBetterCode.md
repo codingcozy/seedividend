@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Design Patterns : Building Better Code"
 link: "https://medium.com/@attiadhouha/design-patterns-building-better-code-e6ef06b86628"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-DesignPatternsBuildingBetterCode_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "증분 정적 재생성 ISR"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

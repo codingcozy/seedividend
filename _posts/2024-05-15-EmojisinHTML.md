@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "😍 Emojis in HTML"
 link: "https://medium.com/read-write-code/emojis-in-html-15ede74f0d48"
+isUpdated: true
 ---
+
+
 
 
 ## HTML 파일에 10진수 또는 16진수 코드로 이모지 쉽게 추가하기

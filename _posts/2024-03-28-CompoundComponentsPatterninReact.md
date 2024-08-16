@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Compound Components Pattern in React"
 link: "https://medium.com/javascript-in-plain-english/compound-components-pattern-in-react-4c176c18f9ba"
+isUpdated: true
 ---
+
+
 
 
 

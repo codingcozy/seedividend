@@ -3,12 +3,15 @@ title: "SpaceX 이중 부스터 착륙 비디오 분석과 Python 모델 구축 
 description: ""
 coverImage: "/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png"
 date: 2024-07-09 19:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png
 tag: Tech
 originalTitle: "Video Analysis and Python Model of the SpaceX Double Booster Landing"
 link: "https://medium.com/@rjallain/video-analysis-and-pytof-the-spacex-double-booster-landing-d3e195cf0625"
+isUpdated: true
 ---
+
+
 
 비디오에서도 놀랍게 멋진 광경이에요. 두 개의 로켓이 빠르게 다가오지만 각자의 플랫폼에 옆으로 착륙하는 걸 볼 수 있어요. 이게 바로 SpaceX 파이콘 헤비 부스터의 작동 방식이에요. 이 비디오를 보세요.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating React Application into ASP.NET MVC Project: A Step-by-Step Guide"
 link: "https://medium.com/@tauseefakram396/integrating-react-application-into-asp-net-mvc-project-a-step-by-step-guide-c75802627b32"
+isUpdated: true
 ---
+
+
 
 
 소개: 웹 개발 분야에서, React와 같은 현대적인 JavaScript 프레임워크를 전통적인 MVC (Model-View-Controller) 응용 프로그램에 통합하는 것이 일반적인 실천 방법이 되었습니다. 이러한 통합을 통해 개발자들은 React의 구성 요소 기반 아키텍처의 강점을 ASP.NET MVC의 익숙한 구조 내에서 활용할 수 있습니다. 이 안내서에서는 React 애플리케이션을 ASP.NET MVC 프로젝트에 매끄럽게 통합하는 과정을 안내하겠습니다.

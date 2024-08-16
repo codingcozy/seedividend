@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Linear Algebra Concepts Every Data Scientist Should Know"
 link: "https://medium.com/bitgrit-data-science-publication/linear-algebra-concepts-every-data-scientist-should-know-18b00bd453dd"
+isUpdated: true
 ---
+
+
 
 
 ## 데이터 과학

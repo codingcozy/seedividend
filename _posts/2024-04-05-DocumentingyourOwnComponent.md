@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Documenting your Own Component"
 link: "https://medium.com/@beecodeguy/documenting-function-component-4c6088dba7d9"
+isUpdated: true
 ---
+
+
 
 
 

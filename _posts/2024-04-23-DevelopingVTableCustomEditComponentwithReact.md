@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Developing VTable Custom Edit Component with React"
 link: "https://medium.com/@xuanhun9/developing-vtable-custom-edit-component-with-react-70e412a5b417"
+isUpdated: true
 ---
+
+
 
 
 

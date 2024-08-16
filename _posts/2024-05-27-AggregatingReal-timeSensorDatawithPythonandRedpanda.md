@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Aggregating Real-time Sensor Data with Python and Redpanda"
 link: "https://medium.com/towards-data-science/aggregating-real-time-sensor-data-with-python-and-redpanda-30a139d59702"
+isUpdated: true
 ---
+
+
 
 
 ## 간단한 Python을 사용한 스트림 처리 및 tumbling windows

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enchanting Beauty of Swat, Pakistan"
 link: "https://medium.com/@allo_lalo_allo/enchanting-beauty-of-swat-pakistan-5a0218ee3510"
+isUpdated: true
 ---
+
+
 
 
 ![Swat, Pakistan](/assets/img/2024-06-20-EnchantingBeautyofSwatPakistan_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bundling (JavaScript CSS) for ASP.NET Core 8.0 Web Applications"
 link: "https://medium.com/gitconnected/bundling-javascript-css-for-asp-net-core-8-0-web-applications-e616875c7d1b"
+isUpdated: true
 ---
+
+
 
 
 ASP.NET Core 웹 프로젝트는 이제 JS/CSS 번들링을 기본으로 제공하지 않습니다. ASP.NET Core는 이제 응용 프로그램 개발자가 자체 번들링 솔루션을 제공하기를 기대하기 때문에, 본 블로그 포스트에서는 ASP.NET Core 웹 응용 프로그램을 위한 사용자 정의 JS/CSS 번들링을 구현할 것입니다.

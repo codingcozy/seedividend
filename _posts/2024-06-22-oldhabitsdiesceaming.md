@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "old habits die sceaming"
 link: "https://medium.com/@sawndcheck/old-habits-die-sceaming-c2f053d78e55"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-22-oldhabitsdiesceaming_0.png)

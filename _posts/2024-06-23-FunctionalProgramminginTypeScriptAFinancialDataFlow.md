@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Functional Programming in TypeScript: A Financial Data Flow"
 link: "https://medium.com/@rasool.rahmanzade/functional-programming-in-typescript-a-financial-data-flow-033e0ede3b93"
+isUpdated: true
 ---
+
+
 
 
 

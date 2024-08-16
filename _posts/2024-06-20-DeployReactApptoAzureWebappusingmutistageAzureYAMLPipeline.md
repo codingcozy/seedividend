@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploy React App to Azure Webapp using muti stage Azure YAML Pipeline"
 link: "https://medium.com/@prasad.reddy0708/deploy-react-app-to-azure-webapp-using-muti-stage-azure-yaml-pipeline-99444112437f"
+isUpdated: true
 ---
+
+
 
 
 이 글에서는 Azure YAML Pipeline을 사용하여 React 앱을 Azure Webapp에 배포하는 배포 프로세스를 안내하겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to install Nodejs by NVM"
 link: "https://medium.com/geekculture/how-to-install-node-js-by-nvm-61addf4ab1ba"
+isUpdated: true
 ---
+
+
 
 
 

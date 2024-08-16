@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Choosing the Right CSS Size Unit"
 link: "https://medium.com/@rashmipatil24/css-size-unit-d1e2abb334d7"
+isUpdated: true
 ---
+
+
 
 
 

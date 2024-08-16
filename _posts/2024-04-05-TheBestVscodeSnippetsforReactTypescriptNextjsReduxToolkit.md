@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Best Vscode Snippets for React Typescript  Nextjs  Redux Toolkit"
 link: "https://medium.com/@bhanu1776/the-best-vscode-snippets-for-react-typescript-nextjs-redux-toolkit-e70db3ed3afd"
+isUpdated: true
 ---
+
+
 
 
 

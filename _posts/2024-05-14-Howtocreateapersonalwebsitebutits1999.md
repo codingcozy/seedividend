@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create a personal website, but it’s 1999"
 link: "https://medium.com/@mihauco/how-to-create-a-personal-website-but-its-1999-48283b1f5be4"
+isUpdated: true
 ---
+
+
 
 
 20년 전 웹 개발자의 삶이 어땠는지, 인터넷이 여전히 새로운 개념이었고 웹에 접속하기 전에 이상한 비프음과 부우우우음을 들어야 했던 시절에 JavaScript와 CSS는 궁금한 것 이상의 것이었으며 간단한 웹사이트를 만드는 데 흔히 사용되는 것보다 eer바나 클 친 인터넷익스플로러가 가장 인기 있었던 시기란게 궁금했나요? 아마도 그렇지 않았을 것입니다... 하지만 여유로운 몇 분이 있고 쓸데없는 새로운 것을 배우고 싶다면 — 이 ㄱㄷㄷ은 당신을 실망시키지 않을 겁니다!

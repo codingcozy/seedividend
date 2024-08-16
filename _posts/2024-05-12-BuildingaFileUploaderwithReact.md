@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a File Uploader with React"
 link: "https://medium.com/@blessingmba3/building-a-file-uploader-with-react-11dba6409480"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-BuildingaFileUploaderwithReact_0.png" />

@@ -3,12 +3,15 @@ title: "React와 Vite JS로 Tailwind CSS 설치하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_0.png"
 date: 2024-07-09 18:34
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_0.png
 tag: Tech
 originalTitle: "How to Install Tailwind CSS with React + Vite JS"
 link: "https://medium.com/@ansarimazhar7353/tahow-to-install-tailwind-css-with-react-vite-js-a51f4f89e2ec"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_0.png)
 

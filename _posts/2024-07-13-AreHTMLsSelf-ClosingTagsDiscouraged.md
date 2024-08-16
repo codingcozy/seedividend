@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🧑‍🚀 Are HTML’s Self-Closing Tags Discouraged?"
 link: "https://medium.com/@tomaszs2/are-htmls-self-closing-tags-discouraged-f02a72809415"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_0.png" />

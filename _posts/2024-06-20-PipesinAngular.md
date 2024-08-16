@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pipes in Angular"
 link: "https://medium.com/@aqeelabbas3972/pipes-in-angular-6a871589299d"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-PipesinAngular_0.png" />

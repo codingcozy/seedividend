@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Sidekiq Job Failures A Guide to Idempotence and Safe Retries in Ruby on Rails"
 link: "https://medium.com/@patrykrogedu/mastering-sidekiq-job-failures-a-guide-to-idempotence-and-safe-retries-in-ruby-on-rails-0555c0d0b4d9"
+isUpdated: true
 ---
+
+
 
 
 

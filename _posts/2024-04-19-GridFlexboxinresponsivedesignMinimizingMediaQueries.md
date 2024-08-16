@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Grid , Flexbox in responsive design Minimizing Media Queries"
 link: "https://medium.com/@armstrongjustin034/grid-flexbox-in-responsive-design-minimizing-media-queries-1d00e1791c3b"
+isUpdated: true
 ---
+
+
 
 
 

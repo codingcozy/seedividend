@@ -3,12 +3,15 @@ title: "기초 마스터하기 첫 번째 간단한 게임 코딩하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-MastertheBasicsHowtoCodeYourFirstSimpleGame_0.png"
 date: 2024-07-09 14:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-MastertheBasicsHowtoCodeYourFirstSimpleGame_0.png
 tag: Tech
 originalTitle: "Master the Basics: How to Code Your First Simple Game"
 link: "https://medium.com/@learntocodetoday/master-the-basics-how-to-code-your-first-simple-game-70d7d076b39e"
+isUpdated: true
 ---
+
+
 
 ![게임 개발 이미지](/assets/img/2024-07-09-MastertheBasicsHowtoCodeYourFirstSimpleGame_0.png)
 

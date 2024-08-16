@@ -3,12 +3,15 @@ title: "알아두면 쓸모 있는 잘 알려지지 않은 CSS 속성 10가지 -
 description: ""
 coverImage: "/assets/img/2024-07-09-10lesserknownCSSpropertiespart2_0.png"
 date: 2024-07-09 18:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-10lesserknownCSSpropertiespart2_0.png
 tag: Tech
 originalTitle: "10 lesser known CSS properties part 2"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-properties-part-2-2414b8df4278"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-10lesserknownCSSpropertiespart2_0.png)
 

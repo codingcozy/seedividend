@@ -3,12 +3,15 @@ title: "실시간 투표 앱 만들기 튜토리얼 코드 예제 포함"
 description: ""
 coverImage: "/assets/img/2024-07-09-CreateaReal-TimeVotingAppACodingTutorial_0.png"
 date: 2024-07-09 13:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CreateaReal-TimeVotingAppACodingTutorial_0.png
 tag: Tech
 originalTitle: "Create a Real-Time Voting App: A Coding Tutorial"
 link: "https://medium.com/@learntocodetoday/create-a-real-time-voting-app-a-coding-tutorial-55ef0f2629da"
+isUpdated: true
 ---
+
+
 
 ![Tutorial Image](/assets/img/2024-07-09-CreateaReal-TimeVotingAppACodingTutorial_0.png)
 

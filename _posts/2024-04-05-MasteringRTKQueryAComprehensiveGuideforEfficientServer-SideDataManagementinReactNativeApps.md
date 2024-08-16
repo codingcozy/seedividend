@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering RTK Query A Comprehensive Guide for Efficient Server-Side Data Management in React Native Apps"
 link: "https://medium.com/reactnativepro/mastering-rtk-query-a-comprehensive-guide-for-efficient-server-side-data-management-in-react-a61662c8d9ed"
+isUpdated: true
 ---
+
+
 
 
 

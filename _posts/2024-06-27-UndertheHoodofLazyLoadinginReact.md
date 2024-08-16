@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Under the Hood of Lazy Loading in React"
 link: "https://medium.com/@princybhalu11/under-the-hood-of-lazy-loading-in-react-a758fe89686f"
+isUpdated: true
 ---
+
+
 
 
 우리와 함께 게으른 로딩의 세계로 들어가보세요! 이 블로그에서는 게으른 로딩 뒤에 숨겨진 비밀을 밝혀내며, 이 똑똑한 기술이 앱의 성능을 최적화하는 방법을 안내해 드릴 거에요. 리액트가 어떻게 구성 요소를 동적으로 로드하고 사용자 경험을 향상시키는 지 살펴보며 함께 재미있게 탐험해 봐요. 당신의 앱 속도와 효율을 높이기 준비가 되셨나요? 함께 시작해봅시다!

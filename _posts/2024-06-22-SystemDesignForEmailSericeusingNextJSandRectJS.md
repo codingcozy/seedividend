@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "System Design For Email Serice using NextJS and RectJS"
 link: "https://medium.com/@yuvrajgawade/system-design-for-email-serice-using-nextjs-and-rectjs-ab9805127a5e"
+isUpdated: true
 ---
+
+
 
 
 # 소개

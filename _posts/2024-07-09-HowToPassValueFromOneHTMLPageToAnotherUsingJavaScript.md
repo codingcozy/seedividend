@@ -3,12 +3,15 @@ title: "자바스크립트를 사용하여 한 HTML 페이지에서 다른 페�
 description: ""
 coverImage: "/assets/img/2024-07-09-HowToPassValueFromOneHTMLPageToAnotherUsingJavaScript_0.png"
 date: 2024-07-09 18:12
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowToPassValueFromOneHTMLPageToAnotherUsingJavaScript_0.png
 tag: Tech
 originalTitle: "How To Pass Value From One HTML Page To Another Using JavaScript"
 link: "https://medium.com/@cyberbotmachines/how-to-pass-value-from-one-html-page-to-another-using-javascript-3c9ab62df4d"
+isUpdated: true
 ---
+
+
 
 JavaScript의 힘을 활용하여 HTML 페이지 간에 값 전달하는 간단한 튜토리얼입니다.
 

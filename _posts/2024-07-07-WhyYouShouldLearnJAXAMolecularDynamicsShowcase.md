@@ -3,12 +3,15 @@ title: "JAX를 배워야 하는 이유 분자동역학 적용 사례 소개"
 description: ""
 coverImage: "/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png"
 date: 2024-07-07 12:50
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png
 tag: Tech
 originalTitle: "Why You Should Learn JAX: A Molecular Dynamics Showcase"
 link: "https://medium.com/@hghcomphys/why-you-should-learn-jax-a-molecular-dynamics-showcase-f7e79b58be01"
+isUpdated: true
 ---
+
+
 
 파이썬 스크립트를 최적화하기 위해 PyTorch에 실망한 후 JAX를 사용하기 시작했습니다. 내 프로젝트는 주로 두 가지 주요 구성 요소로 이루어져 있었습니다: 원자 위치를 기반으로 설명자를 계산하고 이러한 설명자를 여러 신경망에 입력으로 사용하여 입자 시스템의 총 잠재 에너지와 힘을 예측하는 것이었습니다. 신경망 부분은 충분히 빠르지만, 특히 TorchScript를 사용한 후에도 설명자 계산, 특히 그래디언트 평가는 효율적으로 수행되지 않았습니다. 자동 미분을 지원하는 Python의 대체 프레임워크를 찾던 중 JAX를 발견했습니다. (물리학적인) 머신러닝 모델을 구축하는 데 매우 효과적이었고 필요한 유연성과 성능을 모두 제공했습니다.
 

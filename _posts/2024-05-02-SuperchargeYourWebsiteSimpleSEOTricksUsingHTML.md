@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Supercharge Your Website! Simple SEO Tricks Using HTML"
 link: "https://medium.com/@poojagundami/supercharge-your-website-simple-seo-tricks-using-html-5d6e8b3cec3f"
+isUpdated: true
 ---
+
+
 
 
 ![Supercharge Your Website with Simple SEO Tricks Using HTML](/assets/img/2024-05-02-SuperchargeYourWebsiteSimpleSEOTricksUsingHTML_0.png)

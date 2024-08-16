@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to install Open WebUI without Docker"
 link: "https://medium.com/@bhavikjikadara/how-to-install-open-webui-without-docker-33eedbda9b96"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-20-HowtoinstallOpenWebUIwithoutDocker_0.png)

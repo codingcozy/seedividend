@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I tried React Compiler today, and guess what… 😉"
 link: "https://medium.com/@adevnadia/i-tried-react-compiler-today-and-guess-what-c0570ce10ecc"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-ItriedReactCompilertodayandguesswhat_0.png" />

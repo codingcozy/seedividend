@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Roadmap to Learn AI in 2024"
 link: "https://medium.com/bitgrit-data-science-publication/a-roadmap-to-learn-ai-in-2024-cc30c6aa6e16"
+isUpdated: true
 ---
+
+
 
 
 ## AI를 배우고 싶나요?

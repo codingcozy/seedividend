@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Improve your word potential with a word counter and text analyzer"
 link: "https://medium.com/@living2code/improve-your-word-potential-with-a-word-counter-and-text-analyzer-fac2f9ac88c4"
+isUpdated: true
 ---
+
+
 
 
 텍스트 분석을 통해 더 나은 글을 작성할 수 있는 잘 알려진 도구입니다

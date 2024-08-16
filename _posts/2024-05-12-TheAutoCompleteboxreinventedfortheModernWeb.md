@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The AutoComplete box, reinvented for the Modern Web"
 link: "https://medium.com/cto-as-a-service/the-autocomplete-box-reinvented-for-the-modern-web-2848430df1e9"
+isUpdated: true
 ---
+
+
 
 
 ## 모든 곳에서 작동하며 의존성이 전혀 없는 다재다능한 접근 가능한 자동완성 웹 구성 요소.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding JavaScript Promises: The BMW Story"
 link: "https://medium.com/@danielochoja/understanding-javascript-promises-the-bmw-story-00ba7f0227ad"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-23-UnderstandingJavaScriptPromisesTheBMWStory_0.png)

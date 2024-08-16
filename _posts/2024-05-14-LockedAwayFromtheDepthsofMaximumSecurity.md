@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Locked Away: From the Depths of Maximum Security"
 link: "https://medium.com/@IAmDivine333/locked-away-from-the-depths-of-maximum-security-cdefc8d712ba"
+isUpdated: true
 ---
+
+
 
 
 Chapter three

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TechPopup  Ecommerce Popup HTML Template Site Templates Web Templates"
 link: "https://medium.com/@codecatalina/techpopup-ecommerce-popup-html-template-site-templates-web-templates-b7a720090c3a"
+isUpdated: true
 ---
+
+
 
 
 

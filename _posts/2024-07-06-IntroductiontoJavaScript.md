@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to JavaScript"
 link: "https://medium.com/@shivabiradar2003/introduction-to-javascript-83a3cebbfc6c"
+isUpdated: true
 ---
+
+
 
 
 자바스크립트는 브라우저에서 실행되어 웹페이지를 인터랙티브하게 만듭니다.

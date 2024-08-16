@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "6 ways to dynamically style Angular components"
 link: "https://medium.com/swlh/6-ways-to-dynamically-style-angular-components-b43e037852fa"
+isUpdated: true
 ---
+
+
 
 
 

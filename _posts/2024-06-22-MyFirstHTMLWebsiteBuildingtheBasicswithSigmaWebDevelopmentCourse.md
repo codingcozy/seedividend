@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My First HTML Website: Building the Basics with Sigma Web Development Course"
 link: "https://medium.com/@work.abdulhamid/my-first-html-website-building-the-basics-with-sigma-web-development-course-6306fd371003"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분! Sigma 웹 개발 코스에서의 웹 개발 여정에 대한 또 다른 흥미로운 업데이트로 돌아왔어요. 두 번째 튜토리얼에서는 첫 번째 HTML 웹사이트를 만드는 방법을 배웠어요. 정말 멋진 경험이었고, 여러분과 자세한 내용을 공유할 수 있어 기쁩니다. 함께 알아봐요!

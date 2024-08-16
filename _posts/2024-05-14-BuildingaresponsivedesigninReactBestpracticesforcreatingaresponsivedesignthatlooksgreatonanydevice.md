@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a responsive design in React: Best practices for creating a responsive design that looks great on any device."
 link: "https://medium.com/@jadencook.us/building-a-responsive-design-in-react-best-practices-for-creating-a-responsive-design-that-looks-72c11d0854fd"
+isUpdated: true
 ---
+
+
 
 
 반응형 디자인은 현대 웹 개발의 중요한 측면이 되었습니다. 이 기사에서는 React에서 반응형 디자인을 구축하는 최상의 방법과 어떻게 모든 기기에서 멋지게 보이는 디자인을 만들 수 있는지 알아보겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Extract Images from PDF Documents in Python"
 link: "https://medium.com/@alexaae9/python-how-to-extract-images-from-pdf-documents-9492a767a613"
+isUpdated: true
 ---
+
+
 
 
 

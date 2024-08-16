@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Interviewing at Staff+ level"
 link: "https://medium.com/@manuelvicnt/interviewing-at-staff-level-7a31836285e6"
+isUpdated: true
 ---
+
+
 
 
 Staff+ Individual Contributor (IC) 레벨 직책에 대한 면접을 진행하는 것은 도전적이면서도 흥미로운 경험일 수 있어요. 이러한 직책에 채용되기를 염원하는 당신은 새로운 기업 문화, 기술 스택 및 비즈니스 영역에 적응할 수 있는 능력에 대한 불확실성에 맞서야 할 수 있어요. 그렇다면... 이런 면접을 어떻게 준비해야 할까요?

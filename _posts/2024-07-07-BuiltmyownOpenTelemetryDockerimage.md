@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Built my own OpenTelemetry Docker image"
 link: "https://medium.com/@lyd0ng/built-my-own-opentelemetry-docker-image-dc6f35257c80"
+isUpdated: true
 ---
+
+
 
 
 오픈텔레메트리는 요즘 로깅, 메트릭 및 추적에 대한 최신 유행어가 되었어요. 간단히 말하면, '관측 가능성'입니다. 저는 ECS에서 실행 중인 애플리케이션을 가지고 있는데, 모든 ECS 컨테이너가 로그를 보낼 수 있는 중앙 집중식 오픈텔레메트리 수집기를 개발하고 싶어요. 이렇게 하면 비용을 줄이고 각 ECS 서비스마다 하나의 사이드카 OTel 수신기를 추가 관리할 필요도 없어져요.

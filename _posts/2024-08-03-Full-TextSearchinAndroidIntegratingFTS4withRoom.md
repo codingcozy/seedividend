@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Full-Text Search in Android Integrating FTS4 with Room"
 link: "https://medium.com/@ccansuccanturk/fts4-full-text-search-in-android-273366e488ae"
+isUpdated: true
 ---
+
+
 
 
 

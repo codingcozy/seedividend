@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Weather Forecast Application with HTML, CSS, and JavaScript: A Step-by-Step Guide"
 link: "https://medium.com/coinmonks/building-a-weather-forecast-application-with-html-css-and-javascript-a-step-by-step-guide-998583ec501b"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-20-BuildingaWeatherForecastApplicationwithHTMLCSSandJavaScriptAStep-by-StepGuide_0.png)

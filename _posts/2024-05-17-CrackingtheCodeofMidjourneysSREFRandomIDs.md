@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Cracking the Code of Midjourney’s SREF Random IDs"
 link: "https://medium.com/design-bootcamp/cracking-the-code-of-midjourneys-sref-random-ids-04d3634d17d5"
+isUpdated: true
 ---
+
+
 
 
 ## MIDJOURNEY & SREF 코드 숙달하기

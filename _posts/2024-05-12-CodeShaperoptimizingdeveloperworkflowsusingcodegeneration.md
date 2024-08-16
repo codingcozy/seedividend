@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Code Shaper — optimizing developer workflows using code generation"
 link: "https://medium.com/@NareshBhatia/code-shaper-optimizing-developer-workflows-using-code-generation-f34661e6618a"
+isUpdated: true
 ---
+
+
 
 
 스타터 템플릿과 코드 생성기는 개발자들이 새로운 언어나 프레임워크로 시작하는 인기 있는 방법입니다. 그러나 많은 경우 이들은 효율적이고 견고한 개발 워크플로우를 지원하지 못하는 것이 문제입니다. 대부분의 코드 생성기는 프로덕션 품질의 도구가 없으며 생성 능력이 제한되어 사용자 정의를 공유하기 어렵게 만듭니다.

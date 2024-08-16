@@ -3,12 +3,15 @@ title: "SQLAlchemy ORM 시작하기  데이터 가져오기 버전 35"
 description: ""
 coverImage: "/assets/img/2024-07-07-GettingStartedwithSQLAlchemyORMDataFetching35_0.png"
 date: 2024-07-07 21:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-GettingStartedwithSQLAlchemyORMDataFetching35_0.png
 tag: Tech
 originalTitle: "Getting Started with SQLAlchemy ORM — Data Fetching (3 5)"
 link: "https://medium.com/@tomas-svojanovsky/getting-started-with-sqlalchemy-orm-data-fetching-3-5-a968414fd871"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-GettingStartedwithSQLAlchemyORMDataFetching35_0.png)
 

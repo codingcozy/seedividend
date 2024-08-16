@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Work with useMemo in React — with Code Examples (1 2)"
 link: "https://medium.com/@ed.wacc1995/how-to-work-with-usememo-in-react-with-code-examples-1-2-2c67ef33e369"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-HowtoWorkwithuseMemoinReactwithCodeExamples12_0.png" />

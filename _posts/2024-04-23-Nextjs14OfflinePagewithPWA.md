@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nextjs 14 Offline Page with PWA"
 link: "https://medium.com/@mertenercan/nextjs-14-offline-page-with-pwa-6868c02bfefb"
+isUpdated: true
 ---
+
+
 
 
 

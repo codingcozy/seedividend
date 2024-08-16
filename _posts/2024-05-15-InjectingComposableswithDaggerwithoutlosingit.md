@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Injecting Composables with Dagger without losing it"
 link: "https://medium.com/proandroiddev/injecting-composables-with-dagger-without-losing-it-bcf5a6988229"
+isUpdated: true
 ---
+
+
 
 
 

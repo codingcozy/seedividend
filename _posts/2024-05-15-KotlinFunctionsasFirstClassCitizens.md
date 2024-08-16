@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kotlin: Functions as First Class Citizens"
 link: "https://medium.com/@chetan-garg36/kotlin-functions-as-first-class-citizens-a88178c554dd"
+isUpdated: true
 ---
+
+
 
 
 코틀린에서 함수 구성 이해하기

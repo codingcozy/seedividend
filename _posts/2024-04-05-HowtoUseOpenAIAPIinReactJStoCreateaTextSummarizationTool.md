@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Use OpenAI API in ReactJS to Create a Text Summarization Tool"
 link: "https://medium.com/@ayyazzafar/how-to-use-openai-api-in-reactjs-to-create-a-text-summarization-tool-ce82e5461f03"
+isUpdated: true
 ---
+
+
 
 
 

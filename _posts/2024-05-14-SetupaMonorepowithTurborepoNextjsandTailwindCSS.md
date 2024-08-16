@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setup a Monorepo with Turborepo, Next.js, and Tailwind CSS"
 link: "https://medium.com/@mrizkiaiman/setup-a-monorepo-with-turborepo-next-js-and-tailwind-css-5cd751d34bc9"
+isUpdated: true
 ---
+
+
 
 
 현대 웹 애플리케이션이 크기와 복잡성 모두 증가함에 따라, 개발자들은 코드베이스를 더 효율적으로 관리할 방법을 찾고 있습니다. 모노리포는 여러 프로젝트를 단일 저장소에서 관리할 수 있는 솔루션을 제공합니다.

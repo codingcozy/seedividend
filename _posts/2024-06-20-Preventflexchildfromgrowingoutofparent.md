@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Prevent flex child from growing out of parent"
 link: "https://medium.com/@adeli.farhad/prevent-flex-child-from-growing-out-of-parent-c2d55ebd079a"
+isUpdated: true
 ---
+
+
 
 
 부모 요소 내에 맞춰 콘텐츠 크기를 줄이고 싶어요.

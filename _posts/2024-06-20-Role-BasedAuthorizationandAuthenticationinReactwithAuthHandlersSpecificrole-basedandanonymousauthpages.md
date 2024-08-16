@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Role-Based Authorization and Authentication in React with Auth Handlers — Specific role-based and anonymous auth pages"
 link: "https://medium.com/@siva.veeravarapu/role-based-authorization-and-authentication-in-react-with-auth-handlers-specific-role-based-and-466c4483a2fb"
+isUpdated: true
 ---
+
+
 
 
 Role-based 인가 및 인증은 React 애플리케이션을 안전하게 유지하기 위해 사용자 역할에 따라 애플리케이션의 다른 부분에 대한 액세스를 제어하는 데 필수적입니다. 인증 핸들러를 사용하여 인증 및 권한 부여 논리를 관리할 것입니다.

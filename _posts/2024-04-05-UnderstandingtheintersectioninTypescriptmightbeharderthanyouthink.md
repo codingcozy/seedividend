@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the intersection in Typescript might be harder than you think"
 link: "https://medium.com/@trekinbami/understanding-the-intersection-in-typescript-might-be-harder-than-you-think-d185beb234a0"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying Ollama and Open Web UI on Kubernetes"
 link: "https://medium.com/@0xthresh/deploying-ollama-and-open-web-ui-on-kubernetes-7a05c986153e"
+isUpdated: true
 ---
+
+
 
 
 여러 이유들로 인해 별도의 긴 텍스트 블로그 게시물에서 설명할 것을 계획한 대로, 저는 팀이 AI 모델을 자체 호스팅하고 개발 팀을 더 효율적으로 만들 수 있는지 조사하는 실험을 진행하기로 결정했습니다. 본문에서는 우리 팀을 위해 쿠버네티스에서 Ollama와 Open Web UI를 호스팅하기 위해 구축한 아키텍처에 대해 설명하고, 왜 그것을 선택했는지 설명하겠습니다.

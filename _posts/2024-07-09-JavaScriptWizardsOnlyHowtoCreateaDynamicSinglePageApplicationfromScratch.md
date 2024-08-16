@@ -3,12 +3,15 @@ title: "자바스크립트 고수만을 위한 스크래치부터 동적 싱글 
 description: ""
 coverImage: "/assets/img/2024-07-09-JavaScriptWizardsOnlyHowtoCreateaDynamicSinglePageApplicationfromScratch_0.png"
 date: 2024-07-09 08:50
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-JavaScriptWizardsOnlyHowtoCreateaDynamicSinglePageApplicationfromScratch_0.png
 tag: Tech
 originalTitle: "JavaScript Wizards Only: How to Create a Dynamic Single Page Application from Scratch!"
 link: "https://medium.com/@learntocodetoday/javascript-wizards-only-how-to-create-a-dynamic-single-page-application-from-scratch-f9555491032f"
+isUpdated: true
 ---
+
+
 
 ![JavaScript Wizards Only](/assets/img/2024-07-09-JavaScriptWizardsOnlyHowtoCreateaDynamicSinglePageApplicationfromScratch_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking State Management: A Deep Dive into React Context"
 link: "https://medium.com/@saha.poulami91/unlocking-state-management-a-deep-dive-into-react-context-f261595f3346"
+isUpdated: true
 ---
+
+
 
 
 React Context은 React 애플리케이션 내의 컴포넌트 트리를 통해 데이터를 수동으로 props를 전달하지 않고 전달할 수 있는 방법을 제공합니다. Props Drilling이라고도 합니다. 이것의 목적은 React 애플리케이션 내에서 상태 관리를 단순화하고 컴포넌트 간에 전역 데이터 공유를 활성화하는 것입니다.

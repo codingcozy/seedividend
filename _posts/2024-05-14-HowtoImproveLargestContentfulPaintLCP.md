@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Improve Largest Contentful Paint (LCP)?"
 link: "https://medium.com/javascript-in-plain-english/how-to-improve-largest-contentful-paint-lcp-be5d598caf38"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-HowtoImproveLargestContentfulPaintLCP_0.png)

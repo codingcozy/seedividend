@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Design Patterns in Node.js"
 link: "https://medium.com/@techsuneel99/design-patterns-in-node-js-31211904903e"
+isUpdated: true
 ---
+
+
 
 
 Node.js는 이벤트 주도, 비차단 I/O 모델을 사용하여 확장 가능한 네트워크 애플리케이션을 개발할 수 있는 인기 있는 JavaScript 런타임입니다. 다양한 디자인 패턴을 사용하면 코드 재사용, 유지 관리성 및 견고성을 증진시킬 수 있습니다. 이 기사에서는 Node.js 개발에 가장 유용한 디자인 패턴 중 일부를 개요하겠습니다.

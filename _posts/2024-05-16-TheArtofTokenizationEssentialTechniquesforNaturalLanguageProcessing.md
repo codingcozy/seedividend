@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Art of Tokenization: Essential Techniques for Natural Language Processing"
 link: "https://medium.com/@vishitabatra/the-art-of-tokenization-essential-techniques-for-natural-language-processing-f3307061ed49"
+isUpdated: true
 ---
+
+
 
 
 토큰화가 어떻게 발전해 왔는지 궁금하신가요? 현재의 대형 언어 모델(Large Language Models)은 어떤 기술을 사용하여 토큰화를 수행할까요? 함께 알아보도록 해요!

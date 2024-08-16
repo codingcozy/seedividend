@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Someone Asked Me What Self Taught Programmers Lack"
 link: "https://medium.com/stackademic/someone-asked-me-what-self-taught-programmers-lack-d1c33d63fba5"
+isUpdated: true
 ---
+
+
 
 
 ## 프로그래밍 의견

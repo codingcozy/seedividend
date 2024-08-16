@@ -3,12 +3,15 @@ title: "수학적 발견을 위한 Kolmogorov-Arnold 네트워크 소개"
 description: ""
 coverImage: "/assets/img/2024-07-09-Kolmogorov-ArnoldNetworksforMathematicalDiscovery_0.png"
 date: 2024-07-09 14:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Kolmogorov-ArnoldNetworksforMathematicalDiscovery_0.png
 tag: Tech
 originalTitle: "Kolmogorov-Arnold Networks for Mathematical Discovery"
 link: "https://medium.com/towards-artificial-intelligence/kolmogorov-arnold-networks-for-mathematical-discovery-4e1054b10219"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-Kolmogorov-ArnoldNetworksforMathematicalDiscovery_0.png"/>
 

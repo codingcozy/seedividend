@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Playing with the GamePad API"
 link: "https://medium.com/gitconnected/playing-with-the-gamepad-api-c46858c38cb1"
+isUpdated: true
 ---
+
+
 
 
 ![게임패드API](/assets/img/2024-05-01-PlayingwiththeGamePadAPI_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top React Boilerplates 2024: complete research"
 link: "https://medium.com/javascript-in-plain-english/top-react-boilerplates-2024-complete-research-033f012603df"
+isUpdated: true
 ---
+
+
 
 
 

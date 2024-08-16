@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What Fired My useEffect"
 link: "https://medium.com/javascript-in-plain-english/what-fired-my-useeffect-913c827c32d5"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Full Stack Tutorial: Secure File Upload with Presigned URLs in React and Node.js (AWS S3)"
 link: "https://medium.com/dev-genius/full-stack-tutorial-secure-file-upload-with-presigned-urls-in-react-and-node-js-aws-s3-2eb2643b168c"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 안전한 파일 업로드 시스템을 구축하는 방법에 대한 포괄적인 자습서에 오신 것을 환영합니다. 이 가이드에서는 React 프런트엔드 설정부터 Node.js 백엔드(Express 사용) 생성 및 안전한 저장소로 AWS S3를 활용하는 전체 프로세스를 안내해 드릴 것입니다.

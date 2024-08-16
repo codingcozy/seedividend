@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Boosting React Native Performance with Lazy Loading and Code Splitting"
 link: "https://sugandsingh5566.medium.com/boosting-react-native-performance-with-lazy-loading-and-code-splitting-f7d0f7268e7e"
+isUpdated: true
 ---
+
+
 
 
 

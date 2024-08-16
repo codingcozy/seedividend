@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "When We Talk about Front-end Performance, What Are We Talking About"
 link: "https://medium.com/gitconnected/when-we-talk-about-front-end-performance-what-are-we-talking-about-4efb8d2389af"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-WhenWeTalkaboutFront-endPerformanceWhatAreWeTalkingAbout_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Prerequisites"
 link: "https://medium.com/@zemmel.mootez/implementing-keycloak-authentication-in-a-next-js-application-0033a6569ec2"
+isUpdated: true
 ---
+
+
 
 
 ## Next.js 어플리케이션에서 Keycloak 인증 구현하기

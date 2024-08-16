@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Must-Have Features for Your Fantasy App in 2024"
 link: "https://medium.com/@davidwyatt309/5-must-have-features-for-your-fantasy-app-in-2024-aa2e5085ce72"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-5Must-HaveFeaturesforYourFantasyAppin2024_0.png" />

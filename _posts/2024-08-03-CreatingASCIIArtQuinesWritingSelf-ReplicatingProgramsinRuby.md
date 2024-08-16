@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating ASCII Art Quines Writing Self-Replicating Programs in Ruby"
 link: "https://medium.com/@sean0628/creating-ascii-art-quines-writing-self-replicating-programs-in-ruby-c5d1f7a1c4e0"
+isUpdated: true
 ---
+
+
 
 
 # 쿼인(Quine)이란 무엇인가요?

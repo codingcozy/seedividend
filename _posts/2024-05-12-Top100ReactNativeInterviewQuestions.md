@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 100 React Native Interview Questions"
 link: "https://medium.com/@anupamsingh696/top-100-react-native-interview-questions-e68f17e50e98"
+isUpdated: true
 ---
+
+
 
 
 React Native의 주요 아이디어는 개발자들이 네이티브한 외관과 느낌을 가진 모바일 애플리케이션을 작성할 수 있도록 하는 동시에 웹 개발의 효율성과 유연성을 활용하는 것입니다. 이를 달성하기 위해 개발자들은 React를 사용하여 컴포넌트를 작성하고, 이후 해당 컴포넌트를 네이티브 플랫폼 컴포넌트로 렌더링할 수 있습니다.

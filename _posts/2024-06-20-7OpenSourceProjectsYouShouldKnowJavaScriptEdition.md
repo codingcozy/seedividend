@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "7 Open Source Projects You Should Know [JavaScript Edition] ✔️"
 link: "https://medium.com/@domenicotenace/7-open-source-projects-you-should-know-javascript-edition-%EF%B8%8F-180833ee9b22"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-20-7OpenSourceProjectsYouShouldKnowJavaScriptEdition_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stunning WebGL Dot Spheres"
 link: "https://medium.com/@whwrd/stunning-dot-spheres-with-webgl-4b3b06592017"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TechAuth  Auth Pages Tailwind CSS 3 HTML Template Site Templates Web Templates"
 link: "https://medium.com/@glitchgiselle/techauth-auth-pages-tailwind-css-3-html-template-site-templates-web-templates-7bbcb2da95bd"
+isUpdated: true
 ---
+
+
 
 
 

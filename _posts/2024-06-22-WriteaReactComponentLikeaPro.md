@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Write a React Component Like a Pro"
 link: "https://medium.com/javascript-in-plain-english/write-a-react-component-like-a-pro-4852109ffee5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-WriteaReactComponentLikeaPro_0.png" />

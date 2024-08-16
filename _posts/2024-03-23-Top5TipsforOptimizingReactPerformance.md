@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 5 Tips for Optimizing React Performance"
 link: "https://blog.bitsrc.io/tips-for-optimizing-react-performance-890f2b3a36d7"
+isUpdated: true
 ---
+
+
 
 
 

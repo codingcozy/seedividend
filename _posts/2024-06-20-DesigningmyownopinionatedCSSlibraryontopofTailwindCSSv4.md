@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🌈 Designing my own opinionated CSS library on top of TailwindCSS v4"
 link: "https://medium.com/the-research-nest/designing-my-own-opinionated-css-library-on-top-of-tailwindcss-v4-8f8e11f4a875"
+isUpdated: true
 ---
+
+
 
 
 ## AltCSS를 소개합니다

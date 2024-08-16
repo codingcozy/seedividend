@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an AI Text-to-Video Model from Scratch Using Python"
 link: "https://medium.com/gitconnected/building-an-ai-text-to-video-model-from-scratch-using-python-35b4eb4002de"
+isUpdated: true
 ---
+
+
 
 
 ![Building an AI Text-to-Video Model from Scratch Using Python](/assets/img/2024-06-22-BuildinganAIText-to-VideoModelfromScratchUsingPython_0.png)

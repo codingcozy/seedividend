@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Automatic documentation and Storybook"
 link: "https://storybook.js.org/docs/writing-docs/autodocs"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Flutter SDK Part 2 A Deep Dive Into pubdev"
 link: "https://medium.com/flutter-community/building-a-flutter-sdk-part-2-a-deep-dive-into-pub-dev-03f8339fbc2c"
+isUpdated: true
 ---
+
+
 
 
 

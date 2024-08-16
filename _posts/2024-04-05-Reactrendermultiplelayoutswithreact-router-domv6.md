@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React render multiple layouts with react-router-dom v6"
 link: "https://medium.com/@najm-eddine-zaga/react-render-multiple-layouts-with-react-router-dom-v6-7a42bd984acf"
+isUpdated: true
 ---
+
+
 
 
 

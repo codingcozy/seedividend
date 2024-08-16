@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setting up a Dev Container on Windows 11 for Rust Development"
 link: "https://medium.com/init-deep-dive/setting-up-a-dev-container-on-windows-11-for-rust-development-83038cc11af3"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-SettingupaDevContaineronWindows11forRustDevelopment_0.png)

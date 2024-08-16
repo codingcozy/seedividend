@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hold on, but should design managers design"
 link: "https://medium.com/design-bridges/design-manager-types-b12c980576b5"
+isUpdated: true
 ---
+
+
 
 
 

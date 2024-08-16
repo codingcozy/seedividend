@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing HTML and Javascript Development in Script Editor of Google Apps Script: Overcoming Formatting Challenges"
 link: "https://medium.com/google-cloud/enhancing-html-and-javascript-development-in-script-editor-of-google-apps-script-overcoming-c8702a5500c2"
+isUpdated: true
 ---
+
+
 
 
 

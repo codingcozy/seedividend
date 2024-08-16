@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The V8 JavaScript Engine"
 link: "https://medium.com/@manikmudholkar831995/the-v8-javascript-engine-d1434ca77c96"
+isUpdated: true
 ---
+
+
 
 
 ## Node.js 내부 심층 분석

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Container Internals Series Part 3: Mount Namespace"
 link: "https://medium.com/gitconnected/container-internals-series-part-3-mount-namespace-4b3206709ab8"
+isUpdated: true
 ---
+
+
 
 
 ## Golang을 사용하여 Linux 마운트 네임스페이스 만들기

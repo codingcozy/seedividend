@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CI CD pipeline for React Native apps: use Fastlane and GitHub Actions- Part 1: understand Fastlane"
 link: "https://medium.com/@malikchohra/ci-cd-pipeline-for-react-native-apps-use-fastlane-and-github-actions-40f9ad2036d0"
+isUpdated: true
 ---
+
+
 
 
 ![Screenshot](/assets/img/2024-05-12-CICDpipelineforReactNativeappsuseFastlaneandGitHubActions-Part1understandFastlane_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dependency injection in React"
 link: "https://medium.com/itnext/dependency-injection-in-react-6fa51488509f"
+isUpdated: true
 ---
+
+
 
 
 리액트 컴포넌트에는 비즈니스 로직이 포함되어서는 안 된다고 생각하시나요? 만약 그렇다면 계속 읽어주세요. 아니라면 지금 멈추세요. 이 기사는 다른 사람을 위한 것입니다.

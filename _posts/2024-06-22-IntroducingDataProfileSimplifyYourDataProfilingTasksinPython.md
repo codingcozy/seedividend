@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing DataProfile: Simplify Your Data Profiling Tasks in Python"
 link: "https://medium.com/@rigueiroemiliano/introducing-dataprofile-simplify-your-data-profiling-tasks-in-python-91a52ce033dd"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-IntroducingDataProfileSimplifyYourDataProfilingTasksinPython_0.png" />

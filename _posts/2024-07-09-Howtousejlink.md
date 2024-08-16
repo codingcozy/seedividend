@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use jlink"
 link: "https://medium.com/@cat.edelveis/how-to-use-jlink-0b8f8b340c59"
+isUpdated: true
 ---
+
+
 
 
 ![How to use jlink](/assets/img/2024-07-09-Howtousejlink_0.png)

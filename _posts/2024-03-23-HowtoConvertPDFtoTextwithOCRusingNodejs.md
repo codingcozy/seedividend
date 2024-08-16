@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Convert PDF to Text with OCR using Nodejs"
 link: "https://cloudmersive.medium.com/how-to-convert-pdf-to-text-with-ocr-using-node-js-cfb3630735fb"
+isUpdated: true
 ---
+
+
 
 
 

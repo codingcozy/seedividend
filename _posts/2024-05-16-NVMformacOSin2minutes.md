@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NVM for macOS in 2 minutes"
 link: "https://medium.com/@sergi-jimenez/nvm-for-macos-in-2-minutes-0d5adec21e0a"
+isUpdated: true
 ---
+
+
 
 
 ![NVM for MacOS](/assets/img/2024-05-16-NVMformacOSin2minutes_0.png)  

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Ultimate Guide to the Perfect SCSS Initial Setup for Every React Project"
 link: "https://medium.com/@claude.ando/the-ultimate-guide-to-the-perfect-scss-initial-setup-for-every-react-project-da2da91034d0"
+isUpdated: true
 ---
+
+
 
 
 

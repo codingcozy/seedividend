@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlock the Power of Creative Financing: Build Your Own Seller Financing Calculator in Python 🏠💡"
 link: "https://medium.com/@analyticsariel/unlock-the-power-of-creative-financing-build-your-own-seller-financing-calculator-in-python-97759329e9e0"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png" />

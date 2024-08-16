@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Totoro Toggle Switch Using HTML and CSS"
 link: "https://medium.com/@withaarzoo/building-a-totoro-toggle-switch-using-html-and-css-5043c1904451"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*iYFn9d8WYGm9cfRXBZVzLg.gif)

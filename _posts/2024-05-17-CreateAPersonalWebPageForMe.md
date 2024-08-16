@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create A Personal Web Page For Me"
 link: "https://medium.com/@compcit/create-a-personal-web-page-for-me-4c4a935d046f"
+isUpdated: true
 ---
+
+
 
 
 웹 페이지를 자랑하는 데 도움이 되는 간단한 코드를 제공했습니다. 코드에 여러 기능을 추가하여 나만의 것을 만들어보세요. 이 코드는 단순한 구조일 뿐입니다. "John Doe"를 위한 웹 페이지를 만들어봅시다.

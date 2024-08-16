@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "To Drop-It or to Keep-It? How to Solve a Video Game Inventory Problem with Mathematical Optimization"
 link: "https://medium.com/ai-advances/to-drop-it-or-to-keep-it-126af0f7ece1"
+isUpdated: true
 ---
+
+
 
 
 ![게임 인벤토리 문제 해결을 위한 수학적 최적화를 통한 비디오 게임 인벤토리 문제 해결 방법](/assets/img/2024-07-13-ToDrop-ItortoKeep-ItHowtoSolveaVideoGameInventoryProblemwithMathematicalOptimization_0.png)

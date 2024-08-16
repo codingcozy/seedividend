@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Custom Visual Effects in SwiftUI"
 link: "https://medium.com/@paulocsb/custom-visual-effects-in-swiftui-4c088c7cb20f"
+isUpdated: true
 ---
+
+
 
 
 ![CustomVisualEffectsinSwiftUI](/assets/img/2024-08-04-CustomVisualEffectsinSwiftUI_0.png)

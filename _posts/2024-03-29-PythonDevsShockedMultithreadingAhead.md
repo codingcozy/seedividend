@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " Python Devs Shocked Multithreading Ahead"
 link: "https://medium.com/@tomaszs2/python-devs-shocked-multithreading-ahead-261ef20e8016"
+isUpdated: true
 ---
+
+
 
 
 

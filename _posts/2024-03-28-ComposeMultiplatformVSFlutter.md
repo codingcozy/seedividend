@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Compose Multiplatform VS Flutter"
 link: "https://medium.com/newsoft-official/compose-multiplatform-vs-flutter-771673612c61"
+isUpdated: true
 ---
+
+
 
 
 

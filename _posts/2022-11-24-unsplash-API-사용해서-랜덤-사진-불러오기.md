@@ -1,5 +1,5 @@
 ---
-title: "unsplash API 사용해서 랜덤 사진 불러오는 방법"
+title: "unsplash API를 사용해서 랜덤 사진 불러오는 방법"
 description: "unsplash의 구버전 source api와 신버전 API 사용법에 대해 알아봅니다"
 coverImage: ""
 date: 2024-08-03 16:52
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Structure Your Nextjs App With the New App Router"
 link: "https://medium.com/better-programming/how-to-structure-your-next-js-app-with-the-new-app-router-61bf2bf5a20d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "Vite, Nginx 및 런타임에서 정적 웹 사이트용 환경 변수 �
 description: ""
 coverImage: "/assets/img/2024-05-17-ViteNginxandenvironmentvariablesforastaticwebsiteatruntime_0.png"
 date: 2024-05-17 20:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-17-ViteNginxandenvironmentvariablesforastaticwebsiteatruntime_0.png
 tag: Tech
 originalTitle: "Vite, Nginx and environment variables for a static website at runtime"
 link: "https://medium.com/quadcode-life/vite-nginx-and-environment-variables-for-a-static-website-at-runtime-f3d0b2995fc7"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-17-ViteNginxandenvironmentvariablesforastaticwebsiteatruntime_0.png" />
 

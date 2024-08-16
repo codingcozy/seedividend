@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 React.js Tips and Tricks Everyone Should Know"
 link: "https://dev.to/vyan/top-10-reactjs-tips-and-tricks-everyone-should-know-2m18"
+isUpdated: true
 ---
+
+
 
 
 ### 1. 더 깨끗한 코드를 위해 JSX를 활용해보세요 📝

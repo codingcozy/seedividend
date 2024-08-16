@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Accessing the IoC Container in NestJS: A Practical Logging Library Example"
 link: "https://medium.com/@Abdelrahman_Rezk/accessing-the-ioc-container-in-nestjs-a-practical-logging-library-example-7b34a22fe72d"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-20-AccessingtheIoCContainerinNestJSAPracticalLoggingLibraryExample_0.png](/assets/img/2024-06-20-AccessingtheIoCContainerinNestJSAPracticalLoggingLibraryExample_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TypeScript Enums are Terrible"
 link: "https://medium.com/@vikaskum660/typescript-enums-are-terrible-38078cf1fbb2"
+isUpdated: true
 ---
+
+
 
 
 

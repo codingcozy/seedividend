@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 ES6 Features"
 link: "https://medium.com/stackademic/top-10-es6-features-5f0e998198bb"
+isUpdated: true
 ---
+
+
 
 
 

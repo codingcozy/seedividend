@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TypeScript Strict Mode: Turn It On Immediately Without Refactoring for Months!"
 link: "https://medium.com/@shiviraj/typescript-strict-mode-turn-it-on-immediately-without-refactoring-for-months-1b5a9c4f8af6"
+isUpdated: true
 ---
+
+
 
 
 TypeScript은 JavaScript 응용 프로그램에 유형 안전성과 코드 문서화를 향상시킵니다. 그러나 이전 프로젝트에서는 엄격 모드가 활성화되지 않을 수 있으며, 이는 유형 안전성의 모든 이점을 제대로 활용할 수 없게 할 수 있습니다. 이것은 새로운 사용자의 진입 장벽을 낮추지만, 일부 버그를 컴파일 시간에 감지하지 못하게 합니다.

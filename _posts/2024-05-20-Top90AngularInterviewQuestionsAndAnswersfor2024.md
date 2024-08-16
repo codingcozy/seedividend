@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 90+ Angular Interview Questions And Answers for 2024"
 link: "https://medium.com/@frontendinterviewquestions/top-90-angular-interview-questions-and-answers-55468da98392"
+isUpdated: true
 ---
+
+
 
 
 

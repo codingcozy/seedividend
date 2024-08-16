@@ -3,12 +3,15 @@ title: "Python으로 머신러닝에서 불균형 데이터 다루는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_0.png"
 date: 2024-07-09 14:33
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoHandleImbalancedDataforMachineLearninginPython_0.png
 tag: Tech
 originalTitle: "How to Handle Imbalanced Data for Machine Learning in Python"
 link: "https://medium.com/@semaphoreci/how-to-handle-imbalanced-data-for-machine-learning-in-python-b6d56c9a0489"
+isUpdated: true
 ---
+
+
 
 기계 학습의 분류 문제를 다룰 때 고려해야 할 중요한 요소 중 하나는 레이블을 정의하는 클래스의 균형입니다.
 

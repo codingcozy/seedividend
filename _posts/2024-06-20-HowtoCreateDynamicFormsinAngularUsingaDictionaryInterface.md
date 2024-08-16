@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create Dynamic Forms in Angular Using a Dictionary Interface"
 link: "https://medium.com/stackademic/how-to-create-dynamic-forms-in-angular-using-a-dictionary-interface-36aac956fa86"
+isUpdated: true
 ---
+
+
 
 
 

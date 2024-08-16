@@ -3,12 +3,15 @@ title: "Vite React 프로젝트에서 절대 상대 경로 Imports를 사용하�
 description: ""
 coverImage: "/assets/img/2024-05-12-AbsolutelyDontUseRelativePathsImportsInYourViteReactProject_0.png"
 date: 2024-05-12 21:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AbsolutelyDontUseRelativePathsImportsInYourViteReactProject_0.png
 tag: Tech
 originalTitle: "Absolutely Don’t Use Relative Paths Imports In Your Vite React Project."
 link: "https://medium.com/@pushplaybang/absolutely-dont-use-relative-paths-imports-in-your-vite-react-project-c8593f93bbea"
+isUpdated: true
 ---
+
+
 
 우리 모두는 코드를 작성하기 전에 파일 시스템을 700번이나 탐색하는 것을 멈춰야 합니다. 배워봅시다.
 

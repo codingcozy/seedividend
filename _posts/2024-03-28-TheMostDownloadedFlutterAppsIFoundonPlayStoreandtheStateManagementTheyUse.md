@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Most Downloaded Flutter Apps I Found on PlayStore and the State Management They Use"
 link: "https://medium.com/gitconnected/the-most-downloaded-flutter-apps-i-found-on-playstore-and-the-state-management-they-use-f77f61b6195e"
+isUpdated: true
 ---
+
+
 
 
 

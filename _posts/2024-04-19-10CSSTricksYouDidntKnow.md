@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 CSS Tricks You Didnt Know "
 link: "https://medium.com/@ibnerafi/10-css-tricks-you-didnt-know-3d9eeb2ad233"
+isUpdated: true
 ---
+
+
 
 
 

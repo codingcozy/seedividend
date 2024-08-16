@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Mpesa STK push and CallbackView using Django Rest Framework(DFR)"
 link: "https://medium.com/@gabrielngeti4/implementing-mpesa-stk-push-and-callbackview-using-django-rest-framework-dfr-fc42bf0474df"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-19-ImplementingMpesaSTKpushandCallbackViewusingDjangoRestFrameworkDFR_0.png)

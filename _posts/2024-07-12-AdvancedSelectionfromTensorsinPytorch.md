@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Selection from Tensors in Pytorch"
 link: "https://medium.com/towards-data-science/advanced-selection-from-tensors-in-pytorch-f012e52eef80"
+isUpdated: true
 ---
+
+
 
 
 가끔은 파이토치(Pytorch)로 고급 색인 및 선택을 해야 할 때가 있습니다. 예를 들어 "텐서 A에서 텐서 B에 지정된 색인을 따라 요소를 선택하는 방법"과 같은 질문에 답변할 수 있습니다.

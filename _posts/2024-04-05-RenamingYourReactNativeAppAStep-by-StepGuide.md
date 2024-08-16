@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Renaming Your React Native App A Step-by-Step Guide"
 link: "https://medium.com/stackademic/renaming-your-react-native-app-a-step-by-step-guide-3709a074aa39"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Terrified, Mortified, Petrified: Is GPT-4o Truly an End-to-End Multi-Modal Model?"
 link: "https://medium.com/@sergioli/terrified-mortified-petrified-is-gpt-4o-truly-an-end-to-end-multi-modal-model-fe2ab3b934f2"
+isUpdated: true
 ---
+
+
 
 
 

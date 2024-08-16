@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Flexbox CSS A Comprehensive Guide to Flexbox Basics"
 link: "https://medium.com/@paddyuiux/mastering-responsive-web-design-with-flexbox-css-f27190c86bdc"
+isUpdated: true
 ---
+
+
 
 
 

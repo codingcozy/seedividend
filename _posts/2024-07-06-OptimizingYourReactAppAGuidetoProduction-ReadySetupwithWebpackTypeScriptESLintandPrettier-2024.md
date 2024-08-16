@@ -3,12 +3,15 @@ title: "2024년 Webpack, TypeScript, ESLint, Prettier를 사용한 생산 준비
 description: ""
 coverImage: "/assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_0.png"
 date: 2024-07-06 00:14
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-OptimizingYourReactAppAGuidetoProduction-ReadySetupwithWebpackTypeScriptESLintandPrettier-2024_0.png
 tag: Tech
 originalTitle: "Optimizing Your React App: A Guide to Production-Ready Setup with Webpack, TypeScript, ESLint, and Prettier - 2024"
 link: "https://dev.to/shivampawar/optimizing-your-react-app-a-guide-to-production-ready-setup-with-webpack-typescript-eslint-and-prettier-2024-4lcl"
+isUpdated: true
 ---
+
+
 
 이 블로그 포스트에서는 배포 준비가 된 React 앱을 설정하는 데 필요한 모든 것을 다룰 것입니다.
 

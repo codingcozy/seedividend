@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Test a React Router Link in React: A Beginner’s Guide"
 link: "https://medium.com/@hiraijaz956/how-to-test-a-react-router-link-in-react-a-beginners-guide-3b0ea3a8c67e"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 유닛 테스트의 바다에 발을 담그기 시작하셨나요? 그렇다면 올바른 곳에 왔어요! 오늘은 React Router를 사용하는 React 애플리케이션에서 클릭 가능한 링크를 테스트하는 재미있는 시간을 갖도록 할 거예요. 재미있고 간단하게 진행하며 테스팅의 세계로 여행을 시작해보아요!

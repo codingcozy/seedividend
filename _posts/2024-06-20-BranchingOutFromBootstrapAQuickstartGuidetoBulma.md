@@ -3,12 +3,15 @@ title: "부트스트랩을 벗어나는 방법 불마를 위한 빠른 시작 �
 description: ""
 coverImage: "/assets/img/2024-06-20-BranchingOutFromBootstrapAQuickstartGuidetoBulma_0.png"
 date: 2024-06-20 03:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-20-BranchingOutFromBootstrapAQuickstartGuidetoBulma_0.png
 tag: Tech
 originalTitle: "Branching Out From Bootstrap: A Quickstart Guide to Bulma"
 link: "https://medium.com/@laurawatersalston/branching-out-from-bootstrap-a-quickstart-guide-to-bulma-eaa9950ab3e1"
+isUpdated: true
 ---
+
+
 
 마치 중고차 판매원이 되는 것 같지 않지만, CSS 프레임워크에는 다양한 옵션이 있습니다. 무엇이 가장 예쁘고 사용하기 쉬운 프레임워크이며 전체적으로 어떤 보상을 줄 수 있는지에 대해 다양한 의견이 있습니다.
 

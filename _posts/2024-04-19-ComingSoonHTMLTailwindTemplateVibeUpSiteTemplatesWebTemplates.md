@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Coming Soon HTML Tailwind Template  VibeUp Site Templates Web Templates"
 link: "https://medium.com/@gracegraphics97/coming-soon-html-tailwind-template-vibeup-site-templates-web-templates-81849e748092"
+isUpdated: true
 ---
+
+
 
 
 

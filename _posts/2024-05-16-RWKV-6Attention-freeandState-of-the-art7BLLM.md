@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "RWKV-6: Attention-free and State-of-the-art 7B LLM"
 link: "https://medium.com/@bnjmn_marie/rwkv-6-attention-free-and-state-of-the-art-7b-llm-320720df3c8c"
+isUpdated: true
 ---
+
+
 
 
 RWKV 신경 구조는 주의를 사용하지 않습니다. 이는 시퀀스 길이에 대해 제곱으로 증가하는 어텐션 계산 비용을 갖는 트랜스포머 아키텍처보다 추론에서 훨씬 더 효율적입니다. 이 글에서 RWKV를 설명하고 사용하는 방법을 보여드렸어요:

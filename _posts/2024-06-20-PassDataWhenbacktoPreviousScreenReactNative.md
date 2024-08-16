@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pass Data When back to Previous Screen React Native"
 link: "https://medium.com/@samirrana-18696/pass-data-when-back-to-previous-screen-react-native-393d80be5f0f"
+isUpdated: true
 ---
+
+
 
 
 리액트 네비게이션에서 navigation.goBack 함수를 사용하면 스택 내비게이터에서 이전 화면으로 돌아갈 수 있어요. 이전 화면으로 돌아갈 때 데이터를 전달하고 싶다면 params 속성과 함께 navigation.goBack 함수를 사용할 수 있어요.

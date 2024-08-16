@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Next.js data refresh: A Guide to Revalidation with Medusa.js"
 link: "https://medium.com/rigby-software-house/optimizing-next-js-data-refetch-a-guide-to-revalidation-with-medusa-js-2906d8ae2c8f"
+isUpdated: true
 ---
+
+
 
 
 ![OptimizingNext.jsdatarefreshAGuidetoRevalidationwithMedusajs_0](/assets/img/2024-06-23-OptimizingNextjsdatarefreshAGuidetoRevalidationwithMedusajs_0.png)

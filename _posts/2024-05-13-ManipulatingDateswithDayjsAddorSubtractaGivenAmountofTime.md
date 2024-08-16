@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Manipulating Dates with Day.js — Add or Subtract a Given Amount of Time"
 link: "https://medium.com/@hohanga/manipulating-dates-with-day-js-add-or-subtract-a-given-amount-of-time-2cb91ac8a615"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-13-ManipulatingDateswithDayjsAddorSubtractaGivenAmountofTime_0.png" />

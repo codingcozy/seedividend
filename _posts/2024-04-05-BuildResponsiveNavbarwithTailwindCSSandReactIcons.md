@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build Responsive Navbar with Tailwind CSS and React Icons"
 link: "https://medium.com/@ryaddev/build-responsive-navbar-with-tailwind-css-and-react-icons-3b13a272dec4"
+isUpdated: true
 ---
+
+
 
 
 

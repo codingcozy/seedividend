@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Push Data Maybe You Dont Need WebSocket"
 link: "https://medium.com/gitconnected/push-data-maybe-you-dont-need-websocket-e8d2e4b45d33"
+isUpdated: true
 ---
+
+
 
 
 

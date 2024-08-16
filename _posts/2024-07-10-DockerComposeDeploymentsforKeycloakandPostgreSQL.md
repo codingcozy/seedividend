@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker Compose Deployments for Keycloak and PostgreSQL"
 link: "https://medium.com/@disa2aka/docker-deployments-for-keycloak-and-postgresql-e75707b155e5"
+isUpdated: true
 ---
+
+
 
 
 # 키클로크란 무엇인가요?

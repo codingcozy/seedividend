@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 DO’s , DON’Ts for Attending Google IO"
 link: "https://medium.com/google-developer-experts/10-dos-don-ts-for-attending-google-io-4462f3f56df6"
+isUpdated: true
 ---
+
+
 
 
 ![2024 Google IO 개발자 컨퍼런스](/assets/img/2024-05-15-10DOsDONTsforAttendingGoogleIO_0.png)

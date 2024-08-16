@@ -3,12 +3,15 @@ title: "플러터 동적성과 상태 개념"
 description: ""
 coverImage: "/assets/img/2024-05-17-FlutterDynamismandConceptofState_0.png"
 date: 2024-05-17 21:38
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-17-FlutterDynamismandConceptofState_0.png
 tag: Tech
 originalTitle: "Flutter: Dynamism and Concept of State"
 link: "https://medium.com/devtechie/flutter-dynamism-and-concept-of-state-a6d8da4cdcd8"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-17-FlutterDynamismandConceptofState_0.png" />
 

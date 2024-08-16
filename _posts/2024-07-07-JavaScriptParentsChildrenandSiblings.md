@@ -3,12 +3,15 @@ title: "자바스크립트  부모, 자식, 형제 요소 다루는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_0.png"
 date: 2024-07-07 02:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_0.png
 tag: Tech
 originalTitle: "JavaScript — Parents, Children and Siblings"
 link: "https://medium.com/@geraldclarkaudio/javascript-parents-children-and-siblings-78357ddce5bd"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_0.png)
 

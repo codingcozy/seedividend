@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Theme Extensions Elevating Flutter App Customization to the Next Level"
 link: "https://medium.com/@technicatalyst78/mastering-theme-extensions-elevating-flutter-app-customization-to-the-next-level-820ba31aa19e"
+isUpdated: true
 ---
+
+
 
 
 

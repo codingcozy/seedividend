@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Performance Optimization Techniques for Node.js Applications"
 link: "https://medium.com/@abubalogun/performance-optimization-techniques-for-node-js-applications-4cb009430634"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-PerformanceOptimizationTechniquesforNodejsApplications_0.png" />

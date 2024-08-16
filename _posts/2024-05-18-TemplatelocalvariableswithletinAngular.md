@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Template local variables with @let in Angular"
 link: "https://medium.com/@eneajahollari/template-local-variables-with-let-in-angular-4c6b3adfd9be"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-18-TemplatelocalvariableswithletinAngular_0.png)

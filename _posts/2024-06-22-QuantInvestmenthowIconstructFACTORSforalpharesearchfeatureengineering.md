@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Quant Investment — how I construct FACTORS for alpha research (feature engineering)"
 link: "https://medium.com/@ericchen556/quant-investment-how-i-construct-factors-for-alpha-research-feature-engineering-bd64309c9218"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_0.png" />

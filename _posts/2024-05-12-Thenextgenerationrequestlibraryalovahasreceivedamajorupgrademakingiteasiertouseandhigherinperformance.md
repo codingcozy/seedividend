@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The next generation request library alova has received a major upgrade, making it easier to use and higher in performance."
 link: "https://medium.com/@huzhen555/the-next-generation-request-library-alova-has-received-a-major-upgrade-making-it-easier-to-use-and-38f951a265a8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-Thenextgenerationrequestlibraryalovahasreceivedamajorupgrademakingiteasiertouseandhigherinperformance_0.png" />

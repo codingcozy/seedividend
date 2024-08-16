@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "All About the CSS Box Model"
 link: "https://medium.com/@rashmipatil24/css-box-model-d9694f8aabe5"
+isUpdated: true
 ---
+
+
 
 
 

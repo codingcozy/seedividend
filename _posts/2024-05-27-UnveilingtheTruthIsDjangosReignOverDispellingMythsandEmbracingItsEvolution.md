@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unveiling the Truth: Is Django’s Reign Over? Dispelling Myths and Embracing Its Evolution 🚀"
 link: "https://medium.com/@wasifbalol1/unveiling-the-truth-is-djangos-reign-over-dispelling-myths-and-embracing-its-evolution-b055dc6d2a05"
+isUpdated: true
 ---
+
+
 
 
 # 소개:

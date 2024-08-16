@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Some Thoughts about Bootstrap, TailwindCSS, and Web Styling"
 link: "https://medium.com/gitconnected/some-thoughts-about-bootstrap-tailwindcss-and-web-styling-f24544a7f882"
+isUpdated: true
 ---
+
+
 
 
 

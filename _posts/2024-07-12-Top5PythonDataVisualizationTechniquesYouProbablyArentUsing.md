@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 5 Python Data Visualization Techniques You Probably Aren’t Using"
 link: "https://medium.com/top-python-libraries/top-5-python-data-visualization-techniques-you-probably-arent-using-ecde053f578b"
+isUpdated: true
 ---
+
+
 
 
 

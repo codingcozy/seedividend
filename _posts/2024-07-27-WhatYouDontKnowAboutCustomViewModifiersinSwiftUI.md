@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What You Dont Know About Custom View Modifiers in SwiftUI"
 link: "https://medium.com/@daviddoswell/what-you-dont-know-about-custom-view-modifiers-in-swiftui-c54e538ed647"
+isUpdated: true
 ---
+
+
 
 
 ### 새로운 프로그래밍 패러다임

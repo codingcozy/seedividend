@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Self-Hosting Web Font Files"
 link: "https://medium.com/going-fullstack/self-hosting-web-font-files-6a46bfc36ffd"
+isUpdated: true
 ---
+
+
 
 
 

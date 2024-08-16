@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Write A Typescript Node JS Multi-Threaded Function"
 link: "https://medium.com/gitconnected/how-to-write-a-typescript-node-js-multi-threaded-function-8b6fa847d272"
+isUpdated: true
 ---
+
+
 
 
 

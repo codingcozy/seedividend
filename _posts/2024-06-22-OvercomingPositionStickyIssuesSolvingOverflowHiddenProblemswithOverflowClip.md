@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Overcoming Position Sticky Issues: Solving Overflow Hidden Problems with Overflow Clip"
 link: "https://medium.com/@ehsaneona/overcoming-position-sticky-issues-solving-overflow-hidden-problems-with-overflow-clip-e8e79a7b0c34"
+isUpdated: true
 ---
+
+
 
 
 

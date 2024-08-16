@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DATA Cleaning in Python"
 link: "https://medium.com/@studyjiger/data-cleaning-in-python-cd8abb81f6e4"
+isUpdated: true
 ---
+
+
 
 
 요구 사항: - Python3, 판다 라이브러리

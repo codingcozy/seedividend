@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Just Say No: To Conditional Logic"
 link: "https://medium.com/@trevor-pace/just-say-no-to-conditional-logic-0c4323b99db6"
+isUpdated: true
 ---
+
+
 
 
 아마도 소프트웨어 개발자가 받는 가장 일반적인 요청 중 하나는 다음과 같은 익숙한 구조를 가지고 있습니다. 고객으로부터 직접 받는지, 엔지니어링/제품/프로그램 등의 매니저로부터 받는지 상관없이 항상 동일합니다: 특정 기능을 특정 데이터 조각에 적용해야 합니다.

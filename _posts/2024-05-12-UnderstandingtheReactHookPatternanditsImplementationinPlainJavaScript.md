@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the ‘React Hook’ Pattern and its Implementation in Plain JavaScript"
 link: "https://medium.com/@arietrost/understanding-the-react-hook-pattern-and-its-implementation-in-plain-javascript-9f602a8bafe7"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-UnderstandingtheReactHookPatternanditsImplementationinPlainJavaScript_0.png" />

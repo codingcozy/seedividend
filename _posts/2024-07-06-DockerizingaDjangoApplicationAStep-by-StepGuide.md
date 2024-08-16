@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dockerizing a Django Application: A Step-by-Step Guide"
 link: "https://medium.com/@nomanali6011/dockerizing-a-django-application-a-step-by-step-guide-8eca3f6301e9"
+isUpdated: true
 ---
+
+
 
 
 # 소개

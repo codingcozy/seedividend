@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Container queries why we must consider them in Figma and how to implement them"
 link: "https://medium.com/user-experience-design-1/container-queries-why-its-time-to-consider-them-in-figma-and-how-to-implement-them-8e4e9349b8e4"
+isUpdated: true
 ---
+
+
 
 
 

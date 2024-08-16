@@ -3,12 +3,15 @@ title: "React 컴포넌트에서 웹 컴포넌트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-CreateaWebComponentfromaReactComponent_0.png"
 date: 2024-07-07 21:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-CreateaWebComponentfromaReactComponent_0.png
 tag: Tech
 originalTitle: "Create a Web Component from a React Component"
 link: "https://medium.com/skeepers/create-a-web-component-from-a-react-component-bbe7c5f85ee6"
+isUpdated: true
 ---
+
+
 
 ## 웹 컴포넌트 캡슐화가 제공하는 멋진 세계!
 

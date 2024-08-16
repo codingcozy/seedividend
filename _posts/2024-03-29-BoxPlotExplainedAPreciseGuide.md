@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Box Plot Explained A Precise Guide"
 link: "https://medium.com/@stoic_sapien1/box-plot-explained-a-precise-guide-75ec0d08c4fd"
+isUpdated: true
 ---
+
+
 
 
 

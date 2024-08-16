@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reactjs-toggleswitch A React based toggle switch component package"
 link: "https://medium.com/@subbuks/reactjs-toggleswitch-a-react-based-toggle-switch-component-package-9716b7dd2ef3"
+isUpdated: true
 ---
+
+
 
 
 

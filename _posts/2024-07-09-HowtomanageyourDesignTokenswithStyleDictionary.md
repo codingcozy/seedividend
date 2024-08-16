@@ -3,12 +3,15 @@ title: "Style Dictionary로 디자인 토큰을 관리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtomanageyourDesignTokenswithStyleDictionary_0.png"
 date: 2024-07-09 18:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtomanageyourDesignTokenswithStyleDictionary_0.png
 tag: Tech
 originalTitle: "How to manage your Design Tokens with Style Dictionary"
 link: "https://medium.com/@didoo/how-to-manage-your-design-tokens-with-style-dictionary-98c795b938aa"
+isUpdated: true
 ---
+
+
 
 요즘 새로운 도구를 발견했어요. 아마존의 Danny Banks가 개발한 Style Dictionary라는 도구인데, 디자인 시스템을 위한 디자인 토큰(또는 "스타일 속성")을 관리할 수 있게 해줘요. 우리가 Cosmos 디자인 시스템의 디자인 토큰을 처리했던 기존 도구를 대체하기 위해 사용했어요. 이 작업이 정말 흥미롭다고 느꼈고, 그래서 다른 분들도 제가 배운 것을 통해 이득을 볼 수 있도록 문서화하기로 결심했어요.
 

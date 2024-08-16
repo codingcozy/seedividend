@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Learning UI from HTML + CSS. And developers."
 link: "https://medium.com/design-bootcamp/learning-ui-from-html-css-and-developers-67f030529d24"
+isUpdated: true
 ---
+
+
 
 
 UI 디자인의 공식 교육은 종종 화이트 스페이스, 계층 구조 및 색 이론과 같은 시각적 원칙에 중점을 둡니다. 그러나 UI 개발의 중요한 측면은 종종 다른 소스인 개발자들로부터 나옵니다.

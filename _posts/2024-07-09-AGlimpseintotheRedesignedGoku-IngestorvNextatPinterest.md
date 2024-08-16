@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Glimpse into the Redesigned Goku-Ingestor vNext at Pinterest"
 link: "https://medium.com/pinterest-engineering/a-glimpse-into-the-redesigned-goku-ingestor-vnext-at-pinterest-d68159473464"
+isUpdated: true
 ---
+
+
 
 
 ## 더 나은 성능, 낮은 비용 및 낮은 코드 복잡성

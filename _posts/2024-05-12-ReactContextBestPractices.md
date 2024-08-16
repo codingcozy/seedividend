@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Context Best Practices"
 link: "https://medium.com/@greennolgaa/react-context-best-practices-2e6e4528d357"
+isUpdated: true
 ---
+
+
 
 
 리액트 프레임워크는 효율성과 유연성으로 유명하며, 개발자들이 견고하고 확장 가능한 웹 애플리케이션을 만들 수 있도록 다양한 기능을 제공합니다. 이러한 기능 중에서 리액트 컨텍스트 API는 상태를 관리하고 데이터를 구성 요소 트리 전체로 전달할 수 있는 주요 도구로, 프롭 드릴링이 필요 없이 개발자들이 상태를 효과적으로 관리할 수 있게 해줍니다. 이는 애플리케이션 내 여러 구성 요소에서 필요로 하는 "전역" 데이터를 처리하는 데 매우 유용합니다. 예를 들어 사용자 인증, 테마 또는 선호하는 언어와 같은 데이터가 있습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bringing Modern JavaScript to the Jupyter Notebook"
 link: "https://medium.com/jupyter-blog/bringing-modern-javascript-to-the-jupyter-notebook-fc998095081e"
+isUpdated: true
 ---
+
+
 
 
 ## Deno 커널은 주피터를 위한 가장 최신 런타임이에요

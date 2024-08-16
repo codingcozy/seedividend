@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Step-by-Step ETL Tips with AWS Glue: Handling Multiple CSV Files from S3"
 link: "https://medium.com/@lintang-gilang01/step-by-step-etl-tips-with-aws-glue-handling-multiple-csv-files-from-s3-75e69e0a55ca"
+isUpdated: true
 ---
+
+
 
 
 이건 훌륭한 이미지입니다! 이 디지털 시대에 데이터는 기업에게 귀중한 자산이 되었습니다. 데이터를 효과적으로 처리하고 분석하는 것이 유용한 통찰력을 얻고 스마트한 의사결정을 하는 데 중요합니다. AWS Glue는 데이터를 쉽고 효율적으로 관리하고 분석하는 데 도움이 되는 포괄적인 솔루션이 됩니다.

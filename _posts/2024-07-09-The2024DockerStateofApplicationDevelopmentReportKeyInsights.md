@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The 2024 Docker State of Application Development Report: Key Insights"
 link: "https://medium.com/trukhinyuri/the-2024-docker-state-of-application-development-report-key-insights-02e29bcda5e8"
+isUpdated: true
 ---
+
+
 
 
 도커가 기다려온 2024년 애플리케이션 개발 현황 보고서를 발표했습니다. 2023년 말에 실시된 철저한 설문 조사를 기반으로 한 이 보고서는 1,300여 개 기업의 응답을 담아 산업 내 동향, 도전 과제, 그리고 기회를 밝혀냅니다.

@@ -3,12 +3,15 @@ title: "TensorFlow Transform 프로덕션에서 매끄러운 데이터 준비를
 description: ""
 coverImage: "/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png"
 date: 2024-07-09 14:29
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png
 tag: Tech
 originalTitle: "TensorFlow Transform: Ensuring Seamless Data Preparation in Production"
 link: "https://medium.com/towards-data-science/tensorflow-transform-ensuring-seamless-data-preparation-in-production-99ffcf49f535"
+isUpdated: true
 ---
+
+
 
 ## 제품 환경을 위한 데이터 파이프라인 확장을 위한 TensorFlow Transform 활용
 

@@ -3,12 +3,15 @@ title: "ListViews에서 흔히 범하는 실수들"
 description: ""
 coverImage: "/assets/img/2024-05-15-CommonmistakeswithListViewsinFlutter_0.png"
 date: 2024-05-15 03:10
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-15-CommonmistakeswithListViewsinFlutter_0.png
 tag: Tech
 originalTitle: "Common mistakes with ListViews in Flutter"
 link: "https://medium.com/@pomis172/common-mistakes-with-listviews-in-flutter-f22e7dacfaf7"
+isUpdated: true
 ---
+
+
 
 스크롤을 부드럽게 유지하기 위해 피해야 할 몇 가지 사항
 

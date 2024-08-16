@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Storing Tokens in Cookies with React"
 link: "https://medium.com/@amavictor/storing-tokens-in-cookies-with-react-93a5a818c3a8"
+isUpdated: true
 ---
+
+
 
 
 

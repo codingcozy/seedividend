@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Custom Refresh Animation in React Native using Reanimated"
 link: "https://medium.com/cloudboost/building-a-custom-refresh-animation-in-react-native-using-reanimated-9b64212a0366"
+isUpdated: true
 ---
+
+
 
 
 ## 간단한 애니메이션이 앱의 사용자 경험을 얼마나 높일 수 있는지 궁금했던 적이 있나요?

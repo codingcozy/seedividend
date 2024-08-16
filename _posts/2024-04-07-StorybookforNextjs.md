@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Storybook for Nextjs"
 link: "https://storybook.js.org/docs/get-started/nextjs"
+isUpdated: true
 ---
+
+
 
 
 

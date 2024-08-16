@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python for Data Science"
 link: "https://medium.com/dev-genius/python-for-data-science-de1c55b4761c"
+isUpdated: true
 ---
+
+
 
 
 <table>

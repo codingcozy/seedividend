@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding v-memo in Vue3"
 link: "https://medium.com/stackademic/understanding-v-memo-in-vue3-a91ea445a9cf"
+isUpdated: true
 ---
+
+
 
 
 

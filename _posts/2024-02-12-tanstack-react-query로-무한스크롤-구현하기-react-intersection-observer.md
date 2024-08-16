@@ -1,5 +1,5 @@
 ---
-title: "Tanstack ReactQuery로 무한스크롤 구현하기react-intersection-observer"
+title: "Tanstack ReactQuery로 무한스크롤 구현하기 (react-intersection-observer)"
 description: "tanstack react-query와 react-intersection-observer 활용해서 무한스크롤 가장 쉽게 구현하는 방법"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

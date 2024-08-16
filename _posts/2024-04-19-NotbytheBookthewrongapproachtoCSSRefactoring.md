@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Not by the Book the wrong approach to CSS Refactoring"
 link: "https://medium.com/@bseleng/not-by-the-book-the-wrong-approach-to-css-refactoring-e2047f6e77e1"
+isUpdated: true
 ---
+
+
 
 
 

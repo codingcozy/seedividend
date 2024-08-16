@@ -3,12 +3,15 @@ title: "JavaScript로 DOM 조작 마스터하기 기본과 베스트 프랙티�
 description: ""
 coverImage: "/assets/img/2024-07-09-MasteringDOMManipulationwithJavaScriptBasicsandBestPractices_0.png"
 date: 2024-07-09 14:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-MasteringDOMManipulationwithJavaScriptBasicsandBestPractices_0.png
 tag: Tech
 originalTitle: "Mastering DOM Manipulation with JavaScript: Basics and Best Practices"
 link: "https://medium.com/@amitmishraam941/mastering-dom-manipulation-with-javascript-basics-and-best-practices-e65775984648"
+isUpdated: true
 ---
+
+
 
 ![2024-07-09-MasteringDOMManipulationwithJavaScriptBasicsandBestPractices_0.png](/assets/img/2024-07-09-MasteringDOMManipulationwithJavaScriptBasicsandBestPractices_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " Local Library Development with Nx Release and Verdaccio"
 link: "https://medium.com/itnext/local-library-development-with-nx-release-and-verdaccio-019af5c5bec0"
+isUpdated: true
 ---
+
+
 
 
 

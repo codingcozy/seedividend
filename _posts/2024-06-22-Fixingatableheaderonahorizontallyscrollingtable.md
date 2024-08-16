@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fixing a table header on a horizontally scrolling table"
 link: "https://medium.com/neocoast/fixing-a-table-header-on-a-horizontally-scrolling-table-de3364610957"
+isUpdated: true
 ---
+
+
 
 
 

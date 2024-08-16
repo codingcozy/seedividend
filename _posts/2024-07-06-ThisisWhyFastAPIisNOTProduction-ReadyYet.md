@@ -3,12 +3,15 @@ title: "아직 FastAPI를 프로덕션에 사용하면 안 되는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-06-ThisisWhyFastAPIisNOTProduction-ReadyYet_0.png"
 date: 2024-07-06 10:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-ThisisWhyFastAPIisNOTProduction-ReadyYet_0.png
 tag: Tech
 originalTitle: "This is Why FastAPI is NOT(!) Production-Ready Yet"
 link: "https://medium.com/python-in-plain-english/this-is-why-fastapi-is-not-production-ready-yet-6c707823bd7c"
+isUpdated: true
 ---
+
+
 
 # 요약
 

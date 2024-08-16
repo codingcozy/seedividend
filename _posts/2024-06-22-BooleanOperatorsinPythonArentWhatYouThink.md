@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Boolean Operators in Python Aren’t What You Think"
 link: "https://medium.com/better-programming/boolean-operators-in-python-arent-what-you-think-df45a2be71f1"
+isUpdated: true
 ---
+
+
 
 
 

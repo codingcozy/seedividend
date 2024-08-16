@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Learn Nextjs By Building Your First Nextjs App From Scratch"
 link: "https://medium.com/gitconnected/learn-next-js-by-building-your-first-next-js-app-from-scratch-8ec7cc93a9cb"
+isUpdated: true
 ---
+
+
 
 
 

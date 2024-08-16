@@ -3,12 +3,15 @@ title: "Nextjs 사용이 점점 더 어려워지는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png"
 date: 2024-07-02 21:52
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png
 tag: Tech
 originalTitle: "It’s not just you, Next.js is getting harder to use"
 link: "https://medium.com/@PropelAuth/its-not-just-you-next-js-is-getting-harder-to-use-5ab30a24282a"
+isUpdated: true
 ---
+
+
 
 ![image 1](/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png)
 

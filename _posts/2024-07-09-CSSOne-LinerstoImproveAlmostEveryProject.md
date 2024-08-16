@@ -3,12 +3,15 @@ title: "모든 프로젝트를 개선하는 10가지 CSS 원라이너 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png"
 date: 2024-07-09 14:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png
 tag: Tech
 originalTitle: "CSS One-Liners to Improve (Almost) Every Project"
 link: "https://medium.com/gitconnected/css-one-liners-to-improve-almost-every-project-b7462a697dc0"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png)
 

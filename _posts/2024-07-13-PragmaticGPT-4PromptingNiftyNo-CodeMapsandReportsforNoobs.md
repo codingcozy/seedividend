@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pragmatic GPT-4 Prompting: Nifty No-Code Maps and Reports for Noobs"
 link: "https://medium.com/towards-artificial-intelligence/pragmatic-gpt-4-prompting-nifty-no-code-maps-and-reports-for-noobs-53f92d6cd72a"
+isUpdated: true
 ---
+
+
 
 
 

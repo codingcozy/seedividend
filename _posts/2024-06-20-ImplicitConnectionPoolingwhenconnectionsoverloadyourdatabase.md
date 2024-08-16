@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implicit Connection Pooling when connections overload your database"
 link: "https://medium.com/@cjones-oracle/implicit-connection-pooling-when-connections-overload-your-database-3fe7c59acae2"
+isUpdated: true
 ---
+
+
 
 
 긴 실행 앱에서 앱 수명 동안 데이터베이스 연결을 열어 두면 연결이 자주 유휴 상태이고 SQL 문을 실행하는 데 사용되지 않을 가능성이 높습니다. 그러나 이는 연결의 서버 프로세스와 세션 메모리를 데이터베이스 호스트에서 유지하며 결국 연결할 수 있는 다른 사용자 수를 제한합니다. Oracle 애플리케이션 연결 풀을 사용하여 재아키텍처링하는 것이 불가능할 때는 간단한 연결 문자열 변경을 통해 Oracle Database 23ai의 "암시적 연결 풀링"을 사용하여 데이터베이스 호스트 리소스를 공유할 수 있습니다. 이를 통해 필요한 메모리가 줄어들고 데이터베이스가 확장 가능해집니다.

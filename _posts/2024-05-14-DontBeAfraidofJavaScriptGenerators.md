@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Don't Be Afraid of JavaScript Generators"
 link: "https://medium.com/stackademic/dont-be-afraid-of-javascript-generators-15c998aea652"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-DontBeAfraidofJavaScriptGenerators_0.png)

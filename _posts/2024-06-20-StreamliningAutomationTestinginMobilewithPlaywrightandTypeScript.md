@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Streamlining Automation Testing in Mobile with Playwright and TypeScript"
 link: "https://medium.com/@jignect/streamlining-automation-testing-in-mobile-with-playwright-and-typescript-337230c02507"
+isUpdated: true
 ---
+
+
 
 
 

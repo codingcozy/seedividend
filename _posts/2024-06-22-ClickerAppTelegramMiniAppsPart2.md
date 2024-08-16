@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Clicker App: Telegram Mini Apps Part 2"
 link: "https://medium.com/octa-labs/clicker-app-telegram-mini-apps-part-2-63bbdcf55589"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-22-ClickerAppTelegramMiniAppsPart2_0.png)

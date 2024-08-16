@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Python Scripts for Automation You Should Try"
 link: "https://medium.com/python-in-plain-english/10-python-scripts-for-automation-you-should-try-8c685b5b230c"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-10PythonScriptsforAutomationYouShouldTry_0.png" />

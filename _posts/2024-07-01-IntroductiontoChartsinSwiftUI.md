@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to Charts in SwiftUI"
 link: "https://medium.com/@blorenzop/swiftui-charts-b6fa4aca46db"
+isUpdated: true
 ---
+
+
 
 
 ![Introduction to Charts in SwiftUI](/assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_0.png)

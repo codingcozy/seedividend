@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Learn Flutter Animation by Doing  Build Complex Animations the Simple Way"
 link: "https://itnext.io/learn-flutter-animation-by-doing-build-complex-animations-the-simple-way-d580bdf35221"
+isUpdated: true
 ---
+
+
 
 
 

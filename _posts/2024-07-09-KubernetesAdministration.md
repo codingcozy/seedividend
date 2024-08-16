@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kubernetes Administration"
 link: "https://medium.com/@RajCloudX/kubernetes-administration-16fb84251475"
+isUpdated: true
 ---
+
+
 
 
 ## 사전 준비 사항

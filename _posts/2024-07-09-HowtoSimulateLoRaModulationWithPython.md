@@ -3,12 +3,15 @@ title: "Python으로 LoRa 모듈레이션 시뮬레이션 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoSimulateLoRaModulationWithPython_0.png"
 date: 2024-07-09 09:09
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoSimulateLoRaModulationWithPython_0.png
 tag: Tech
 originalTitle: "How to Simulate LoRa Modulation With Python"
 link: "https://medium.com/@pinheirofelipe88/how-to-simulate-lora-modulation-with-python-a32a45df49ce"
+isUpdated: true
 ---
+
+
 
 # 소개
 

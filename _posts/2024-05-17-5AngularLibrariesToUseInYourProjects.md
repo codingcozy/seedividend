@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Angular Libraries To Use In Your Projects"
 link: "https://medium.com/stackademic/5-angular-libraries-to-use-in-your-projects-173561b6a729"
+isUpdated: true
 ---
+
+
 
 
 

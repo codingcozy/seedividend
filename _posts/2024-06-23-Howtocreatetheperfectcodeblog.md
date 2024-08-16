@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create the perfect code blog"
 link: "https://medium.com/@abenezerdaniel147/how-to-create-the-perfect-code-blog-f3329b3fea5d"
+isUpdated: true
 ---
+
+
 
 
 ![Code Block Image](/assets/img/2024-06-23-Howtocreatetheperfectcodeblog_0.png)

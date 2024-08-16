@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating and Running a Servlet From Scratch"
 link: "https://medium.com/codex/creating-and-running-a-servlet-from-scratch-6c9a23d74afb"
+isUpdated: true
 ---
+
+
 
 
 

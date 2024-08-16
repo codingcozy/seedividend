@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Slender Man Stabbing A Chilling Encounter with Fiction"
 link: "https://medium.com/@rachelelizabeth_28041/the-story-of-the-slender-man-stabbing-d63609bc487c"
+isUpdated: true
 ---
+
+
 
 
 

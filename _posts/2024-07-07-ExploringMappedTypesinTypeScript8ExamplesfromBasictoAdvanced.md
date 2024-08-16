@@ -3,12 +3,15 @@ title: "TypeScript 맵드 타입 알아보기 기초부터 고급까지 8가지 
 description: ""
 coverImage: "/assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png"
 date: 2024-07-07 22:01
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png
 tag: Tech
 originalTitle: "Exploring Mapped Types in TypeScript: 8 Examples from Basic to Advanced"
 link: "https://medium.com/javascript-in-plain-english/exploring-mapped-types-in-typescript-8-examples-from-basic-to-advanced-b3b409172c35"
+isUpdated: true
 ---
+
+
 
 Markdown 형식의 표를 변경하실게요.
 

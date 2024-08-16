@@ -3,12 +3,15 @@ title: "전문가처럼 이메일 서명을 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-EmailSignature_0.png"
 date: 2024-07-09 14:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-EmailSignature_0.png
 tag: Tech
 originalTitle: "Email Signature"
 link: "https://medium.com/@aquaaetherial98/email-signature-7b19736b9feb"
+isUpdated: true
 ---
+
+
 
 🔍 지금 이메일 서명을 확인해보세요! 📁 웹 사이트 그래픽 템플릿 라이브러리를 살펴보고 여기서 🆓 무료 다운로드 혜택을 받아보세요. 함께 제작을 시작해봐요! 🚀
 

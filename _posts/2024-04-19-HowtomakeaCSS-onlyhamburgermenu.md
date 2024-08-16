@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make a CSS-only hamburger menu"
 link: "https://medium.com/@threkk/how-to-make-a-css-only-hamburger-menu-f7ad41e13399"
+isUpdated: true
 ---
+
+
 
 
 

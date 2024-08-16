@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create a simple React app TypeScript with Login   Register pages using create-react-app"
 link: "https://medium.com/@prabhashi.mm/create-a-simple-react-app-typescript-with-login-register-pages-using-create-react-app-e5c12dd6db53"
+isUpdated: true
 ---
+
+
 
 
 

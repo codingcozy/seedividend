@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Do You Deal with a Very Smart Developer Who Isn’t Working Hard"
 link: "https://medium.com/stackademic/how-do-you-deal-with-a-very-smart-developer-who-isnt-working-hard-64354f382235"
+isUpdated: true
 ---
+
+
 
 
 ## 프로그래밍 의견

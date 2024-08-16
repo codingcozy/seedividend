@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TypeScript"
 link: "https://storybook.js.org/docs/configure/typescript"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Testing Barcodes and QR Codes in Java"
 link: "https://medium.com/@yasin.deger/testing-barcodes-and-qr-codes-in-java-8d06763bf749"
+isUpdated: true
 ---
+
+
 
 
 자동화 테스팅의 세계에서 바코드와 QR 코드를 다루는 것은 흔한 시나리오입니다. 이러한 코드에는 중요한 정보가 포함되어 있으며, 이를 정확하고 가독성 있게 유지하는 것이 중요합니다. 이 기사에서는 바코드와 QR 코드의 테스트 자동화를 위해 TestNG를 사용하는 방법을 알아보겠습니다. 아래 그림에서 사용된 바코드 및 QR 코드 표준을 확인할 수 있습니다. 즐겁게 읽으세요…

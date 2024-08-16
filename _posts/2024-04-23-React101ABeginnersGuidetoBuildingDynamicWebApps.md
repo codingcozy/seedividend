@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React 101 A Beginners Guide to Building Dynamic Web Apps"
 link: "https://medium.com/@tonylixu/react-101-a-beginners-guide-to-building-dynamic-web-apps-cbf70be32360"
+isUpdated: true
 ---
+
+
 
 
 

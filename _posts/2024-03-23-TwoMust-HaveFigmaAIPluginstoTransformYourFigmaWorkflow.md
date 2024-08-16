@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Two Must-Have Figma AI Plugins to Transform Your Figma Workflow"
 link: "https://uxplanet.org/figma-ai-plugins-e6ff102810e8"
+isUpdated: true
 ---
+
+
 
 
 

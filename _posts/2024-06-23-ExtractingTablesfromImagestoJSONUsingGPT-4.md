@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Extracting Tables from Images to JSON Using GPT-4🖐️"
 link: "https://medium.com/@akashkhurana28/extracting-tables-from-images-to-json-using-gpt-4-%EF%B8%8F-2a2cbbbf1773"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-ExtractingTablesfromImagestoJSONUsingGPT-4_0.png" />

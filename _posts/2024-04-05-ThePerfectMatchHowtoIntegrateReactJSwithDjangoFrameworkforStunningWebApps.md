@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Perfect Match How to Integrate ReactJS with Django Framework for Stunning Web Apps"
 link: "https://medium.com/@devsumitg/how-to-connect-reactjs-django-framework-c5ba268cb8be"
+isUpdated: true
 ---
+
+
 
 
 

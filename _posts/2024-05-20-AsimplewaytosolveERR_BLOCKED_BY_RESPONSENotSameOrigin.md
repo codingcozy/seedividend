@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A simple way to solve ERR_BLOCKED_BY_RESPONSE.NotSameOrigin"
 link: "https://medium.com/@wenhsuanliao/a-simple-way-to-solve-err-blocked-by-response-notsameorigin-85a6201f838"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-20-AsimplewaytosolveERR_BLOCKED_BY_RESPONSENotSameOrigin_0.png" />

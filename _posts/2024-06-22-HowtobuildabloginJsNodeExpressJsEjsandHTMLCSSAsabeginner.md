@@ -3,12 +3,15 @@ title: "초보자를 위한 Nodejs, ExpressJs 및 Ejs를 사용한 블로그 만
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtobuildabloginJsNodeExpressJsEjsandHTMLCSSAsabeginner_0.png"
 date: 2024-06-22 03:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-22-HowtobuildabloginJsNodeExpressJsEjsandHTMLCSSAsabeginner_0.png
 tag: Tech
 originalTitle: "How to build a blog in Js (Node + ExpressJs + Ejs) and (HTML + CSS ): As a beginner."
 link: "https://medium.com/@faizanmumtazwork/how-to-building-a-blog-in-js-node-ejs-and-html-css-as-a-beginner-d7b130d9f5c4"
+isUpdated: true
 ---
+
+
 
 이 쉬운 가이드에서는 Express.js를 사용하여 간단하지만 강력한 블로그 애플리케이션을 구축하는 과정을 안내하겠습니다. Express.js는 Node.js를 위한 빠르고 유연하며 가벼운 웹 프레임워크입니다. 이 자습서를 마치면 자신만의 맞춤형 블로그 플랫폼을 만들 수 있는 모든 지식을 습득할 것입니다. 블로그 게시물을 쉽게 추가, 편집 및 삭제할 수 있을 것입니다.
 

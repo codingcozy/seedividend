@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make a basic responsive web from scratch"
 link: "https://medium.com/design-bootcamp/how-to-make-a-basic-responsive-web-from-scratch-97235e29f6a0"
+isUpdated: true
 ---
+
+
 
 
 

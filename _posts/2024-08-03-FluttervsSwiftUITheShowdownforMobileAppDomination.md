@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter vs SwiftUI The Showdown for Mobile App Domination"
 link: "https://medium.com/hexhybrids/flutter-vs-swiftui-the-showdown-for-mobile-app-domination-7e75f3b94563"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-03-FluttervsSwiftUITheShowdownforMobileAppDomination_0.png" />

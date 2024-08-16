@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Beyond Browsing: Charting the Course to Web 3.0's New Horizons — Part 1"
 link: "https://medium.com/@vikeshm/beyond-browsing-charting-the-course-to-web-3-0s-new-horizons-part-1-9771ab0750d9"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-BeyondBrowsingChartingtheCoursetoWeb30sNewHorizonsPart1_0.png)

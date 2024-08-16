@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Micro Frontends With React"
 link: "https://medium.com/@kunalznk/building-micro-frontends-with-react-7f5a21a99825"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Use the New Node.js Test Runner"
 link: "https://medium.com/bitsrc/how-to-use-the-new-node-js-test-runner-3a347289732"
+isUpdated: true
 ---
+
+
 
 
 Node.js 20 버전이 출시되면서 Node.js 18의 실험적인 테스트 러너가 안정 상태를 달성했습니다. 우리의 코드를 테스트하기 위해 이 새로운 테스트 러너를 어떻게 사용할 수 있는지 살펴봅시다.

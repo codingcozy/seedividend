@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding GraphQL: Effectiveness, Pros and Cons, and a Practical Use Case with TypeScript and Node.js"
 link: "https://medium.com/@sahityakumarsuman_34707/understanding-graphql-effectiveness-pros-and-cons-and-a-practical-use-case-with-typescript-and-045f38a8ddf0"
+isUpdated: true
 ---
+
+
 
 
 API에 대한 쿼리 언어인 GraphQL은 데이터 요청을 관리하는 효율성과 유연성으로 개발자들 사이에서 급속히 인기를 얻고 있어요. 2012년 Facebook에서 개발되어 2015년에 오픈 소스 프로젝트로 공개된 GraphQL은 REST에 대한 효율적이고 강력하며 유연한 대안을 제공해요. 이 글에서는 GraphQL의 효과를 탐구하고, 장단점을 살펴보고, TypeScript와 Node.js를 사용한 구체적인 사용 사례를 제시할 거에요.

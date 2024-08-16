@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker Beginner to Expert Tutorial"
 link: "https://medium.com/gitconnected/docker-beginner-to-expert-tutorial-68555aa3e544"
+isUpdated: true
 ---
+
+
 
 
 ## 친절한 설명과 예제로 도커를 기초부터 전문가까지 배워보세요!

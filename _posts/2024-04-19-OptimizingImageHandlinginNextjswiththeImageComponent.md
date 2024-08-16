@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Image Handling in Nextjs with the Image Component"
 link: "https://medium.com/@gabrielairiart.gi/optimizing-image-handling-in-next-js-with-the-image-component-fcf221b18a0b"
+isUpdated: true
 ---
+
+
 
 
 

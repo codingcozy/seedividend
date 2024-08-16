@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Expensive It Is to Learn Angular"
 link: "https://medium.com/stackademic/how-expensive-it-is-to-learn-angular-9268590b499d"
+isUpdated: true
 ---
+
+
 
 
 ## 프로그래밍

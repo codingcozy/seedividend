@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Techorama 2024: Highlights"
 link: "https://medium.com/kapuani/techorama-2024-highlights-2eeba3e9aff2"
+isUpdated: true
 ---
+
+
 
 
 지난 주에 Kapuani를 대표하여 동료 Jan과 함께 Antwerp의 Kinepolis에서 개최된 Techorama 2024에 참석한 경험은 대단했어요. 이곳에서 내가 가장 좋아하는 발표 몇 가지를 소개하려고 해요 (특정한 순서는 없어요).

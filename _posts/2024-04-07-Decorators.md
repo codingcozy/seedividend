@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Decorators"
 link: "https://storybook.js.org/docs/writing-stories/decorators"
+isUpdated: true
 ---
+
+
 
 
 

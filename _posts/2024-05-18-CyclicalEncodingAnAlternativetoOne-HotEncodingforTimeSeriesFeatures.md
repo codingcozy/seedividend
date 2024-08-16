@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Cyclical Encoding: An Alternative to One-Hot Encoding for Time Series Features"
 link: "https://medium.com/towards-data-science/cyclical-encoding-an-alternative-to-one-hot-encoding-for-time-series-features-4db46248ebba"
+isUpdated: true
 ---
+
+
 
 
 시계열을 위한 머신러닝 모델을 훈련할 때는 대개 다음과 같은 시간 특성들을 사용하게 됩니다:

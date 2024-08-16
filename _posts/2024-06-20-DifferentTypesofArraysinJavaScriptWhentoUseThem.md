@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Different Types of Arrays in JavaScript + When to Use Them"
 link: "https://medium.com/@julienetienne/different-types-of-arrays-in-javascript-and-when-to-use-them-77f7843b71de"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-20-DifferentTypesofArraysinJavaScriptWhentoUseThem_0](/assets/img/2024-06-20-DifferentTypesofArraysinJavaScriptWhentoUseThem_0.png)

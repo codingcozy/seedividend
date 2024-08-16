@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "An approach to build an Expense Tracker using Node.js"
 link: "https://medium.com/@mansimjtandel/an-approach-to-build-an-expense-tracker-using-node-js-a98a4d32d9d4"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-AnapproachtobuildanExpenseTrackerusingNodejs_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "New CSS Featurespart 1"
 link: "https://medium.com/@vivekjaiskumar/new-css-features-part-1-29556917bf77"
+isUpdated: true
 ---
+
+
 
 
 

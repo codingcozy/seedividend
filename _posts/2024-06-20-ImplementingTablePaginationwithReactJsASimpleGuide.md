@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Table Pagination with ReactJs : A Simple Guide"
 link: "https://medium.com/@imPradhyumn/implementing-table-pagination-with-reactjs-a-simple-guide-ed36469b26e9"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-ImplementingTablePaginationwithReactJsASimpleGuide_0.png" />

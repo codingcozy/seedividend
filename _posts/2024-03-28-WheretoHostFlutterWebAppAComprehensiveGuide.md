@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Where to Host Flutter Web App A Comprehensive Guide"
 link: "https://medium.com/@stfalconcom/where-to-host-flutter-web-app-a-comprehensive-guide-b31ccf4d8dde"
+isUpdated: true
 ---
+
+
 
 
 

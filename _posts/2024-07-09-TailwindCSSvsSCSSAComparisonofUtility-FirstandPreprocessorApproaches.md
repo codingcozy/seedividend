@@ -3,12 +3,15 @@ title: "Tailwind CSS vs SCSS 유틸리티 퍼스트와 전처리기 접근 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-TailwindCSSvsSCSSAComparisonofUtility-FirstandPreprocessorApproaches_0.png"
 date: 2024-07-09 13:54
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-TailwindCSSvsSCSSAComparisonofUtility-FirstandPreprocessorApproaches_0.png
 tag: Tech
 originalTitle: "Tailwind CSS vs. SCSS: A Comparison of Utility-First and Preprocessor Approaches"
 link: "https://medium.com/@muzammilsyed270300/tailwind-css-vs-scss-a-comparison-of-utility-first-and-preprocessor-approaches-1d0be4cc0bbd"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-TailwindCSSvsSCSSAComparisonofUtility-FirstandPreprocessorApproaches_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "AI Singing Voice Cloning in Python"
 link: "https://medium.com/@crisvelasquez/ai-singing-voice-cloning-in-python-7b7cf5e5dbdd"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png" />

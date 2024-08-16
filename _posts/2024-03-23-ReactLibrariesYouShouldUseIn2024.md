@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " React Libraries You Should Use In 2024"
 link: "https://reedbarger.medium.com/react-libraries-you-should-use-in-2024-4a9fd422a1bd"
+isUpdated: true
 ---
+
+
 
 
 

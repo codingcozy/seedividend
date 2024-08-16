@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple Chat app using Socket.io In React-js For Beginners"
 link: "https://medium.com/@maitrikt1998/simple-chat-app-using-socket-io-in-react-js-for-beginners-76a7ceba8068"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분! 이 글에서는 socket.io와 React js를 사용하여 간단한 채팅 애플리케이션을 만드는 방법에 대해 알아볼 거에요. 특히 초보자분들을 위한 내용으로 모든 단계를 차근차근 알려드릴 거에요. 마지막에는 React-js로 간단한 채팅 애플리케이션을 만들게 될 거에요.

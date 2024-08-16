@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing ReacType v21: Lowering the barrier to entry and raising the bar in React development"
 link: "https://medium.com/@sfryan95/introducing-reactype-v21-lowering-the-barrier-to-entry-and-raising-the-bar-in-react-development-945173a9f3b8"
+isUpdated: true
 ---
+
+
 
 
 우리는 ReacType (v21) 출시를 기쁘게 알리게 되었습니다. 이는 사용자가 어플리케이션 아키텍처를 동적으로 시각화할 수 있는 React 프로토타이핑 도구로, 실시간 컴포넌트 코드 미리보기와 상호작용 가능한 드래그 앤 드롭 디스플레이를 제공합니다. 또한, 라이브 비디오 및 채팅 기능이 통합된 협업 공간도 제공됩니다.

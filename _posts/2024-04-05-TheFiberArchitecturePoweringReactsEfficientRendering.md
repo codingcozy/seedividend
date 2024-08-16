@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Fiber Architecture Powering Reacts Efficient Rendering"
 link: "https://medium.com/@thisisshuraim/the-fiber-architecture-powering-reacts-efficient-rendering-812e931b5fa1"
+isUpdated: true
 ---
+
+
 
 
 

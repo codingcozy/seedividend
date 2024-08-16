@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Beyond Docker: Emulation, Orchestration, and Virtualization in Apple Silicon"
 link: "https://medium.com/itnext/beyond-docker-emulation-orchestration-and-virtualization-in-apple-silicon-34011259cd91"
+isUpdated: true
 ---
+
+
 
 
 ## Apple Silicon 및 기타 용도를 위한 컨테이너화 메커니즘 및 솔루션 깊이 파헤쳐보기

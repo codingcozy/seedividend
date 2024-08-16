@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Table layout using Flexbox"
 link: "https://medium.com/@swethabachugudem/table-layout-using-flexbox-b6bbda7dc445"
+isUpdated: true
 ---
+
+
 
 
 표는 데이터를 표현하는 데 가장 많이 사용되는 레이아웃 중 하나입니다. 이 레이아웃을 달성하는 여러 방법이 있습니다. 기본 HTML `table`을 사용하거나 CSS 속성 display: table을 사용하거나 flexbox를 사용할 수 있습니다. 이 문서에서는 Flexbox를 사용하여 표를 만드는 방법을 설명하겠습니다.

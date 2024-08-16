@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Design Pattern 01 - Singleton"
 link: "https://medium.com/@noyoncse3101/design-pattern-01-singleton-cb9db180cffe"
+isUpdated: true
 ---
+
+
 
 
 싱글턴은 한 클래스가 하나의 인스턴스만 가지도록 보장하면서 이 인스턴스에 대한 전역 액세스 포인트를 제공하는 생성 패턴입니다.

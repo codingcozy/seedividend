@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why You Shouldn’t Use innerHTML and What to Use Instead"
 link: "https://medium.com/@verity.carlos/why-you-shouldnt-use-innerhtml-and-what-to-use-instead-ed99d064a416"
+isUpdated: true
 ---
+
+
 
 
 ## innerText, textContent, 및 innerHTML

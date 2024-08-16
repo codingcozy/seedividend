@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Future in react js"
 link: "https://medium.com/@tushar.tmpatel/the-future-in-react-js-dbabf2e3084a"
+isUpdated: true
 ---
+
+
 
 
 

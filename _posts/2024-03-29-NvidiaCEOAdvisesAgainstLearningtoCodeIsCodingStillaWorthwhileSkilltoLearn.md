@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nvidia CEO Advises Against Learning to Code Is Coding Still a Worthwhile Skill to Learn"
 link: "https://medium.com/artificial-corner/nvidia-ceo-advises-against-learning-to-code-is-coding-still-a-worthwhile-skill-to-learn-704f091a8078"
+isUpdated: true
 ---
+
+
 
 
 

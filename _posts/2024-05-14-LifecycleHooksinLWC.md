@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lifecycle Hooks in LWC"
 link: "https://medium.com/@saurabh.samirs/lifecycle-hooks-in-lwc-752811011988"
+isUpdated: true
 ---
+
+
 
 
 

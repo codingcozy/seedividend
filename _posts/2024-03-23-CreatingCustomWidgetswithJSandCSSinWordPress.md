@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Custom Widgets with JS and CSS in WordPress"
 link: "https://volodymyrzh.medium.com/creating-custom-widgets-with-js-and-css-in-wordpress-50aa5bf43817"
+isUpdated: true
 ---
+
+
 
 
 

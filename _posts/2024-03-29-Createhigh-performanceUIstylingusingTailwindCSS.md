@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create high-performance UI styling using Tailwind CSS"
 link: "https://medium.com/@davifsroberto/create-high-performance-ui-styling-using-tailwind-css-fd00c4822e61"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Laravel with Inertia.js and React Simplifies SPA Development"
 link: "https://medium.com/@kamruljpi/how-laravel-with-inertia-js-and-react-simplifies-spa-development-0d5e93f6c5ee"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-HowLaravelwithInertiajsandReactSimplifiesSPADevelopment_0.png)

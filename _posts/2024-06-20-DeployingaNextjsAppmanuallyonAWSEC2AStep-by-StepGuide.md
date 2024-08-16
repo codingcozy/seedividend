@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying a Next.js App manually on AWS EC2: A Step-by-Step Guide"
 link: "https://medium.com/@mudasirhaji/deploying-a-next-js-app-manually-on-aws-ec2-a-step-by-step-guide-58b266ff1c52"
+isUpdated: true
 ---
+
+
 
 
 소개

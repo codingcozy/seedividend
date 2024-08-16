@@ -3,12 +3,15 @@ title: "알고 계셨나요  Python 내장 우선순위 큐 소개"
 description: ""
 coverImage: "/assets/img/2024-07-07-DidYouKnowPythonHasABuilt-inPriorityQueue_0.png"
 date: 2024-07-07 21:48
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-DidYouKnowPythonHasABuilt-inPriorityQueue_0.png
 tag: Tech
 originalTitle: "Did You Know — Python Has A Built-in Priority Queue"
 link: "https://medium.com/gitconnected/did-you-know-python-has-a-built-in-priority-queue-cd65acc4a5d6"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-DidYouKnowPythonHasABuilt-inPriorityQueue_0.png" />
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "useActionState — A New Hook in React 🎉"
 link: "https://medium.com/@mdtaqui.jhar/usestateaction-a-new-hook-in-react-1558986bf4df"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-30-useActionStateANewHookinReact_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rows, Columns, Containers and Images in Flutter version 3193"
 link: "https://medium.com/@sama3l/rows-columns-containers-and-images-in-flutter-version-3-19-3-673cd401b3f0"
+isUpdated: true
 ---
+
+
 
 
 

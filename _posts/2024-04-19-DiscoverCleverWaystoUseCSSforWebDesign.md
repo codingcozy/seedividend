@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Discover Clever Ways to Use CSS for Web Design"
 link: "https://medium.com/adl-blog/discover-clever-ways-to-use-css-for-web-design-6b1a3b9f776a"
+isUpdated: true
 ---
+
+
 
 
 

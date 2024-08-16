@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My 7-Step Cheat Sheet for Choosing Good Names"
 link: "https://medium.com/gitconnected/my-7-step-cheat-sheet-for-choosing-good-names-6137bcdbb2f4"
+isUpdated: true
 ---
+
+
 
 
 뭔가 이름 짓기는 결코 쉬운 일이 아니었죠. 특히 개발자들에게!

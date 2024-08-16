@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Lightweight Motion System in React Using CSS Animations"
 link: "https://medium.com/@curavcy/building-a-lightweight-motion-system-in-react-using-css-animations-e0ce120e62e2"
+isUpdated: true
 ---
+
+
 
 
 

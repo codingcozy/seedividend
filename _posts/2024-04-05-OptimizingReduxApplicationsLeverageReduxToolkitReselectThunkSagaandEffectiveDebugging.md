@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Redux Applications Leverage Redux Toolkit, Reselect, Thunk, Saga and Effective Debugging"
 link: "https://medium.com/stackademic/optimizing-redux-applications-leverage-redux-toolkit-reselect-thunk-saga-and-effective-7fc4d4a27546"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Connecting a React App to a GitHub Repository"
 link: "https://medium.com/@brianhulela/connecting-a-react-app-to-a-github-repository-c2b563f1885d"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-ConnectingaReactApptoaGitHubRepository_0.png)

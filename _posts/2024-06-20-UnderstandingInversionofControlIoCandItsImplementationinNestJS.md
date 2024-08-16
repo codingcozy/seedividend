@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Inversion of Control (IoC) and Its Implementation in NestJS"
 link: "https://medium.com/@majidev/understanding-inversion-of-control-ioc-and-its-implementation-in-nestjs-765dcc1d6445"
+isUpdated: true
 ---
+
+
 
 
 # 소프트웨어 개발 세계에서, 특히 복잡한 애플리케이션을 구축할 때는 깨끗하고 관리하기 쉬운 코드를 유지하는 것이 매우 중요합니다. 이를 돕는 핵심 원리 중 하나가 Inversion of Control (IoC)입니다. 이 글에서는 IoC가 무엇이며 왜 중요한지, 그리고 NestJS와 같은 프레임워크에서 어떻게 구현되는지 살펴보겠습니다.

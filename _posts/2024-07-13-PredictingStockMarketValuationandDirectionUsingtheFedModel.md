@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Predicting Stock Market Valuation and Direction Using the Fed Model"
 link: "https://medium.com/ai-advances/predicting-stock-market-valuation-and-direction-using-the-fed-model-85576b3228a2"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png)

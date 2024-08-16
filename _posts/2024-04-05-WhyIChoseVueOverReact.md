@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why I Chose Vue Over React "
 link: "https://medium.com/@sarahisdevs/why-i-chose-vue-over-react-3ed520bcacb8"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript for beginners to start with"
 link: "https://medium.com/@manojkhatri.designs/javascript-a-step-by-step-guide-for-beginners-21be24a5a4ef"
+isUpdated: true
 ---
+
+
 
 
 

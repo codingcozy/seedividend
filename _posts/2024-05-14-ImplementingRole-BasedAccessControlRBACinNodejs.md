@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Role-Based Access Control (RBAC) in Node.js"
 link: "https://medium.com/@techsuneel99/implementing-role-based-access-control-rbac-in-node-js-871591b80a83"
+isUpdated: true
 ---
+
+
 
 
 역할 기반 액세스 제어 (RBAC)는 응용 프로그램 보안의 중요한 측면입니다. 조직 또는 응용 프로그램 내에서 사용자의 역할에 따라 리소스에 대한 액세스를 관리하고 제한하는 구조화된 접근 방식을 제공합니다. 이 포괄적인 안내서에서는 RBAC 개념을 탐색하고 혜택을 논의하며 Node.js 응용 프로그램에 RBAC를 구현하는 과정을 안내합니다. 이 글을 마치면 직접 프로젝트에 대해 RBAC를 설계하고 구현하는 방법을 명확히 이해할 수 있을 것입니다.

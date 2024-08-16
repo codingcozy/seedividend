@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🚀 7 Essential JavaScript Snippets for Daily Development"
 link: "https://medium.com/javascript-in-plain-english/7-essential-javascript-snippets-for-daily-development-9fe66c340c35"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-7EssentialJavaScriptSnippetsforDailyDevelopment_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a React and Typescript app with Webpack"
 link: "https://medium.com/@arpitmalik832/creating-a-react-and-typescript-app-with-webpack-d1a97497303d"
+isUpdated: true
 ---
+
+
 
 
 

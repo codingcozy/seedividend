@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Get the Best Performance on Your Nextjs App"
 link: "https://medium.com/javascript-in-plain-english/get-the-best-performance-on-your-next-js-app-f407cc25d1f9"
+isUpdated: true
 ---
+
+
 
 
 

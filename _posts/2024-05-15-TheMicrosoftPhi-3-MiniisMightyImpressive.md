@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Microsoft Phi-3-Mini is Mighty Impressive"
 link: "https://medium.com/towards-artificial-intelligence/the-microsoft-phi-3-mini-is-mighty-impressive-a0f1e7bb6a8c"
+isUpdated: true
 ---
+
+
 
 
 최근에 마이크로소프트 AI가 출시한 Phi-3-Mini 언어 모델입니다. 이 모델은 작은 언어 모델(SLM) 범주에 속하며 LLM이 제공하는 여러 기능을 제공합니다. 유일한 차이점은 SLM은 크기가 더 작고 적은 데이터로 훈련되었다는 것입니다.

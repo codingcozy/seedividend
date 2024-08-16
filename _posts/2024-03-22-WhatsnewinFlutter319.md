@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Whats new in Flutter 319"
 link: "https://medium.com/flutter/whats-new-in-flutter-3-19-58b1aae242d2"
+isUpdated: true
 ---
+
+
 
 
 

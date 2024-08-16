@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with Generative AI in Angular"
 link: "https://medium.com/google-cloud/getting-started-with-generative-ai-in-angular-b72737a59982"
+isUpdated: true
 ---
+
+
 
 
 

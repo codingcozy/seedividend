@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Elevate Your React Applications with Interactive Star Ratings Using mil-rlib reactjs-star-rating"
 link: "https://medium.com/@milayek86/elevate-your-react-applications-with-interactive-star-ratings-using-mil-rlib-reactjs-star-rating-89c16a2d312f"
+isUpdated: true
 ---
+
+
 
 
 

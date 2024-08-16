@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Recreating PyTorch from Scratch (with GPU Support and Automatic Differentiation)"
 link: "https://medium.com/towards-data-science/recreating-pytorch-from-scratch-with-gpu-support-and-automatic-differentiation-8f565122a3cc"
+isUpdated: true
 ---
+
+
 
 
 ## C/C++, CUDA, 및 Python을 기반으로 한 고유의 딥 러닝 프레임워크를 구축해 보세요. GPU 지원과 자동 미분을 제공합니다

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Install React Testing Library with Yarn and NPM"
 link: "https://medium.com/@leandroaps/how-to-install-react-testing-library-with-yarn-and-npm-d264b37ffdf8"
+isUpdated: true
 ---
+
+
 
 
 

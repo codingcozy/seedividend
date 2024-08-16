@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Intro to CSS animations a tutorial for dynamic web designs"
 link: "https://medium.com/pixelmatters/intro-to-css-animations-a-tutorial-for-dynamic-web-designs-3052cbdbf8c7"
+isUpdated: true
 ---
+
+
 
 
 

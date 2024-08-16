@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing a QR Code Scanner in React"
 link: "https://medium.com/readytowork-org/implementing-a-qr-code-scanner-in-react-4c8f4e3c6f2e"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React 19 is Coming, Whats New"
 link: "https://blog.stackademic.com/react-19-is-coming-whats-new-79e2d4b948e4"
+isUpdated: true
 ---
+
+
 
 
 

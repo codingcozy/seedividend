@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Technical Foundations of Progressive Web Apps"
 link: "https://medium.com/@anant3104/technical-foundations-of-progressive-web-apps-2aa1779b28bc"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TIC-80 Tutorial: Machine Learning (do not get scared away by this: It is simply a part of AI) | Perceptron learning"
 link: "https://medium.com/@njihiadavid02/tic-80-machine-learning-perceptron-learning-bb0523cdca3d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kafka Streams — How to magically join multiple data streams"
 link: "https://medium.com/@gavinklfong/kafka-streams-marvellous-real-time-multiple-data-streams-processing-cf30327aa515"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-09-KafkaStreamsHowtomagicallyjoinmultipledatastreams_0.png)

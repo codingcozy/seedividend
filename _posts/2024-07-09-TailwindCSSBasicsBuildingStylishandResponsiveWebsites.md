@@ -3,12 +3,15 @@ title: "Tailwind CSS 기초 스타일리시하고 반응형 웹사이트 만들�
 description: ""
 coverImage: "/assets/img/2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites_0.png"
 date: 2024-07-09 14:07
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-TailwindCSSBasicsBuildingStylishandResponsiveWebsites_0.png
 tag: Tech
 originalTitle: "Tailwind CSS Basics: Building Stylish and Responsive Websites"
 link: "https://medium.com/@rajataha062/tailwind-css-basics-building-stylish-and-responsive-websites-a81f973fa9e9"
+isUpdated: true
 ---
+
+
 
 웹 개발의 끊임없이 발전하는 세계에서는 스타일리시하고 반응형 웹사이트를 빠르고 효율적으로 만드는 것이 중요합니다. 최근 유틸리티와 유연성으로 인해 인기를 얻고 있는 도구 중 하나가 Tailwind CSS입니다. 이 초보자를 위한 가이드에서는 Tailwind CSS의 기본 개념과 현대적이고 반응형 디자인을 만들기 위해 어떻게 활용할 수 있는지 살펴볼 것입니다.
 

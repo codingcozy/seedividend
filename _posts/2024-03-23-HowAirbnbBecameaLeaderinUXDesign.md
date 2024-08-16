@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Airbnb Became a Leader in UX Design"
 link: "https://blog.prototypr.io/how-airbnb-became-a-leader-in-ux-design-7d8ab8ad803e"
+isUpdated: true
 ---
+
+
 
 
 

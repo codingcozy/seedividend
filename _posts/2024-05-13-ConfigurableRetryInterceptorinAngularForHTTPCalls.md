@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Configurable Retry Interceptor in Angular For HTTP Calls"
 link: "https://medium.com/stackademic/configurable-retry-http-calls-interceptor-in-angular-b0300b3af023"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-13-ConfigurableRetryInterceptorinAngularForHTTPCalls_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Mobile UI Inspection on Desktop: A Step-by-Step Guide"
 link: "https://medium.com/@iambharathpadhu/mastering-mobile-ui-inspection-on-desktop-a-step-by-step-guide-6619708d1b2e"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-20-MasteringMobileUIInspectiononDesktopAStep-by-StepGuide_0.png)

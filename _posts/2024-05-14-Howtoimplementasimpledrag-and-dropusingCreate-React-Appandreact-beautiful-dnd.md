@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to implement a simple drag-and-drop using Create-React-App and react-beautiful-dnd?"
 link: "https://medium.com/codex/how-to-implement-a-simple-drag-and-drop-using-create-react-app-and-react-beautiful-dnd-4e6e57a2299f"
+isUpdated: true
 ---
+
+
 
 
 오늘은 개인 프로젝트를 진행하면서 애플리케이션 내에서 더 많은 사용자 정의를 가능하게하기 위해 드래그 앤 드롭 기능을 구현해야 했어요. 문서, 공식 문서 및 YouTube 비디오를 많이 살펴보느라 많은 시간을 보냈죠. 공부하고 구현을 시도한 깁ㄴ 긴 과정 끝에, 마침내 작동하게 만들었어요. 그런데 어떻게 하느냐구요? 그러기 전에, React 앱을 만들어 봐요!

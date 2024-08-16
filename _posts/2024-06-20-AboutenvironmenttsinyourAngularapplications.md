@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "About environment.ts in your Angular applications"
 link: "https://medium.com/@hongtatyew/about-environment-ts-in-your-angular-applications-50646ab08c81"
+isUpdated: true
 ---
+
+
 
 
 `<img src="/assets/img/2024-06-20-AboutenvironmenttsinyourAngularapplications_0.png" />`

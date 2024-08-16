@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Decoding Emotions with Facial Recognition"
 link: "https://medium.com/@vedantbedi_47271/decoding-emotions-with-facial-recognition-db92ce89af52"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-DecodingEmotionswithFacialRecognition_0.png" />

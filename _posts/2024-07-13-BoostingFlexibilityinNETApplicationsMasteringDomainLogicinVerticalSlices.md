@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Boosting Flexibility in .NET Applications: Mastering Domain Logic in Vertical Slices"
 link: "https://medium.com/gitconnected/boosting-flexibility-in-net-applications-mastering-domain-logic-in-vertical-slices-d26ad2e0883f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsMasteringDomainLogicinVerticalSlices_0.png" />

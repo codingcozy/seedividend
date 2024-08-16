@@ -3,12 +3,15 @@ title: "몰랐으면 후회할 8가지 Python Dictionary 사용 꿀팁"
 description: ""
 coverImage: "/assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png"
 date: 2024-07-07 02:29
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png
 tag: Tech
 originalTitle: "8 Python Dictionary Things I Regret Not Knowing Earlier"
 link: "https://medium.com/@zlliu/8-python-dictionary-things-i-regret-not-knowing-earlier-bd98e94a5600"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The fanciest CSS border you will ever make"
 link: "https://medium.com/@adam-barta/the-fanciest-css-border-you-will-ever-make-5ce8f6bb41c7"
+isUpdated: true
 ---
+
+
 
 
 

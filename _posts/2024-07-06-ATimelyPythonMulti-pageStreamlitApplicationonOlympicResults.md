@@ -3,12 +3,15 @@ title: "최신 파이썬 멀티페이지 Streamlit 애플리케이션으로 올�
 description: ""
 coverImage: "/assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png"
 date: 2024-07-06 10:27
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png
 tag: Tech
 originalTitle: "A Timely Python Multi-page Streamlit Application on Olympic Results"
 link: "https://medium.com/gitconnected/a-timely-python-multi-page-streamlit-application-on-olympic-results-fb6d63c14ddd"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png
 

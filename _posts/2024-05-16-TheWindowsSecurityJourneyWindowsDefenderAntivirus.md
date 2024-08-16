@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Windows Security Journey — 'Windows Defender Antivirus'"
 link: "https://medium.com/@boutnaru/the-windows-security-journey-windows-defender-antivirus-cf0c76a6802e"
+isUpdated: true
 ---
+
+
 
 
 "Windows Defender Antivirus"은 Windows 10/11/Server용으로 제공됩니다. 알려진/알 수 없는 악성 소프트웨어로부터 보호하기 위해 고급 기술을 사용합니다. 이를 위해 의심스러운 활동을 모니터링하고 행동에 기반한 위협을 차단합니다. 이는 기계 학습/이상 탐지(2015년까지는 정적으로만 신호만 사용)를 통해 이루어지며, 클라우드 기반 인텔리전스와 실시간 업데이트도 제공합니다. "Windows Defender Antivirus"는 온라인 및 오프라인 모두에서 작동합니다(https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows?view=o365-worldwide) — 아래 스크린샷에서 확인할 수 있습니다.

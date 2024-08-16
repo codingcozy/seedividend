@@ -3,12 +3,15 @@ title: "자바스크립트 애플리케이션의 Minification과 Obfuscation 사
 description: ""
 coverImage: "/assets/img/2024-07-09-MinificationandobfuscationofJavaScriptapplications_0.png"
 date: 2024-07-09 18:39
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-MinificationandobfuscationofJavaScriptapplications_0.png
 tag: Tech
 originalTitle: "Minification and obfuscation of JavaScript applications"
 link: "https://medium.com/@ajit.singh252504/minification-and-obfuscation-of-javascript-applications-0d84711ffaf6"
+isUpdated: true
 ---
+
+
 
 # JavaScript 코드 난독화란 무엇인가요?
 

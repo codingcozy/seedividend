@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How BigPay Increased Flutter Developer Velocity: Part 1 — CI CD for Flutter Android"
 link: "https://medium.com/bigpay-tech-blog/how-bigpay-increased-flutter-developer-velocity-part-1-ci-cd-for-flutter-android-using-github-34624b59762e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-HowBigPayIncreasedFlutterDeveloperVelocityPart1CICDforFlutterAndroid_0.png" />

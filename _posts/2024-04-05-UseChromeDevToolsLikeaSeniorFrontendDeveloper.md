@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use Chrome DevTools Like a Senior Frontend Developer"
 link: "https://medium.com/javascript-in-plain-english/use-chrome-devtools-like-a-senior-frontend-developer-97ad3ee47647"
+isUpdated: true
 ---
+
+
 
 
 

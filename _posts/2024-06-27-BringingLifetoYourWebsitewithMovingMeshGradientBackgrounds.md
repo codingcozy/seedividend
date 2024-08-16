@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bringing Life to Your Website with Moving Mesh Gradient Backgrounds"
 link: "https://medium.com/design-bootcamp/bringing-life-to-your-website-with-moving-mesh-gradient-backgrounds-20b7e26844a2"
+isUpdated: true
 ---
+
+
 
 
 요즘에는 메쉬 그라데이션 디자인이 점점 더 인기를 끌고 있는 것 같아요.

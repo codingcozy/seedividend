@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Data Fetching with Nuxt 3"
 link: "https://medium.com/@enestalayy/data-fetching-with-nuxt-3-ede89fb0509f"
+isUpdated: true
 ---
+
+
 
 
 

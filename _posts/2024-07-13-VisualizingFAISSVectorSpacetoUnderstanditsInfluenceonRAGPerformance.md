@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Visualizing FAISS Vector Space to Understand its Influence on RAG Performance"
 link: "https://medium.com/ai-advances/visualizing-faiss-vector-space-to-understand-its-influence-on-rag-performance-14d71c6a4f47"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-VisualizingFAISSVectorSpacetoUnderstanditsInfluenceonRAGPerformance_0.png" />

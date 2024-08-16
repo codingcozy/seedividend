@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Local Change Detection in Angular"
 link: "https://medium.com/ngconf/local-change-detection-in-angular-410d82b38664"
+isUpdated: true
 ---
+
+
 
 
 

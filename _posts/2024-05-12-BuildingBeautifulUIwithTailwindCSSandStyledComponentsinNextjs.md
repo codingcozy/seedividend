@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Beautiful UI with Tailwind CSS and Styled Components in Next.js"
 link: "https://medium.com/@techsolutionsx/building-beautiful-ui-with-tailwind-css-and-styled-components-in-next-js-c643b0efaf5a"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-BuildingBeautifulUIwithTailwindCSSandStyledComponentsinNextjs_0.png)

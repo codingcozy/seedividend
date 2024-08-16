@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing an Infinite Icon Slider in React with Framer Motion"
 link: "https://medium.com/@caden0002/implementing-an-infinite-slider-in-react-with-tailwind-css-and-framer-motion-69173adb31a3"
+isUpdated: true
 ---
+
+
 
 
 무한 슬라이더는 웹 개발에서 인기 있는 UI 패턴으로, 이미지나 기타 미디어와 같은 콘텐츠를 연속적인 루프로 표시하는 데 사용됩니다. 무한 슬라이더의 핵심 원칙은 콘텐츠 항목의 집합을 중단 또는 간격 없이 매끄럽게 순환하면서 부드럽고 중단되지 않는 뷰잉 경험을 만드는 것입니다.

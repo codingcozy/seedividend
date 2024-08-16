@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Signals, Reactive Context, and Dynamic Dependency Tracking"
 link: "https://medium.com/@eugeniyoz/angular-signals-reactive-context-and-dynamic-dependency-tracking-d2d6100568b0"
+isUpdated: true
 ---
+
+
 
 
 Angular Signals를 효과적으로 사용하려면 "반응형 컨텍스트" 개념과 의존성 추적 방법을 이해하는 것이 중요합니다. 이 글에서는 이 두 가지를 설명하고 관련 버그를 피하는 방법을 보여 드리겠습니다.

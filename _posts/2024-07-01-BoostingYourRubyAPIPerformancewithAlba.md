@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Boosting Your Ruby API Performance with Alba"
 link: "https://medium.com/@usama.zubair_66714/boosting-your-ruby-api-performance-with-alba-dca5f5e437ec"
+isUpdated: true
 ---
+
+
 
 
 요즘 빠르게 변화하는 세상에서 API 성능이 가장 중요합니다. 사용자들은 빠른 응답을 기대하며, 느린 API는 당황과 이탈로 이어질 수 있습니다. Ruby로 API를 개발하는 경우, Alba 젬이 큰 변화를 가져다 줄 수 있습니다.

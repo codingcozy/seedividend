@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Abstract Your Reasoning"
 link: "https://medium.com/@keith-mcnulty/how-to-abstract-your-reasoning-3064f772aa4b"
+isUpdated: true
 ---
+
+
 
 
 

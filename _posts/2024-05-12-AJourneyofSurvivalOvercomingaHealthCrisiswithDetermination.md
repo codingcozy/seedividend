@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Journey of Survival: Overcoming a Health Crisis with Determination"
 link: "https://medium.com/@keatondorasami54/a-journey-of-survival-overcoming-a-health-crisis-with-determination-4b0a2e9ecbcb"
+isUpdated: true
 ---
+
+
 
 
 인생은 예상치 못한 도전을 우리 앞에 던지며, 우리의 탄력과 결의를 우리가 상상조차 못했던 방식으로 시험합니다. 나에게 이 여정은 내 존재의 근간을 뒤흔드는 갑작스러운 건강 위기로 시작되었습니다. 어느 보통의 날, 나는 경고하는 증상의 급격한 악화와 맞서야 하는 상황에 처해 있었습니다. 내 죽음의 현실과 직면하며, 나는 나와 알 수 없는 것 사이에 놓인 고혈압 약물을 찾아가는 순간적인 결정을 내렸습니다.

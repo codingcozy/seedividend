@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "RFC process"
 link: "https://storybook.js.org/docs/contribute/RFC"
+isUpdated: true
 ---
+
+
 
 
 

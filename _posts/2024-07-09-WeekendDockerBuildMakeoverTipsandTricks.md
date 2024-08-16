@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Weekend Docker Build Makeover: Tips and Tricks"
 link: "https://medium.com/gitconnected/weekend-docker-build-makeover-tips-and-tricks-18dee11abb2a"
+isUpdated: true
 ---
+
+
 
 
 만약 당신이 Docker를 좋아한다면 콘솔에서 빌드를 실행할 때 가장 큰 고민 중 하나를 공유할 수 있을 겁니다. 기본적으로 출력물에는 색상이 없어서 같은 내용이 반복되는 텍스트들을 보고 무슨 일이 일어나고 있는지 파악하기 어렵지요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setup Testing Environment for React TypeScript with Jest !"
 link: "https://medium.com/@maous/setup-testing-environment-for-react-typescript-with-jest-1f5eb453aa2"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-12-SetupTestingEnvironmentforReactTypeScriptwithJest_0.png)

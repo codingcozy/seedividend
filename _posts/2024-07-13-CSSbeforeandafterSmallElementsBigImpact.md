@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS ::before and ::after — Small Elements, Big Impact"
 link: "https://medium.com/@wesleyvanpeer/css-before-and-after-small-elements-big-impact-fd5a54e7793a"
+isUpdated: true
 ---
+
+
 
 
 

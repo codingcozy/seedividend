@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Feature Engineering With Latitude and Longitude"
 link: "https://medium.com/towards-data-science/feature-engineering-with-latitude-and-longitude-2577b7ad7a45"
+isUpdated: true
 ---
+
+
 
 
 

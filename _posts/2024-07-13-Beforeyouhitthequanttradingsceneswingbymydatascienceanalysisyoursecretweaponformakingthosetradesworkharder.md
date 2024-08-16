@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Before you hit the quant trading scene, swing by my data science analysis– your secret weapon for making those trades work harder!"
 link: "https://medium.com/@datalev/before-you-hit-the-quant-trading-scene-swing-by-my-data-science-analysis-your-secret-weapon-for-03914c1ad318"
+isUpdated: true
 ---
+
+
 
 
 의심에서 전략으로: 시장 동향, 거래 전술 및 데이터 과학 통찰력의 복잡한 망을 해체해보세요

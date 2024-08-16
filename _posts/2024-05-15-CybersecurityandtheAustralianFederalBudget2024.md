@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Cybersecurity and the Australian Federal Budget 2024"
 link: "https://medium.com/@ianyip/cybersecurity-and-the-australian-federal-budget-2024-51a1602321d1"
+isUpdated: true
 ---
+
+
 
 
 예산에서 사이버 보안 항목을 찾아봤어요. 귀찮게 하지 않고 대신 찾았죠.

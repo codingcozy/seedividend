@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript — Changing and Adding Page Content"
 link: "https://medium.com/@geraldclarkaudio/javascript-changing-and-adding-page-content-deba762969b8"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-23-JavaScriptChangingandAddingPageContent_0.png)

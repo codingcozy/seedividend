@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Cancelable CountDownLatch in Java"
 link: "https://medium.com/itnext/cancelable-countdownlatch-in-java-2b960fb77403"
+isUpdated: true
 ---
+
+
 
 
 최근에 아주 동기화 유틸리티에 대한 시리즈 기사를 쓰기 시작했어요. 이 가상의 멀티스레드 파일 다운로더를 구현하여 다양한 버전의 다운로더를 만들었습니다. 그중에는 wait() 및 notifyAll(), RenerantLock, CyclicBarrier, 그리고 Countdownlatch를 사용한 버전들이 있어요.

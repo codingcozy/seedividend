@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Handling errors like a pro in TypeScript"
 link: "https://medium.com/udacity-engineering/handling-errors-like-a-pro-in-typescript-d7a314ad4991"
+isUpdated: true
 ---
+
+
 
 
 

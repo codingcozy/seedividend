@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "WebAssembly in Kubernetes: A New Era of Application Deployment"
 link: "https://medium.com/@simardeep.oberoi/webassembly-in-kubernetes-a-new-era-of-application-deployment-9d579c59e556"
+isUpdated: true
 ---
+
+
 
 
 ![WebAssembly in Kubernetes](/assets/img/2024-07-02-WebAssemblyinKubernetesANewEraofApplicationDeployment_0.png)

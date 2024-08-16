@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 React Interview Questions I Bet the Senior Front-end Developer Cant Answer"
 link: "https://medium.com/stackademic/5-react-interview-questions-i-bet-the-senior-front-end-developer-cant-answer-91e2e56fba92"
+isUpdated: true
 ---
+
+
 
 
 

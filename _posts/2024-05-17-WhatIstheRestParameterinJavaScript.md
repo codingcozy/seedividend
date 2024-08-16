@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What Is the … Rest Parameter in JavaScript?"
 link: "https://medium.com/javascript-in-plain-english/what-is-the-rest-parameter-in-javascript-91ecb02c902d"
+isUpdated: true
 ---
+
+
 
 
 ## ES6 REST 문법

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript window.print() cuts off page when printing"
 link: "https://medium.com/@abenezerdaniel147/javascript-window-print-cuts-off-page-when-printing-4cff3688d4aa"
+isUpdated: true
 ---
+
+
 
 
 

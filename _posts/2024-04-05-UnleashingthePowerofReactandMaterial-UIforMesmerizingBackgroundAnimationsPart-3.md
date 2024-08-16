@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unleashing the Power of React and Material-UI for Mesmerizing Background Animations Part-3"
 link: "https://medium.com/@yogeshmulecraft/unleashing-the-power-of-react-and-material-ui-for-mesmerizing-background-animations-part-3-11781950aac5"
+isUpdated: true
 ---
+
+
 
 
 

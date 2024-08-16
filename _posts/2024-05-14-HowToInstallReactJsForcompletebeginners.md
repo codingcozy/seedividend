@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Install React Js (For complete beginners)"
 link: "https://medium.com/@mark.onyango_95482/how-to-install-react-js-for-complete-beginners-5301613c90fb"
+isUpdated: true
 ---
+
+
 
 
 

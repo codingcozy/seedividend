@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Vercel Just Changed its Pricing —How Does it Compare?"
 link: "https://medium.com/@mitchellkossoris/vercel-just-changed-its-pricing-how-does-it-compare-195adab23b3c"
+isUpdated: true
 ---
+
+
 
 
 ## 인기 있는 NextJS 프론트엔드 인프라 서비스는 과거 높은 비용에 대한 비판을 받아왔습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Monorepo or Not Monorepo"
 link: "https://medium.com/@parsakhosravani/monorepo-or-not-monorepo-ba2a4e3b2b84"
+isUpdated: true
 ---
+
+
 
 
 소프트웨어 아키텍처를 결정할 때입니다. 점진적인 방식이 좋을까요, 아니면 처음부터 최상의 디자인을 찾아야 할까요? 우리는 모두 완벽을 추구합니다 — 최고의 라이브러리, 최고의 도구 등을. 하지만 “best”는 상대적인 개념이며, 선한 사람이 되는 것과 같이 주관적이며 상황에 따라 달라집니다. 좋은 소프트웨어를 설계할 때 여러 매개변수가 의사결정에 영향을 미치고 변화할 수 있다는 것을 염두에 두세요.

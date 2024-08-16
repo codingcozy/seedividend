@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "8 Cool HTML Effects to Create an Awesome Website"
 link: "https://medium.com/@themaheshvaishnav/8-cool-html-effects-to-create-an-awesome-website-419841fbc4ef"
+isUpdated: true
 ---
+
+
 
 
 CSS나 PHP를 알지 못해도 멋진 웹사이트를 만들 수 있다면, 이 멋진 HTML 효과 트릭 8가지를 사용하여 멋진 웹사이트를 만들어보세요. 멋진 웹사이트를 구축하고 싶지만 웹 개발에 대한 마스터 스킬이 없다면 걱정하지 마세요! CSS와 PHP를 알 필요가 없다면 이 멋진 HTML 효과 8가지를 선택하세요. 그리고 이 태그들을 HTML에 복사하고 붙이는 방법을 배워보세요.

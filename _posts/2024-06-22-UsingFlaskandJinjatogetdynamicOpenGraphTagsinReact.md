@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Flask and Jinja to get dynamic OpenGraph Tags in React"
 link: "https://medium.com/@Apantslessman/using-flask-and-jinja-to-get-dynamic-opengraph-tags-in-react-bc7de05e6732"
+isUpdated: true
 ---
+
+
 
 
 # 플라스크와 진자를 사용하는 이유

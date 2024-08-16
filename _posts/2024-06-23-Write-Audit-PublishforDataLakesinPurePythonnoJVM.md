@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Write-Audit-Publish for Data Lakes in Pure Python (no JVM)"
 link: "https://medium.com/towards-data-science/write-audit-publish-for-data-lakes-in-pure-python-no-jvm-25fbd971b17d"
+isUpdated: true
 ---
+
+
 
 
 ## 아파치 아이스버그, 람다 및 프로젝트 네시를 사용하여 WAP의 오픈 소스 구현, 모두 Python으로 완전히 실행

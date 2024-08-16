@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Home Lab DNS Update: Technitium++, Pi-Hole––"
 link: "https://medium.com/@a.j.longchamps/home-lab-dns-update-technitium-pi-hole-cb9bf24bb8b5"
+isUpdated: true
 ---
+
+
 
 
 이번 아침에는 Pi Hole DNS 서버를 다른 Technitium 설치로 대체하기로 결정했어요. 그래서 이제 HA를 위해 두 개의 Technitium DNS 서버를 사용하고 있어요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTMX vs React with examples"
 link: "https://medium.com/javascript-in-plain-english/htmx-vs-react-with-examples-14bd2d70bb4e"
+isUpdated: true
 ---
+
+
 
 
 

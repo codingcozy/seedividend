@@ -3,12 +3,15 @@ title: "Python으로 XGBoost를 사용한 모노토닉 시계열 예측 실습"
 description: ""
 coverImage: "/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_0.png"
 date: 2024-07-09 20:12
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_0.png
 tag: Tech
 originalTitle: "Hands On Monotonic Time Series Forecasting with XGBoost, using Python"
 link: "https://medium.com/towards-data-science/hands-on-monotonic-time-series-forecasting-with-xgboost-using-python-ebcd2c27f9e6"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-HandsOnMonotonicTimeSeriesForecastingwithXGBoostusingPython_0.png)
 

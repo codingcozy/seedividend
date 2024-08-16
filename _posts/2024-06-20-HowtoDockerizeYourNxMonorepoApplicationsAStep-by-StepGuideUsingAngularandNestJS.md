@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Dockerize Your Nx Monorepo Applications: A Step-by-Step Guide Using Angular and NestJS"
 link: "https://medium.com/@abdullahzengin/how-to-dockerize-your-nx-monorepo-applications-a-step-by-step-guide-using-angular-and-nestjs-a079b1b9a181"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_0.png" />

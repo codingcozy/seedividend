@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Choose Your Pain."
 link: "https://medium.com/@wesleyngare/choose-your-pain-12b28b711dee"
+isUpdated: true
 ---
+
+
 
 
 나의 이야기를 탐험하면서, 당신에게 권장하고 싶은 것은 당신의 삶의 여정에 대해 깊이 사색에 몰입하는 것입니다. 오늘, 여러분은 수많은 영혼 사이에서 스스로의 길을 명확한 로드맵 없이 개척하는 사람들 중 하나로 자리 잡게 될 것입니다. 당신은 스스로의 생존을 책임져야 함을 깨달았습니다.

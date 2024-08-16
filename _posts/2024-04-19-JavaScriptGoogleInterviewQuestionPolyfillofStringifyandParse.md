@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript Google Interview Question  Polyfill of Stringify and Parse"
 link: "https://medium.com/gitconnected/javascript-google-interview-question-polyfill-of-stringify-and-parse-c9b370b11027"
+isUpdated: true
 ---
+
+
 
 
 

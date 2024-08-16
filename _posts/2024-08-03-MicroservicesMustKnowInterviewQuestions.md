@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Microservices Must Know Interview Questions"
 link: "https://medium.com/@mpavani667/microservices-must-know-interview-questions-442506cb4e69"
+isUpdated: true
 ---
+
+
 
 
 # 1. 마이크로서비스에서 데이터 일관성을 어떻게 다루시나요?

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "에지와 노드js 실행 환경"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

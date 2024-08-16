@@ -1,5 +1,5 @@
 ---
-title: "Firebase와 구글 지도를 이용한 플러터 실시간 위치 앱 만들기 "
+title: "Firebase와 구글 지도를 이용한 플러터 실시간 위치 앱 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter real-time location app using firebase and google map"
 link: "https://medium.com/@stephanorazafindramena/flutter-real-time-location-app-using-firebase-and-google-map-35bb391acf8a"
+isUpdated: true
 ---
+
+
 
 
 

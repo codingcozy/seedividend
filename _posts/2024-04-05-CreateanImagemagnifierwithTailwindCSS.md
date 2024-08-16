@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create an Image magnifier with Tailwind CSS"
 link: "https://medium.com/@rayhaanrakib/create-an-image-magnifier-with-tailwind-css-77077353ea71"
+isUpdated: true
 ---
+
+
 
 
 

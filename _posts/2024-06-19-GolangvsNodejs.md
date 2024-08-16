@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Golang vs Node.js"
 link: "https://medium.com/gitconnected/golang-vs-node-js-0e5b833cb56f"
+isUpdated: true
 ---
+
+
 
 
 소프트웨어 개발자로서, 언제나 앱을 개발하는 데 최적화된 가장 빠르고 효율적인 도구를 찾고 있어요. 속도와 복잡한 작업 처리에 관한 것이라면, Golang과 Node.js가 두 강자로 뽑히죠. 둘 다 성능 면에서 뛰어난 평판을 자랑하지요. 그런데 고민거리는 여전히 존재합니다 — Golang과 Node.js 중 어느 쪽이 더 빠를까요? 이 논쟁을 해결하기 위해, 내가 이 두 기술을 철저히 비교하는 벤치마크 테스트의 여정에 나섰어요. 자세한 결과를 분석하여, 빠른 속도면에서 어떤 플랫폼이 우위를 차지하는지 확인하는 게 제 목표에요. 데이터를 통해 어느 플랫폼이 고성능 앱을 개발하는 데 분명한 장점을 가지고 있는지 밝혀낼 거예요.

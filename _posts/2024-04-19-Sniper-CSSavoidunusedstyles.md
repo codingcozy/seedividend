@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sniper-CSS, avoid unused styles"
 link: "https://medium.com/better-programming/sniper-css-avoid-unused-styles-835abfda3284"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a FullStack Application with Django, Django REST , Nextjs"
 link: "https://medium.com/stackademic/building-a-fullstack-application-with-django-django-rest-next-js-c0b948f248bd"
+isUpdated: true
 ---
+
+
 
 
 

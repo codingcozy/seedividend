@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "When to Use React Query vs useEffect for Data Fetching"
 link: "https://medium.com/@tommyhc/when-to-use-react-query-vs-useeffect-for-data-fetching-2412a8a70641"
+isUpdated: true
 ---
+
+
 
 
 

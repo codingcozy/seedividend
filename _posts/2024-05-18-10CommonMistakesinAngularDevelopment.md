@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Common Mistakes in Angular Development"
 link: "https://medium.com/bitsrc/essential-tips-for-successful-angular-development-f92a9ea1d20f"
+isUpdated: true
 ---
+
+
 
 
 ## 고성능, 견고하며 안전한 애플리케이션 개발하기

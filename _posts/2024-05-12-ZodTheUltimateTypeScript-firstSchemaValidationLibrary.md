@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Zod: The Ultimate TypeScript-first Schema Validation Library"
 link: "https://medium.com/@imrankhani/zod-the-ultimate-typescript-first-schema-validation-library-93869bcde880"
+isUpdated: true
 ---
+
+
 
 
 데이터 유효성 검사는 어떤 애플리케이션 개발 과정에서 중요한 측면으로, 들어오는 데이터가 예상 형식과 제약 조건을 준수하는지 확인합니다. TypeScript 세계에서, 개발자들은 종종 untyped 또는 느슨하게 typed된 데이터 원본을 처리할 때 타입 안전성을 유지하는 도전에 직면합니다. 여기 Zod가 나타납니다. TypeScript-first 스키마 유효성 검사 라이브러리로, 이 간극을 원활하게 연결하려고 합니다.

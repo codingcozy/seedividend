@@ -3,12 +3,15 @@ title: "코딩 실력을 높여줄 10가지 흥미로운 프로그래밍 챌린�
 description: ""
 coverImage: "/assets/img/2024-07-07-10CaptivatingProgrammingChallengestoElevateYourCodingSkills_0.png"
 date: 2024-07-07 02:13
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-10CaptivatingProgrammingChallengestoElevateYourCodingSkills_0.png
 tag: Tech
 originalTitle: "10 Captivating Programming Challenges to Elevate Your Coding Skills 🚀"
 link: "https://medium.com/@labexio/10-captivating-programming-challenges-to-elevate-your-coding-skills-461e2d480d1b"
+isUpdated: true
 ---
+
+
 
 ![Alt text](/assets/img/2024-07-07-10CaptivatingProgrammingChallengestoElevateYourCodingSkills_0.png)
 

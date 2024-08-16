@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Display PDF documents in React"
 link: "https://medium.com/@stheodorejohn/a-guide-to-display-pdf-documents-in-react-bcd9fb0f56b0"
+isUpdated: true
 ---
+
+
 
 
 

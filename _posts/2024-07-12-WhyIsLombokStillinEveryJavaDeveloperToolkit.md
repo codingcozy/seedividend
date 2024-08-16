@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Is Lombok Still in Every Java Developer Toolkit?"
 link: "https://medium.com/codex/why-is-lombok-still-in-every-java-developer-toolkit-ba038bf47f7"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-WhyIsLombokStillinEveryJavaDeveloperToolkit_0.png" />

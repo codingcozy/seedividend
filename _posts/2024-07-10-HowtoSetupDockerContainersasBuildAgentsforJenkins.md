@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Setup Docker Containers as Build Agents for Jenkins"
 link: "https://medium.com/@kuldeepkumawat195/how-to-setup-docker-containers-as-build-agents-for-jenkins-0234427f5029"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-HowtoSetupDockerContainersasBuildAgentsforJenkins_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mantine CSS Revolutionizing React Component Development"
 link: "https://medium.com/@erdenizzz/mantine-css-revolutionizing-react-component-development-da97cfa9edbc"
+isUpdated: true
 ---
+
+
 
 
 

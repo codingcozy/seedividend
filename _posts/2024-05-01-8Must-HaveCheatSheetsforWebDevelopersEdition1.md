@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "8 Must-Have Cheat Sheets 📝 for Web Developers: Edition 1"
 link: "https://medium.com/@ranisa-gupta/8-must-have-cheat-sheets-for-web-developers-edition-1-2a0993bd5a9c"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-8Must-HaveCheatSheetsforWebDevelopersEdition1_0.png)

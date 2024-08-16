@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SASS — Fundamentals"
 link: "https://medium.com/@hassani20120/sass-fundamentals-086070382bb1"
+isUpdated: true
 ---
+
+
 
 
 ![그림](/assets/img/2024-05-18-SASSFundamentals_0.png)

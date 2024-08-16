@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Secret of Your Future is Hidden in Your Daily Routine"
 link: "https://medium.com/@kushwaharudraksha/the-secret-of-your-future-is-hidden-in-your-daily-routine-cd9be8504b45"
+isUpdated: true
 ---
+
+
 
 
 우리의 일상 루틴은 특히 프로그래밍 분야에서 미래에 거대한 영향을 미칩니다. 당신이 경험이 풍부한 코더이건 막 시작한 사람이건, 오늘 형성하는 습관이 내일의 성공을 결정짓습니다. 프로그래머들의 잠재력을 발휘할 수 있는 주목할 가치가 있는 일상 루틴에 대해 알아봅시다.

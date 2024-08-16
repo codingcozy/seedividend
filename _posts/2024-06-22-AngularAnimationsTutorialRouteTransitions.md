@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Animations Tutorial: Route Transitions"
 link: "https://medium.com/angular-animations/angular-animations-tutorial-route-transitions-3c652e09e561"
+isUpdated: true
 ---
+
+
 
 
 만약 라우팅을 갖춘 Angular 애플리케이션을 다룬 적이 있다면, 루트 간 이동 시에 트랜지션을 추가하고 싶었을 것입니다. 이렇게 하면 애플리케이션이 전체적으로 더 우아해 보입니다. 알고 계셨나요? Animation 모듈을 이용하면 이를 쉽게 구현할 수 있습니다. 이번 예제에서 그 방법을 보여드리겠습니다. 그럼 시작해봅시다.

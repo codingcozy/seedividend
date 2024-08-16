@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Use SVG in React Vite Typescript"
 link: "https://medium.com/@bhargavagonugunta123/how-to-use-svg-in-react-vite-typescript-8503f3d7d51b"
+isUpdated: true
 ---
+
+
 
 
 SVG(Scalable Vector Graphics)은 확장 가능성과 유연성으로 현대 웹 개발에서 중요한 역할을 하고 있어요. React와 결합하면 동적이고 시각적으로 멋진 사용자 인터페이스를 만들 수 있는 무궁무진한 가능성이 열립니다. 이 안내서에서는 SVG를 React 프로젝트에 효과적으로 통합하는 방법을 살펴볼 거에요.

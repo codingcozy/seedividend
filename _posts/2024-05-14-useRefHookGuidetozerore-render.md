@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "useRef Hook: Guide to zero re-render"
 link: "https://medium.com/@omkarbhavare2406/useref-hook-guide-to-zero-re-render-49c9f451b1cf"
+isUpdated: true
 ---
+
+
 
 
 리액트는 사용자 인터페이스를 구축하기 위한 인기 있는 자바스크립트 라이브러리로, 응용 프로그램의 문서 객체 모델(DOM)을 효과적으로 관리하는 중요한 useRef라는 강력한 후크를 제공합니다. 이 안내서에서는 useRef가 무엇인지, 어떻게 효과적으로 사용하는지, 그리고 실제 시나리오에서의 다양한 응용 방법을 살펴볼 것입니다.

@@ -3,12 +3,15 @@ title: "초보 때 알았더라면 좋았을 Python 코딩 꿀팁 10가지"
 description: ""
 coverImage: "/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png"
 date: 2024-07-09 15:05
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png
 tag: Tech
 originalTitle: "Python Coding Tips: Lessons I Wish I Knew When I Started Coding"
 link: "https://medium.com/@yaduvanshineelam09/python-coding-tips-lessons-i-wish-i-knew-when-i-started-coding-4e9d9cd0aefb"
+isUpdated: true
 ---
+
+
 
 ![Python Coding Tips](/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png)
 

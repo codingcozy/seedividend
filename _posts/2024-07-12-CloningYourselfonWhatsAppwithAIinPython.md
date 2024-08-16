@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Cloning Yourself on WhatsApp with AI in Python"
 link: "https://medium.com/@crisvelasquez/cloning-yourself-on-whatsapp-with-ai-in-python-7eea05f60fe6"
+isUpdated: true
 ---
+
+
 
 
 

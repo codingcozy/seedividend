@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deployment of Ruby on Rails app using Capistrano Locally(From one user to another on the same PC)"
 link: "https://medium.com/@sabitanepal/deployment-of-ruby-on-rails-app-using-capistrano-locally-from-one-user-to-another-on-the-same-pc-77fa551294ab"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-DeploymentofRubyonRailsappusingCapistranoLocallyFromoneusertoanotheronthesamePC_0.png" />

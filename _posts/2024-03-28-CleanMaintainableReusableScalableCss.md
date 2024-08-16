@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Clean  Maintainable  Reusable  Scalable Css"
 link: "https://medium.com/@egemenhalici/clean-maintainable-reusable-scalable-css-8e6f7ac90783"
+isUpdated: true
 ---
+
+
 
 
 

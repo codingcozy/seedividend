@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " Choosing the Right Frontend Framework A Guide for Business Leaders "
 link: "https://medium.com/@alexandre-bardiaux/%EF%B8%8F-choosing-the-right-frontend-framework-a-guide-for-business-leaders-b9ed4c6d5db3"
+isUpdated: true
 ---
+
+
 
 
 

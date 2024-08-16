@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What are dependencies , dev_dependencies in a flutter project How they are different from each other"
 link: "https://medium.com/@chetan.akarte/what-are-dependencies-dev-dependencies-in-a-flutter-project-480d4877d719"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Essentials for Modern Frontend Architecture"
 link: "https://blog.bitsrc.io/5-tips-for-modern-frontend-architecture-e3342241cb15"
+isUpdated: true
 ---
+
+
 
 
 

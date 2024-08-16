@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React | How to stop re-rendering in React Components"
 link: "https://medium.com/@shriharim006/react-how-to-stop-re-rendering-in-react-components-bab286f13d33"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-ReactHowtostopre-renderinginReactComponents_0.png" />

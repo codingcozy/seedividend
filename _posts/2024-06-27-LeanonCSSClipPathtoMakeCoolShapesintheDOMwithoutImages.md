@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lean on CSS Clip Path to Make Cool Shapes in the DOM without Images"
 link: "https://medium.com/itnext/lean-on-css-clip-path-to-make-cool-shapes-in-the-dom-without-images-209d4e7b067a"
+isUpdated: true
 ---
+
+
 
 
 ## 하트, 별, 그리고 마법의 부적 - 아니면 추가로 화려한 다각형도 괜찮아요.

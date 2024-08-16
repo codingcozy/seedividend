@@ -3,12 +3,15 @@ title: "랜덤 포레스트로 PCA와 특징 중요도 해제하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_0.png"
 date: 2024-07-09 20:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_0.png
 tag: Tech
 originalTitle: "Unlocking Insights: Random Forests for PCA and Feature Importance"
 link: "https://medium.com/towards-data-science/unlocking-insights-random-forests-for-pca-and-feature-importance-2d0d1b4adb70"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-UnlockingInsightsRandomForestsforPCAandFeatureImportance_0.png" />
 

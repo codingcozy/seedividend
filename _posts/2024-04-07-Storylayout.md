@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Story layout"
 link: "https://storybook.js.org/docs/configure/story-layout"
+isUpdated: true
 ---
+
+
 
 
 

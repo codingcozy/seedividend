@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Responsive Web Design with Tailwind CSS A Comprehensive Guide"
 link: "https://medium.com/@ritikkhndelwal/mastering-responsive-web-design-with-tailwind-css-a-comprehensive-guide-348a843ad948"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "[JS] CircleQueue + Map = Ultra-fast overwritable queue"
 link: "https://medium.com/@codespitz/circlequeue-map-ultra-fast-overwritable-queue-c8cfb60981d3"
+isUpdated: true
 ---
+
+
 
 
 시퀀셜하게 실행해야 하는 작업들을 대기열에 넣고 일정 간격으로 처리하는 시스템은 매우 흔합니다. 프론트엔드용 새로운 뷰 시스템을 개발하는 도중, 프레임별로 대기열에서 처리할 수 있는 작업량만 시간 제한 내에 처리하는 메커니즘을 도입했습니다. 초당 60프레임 제한으로 한 프레임 당 실행 시간은 16밀리초입니다. 대기열 작업 처리가 16밀리초를 초과하면 남은 작업은 다음 프레임에서 처리됩니다.

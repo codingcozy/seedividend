@@ -3,12 +3,15 @@ title: "Amplify vs Firebase 내 실제 제품과의 대면 비교"
 description: ""
 coverImage: "/assets/img/2024-05-12-AmplifyvsFirebaseAHead-to-HeadComparisonWithMyRealProduct_0.png"
 date: 2024-05-12 20:01
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AmplifyvsFirebaseAHead-to-HeadComparisonWithMyRealProduct_0.png
 tag: Tech
 originalTitle: "Amplify vs. Firebase: A Head-to-Head Comparison With My Real Product"
 link: "https://medium.com/better-programming/amplify-vs-firebase-a-head-to-head-comparison-with-a-real-product-b6fd76058416"
+isUpdated: true
 ---
+
+
 
 ## 주요 차이점 및 유사점
 

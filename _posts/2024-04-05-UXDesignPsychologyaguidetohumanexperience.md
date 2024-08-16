@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "UX Design Psychology  a guide to human experience"
 link: "https://medium.com/design-bootcamp/ux-design-psychology-a-guide-to-human-experience-ee01f878c876"
+isUpdated: true
 ---
+
+
 
 
 

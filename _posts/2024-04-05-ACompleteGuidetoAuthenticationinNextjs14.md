@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Complete Guide to Authentication in Nextjs 14"
 link: "https://medium.com/designly/a-complete-guide-to-authentication-in-next-js-14-421ec8906854"
+isUpdated: true
 ---
+
+
 
 
 

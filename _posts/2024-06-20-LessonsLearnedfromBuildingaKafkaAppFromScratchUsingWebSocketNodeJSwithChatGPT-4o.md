@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lessons Learned from Building a Kafka App From Scratch Using WebSocket , NodeJS with ChatGPT-4o"
 link: "https://medium.com/@peter.moskovits/lessons-learned-from-building-a-kafka-app-from-scratch-using-websocket-nodejs-with-chatgpt-4o-cc9b45885f99"
+isUpdated: true
 ---
+
+
 
 
 예전에 나는 HTML5 앱을 개발하는 일을 했었어요. 새롭게 인가된 WebSocket 표준의 강력함을 보여주는 앱들이었죠. 데이터 스트리밍 데모와 튜토리얼의 공통된 문제는 데이터의 소스입니다. 데이터는 풍부해야 하며(내 발코니의 온도 데이터는 변화가 느리고 따라서 지루합니다) 확인 가능해야 합니다(랜덤한 데이터는 시각화할 수 없습니다). 사람이 만들고 이해하기 쉬운 데이터를 사용하는 것이 종종 좋은 해결책입니다. 이 문제를 해결하기 위해 과거에 제가 개발한 앱 중 하나는 다중 사용자 드로잉 앱이었어요. 이 앱은 한 사용자의 상호작용을 다른 사용자 화면에 반영했죠.

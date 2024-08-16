@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Celebrate with AI: Chinese New Year Tips from Mistral and LLaVA on Raspberry Pi"
 link: "https://medium.com/towards-data-science/celebrate-with-ai-chinese-new-year-tips-from-mistral-and-llava-on-raspberry-pi-ffef598ecf30"
+isUpdated: true
 ---
+
+
 
 
 # 소개

@@ -3,12 +3,15 @@ title: "주말 AI 프로젝트 PC와 Raspberry Pi에서 YOLO를 사용한 객체
 description: ""
 coverImage: "/assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png"
 date: 2024-07-07 02:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png
 tag: Tech
 originalTitle: "A Weekend AI Project: Object Detection with YOLO on PC and Raspberry Pi"
 link: "https://medium.com/towards-data-science/a-weekend-ai-project-object-detection-with-yolo-on-pc-and-raspberry-pi-0653e01032c1"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png" />
 

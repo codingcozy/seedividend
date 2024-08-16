@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "In Celebration of My Dumb Kettle"
 link: "https://medium.com/the-generator/in-celebration-of-my-dumb-kettle-48b4f46693b5"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-15-InCelebrationofMyDumbKettle_0.png)

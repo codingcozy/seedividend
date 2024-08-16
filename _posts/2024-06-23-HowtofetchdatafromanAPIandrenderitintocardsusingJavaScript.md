@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to fetch data from an API and render it into cards using JavaScript"
 link: "https://medium.com/@jenniferjimenez90/how-to-fetch-data-from-an-api-and-render-it-into-cards-using-javascript-b0d1f6e22702"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-HowtofetchdatafromanAPIandrenderitintocardsusingJavaScript_0.png" />

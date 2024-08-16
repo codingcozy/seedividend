@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Secure an Angular application and .Net Web API with Auth0"
 link: "https://medium.com/@cl0v15/secure-an-angular-application-and-net-web-api-with-auth0-df1db7d6effa"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-SecureanAngularapplicationandNetWebAPIwithAuth0_0.png" />

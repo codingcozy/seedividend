@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Running Optimism Node without Docker"
 link: "https://medium.com/@hiroyukinaito.eth/draft-running-optimism-node-without-docker-cb65fa9f780d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing The New York Times Web Performance with React 18"
 link: "https://medium.com/timesopen/enhancing-the-new-york-times-web-performance-with-react-18-d6f91a7c5af8"
+isUpdated: true
 ---
+
+
 
 
 ## React 18 업그레이드가 뉴욕 타임스 웹 사이트에 활력을 불어넣었고 우리가 직면한 일부 도전에 대해 어떻게 대처했는지 알아봅니다.

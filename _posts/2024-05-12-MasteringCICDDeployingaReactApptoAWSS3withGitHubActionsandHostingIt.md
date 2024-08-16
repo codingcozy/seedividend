@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering CI CD: Deploying a React App to AWS S3 with GitHub Actions and Hosting It"
 link: "https://medium.com/cloud-native-daily/mastering-ci-cd-deploying-a-react-js-app-to-aws-s3-with-github-actions-and-hosting-it-b1ce82360331"
+isUpdated: true
 ---
+
+
 
 
 ## AWS S3를 사용하여 GitHub Actions로 React.js 앱을 배포하고 호스팅하는 포괄적인 가이드

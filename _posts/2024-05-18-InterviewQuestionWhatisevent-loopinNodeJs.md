@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Interview Question: What is event-loop in NodeJs?"
 link: "https://medium.com/@abhaymishra00/interview-question-what-is-event-loop-in-nodejs-9c96dcbc420f"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-18-InterviewQuestionWhatisevent-loopinNodeJs_0.png)

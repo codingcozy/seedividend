@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Some First Thoughts on Next 13"
 link: "https://medium.com/better-programming/some-first-thoughts-on-next-13-922a6a6c5200"
+isUpdated: true
 ---
+
+
 
 
 

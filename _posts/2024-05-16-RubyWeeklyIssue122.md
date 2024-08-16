@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ruby Weekly Issue 122"
 link: "https://medium.com/rubyweekly/ruby-weekly-issue-122-ed3721235236"
+isUpdated: true
 ---
+
+
 
 
 환영합니다! 루비 주간 뉴스 및 기사를 무료로 제공해주는 Ruby Weekly의 122호에 오신 것을 환영합니다.

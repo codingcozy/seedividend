@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Event Handling in jQuery A Comprehensive Guide"
 link: "https://medium.com/@moosaabdullahi45/optimizing-event-handling-in-jquery-a-comprehensive-guide-cd509ecea946"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "자바스크립트 마스터하기 나만의 커스텀 프레임워크 �
 description: ""
 coverImage: "/assets/img/2024-07-09-MastertheArtofJavaScriptHowtoBuildYourOwnCustomFramework_0.png"
 date: 2024-07-09 09:00
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-MastertheArtofJavaScriptHowtoBuildYourOwnCustomFramework_0.png
 tag: Tech
 originalTitle: "Master the Art of JavaScript: How to Build Your Own Custom Framework!"
 link: "https://medium.com/@learntocodetoday/master-the-art-of-javascript-how-to-build-your-own-custom-framework-a3821b93d8ea"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-09-MastertheArtofJavaScriptHowtoBuildYourOwnCustomFramework_0.png)
 

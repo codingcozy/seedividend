@@ -3,12 +3,15 @@ title: "다양한 화면 크기에 맞춰 CSS로 폰트를 반응형으로 조�
 description: ""
 coverImage: "/assets/img/2024-07-07-HowtoScaleFontsResponsivelywithCSSforDifferentScreenSizes_0.png"
 date: 2024-07-07 21:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-HowtoScaleFontsResponsivelywithCSSforDifferentScreenSizes_0.png
 tag: Tech
 originalTitle: "How to Scale Fonts Responsively with CSS for Different Screen Sizes"
 link: "https://medium.com/@sikirus81/how-to-scale-fonts-responsively-with-css-for-different-screen-sizes-4107f233988b"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-HowtoScaleFontsResponsivelywithCSSforDifferentScreenSizes_0.png" />
 

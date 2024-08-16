@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The most performant Docker setup on macOS (Apple Silicon M1, M2, M3) for x64   amd64 compatibility. Bonus: multiple machines simultaneously!"
 link: "https://medium.com/@guillem.riera/the-most-performant-docker-setup-on-macos-apple-silicon-m1-m2-m3-for-x64-amd64-compatibility-da5100e2557d"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-ThemostperformantDockersetuponmacOSAppleSiliconM1M2M3forx64amd64compatibilityBonusmultiplemachinessimultaneously_0.png)

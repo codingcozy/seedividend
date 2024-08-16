@@ -3,12 +3,15 @@ title: "NiceGUI를 만나보세요 곧 여러분의 최애 파이썬 UI 라이�
 description: ""
 coverImage: "/assets/img/2024-07-09-MeettheNiceGUIYourSoon-to-beFavoritePythonUILibrary_0.png"
 date: 2024-07-09 14:57
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-MeettheNiceGUIYourSoon-to-beFavoritePythonUILibrary_0.png
 tag: Tech
 originalTitle: "Meet the NiceGUI: Your Soon-to-be Favorite Python UI Library"
 link: "https://medium.com/towards-data-science/meet-the-nicegui-your-soon-to-be-favorite-python-ui-library-fb69f14bb0ac"
+isUpdated: true
 ---
+
+
 
 ## 사용자 정의 웹 앱을 쉽고 빠르게 만드세요
 

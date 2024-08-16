@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring React Natives Core Components The Foundation of Your UI"
 link: "https://medium.com/stackademic/exploring-react-natives-core-components-the-foundation-of-your-ui-a36a61566794"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "PyFilesystem2 OpenCV로 캡처한 프레임을 메모리 파일 시스�
 description: ""
 coverImage: "/assets/img/2024-07-09-PyFilesystem2StoringFramesCapturedbyOpenCVinanIn-MemoryFilesystem_0.png"
 date: 2024-07-09 14:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PyFilesystem2StoringFramesCapturedbyOpenCVinanIn-MemoryFilesystem_0.png
 tag: Tech
 originalTitle: "PyFilesystem2: Storing Frames Captured by OpenCV in an In-Memory Filesystem"
 link: "https://medium.com/@htayanloo/pyfilesystem2-storing-frames-captured-by-opencv-in-an-in-memory-filesystem-b2f5fc0f4838"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-PyFilesystem2StoringFramesCapturedbyOpenCVinanIn-MemoryFilesystem_0.png" />
 

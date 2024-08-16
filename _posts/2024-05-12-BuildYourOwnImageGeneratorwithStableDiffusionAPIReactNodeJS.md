@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build Your Own Image Generator with Stable Diffusion API (React, NodeJS)"
 link: "https://medium.com/@marius_jopen/build-your-own-image-generator-with-stable-diffusion-api-react-nodejs-e689b751893d"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-BuildYourOwnImageGeneratorwithStableDiffusionAPIReactNodeJS_0.png)

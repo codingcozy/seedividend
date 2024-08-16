@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Chat with your SQL database using GPT 4o via Vanna.ai"
 link: "https://medium.com/@arslanshahid-1997/chat-with-your-sql-database-using-gpt-4o-via-vanna-ai-b87e3296f8dc"
+isUpdated: true
 ---
+
+
 
 
 ## OpenAI GPT 4o를 활용한 텍스트-SQL 파이프라인 만들기

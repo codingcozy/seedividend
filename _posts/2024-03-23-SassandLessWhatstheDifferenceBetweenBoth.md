@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sass and Less Whats the Difference Between Both"
 link: "https://medium.com/@shariq.ahmed525/sass-and-less-whats-the-difference-between-both-6b77f9aeca4a"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Responsive layout grid in Figma"
 link: "https://uxplanet.org/responsive-layout-grid-in-figma-dfec9733b568"
+isUpdated: true
 ---
+
+
 
 
 

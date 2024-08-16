@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Emerging Paradigms for Delivering Web Content Faster"
 link: "https://medium.com/better-programming/the-emerging-paradigms-for-delivering-content-faster-6b9927d317d2"
+isUpdated: true
 ---
+
+
 
 
 

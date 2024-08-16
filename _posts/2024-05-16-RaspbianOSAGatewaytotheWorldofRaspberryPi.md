@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Raspbian OS: A Gateway to the World of Raspberry Pi"
 link: "https://medium.com/@nandanghawate/raspbian-os-a-gateway-to-the-world-of-raspberry-pi-b12f7f129288"
+isUpdated: true
 ---
+
+
 
 
 ![RaspbianOSAGatewaytotheWorldofRaspberryPi_0](/assets/img/2024-05-16-RaspbianOSAGatewaytotheWorldofRaspberryPi_0.png)

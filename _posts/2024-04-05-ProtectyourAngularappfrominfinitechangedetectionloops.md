@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Protect your Angular app from infinite change detection loops "
 link: "https://medium.com/itnext/protect-your-angular-app-from-infinite-change-detection-loops-%EF%B8%8F-da121430a2e1"
+isUpdated: true
 ---
+
+
 
 
 

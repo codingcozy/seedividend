@@ -3,12 +3,15 @@ title: "NanoLlava 가장 작은 시각적 언어란"
 description: ""
 coverImage: "/assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png"
 date: 2024-07-09 15:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png
 tag: Tech
 originalTitle: "NanoLlava is the smallest Visual Language"
 link: "https://medium.com/generative-ai/nanollava-is-the-smallest-visual-language-9b89b139eadf"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png)
 

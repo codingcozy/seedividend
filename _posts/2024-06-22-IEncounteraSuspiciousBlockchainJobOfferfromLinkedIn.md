@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I Encounter a Suspicious Blockchain Job Offer from LinkedIn"
 link: "https://medium.com/@cauta/i-encounter-a-suspicious-blockchain-job-offer-from-linkedin-2cb172d9a454"
+isUpdated: true
 ---
+
+
 
 
 

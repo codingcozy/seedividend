@@ -3,12 +3,15 @@ title: "인과 검증과 인과 추론에서 V-구조의 중요성과 그 역할
 description: ""
 coverImage: "/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_0.png"
 date: 2024-07-09 20:40
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_0.png
 tag: Tech
 originalTitle: "Understanding V-Structures and the Critical Role They Play in Causal Validation and Causal Inference"
 link: "https://medium.com/towards-data-science/understanding-v-structures-and-the-role-they-play-in-causal-validation-and-causal-infrence-7e7910200f9f"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-UnderstandingV-StructuresandtheCriticalRoleTheyPlayinCausalValidationandCausalInference_0.png" />
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rust Trait: A Powerful Alternative To TypeScript Interface"
 link: "https://medium.com/better-programming/rust-trait-a-powerful-alternative-to-typescript-interface-e671cd7f9690"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 JavaScript Tricks You Didnt Know"
 link: "https://medium.com/@khushi1399gupta/10-javascript-tricks-you-didnt-know-cb23d4bd23e6"
+isUpdated: true
 ---
+
+
 
 
 

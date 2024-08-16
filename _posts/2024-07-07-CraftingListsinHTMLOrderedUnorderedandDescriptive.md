@@ -3,12 +3,15 @@ title: "HTML에서 리스트 만드는 방법 순서 목록, 비순서 목록, �
 description: ""
 coverImage: "/assets/img/2024-07-07-CraftingListsinHTMLOrderedUnorderedandDescriptive_0.png"
 date: 2024-07-07 21:27
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-CraftingListsinHTMLOrderedUnorderedandDescriptive_0.png
 tag: Tech
 originalTitle: "Crafting Lists in HTML: Ordered, Unordered, and Descriptive"
 link: "https://medium.com/@aliccagatay/crafting-lists-in-html-ordered-unordered-and-descriptive-a8e8f31b8c81"
+isUpdated: true
 ---
+
+
 
 ![Crafting Lists in HTML: Ordered, Unordered, and Descriptive](/assets/img/2024-07-07-CraftingListsinHTMLOrderedUnorderedandDescriptive_0.png)
 

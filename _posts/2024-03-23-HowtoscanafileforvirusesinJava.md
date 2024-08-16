@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to scan a file for viruses in Java"
 link: "https://cloudmersive.medium.com/how-to-scan-a-file-for-viruses-in-java-bca09045abdc"
+isUpdated: true
 ---
+
+
 
 
 

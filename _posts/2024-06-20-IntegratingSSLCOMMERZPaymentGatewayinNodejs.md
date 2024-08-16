@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating SSLCOMMERZ Payment Gateway in Node.js"
 link: "https://medium.com/@shejanmahamud/integrating-sslcommerz-payment-gateway-in-node-js-1e0e7d1e2c70"
+isUpdated: true
 ---
+
+
 
 
 이 블로그 포스트에서는 MongoDB를 사용하여 Node.js 애플리케이션에 SSLCommerz 결제 게이트웨이를 통합하는 과정을 안내하겠습니다. 이 안내서는 웹 애플리케이션을 위한 안전하고 효율적인 결제 처리 시스템을 설정하는 데 도움이 될 것입니다.

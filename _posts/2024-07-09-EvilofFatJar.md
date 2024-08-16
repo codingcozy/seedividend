@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Evil of FatJar"
 link: "https://medium.com/helidon/evil-of-fatjar-3c3011b4bd55"
+isUpdated: true
 ---
+
+
 
 
 2024년이 왔어요! ThinJar를 사용해보세요!

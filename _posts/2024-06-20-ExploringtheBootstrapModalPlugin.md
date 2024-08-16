@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Bootstrap Modal Plugin"
 link: "https://medium.com/@dean.bloomingdale1/exploring-the-bootstrap-modal-plugin-dd50b394d5b7"
+isUpdated: true
 ---
+
+
 
 
 부트스트랩 프레임워크는 사용이 쉽고 다양한 응용 가능성으로 웹 개발에서 필수 요소가 된 다목적 모달 플러그인을 제공합니다. 저는 지난 팀 프로젝트에서 "모달 전문가"로 자임하면서 부트스트랩 모달 플러그인을 깊이 있게 탐구하고 상호작용하는 사용자 인터페이스를 만드는 데의 잠재력을 탐구해 보기가 가치있는 것으로 생각했습니다.

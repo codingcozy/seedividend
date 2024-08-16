@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Managing Scoped Styles in Module Federation"
 link: "https://medium.com/@alpgokcek/managing-scoped-styles-in-module-federation-9879b25b0746"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-ManagingScopedStylesinModuleFederation_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Change the Favicon , Title of Your React App in 5 Minutes"
 link: "https://medium.com/@leahcardoz/how-to-change-the-favicon-title-of-your-react-app-in-5-minutes-9163e023b8d2"
+isUpdated: true
 ---
+
+
 
 
 

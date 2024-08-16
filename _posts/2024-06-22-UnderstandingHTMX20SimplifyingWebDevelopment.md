@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding HTMX 2.0: Simplifying Web Development"
 link: "https://medium.com/@jayprakashj/understanding-htmx-2-0-simplifying-web-development-87c56c937ade"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-UnderstandingHTMX20SimplifyingWebDevelopment_0.png" />

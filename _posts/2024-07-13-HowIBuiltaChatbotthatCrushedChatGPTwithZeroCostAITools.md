@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Built a Chatbot that Crushed ChatGPT with Zero Cost AI Tools"
 link: "https://medium.com/@fabio.matricardi/how-i-built-a-chatbot-that-crushed-chatgpt-with-zero-cost-ai-tools-f31ae7b48f59"
+isUpdated: true
 ---
+
+
 
 
 챗봇은 고객과 상호작용하고 정보를 제공하며 사용자를 즐겁게 해주는 방법으로 점점 더 인기를 얻고 있습니다. 그러나 자연스럽고 매력적인 대화를 나눌 수 있는 AI 애플리케이션을 구축하는 것은 쉬운 일이 아닙니다.

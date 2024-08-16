@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Explore Kubernetes step by step."
 link: "https://medium.com/@shaikhzayan/explore-kubernetes-step-by-step-9fbf66d963bf"
+isUpdated: true
 ---
+
+
 
 
 # 쿠버네티스란 무엇인가요?

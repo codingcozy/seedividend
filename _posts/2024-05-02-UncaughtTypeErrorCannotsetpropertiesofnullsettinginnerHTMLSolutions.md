@@ -3,12 +3,15 @@ title: "Uncaught TypeError: Cannot set properties of null (setting ‘inner HTML
 description: ""
 coverImage: ""
 date: 2024-05-02 00:26
-ogImage:
-  url: /assets/img/2024-05-02-UncaughtTypeErrorCannotsetpropertiesofnullsettinginnerHTMLSolutions_0.png
+ogImage: 
+  url: 
 tag: Tech
 originalTitle: "Uncaught TypeError: Cannot set properties of null (setting ‘inner HTML’) Solutions"
 link: "https://medium.com/@madhav201singh/uncaught-typeerror-cannot-set-properties-of-null-setting-inner-html-solutions-41726496d355"
+isUpdated: true
 ---
+
+
 
 # "Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')" 오류 수정하기
 

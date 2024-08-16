@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to store JWT Token in Local Storage for React"
 link: "https://medium.com/@giwon.yi339/how-to-store-jwt-token-in-local-storage-for-react-b0957686b75c"
+isUpdated: true
 ---
+
+
 
 
 ## 간단히 말해, JWT란 무엇인가요?

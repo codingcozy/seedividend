@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Here’s how I used Python and QGIS to find out 80% of India’s camel population."
 link: "https://medium.com/@chaayushmalik/heres-how-i-used-python-and-qgis-to-find-out-80-of-india-s-camel-population-59808703d965"
+isUpdated: true
 ---
+
+
 
 
 ## 파이썬 자동화

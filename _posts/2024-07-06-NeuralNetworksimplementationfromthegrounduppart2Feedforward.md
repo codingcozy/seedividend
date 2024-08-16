@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Neural Networks implementation from the ground up part 2 — Feedforward"
 link: "https://medium.com/@satviknema/neural-networks-implementation-from-the-ground-up-part-2-feedforward-5698568ed9f8"
+isUpdated: true
 ---
+
+
 
 
 "기초부터 구현하는 신경망 시리즈에 다시 오신 것을 환영합니다. 이번 파트에서는 신경망의 순전파 흐름을 구현하는 방법에 대해 살펴볼 것입니다.

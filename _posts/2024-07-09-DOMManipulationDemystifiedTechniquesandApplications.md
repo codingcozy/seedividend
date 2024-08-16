@@ -3,12 +3,15 @@ title: "DOM 조작 완전정복 기술 및 응용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-DOMManipulationDemystifiedTechniquesandApplications_0.png"
 date: 2024-07-09 14:14
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-DOMManipulationDemystifiedTechniquesandApplications_0.png
 tag: Tech
 originalTitle: "DOM Manipulation Demystified: Techniques and Applications"
 link: "https://medium.com/@rajataha062/dom-manipulation-demystified-techniques-and-applications-9863d2d3e733"
+isUpdated: true
 ---
+
+
 
 웹 개발자에게는 DOM (Document Object Model) 조작이 필수적인 기술입니다. 이 기술은 동적이고 인터랙티브한 웹 페이지를 만들 수 있게 해줍니다. 본 안내서에서는 다양한 DOM 조작 기술을 탐구하고, 그들이 실제 프로젝트에서 어떻게 활용되는지를 소개합니다.
 

@@ -3,12 +3,15 @@ title: "코믹 힙에서 요소 추가 및 제거 과정 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-02-ComicHowAddingRemovingStuffFromHeapsWork_0.png"
 date: 2024-07-02 21:45
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-ComicHowAddingRemovingStuffFromHeapsWork_0.png
 tag: Tech
 originalTitle: "[Comic] How Adding Removing Stuff From Heaps Work"
 link: "https://medium.com/@zlliu/comic-how-adding-removing-stuff-from-heaps-work-017060a7eab6"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-02-ComicHowAddingRemovingStuffFromHeapsWork_0.png)
 

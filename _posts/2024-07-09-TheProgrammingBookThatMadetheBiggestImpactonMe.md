@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Programming Book That Made the Biggest Impact on Me"
 link: "https://medium.com/code-like-a-girl/the-programming-book-that-made-the-biggest-impact-on-me-fe9edec31b93"
+isUpdated: true
 ---
+
+
 
 
 

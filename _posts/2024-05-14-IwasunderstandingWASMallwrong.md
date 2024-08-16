@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I was understanding WASM all wrong! 🤯"
 link: "https://medium.com/@yujiisobe/i-was-understanding-wasm-all-wrong-e4bcab8d077c"
+isUpdated: true
 ---
+
+
 
 
 # 요약

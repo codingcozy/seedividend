@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Beware: The Hidden Risks of Online Shopping Without Return Policies"
 link: "https://medium.com/@nuzhatr79/beware-the-hidden-risks-of-online-shopping-without-return-policies-52f8757ac21d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "It’s time to kill the web"
 link: "https://medium.com/mike-hearn/its-time-to-kill-the-web-974a9fe80c89"
+isUpdated: true
 ---
+
+
 
 
 무슨 일이 벌어지고 있어요. 사람들이 불만스러워하는 모양이에요. 시민 불안의 유령이 우리 프로그래밍 커뮤니티를 쫓고 있어요.

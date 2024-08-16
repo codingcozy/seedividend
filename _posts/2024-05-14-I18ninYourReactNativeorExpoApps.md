@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I18n in Your React Native or Expo Apps"
 link: "https://medium.com/@adherentxu/i18n-in-your-react-native-or-expo-apps-eb92a1a8b1b5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-I18ninYourReactNativeorExpoApps_0.png" />

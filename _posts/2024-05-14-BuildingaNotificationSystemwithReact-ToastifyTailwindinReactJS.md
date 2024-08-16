@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Notification System with React-Toastify + Tailwind in React JS?"
 link: "https://medium.com/@srdbranding/building-a-notification-system-with-react-toastify-tailwind-in-react-js-b18bd5bae51b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-BuildingaNotificationSystemwithReact-ToastifyTailwindinReactJS_0.png" />

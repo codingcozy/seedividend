@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How does React Native work? Understanding the architecture"
 link: "https://medium.com/front-end-weekly/how-does-react-native-work-understanding-the-architecture-d9d714e402e0"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-ReactNativeArchitecture.png" />

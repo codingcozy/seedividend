@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating the ng-deep vs ViewEncapsulationNone Dilemma in Angular Styling"
 link: "https://medium.com/@shashvatgupta39/navigating-the-ng-deep-vs-viewencapsulation-none-dilemma-in-angular-styling-a5cf0f5cbd9b"
+isUpdated: true
 ---
+
+
 
 
 

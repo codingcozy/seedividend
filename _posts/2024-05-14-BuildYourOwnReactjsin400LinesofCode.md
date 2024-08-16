@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build Your Own React.js in 400 Lines of Code"
 link: "https://medium.com/gitconnected/build-your-own-react-js-in-400-lines-of-code-5a02c1db5e0a"
+isUpdated: true
 ---
+
+
 
 
 ## 리액트 원리 심도있는 공부

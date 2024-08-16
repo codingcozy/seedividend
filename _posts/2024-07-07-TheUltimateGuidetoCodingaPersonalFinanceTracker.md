@@ -3,12 +3,15 @@ title: "개인 금융 추적기 코딩 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-TheUltimateGuidetoCodingaPersonalFinanceTracker_0.png"
 date: 2024-07-07 21:25
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-TheUltimateGuidetoCodingaPersonalFinanceTracker_0.png
 tag: Tech
 originalTitle: "The Ultimate Guide to Coding a Personal Finance Tracker"
 link: "https://medium.com/@learntocodetoday/the-ultimate-guide-to-coding-a-personal-finance-tracker-a7b4bfa3d65c"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-TheUltimateGuidetoCodingaPersonalFinanceTracker_0.png)
 

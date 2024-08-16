@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adding Google Analytics to Angular v15"
 link: "https://medium.com/@danielfilipkowskiblogs/adding-google-analytics-to-angular-v15-1766c4bdaed5"
+isUpdated: true
 ---
+
+
 
 
 아마 당신도 저와 같이 포트폴리오를 만들고 방문자 추적을 원하시는 분들 중 하나일 것 같아요. 다음 직업에 얼마나 가까운지 확인하려고 사이트 트래픽을 추적하고 싶어하시는 분들일 것이라고 생각해요. 혹은 스타트업에서 일하고 있는데 사용자 참여를 추적하길 원하는 경우도 있을 거예요. 어떤 케이스이든 데이터는 웹 개발에서 매우 중요하며 사람들의 일상 생활과 상호 작용하는 방식으로 상당히 중요합니다.

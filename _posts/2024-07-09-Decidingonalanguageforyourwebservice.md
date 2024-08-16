@@ -3,12 +3,15 @@ title: "웹 서비스 개발을 위한 언어 선택 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png"
 date: 2024-07-09 15:08
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png
 tag: Tech
 originalTitle: "Deciding on a language for your web service"
 link: "https://medium.com/singularity-energy/deciding-on-a-language-for-your-web-service-c6f73fb9d448"
+isUpdated: true
 ---
+
+
 
 Singularity에서는 주로 웹 서비스에 Python을 사용합니다. 프론트 엔드에서는 Typescript를 사용합니다. 또한 실시간 푸시 서버에는 Elixir를 사용합니다. 최근에 매우 높은 I/O 처리량이 필요한 프로젝트를 시작했는데, Python이 그 사용 사례에서 최선의 도구가 아닐 수도 있다는 걱정이 들었습니다. 그래서 우리는 다음과 같은 질문을 하였습니다:
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Global Warming Analytics using Matplotlib, Pandas and Scikit."
 link: "https://medium.com/@sudhakar.chelliah1986/global-warming-analytics-using-matplotlib-pandas-and-scikit-a444916224d3"
+isUpdated: true
 ---
+
+
 
 
 NASA의 실제 글로벌 표면 온도 데이터 분석입니다.

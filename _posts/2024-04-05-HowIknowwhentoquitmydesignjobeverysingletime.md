@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I know when to quit my design job, every single time"
 link: "https://blog.prototypr.io/how-i-know-when-to-quit-my-design-job-every-single-time-abf37764f2bb"
+isUpdated: true
 ---
+
+
 
 
 

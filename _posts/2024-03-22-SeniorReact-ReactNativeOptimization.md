@@ -1,5 +1,5 @@
 ---
-title: "React-React Native 최적화 방법시니어용"
+title: "React-React Native 최적화로 성능을 올리는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Senior React-React Native Optimization"
 link: "https://medium.com/@tayfunkaya/senior-react-react-native-optimization-199ae48c9721"
+isUpdated: true
 ---
+
+
 
 
 

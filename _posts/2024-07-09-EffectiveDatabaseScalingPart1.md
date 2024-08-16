@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Effective Database Scaling: Part 1"
 link: "https://medium.com/@pujapandey73020/effective-database-scaling-part-1-fd3b216c6a69"
+isUpdated: true
 ---
+
+
 
 
 # 성능 및 용량 향상 전략

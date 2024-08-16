@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Compiler With React 18"
 link: "https://medium.com/@jherr2020/react-compiler-with-react-18-1e39f60ae71a"
+isUpdated: true
 ---
+
+
 
 
 우선, 아니요. React 컴파일러는 React 19의 일부가 아닙니다. React 19는 단순히 React 라이브러리일 뿐입니다. 빌드 변경사항은 없습니다. 따라서 React 컴파일러를 통합하려면 스스로 작업해야 합니다. 또한 React 컴파일러가 선택 사항이라는 것을 의미합니다. 이것이 좋은 점입니다.

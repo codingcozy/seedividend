@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to setup a React Project with Vite"
 link: "https://medium.com/@pascalokereke18/how-to-setup-a-react-project-with-vite-6c2130d3bce"
+isUpdated: true
 ---
+
+
 
 
 

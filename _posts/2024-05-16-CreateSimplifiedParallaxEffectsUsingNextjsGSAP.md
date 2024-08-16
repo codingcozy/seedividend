@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create Simplified Parallax Effects Using Next.js + GSAP"
 link: "https://medium.com/@mitra.abhirupa/create-simplified-parallax-effects-using-next-js-gsap-in-10-mins-82d4d60cd15f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-16-CreateSimplifiedParallaxEffectsUsingNextjsGSAP_0.png" />

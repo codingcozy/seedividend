@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Downloading React Components as PDF Files"
 link: "https://medium.com/stackademic/downloading-a-react-component-as-pdf-12021aaf0ccc"
+isUpdated: true
 ---
+
+
 
 
 

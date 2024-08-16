@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Architecture vs MVC Unidirectional Flow Advantage"
 link: "https://medium.com/@asif-ali/react-architecture-vs-mvc-unidirectional-flow-advantage-c952136919b9"
+isUpdated: true
 ---
+
+
 
 
 

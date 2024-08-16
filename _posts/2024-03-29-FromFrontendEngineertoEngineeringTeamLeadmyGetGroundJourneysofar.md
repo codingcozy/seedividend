@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "From Frontend Engineer to Engineering Team Lead my GetGround Journey so far"
 link: "https://medium.com/@GetGround/from-frontend-engineer-to-engineering-team-lead-my-getground-journey-so-far-5e57c8cea34a"
+isUpdated: true
 ---
+
+
 
 
 

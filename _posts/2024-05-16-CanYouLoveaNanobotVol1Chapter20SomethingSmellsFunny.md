@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Can You Love a Nanobot? Vol. 1, Chapter 20— Something Smells Funny"
 link: "https://medium.com/@tom_31528/can-you-love-a-nanobot-vol-1-chapter-20-something-smells-funny-2791afd1567d"
+isUpdated: true
 ---
+
+
 
 
 스티브 잡스가 말했듯이, 나는 사람들이 다른 이들에게 감사를 전하는 한 가지 방법으로 멋진 것을 만들어 공유하는 것이라고 생각해요.

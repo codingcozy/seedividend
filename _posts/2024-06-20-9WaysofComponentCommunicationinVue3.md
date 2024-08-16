@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "9 Ways of Component Communication in Vue3"
 link: "https://medium.com/stackademic/9-ways-of-component-communication-in-vue3-9059520f070e"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-20-9WaysofComponentCommunicationinVue3_0.png)

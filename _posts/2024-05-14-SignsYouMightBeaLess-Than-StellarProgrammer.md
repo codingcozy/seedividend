@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Signs You Might Be a Less-Than-Stellar Programmer"
 link: "https://medium.com/stackademic/signs-you-might-be-a-less-than-stellar-programmer-783e1a4d09fc"
+isUpdated: true
 ---
+
+
 
 
 ## 프로그래밍 의견

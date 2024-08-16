@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter Custom Error Message  Flash Message"
 link: "https://itnext.io/flutter-custom-error-message-flash-message-c2ea430c595"
+isUpdated: true
 ---
+
+
 
 
 

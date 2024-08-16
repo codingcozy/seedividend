@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " The React Roadmap for 2024"
 link: "https://reedbarger.medium.com/%EF%B8%8F-the-react-roadmap-for-2024-89be565217d2"
+isUpdated: true
 ---
+
+
 
 
 

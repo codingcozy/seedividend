@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrate Biometric Authentication in Your Ionic App with Fingerprint and Face ID"
 link: "https://medium.com/@vishaldarekar/integrate-biometric-authentication-in-your-ionic-app-with-fingerprint-and-face-id-416d73a1f96e"
+isUpdated: true
 ---
+
+
 
 
 생체 인증은 지문 및 얼굴 인식을 포함하여 사용자가 안전하고 편리하게 인증할 수 있는 방법을 제공합니다. 이 튜토리얼에서는 cordova-plugin-fingerprint-aio 플러그인을 사용하여 Ionic 앱에 생체 인증을 통합하는 방법을 알아보겠습니다. 이 플러그인은 특정 생체 인식 방법을 추상화하며 지문 및 얼굴 인식을 모두 지원하며 사용자 기기에서 사용 가능한 것에 맞게 적응합니다.

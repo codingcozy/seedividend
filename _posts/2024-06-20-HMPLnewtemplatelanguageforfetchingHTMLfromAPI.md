@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HMPL — new template language for fetching HTML from API"
 link: "https://medium.com/@antonmak1/hmpl-new-template-language-for-fetching-html-from-api-6c1d2dd26af6"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ícones do Font Awesome no React JS"
 link: "https://medium.com/@juliaa.brito22/usar-%C3%ADcones-do-font-awesome-no-react-js-77125da20dad"
+isUpdated: true
 ---
+
+
 
 
 React JS에서 Font Awesome 아이콘을 사용하는 방법:

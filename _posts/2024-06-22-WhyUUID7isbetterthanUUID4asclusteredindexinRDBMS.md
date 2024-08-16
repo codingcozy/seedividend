@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why UUID7 is better than UUID4 as clustered index in RDBMS"
 link: "https://medium.com/itnext/why-uuid7-is-better-than-uuid4-as-clustered-index-edb02bf70056"
+isUpdated: true
 ---
+
+
 
 
 데이터베이스 색인 소개 기사에서는 데이터베이스 인덱스, 그 종류, 표현 방법 및 사용 사례에 대해 논의했습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "9 Minimalist Habits That Will Save You Hours"
 link: "https://wizdombookinsights.medium.com/9-minimalist-habits-that-will-save-you-hours-ff3010db542f"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Listviewbuilder in Flutter"
 link: "https://medium.com/@flutterdynasty/listview-builder-in-flutter-e54a8fa2c7a0"
+isUpdated: true
 ---
+
+
 
 
 

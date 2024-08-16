@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kubernetes Deployments with ArgoCD: A Hands-On Example Using NGINX"
 link: "https://medium.com/@mohosinmiah1610/kubernetes-deployments-with-argocd-a-hands-on-example-using-nginx-158512344bde"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-KubernetesDeploymentswithArgoCDAHands-OnExampleUsingNGINX_0.png" />

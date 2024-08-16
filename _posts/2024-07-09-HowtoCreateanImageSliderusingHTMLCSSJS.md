@@ -3,12 +3,15 @@ title: "HTML  CSS  JS로 이미지 슬라이더 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoCreateanImageSliderusingHTMLCSSJS_0.png"
 date: 2024-07-09 18:04
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoCreateanImageSliderusingHTMLCSSJS_0.png
 tag: Tech
 originalTitle: "How to Create an Image Slider using HTML + CSS + JS"
 link: "https://medium.com/@nicholasepps03/how-to-create-an-image-slider-using-html-css-js-fde4a6b4a62a"
+isUpdated: true
 ---
+
+
 
 ## 이미지 컬렉션을 위한 훌륭한 UI 컴포넌트
 

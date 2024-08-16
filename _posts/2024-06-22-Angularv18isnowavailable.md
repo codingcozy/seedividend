@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular v18 is now available!"
 link: "https://medium.com/angular-blog/angular-v18-is-now-available-e79d5ac0affe"
+isUpdated: true
 ---
+
+
 
 
 오늘은 Angular 진화의 다음 단계를 공유하게 되어 흥분됩니다! 지난 세 번의 릴리스 동안 새로운 기능과 개선사항을 많이 소개했습니다. 이번에는 새로운 API 중 많은 부분을 안정 버전으로 승격하고, 개발자의 요청에 맞는 기능을 해결하며, 열망했던 로드맵 프로젝트 중 하나인 zoneless change detection을 실험적으로 출시했습니다.

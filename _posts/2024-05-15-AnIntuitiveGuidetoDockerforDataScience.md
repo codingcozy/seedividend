@@ -3,12 +3,15 @@ title: "데이터 과학을 위한 도커의 직관적인 안내"
 description: ""
 coverImage: "/assets/img/2024-05-15-AnIntuitiveGuidetoDockerforDataScience_0.png"
 date: 2024-05-15 02:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-15-AnIntuitiveGuidetoDockerforDataScience_0.png
 tag: Tech
 originalTitle: "An Intuitive Guide to Docker for Data Science"
 link: "https://medium.com/towards-data-science/an-intuitive-guide-to-docker-for-data-science-ba3f94e9052c"
+isUpdated: true
 ---
+
+
 
 ![An Intuitive Guide to Docker for Data Science](/assets/img/2024-05-15-AnIntuitiveGuidetoDockerforDataScience_0.png)
 

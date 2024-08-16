@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 JavaScript Array Functions You Should Master as a Senior Dev"
 link: "https://medium.com/@pinjarirehan/10-javascript-array-functions-you-should-master-as-a-senior-dev-bd8adf19e3d8"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-19-10JavaScriptArrayFunctionsYouShouldMasterasaSeniorDev_0.png)

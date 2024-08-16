@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Some Methods for Optimizing HTTPS Performance"
 link: "https://medium.com/codex/some-methods-for-optimizing-https-performance-4ad1bfa109b5"
+isUpdated: true
 ---
+
+
 
 
 예상대로 HTTPS 연결이 느리다고 말하는 사람들을 들어본 적이 있을 것입니다. 이 "느림"의 이유는 무엇일까요?

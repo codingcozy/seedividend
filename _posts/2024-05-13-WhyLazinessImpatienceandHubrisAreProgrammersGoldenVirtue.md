@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Laziness, Impatience, and Hubris Are Programmers' Golden Virtue"
 link: "https://medium.com/javascript-in-plain-english/why-laziness-impatience-and-hubris-are-programmers-golden-virtue-d21b23af2267"
+isUpdated: true
 ---
+
+
 
 
 ## 프로그래밍 이야기

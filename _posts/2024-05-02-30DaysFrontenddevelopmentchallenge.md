@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "30 Days Front end development challenge"
 link: "https://medium.com/@mrsivaprakasha/30-days-front-end-development-challenge-04f764ffafee"
+isUpdated: true
 ---
+
+
 
 
 **주 1: 집중 기초**

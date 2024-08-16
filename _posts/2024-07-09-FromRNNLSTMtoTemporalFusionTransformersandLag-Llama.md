@@ -3,12 +3,15 @@ title: "RNN LSTM부터 Temporal Fusion Transformers와 Lag-Llama까지 최신 �
 description: ""
 coverImage: "/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_0.png"
 date: 2024-07-09 20:52
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_0.png
 tag: Tech
 originalTitle: "From RNN LSTM to Temporal Fusion Transformers and Lag-Llama"
 link: "https://medium.com/dataman-in-ai/from-rnn-lstm-to-temporal-fusion-transformers-and-lag-llama-6e6a62c811bd"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-FromRNNLSTMtoTemporalFusionTransformersandLag-Llama_0.png)
 

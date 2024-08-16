@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Service discovery using Spring cloud Eureka"
 link: "https://medium.com/@cg32485/service-discovery-using-spring-cloud-eureka-26c7f4bc230b"
+isUpdated: true
 ---
+
+
 
 
 분산 시스템이나 마이크로서비스에서는 성격상 많은 노드나 구성 요소를 볼 수 있습니다. 그러한 환경에서 개별 구성 요소 간의 통신은 매우 중요해집니다.

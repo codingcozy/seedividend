@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Material UI into a React NextJS app"
 link: "https://medium.com/@elanaolson/integrating-material-ui-into-a-react-nextjs-app-55a95e15d767"
+isUpdated: true
 ---
+
+
 
 
 이제 Material UI를 NextJS 앱에 추가하는 방법을 자세히 살펴보겠습니다. 빠르게 실행할 수 있도록 도와 드리겠습니다!

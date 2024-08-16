@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hashmap in JavaScript"
 link: "https://medium.com/@lelianto.eko/hashmap-in-ja-3a5c03a8febc"
+isUpdated: true
 ---
+
+
 
 
 자바스크립트에서 해시맵(연상 배열 또는 객체라고도 함)은 키-값 쌍을 저장할 수 있는 데이터 구조입니다. 해시맵의 키는 객체와 함수를 포함한 모든 값이 될 수 있고, 값은 모든 데이터 유형이 될 수 있습니다.

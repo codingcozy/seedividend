@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How much MacBook RAM for a Mobile Developer"
 link: "https://medium.com/@Toglefritz/how-much-macbook-ram-for-a-mobile-developer-629f3c424ffb"
+isUpdated: true
 ---
+
+
 
 
 모바일 애플리케이션 개발자로서, 강력하고 효율적이며 모바일 앱 개발에 필요한 요구사항을 처리할 수 있는 기계를 찾고 있는 것이 좋겠지요. 그러나 가지고 다니기 불편한 거대한 노트북은 원하지 않을 것이며, 실제로 필요하지 않은 스펙에 과도한 비용을 지불하고 싶지 않을 거예요 (회사 비용이 아니라면요). 최고의 코딩 동료를 찾는 이 여정에서 핵심적인 고려사항 중 하나는 MacBook이 보유해야 할 RAM의 양입니다.

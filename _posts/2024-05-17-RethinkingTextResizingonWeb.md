@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rethinking Text Resizing on Web"
 link: "https://medium.com/airbnb-engineering/rethinking-text-resizing-on-web-1047b12d2881"
+isUpdated: true
 ---
+
+
 
 
 

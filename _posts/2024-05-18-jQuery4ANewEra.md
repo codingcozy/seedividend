@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "jQuery 4: A New Era"
 link: "https://medium.com/@alexefimenko/jquery-4-a-new-era-3695332777ef"
+isUpdated: true
 ---
+
+
 
 
 jQuery, 수십년 동안 무수히 많은 웹사이트를 구동해 온 "옛날식" 자바스크립트 라이브러리가 다음 주요 릴리스, jQuery 4.0.0 베타를 향하여 나아가고 있습니다.

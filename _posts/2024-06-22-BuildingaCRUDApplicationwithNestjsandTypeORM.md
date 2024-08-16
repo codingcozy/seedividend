@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a CRUD Application with Nest.js and TypeORM"
 link: "https://medium.com/@pawanrijal/building-a-crud-application-with-nest-js-and-typeorm-352a02c46234"
+isUpdated: true
 ---
+
+
 
 
 ![그림](/assets/img/2024-06-22-BuildingaCRUDApplicationwithNestjsandTypeORM_0.png)

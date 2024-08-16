@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Favourite JavaScript One-Liners"
 link: "https://medium.com/gitconnected/my-favourite-javascript-one-liners-0e11f736ac3b"
+isUpdated: true
 ---
+
+
 
 
 

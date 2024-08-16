@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular and React with Alfonso Andrés López Molina"
 link: "https://medium.com/angularidades/angular-and-react-with-alfonso-andr%C3%A9s-l%C3%B3pez-molina-9800b7da66b3"
+isUpdated: true
 ---
+
+
 
 
 ## Angularidades 팟캐스트 41회 요약

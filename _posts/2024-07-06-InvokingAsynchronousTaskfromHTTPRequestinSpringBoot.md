@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Invoking Asynchronous Task from HTTP Request in Spring Boot"
 link: "https://medium.com/@dennisholee/invoking-asynchronous-task-from-http-request-in-spring-boot-fccf61be41f6"
+isUpdated: true
 ---
+
+
 
 
 HTTP 요청 내에서 오랜 시간이 걸리는 작업을 호출해야 하는 상황에서 비동기 스레드를 생성하면 전체 요청-응답 시간을 줄일 수 있습니다. 보통 스레드 풀을 사용하여 비동기 프로세스를 수행하지만, 작업 대기열이 메모리 상에만 존재하기 때문에 복원력이 부족합니다. 아래 솔루션은 대기열 유형과 실행자 구현을 추상화하는 인터페이스를 도입하여 영구 저장 및 다중 인스턴스 작업자 솔루션을 가능하게 합니다.

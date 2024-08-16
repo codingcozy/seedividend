@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "New Features in React 19 — Asset Loading"
 link: "https://medium.com/@vageeshawihangi/new-features-in-react-19-asset-loading-076c004c0f9f"
+isUpdated: true
 ---
+
+
 
 
 🚀 리액트 19에서 자산 로딩을 통한 성능 최적화 🌟

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular — Use any existing interface into strongly typed reactive form"
 link: "https://medium.com/@nexsol-tech/angular-use-any-existing-interface-into-strongly-typed-reactive-form-90a6ab672b37"
+isUpdated: true
 ---
+
+
 
 
 Angular 14+에서 우리는 기다리던 바대로 반응형 폼에 타입을 지정할 수 있는 기회를 얻었습니다. 문제는 폼 자체에 대한 특정 모델을 만들어야 하므로, 앱이 더 복잡한 객체를 사용할 때 폼 타입이 약간 더 복잡하고 유지하기 어려워진다는 점입니다.

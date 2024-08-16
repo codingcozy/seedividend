@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "This TypeScript Problem will Sharpen your Mind"
 link: "https://medium.com/gitconnected/this-typescript-problem-will-challenge-your-mind-87142e0401fe"
+isUpdated: true
 ---
+
+
 
 
 

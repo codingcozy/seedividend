@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unleash Your Design Potential with CSS Color Extractor A Must-Have Tool for Web Designers and Developers"
 link: "https://medium.com/@hexcolors/unleash-your-design-potential-with-css-color-extractor-a-must-have-tool-for-web-designers-and-3ae480439fca"
+isUpdated: true
 ---
+
+
 
 
 

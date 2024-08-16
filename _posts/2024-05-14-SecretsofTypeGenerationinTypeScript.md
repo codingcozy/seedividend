@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Secrets of Type Generation in TypeScript"
 link: "https://medium.com/gitconnected/secrets-of-type-generation-in-typescript-5d74c2e9dc56"
+isUpdated: true
 ---
+
+
 
 
 한 번 TypeScript 모임에서 발표하기 위해 나라의 절반을 여행했던 적이 있어요. 제 발표를 진행한 후에는 청중들이 흥미로워 한 것 같았는데, 다른 연사가 나타났어요. 그는 매우 사소하지만 중요한 주제에 대해 이야기했어요. TypeScript에서 데이터 유효성 검사에 대해 논의했죠.

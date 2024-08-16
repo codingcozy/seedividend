@@ -3,12 +3,15 @@ title: "HTML에서 마우스오버 시 텍스트 색상 변경 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtochangethetextcoloronamouseoverinHTML_0.png"
 date: 2024-07-09 18:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtochangethetextcoloronamouseoverinHTML_0.png
 tag: Tech
 originalTitle: "How to change the text color on a mouseover in HTML?"
 link: "https://medium.com/@brajagopal.tripathi/how-to-change-the-text-color-on-a-mouseover-in-html-697f4d4210fa"
+isUpdated: true
 ---
+
+
 
 아래는 HTML에서 마우스 오버시 텍스트 색상을 변경하는 두 가지 방법이 있습니다:
 

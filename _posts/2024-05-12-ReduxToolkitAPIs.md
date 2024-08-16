@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Redux Toolkit APIs"
 link: "https://medium.com/@manish-baral/redux-toolkit-apis-2007de70d385"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-ReduxToolkitAPIs_0.png" />

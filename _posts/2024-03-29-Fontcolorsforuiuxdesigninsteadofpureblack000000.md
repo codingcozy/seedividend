@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Font colors for ui ux design instead of pure black 000000"
 link: "https://medium.com/design-bootcamp/font-colors-to-use-instead-of-pure-black-000000-a53944d4e3eb"
+isUpdated: true
 ---
+
+
 
 
 

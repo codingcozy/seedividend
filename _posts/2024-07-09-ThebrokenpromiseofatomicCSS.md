@@ -3,12 +3,15 @@ title: "Atomic CSS의 깨진 약속 기대와 현실 비교분석"
 description: ""
 coverImage: "/assets/img/2024-07-09-ThebrokenpromiseofatomicCSS_0.png"
 date: 2024-07-09 18:25
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ThebrokenpromiseofatomicCSS_0.png
 tag: Tech
 originalTitle: "The broken promise of atomic CSS"
 link: "https://medium.com/@hayavuk/the-broken-promise-of-atomic-css-4d3de5e25886"
+isUpdated: true
 ---
+
+
 
 ## (그다지 숨겨지지 않는) 아토믹 CSS의 숨은 비용
 

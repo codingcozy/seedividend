@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Telemetry"
 link: "https://storybook.js.org/docs/configure/telemetry"
+isUpdated: true
 ---
+
+
 
 
 

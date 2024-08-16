@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Add Realtime 3D Avatars to Agora Live Video Streams"
 link: "https://medium.com/agora-io/add-realtime-3d-avatars-to-live-video-streams-61dd5d122cd6"
+isUpdated: true
 ---
+
+
 
 
 현재 급속히 변화하는 디지털 환경에서 라이브 스트림 비디오가 주도를 차지하고 있어요. 사용자들은 이제 더 몰입적이고 맞춤형 스트리밍 옵션을 기대하고 있어요. 콘텐츠 크리에이터들은 점점 더 창의적인 방법으로 스트리밍을 하기 위해 노력하고 있어요. 이로 인해 자신의 움직임과 표현을 반영하는 동적 3D 아바타에 대한 수요가 늘어나고 있어요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simplifying Client-Side Logic: The Strategic Use of View Models"
 link: "https://medium.com/netanelbasal/simplifying-client-side-logic-the-strategic-use-of-view-models-db0ae0363be4"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Monorepo  A little on the subject"
 link: "https://medium.com/@davifsroberto/monorepo-a-little-on-the-subject-ccd252a3a171"
+isUpdated: true
 ---
+
+
 
 
 

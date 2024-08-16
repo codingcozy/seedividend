@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why staying calm, cool, and collected is key when learning how to code"
 link: "https://medium.com/@alziex/why-staying-calm-cool-and-collected-is-key-when-learning-how-to-code-edae564ff423"
+isUpdated: true
 ---
+
+
 
 
 

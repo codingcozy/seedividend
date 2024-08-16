@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "18 , 19 in ‘24:Unveiling Angular , Reacts Latest Updates!"
 link: "https://medium.com/@sannidhisiva/exploring-the-latest-features-angular-18-react-19-13298d32f2cd"
+isUpdated: true
 ---
+
+
 
 
 👨‍💻 안녕하세요! 전문 개발자로서 웹 개발에 열정을 가지고 있는 Senior Full Stack 엔지니어입니다. 저는 Angular 및 React 프레임워크와 광범위하게 작업한 기회가 있었습니다. 웹 성능을 향상시키는 최신 기능을 탐험하는 것은 항상 흥미로운 일이었습니다.

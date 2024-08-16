@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the Relationship between HTML, CSS, and JS, Using our own Human Body as a Guide"
 link: "https://medium.com/@olooezekiel885/understanding-the-relationship-between-html-css-and-js-using-our-own-human-body-as-a-guide-fe987cfd60c7"
+isUpdated: true
 ---
+
+
 
 
 

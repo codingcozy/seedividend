@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Generating Shapes with CSS Clip Path is Easy!"
 link: "https://medium.com/@novoselski/generating-shapes-with-css-clip-path-is-easy-ec4176f796ff"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-GeneratingShapeswithCSSClipPathisEasy_0.png" />

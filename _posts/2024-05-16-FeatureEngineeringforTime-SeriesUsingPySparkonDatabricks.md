@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Feature Engineering for Time-Series Using PySpark on Databricks"
 link: "https://medium.com/towards-data-science/feature-engineering-for-time-series-using-pyspark-on-databricks-02b97d62a287"
+isUpdated: true
 ---
+
+
 
 
 대규모 데이터 세트에서 고속 쿼리 및 분석에 대한 수요가 증가함에 따라 Apache Spark는 최근 몇 년간 가장 인기 있는 분석 엔진 중 하나로 돌아서고 있습니다. 그것은 분산 데이터 처리에서 강력한데, 마스터-워커 아키텍처 때문에 그렇습니다. 이에는 클러스터 매니저(마스터)와 협력하고 작은 작업을 워커 노드로 분배하는 실행을 제어하는 드라이버 프로그램이 포함되어 있습니다. 게다가, 내부 메모리 데이터 처리 엔진으로 설계된 Spark는 데이터를 저장하고 조작할 때 주로 RAM을 사용하여 디스크 저장소에 의존하는 것 대신 데이터를 더 빨리 처리할 수 있게 도와줍니다.

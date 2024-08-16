@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding User Authentication System the MERN Stack: A Step-by-Step Guide | Part1 - Server Side"
 link: "https://medium.com/@alitalhacoban/understanding-user-authentication-system-the-mern-stack-a-step-by-step-guide-part1-server-side-0810da291505"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 개발자 여러분! 이 이야기에서는 서버 및 클라이언트 측을 모두 포함한 인증 시스템을 구축할 것입니다. 그러나 이 부분에서는 서버 측만 구축할 것입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular 18 — Top new features and improvements"
 link: "https://medium.com/@mr.wahib/angular-18-top-new-features-and-improvements-2aa053733ca8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-Angular18Topnewfeaturesandimprovements_0.png" />

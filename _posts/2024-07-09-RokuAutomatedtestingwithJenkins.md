@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Roku — Automated testing with Jenkins"
 link: "https://medium.com/@davxne/roku-automated-testing-with-jenkins-14c639ee1836"
+isUpdated: true
 ---
+
+
 
 
 ## 소개

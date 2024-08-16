@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Developing Offline-Ready Web Applications"
 link: "https://medium.com/stackademic/developing-offline-ready-web-applications-05b2f30c120e"
+isUpdated: true
 ---
+
+
 
 
 ![IMG](/assets/img/2024-05-14-DevelopingOffline-ReadyWebApplications_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "미리보기 모드"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

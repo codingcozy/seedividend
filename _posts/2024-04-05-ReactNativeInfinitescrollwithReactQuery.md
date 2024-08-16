@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native  Infinite scroll with React Query"
 link: "https://medium.com/@davidecarizzoni/react-native-infinite-scroll-with-react-query-3e5ef90f3caa"
+isUpdated: true
 ---
+
+
 
 
 

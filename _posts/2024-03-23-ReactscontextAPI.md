@@ -1,5 +1,5 @@
 ---
-title: "React의 Context API란 무엇인가2024년 최신"
+title: "React의 Context API란 무엇인가 (2024년 최신)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,8 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Reacts context API"
 link: "https://tomarshrayanshi2003.medium.com/reacts-context-api-764249259f8c"
+isUpdated: true
 ---
-
 
 
 # 컨텍스트 API란 무엇인가요?

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Feature support for frameworks"
 link: "https://storybook.js.org/docs/configure/frameworks-feature-support"
+isUpdated: true
 ---
+
+
 
 
 

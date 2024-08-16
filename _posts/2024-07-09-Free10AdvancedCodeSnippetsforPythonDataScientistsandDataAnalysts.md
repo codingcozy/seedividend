@@ -3,12 +3,15 @@ title: "데이터 과학자와 데이터 분석가를 위한 10개의 고급 파
 description: ""
 coverImage: "/assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_0.png"
 date: 2024-07-09 09:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Free10AdvancedCodeSnippetsforPythonDataScientistsandDataAnalysts_0.png
 tag: Tech
 originalTitle: "Free 10++ Advanced Code Snippets for Python Data Scientists and Data Analysts"
 link: "https://medium.com/@andreastegusks/free-10advanced-code-snippets-for-python-data-scientists-and-data-analysts-49b2fe3fec59"
+isUpdated: true
 ---
+
+
 
 매수 분석가 또는 분석가로 활동할 때 효과적인 데이터 분석과 통찰을 얻기 위해서는 고급 코딩 기술을 배우는 것이 중요합니다. 이 게시물에서는 타이타닉 데이터셋을 중심으로 15가지 고급 Python 코드 조각을 살펴보겠습니다. 데이터 조작, 시각화, 머신러닝과 같은 분석 능력을 향상시키는데 도움이 될 것입니다.
 

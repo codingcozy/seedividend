@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stock grade system with Python and Streamlit."
 link: "https://medium.com/@avetik.babayan/stock-grade-system-with-python-and-streamlit-7a65331971b1"
+isUpdated: true
 ---
+
+
 
 
 ![링크](/assets/img/2024-07-13-StockgradesystemwithPythonandStreamlit_0.png)

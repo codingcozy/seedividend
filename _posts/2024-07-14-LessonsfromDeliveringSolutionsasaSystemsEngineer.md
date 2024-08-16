@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lessons from Delivering Solutions as a Systems Engineer"
 link: "https://medium.com/@dmosyan/lessons-from-delivering-solutions-as-a-systems-engineer-048bc6827a5f"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 👋 이 기사를 봐 주셔서 감사합니다. 여기서는 특정 기술에 대해 깊게 다루지는 않겠지만, Kubernetes에 대한 언급을 몇 번 볼 수 있을 겁니다. 이러한 교훈 대부분은 서로 다른 회사들에서 Kubernetes로의 이주 프로젝트를 진행하면서 배웠어요. 5년간 시스템 엔지니어로 일한 경험을 토대로 다양한 통찰을 얻었는데, 함께 나누고 싶어하네요. 여러분의 관점이 다르다면, 의견을 나누고 싶어요.

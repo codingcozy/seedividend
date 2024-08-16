@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Redux Vs Context-API"
 link: "https://medium.com/@tanyas022000/redux-vs-context-api-45e5bae61df2"
+isUpdated: true
 ---
+
+
 
 
 

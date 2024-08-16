@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind CSS Color Preview"
 link: "https://medium.com/@sebastianknight955/tailwind-css-color-preview-fc7034ecd857"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "EN ReactNative APK Creation"
 link: "https://medium.com/@OzturkSirin/en-reactnative-apk-creation-53be8a14bed3"
+isUpdated: true
 ---
+
+
 
 
 

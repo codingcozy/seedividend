@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Google Maps in Angular 17"
 link: "https://medium.com/@selsa-pingardi/integrating-google-maps-in-angular-17-66487ed2238c"
+isUpdated: true
 ---
+
+
 
 
 만약 당신이 Angular에서 Google 지도 컴포넌트를 사용해 왔다면, 2024년 2월 21일부로 Marker가 사용 중단되었다는 경고를 받은 적이 있을 것입니다. 새롭고 더 사용자 정의할 수 있는 Advanced Marker를 사용하도록 권장되었습니다.

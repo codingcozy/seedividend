@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Is My Jest Test Suite So Slow?"
 link: "https://medium.com/bitsrc/why-is-my-jest-suite-so-slow-2a4859bb9ac0"
+isUpdated: true
 ---
+
+
 
 
 우리 팀은 새 애플리케이션을 개발하고 있습니다. 현재 유닛 테스트 240개를 수행하는데 46초가 소요됩니다. 아직까지는 이 시간이 과도하지는 않지만 테스트의 개수에 비례해 증가하고 있습니다. 몇 달 뒤면 테스트 실행에 몇 분이 걸릴 것으로 예상됩니다.

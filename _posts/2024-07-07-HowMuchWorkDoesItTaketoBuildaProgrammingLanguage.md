@@ -3,12 +3,15 @@ title: "프로그래밍 언어를 만드는 데 얼마나 많은 작업이 필�
 description: ""
 coverImage: "/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png"
 date: 2024-07-07 21:54
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png
 tag: Tech
 originalTitle: "How Much Work Does It Take to Build a Programming Language?"
 link: "https://medium.com/zenstack/how-much-work-does-it-take-to-build-a-programming-language-784a6868f4e9"
+isUpdated: true
 ---
+
+
 
 ## 언어 생성을 시도해보세요! 왜냐하면 왜 안되겠어요
 

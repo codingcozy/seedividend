@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dockerize ASP.Net Core Web API and React Web Application"
 link: "https://medium.com/@fsilva0703/dockerize-asp-net-core-web-api-and-react-web-application-d180d8ce44b0"
+isUpdated: true
 ---
+
+
 
 
 백엔드와 프런트엔드를 도커 이미지로 만들어 한 컨테이너 안에서 실행하는 가장 간편한 방법을 소개해드릴게요.

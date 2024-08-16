@@ -3,12 +3,15 @@ title: "파이썬 프로젝트를 위한 완벽한 패키지 프로토 타입 �
 description: ""
 coverImage: "/assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_0.png"
 date: 2024-06-19 23:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_0.png
 tag: Tech
 originalTitle: "A Proposed Perfect Package Prototype for Python Projects"
 link: "https://medium.com/towards-data-science/a-proposed-perfect-package-prototype-for-python-projects-cf7c2e89c611"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_0.png" />
 

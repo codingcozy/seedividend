@@ -3,12 +3,15 @@ title: "접근성을 고려한 브레드크럼 내비게이션 구현 및 설명
 description: ""
 coverImage: "/assets/img/2024-07-09-ImplementationandExplanationofBreadcrumbNavigationConsideringAccessibility_0.png"
 date: 2024-07-09 14:13
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ImplementationandExplanationofBreadcrumbNavigationConsideringAccessibility_0.png
 tag: Tech
 originalTitle: "Implementation and Explanation of Breadcrumb Navigation Considering Accessibility"
 link: "https://medium.com/@mogy.code/implementation-and-explanation-of-breadcrumb-navigation-considering-accessibility-e3d011cfdaed"
+isUpdated: true
 ---
+
+
 
 # 결론 (전체 코드)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Type Guards in TypeScript: Keeping The Code Bug Free"
 link: "https://medium.com/@abir-mahmud/type-guards-in-typescript-keeping-the-code-bug-free-78b608b7ed85"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-TypeGuardsinTypeScriptKeepingTheCodeBugFree_0.png" />

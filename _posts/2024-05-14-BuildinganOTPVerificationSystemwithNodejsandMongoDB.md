@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an OTP Verification System with Node.js and MongoDB"
 link: "https://medium.com/@techsuneel99/building-an-otp-verification-system-with-node-js-and-mongodb-1c70eb3c6171"
+isUpdated: true
 ---
+
+
 
 
 요즘의 디지털 세계에서는 보안이 매우 중요합니다. 특히 사용자 인증 프로세스에서 보안을 강화하는 일반적인 방법 중 하나는 일회용 비밀번호(OTP) 확인입니다. OTP는 사용자가 자격 증명과 함께 입력해야 하는 고유한 코드를 생성하여 보안의 추가적인 계층을 더합니다. 이 튜토리얼에서는 Node.js와 MongoDB를 사용하여 OTP 확인 시스템을 구축하는 과정을 단계별로 안내하겠습니다.

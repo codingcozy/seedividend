@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing Web Performance: Tree Shaking Explained"
 link: "https://medium.com/@omkarbhavare2406/optimizing-web-performance-tree-shaking-explained-007208163c88"
+isUpdated: true
 ---
+
+
 
 
 📝 이 블로그에서는 웹 개발에서 중요한 프로세스인 Tree Shaking의 개념을 자세히 살펴볼 것입니다. Tree shaking을 이해하는 것은 코드의 성능을 최적화하고 최종 제품에 필요한 부분만 포함되도록 보장하는 데 중요합니다. 🕵️‍♀️ 이 기술이 무엇이며, 효율적이고 간소화된 애플리케이션을 만드는 데 왜 중요한지 알아보겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "BACK-END BASICS"
 link: "https://medium.com/@guilhermehuther/back-end-basics-e9a2ed1f244a"
+isUpdated: true
 ---
+
+
 
 
 ## Node.js와 PostgreSQL 데이터베이스를 활용한 RESTful API 및 AWS EC2 인스턴스 배포 기본

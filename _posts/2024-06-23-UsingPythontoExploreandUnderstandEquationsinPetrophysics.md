@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Python to Explore and Understand Equations in Petrophysics"
 link: "https://medium.com/towards-data-science/using-python-to-interactively-explore-and-understand-equations-in-petrophysics-705b3db8b2ab"
+isUpdated: true
 ---
+
+
 
 
 

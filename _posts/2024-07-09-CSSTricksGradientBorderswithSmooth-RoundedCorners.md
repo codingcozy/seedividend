@@ -3,12 +3,15 @@ title: "CSS 트릭 매끄러운 둥근 모서리와 그래디언트 테두리 �
 description: ""
 coverImage: "/assets/img/2024-07-09-CSSTricksGradientBorderswithSmooth-RoundedCorners_0.png"
 date: 2024-07-09 13:54
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CSSTricksGradientBorderswithSmooth-RoundedCorners_0.png
 tag: Tech
 originalTitle: "CSS Tricks: Gradient Borders with Smooth-Rounded Corners"
 link: "https://medium.com/javascript-in-plain-english/css-tricks-gradient-borders-with-smooth-rounded-corners-238211094580"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-CSSTricksGradientBorderswithSmooth-RoundedCorners_0.png" />
 

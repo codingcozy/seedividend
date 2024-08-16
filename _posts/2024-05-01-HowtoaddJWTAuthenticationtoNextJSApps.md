@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to add JWT Authentication to NextJS Apps"
 link: "https://medium.com/gitconnected/how-to-add-jwt-authentication-to-nextjs-apps-a0dc83bd257d"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_0.png)

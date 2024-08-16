@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create Drag and Drop Functionality in JavaScript: A Step-by-Step Tutorial"
 link: "https://medium.com/@future_fanatic/how-to-create-drag-and-drop-functionality-in-javascript-a-step-by-step-tutorial-8ea236ef9416"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-HowtoCreateDragandDropFunctionalityinJavaScriptAStep-by-StepTutorial_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Better Stores in Pinia with Vue3 — Global Stores, Nesting and Accessing Vue Router in Pinia"
 link: "https://medium.com/letstream-official/better-stores-in-pinia-with-vue3-global-stores-nesting-and-accessing-vue-router-in-pinia-0064a6f22ed6"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-BetterStoresinPiniawithVue3GlobalStoresNestingandAccessingVueRouterinPinia_0.png)

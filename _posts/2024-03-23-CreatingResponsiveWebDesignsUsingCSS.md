@@ -1,5 +1,5 @@
 ---
-title: "React에서 CSS를 활용한 반응형 사이트 만들기2024년"
+title: "React에서 CSS를 활용한 반응형 사이트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Responsive Web Designs Using CSS"
 link: "https://medium.com/@fitrafilthmongers/creating-responsive-web-designs-using-css-b9084f86f7c5"
+isUpdated: true
 ---
+
+
 
 
 

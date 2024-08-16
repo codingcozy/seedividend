@@ -3,12 +3,15 @@ title: "자바스크립트와 파이썬의 비동기 프로그래밍 비교 어�
 description: ""
 coverImage: "/assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_0.png"
 date: 2024-07-06 02:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-AsyncProgramminginJavaScriptvsPython_0.png
 tag: Tech
 originalTitle: "Async Programming in JavaScript vs Python"
 link: "https://medium.com/treebo-tech-blog/async-programming-in-javascript-vs-python-11fd3e3f1b33"
+isUpdated: true
 ---
+
+
 
 비동기 프로그래밍은 작업을 더 효율적으로 실행할 수 있게 해주는 주요 패러다임입니다, 특히 I/O 바운드 작업에서 더욱 그렇습니다. JavaScript와 Python은 모두 비동기 프로그래밍을 지원하지만, 각각의 설계 철학과 런타임 환경에 따라 다른 방식으로 지원합니다.
 

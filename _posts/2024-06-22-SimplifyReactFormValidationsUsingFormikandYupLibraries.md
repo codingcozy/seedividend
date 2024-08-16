@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simplify React Form Validations Using Formik and Yup Libraries"
 link: "https://medium.com/@codewithadurintiashok/simplify-react-form-validations-using-formik-and-yup-libraries-4f6571fe111f"
+isUpdated: true
 ---
+
+
 
 
 가끔 React 애플리케이션에서 유효성 검사를 구현하는 것은 꽤 짜증날 수 있어요. 최근 이 분야를 탐험해본 결과, Formik과 Yup이라는 두 라이브러리를 발견했어요.

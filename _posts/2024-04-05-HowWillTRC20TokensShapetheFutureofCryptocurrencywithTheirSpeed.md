@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Will TRC20 Tokens Shape the Future of Cryptocurrency with Their Speed"
 link: "https://jacobpetergl.medium.com/how-will-trc20-tokens-shape-the-future-of-cryptocurrency-with-their-speed-924ef423389b"
+isUpdated: true
 ---
+
+
 
 
 

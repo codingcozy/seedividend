@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Empowering UI Workflow Creation on the go  Introducing State-of-the-art OmniWidget"
 link: "https://medium.com/airteldigital/empowering-ui-workflow-creation-on-the-go-introducing-state-of-the-art-omniwidget-fecf8b4e47e1"
+isUpdated: true
 ---
+
+
 
 
 

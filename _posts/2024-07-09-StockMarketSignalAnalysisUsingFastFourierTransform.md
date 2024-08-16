@@ -3,12 +3,15 @@ title: "빠른 푸리에 변환을 이용한 주식 시장 신호 분석 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_0.png"
 date: 2024-07-09 15:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-StockMarketSignalAnalysisUsingFastFourierTransform_0.png
 tag: Tech
 originalTitle: "Stock Market Signal Analysis Using Fast Fourier Transform"
 link: "https://medium.com/@kt.26karanthakur/stock-market-signal-analysis-using-fast-fourier-transform-e3bdde7bcee6"
+isUpdated: true
 ---
+
+
 
 # 소개
 

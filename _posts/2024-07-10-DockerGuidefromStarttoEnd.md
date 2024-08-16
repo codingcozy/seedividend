@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker:Guide from Start to End"
 link: "https://medium.com/@nitinkumaraswar94/docker-guide-from-start-to-end-467e50776f8d"
+isUpdated: true
 ---
+
+
 
 
 소개

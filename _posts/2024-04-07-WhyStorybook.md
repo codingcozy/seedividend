@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Storybook"
 link: "https://storybook.js.org/docs/get-started/why-storybook"
+isUpdated: true
 ---
+
+
 
 
 

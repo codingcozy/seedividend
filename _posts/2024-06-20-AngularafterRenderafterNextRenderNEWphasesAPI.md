@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular afterRender , afterNextRender NEW phases API"
 link: "https://medium.com/@amosisaila/angular-afterrender-afternextrender-new-phases-api-ddf2432455e2"
+isUpdated: true
 ---
+
+
 
 
 앵귤러는 컴포넌트 상호 작용을위한 강력한 라이프사이클 후크를 제공하지만 때로는 렌더링 후에 DOM과 직접 작업해야 하는 경우가 있습니다. 이때 afterRender 및 afterNextRender가 유용합니다.

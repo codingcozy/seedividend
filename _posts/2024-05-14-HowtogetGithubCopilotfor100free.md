@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to get Github Copilot for 100% free"
 link: "https://medium.com/geekculture/how-to-get-github-copilot-for-100-free-d25c3b8c3ba4"
+isUpdated: true
 ---
+
+
 
 
 대부분의 분들이 GitHub Copilot이 무엇인지 알고 계실 것으로 믿습니다. 알지 못하는 경우를 대비해 아래에 설명드리겠습니다.

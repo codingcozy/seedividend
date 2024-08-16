@@ -3,12 +3,15 @@ title: "파일 드래그 앤 드롭 업로드와 프리뷰 구현하는 방법 J
 description: ""
 coverImage: "/assets/img/2024-07-09-DragandDropFileUploadWithPreviewUsingJavaScript_0.png"
 date: 2024-07-09 14:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-DragandDropFileUploadWithPreviewUsingJavaScript_0.png
 tag: Tech
 originalTitle: "Drag and Drop File Upload With Preview Using JavaScript"
 link: "https://medium.com/@cwrworksite/drag-and-drop-file-upload-with-preview-using-javascript-cd85524e4a63"
+isUpdated: true
 ---
+
+
 
 안녕하세요 개발자 여러분, 이번 튜토리얼에서는 Html, Css 및 JavaScript를 사용하여 파일을 업로드하는 방법을 배우게 될 거에요. 이 프로젝트는 Drag and Drop 또는 파일 찾아보기를 통해 파일을 업로드하고 다운로드 기능을 포함시키는 것을 다루고 있어요. Drag And Drop은 JavaScript를 사용해 파일을 끌어다 놓는 방법을 익히기 위해 forms, CSS 및 JavaScript 개념을 명확하게 이해하는 초보 프로젝트예요.
 

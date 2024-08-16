@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Are you using SVG favicons yet? A guide for modern browsers."
 link: "https://medium.com/swlh/are-you-using-svg-favicons-yet-a-guide-for-modern-browsers-836a6aace3df"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-02-AreyouusingSVGfaviconsyetAguideformodernbrowsers_0.png)

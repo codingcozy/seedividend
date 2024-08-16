@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adapt a text size to screen size with different ratio in React"
 link: "https://medium.com/@maozerhouni/adapt-a-text-size-to-screen-size-with-different-ratio-in-react-04b7b1ed2ca6"
+isUpdated: true
 ---
+
+
 
 
 현대 웹 개발의 중요한 측면 중 하나는 반응형 웹 디자인을 만드는 것입니다. 다양한 디바이스의 존재로 인해 텍스트가 다양한 화면 크기와 비율에서 가독성이 좋고 심미적으로 매력적으로 보이도록 하는 것은 어려운 과제일 수 있습니다. 이 기사에서는 React 애플리케이션을 다룰 때 다양한 화면 비율에 맞게 텍스트 크기를 동적으로 조정하는 실용적인 해결책에 대해 살펴보겠습니다.

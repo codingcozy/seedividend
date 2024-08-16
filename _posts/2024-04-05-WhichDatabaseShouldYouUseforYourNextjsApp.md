@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Which Database Should You Use for Your Nextjs App"
 link: "https://medium.com/javascript-in-plain-english/which-database-should-you-use-for-your-next-js-app-f667e63677ce"
+isUpdated: true
 ---
+
+
 
 
 

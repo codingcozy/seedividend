@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to import data from Excel “XLSX” in React.js"
 link: "https://medium.com/@gb.usmanumar/how-to-import-data-from-excel-xlsx-in-react-js-f486a600dc9f"
+isUpdated: true
 ---
+
+
 
 
 

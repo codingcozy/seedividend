@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building PDF Open Source Services with Angular , GCP — Deploy services to Cloud Run"
 link: "https://medium.com/itnext/building-pdf-open-source-services-with-angular-gcp-deploy-services-to-cloud-run-686b5b8fb87b"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-20-BuildingPDFOpenSourceServiceswithAngularGCPDeployservicestoCloudRun_0.png)

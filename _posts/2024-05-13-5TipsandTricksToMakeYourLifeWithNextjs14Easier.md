@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Tips and Tricks To Make Your Life With Next.js 14 Easier"
 link: "https://medium.com/@aryalskanda1/5-tips-and-tricks-to-make-your-life-with-next-js-14-easier-f272bb52537e"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-13-5TipsandTricksToMakeYourLifeWithNextjs14Easier_0.png)

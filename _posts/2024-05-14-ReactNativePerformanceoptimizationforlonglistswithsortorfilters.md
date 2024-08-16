@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native: Performance optimization for long lists with sort or filters"
 link: "https://medium.com/@sebastian.e.vogel/react-native-performance-optimization-for-long-lists-with-sort-or-filters-4ac356846805"
+isUpdated: true
 ---
+
+
 
 
 React Native에서 긴 요소 목록을 다루는 것은 꽤 도전적일 수 있어요. RN 문서에서는 FlatList를 사용하는 것을 권장하지만, 제공된 예제는 종종 방대한 목록이나 필터 적용 및 목록 정렬과 같은 시나리오를 다루지 않아서 많은 애플리케이션에서 필수적인 요구 사항들을 보여주지 못합니다.

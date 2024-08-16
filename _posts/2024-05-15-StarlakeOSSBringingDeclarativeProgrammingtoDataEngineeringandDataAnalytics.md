@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Starlake OSS: Bringing Declarative Programming to Data Engineering and Data Analytics"
 link: "https://medium.com/starlake/starlake-oss-bringing-declarative-programming-to-data-engineering-and-data-analytics-cef1ed079d2d"
+isUpdated: true
 ---
+
+
 
 
 # 소개

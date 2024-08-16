@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "i Build a Cli Tool like Shadcn for Nextjs😅"
 link: "https://medium.com/@mdtaqui.jhar/i-build-a-cli-tool-like-shadcn-for-nextjs-492b95ffe7a4"
+isUpdated: true
 ---
+
+
 
 
 

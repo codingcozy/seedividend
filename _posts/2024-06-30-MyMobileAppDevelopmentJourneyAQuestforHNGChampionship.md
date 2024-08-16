@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Mobile App Development Journey (A Quest for HNG Championship!)"
 link: "https://medium.com/@victorakanmidu/my-mobile-development-journey-a-quest-for-hng-championship-30e74f459912"
+isUpdated: true
 ---
+
+
 
 
 저는 Victor Akanmidu이고, 인구 밀집 지역인 HNG 인턴십에서 모바일 앱 개발이라는 위대한 모험에 도전하고 있어요!

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Overview of HTTP 2 Features"
 link: "https://medium.com/codex/overview-of-http-2-features-b3c5c1cc6cb6"
+isUpdated: true
 ---
+
+
 
 
 ![HTTP/2 Features](/assets/img/2024-06-22-OverviewofHTTP2Features_0.png)

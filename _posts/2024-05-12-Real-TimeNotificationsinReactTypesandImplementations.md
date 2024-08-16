@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Real-Time Notifications in React: Types and Implementations"
 link: "https://medium.com/@Has_San/real-time-notifications-in-react-types-and-implementations-ff720739bf6f"
+isUpdated: true
 ---
+
+
 
 
 ![Real-Time Notifications in React: Types and Implementations](/assets/img/2024-05-12-Real-TimeNotificationsinReactTypesandImplementations_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Better Way to useMemo and useCallback"
 link: "https://medium.com/better-programming/a-better-way-to-usememo-and-usecallback-58288a19f91c"
+isUpdated: true
 ---
+
+
 
 
 

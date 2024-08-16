@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simplifying React Development Why Nesting Components Can Trip You Up"
 link: "https://medium.com/@sudha.malpeddi/simplifying-react-development-why-nesting-components-can-trip-you-up-f84cd4313605"
+isUpdated: true
 ---
+
+
 
 
 

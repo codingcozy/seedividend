@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "18 Advanced JavaScript Techniques for Expert Developers"
 link: "https://medium.com/javascript-in-plain-english/18-advanced-javascript-techniques-for-expert-developers-23633e62d4d2"
+isUpdated: true
 ---
+
+
 
 
 

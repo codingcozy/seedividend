@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Without user feedback, you’re just another “developer”"
 link: "https://medium.com/@codebymedu/without-user-feedback-youre-just-another-developer-08328eb1f9ff"
+isUpdated: true
 ---
+
+
 
 
 이 기사는 원래 내 블로그에 게시되었습니다.

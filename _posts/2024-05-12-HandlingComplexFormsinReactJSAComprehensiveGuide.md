@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Handling Complex Forms in ReactJS: A Comprehensive Guide"
 link: "https://medium.com/@mudassar0920/handling-complex-forms-in-reactjs-a-comprehensive-guide-40bcb5c89ac0"
+isUpdated: true
 ---
+
+
 
 
 저는 React에서 양식 데이터를 쉽게 처리하는 기술에 대해 공유할 예정이에요.

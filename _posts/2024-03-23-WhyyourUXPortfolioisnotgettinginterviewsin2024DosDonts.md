@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why your UX Portfolio is not getting interviews in 2024 Dos , Donts"
 link: "https://uxplanet.org/why-your-ux-portfolio-is-not-getting-interviews-in-2024-dos-don-ts-be1ae60fab29"
+isUpdated: true
 ---
+
+
 
 
 

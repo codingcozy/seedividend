@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Interactive Island Popup with HTML, CSS, and JavaScript  FREE Source Code"
 link: "https://medium.com/@withaarzoo/building-an-interactive-island-popup-with-html-css-and-javascript-free-source-code-af2e39717e03"
+isUpdated: true
 ---
+
+
 
 
 

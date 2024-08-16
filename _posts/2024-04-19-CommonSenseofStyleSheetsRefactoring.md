@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Common Sense of Style Sheets Refactoring"
 link: "https://medium.com/@bseleng/common-sense-of-style-sheets-refactoring-f901f524d0dd"
+isUpdated: true
 ---
+
+
 
 
 

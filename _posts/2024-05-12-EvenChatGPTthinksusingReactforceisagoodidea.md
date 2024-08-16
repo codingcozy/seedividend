@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Even ChatGPT thinks using Reactforce is a good idea"
 link: "https://medium.com/@gregheartcloud/even-chatgpt-thinks-using-reactforce-is-a-good-idea-41925c4b3aeb"
+isUpdated: true
 ---
+
+
 
 
 다음 글은 ChatGPT가 쓴 것입니다:

@@ -3,12 +3,15 @@ title: "1921680024 이해하기 - 30초만에 설명"
 description: ""
 coverImage: "/assets/img/2024-07-06-The24in1921680024Explainedin30Seconds_0.png"
 date: 2024-07-06 02:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-The24in1921680024Explainedin30Seconds_0.png
 tag: Tech
 originalTitle: "The “ 24” in “192.168.0.0 24” Explained in 30 Seconds"
 link: "https://medium.com/gitconnected/the-24-in-192-168-0-0-24-explained-in-30-seconds-b0ed6cb635c7"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-The24in1921680024Explainedin30Seconds_0.png
 

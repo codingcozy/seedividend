@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTML Hacks 10 Tips to Build Better Websites"
 link: "https://medium.com/@nile.bits/html-hacks-10-tips-to-build-better-websites-083f96295921"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dockerize React applications with Nginx"
 link: "https://medium.com/@alinaseri/dockerize-react-applications-with-nginx-17f752deb54"
+isUpdated: true
 ---
+
+
 
 
 

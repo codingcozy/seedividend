@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Whimsical Journey Through Wait Times"
 link: "https://medium.com/towards-data-science/a-whimsical-journey-through-wait-times-b02a41d337fc"
+isUpdated: true
 ---
+
+
 
 
 ## 파이썬을 사용하여 전자레인지 카운트다운부터 끝나지 않는 전화 대기 시간까지

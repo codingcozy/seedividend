@@ -3,12 +3,15 @@ title: "리액트에서 사용자 정의 드롭다운 컴포넌트 만들기 단
 description: ""
 coverImage: "/assets/img/2024-05-12-BuildingaCustomDropdownComponentinReactStepbyStep_0.png"
 date: 2024-05-12 19:10
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-BuildingaCustomDropdownComponentinReactStepbyStep_0.png
 tag: Tech
 originalTitle: "Building a Custom Dropdown Component in React (Step by Step)✨"
 link: "https://medium.com/@kaderbiral26/building-a-custom-dropdown-component-in-react-step-by-step-e12f4330fb58"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-05-12-BuildingaCustomDropdownComponentinReactStepbyStep_0.png)
 

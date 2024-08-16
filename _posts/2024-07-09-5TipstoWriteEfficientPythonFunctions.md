@@ -3,12 +3,15 @@ title: "효율적인 Python 함수를 작성하기 위한 5가지 팁"
 description: ""
 coverImage: "/assets/img/2024-07-09-5TipstoWriteEfficientPythonFunctions_0.png"
 date: 2024-07-09 09:13
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-5TipstoWriteEfficientPythonFunctions_0.png
 tag: Tech
 originalTitle: "5 Tips to Write Efficient Python Functions"
 link: "https://medium.com/gitconnected/5-tips-to-write-efficient-python-functions-d9befdfa7778"
+isUpdated: true
 ---
+
+
 
 효율적이고 유지보수가 용이한 파이썬 함수를 작성하는 것은 고품질 코드를 만들기 위한 중요한 요소입니다. 이 문서는 파이썬 함수를 개선하고 코드 가독성, 유지보수성, 견고성을 향상시키는 데 도움이 되는 5가지 필수 팁을 제시합니다.
 

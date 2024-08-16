@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering HTMX: A Practical Approach to Streamlined Frontend Development"
 link: "https://medium.com/@Choco23/mastering-htmx-a-practical-approach-to-streamlined-frontend-development-f4ad69faa313"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-MasteringHTMXAPracticalApproachtoStreamlinedFrontendDevelopment_0.png" />

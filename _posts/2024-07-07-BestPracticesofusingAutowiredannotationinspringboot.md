@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Best Practices of using @Autowired annotation in spring boot"
 link: "https://medium.com/@contactshubham/best-practices-of-using-autowired-annotation-in-spring-boot-6675cf7e8d9b"
+isUpdated: true
 ---
+
+
 
 
 이 게시물에서는 @Autowired 주석을 사용하여 Constructor Injection Over Field Injection을 선호하여 가장 안전하고 최상의 방법으로 활용하는 방법에 대해 설명하겠습니다. 가능한 한 간단하게 모든 논리를 설명하고 예제를 통해 보여드리겠습니다.

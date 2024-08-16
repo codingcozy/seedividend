@@ -3,12 +3,15 @@ title: "훌륭한 베이즈 통계 개념 입문"
 description: ""
 coverImage: "/assets/img/2024-07-09-AFantasticIntroductiontotheConceptofBayesianStatistics_0.png"
 date: 2024-07-09 09:05
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-AFantasticIntroductiontotheConceptofBayesianStatistics_0.png
 tag: Tech
 originalTitle: "A Fantastic Introduction to the Concept of Bayesian Statistics"
 link: "https://medium.com/@keith-mcnulty/a-fantastic-introduction-to-the-concept-of-bayesian-statistics-6fe5351420fc"
+isUpdated: true
 ---
+
+
 
 저는 최근 캠브리지 대학 입학 시험지에 나온 매우 어려워 보이지만 창의적으로 표현된 문제를 발견했습니다. 처음에는 매우 복잡해 보였지만, 몇 년간 수학을 연습한 경험으로 배운 한 가지는, 당장 무슨 일을 하는지 모르는 경우에는 가지고 있는 정보들을 적도록 하는 것이 중요하다는 것입니다. 그렇게 하면 종종 해결법이 나타날 겁니다.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adopt a Dog, Flatiron Phase 2 Project"
 link: "https://medium.com/@genesismcgruder/adopt-a-dog-flatiron-phase-2-project-178328665141"
+isUpdated: true
 ---
+
+
 
 
 

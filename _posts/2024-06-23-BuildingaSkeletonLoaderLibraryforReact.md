@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Skeleton Loader Library for React"
 link: "https://medium.com/gitconnected/building-a-skeleton-loader-library-for-react-2cf680c236ee"
+isUpdated: true
 ---
+
+
 
 
 웹 개발의 빠르게 변화하는 세상에서 UI 컴포넌트 라이브러리는 개발자들에게 귀중한 도구가 되어왔어요. Material-UI, Chakra UI, Ant Design, 그리고 ShadCN과 같은 이러한 라이브러리들은 다양한 사전 구축된 컴포넌트들을 제공하여 사용자 인터페이스의 신속하고 일관된 개발을 가능하게 합니다. 이들은 생산성을 향상시키고 디자인 일관성을 유지하며, 개발자들이 애플리케이션의 독특한 측면에 집중할 수 있게 하여 휠을 재창조하는 것보다 더 효율적입니다. 하지만 때로는 성능이나 디자인 요구 사항을 충족시키기 위해 보다 구체적으로 초점을 맞춰야 할 때도 있습니다. 이 글에서는 React를 위한 가벼운 스켈레톤 로더 컴포넌트 라이브러리인 @paul/skeleton-loader-react을 소개하겠습니다. 종합적인 UI 라이브러리와 달리, 이 프로젝트는 데이터가 로딩되는 동안 사용자 경험을 향상시키기 위한 간단하고 효과적인 스켈레톤 로더에 초점을 맞추고 있습니다.

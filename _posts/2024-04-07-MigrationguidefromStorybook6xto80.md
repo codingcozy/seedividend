@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Migration guide from Storybook 6x to 80"
 link: "https://storybook.js.org/docs/migration-guide/from-older-version"
+isUpdated: true
 ---
+
+
 
 
 

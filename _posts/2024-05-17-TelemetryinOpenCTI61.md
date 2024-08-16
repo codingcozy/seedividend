@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Telemetry in OpenCTI 6.1"
 link: "https://medium.com/filigran/telemetry-in-opencti-6-1-801af33efc8a"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-TelemetryinOpenCTI61_0.png" />

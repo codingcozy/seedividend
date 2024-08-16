@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with Lexical. Rich Text Editor for React"
 link: "https://medium.com/javascript-in-plain-english/getting-started-with-lexical-2c8b94c9bdd9"
+isUpdated: true
 ---
+
+
 
 
 ## React JS에서 Lexical을 사용하는 방법에 대한 튜토리얼; 예제와 함께 기본 사항.

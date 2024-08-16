@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Senior Java Developer Interview Checklist 2024"
 link: "https://medium.com/@pavanapriya.u/senior-java-developer-interview-checklist-7594b9a8a3ac"
+isUpdated: true
 ---
+
+
 
 
 시니어 Java 개발자 인터뷰 준비를 위해서는 기본적인 Java 개념부터 고급 개념까지 심층적으로 이해해야 하며, 다양한 프레임워크, 도구 및 모범 사례에 대한 실무 경험이 필요합니다.

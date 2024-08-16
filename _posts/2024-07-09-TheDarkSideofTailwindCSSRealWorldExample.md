@@ -3,12 +3,15 @@ title: "TailwindCSS의 어두운 면 실전 예시"
 description: ""
 coverImage: "/assets/img/2024-07-09-TheDarkSideofTailwindCSSRealWorldExample_0.png"
 date: 2024-07-09 08:54
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-TheDarkSideofTailwindCSSRealWorldExample_0.png
 tag: Tech
 originalTitle: "The Dark Side of TailwindCSS: Real World Example!"
 link: "https://medium.com/@masihtak/the-dark-side-of-tailwindcss-real-world-example-249b1064b89c"
+isUpdated: true
 ---
+
+
 
 전문 개발자로서, 항상 워크플로우를 향상시킬 수 있는 도구와 라이브러리를 찾고 있어요. 그러나 인기가 가끔은 속은 것일 수도 있어요. 많은 경험이 풍부한 개발자들이 TailwindCSS 사용에 대한 단점을 블로그 글이나 동영상을 통해 공유해 왔어요. 특히, 유명한 YouTube 동영상에서 만든이가 “TailwindCSS는 존재하지 않는 문제를 해결한다!”라는 비판적인 발언을 했어요. 내 의견으로는, 이것은 실제 문제를 해결하지 못할 뿐만 아니라 더 많은 문제를 야기한다고 봐요.
 

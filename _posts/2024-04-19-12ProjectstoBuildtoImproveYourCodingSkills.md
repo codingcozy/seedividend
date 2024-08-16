@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "12 Projects to Build to Improve Your Coding Skills "
 link: "https://medium.com/stackademic/12-projects-to-build-to-improve-your-coding-skills-3e6a45b85ace"
+isUpdated: true
 ---
+
+
 
 
 

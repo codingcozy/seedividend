@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 5 Node.js Backend Frameworks in 2024"
 link: "https://medium.com/bitsrc/top-5-nodejs-frameworks-in-2024-32c7fe9d49c6"
+isUpdated: true
 ---
+
+
 
 
 ## 2024년 API를 구축하기 위해 Hapi, Express.js, NestJS, Koa.js 및 Adonis.js를 탐험해보세요

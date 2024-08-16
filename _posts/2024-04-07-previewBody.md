@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "previewBody"
 link: "https://storybook.js.org/docs/api/main-config-preview-body"
+isUpdated: true
 ---
+
+
 
 
 

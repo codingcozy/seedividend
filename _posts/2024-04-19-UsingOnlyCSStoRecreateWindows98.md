@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Only CSS to Recreate Windows 98"
 link: "https://medium.com/gitconnected/using-only-css-to-recreate-windows-98-958cce4da0ca"
+isUpdated: true
 ---
+
+
 
 
 

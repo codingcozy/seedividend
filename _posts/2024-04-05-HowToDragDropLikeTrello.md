@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Drag , Drop Like Trello"
 link: "https://medium.com/@rekdhmer/how-to-drag-drop-like-trello-b21c4e821429"
+isUpdated: true
 ---
+
+
 
 
 

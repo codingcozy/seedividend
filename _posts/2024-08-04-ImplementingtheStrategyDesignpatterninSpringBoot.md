@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing the Strategy Design pattern in Spring Boot"
 link: "https://medium.com/codex/implementing-the-strategy-design-pattern-in-spring-boot-df3adb9ceb4a"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-04-ImplementingtheStrategyDesignpatterninSpringBoot_0.png" />

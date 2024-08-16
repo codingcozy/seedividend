@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why I Chose Mantine as My Component Library"
 link: "https://javascript.plainenglish.io/why-i-chose-mantine-as-my-component-library-ca1da2c56a3a"
+isUpdated: true
 ---
+
+
 
 
 

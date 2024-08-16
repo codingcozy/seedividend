@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Code smells in Angular — Deep Dive — Part II"
 link: "https://medium.com/@robert.maiersilldorff/code-smells-in-angular-deep-dive-part-ii-747526c43cc9"
+isUpdated: true
 ---
+
+
 
 
 내 최근 블로그 게시물 중 하나에서 런타임 성능과 관련한 상위 5개 코드 스멜에 대해 깊이 파고들었습니다. 이번에는 프로젝트의 유지 관리성과 관련된 코드 스멜에 대해 더 많은 이야기를 나누고 싶습니다. 이 내용은 이전 블로그 게시물 [1]에 명시되어 있어요.

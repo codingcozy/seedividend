@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Managing Font Size Dynamically in React Native with a Custom Hook"
 link: "https://medium.com/@hannan.azmat/managing-font-size-dynamically-in-react-native-with-a-custom-hook-845161f95024"
+isUpdated: true
 ---
+
+
 
 
 

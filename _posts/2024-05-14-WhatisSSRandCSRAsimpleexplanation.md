@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is SSR and CSR: A simple explanation"
 link: "https://medium.com/@dgongoragamboa/what-is-ssr-and-csr-a-simple-explanation-c25354c8b34e"
+isUpdated: true
 ---
+
+
 
 
 웹 개발 세계에서 자주 만나는 두 용어는 SSR (서버 측 렌더링)와 CSR (클라이언트 측 렌더링)입니다. 두 용어는 웹 애플리케이션에서 콘텐츠가 표시되고 처리되는 방식에 상당한 영향을 미칩니다. 이 글에서는 이러한 개념을 자세히 살펴보고 그 차이점과 유사점을 알아보며, 어떤 경우에 한 가지를 다른 것보다 선호해야 하는지 이해해보겠습니다.

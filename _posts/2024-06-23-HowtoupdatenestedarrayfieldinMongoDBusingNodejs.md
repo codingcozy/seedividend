@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to update nested array field in MongoDB using Node.js"
 link: "https://medium.com/codechintan/how-to-update-nested-array-field-in-mongodb-using-node-js-b57980f2faba"
+isUpdated: true
 ---
+
+
 
 
 몽고디비에서 문서 내 배열 업데이트하기.

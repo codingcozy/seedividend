@@ -3,12 +3,15 @@ title: "Scikit-learn 2024 시각화 가이드 모델을 이해하기 쉽게 만�
 description: ""
 coverImage: "/assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_0.png"
 date: 2024-07-09 20:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Scikit-learnVisualizationGuideMakingModelsSpeak_0.png
 tag: Tech
 originalTitle: "Scikit-learn Visualization Guide: Making Models Speak"
 link: "https://medium.com/towards-data-science/scikit-learn-visualization-guide-making-models-speak-6ee32a3c5c04"
+isUpdated: true
 ---
+
+
 
 아래는 제가 요청하신 테이블을 Markdown 형식으로 변경한 것입니다.
 

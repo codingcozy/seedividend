@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is a .npmrc file?"
 link: "https://medium.com/@pmmanav/what-is-a-npmrc-file-e7bd40bff3f0"
+isUpdated: true
 ---
+
+
 
 
 .npmrc 파일은 npm(Node Package Manager) 명령행 도구에서 사용되는 구성 파일입니다. 이 파일을 통해 npm이 패키지 및 의존성을 관리하는 방식과 관련된 다양한 설정을 사용자 정의할 수 있습니다. 이 파일은 일반적으로 프로젝트의 루트 디렉토리에 위치하며 다양한 구성 옵션을 포함할 수 있습니다. 아래는 .npmrc 파일에 설정할 수 있는 일반적인 사용 사례 및 구성 옵션입니다:

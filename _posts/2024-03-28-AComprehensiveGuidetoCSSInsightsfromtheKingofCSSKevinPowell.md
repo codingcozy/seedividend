@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Comprehensive Guide to CSS Insights from the King of CSS, Kevin Powell"
 link: "https://medium.com/towardsdev/a-comprehensive-guide-to-css-insights-from-the-king-of-css-kevin-powell-51e0bd569756"
+isUpdated: true
 ---
+
+
 
 
 

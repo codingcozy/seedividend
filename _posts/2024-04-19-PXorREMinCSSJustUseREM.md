@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "PX or REM in CSS Just Use REM"
 link: "https://medium.com/gitconnected/px-or-rem-in-css-just-use-rem-470c01882021"
+isUpdated: true
 ---
+
+
 
 
 

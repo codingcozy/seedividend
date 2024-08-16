@@ -3,12 +3,15 @@ title: "초보 부트스트래퍼를 위한 간단한 기술 스택 추천"
 description: ""
 coverImage: "/assets/img/2024-07-07-ASimpleTechStackforBeginnerBootstrappers_0.png"
 date: 2024-07-07 21:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-ASimpleTechStackforBeginnerBootstrappers_0.png
 tag: Tech
 originalTitle: "A Simple Tech Stack for Beginner Bootstrappers"
 link: "https://medium.com/gitconnected/a-simple-tech-stack-for-beginner-bootstrappers-2f3b9a44c587"
+isUpdated: true
 ---
+
+
 
 최근에 테이블 화면 클립을 CSV 파일로 변환하는 도구를 만들어서 론칭했어요.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Next.js Monorepos: A Comprehensive Guide"
 link: "https://medium.com/@omar.shiriniani/mastering-next-js-monorepos-a-comprehensive-guide-15f59f5ef615"
+isUpdated: true
 ---
+
+
 
 
 웹 개발의 세계에서 Next.js는 서버 측 렌더링 및 정적 생성 웹 애플리케이션을 구축하기 위한 강력하고 다재다능한 프레임워크로 등장했습니다. 프로젝트가 커지면 여러 패키지와 종속성을 관리하는 것이 어려운 작업이 될 수 있습니다. 이때 모노레포가 필요해집니다. 모노레포(“monolithic repository"의 줄임말)는 여러 프로젝트, 라이브러리 및 패키지를 수용하는 단일 저장소입니다. 이 글에서는 Next.js와 함께 모노레포를 사용하는 이점을 살펴보고 설정하는 방법에 대한 단계별 가이드를 제공할 것입니다.

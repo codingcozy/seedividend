@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sparta Coding Club India My Journey in Web Development From APIs to jQuery"
 link: "https://medium.com/@bijayeenihalder/sparta-coding-club-india-my-journey-in-web-development-from-apis-to-jquery-5bfe68a6456c"
+isUpdated: true
 ---
+
+
 
 
 # 1. 새로운 배움

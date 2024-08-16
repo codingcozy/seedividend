@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing SQL Queries for Better Performance"
 link: "https://medium.com/dev-genius/optimizing-sql-queries-for-better-performance-ad9ccefdb0c0"
+isUpdated: true
 ---
+
+
 
 
 SQL 쿼리는 데이터베이스가 효율적이고 빠르게 작동할 수 있도록 하는 데 중요합니다. 이 포스트에서는 우리 시스템에서 수행한 특정 예시를 통해 쿼리 최적화의 장점을 살펴보고 최적화된 쿼리가 얼마나 성능 향상에 도움이 되는지 보여줄 것입니다.

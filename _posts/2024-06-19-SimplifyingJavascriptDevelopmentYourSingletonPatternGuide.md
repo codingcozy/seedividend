@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simplifying Javascript Development: Your Singleton Pattern Guide"
 link: "https://medium.com/bajra-technologies-blog/simplifying-javascript-development-your-singleton-pattern-guide-e58db4334489"
+isUpdated: true
 ---
+
+
 
 
 이제부터 테이블 태그를 Markdown 형식으로 변경할게요: 

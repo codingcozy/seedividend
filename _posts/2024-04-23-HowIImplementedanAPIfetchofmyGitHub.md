@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Implemented an API fetch of my GitHub"
 link: "https://medium.com/dev-genius/how-i-implemented-an-api-fetch-of-my-github-53b2234dfc51"
+isUpdated: true
 ---
+
+
 
 
 

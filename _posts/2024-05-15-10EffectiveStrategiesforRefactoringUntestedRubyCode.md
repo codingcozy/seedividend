@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Effective Strategies for Refactoring Untested Ruby Code"
 link: "https://medium.com/@patrickkarsh/10-effective-strategies-for-refactoring-untested-ruby-code-bb65cea79b1e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-10EffectiveStrategiesforRefactoringUntestedRubyCode_0.png" />

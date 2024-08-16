@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Leveraging Microservices with Node.js"
 link: "https://medium.com/@ashishssoni01/leveraging-microservices-with-node-js-63cf8045db7c"
+isUpdated: true
 ---
+
+
 
 
 ## 궁극적인 확장성과 민첩성의 해제

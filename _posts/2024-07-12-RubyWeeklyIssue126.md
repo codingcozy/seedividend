@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ruby Weekly Issue 126"
 link: "https://medium.com/rubyweekly/ruby-weekly-issue-126-9266638479e0"
+isUpdated: true
 ---
+
+
 
 
 환영합니다. Ruby Weekly의 126번째 이슈에 오신 것을 환영합니다. Ruby 뉴스 및 기사들을 모아놓은 무료 이메일 소식지입니다.

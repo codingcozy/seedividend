@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Basic OOP Concepts Explained in JavaScript"
 link: "https://medium.com/@williamliberos/basic-oop-concepts-explained-in-javascript-c18864c2b9ad"
+isUpdated: true
 ---
+
+
 
 
 # 소개

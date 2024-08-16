@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "K8sGPT + Ollama: A Free Kubernetes Automated Diagnostic Solution"
 link: "https://medium.com/@addozhang/k8sgpt-ollama-a-free-kubernetes-automated-diagnostic-solution-d453b63f112f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-07-K8sGPTOllamaAFreeKubernetesAutomatedDiagnosticSolution_0.png" />

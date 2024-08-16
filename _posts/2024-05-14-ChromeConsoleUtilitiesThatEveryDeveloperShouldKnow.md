@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Chrome Console Utilities That Every Developer Should Know"
 link: "https://medium.com/gitconnected/chrome-console-utilities-that-every-developer-should-know-1e383c0ebadf"
+isUpdated: true
 ---
+
+
 
 
 

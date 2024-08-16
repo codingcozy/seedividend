@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to run your first local LLMs 🚀"
 link: "https://medium.com/gitconnected/how-to-run-your-first-local-llms-a5f56a50876e"
+isUpdated: true
 ---
+
+
 
 
 ![How to run your first local LLMs](/assets/img/2024-07-13-HowtorunyourfirstlocalLLMs_0.png)

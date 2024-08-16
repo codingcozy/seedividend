@@ -3,12 +3,15 @@ title: "Python으로 델타 뉴트럴 트레이딩 전략 백테스트 하는 �
 description: ""
 coverImage: "/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png"
 date: 2024-07-09 14:50
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png
 tag: Tech
 originalTitle: "Backtest a delta-neutral trading strategy in Python"
 link: "https://medium.com/@tng-daryl/backtest-a-delta-neutral-trading-strategy-in-python-602cd85e22e0"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png)
 

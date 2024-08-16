@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "BTC-USD Price Prediction using FB Prophet with Hyperparameter Optimization, Cross-Validation QC , Modified Algo-Trading Strategies"
 link: "https://medium.com/@alexzap922/btc-usd-price-prediction-using-fb-prophet-with-hyperparameter-optimization-cross-validation-qc-7848b41dac30"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png" />

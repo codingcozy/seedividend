@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Closer Look at CSS Fonts and Colors"
 link: "https://medium.com/@rashmipatil24/css-fonts-and-colors-1fbee8e09ae7"
+isUpdated: true
 ---
+
+
 
 
 

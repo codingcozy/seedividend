@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Refactoring in Ruby | Long Parameter List"
 link: "https://medium.com/@kroolar/refactoring-in-ruby-long-parameter-list-001a78264a02"
+isUpdated: true
 ---
+
+
 
 
 긴 매개변수 목록(Long Parameter List)은 작업을 수행하기 위해 많은 수의 매개변수가 필요한 경우 발생합니다. 일반적으로 두 개 이상의 매개변수를 사용하지 않는 것이 좋습니다.

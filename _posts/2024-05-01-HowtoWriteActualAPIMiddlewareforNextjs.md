@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Write Actual API Middleware for Next.js"
 link: "https://medium.com/sopra-steria-norge/how-to-write-actual-api-middleware-for-next-js-2a38355f6674"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-HowtoWriteActualAPIMiddlewareforNextjs_0.png" />

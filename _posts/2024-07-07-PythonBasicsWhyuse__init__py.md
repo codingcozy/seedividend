@@ -3,12 +3,15 @@ title: "Python 기초 __init__py를 사용해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-07-PythonBasicsWhyuse__init__py_0.png"
 date: 2024-07-07 21:47
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-PythonBasicsWhyuse__init__py_0.png
 tag: Tech
 originalTitle: "Python Basics: Why use __init__.py?"
 link: "https://medium.com/@sarangsurve/python-basics-why-use-init-py-c88589e44c91"
+isUpdated: true
 ---
+
+
 
 ![Screenshot](/assets/img/2024-07-07-PythonBasicsWhyuse__init__py_0.png)
 

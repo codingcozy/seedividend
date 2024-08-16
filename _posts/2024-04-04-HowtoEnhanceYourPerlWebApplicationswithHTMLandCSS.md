@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Enhance Your Perl Web Applications with HTML and CSS"
 link: "https://rabmcmenemy.medium.com/how-to-enhance-your-perl-web-applications-with-html-and-css-3c5a58091346"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Server Surveillance: Tracking Online Devices with Socket.io"
 link: "https://medium.com/@neerajx0/mastering-server-surveillance-tracking-online-devices-with-socket-io-a4d10ae9b972"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-MasteringServerSurveillanceTrackingOnlineDeviceswithSocketio_0.png" />

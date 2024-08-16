@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React without Pain: Avoid Re-Renders and Simplify Dependencies"
 link: "https://medium.com/@lahmataja-pa4vara/react-without-pain-avoid-re-renders-and-simplify-dependencies-6f731b75e288"
+isUpdated: true
 ---
+
+
 
 
 

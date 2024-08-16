@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DIY Sugar Lip Scrub for Luscious Lips"
 link: "https://medium.com/@kellyscorner/diy-sugar-lip-scrub-for-luscious-lips-a49cc3e28186"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-16-DIYSugarLipScrubforLusciousLips_0.png)

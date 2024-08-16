@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Advanced Components"
 link: "https://medium.com/@fatih.akpiyal1/angular-advanced-components-33b131bae040"
+isUpdated: true
 ---
+
+
 
 
 

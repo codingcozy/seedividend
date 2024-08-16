@@ -3,12 +3,15 @@ title: "Markdown에서 Angular 컴포넌트 렌더링 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-RenderAngularComponentsinMarkdown_0.png"
 date: 2024-07-07 12:58
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-RenderAngularComponentsinMarkdown_0.png
 tag: Tech
 originalTitle: "Render Angular Components in Markdown"
 link: "https://medium.com/@shhdharmen/render-angular-components-in-markdown-5994ca8b9d08"
+isUpdated: true
 ---
+
+
 
 먼저, `markdown-render` 컴포넌트를 설정하여 .md 파일을 렌더링할 것입니다. 그리고 Angular 컴포넌트를 렌더링하는 방법을 살펴볼 것입니다.
 

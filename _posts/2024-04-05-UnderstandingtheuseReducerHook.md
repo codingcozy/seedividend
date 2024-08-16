@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the useReducer Hook"
 link: "https://medium.com/@venimullai/understanding-the-usereducer-hook-6327bf9f684f"
+isUpdated: true
 ---
+
+
 
 
 

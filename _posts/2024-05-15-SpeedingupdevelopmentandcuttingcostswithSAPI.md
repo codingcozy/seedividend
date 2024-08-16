@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Speeding up development and cutting costs with SAPI"
 link: "https://medium.com/@www.gesf/speeding-up-development-and-cutting-costs-with-sapi-ed058c4ed4b1"
+isUpdated: true
 ---
+
+
 
 
 모바일이나 웹 제품을 개발하거나 이미 보유하고 계신다면, 간단한 API인 SAPI를 사용하여 필요한 자원(인력)의 수를 줄이고 예상보다 빠르게 마감일에 도달할 수 있습니다.

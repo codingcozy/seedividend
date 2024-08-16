@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why React Removed the fetch (you must know this for now to write RSC-fetch)"
 link: "https://medium.com/@codewithmee/why-react-removed-the-fetch-cache-you-must-know-this-for-now-to-write-rsc-fetch-17b4dfb9c006"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-WhyReactRemovedthefetchyoumustknowthisfornowtowriteRSC-fetch_0.png" />

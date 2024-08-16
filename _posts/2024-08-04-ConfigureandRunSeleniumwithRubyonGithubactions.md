@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Configure and Run Selenium with Ruby on Github actions"
 link: "https://medium.com/@pradappandiyan/setting-up-selenium-with-ruby-a-step-by-step-guide-93f8da4518e2"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-04-ConfigureandRunSeleniumwithRubyonGithubactions_0.png" />

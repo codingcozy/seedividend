@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Progressive Web Apps: The Future of Web Development"
 link: "https://medium.com/@kanerika/progressive-web-apps-the-future-of-web-development-8f1e0bf28c7b"
+isUpdated: true
 ---
+
+
 
 
 Progressive Web Apps (PWAs)은 디지턈 랜드스케이프를 변화시키고 있습니다. 웹 및 모바일 앱 기능을 혼합한 형태를 제공합니다. 앱 스토어에는 500만 개 이상(그 수는 계속 늘어나고 있습니다)의 앱이 있지만, PWAs는 저장 공간이 부족하거나 불규칙하게 사용되는 일반적인 제약을 제거하는 색다른 대안을 제공합니다. 네이티브 앱의 속도와 오프라인 기능을 웹 앱의 접근성과 편리함과 결합시킨 것으로, 다운로드가 필요하지 않습니다.

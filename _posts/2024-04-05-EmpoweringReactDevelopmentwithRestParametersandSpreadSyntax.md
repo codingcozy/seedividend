@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Empowering React Development with Rest Parameters and Spread Syntax"
 link: "https://medium.com/@mysteryweevil/empowering-react-development-with-rest-parameters-and-spread-syntax-70f23af0558e"
+isUpdated: true
 ---
+
+
 
 
 

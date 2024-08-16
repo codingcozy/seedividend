@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s new in Flutter Recap — Google I O 2024"
 link: "https://medium.com/flutterforce/whats-new-in-flutter-recap-google-i-o-2024-a4d553919d6b"
+isUpdated: true
 ---
+
+
 
 
 최신 플러터 혁신과 개발 탐험 중

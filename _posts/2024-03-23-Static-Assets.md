@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 13 저장소 public 폴더 사용 방법 "
+title: "Nextjs 13 저장소 public 폴더 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stories for multiple components"
 link: "https://storybook.js.org/docs/writing-stories/stories-for-multiple-components"
+isUpdated: true
 ---
+
+
 
 
 

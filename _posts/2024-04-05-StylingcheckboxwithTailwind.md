@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Styling checkbox with Tailwind"
 link: "https://medium.com/@marek-rozmus/styling-checkbox-with-tailwind-46a92c157e2d"
+isUpdated: true
 ---
+
+
 
 
 

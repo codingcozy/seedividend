@@ -3,12 +3,15 @@ title: "파이썬  데이터 분석 프로젝트 1 15개의 해결된 질문 포
 description: ""
 coverImage: "/assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_0.png"
 date: 2024-07-07 02:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-PythonDataAnalysisProject1With15SolvedQuestions_0.png
 tag: Tech
 originalTitle: "Python — Data Analysis Project 1 … With 15 Solved Questions"
 link: "https://medium.com/@datasciencelovers/this-one-project-earned-me-1100-from-youtube-ads-35667f359d76"
+isUpdated: true
 ---
+
+
 
 ## 날씨 데이터 분석
 

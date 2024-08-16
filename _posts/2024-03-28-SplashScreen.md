@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Splash Screen"
 link: "https://medium.com/@selinguzel05/splash-screen-577936b39d81"
+isUpdated: true
 ---
+
+
 
 
 

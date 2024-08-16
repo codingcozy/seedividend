@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Visual tests"
 link: "https://storybook.js.org/docs/writing-tests/visual-testing"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kubectl Command Cheat Sheet"
 link: "https://medium.com/@kv2023/kubernetes-kubectl-command-cheat-sheet-3f09ddf47cea"
+isUpdated: true
 ---
+
+
 
 
 ![Kubectl Command Cheat Sheet 0](/assets/img/2024-07-14-KubectlCommandCheatSheet_0.png)

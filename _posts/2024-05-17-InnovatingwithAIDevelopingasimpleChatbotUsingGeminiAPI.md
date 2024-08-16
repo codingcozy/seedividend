@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Innovating with AI: Developing a simple Chatbot Using Gemini API"
 link: "https://medium.com/@nencyvpatel3010/innovating-with-ai-developing-a-simple-chatbot-using-gemini-api-4589b531cc3e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-InnovatingwithAIDevelopingasimpleChatbotUsingGeminiAPI_0.png" />

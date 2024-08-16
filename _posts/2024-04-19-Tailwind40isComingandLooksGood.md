@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind 40 is Coming and Looks Good"
 link: "https://medium.com/@kristiyan.velkov/tailwind-4-0-is-coming-and-looks-good-e4bb8d976f3c"
+isUpdated: true
 ---
+
+
 
 
 

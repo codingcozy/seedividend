@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Recent Docker BuildKit Features You’re Missing Out On"
 link: "https://medium.com/gitconnected/recent-docker-buildkit-features-youre-missing-out-on-a25aed8689fe"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-15-RecentDockerBuildKitFeaturesYoureMissingOutOn_0.png)

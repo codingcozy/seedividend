@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SCAAR  Software Design Principles for CSS"
 link: "https://medium.com/gitconnected/scaar-software-design-principles-for-css-d503ab60672c"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Epic Nextjs 14 Tutorial Part 1 Learn Nextjs by building a real-life project"
 link: "https://medium.com/@paul.bratslavsky/epic-next-js-14-tutorial-part-1-learn-next-js-by-building-a-real-life-project-469e547c1780"
+isUpdated: true
 ---
+
+
 
 
 

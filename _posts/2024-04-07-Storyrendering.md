@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Story rendering"
 link: "https://storybook.js.org/docs/configure/story-rendering"
+isUpdated: true
 ---
+
+
 
 
 

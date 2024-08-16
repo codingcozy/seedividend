@@ -3,12 +3,15 @@ title: "간단한 파이썬 포트 스캐너 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Asimplepythonportscanner_0.png"
 date: 2024-07-09 09:14
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Asimplepythonportscanner_0.png
 tag: Tech
 originalTitle: "A simple python port scanner"
 link: "https://medium.com/@alhobabtagiddin/a-simple-python-port-scanner-57f99c154cef"
+isUpdated: true
 ---
+
+
 
 ![포트 스캐너](/assets/img/2024-07-09-Asimplepythonportscanner_0.png)
 

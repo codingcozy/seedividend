@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Code an express middleware to optimize your images"
 link: "https://medium.com/@sina-byn/code-an-express-middleware-to-optimize-your-images-c9225308e4ba"
+isUpdated: true
 ---
+
+
 
 
 

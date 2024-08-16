@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Versatility of JavaScript: From Desktop to Mobile Applications"
 link: "https://medium.com/@semaeryilmaz/exploring-the-versatility-of-javascript-from-desktop-to-mobile-applications-04d925e53039"
+isUpdated: true
 ---
+
+
 
 
 웹 개발에 한정되어 있던 JavaScript가 이제는 브라우저 외의 다양한 응용 프로그램을 구동하는 데 확장되었습니다. 데스크톱 애플리케이션부터 모바일 앱까지, JavaScript는 유연성과 다양한 프레임워크 및 라이브러리 생태계 덕분에 만연한 언어가 되었습니다. 이 글에서는 JavaScript의 응용 분야, 데스크톱 및 모바일 개발을 위한 프레임워크, 그리고 그들을 마스터하기 위한 학습 프로그램에 대해 살펴보겠습니다.

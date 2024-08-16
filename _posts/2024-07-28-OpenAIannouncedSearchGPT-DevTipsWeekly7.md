@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " OpenAI announced SearchGPT- DevTips Weekly 7"
 link: "https://medium.com/@zarinfam/%EF%B8%8F-openai-announced-searchgpt-devtips-weekly-7-1ba7f29ccf41"
+isUpdated: true
 ---
+
+
 
 
 환영합니다! DevTips 주간 뉴스(#7)를 소개합니다! 📰 이번 주에는 최신 기술 속에 당신을 유지할 수 있는 기사와 자료를 선별했습니다.

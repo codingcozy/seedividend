@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "adamant-api v2.4.0 is out. What’s changed since v2.0.0?"
 link: "https://medium.com/adamant-im/adamant-api-v2-4-0-is-out-whats-changed-since-v2-0-0-809360bad3b8"
+isUpdated: true
 ---
+
+
 
 
 adamant-api는 패키지의 가장 큰 업데이트 이후 중요한 개선 사항과 수정 사항을 거쳐 상당한 향상을 이루었습니다. 전체적인 개발자 경험과 버그 수정을 목표로 한 패키지의 최대 업데이트 이후 주요 변경 사항을 살펴봅시다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Conclusion"
 link: "https://medium.com/@chengmengly2/unlocking-hidden-gems-5-essential-html-tags-to-enhance-your-web-development-skills-90ce66420679"
+isUpdated: true
 ---
+
+
 
 
 ## 숨겨진 보석 찾기: 웹 개발 기술 향상을 위한 필수 HTML 태그 5가지

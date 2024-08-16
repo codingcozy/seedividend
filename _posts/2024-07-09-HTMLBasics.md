@@ -3,12 +3,15 @@ title: "HTML 기본 개념 정리 및 시작 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-HTMLBasics_0.png"
 date: 2024-07-09 08:57
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HTMLBasics_0.png
 tag: Tech
 originalTitle: "HTML Basics"
 link: "https://medium.com/@damon.ryon/html-basics-890e8d414b23"
+isUpdated: true
 ---
+
+
 
 코딩에 관심이 있는 경우 HTML을 배우는 것은 좋은 시작점입니다. HTML은 태그로 이루어진 간단한 언어이지만 특정한 방식으로 구조화되어야 합니다.
 

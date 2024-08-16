@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "structuredClone(): The Easiest Way to Deep Clone Objects in JavaScript"
 link: "https://medium.com/javascript-in-plain-english/structuredclone-the-easiest-way-to-deep-clone-objects-in-javascript-c503b536266b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_0.png" />

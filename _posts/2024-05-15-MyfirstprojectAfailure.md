@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My first project, A failure"
 link: "https://medium.com/@EladyDev/my-first-project-a-failure-9a8109d5b880"
+isUpdated: true
 ---
+
+
 
 
 

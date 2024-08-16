@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using wildcard subdomains as paths on Next.js"
 link: "https://medium.com/@jfbaraky/using-subdomains-as-paths-on-next-js-e5aab5c28c28"
+isUpdated: true
 ---
+
+
 
 
 가끔씩 App Masters에서는 각 가능한 서브도메인마다 다른 주제(또는 데이터)를 가진 프로젝트를 작업해야 합니다.

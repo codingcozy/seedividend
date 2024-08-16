@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Router to pass data between pages"
 link: "https://medium.com/@codingscenes/react-router-to-pass-data-between-pages-6ee22fdf2dfa"
+isUpdated: true
 ---
+
+
 
 
 

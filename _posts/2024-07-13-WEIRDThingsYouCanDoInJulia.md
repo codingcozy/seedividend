@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "WEIRD Things You Can Do In Julia"
 link: "https://medium.com/chifi-media/weird-things-you-can-do-in-julia-3f10cacb8ef4"
+isUpdated: true
 ---
+
+
 
 
 # Julia은 이상하다

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Protected Routing with NextAuth v5"
 link: "https://medium.com/@supunawa/implementing-protected-routing-with-nextauth-v5-ef76c7adcbca"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-ImplementingProtectedRoutingwithNextAuthv5_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Layout Magic The Essential Guide to Flexbox and CSS Grid for UI Designers"
 link: "https://medium.com/@harshvardhanonweb/mastering-layout-magic-the-essential-guide-to-flexbox-and-css-grid-for-ui-designers-4c37907b1182"
+isUpdated: true
 ---
+
+
 
 
 

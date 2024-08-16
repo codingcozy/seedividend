@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unveiling the Magic of Labelled Statements in Swift"
 link: "https://medium.com/@navinsamuel26/unveiling-the-magic-of-labelled-statements-in-swift-a4adc8873331"
+isUpdated: true
 ---
+
+
 
 
 라벨 지정문은 다른 Swift 기능들만큼 화려하지는 않지만, 코드 가독성과 흐름 제어를 크게 향상시킬 수 있는 독특한 유연성을 지니고 있어요.

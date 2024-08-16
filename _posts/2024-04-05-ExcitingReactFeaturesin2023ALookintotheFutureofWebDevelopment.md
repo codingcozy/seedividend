@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exciting React Features in 2023 A Look into the Future of Web Development"
 link: "https://medium.com/better-programming/exciting-react-features-in-2023-a-look-into-the-future-of-web-development-440107a3129d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Build a Home Screen Widget for iOS and Android in React Native"
 link: "https://sanjanahumanintech.medium.com/how-to-build-a-home-screen-widget-for-ios-and-android-in-react-native-227c6d95ff5f"
+isUpdated: true
 ---
+
+
 
 
 

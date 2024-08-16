@@ -3,12 +3,15 @@ title: "CSS 기초, Flexbox, Transforms, 애니메이션 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_0.png"
 date: 2024-07-06 10:09
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_0.png
 tag: Tech
 originalTitle: "Introduction to CSS Fundamentals, Flexbox, Transforms, and Animations"
 link: "https://medium.com/@ahmadirfankhan/introduction-to-css-fundamentals-flexbox-transforms-and-animations-7fd02f478354"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-IntroductiontoCSSFundamentalsFlexboxTransformsandAnimations_0.png
 

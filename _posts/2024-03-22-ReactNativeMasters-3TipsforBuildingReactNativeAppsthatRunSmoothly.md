@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native Masters-3 Tips for Building React Native Apps that Run Smoothly"
 link: "https://blog.stackademic.com/react-native-masters-tips-for-building-react-native-apps-that-run-smoothly-ec41c749e54b"
+isUpdated: true
 ---
+
+
 
 
 

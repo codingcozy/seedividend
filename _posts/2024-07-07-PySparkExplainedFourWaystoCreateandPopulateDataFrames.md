@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "PySpark Explained: Four Ways to Create and Populate DataFrames"
 link: "https://medium.com/towards-data-science/pyspark-explained-four-ways-to-create-and-populate-dataframes-31f3e4322ad9"
+isUpdated: true
 ---
+
+
 
 
 파이스파크를 사용할 때 특히 SQL에 백그라운드를 가지고 있다면, 처리할 데이터를 데이터프레임으로 가져오는 것이 처음으로 해야 할 일 중 하나일 것입니다. 데이터가 데이터프레임에 들어있으면, 데이터프레임에서 임시 뷰(또는 영구 테이블)를 쉽게 생성할 수 있습니다. 그 순간부터, PySpark SQL의 다양한 연산 명령이 데이터를 더 탐색하고 처리할 수 있도록 사용 가능해집니다.

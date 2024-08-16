@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Do You Read Excel Files with Python? There is a 1000x Faster Way"
 link: "https://medium.com/python-in-plain-english/do-you-read-excel-files-with-python-there-is-a-1000x-faster-way-72a15964d30a"
+isUpdated: true
 ---
+
+
 
 
 ## 전문 기술로 번개처럼 빠른 데이터 처리 능력을 발휘하세요

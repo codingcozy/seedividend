@@ -3,12 +3,15 @@ title: "일상적인 프로덕션 프로젝트에서 사용하는 파이썬 도�
 description: ""
 coverImage: "/assets/img/2024-07-09-PythonThingsIUseInDayToDayProductionProjectsPartI_0.png"
 date: 2024-07-09 20:45
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PythonThingsIUseInDayToDayProductionProjectsPartI_0.png
 tag: Tech
 originalTitle: "Python Things I Use In Day To Day Production Projects — Part I"
 link: "https://medium.com/python-in-plain-english/python-things-i-use-in-day-to-day-production-projects-part-i-68b80c7c9962"
+isUpdated: true
 ---
+
+
 
 ![Python Project](/assets/img/2024-07-09-PythonThingsIUseInDayToDayProductionProjectsPartI_0.png)
 

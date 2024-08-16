@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding and Optimizing the Default Behavior of JPA with ENUMS"
 link: "https://medium.com/@ykods/understanding-and-optimizing-the-default-behavior-of-jpa-with-enums-ca7e1b1279c3"
+isUpdated: true
 ---
+
+
 
 
 ## JPA에서 효율적인 ENUM 매핑 전략

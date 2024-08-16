@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Conf 2024. React v19 RC"
 link: "https://medium.com/@vordgi/react-conf-2024-76aabd9da1e1"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-16-ReactConf2024Reactv19RC_0.png" />

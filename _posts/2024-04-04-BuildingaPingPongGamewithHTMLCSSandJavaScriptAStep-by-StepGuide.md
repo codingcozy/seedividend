@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Ping Pong Game with HTML, CSS, and JavaScript A Step-by-Step Guide"
 link: "https://medium.com/web-3-digitals/building-a-ping-pong-game-with-html-css-and-javascript-a-step-by-step-guide-91f607eb0a10"
+isUpdated: true
 ---
+
+
 
 
 

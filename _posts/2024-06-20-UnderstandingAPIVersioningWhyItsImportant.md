@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding API Versioning: Why It’s Important"
 link: "https://medium.com/web-tech-journals/understanding-api-versioning-why-its-important-9ed7e924000b"
+isUpdated: true
 ---
+
+
 
 
 API(응용 프로그램 프로그래밍 인터페이스)는 현대 소프트웨어 개발의 중추로, 다른 시스템이 통신하고 데이터를 교환할 수 있게 합니다.

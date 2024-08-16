@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Great Migration from MongoDB to PostgreSQL"
 link: "https://medium.com/@tony.infisical/the-great-migration-from-mongodb-to-postgresql-fa3978bc143b"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-22-TheGreatMigrationfromMongoDBtoPostgreSQL_0.png)

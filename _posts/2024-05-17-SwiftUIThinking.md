@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SwiftUI Thinking"
 link: "https://medium.com/innovance-company-blog/swiftui-thinking-69a7f2d74d79"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-SwiftUIThinking_0.png" />

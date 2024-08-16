@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Custom Dates Range Picker in Angular"
 link: "https://medium.com/stackademic/creating-a-custom-dates-range-picker-in-angular-874af7baf2ab"
+isUpdated: true
 ---
+
+
 
 
 이 글은 Angular에서 구성 요소로써 처음부터 날짜 범위 선택기를 만드는 방법을 설명하는 것을 목표로 하고 있습니다. 이것은 제 첫 번째 글의 두 번째 버전으로 여기에서 찾을 수 있습니다: [Medium 링크](https://medium.com/stackademic/creating-a-custom-date-time-picker-in-angular-5f00591d641c). 또한, 다음 글에서 작성할 사용자 정의 구성 요소의 장점을 잊지 않으세요.

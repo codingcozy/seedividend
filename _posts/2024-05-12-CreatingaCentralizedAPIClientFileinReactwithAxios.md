@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Centralized API Client File in React with Axios"
 link: "https://medium.com/@shruti.latthe/creating-a-centralized-api-client-file-in-react-with-axios-5e69dc27fdb1"
+isUpdated: true
 ---
+
+
 
 
 리액트 애플리케이션을 구축할 때 API와 상호 작용하는 경우, API 호출을 처리하는 깔끔하고 조직화된 방식을 유지하는 것이 중요합니다. 이를 달성하는 효과적인 방법 중 하나는 중앙 집중식 API 클라이언트 파일을 생성하는 것입니다. 이 튜토리얼에서는 Axios를 사용하여 이러한 파일을 구조화하는 방법을 살펴보겠습니다.

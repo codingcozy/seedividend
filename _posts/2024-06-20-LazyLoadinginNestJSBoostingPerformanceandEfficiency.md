@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lazy Loading in NestJS: Boosting Performance and Efficiency"
 link: "https://medium.com/@Abdelrahman_Rezk/lazy-loading-in-nestjs-boosting-performance-and-efficiency-2c6350a6ab84"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-LazyLoadinginNestJSBoostingPerformanceandEfficiency_0.png" />

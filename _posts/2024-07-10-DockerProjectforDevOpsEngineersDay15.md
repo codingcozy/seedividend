@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker Project for DevOps Engineers (Day15)"
 link: "https://medium.com/@araizbinsaqib/docker-project-for-devops-engineers-day15-0579adfcd495"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-DockerProjectforDevOpsEngineersDay15_0.png)

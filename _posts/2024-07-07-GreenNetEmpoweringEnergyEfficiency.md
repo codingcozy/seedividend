@@ -3,12 +3,15 @@ title: "GreenNet 에너지 효율성을 높이는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-GreenNetEmpoweringEnergyEfficiency_0.png"
 date: 2024-07-07 02:28
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-GreenNetEmpoweringEnergyEfficiency_0.png
 tag: Tech
 originalTitle: "GreenNet: Empowering Energy Efficiency"
 link: "https://medium.com/@x17-green/greennet-4287c9a49fc7"
+isUpdated: true
 ---
+
+
 
 # 소개
 

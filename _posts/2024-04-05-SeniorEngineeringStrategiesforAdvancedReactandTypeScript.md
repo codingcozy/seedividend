@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Senior Engineering Strategies for Advanced React and TypeScript"
 link: "https://medium.com/@techmade/senior-engineering-strategies-for-advanced-react-and-typescript-9d7aa8a07fd8"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Callbacks vs Promises vs Async Await Detailed Comparison"
 link: "https://medium.com/womenintechnology/callbacks-vs-promises-vs-async-await-detailed-comparison-d1f6ae7c778a"
+isUpdated: true
 ---
+
+
 
 
 

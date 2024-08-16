@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native | Create easy to use Modal Manager"
 link: "https://medium.com/@davidecarizzoni/react-native-create-easy-to-use-modal-manager-f5cb41020dbd"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-ReactNativeCreateeasytouseModalManager_0.png" />

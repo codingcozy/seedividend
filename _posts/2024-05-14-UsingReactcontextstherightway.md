@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using React contexts the right way"
 link: "https://medium.com/@meric.emmanuel/using-react-contexts-the-right-way-10e14e10257f"
+isUpdated: true
 ---
+
+
 
 
 리액트 컨텍스트는 리액트의 가장 강력하면서도 가장 오해를 많이 받는 기능 중 하나입니다. 많은 사람들이 useContext를 호출하거나 컴포넌트 내에서 직접 컨텍스트 제공자를 생성하는데, 이러한 방식은 코드베이스가 발전함에 따라 변경사항을 만들거나 파생 상태를 계산하기가 쉽지 않습니다.

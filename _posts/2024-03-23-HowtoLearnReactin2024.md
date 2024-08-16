@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Learn React in 2024"
 link: "https://reedbarger.medium.com/how-to-learn-react-in-2024-12eed74c9a40"
+isUpdated: true
 ---
+
+
 
 
 

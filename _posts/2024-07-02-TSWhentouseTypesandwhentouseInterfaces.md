@@ -3,12 +3,15 @@ title: "TS Types와 Interfaces를 사용하는 방법 및 시기"
 description: ""
 coverImage: "/assets/img/2024-07-02-TSWhentouseTypesandwhentouseInterfaces_0.png"
 date: 2024-07-02 21:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-TSWhentouseTypesandwhentouseInterfaces_0.png
 tag: Tech
 originalTitle: "TS: When to use Types and when to use Interfaces"
 link: "https://medium.com/@a.kago1988/ts-when-to-use-types-and-when-to-use-interfaces-561e8cab2166"
+isUpdated: true
 ---
+
+
 
 TypeScript를 처음 접했을 때 인터페이스와 타입이 서로 교환 가능해 보일 수 있습니다, 특히 객체 모양을 설명할 때입니다. 실제로 TPerson 및 IPerson을 모두 가져오는 코드를 볼 수 있는데, 이는 둘 다 클래스 또는 객체 구조를 정의할 수 있다는 것을 시사합니다. 이 명백한 유사성은 각각을 사용해야 할 때에 대한 혼란을 야기할 수 있습니다.
 

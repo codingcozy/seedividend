@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create Login Form Validation Using JavaScript"
 link: "https://medium.com/@cwrworksite/create-login-form-validation-using-javascript-9d2295388f16"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "These creatures are often deeply rooted in the folklore and mythology of their respective cultures, representing various aspects of their beliefs, fears, and environment."
 link: "https://medium.com/@saqlainromeo486/do-you-believe-in-mythical-creatures-or-folklore-460cd68b835d"
+isUpdated: true
 ---
+
+
 
 
 ## 신화적인 존재나 전설적인 이야기를 믿으시나요?

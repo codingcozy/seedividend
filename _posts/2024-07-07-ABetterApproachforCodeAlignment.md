@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Better Approach for Code Alignment"
 link: "https://medium.com/@gayanper/a-better-approach-for-code-alignment-611b520ff37e"
+isUpdated: true
 ---
+
+
 
 
 코드 정렬이라는 용어는 여러분들에게 여러 의미를 갖을 수 있습니다. 본 이야기의 의미는 견고한 소프트웨어 실행을 위해 필요한 권장 사항을 준수하는지 확인하는 것입니다.

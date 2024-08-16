@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering React Context with TypeScript: A Comprehensive Tutorial"
 link: "https://medium.com/@nitinjha5121/mastering-react-context-with-typescript-a-comprehensive-tutorial-5bab5ef48a3b"
+isUpdated: true
 ---
+
+
 
 
 친절한 톤으로 한국어로 번역하면 다음과 같습니다.

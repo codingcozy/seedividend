@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Interpretable kNN (ikNN)"
 link: "https://medium.com/towards-data-science/interpretable-knn-iknn-33d38402b8fc"
+isUpdated: true
 ---
+
+
 
 
 ## 해석 가능한 분류기

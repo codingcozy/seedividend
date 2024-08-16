@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Design Principles in Python Django"
 link: "https://medium.com/django-unleashed/design-principles-in-python-django-3011d6cee547"
+isUpdated: true
 ---
+
+
 
 
 파이썬에서의 디자인 원칙은 다른 프로그래밍 언어와 마찬가지로 깔끔하고 유지보수가 용이하며 효율적인 코드를 만드는 데 도움이 됩니다. 다음은 몇 가지 주요 디자인 원칙과 예시입니다:

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Many Pokémon Fit?"
 link: "https://medium.com/towards-data-science/how-many-pok%C3%A9mon-fit-84f812c0387e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-19-HowManyPokmonFit_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Little-Used but Powerful Feature in Spring"
 link: "https://medium.com/programming-and-ai-research/a-little-used-but-powerful-feature-in-spring-5688d49557b2"
+isUpdated: true
 ---
+
+
 
 
 환경: Spring 6.1.2

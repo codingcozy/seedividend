@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Browser Begins Support for Popover API: A Quick Guide"
 link: "https://medium.com/javascript-in-plain-english/browser-begins-support-for-popover-api-a-quick-guide-c02db5f5d312"
+isUpdated: true
 ---
+
+
 
 
 ## 새로운 팝오버 API로 웹 개발을 간소화하세요

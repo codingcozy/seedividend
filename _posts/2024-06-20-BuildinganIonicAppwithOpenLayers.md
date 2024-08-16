@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Ionic App with OpenLayers"
 link: "https://medium.com/@vishaldarekar/building-an-ionic-app-with-openlayers-4f4649daea99"
+isUpdated: true
 ---
+
+
 
 
 요즘 애플리케이션에서 대화식 및 동적 지도가 점점 필요해지면, OpenLayers와 같은 강력한 지도 라이브러리를 모바일 애플리케이션에 통합하는 것이 중요합니다. 이 튜토리얼에서는 Angular의 독립 구성 요소 기능을 활용하여 OpenLayers를 사용하는 Ionic 앱을 생성하는 과정을 안내합니다.

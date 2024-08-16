@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Durandal vs. Angular"
 link: "https://medium.com/gitconnected/durandal-vs-angular-677cb4d14045"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Measure and Audit Bot Traffic by HTTP Request Logs"
 link: "https://medium.com/gitconnected/how-to-measure-and-audit-bot-traffic-by-http-request-logs-97068beaca12"
+isUpdated: true
 ---
+
+
 
 
 현재 인터넷 트래픽의 약 30%는 봇, 스파이더 및 크롤러에 의해 생성됩니다. 이들은 다양한 목적으로 웹을 스캔하는 자동화 프로그램입니다.

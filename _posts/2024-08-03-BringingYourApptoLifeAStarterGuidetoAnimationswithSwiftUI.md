@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bringing Your App to Life A Starter Guide to Animations with SwiftUI"
 link: "https://medium.com/@luiscalvillo/bringing-your-app-to-life-a-starter-guide-to-animations-with-swiftui-9876ffa9f071"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-03-BringingYourApptoLifeAStarterGuidetoAnimationswithSwiftUI_0.png" />

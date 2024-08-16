@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Hidden Power of Custom States For Web Components"
 link: "https://medium.com/itnext/the-hidden-power-of-custom-states-for-web-components-dcae5b048e20"
+isUpdated: true
 ---
+
+
 
 
 사용자 정의 요소의 진화 과정에서 중요한 단계

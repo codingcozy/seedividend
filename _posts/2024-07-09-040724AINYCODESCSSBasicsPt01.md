@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "040724 AINYCODES ~ CSS Basics Pt. 01"
 link: "https://medium.com/@wastblog/css-basics-pt-01-040724-ainycodes-fc983b2c928f"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 오늘은 FreeCodeCamp의 반응형 웹 디자인 인증을 위한 설문 조사 양식 프로젝트에 참여했어요. CSS가 제공하는 다양한 옵션에 깜짝 놀랐어요! 마치 쇼핑몰에 가서 보는 옷마다 사고 싶은 기분이에요.

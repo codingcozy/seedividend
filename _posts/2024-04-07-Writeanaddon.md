@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Write an addon"
 link: "https://storybook.js.org/docs/addons/writing-addons"
+isUpdated: true
 ---
+
+
 
 
 

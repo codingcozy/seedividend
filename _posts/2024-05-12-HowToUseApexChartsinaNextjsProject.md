@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Use ApexCharts in a Next.js Project"
 link: "https://medium.com/@farrel.abyansyah/how-to-use-apexcharts-in-a-next-js-project-96e413bc9b31"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-HowToUseApexChartsinaNextjsProject_0.png)

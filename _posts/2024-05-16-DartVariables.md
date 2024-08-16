@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dart Variables"
 link: "https://medium.com/@dhananjaya08fdo/dart-variables-240ff8b742a6"
+isUpdated: true
 ---
+
+
 
 
 다트(Dart)에서 변수는 가변성, 유형 및 범위에 따라 여러 범주로 나눌 수 있습니다. 다음은 다트의 주요 변수 유형입니다.

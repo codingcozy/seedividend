@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with Leaflet.js and React: Rendering a Simple Map"
 link: "https://medium.com/@timndichu/getting-started-with-leaflet-js-and-react-rendering-a-simple-map-ef9ee0498202"
+isUpdated: true
 ---
+
+
 
 
 ![Leaflet.js와 React를 사용하여 간단한 지도 렌더링 시작하기](/assets/img/2024-05-12-GettingStartedwithLeafletjsandReactRenderingaSimpleMap_0.png)

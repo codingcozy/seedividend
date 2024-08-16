@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Expo in 2024 Give it One More Try"
 link: "https://medium.com/@rolique/expo-in-2024-give-it-one-more-try-1c70dee4391b"
+isUpdated: true
 ---
+
+
 
 
 

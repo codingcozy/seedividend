@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Whats New in React 19"
 link: "https://medium.com/@codedthemes/whats-new-in-react-19-381bba4e6e08"
+isUpdated: true
 ---
+
+
 
 
 

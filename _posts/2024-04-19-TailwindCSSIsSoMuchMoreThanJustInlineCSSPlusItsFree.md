@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind CSS Is So Much More Than Just Inline CSS Plus, Its Free"
 link: "https://medium.com/dare-to-be-better/tailwind-css-is-so-much-more-than-just-inline-css-plus-its-free-cd70d8347d2c"
+isUpdated: true
 ---
+
+
 
 
 

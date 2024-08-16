@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setting Up a React Project Folder Structure in 2024 Best Practices"
 link: "https://medium.com/@megha.kumari_63653/setting-up-a-react-project-folder-structure-in-2024-best-practices-93c27a49bbfe"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "2024년 최신 HTML과 CSS 업데이트 새로운 기능과 변화"
 description: ""
 coverImage: "/assets/img/2024-07-09-AfreshHTMLandCSSrefresh_0.png"
 date: 2024-07-09 13:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-AfreshHTMLandCSSrefresh_0.png
 tag: Tech
 originalTitle: "A fresh HTML and CSS refresh"
 link: "https://medium.com/gitconnected/a-fresh-html-and-css-refresh-d9008d012cb5"
+isUpdated: true
 ---
+
+
 
 네, 다음과 같이 Markdown 형식으로 table 태그를 변경할 수 있습니다:
 

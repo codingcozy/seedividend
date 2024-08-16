@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Containerizing a Two-Tier Application with Docker, Docker Compose, and Docker Scout"
 link: "https://medium.com/@bhavesh_jadhav/containerizing-a-two-tier-application-with-docker-docker-compose-and-docker-scout-a60c2e41d96b"
+isUpdated: true
 ---
+
+
 
 
 요즘 빠르게 변화하는 기술 분야에서 컨테이너화는 애플리케이션을 배포하고 관리하는 중추적인 요소로 자리잡았어요. Docker, Docker Compose, Docker Scout와 같은 도구들을 활용하면 프로세스를 혁신적으로 간소화하여 확장성, 보안, 효율성을 확보할 수 있어요. 이번 포스팅에서는 최근 진행한 프로젝트를 통해 이야기를 나눠보려고 해요. 이 프로젝트에서는 두 계층 애플리케이션을 컨테이너화하고 Docker Compose를 통해 조정, Docker Scout로 보안을 강화하는 과정을 소개할게요.

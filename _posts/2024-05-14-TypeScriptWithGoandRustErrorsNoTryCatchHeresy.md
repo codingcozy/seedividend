@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TypeScript With Go and Rust Errors? No Try Catch? Heresy"
 link: "https://medium.com/better-programming/typescript-with-go-rust-errors-no-try-catch-heresy-da0e43ce5f78"
+isUpdated: true
 ---
+
+
 
 
 ![2024-05-14-TypeScriptWithGoandRustErrorsNoTryCatchHeresy_0.png](/assets/img/2024-05-14-TypeScriptWithGoandRustErrorsNoTryCatchHeresy_0.png)

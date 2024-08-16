@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter bloc for beginners"
 link: "https://medium.com/flutter-community/flutter-bloc-for-beginners-839e22adb9f5"
+isUpdated: true
 ---
+
+
 
 
 

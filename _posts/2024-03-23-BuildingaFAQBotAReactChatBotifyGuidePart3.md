@@ -1,5 +1,5 @@
 ---
-title: "자주 묻는 질문 봇 만들기 React 챗봇 가이드 파트 3"
+title: "React로 챗봇 만들기 - 파트 3"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a FAQ Bot A React ChatBotify Guide Part 3"
 link: "https://tjtanjin.medium.com/building-a-faq-bot-a-react-chatbotify-guide-part-3-7ce13d09933e"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Integrate External JWT with Next auth Credential Provider"
 link: "https://medium.com/javascript-in-plain-english/seamless-authentication-and-authorization-in-nextjs-leveraging-external-jwts-in-next-auth-1af1ef8fd7d8"
+isUpdated: true
 ---
+
+
 
 
 

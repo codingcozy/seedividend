@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Do you think Threat Intelligence is “cool”?"
 link: "https://medium.com/@corneacristian/do-you-think-threat-intelligence-is-cool-98c51edc0118"
+isUpdated: true
 ---
+
+
 
 
 

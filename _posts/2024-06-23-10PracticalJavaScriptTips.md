@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Practical JavaScript Tips"
 link: "https://medium.com/@aifou/10-practical-javascript-tips-ea208f5f7d57"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-10PracticalJavaScriptTips_0.png" />

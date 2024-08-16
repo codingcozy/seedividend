@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Convert HTML To PDF Using jQuery"
 link: "https://medium.com/@techsolutionstuff/how-to-convert-html-to-pdf-using-jquery-89b01ec1a100"
+isUpdated: true
 ---
+
+
 
 
 본 글에서는 jquery를 사용하여 HTML을 PDF로 변환하는 방법을 살펴보겠습니다. PDF 파일 형식은 웹 응용 프로그램에서 대량 데이터를 다운로드하는 데 유용합니다. PDF 기능으로 오프라인으로 사용하기 위해 동적 콘텐츠를 파일 형식으로 다운로드할 수 있습니다.

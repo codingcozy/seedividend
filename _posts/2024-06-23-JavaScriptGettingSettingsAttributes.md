@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript — Getting , Settings Attributes"
 link: "https://medium.com/@geraldclarkaudio/javascript-getting-settings-attributes-4e8c6e8164bb"
+isUpdated: true
 ---
+
+
 
 
 지난 기사에서는 요소나 요소들의 내부 텍스트와 내부 HTML을 변경하는 방법을 다뤘어요. 이 기사에서는 해당 요소들의 속성을 가져오고 설정하는 방법에 대해 다룰 거에요.

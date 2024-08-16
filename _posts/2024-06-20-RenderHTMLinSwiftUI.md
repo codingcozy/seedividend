@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Render HTML in SwiftUI"
 link: "https://medium.com/@thomsmed/rendering-html-in-swiftui-65e883a63571"
+isUpdated: true
 ---
+
+
 
 
 ## NSAttributedString, UITextView 및 UIViewRepresentable를 사용하여 SwiftUI에서 HTML 렌더링하기.

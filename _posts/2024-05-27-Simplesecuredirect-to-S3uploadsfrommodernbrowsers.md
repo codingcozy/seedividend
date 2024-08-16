@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple , secure direct-to-S3 uploads from modern browsers"
 link: "https://medium.com/@taylorhughes/simple-secure-direct-to-s3-uploads-from-modern-browsers-f42695e596ba"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요, 제 이름은 Taylor Hughes입니다. 소프트웨어 엔지니어입니다. 저는 페이스북, 구글, 클럽하우스 및 중간의 여러 스타트업에서 앱을 출시하고 팀을 구축했습니다.

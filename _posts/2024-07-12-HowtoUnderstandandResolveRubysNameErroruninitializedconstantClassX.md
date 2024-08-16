@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Understand and Resolve Ruby’s `NameError: uninitialized constant ClassX`"
 link: "https://medium.com/@kasata/how-to-understand-and-resolve-rubys-nameerror-uninitialized-constant-classx-5a04afdeda62"
+isUpdated: true
 ---
+
+
 
 
 루비 프로그래밍 중에 `NameError: uninitialized constant ClassX`라는 오류 메시지를 만날 수도 있습니다. 이 오류는 루비가 참조하려는 상수를 찾을 수 없을 때 발생하는데, 특히 클래스와 모듈 이름에서 흔히 발생합니다. 이 글에서는 이 오류가 발생하는 원인과 효과적으로 해결하는 방법에 대해 자세히 살펴보겠습니다.

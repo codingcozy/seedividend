@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My ULTIMATE CSS Cheat Sheet from Beginner to Pro"
 link: "https://medium.com/gitconnected/my-ultimate-css-cheat-sheet-from-beginner-to-pro-8db154476747"
+isUpdated: true
 ---
+
+
 
 
 ## 개발자가 알아야 할 100가지 CSS 속성

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "ETF Analysis with Python and Streamlit"
 link: "https://medium.com/python-in-plain-english/etf-analysis-with-python-and-streamlit-99bf9cffcc3b"
+isUpdated: true
 ---
+
+
 
 
 이전에 주식과 비슷한 도전 과제를 함께 해봤죠. 그럼 다른 주식을 포함하는 "주식"은 어떨까요? 함께 살펴봅시다.

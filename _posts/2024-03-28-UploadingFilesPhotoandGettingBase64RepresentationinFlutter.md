@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Uploading Files, Photo and Getting Base64 Representation in Flutter"
 link: "https://medium.com/@emdiya/uploading-files-photo-and-getting-base64-representation-in-flutter-999af1839835"
+isUpdated: true
 ---
+
+
 
 
 

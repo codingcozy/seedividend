@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The carcinization of web frameworks"
 link: "https://medium.com/@toddledev/the-carcinization-of-web-frameworks-21f37acb268a"
+isUpdated: true
 ---
+
+
 
 
 프레임워크는 수렴 중입니까? 웹 개발 세계에서 발생하는 근본소생현상을 살펴보고, 과거를 향해 미래를 엿볼 수 있을까요?

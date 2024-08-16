@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Interaction tests"
 link: "https://storybook.js.org/docs/writing-tests/interaction-testing"
+isUpdated: true
 ---
+
+
 
 
 

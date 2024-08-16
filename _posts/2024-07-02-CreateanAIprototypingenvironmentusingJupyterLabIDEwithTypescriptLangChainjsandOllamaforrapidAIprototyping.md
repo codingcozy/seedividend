@@ -3,12 +3,15 @@ title: "Jupyter Lab IDE에서 Typescript, LangChainjs, Ollama를 사용하여 AI
 description: ""
 coverImage: "/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png"
 date: 2024-07-02 21:45
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png
 tag: Tech
 originalTitle: "Create an AI prototyping environment using Jupyter Lab IDE with Typescript, LangChain.js and Ollama for rapid AI prototyping"
 link: "https://medium.com/itnext/create-an-ai-prototyping-environment-using-jupyter-lab-ide-with-typescript-langchain-js-7b395dae3f09"
+isUpdated: true
 ---
+
+
 
 ## TypeScript 개발자를 위한 단계별 안내서
 

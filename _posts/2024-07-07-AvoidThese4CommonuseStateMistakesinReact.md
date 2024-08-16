@@ -3,12 +3,15 @@ title: "반드시 피해야 할 React useState의 일반적인 실수 4가지"
 description: ""
 coverImage: "/assets/img/2024-07-07-AvoidThese4CommonuseStateMistakesinReact_0.png"
 date: 2024-07-07 02:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-AvoidThese4CommonuseStateMistakesinReact_0.png
 tag: Tech
 originalTitle: "Avoid These 4 Common useState Mistakes in React"
 link: "https://medium.com/@yadavvshall/avoid-these-4-common-usestate-mistakes-in-react-679fcc29b105"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-AvoidThese4CommonuseStateMistakesinReact_0.png" />
 

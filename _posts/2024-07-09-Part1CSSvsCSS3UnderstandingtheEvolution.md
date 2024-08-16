@@ -3,12 +3,15 @@ title: "Part 1 CSS와 CSS3의 차이점 진화를 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-09-Part1CSSvsCSS3UnderstandingtheEvolution_0.png"
 date: 2024-07-09 08:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Part1CSSvsCSS3UnderstandingtheEvolution_0.png
 tag: Tech
 originalTitle: "Part 1: CSS vs CSS3: Understanding the Evolution"
 link: "https://medium.com/@vaaluvishnu5146/part-1-css-vs-css3-understanding-the-evolution-d0d51f21b2fc"
+isUpdated: true
 ---
+
+
 
 CSS (Cascading Style Sheets)은 웹 페이지 레이아웃을 스타일링하고 형식을 지정하는 데 사용되는 중요한 기술입니다.
 

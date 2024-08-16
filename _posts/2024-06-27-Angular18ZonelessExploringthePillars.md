@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular 18 Zoneless: Exploring the Pillars"
 link: "https://medium.com/gitconnected/angular-18-zoneless-0c8b1e9aa4bc"
+isUpdated: true
 ---
+
+
 
 
 

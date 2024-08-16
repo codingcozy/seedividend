@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering React Query From Installation to Advanced Features"
 link: "https://medium.com/stackademic/mastering-react-query-from-installation-to-advanced-features-8f419d22ba86"
+isUpdated: true
 ---
+
+
 
 
 

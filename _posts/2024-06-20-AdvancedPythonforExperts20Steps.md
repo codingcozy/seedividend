@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Python for Experts (20 Steps)"
 link: "https://medium.com/tech-talk-with-chatgpt/advanced-python-for-experts-20-steps-eb5039032467"
+isUpdated: true
 ---
+
+
 
 
 

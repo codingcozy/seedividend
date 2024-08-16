@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Event Handling in Angular: Exploring HostListener and HostBinding"
 link: "https://medium.com/@mariodante/event-handling-in-angular-exploring-hostlistener-and-hostbinding-4a533c3815a4"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-EventHandlinginAngularExploringHostListenerandHostBinding_0.png" />

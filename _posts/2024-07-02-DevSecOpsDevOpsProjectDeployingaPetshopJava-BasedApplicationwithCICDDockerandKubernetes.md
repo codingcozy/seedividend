@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DevSecOps (DevOps) Project: Deploying a Petshop Java-Based Application with CI CD, Docker, and Kubernetes"
 link: "https://medium.com/@21harsh12/devsecops-devops-project-deploying-a-petshop-java-based-application-with-ci-cd-docker-and-e737d3a5501b"
+isUpdated: true
 ---
+
+
 
 
 ![Blog Image](https://miro.medium.com/v2/resize:fit:1198/0*SrFliCpFziZ8voqc.gif)

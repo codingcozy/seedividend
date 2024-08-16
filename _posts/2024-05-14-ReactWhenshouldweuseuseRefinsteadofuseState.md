@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React: When should we use useRef instead of useState?"
 link: "https://medium.com/@swfungineer/react-when-to-use-useref-instead-of-usestate-6ae05800c83c"
+isUpdated: true
 ---
+
+
 
 
 React에서 useRef는 함수형 컴포넌트 내에서 DOM 요소나 다른 React 요소를 참조하는 데 사용되는 훅입니다. (이 훅을 사용하면 함수형 컴포넌트가 클래스 컴포넌트의 this.refs와 유사한 기능을 활용할 수 있습니다.)

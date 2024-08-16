@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Micro Frontend Application With Module Federation A Step-By-Step Guide"
 link: "https://medium.com/@r.sipchenko/react-micro-frontend-application-with-module-federation-a-step-by-step-guide-6b432343d20"
+isUpdated: true
 ---
+
+
 
 
 

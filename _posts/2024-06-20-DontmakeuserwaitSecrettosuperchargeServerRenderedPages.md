@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Don’t make user wait: Secret to supercharge Server Rendered Pages"
 link: "https://medium.com/angel-tech/dont-make-user-wait-secret-to-supercharge-server-rendered-pages-9f7cb50d0124"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_0.png" />

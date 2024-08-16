@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Run HTTPS on Localhost: A Step-by-Step Guide"
 link: "https://medium.com/@akshitb/how-to-run-https-on-localhost-a-step-by-step-guide-c61fde893771"
+isUpdated: true
 ---
+
+
 
 
 로컬호스트에서 HTTPS를 실행하는 것은 안전한 웹 애플리케이션을 개발하고 테스트하는 데 필수적입니다.

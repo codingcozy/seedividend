@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Personal Spark Optimization Note"
 link: "https://medium.com/@kevinchwong/my-intensive-spark-optimization-study-checklist-308dc8ae55e9"
+isUpdated: true
 ---
+
+
 
 
 

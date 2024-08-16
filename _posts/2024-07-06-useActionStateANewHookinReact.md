@@ -3,12 +3,15 @@ title: "리액트의 새로운 훅 useActionState 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-07-06-useActionStateANewHookinReact_0.png"
 date: 2024-07-06 00:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-useActionStateANewHookinReact_0.png
 tag: Tech
 originalTitle: "useActionState — A New Hook in React 🎉"
 link: "https://dev.to/random_ti/useactionstate-a-new-hook-in-react-5blm"
+isUpdated: true
 ---
+
+
 
 안녕하세요 개발자 여러분 👋,
 

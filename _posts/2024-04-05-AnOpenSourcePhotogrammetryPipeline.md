@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "An Open Source Photogrammetry Pipeline"
 link: "https://medium.com/better-programming/opensource-photogrammetry-pipeline-41854dca4e8e"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DIY for a Spy: Utilizing YOLOv8 Object Detection in Military Operations"
 link: "https://medium.com/ai-advances/diy-for-a-spy-utilizing-yolov8-object-detection-in-military-operations-053d787b6f62"
+isUpdated: true
 ---
+
+
 
 
 적군 항공기를 계산하기 위해 YOLOv8 Object Detection과 정찰 드론에서 촬영한 항공 영상을 활용하여 군사 작전을 계획하기 위해서 지리공간 정보를 활용하세요.

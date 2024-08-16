@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Happy 28th Birthday, JavaScript. How’s It Going?"
 link: "https://medium.com/gitconnected/happy-28th-birthday-javascript-hows-it-going-d66c79663fdc"
+isUpdated: true
 ---
+
+
 
 
 JavaScript과 나는 생일이 같아요. 난 어린이였던 그 때에는 레고, 책, 그리고 곱셈표를 발견한 바로 그 때였어요. 1995년, 난 컴퓨터를 한 번도 보지 못했어요. 베를린의 장벽이 무너져내리고 철의 커튼이 열리기까지도 어딘가에서는 일어난 일들이었어요. 동유럽에서는 컴퓨터는 마음속에서 가장 먼 곳에 있었죠. 하지만 세계 반대편에서 중요한 일이 있었어요. 오늘날 우리가 알고 있는 웹과 기술을 가능케 한 일이죠. 그것이 바로 JavaScript인데, 누구도 중요하게 여기지 않았습니다. 윈도우 1995가 열광의 중심이었을 때, 누구나 어떤 어린 스크립트 언어에 대해 신경 쓸 이유가 있었을까요?

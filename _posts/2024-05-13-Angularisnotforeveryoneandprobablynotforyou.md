@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular is not for everyone, and probably not for you"
 link: "https://medium.com/@maks-dolgikh/angular-is-not-for-everyone-and-probably-not-for-you-72e4766fff20"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-13-Angularisnotforeveryoneandprobablynotforyou_0.png)

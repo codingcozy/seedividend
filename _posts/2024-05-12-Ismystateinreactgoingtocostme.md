@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Is my state in react going to cost me"
 link: "https://medium.com/@nikitatrifan/is-my-state-in-react-going-to-cost-me-714fdd192ba7"
+isUpdated: true
 ---
+
+
 
 
 경고: 테이블을 있는 그대로 사용하면 약간 어색해보일 수 있어요. 대신 Markdown 형식을 사용하면 보기가 편할 거예요.

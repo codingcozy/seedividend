@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The best way to fetch data in React and Nextjs"
 link: "https://medium.com/@codewithmee/the-best-way-to-fetch-data-in-react-and-next-js-47b291922089"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Spring Boot File Upload Download Delete"
 link: "https://medium.com/@saijanand/spring-boot-file-upload-download-delete-94982145bea0"
+isUpdated: true
 ---
+
+
 
 
 이 문서는 문서 관리 시스템에 관한 모든 것입니다.

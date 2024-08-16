@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "PyPi Is Under Attack Project Creation and User Registration Suspended  Heres the details"
 link: "https://medium.com/checkmarx-security/pypi-is-under-attack-project-creation-and-user-registration-suspended-heres-the-details-c3b6291d4579"
+isUpdated: true
 ---
+
+
 
 
 

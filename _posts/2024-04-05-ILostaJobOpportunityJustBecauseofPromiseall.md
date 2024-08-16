@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I Lost a Job Opportunity Just Because of Promiseall"
 link: "https://medium.com/@fatfish/i-lost-a-job-opportunity-just-because-of-promise-all-28cf5d399cae"
+isUpdated: true
 ---
+
+
 
 
 

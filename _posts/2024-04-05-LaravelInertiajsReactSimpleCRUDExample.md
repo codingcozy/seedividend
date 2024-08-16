@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Laravel  Inertiajs  React  Simple CRUD Example"
 link: "https://medium.com/@demian.kostelny/laravel-inertia-js-react-simple-crud-example-2e0d167365d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use flyio and Tigris to deploy a Nextjs app"
 link: "https://medium.com/javascript-in-plain-english/how-to-use-fly-io-and-tigris-to-deploy-a-next-js-app-bb7d09922669"
+isUpdated: true
 ---
+
+
 
 
 

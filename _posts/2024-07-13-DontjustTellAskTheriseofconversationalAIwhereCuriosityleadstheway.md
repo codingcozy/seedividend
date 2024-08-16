@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Don’t just Tell, Ask! The rise of conversational AI where Curiosity leads the way"
 link: "https://medium.com/generative-ai/dont-just-tell-ask-the-rise-of-conversational-ai-where-curiosity-leads-the-way-5cf9f63c6f99"
+isUpdated: true
 ---
+
+
 
 
 제가 항상 궁금해했던 것 중 하나는 제안 시스템이에요. 검색 엔진을 열고 검색어를 입력하면 갑자기 여러 가지 완성 제안이 나온다니까요!

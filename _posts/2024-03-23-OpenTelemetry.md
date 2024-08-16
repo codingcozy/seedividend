@@ -1,5 +1,5 @@
 ---
-title: "Nextjs 13 - OpenTelemetry 사용 방법 정리 "
+title: "Nextjs 13 - OpenTelemetry 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "br태그를 Markdown 형식으로 변경해주실 수 있나요"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

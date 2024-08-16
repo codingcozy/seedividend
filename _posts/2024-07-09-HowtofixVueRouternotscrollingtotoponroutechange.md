@@ -3,12 +3,15 @@ title: "라우트 변경 시 Vue Router가 상단으로 스크롤되지 않는 �
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtofixVueRouternotscrollingtotoponroutechange_0.png"
 date: 2024-07-09 18:45
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtofixVueRouternotscrollingtotoponroutechange_0.png
 tag: Tech
 originalTitle: "How to fix Vue Router not scrolling to top on route change"
 link: "https://medium.com/@andrewmasonmedia/how-to-fix-scroll-to-top-scrollbehaviour-not-working-in-vue-router-b443c0fecf91"
+isUpdated: true
 ---
+
+
 
 일반적인 웹사이트에서는 페이지를 다시로드할 때 브라우저 창이 항상 페이지 맨 위로 스크롤됩니다. 그러나 Vue와 같은 프론트엔드 프레임워크가 있는 응용프로그램에서는 페이지를 다시로드하지 않기 때문에 이는 기본 동작이 아닙니다. 이를 제어하기 위해 Vue Router에는 scrollBehaviour() 함수가 있어 앱이 페이지 간 이동 중에 스크롤 위치를 맨 위로 돌아가게 할 수 있습니다. 그러나 제 최신 Vue 프로젝트(Vue 3, Vite, Vue Router 4)에서는 이게 작동하지 않았습니다. 이 문제를 해결한 방법을 소개합니다.
 

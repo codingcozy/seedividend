@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unleashing the Power of the Julia SuperType"
 link: "https://medium.com/towards-data-science/unleashing-the-power-of-the-julia-supertype-bb369209efca"
+isUpdated: true
 ---
+
+
 
 
 ![Julia Super Type](/assets/img/2024-07-13-UnleashingthePoweroftheJuliaSuperType_0.png)

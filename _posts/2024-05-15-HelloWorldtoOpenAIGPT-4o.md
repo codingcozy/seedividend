@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hello World to OpenAI GPT-4o"
 link: "https://medium.com/@billtcheng2013/hello-world-to-openai-gpt-4o-10605899249a"
+isUpdated: true
 ---
+
+
 
 
 ## 오디오, 비전, 텍스트를 모두 이해할 수 있는 최신 모델

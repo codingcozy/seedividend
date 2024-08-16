@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Making the web more accessible: menus and loaders"
 link: "https://medium.com/gitconnected/making-the-web-more-accessible-menus-and-loaders-98468199bb8a"
+isUpdated: true
 ---
+
+
 
 
 웹 애플리케이션을 개발할 때 종종 접근성이 간과되곤 합니다. 하지만 이는 인터넷을 더 포용적인 공간으로 만드는 데 큰 도움이 됩니다.

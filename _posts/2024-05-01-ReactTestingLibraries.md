@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Testing Libraries"
 link: "https://medium.com/@rajshreehsharma02/react-testing-libraries-0cbba6a9a283"
+isUpdated: true
 ---
+
+
 
 
 React에서의 테스트에는 두 가지 세계가 있어요: 하나는 UserEvent이고, 다른 하나는 FireEvent에요. 대다수의 사람들은 FireEvent에 대해 알고 있어요. 둘 다 기본적으로 리액트 테스트 라이브러리로, 프론트엔드 테스트를 작성하고 클릭 또는 입력란 작성과 같은 이벤트를 시뮬레이트할 수 있는 도구에요. 그래서 사용자가 수행했을 법한 작업을 시뮬레이트하며, 실제 사용자를 참여시키지 않고도 테스트를 작성하며 동시에 그 작업의 기능 또는 동작을 테스트하는 거예요.

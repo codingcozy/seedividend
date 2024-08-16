@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Gameplan"
 link: "https://medium.com/@vvelazquez57/the-gameplan-888e09776efb"
+isUpdated: true
 ---
+
+
 
 
 

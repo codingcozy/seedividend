@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create an Angular Project from Scratch"
 link: "https://medium.com/@dgongoragamboa/how-to-create-an-angular-project-from-scratch-b4031abeb4de"
+isUpdated: true
 ---
+
+
 
 
 

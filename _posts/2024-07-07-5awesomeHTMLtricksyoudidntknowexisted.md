@@ -3,12 +3,15 @@ title: "알려지지 않은 5가지 놀라운 HTML 트릭"
 description: ""
 coverImage: "/assets/img/2024-07-07-5awesomeHTMLtricksyoudidntknowexisted_0.png"
 date: 2024-07-07 12:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-5awesomeHTMLtricksyoudidntknowexisted_0.png
 tag: Tech
 originalTitle: "5 awesome HTML tricks you didn’t know existed"
 link: "https://medium.com/@creativebyte/5-awesome-html-tricks-you-didnt-know-existed-9ab7cb6d8875"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-5awesomeHTMLtricksyoudidntknowexisted_0.png)
 

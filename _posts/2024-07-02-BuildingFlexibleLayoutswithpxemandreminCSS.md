@@ -3,12 +3,15 @@ title: "CSS에서 px, em, rem을 사용하여 유연한 레이아웃 만드는 �
 description: ""
 coverImage: "/assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png"
 date: 2024-07-02 21:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png
 tag: Tech
 originalTitle: "Building Flexible Layouts with px, em, and rem in CSS"
 link: "https://medium.com/techverito/building-flexible-layouts-with-px-em-and-rem-in-css-c9ca70db3a41"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-02-BuildingFlexibleLayoutswithpxemandreminCSS_0.png)
 

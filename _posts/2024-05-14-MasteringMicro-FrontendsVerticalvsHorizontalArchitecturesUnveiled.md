@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Micro-Frontends: Vertical vs. Horizontal Architectures Unveiled!"
 link: "https://medium.com/stackademic/mastering-micro-frontends-vertical-vs-horizontal-architectures-unveiled-5ff793aaec14"
+isUpdated: true
 ---
+
+
 
 
 

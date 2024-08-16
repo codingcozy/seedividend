@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The story of ‘Bliss’, the most viewed photograph of all time"
 link: "https://medium.com/long-sweet-valuable/the-story-of-bliss-the-most-viewed-photograph-of-all-time-f6f3892d7478"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-15-ThestoryofBlissthemostviewedphotographofalltime_0.png)

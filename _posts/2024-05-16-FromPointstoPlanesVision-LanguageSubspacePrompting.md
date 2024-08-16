@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "From Points to Planes: Vision-Language Subspace Prompting"
 link: "https://medium.com/@venkateshtata9/from-points-to-planes-vision-language-subspace-prompting-d3d04204c48a"
+isUpdated: true
 ---
+
+
 
 
 

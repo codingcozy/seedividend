@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Comfortable with BEM"
 link: "https://medium.com/@feral.codes/getting-comfortable-with-bem-3c9081aa6d3a"
+isUpdated: true
 ---
+
+
 
 
 이번 서킷에서 첫 번째 토픽은…. BEM! BEM이 뭐냐고 물을 수도 있겠죠? BEM은 HTML을 위한 클래스를 만드는 데 사용되는 방법론으로, 보다 깔끔하고 명확한 CSS 구조로 이어집니다. 이것은 제가 직전 프로젝트를 제 강사들에게 제출했을 때 생긴 굉장한 문제 때문에 저의 집착의 대상이 되었어요... 그것은 엉망이었고, 그런 일은 더 이상 허용되지 않아야 했죠.

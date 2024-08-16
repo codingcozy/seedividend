@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Harnessing the Power of Data Attributes with Tailwind CSS"
 link: "https://medium.com/@asyncme/harnessing-the-power-of-data-attributes-with-tailwind-css-f2b01e07cc12"
+isUpdated: true
 ---
+
+
 
 
 

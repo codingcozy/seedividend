@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Migrating from Redux to Redux Toolkit: A Three-Part Series"
 link: "https://medium.com/gitconnected/migrating-from-redux-to-redux-toolkit-a-three-part-series-564b858de3fe"
+isUpdated: true
 ---
+
+
 
 
 ## 파트 1: Redux 및 Typescript를 사용하여 애플리케이션 개발하기

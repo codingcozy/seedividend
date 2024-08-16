@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "PWAs On iOS: Where We Are Now"
 link: "https://medium.com/itnext/pwas-on-ios-where-we-are-now-fe9f7cdbd111"
+isUpdated: true
 ---
+
+
 
 
 애플이 단 하나의 앱 스토어 대안을 없애려는 노력의 혼란스러운 세부 내용

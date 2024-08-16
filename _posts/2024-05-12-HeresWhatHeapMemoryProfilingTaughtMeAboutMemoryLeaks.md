@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Here’s What Heap Memory Profiling Taught Me About Memory Leaks"
 link: "https://medium.com/javascript-in-plain-english/heres-what-the-heap-memory-profiling-taught-me-about-memory-leaks-1c7c53388aa1"
+isUpdated: true
 ---
+
+
 
 
 ![메모리 누수에 대한 Heap 메모리 프로파일링이 가르쳐 준 것](/assets/img/2024-05-12-HeresWhatHeapMemoryProfilingTaughtMeAboutMemoryLeaks_0.png)

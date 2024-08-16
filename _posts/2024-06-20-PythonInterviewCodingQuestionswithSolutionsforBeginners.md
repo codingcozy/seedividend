@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python Interview Coding Questions with Solutions for Beginners"
 link: "https://medium.com/@nikitasilaparasetty/python-interview-coding-questions-with-solutions-for-beginners-7f6d782defac"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-PythonInterviewCodingQuestionswithSolutionsforBeginners_0.png" />

@@ -3,12 +3,15 @@ title: "신경망이란 무엇인가요"
 description: ""
 coverImage: "/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_0.png"
 date: 2024-07-09 19:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-WhatIsaNeuralNetAnyway_0.png
 tag: Tech
 originalTitle: "What Is a Neural Net, Anyway?"
 link: "https://medium.com/ai-advances/what-is-a-neural-net-anyway-4fc8692f2d28"
+isUpdated: true
 ---
+
+
 
 ![Image](/assets/img/2024-07-09-WhatIsaNeuralNetAnyway_0.png)
 

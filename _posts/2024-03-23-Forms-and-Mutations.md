@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "양식과 변이"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build a Signature Pad in HTML, CSS, JS , Canvas"
 link: "https://medium.com/@divbydiv/build-a-signature-pad-in-html-css-js-canvas-bd174d999392"
+isUpdated: true
 ---
+
+
 
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*kSbgHu01E-PFh2JXVoS-jw.gif)

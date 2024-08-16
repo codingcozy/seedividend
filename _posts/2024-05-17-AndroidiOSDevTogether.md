@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Android , iOS Dev Together"
 link: "https://medium.com/@zoewave/android-ios-dev-together-e112c1ed5ed7"
+isUpdated: true
 ---
+
+
 
 
 ## 안드로이드와 iOS를 동시에 생각하기

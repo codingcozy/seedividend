@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native Application Freezes Crashes Samsung Galaxy S24 Devices"
 link: "https://medium.com/@enginergen/react-native-application-freezes-crashes-samsung-galaxy-s24-devices-7620ad42aa16"
+isUpdated: true
 ---
+
+
 
 
 # 문제는 무엇인가요?

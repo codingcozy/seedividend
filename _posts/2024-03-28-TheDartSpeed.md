@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Dart Speed"
 link: "https://medium.com/@tommyyy/the-dart-speed-035272e9d46d"
+isUpdated: true
 ---
+
+
 
 
 

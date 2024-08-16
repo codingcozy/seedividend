@@ -3,12 +3,15 @@ title: "당신의 Python 코드를 쉽게 개선할 수 있는 7가지 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-7SimpleWaysToDrasticallyImproveYourPythonCode_0.png"
 date: 2024-07-09 19:45
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-7SimpleWaysToDrasticallyImproveYourPythonCode_0.png
 tag: Tech
 originalTitle: "7 Simple Ways To Drastically Improve Your Python Code"
 link: "https://medium.com/chifi-media/7-simple-ways-to-drastically-improve-your-python-code-1cc544e2aa7b"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-7SimpleWaysToDrasticallyImproveYourPythonCode_0.png" />
 

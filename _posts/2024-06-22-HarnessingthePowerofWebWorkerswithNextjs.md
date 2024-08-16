@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Harnessing the Power of Web Workers with Next.js"
 link: "https://medium.com/@ngrato/harnessing-the-power-of-web-workers-with-next-js-350901a99a10"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-22-HarnessingthePowerofWebWorkerswithNextjs_0.png](/assets/img/2024-06-22-HarnessingthePowerofWebWorkerswithNextjs_0.png)

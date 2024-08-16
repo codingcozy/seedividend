@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Global Styles in Shadow DOM"
 link: "https://medium.com/@eisenbergeffect/using-global-styles-in-shadow-dom-5b80e802e89d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Next-level CSS Tricks to Enhance Your Web Design"
 link: "https://medium.com/@nweligalla/5-next-level-css-tricks-to-enhance-your-web-design-e379b52c8f25"
+isUpdated: true
 ---
+
+
 
 
 

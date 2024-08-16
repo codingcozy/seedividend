@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing SEO in Nextjs Advanced Techniques for Better Search Engine Visibility"
 link: "https://medium.com/@kishansheth21/optimizing-seo-in-next-js-advanced-techniques-for-better-search-engine-visibility-43ceaa1ea1d9"
+isUpdated: true
 ---
+
+
 
 
 

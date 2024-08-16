@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker Project for Devops"
 link: "https://medium.com/@m.qasimnauman/docker-project-for-devops-56cbdc13f8ce"
+isUpdated: true
 ---
+
+
 
 
 /assets/img/2024-07-06-DockerProjectforDevops_0.png

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "You dont need to pay for SaaS boilerplates  Open SaaS"
 link: "https://medium.com/@WaspLang/you-dont-need-to-pay-for-saas-boilerplates-open-saas-f4ee70bbe848"
+isUpdated: true
 ---
+
+
 
 
 

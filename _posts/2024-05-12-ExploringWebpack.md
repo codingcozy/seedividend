@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Webpack"
 link: "https://medium.com/@mazenadel19/exploring-webpack-778d9a469b29"
+isUpdated: true
 ---
+
+
 
 
 프론트엔드 개발자들의 삶 속에는 번들러에서 뭔가를 편집해야 하는 시기가 올 때가 있죠. 다행히 아직은 그런 날이 오지 않았지만, 여유 시간이 좀 생겨 이 키워드들을 해결해 보기로 했어요: Webpack — Craco — Bundles — Chunks — Bundle Size — Code Splitting — Dynamic imports.

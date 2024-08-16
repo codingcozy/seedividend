@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Local RAG From Scratch"
 link: "https://medium.com/towards-data-science/local-rag-from-scratch-3afc6d3dea08"
+isUpdated: true
 ---
+
+
 
 
 ## 처음부터 완전히 로컬 RAG 시스템 개발 및 배포하기

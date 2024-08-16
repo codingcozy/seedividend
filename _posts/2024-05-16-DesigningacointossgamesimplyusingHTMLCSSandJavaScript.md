@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Designing a coin toss game simply using HTML, CSS and JavaScript."
 link: "https://medium.com/@keremerkengel/designing-a-coin-toss-game-simply-using-html-css-and-javascript-27723870bdce"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 오늘은 HTML, CSS 및 JavaScript만을 사용하여 간단하게 동전 던지기 게임을 만드는 방법을 보여 드리겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTMX or Back to The Stone Edge"
 link: "https://medium.com/@sviat-kuzhelev/htmx-or-back-to-the-stone-edge-20f3b4c8d039"
+isUpdated: true
 ---
+
+
 
 
 

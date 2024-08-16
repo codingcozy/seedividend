@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "This is how functional try-catch transforms your JavaScript code"
 link: "https://medium.com/coding-beauty/functional-try-catch-javascript-f21885cc2e64"
+isUpdated: true
 ---
+
+
 
 
 

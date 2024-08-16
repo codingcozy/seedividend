@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Set Up Expo Dev Client: A Complete Guide [2024]"
 link: "https://medium.com/@prasadkatkade008/how-to-set-up-expo-dev-client-a-complete-guide-2024-be898a519ec1"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-HowtoSetUpExpoDevClientACompleteGuide2024_0.png" />

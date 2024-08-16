@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to manually deploy a React app to Azure App Service"
 link: "https://medium.com/@kagamimendoza/how-to-manually-deploy-a-react-app-to-azure-app-service-9a89a194c354"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "FastAPI Apppy에서 모듈러 아키텍처로 전환하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png"
 date: 2024-07-09 20:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png
 tag: Tech
 originalTitle: "FastAPI: From App.py to a Modular Architecture"
 link: "https://medium.com/towardsdev/fastapi-from-app-py-to-a-modular-architecture-54ca9e0044eb"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png" />
 

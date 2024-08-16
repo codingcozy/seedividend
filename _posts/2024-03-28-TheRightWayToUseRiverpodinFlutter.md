@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Right Way To Use Riverpod in Flutter"
 link: "https://medium.com/@fnfidanci/the-right-way-to-use-riverpod-in-flutter-77869f9b741c"
+isUpdated: true
 ---
+
+
 
 
 

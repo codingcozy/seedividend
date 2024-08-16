@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript — Booleans , Comparisons"
 link: "https://medium.com/@geraldclarkaudio/javascript-booleans-comparisons-5a6a36c7cfe2"
+isUpdated: true
 ---
+
+
 
 
 

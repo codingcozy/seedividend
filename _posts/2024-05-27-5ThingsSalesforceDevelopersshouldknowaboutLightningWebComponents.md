@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Things Salesforce Developers should know about Lightning Web Components"
 link: "https://medium.com/gitconnected/5-things-salesforce-developers-should-know-about-lightning-web-components-098f3619851a"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Figma above and beyond in design teams  Part 2"
 link: "https://medium.com/swiggydesign/using-figma-above-and-beyond-in-design-teams-part-2-e7564285db49"
+isUpdated: true
 ---
+
+
 
 
 

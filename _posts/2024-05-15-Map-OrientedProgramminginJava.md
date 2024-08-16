@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Map-Oriented Programming in Java"
 link: "https://medium.com/@donraab/map-oriented-programming-in-java-cc430f25673e"
+isUpdated: true
 ---
+
+
 
 
 MOP을 사용하는 것은 때로는 편리할 수 있지만, 때로는 엉망일 수도 있습니다.

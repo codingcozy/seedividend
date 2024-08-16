@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "If we can’t have macOS apps on the iPad Pro, Apple might as well kill it"
 link: "https://medium.com/turn-on-press-play/if-we-cant-have-macos-apps-on-the-ipad-pro-apple-might-as-well-kill-it-61ff97ff2702"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-IfwecanthavemacOSappsontheiPadProApplemightaswellkillit_0.png" />

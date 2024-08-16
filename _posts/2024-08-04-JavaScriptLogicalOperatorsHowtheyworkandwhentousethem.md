@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript Logical Operators How they work and when to use them"
 link: "https://medium.com/@LearnCodingWithDeepali/javascript-logical-operators-how-they-work-and-when-to-use-them-2505aa493836"
+isUpdated: true
 ---
+
+
 
 
 JavaScript에서 논리 연산자는 코드 흐름을 제어하는 데 중요한 역할을 합니다. 오늘은 && (AND) 및 || (OR) 연산자의 실행을 살펴보겠습니다. 이 두 연산자는 참과 거짓의 변수 값에 의존하여 조건을 평가하고 실행의 다음 단계를 결정합니다. 이 글에서는 이러한 연산자의 실용적인 적용법과 효과적인 사용 방법을 알아보겠습니다.

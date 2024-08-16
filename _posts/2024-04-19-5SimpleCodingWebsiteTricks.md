@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Simple Coding Website Tricks"
 link: "https://medium.com/@elysiarolivia/5-simple-coding-website-tricks-0a67fbad780f"
+isUpdated: true
 ---
+
+
 
 
 

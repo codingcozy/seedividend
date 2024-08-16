@@ -3,12 +3,15 @@ title: "HTML 리스트 종류와 사용 방법 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-HTMLLists_0.png"
 date: 2024-07-07 02:22
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-HTMLLists_0.png
 tag: Tech
 originalTitle: "HTML Lists"
 link: "https://medium.com/@anushkas.ch/html-lists-6660bb666520"
+isUpdated: true
 ---
+
+
 
 HTML 목록은 정렬되거나 정렬되지 않은 형식의 일반 목록과 같습니다.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind CSS Pros and Cons"
 link: "https://medium.com/readytowork-org/tailwind-css-pros-and-cons-f1a8fdb1fb47"
+isUpdated: true
 ---
+
+
 
 
 

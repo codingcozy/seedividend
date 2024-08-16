@@ -3,12 +3,15 @@ title: "코드 변경을 안전하게 하는 커스텀 pre-commit 훅 사용하�
 description: ""
 coverImage: "/assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_0.png"
 date: 2024-07-09 21:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Custompre-commithooksforsafercodechanges_0.png
 tag: Tech
 originalTitle: "Custom pre-commit hooks for safer code changes"
 link: "https://medium.com/towards-data-science/custom-pre-commit-hooks-for-safer-code-changes-d8b8aa1b2ebb"
+isUpdated: true
 ---
+
+
 
 ## 첫 번째 pre-commit 훅을 작성하는 단계별 가이드
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding TypeScript’s Handling of Object Literal Types: The Quirks and Insights"
 link: "https://medium.com/stackademic/understanding-typescripts-handling-of-object-literal-types-the-quirks-and-insights-c1c8b4e49645"
+isUpdated: true
 ---
+
+
 
 
 

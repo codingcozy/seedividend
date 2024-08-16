@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "2048 Game Developed Using HTML and Other Supportive Languages"
 link: "https://compcit.medium.com/2048-game-developed-using-html-and-other-supportive-languages-1e6f52f04f15"
+isUpdated: true
 ---
+
+
 
 
 

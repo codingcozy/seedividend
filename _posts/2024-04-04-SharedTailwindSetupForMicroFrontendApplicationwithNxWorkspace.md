@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Shared Tailwind Setup For Micro Frontend Application with Nx Workspace"
 link: "https://javascript.plainenglish.io/shared-tailwind-setup-for-micro-frontend-application-with-nx-workspace-0c02a3ca097d"
+isUpdated: true
 ---
+
+
 
 
 

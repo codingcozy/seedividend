@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Upgrade Your Angular Project to the Latest Version 18"
 link: "https://medium.com/@rs4528090/how-to-upgrade-your-angular-project-to-the-latest-version-18-79c9a0fa4bf2"
+isUpdated: true
 ---
+
+
 
 
 Angular은 웹 애플리케이션을 구축하기 위한 강력하고 널리 사용되는 프레임워크입니다. Angular 프로젝트를 최신 버전으로 유지하면 새로운 기능, 성능 향상, 보안 업데이트를 활용할 수 있습니다. Angular 18에는 개선 사항 및 업데이트가 여러 가지 포함되어 있어 개발 프로세스를 더욱 효율적으로 처리할 수 있습니다. 이 블로그 포스트에서는 Angular 프로젝트를 최신 버전 18로 업그레이드하는 과정을 안내해 드릴 것입니다.

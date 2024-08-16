@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Time series residuals: gold in them thar hills"
 link: "https://medium.com/python-in-plain-english/time-series-residuals-gold-in-them-thar-hills-387faa9b85b0"
+isUpdated: true
 ---
+
+
 
 
 ![2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png)

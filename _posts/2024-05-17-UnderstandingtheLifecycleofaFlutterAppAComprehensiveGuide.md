@@ -3,12 +3,15 @@ title: "플러터 앱의 라이프사이클 이해하기"
 description: ""
 coverImage: "/assets/img/2024-05-17-UnderstandingtheLifecycleofaFlutterAppAComprehensiveGuide_0.png"
 date: 2024-05-17 21:42
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-17-UnderstandingtheLifecycleofaFlutterAppAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Understanding the Lifecycle of a Flutter App: A Comprehensive Guide"
 link: "https://medium.com/@wafamohameddd/understanding-the-lifecycle-of-a-flutter-app-a-comprehensive-guide-b58a5a94d776"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-05-17-UnderstandingtheLifecycleofaFlutterAppAComprehensiveGuide_0.png)
 

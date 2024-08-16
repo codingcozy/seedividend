@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Learn about React Router"
 link: "https://medium.com/@akhshyganesh/learn-about-react-router-01f6887dd284"
+isUpdated: true
 ---
+
+
 
 
 리액트는 단일 페이지 애플리케이션(SPA)에서 리액트 라우터를 기반으로 합니다.

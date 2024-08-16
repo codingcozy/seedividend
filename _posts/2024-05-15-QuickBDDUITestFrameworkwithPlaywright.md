@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Quick BDD UI Test Framework with Playwright"
 link: "https://medium.com/@aglsachin/quick-bdd-ui-test-framework-with-playwright-376739640f8c"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-QuickBDDUITestFrameworkwithPlaywright_0.png" />

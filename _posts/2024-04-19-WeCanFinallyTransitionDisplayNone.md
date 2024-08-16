@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "We Can Finally Transition Display None"
 link: "https://medium.com/@kentondejong/we-can-finally-transition-display-none-cbb03831351f"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Convert String To Buffer And Data URL Formats Using Client-Side JavaScript"
 link: "https://medium.com/javascript-in-plain-english/how-to-convert-string-to-buffer-and-data-url-formats-using-client-side-javascript-9514a8c446d2"
+isUpdated: true
 ---
+
+
 
 
 웹 애플리케이션에서는 Base64가 종종 사용됩니다. 바이너리 데이터를 ASCII 텍스트 형식으로 저장하거나 전송하기 위해 인코딩하는 데 쓰입니다. 예를 들어, 파일 전송 API는 효율적인 저장 및 처리 속도로 인해 이진 데이터로 반환된 응답을 받는 경우가 많습니다.

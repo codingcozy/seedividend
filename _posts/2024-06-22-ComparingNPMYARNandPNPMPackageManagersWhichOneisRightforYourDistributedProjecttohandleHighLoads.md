@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Comparing NPM, YARN, and PNPM Package Managers: Which One is Right for Your Distributed Project to handle High Loads?"
 link: "https://medium.com/@romanglushach/comparing-npm-yarn-and-pnpm-package-managers-which-one-is-right-for-your-distributed-project-to-4d7de2f0db8e"
+isUpdated: true
 ---
+
+
 
 
 

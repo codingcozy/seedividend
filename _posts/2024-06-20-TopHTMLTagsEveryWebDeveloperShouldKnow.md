@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top HTML Tags Every Web Developer Should Know"
 link: "https://medium.com/@devsumitg/top-html-tags-every-web-developer-should-know-653092889eb4"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-TopHTMLTagsEveryWebDeveloperShouldKnow_0.png"/>

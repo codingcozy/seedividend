@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NextAuth Credentials  easy signup , login with email , password Nextjs 14 App router and Zod resolver"
 link: "https://medium.com/@pether.maciejewski/nextauth-credentials-easy-signup-login-with-email-password-next-js-7e8f043b2084"
+isUpdated: true
 ---
+
+
 
 
 

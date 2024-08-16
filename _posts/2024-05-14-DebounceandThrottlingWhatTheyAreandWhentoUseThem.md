@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Debounce and Throttling: What They Are and When to Use Them"
 link: "https://medium.com/@bs903944/debounce-and-throttling-what-they-are-and-when-to-use-them-eadd272fe0be"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-DebounceandThrottlingWhatTheyAreandWhentoUseThem_0.png)

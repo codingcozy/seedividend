@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "미들웨어"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

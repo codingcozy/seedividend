@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I Developed Firmware for a Device That Measures Golf Club Head Speed"
 link: "https://medium.com/javascript-in-plain-english/i-developed-firmware-for-a-device-that-measures-golf-club-head-speed-918b98699fc9"
+isUpdated: true
 ---
+
+
 
 
 ## 프로그래밍

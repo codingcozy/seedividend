@@ -3,12 +3,15 @@ title: "파이썬 해시 테이블 구현 방법 단계별 설명"
 description: ""
 coverImage: "/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png"
 date: 2024-07-07 12:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png
 tag: Tech
 originalTitle: "Implementing a Hash Table in Python: Step-by-Step"
 link: "https://medium.com/python-in-plain-english/implementing-a-hash-table-in-python-step-by-step-716f61323a4d"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png" />
 

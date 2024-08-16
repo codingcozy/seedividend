@@ -3,12 +3,15 @@ title: "1px 테두리 문제 해결을 위한 8가지 솔루션 모바일 디자
 description: ""
 coverImage: "/assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png"
 date: 2024-07-09 08:55
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png
 tag: Tech
 originalTitle: "8 Solutions To The 1px Border Predicament: A Mobile Design Mystery 🕵️‍♀️"
 link: "https://medium.com/javascript-in-plain-english/8-solutions-to-the-1px-border-predicament-a-mobile-design-mystery-%EF%B8%8F-%EF%B8%8F-82c678ca206c"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png" />
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter Package of the Day  Percent Indicator"
 link: "https://medium.com/@sajjadmakman/flutter-package-of-the-day-percent-indicator-fba9beadbcb4"
+isUpdated: true
 ---
+
+
 
 
 

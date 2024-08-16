@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Crafting a Professional-Looking Carousel with React and MUI"
 link: "https://medium.com/@ltomblock/crafting-a-professional-looking-carousel-with-react-and-mui-746a86af0ab0"
+isUpdated: true
 ---
+
+
 
 
 

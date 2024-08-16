@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Need for Speed: LLMs Beyond OpenAI with C#, .NET 8 SSE + Channels, Llama3, and Fireworks.ai"
 link: "https://medium.com/itnext/need-for-speed-llms-beyond-openai-with-c-net-8-sse-channels-llama3-and-fireworks-ai-16af453e69a1"
+isUpdated: true
 ---
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*YtK6hvB_PrUvd7uwqrk0-w.gif" />

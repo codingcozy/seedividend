@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Facts About Color in Design"
 link: "https://medium.com/@uxplanet/10-facts-about-color-in-design-7291a6dfbe66"
+isUpdated: true
 ---
+
+
 
 
 

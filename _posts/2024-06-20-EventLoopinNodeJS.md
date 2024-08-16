@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Event Loop in NodeJS"
 link: "https://medium.com/@manikmudholkar831995/event-loop-in-nodejs-999f6db7eb04"
+isUpdated: true
 ---
+
+
 
 
 ## Node.js 내부 심층 분석 (블로킹, 논블로킹 IO, 이벤트 루프, nextTick, 프로미스)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Passing Data from Child to Parent Components in React"
 link: "https://medium.com/@ozhanli/passing-data-from-child-to-parent-components-in-react-e347ea60b1bb"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Python Projects to Boost Your Skills in A Weekend"
 link: "https://medium.com/python-in-plain-english/5-python-projects-to-boost-your-skills-in-a-weekend-4c87d851dee1"
+isUpdated: true
 ---
+
+
 
 
 

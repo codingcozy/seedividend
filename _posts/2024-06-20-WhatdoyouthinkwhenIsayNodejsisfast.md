@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What do you think when I say Node.js is fast?"
 link: "https://medium.com/@hoaitx/what-do-you-think-when-i-say-node-js-is-fast-1acf8a40ffc9"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-WhenYouHearNodejsIsFast_0.png" />

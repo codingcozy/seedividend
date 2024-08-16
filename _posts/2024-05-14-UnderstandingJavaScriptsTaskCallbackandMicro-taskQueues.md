@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding JavaScript’s Task(Callback) and Micro-task Queues"
 link: "https://medium.com/@sibingeorge2698/understanding-javascripts-task-callback-and-micro-task-queues-47e9fb00a7a4"
+isUpdated: true
 ---
+
+
 
 
 

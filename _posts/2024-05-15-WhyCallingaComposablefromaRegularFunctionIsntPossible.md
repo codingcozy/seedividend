@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Calling a Composable from a Regular Function Isn’t Possible"
 link: "https://medium.com/proandroiddev/why-calling-a-composable-from-a-regular-function-isnt-possible-b9d8f77b6658"
+isUpdated: true
 ---
+
+
 
 
 이것은 컴파일러입니다!

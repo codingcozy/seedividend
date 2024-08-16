@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create Infinite Horizontal Scroll and Hover-Pause with Pure CSS"
 link: "https://medium.com/@mintpw/how-to-create-infinite-horizontal-scroll-and-hover-pause-with-pure-css-b052caa683bd"
+isUpdated: true
 ---
+
+
 
 
 

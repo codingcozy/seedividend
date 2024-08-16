@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to deploy Express.js project to AWS EC2?"
 link: "https://medium.com/@yingxueliu73/c2how-to-deploy-express-js-project-to-aws-ec2-3c6e68d7dca4"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-HowtodeployExpressjsprojecttoAWSEC2_0.png" />

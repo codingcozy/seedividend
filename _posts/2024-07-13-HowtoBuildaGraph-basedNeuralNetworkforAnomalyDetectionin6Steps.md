@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Build a Graph-based Neural Network for Anomaly Detection in 6 Steps"
 link: "https://medium.com/towards-data-science/how-to-build-a-graph-based-neural-network-for-anomaly-detection-in-6-steps-a7dc47723788"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Screaming Architecture and Reducing bundle size of react-apps"
 link: "https://medium.com/@subham.saha_42355/screaming-architecture-and-reducing-bundle-size-of-react-apps-e36c013b3b1d"
+isUpdated: true
 ---
+
+
 
 
 

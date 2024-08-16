@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Forget About Marketing. Focus on Building An Awesome Product."
 link: "https://medium.com/@mariusbongarts/forget-about-marketing-focus-on-building-an-awesome-product-910039ded684"
+isUpdated: true
 ---
+
+
 
 
 

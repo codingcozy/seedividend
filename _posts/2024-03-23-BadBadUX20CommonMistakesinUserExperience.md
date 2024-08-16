@@ -1,5 +1,5 @@
 ---
-title: "디자이너들이 자주 놓치는 안좋은 UX 20가지2024년 최신"
+title: "디자이너들이 자주 놓치는 안좋은 UX 20가지 (2024년 최신)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bad Bad UX 20 Common Mistakes in User Experience"
 link: "https://medium.com/@FlowMapp/bad-bad-ux-20-common-mistakes-in-user-experience-d30301ba686b"
+isUpdated: true
 ---
+
+
 
 
 

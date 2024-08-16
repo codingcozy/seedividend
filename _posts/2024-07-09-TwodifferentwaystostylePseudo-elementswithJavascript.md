@@ -3,12 +3,15 @@ title: "자바스크립트로 가상 요소Pseudo-elements 스타일링하는 �
 description: ""
 coverImage: "/assets/img/2024-07-09-TwodifferentwaystostylePseudo-elementswithJavascript_0.png"
 date: 2024-07-09 18:03
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-TwodifferentwaystostylePseudo-elementswithJavascript_0.png
 tag: Tech
 originalTitle: "Two different ways to style Pseudo-elements with Javascript"
 link: "https://medium.com/codex/two-different-ways-to-style-pseudo-elements-with-javascript-3d9260d9c61b"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-TwodifferentwaystostylePseudo-elementswithJavascript_0.png" />
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating FaceIO using HTMX and Express.JS"
 link: "https://medium.com/gitconnected/integrating-faceio-using-htmx-40f1553c153d"
+isUpdated: true
 ---
+
+
 
 
 요즘 빠르게 발전하는 디지털 시대에는 보안과 사용자 경험이 중요한 고려 사항이며, 견고한 인증 솔루션을 찾는 노력이 더 커지고 있습니다. 암호와 같은 전통적인 방법은 더 많은 위협에 노출되고 사용자 불만을 증가시키므로 대체 메커니즘에 대한 탐구가 증가하고 있습니다. 얼굴 인증은 보안과 사용자 경험을 결합한 유망한 솔루션이 되어 나타났습니다.

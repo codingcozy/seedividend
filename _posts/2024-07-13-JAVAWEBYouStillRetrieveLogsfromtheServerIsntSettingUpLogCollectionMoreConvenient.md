@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JAVA WEB: You Still Retrieve Logs from the Server? Isn’t Setting Up Log Collection More Convenient?"
 link: "https://medium.com/stackademic/java-web-you-still-retrieve-logs-from-the-server-isnt-setting-up-log-collection-more-convenient-cedbb262c5b1"
+isUpdated: true
 ---
+
+
 
 
 `<img src="/assets/img/2024-07-13-JAVAWEBYouStillRetrieveLogsfromtheServerIsntSettingUpLogCollectionMoreConvenient_0.png" />`

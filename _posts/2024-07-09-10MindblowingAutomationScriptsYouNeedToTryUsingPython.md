@@ -3,12 +3,15 @@ title: "파이썬으로 꼭 시도해볼 10가지 놀라운 자동화 스크립�
 description: ""
 coverImage: "/assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png"
 date: 2024-07-09 14:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png
 tag: Tech
 originalTitle: "10 Mindblowing Automation Scripts You Need To Try Using Python"
 link: "https://medium.com/pythoneers/10-mindblowing-automation-scripts-you-need-to-try-using-python-8bd935f88125"
+isUpdated: true
 ---
+
+
 
 ## 시도해볼 자동화 스크립트 — 파트 8
 

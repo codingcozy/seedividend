@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implement Retry Pattern in Nest.js"
 link: "https://medium.com/@zigbalthazar/implement-retry-pattern-in-nest-js-2ad505324960"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-22-ImplementRetryPatterninNestjs_0.png](/assets/img/2024-06-22-ImplementRetryPatterninNestjs_0.png)

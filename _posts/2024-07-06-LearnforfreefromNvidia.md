@@ -3,12 +3,15 @@ title: "무료로 배우는 Nvidia 최신 기술 2024"
 description: ""
 coverImage: "/assets/img/2024-07-06-LearnforfreefromNvidia_0.png"
 date: 2024-07-06 02:31
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-LearnforfreefromNvidia_0.png
 tag: Tech
 originalTitle: "Learn for free from Nvidia"
 link: "https://medium.com/ai-advances/learn-for-free-from-nvidia-86081dd4a1a1"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-LearnforfreefromNvidia_0.png
 

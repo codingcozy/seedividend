@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "ROS2 Humble Cartographer on NVIDIA Jetson Nano with RPLIDAR"
 link: "https://medium.com/@kabilankb2003/ros2-humble-cartographer-on-nvidia-jetson-nano-with-rplidar-c0dea4480b78"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-16-ROS2HumbleCartographeronNVIDIAJetsonNanowithRPLIDAR_0.png)

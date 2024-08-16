@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to add Tailwind CSS to your HTML project"
 link: "https://medium.com/@khazifire/how-to-add-tailwind-css-to-your-html-project-ef06fcd8dcc9"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Elevating React Development Choosing Between Create React App CRA and Vite"
 link: "https://medium.com/stackademic/elevating-react-development-choosing-between-create-react-app-cra-and-vite-01bedccf4256"
+isUpdated: true
 ---
+
+
 
 
 

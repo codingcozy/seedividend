@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Announcing Angulardev"
 link: "https://medium.com/angular-blog/announcing-angular-dev-1e1205fa3039"
+isUpdated: true
 ---
+
+
 
 
 

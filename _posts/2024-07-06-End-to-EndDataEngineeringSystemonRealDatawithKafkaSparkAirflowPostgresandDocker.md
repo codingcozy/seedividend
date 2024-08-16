@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "End-to-End Data Engineering System on Real Data with Kafka, Spark, Airflow, Postgres, and Docker"
 link: "https://medium.com/towards-data-science/end-to-end-data-engineering-system-on-real-data-with-kafka-spark-airflow-postgres-and-docker-a70e18df4090"
+isUpdated: true
 ---
+
+
 
 
 이 글은 두 단계로 나누어진 프로젝트의 일환입니다. 첫 번째 단계는 데이터 파이프라인 구축에 초점을 맞춥니다. 이는 API에서 데이터를 가져와 PostgreSQL 데이터베이스에 저장하는 과정을 포함합니다. 두 번째 단계에서는 이 데이터베이스와 상호 작용하는 언어 모델을 활용한 응용 프로그램을 개발할 예정입니다.

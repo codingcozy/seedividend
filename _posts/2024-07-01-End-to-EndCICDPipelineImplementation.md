@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "End-to-End CI CD Pipeline Implementation"
 link: "https://medium.com/devops-dev/building-an-end-to-end-ci-cd-pipeline-with-jenkins-7ef2205d7988"
+isUpdated: true
 ---
+
+
 
 
 

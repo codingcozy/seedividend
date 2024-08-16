@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ported to Cloud with Winglang (Part One)"
 link: "https://medium.com/itnext/ported-to-cloud-with-winglang-part-one-757d31fe5862"
+isUpdated: true
 ---
+
+
 
 
 ## "Hexagonal Architecture Explained"에서의 Blue Zone Application

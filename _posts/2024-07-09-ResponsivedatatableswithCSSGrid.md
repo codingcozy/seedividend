@@ -3,12 +3,15 @@ title: "CSS Grid로 반응형 데이터 테이블 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-ResponsivedatatableswithCSSGrid_0.png"
 date: 2024-07-09 17:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ResponsivedatatableswithCSSGrid_0.png
 tag: Tech
 originalTitle: "Responsive data tables with CSS Grid"
 link: "https://medium.com/evodeck/responsive-data-tables-with-css-grid-3c58ecf04723"
+isUpdated: true
 ---
+
+
 
 ![CSS Grid](https://miro.medium.com/v2/resize:fit:1400/1*jTLeBdCKKscV-GR2nVSy2w.gif)
 

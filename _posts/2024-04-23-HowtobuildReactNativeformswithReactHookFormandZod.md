@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to build React Native forms with React Hook Form and Zod"
 link: "https://medium.com/javascript-in-plain-english/how-to-build-react-native-forms-with-react-hook-form-and-zod-3fff7d7ee066"
+isUpdated: true
 ---
+
+
 
 
 

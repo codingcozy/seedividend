@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native with WatermelonDB"
 link: "https://medium.com/@obinote/react-native-with-watermelondb-2931df69d526"
+isUpdated: true
 ---
+
+
 
 
 

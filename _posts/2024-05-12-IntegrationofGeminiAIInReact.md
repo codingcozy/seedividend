@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integration of Gemini AI In React"
 link: "https://medium.com/@codewithadurintiashok/integration-of-gemini-ai-in-react-8872025088de"
+isUpdated: true
 ---
+
+
 
 
 여러분은 Gemini AI 도구에 대해 알고 계시죠. 친숙하지 않은 분들을 위해 간단히 소개하면, Gemini AI는 Google에서 개발한 AI 도구에요. 이 기사에서는 React 애플리케이션에 Gemini AI를 통합하는 과정을 안내해 드릴게요.

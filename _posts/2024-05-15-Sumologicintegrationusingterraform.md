@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sumologic integration using terraform"
 link: "https://medium.com/@sangeet_joy/sumologic-integration-using-terraform-885065421f4f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-Sumologicintegrationusingterraform_0.png" />

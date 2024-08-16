@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to build a simple real-time application using Flask, React and Socketio"
 link: "https://medium.com/@adrianhuber17/how-to-build-a-simple-real-time-application-using-flask-react-and-socket-io-7ec2ce2da977"
+isUpdated: true
 ---
+
+
 
 
 

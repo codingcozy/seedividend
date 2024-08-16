@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setting Up ESLint in Your Angular Project"
 link: "https://medium.com/@ayushgrwl365/setting-up-eslint-in-your-angular-project-888f210fc25e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-SettingUpESLintinYourAngularProject_0.png" />

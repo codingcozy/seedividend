@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Your Browser Finds Websites"
 link: "https://medium.com/gitconnected/how-your-browser-finds-websites-79535e1761c5"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-15-HowYourBrowserFindsWebsites_0.png)

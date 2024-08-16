@@ -1,5 +1,5 @@
 ---
-title: "React Native로 레이아웃 디자인하기 고급 기술 소개"
+title: "React Native로 레이아웃 잡는 방법"
 description: "React Native에서 레이아웃을 디자인하는 고급 기술에 대해 알아봅니다"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

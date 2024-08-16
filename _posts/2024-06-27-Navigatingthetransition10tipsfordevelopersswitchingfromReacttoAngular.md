@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating the transition: 10 tips for developers switching from React to Angular"
 link: "https://medium.com/fever-engineering/navigating-the-transition-10-tips-for-developers-switching-from-react-to-angular-b308aba185e5"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding SOLID Principles for Ruby on Rails Development"
 link: "https://medium.com/dev-genius/understanding-solid-principles-for-ruby-on-rails-development-2c2efe80bff0"
+isUpdated: true
 ---
+
+
 
 
 

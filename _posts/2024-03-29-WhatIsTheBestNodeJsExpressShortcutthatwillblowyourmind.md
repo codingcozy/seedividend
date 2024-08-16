@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What Is The Best Node Js Express Shortcut, that will blow your mind"
 link: "https://medium.com/@ori.holis/what-is-the-best-node-js-express-shortcut-that-will-blow-your-mind-0ef468a677c7"
+isUpdated: true
 ---
+
+
 
 
 

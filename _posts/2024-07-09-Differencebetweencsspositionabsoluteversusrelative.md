@@ -3,12 +3,15 @@ title: "CSS position 속성 absolute와 relative 차이점 알아보기"
 description: ""
 coverImage: "/assets/img/2024-07-09-Differencebetweencsspositionabsoluteversusrelative_0.png"
 date: 2024-07-09 17:55
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Differencebetweencsspositionabsoluteversusrelative_0.png
 tag: Tech
 originalTitle: "Difference between css position absolute versus relative"
 link: "https://medium.com/@leannezhang/difference-between-css-position-absolute-versus-relative-35f064384c6"
+isUpdated: true
 ---
+
+
 
 어떤 시간을 들여서 '절대 위치 지정'과 '상대 위치 지정'의 차이를 이해해 보았어요. 이 주제가 혼란스러웠는데, 그래서 그들의 차이를 그림으로 설명하기로 결정했죠.
 

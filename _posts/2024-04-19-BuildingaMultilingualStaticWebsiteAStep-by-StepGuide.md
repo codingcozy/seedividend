@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Multilingual Static Website A Step-by-Step Guide"
 link: "https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505"
+isUpdated: true
 ---
+
+
 
 
 

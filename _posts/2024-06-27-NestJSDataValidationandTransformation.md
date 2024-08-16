@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NestJS: Data Validation and Transformation"
 link: "https://medium.com/devops-dev/nestjs-data-validation-and-transformation-ce99115c760d"
+isUpdated: true
 ---
+
+
 
 
 이 보고서는 Node.js 서버 측 애플리케이션 개발을 위한 프레임워크 인 NestJS에서 데이터 유효성 검사 및 변환 기술을 요약합니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTML CSS Tricks — Scroll-able Table Body <tbody>"
 link: "https://medium.com/@vembarrajan/html-css-tricks-scroll-able-table-body-tbody-d23182ae0fbc"
+isUpdated: true
 ---
+
+
 
 
 테이블 본문을 스크롤할 수 있도록 만든 상단 고정 테이블 헤더의 문제를 해결할 수 있는 간단한 요령입니다. 이를 통해 데이터 테이블을 더 쉽게 사용할 수 있습니다. 사용자가 스크롤할 때 고정된 테이블 헤더는 사용자가 어떤 열에 있는지 컨텍스트를 제공합니다.

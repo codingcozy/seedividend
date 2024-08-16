@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering React TypeScript: A Comprehensive Guide for Developers"
 link: "https://medium.com/@aiden.web/mastering-react-typescript-a-comprehensive-guide-for-developers-d676312d847c"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-MasteringReactTypeScriptAComprehensiveGuideforDevelopers_0.png)

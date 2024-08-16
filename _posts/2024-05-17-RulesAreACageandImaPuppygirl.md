@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rules Are A Cage (and I’m a Puppygirl)"
 link: "https://medium.com/@possumcreek/rules-are-a-cage-and-im-a-puppygirl-69e8d569b2b6"
+isUpdated: true
 ---
+
+
 
 
 테이블탑 RPG 룰북은 우리를 제약하고 가둬 놓는 역할만 한다고 생각할 때, 왜 좋은 것일까요?

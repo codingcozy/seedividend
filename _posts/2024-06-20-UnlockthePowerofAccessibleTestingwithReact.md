@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlock the Power of Accessible Testing with React"
 link: "https://medium.com/the-tech-collective/unlock-the-power-of-accessible-testing-with-react-and-jest-be72913bc2bc"
+isUpdated: true
 ---
+
+
 
 
 ## 포괄적인 사용자 경험을 만들자, 한 번에 한 가지 테스트씩.

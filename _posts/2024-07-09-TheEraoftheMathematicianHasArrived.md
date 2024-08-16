@@ -3,12 +3,15 @@ title: "2024년, 수학자가 대세가 된 이유"
 description: ""
 coverImage: "/assets/img/2024-07-09-TheEraoftheMathematicianHasArrived_0.png"
 date: 2024-07-09 14:54
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-TheEraoftheMathematicianHasArrived_0.png
 tag: Tech
 originalTitle: "The Era of the Mathematician Has Arrived"
 link: "https://medium.com/@keith-mcnulty/the-era-of-the-mathematician-has-arrived-bc2d59b95245"
+isUpdated: true
 ---
+
+
 
 ![라는 링크된 이미지](/assets/img/2024-07-09-TheEraoftheMathematicianHasArrived_0.png)
 

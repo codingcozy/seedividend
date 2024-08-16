@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Typescript Runtime Configurations"
 link: "https://medium.com/@assorium/mastering-typescript-runtime-configurations-5dbfec90be87"
+isUpdated: true
 ---
+
+
 
 
 대부분의 사람들이 경력 초기에 배우는 것 중 하나가 구성(configuration)입니다. 그리고 대부분의 사람들이 처음에 배운 방법을 계속 사용합니다. 저는 10년 이상 웹 개발을 해 왔는데, 끊임없이 다양한 구성 접근 방식을 보았습니다. 오늘은 여러분이 앱을 구성하는 것을 조금 더 쉽게 만들어 드리려고 왔습니다. 물론, 새롭게 출시한 제 패키지 https://github.com/mrspartak/config 도 소개할 예정이에요.

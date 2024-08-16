@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "RaspirriV1: A Raspberry Pi based irrigator"
 link: "https://medium.com/@mariosk/raspirriv1-a-raspberry-pi-based-irrigator-6f121abb1a88"
+isUpdated: true
 ---
+
+
 
 
 몇 년 전에 제가 작은 잔디 정원을 관리하기 위한 책임을 맡아 상업용 스크린 LCD를 갖춘 자동 급수 시스템을 사용했어요. 그러나 COVID-19 대유행으로 인한 봉쇄 기간에 LCD 화면이 고장나면서 프로그래머 메뉴에 접근할 수 없게 되었어요.

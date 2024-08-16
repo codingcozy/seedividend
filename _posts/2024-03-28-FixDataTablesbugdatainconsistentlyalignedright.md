@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fix DataTables bug data inconsistently aligned right"
 link: "https://medium.com/@zacharystumpf01/fix-datatables-bug-data-inconsistently-aligned-right-16b81d3f1a55"
+isUpdated: true
 ---
+
+
 
 
 

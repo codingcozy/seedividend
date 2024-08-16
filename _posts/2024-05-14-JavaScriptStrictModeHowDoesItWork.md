@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript—'Strict Mode' How Does It Work?"
 link: "https://medium.com/javascript-in-plain-english/javascript-strict-mode-how-does-it-work-4aba8726ed6b"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-JavaScriptStrictModeHowDoesItWork_0.png)

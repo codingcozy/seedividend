@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setup Guide for NextAuth with Google and Credentials Providers in Nextjs 13"
 link: "https://medium.com/@karthickragavendran/setup-guide-for-nextauth-with-google-and-credentials-providers-in-next-js-13-8f5f13414c1e"
+isUpdated: true
 ---
+
+
 
 
 

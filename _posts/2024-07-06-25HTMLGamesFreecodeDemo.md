@@ -3,12 +3,15 @@ title: "무료 HTML 게임 25개코드  데모 포함"
 description: ""
 coverImage: "/assets/img/2024-07-06-25HTMLGamesFreecodeDemo_0.png"
 date: 2024-07-06 10:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-25HTMLGamesFreecodeDemo_0.png
 tag: Tech
 originalTitle: "25 HTML Games(Free code + Demo)"
 link: "https://medium.com/@codewithrandomartical/25-html-games-free-code-demo-da251d859a3e"
+isUpdated: true
 ---
+
+
 
 # 무료 HTML 게임 및 소스 코드
 

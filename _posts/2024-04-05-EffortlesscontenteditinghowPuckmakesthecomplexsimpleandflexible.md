@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Effortless content editing how Puck makes the complexsimple and flexible"
 link: "https://medium.com/xaviemirmon/effortless-content-editing-how-puck-makes-the-complex-simple-and-flexible-16cceed3875c"
+isUpdated: true
 ---
+
+
 
 
 

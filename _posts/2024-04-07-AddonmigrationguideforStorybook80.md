@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Addon migration guide for Storybook 80"
 link: "https://storybook.js.org/docs/addons/addon-migration-guide"
+isUpdated: true
 ---
+
+
 
 
 

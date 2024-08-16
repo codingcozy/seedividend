@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Illustrated CSS CSS Custom Properties"
 link: "https://medium.com/@w3cplus/illustrated-css-css-custom-properties-c5eb7da8423d"
+isUpdated: true
 ---
+
+
 
 
 

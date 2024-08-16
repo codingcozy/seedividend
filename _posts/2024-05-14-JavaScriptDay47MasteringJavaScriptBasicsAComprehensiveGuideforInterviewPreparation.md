@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript Day 47 — Mastering JavaScript Basics: A Comprehensive Guide for Interview Preparation"
 link: "https://medium.com/@kirtikau/javascript-day-47-mastering-javascript-basics-a-comprehensive-guide-for-interview-preparation-39c84fd1724d"
+isUpdated: true
 ---
+
+
 
 
 100일간의 자바스크립트 면접 준비: 초보자의 여정 | 코딩 라운드

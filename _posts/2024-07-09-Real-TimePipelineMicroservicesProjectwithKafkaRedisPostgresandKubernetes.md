@@ -3,12 +3,15 @@ title: "Kafka, Redis, Postgres, Kubernetes를 활용한 실시간 파이프라�
 description: ""
 coverImage: "/assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png"
 date: 2024-07-09 19:43
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png
 tag: Tech
 originalTitle: "Real-Time Pipeline Microservices Project with Kafka, Redis, Postgres, and Kubernetes."
 link: "https://medium.com/stackademic/real-time-pipeline-microservices-project-with-kafka-redis-postgres-and-kubernetes-a09e40c20520"
+isUpdated: true
 ---
+
+
 
 # 소개
 

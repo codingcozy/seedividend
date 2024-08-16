@@ -3,12 +3,15 @@ title: "DOM이 HTML과 함께 발명되었나요"
 description: ""
 coverImage: "/assets/img/2024-07-09-WasDOMInventedwithHTML_0.png"
 date: 2024-07-09 08:48
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-WasDOMInventedwithHTML_0.png
 tag: Tech
 originalTitle: "Was DOM Invented with HTML?"
 link: "https://medium.com/@nile.bits/was-dom-invented-with-html-67e42091b063"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-WasDOMInventedwithHTML_0.png" />
 

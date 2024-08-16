@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Must Know Angular 17 New Control Flow Syntax"
 link: "https://medium.com/@chandantechie/must-know-angular-17-new-control-flow-syntax-d8c8ebed5582"
+isUpdated: true
 ---
+
+
 
 
 

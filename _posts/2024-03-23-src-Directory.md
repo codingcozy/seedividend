@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "src 디렉토리"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

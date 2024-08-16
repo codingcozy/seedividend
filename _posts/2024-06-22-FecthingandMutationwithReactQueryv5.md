@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fecthing and Mutation with React Query v5"
 link: "https://medium.com/@ab19622001/fecthing-and-mutation-with-react-query-v5-73103737aa14"
+isUpdated: true
 ---
+
+
 
 
 # React-Query이란 무엇인가요?

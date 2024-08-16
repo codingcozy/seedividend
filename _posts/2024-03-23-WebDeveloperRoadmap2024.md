@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Web Developer Roadmap 2024"
 link: "https://medium.com/@fbrkovic/web-developer-roadmap-2024-27a89f3eb1ba"
+isUpdated: true
 ---
+
+
 
 
 

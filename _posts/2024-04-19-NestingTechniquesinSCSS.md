@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nesting Techniques in SCSS"
 link: "https://medium.com/ux-planet/nesting-techniques-in-scss-1699833baca1"
+isUpdated: true
 ---
+
+
 
 
 

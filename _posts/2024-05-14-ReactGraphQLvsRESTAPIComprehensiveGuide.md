@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React: GraphQL vs. REST API: Comprehensive Guide"
 link: "https://medium.com/dev-genius/react-graphql-vs-rest-api-comprehensive-guide-32442a567332"
+isUpdated: true
 ---
+
+
 
 
 

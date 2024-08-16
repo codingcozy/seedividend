@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Deep Dive Into Observation A New Way to Boost SwiftUI Performance"
 link: "https://medium.com/better-programming/a-deep-dive-into-observation-a-new-way-to-boost-swiftui-performance-f299831c664b"
+isUpdated: true
 ---
+
+
 
 
 ## 관측 프레임워크는 SwiftUI 뷰의 불필요한 업데이트를 줄여 성능을 향상시킬 것입니다.

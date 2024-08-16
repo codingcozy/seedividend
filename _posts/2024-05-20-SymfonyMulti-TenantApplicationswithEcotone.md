@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Symfony Multi-Tenant Applications with Ecotone"
 link: "https://medium.com/dev-genius/symfony-multi-tenant-applications-with-ecotone-8cc15d2715e2"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-20-SymfonyMulti-TenantApplicationswithEcotone_0.png" />

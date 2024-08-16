@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying Angular Bootstrapping: A Comprehensive Guide"
 link: "https://medium.com/@vishalini.sharma/demystifying-angular-bootstrapping-a-comprehensive-guide-3602fbcbd120"
+isUpdated: true
 ---
+
+
 
 
 앵귤러는 강력한 프론트엔드 프레임워크로, 응용 프로그램을 초기화하고 실행하는 강력한 메커니즘을 제공합니다. 앵귤러 부트스트래핑은 앵귤러 프레임워크를 초기화하고 응용 프로그램 구성 요소를 실행하는 과정을 의미합니다. 이것은 앵귤러 응용 프로그램의 시작점으로, UI 구성 요소를 렌더링하고 사용자 상호작용을 처리하는 데 필요한 설정 및 구성을 조정합니다.

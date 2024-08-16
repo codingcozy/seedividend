@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Web Application Powered by Large Language Models (LLM): part 2"
 link: "https://medium.com/@pyrosv/building-a-web-application-powered-by-large-language-models-llm-part-2-2429755c182f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-BuildingaWebApplicationPoweredbyLargeLanguageModelsLLMpart2_0.png" />

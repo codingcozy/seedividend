@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Future of Robotic Assembly"
 link: "https://medium.com/towards-data-science/the-future-of-robotic-assembly-ce3446703de8"
+isUpdated: true
 ---
+
+
 
 
 ## 1913년 대량 생산이 소개된 이후로, 조립 라인은 여전히 대부분 인간의 손에 의해 운영되고 있습니다. 그러나, 인류형 로봇이 이를 바꿀 수도 있습니다.

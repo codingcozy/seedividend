@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Interactive Quiz with HTML, CSS, and JavaScript"
 link: "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2"
+isUpdated: true
 ---
+
+
 
 
 

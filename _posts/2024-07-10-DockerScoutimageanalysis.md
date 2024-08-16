@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker Scout image analysis"
 link: "https://medium.com/@meghasharmaa704/docker-scout-image-analysis-80274cfaf5b7"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-DockerScoutimageanalysis_0.png)

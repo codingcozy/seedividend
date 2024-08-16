@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to Multi-Stage Image Build for Python"
 link: "https://medium.com/towards-data-science/introduction-to-multi-stage-image-build-for-python-41b94ebe8bb3"
+isUpdated: true
 ---
+
+
 
 
 이미지의 크기에 대해서는 그리 신경 쓰지 않았는데, Github Actions를 사용하여 컨테이너에 코드를 배포하기 시작하면서 조금 더 중요하게 여기기 시작했습니다. 여기서 수학은 간단합니다: 컨테이너의 크기가 클수록 로드 시간이 길어지고, 따라서 비용도 더 많이 듭니다. 제 파이썬 이미지 크기가 5Gb에 도달한 순간(파이토치, 고마워요!), 더 효율적인 이미지 빌드 방법을 탐색하기 시작했습니다.

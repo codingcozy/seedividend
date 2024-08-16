@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Typescript Runtime Configurations"
 link: "https://medium.com/@assorium/mastering-typescript-runtime-configurations-5dbfec90be87"
+isUpdated: true
 ---
+
+
 
 
 모든 사람이 경력 초반에 배우는 구성은 중요합니다. 대부분의 사람들은 처음에 배운 방법을 고수합니다. 저는 웹 개발을 10년 이상 해왔고, 무수히 많은 구성 방법을 보았습니다. 오늘은 여러분의 앱 구성을 좀 더 쉽게 만들어드리고, 물론 제 새로운 패키지 https://github.com/mrspartak/config 를 홍보하기 위해 여기에 왔습니다.

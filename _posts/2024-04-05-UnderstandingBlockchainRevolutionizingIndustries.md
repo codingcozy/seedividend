@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Blockchain Revolutionizing Industries"
 link: "https://medium.com/@hafizwaseemanwar54/understanding-blockchain-revolutionizing-industries-017fe911e54a"
+isUpdated: true
 ---
+
+
 
 
 

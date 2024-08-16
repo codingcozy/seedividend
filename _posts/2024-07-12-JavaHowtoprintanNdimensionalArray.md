@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Java — How to print an N dimensional Array?"
 link: "https://medium.com/@viraj_63415/java-how-to-print-an-array-of-arrays-cbdc69e61000"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-JavaHowtoprintanNdimensionalArray_0.png" />

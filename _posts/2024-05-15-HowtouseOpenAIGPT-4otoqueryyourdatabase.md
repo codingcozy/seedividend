@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use OpenAI GPT-4o to query your database?"
 link: "https://medium.com/wrenai/how-do-you-use-openai-gpt-4o-to-query-your-database-f24be68b0b70"
+isUpdated: true
 ---
+
+
 
 
 오늘 OpenAI가 최신 LLM 모델인 GPT-4o를 발표했어요. 사람들이 이 혁신적인 모델을 기반으로 만든 놀라운 응용 프로그램을 공유하고 있어요. GPT-4o를 사용하면 데이터 검색에 개선 사항이 있어, 사용자들이 더 빠른 응답과 더 효율적인 비용 효과(비용이 GPT-4 Turbo보다 적음)을 누릴 수 있어요.

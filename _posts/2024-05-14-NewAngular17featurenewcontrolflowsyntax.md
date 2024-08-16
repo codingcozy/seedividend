@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "New Angular 17 feature: new control flow syntax"
 link: "https://medium.com/itnext/new-angular-17-feature-new-control-flow-syntax-256696d10103"
+isUpdated: true
 ---
+
+
 
 
 # Angular의 새로운 선언적 제어 흐름을 시그널 기반 예시로 설명합니다

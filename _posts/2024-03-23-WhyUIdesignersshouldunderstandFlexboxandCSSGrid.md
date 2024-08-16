@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why UI designers should understand Flexbox and CSS Grid"
 link: "https://uxdesign.cc/why-ui-designers-should-understand-flexbox-and-css-grid-e236a9dec37a"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Comprehensive Evaluation of Gemma 2B in a RAG setup with Basic and Advanced Retrievers"
 link: "https://medium.com/ai-advances/gemma-2b-a-deep-dive-with-basic-and-advanced-retrievers-in-rag-156ad26d56af"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-12-ComprehensiveEvaluationofGemma2BinaRAGsetupwithBasicandAdvancedRetrievers_0.png)

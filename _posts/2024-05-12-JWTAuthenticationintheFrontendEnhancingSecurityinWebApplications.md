@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JWT Authentication in the Frontend: Enhancing Security in Web Applications"
 link: "https://medium.com/@ritikkhndelwal/jwt-authentication-in-the-frontend-enhancing-security-in-web-applications-ece418206b4f"
+isUpdated: true
 ---
+
+
 
 
 이 블로그에서는 JWT 토큰을 사용하여 프론트 엔드에서 사용자를 인증하고 웹 애플리케이션/웹 사이트에 대한 무단 액세스를 방지하는 방법에 대해 배워보겠습니다.

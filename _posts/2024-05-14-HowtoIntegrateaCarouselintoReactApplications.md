@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Integrate a Carousel into React Applications"
 link: "https://medium.com/@michaeljudelarocca/how-to-integrate-a-carousel-into-react-applications-0e5b4d0e8669"
+isUpdated: true
 ---
+
+
 
 
 ## 이 글에서는 AI 도우미와 함께 React 웹사이트를 계속해서 구축하고 있어요! React Responsive Carousel 라이브러리를 사용하여 프로젝트에 캐러셀을 추가하는 방법을 배워보세요. 예상보다 쉬워요!

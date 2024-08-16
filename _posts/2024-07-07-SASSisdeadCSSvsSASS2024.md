@@ -3,12 +3,15 @@ title: "SASS는 죽었나요 2024년 CSS와 SASS 비교"
 description: ""
 coverImage: "/assets/img/2024-07-07-SASSisdeadCSSvsSASS2024_0.png"
 date: 2024-07-07 21:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-SASSisdeadCSSvsSASS2024_0.png
 tag: Tech
 originalTitle: "SASS is dead? CSS vs SASS 2024"
 link: "https://medium.com/@erennaktas/sass-is-dead-css-vs-sass-2024-a78c65c47a4d"
+isUpdated: true
 ---
+
+
 
 ![SASS vs CSS](/assets/img/2024-07-07-SASSisdeadCSSvsSASS2024_0.png)
 

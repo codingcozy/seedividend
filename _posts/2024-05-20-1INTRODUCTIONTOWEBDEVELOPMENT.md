@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "1. INTRODUCTION TO WEB DEVELOPMENT"
 link: "https://medium.com/@lokeshdc2002/1-introduction-to-web-development-4b7a6b26cc31"
+isUpdated: true
 ---
+
+
 
 
 웹 개발은 웹 사이트 및 웹 애플리케이션을 만들고 유지 보수하는 동적이고 끊임없이 발전하는 분야입니다. 이 블로그에서는 웹 개발의 개요를 제공하고 프론트엔드, 백엔드, 풀스택 개발 간의 차이를 살펴보며 필수 도구와 기술을 소개할 것입니다. 이 분야에 처음 발을 딛는 초보자이든, 지식을 업데이트하고자 하는 경험 많은 개발자이든, 이 안내서가 안정적인 기반을 제공할 것입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Empowering React Development: Essential Utility Functions"
 link: "https://medium.com/@samithahewawasam-27681/empowering-react-development-essential-utility-functions-0766aef65271"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-EmpoweringReactDevelopmentEssentialUtilityFunctions_0.png" />

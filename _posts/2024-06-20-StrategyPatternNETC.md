@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Strategy Pattern .NET (C#)"
 link: "https://medium.com/codenx/strategy-pattern-net-c-ea0d122f60c4"
+isUpdated: true
 ---
+
+
 
 
 전략(pattern) 패턴은 알고리즘의 동작을 런타임(runtime)에서 선택할 수 있게 해주는 행동 디자인 패턴입니다. 주요 아이디어는 알고리즘의 집합을 정의하고 각각을 캡슐화하여 상호 교환 가능하게 만드는 것입니다. 전략(pattern) 패턴은 알고리즘을 사용하는 클라이언트로부터 독립적으로 알고리즘을 변경할 수 있게 합니다.

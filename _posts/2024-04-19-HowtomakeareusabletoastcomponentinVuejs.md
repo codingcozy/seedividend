@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make a reusable toast component in Vue js"
 link: "https://medium.com/@serpentarium13/how-to-toast-on-your-own-in-vue-5962c0f954d1"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "One Key to Better Software: Improving the Developer Experience"
 link: "https://medium.com/@dangoslen/one-key-to-better-software-improving-the-developer-experience-8965cf9b44fb"
+isUpdated: true
 ---
+
+
 
 
 ![OneKeytoBetterSoftwareImprovingtheDeveloperExperience](/assets/img/2024-07-01-OneKeytoBetterSoftwareImprovingtheDeveloperExperience_0.png)

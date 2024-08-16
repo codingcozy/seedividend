@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Do you really need entity classes?"
 link: "https://medium.com/better-programming/do-you-really-need-entity-classes-d9656534ea82"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-Doyoureallyneedentityclasses_0.png" />

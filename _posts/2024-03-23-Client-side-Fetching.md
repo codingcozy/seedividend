@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "클라이언트 측 데이터 가져오기"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Create a Circle That Follows the Cursor in CSS"
 link: "https://medium.com/@jacobpatton_3644/how-to-create-a-circle-that-follows-the-cursor-in-css-fddbc37f449e"
+isUpdated: true
 ---
+
+
 
 
 # 간략한 내용

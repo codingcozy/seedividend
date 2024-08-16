@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TailwindCSS libraries you should know and use."
 link: "https://medium.com/@decodementor/tailwindcss-library-you-should-know-and-use-3608b902b7a3"
+isUpdated: true
 ---
+
+
 
 
 

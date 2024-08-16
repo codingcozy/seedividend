@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Short Guide to React’s Powerful Duo : useReducer and UseContext"
 link: "https://medium.com/@seb_5882/a-short-guide-to-reacts-powerful-duo-usereducer-and-usecontext-23cea6f9ab35"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-AShortGuidetoReactsPowerfulDuouseReducerandUseContext_0.png" />

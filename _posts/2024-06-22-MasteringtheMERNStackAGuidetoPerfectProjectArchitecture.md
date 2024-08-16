@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering the MERN Stack: A Guide to Perfect Project Architecture"
 link: "https://medium.com/@ahmad_mahmood/mastering-the-mern-stack-a-guide-to-perfect-project-architecture-020605828ad0"
+isUpdated: true
 ---
+
+
 
 
 MERN 스택은 MongoDB, Express, React 및 Node.js로 구성된 인기있는 웹 개발 프레임워크입니다. MongoDB는 유연한 JSON과 유사한 문서에 데이터를 저장하는 NoSQL 데이터베이스입니다. Express는 Node.js에서 웹 애플리케이션을 구축하기 위한 가벼운 프레임워크입니다. React는 동적 사용자 인터페이스를 구축하기 위한 강력한 프런트엔드 라이브러리이며, Node.js는 서버 측 코드를 실행할 수 있게 해주는 JavaScript 런타임입니다.

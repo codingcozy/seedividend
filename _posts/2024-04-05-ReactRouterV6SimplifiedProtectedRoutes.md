@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Router V6  Simplified Protected Routes"
 link: "https://medium.com/@shirisha95/react-router-v6-simplified-protected-routes-85b209326a55"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Sync events to Google calendar using angular and dot net core"
 link: "https://medium.com/@machhindra10/sync-events-to-google-calendar-using-angular-and-dot-net-core-ae539c508bf9"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-SynceventstoGooglecalendarusingangularanddotnetcore_0.png" />

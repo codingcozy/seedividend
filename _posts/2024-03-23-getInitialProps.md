@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "getInitialProps"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

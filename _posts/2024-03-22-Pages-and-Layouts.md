@@ -1,5 +1,5 @@
 ---
-title: "Nextjs PageRouter 페이지, 레이아웃 폴더 구조"
+title: "Nextjs PageRouter 페이지, 레이아웃 폴더 구조 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

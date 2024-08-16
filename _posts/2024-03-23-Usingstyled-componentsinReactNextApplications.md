@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using styled-components in React Next Applications"
 link: "https://medium.com/@hcach90/using-styled-components-in-react-next-applications-acde9d6eeef6"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing SafeTest A Novel Approach to Front End Testing"
 link: "https://medium.com/netflix-techblog/introducing-safetest-a-novel-approach-to-front-end-testing-37f9f88c152d"
+isUpdated: true
 ---
+
+
 
 
 

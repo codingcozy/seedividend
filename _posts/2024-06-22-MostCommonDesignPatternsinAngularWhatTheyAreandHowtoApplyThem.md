@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Most Common Design Patterns in Angular: What They Are and How to Apply Them"
 link: "https://medium.com/williambastidasblog/most-common-design-patterns-in-angular-what-they-are-and-how-to-apply-them-f0193b85e500"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-MostCommonDesignPatternsinAngularWhatTheyAreandHowtoApplyThem_0.png" />

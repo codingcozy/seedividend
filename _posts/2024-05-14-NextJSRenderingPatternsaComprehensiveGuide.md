@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Next JS Rendering Patterns — a Comprehensive Guide"
 link: "https://medium.com/javascript-in-plain-english/next-js-rendering-patterns-a-comprehensive-guide-e20a092f0f21"
+isUpdated: true
 ---
+
+
 
 
 렌더링 패턴에 대한 정보는 문서, 자습서 또는 블로그 게시물 등이 끊임없이 있습니다. 그러나 시작하고 무언가를 구축하기 위해 얼마나 많은 지식이 필요할까요? 이 게시물에서는 무엇이 무엇인지 이해하고 렌더링이 Next.js에서 어떻게 작동하는지를 굳게 이해하는 데 도움이 되는 각기 다른 렌더링 패턴의 기본 내용을 요약하겠습니다.

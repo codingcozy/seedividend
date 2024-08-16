@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Sync Bridge"
 link: "https://medium.com/better-programming/building-a-sync-bridge-ccbd9fd920b5"
+isUpdated: true
 ---
+
+
 
 
 ## JavaScript에서 이벤트 기반 API를 Promises로 적응하기

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "THE RETURN OF LOCKBIT!"
 link: "https://medium.com/coinmonks/the-return-of-lockbit-8d7bcb9b75fa"
+isUpdated: true
 ---
+
+
 
 
 노트: Operation Cronos 이전 이야기를 시작했습니다. 따라서 FBI/Europol 타협 이전에 풀리기 시작하는 작은 세부 사항들을 볼 수 있습니다. 본문은 주로 LockBit 그룹의 강력한 컴백 및 Operation Cronos 이후의 접근에 초점을 맞추며 LockBitSupp의 신원과는 무관합니다. 또한, 주목받지 못한 LOCKBIT 시리즈의 사건들의 모음입니다.

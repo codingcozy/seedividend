@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Learn how to use a skeleton loader with Angular v17"
 link: "https://medium.com/@akhilabhinav/learn-how-to-use-a-skeleton-loader-with-angular-9414da7bb215"
+isUpdated: true
 ---
+
+
 
 
 

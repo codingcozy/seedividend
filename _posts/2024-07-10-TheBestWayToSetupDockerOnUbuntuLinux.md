@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Best Way To Setup Docker On Ubuntu Linux"
 link: "https://medium.com/@it-delinquent/the-best-way-to-setup-docker-on-ubuntu-linux-90aaba559971"
+isUpdated: true
 ---
+
+
 
 
 리눅스에서 Docker 인스턴스를 많이 생성해본 경험이 있어서, 이제는 그 방법이 내게 익숙해 졌어요. 하지만 어느 때는 우분투 리눅스에서 Docker를 설정하는 가장 좋은 방법을 전혀 몰랐던 적이 있었죠.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fear Driven Development"
 link: "https://medium.com/israeli-tech-radar/fear-driven-development-c6b427521f14"
+isUpdated: true
 ---
+
+
 
 
 "Why Frontend Tech Choices Are Not Only Driven By Merit?

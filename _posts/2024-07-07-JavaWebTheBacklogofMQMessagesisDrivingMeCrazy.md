@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Java Web: The Backlog of MQ Messages is Driving Me Crazy"
 link: "https://medium.com/@haiou-a/java-web-the-backlog-of-mq-messages-is-driving-me-crazy-7e4d04aa8d1d"
+isUpdated: true
 ---
+
+
 
 
 

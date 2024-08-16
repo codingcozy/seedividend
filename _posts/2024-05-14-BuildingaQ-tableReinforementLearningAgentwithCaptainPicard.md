@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Q-table Reinforement Learning Agent with Captain Picard"
 link: "https://medium.com/@james.matson_64120/building-a-q-table-reinforement-learning-agent-with-captain-picard-12fc0df8c169"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-BuildingaQ-tableReinforementLearningAgentwithCaptainPicard_0.png" />

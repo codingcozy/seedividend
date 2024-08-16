@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dot. Dash. Design"
 link: "https://medium.com/proandroiddev/dot-dash-design-c30928484f79"
+isUpdated: true
 ---
+
+
 
 
 ## PathEffect로 Jetpack Compose에서 선을 특화하세요

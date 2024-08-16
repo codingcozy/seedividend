@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What the CORS ft Spring Boot , Spring Security"
 link: "https://medium.com/@rajendraprasadpadma/what-the-cors-ft-spring-boot-spring-security-562f24d705c9"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-WhattheCORSftSpringBootSpringSecurity_0.png" />

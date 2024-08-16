@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Think Like An Algebraist"
 link: "https://medium.com/@keith-mcnulty/how-to-think-like-an-algebraist-fb140abbb129"
+isUpdated: true
 ---
+
+
 
 
 ![HowToThinkLikeAnAlgebraist](/assets/img/2024-07-12-HowToThinkLikeAnAlgebraist_0.png)

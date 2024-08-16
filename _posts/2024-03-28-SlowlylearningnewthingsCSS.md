@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Slowly learning new things CSS"
 link: "https://medium.com/@bzfishmaster94/slowly-learning-new-things-bd5f7f87b9bd"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering TypeScript’s Record Type"
 link: "https://medium.com/@awwwesssooooome/mastering-typescripts-record-type-e47bba9029f4"
+isUpdated: true
 ---
+
+
 
 
 

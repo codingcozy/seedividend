@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Directives: Enhancing User Interfaces with Ease"
 link: "https://medium.com/@ayushgrwl365/angular-directives-enhancing-user-interfaces-with-ease-bb99d74e69cd"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-AngularDirectivesEnhancingUserInterfaceswithEase_0.png" />

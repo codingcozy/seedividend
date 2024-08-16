@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native Instagram Navigation"
 link: "https://medium.com/@trai-nguyen/react-native-instagram-navigation-a8a376ebbf29"
+isUpdated: true
 ---
+
+
 
 
 

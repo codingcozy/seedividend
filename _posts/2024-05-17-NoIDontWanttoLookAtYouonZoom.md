@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "No, I Don’t Want to Look At You on Zoom"
 link: "https://medium.com/illumination/no-i-dont-want-to-look-at-you-on-zoom-e5e458b7aaed"
+isUpdated: true
 ---
+
+
 
 
 ![NoIDontWanttoLookAtYouonZoom](/assets/img/2024-05-17-NoIDontWanttoLookAtYouonZoom_0.png)

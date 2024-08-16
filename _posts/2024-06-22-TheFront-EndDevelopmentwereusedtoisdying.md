@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Front-End Development we’re used to is dying"
 link: "https://medium.com/@maks-dolgikh/the-front-end-development-were-used-to-is-dying-5e8e9ec99951"
+isUpdated: true
 ---
+
+
 
 
 

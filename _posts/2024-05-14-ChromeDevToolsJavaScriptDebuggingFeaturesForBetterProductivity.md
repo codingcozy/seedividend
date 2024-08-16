@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Chrome DevTools JavaScript Debugging Features For Better Productivity"
 link: "https://medium.com/gitconnected/chrome-devtools-javascript-debugging-features-for-better-productivity-5974c414478c"
+isUpdated: true
 ---
+
+
 
 
 ![Chrome DevTools JavaScript Debugging Features for Better Productivity](/assets/img/2024-05-14-ChromeDevToolsJavaScriptDebuggingFeaturesForBetterProductivity_0.png)

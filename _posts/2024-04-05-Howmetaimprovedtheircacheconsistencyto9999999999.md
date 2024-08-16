@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How meta improved their cache consistency to 9999999999"
 link: "https://medium.com/@mayank.sharma2796/how-meta-improved-their-cache-consistency-to-99-99999999-58d79674a806"
+isUpdated: true
 ---
+
+
 
 
 

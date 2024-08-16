@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "30 HTML Tags to know"
 link: "https://medium.com/@zmactavish/30-html-tags-to-know-b0a85b122ded"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-30HTMLTagstoknow_0.png" />

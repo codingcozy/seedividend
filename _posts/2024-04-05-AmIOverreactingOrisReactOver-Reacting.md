@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Am I Overreacting Or is React Over-Reacting"
 link: "https://medium.com/gitconnected/am-i-overreacting-or-is-react-over-reacting-d3e7d0cb4d37"
+isUpdated: true
 ---
+
+
 
 
 

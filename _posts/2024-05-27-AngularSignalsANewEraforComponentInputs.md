@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🚦Angular Signals: A New Era for Component Inputs"
 link: "https://medium.com/javascript-in-plain-english/angular-signals-a-new-era-for-component-inputs-f762d06eb8b1"
+isUpdated: true
 ---
+
+
 
 
 ## 안녕하세요 👋

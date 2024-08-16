@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Comprehensive Guide to Components in React"
 link: "https://medium.com/@priyaeswaran/the-comprehensive-guide-to-components-in-react-154ac7490dd3"
+isUpdated: true
 ---
+
+
 
 
 

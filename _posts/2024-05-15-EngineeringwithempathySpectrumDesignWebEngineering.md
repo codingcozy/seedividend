@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Engineering with empathy: Spectrum Design Web Engineering"
 link: "https://medium.com/@rajrock38/engineering-with-empathy-spectrum-design-web-engineering-culture-2ae16455b16c"
+isUpdated: true
 ---
+
+
 
 
 # Adobe Spectrum Engineering에서 디자인 엔지니어의 역할은 무엇인가요?

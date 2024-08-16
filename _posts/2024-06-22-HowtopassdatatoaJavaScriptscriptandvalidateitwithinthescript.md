@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to pass data to a JavaScript script and validate it within the script."
 link: "https://medium.com/@oakhtar147/pass-and-validate-attributes-passed-to-a-script-running-in-the-browser-d13d53aa024c"
+isUpdated: true
 ---
+
+
 
 
 웹 브라우저에서 실행되는 JavaScript 코드를 삽입하기 위해 `script` 태그를 사용합니다. 경우에 따라, 스크립트가 초기화되고 실행될 때 외부 데이터를 전달해야 할 때가 있습니다. 이렇게 데이터를 전달하고 스크립트 내에서 유효성을 검증하는 방법을 알아보겠습니다.

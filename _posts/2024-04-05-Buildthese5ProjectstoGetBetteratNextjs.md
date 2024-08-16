@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build these 5 Projects to Get Better at Nextjs"
 link: "https://medium.com/@mohit-vaswani/build-these-5-projects-to-get-better-at-nextjs-498a2b76fde2"
+isUpdated: true
 ---
+
+
 
 
 

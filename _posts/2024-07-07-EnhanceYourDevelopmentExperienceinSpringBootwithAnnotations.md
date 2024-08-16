@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhance Your Development Experience in Spring Boot with Annotations"
 link: "https://medium.com/@asgreen200/enhance-your-development-experience-in-spring-boot-with-annotations-db9e5037bce0"
+isUpdated: true
 ---
+
+
 
 
 이 블로그에서는 Spring Boot에서 개발 경험을 향상시킬 수 있는 어노테이션 목록을 소개하겠습니다.

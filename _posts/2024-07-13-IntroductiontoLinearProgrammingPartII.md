@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to Linear Programming — Part II"
 link: "https://medium.com/towards-data-science/introduction-to-linear-programming-part-ii-4fa9521ac3a7"
+isUpdated: true
 ---
+
+
 
 
 작년에 작은 가족 소유 철강 및 금속 사업에서 일하는 친구에게 접근 받았습니다. 그는 철강 빔을 절단할 때 낭비를 최소화하는 데 도움이 되는 무언가를 만들 수 있는지 궁금해 했습니다. 선형 프로그래밍을 활용한 문제 해결 같네요!

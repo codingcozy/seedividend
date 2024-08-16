@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Automate VPC Peering with Terraform"
 link: "https://medium.com/stackademic/automate-vpc-peering-with-terraform-cc30fe9bcc5b"
+isUpdated: true
 ---
+
+
 
 
 

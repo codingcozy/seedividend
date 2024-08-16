@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTML INJECTION (Payload List)"
 link: "https://medium.com/@psychomong/html-injection-payload-list-735e69f522ca"
+isUpdated: true
 ---
+
+
 
 
 피신몽인 사람들, 다시 돌아

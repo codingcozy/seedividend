@@ -3,12 +3,15 @@ title: "CSS로 만드는 만화 효과 라인 쉽게 그리는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-02-CSSSurpriseMangaLines_0.png"
 date: 2024-07-02 21:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-CSSSurpriseMangaLines_0.png
 tag: Tech
 originalTitle: "CSS Surprise Manga Lines"
 link: "https://medium.com/@alvaromontoro/css-surprise-manga-lines-a70f57bc6faa"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-02-CSSSurpriseMangaLines_0.png" />
 

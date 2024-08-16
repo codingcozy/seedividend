@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "17 Advanced JavaScript Tricks for Experienced Developers "
 link: "https://medium.com/@frontend-developer/20-advanced-javascript-tricks-for-experienced-developers-03a1b9b23e3b"
+isUpdated: true
 ---
+
+
 
 
 

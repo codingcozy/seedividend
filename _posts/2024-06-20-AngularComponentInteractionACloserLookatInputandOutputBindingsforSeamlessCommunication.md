@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Component Interaction: A Closer Look at Input() and Output() Bindings for Seamless Communication"
 link: "https://medium.com/@ayushgrwl365/angular-component-interaction-a-closer-look-at-input-and-output-bindings-for-seamless-6632c800aad"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-AngularComponentInteractionACloserLookatInputandOutputBindingsforSeamlessCommunication_0.png" />

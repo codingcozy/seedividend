@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Running a Scheduled job in NextJS with Node Cron"
 link: "https://medium.com/@farmaan30327/running-a-scheduled-job-in-nextjs-with-node-cron-77f0433a713b"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-20-RunningaScheduledjobinNextJSwithNodeCron](/assets/img/2024-06-20-RunningaScheduledjobinNextJSwithNodeCron_0.png)

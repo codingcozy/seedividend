@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use React Component Inside Angular Project"
 link: "https://medium.com/@wahidsaeed1/use-react-component-inside-angular-project-3c816213933c"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-UseReactComponentInsideAngularProject_0.png" />

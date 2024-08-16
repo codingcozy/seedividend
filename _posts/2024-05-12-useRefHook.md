@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "useRef Hook"
 link: "https://medium.com/@arunangshudas/reacts-useref-hook-62276bd9c534"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-useRefHook_0.png" />

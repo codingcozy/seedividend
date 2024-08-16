@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Liskov Substitution Principle Isn’t Complex. Just Give It a Try"
 link: "https://medium.com/better-programming/liskov-substitution-principle-isnt-complex-just-give-it-a-try-d4f84093ca5f"
+isUpdated: true
 ---
+
+
 
 
 ## 리스코프 치환 원칙을 더 잘 이해할 수 있는 가이드

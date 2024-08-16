@@ -3,12 +3,15 @@ title: "shadcn UI 추가 컴포넌트 및 리소스 모음"
 description: ""
 coverImage: "/assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_0.png"
 date: 2024-07-06 10:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_0.png
 tag: Tech
 originalTitle: "shadcn ui additional components and resources"
 link: "https://medium.com/@jidefr/shadcn-ui-add-components-and-resources-0846b0f57596"
+isUpdated: true
 ---
+
+
 
 # 원본 게시물 이후 추가된 내용:
 

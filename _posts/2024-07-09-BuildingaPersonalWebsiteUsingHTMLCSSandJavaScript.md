@@ -3,12 +3,15 @@ title: "HTML, CSS, JavaScript로 개인 웹사이트 제작하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildingaPersonalWebsiteUsingHTMLCSSandJavaScript_0.png"
 date: 2024-07-09 14:06
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-BuildingaPersonalWebsiteUsingHTMLCSSandJavaScript_0.png
 tag: Tech
 originalTitle: "Building a Personal Website Using HTML, CSS, and JavaScript"
 link: "https://medium.com/@learntocodetoday/building-a-personal-website-using-html-css-and-javascript-b6c1ffa16019"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-BuildingaPersonalWebsiteUsingHTMLCSSandJavaScript_0.png)
 

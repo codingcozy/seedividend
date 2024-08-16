@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Work With Apex Method In LWC"
 link: "https://medium.com/@saurabh.samirs/work-with-apex-method-in-lwc-3da9db823571"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-WorkWithApexMethodInLWC_0.png)

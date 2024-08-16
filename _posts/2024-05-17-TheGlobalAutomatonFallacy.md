@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Global Automaton Fallacy"
 link: "https://medium.com/@vincentlesang/the-global-automaton-fallacy-f1e1a2af2f81"
+isUpdated: true
 ---
+
+
 
 
 ## 기술 세계가 어리석어지고 있는가요?

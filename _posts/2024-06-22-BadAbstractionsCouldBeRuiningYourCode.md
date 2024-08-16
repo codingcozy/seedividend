@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bad Abstractions Could Be Ruining Your Code"
 link: "https://medium.com/gitconnected/bad-abstractions-could-be-ruining-your-code-bf06901585b0"
+isUpdated: true
 ---
+
+
 
 
 상당히 큰 코드베이스에서 작업 중이라고 상상해 봅시다. 다음 코드에서 문제점을 발견하셨나요?

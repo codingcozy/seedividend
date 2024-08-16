@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Backgrounds"
 link: "https://storybook.js.org/docs/essentials/backgrounds"
+isUpdated: true
 ---
+
+
 
 
 

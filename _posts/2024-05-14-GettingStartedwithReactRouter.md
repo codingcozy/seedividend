@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with React Router"
 link: "https://medium.com/learnfactory-nigeria/getting-started-with-react-router-11bdf6c6ceb2"
+isUpdated: true
 ---
+
+
 
 
 ![React Router](/assets/img/2024-05-14-GettingStartedwithReactRouter_0.png)

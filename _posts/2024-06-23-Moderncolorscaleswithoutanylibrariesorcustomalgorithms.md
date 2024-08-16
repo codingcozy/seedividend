@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Modern color scales without any libraries or custom algorithms"
 link: "https://medium.com/@marian-caikovski/modern-color-scales-without-any-libraries-or-custom-algorithms-12e2267c7068"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-23-Moderncolorscaleswithoutanylibrariesorcustomalgorithms_0.png)

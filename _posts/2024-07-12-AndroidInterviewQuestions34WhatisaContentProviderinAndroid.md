@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Android Interview Questions: 34 | What is a Content Provider in Android?"
 link: "https://medium.com/@dawinderapps/android-interview-questions-34-what-is-a-content-provider-in-android-5b8ce750e1d3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-AndroidInterviewQuestions34WhatisaContentProviderinAndroid_0.png" />

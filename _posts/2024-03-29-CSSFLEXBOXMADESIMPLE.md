@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS FLEXBOX MADE SIMPLE"
 link: "https://medium.com/@chingkeziah/css-flexbox-made-simple-b01d9559d766"
+isUpdated: true
 ---
+
+
 
 
 

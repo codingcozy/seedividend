@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS width와 height 모두 지정하기"
 link: "https://medium.com/@fedev-kim/css-width%EC%99%80-height-%EB%AA%A8%EB%91%90-%EC%A7%80%EC%A0%95%ED%95%98%EA%B8%B0-66de7c16dd06"
+isUpdated: true
 ---
+
+
 
 
 

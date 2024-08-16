@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Trailing Closures in Swift"
 link: "https://medium.com/@harshaag99/understanding-trailing-closures-in-swift-2525e2ea793a"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-04-UnderstandingTrailingClosuresinSwift_0.png" />

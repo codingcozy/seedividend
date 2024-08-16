@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Data fetching patterns in Angular"
 link: "https://medium.com/medialesson/data-fetching-patterns-in-angular-185da4cfbcde"
+isUpdated: true
 ---
+
+
 
 
 쥬타오 취(邱俊涛)는 최근 마틴 파울러의 웹사이트에 싱글 페이지 애플리케이션에서의 데이터 패칭 패턴에 관한 기사를 게시했어요. 꼭 읽어보길 추천하는데, 모든 예시는 React나 순수 JavaScript를 사용해요. 이어서 나오는 내용에서는 모든 설명된 패턴들을 Angular 애플리케이션에 적용하는 방법을 볼 거에요. Angular와 React 간의 알려진 차이 때문에 결과가 많이 다르게 나타나요.

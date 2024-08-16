@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "ColorPalette"
 link: "https://storybook.js.org/docs/api/doc-block-colorpalette"
+isUpdated: true
 ---
+
+
 
 
 

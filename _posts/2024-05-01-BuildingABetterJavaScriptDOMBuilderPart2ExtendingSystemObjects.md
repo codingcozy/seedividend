@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building A Better JavaScript DOM Builder : Part 2 Extending System Objects"
 link: "https://medium.com/codex/building-a-better-javascript-dom-builder-part-2-extending-system-objects-ec159349c864"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-BuildingABetterJavaScriptDOMBuilderPart2ExtendingSystemObjects_0.png" />

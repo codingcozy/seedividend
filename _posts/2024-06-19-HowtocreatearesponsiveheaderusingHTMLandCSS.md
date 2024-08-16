@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create a ‘responsive header’ using HTML and CSS ?"
 link: "https://medium.com/@ilhanbal577/how-to-create-a-responsive-header-using-html-and-css-929b087e38d0"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "인증 Authentication"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

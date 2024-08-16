@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TechTesti  Testimonial Section Tailwind Template Site Templates Web Templates"
 link: "https://medium.com/@glitchgiselle/techtesti-testimonial-section-tailwind-template-site-templates-web-templates-a9b2d236c964"
+isUpdated: true
 ---
+
+
 
 
 

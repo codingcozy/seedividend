@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Solve the Promise Concurrency Issue with 30 Lines of Code"
 link: "https://medium.com/javascript-in-plain-english/how-to-solve-the-promise-concurrency-issue-with-30-lines-of-code-3da4a5cb5136"
+isUpdated: true
 ---
+
+
 
 
 

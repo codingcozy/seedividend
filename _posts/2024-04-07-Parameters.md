@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Parameters"
 link: "https://storybook.js.org/docs/writing-stories/parameters"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Web UI Development Is So Hard"
 link: "https://medium.com/itnext/why-web-ui-development-is-so-hard-a88c47f4b3c5"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind is changing the landscape of user experience"
 link: "https://medium.com/gopenai/tailwind-is-changing-the-landscape-of-user-experience-46de4ace5fbb"
+isUpdated: true
 ---
+
+
 
 
 다르실 자댭, Think In Bytes의 풀스택 엔지니어가 말하길, Tailwind는 개발자들 사이에서 널리 사용되어 동적이고 매력적이며 견고한 프런트엔드 애플리케이션을 구축하는 데 인기를 끌고 있다.

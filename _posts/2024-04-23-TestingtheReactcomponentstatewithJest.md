@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Testing the React component state with Jest"
 link: "https://medium.com/developer-rants/testing-the-react-component-state-with-jest-b0a072f70f44"
+isUpdated: true
 ---
+
+
 
 
 

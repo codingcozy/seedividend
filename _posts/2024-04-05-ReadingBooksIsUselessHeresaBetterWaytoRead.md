@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reading Books Is Useless Heres a Better Way to Read"
 link: "https://medium.com/@kevinnokiawriting/reading-books-is-useless-heres-a-better-way-to-read-b3a49e157948"
+isUpdated: true
 ---
+
+
 
 
 

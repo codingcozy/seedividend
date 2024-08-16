@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript Features That Most Developers Don’t Know"
 link: "https://medium.com/gitconnected/javascript-features-that-most-developers-dont-know-36a00c35aa98"
+isUpdated: true
 ---
+
+
 
 
 

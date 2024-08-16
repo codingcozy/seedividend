@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Docker: Creating Efficient Multi-Stage Builds for Node.js Applications"
 link: "https://medium.com/codex/mastering-docker-creating-efficient-multi-stage-builds-for-node-js-applications-34cb9731990e"
+isUpdated: true
 ---
+
+
 
 
 ![Docker Multi-Stage Builds](/assets/img/2024-07-13-MasteringDockerCreatingEfficientMulti-StageBuildsforNodejsApplications_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Guide to Internationalization (i18n) in Angular"
 link: "https://medium.com/@ayushgrwl365/a-guide-to-internationalization-i18n-in-angular-a6ca7a9bc027"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-20-AGuidetoInternationalizationi18ninAngular_0.png](/assets/img/2024-06-20-AGuidetoInternationalizationi18ninAngular_0.png)

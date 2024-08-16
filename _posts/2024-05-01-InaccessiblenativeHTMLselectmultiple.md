@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Inaccessible native HTML: <select multiple>"
 link: "https://medium.com/user-experience-design-1/inaccessible-native-html-select-multiple-ec19c7bd67e7"
+isUpdated: true
 ---
+
+
 
 
 ## 접근하기 어려운 HTML

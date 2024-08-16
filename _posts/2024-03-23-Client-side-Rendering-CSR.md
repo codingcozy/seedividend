@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "고객 측 렌더링 CSR"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

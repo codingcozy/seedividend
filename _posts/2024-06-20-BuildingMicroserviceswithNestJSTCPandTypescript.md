@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Microservices with NestJS, TCP and Typescript"
 link: "https://medium.com/itnext/building-microservices-with-nestjs-tcp-and-typescript-dda33aad8b89"
+isUpdated: true
 ---
+
+
 
 
 ## 마이크로서비스가 서로 상호 작용하는 방법

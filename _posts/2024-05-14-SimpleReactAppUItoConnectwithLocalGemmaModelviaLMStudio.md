@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple React App UI to Connect with Local Gemma Model via LM Studio"
 link: "https://medium.com/@magesh27/simple-react-app-ui-to-connect-with-local-gemma-model-via-lm-studio-c746c8a996f5"
+isUpdated: true
 ---
+
+
 
 
 로컬 데이터를 Gemma를 통해 LM Studio로 처리함으로써 정보를 외부 서버로 보내지 않고 제어할 수 있습니다. 이 방식은 민감한 문서나 개인 데이터를 다룰 때 데이터 개인 정보 보호와 보안을 보장합니다. 이 기사에서는 로컬 LLM과 상호작용하기 위해 간단한 React 앱 GUI를 사용하는 방법을 살펴보겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Testing Select Components with React Testing Library"
 link: "https://medium.com/gitconnected/testing-select-components-with-react-testing-library-4bdb529ac8d7"
+isUpdated: true
 ---
+
+
 
 
 

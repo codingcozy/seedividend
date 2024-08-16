@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use Docker, Uptime Kuma, and Traefik To Monitor Your Website"
 link: "https://medium.com/gitconnected/use-docker-uptime-kuma-and-traefik-to-monitor-your-website-593373f9e0c2"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-UseDockerUptimeKumaandTraefikToMonitorYourWebsite_0.png)

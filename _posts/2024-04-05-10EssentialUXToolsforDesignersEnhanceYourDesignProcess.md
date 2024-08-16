@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Essential UX Tools for Designers Enhance Your Design Process"
 link: "https://medium.com/design-bootcamp/10-essential-ux-tools-for-designers-enhance-your-design-process-da8387f65d00"
+isUpdated: true
 ---
+
+
 
 
 

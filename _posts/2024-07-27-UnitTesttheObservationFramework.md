@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unit Test the Observation Framework"
 link: "https://medium.com/better-programming/unit-test-the-observation-framework-d0f0fe240944"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make border animation using HTML and CSS"
 link: "https://medium.com/@tajammalmaqbool11/how-to-make-border-animation-using-html-and-css-a5bbf0f19df6"
+isUpdated: true
 ---
+
+
 
 
 

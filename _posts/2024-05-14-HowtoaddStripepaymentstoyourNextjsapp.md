@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to add Stripe payments to your Next.js app"
 link: "https://medium.com/@sultanoveli/how-to-add-stripe-payments-to-your-next-js-app-d1cfced7c8a5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-HowtoaddStripepaymentstoyourNextjsapp_0.png" />

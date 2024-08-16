@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The magic behind Apollos useQuery hook"
 link: "https://medium.com/stackademic/the-magic-behind-apollo-s-usequery-hook-05023588a6a3"
+isUpdated: true
 ---
+
+
 
 
 

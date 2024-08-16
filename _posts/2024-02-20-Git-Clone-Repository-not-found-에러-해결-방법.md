@@ -1,5 +1,5 @@
 ---
-title: "Git Clone Repository not found 에러 해결 방법"
+title: "Git Clone할 때 Repository not found 에러 해결 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

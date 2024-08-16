@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SDE -2 Frontend Interview Exp  MMT"
 link: "https://medium.com/@prikshit8/sde-2-frontend-interview-exp-mmt-001828ab6dc5"
+isUpdated: true
 ---
+
+
 
 
 

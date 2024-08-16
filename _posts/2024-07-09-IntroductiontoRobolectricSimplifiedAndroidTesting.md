@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to Robolectric: Simplified Android Testing"
 link: "https://medium.com/@farimarwat/introduction-to-robolectric-simplified-android-testing-24b762994c63"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-09-IntroductiontoRobolectricSimplifiedAndroidTesting_0.png" />

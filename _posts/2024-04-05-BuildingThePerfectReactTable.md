@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building The Perfect React Table"
 link: "https://medium.com/bitsrc/building-a-react-table-f55783158e71"
+isUpdated: true
 ---
+
+
 
 
 

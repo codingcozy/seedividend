@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nielsen and Norman Should Be Ignored"
 link: "https://rbefored.com/nielsen-and-norman-should-be-ignored-3908aca8085b"
+isUpdated: true
 ---
+
+
 
 
 

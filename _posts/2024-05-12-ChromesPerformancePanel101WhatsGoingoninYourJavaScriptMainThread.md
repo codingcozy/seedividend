@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Chrome’s Performance Panel 101: What’s Going on in Your JavaScript Main Thread"
 link: "https://medium.com/gitconnected/chromes-performance-panel-101-what-s-going-on-in-your-javascript-main-thread-da1bb0c6c298"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-ChromesPerformancePanel101WhatsGoingoninYourJavaScriptMainThread_0.png" />

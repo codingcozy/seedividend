@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Form Validation Using JavaScripts Constraint Validation API"
 link: "https://medium.com/stackanatomy/form-validation-using-javascripts-constraint-validation-api-fd4b70720288"
+isUpdated: true
 ---
+
+
 
 
 

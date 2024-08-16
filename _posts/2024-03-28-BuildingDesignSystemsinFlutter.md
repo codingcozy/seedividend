@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Design Systems in Flutter"
 link: "https://medium.com/better-programming/building-design-systems-in-flutter-d52d66004070"
+isUpdated: true
 ---
+
+
 
 
 

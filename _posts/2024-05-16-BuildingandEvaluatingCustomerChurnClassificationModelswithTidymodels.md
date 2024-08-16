@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building and Evaluating Customer Churn Classification Models with Tidymodels"
 link: "https://medium.com/towards-data-science/building-and-evaluating-classification-models-to-predict-customer-churn-with-tidymodels-de282075fc7b"
+isUpdated: true
 ---
+
+
 
 
 ![표](/assets/img/2024-05-16-BuildingandEvaluatingCustomerChurnClassificationModelswithTidymodels_0.png)

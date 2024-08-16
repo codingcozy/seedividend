@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the New React Native IDE: A Game Changer for Developers"
 link: "https://medium.com/stackademic/exploring-the-new-react-native-ide-a-game-changer-for-developers-551ffd97b83d"
+isUpdated: true
 ---
+
+
 
 
 React Native 개발자들이 기대할만한 새로운 것이 있습니다 — 현재 베타 단계에 있는 새로운 React Native IDE입니다. 이 흥미로운 새로운 도구는 Visual Studio Code (VS Code) 확장 프로그램으로 제공되며, macOS에서 안드로이드와 iOS 플랫폼 모두에 대한 개발을 지원합니다. 이 블로그에서는 이 IDE의 기능, 이점 및 잠재적인 도전 과제에 대해 탐구하고, React Native 개발 커뮤니티에 중요한 발전을 뜻하는 이유를 살펴보겠습니다.

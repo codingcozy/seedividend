@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Web Components slots and React"
 link: "https://medium.com/@damiantriebl/web-components-slots-and-react-ee1dae7b0d21"
+isUpdated: true
 ---
+
+
 
 
 

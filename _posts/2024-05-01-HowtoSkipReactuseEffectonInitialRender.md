@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Skip React useEffect on Initial Render"
 link: "https://medium.com/@dpericich/how-to-bypass-useeffect-on-your-first-page-render-c31b7ba112a7"
+isUpdated: true
 ---
+
+
 
 
 

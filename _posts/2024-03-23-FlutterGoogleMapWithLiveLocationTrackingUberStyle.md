@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter Google Map With Live Location Tracking  Uber Style"
 link: "https://medium.com/flutter-community/flutter-google-map-with-live-location-tracking-uber-style-12da38771829"
+isUpdated: true
 ---
+
+
 
 
 

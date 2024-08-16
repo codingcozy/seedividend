@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to correctly use TypeScript types for your API response"
 link: "https://medium.com/@wujido20/runtime-types-in-typescript-5f74fc9dc6c4"
+isUpdated: true
 ---
+
+
 
 
 ## JSON 응답을 받을 때 올바른 타입을 보장받을 수 없습니다. 물론 형 변환을 수행하고 모든 것이 괜찮다고 가정할 수 있지만, 이 상황에서 정말로 타입 안전한 방법을 알고 계신가요?

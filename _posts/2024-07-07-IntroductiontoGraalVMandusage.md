@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to GraalVM, and usage"
 link: "https://medium.com/@alxkm/introduction-to-graalvm-and-usage-105f30a30de3"
+isUpdated: true
 ---
+
+
 
 
 GraalVM 탐험: 그 능력을 활용하는 안내서 및 실용적인 가이드

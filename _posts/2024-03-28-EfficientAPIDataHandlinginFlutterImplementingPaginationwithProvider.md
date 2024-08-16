@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Efficient API Data Handling in Flutter Implementing Pagination with Provider"
 link: "https://medium.com/@bensatriya3/efficient-api-data-handling-in-flutter-implementing-pagination-with-provider-772462f95a18"
+isUpdated: true
 ---
+
+
 
 
 

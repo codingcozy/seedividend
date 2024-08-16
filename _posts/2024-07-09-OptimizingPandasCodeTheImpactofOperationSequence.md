@@ -3,12 +3,15 @@ title: "Pandas 코드 최적화 연산 순서가 미치는 영향"
 description: ""
 coverImage: "/assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_0.png"
 date: 2024-07-09 20:47
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-OptimizingPandasCodeTheImpactofOperationSequence_0.png
 tag: Tech
 originalTitle: "Optimizing Pandas Code: The Impact of Operation Sequence"
 link: "https://medium.com/towards-data-science/optimizing-pandas-code-the-impact-of-operation-sequence-0c5aa159632a"
+isUpdated: true
 ---
+
+
 
 ## 파이썬 프로그래밍
 

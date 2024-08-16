@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Communication between React Native web view and React app"
 link: "https://medium.com/@svbala99/communication-between-react-native-web-view-and-react-app-c0fb0af7e5a6"
+isUpdated: true
 ---
+
+
 
 
 이것은 React Native 웹 뷰와 React 응용 프로그램 간의 데이터 통신 방법 중 하나입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "8 Tips to Speed Up Your Python Code"
 link: "https://medium.com/python-in-plain-english/8-tips-to-speed-up-your-python-code-e8df2d027f35"
+isUpdated: true
 ---
+
+
 
 
 

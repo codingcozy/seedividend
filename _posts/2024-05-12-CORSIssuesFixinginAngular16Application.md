@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CORS Issues Fixing in Angular16 Application"
 link: "https://medium.com/@srinathsree122/fixing-cors-issues-in-angular16-application-3d53d46dc845"
+isUpdated: true
 ---
+
+
 
 
 

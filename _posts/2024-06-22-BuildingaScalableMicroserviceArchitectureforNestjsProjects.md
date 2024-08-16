@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Scalable Microservice Architecture for Nest.js Projects"
 link: "https://medium.com/widle-studio/mastering-microservices-in-nest-js-eb143a6b9639"
+isUpdated: true
 ---
+
+
 
 
 요즘에는 마이크로서비스 아키텍처가 확장 가능하고 유지보수가 용이하며 유연한 애플리케이션을 개발할 수 있는 능력 때문에 상당한 인기를 얻고 있습니다. Nest.js는 점진적인 Node.js 프레임워크로, 마이크로서비스를 구축하기에 적합합니다. 본 문서에서는 Nest.js 프로젝트를 위한 마이크로서비스 아키텍처를 설계하고 구현하는 방법을 살펴볼 것입니다. 마이크로서비스를 구축하는 데 필요한 주요 개념, 장점 및 최선의 방법, 그리고 구현을 설명하는 실용적인 코드 예제를 포함하고 있습니다.

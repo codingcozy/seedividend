@@ -3,12 +3,15 @@ title: "프라이빗 데이터를 활용한 Amazon Bedrock 지식 베이스 구�
 description: ""
 coverImage: "/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png"
 date: 2024-07-07 19:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png
 tag: Tech
 originalTitle: "Amazon Bedrock Knowledge Bases with Private Data"
 link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-private-data-7685d04ef396"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png" />
 

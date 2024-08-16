@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " CSS Lab 1 A world of contrasts"
 link: "https://medium.com/@mina-pecheux/css-lab-1-i-spy-with-my-little-eye-c41a8004df24"
+isUpdated: true
 ---
+
+
 
 
 

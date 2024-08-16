@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Flutter on the Desktop Can’t Survive Without Rust"
 link: "https://medium.com/better-programming/why-flutter-on-the-desktop-cant-survive-without-rust-26ccd6ae30e0"
+isUpdated: true
 ---
+
+
 
 
 

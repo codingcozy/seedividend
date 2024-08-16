@@ -3,12 +3,15 @@ title: "Merge와 Clsx로 Tailwind CSS 클래스 관리 간편하게 하는 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-SimplifyYourTailwindCSSClassManagementwithMergeandClsx_0.png"
 date: 2024-07-09 14:11
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-SimplifyYourTailwindCSSClassManagementwithMergeandClsx_0.png
 tag: Tech
 originalTitle: "Simplify Your Tailwind CSS Class Management with Merge and Clsx"
 link: "https://medium.com/@nomanfareed681/simplify-your-tailwind-css-class-management-with-merge-and-clsx-42f1e2458fd8"
+isUpdated: true
 ---
+
+
 
 테일윈드 CSS 클래스를 효율적으로 관리하고 결합하는 방법을 배우세요. merge 및 clsx 유틸리티를 사용하여
 

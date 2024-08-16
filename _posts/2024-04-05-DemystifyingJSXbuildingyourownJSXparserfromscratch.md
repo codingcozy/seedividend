@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying JSX building your own JSX parser from scratch"
 link: "https://medium.com/bitsrc/demystifying-jsx-building-your-own-jsx-parser-from-scratch-caecf58d7cbd"
+isUpdated: true
 ---
+
+
 
 
 

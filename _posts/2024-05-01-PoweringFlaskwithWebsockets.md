@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Powering Flask with Websockets"
 link: "https://medium.com/@chandan-sharma/powering-flask-with-websockets-ca9f5a097ad9"
+isUpdated: true
 ---
+
+
 
 
 플라스크는 파이썬으로 작은부터 중간 규모의 웹 애플리케이션을 개발하기에 우수한 마이크로 프레임워크입니다.

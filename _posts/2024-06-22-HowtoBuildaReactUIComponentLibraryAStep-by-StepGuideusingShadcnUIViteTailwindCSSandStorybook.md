@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Build a React UI Component Library: A Step-by-Step Guide using Shadcn UI, Vite, Tailwind CSS, and Storybook"
 link: "https://medium.com/@tiwariashutosh/how-to-build-a-react-ui-component-library-a-step-by-step-guide-using-shadcn-ui-vite-tailwind-36c1b89e2113"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-22-HowtoBuildaReactUIComponentLibraryAStep-by-StepGuideusingShadcnUIViteTailwindCSSandStorybook_0.png)

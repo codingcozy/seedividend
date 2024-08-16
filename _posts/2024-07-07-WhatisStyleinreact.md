@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is Style in react?"
 link: "https://medium.com/@goutam2606/what-is-style-in-react-886d58f6a016"
+isUpdated: true
 ---
+
+
 
 
 Styled component는 리액트를 위한 CSS-in-JS 스타일링 솔루션입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Accessible Angular: Building for Every User"
 link: "https://medium.com/@babatundelamidi/accessible-angular-building-for-every-user-86c2855ba4ad"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-AccessibleAngularBuildingforEveryUser_0.png" />

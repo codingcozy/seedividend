@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Custom Annotations Mastery"
 link: "https://medium.com/@ahmed.abdelfaheem/custom-annotations-mastery-5bcf1d9f91bd"
+isUpdated: true
 ---
+
+
 
 
 

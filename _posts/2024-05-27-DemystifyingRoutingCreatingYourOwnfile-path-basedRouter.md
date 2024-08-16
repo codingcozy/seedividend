@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying Routing: Creating Your Own file-path-based Router"
 link: "https://medium.com/bitsrc/demystifying-routing-creating-your-own-file-path-based-router-e5f7245a4925"
+isUpdated: true
 ---
+
+
 
 
 ## 모든 현대 프레임워크에서 사용하는 기능, 왜 비밀로 유지해야합니까?

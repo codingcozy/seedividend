@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "If I started learning AI Engineering in 2024, here’s what I would do."
 link: "https://medium.com/ai-advances/if-i-started-learning-ai-engineering-in-2024-heres-what-i-would-do-25dc37bc015a"
+isUpdated: true
 ---
+
+
 
 
 여러분, 안녕하세요!

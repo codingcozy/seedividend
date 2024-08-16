@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 must-have skills to become a top 1% web developer"
 link: "https://medium.com/coding-beauty/web-dev-essentials-5982fcf22470"
+isUpdated: true
 ---
+
+
 
 
 

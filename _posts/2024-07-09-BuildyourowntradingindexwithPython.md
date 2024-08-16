@@ -3,12 +3,15 @@ title: "Python으로 나만의 트레이딩 인덱스 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png"
 date: 2024-07-09 20:37
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png
 tag: Tech
 originalTitle: "Build your own trading index with Python"
 link: "https://medium.com/python-in-plain-english/build-your-own-trading-index-with-python-483cea143bc2"
+isUpdated: true
 ---
+
+
 
 ## 거래 결정 도구
 

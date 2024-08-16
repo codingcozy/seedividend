@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with Android An Introduction to Kotlin Programming Language"
 link: "https://medium.com/@royanimesh2211/getting-started-with-android-an-introduction-to-kotlin-programming-language-dea82a6cf17c"
+isUpdated: true
 ---
+
+
 
 
 

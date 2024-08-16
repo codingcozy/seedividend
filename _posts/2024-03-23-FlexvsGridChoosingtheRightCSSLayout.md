@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flex vs Grid Choosing the Right CSS Layout"
 link: "https://medium.com/@thegautam.vaja/flex-vs-grid-choosing-the-right-css-layout-02b9630b8907"
+isUpdated: true
 ---
+
+
 
 
 

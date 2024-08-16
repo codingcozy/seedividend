@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Customize Material UI Components and Theme: A Modern Approach"
 link: "https://medium.com/bitsrc/customize-material-ui-components-and-theme-a-modern-approach-18fe581ea359"
+isUpdated: true
 ---
+
+
 
 
 ## Bit와 Material UI를 사용하여 초모듈화된 컴포넌트 라이브러리 구축하기

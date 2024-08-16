@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "package-lock.json: The Complete Guide"
 link: "https://medium.com/pavesoft/package-lock-json-the-complete-guide-2ae40175ebdd"
+isUpdated: true
 ---
+
+
 
 
 ## package-lock.json이란 무엇이고, 왜 신경 써야 하나요?

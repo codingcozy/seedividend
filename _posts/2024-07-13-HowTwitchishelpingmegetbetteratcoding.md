@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Twitch is helping me get better at coding"
 link: "https://medium.com/code-like-a-girl/how-twitch-is-helping-me-get-better-at-coding-3d2c8eb38061"
+isUpdated: true
 ---
+
+
 
 
 코딩 능력을 향상시키는 방법을 선택하는 것은 어려운 과제일 수 있어요. 코딩하고 무언가를 만들려고 노력할 때, 때로는 수시로 버그에 집중해서 올바른 해결책을 찾기 어려울 수 있어요. 하지만 여기서 한 가지 알려드리고 싶은 것은 Twitch가 유용한 해결책이라는 거죠. 코더로서 다양한 어려운 문제들을 마주치게 되지만, Twitch를 활용하면 이 경험을 더 나은 것으로 만들 수 있어요. 어떤 사람들은 Twitch에서 게임을 하는 데 열중한다고 맹세합니다만, 저는 코딩 활동을 스트리밍하는 데 헌신합니다. 이는 전 세계 사람들과 연결되어 소중한 통찰을 얻을 수 있어서 협업 경험이 더 좋아지기 때문이에요.

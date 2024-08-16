@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Record Audio in JS and upload as wav or mp3 file to your backend"
 link: "https://medium.com/@franzeus/record-audio-in-js-and-upload-as-wav-or-mp3-file-to-your-backend-1a2f35dea7e8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-RecordAudioinJSanduploadaswavormp3filetoyourbackend_0.png" />

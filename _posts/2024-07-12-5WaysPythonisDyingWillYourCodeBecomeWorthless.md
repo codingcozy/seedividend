@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Ways Python is Dying: Will Your Code Become Worthless?"
 link: "https://medium.com/python-in-plain-english/5-ways-python-is-dying-will-your-code-become-worthless-f59b5c84041b"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "'Good Commit' vs 'Your Commit': How to Write a Perfect Git Commit Message"
 link: "https://medium.com/gitconnected/good-commit-vs-your-commit-how-to-write-a-perfect-git-commit-message-6e96ab6357fa"
+isUpdated: true
 ---
+
+
 
 
 수 년 전, 궁금증 때문에 커밋 메시지 작성에 대한 구체적인 규칙이 있다는 것을 알지 못했어요. 예전엔 "기능 2 추가", "메인 네비게이션 바 버그 수정", 혹은 "foo"와 같이 간단한 메시지가 충분하다고 생각했어요. 하지만 커밋 메시지가 대부분 무시당한다고 생각했던 것은 잘못된 생각이었어요. 실제로, 신중하고 세심하게 작성된 커밋 메시지는 우리 미래의 자신이 우리의 성실함과 세심함에서 이익을 얻게끔 해주는 필수적인 역할을 합니다.

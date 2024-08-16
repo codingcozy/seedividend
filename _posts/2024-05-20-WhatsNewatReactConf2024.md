@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s New at React Conf 2024"
 link: "https://medium.com/gitconnected/whats-new-at-react-conf-2024-376e509a172b"
+isUpdated: true
 ---
+
+
 
 
 ## 빠르게 따라잡는 빠른 안내서

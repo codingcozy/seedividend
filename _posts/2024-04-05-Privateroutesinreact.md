@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Private routes in react"
 link: "https://medium.com/@bhairabpatra.iitd/private-routes-in-react-559a7d8d161f"
+isUpdated: true
 ---
+
+
 
 
 

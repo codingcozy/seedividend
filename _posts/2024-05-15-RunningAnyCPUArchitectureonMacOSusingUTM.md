@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Running Any CPU Architecture on MacOS using UTM"
 link: "https://medium.com/@fongyang/running-any-cpu-architecture-on-macos-using-utm-a1de25af85ff"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-RunningAnyCPUArchitectureonMacOSusingUTM_0.png" />

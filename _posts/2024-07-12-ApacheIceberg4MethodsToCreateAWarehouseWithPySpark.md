@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Apache Iceberg: 4 Methods To Create A Warehouse With PySpark"
 link: "https://medium.com/gitconnected/apache-iceberg-4-methods-to-create-a-warehouse-with-pyspark-d962ede83a74"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-12-ApacheIceberg4MethodsToCreateAWarehouseWithPySpark_0.png)

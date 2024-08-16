@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s Fresh in TypeScript 5.3: Let’s Dive In!"
 link: "https://medium.com/@Evelyn.Taylor/whats-fresh-in-typescript-5-3-let-s-dive-in-cc2cf822012c"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SQL Server’s Secret Feature — Run Python and Add-Ons Natively In SQL Server"
 link: "https://medium.com/towards-data-science/sql-servers-secret-feature-run-python-and-add-ons-natively-in-sql-server-7f3c4efe5c00"
+isUpdated: true
 ---
+
+
 
 
 ## 파이썬 라이브러리를 가져와서 SQL 테이블을 조작하고 출력하며, SQL 서버를 떠나지 않고 작업하세요.

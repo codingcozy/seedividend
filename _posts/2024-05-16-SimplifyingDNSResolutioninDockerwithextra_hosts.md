@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simplifying DNS Resolution in Docker with extra_hosts"
 link: "https://medium.com/@gopidesaboyina/simplifying-dns-resolution-in-docker-with-extra-hosts-bda92e0a89e9"
+isUpdated: true
 ---
+
+
 
 
 소개: Docker 세계에서는 가장 간단한 작업조차 복잡해질 수 있습니다. 최근 Docker 컨테이너에서 Apache Airflow를 실행하는 중에 귀찮은 문제에 직면했습니다. 우리의 설정은 Airflow를 Azure PostgreSQL 데이터베이스에 연결하는 것을 포함했지만, 때때로 DNS 오류로 인해 작업 흐름이 방해받았습니다. 조사를 통해 Docker의 DNS 캐싱 부족이 문제의 주범임을 알게 되었습니다. 이 게시물에서는 Docker Compose의 extra_hosts 기능을 활용하여 문제를 해결한 방법을 공유하겠습니다. 이를 통해 팀이 불필요한 두통으로부터 구해졌습니다.

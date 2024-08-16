@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deep Dive into CSS Interview Questions"
 link: "https://medium.com/@cpgupta33/deep-dive-into-css-interview-questions-bc304f6b8f2c"
+isUpdated: true
 ---
+
+
 
 
 

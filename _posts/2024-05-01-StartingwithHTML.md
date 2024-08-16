@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Starting with HTML"
 link: "https://medium.com/@elham.snigdha.ch/starting-with-html-65c2130db9af"
+isUpdated: true
 ---
+
+
 
 
 HTML은 무엇인가요? HTML은 HyperText Markup Language의 줄임말로, 프로그래밍 언어가 아닙니다. 100%의 웹사이트가 사용하는 스크립팅 언어입니다. HTML은 모든 웹사이트의 구조 또는 기반이 되는 요소입니다. 그러므로 HTML이 없으면 웹사이트가 없습니다.

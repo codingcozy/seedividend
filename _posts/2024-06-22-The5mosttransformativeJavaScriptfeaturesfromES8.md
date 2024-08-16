@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The 5 most transformative JavaScript features from ES8"
 link: "https://medium.com/coding-beauty/es8-js-features-fe426b28c0ca"
+isUpdated: true
 ---
+
+
 
 
 

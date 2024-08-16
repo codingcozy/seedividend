@@ -3,12 +3,15 @@ title: "파이썬 함수 사용법을 일찍 배웠어야 했던 7가지 팁"
 description: ""
 coverImage: "/assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png"
 date: 2024-07-09 14:44
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png
 tag: Tech
 originalTitle: "7 Things I Should’ve Learnt Much Earlier For Python Functions"
 link: "https://medium.com/gitconnected/7-things-i-shouldve-learnt-much-earlier-for-python-functions-69d1108f0f62"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with Props in React; A Beginners Guide."
 link: "https://medium.com/@jeremy.wangai/getting-started-with-props-in-react-a-beginners-guide-58dd5d199f7d"
+isUpdated: true
 ---
+
+
 
 
 React에 오신 것을 환영합니다. 초보자라면 'props'에 대해 들어봤을 것입니다. 함께 props가 무엇이며 어떻게 사용하는지 알아보겠습니다.

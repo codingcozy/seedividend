@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Design Patterns — Adapter in Angular"
 link: "https://medium.com/@bulicka.alexandra/design-patterns-adapter-in-angular-4a9b9b993014"
+isUpdated: true
 ---
+
+
 
 
 구조 패턴은 클래스와 객체를 더 큰 구조로 결합하는 방법을 설명합니다.

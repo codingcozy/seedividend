@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 Useful kubectl Commands for Kubernetes Troubleshooting"
 link: "https://medium.com/@rehmanabdul166/top-10-useful-kubectl-commands-for-kubernetes-troubleshooting-35f169cb984d"
+isUpdated: true
 ---
+
+
 
 
 ![Top 10 Useful kubectl Commands for Kubernetes Troubleshooting](/assets/img/2024-07-13-Top10UsefulkubectlCommandsforKubernetesTroubleshooting_0.png)

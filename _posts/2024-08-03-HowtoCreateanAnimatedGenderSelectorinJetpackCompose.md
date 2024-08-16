@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create an Animated Gender Selector in Jetpack Compose"
 link: "https://medium.com/@kappdev/how-to-create-an-animated-gender-selector-in-jetpack-compose-a2f1cdb1afc0"
+isUpdated: true
 ---
+
+
 
 
 # 안녕하세요 🙋

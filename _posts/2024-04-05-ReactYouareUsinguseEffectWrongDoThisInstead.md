@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React You are Using useEffect Wrong, Do This Instead"
 link: "https://medium.com/stackademic/why-you-should-avoid-using-useeffect-hook-in-react-and-what-to-do-instead-740660e33420"
+isUpdated: true
 ---
+
+
 
 
 

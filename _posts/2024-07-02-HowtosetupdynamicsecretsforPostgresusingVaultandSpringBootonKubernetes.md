@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to set up dynamic secrets for Postgres using Vault and Spring Boot on Kubernetes"
 link: "https://medium.com/@martin.hodges/how-to-set-up-dynamic-secrets-for-postgres-using-vault-and-spring-boot-on-kubernetes-757f759d22b4"
+isUpdated: true
 ---
+
+
 
 
 이 기사에서는 Hashicorp Vault 시크릿 매니저를 사용하여 Spring Boot 애플리케이션에 동적 Postgres 자격 증명을 추가하는 방법에 대해 살펴보겠습니다.

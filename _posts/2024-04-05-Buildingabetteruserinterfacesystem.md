@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a better user interface system"
 link: "https://medium.com/@coyleandrew/building-a-better-user-interface-system-6f5a24d1b505"
+isUpdated: true
 ---
+
+
 
 
 

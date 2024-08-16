@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dynamic Module Federation with Vite"
 link: "https://medium.com/@lester.sconyers/dynamic-module-federation-with-vite-0bce2bfcc517"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-DynamicModuleFederationwithVite_0.png" />

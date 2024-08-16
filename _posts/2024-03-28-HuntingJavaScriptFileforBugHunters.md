@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hunting JavaScript File for Bug Hunters"
 link: "https://medium.com/stackademic/hunting-javascript-file-for-bug-hunters-e8b278a1306a"
+isUpdated: true
 ---
+
+
 
 
 

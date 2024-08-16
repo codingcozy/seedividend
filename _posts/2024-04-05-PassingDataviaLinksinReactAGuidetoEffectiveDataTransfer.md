@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Passing Data via Links in React A Guide to Effective Data Transfer"
 link: "https://medium.com/@hammadrao891/passing-data-via-links-in-react-a-guide-to-effective-data-transfer-1e0b030e2a12"
+isUpdated: true
 ---
+
+
 
 
 

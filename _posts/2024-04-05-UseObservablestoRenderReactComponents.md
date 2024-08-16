@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use Observables to Render React Components"
 link: "https://medium.com/bitsrc/observables-to-render-react-components-b5d1fd339734"
+isUpdated: true
 ---
+
+
 
 
 

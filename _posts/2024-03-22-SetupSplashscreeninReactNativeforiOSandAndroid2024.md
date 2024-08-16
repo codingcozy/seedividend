@@ -1,5 +1,5 @@
 ---
-title: "React 네이티브에서 iOS 및 Android용 스플래시 화면 추가하는 방법2024년 최신"
+title: "React 네이티브에서 iOS 및 Android용 스플래시 화면 추가하는 방법(2024년 최신)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Set up Splash screen in React Native for iOS and Android  2024"
 link: "https://medium.com/@svbala99/set-up-splash-screen-in-react-native-for-ios-and-android-2023-dbedb87fe75e"
+isUpdated: true
 ---
+
+
 
 
 

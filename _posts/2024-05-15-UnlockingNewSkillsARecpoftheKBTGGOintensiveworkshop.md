@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking New Skills: A Recp of the KBTG GO intensive workshop"
 link: "https://medium.com/@saharat.paynok/unlocking-new-skills-a-recp-of-the-kbtg-go-intensive-workshop-4f73d649b979"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-15-UnlockingNewSkillsARecpoftheKBTGGOintensiveworkshop_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "“Know Your Algorithm” Is the Modern Equivalent of “Know Your Audience”"
 link: "https://medium.com/writing-cooperative/know-your-algorithm-is-the-modern-equivalent-of-know-your-audience-125f5e2a6a4"
+isUpdated: true
 ---
+
+
 
 
 ## 무모한 작가

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Generating training data with OpenAI function calling"
 link: "https://medium.com/@maurerkrisztian/generating-training-data-with-openai-function-calling-d9d7ee7a4011"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-GeneratingtrainingdatawithOpenAIfunctioncalling_0.png"/>

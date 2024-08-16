@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Prevent Style Encapsulation To Break In Angular"
 link: "https://medium.com/codex/how-to-prevent-style-encapsulation-to-break-in-angular-7d593ee6e812"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-13-HowToPreventStyleEncapsulationToBreakInAngular_0.png)

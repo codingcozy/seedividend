@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I used Windows for a Year, But I’m Switching Back to Mac"
 link: "https://medium.com/illumination/i-used-windows-for-a-year-but-im-switching-back-to-mac-313db6586e0d"
+isUpdated: true
 ---
+
+
 
 
 그리고 여기에 그 이유가 있어요

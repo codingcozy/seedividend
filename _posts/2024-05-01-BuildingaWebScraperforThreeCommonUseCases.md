@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Web Scraper for Three Common Use Cases"
 link: "https://medium.com/gitconnected/building-a-web-scraper-for-three-common-use-cases-7a5ffc88284f"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-BuildingaWebScraperforThreeCommonUseCases_0.png)

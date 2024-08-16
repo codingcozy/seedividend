@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Great JavaScript Divide: CommonJS vs ES Modules"
 link: "https://medium.com/javascript-in-plain-english/the-great-javascript-divide-commonjs-vs-es-modules-6a6e0aa91286"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-TheGreatJavaScriptDivideCommonJSvsESModules_0.png" />

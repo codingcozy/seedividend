@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "[Micro Frontend] Module Federation with Vite for React"
 link: "https://medium.com/@nipunamarcus/micro-frontend-module-federation-with-vite-for-react-d2a8edad7f14"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-14-MicroFrontendModuleFederationwithViteforReact_0.png)

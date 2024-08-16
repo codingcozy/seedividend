@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Writing stories in TypeScript"
 link: "https://storybook.js.org/docs/writing-stories/typescript"
+isUpdated: true
 ---
+
+
 
 
 

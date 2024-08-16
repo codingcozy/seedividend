@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " Folder Structures in React Projects"
 link: "https://medium.com/@safdaralii/%EF%B8%8F-folder-structures-in-react-projects-b507e46335c8"
+isUpdated: true
 ---
+
+
 
 
 

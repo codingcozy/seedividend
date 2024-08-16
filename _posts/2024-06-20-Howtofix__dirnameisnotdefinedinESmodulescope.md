@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to fix “__dirname is not defined in ES module scope”"
 link: "https://medium.com/@iamwebwiz/how-to-fix-dirname-is-not-defined-in-es-module-scope-34d94a86694d"
+isUpdated: true
 ---
+
+
 
 
 ## 상황

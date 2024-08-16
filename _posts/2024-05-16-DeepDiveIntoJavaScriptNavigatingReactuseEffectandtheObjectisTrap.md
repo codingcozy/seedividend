@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deep Dive Into JavaScript: Navigating React useEffect and the Object.is Trap"
 link: "https://medium.com/codex/deep-dive-into-javascript-navigating-react-useeffect-and-the-object-is-trap-5575a78cf5d3"
+isUpdated: true
 ---
+
+
 
 
 

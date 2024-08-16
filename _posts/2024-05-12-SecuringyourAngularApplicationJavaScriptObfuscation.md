@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Securing your Angular Application : JavaScript Obfuscation"
 link: "https://medium.com/@mohanbyte/securing-your-angular-application-javascript-obfuscation-2306fcb24f78"
+isUpdated: true
 ---
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*wEYlPHz1sMXAZ6802MPrrw.gif" />

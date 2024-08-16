@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Highlight"
 link: "https://storybook.js.org/docs/essentials/highlight"
+isUpdated: true
 ---
+
+
 
 
 

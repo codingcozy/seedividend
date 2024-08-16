@@ -3,12 +3,15 @@ title: "더 나은 프로그래머가 되는 10가지 팁"
 description: ""
 coverImage: "/assets/img/2024-07-09-BecomeaBetterCoder10Tips_0.png"
 date: 2024-07-09 14:47
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-BecomeaBetterCoder10Tips_0.png
 tag: Tech
 originalTitle: "Become a Better Coder: 10 Tips"
 link: "https://medium.com/@deasadiqbal/become-a-better-coder-10-tips-fa81f732a624"
+isUpdated: true
 ---
+
+
 
 위반 시 해고 조치를 받을 수 있습니다.
 

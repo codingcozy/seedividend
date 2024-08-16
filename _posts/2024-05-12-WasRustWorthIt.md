@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Was Rust Worth It?"
 link: "https://medium.com/@jsoverson/was-rust-worth-it-f43d171fb1b3"
+isUpdated: true
 ---
+
+
 
 
 ![2024-05-12-WasRustWorthIt_0](/assets/img/2024-05-12-WasRustWorthIt_0.png)

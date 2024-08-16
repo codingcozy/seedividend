@@ -3,12 +3,15 @@ title: "Angular의 inject 함수 사용으로 1000줄의 코드를 절약한 방
 description: ""
 coverImage: "/assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png"
 date: 2024-07-07 21:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png
 tag: Tech
 originalTitle: "How Using Angular’s inject() Function Has Saved Me 1000 Lines of Code"
 link: "https://medium.com/javascript-in-plain-english/how-using-the-angulars-inject-function-has-saved-me-1000-lines-of-code-82b699183da8"
+isUpdated: true
 ---
+
+
 
 # inject() 함수란 무엇인가요?
 

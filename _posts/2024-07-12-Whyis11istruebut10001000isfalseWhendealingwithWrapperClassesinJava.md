@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why is 1 == 1 is true but 1000 == 1000 is false When dealing with Wrapper Classes in Java?"
 link: "https://medium.com/javarevisited/why-is-1-1-is-true-but-1000-1000-is-false-when-dealing-with-wrapper-classes-in-java-53c5a45ed687"
+isUpdated: true
 ---
+
+
 
 
 

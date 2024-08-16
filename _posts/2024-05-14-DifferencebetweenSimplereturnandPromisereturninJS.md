@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Difference between Simple return and Promise return in JS"
 link: "https://medium.com/@mrabhinav1289/difference-between-simple-return-and-promise-return-in-js-c5cae6b1ba34"
+isUpdated: true
 ---
+
+
 
 
 자바스크립트에서 단순 반환과 프로미스 반환은 서로 다른 목적을 가지고 있어요.

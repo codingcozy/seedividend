@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Deploy a Static Website for Free Using Github Pages"
 link: "https://medium.com/flycode/how-to-deploy-a-static-website-for-free-using-github-pages-8eddc194853b"
+isUpdated: true
 ---
+
+
 
 
 

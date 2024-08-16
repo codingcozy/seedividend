@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Step-by-Step Guide to Creating a Component in React"
 link: "https://medium.com/@AryanVora/a-step-by-step-guide-to-creating-a-component-in-react-151c0d875ee2"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-AStep-by-StepGuidetoCreatingaComponentinReact_0.png" />

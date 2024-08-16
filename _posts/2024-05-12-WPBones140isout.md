@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "WP Bones 1.4.0 is out"
 link: "https://medium.com/@giovambattista.fazioli/wp-bones-1-4-0-is-out-343d51df838d"
+isUpdated: true
 ---
+
+
 
 
 WP Bones 애호가 여러분, 환영합니다! 최신 버전인 1.4.0이 출시되어 WordPress 개발 환경을 새로운 차원으로 끌어올릴 다양한 흥미로운 기능과 개선 사항이 도입되었습니다. 이 릴리스의 주요 내용을 자세히 살펴보면 WordPress 프로젝트를 구축하고 관리하는 방식을 혁신할 것으로 예상되는 핵심 기능에 대해 알아봅시다.

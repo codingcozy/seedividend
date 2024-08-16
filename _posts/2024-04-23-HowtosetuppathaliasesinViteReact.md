@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to setup path aliases in Vite React"
 link: "https://medium.com/@devxprite/how-to-setup-path-aliases-in-vite-df955939ffe8"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Use Sequelize with TypeScript, Node.js, and PostgreSQL"
 link: "https://medium.com/javascript-in-plain-english/how-to-use-sequelize-with-typescript-node-js-and-postgresql-c6ff58a3af76"
+isUpdated: true
 ---
+
+
 
 
 시작 가이드: TypeScript로 Sequelize 구성하기 

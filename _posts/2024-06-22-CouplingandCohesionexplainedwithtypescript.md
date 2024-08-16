@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Coupling and Cohesion explained with typescript"
 link: "https://medium.com/@gustavobruno/coupling-and-cohesion-explained-with-typescript-2949f9ee1c97"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-22-CouplingandCohesionexplainedwithtypescript_0.png)

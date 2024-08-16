@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 5 Software Architecture Courses for Experienced Developers in 2024"
 link: "https://medium.com/javarevisited/top-5-software-architecture-courses-for-experienced-developers-in-2024-fe88ae42916b"
+isUpdated: true
 ---
+
+
 
 
 ## 10 가지 필수 소프트웨어 아키텍처 + 경험 있는 개발자를 위한 Udemy에서 좋아하는 소프트웨어 아키텍처 강좌.

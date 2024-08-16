@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Query Log Analytics Workspace Data Using Python"
 link: "https://medium.com/python-in-plain-english/how-to-query-log-analytics-workspace-data-using-python-8d454b7c3dd7"
+isUpdated: true
 ---
+
+
 
 
 # 문제 😕

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the Module Pattern in JavaScript"
 link: "https://medium.com/@vembarrajan/understanding-the-module-pattern-in-javascript-2663c2e6a970"
+isUpdated: true
 ---
+
+
 
 
 자바스크립트는 다재다능하고 동적인 언어로, 코드를 구조화하고 조직하는 다양한 방법을 제공합니다. 자바스크립트 개발에서 가장 인기 있는 패턴 중 하나는 모듈 패턴입니다. 이 패턴은 단일 객체 내에서 개인 및 공용 멤버를 캡슐화하는 방법을 제공하여 코드를 깔끔하고 유지보수 가능하며 재사용하기 쉽게 만들어줍니다.

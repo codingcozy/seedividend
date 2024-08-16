@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create a scrollbar inside a div"
 link: "https://medium.com/@japneetsingh035/create-a-scrollbar-inside-a-div-1436a22e0c82"
+isUpdated: true
 ---
+
+
 
 
 앵귤러에서는 CSS 스타일을 사용하여 div 내에 스크롤바를 만들 수 있어요. 다음은 그 방법이에요:

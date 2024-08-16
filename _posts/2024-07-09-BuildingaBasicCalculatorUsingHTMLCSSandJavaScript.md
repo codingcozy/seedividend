@@ -3,12 +3,15 @@ title: "HTML, CSS, 및 JavaScript로 기본 계산기 만들기 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png"
 date: 2024-07-09 18:11
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png
 tag: Tech
 originalTitle: "Building a Basic Calculator Using HTML, CSS, and JavaScript"
 link: "https://medium.com/@bhageshwaree11/building-a-basic-calculator-using-html-css-and-javascript-346ac49a7f58"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png" />
 

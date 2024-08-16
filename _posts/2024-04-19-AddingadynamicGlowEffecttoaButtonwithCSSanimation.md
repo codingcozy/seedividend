@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adding a dynamic Glow Effect to a Button with CSS animation"
 link: "https://medium.com/@ashishpaul5055/adding-a-dynamic-glow-effect-to-a-button-with-css-animation-a70aeb809206"
+isUpdated: true
 ---
+
+
 
 
 

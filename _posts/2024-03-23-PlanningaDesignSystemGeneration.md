@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Planning a Design System Generation"
 link: "https://medium.com/@nathanacurtis/planning-a-design-system-generation-ce4120393557"
+isUpdated: true
 ---
+
+
 
 
 

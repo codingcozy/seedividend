@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Cattle vs. Pet: A Metaphor for IT Management"
 link: "https://medium.com/@paulinadubas/cattle-vs-pet-a-metaphor-for-it-management-945c094521d2"
+isUpdated: true
 ---
+
+
 
 
 ![2024-07-13-CattlevsPetAMetaphorforITManagement](/assets/img/2024-07-13-CattlevsPetAMetaphorforITManagement_0.png)

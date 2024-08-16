@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CRUD Create, Read, Update, Delete application in React"
 link: "https://medium.com/@bhairabpatra.iitd/crud-create-read-update-delete-application-in-react-566bf229aaee"
+isUpdated: true
 ---
+
+
 
 
 

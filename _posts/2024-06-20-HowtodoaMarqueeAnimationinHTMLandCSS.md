@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to do a Marquee Animation in HTML and CSS"
 link: "https://medium.com/javascript-in-plain-english/how-to-do-a-marquee-animation-in-html-and-css-200221fb6d0e"
+isUpdated: true
 ---
+
+
 
 
 

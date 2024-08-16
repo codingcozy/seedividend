@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Combining the Powers of CSS Grid and Flexbox A Unified Approach for Dynamic Web Layouts"
 link: "https://medium.com/@asierr/combining-the-powers-of-css-grid-and-flexbox-a-unified-approach-for-dynamic-web-layouts-bd2f7b470f5f"
+isUpdated: true
 ---
+
+
 
 
 

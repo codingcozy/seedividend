@@ -3,12 +3,15 @@ title: "CSS와 접근성  사용자 선택을 통한 포용  웹 디자이너 �
 description: ""
 coverImage: "/assets/img/2024-07-07-CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh_0.png"
 date: 2024-07-07 21:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-CSSAndAccessibilityInclusionThroughUserChoiceWebDesignerNamLeThanh_0.png
 tag: Tech
 originalTitle: "CSS And Accessibility — Inclusion Through User Choice | Web Designer Nam Le Thanh"
 link: "https://medium.com/@namtheartist95/css-and-accessibility-inclusion-through-user-choice-web-designer-nam-le-thanh-12917e75b3a1"
+isUpdated: true
 ---
+
+
 
 웹 개발의 끊임없이 변화하는 풍경에서, 접근성에 대한 초점은 이제껏 더욱 중요해졌습니다. 포용적이고 사용자 친화적인 웹사이트를 만들기 위해 CSS(계층형 스타일 시트)가 접근성을 향상하는 데 중요한 역할을 합니다. 이 글에서는 CSS를 활용하여 접근성을 개선하고 사용자의 개별적인 요구를 충족시킬 수 있는 선택지를 제공하는 방법에 대해 다뤄봅니다.
 

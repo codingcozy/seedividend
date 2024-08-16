@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native CI CD: GitHub Actions , App Center"
 link: "https://medium.com/towardsdev/react-native-ci-cd-github-actions-app-center-e173f14d770c"
+isUpdated: true
 ---
+
+
 
 
 React Native 프로젝트에 대한 Continuous Integration 및 Continuous Deployment (CI/CD) 설정은 빌드, 테스트 및 배포 프로세스 자동화를 포함합니다. 이렇게 React Native 프로젝트를 CI/CD하려면 인기 있는 도구인 CI용 GitHub Actions 및 CD용 App Center를 사용하는 기본 예제가 있습니다:

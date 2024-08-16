@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Spring AI : Java Integration with Large Language Models Simplified"
 link: "https://medium.com/@freeyecheng/spring-ai-java-integration-with-large-language-models-simplified-04873df6a538"
+isUpdated: true
 ---
+
+
 
 
 ![link](/assets/img/2024-07-12-SpringAIJavaIntegrationwithLargeLanguageModelsSimplified_0.png)

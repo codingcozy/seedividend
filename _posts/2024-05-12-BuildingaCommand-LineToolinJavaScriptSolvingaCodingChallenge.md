@@ -3,12 +3,15 @@ title: "JavaScript로 Command-Line Tool 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-12-BuildingaCommand-LineToolinJavaScriptSolvingaCodingChallenge_0.png"
 date: 2024-05-12 23:52
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-BuildingaCommand-LineToolinJavaScriptSolvingaCodingChallenge_0.png
 tag: Tech
 originalTitle: "Building a Command-Line Tool in JavaScript: Solving a Coding Challenge"
 link: "https://medium.com/@abdullahimv25/building-a-command-line-tool-in-javascript-solving-a-coding-challenge-baf103f77120"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-BuildingaCommand-LineToolinJavaScriptSolvingaCodingChallenge_0.png" />
 

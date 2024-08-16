@@ -3,12 +3,15 @@ title: "Leetcode 200 섬의 개수 완벽 정복 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-PerfectingLeetcode200NumberofIslands_0.png"
 date: 2024-07-09 09:07
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PerfectingLeetcode200NumberofIslands_0.png
 tag: Tech
 originalTitle: "Perfecting Leetcode 200: Number of Islands"
 link: "https://medium.com/@aaishwaryakulkarni/perfecting-leetcode-200-number-of-islands-ebd387776f8d"
+isUpdated: true
 ---
+
+
 
 LeetCode의 "섬의 개수" 문제는 '1' (육지)과 '0' (물)로 구성된 m x n 그리드가 포함되어 있습니다. 이 문제는 그리드 내의 섬의 개수를 결정하는 것입니다. 여기서 섬은 수평 또는 수직으로 연결된 '1'의 그룹으로 정의되며, 물 ('0')로 완전히 둘러싸여 있습니다.
 

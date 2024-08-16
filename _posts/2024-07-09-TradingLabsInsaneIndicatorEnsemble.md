@@ -3,12 +3,15 @@ title: "TradingLab의 Insane 지표 모음 활용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-TradingLabsInsaneIndicatorEnsemble_0.png"
 date: 2024-07-09 14:48
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-TradingLabsInsaneIndicatorEnsemble_0.png
 tag: Tech
 originalTitle: "TradingLab’s “Insane“ Indicator Ensemble"
 link: "https://medium.com/coinmonks/i-backtested-tradinglabs-indicator-that-you-ll-ever-need-f66d0b312e0b"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-TradingLabsInsaneIndicatorEnsemble_0.png" />
 

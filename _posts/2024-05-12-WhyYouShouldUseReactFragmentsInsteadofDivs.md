@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why You Should Use React Fragments Instead of Divs"
 link: "https://medium.com/@vdsnini/why-you-should-use-react-fragments-instead-of-divs-86509be2336a"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-WhyYouShouldUseReactFragmentsInsteadofDivs_0.png)

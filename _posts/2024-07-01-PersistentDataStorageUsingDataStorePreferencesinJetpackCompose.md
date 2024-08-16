@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Persistent Data Storage Using DataStore (Preferences) in Jetpack Compose"
 link: "https://medium.com/@rowaido.game/persistent-data-storage-using-datastore-preferences-in-jetpack-compose-90c481bfed12"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-01-PersistentDataStorageUsingDataStorePreferencesinJetpackCompose_0.png)

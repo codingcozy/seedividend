@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I Wrote An Automated Script to Send Out Cold E-Mails to the Tech Companies I Want to Work At (With Results)"
 link: "https://medium.com/@priyanshu-shkl7/i-wrote-a-script-to-send-out-cold-e-mails-to-the-tech-companies-i-want-to-work-at-with-results-ab9647ea4ee2"
+isUpdated: true
 ---
+
+
 
 
 

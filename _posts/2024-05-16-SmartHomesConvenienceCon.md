@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Smart Homes: Convenience Con"
 link: "https://medium.com/@mabelamber/smart-homes-the-con-of-convenience-b2da62852506"
+isUpdated: true
 ---
+
+
 
 
 

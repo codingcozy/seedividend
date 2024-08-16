@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implement your own Rule-Engine in Spring Boot"
 link: "https://medium.com/@gainjavaknowledge/implement-your-own-rule-engine-in-spring-boot-00713e3a31e0"
+isUpdated: true
 ---
+
+
 
 
 Rule-Engine은 전문가 시스템 프로그램으로, 입력 데이터에 규칙을 실행하고 조건이 일치하면 해당 조치를 실행합니다.

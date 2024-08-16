@@ -3,12 +3,15 @@ title: "백엔드 없이도 문제없다 Web3Forms로 폼 제출 쉽게 관리�
 description: ""
 coverImage: "/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png"
 date: 2024-07-09 14:22
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png
 tag: Tech
 originalTitle: "No Backend? No Problem! Effortlessly Manage Form Submissions with Web3Forms"
 link: "https://medium.com/@madhawaawishka/no-backend-no-problem-effortlessly-manage-form-submissions-with-web3forms-41c3d1917b5e"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png" />
 

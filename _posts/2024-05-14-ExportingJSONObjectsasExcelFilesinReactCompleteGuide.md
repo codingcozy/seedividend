@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exporting JSON Objects as Excel Files in React: Complete Guide"
 link: "https://medium.com/gitconnected/exporting-json-objects-as-excel-files-in-react-a-beginners-guide-08b090bc2a99"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-ExportingJSONObjectsasExcelFilesinReactCompleteGuide_0.png" />

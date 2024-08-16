@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple Drag and Drop in React without an external library."
 link: "https://medium.com/nerd-for-tech/simple-drag-and-drop-in-react-without-an-external-library-ebf1c1b809e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-SimpleDragandDropinReactwithoutanexternallibrary_0.png" />

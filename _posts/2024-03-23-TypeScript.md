@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

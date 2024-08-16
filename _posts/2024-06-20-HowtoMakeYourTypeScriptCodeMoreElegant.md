@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Make Your TypeScript Code More Elegant"
 link: "https://medium.com/javascript-in-plain-english/how-to-make-your-typescript-code-more-elegant-73645401b9b1"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-HowtoMakeYourTypeScriptCodeMoreElegant_0.png" />

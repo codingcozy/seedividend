@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering NumPy: A Comprehensive Guide to Efficient Array Processing (Part 2 2)"
 link: "https://medium.com/python-in-plain-english/mastering-numpy-a-comprehensive-guide-to-efficient-array-processing-part-2-2-627393d34169"
+isUpdated: true
 ---
+
+
 
 
 ## 빠르고 똑똑한 데이터 조작을 위한 NumPy의 힘을 활용하세요.

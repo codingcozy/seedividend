@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with CSS Media Queries"
 link: "https://medium.com/@rashmipatil24/css-media-queries-73a3cbf3f138"
+isUpdated: true
 ---
+
+
 
 
 

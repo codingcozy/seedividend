@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Memory Pool: How To Improve Memory Allocation Efficiency?"
 link: "https://medium.com/@cstoppgmr/memory-pool-how-to-improve-memory-allocation-efficiency-57723c8d8630"
+isUpdated: true
 ---
+
+
 
 
 ![Memory Pool](/assets/img/2024-07-12-MemoryPoolHowToImproveMemoryAllocationEfficiency_0.png)

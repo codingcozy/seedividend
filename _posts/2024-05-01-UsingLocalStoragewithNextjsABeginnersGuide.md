@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using LocalStorage with Next.js: A Beginner’s Guide"
 link: "https://medium.com/wesionary-team/using-localstorage-with-next-js-a-beginners-guide-7fc4f8bfd9dc"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-UsingLocalStoragewithNextjsABeginnersGuide_0.png" />

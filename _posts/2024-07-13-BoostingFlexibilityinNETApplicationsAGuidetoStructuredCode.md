@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Boosting Flexibility in .NET Applications: A Guide to Structured Code"
 link: "https://medium.com/gitconnected/boosting-flexibility-in-net-applications-a-guide-to-structured-code-f65a13f4ef36"
+isUpdated: true
 ---
+
+
 
 
 

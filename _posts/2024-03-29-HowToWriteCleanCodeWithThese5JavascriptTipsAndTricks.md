@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Write Clean Code With These 5 Javascript Tips And Tricks"
 link: "https://medium.com/@ori.holis/how-to-write-clean-code-with-these-5-javascript-tips-and-tricks-c3675914cc4d"
+isUpdated: true
 ---
+
+
 
 
 

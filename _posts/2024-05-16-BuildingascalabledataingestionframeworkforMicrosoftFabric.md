@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a scalable data ingestion framework for Microsoft Fabric"
 link: "https://medium.com/@piethein/building-a-scalable-data-ingestion-framework-for-microsoft-fabric-9f2985a1e2f3"
+isUpdated: true
 ---
+
+
 
 
 이 기사는 고객 교류 중 자주 논의되는 주제인 데이터 엔지니어링 확장에 대해 다룹니다. 데이터 수집 및 유효성 검사 프로세스를 간소화하기 위한 방법을 어떻게 향상시킬 수 있을까요? 이 질문은 복잡하며, 원하는 대상 아키텍처, 데이터 품질 및 모델링 요구 사항, 메타데이터 관리 등과 같은 다양한 측면과 얽힌 문제입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Failwind UI And The SPA Clown Shoes (HTML Illiteracy Part 4)"
 link: "https://medium.com/codex/failwind-ui-and-the-spa-clown-shoes-html-illiteracy-part-4-6af61f164530"
+isUpdated: true
 ---
+
+
 
 
 싱글 페이지 응용 프로그램, AJAX로 콘텐츠를로드하는 것... 이러한 기술을 사용하는 합당한 이유가 있습니다. 하지만 이를 사용하지 않았을 때보다 더 빠르고 작고 사용하기 쉬운 것들에 대해 기술을 던지는 많은 "전문가"들에게 항상 놀라곤 합니다. HTML의 무지 때문에 Bootcrap, Failwind, jQuery, HTMX, React, Vue, Angular 등과 같은 쓰레기를 사용하게 만드는 것은 그만두기만 하면 됩니다!

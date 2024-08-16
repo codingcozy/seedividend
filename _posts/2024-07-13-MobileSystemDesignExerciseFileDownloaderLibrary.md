@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mobile System Design Exercise: File Downloader Library"
 link: "https://medium.com/gitconnected/mobile-system-design-exercise-file-downloader-library-a0e9574218ca"
+isUpdated: true
 ---
+
+
 
 
 사용 사례와 비즈니스 요구 사항을 이해하는 것은 애플리케이션이나 시스템의 특정 요구 사항을 충족하는 파일 다운로더 라이브러리를 디자인하는 데 중요합니다. 다음은 사용 사례를 명확히 하고 비즈니스 요구 사항을 수집하는 데 도움이 되는 몇 가지 질문입니다:

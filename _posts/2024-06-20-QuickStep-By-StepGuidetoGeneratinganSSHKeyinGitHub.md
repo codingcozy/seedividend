@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Quick Step-By-Step Guide to Generating an SSH Key in GitHub"
 link: "https://medium.com/@kyledeguzmanx/quick-step-by-step-guide-to-generating-an-ssh-key-in-github-d3c6f7e185bb"
+isUpdated: true
 ---
+
+
 
 
 ## 쉽고 간단하며 비기술적인 설명

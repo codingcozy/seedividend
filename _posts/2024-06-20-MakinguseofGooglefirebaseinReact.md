@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Making use of Google firebase in React"
 link: "https://medium.com/@samuelbankole/google-firebase-in-react-1acc64516788"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-MakinguseofGooglefirebaseinReact_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Elevating Sentiment Analysis"
 link: "https://medium.com/@seandearnaley/elevating-sentiment-analysis-ad02a316df1d"
+isUpdated: true
 ---
+
+
 
 
 ## Unsloth를 사용하여 LLaMA-3 8B를 세밀하게 조정하기

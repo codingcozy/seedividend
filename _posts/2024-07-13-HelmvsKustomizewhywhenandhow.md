@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Helm vs Kustomize: why, when, and how"
 link: "https://medium.com/@elfakharany/helm-vs-kustomize-why-when-and-how-5d5ba0f80234"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-13-HelmvsKustomizewhywhenandhow_0.png)

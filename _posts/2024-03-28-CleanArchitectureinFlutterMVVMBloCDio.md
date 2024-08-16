@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Clean Architecture in Flutter  MVVM  BloC  Dio"
 link: "https://medium.com/@yamen.abd98/clean-architecture-in-flutter-mvvm-bloc-dio-79b1615530e1"
+isUpdated: true
 ---
+
+
 
 
 

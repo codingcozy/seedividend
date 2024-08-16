@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring the Latest Features of React 18"
 link: "https://medium.com/@vlad-grigoryan/exploring-the-latest-features-of-react-18-1240ad0663e1"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Alado: a new lightweight web framework for Node.js"
 link: "https://medium.com/@pashaman/alado-a-new-lightweight-web-framework-for-node-js-3e5efad0c7ea"
+isUpdated: true
 ---
+
+
 
 
 Node.js 서버 측 개발 분야에서는 자주 새로운 도구와 프레임워크가 등장하여 개발자들의 작업을 간편화하고 응용 프로그램 성능을 향상시키려고 노력합니다. 그 중 하나인 Alado는 가벼운 백엔드 프레임워크입니다. 

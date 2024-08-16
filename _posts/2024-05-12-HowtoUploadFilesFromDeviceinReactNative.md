@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Upload Files From Device in React Native"
 link: "https://medium.com/@sanchit0496/how-to-upload-files-from-device-in-react-native-6206b8cd7aff"
+isUpdated: true
 ---
+
+
 
 
 사용자들이 갤러리에서 이미지를 선택할 수 있는 기능을 제공하는 모바일 애플리케이션을 개발 중이신데요, React Native는 expo-image-picker를 통해 이를 쉽게 구현할 수 있어요. 이 라이브러리는 사용자들이 카메라 롤에서 기존 사진을 손쉽게 선택하거나 카메라를 통해 새 이미지를 캡처할 수 있는 기능을 제공합니다.

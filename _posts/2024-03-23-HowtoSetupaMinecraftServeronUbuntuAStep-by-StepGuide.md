@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Setup a Minecraft Server on Ubuntu A Step-by-Step Guide"
 link: "https://tjtanjin.medium.com/how-to-set-up-a-minecraft-server-on-ubuntu-a-step-by-step-guide-9d602a12af40"
+isUpdated: true
 ---
+
+
 
 
 

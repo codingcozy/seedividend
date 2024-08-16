@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Designing Natively Responsive Interfaces with CSS Flexbox"
 link: "https://medium.com/@mysteryweevil/designing-natively-responsive-interfaces-with-css-flexbox-896f25bd5311"
+isUpdated: true
 ---
+
+
 
 
 

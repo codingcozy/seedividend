@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScript Fakes Arrays: Object.assign({}, arr)"
 link: "https://medium.com/@grigor.oganesyan/unmasking-javascript-the-fake-arrays-cd2cf3cd5150"
+isUpdated: true
 ---
+
+
 
 
 ## 자바스크립트에서 배열은 사실 객체임을 비밀로 만들 필요가 없습니다. 그런데 이를 무시하는 대신, 배열에 객체 메소드를 적용해보면 어떨까요?..

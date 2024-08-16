@@ -3,12 +3,15 @@ title: "마지막으로"
 description: ""
 coverImage: "/assets/img/2024-07-09-Andfinally_0.png"
 date: 2024-07-09 14:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Andfinally_0.png
 tag: Tech
 originalTitle: "And finally"
 link: "https://medium.com/@readwanmd/lets-understand-the-differences-href-href-and-href-javascript-void-0-57c7fbfa77b1"
+isUpdated: true
 ---
+
+
 
 ## 차이를 이해해 봅시다: href="", href="#", 그리고 href="javascript:void(0)"
 

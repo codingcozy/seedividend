@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Improved Code Flexibility with the Command Pattern"
 link: "https://medium.com/@diyorbekjuraev77/how-i-improved-code-flexibility-with-the-command-pattern-53a9c1c0aab9"
+isUpdated: true
 ---
+
+
 
 
 

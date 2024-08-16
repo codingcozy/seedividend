@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Long Does It Take To Learn Web Development in 2024"
 link: "https://medium.com/javarevisited/how-long-does-it-take-to-learn-web-development-in-2024-f4cf3c4d0d2f"
+isUpdated: true
 ---
+
+
 
 
 

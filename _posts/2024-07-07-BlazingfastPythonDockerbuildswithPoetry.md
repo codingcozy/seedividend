@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Blazing fast Python Docker builds with Poetry 🏃"
 link: "https://medium.com/@albertazzir/blazing-fast-python-docker-builds-with-poetry-a78a66f5aed0"
+isUpdated: true
 ---
+
+
 
 
 ## 천천히 번거로운 Docker 빌드를 순조롭게 작업으로 바꾸는 법

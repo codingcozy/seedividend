@@ -3,12 +3,15 @@ title: "파이썬 리스트 내포 쉽게 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-ListComprehensionsinPython_0.png"
 date: 2024-07-07 21:31
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-ListComprehensionsinPython_0.png
 tag: Tech
 originalTitle: "List Comprehensions in Python"
 link: "https://medium.com/@mmalhotra183/list-comprehensions-in-python-a7284cdb11b4"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-ListComprehensionsinPython_0.png)
 

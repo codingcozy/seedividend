@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Resolve a Promise from outside in JavaScript: practical use cases"
 link: "https://medium.com/coding-beauty/javascript-resolve-promise-from-outside-e6c6f64c6717"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Proof of Concept. Asynchronous programming in Arduino UNO."
 link: "https://medium.com/@EDBCBlog/proof-of-concept-asynchronous-programming-in-arduino-uno-64801e64b7cd"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-ProofofConceptAsynchronousprogramminginArduinoUNO_0.png" />

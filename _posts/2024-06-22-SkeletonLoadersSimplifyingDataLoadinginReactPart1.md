@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Skeleton Loaders: Simplifying Data Loading in React: Part 1"
 link: "https://medium.com/@topeogunleye1/skeleton-loaders-simplifying-data-loading-in-react-part-1-945f50b4d2fd"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-22-SkeletonLoadersSimplifyingDataLoadinginReactPart1_0.png)

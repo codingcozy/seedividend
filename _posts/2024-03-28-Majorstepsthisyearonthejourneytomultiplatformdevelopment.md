@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Major steps this year on the journey to multiplatform development"
 link: "https://medium.com/flutter/major-steps-this-year-on-the-journey-to-multiplatform-development-b9218b17f0f7"
+isUpdated: true
 ---
+
+
 
 
 

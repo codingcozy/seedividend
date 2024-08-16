@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Synchronizing Configuration Across Microservices with Spring Cloud Config"
 link: "https://medium.com/@AlexanderObregon/synchronizing-configuration-across-microservices-with-spring-cloud-config-a2bb36e7d8eb"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-SpringCloudConfigMicroservices.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "IPC made easy with Execa 9.2"
 link: "https://medium.com/itnext/ipc-made-easy-with-execa-9-2-939c6a358731"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-IPCmadeeasywithExeca92_0.png" />

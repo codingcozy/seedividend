@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Ultimate Guide to Crafting Tailwind CSS Themes"
 link: "https://medium.com/canopas/the-ultimate-guide-to-crafting-tailwind-css-themes-46623a8b2a01"
+isUpdated: true
 ---
+
+
 
 
 

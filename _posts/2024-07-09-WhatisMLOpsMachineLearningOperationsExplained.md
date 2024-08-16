@@ -3,12 +3,15 @@ title: "MLOps란  머신러닝 운영 쉽게 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_0.png"
 date: 2024-07-09 20:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-WhatisMLOpsMachineLearningOperationsExplained_0.png
 tag: Tech
 originalTitle: "What is MLOps? — Machine Learning Operations Explained"
 link: "https://medium.com/stackademic/what-is-mlops-machine-learning-operations-explained-3ae1e30350c0"
+isUpdated: true
 ---
+
+
 
 MLOps는 AI 통합과 혁신을 위한 기계 학습 모델과 실제 응용 프로그램 사이의 다리 역할을 합니다.
 

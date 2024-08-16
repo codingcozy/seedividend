@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What I Love (and Don’t Love) About Deno"
 link: "https://medium.com/better-programming/what-i-love-about-deno-af35d1f46d"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-18-WhatILoveandDontLoveAboutDeno_0.png)

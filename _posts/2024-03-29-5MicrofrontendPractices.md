@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Microfrontend Practices"
 link: "https://medium.com/@davifsroberto/5-microfrontend-pratices-84d843958754"
+isUpdated: true
 ---
+
+
 
 
 

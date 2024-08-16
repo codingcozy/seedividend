@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Make the Web your best friend data provider"
 link: "https://medium.com/generative-ai/make-the-web-your-best-friend-data-provider-16e1a2a31024"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-MaketheWebyourbestfrienddataprovider_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create An Invoice Generator Using Python, Jinja2 , Weasyprint"
 link: "https://medium.com/@hammad.ai/create-an-invoice-generator-using-python-jinja2-weasyprint-48ef1f450ac5"
+isUpdated: true
 ---
+
+
 
 
 프리랜서 프로젝트로 작은 작업을 부탁받을 때는 어떻게 하시나요?

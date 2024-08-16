@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 JavaScript Algorithms for Coding Challenges"
 link: "https://medium.com/@mrohitsingh/top-10-javascript-algorithms-for-coding-challenges-8cbf258841a1"
+isUpdated: true
 ---
+
+
 
 
 

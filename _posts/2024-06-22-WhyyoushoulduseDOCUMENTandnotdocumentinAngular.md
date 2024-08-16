@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why you should use DOCUMENT and not document in Angular"
 link: "https://medium.com/@laban405/why-you-should-use-document-and-not-document-in-angular-b592908ff687"
+isUpdated: true
 ---
+
+
 
 
 

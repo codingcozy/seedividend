@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Addicts #25: Angular and Wiz will be merged, the differences between React and Angular , more"
 link: "https://medium.com/angularaddicts/angular-addicts-25-angular-and-wiz-will-be-merged-the-differences-between-react-and-angular-4cc60ac62e11"
+isUpdated: true
 ---
+
+
 
 
 ## 2024년 4월 제가 좋아하는 Angular 자료

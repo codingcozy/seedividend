@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing an Efficient RSS JavaScript Parser with CORS"
 link: "https://medium.com/@asbedb/introducing-an-efficient-rss-javascript-parser-with-cors-05ca31c320c1"
+isUpdated: true
 ---
+
+
 
 
 웹 개발 영역에서 RSS 피드와 같은 외부 콘텐츠를 애플리케이션에 통합하는 것은 종종 Cross-Origin Resource Sharing (CORS) 제약 때문에 도전이 될 수 있습니다. 이 보안 조치는 사용자 데이터를 보호하는 데 중요하지만 Medium과 같은 플랫폼에 호스팅된 RSS 피드와 같은 다른 출처에서 데이터를 검색하는 것을 복잡하게 만들 수 있습니다.

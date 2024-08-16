@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Programming Skills That Any University Can’t Teach You"
 link: "https://medium.com/stackademic/programming-skills-that-any-university-cant-teach-you-480d677959e7"
+isUpdated: true
 ---
+
+
 
 
 ## 일

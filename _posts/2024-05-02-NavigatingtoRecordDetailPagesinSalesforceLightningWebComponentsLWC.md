@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating to Record Detail Pages in Salesforce Lightning Web Components (LWC)"
 link: "https://medium.com/@anala007/navigating-to-record-detail-pages-in-salesforce-lightning-web-components-lwc-cf7bfe3e6e97"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-02-NavigatingtoRecordDetailPagesinSalesforceLightningWebComponentsLWC_0.png)

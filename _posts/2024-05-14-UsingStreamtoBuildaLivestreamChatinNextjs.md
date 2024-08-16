@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Stream to Build a Livestream Chat in Next.js"
 link: "https://medium.com/nerd-for-tech/using-stream-to-build-a-livestream-chat-in-next-js-e23ca1fe29ec"
+isUpdated: true
 ---
+
+
 
 
 다음.js, Stream 및 Chatscope를 사용하여 매력적이고 인터랙티브한 라이브 스트리밍 채팅 앱을 만드는 방법을 배워보세요.

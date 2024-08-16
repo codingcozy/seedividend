@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Addon knowledge base"
 link: "https://storybook.js.org/docs/addons/addon-knowledge-base"
+isUpdated: true
 ---
+
+
 
 
 

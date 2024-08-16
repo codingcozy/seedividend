@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "📞 Phone input for your React project — react-international-phone"
 link: "https://medium.com/@goveo/phone-input-for-your-react-project-react-international-phone-b3067eac9ed6"
+isUpdated: true
 ---
+
+
 
 
 ## React 코드베이스에 멋진 국제 전화번호 입력 컴포넌트를 구현해보세요

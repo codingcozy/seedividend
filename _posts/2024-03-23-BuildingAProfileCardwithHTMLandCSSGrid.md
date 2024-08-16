@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building A Profile Card with HTML and CSS Grid"
 link: "https://medium.com/@castonboyd/building-a-profile-card-with-html-and-css-grid-5b1af4c3f59d"
+isUpdated: true
 ---
+
+
 
 
 

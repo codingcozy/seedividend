@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Design Patterns Layout Components Pattern"
 link: "https://medium.com/@vitorbritto/react-design-patterns-layout-components-pattern-455c98e0bf92"
+isUpdated: true
 ---
+
+
 
 
 

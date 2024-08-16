@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create a Slideshow Carousel using HTML, CSS , JS"
 link: "https://medium.com/@algopoint.ltd/how-to-create-a-slideshow-carousel-using-html-css-js-7ab0561b39b3"
+isUpdated: true
 ---
+
+
 
 
 

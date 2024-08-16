@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Blueprint of Modern React Native App Architecture"
 link: "https://medium.com/@anil-gudigar/blueprint-of-modern-react-native-app-architecture-ba432deffdde"
+isUpdated: true
 ---
+
+
 
 
 

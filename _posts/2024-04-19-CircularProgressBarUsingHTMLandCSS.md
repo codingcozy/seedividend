@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Circular Progress Bar Using HTML and CSS"
 link: "https://medium.com/@cwrworksite/circular-progress-bar-using-html-and-css-a1ee374bd515"
+isUpdated: true
 ---
+
+
 
 
 

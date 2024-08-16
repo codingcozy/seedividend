@@ -3,12 +3,15 @@ title: "다양한 색상 테마로 GitHub 프로필 README 꾸미는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Fine-tuneGitHubProfileREADMEfordifferentcolorschemes_0.png"
 date: 2024-07-09 08:58
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Fine-tuneGitHubProfileREADMEfordifferentcolorschemes_0.png
 tag: Tech
 originalTitle: "Fine-tune GitHub Profile README for different color schemes"
 link: "https://medium.com/@levchenkod/fine-tune-github-profile-readme-for-different-color-schemes-45c846d38b3b"
+isUpdated: true
 ---
+
+
 
 GitHub 프로필의 모양을 변경하고 싶은 이유는 다양합니다. 재미로, 들뜬 마음으로, 또는 저처럼 여러분의 링크와 스킬을 사용자 친화적인 방식으로 표현하고 싶어서일 수도 있죠.
 

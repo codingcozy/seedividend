@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to build an OpenAI-compatible API"
 link: "https://medium.com/towards-data-science/how-to-build-an-openai-compatible-api-87c8edea2f06"
+isUpdated: true
 ---
+
+
 
 
 

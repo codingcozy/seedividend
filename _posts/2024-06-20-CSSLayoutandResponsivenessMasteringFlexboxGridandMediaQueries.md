@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Layout and Responsiveness: Mastering Flexbox, Grid, and Media Queries"
 link: "https://medium.com/@etwinworkshop/css-layout-and-responsiveness-mastering-flexbox-grid-and-media-queries-7840862db936"
+isUpdated: true
 ---
+
+
 
 
 웹 레이아웃을 잘 구조화하고 반응형으로 만드는 것은 어려울 수 있지만, CSS는 이 작업을 쉽게 만들어 주는 강력한 도구를 제공합니다.

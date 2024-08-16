@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "New Flow Language Features for React"
 link: "https://medium.com/flow-type/announcing-component-syntax-b6c5285660d0"
+isUpdated: true
 ---
+
+
 
 
 

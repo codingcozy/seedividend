@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTTP Interceptors in Angular"
 link: "https://medium.com/@jaydeepvpatil225/http-interceptors-in-angular-6e9891ae0538"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-HTTPInterceptorsinAngular_0.png" />

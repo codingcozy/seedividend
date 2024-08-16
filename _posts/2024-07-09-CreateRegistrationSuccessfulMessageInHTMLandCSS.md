@@ -3,12 +3,15 @@ title: "HTML과 CSS로 회원 가입 성공 메시지 만들기"
 description: ""
 coverImage: "/assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_0.png"
 date: 2024-07-09 18:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CreateRegistrationSuccessfulMessageInHTMLandCSS_0.png
 tag: Tech
 originalTitle: "Create Registration Successful Message In HTML and CSS"
 link: "https://medium.com/@cwrworksite/login-and-registration-form-in-html-and-css-with-source-code-e0cf03ff7d94"
+isUpdated: true
 ---
+
+
 
 코더 여러분, CodeByRandom에 따뜻한 환영을 전합니다. 오늘은 HTML과 CSS를 사용하여 등록 성공 메시지를 만들어 보겠습니다. 우리가 소셜 미디어 사이트나 어떤 웹 사이트를 처음 사용할 때는 자신을 등록하고 이름, 성, 이메일, 전화번호 및 선택한 암호와 같은 몇 가지 정보를 제공해야 합니다.
 

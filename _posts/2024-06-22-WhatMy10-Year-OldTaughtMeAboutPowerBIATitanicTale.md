@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What My 10-Year-Old Taught Me About Power BI: A Titanic Tale"
 link: "https://medium.com/make-your-data-speak/what-my-10-year-old-taught-me-about-power-bi-a-titanic-tale-0d12d049e722"
+isUpdated: true
 ---
+
+
 
 
 ## 수상 경력 있는 프로젝트 이야기

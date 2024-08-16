@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create a Private Route in React  TypeScript"
 link: "https://medium.com/stackademic/how-to-create-a-private-route-in-react-typescript-d43e2b162d46"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to run docker images on Raspberry Pi"
 link: "https://medium.com/@dogabudak/how-to-run-docker-images-on-raspberry-pi-ed63b0b9b758"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-16-HowtorundockerimagesonRaspberryPi_0.png" />

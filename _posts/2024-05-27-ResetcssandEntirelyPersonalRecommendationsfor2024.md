@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reset.css and (Entirely Personal!) Recommendations for 2024"
 link: "https://medium.com/@itsuki.enjoy/reset-css-and-entirely-personal-recommendations-for-2024-fd7e32e15642"
+isUpdated: true
 ---
+
+
 
 
 

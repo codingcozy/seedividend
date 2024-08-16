@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The immutability unchangeability staticity, in JS and React"
 link: "https://medium.com/@rapidreact/the-immutability-unchangeability-staticity-in-js-and-react-ad575812b5f1"
+isUpdated: true
 ---
+
+
 
 
 

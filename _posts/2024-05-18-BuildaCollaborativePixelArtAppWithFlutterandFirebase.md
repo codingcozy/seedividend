@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build a Collaborative Pixel Art App With Flutter and Firebase"
 link: "https://medium.com/better-programming/build-a-collaborative-pixel-art-app-with-flutter-and-firebase-d4a027b4534b"
+isUpdated: true
 ---
+
+
 
 
 ## 자신만의 r/place 만들기

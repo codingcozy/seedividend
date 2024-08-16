@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Comparing Flutter’s Local Databases"
 link: "https://medium.com/@nandhuraj/comparing-flutters-local-databases-cb6bc7709316"
+isUpdated: true
 ---
+
+
 
 
 

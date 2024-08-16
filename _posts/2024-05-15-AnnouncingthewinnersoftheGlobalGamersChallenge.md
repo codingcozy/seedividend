@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Announcing the winners of the Global Gamers Challenge"
 link: "https://medium.com/flutter/announcing-the-winners-of-the-global-gamers-challenge-1ccf4d271226"
+isUpdated: true
 ---
+
+
 
 
 # 우리의 상위 10개 프로젝트 및 지속 가능한 게임에 참여하는 방법

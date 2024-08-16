@@ -3,12 +3,15 @@ title: "당신이 꼭 알아야 할 21가지 HTML 팁"
 description: ""
 coverImage: "/assets/img/2024-07-02-21HTMLTipsYouMustKnowAbout_0.png"
 date: 2024-07-02 21:37
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-21HTMLTipsYouMustKnowAbout_0.png
 tag: Tech
 originalTitle: "21 HTML Tips You Must Know About"
 link: "https://medium.com/stackademic/21-html-tips-you-must-know-about-f771c05713c0"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-02-21HTMLTipsYouMustKnowAbout_0.png" />
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Server bootstrap optimization using RocksDB"
 link: "https://medium.com/flipkart-engineering/server-bootstrap-optimization-using-rocksdb-3378b5af55dc"
+isUpdated: true
 ---
+
+
 
 
 # 소개

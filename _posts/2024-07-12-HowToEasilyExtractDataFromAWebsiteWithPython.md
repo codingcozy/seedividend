@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Easily Extract Data From A Website With Python"
 link: "https://medium.com/python-in-plain-english/how-to-easily-extract-data-from-a-website-with-python-223f59e647f2"
+isUpdated: true
 ---
+
+
 
 
 <table>

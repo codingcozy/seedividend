@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Mobile Form with Advanced CSS"
 link: "https://medium.com/@erichfreeland/creating-a-mobile-form-with-advanced-css-3d6a00c631e5"
+isUpdated: true
 ---
+
+
 
 
 요즘의 모바일 우선 세상에서는 웹 폼이 반응형이고 사용자 친화적인 것이 중요합니다. 고급 CSS 기술을 사용하면 어떤 기기에서든 멋지게 보이고 잘 작동하는 폼을 만들 수 있습니다. 이 글에서는 CSS를 사용하여 모바일 폼을 만드는 방법을 살펴보겠습니다. 시각적으로 매력적이고 사용하기 쉬운 폼을 만들어 보장할 겁니다.

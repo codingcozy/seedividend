@@ -3,12 +3,15 @@ title: "여러분의 수익을 불러올 개인 맞춤 운동 앱 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-07-07-HowtoBuildaPersonalizedWorkoutAppThatWillMakeYouRich_0.png"
 date: 2024-07-07 21:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-HowtoBuildaPersonalizedWorkoutAppThatWillMakeYouRich_0.png
 tag: Tech
 originalTitle: "How to Build a Personalized Workout App That Will Make You Rich!"
 link: "https://medium.com/@learntocodetoday/how-to-build-a-personalized-workout-app-that-will-make-you-rich-d4575f4cddf0"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-HowtoBuildaPersonalizedWorkoutAppThatWillMakeYouRich_0.png)
 

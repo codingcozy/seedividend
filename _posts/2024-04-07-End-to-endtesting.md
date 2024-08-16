@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "End-to-end testing"
 link: "https://storybook.js.org/docs/writing-tests/stories-in-end-to-end-tests"
+isUpdated: true
 ---
+
+
 
 
 

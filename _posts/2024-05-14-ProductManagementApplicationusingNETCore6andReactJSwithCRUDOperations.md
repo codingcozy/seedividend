@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Product Management Application using .NET Core 6 and React JS with CRUD Operations"
 link: "https://medium.com/@jaydeepvpatil225/product-management-application-using-net-core-6-and-react-js-with-crud-operation-1f8bb9f709ba"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-ProductManagementApplicationusingNETCore6andReactJSwithCRUDOperations_0.png" />

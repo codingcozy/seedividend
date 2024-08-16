@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Part 2: React — Naming Convention + Return Signatures for Hooks"
 link: "https://medium.com/javascript-in-plain-english/part-2-react-naming-convention-return-signatures-for-hooks-b9e31f5e7f58"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-19-Part2ReactNamingConventionReturnSignaturesforHooks_0.png" />

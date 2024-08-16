@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking the Power of Visual Calculations in Power BI"
 link: "https://medium.com/@dossieranalysis/unlocking-the-power-of-visual-calculations-in-power-bi-cb0a5612105b"
+isUpdated: true
 ---
+
+
 
 
 ![Image](/assets/img/2024-05-15-UnlockingthePowerofVisualCalculationsinPowerBI_0.png)

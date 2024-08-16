@@ -3,12 +3,15 @@ title: "Apache Airflow와 Amazon-S3를 사용한 End-to-End ETL 파이프라인 
 description: ""
 coverImage: "/assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_0.png"
 date: 2024-07-09 09:06
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-End-to-EndETLPipelinewithApacheAirflowandAmazon-S3_0.png
 tag: Tech
 originalTitle: "End-to-End ETL Pipeline with Apache Airflow and Amazon-S3"
 link: "https://medium.com/@namrathac23/etl-pipeline-with-apache-airflow-and-amazon-s3-b54b190d3a28"
+isUpdated: true
 ---
+
+
 
 # 프로젝트 개요
 

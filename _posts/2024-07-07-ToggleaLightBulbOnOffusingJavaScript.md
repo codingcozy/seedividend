@@ -3,12 +3,15 @@ title: "JavaScript를 사용하여 전구 켜고 끄는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-ToggleaLightBulbOnOffusingJavaScript_0.png"
 date: 2024-07-07 02:14
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-ToggleaLightBulbOnOffusingJavaScript_0.png
 tag: Tech
 originalTitle: "Toggle a Light Bulb On Off using JavaScript"
 link: "https://medium.com/@support_59471/toggle-a-light-bulb-on-off-using-javascript-ef8d8764d9d6"
+isUpdated: true
 ---
+
+
 
 저희는 CodePen에서 매우 창의적인 흔들리는 빛을 발견하여 더 인터랙티브하게 만들기로 결정했어요.
 

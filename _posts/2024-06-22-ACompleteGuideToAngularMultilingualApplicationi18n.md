@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Complete Guide To Angular Multilingual Application (i18n)"
 link: "https://medium.com/angular-in-depth/a-complete-guide-to-angular-multilingual-application-91f431f0f12c"
+isUpdated: true
 ---
+
+
 
 
 Angular i18n 애플리케이션을 초기화하고 구현해 보세요. Transloco를 사용하여 Angular에서 다국어 애플리케이션을 구현하는 방법을 안내하는 가이드입니다! 번역 파일의 지연 로딩을 포함하여 멀티 언어 애플리케이션을 구현하는 방법을 설명합니다.

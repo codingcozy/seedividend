@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The rise of overnight AI experts opportunities , pitfalls"
 link: "https://kemlaurin.medium.com/the-rise-of-overnight-ai-experts-opportunities-pitfalls-8a8b6b57ac46"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why We Only Use Functional Components and No Longer Class Components In React"
 link: "https://medium.com/@andrewaliaj/why-we-only-use-functional-components-and-no-longer-class-components-in-react-441b39c93e92"
+isUpdated: true
 ---
+
+
 
 
 리액트 개발자로서, UI에 대해 함수형 컴포넌트 또는 클래스 컴포넌트를 사용할 수 있습니다. 클래스 컴포넌트는 리액트 개발자들이 선호하는 선택이었습니다. 그러나 2018년 리액트 버전 16.8에서 리액트 훅이 소개되면서 함수형 컴포넌트가 리액트 개발자들에게 선호되는 선택이 되었습니다.

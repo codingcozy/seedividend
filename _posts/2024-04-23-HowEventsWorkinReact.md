@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Events Work in React"
 link: "https://medium.com/stackademic/how-events-work-in-react-795dc02b23b6"
+isUpdated: true
 ---
+
+
 
 
 

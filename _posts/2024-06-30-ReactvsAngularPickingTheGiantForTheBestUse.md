@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React vs Angular: Picking The Giant For The Best Use"
 link: "https://medium.com/@chigbovcm2020/react-vs-angular-picking-the-giant-for-the-best-use-59846890d2b6"
+isUpdated: true
 ---
+
+
 
 
 ## 목차

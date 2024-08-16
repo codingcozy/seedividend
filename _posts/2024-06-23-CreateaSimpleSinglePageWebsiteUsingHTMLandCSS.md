@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create a Simple Single Page Website Using HTML and CSS"
 link: "https://medium.com/@genotechies/create-a-simple-single-page-website-using-html-and-css-456e3f0f16c8"
+isUpdated: true
 ---
+
+
 
 
 ## HTML과 CSS를 사용한 간단한 웹사이트 디자인

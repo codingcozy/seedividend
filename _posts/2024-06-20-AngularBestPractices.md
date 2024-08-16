@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Best Practices"
 link: "https://medium.com/@indrajitsaha7597/angular-best-practices-cd200719233d"
+isUpdated: true
 ---
+
+
 
 
 ![Angular Best Practices](/assets/img/2024-06-20-AngularBestPractices_0.png)

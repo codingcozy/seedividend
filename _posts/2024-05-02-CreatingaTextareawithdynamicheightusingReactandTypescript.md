@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Textarea with dynamic height using React and Typescript"
 link: "https://medium.com/@oherterich/creating-a-textarea-with-dynamic-height-using-react-and-typescript-5ed2d78d9848"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-02-CreatingaTextareawithdynamicheightusingReactandTypescript_0.png" />

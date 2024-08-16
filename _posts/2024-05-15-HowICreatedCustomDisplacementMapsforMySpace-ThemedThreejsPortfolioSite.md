@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Created Custom Displacement Maps for My Space-Themed Three.js Portfolio Site"
 link: "https://medium.com/javascript-in-plain-english/how-i-created-custom-displacement-maps-for-my-space-themed-three-js-portfolio-site-642b52700941"
+isUpdated: true
 ---
+
+
 
 
 ## 온라인에서 무료로 사용할 수 있는 미리 제작된 변위 맵의 부족에 놀라웠습니다. 나만의 변위 맵을 만들기가 얼마나 쉬운지에 더욱 놀랐죠.

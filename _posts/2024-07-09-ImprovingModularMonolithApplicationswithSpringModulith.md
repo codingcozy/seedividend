@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Improving Modular Monolith Applications with Spring Modulith"
 link: "https://medium.com/itnext/improving-modular-monolith-applications-with-spring-modulith-edecc787f63c"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-09-ImprovingModularMonolithApplicationswithSpringModulith_0.png" />

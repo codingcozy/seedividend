@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Blender with Three.js: Unleashing the Potential of 3D Content on the Web"
 link: "https://medium.com/@thecuriouschronicles/integrating-blender-with-three-js-unleashing-the-potential-of-3d-content-on-the-web-72100e7902ba"
+isUpdated: true
 ---
+
+
 
 
 

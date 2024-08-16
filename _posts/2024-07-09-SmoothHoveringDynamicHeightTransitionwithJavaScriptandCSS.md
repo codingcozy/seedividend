@@ -3,12 +3,15 @@ title: "JavaScript와 CSS로 매끄러운 호버 동적 높이 전환 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_0.png"
 date: 2024-07-09 08:47
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_0.png
 tag: Tech
 originalTitle: "Smooth “Hovering” Dynamic Height Transition with JavaScript and CSS"
 link: "https://medium.com/@francismaria/smooth-hovering-dynamic-height-transition-with-javascript-and-css-3dee7c1acf6a"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-SmoothHoveringDynamicHeightTransitionwithJavaScriptandCSS_0.png)
 

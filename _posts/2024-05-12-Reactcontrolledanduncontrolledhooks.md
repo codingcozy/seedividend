@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React controlled and uncontrolled hooks"
 link: "https://medium.com/@manish-baral/react-controlled-and-uncontrolled-hooks-0ddd675560f6"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-Reactcontrolledanduncontrolledhooks_0.png" />

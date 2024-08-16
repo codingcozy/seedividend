@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Docker Images: A Beginner’s Guide #Part 2"
 link: "https://medium.com/@bhavyshekhaliya/understanding-docker-images-a-beginners-guide-part-2-520e9fedf4ab"
+isUpdated: true
 ---
+
+
 
 
 도커는 우리가 애플리케이션을 개발하고 배포하며 실행하는 방식을 혁신적으로 변화시켰어요. 도커의 핵심 기능은 도커 이미지 개념에 있어요. 이 글에서는 도커 이미지가 무엇이고, 어떻게 작동하는지, 그리고 왜 현대 애플리케이션 개발에 필수적인지 알아볼게요.

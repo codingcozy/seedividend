@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Backbonejs and its Advantages"
 link: "https://medium.com/@shariq.ahmed525/backbone-js-and-its-advantages-3224ef3b0451"
+isUpdated: true
 ---
+
+
 
 
 

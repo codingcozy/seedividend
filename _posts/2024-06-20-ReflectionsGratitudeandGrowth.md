@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reflections: Gratitude and Growth"
 link: "https://medium.com/@rajeshkumar9692494732/embarking-on-an-internship-is-like-venturing-into-uncharted-territory-brimming-with-excitement-6e3c756a2f23"
+isUpdated: true
 ---
+
+
 
 
 ![ReflectionsGratitudeandGrowth](/assets/img/2024-06-20-ReflectionsGratitudeandGrowth_0.png)

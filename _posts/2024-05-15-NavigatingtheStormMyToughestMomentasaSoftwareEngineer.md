@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating the Storm: My Toughest Moment as a Software Engineer"
 link: "https://medium.com/gitconnected/my-biggest-challenges-as-a-software-engineer-168ab993e036"
+isUpdated: true
 ---
+
+
 
 
 ## 소프트웨어 엔지니어링, 성장

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build cloud Architecture Diagrams in 1 Minute (This Tool is Crazy Fast!)"
 link: "https://medium.com/gitconnected/build-cloud-architecture-diagrams-in-1-minute-this-tool-is-crazy-fast-c4b4561d4c6a"
+isUpdated: true
 ---
+
+
 
 
 차트태그를 마크다운 형식으로 변경해주세요.

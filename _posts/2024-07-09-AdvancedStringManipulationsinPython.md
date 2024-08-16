@@ -3,12 +3,15 @@ title: "파이썬 고급 문자열 조작 기법들"
 description: ""
 coverImage: "/assets/img/2024-07-09-AdvancedStringManipulationsinPython_0.png"
 date: 2024-07-09 19:28
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-AdvancedStringManipulationsinPython_0.png
 tag: Tech
 originalTitle: "Advanced String Manipulations in Python"
 link: "https://medium.com/scriptserpent/advanced-string-manipulations-in-python-dfd7f3812b6f"
+isUpdated: true
 ---
+
+
 
 ![Advanced String Manipulations in Python](/assets/img/2024-07-09-AdvancedStringManipulationsinPython_0.png)
 

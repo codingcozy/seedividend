@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Simple People Counter App with HTML, CSS, and JavaScript A Step-by-Step Guide"
 link: "https://medium.com/web-3-digitals/building-a-simple-people-counter-app-with-html-css-and-javascript-a-step-by-step-guide-cfb31c883d07"
+isUpdated: true
 ---
+
+
 
 
 

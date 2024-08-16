@@ -3,12 +3,15 @@ title: "OpenAI와 Google Sheets 통합으로 Slack 봇 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_0.png"
 date: 2024-07-09 18:55
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-BuildingaSlackBotwithOpenAIandGoogleSheetsIntegration_0.png
 tag: Tech
 originalTitle: "Building a Slack Bot with OpenAI and Google Sheets Integration"
 link: "https://medium.com/@paulotavares_69273/building-a-slack-bot-with-openai-and-google-sheets-integration-94b1b8397266"
+isUpdated: true
 ---
+
+
 
 이 글에서 OpenAI Assistants의 기능을 활용하고 Google Sheets와 통합하여 사용자 쿼리에 지능적으로 응답하는 Slack 봇을 만드는 방법을 안내할 거에요. 이 봇은 사용자가 어려움을 겪을 때 Slack에서 지원 티켓을 생성할 수도 있어요. 이 튜토리얼을 마치면 Google Sheets 문서에서 관련 정보를 가져와 질문에 답하거나 티켓을 생성할 수 있는 봇을 보유하게 될 거에요.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Practical Guide To Containerize Your Rust Application With Docker"
 link: "https://medium.com/itnext/a-practical-guide-to-containerize-your-rust-application-with-docker-77e8a391b4a8"
+isUpdated: true
 ---
+
+
 
 
 ```js

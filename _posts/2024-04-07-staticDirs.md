@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "staticDirs"
 link: "https://storybook.js.org/docs/api/main-config-static-dirs"
+isUpdated: true
 ---
+
+
 
 
 

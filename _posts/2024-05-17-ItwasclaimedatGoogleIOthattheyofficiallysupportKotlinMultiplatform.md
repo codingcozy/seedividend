@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "It was claimed at Google I O that they officially support Kotlin Multiplatform"
 link: "https://medium.com/@callmeryan/it-was-claimed-at-google-i-o-that-they-officially-support-kotlin-multiplatform-545b2178b638"
+isUpdated: true
 ---
+
+
 
 
 ## 그러나 Dagger/Hilt는 아직입니다.

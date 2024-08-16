@@ -3,12 +3,15 @@ title: "통계학 시계열 분석  기본 개념 총정리"
 description: ""
 coverImage: "/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_0.png"
 date: 2024-07-09 18:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_0.png
 tag: Tech
 originalTitle: "Statistics: Time Series Analysis — Compilation of the fundamental concepts"
 link: "https://medium.com/intuition/statistics-time-series-analysis-compilation-of-the-fundamental-concepts-7c3799953a0b"
+isUpdated: true
 ---
+
+
 
 ## 통계 및 수학
 

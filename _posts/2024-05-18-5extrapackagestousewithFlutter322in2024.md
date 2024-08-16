@@ -3,12 +3,15 @@ title: "Flutter 322와 함께 사용할 수 있는 5가지 추가 패키지(2024
 description: ""
 coverImage: "/assets/img/2024-05-18-5extrapackagestousewithFlutter322in2024_0.png"
 date: 2024-05-18 22:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-18-5extrapackagestousewithFlutter322in2024_0.png
 tag: Tech
 originalTitle: "5 extra packages to use with Flutter 3.22 in 2024"
 link: "https://medium.com/@kanellopoulos.leo/5-extra-packages-to-use-with-flutter-3-22-in-2024-81a0d8afc78b"
+isUpdated: true
 ---
+
+
 
 흥미로운 뉴스! 구글 I/O 2024에서 Flutter 3.22이 발표되었고, 물론 이전에 제가 즐겨 사용하는 Flutter 앱 개발용 패키지에 관한 기사를 사랑해주셔서 감사합니다. 많은 앱에서 사용하는 추가 기능 몇 가지를 공유하기로 결정했습니다. 오늘은 코드를 깔끔하고 조직적으로 유지할 뿐만 아니라 훌륭한 앱을 만드는 데 도움이 되는 5가지 Flutter 패키지를 소개하려고 합니다.
 

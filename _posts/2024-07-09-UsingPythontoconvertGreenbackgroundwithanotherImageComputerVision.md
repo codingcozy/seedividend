@@ -3,12 +3,15 @@ title: "컴퓨터 비전으로 파이썬을 사용해 녹색 배경을 다른 �
 description: ""
 coverImage: "/assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_0.png"
 date: 2024-07-09 14:37
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-UsingPythontoconvertGreenbackgroundwithanotherImageComputerVision_0.png
 tag: Tech
 originalTitle: "Using Python to convert Green background with another Image | Computer Vision"
 link: "https://medium.com/@maria-asghar/using-python-to-convert-green-background-with-another-image-computer-vision-acb0f70419d4"
+isUpdated: true
 ---
+
+
 
 디지털 이미지 처리 및 비디오 편집에서 특정 색상(일반적으로 녹색 또는 파랑)을 다른 이미지 또는 비디오 시퀀스로 대체하는 기술은 염색 키 또는 그린 스크린이라고 일반적으로 알려져 있습니다. 이 기술은 영화 제작, 텔레비전 제작 및 소셜 미디어 플랫폼에 매력적인 콘텐츠를 만드는 데 널리 사용됩니다. 이 기술은 파이썬을 사용하여 구현할 수 있습니다.
 

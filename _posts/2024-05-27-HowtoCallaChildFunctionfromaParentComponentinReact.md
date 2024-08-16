@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Call a Child Function from a Parent Component in React"
 link: "https://medium.com/@ankit-royal/how-to-call-a-childs-function-from-a-parent-component-in-react-a3494c3a658a"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-HowtoCallaChildFunctionfromaParentComponentinReact_0.png" />

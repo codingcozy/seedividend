@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Full-page theme toggle animation with View Transitions API"
 link: "https://medium.com/@AkashHamirwasia/full-page-theme-toggle-animation-with-view-transitions-api-43db0beed341"
+isUpdated: true
 ---
+
+
 
 
 

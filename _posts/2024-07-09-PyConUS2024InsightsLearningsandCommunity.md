@@ -3,12 +3,15 @@ title: "PyCon US 2024 인사이트, 배움, 그리고 커뮤니티"
 description: ""
 coverImage: "/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png"
 date: 2024-07-09 09:11
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png
 tag: Tech
 originalTitle: "PyCon US 2024: Insights, Learnings, and Community."
 link: "https://medium.com/@afimaamedufie/pycon-us-2024-insights-learnings-and-community-75442260a2df"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png)
 

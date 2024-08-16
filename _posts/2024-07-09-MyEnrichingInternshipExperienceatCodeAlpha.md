@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Enriching Internship Experience at CodeAlpha"
 link: "https://medium.com/@chediouerghi88/my-enriching-internship-experience-at-codealpha-910391a061db"
+isUpdated: true
 ---
+
+
 
 
 최근에 CodeAlpha에서 인턴십 기회를 가졌는데, 이 경험을 통해 기술적 역량을 크게 향상시키고 다양한 프로젝트에서 실무 경험을 쌓을 수 있었습니다. 제 경험과 배운 주요 교훈을 자세히 살펴보겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Next-Auth in App Router of Nextjs"
 link: "https://medium.com/@rohitkumarkhatri/next-auth-in-app-router-of-next-js-7df037f7a2ad"
+isUpdated: true
 ---
+
+
 
 
 

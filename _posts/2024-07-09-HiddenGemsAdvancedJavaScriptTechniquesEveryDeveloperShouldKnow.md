@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hidden Gems: Advanced JavaScript Techniques Every Developer Should Know"
 link: "https://medium.com/@learntocodetoday/hidden-gems-advanced-javascript-techniques-every-developer-should-know-f6228c540b02"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-09-HiddenGemsAdvancedJavaScriptTechniquesEveryDeveloperShouldKnow_0.png)

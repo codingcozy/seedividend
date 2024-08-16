@@ -3,12 +3,15 @@ title: "시계열 예측을 위한 범용 머신 러닝 프레임워크"
 description: ""
 coverImage: "/assets/img/2024-07-06-AGeneralizedMachineLearningFrameworkforTimeSeriesForecasting_0.png"
 date: 2024-07-06 02:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-AGeneralizedMachineLearningFrameworkforTimeSeriesForecasting_0.png
 tag: Tech
 originalTitle: "A Generalized Machine Learning Framework for Time Series Forecasting"
 link: "https://medium.com/towards-artificial-intelligence/a-generalized-machine-learning-framework-for-time-series-forecasting-54f839546d9e"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-AGeneralizedMachineLearningFrameworkforTimeSeriesForecasting_0.png
 

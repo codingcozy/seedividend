@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why AI-generated videos feel hypnotic, fluid, and uncanny"
 link: "https://medium.com/@ykulbashian/why-ai-generated-videos-feel-hypnotic-fluid-and-uncanny-71c822ad3da5"
+isUpdated: true
 ---
+
+
 
 
 ## 공정한 숫자 분석가의 장단점

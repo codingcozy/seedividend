@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use React Context with useState"
 link: "https://medium.com/comsystoreply/how-to-use-react-context-with-usestate-c8ae4fe72fb9"
+isUpdated: true
 ---
+
+
 
 
 래엑트 앱에서 props를 도대체 어디서 사용해야 하는지 지친 적이 있나요? Redux에 대한 대안을 찾고 계신가요? 자식 컴포넌트가 props를 사용하지 않고 계속해서 전달하고 있나요? 더 나은 방법이 여기 있어요!

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create a Tic Tac Toe game with HTML, CSS, and JavaScript"
 link: "https://medium.com/@canankorkut1/how-to-create-a-tic-tac-toe-with-html-css-and-javascript-10a25fddd356"
+isUpdated: true
 ---
+
+
 
 
 

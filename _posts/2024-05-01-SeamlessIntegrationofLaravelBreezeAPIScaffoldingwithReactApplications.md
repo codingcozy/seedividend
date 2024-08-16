@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Seamless Integration of Laravel Breeze API Scaffolding with React Applications"
 link: "https://medium.com/javascript-in-plain-english/seamless-integration-of-laravel-breeze-api-scaffolding-with-react-applications-60ed4b672bf1"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-SeamlessIntegrationofLaravelBreezeAPIScaffoldingwithReactApplications_0.png" />

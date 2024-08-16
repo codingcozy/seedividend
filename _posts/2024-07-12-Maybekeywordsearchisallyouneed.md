@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Maybe keyword search is all you need"
 link: "https://medium.com/@fabio.matricardi/maybe-keyword-search-is-all-you-need-4c1cdedbb3f9"
+isUpdated: true
 ---
+
+
 
 
 

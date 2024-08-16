@@ -3,12 +3,15 @@ title: "Angular v17이 해결한 이전에는 해결 불가능했던 문제"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_0.png"
 date: 2024-06-22 05:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-22-HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_0.png
 tag: Tech
 originalTitle: "How Angular v17 Accidentally Solved a Previously Unsolvable Problem"
 link: "https://medium.com/javascript-in-plain-english/how-angular-v17-accidentally-solved-a-previously-unsolvable-problem-14777e78916d"
+isUpdated: true
 ---
+
+
 
 ## 도커 빌드에 간단한 유니코드 문자가 문제를 일으킨 방법
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to do quickly a Text-Input ReactNative component"
 link: "https://medium.com/@mo_badrawy/how-to-do-quickly-a-text-input-reactnative-component-3314cdac48b4"
+isUpdated: true
 ---
+
+
 
 
 

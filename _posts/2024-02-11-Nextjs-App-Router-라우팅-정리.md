@@ -1,5 +1,5 @@
 ---
-title: "Nextjs App Router 라우팅 정리"
+title: "Nextjs App Router 라우팅 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

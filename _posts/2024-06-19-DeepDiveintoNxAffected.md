@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🔎 Deep Dive into Nx Affected"
 link: "https://medium.com/@jgelin/deep-dive-into-nx-affected-b3c29c715d41"
+isUpdated: true
 ---
+
+
 
 
 ## 모놀리포의 Nx 영향을 이해하고 최적화하기

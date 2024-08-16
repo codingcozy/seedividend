@@ -3,12 +3,15 @@ title: "진정한 인공지능의 벽에 부딪힌 AGI의 발전 현황"
 description: ""
 coverImage: "/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_0.png"
 date: 2024-07-09 19:38
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_0.png
 tag: Tech
 originalTitle: "Progress towards true Artificial General Intelligence (AGI) has hit a wall."
 link: "https://medium.com/generative-ai/progress-towards-true-artificial-general-intelligence-agi-has-hit-a-wall-80a35c048f41"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-09-ProgresstowardstrueArtificialGeneralIntelligenceAGIhashitawall_0.png)
 

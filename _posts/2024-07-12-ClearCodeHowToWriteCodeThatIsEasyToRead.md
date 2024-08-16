@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Clear Code: How To Write Code That Is Easy To Read"
 link: "https://medium.com/didact-publication/clear-code-how-to-write-code-that-is-easy-to-read-fc8f12820592"
+isUpdated: true
 ---
+
+
 
 
 이 기사는 나의 구현(코드)을 기억하지 못하는 것에 대처하는 방법에 대해 트윗한 후속 기사입니다. 당신에게는 재미있을 수도 있지만, 사실 글을 쓰고 나면 금방 내가 무엇을 썼는지 잊어버리곤 합니다.

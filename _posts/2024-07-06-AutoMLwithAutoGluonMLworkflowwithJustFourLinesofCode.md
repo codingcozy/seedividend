@@ -3,12 +3,15 @@ title: "AutoGluon으로 AutoML 시작하기 4줄 코드로 완료하는 ML 워�
 description: ""
 coverImage: "/assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_0.png"
 date: 2024-07-06 02:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-AutoMLwithAutoGluonMLworkflowwithJustFourLinesofCode_0.png
 tag: Tech
 originalTitle: "AutoML with AutoGluon: ML workflow with Just Four Lines of Code"
 link: "https://medium.com/towards-data-science/automl-with-autogluon-transform-your-ml-workflow-with-just-four-lines-of-code-1d4b593be129"
+isUpdated: true
 ---
+
+
 
 ## AutoGluon이 캐글 대회를 석권한 방법 및 여러분도 이김을 거두는 방법. 4줄의 코드로 99%의 데이터 과학자들을 이겨낸 알고리즘입니다.
 

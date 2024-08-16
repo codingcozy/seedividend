@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Anatomy of a Java Virtual Machine Class File"
 link: "https://medium.com/@AlexanderObregon/the-anatomy-of-a-java-virtual-machine-class-file-e3773d23f3e3"
+isUpdated: true
 ---
+
+
 
 
 

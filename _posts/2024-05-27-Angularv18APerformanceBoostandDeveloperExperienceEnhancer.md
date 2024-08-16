@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular v18: A Performance Boost and Developer Experience Enhancer"
 link: "https://medium.com/@afserali.b/angular-v18-a-performance-boost-and-developer-experience-enhancer-682d4600eb27"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-Angularv18APerformanceBoostandDeveloperExperienceEnhancer_0.png" />

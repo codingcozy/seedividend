@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Your Best Tech Stacks for Web App Development in 2024"
 link: "https://eugenepalla.medium.com/your-best-tech-stacks-for-web-app-development-in-2024-15f7c1cdf936"
+isUpdated: true
 ---
+
+
 
 
 

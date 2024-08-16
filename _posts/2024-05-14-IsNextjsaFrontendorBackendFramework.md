@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Is Next.js a Frontend or Backend Framework?"
 link: "https://medium.com/@nextjs-saas-boilerplate/is-next-js-a-frontend-or-backend-framework-01c385342aa9"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-IsNextjsaFrontendorBackendFramework_0.png" />

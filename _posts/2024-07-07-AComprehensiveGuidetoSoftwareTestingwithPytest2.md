@@ -3,12 +3,15 @@ title: "Pytest로 소프트웨어 테스트하는 종합 가이드 2"
 description: ""
 coverImage: "/assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png"
 date: 2024-07-07 19:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png
 tag: Tech
 originalTitle: "A Comprehensive Guide to Software Testing with Pytest #2"
 link: "https://medium.com/@rockeyrockssandeep1994/a-comprehensive-guide-to-software-testing-with-pytest-2-e0e59fdf1933"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png" />
 

@@ -3,12 +3,15 @@ title: "그라데이션 오버레이를 사용한 애니메이티드 랜딩 페�
 description: ""
 coverImage: "/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png"
 date: 2024-07-02 21:39
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png
 tag: Tech
 originalTitle: "Animated landing page with gradient overlay"
 link: "https://medium.com/@tom.hendrych/animated-landing-page-with-gradient-overlay-862b26c7958f"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-02-Animatedlandingpagewithgradientoverlay_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dependency-Free Kubernetes Cluster Monitoring"
 link: "https://medium.com/better-programming/dependency-free-kubernetes-cluster-monitoring-5f7aa2f038d9"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-13-Dependency-FreeKubernetesClusterMonitoring_0.png)

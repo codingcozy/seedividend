@@ -3,12 +3,15 @@ title: "잘 알려지지 않은 CSS 트릭 10가지 파트 6"
 description: ""
 coverImage: "/assets/img/2024-07-09-10lesserknownCSStrickspart6_0.png"
 date: 2024-07-09 17:58
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-10lesserknownCSStrickspart6_0.png
 tag: Tech
 originalTitle: "10 lesser known CSS tricks part 6"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-tricks-part-6-a0f89071083a"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-10lesserknownCSStrickspart6_0.png" />
 

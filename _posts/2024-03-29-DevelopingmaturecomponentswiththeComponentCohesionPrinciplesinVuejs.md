@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Developing mature components with the Component Cohesion Principles in Vuejs"
 link: "https://medium.com/js-dojo/developing-mature-components-with-the-component-cohesion-principles-in-vue-js-1ef7a6cbbb4b"
+isUpdated: true
 ---
+
+
 
 
 

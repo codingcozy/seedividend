@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lessons from open-source Describe what your regex does with a commented example"
 link: "https://medium.com/dev-genius/lessons-from-open-source-describe-what-your-regex-does-with-a-commented-example-fb5bfe8df777"
+isUpdated: true
 ---
+
+
 
 
 

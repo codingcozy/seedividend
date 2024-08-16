@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering TypeScript in Everyday Programming"
 link: "https://medium.com/@Choco23/mastering-typescript-in-everyday-programming-2e21c3d43763"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-MasteringTypeScriptinEverydayProgramming_0.png" />

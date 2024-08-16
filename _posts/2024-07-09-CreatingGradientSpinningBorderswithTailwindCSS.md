@@ -3,12 +3,15 @@ title: "Tailwind CSS로 그라데이션 스피닝 보더 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-CreatingGradientSpinningBorderswithTailwindCSS_0.png"
 date: 2024-07-09 18:01
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CreatingGradientSpinningBorderswithTailwindCSS_0.png
 tag: Tech
 originalTitle: "Creating Gradient Spinning Borders with Tailwind CSS"
 link: "https://medium.com/@akshitdayal99/creating-gradient-spinning-borders-with-tailwind-css-7c7f8a3d242b"
+isUpdated: true
 ---
+
+
 
 ![Image](/assets/img/2024-07-09-CreatingGradientSpinningBorderswithTailwindCSS_0.png)
 

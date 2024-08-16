@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "shadcn ui additional components and resources"
 link: "https://jidefr.medium.com/shadcn-ui-add-components-and-resources-0846b0f57596"
+isUpdated: true
 ---
+
+
 
 
 

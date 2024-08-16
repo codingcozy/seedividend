@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Separating⛓️ Business Logic 🧠from UI Components 🔡 in React 18"
 link: "https://medium.com/design-bootcamp/separating-%EF%B8%8F-business-logic-from-ui-components-in-react-18-aa1775b3caba"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "An Introduction to 3D Scanning for Additive Manufacturing"
 link: "https://medium.com/3dprintjunction/an-introduction-to-3d-scanning-for-additive-manufacturing-f40800b498db"
+isUpdated: true
 ---
+
+
 
 
 ![3D 스캔을 통한 추가 제조에 대한 소개](/assets/img/2024-05-16-AnIntroductionto3DScanningforAdditiveManufacturing_0.png)

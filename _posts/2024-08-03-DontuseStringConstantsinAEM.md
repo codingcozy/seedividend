@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dont use String Constants in AEM"
 link: "https://medium.com/@achimkoch/dont-use-string-constants-in-aem-23edc89e2cac"
+isUpdated: true
 ---
+
+
 
 
 아니요 — 제목이 클릭베이트는 아닙니다. 아마 조금 그렇긴 하지만요. 그리고 네 — 약간 논란이 될 수도 있어요. 일반적으로 널리 행해지는 관행이 그 반대라는 건 알고 있어요. 헬, 심지어 제 정적 코드 분석기도 항상 문자열 상수를 사용하라고 권유하죠...

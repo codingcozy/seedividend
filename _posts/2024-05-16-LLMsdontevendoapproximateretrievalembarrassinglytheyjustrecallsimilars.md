@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "LLMs don’t even do ‘approximate retrieval’ — embarrassingly, they just recall ‘similars’"
 link: "https://medium.com/ontologik/llms-dont-even-do-approximate-retrieval-embarrassingly-they-try-to-recall-some-similars-59147f9f9cce"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-16-LLMsdontevendoapproximateretrievalembarrassinglytheyjustrecallsimilars_0.png)

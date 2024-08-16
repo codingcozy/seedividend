@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Display FLEX vs Block, Inline, and Inline-Block Explained"
 link: "https://medium.com/dev-genius/css-display-flex-vs-block-inline-and-inline-block-explained-5fa588a3a960"
+isUpdated: true
 ---
+
+
 
 
 

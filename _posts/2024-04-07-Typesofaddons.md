@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Types of addons"
 link: "https://storybook.js.org/docs/addons/addon-types"
+isUpdated: true
 ---
+
+
 
 
 

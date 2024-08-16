@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "We Built Collaborative Editing for Our Newsroom’s CMS. Here’s How."
 link: "https://medium.com/timesopen/we-built-collaborative-editing-for-our-newsrooms-cms-here-s-how-415618a3ec49"
+isUpdated: true
 ---
+
+
 
 
 Sophia Ciocca와 Jeff Sisson

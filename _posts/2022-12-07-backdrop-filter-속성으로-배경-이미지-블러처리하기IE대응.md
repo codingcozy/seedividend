@@ -1,5 +1,5 @@
 ---
-title: "backdrop-filter 속성으로 배경 이미지 블러처리하기IE대응"
+title: "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)"
 description: "backdrop-filter 속성으로 IE대응까지 가능한 배경 이미지 블러처리하는 방법에 대해서 알아봅니다"
 coverImage: ""
 date: 2024-08-03 16:52
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

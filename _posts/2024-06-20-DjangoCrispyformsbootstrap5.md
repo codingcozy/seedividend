@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Django Crispy forms — bootstrap5"
 link: "https://medium.com/@azzouzhamza13/django-crispy-forms-bootstrap5-00a1eb3ec3c7"
+isUpdated: true
 ---
+
+
 
 
 ## Django Crispy Forms 설정 및 HTML 템플릿이 Helper Layout을 통해 변경 양식을 받지 않는 이유를 해결하는 중!

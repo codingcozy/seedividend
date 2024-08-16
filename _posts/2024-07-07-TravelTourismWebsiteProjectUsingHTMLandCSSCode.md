@@ -3,12 +3,15 @@ title: "HTML과 CSS 코드로 여행 관광 웹사이트 프로젝트 만들기"
 description: ""
 coverImage: "/assets/img/2024-07-07-TravelTourismWebsiteProjectUsingHTMLandCSSCode_0.png"
 date: 2024-07-07 21:22
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-TravelTourismWebsiteProjectUsingHTMLandCSSCode_0.png
 tag: Tech
 originalTitle: "Travel Tourism Website Project Using HTML and CSS Code"
 link: "https://medium.com/@codewithrandomartical/travel-tourism-website-project-using-html-and-css-code-c711cf0b1545"
+isUpdated: true
 ---
+
+
 
 # HTML 및 CSS 코드를 사용하여 여행/관광 웹사이트 프로젝트 만들기
 

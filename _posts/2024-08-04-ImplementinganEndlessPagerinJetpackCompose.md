@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing an Endless Pager in Jetpack Compose"
 link: "https://medium.com/@callmeryan/implementing-an-endless-pager-in-jetpack-compose-bbb509a434b6"
+isUpdated: true
 ---
+
+
 
 
 ## 최소한의 변경으로 매끄러운 스크롤링

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "performance in react ⚡"
 link: "https://medium.com/@lott.marcos/performance-in-react-e35511d9b21c"
+isUpdated: true
 ---
+
+
 
 
 현대 웹 애플리케이션을 개발할 때 최적의 성능을 달성하는 것이 중요합니다. ReactJS는 개발자가 빠르고 반응이 뛰어나며 효율적인 애플리케이션을 만들 수 있도록 도와주는 강력한 도구와 기술을 제공하지만, 이들을 어떻게 사용해야 하는지 알아야 합니다! 이 글에서는 ReactJS에서 성능을 극대화하기 위한 주요 원칙을 탐구하며, 재렌더링을 최소화하고 DOM과 가상 DOM 간의 차이를 이해하며 불변성을 활용하고 메모이제이션을 구현하는 것에 초점을 맞출 것입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with Harbor: A Step-by-Step Guide"
 link: "https://medium.com/@josephsims1/getting-started-with-harbor-a-step-by-step-guide-e782558de78a"
+isUpdated: true
 ---
+
+
 
 
 Harbor는 DockerHub, ECR 또는 ACR에 의존하지 않고 컨테이너 이미지를 안전하게 저장하고 관리하는 데 도움이 되는 오픈 소스 레지스트리입니다. Docker의 오픈 소스 레지스트리 위에 보안, 식별 및 관리 기능을 추가합니다. Harbor를 사용하면 이미지에 대한 정책을 설정하고 취약점을 검사하여 역할 기반 제어를 통해 액세스를 관리할 수 있습니다. 이는 컨테이너 이미지를 안전하고 잘 관리된 상태로 유지하려는 개발자들에게 필수적인 도구입니다.

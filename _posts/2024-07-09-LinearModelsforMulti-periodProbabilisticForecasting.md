@@ -3,12 +3,15 @@ title: "다중 기간 확률 예측을 위한 선형 모델 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_0.png"
 date: 2024-07-09 19:30
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_0.png
 tag: Tech
 originalTitle: "Linear Models for Multi-period Probabilistic Forecasting"
 link: "https://medium.com/dataman-in-ai/linear-regression-for-multi-period-probabilistic-forecasts-67719f59e5ca"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-LinearModelsforMulti-periodProbabilisticForecasting_0.png" />
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Image Carousel using JavaScript"
 link: "https://medium.com/@imPradhyumn/image-carousel-using-javascript-19b96afa956f"
+isUpdated: true
 ---
+
+
 
 
 

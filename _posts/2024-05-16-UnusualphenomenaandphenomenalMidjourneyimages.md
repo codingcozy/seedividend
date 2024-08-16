@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unusual phenomena and phenomenal Midjourney images"
 link: "https://medium.com/@aivaras.a.grauzinis/unusual-phenomena-and-phenomenal-midjourney-images-0b4ae3f6573d"
+isUpdated: true
 ---
+
+
 
 
 내 글 중 한 가지라도 읽은 적이 있다면, 자연 현상에 대한 내 감동과 그것을 흥미로운 이미지로 만드는 방법을 늘 찾는 것을 알고 계실 것입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I found my first ever bug"
 link: "https://medium.com/the-first-digit/how-i-found-my-first-ever-bug-89fedb5a9b3c"
+isUpdated: true
 ---
+
+
 
 
 

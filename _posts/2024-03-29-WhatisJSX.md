@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is JSX "
 link: "https://medium.com/@aw8145502/what-is-jsx-c8c046aa6729"
+isUpdated: true
 ---
+
+
 
 
 

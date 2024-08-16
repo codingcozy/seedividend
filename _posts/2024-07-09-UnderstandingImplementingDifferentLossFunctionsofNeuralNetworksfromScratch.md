@@ -3,12 +3,15 @@ title: "뉴럴 네트워크 손실 함수 이해 및 구현 방법 기초부터"
 description: ""
 coverImage: "/assets/img/2024-07-09-UnderstandingImplementingDifferentLossFunctionsofNeuralNetworksfromScratch_0.png"
 date: 2024-07-09 15:01
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-UnderstandingImplementingDifferentLossFunctionsofNeuralNetworksfromScratch_0.png
 tag: Tech
 originalTitle: "Understanding , Implementing Different Loss Functions of Neural Networks from Scratch"
 link: "https://medium.com/@abhinavchaturvedi0905/understanding-implementing-different-loss-functions-of-neural-networks-from-scratch-c39ee92f6c8a"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-UnderstandingImplementingDifferentLossFunctionsofNeuralNetworksfromScratch_0.png" />
 

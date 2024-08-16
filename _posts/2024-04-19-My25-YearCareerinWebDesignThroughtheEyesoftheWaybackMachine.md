@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My 25-Year Career in Web Design Through the Eyes of the Wayback Machine"
 link: "https://medium.com/on-building-software/my-25-year-career-in-web-design-through-the-eyes-of-the-wayback-machine-4e37f3ec94d8"
+isUpdated: true
 ---
+
+
 
 
 

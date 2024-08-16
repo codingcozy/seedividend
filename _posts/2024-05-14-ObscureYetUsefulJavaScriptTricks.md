@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Obscure Yet Useful JavaScript Tricks"
 link: "https://medium.com/javascript-in-plain-english/obscure-yet-useful-javascript-tricks-794d43fa4003"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-ObscureYetUsefulJavaScriptTricks_0.png" />

@@ -3,12 +3,15 @@ title: "견고성 원칙으로 정적 타입 검사기 무력화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png"
 date: 2024-07-06 02:22
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png
 tag: Tech
 originalTitle: "Silence the static type checker with the robustness principle"
 link: "https://medium.com/@cautaerts/silence-the-static-type-checker-with-the-robustness-principle-0beebfa88252"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png
 

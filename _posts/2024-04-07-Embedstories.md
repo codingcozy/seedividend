@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Embed stories"
 link: "https://storybook.js.org/docs/sharing/embed"
+isUpdated: true
 ---
+
+
 
 
 

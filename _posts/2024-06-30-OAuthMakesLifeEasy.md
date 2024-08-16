@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "OAuth Makes Life Easy"
 link: "https://medium.com/@igmarvvvi/oauth-makes-life-easy-bf66d8df81de"
+isUpdated: true
 ---
+
+
 
 
 저와 같이 기술의 발전으로 게으를 갖고 있는 분이세요? 솔직히 말씀드리자면, 스트레스 받을 건 전혀 가망이 없죠. 보안은 기술에서 매우 중요한 측면이며, 진지하게 고려해야 합니다. 그러나 솔직히 말해요, 우리 중 얼마나 많은 사람들이 안전한 암호를 생성하고 안전하게 보관하는 필요한 단계를 취하는 것을 선호할까요? 이 세대의 기술 사용자들은 그래 할 만큼 게으르죠.

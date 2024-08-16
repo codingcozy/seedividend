@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React is the New IBM"
 link: "https://medium.com/@chrlschn/react-is-the-new-ibm-6af2f4b04e5e"
+isUpdated: true
 ---
+
+
 
 
 

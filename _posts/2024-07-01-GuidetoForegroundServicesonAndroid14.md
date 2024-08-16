@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Guide to Foreground Services on Android 14"
 link: "https://medium.com/@domen.lanisnik/guide-to-foreground-services-on-android-9d0127dc8f9a"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 안드로이드 14에는 SDK 버전 34를 타겼다면 포그라운드 서비스와 관련된 중요 변경 사항이 포함되어 있습니다. 이 변경 사항을 적용하려면 어떤 작업을 해야 하는지 살펴보겠습니다.

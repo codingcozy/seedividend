@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create various Kubernetes resources using Terraform"
 link: "https://medium.com/stackademic/create-various-kubernetes-resources-using-terraform-7fedc0bcf427"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-16-CreatevariousKubernetesresourcesusingTerraform_0.png" />

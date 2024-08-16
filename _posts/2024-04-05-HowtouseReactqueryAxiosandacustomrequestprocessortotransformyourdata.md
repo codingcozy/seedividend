@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use React query, Axios and a custom request processor to transform your data"
 link: "https://medium.com/@amavictor/how-to-use-react-query-axios-and-a-custom-request-processor-to-transform-your-data-2a9f0c9f5bf0"
+isUpdated: true
 ---
+
+
 
 
 

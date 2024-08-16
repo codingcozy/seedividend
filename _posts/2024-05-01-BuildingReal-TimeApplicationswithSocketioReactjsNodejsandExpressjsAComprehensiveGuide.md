@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Real-Time Applications with Socket.io, React.js, Node.js, and Express.js: A Comprehensive Guide"
 link: "https://medium.com/bitsrc/building-real-time-applications-with-socket-io-adc86da2f9f1"
+isUpdated: true
 ---
+
+
 
 
 **실시간 웹 개발: Socket.io, React.js, Node.js 및 Express.js를 활용한 대화형 애플리케이션 구축에 대한 포괄적인 가이드**

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What Are the New Features and Updates in Nextjs 142"
 link: "https://medium.com/javascript-in-plain-english/what-are-the-new-features-and-updates-in-next-js-14-2-293d8535f40d"
+isUpdated: true
 ---
+
+
 
 
 

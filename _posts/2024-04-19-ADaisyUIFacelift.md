@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A DaisyUI Facelift"
 link: "https://medium.com/@rob.bettison94/a-daisyui-facelift-16dcdae61048"
+isUpdated: true
 ---
+
+
 
 
 

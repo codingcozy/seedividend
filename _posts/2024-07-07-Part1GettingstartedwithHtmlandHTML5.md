@@ -3,12 +3,15 @@ title: "파트 1 HTML 및 HTML5 시작하는 법"
 description: ""
 coverImage: "/assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_0.png"
 date: 2024-07-07 21:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-Part1GettingstartedwithHtmlandHTML5_0.png
 tag: Tech
 originalTitle: "Part 1: Getting started with Html and HTML5"
 link: "https://medium.com/@vaaluvishnu5146/getting-started-with-html-and-html5-da9a27e65b97"
+isUpdated: true
 ---
+
+
 
 HTML 및 HTML에서 사용 가능한 모든 태그에 대한 설명서
 

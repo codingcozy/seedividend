@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying Your NextJS Project on Hostinger"
 link: "https://medium.com/@oandersonbm/deploying-your-nextjs-project-on-hostinger-dffdb6a05ffc"
+isUpdated: true
 ---
+
+
 
 
 

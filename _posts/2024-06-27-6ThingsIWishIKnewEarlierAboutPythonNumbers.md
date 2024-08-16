@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "6 Things I Wish I Knew Earlier About Python Numbers"
 link: "https://medium.com/@zlliu/6-things-i-wish-i-knew-earlier-about-python-numbers-dc83443d3da1"
+isUpdated: true
 ---
+
+
 
 
 아래는 Mardown 형식을 사용한 표태그입니다:

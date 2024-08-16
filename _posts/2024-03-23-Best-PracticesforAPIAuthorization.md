@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Best-Practices for API Authorization"
 link: "https://blog.bitsrc.io/best-practices-for-api-security-6d8242587caf"
+isUpdated: true
 ---
+
+
 
 
 

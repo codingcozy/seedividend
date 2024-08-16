@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Demystifying State Management in Flutter A Practical Guide with Examples Part 2"
 link: "https://medium.com/@mahmoudsaeed395.395/demystifying-state-management-in-flutter-a-practical-guide-with-examples-part-2-a3720ddeeff8"
+isUpdated: true
 ---
+
+
 
 
 

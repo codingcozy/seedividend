@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS  Position  absolute vs relative vs fixed and more"
 link: "https://medium.com/@jaganjvvn/css-position-absolute-vs-relative-vs-fixed-and-more-642a9c2696b2"
+isUpdated: true
 ---
+
+
 
 
 

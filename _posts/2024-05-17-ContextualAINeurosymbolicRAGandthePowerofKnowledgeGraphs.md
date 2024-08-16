@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Contextual AI: Neurosymbolic RAG and the Power of Knowledge Graphs"
 link: "https://medium.com/codex/contextual-ai-neurosymbolic-rag-and-the-power-of-knowledge-graphs-6ba0a30e363d"
+isUpdated: true
 ---
+
+
 
 
 지식 그래프를 활용한 검색 기반 생성 (RAG)은 실세계 LLM 응용 프로그램에 대한 중요한 AI 스택입니다.

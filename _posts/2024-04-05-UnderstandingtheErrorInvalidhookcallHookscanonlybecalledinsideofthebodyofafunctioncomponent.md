@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the Error Invalid hook call Hooks can only be called inside of the body of a function component"
 link: "https://medium.com/@kasata/demystifying-react-error-invalid-hook-call-c92b13575dfe"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "For Better Mental Health, Avoid the Comments Section"
 link: "https://medium.com/bouncin-and-behavin-blogs/for-better-mental-health-avoid-the-comments-section-dd4bb385f81a"
+isUpdated: true
 ---
+
+
 
 
 ## 무지와 스트레스

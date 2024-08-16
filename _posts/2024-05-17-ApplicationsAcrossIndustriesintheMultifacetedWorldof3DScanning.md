@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Applications Across Industries in the Multifaceted World of 3D Scanning"
 link: "https://medium.com/3dprintjunction/applications-across-industries-in-the-multifaceted-world-of-3d-scanning-d7184886a8ff"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-17-ApplicationsAcrossIndustriesintheMultifacetedWorldof3DScanning_0.png)

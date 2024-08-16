@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Web Workers: Unlocking JavaScript’s Multithreading Potential 🚀"
 link: "https://medium.com/javascript-in-plain-english/web-workers-unlocking-javascripts-multithreading-potential-e8a0b88a35ad"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-WebWorkersUnlockingJavaScriptsMultithreadingPotential_0.png" />

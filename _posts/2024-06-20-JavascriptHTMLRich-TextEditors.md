@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Javascript HTML: Rich-Text Editors"
 link: "https://medium.com/@itsuki.enjoy/javascript-html-rich-text-editors-8fbde4e1b119"
+isUpdated: true
 ---
+
+
 
 
 리치 텍스트 편집기 또는 WYSIWYG 편집기를 사용하면 사용자가 스타일이 적용된 텍스트, 이미지, 목록, 코드 블록 등을 입력할 수 있습니다. 만약 여러분이 마크다운으로 작성할 수 없는 사용자를 대상으로 한 웹사이트에서 텍스트/문서 입력을 구축 중이라면 이 접근 방식이 유용할 것입니다.

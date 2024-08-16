@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Frontend Engineering simplified"
 link: "https://medium.com/@emmanueloni45/frontend-engineering-simplified-a31bc890883a"
+isUpdated: true
 ---
+
+
 
 
 

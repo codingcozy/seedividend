@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Supercharge Your UI with Tailwind Signals: Setup and Examples"
 link: "https://medium.com/@asierr/supercharge-your-ui-with-tailwind-signals-setup-and-examples-1d074d7ea1aa"
+isUpdated: true
 ---
+
+
 
 
 테일윈드 신호는 Tailwind CSS 클래스에 반응적이고 동적인 동작을 추가하는 환상적인 방법입니다. 상태 변경, 사용자 상호작용 또는 웹 애플리케이션의 다른 이벤트에 응답하여 더 활발하고 매력적인 사용자 경험을 제공할 수 있습니다.

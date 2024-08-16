@@ -3,12 +3,15 @@ title: "OpenAI의 Assistant API와 React를 사용하여 나만의 도우미 챗
 description: ""
 coverImage: "/assets/img/2024-05-12-AStep-By-StepGuidetocreatingyourownassistantchatbotusingOpenAIsAssistantAPIandReact_0.png"
 date: 2024-05-12 20:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AStep-By-StepGuidetocreatingyourownassistantchatbotusingOpenAIsAssistantAPIandReact_0.png
 tag: Tech
 originalTitle: "A Step-By-Step Guide to creating your own assistant chatbot using OpenAI’s Assistant API and React"
 link: "https://medium.com/@JeffyJeff/a-step-by-step-guide-to-creating-your-own-assistant-chatbot-using-openais-assistant-api-and-react-655391215c3a"
+isUpdated: true
 ---
+
+
 
 ## 어시스턴트 API의 힘 이해하기
 

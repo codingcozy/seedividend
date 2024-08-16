@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create immutable Objects in Java"
 link: "https://medium.com/@vikas.taank_40391/how-to-create-immutable-objects-in-java-7b24bb9c0dc9"
+isUpdated: true
 ---
+
+
 
 
 

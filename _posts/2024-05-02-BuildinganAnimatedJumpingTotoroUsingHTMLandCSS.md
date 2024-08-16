@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Animated Jumping Totoro Using HTML and CSS"
 link: "https://medium.com/@withaarzoo/building-an-animated-jumping-totoro-using-html-and-css-9ae9cb9bc14b"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*DQhfTbm3hP_-igEhkhk4Hw.gif)

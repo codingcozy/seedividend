@@ -3,12 +3,15 @@ title: "한 줄의 CSS로 모바일에서 100vh 버그 해결 동적 뷰포트 �
 description: ""
 coverImage: "/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png"
 date: 2024-07-09 17:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png
 tag: Tech
 originalTitle: "Fix mobile viewport 100vh bug in one line of CSS: Dynamic viewport units in action"
 link: "https://medium.com/@alekswebnet/fix-mobile-100vh-bug-in-one-line-of-css-dynamic-viewport-units-in-action-102231e2ed56"
+isUpdated: true
 ---
+
+
 
 ## VH 대신 DVH을 사용하여 더 완전한 단위로 사용하세요
 

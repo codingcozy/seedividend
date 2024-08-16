@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Component Story Format CSF"
 link: "https://storybook.js.org/docs/api/csf"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Literals in TypeScript: A Comprehensive Guide"
 link: "https://medium.com/@amitperane8473/understanding-literals-in-typescript-a-comprehensive-guide-0f517f61d4a6"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-UnderstandingLiteralsinTypeScriptAComprehensiveGuide_0.png" />

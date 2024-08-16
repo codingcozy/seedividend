@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Chrome Extension with React A Step-by-Step Guide"
 link: "https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Inconsistent consistency within design systems"
 link: "https://medium.com/redesigning-design-systems/inconsistent-consistency-within-design-systems-29072a5eef03"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "7 VSCode Extensions Can Uninstalled In 2024"
 link: "https://medium.com/@nanvon/7-vscode-extensions-can-uninstalled-in-2024-a3dabb7c65de"
+isUpdated: true
 ---
+
+
 
 
 

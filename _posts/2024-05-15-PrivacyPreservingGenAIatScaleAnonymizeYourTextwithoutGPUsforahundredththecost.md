@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Privacy Preserving GenAI at Scale: Anonymize Your Text without GPUs for a hundredth the cost."
 link: "https://medium.com/thirdai-blog/privacy-preserving-genai-at-scale-anonymize-your-text-without-gpus-for-a-hundredth-the-cost-81d643a9d5fb"
+isUpdated: true
 ---
+
+
 
 
 기업 엔지니어링 팀들은 대량의 비정형 텍스트를 처리하기 위해 OpenAI 및 다른 생성 AI 서비스의 파워를 활용하여 생산성을 크게 향상시키고 있습니다. 그들은 고객, 직원, 및 하위 비즈니스를 위한 생산성 도구를 만들고 평가하고 있습니다. 비즈니스 중요 텍스트를 활용하는 프로덕션급 도구들은 엄격한 데이터 준수 가이드라인이 필요합니다. 대부분의 기업은 고객에게 표시할 수 있는 텍스트 유형 및 OpenAI GPT-4와 같은 제3자 AI API 서비스로 보낼 수 있는 텍스트 유형에 대한 준수 정책을 가지고 있습니다.

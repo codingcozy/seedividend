@@ -3,12 +3,15 @@ title: "2024년 6월에 꼭 봐야 할 10개의 멋진 CodePen 데모"
 description: ""
 coverImage: "/assets/img/2024-07-06-10CoolCodePenDemosJune2024_0.png"
 date: 2024-07-06 02:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-10CoolCodePenDemosJune2024_0.png
 tag: Tech
 originalTitle: "10 Cool CodePen Demos (June 2024)"
 link: "https://medium.com/gitconnected/10-cool-codepen-demos-june-2024-228a94f56e04"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-10CoolCodePenDemosJune2024_0.png
 

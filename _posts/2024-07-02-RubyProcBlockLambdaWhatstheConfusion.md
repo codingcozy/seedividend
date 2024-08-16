@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ruby — Proc, Block , Lambda — What’s the Confusion?"
 link: "https://medium.com/@rajputlakhveer/ruby-proc-block-lambda-whats-the-confusion-8d624f67a37a"
+isUpdated: true
 ---
+
+
 
 
 이 기사에서는 Ruby에서 블록, 프록 및 람다에 대해 이해할 것입니다. 기사를 통해 그들이 무엇인지, 어떻게 작동하는지, 그리고 그들 간의 차이나 유사성에 대해 더 잘 알 수 있을 것입니다.

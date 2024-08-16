@@ -3,12 +3,15 @@ title: "드래그 앤 드롭 Nextjs 프로젝트에 커스텀 아이템 추가�
 description: ""
 coverImage: "/assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png"
 date: 2024-07-07 12:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png
 tag: Tech
 originalTitle: "Adding Custom Draggable Items To Drag-And-Drop Next.Js Project"
 link: "https://medium.com/@programming-advice/adding-custom-draggable-items-to-drag-and-drop-next-js-project-7087d494d19a"
+isUpdated: true
 ---
+
+
 
 ## 이전 글의 연속입니다.
 

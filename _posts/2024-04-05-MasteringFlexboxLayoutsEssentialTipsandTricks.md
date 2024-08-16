@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Flexbox Layouts Essential Tips and Tricks"
 link: "https://medium.com/@rbaun/mastering-flexbox-layouts-essential-tips-and-tricks-6a682e707bb6"
+isUpdated: true
 ---
+
+
 
 
 

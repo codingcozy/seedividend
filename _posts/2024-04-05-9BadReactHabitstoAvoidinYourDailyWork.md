@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "9 Bad React Habits to Avoid in Your Daily Work"
 link: "https://medium.com/javascript-in-plain-english/9-bad-react-habits-to-avoid-in-your-daily-work-2151f804a3d8"
+isUpdated: true
 ---
+
+
 
 
 

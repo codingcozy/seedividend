@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Future of Design Buckle Up for These UX UI Trends in 2024"
 link: "https://medium.com/@shailesh.7890/the-future-of-design-buckle-up-for-these-ux-ui-trends-in-2024-a9d5dfef12c5"
+isUpdated: true
 ---
+
+
 
 
 

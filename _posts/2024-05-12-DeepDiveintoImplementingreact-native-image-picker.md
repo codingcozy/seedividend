@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deep Dive into Implementing react-native-image-picker"
 link: "https://medium.com/@mmokgosi9/deep-dive-into-implementing-react-native-image-picker-c1567484a53"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-DeepDiveintoImplementingreact-native-image-picker_0.png" />

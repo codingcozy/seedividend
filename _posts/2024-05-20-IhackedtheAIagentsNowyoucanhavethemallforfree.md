@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I hacked the AI agents! Now you can have them all for free!"
 link: "https://medium.com/generative-ai/i-hacked-the-ai-agents-now-you-can-have-them-all-for-free-08cae7d29714"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-20-IhackedtheAIagentsNowyoucanhavethemallforfree_0.png)

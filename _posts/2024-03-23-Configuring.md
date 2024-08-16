@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "환경 설정"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

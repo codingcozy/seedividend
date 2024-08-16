@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fetch data from a sample api and render it in a card using javascript and CSS step-by-step guide"
 link: "https://medium.com/design-bootcamp/fetch-data-from-a-sample-api-and-render-it-in-a-card-using-javascript-and-css-step-by-step-guide-332bd4b70346"
+isUpdated: true
 ---
+
+
 
 
 

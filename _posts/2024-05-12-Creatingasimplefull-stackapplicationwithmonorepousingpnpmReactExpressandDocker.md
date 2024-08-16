@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a simple full-stack application with monorepo using pnpm, React, Express, and Docker"
 link: "https://medium.com/stackademic/creating-a-simple-full-stack-application-with-monorepo-using-pnpm-react-express-and-docker-6346c08f8188"
+isUpdated: true
 ---
+
+
 
 
 모노 레포는 여러 프로젝트를 보관하는 버전 관리 코드 저장소입니다. 이러한 프로젝트들은 서로 관련이 있을 수 있지만 종종 논리적으로 독립적이며 다른 팀에 의해 운영됩니다. 일부 회사는 모든 코드를 모든 사람 사이에서 공유되는 단일 저장소에 호스팅합니다. 모노 레포는 거대한 크기에 도달할 수 있습니다.

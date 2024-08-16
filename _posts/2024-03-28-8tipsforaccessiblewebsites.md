@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "8 tips for accessible websites"
 link: "https://medium.com/@arnoldgunter/8-tips-for-accessible-websites-9fb15978a926"
+isUpdated: true
 ---
+
+
 
 
 

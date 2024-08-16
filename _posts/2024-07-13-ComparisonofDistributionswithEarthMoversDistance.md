@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Comparison of Distributions with Earth Mover’s Distance"
 link: "https://medium.com/towards-data-science/comparison-of-distributions-with-earth-movers-distance-71f714440923"
+isUpdated: true
 ---
+
+
 
 
 이 글을 읽은 후에는 지구 이동 거리(또는 EMD 또는 Wasserstein 거리라고도 함)의 계산 방법에 대해 심층적으로 이해하게 될 것입니다. 이 지식을 통해 다양한 응용 분야에서의 장단점에 대한 좋은 아이디어를 갖게 될 것입니다.

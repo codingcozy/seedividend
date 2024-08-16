@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "30 Essential CSS Hacks for WordPress Newbies"
 link: "https://kaitlynmillet.medium.com/30-essential-css-hacks-for-wordpress-newbies-55268f349484"
+isUpdated: true
 ---
+
+
 
 
 

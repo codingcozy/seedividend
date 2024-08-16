@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s new in Angular 18?"
 link: "https://medium.com/@singhsharp/whats-new-in-angular-18-cead7972dce7"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-27-WhatsnewinAngular18_0.png)

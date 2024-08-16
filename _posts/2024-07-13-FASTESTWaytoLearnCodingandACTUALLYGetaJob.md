@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "FASTEST Way to Learn Coding and ACTUALLY Get a Job"
 link: "https://medium.com/@ashaynayak50/fastest-way-to-learn-coding-and-actually-get-a-job-04d7b34b5359"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-FASTESTWaytoLearnCodingandACTUALLYGetaJob_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Built A Beautiful Web App Purely in Python — with Zero Experience."
 link: "https://medium.com/gitconnected/how-i-built-a-beautiful-web-app-purely-in-python-with-zero-experience-874731df6bc1"
+isUpdated: true
 ---
+
+
 
 
 ## FastAPI, Jinja2 및 DaisyUI 사용하기.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Organize Your Global Providers in Flutter Riverpod with Mixin Class"
 link: "https://medium.com/@ximya/organize-your-global-providers-in-flutter-riverpod-with-mixin-class-562ae2aa3376"
+isUpdated: true
 ---
+
+
 
 
 

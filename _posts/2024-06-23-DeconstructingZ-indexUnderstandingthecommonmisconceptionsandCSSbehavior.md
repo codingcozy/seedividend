@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deconstructing Z-index — Understanding the common misconceptions and CSS behavior."
 link: "https://medium.com/themoondevs/deconstructing-z-index-understanding-the-common-misconceptions-and-css-behavior-90cad9f98d24"
+isUpdated: true
 ---
+
+
 
 
 UI 버그는 최고의 개발자들조차 괴롭히는 법이죠. 왜냐하면 백엔드 문제와는 달리, UI 문제를 디버깅하는 것은 코드 수정을 넘어 사용자가 보고 상호 작용하는 것이 완벽한지 확인하는 것이 중요하기 때문입니다. 화면 크기, 브라우저 버전 또는 심지어 사용자의 기기 등과 같은 요소에 영향을 받는 UI 버그는 사용자를 좌절시키고 브랜드 인식을 훼손시키며 전환을 방해할 수 있습니다. 심지어 보이는 것 같이 간단한 스타일링 문제조차 심각한 문제로 커질 수 있습니다.

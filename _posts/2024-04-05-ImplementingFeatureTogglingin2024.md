@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Feature Toggling in 2024"
 link: "https://medium.com/bitsrc/implementing-feature-toggling-in-2024-14cf29b78f9d"
+isUpdated: true
 ---
+
+
 
 
 

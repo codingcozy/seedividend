@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Efficient Deployment of React Next JS on AWS EC2 with BitBucket CI CD"
 link: "https://medium.com/devops-dev/efficient-deployment-of-react-next-js-on-aws-ec2-with-bitbucket-ci-cd-65f410c2f2e7"
+isUpdated: true
 ---
+
+
 
 
 

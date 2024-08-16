@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Converting HTML to PDF in Java Using Flying Saucer"
 link: "https://medium.com/@jangacharysri/converting-html-to-pdf-in-java-using-flying-saucer-8d923c309302"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-ConvertingHTMLtoPDFinJavaUsingFlyingSaucer_0.png" />

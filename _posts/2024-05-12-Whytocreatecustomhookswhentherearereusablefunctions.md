@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why to create custom hooks when there are reusable functions?"
 link: "https://medium.com/@aiska.basnet/why-to-create-custom-hooks-when-there-are-reusable-functions-a206dbdbe3df"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-Whytocreatecustomhookswhentherearereusablefunctions_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dashtrap — Bootstrap 5 Admin Dashboard , UI Kits"
 link: "https://medium.com/@technotrekker_45277/dashtrap-bootstrap-5-admin-dashboard-ui-kits-2fa22cf45a1c"
+isUpdated: true
 ---
+
+
 
 
 🔍 다시 한 번 Dashtrap을 확인해보세요 - Bootstrap 5 Admin Dashboard & UI Kits! 🎉 저희의 📁 관리자 템플릿 웹 템플릿 라이브러리를 살펴보시고 🆓 무료 다운로드 혜택을 누리세요. 함께 즐겁게 작업해봅시다! 🚀

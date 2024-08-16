@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Threads downfall, HTML to Figma, Customer Experience 30, effective communication"
 link: "https://uxdesign.cc/threads-downfall-html-to-figma-customer-experience-3-0-effective-communication-2c9c49e1485f"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What the heck is the Event Loop: Explore Javascript Asynchronous Programming"
 link: "https://medium.com/angular-simplified/what-the-heck-is-the-event-loop-explore-javascript-asynchronous-programming-e3c35059d5b4"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Refresh Auth Token Rotation (Node js , React ) — Part 1"
 link: "https://medium.com/@tokosbex/auth-token-rotation-node-js-react-part-1-b83a87d7fb4d"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-RefreshAuthTokenRotationNodejsReactPart1_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dumb Google Photos: Backup your photos using RaspberryPi, SnycThing and PhotoPrism"
 link: "https://medium.com/@lennart.dde/dumb-google-photos-backup-your-photos-using-raspberrypi-snycthing-and-photoprism-2c3aaa98817a"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-DumbGooglePhotosBackupyourphotosusingRaspberryPiSnycThingandPhotoPrism_0.png" />

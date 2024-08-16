@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Main Core Concept You Need to Know About React"
 link: "https://medium.com/@payalpaul2436/10-main-core-concept-you-need-to-know-about-react-303e986e1763"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-10MainCoreConceptYouNeedtoKnowAboutReact_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Build and Deploy a Vite + React App on Choreo"
 link: "https://medium.com/@chamalsena/how-to-build-and-deploy-a-vite-react-app-on-choreo-f87049dcb0ba"
+isUpdated: true
 ---
+
+
 
 
 더블육을 전에 WSO2가 주굜한 코딩 대회에 참여했어요 (choreo.dev/cybertruck). 거기서 제가 경험해 본 내부 개발자 플랫폼인 Choreo를 탐험할 수 있었어요. 이 챌린지의 목표는 개인 개발자들이 Choreo를 경험할 수 있도록 하는 거에요.

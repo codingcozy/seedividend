@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Principles That Senior Developers Have (But Junior Developers Often Lack)"
 link: "https://medium.com/@mikael_55667/10-principles-that-senior-developers-have-but-junior-developers-often-lack-da22f972e8cc"
+isUpdated: true
 ---
+
+
 
 
 주니어 개발자와 시니어 개발자 사이의 차이는 분명히 명확하지 않습니다.

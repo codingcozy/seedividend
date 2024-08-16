@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Forget pip install, Use This Instead"
 link: "https://medium.com/bitgrit-data-science-publication/forget-pip-install-use-this-instead-754863c58f1e"
+isUpdated: true
 ---
+
+
 
 
 

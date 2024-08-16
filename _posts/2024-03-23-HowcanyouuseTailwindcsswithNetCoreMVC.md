@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How can you use Tailwindcss with Net Core MVC"
 link: "https://medium.com/@omerconsept999/how-can-you-use-tailwindcss-with-net-core-mvc-445694739a6e"
+isUpdated: true
 ---
+
+
 
 
 

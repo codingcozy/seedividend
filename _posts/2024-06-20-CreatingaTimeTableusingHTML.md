@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Time Table using HTML"
 link: "https://medium.com/@srsapireddy/creating-a-time-table-using-html-2d6fd70c0e2a"
+isUpdated: true
 ---
+
+
 
 
 아래에 표시된 HTML 시간표를 만들어 봅시다.

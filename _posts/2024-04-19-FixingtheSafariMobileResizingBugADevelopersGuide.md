@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Fixing the Safari Mobile Resizing Bug A Developers Guide"
 link: "https://medium.com/@krutilin.sergey.ks/fixing-the-safari-mobile-resizing-bug-a-developers-guide-6568f933cde0"
+isUpdated: true
 ---
+
+
 
 
 

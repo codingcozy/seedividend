@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Accessibility tests"
 link: "https://storybook.js.org/docs/writing-tests/accessibility-testing"
+isUpdated: true
 ---
+
+
 
 
 

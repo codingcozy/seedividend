@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to convert HTML element to image in React JS"
 link: "https://medium.com/how-to-react/how-to-convert-html-element-to-image-in-react-js-2fdbf972d877"
+isUpdated: true
 ---
+
+
 
 
 

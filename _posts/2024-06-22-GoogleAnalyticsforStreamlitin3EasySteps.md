@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Google Analytics for Streamlit in 3 Easy Steps"
 link: "https://medium.com/@calebdame/google-analytics-for-streamlit-in-3-easy-steps-06e4cd2fd02e"
+isUpdated: true
 ---
+
+
 
 
 Streamlit에는 Google Analytics를 공식적으로 지원하는 것이 없습니다. 그것은 좀 아쉽지만, Google Analytics는 사용자들이 애플리케이션에서 어떻게 행동하는지 이해하는 데 매우 중요합니다. 클릭 추적, 페이지 이동 및 기타 중요 이벤트를 추적하는 것이죠.

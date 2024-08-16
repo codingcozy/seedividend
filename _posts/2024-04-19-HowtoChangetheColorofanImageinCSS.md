@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Change the Color of an Image in CSS"
 link: "https://medium.com/gitconnected/how-to-change-the-color-of-an-image-in-css-8eaa85251bfe"
+isUpdated: true
 ---
+
+
 
 
 

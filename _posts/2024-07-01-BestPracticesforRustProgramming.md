@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Best Practices for Rust Programming"
 link: "https://medium.com/gitconnected/best-practices-for-rust-programming-bc58b47343ef"
+isUpdated: true
 ---
+
+
 
 
 ![라스트 프로그래밍 최상의 실천 방법](/assets/img/2024-07-01-BestPracticesforRustProgramming_0.png)

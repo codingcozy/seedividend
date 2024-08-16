@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTML and CSS you need to know"
 link: "https://medium.com/@icodewithben/websites-html-css-and-javascript-you-need-to-know-b6ae0d08c556"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React native or Flutter in 2024"
 link: "https://medium.com/@ankit-detroja/react-native-or-flutter-in-2024-7cfb0605698f"
+isUpdated: true
 ---
+
+
 
 
 

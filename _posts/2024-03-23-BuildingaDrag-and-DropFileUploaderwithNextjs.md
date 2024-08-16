@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Drag-and-Drop File Uploader with Nextjs"
 link: "https://medium.com/@codewithmarish/building-a-drag-and-drop-file-uploader-with-next-js-1cfaf504f8ea"
+isUpdated: true
 ---
+
+
 
 
 

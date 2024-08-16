@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Save and Load Docker Images from Local to EC2"
 link: "https://medium.com/@potterpurpp69/how-to-save-and-load-docker-images-from-local-to-ec2-6323a40e5728"
+isUpdated: true
 ---
+
+
 
 
 ## 노력없는 도커 이미지 이전: 로컬에서 EC2로 이동하는 가이드

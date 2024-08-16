@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Dark Side of useEffect in React"
 link: "https://medium.com/gitconnected/the-dark-side-of-useeffect-in-react-5edd9e97cabf"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hammering popup issues in Simpl Checkout"
 link: "https://medium.com/simpl-under-the-hood/hammering-popup-issue-in-simpl-checkout-937b950b4721"
+isUpdated: true
 ---
+
+
 
 
 

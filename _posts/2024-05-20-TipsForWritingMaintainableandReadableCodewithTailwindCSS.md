@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tips For Writing Maintainable and Readable Code with Tailwind CSS"
 link: "https://medium.com/@patrickkarsh/tips-for-writing-maintainable-and-readable-code-with-tailwind-css-f147ab752513"
+isUpdated: true
 ---
+
+
 
 
 

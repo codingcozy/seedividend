@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Install Docker Desktop on Ubuntu 22.04"
 link: "https://medium.com/@selvamraju007/how-to-install-docker-desktop-on-ubuntu-22-04-1ebe4b2f8a14"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-HowToInstallDockerDesktoponUbuntu2204_0.png)

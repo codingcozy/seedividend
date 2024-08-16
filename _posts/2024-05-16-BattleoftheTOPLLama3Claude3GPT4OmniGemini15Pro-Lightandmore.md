@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Battle of the TOP — LLama 3, Claude 3, GPT4 Omni, Gemini 1.5 Pro-Light and more"
 link: "https://medium.com/@daniellefranca96/battle-of-the-top-llama-3-claude-3-gpt4-omni-gemini-1-5-pro-light-and-more-3ff560cf6b58"
+isUpdated: true
 ---
+
+
 
 
 모든 것이 적어도 다음 순간까지 조용해 보였으니, 최신 TOP 모델들을 다중 모달리티, 능력, 맥락, 성능 및 가격을 고려하여 비교해봅시다.

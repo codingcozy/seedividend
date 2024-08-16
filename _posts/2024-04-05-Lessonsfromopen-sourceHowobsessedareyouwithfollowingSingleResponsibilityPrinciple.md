@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lessons from open-source How obsessed are you with following Single Responsibility Principle"
 link: "https://medium.com/@ramu.narasinga_61050/lessons-from-open-source-how-obsessed-are-you-with-following-single-responsibility-principle-ff43433a85de"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "⏰ It’s Time to Talk About Import Map, Micro Frontend, and Nx Monorepo"
 link: "https://medium.com/javascript-in-plain-english/its-time-to-talk-about-import-map-micro-frontend-and-nx-monorepo-0b8e2c07568a"
+isUpdated: true
 ---
+
+
 
 
 ## Native Import Map Overrides를 활용하여 마이크로 프론트엔드 아키텍처에 상당한 이점을 얻는 방법

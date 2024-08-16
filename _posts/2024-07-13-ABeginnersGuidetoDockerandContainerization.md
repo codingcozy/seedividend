@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Beginner’s Guide to Docker and Containerization"
 link: "https://medium.com/@vorrck/a-berginners-guide-to-docker-and-containerization-cbba4874ff2d"
+isUpdated: true
 ---
+
+
 
 
 ![Docker](/assets/img/2024-07-13-ABeginnersGuidetoDockerandContainerization_0.png)

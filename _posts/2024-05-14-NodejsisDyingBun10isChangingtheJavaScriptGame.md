@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Node.js is Dying! Bun 1.0 is Changing the JavaScript Game"
 link: "https://medium.com/javascript-in-plain-english/node-js-is-dying-bun-1-0-is-changing-the-javascript-game-2892d4ff6921"
+isUpdated: true
 ---
+
+
 
 
 ![Node.js is Dying, Bun 1.0 is Changing the JavaScript Game](/assets/img/2024-05-14-NodejsisDyingBun10isChangingtheJavaScriptGame_0.png)

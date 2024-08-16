@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Make Your Image Loading Blurry in Next.js"
 link: "https://medium.com/@Furki4_4/make-your-image-loading-blurry-in-next-js-0f0e5bf3dc7c"
+isUpdated: true
 ---
+
+
 
 
 웹 이미지는 사이트 성능 측면에서 중요하며 솔직히 말하자면 번거로운 부분이기도 합니다. Next.js의 최고의 기능 중 하나는 이미지 컴포넌트로, 이미지를 최적화해 줍니다. 이 컴포넌트는 화면 크기에 맞춰 WebP와 같은 현대적인 포맷의 이미지를 자동으로 생성하여 이미지 크기를 줄여줍니다. 또한 이미지가 뷰포트에 진입할 때 이미지를 불러오는 lazy loading과 레이아웃 이동을 방지하는 시각적 안정성이 구현되어 있습니다. 만약 이미지 컴포넌트에 익숙하지 않다면 Lee Robinson의 이 비디오를 추천합니다. 이 글에서는 실제 이미지가 로드되는 동안 흐린 이미지를 추가하는 것에 초점을 맞추고자 합니다.

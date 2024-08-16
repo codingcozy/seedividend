@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Upgrading to Node.js v20 — Unlocking the Next Level of Performance and Efficiency"
 link: "https://medium.com/naukri-engineering/upgrading-to-node-js-v20-unlocking-the-next-level-of-performance-and-efficiency-d1600df0e43d"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-UpgradingtoNodejsv20UnlockingtheNextLevelofPerformanceandEfficiency_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understand the Power of Python’s Built-in sum()"
 link: "https://medium.com/python-in-plain-english/understand-the-power-of-pythons-built-in-sum-5ddc48dd54b0"
+isUpdated: true
 ---
+
+
 
 
 파이썬 내부를 깊게 파헤쳐 sum() 함수가 어떻게 구현되었는지 알아보세요.

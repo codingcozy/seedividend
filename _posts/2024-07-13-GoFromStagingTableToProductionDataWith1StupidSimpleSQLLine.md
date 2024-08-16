@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Go From Staging Table To Production Data With 1 Stupid Simple SQL Line"
 link: "https://medium.com/pipeline-a-data-engineering-resource/go-from-staging-table-to-production-data-with-1-stupid-simple-sql-line-79ddf31c5129"
+isUpdated: true
 ---
+
+
 
 
 취업을 찾고 계신가요? 무료 5페이지 프로젝트 아이데이션 가이드를 활용하여 개인 프로젝트를 개발하여 경쟁력을 확보하세요.

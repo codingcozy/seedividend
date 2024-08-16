@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Avoid These 5 Mistakes as a Web Developer"
 link: "https://medium.com/javascript-in-plain-english/avoid-these-5-mistakes-as-a-web-developer-d794f70c0927"
+isUpdated: true
 ---
+
+
 
 
 

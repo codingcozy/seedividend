@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter  Google Map with Custom Marker"
 link: "https://medium.com/flutter-community/flutter-google-map-with-custom-marker-ea1555a37342"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "Nodejs, React 및 TypeScript에서 인증 및 권한 부여 방법 "
 description: ""
 coverImage: "/assets/img/2024-05-12-AuthenticationandAuthorizationwithNodejsReactandTypescriptPart2_0.png"
 date: 2024-05-12 19:37
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AuthenticationandAuthorizationwithNodejsReactandTypescriptPart2_0.png
 tag: Tech
 originalTitle: "Authentication and Authorization with Nodejs, React and Typescript — Part 2"
 link: "https://medium.com/@xiaominghu19922/authentication-and-authorization-with-nodejs-react-and-typescript-part-2-ae9d320e4f74"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-AuthenticationandAuthorizationwithNodejsReactandTypescriptPart2_0.png" />
 

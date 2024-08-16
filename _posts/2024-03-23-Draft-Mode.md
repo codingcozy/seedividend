@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "화면 보호 모드"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

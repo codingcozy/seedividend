@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Todo App with React and Redux Toolkit"
 link: "https://medium.com/@kmraman11011/title-building-a-todo-app-with-react-and-redux-toolkit-5ae2740048c3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-BuildingaTodoAppwithReactandReduxToolkit_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React For Front-End Development The Ground Of Its Fame"
 link: "https://medium.com/@alexei_celadon/react-for-front-end-development-the-ground-of-its-fame-e49539f8f12e"
+isUpdated: true
 ---
+
+
 
 
 ![React For Front-End Development](/assets/img/2024-08-04-ReactForFront-EndDevelopmentTheGroundOfItsFame_0.png)

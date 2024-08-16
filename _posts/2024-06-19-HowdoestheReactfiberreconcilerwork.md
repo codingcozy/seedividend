@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How does the React fiber reconciler work?"
 link: "https://medium.com/@maxtsh/how-does-the-react-fiber-reconciler-work-77c3650127da"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-19-HowdoestheReactfiberreconcilerwork_0.png" />

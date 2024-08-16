@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "System Design Interview: Amazon  Flipkart"
 link: "https://medium.com/gitconnected/system-design-interview-amazon-flipkart-efe5c3f1666b"
+isUpdated: true
 ---
+
+
 
 
 ## 다루는 주제:

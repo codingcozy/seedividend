@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "VMware Workstation , Fusion Pro: Now Free for Personal Use!"
 link: "https://medium.com/@shreyas-malhotra/vmware-workstation-fusion-pro-now-free-for-personal-use-dcedb1e994de"
+isUpdated: true
 ---
+
+
 
 
 

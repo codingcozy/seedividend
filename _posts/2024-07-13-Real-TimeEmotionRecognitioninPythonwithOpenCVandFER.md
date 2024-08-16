@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Real-Time Emotion Recognition in Python with OpenCV and FER"
 link: "https://medium.com/@crisvelasquez/real-time-emotion-recognition-in-python-with-opencv-and-fer-9ac56fec29c6"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-13-Real-TimeEmotionRecognitioninPythonwithOpenCVandFER_0.png)

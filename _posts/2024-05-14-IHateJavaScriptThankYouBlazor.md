@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I Hate JavaScript, Thank You Blazor"
 link: "https://medium.com/@mabroukmahdhi/i-hate-javascript-thank-you-blazor-8904333733bc"
+isUpdated: true
 ---
+
+
 
 
 

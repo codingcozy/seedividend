@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Data Structures and Algorithms: “Tries”"
 link: "https://medium.com/bitsrc/advanced-data-structures-and-algorithms-tries-47db931e20e"
+isUpdated: true
 ---
+
+
 
 
 ## 트라이(Tries)로 직접 Google을 만들어보기: 잠재적 검색 엔진 구현의 내부를 살펴보겠습니다

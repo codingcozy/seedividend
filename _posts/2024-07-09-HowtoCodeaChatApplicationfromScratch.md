@@ -3,12 +3,15 @@ title: "기초부터 채팅 애플리케이션 코딩하는 방법 Step-by-Step 
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoCodeaChatApplicationfromScratch_0.png"
 date: 2024-07-09 14:01
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoCodeaChatApplicationfromScratch_0.png
 tag: Tech
 originalTitle: "How to Code a Chat Application from Scratch"
 link: "https://medium.com/@learntocodetoday/how-to-code-a-chat-application-from-scratch-0509181edd18"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-HowtoCodeaChatApplicationfromScratch_0.png" />
 

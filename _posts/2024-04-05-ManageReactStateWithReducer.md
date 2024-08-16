@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Manage React State With Reducer"
 link: "https://medium.com/stackademic/manage-react-state-with-reducer-ed0a2eff0ace"
+isUpdated: true
 ---
+
+
 
 
 

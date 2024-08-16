@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Feeding AI Models with Slack Data"
 link: "https://medium.com/slalom-build/feeding-ai-models-with-slack-data-8106550f6485"
+isUpdated: true
 ---
+
+
 
 
 

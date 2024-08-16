@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS background animations"
 link: "https://medium.com/@ryanradder0/css-background-animations-351b4458054c"
+isUpdated: true
 ---
+
+
 
 
 

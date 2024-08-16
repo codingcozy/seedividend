@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DTO explained in NestJS"
 link: "https://medium.com/@yelinliu/dto-explained-in-nestjs-3a296498d77b"
+isUpdated: true
 ---
+
+
 
 
 DTO(Data Transfer Object) 패턴은 어플리케이션의 서로 다른 레이어 간에 데이터를 전송하는 데 일반적으로 사용되는 설계 패턴입니다. DTO 패턴의 주요 아이디어는 데이터를 캡슐화하고 어플리케이션의 서로 다른 부분 간에 데이터를 전송하는 표준화된 방법을 제공하는 것입니다.

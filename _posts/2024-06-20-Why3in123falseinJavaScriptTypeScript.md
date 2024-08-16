@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why 3 in [1, 2, 3] = false in JavaScript , TypeScript?"
 link: "https://medium.com/@w3lt/why-3-in-1-2-3-return-false-464de649cb21"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Solving Permission Issues in macOS While Building with Expo: A Personal Experience"
 link: "https://medium.com/@srekthk/solving-permission-issues-in-macos-while-building-with-expo-a-personal-experience-c9c4545897f1"
+isUpdated: true
 ---
+
+
 
 
 # 소개

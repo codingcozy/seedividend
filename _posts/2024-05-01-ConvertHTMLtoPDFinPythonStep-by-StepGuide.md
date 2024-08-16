@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Convert HTML to PDF in Python: Step-by-Step Guide"
 link: "https://medium.com/@vidvatek/convert-html-to-pdf-in-python-step-by-step-guide-fc4e6d3dbd39"
+isUpdated: true
 ---
+
+
 
 
 요즘 디지털 시대에는 HTML 콘텐츠를 PDF 형식으로 변환해야 하는 일이 자주 있습니다. 보고서 생성, 웹 콘텐츠 보관, 인쇄 가능 문서 작성 등 다양한 목적으로 HTML을 PDF 파일로 변환해야 하는데, 이는 제 프로그래밍 도구상에서 중요한 기술이 되었습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding NestJS’s Business Logic Organization"
 link: "https://medium.com/@dpericich/understanding-nestjss-business-logic-organization-5504b4ee0487"
+isUpdated: true
 ---
+
+
 
 
 

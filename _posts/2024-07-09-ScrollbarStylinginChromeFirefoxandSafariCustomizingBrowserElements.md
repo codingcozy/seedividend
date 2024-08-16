@@ -3,12 +3,15 @@ title: "Chrome, Firefox, Safari에서 스크롤바 스타일링  브라우저 �
 description: ""
 coverImage: "/assets/img/2024-07-09-ScrollbarStylinginChromeFirefoxandSafariCustomizingBrowserElements_0.png"
 date: 2024-07-09 14:00
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ScrollbarStylinginChromeFirefoxandSafariCustomizingBrowserElements_0.png
 tag: Tech
 originalTitle: "Scrollbar Styling in Chrome, Firefox, and Safari — Customizing Browser Elements"
 link: "https://medium.com/@stheodorejohn/scrollbar-styling-in-chrome-firefox-and-safari-customizing-browser-elements-254c303eceea"
+isUpdated: true
 ---
+
+
 
 ## 주요 브라우저에서 웹 앱의 스크롤바를 스타일링하고 맞춤화하세요. 사용자 경험을 개선하여 커스텀 스크롤바를 활용하세요. 스크롤링을 더욱 향상하세요! 스타일링 즐기기! #CustomScrollbars #WebDesign
 

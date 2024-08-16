@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Google Maps in a Flutter App A Step-by-Step Guide"
 link: "https://medium.com/@hello_chirag/integrating-google-maps-in-a-flutter-app-a-step-by-step-guide-8f1e2cc4fcc0"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why NestJS is the Perfect Framework for ASP.NET Teams Migrating to Node.js (Or Vice-Versa)"
 link: "https://medium.com/nestjs-hero/why-nestjs-is-the-perfect-framework-for-asp-net-teams-migrating-to-node-js-or-vice-versa-e0e94dd4692a"
+isUpdated: true
 ---
+
+
 
 
 ## Nest.js 대 ASP.NET: 프레임워크 비교

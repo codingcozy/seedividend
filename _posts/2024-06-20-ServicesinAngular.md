@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Services in Angular"
 link: "https://medium.com/@aqeelabbas3972/services-in-angular-b125a5b5690e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-ServicesinAngular_0.png" />

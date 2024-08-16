@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The only local MongoDB replica set with Docker Compose guide you’ll ever need!"
 link: "https://medium.com/workleap/the-only-local-mongodb-replica-set-with-docker-compose-guide-youll-ever-need-2f0b74dd8384"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-TheonlylocalMongoDBreplicasetwithDockerComposeguideyoulleverneed_0.png)

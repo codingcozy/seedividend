@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Partial selection of a DOM tree: An interview question"
 link: "https://medium.com/javascript-in-plain-english/partial-selection-of-a-dom-tree-an-interview-question-4f8e341a051b"
+isUpdated: true
 ---
+
+
 
 
 

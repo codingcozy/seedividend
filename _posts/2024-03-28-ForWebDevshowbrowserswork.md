@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "For Web Devs  how browsers work "
 link: "https://medium.com/@nadgmo/for-web-devs-how-browsers-work-2ac93b7b23df"
+isUpdated: true
 ---
+
+
 
 
 

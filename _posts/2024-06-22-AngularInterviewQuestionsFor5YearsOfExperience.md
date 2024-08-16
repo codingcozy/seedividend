@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Interview Questions For 5 Years Of Experience"
 link: "https://medium.com/@frontendinterviewquestions/angular-interview-questions-for-5-years-of-experience-8e6f833ecb90"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-AngularInterviewQuestionsFor5YearsOfExperience_0.png" />

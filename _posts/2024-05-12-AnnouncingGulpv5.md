@@ -3,12 +3,15 @@ title: "Gulp v5를 발표 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-05-12-AnnouncingGulpv5_0.png"
 date: 2024-05-12 23:43
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AnnouncingGulpv5_0.png
 tag: Tech
 originalTitle: "Announcing Gulp v5"
 link: "https://medium.com/gulpjs/announcing-gulp-v5-c67d077dbdb7"
+isUpdated: true
 ---
+
+
 
 ![Announcing Gulp v5.0](/assets/img/2024-05-12-AnnouncingGulpv5_0.png)
 

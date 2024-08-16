@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Complex Systems Forms"
 link: "https://medium.com/@dinashkenazi/complex-systems-forms-2d6440a572c2"
+isUpdated: true
 ---
+
+
 
 
 

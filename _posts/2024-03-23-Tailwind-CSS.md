@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind CSS"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

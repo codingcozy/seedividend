@@ -3,12 +3,15 @@ title: "Mantine을 컴포넌트 라이브러리로 선택한 이유"
 description: ""
 coverImage: "/assets/img/2024-07-02-WhyIChoseMantineasMyComponentLibrary_0.png"
 date: 2024-07-02 21:35
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-WhyIChoseMantineasMyComponentLibrary_0.png
 tag: Tech
 originalTitle: "Why I Chose Mantine as My Component Library"
 link: "https://medium.com/javascript-in-plain-english/why-i-chose-mantine-as-my-component-library-ca1da2c56a3a"
+isUpdated: true
 ---
+
+
 
 ## 서로 다른 라이브러리를 시도해보고 한 가지에만 고수하는 것이 중요하다고 생각해요.
 

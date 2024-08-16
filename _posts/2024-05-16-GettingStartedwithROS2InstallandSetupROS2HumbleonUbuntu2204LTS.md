@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with ROS2: Install and Setup ROS2 Humble on Ubuntu 22.04(LTS)"
 link: "https://medium.com/@sagarcadet/getting-started-with-ros2-install-and-setup-ros2-humble-on-ubuntu-22-04-lts-ad718d4a3ac2"
+isUpdated: true
 ---
+
+
 
 
 ## "ROS2 시작하기" 시리즈의 제3부분

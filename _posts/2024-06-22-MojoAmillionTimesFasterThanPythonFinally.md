@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mojo, A million Times Faster Than Python, Finally!"
 link: "https://medium.com/stackademic/mojo-a-million-times-faster-than-python-finally-f1b476bedf00"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-MojoAmillionTimesFasterThanPythonFinally_0.png" />

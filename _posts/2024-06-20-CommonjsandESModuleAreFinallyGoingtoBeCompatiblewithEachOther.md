@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Commonjs and ES Module Are Finally Going to Be Compatible with Each Other."
 link: "https://medium.com/gitconnected/commonjs-and-es-module-are-finally-going-to-be-compatible-with-each-other-39b8b880796b"
+isUpdated: true
 ---
+
+
 
 
 

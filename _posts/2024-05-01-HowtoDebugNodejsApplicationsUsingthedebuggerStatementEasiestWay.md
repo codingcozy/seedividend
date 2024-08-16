@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Debug Node.js Applications Using the debugger; Statement — Easiest Way"
 link: "https://medium.com/gitconnected/how-to-debug-node-js-applications-using-the-debugger-statement-easiest-way-8902124a162e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-HowtoDebugNodejsApplicationsUsingthedebuggerStatementEasiestWay_0.png" />

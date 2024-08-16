@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimising Rails Application Performance: A Overview Guide"
 link: "https://medium.com/@amir_sohail/optimising-rails-application-performance-a-comprehensive-guide-627e594502d8"
+isUpdated: true
 ---
+
+
 
 
 현재의 빠르게 변화하는 디지털 환경에서는 웹 애플리케이션의 성능이 사용자 경험을 결정할 수 있습니다. Rails 개발자로서 애플리케이션이 효율적으로 실행되도록 하는 것이 매우 중요합니다. 이 안내서에서는 코드 예시를 포함하여 Rails 애플리케이션 성능을 최적화하기 위한 필수 전략과 도구를 다룹니다.

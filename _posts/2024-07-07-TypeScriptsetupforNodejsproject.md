@@ -3,12 +3,15 @@ title: "Nodejs 프로젝트에서 TypeScript 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-TypeScriptsetupforNodejsproject_0.png"
 date: 2024-07-07 12:58
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-TypeScriptsetupforNodejsproject_0.png
 tag: Tech
 originalTitle: "TypeScript setup for Node.js project"
 link: "https://medium.com/@aleksei_golubev/typescript-setup-for-node-js-project-28699ed3f6d0"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-TypeScriptsetupforNodejsproject_0.png)
 

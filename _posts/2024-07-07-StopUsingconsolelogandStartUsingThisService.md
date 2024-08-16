@@ -3,12 +3,15 @@ title: "consolelog 대신 이 서비스 사용을 시작해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png"
 date: 2024-07-07 19:25
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png
 tag: Tech
 originalTitle: "Stop Using console.log and Start Using This Service!"
 link: "https://medium.com/stackademic/stop-using-console-log-and-start-using-this-service-0d3eaddfde45"
+isUpdated: true
 ---
+
+
 
 ![Logging Image](/assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker: How do i find the docker-compose.yml file location of a running container?"
 link: "https://medium.com/@kpatronas/docker-how-do-i-find-the-docker-compose-yml-file-location-of-a-running-container-4a7d660fc054"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-DockerHowdoifindthedocker-composeymlfilelocationofarunningcontainer_0.png" />

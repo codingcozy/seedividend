@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 5 Hidden Assets Fueling NVIDIA’s Billion-Dollar AI Vision"
 link: "https://medium.com/towards-artificial-intelligence/top-5-hidden-assets-fueling-nvidias-billion-dollar-ai-vision-6dcf560aec24"
+isUpdated: true
 ---
+
+
 
 
 NVIDIA의 AI 및 고성능 컴퓨팅(HPC) 분야에서 혁신과 우수성을 위한 끊임없는 노력은 이 기업이 수십억 달러에 달하는 AI 비전을 이끄는 몇 가지 숨겨진 자산으로 지탱되고 있다. 제 블로그를 읽어 주신 분들은 아시겠지만, 하드웨어 및 소프트웨어 플랫폼과 관행의 탁월한 건설 능력으로 NVIDIA를 높이 평가하는 것을 항상 강조하고 있습니다. 이러한 숨겨진 자산들이 이 AI 시대에 NVIDIA의 전례 없는 성공을 이끌어내고 있습니다. 그래서 이번 블로그 포스트에서는 NVIDIA의 AI 비전을 이끄는 상위 다섯 자산에 대해 이야기해 보겠습니다.

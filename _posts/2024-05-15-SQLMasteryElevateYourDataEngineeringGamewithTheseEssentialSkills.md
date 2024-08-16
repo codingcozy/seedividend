@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SQL Mastery: Elevate Your Data Engineering Game with These Essential Skills"
 link: "https://medium.com/@antrixsh/sql-mastery-elevate-your-data-engineering-game-with-these-essential-skills-7add9b7e4659"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-SQLMasteryElevateYourDataEngineeringGamewithTheseEssentialSkills_0.png" />

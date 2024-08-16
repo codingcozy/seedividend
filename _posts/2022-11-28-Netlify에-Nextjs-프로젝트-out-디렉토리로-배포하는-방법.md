@@ -1,5 +1,5 @@
 ---
-title: "Netlify에 Nextjs 프로젝트 배포하는 두 가지 방법 next , out"
+title: "Netlify에 Nextjs 프로젝트 배포하는 두 가지 방법"
 description: "Detected that next export was run, but site is incorrectly publishing the next directory 에러 해결 방법"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "These Tailwind Classes I Wish You Knew Sooner"
 link: "https://medium.com/javascript-in-plain-english/these-tailwind-classes-i-wish-you-knew-sooner-cedd1fec8adb"
+isUpdated: true
 ---
+
+
 
 
 

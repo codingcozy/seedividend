@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Amazing 3D Pie Chart with Jetpack Compose"
 link: "https://medium.com/@kappdev/building-an-amazing-3d-pie-chart-with-jetpack-compose-55e09a26d453"
+isUpdated: true
 ---
+
+
 
 
 환영합니다 👋

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Lifecycle of a React Component From Mounting to Unmounting"
 link: "https://medium.com/@brechtcorbeel/the-lifecycle-of-a-react-component-from-mounting-to-unmounting-87476ef1d029"
+isUpdated: true
 ---
+
+
 
 
 

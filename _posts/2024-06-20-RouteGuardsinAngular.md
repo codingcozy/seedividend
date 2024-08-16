@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Route Guards in Angular"
 link: "https://medium.com/@raghuvardhankaranam/route-guards-in-angular-c2c01fe6167b"
+isUpdated: true
 ---
+
+
 
 
 웹 애플리케이션에서 보안은 매우 중요합니다. Angular가 애플리케이션 보안을 도울 수 있는 한 가지 방법은 Route Guards를 통해입니다. Route Guards는 사용자가 특정 경로로 이동하거나 이동하는 것을 제어합니다. 페이지를 나갈 때 변경 사항을 저장하라는 프롬프트를 본 적이 있거나 관리자 페이지에 접근할 수 없는 경우에는 Guards를 만난 적이 있을 것입니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Toolbars , globals"
 link: "https://storybook.js.org/docs/essentials/toolbars-and-globals"
+isUpdated: true
 ---
+
+
 
 
 

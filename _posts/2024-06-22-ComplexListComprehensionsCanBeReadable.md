@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Complex List Comprehensions Can Be Readable!"
 link: "https://medium.com/towards-data-science/complex-list-comprehensions-can-be-readable-b6c657622910"
+isUpdated: true
 ---
+
+
 
 
 ## PYTHON PROGRAMMING

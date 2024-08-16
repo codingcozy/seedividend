@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simulating Heat Diffusion with von Neumann Neighborhood: A Practical Approach"
 link: "https://medium.com/@evertongomede/simulating-heat-diffusion-with-von-neumann-neighborhood-a-practical-approach-46802c877468"
+isUpdated: true
 ---
+
+
 
 
 # 요약

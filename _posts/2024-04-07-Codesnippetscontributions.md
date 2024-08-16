@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Code snippets contributions"
 link: "https://storybook.js.org/docs/contribute/new-snippets"
+isUpdated: true
 ---
+
+
 
 
 

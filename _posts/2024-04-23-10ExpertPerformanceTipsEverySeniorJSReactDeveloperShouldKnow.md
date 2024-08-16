@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Expert Performance Tips Every Senior JS React Developer Should Know"
 link: "https://medium.com/@learnwithstatanalytica/10-expert-performance-tips-every-senior-js-react-developer-should-know-a7d3e469d506"
+isUpdated: true
 ---
+
+
 
 
 

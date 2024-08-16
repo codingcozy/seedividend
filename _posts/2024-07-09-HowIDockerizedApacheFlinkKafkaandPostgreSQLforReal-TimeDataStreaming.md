@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Dockerized Apache Flink, Kafka, and PostgreSQL for Real-Time Data Streaming"
 link: "https://medium.com/towards-data-science/how-i-dockerized-apache-flink-kafka-and-postgresql-for-real-time-data-streaming-c4ce38598336"
+isUpdated: true
 ---
+
+
 
 
 ## 파이플링크, 카프카, 포스트그레SQL을 Docker를 활용해 통합하기

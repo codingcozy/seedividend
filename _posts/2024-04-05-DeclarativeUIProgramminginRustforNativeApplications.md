@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Declarative UI Programming in Rust for Native Applications"
 link: "https://medium.com/better-programming/declarative-ui-programming-in-rust-for-native-applications-d93862886545"
+isUpdated: true
 ---
+
+
 
 
 

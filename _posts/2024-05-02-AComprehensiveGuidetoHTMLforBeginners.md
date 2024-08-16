@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Comprehensive Guide to HTML for Beginners"
 link: "https://medium.com/@4csanctuary/a-comprehensive-guide-to-html-for-beginners-2e44180c887b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-02-AComprehensiveGuidetoHTMLforBeginners_0.png" />

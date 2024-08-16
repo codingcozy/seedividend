@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adding css assets to Angular Library"
 link: "https://medium.com/@coco-boudard/adding-css-assets-to-angular-library-c22fd3a47c5d"
+isUpdated: true
 ---
+
+
 
 
 

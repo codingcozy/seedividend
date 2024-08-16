@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "When to Use Context API vs Redux in Your Next React Project"
 link: "https://medium.com/bitsrc/when-to-use-context-api-vs-redux-in-your-next-react-project-59fb0d78840e"
+isUpdated: true
 ---
+
+
 
 
 

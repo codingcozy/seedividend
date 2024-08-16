@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Elevating Power BI Reports with HTML , CSS: Joining Forces 💪"
 link: "https://medium.com/microsoft-power-bi/elevating-power-bi-reports-with-html-css-joining-forces-f90fbd654e8b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-ElevatingPowerBIReportswithHTMLCSSJoiningForces_0.png" />

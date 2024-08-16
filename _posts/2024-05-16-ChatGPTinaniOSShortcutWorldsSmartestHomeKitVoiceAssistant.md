@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT in an iOS Shortcut — Worlds Smartest HomeKit Voice Assistant"
 link: "https://medium.com/@matemarschalko/chatgpt-in-an-ios-shortcut-worlds-smartest-homekit-voice-assistant-9a33b780007a"
+isUpdated: true
 ---
+
+
 
 
 ChatGPT과 GPT-3를 시도한 이후로는, Siri, Alexa, Google Home, 그리고 다른 "스마트" 어시스턴트들이 너무 어설프고 쓸모 없게 느껴질 것입니다.

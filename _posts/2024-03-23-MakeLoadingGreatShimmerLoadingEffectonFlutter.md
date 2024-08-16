@@ -1,5 +1,5 @@
 ---
-title: "플러터의 Shimmer 로딩 효과로 로딩을 세련되게 만드는 방법 "
+title: "플러터의 Shimmer 로딩 효과로 로딩을 세련되게 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Make Loading Great  Shimmer Loading Effect on Flutter"
 link: "https://itnext.io/make-loading-great-shimmer-loading-effect-on-flutter-9938facb3aae"
+isUpdated: true
 ---
+
+
 
 
 

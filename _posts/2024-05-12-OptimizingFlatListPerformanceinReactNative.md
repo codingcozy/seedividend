@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing FlatList Performance in React Native"
 link: "https://medium.com/@ajkhatibi/optimizing-flatlist-performance-in-react-native-a83b1315ded9"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-OptimizingFlatListPerformanceinReactNative_0.png" />

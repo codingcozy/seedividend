@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "From NgRx to Redux Toolkit"
 link: "https://medium.com/@christian.tonye_16869/from-ngrx-to-redux-toolkit-60360b7f660"
+isUpdated: true
 ---
+
+
 
 
 

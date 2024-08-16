@@ -1,14 +1,17 @@
 ---
 title: "로컬호스트에서 Serve로 HTML 파일 실행하기"
 description: ""
-coverImage:
+coverImage: "null"
 date: 2024-05-02 00:50
-ogImage:
-  url: /assets/img/2024-05-02-RunningHTMLFileswithServeinLocalhostAStep-By-StepGuide_0.png
+ogImage: 
+  url: null
 tag: Tech
 originalTitle: "Running HTML Files with Serve in Localhost: A Step-By-Step Guide"
 link: "https://medium.com/@vasist.96/running-html-files-with-serve-in-localhost-a-step-by-step-guide-e554c2da9eb0"
+isUpdated: true
 ---
+
+
 
 웹 개발은 화려한 웹 사이트를 만들 수 있도록 다양한 도구와 프레임워크를 제공하는 역동적인 분야입니다. HTML은 온라인에서 볼 수 있는 콘텐츠에 구조를 제공하여 모든 웹 페이지의 기본입니다. 많은 개발자들에게는 시작점이 되곤 합니다. 초보 웹 개발자들이 가장 많이 마주치는 장애물 중 하나는 HTML 파일을 로컬에서 실행하는 방법을 배우는 것입니다. 이 글은 간단하지만 효과적인 serve 패키지를 사용하여 로컬호스트에서 HTML 파일을 제공하는 프로세스를 안내합니다.
 

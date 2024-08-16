@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Passing Data Between Components in Angular"
 link: "https://medium.com/@reurairin/passing-data-between-components-in-angular-6230619fe0e3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-PassingDataBetweenComponentsinAngular_0.png" />

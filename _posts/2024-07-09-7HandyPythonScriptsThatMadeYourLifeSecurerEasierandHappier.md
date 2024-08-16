@@ -3,12 +3,15 @@ title: "당신의 삶을 안전하고, 쉬우며, 행복하게 만들어주는 7
 description: ""
 coverImage: "/assets/img/2024-07-09-7HandyPythonScriptsThatMadeYourLifeSecurerEasierandHappier_0.png"
 date: 2024-07-09 09:04
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-7HandyPythonScriptsThatMadeYourLifeSecurerEasierandHappier_0.png
 tag: Tech
 originalTitle: "7 Handy Python Scripts That Made Your Life Securer, Easier, and Happier"
 link: "https://medium.com/techtofreedom/7-handy-python-scripts-that-made-your-life-securer-easier-and-happier-6ab1cd1e4c86"
+isUpdated: true
 ---
+
+
 
 ## 파이썬
 

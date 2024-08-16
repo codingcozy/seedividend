@@ -3,12 +3,15 @@ title: "모델 성능 시각화 Python 코드로 혼동 행렬 그리는 방법 
 description: ""
 coverImage: "/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png"
 date: 2024-07-09 14:27
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png
 tag: Tech
 originalTitle: "Visualizing Model Performance: A Guide to Plotting Confusion Matrices in Python Code"
 link: "https://medium.com/@hussainmiraqib/in-this-article-we-delve-into-the-importance-of-confusion-matrices-in-evaluating-machine-learning-d1f70abf0ffc"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png" />
 

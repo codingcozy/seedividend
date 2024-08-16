@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding CSS Architecture"
 link: "https://medium.com/@vitorbritto/understanding-css-architecture-4b1d6de36cdb"
+isUpdated: true
 ---
+
+
 
 
 

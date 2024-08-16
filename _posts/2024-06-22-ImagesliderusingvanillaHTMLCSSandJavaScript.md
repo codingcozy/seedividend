@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Image slider using vanilla HTML, CSS and JavaScript"
 link: "https://medium.com/codex/image-slider-using-vanilla-html-css-and-javascript-b95c7fe16955"
+isUpdated: true
 ---
+
+
 
 
 요즘에 작은 웹 사이트를 개발 중입니다. 이 웹 사이트는 프레임워크나 외부 라이브러리에 의존하지 않습니다. 유일한 복잡한 기능은 이미지 슬라이더를 표시하는 것이었습니다.

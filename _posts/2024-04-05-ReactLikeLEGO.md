@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Like LEGO"
 link: "https://medium.com/better-programming/react-like-lego-f48a2557fb6d"
+isUpdated: true
 ---
+
+
 
 
 

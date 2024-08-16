@@ -3,12 +3,15 @@ title: "HTML과 CSS만으로 햄버거 메뉴 만들기 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_0.png"
 date: 2024-07-09 18:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_0.png
 tag: Tech
 originalTitle: "Hamburger Menu — HTML and CSS only"
 link: "https://medium.com/@mateus2050/hamburguer-menu-html-and-css-only-c06364fa9bfd"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-HamburgerMenuHTMLandCSSonly_0.png)
 

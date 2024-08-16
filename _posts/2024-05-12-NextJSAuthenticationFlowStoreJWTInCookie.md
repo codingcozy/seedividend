@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NextJS Authentication Flow — Store JWT In Cookie"
 link: "https://medium.com/javascript-in-plain-english/nextjs-authentication-flow-store-jwt-in-cookie-fa6e6c8c0dca"
+isUpdated: true
 ---
+
+
 
 
 나는 NextJS 앱 라우터를 프론트엔드로, NestJS를 백엔드로 활용한 사이드 프로젝트에 참여하고 있어. JWT와 쿠키를 사용해서 장기간에 걸쳐 인증 플로우를 구축 중이야. 여기에서는 내가 사용 중인 인증 플로우를 공유할 거야.

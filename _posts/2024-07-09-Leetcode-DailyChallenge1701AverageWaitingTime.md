@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Leetcode-Daily Challenge: 1701. Average Waiting Time"
 link: "https://medium.com/@trinadhrayala/leetcode-daily-challenge-1701-average-waiting-time-acd53263b9fa"
+isUpdated: true
 ---
+
+
 
 
 트리나드 라야라의 환영 메시지:

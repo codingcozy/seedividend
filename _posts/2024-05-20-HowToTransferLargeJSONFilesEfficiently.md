@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Transfer Large JSON Files Efficiently"
 link: "https://medium.com/gitconnected/how-to-transfer-large-json-files-efficiently-08c4b83ee058"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-20-HowToTransferLargeJSONFilesEfficiently_0.png" />

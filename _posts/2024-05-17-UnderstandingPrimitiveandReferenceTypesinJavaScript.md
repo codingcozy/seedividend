@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Primitive and Reference Types in JavaScript"
 link: "https://medium.com/@sharareshaddev/understanding-primitive-and-reference-types-in-javascript-1994e307de0b"
+isUpdated: true
 ---
+
+
 
 
 JavaScript을 다룰 때, 원시(primitive) 타입과 참조(reference) 타입의 차이를 알고 데이터가 가변(mutable)인지 불변(immutable)인지 이해하는 것이 매우 중요합니다. 간단한 용어로 설명해보겠습니다.

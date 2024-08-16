@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Automated Testing in Rails Using Selenium"
 link: "https://medium.com/@nitekkumarsingh/automated-testing-in-rails-using-selenium-3e733b7ddb79"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-03-AutomatedTestinginRailsUsingSelenium_0.png" />

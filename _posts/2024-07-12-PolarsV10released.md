@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Polars V1.0 released"
 link: "https://medium.com/@thomas_reid/polars-v1-0-released-1833c8ab79c9"
+isUpdated: true
 ---
+
+
 
 
 Polars, 현대적인 Python DataFrame 라이브러리를 개발한 분들께 축하드립니다! 최근에 제품의 1.0 버전을 출시했군요. 이 릴리스로 Polars는 이제 공식적으로 프로덕션에 준비되었으며 시스템 전반에 자유롭게 사용할 수 있습니다.

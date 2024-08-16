@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Upgrading React Native: A Comprehensive Guide to the Latest Version(iOS)."
 link: "https://medium.com/@singh66.sakshi/upgrading-react-native-a-comprehensive-guide-to-the-latest-version-ios-79d48585d12c"
+isUpdated: true
 ---
+
+
 
 
 소개: 최신 React Native의 파워 언락하기

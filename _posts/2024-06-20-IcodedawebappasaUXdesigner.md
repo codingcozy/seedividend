@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I coded a webapp as a UX designer"
 link: "https://medium.com/design-bootcamp/i-coded-a-webapp-as-a-ux-designer-4cd625a34f0b"
+isUpdated: true
 ---
+
+
 
 
 ## ChatGPT 4.0을 이용하여

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Neovim Setup for AstroJs Projects"
 link: "https://medium.com/@adam-drake-frontend-developer/neovim-setup-for-astrojs-projects-ef8c405765ab"
+isUpdated: true
 ---
+
+
 
 
 ![AstroJS](/assets/img/2024-05-14-NeovimSetupforAstroJsProjects_0.png)

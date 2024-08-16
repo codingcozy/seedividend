@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to contribute"
 link: "https://storybook.js.org/docs/contribute"
+isUpdated: true
 ---
+
+
 
 
 

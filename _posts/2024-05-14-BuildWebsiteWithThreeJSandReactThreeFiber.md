@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build Website With Three JS and React Three Fiber."
 link: "https://medium.com/@wuzsamie/build-website-with-three-js-and-react-three-fiber-488c73e982dd"
+isUpdated: true
 ---
+
+
 
 
 Three JS와 React Three Fiber(R3F)를 사용하여 웹사이트를 만드는 단계별 튜토리얼.

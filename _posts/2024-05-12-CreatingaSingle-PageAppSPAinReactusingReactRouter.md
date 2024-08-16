@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Single-Page App (SPA) in React using React Router"
 link: "https://medium.com/@diegogauna.developer/creating-a-single-page-app-spa-in-react-using-react-router-db37b89b3f73"
+isUpdated: true
 ---
+
+
 
 
 ## React 및 Typescript를 사용한 흐름 예제와 일부 패키지

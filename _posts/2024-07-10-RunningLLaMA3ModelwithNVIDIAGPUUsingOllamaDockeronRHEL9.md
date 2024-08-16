@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Running LLaMA 3 Model with NVIDIA GPU Using Ollama Docker on RHEL 9"
 link: "https://medium.com/@blackhorseya/running-llama-3-model-with-nvidia-gpu-using-ollama-docker-on-rhel-9-0504aeb1c924"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-RunningLLaMA3ModelwithNVIDIAGPUUsingOllamaDockeronRHEL9_0.png)

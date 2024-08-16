@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Flexbox Kullanm"
 link: "https://medium.com/@alperensarierikli/css-flexbox-kullan%C4%B1m%C4%B1-e6d284741b55"
+isUpdated: true
 ---
+
+
 
 
 

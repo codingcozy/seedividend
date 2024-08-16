@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Big O Notation For Dummies In 45 Seconds"
 link: "https://medium.com/@zlliu/big-o-notation-for-dummies-in-45-seconds-9cf9db1b2136"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-16-BigONotationForDummiesIn45Seconds_0.png)

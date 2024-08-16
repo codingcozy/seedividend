@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building End-to-End Microservices with FastAPI and RabbitMQ: A Comprehensive Guide"
 link: "https://medium.com/@snimkar1905/building-microservices-with-fastapi-and-rabbitmq-part1-1104dbd4ad96"
+isUpdated: true
 ---
+
+
 
 
 

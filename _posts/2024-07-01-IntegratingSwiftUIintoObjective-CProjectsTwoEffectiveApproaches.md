@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating SwiftUI into Objective-C Projects: Two Effective Approaches"
 link: "https://medium.com/@kusalprabathrajapaksha/integrating-swiftui-into-objective-c-projects-two-effective-approaches-daa250fe195c"
+isUpdated: true
 ---
+
+
 
 
 

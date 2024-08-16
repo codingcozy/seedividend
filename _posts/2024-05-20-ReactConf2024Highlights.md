@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Conf 2024 Highlights"
 link: "https://medium.com/javascript-in-plain-english/react-conf-2024-highlights-b7cc29fb5109"
+isUpdated: true
 ---
+
+
 
 
 이번년도의 React Conf에서는 React 및 React Native 팀 및 커뮤니티로부터의 흥미로운 발표와 업데이트가 가득했습니다. 컨퍼런스가 종료되면서 React 개발의 미래를 위한 중요한 하이라이트를 살펴보겠습니다.

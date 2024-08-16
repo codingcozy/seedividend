@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "babelDefault"
 link: "https://storybook.js.org/docs/api/main-config-babel-default"
+isUpdated: true
 ---
+
+
 
 
 

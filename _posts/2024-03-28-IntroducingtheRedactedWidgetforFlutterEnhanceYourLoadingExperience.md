@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing the Redacted Widget for Flutter Enhance Your Loading Experience"
 link: "https://medium.com/@flutterqueen5/introducing-the-redacted-widget-for-flutter-enhance-your-loading-experience-be5b6038cd6d"
+isUpdated: true
 ---
+
+
 
 
 

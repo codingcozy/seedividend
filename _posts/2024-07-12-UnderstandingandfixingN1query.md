@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding and fixing N+1 query"
 link: "https://medium.com/doctolib/understanding-and-fixing-n-1-query-30623109fe89"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-12-UnderstandingandfixingN1query_0.png)

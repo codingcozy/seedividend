@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Hook Form vs Formik A Friendly Comparison"
 link: "https://medium.com/@louis.young0420/react-hook-form-vs-formik-a-friendly-comparison-d2fc0650f1e3"
+isUpdated: true
 ---
+
+
 
 
 

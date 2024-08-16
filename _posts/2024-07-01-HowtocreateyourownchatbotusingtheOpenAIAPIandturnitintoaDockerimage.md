@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create your own chatbot using the OpenAI API and turn it into a Docker image"
 link: "https://medium.com/@yharystefa/how-to-create-your-own-chatbot-using-the-openai-api-and-turn-it-into-a-docker-image-b35b7ae6b51e"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-01-HowtocreateyourownchatbotusingtheOpenAIAPIandturnitintoaDockerimage_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Native App with Apple Watch , Widget Support"
 link: "https://medium.com/simform-engineering/react-native-app-with-apple-watch-widget-support-9daef5e131d7"
+isUpdated: true
 ---
+
+
 
 
 ## 사용자들의 손목에 앱을 확장해보세요

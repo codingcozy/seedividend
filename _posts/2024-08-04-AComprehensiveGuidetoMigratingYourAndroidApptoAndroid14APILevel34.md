@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Comprehensive Guide to Migrating Your Android App to Android 14 API Level 34"
 link: "https://medium.com/@riteshmaagadh/a-comprehensive-guide-to-migrating-your-android-app-to-android-14-api-level-34-a9e6c5c6fe90"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 독자 여러분, 이 글에서는 안드로이드 앱을 안드로이드 14 (API 레벨 34)로 이주하는 방법을 쉽게 안내해 드릴 것입니다. 그냥 글을 따라오세요. 시작해봅시다...

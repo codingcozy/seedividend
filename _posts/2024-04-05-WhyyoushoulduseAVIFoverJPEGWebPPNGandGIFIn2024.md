@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why you should use AVIF over JPEG, WebP, PNG and GIF In 2024"
 link: "https://medium.com/@julienetienne/why-you-should-use-avif-over-jpeg-webp-png-and-gif-in-2024-5603ac9d8781"
+isUpdated: true
 ---
+
+
 
 
 

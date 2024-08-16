@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Create Tabs Component With React , Context API"
 link: "https://medium.com/gitconnected/how-to-create-tabs-component-with-react-context-api-67839462aabc"
+isUpdated: true
 ---
+
+
 
 
 우리가 Medium Stats Chrome 확장 프로그램에서 사용 중인 동일한 탭 구성 요소입니다.

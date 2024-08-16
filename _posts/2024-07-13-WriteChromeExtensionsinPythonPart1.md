@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Write Chrome Extensions in Python (Part 1)"
 link: "https://medium.com/pythoniq/write-chrome-extensions-in-python-6c6b0e2e1573"
+isUpdated: true
 ---
+
+
 
 
 

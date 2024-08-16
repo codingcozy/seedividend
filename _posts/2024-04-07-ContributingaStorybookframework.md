@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Contributing a Storybook framework"
 link: "https://storybook.js.org/docs/contribute/framework"
+isUpdated: true
 ---
+
+
 
 
 

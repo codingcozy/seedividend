@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Everything to Know About Multi-editing in Figma"
 link: "https://medium.com/@joeyabanks/everything-to-know-about-multi-editing-in-figma-edd58369fd20"
+isUpdated: true
 ---
+
+
 
 
 

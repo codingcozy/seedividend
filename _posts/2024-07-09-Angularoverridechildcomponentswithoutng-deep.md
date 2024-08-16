@@ -3,12 +3,15 @@ title: "Angular ng-deep 없이 자식 컴포넌트 오버라이드하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Angularoverridechildcomponentswithoutng-deep_0.png"
 date: 2024-07-09 18:51
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Angularoverridechildcomponentswithoutng-deep_0.png
 tag: Tech
 originalTitle: "Angular: override child components without ng-deep"
 link: "https://medium.com/@vugar-005/angular-override-child-components-without-ng-deep-c76e691082d4"
+isUpdated: true
 ---
+
+
 
 ![Image](/assets/img/2024-07-09-Angularoverridechildcomponentswithoutng-deep_0.png)
 

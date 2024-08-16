@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring Advanced CSS  Harnessing the Potential of Attribute Selectors"
 link: "https://medium.com/@paddyuiux/exploring-advanced-css-harnessing-the-potential-of-attribute-selectors-d91da9a62230"
+isUpdated: true
 ---
+
+
 
 
 

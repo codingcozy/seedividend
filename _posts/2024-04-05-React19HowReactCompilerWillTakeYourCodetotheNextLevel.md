@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React 19 How React Compiler Will Take Your Code to the Next Level"
 link: "https://medium.com/@malikchohra/react-19-how-react-compiler-will-take-your-code-to-the-next-level-8a89702d8860"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "셀렉터 명시도Selector Specificity란 무엇인가요"
 description: ""
 coverImage: "/assets/img/2024-07-09-WhatisSelectorSpecificity_0.png"
 date: 2024-07-09 14:11
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-WhatisSelectorSpecificity_0.png
 tag: Tech
 originalTitle: "What is Selector Specificity"
 link: "https://medium.com/@kithma/what-is-selector-specificity-b9fef8729d94"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-WhatisSelectorSpecificity_0.png" />
 

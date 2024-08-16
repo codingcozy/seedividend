@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Evolution of Server-Side JavaScript"
 link: "https://medium.com/itnext/evolution-of-server-side-javascript-314a8d408da4"
+isUpdated: true
 ---
+
+
 
 
 자바 기반 런타임부터 Node.js의 급부상, NPM의 탄생, 성장하는 생태계, 혁신적인 Deno, 그리고 초고속 Bun의 등장까지, 몇 년 동안 서버 측 자바스크립트가 어떻게 발전해 왔는지 알아보세요.

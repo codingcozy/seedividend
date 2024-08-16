@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "4 useState Mistakes You Should Avoid in React"
 link: "https://medium.com/gitconnected/4-usestate-mistakes-you-should-avoid-in-react-0d9d676869e2"
+isUpdated: true
 ---
+
+
 
 
 

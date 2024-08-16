@@ -1,14 +1,17 @@
 ---
 title: "CSS Link Errors 이해 및 해결 방법 알아보기"
 description: ""
-coverImage:
+coverImage: "null"
 date: 2024-05-02 00:51
-ogImage:
-  url: /assets/img/2024-05-02-UnderstandingCSSLinkErrorsandHowtoFixThem_0.png
+ogImage: 
+  url: null
 tag: Tech
 originalTitle: "Understanding CSS Link Errors and How to Fix Them"
 link: "https://medium.com/@kasata/understanding-css-link-errors-and-how-to-fix-them-6ec15028736f"
+isUpdated: true
 ---
+
+
 
 이미 완벽한 CSS 코드를 작성했는데 HTML 페이지에서 제대로 작동하지 않았던 적이 있나요? 그렇다면 걱정하지 마세요. 이 문제는 많은 개발자, 특히 초보자들이 자주 마주치는 문제입니다. 종종 문제는 CSS 코드 자체가 아니라 HTML과 CSS 사이의 링크 과정에 있을 수 있습니다.
 

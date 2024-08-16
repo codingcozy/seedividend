@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "IT Beginner Series: JavaScript IF ELSE Exercises (2)"
 link: "https://medium.com/@andrei_diaconu/it-beginner-series-javascript-if-else-exercises-cfc5d65b6f94"
+isUpdated: true
 ---
+
+
 
 
 ![2024-05-14-ITBeginnerSeriesJavaScriptIFELSEExercises2_0.png](/assets/img/2024-05-14-ITBeginnerSeriesJavaScriptIFELSEExercises2_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bidirectional Relationship Using @OneToMany @ManyToOne Annotation In Spring Boot"
 link: "https://medium.com/@arijit83work/bidirectional-relationship-using-onetomany-manytoone-annotation-in-spring-boot-3b91980ca222"
+isUpdated: true
 ---
+
+
 
 
 Spring Boot은 JPA(Java Persistence API)와 인기 있는 ORM(Object-Relational Mapping) 프레임워크인 Hibernate를 활용하여 두 개체 간에 상호 일대다 관계를 구현할 수 있게 해줍니다.

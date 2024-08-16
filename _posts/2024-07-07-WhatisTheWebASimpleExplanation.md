@@ -3,12 +3,15 @@ title: "웹이란 무엇인가 간단한 설명"
 description: ""
 coverImage: "/assets/img/2024-07-07-WhatisTheWebASimpleExplanation_0.png"
 date: 2024-07-07 12:45
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-WhatisTheWebASimpleExplanation_0.png
 tag: Tech
 originalTitle: "What is The Web: A Simple Explanation"
 link: "https://medium.com/@alfadlimaulana/what-is-the-web-a-simple-explanation-527053544d03"
+isUpdated: true
 ---
+
+
 
 ![Web and Internet Difference](/assets/img/2024-07-07-WhatisTheWebASimpleExplanation_0.png)
 

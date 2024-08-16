@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "20 Cheat codes for life"
 link: "https://medium.com/@alfieisajago/20-cheat-codes-for-life-3048f79c13ef"
+isUpdated: true
 ---
+
+
 
 
 

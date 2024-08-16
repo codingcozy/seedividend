@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "VIVID Origin Story"
 link: "https://medium.com/@vivid_gallery/vivid-origin-story-fc941d10f704"
+isUpdated: true
 ---
+
+
 
 
 ![VIVID Gallery](/assets/img/2024-05-16-VIVIDOriginStory_0.png)

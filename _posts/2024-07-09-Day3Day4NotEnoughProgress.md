@@ -3,12 +3,15 @@ title: "3일차, 4일차  진도가 부족한 이유"
 description: ""
 coverImage: "/assets/img/2024-07-09-Day3Day4NotEnoughProgress_0.png"
 date: 2024-07-09 15:04
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Day3Day4NotEnoughProgress_0.png
 tag: Tech
 originalTitle: "Day 3 , Day 4 — Not Enough Progress!"
 link: "https://medium.com/datascience-ville/day-3-day-4-not-enough-progress-bc496f2632b7"
+isUpdated: true
 ---
+
+
 
 ## 30일 코딩 챌린지
 

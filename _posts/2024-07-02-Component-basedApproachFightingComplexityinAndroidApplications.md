@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Component-based Approach. Fighting Complexity in Android Applications"
 link: "https://medium.com/itnext/component-based-approach-fighting-complexity-in-android-applications-2eaf5e8c5fad"
+isUpdated: true
 ---
+
+
 
 
 새로운 Android 애플리케이션 개발을 시작한다고 상상해보세요. 이 단계에서는 주요 문제가 발생할 확률이 적습니다. 기본 기능만 구현했습니다. 몇 가지 간단한 화면이 있습니다. 코드를 탐색하는 것이 간단합니다. 열정적으로 기능을 하나씩 추가하기 시작합니다. 그러나 시간이 지남에 따라 개발이 복잡해집니다. 코드베이스가 확장되고, 주요 화면에 많은 UI 요소와 복잡한 논리가 증가하며, 화면 흐름이 복잡한 전환 체인으로 발전합니다. 새로운 것을 추가하려고 하면 예전 것을 망가뜨리지 않는 것이 머리아프게 됩니다. 결과적으로, 개발 속도가 늦어집니다. 이 상황이 익숙한가요?

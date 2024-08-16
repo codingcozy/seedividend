@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create and Publish React TypeScript npm Package With Demo and Automated Build"
 link: "https://medium.com/better-programming/how-to-create-and-publish-react-typescript-npm-package-with-demo-and-automated-build-80c40ec28aca"
+isUpdated: true
 ---
+
+
 
 
 ## 제로부터 놀라운 프로젝트를 만드는 법을 배워보세요

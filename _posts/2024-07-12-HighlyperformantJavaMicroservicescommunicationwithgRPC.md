@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Highly performant Java Microservices communication with gRPC"
 link: "https://medium.com/geekculture/highly-performant-java-microservices-communication-with-grpc-c20e3a77a8db"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-12-HighlyperformantJavaMicroservicescommunicationwithgRPC_0.png)

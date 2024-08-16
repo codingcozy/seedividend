@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To: Baseline Models in Time Series"
 link: "https://medium.com/towards-data-science/baseline-models-in-time-series-c76d44a826b3"
+isUpdated: true
 ---
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "React-admin, prisma, Zenstack을 이용해 최소한의 코드로 관리자 페이지 만들기"
+title: "React-admin, prisma, Zenstack을 이용해 관리자 페이지 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Admin Console With Minimum Code Using React-Admin, Prisma, and Zenstack"
 link: "https://blog.whimslab.io/building-an-admin-console-with-minimum-code-using-react-admin-prisma-and-zenstack-f9286e2a606e"
+isUpdated: true
 ---
+
+
 
 
 

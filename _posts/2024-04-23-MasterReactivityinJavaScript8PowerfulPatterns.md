@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Master Reactivity in JavaScript 8 Powerful Patterns"
 link: "https://medium.com/@lokesh-prajapati/master-reactivity-in-javascript-8-powerful-patterns-e17bc19d3d54"
+isUpdated: true
 ---
+
+
 
 
 

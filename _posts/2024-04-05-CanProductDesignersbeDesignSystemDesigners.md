@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Can Product Designers be Design System Designers"
 link: "https://medium.com/all-about-design-systems/can-product-designers-be-design-system-designers-c7be6c4b9a0c"
+isUpdated: true
 ---
+
+
 
 
 

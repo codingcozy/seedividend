@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Infrastructure as Code"
 link: "https://medium.com/@kernelv5/infrastructure-as-code-c68df4a4dcb3"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "ChatGPT-4o, OpenAI’s New Flagship Model’s Full Review"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/chatgpt-4o-openais-new-flagship-model-s-full-review-6d7ac44f49c9"
+isUpdated: true
 ---
+
+
 
 
 일년 만에 OpenAI의 새로운 모델, 그들의 트랜스포머 패밀리의 최신 버전인 GPT-4o ("omnimodal")가 드디어 나왔어요.

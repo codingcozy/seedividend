@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Achieving Performance and Efficiency in RAG"
 link: "https://medium.com/gitconnected/how-achieving-performance-and-efficiency-in-rag-d5bb693efb91"
+isUpdated: true
 ---
+
+
 
 
 ## | LLM | RAG | BENCHMARK |

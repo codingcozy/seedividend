@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Worker Threads : Multitasking in NodeJS"
 link: "https://medium.com/@manikmudholkar831995/worker-threads-multitasking-in-nodejs-6028cdf35e9d"
+isUpdated: true
 ---
+
+
 
 
 ## Worker 스레드의 심층 탐구

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React.js Deep Dive #1 — createElement and jsx-runtime"
 link: "https://medium.com/@juliaazt/react-js-deep-dive-1-createelement-and-jsx-runtime-63c75882f7b0"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-ReactjsDeepDive1createElementandjsx-runtime_0.png" />

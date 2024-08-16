@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create Pixel Perfect Graphics Using HTML5 Canvas"
 link: "https://medium.com/@oscar.lindberg/how-to-create-pixel-perfect-graphics-using-html5-canvas-3750eb5f1dc9"
+isUpdated: true
 ---
+
+
 
 
 진짜 8비트 시각을 위한 캔버스 그래픽 마스터링 단계별 안내서입니다.

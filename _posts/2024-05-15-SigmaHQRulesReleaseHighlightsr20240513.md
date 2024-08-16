@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SigmaHQ Rules Release Highlights — r2024–05–13"
 link: "https://medium.com/sigma-hq/sigmahq-rules-release-highlights-r2024-05-13-237ed77459bf"
+isUpdated: true
 ---
+
+
 
 
 

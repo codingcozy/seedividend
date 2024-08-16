@@ -3,12 +3,15 @@ title: "CSS3만 사용해서 동적 글꼴 크기 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_0.png"
 date: 2024-07-09 17:52
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_0.png
 tag: Tech
 originalTitle: "Dynamic font-size using only CSS3"
 link: "https://medium.com/@bogdanfromkyiv/dynamic-font-size-using-only-css3-757ea901d0fe"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_0.png" />
 

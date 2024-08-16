@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create A Top Crazy Slider Effects Using HTML CSS and Javascript"
 link: "https://medium.com/@chauhanomprakash7206/create-a-top-crazy-slider-effects-using-html-css-and-javascript-4f54d6e7d2f7"
+isUpdated: true
 ---
+
+
 
 
 <img src="https://miro.medium.com/v2/resize:fit:1140/1*5lwNm-FVTRS5eGwUvm8Hbw.gif" />

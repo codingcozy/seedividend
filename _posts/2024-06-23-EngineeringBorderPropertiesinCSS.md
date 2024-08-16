@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Engineering: Border Properties in CSS"
 link: "https://medium.com/@naqvishahwar120/engineering-border-properties-in-css-db8b3fc94834"
+isUpdated: true
 ---
+
+
 
 
 공학 (CSS)

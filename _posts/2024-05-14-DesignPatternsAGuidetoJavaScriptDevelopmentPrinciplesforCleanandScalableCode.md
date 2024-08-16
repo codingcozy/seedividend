@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Design Patterns: A Guide to JavaScript Development Principles for Clean and Scalable Code"
 link: "https://medium.com/javascript-in-plain-english/design-patterns-a-guide-to-javascript-development-principles-for-clean-and-scalable-code-cf90771b48f2"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-14-DesignPatternsAGuidetoJavaScriptDevelopmentPrinciplesforCleanandScalableCode_0.png)

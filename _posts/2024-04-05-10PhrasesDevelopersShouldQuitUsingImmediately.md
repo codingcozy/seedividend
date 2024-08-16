@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Phrases Developers Should Quit Using Immediately"
 link: "https://medium.com/@tsecretdeveloper/10-phrases-developers-should-quit-using-immediately-348cc4b30dea"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "리액트 라우터 기초 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-05-01-ReactRouterNavigateYourAppswithEase_0.png"
 date: 2024-05-01 17:47
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-01-ReactRouterNavigateYourAppswithEase_0.png
 tag: Tech
 originalTitle: "React Router: Navigate Your Apps with Ease"
 link: "https://medium.com/@bijweniki/react-router-navigate-your-apps-with-ease-74c17836c91e"
+isUpdated: true
 ---
+
+
 
 React Router는 React 애플리케이션을 위한 강력한 라우팅 라이브러리입니다. URL을 기반으로 다른 컴포넌트를 렌더링하고 탐색을 처리하는 것을 통해 전체 페이지 새로 고침이 필요하지 않도록 해줍니다. 간단히 말해, React Router는 사용자 인터페이스가 URL 변경에 동적으로 업데이트되어 사용자에게 더 부드럽고 원활한 브라우징 경험을 제공하는 단일 페이지 애플리케이션(SPA)을 만드는 데 도움을 줍니다.
 

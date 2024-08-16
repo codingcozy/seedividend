@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "6 JavaScript console tricks for web developers"
 link: "https://medium.com/@imPradhyumn/6-javascript-console-tricks-for-web-developers-64d25024500c"
+isUpdated: true
 ---
+
+
 
 
 

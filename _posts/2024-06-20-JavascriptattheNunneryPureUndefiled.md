@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Javascript at the Nunnery: Pure , Undefiled"
 link: "https://medium.com/@rayepps/javascript-at-the-nunnery-pure-undefiled-353e32fd6e1b"
+isUpdated: true
 ---
+
+
 
 
 가장 좋은 자바스크립트는 간단하고 깔끔하며 클래스, this, 상속 및 데코레이터와 같은 추종할만한 기능으로 오염되지 않았어야 한다.

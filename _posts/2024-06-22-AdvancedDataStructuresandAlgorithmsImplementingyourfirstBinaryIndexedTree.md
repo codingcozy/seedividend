@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Data Structures and Algorithms: Implementing your first Binary Indexed Tree"
 link: "https://medium.com/bitsrc/advanced-data-structures-and-algorithms-implementing-your-first-binary-indexed-tree-a3fcfd2a98ab"
+isUpdated: true
 ---
+
+
 
 
 ## 최적화에 실패한 보통의 데이터 구조

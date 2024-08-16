@@ -3,12 +3,15 @@ title: "온라인 학습 및 교육 모바일 앱 PWA를 HTML로 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png"
 date: 2024-07-09 09:02
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png
 tag: Tech
 originalTitle: "Online Learning and Education Mobile App PWA HTML"
 link: "https://medium.com/@patternvirtuoso/online-learning-and-education-mobile-app-pwa-html-73a938e923cc"
+isUpdated: true
 ---
+
+
 
 🔍 온라인 학습 및 교육을 위한 모바일 앱 PWA HTML을 지금 확인해보세요! 저희의 📁 사이트 템플릿 웹 템플릿 라이브러리를 탐험하고 🆓 무료 다운로드 혜택을 받으세요. 함께 공작을 시작해봐요! 🚀
 

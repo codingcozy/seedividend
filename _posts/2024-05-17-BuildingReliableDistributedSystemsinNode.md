@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Reliable Distributed Systems in Node"
 link: "https://medium.com/@lorendsr/building-reliable-distributed-systems-in-node-aff92fa45ad8"
+isUpdated: true
 ---
+
+
 
 
 이 게시물은 Stripe, Netflix, Coinbase, Snap 및 기타 많은 회사들이 분산 시스템에서 다양한 문제를 해결하기 위해 사용하는 durable execution 개념을 소개합니다. 그리고 Temporal의 TypeScript/JavaScript SDK를 사용하여 durable 코드를 작성하는 것이 얼마나 간단한지 보여줍니다.

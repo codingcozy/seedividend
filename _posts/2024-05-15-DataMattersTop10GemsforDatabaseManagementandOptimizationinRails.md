@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Data Matters: Top 10 Gems for Database Management and Optimization in Rails"
 link: "https://medium.com/@vaishnaviganeshkar15/data-matters-top-10-gems-for-database-management-and-optimization-in-rails-1fbe0b9664b3"
+isUpdated: true
 ---
+
+
 
 
 이미지를 Markdown 형식으로 변경했습니다!

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Disabling text boxes: why it’s a bad idea and what to do instead"
 link: "https://medium.com/user-experience-design-1/disabling-text-boxes-why-its-a-bad-idea-and-what-to-do-instead-48fa50f7c433"
+isUpdated: true
 ---
+
+
 
 
 ## 비활성화된 컨트롤

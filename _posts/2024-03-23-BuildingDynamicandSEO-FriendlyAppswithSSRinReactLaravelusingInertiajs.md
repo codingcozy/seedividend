@@ -1,5 +1,5 @@
 ---
-title: "React  Laravel을 사용한 SEO 친화적인 SSR 앱 만들기 - Inertiajs 사용법 "
+title: "React Laravel을 사용한 SEO 친화적인 SSR 앱 만들기 - Inertiajs 사용법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Dynamic and SEO-Friendly Apps with SSR in React  Laravel using Inertiajs"
 link: "https://medium.com/@mohammed.poolwala_1888/building-dynamic-and-seo-friendly-apps-with-ssr-in-react-laravel-using-inertia-js-1051b04838df"
+isUpdated: true
 ---
+
+
 
 
 

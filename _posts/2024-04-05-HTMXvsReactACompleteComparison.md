@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTMX vs React A Complete Comparison"
 link: "https://medium.com/@semaphoreci/htmx-vs-react-a-complete-comparison-84c47fbb0198"
+isUpdated: true
 ---
+
+
 
 
 

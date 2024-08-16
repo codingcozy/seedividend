@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Death of React?"
 link: "https://medium.com/@pedro.lima1979/the-death-of-react-fe3ca2474b0e"
+isUpdated: true
 ---
+
+
 
 
 요즘 소프트웨어 개발 커뮤니티에서는 페이스북에서 개발한 JavaScript 라이브러리인 React의 급부상을 목격했습니다. 이 도민은 어디서 온 걸까요? 구성 요소 기반 접근 방식으로 동적 애플리케이션 개발을 용이하게 한다는 약속은 많은 이의 상상력을 사로잡았습니다. 그러나 시간이 흐르면서 필연적으로 질문이 제기됩니다: 우리는 React의 "죽음"을 목격하는 것인가요?

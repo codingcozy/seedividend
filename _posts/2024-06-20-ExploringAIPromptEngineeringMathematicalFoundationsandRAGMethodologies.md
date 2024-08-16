@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring AI Prompt Engineering: Mathematical Foundations and RAG Methodologies"
 link: "https://medium.com/towards-artificial-intelligence/exploring-ai-prompt-engineering-mathematical-foundations-and-rag-methodologies-f2067a7c1996"
+isUpdated: true
 ---
+
+
 
 
 

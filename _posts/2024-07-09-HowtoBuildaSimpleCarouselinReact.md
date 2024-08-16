@@ -3,12 +3,15 @@ title: "React에서 간단한 캐러셀 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoBuildaSimpleCarouselinReact_0.png"
 date: 2024-07-09 18:43
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoBuildaSimpleCarouselinReact_0.png
 tag: Tech
 originalTitle: "How to Build a Simple Carousel in React"
 link: "https://medium.com/bitsrc/simple-carousel-in-react-2aac73887243"
+isUpdated: true
 ---
+
+
 
 최근 프로젝트에서 제공되는 서비스를 쇼케이스하기 위해 캐러셀을 구현해야 했어요.
 

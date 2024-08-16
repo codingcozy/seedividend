@@ -3,12 +3,15 @@ title: "몇 분 만에 멋진 날씨 앱 만들기"
 description: ""
 coverImage: "/assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png"
 date: 2024-07-09 14:05
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png
 tag: Tech
 originalTitle: "Code a Stunning Weather App in Just Minutes!"
 link: "https://medium.com/@learntocodetoday/code-a-stunning-weather-app-in-just-minutes-99a355570fa3"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png" />
 

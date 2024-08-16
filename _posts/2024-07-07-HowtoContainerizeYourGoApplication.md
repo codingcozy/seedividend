@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Containerize Your Go Application??"
 link: "https://medium.com/@achanandhi.m/how-to-containerize-your-go-application-cecdf17faabe"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-07-HowtoContainerizeYourGoApplication_0.png)

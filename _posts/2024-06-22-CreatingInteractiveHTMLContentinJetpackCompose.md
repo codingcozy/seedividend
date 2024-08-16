@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Interactive HTML Content in Jetpack Compose"
 link: "https://medium.com/@graser1305/creating-interactive-html-content-in-jetpack-compose-7f7e929152f3"
+isUpdated: true
 ---
+
+
 
 
 HTML 내용을 Android Compose에서 표시하는 것은 특히 클릭 가능한 링크와 함께 일부 쉽게 보이지 않을 수 있습니다. 그러나 Kotlin과 Jetpack Compose를 사용하면 관리할 수 있고 즐거울 수도 있습니다. 이 안내서에서는 클릭 가능한 링크가 포함된 HTML 문자열을 구문 분석하고 표시하는 사용자 정의 구성 가능한 함수인 HtmlText를 만드는 방법을 안내하겠습니다.

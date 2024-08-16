@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to Concurrency and Parallelism"
 link: "https://medium.com/gitconnected/introduction-to-concurrency-and-parallelism-807a789f49c0"
+isUpdated: true
 ---
+
+
 
 
 

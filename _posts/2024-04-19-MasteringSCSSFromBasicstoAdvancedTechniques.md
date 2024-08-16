@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering SCSS From Basics to Advanced Techniques"
 link: "https://medium.com/@nsharma26081998/mastering-scss-from-basics-to-advanced-techniques-9d02a0e00556"
+isUpdated: true
 ---
+
+
 
 
 

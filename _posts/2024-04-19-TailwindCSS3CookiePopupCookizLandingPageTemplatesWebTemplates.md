@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind CSS 3 Cookie Popup  Cookiz Landing Page Templates Web Templates"
 link: "https://medium.com/@auroraaether98/tailwind-css-3-cookie-popup-cookiz-landing-page-templates-web-templates-9403556dcaa4"
+isUpdated: true
 ---
+
+
 
 
 

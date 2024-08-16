@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make simple tree hierarchy in angular using scss with simple coding"
 link: "https://medium.com/@jigaruvpc/how-to-make-simple-tree-hierarchy-in-angular-using-scss-with-simple-coding-3a767151d3eb"
+isUpdated: true
 ---
+
+
 
 
 

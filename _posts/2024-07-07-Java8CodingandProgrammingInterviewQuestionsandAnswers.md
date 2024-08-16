@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Java 8 Coding and Programming Interview Questions and Answers"
 link: "https://medium.com/dev-genius/java-8-coding-and-programming-interview-questions-and-answers-62512c44f062"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-07-Java8CodingandProgrammingInterviewQuestionsandAnswers_0.png)

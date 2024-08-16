@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Dynamic Registration Form using HTML, CSS, and JavaScript Step-by-Step Guide"
 link: "https://medium.com/@lostcoder20/creating-a-dynamic-registration-form-using-html-css-and-javascript-step-by-step-guide-ea0b012b1b88"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to implement Redux Saga with React redux-toolkit"
 link: "https://medium.com/@najm-eddine-zaga/react-redux-toolkit-with-redux-saga-a1439075743d"
+isUpdated: true
 ---
+
+
 
 
 

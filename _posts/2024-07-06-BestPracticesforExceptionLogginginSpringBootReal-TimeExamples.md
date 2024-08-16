@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Best Practices for Exception Logging in Spring Boot: Real-Time Examples"
 link: "https://medium.com/@psdevraye/best-practices-for-exception-logging-in-spring-boot-real-time-examples-5139607103aa"
+isUpdated: true
 ---
+
+
 
 
 /assets/img/2024-07-06-BestPracticesforExceptionLogginginSpringBootReal-TimeExamples_0.png

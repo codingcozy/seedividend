@@ -3,12 +3,15 @@ title: "Flutter에서 복잡한 HTML 처리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HandlingcomplexHTMLinFlutter_0.png"
 date: 2024-06-22 15:30
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-22-HandlingcomplexHTMLinFlutter_0.png
 tag: Tech
 originalTitle: "Handling complex HTML in Flutter"
 link: "https://medium.com/@tkarmakar27112000/handling-complex-html-in-flutter-77aa3d348f51"
+isUpdated: true
 ---
+
+
 
 ## 플러터에서 중첩된 테이블 뷰 표시
 

@@ -3,12 +3,15 @@ title: "내 경험 없이 AI 스타트업을 처음 구축한 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-HowIBuiltMyFirstAIStartupWithNoExperience_0.png"
 date: 2024-07-06 10:31
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-HowIBuiltMyFirstAIStartupWithNoExperience_0.png
 tag: Tech
 originalTitle: "How I Built My First AI Startup (With No Experience)"
 link: "https://medium.com/python-in-plain-english/how-i-built-my-first-ai-startup-with-no-experience-2b676f3768da"
+isUpdated: true
 ---
+
+
 
 제 첫 AI 스타트업을 어떻게 구축했는지에 대한 자세한 여정(스타트업을 만들기 위한 조언 포함).
 

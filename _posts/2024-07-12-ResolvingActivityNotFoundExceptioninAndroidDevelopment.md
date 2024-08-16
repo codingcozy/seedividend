@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Resolving ActivityNotFoundException in Android Development"
 link: "https://medium.com/@kasata/resolving-activitynotfoundexception-in-android-development-a1fdc622eb9b"
+isUpdated: true
 ---
+
+
 
 
 ## 소개

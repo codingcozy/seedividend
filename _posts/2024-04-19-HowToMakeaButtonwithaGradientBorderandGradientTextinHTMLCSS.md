@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Make a Button with a Gradient Border and Gradient Text in HTML , CSS"
 link: "https://medium.com/@christianjbolus/how-to-make-a-button-with-a-gradient-border-and-gradient-text-in-html-css-7d495656169"
+isUpdated: true
 ---
+
+
 
 
 

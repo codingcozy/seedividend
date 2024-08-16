@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Intro to HTML: HTML"
 link: "https://medium.com/@fangjy.alice2011/intro-to-html-and-css-part-i-html-fe74e14b4fb2"
+isUpdated: true
 ---
+
+
 
 
 HTML과 CSS는 프런트 엔드 개발에 필수적인 프로그래밍 언어입니다.

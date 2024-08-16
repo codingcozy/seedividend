@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Two Teenagers Found a New Proof of the Pythagorean Theorem  Heres How"
 link: "https://medium.com/@keith-mcnulty/two-teenagers-found-a-new-proof-of-the-pythagorean-theorem-heres-how-4bc038a09f12"
+isUpdated: true
 ---
+
+
 
 
 

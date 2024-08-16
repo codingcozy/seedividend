@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to CSS Syntax"
 link: "https://medium.com/@Rachelshattuck/introduction-to-css-syntax-8c78d0341d8a"
+isUpdated: true
 ---
+
+
 
 
 ![CSS Syntax](/assets/img/2024-05-02-IntroductiontoCSSSyntax_0.png)

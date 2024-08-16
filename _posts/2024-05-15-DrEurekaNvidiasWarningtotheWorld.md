@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DrEureka, Nvidia’s Warning to the World"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/dreureka-nvidias-warning-to-the-world-2e1ff4ef47fd"
+isUpdated: true
 ---
+
+
 
 
 지난 주 Nvidia는 AI 로봇이 얼마나 빠르게 발전하고 있는지를 다시 상기시키며, LLMs의 훌륭한 잠재력을 강조했습니다. 이는 교육과정에서 인간의 개입을 최소화하는 데 큰 기회를 제공합니다.

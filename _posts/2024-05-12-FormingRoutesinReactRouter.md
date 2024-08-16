@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Forming Routes in React Router"
 link: "https://medium.com/@mojomojoke9/forming-routes-in-react-router-5e64f779525a"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-FormingRoutesinReactRouter_0.png" />

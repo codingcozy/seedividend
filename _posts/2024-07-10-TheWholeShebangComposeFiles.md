@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Whole Shebang: Compose Files"
 link: "https://medium.com/better-programming/the-whole-shebang-compose-files-5b6f50dd196c"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-10-TheWholeShebangComposeFiles_0.png)

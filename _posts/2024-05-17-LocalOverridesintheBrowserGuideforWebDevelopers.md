@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Local Overrides in the Browser: Guide for Web Developers"
 link: "https://medium.com/@yaron-galperin/local-overrides-in-the-browser-guide-for-web-developers-aa5fb6b40476"
+isUpdated: true
 ---
+
+
 
 
 때로는 웹 페이지의 내용을 원본 소스 코드에 액세스하지 않고 빠르게 변경해야 할 때가 있습니다. 테스트, 디버깅 또는 브라우징 경험을 사용자 정의하는 경우 등 여러 가지 이유로 그럴 수 있습니다.

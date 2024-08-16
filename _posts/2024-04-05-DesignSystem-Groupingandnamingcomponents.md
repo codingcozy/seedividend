@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Design System- Grouping and naming components"
 link: "https://medium.com/@shuchisaxena/design-system-grouping-and-naming-components-7cef856906b5"
+isUpdated: true
 ---
+
+
 
 
 

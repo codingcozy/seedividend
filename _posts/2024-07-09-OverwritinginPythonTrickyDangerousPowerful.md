@@ -3,12 +3,15 @@ title: "파이썬에서 덮어쓰기 헷갈리지만 위험하고 강력한 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png"
 date: 2024-07-09 19:09
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png
 tag: Tech
 originalTitle: "Overwriting in Python: Tricky. Dangerous. Powerful"
 link: "https://medium.com/towards-data-science/overwriting-in-python-tricky-dangerous-powerful-04b12a9b1a7e"
+isUpdated: true
 ---
+
+
 
 ## 파이썬 프로그래밍
 

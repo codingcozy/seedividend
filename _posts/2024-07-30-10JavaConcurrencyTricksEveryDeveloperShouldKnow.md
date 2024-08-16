@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Java Concurrency Tricks Every Developer Should Know"
 link: "https://medium.com/dev-genius/10-java-concurrency-tricks-every-developer-should-know-4961c3077302"
+isUpdated: true
 ---
+
+
 
 
 ![Java concurrency](/assets/img/2024-07-30-10JavaConcurrencyTricksEveryDeveloperShouldKnow_0.png)

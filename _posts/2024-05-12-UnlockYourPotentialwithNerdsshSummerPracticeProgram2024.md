@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlock Your Potential with Nerds.sh Summer Practice Program 2024!"
 link: "https://medium.com/nerds-sh/unlock-your-potential-with-nerds-sh-summer-practice-program-2024-d862407253a5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-UnlockYourPotentialwithNerdsshSummerPracticeProgram2024_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Reduce Type Complexity in TypeScript with 3 Clear-cut Steps"
 link: "https://medium.com/gitconnected/how-i-reduce-type-complexity-in-typescript-with-3-clear-cut-steps-00ed42593b30"
+isUpdated: true
 ---
+
+
 
 
 해당되는 TypeScript 프로젝트가 이해하기 어려웠던 적이 있나요? 그럴 때 왜 그랬는지 궁금했던 적이 있나요? 두 가지 질문에 대한 답이 있습니다.

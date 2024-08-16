@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to handle errors in React full guide"
 link: "https://medium.com/@adevnadia/how-to-handle-errors-in-react-full-guide-bd02634ff523"
+isUpdated: true
 ---
+
+
 
 
 

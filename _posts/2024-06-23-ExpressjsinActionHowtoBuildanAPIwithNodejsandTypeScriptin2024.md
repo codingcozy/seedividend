@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Express.js in Action: How to Build an API with Node.js and TypeScript in 2024"
 link: "https://medium.com/@mahmoud-kassem/how-to-build-an-api-with-node-js-express-and-typescript-2024-extended-part-1-6-f65df183dbc5"
+isUpdated: true
 ---
+
+
 
 
 ![Express.js in Action: How to Build an API with Node.js and TypeScript in 2024](/assets/img/2024-06-23-ExpressjsinActionHowtoBuildanAPIwithNodejsandTypeScriptin2024_0.png)

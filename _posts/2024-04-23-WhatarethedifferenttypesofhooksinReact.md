@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What are the different types of hooks in React"
 link: "https://medium.com/womenintechnology/what-are-the-different-types-of-hooks-in-react-470fdeb86b9"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why You Should Use Islands Architecture"
 link: "https://medium.com/better-programming/why-you-should-use-islands-architecture-b4f291708a02"
+isUpdated: true
 ---
+
+
 
 
 

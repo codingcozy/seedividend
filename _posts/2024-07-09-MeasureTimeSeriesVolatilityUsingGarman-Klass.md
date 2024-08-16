@@ -3,12 +3,15 @@ title: "Garman-Klass를 사용해 시계열 변동성 측정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-MeasureTimeSeriesVolatilityUsingGarman-Klass_0.png"
 date: 2024-07-09 09:09
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-MeasureTimeSeriesVolatilityUsingGarman-Klass_0.png
 tag: Tech
 originalTitle: "Measure Time Series Volatility Using Garman-Klass"
 link: "https://medium.com/@kaabar-sofien/measure-time-series-volatility-using-garman-klass-865901ba9322"
+isUpdated: true
 ---
+
+
 
 ![Garman-Klass volatility estimator](/assets/img/2024-07-09-MeasureTimeSeriesVolatilityUsingGarman-Klass_0.png)
 

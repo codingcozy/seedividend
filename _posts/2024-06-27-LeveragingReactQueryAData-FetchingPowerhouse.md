@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Leveraging React Query: A Data-Fetching Powerhouse"
 link: "https://medium.com/@ravsrvamsikrishna/leveraging-react-query-a-data-fetching-powerhouse-21850a482c86"
+isUpdated: true
 ---
+
+
 
 
 React 어플리케이션을 더 빠르게 만들어주는 캐싱이 어떻게 변화를 주는지 궁금했던 적이 있나요? 이 블로그에서 React Query가 캐싱을 활용하여 데이터 가져오기와 관리를 간편하게 하는 방법을 탐구하고 있습니다. 뿐만 아니라 효율적인 캐싱을 위한 다양한 방법들을 살펴볼 예정이에요. 게다가, 낙관적 업데이트의 힘도 발견해 볼 거예요. 이것은 거의 사용되지 않는 주요 최적화 기술이랍니다.

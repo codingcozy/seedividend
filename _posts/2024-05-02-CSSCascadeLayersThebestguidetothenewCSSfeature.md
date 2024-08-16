@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Cascade Layers: The best guide to the new CSS feature"
 link: "https://medium.com/javascript-in-plain-english/css-cascade-layers-the-best-guide-to-the-new-css-feature-8886a4183b4f"
+isUpdated: true
 ---
+
+
 
 
 ![sandwich](/assets/img/2024-05-02-CSSCascadeLayersThebestguidetothenewCSSfeature_0.png)

@@ -3,12 +3,15 @@ title: "Dart Flutter에서의 믹스인 사용하기"
 description: ""
 coverImage: "/assets/img/2024-05-18-MixinsinDartFlutterAndHowitisdifferentfromInheritance_0.png"
 date: 2024-05-18 22:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-18-MixinsinDartFlutterAndHowitisdifferentfromInheritance_0.png
 tag: Tech
 originalTitle: "Mixins in Dart (Flutter) — And How it is different from Inheritance ?"
 link: "https://medium.com/flutter-community/exploring-mixins-in-dart-flutter-43514cd9952b"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-18-MixinsinDartFlutterAndHowitisdifferentfromInheritance_0.png" />
 

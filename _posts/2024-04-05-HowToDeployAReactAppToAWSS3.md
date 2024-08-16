@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Deploy A React App To AWS S3"
 link: "https://medium.com/technology-hits/how-to-deploy-a-react-app-to-aws-s3-2ea6bb59892f"
+isUpdated: true
 ---
+
+
 
 
 

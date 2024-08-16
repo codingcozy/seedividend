@@ -3,12 +3,15 @@ title: "Python 코드 가독성을 높이는 어노테이션 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_0.png"
 date: 2024-07-09 19:05
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-EnhancingReadabilityofPythonCodeviaAnnotations_0.png
 tag: Tech
 originalTitle: "Enhancing Readability of Python Code via Annotations"
 link: "https://medium.com/towards-data-science/enhancing-readability-of-python-code-via-annotations-09ce4c9b3729"
+isUpdated: true
 ---
+
+
 
 ## 파이썬 프로그래밍
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Differences between Weak vs Strong vs Unknown references"
 link: "https://medium.com/@dyaremyshyn/differences-between-weak-vs-strong-vs-unknown-references-ee5dd822a2ed"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-01-DifferencesbetweenWeakvsStrongvsUnknownreferences_0.png" />

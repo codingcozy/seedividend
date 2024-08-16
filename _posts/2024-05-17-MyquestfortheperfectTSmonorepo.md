@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My quest for the perfect TS monorepo"
 link: "https://medium.com/@thijs-koerselman/my-quest-for-the-perfect-ts-monorepo-62653d3047eb"
+isUpdated: true
 ---
+
+
 
 
 

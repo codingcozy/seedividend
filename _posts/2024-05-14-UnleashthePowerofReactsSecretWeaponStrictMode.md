@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unleash the Power of React’s Secret Weapon: StrictMode"
 link: "https://medium.com/@michaelyoussef396/unleash-the-power-of-reacts-secret-weapon-strictmode-0f31d3227927"
+isUpdated: true
 ---
+
+
 
 
 ![StrictMode image](/assets/img/2024-05-14-UnleashthePowerofReactsSecretWeaponStrictMode_0.png)

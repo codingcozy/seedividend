@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make your first REST API in Node.js"
 link: "https://medium.com/@holasoymalva/how-to-make-your-first-rest-api-in-node-js-82c05fca9106"
+isUpdated: true
 ---
+
+
 
 
 ## 5분 이내로

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Image Background Removal Quick , Easy Guide"
 link: "https://medium.com/@sarahisdevs/css-image-background-removal-quick-easy-guide-07087ca855fb"
+isUpdated: true
 ---
+
+
 
 
 

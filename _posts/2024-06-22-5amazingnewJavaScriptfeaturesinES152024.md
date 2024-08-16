@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 amazing new JavaScript features in ES15 (2024)"
 link: "https://medium.com/coding-beauty/es15-javascript-features-fc2d1f7a00ce"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-5amazingnewJavaScriptfeaturesinES152024_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ".env variables 'undefined'."
 link: "https://medium.com/@zak786khan/env-variables-undefined-78cf218dae87"
+isUpdated: true
 ---
+
+
 
 
 애플리케이션을 구축할 때 VITE, REACT 또는 NEXT를 기반으로 하는 상황에 갇혀 과연 환경 변수를 어떻게 설정해야 할지 모를 때가 있나요?

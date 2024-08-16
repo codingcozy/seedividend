@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating 'Expose' and 'Publish' in Docker Containers"
 link: "https://medium.com/@nikheal/navigating-expose-and-publish-in-docker-containers-e4c1429de8ac"
+isUpdated: true
 ---
+
+
 
 
 

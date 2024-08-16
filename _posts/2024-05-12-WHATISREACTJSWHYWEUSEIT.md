@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "WHAT IS REACT JS ?WHY WE USE IT?"
 link: "https://medium.com/@syntaxsynchub/what-is-react-js-why-we-use-it-da860b2dcbbe"
+isUpdated: true
 ---
+
+
 
 
 ![React.js](/assets/img/2024-05-12-WHATISREACTJSWHYWEUSEIT_0.png)

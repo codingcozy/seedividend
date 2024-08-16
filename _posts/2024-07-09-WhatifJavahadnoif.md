@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What if Java had no if?"
 link: "https://medium.com/@donraab/what-if-java-had-no-if-ea88d90b76c3"
+isUpdated: true
 ---
+
+
 
 
 그게 뭔데?

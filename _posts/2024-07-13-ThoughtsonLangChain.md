@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Thoughts on LangChain"
 link: "https://medium.com/@seniorbrogrammer/thoughts-on-langchain-67c2346139b5"
+isUpdated: true
 ---
+
+
 
 
 LangChain에 대해 칭찬하고 싶습니다. 새로운 아이디어를 쉽게 실행할 수 있습니다. 기술 독해에서 질문을 하기 위해 작은 공부 가이드 도구를 만들었는데, 충분한 텍스트 데이터를 제공하여 LLM과 쉽게 연결할 수 있었습니다.

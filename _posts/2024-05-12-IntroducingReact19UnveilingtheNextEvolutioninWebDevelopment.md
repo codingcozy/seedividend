@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing React 19: Unveiling the Next Evolution in Web Development"
 link: "https://medium.com/@dishantsthapit/introducing-react-19-unveiling-the-next-evolution-in-web-development-8ebf4b4329f0"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-IntroducingReact19UnveilingtheNextEvolutioninWebDevelopment_0.png)

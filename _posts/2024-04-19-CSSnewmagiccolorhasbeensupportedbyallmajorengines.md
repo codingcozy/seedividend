@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS new magic color has been supported by all major engines"
 link: "https://medium.com/javascript-in-plain-english/css-new-magic-color-has-been-supported-by-all-major-engines-e0b67c98766c"
+isUpdated: true
 ---
+
+
 
 
 

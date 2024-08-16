@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Going Serverless With Spring Cloud Function, AWS Lambda Java 17 Support, and SnapStart"
 link: "https://medium.com/better-programming/going-serverless-with-spring-cloud-function-aws-lambda-java-17-support-and-snapstart-d3d8ffd44bbd"
+isUpdated: true
 ---
+
+
 
 
 

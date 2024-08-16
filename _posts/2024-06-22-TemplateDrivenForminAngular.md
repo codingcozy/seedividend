@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Template Driven Form in Angular"
 link: "https://medium.com/@zeeshankhan8838/template-driven-form-in-angular-b80a3ebbcd24"
+isUpdated: true
 ---
+
+
 
 
 이 기사에서는 템플릿 폼과 언제 템플릿 드리븐 폼을 사용해야 하는지에 대해 안내하겠습니다.

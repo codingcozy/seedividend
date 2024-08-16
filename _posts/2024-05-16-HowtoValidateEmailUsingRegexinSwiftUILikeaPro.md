@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Validate Email Using Regex in SwiftUI Like a Pro"
 link: "https://medium.com/@naufaladli0406/how-to-validate-email-using-regex-in-swiftui-like-a-pro-3d29bbd00bde"
+isUpdated: true
 ---
+
+
 
 
 <div class="content-ad"></div>

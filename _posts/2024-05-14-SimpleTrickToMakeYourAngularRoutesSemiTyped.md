@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple Trick To Make Your Angular Routes (Semi) Typed"
 link: "https://medium.com/javascript-in-plain-english/simple-trick-to-make-your-angular-routes-semi-typed-446063f0843f"
+isUpdated: true
 ---
+
+
 
 
 

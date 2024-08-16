@@ -3,12 +3,15 @@ title: "최신 방식으로 반응형 테이블 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Howtocreateresponsivetableinmodernway_0.png"
 date: 2024-07-09 18:52
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Howtocreateresponsivetableinmodernway_0.png
 tag: Tech
 originalTitle: "How to create responsive table in modern way"
 link: "https://medium.com/@snowleo208/how-to-create-responsive-table-d1662cb62075"
+isUpdated: true
 ---
+
+
 
 표는 데이터를 나타내는 데 중요한 도구이지만, 작은 화면(예: 모바일 및 태블릿)에서는 데이터를 다르게 나타내는 것이 중요합니다. 그렇지 않으면 혼돈스러워질 수 있어요!
 

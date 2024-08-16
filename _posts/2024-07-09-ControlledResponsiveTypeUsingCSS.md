@@ -3,12 +3,15 @@ title: "CSS로 반응형 글자 제어하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png"
 date: 2024-07-09 08:56
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png
 tag: Tech
 originalTitle: "Controlled Responsive Type Using CSS"
 link: "https://medium.com/@carlos-ruiz-web/controlled-responsive-type-using-css-ab53a00f5322"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png" />
 

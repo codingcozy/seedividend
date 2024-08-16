@@ -3,12 +3,15 @@ title: "플러터 프로젝트에 조금의 창조적 예술 추가하기"
 description: ""
 coverImage: "/assets/img/2024-05-15-AddingabitofGenerativeArttoaFlutterproject_0.png"
 date: 2024-05-15 11:44
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-15-AddingabitofGenerativeArttoaFlutterproject_0.png
 tag: Tech
 originalTitle: "Adding a bit of Generative Art to a Flutter project"
 link: "https://medium.com/@khlebobul/adding-a-bit-of-generative-art-to-a-flutter-project-13b22dd4f274"
+isUpdated: true
 ---
+
+
 
 여러분 안녕하세요, 저는 최근에 pub.dev에 제 첫 번째 패키지를 게시했어요. 이 패키지는 여러분의 프로젝트를 좀 더 흥미롭게 만들어줄 수 있는 기능을 제공해요. 이 글에서는 이 패키지를 만드는 과정과 활용 방법에 대해 알려드릴게요.
 

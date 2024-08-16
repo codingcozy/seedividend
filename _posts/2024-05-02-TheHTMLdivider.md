@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The HTML | divider"
 link: "https://medium.com/@mikael-ainalem/the-html-divider-e724ad7f82d8"
+isUpdated: true
 ---
+
+
 
 
 ## 섹션 구분기를 활용한 창의적인 방법에 관한 이야기

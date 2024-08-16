@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why you dont need Flipper in your React Native app  and how to get by without it"
 link: "https://medium.com/infinite-red/why-you-dont-need-flipper-in-your-react-native-app-and-how-to-get-by-without-it-3af461955109"
+isUpdated: true
 ---
+
+
 
 
 

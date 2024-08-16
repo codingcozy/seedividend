@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Links in HTML: Types and Uses"
 link: "https://medium.com/@greennolgaa/links-in-html-types-and-uses-1406153a6da5"
+isUpdated: true
 ---
+
+
 
 
 HTML의 링크는 웹사이트 내에서의 탐색과 연결을 가능하게 하는 가장 중요한 요소 중 하나입니다. 이들은 웹페이지간이나 문서, 이미지, 비디오 등 외부 소스로의 하이퍼링크 생성에 사용됩니다. 이 블로그 포스트에서는 HTML의 링크가 무엇이며, 어떻게 작동하는지, 그리고 사용 가능한 다양한 종류의 HTML 링크에 대해 살펴볼 것입니다.

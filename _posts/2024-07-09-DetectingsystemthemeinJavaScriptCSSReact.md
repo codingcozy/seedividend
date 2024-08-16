@@ -3,12 +3,15 @@ title: "JavaScript, CSS, React로 시스템 테마 감지하기 완벽 가이드
 description: ""
 coverImage: "/assets/img/2024-07-09-DetectingsystemthemeinJavaScriptCSSReact_0.png"
 date: 2024-07-09 18:00
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-DetectingsystemthemeinJavaScriptCSSReact_0.png
 tag: Tech
 originalTitle: "Detecting system theme in JavaScript   CSS   React"
 link: "https://medium.com/hypersphere-codes/detecting-system-theme-in-javascript-css-react-f6b961916d48"
+isUpdated: true
 ---
+
+
 
 시스템 테마를 prefers-color-scheme 및 matchMedia를 사용하여 감지합니다.
 

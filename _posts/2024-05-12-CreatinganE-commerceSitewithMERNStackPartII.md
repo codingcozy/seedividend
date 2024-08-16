@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating an E-commerce Site with MERN Stack — Part II"
 link: "https://medium.com/@tokosbex/creating-an-e-commerce-site-with-mern-stack-part-ii-d6fd908c7151"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-CreatinganE-commerceSitewithMERNStackPartII_0.png" />

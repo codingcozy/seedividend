@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Make HTML 5 Games — Tile Game Tutorial"
 link: "https://medium.com/gitconnected/make-html-5-games-tile-game-tutorial-f6d3dbb94b20"
+isUpdated: true
 ---
+
+
 
 
 ## 모든 필요한 것

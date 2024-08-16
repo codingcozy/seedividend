@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Beginner’s Guide to Python: Getting Set Up Like A Pro"
 link: "https://medium.com/@chevonnefernandes/a-beginners-guide-to-python-getting-set-up-like-a-pro-dd7ab2d5a093"
+isUpdated: true
 ---
+
+
 
 
 이것은 '파이썬 초보자를 위한 가이드' 시리즈의 첫 번째 기사로, 여러분의 파이썬 여행을 시작하는 데 도움이 될 것입니다.

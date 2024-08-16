@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Responsive Design with Bootstrap: Making Your Web page Mobile-Friendly"
 link: "https://medium.com/@etwinworkshop/responsive-design-with-bootstrap-making-your-web-page-mobile-friendly-16ea4ef8ddc3"
+isUpdated: true
 ---
+
+
 
 
 아래는 표를 Markdown 형식으로 변경해주세요.

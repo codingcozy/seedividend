@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Download PDF from API in React (Using Axios and blobs)"
 link: "https://medium.com/javascript-in-plain-english/download-pdf-from-api-in-reactjs-using-axios-and-blobs-699be8a27ca7"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-DownloadPDFfromAPIinReactUsingAxiosandblobs_0.png" />

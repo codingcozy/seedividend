@@ -3,12 +3,15 @@ title: "Angular에서 Observable과 Subject 사용법 차이점 및 활용 방�
 description: ""
 coverImage: "/assets/img/2024-07-07-ObservableandSubjectsinAngular_0.png"
 date: 2024-07-07 19:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-ObservableandSubjectsinAngular_0.png
 tag: Tech
 originalTitle: "Observable and Subjects in Angular"
 link: "https://medium.com/@jaydeepvpatil225/observables-and-subjects-in-angular-a4d73dfa5bb"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-ObservableandSubjectsinAngular_0.png" />
 

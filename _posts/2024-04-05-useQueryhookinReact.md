@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "useQuery hook in React"
 link: "https://medium.com/@bhairabpatra.iitd/usequery-hook-in-react-b06ef604ea46"
+isUpdated: true
 ---
+
+
 
 
 

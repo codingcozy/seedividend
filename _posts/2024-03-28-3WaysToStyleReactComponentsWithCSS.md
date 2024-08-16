@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "3 Ways To Style React Components With CSS"
 link: "https://medium.com/towardsdev/3-ways-to-style-react-components-with-css-7411c23c1cbe"
+isUpdated: true
 ---
+
+
 
 
 

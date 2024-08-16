@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Clean Architecture With React"
 link: "https://medium.com/better-programming/clean-architecture-with-react-cc097a08b105"
+isUpdated: true
 ---
+
+
 
 
 ## 클린 아키텍처는 애플리케이션을 보다 쉽게 유지 보수하고 확장할 수 있게 만들어줍니다. 그러나 여러 가지 프레임워크 기반 코딩 스타일에 의해 우리의 코드는 편향될 수 있습니다. 이 기사에서는 React 기반 코드를 클린 아키텍처로 변환하는 방법을 보여드리고자 합니다.

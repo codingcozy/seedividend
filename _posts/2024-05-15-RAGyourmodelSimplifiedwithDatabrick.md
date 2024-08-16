@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "RAG your model — Simplified with Databrick"
 link: "https://medium.com/@yashodhannn/rag-your-model-simplified-with-databricks-9c8daa02ddd7"
+isUpdated: true
 ---
+
+
 
 
 # RAG 이론 (간단 버전)

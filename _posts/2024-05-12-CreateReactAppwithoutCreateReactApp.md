@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create React App without Create React App"
 link: "https://medium.com/bitsrc/create-react-app-without-create-react-app-b0a5806a92"
+isUpdated: true
 ---
+
+
 
 
 

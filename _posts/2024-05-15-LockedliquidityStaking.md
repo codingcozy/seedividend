@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Locked liquidity Staking:"
 link: "https://medium.com/@slasserb/stable-staking-repeg-protocol-02559caf3220"
+isUpdated: true
 ---
+
+
 
 
 

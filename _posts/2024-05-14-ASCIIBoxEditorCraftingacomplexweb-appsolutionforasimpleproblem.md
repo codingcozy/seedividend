@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "ASCII Box Editor: Crafting a complex web-app solution for a simple problem"
 link: "https://medium.com/@TheoKVA/ascii-box-editor-crafting-a-complex-web-app-solution-for-a-simple-problem-de976eeee861"
+isUpdated: true
 ---
+
+
 
 
 # 아이디어의 시작

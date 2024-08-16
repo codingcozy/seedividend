@@ -3,12 +3,15 @@ title: "HTML 문맹 스타일링과 실패 윈드 스튜피드"
 description: ""
 coverImage: "/assets/img/2024-05-02-HTMLIlliteracyPart2of2StylingAndFailwindStupid_0.png"
 date: 2024-05-02 00:31
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-02-HTMLIlliteracyPart2of2StylingAndFailwindStupid_0.png
 tag: Tech
 originalTitle: "HTML Illiteracy (Part 2 of 2) Styling And Failwind Stupid"
 link: "https://medium.com/codex/html-illiteracy-part-2-of-2-styling-and-failwind-stupid-f4867d13595a"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-02-HTMLIlliteracyPart2of2StylingAndFailwindStupid_0.png" />
 

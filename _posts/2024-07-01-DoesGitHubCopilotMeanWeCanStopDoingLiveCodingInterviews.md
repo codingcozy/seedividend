@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Does GitHub Copilot Mean We Can Stop Doing Live Coding Interviews?"
 link: "https://medium.com/@mckornfield/does-github-copilot-mean-we-can-stop-doing-live-coding-interviews-aca3424352be"
+isUpdated: true
 ---
+
+
 
 
 더 이상 그들이 우리에게 필요한가요?

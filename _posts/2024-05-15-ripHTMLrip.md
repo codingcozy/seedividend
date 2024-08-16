@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "<rip>HTML< rip>"
 link: "https://medium.com/@decketts/rip-html-rip-797bd9685c95"
+isUpdated: true
 ---
+
+
 
 
 ## JavaScriptUI — DevBlog #2

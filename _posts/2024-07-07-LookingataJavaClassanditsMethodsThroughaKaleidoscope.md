@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Looking at a Java Class and its Methods Through a Kaleidoscope"
 link: "https://medium.com/javarevisited/looking-at-a-java-class-and-its-methods-through-a-kaleidoscope-998b510e39ac"
+isUpdated: true
 ---
+
+
 
 
 여러 관점에서 Java Stream 메소드들을 탐구해봅니다

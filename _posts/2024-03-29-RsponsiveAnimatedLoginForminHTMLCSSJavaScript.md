@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rsponsive Animated Login Form in HTML CSS , JavaScript"
 link: "https://medium.com/@bijanrai/rsponsive-animated-login-form-in-html-css-javascript-43b55a8adedb"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Google I O 2024: AI Innovations and Android Enhancements"
 link: "https://medium.com/@android-world/google-i-o-2024-ai-innovations-and-android-enhancements-f2daf475104d"
+isUpdated: true
 ---
+
+
 
 
 Google I/O는 매년 5월 14일에 개최되는 개발자 회의로, 구글이 인공 지능(AI)의 경계를 넓히고 다양한 제품에 통합하는 데 헌신하는 모습을 선보였습니다. 특히 안드로이드에 초점을 맞춘 일련의 혁신적인 발표를 통해 사용자 경험을 재정의하고 개발자들에게 향상된 도구를 제공할 것을 약속했습니다.

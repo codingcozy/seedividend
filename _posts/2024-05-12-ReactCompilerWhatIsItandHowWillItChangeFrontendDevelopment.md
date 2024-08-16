@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Compiler: What Is It and How Will It Change Frontend Development?"
 link: "https://medium.com/@semaphoreci/react-compiler-what-is-it-and-how-will-it-change-frontend-development-f7ce837d1852"
+isUpdated: true
 ---
+
+
 
 
 React 18가 이미 2년 이상 지난 후에, 이제는 React 19를 환영할 때가 왔습니다. 우리가 모두 사랑하는 주요 혁신은 React 컴파일러입니다! 이는 수동 메모이제이션 최적화가 필요 없어져서 프론트엔드 개발을 영원히 간단히 해 줄 것을 약속합니다.

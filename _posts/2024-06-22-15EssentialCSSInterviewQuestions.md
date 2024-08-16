@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "15 Essential CSS Interview Questions"
 link: "https://medium.com/dev-genius/15-essential-css-interview-questions-52622b4f6ef8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-15EssentialCSSInterviewQuestions_0.png" />

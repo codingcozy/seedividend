@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "1. Introduction to Data Validation in Web Applications."
 link: "https://medium.com/@aliahmedfathi37/how-to-implement-data-validation-in-nestjs-using-nestjs-joi-and-joi-class-decorators-be374174ff80"
+isUpdated: true
 ---
+
+
 
 
 1. 웹 애플리케이션에서 데이터 유효성 검사 소개.

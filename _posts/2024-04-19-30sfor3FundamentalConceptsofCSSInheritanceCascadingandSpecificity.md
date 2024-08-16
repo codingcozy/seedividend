@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "30s for 3 Fundamental Concepts of CSS Inheritance, Cascading, and Specificity"
 link: "https://medium.com/@caodanju/30s-for-3-fundamental-concepts-of-css-inheritance-cascading-and-specificity-0b44d17d5bee"
+isUpdated: true
 ---
+
+
 
 
 

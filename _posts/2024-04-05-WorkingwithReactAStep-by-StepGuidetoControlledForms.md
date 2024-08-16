@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Working with React A Step-by-Step Guide to Controlled Forms"
 link: "https://medium.com/@ianflurkey/working-with-react-a-step-by-step-guide-to-controlled-forms-253723dde858"
+isUpdated: true
 ---
+
+
 
 
 

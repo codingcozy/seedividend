@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing API Mocking in Spring Microservices for Faster Development"
 link: "https://medium.com/@AlexanderObregon/implementing-api-mocking-in-spring-microservices-for-faster-development-a2c16aeeb9a4"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-ImplementingAPIMockinginSpringMicroservicesforFasterDevelopment_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Clean Code Using Angular Services"
 link: "https://medium.com/@khizerrehandev/clean-code-using-angular-services-eb8bcb30af09"
+isUpdated: true
 ---
+
+
 
 
 서비스/추상화 계층 패턴을 추가하여 복잡성을 줄입니다.

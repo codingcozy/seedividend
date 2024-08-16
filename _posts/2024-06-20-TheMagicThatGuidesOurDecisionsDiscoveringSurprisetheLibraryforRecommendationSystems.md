@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Magic That Guides Our Decisions: Discovering Surprise, the Library for Recommendation Systems"
 link: "https://medium.com/@lfcaro90/the-magic-that-guides-our-decisions-discovering-surprise-the-library-for-recommendation-systems-662cde62c9c3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-TheMagicThatGuidesOurDecisionsDiscoveringSurprisetheLibraryforRecommendationSystems_0.png" />

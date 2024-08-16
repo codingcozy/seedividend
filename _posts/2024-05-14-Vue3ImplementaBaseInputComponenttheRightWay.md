@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "[Vue 3] Implement a Base Input Component the Right Way"
 link: "https://medium.com/@fadamakis/vue-3-implement-a-base-input-component-the-right-way-f5ef2f917221"
+isUpdated: true
 ---
+
+
 
 
 대규모 애플리케이션을 만드는 것은 아주 큰 탑을 짓는 것과 같을 수 있어요. 하지만 그 탑들이 작고 간단한 건물 블록들로 이루어져 있는 것처럼 말이죠. 이 기본 부품 중 하나가 입력 상자인데요. 기본적으로 보일 수도 있지만, 복잡한 기능을 갖추게 하면 정말 복잡해질 수 있어요.

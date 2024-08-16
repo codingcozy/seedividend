@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Can Django Handle Your Ambitious Project? Let’s Be Honest…"
 link: "https://medium.com/python-in-plain-english/can-django-handle-your-ambitious-project-lets-be-honest-9b970d35d75e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-18-CanDjangoHandleYourAmbitiousProjectLetsBeHonest_0.png" />

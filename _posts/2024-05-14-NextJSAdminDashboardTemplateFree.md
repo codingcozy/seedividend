@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Next JS Admin Dashboard Template Free"
 link: "https://medium.com/@easetemplate/next-js-admin-dashboard-template-free-f65eaa5317c9"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-NextJSAdminDashboardTemplateFree_0.png" />

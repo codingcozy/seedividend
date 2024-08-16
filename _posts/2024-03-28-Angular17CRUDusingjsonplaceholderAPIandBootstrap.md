@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular 17 CRUD using jsonplaceholder API and Bootstrap"
 link: "https://medium.com/@chandantechie/angular-17-crud-using-jsonplaceholder-api-and-bootstrap-9f4db29b9428"
+isUpdated: true
 ---
+
+
 
 
 

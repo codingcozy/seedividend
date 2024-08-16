@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "AI Agents Know Where to Look: A Cross Knowledge Base Search Architecture"
 link: "https://medium.com/better-programming/ai-agents-know-where-to-look-a-simple-cross-knowledge-base-search-architecture-60b3c6a9179b"
+isUpdated: true
 ---
+
+
 
 
 ## 대화형 챗봇을 만들기 위해 여러 AI 에이전트를 활용하는 방법에 도전해 봅시다! 🔎📚

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Tale of Two Paradigms  From Sync To Async Evolution in Python and Java Web Development"
 link: "https://medium.com/@juliastolin/the-tale-of-two-paradigms-the-sync-to-async-evolution-python-vs-java-web-development-01d8134ce304"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-04-TheTaleofTwoParadigmsFromSyncToAsyncEvolutioninPythonandJavaWebDevelopment_0.png" />

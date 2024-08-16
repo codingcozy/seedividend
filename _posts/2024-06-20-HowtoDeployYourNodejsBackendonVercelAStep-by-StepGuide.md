@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Deploy Your Node.js Backend on Vercel: A Step-by-Step Guide"
 link: "https://medium.com/@kanakkholwal/how-to-deploy-your-node-js-backend-on-vercel-a-step-by-step-guide-21796db74601"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-HowtoDeployYourNodejsBackendonVercelAStep-by-StepGuide_0.png" />

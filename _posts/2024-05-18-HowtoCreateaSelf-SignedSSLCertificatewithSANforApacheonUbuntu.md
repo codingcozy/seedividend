@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Create a Self-Signed SSL Certificate with SAN for Apache on Ubuntu"
 link: "https://medium.com/@shaonmajumder/how-to-create-a-self-signed-ssl-certificate-with-san-for-apache-on-ubuntu-fad996e84ffb"
+isUpdated: true
 ---
+
+
 
 
 웹 응용 프로그램을 SSL 인증서로 안전하게 보호하는 것은 클라이언트와 서버 간에 전송되는 데이터의 기밀성과 무결성을 보장하기 위해 중요합니다. 이 튜토리얼에서는 Ubuntu 운영 체제의 Apache 웹 서버에 대한 서브젝트 대체 이름 (SAN)이 포함된 자체 서명 SSL 인증서를 생성하는 과정을 안내합니다.

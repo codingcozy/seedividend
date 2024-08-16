@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Composable Material UI Design System with Bit"
 link: "https://medium.com/bitsrc/building-a-composable-material-ui-design-system-with-bit-875a0bdeaac8"
+isUpdated: true
 ---
+
+
 
 
 

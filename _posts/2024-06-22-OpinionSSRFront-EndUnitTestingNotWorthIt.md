@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Opinion: SSR Front-End Unit Testing, Not Worth It"
 link: "https://medium.com/codex/opinion-ssr-front-end-unit-testing-not-worth-it-ff0132481d8a"
+isUpdated: true
 ---
+
+
 
 
 ## 프로덕션에서 개발자들이 직면하는 문제와 해결 방법 강조

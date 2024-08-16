@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Anatomy of a Java Class File — An overview every Java Developer must know"
 link: "https://medium.com/gitconnected/the-anatomy-of-a-java-class-file-an-overview-every-java-developer-must-know-54c2e1d338b6"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-09-TheAnatomyofaJavaClassFileAnovervieweveryJavaDevelopermustknow_0.png)

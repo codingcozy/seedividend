@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JavaScriptUI — a new web, without HTML and CSS"
 link: "https://medium.com/@decketts/javascriptui-a-new-web-without-html-and-css-eb8589afb457"
+isUpdated: true
 ---
+
+
 
 
 ## 자바스크립트 UI — 개발 블로그 #1

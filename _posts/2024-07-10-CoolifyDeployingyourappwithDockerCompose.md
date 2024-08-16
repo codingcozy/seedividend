@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Coolify: Deploying your app with Docker Compose"
 link: "https://medium.com/@darkghosthunter/coolify-deploying-your-app-with-docker-compose-8f85c8ae3d9a"
+isUpdated: true
 ---
+
+
 
 
 ## 쉽게 접근할 순 없지만 이용해 보면 된다

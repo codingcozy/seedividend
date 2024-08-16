@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Client side page performance check-list"
 link: "https://medium.com/@chhavikhandelwal/client-side-page-performance-check-list-c62f21884bd8"
+isUpdated: true
 ---
+
+
 
 
 

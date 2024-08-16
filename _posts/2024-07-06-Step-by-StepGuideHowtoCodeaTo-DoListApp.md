@@ -3,12 +3,15 @@ title: "단계별 가이드 To-Do List 앱 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-Step-by-StepGuideHowtoCodeaTo-DoListApp_0.png"
 date: 2024-07-06 10:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-Step-by-StepGuideHowtoCodeaTo-DoListApp_0.png
 tag: Tech
 originalTitle: "Step-by-Step Guide: How to Code a To-Do List App"
 link: "https://medium.com/@learntocodetoday/step-by-step-guide-how-to-code-a-to-do-list-app-87da81ab681e"
+isUpdated: true
 ---
+
+
 
 /자산/이미지/2024-07-06-스텝바이스텝가이드-코드할일목록앱\_0.png
 

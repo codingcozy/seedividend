@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Naming components and hierarchy"
 link: "https://storybook.js.org/docs/writing-stories/naming-components-and-hierarchy"
+isUpdated: true
 ---
+
+
 
 
 

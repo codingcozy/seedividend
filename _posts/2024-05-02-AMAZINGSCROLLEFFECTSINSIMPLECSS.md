@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "AMAZING SCROLL EFFECTS IN SIMPLE CSS 🤯"
 link: "https://medium.com/@adaridonalrahul/amazing-scroll-effects-in-simple-css-1924a82218e4"
+isUpdated: true
 ---
+
+
 
 
 오늘은 CSS의 멋진 기능에 대해 이야기할 거에요. 여러분, 아래 데모를 한 번 봐주세요

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Component Communication in LWC"
 link: "https://medium.com/@sendtosachin27/component-communication-in-lwc-a3ad91abad89"
+isUpdated: true
 ---
+
+
 
 
 ![Component Communication in LWC](/assets/img/2024-05-14-ComponentCommunicationinLWC_0.png)

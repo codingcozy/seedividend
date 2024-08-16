@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating a Buildless JavaScript Application with Preact, HTM, and Signal"
 link: "https://medium.com/@antoniogallo.it/creating-a-buildless-javascript-application-with-preact-htm-and-signal-f99386ad36d4"
+isUpdated: true
 ---
+
+
 
 
 현대 웹 개발 시대에는 빌드 도구의 복잡성이 때로는 초보자들과 간단하게 유지하고 싶은 사람들에게 장벽이 될 수 있습니다 (K.I.S.S.).

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTML Attributes That Every Web Developer Should Know"
 link: "https://medium.com/gitconnected/html-attributes-that-every-web-developer-should-know-8ffd4cd88288"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-HTMLAttributesThatEveryWebDeveloperShouldKnow_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python for Big Data"
 link: "https://medium.com/@kaanalperucan/python-for-big-data-b5c5a539fe41"
+isUpdated: true
 ---
+
+
 
 
 빅 데이터는 인간의 행동과 상호 작용과 관련된 패턴, 동향 및 관련성을 밝히기 위해 계산적으로 분석할 수 있는 극도로 큰 데이터 세트를 가리킵니다. 네 가지 V - Volume, Velocity, Variety, 그리고 Veracity. 이러한 V는 빅 데이터를 특징 짓는데, 함께 간단하게 알아보도록 하죠:

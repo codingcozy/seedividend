@@ -3,12 +3,15 @@ title: "Python 프로젝트 개선하기 두 번째 날, 첫 Python 프로젝트
 description: ""
 coverImage: "/assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png"
 date: 2024-07-07 19:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png
 tag: Tech
 originalTitle: "Day 2 — Improving My First Python Project"
 link: "https://medium.com/datascience-ville/day-2-improving-my-first-python-project-e4e3a2efe140"
+isUpdated: true
 ---
+
+
 
 ## 30-DAY CODING CHALLENGE
 

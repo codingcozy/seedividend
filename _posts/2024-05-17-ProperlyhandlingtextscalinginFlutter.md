@@ -3,12 +3,15 @@ title: "플러터에서 텍스트 스케일링을 적절히 다루는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-ProperlyhandlingtextscalinginFlutter_0.png"
 date: 2024-05-17 03:37
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-17-ProperlyhandlingtextscalinginFlutter_0.png
 tag: Tech
 originalTitle: "Properly handling text scaling in Flutter"
 link: "https://medium.com/@pomis172/properly-handling-text-scaling-in-flutter-313fe717816c"
+isUpdated: true
 ---
+
+
 
 이 튜토리얼은 가장 쉽고 영향력이 큰 해결책을 먼저 제시하도록 구성되어 있어요. 후속 섹션에는 구현이 어려우면서 전반적인 영향이 더 낮은 해결책들이 포함되어 있지만, 특정 경우에 대응하기 위해 유용해요.
 

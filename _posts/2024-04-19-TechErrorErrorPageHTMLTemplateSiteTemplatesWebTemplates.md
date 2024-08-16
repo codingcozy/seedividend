@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TechError  Error Page HTML Template Site Templates Web Templates"
 link: "https://medium.com/@glitchgiselle/techerror-error-page-html-template-site-templates-web-templates-e41d73f70529"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Workaround for Your React Native Issues When the Standard (Browser) React App Works"
 link: "https://medium.com/@whoz_/a-workaround-for-your-react-native-issues-when-the-standard-browser-react-app-works-7ee815fb27bb"
+isUpdated: true
 ---
+
+
 
 
 지난번에 React Native 앱을 작업한 건 이미 3년 전이에요. 그리고 이에 대해 글을 쓰고 싶은 마음은 오랫동안 가지고 있었는데 항상 잊어버렸었어요. 그 때는 블록체인 NFT 프로젝트도 함께 진행했었는데, 그 이야기는 다른 날에 별도로 다룰 거예요 (이 "팁" 글 말고 흥미로운 이야기가 될 거라고 약속해요). 비슷한 문제에 직면하고 있다면 임시 방편을 이용할 아이디어를 제공하려고 해요.

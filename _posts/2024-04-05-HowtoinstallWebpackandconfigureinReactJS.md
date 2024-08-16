@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to install Webpack and configure in React JS"
 link: "https://medium.com/@ns-tech-learn/how-to-install-webpack-and-configure-in-react-js-88b4b0bd0af9"
+isUpdated: true
 ---
+
+
 
 
 

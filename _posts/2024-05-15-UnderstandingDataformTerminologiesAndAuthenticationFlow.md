@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Dataform Terminologies And Authentication Flow"
 link: "https://medium.com/towards-data-science/understanding-dataform-terminologies-and-authentication-flow-aa98c2fbcdfb"
+isUpdated: true
 ---
+
+
 
 
 ## MLOPS: 데이터 파이프라인 오케스트레이션

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 lesser known CSS tricks part 2"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-tricks-part-2-37614754108e"
+isUpdated: true
 ---
+
+
 
 
 

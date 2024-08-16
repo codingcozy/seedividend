@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Efficiently Display Cropped Faces in Flutter A Memory and Performance Optimized Approach"
 link: "https://medium.com/@khushalsinghrao/efficiently-display-cropped-faces-in-flutter-a-memory-and-performance-optimized-approach-e06fca60957d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Crafting an iOS-Style Switch Button A Simple Step-by-Step Guide"
 link: "https://medium.com/@bishal.pahari53/crafting-an-ios-style-switch-button-a-simple-step-by-step-guide-774d8a977484"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "탐험을 위한 최고의 소프트웨어 10가지"
 description: ""
 coverImage: "/assets/img/2024-07-09-Softwareforexploration_0.png"
 date: 2024-07-09 20:26
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Softwareforexploration_0.png
 tag: Tech
 originalTitle: "Software for exploration"
 link: "https://medium.com/gitconnected/software-for-exploration-c526d44851ae"
+isUpdated: true
 ---
+
+
 
 ## 연구 소프트웨어에서 빠른 길을 선택해야 하는 때
 

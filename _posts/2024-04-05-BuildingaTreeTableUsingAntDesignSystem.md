@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a TreeTable Using Ant Design System"
 link: "https://medium.com/better-programming/building-a-treetable-using-ant-design-system-8048cb93afe3"
+isUpdated: true
 ---
+
+
 
 
 

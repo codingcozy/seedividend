@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular and pure HTML dialogs"
 link: "https://medium.com/itnext/angular-and-pure-html-dialogs-da79a37ac1e7"
+isUpdated: true
 ---
+
+
 
 
 

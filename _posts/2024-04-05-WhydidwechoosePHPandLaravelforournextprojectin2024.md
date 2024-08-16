@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why did we choose PHP and Laravel for our next project in 2024"
 link: "https://medium.com/@b_shulha/why-did-we-choose-php-and-laravel-for-our-next-project-in-2024-b2389e82b4f4"
+isUpdated: true
 ---
+
+
 
 
 

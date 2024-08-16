@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CLEAN and Agile Flutter Projects with the CLEAN Feature-Sliced Scalable Model"
 link: "https://medium.com/@jovazcode/clean-and-agile-flutter-projects-with-the-clean-feature-sliced-scalable-model-79e524248322"
+isUpdated: true
 ---
+
+
 
 
 

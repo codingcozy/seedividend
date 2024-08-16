@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing SwiftUI Views with PreferenceKey A Comprehensive Guide"
 link: "https://medium.com/@wesleymatlock/enhancing-swiftui-views-with-preferencekey-a-comprehensive-guide-0dfa7be2044f"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-08-03-EnhancingSwiftUIViewswithPreferenceKeyAComprehensiveGuide_0.png" />

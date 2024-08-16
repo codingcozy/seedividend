@@ -3,12 +3,15 @@ title: "가장빠른 구체적인걸로 Golang Air를 이용한 실시간 리로
 description: ""
 coverImage: "/assets/img/2024-05-14-GuideforImplementingLiveReloadUsingGolangAir_0.png"
 date: 2024-05-14 15:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-14-GuideforImplementingLiveReloadUsingGolangAir_0.png
 tag: Tech
 originalTitle: "Guide for Implementing Live Reload Using Golang Air"
 link: "https://medium.com/@relia/guide-for-implementing-live-reload-using-golang-air-3b0535b92784"
+isUpdated: true
 ---
+
+
 
 에어는 개발 중에 Go 애플리케이션을 실시간으로 다시로드하는 데 사용되는 명령 줄 유틸리티입니다. 이 도구는 Go 애플리케이션이 실시간으로 다시로드되도록 하는 데 도움이 되는 도구로 작용합니다.
 

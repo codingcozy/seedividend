@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Make your NavBar Responsive with React and TailwindCSS"
 link: "https://medium.com/@egemenc2101/make-your-navbar-responsive-with-react-and-tailwindcss-c1f729318a7b"
+isUpdated: true
 ---
+
+
 
 
 현재의 모바일 중심 세상에서는 반응형 디자인을 만들고 이를 구현하는 것이 모든 기기에서 원활한 사용자 경험을 제공하는 데 필수적입니다. 

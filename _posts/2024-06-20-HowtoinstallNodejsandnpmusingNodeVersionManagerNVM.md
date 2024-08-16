@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to install Node.js and npm using Node Version Manager (NVM)"
 link: "https://medium.com/@imvinojanv/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1"
+isUpdated: true
 ---
+
+
 
 
 ## Node.js, npm

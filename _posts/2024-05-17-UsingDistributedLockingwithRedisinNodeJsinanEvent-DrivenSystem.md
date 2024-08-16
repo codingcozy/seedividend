@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Distributed Locking with Redis in NodeJs in an Event-Driven System"
 link: "https://medium.com/@shubham.sinha2512/using-distributed-locking-with-redis-in-nodejs-in-an-event-driven-system-26f8dd4fae50"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-UsingDistributedLockingwithRedisinNodeJsinanEvent-DrivenSystem_0.png" />

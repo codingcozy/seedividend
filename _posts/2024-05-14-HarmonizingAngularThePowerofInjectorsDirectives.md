@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Harmonizing Angular: The Power of Injectors + Directives"
 link: "https://medium.com/gitconnected/harmonizing-angular-the-power-of-injectors-directives-d051fcb1007b"
+isUpdated: true
 ---
+
+
 
 
 앵귤러는 여러 해 동안 크게 발전해 왔어요. 불과 10년 만에 v2부터 v17로 왔지요! 이 기간 동안 앵귤러에 많은 변화가 있었지만, 핵심 개념과 철학은 동일하게 유지되었어요. 우리는 이 중요한 앵귤러 컴포넌트 두 가지를 사용하여 강력한 것을 만들어보려고 해요.

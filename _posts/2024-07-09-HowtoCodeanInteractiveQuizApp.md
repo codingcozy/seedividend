@@ -3,12 +3,15 @@ title: "인터랙티브 퀴즈 앱 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png"
 date: 2024-07-09 14:01
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png
 tag: Tech
 originalTitle: "How to Code an Interactive Quiz App"
 link: "https://medium.com/@learntocodetoday/how-to-code-an-interactive-quiz-app-413c07016f6c"
+isUpdated: true
 ---
+
+
 
 ![Quiz App](/assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png)
 

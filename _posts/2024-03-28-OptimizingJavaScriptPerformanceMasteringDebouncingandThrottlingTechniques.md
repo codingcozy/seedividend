@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing JavaScript Performance Mastering Debouncing and Throttling Techniques"
 link: "https://medium.com/@lokesh-prajapati/optimizing-javascript-performance-mastering-debouncing-and-throttling-techniques-7053dc4079ff"
+isUpdated: true
 ---
+
+
 
 
 

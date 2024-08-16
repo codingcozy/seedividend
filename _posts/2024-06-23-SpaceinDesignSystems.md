@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Space in Design Systems"
 link: "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62"
+isUpdated: true
 ---
+
+
 
 
 ## 기본 개념부터 공간을 의도적으로 적용하는 확장 컨셉으로

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Dynamic Routing in Nextjs A Comprehensive Guide"
 link: "https://medium.com/@sahilangrio/mastering-dynamic-routing-in-next-js-a-comprehensive-guide-4765d86fdab2"
+isUpdated: true
 ---
+
+
 
 
 

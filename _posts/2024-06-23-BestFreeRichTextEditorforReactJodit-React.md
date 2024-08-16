@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Best Free Rich Text Editor for React: Jodit-React"
 link: "https://medium.com/@gautamidhokte/best-free-rich-text-editor-for-react-jodit-react-9e1161b8472c"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-06-23-BestFreeRichTextEditorforReactJodit-React_0.png)

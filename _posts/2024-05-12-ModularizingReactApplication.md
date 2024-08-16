@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Modularizing React Application"
 link: "https://medium.com/@kemaltf_/modularizing-react-application-89557d4c3ca4"
+isUpdated: true
 ---
+
+
 
 
 리액트 애플리케이션에서는 뷰 레이어 이상의 것을 사용하는 게 일반적입니다. 라우터, 로컬 저장소, 네트워크 요청, 보안 기능 등이 필요할 수 있습니다. 이러한 문제들을 모두 뷰 컴포넌트나 훅 안에서 처리하려고 하면 혼란을 초래하고 코드를 이해하기 어렵게 만들 수 있습니다.

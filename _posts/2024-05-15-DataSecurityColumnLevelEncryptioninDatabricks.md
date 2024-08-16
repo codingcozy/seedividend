@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Data Security: Column Level Encryption in Databricks"
 link: "https://medium.com/@oindrila-chakraborty88/data-security-column-level-encryption-in-databricks-c8745740d759"
+isUpdated: true
 ---
+
+
 
 
 데이터 보안은 모든 데이터 엔지니어링 플랫폼에서 중요한 개념 중 하나입니다. 대부분의 기업들은 데이터 플랫폼의 보안 기능을 구현하기 위해 많은 비용을 투자합니다.

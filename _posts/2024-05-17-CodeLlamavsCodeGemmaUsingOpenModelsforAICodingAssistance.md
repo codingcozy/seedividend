@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CodeLlama vs. CodeGemma: Using Open Models for AI Coding Assistance"
 link: "https://medium.com/towards-data-science/codellama-vs-codegemma-using-open-models-for-ai-coding-assistance-da446c9157b8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_0.png" />

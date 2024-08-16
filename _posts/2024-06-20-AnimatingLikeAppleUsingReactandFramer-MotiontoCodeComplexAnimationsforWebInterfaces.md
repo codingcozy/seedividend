@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Animating Like Apple: Using React and Framer-Motion to Code Complex Animations for Web Interfaces"
 link: "https://medium.com/design-bootcamp/animating-like-apple-using-react-and-framer-motion-to-code-complex-animations-for-web-interfaces-c391d6e113e7"
+isUpdated: true
 ---
+
+
 
 
 

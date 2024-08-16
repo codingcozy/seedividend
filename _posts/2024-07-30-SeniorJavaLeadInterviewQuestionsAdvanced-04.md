@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Senior Java Lead Interview QuestionsAdvanced-04"
 link: "https://medium.com/@vikas.taank_40391/senior-java-lead-interview-questions-advanced-04-636b8d118ed2"
+isUpdated: true
 ---
+
+
 
 
 

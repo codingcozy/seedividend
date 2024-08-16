@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Embed A Power BI Report in React"
 link: "https://medium.com/globant/how-to-embed-a-power-bi-report-in-react-f27e975e0a"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-HowtoEmbedAPowerBIReportinReact_0.png" />

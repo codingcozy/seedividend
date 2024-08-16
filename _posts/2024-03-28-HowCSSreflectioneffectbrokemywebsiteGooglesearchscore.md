@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How CSS reflection effect broke my website Google search score"
 link: "https://medium.com/@krzysztof.kalkhoff/how-reflection-effect-broke-my-website-google-search-score-841d4f9acee9"
+isUpdated: true
 ---
+
+
 
 
 

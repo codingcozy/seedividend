@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "30 HTML Tags To Know"
 link: "https://medium.com/@bhatiaaman19/30-html-tags-to-know-e12ea3a306b0"
+isUpdated: true
 ---
+
+
 
 
 HTML 세계에 오신 것을 환영합니다! 웹 개발자로서, 웹페이지의 기본 구축 블록을 이해하는 것은 매우 중요합니다. HTML 태그는 웹사이트에 구조, 상호작용 및 시각적 매력을 추가하는 비밀 레시피입니다. 이 블로그에서는 HTML의 세계로 뛰어들어 모든 새로운 웹 개발자가 익히어야 할 30가지 필수 태그를 탐험할 것입니다. HTML 스킬을 향상시키고 매혹적인 웹 경험을 만들기 위한 끝없는 가능성을 찾아나가보세요!

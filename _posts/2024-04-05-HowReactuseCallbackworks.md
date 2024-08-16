@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How ReactuseCallback works"
 link: "https://medium.com/@ramnayan699/how-react-usecallback-working-with-react-memo-f9d8129ed8f7"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Algorithm Visualiser"
 link: "https://medium.com/@EverusLainus/algorithm-visualiser-608f1f2f7302"
+isUpdated: true
 ---
+
+
 
 
 ## HTML, CSS, 및 JavaScript를 사용한 알고리즘 시각화 도구의 기능 구현

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I set up my BlogSite with Astro and Storyblok"
 link: "https://medium.com/@nikhilc2209/how-i-set-up-my-blogsite-with-astro-and-storyblok-4faa6b016313"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-HowIsetupmyBlogSitewithAstroandStoryblok_0.png" />

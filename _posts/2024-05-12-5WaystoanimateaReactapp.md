@@ -3,12 +3,15 @@ title: "리액트 앱에서 애니메이션 적용하는 5가지 방법"
 description: ""
 coverImage: "/assets/img/2024-05-12-5WaystoanimateaReactapp_0.png"
 date: 2024-05-12 21:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-5WaystoanimateaReactapp_0.png
 tag: Tech
 originalTitle: "5 Ways to animate a React app."
 link: "https://medium.com/hackernoon/5-ways-to-animate-a-reactjs-app-in-2019-56eb9af6e3bf"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-5WaystoanimateaReactapp_0.png" />
 

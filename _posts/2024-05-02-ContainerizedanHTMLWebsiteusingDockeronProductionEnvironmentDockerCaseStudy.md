@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Containerized an HTML Website using Docker on Production Environment — Docker Case Study"
 link: "https://medium.com/devops-guides/containerized-an-html-website-using-docker-on-production-environment-docker-case-study-e6a25e0c67a1"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요! 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "'JaQ Lee TikTok Video Sparks Debate: Houston Teacher’s Controversial Interaction with Students'"
 link: "https://medium.com/@IAmDivine333/jaq-lee-tiktok-video-sparks-debate-houston-teachers-controversial-interaction-with-students-d5f77599c89c"
+isUpdated: true
 ---
+
+
 
 
 ![JaQ Lee TikTok Video](/assets/img/2024-05-14-JaQLeeTikTokVideoSparksDebateHoustonTeachersControversialInteractionwithStudents_0.png)

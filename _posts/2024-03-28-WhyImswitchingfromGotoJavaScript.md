@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Im switching from Go to JavaScript"
 link: "https://medium.com/@treeder/why-im-switching-from-go-to-javascript-52f2e23a1bd8"
+isUpdated: true
 ---
+
+
 
 
 

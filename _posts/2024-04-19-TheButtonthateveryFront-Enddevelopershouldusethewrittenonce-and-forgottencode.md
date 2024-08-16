@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Button that every Front-End developer should use, the written once-and-forgotten code"
 link: "https://medium.com/@Youssef_Hefnawy/the-button-that-every-front-end-developer-should-use-the-written-once-and-forgotten-code-026d7545bd33"
+isUpdated: true
 ---
+
+
 
 
 

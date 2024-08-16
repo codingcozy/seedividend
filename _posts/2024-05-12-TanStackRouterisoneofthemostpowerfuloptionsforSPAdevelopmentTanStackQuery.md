@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "TanStack Router is one of the most powerful options for SPA development(, TanStack Query)"
 link: "https://medium.com/@yasui-edu0834/tanstack-router-is-one-of-the-most-powerful-options-for-spa-development-tanstack-query-cc7ecdc73550"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-TanStackRouterisoneofthemostpowerfuloptionsforSPAdevelopmentTanStackQuery_0.png)

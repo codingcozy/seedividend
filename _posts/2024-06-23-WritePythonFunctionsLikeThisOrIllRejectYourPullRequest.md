@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Write Python Functions Like This Or I’ll Reject Your Pull Request"
 link: "https://medium.com/@zlliu/write-python-functions-like-this-or-ill-reject-your-pull-request-d8aa501ab1c4"
+isUpdated: true
 ---
+
+
 
 
 

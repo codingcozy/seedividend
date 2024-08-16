@@ -3,12 +3,15 @@ title: "공간 보간을 위한 3가지 인기 있는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_0.png"
 date: 2024-07-09 19:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-3PopularMethodsforSpatialInterpolation_0.png
 tag: Tech
 originalTitle: "3 Popular Methods for Spatial Interpolation"
 link: "https://medium.com/towards-data-science/3-best-methods-for-spatial-interpolation-912cab7aee47"
+isUpdated: true
 ---
+
+
 
 ## 처음부터, Python에서
 

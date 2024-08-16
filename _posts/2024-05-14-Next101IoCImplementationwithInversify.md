@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Next 101: IoC Implementation with Inversify"
 link: "https://medium.com/@ezralazuardy/next-101-ioc-implementation-with-inversify-29ce548aad3b"
+isUpdated: true
 ---
+
+
 
 
 Typescript IoC를 Next 14에 Inversify와 함께 올바르게 구현하는 방법을 배우세요.

@@ -3,12 +3,15 @@ title: "React 프로젝트에 Tailwind CSS 설정하는 방법  단계별 튜토
 description: ""
 coverImage: "/assets/img/2024-07-07-SettingUpTailwindCSSinaReactProjectStep-by-StepTutorial_0.png"
 date: 2024-07-07 12:43
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-SettingUpTailwindCSSinaReactProjectStep-by-StepTutorial_0.png
 tag: Tech
 originalTitle: "Setting Up Tailwind CSS in a React Project | Step-by-Step Tutorial"
 link: "https://medium.com/@prathapreddy-mudium/setting-up-tailwind-css-in-a-react-project-step-by-step-tutorial-9fb764f79440"
+isUpdated: true
 ---
+
+
 
 시작하기 전에, 컴퓨터에 Node.js와 npm이 설치되어 있는지 확인해주세요. 또한 React와 CSS의 기본적인 이해가 필요합니다.
 

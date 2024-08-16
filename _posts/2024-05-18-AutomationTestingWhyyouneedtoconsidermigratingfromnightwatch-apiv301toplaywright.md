@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Automation Testing: Why you need to consider migrating from nightwatch-api v3.0.1 to playwright?"
 link: "https://medium.com/@akarshseggemu/automation-testing-why-you-need-to-consider-migrating-from-nightwatch-api-v3-0-1-to-playwright-414beb9d29ff"
+isUpdated: true
 ---
+
+
 
 
 Nightwatch.js v1.7은 JavaScript를 위해 고안된 것이기 때문에 TypeScript을 지원했습니다. Igor Bari가 nightwatch-api를 만들어 TypeScript을 지원했습니다. Igor Bari에게 nightwatch-api를 만들어주어서 정말 감사해야 합니다. Nightwatch.js v1.7 npm 패키지는 TypeScript 개발자들이 Nightwatch.js v1.7을 편리하게 제어할 수 있도록 제공했습니다.

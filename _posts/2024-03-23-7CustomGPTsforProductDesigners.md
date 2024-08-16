@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "7 Custom GPTs for Product Designers"
 link: "https://uxplanet.org/7-custom-gpts-for-product-designers-437bcd92e2ba"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "MirrorMirror — A Webcam Infinity Mirror with Vanilla JS"
 link: "https://medium.com/gitconnected/mirrormirror-a-webcam-infinity-mirror-with-vanilla-js-82eb4bbc7a40"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-MirrorMirrorAWebcamInfinityMirrorwithVanillaJS_0.png" />

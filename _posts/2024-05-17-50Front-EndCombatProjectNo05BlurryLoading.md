@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "50 Front-End Combat Project No.05: Blurry Loading"
 link: "https://medium.com/@cendz/50-front-end-combat-project-no-05-blurry-loading-f139fe89f562"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-50Front-EndCombatProjectNo05BlurryLoading_0.png" />

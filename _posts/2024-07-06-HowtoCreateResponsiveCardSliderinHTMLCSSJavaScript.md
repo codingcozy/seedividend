@@ -3,12 +3,15 @@ title: "HTML CSS, JavaScript로 반응형 카드 슬라이더 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-HowtoCreateResponsiveCardSliderinHTMLCSSJavaScript_0.png"
 date: 2024-07-06 02:16
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-HowtoCreateResponsiveCardSliderinHTMLCSSJavaScript_0.png
 tag: Tech
 originalTitle: "How to Create Responsive Card Slider in HTML CSS , JavaScript"
 link: "https://medium.com/@codingnepal/how-to-create-responsive-card-slider-in-html-css-javascript-1da1f5ddb78e"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-HowtoCreateResponsiveCardSliderinHTMLCSSJavaScript_0.png
 

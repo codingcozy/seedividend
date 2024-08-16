@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started With Redux, React Typescript, Electron using Vite"
 link: "https://medium.com/@tweiss747/getting-started-with-redux-react-typescript-electron-using-vite-ffed63074602"
+isUpdated: true
 ---
+
+
 
 
 ![Vite](/assets/img/2024-05-12-GettingStartedWithReduxReactTypescriptElectronusingVite_0.png)

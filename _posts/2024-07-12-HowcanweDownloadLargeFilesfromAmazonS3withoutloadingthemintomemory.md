@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How can we Download Large Files from Amazon S3 without loading them into memory?"
 link: "https://medium.com/gitconnected/downloading-large-files-from-amazon-s3-without-loading-them-into-the-memory-41dfbf273dc4"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분 🫶

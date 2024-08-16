@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhancing Angular’s Route Redirection Logic: Introducing RedirectFunction"
 link: "https://medium.com/netanelbasal/enhancing-angulars-route-redirection-logic-introducing-redirectfunction-245a45add387"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-EnhancingAngularsRouteRedirectionLogicIntroducingRedirectFunction_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Choosing Between Type and Interface in TypeScript: A Detailed Guide"
 link: "https://medium.com/@jatin.jain_69313/choosing-between-type-and-interface-in-typescript-a-detailed-guide-4b25330a5e1d"
+isUpdated: true
 ---
+
+
 
 
 Node.js에서 TypeScript로 작업할 때, 종종 객체의 모양을 정의해야 합니다. 여기서 TypeScript의 타입과 인터페이스가 등장합니다. 두 가지 모두 객체의 구조를 설명하는 데 사용되지만, 어떤 것을 선택할지는 여러 요소에 따라 결정됩니다. 정보를 참고하여 신중한 결정을 내리는 데 도움이 되는 자세한 가이드가 여기 있습니다.

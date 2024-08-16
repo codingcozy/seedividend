@@ -3,12 +3,15 @@ title: "Font Awesome 아이콘에 CSS 그라디언트 적용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-IntegratingCSSgradientintoFontAwesomeicons_0.png"
 date: 2024-07-09 18:37
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-IntegratingCSSgradientintoFontAwesomeicons_0.png
 tag: Tech
 originalTitle: "Integrating CSS gradient into Font Awesome icons"
 link: "https://medium.com/payoneer-engineering/integrating-css-gradient-into-font-awesome-icons-a3cc20bdd0fa"
+isUpdated: true
 ---
+
+
 
 ![Payoneer branding strategy](/assets/img/2024-07-09-IntegratingCSSgradientintoFontAwesomeicons_0.png)
 

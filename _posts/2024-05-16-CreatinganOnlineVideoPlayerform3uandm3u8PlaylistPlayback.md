@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating an Online Video Player for m3u and m3u8 Playlist Playback"
 link: "https://medium.com/@igorfedorchuk/creating-an-online-video-player-for-m3u-and-m3u8-playlist-playback-on-ios-07e98daa1e51"
+isUpdated: true
 ---
+
+
 
 
 저는 m3u 및 m3u8 형식의 재생 목록을 재생할 수 있는 플레이어를 만든 경험을 공유하고 싶어요.

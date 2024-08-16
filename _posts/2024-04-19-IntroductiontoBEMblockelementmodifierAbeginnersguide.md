@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to BEM  block element modifier A beginners guide"
 link: "https://medium.com/design-bootcamp/introduction-to-bem-block-element-modifier-a-beginners-guide-35e267b6c39e"
+isUpdated: true
 ---
+
+
 
 
 

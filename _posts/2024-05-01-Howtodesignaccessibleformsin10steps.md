@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to design accessible forms in 10 steps"
 link: "https://medium.com/user-experience-design-1/how-to-design-accessible-forms-in-10-steps-22232d65de18"
+isUpdated: true
 ---
+
+
 
 
 양식을 작성하는 것은 보통 사용자에게 재미있는 작업은 아닐 수 있지만, 종종 프로세스의 필수 단계입니다. 예를 들어, 사용자는 물품을 구매하기 위해 지불 세부 정보가 포함된 짧은 양식을 작성하라고 요청받을 수도 있고, 취업 지원서 일환으로 양식을 작성해야 할 수도 있습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter Weather app with Clean Architecture and Bloc State Management"
 link: "https://medium.com/@khalidmeftu/flutter-weather-app-with-clean-architecture-and-bloc-state-management-6a6af439b7df"
+isUpdated: true
 ---
+
+
 
 
 

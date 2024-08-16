@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Vanjs — magic!"
 link: "https://medium.com/javascript-in-plain-english/vanjs-magic-53734fe52d30"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular FormArray Tips for Smoother Web Performance: Event Listeners"
 link: "https://medium.com/gitconnected/angular-form-array-event-listeners-400f3761965c"
+isUpdated: true
 ---
+
+
 
 
 ## 웹 개발

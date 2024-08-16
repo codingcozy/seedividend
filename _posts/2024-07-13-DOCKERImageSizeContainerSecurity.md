@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DOCKER | Image Size , Container Security"
 link: "https://medium.com/dev-genius/docker-image-size-container-security-371e12c9e461"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-13-DOCKERImageSizeContainerSecurity_0.png)

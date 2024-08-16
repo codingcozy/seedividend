@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Frequently Asked Questions"
 link: "https://storybook.js.org/docs/faq"
+isUpdated: true
 ---
+
+
 
 
 

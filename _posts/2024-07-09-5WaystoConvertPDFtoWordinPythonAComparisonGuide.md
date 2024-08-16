@@ -3,12 +3,15 @@ title: "Python을 사용한 PDF를 Word로 변환하는 5가지 방법 비교 �
 description: ""
 coverImage: "/assets/img/2024-07-09-5WaystoConvertPDFtoWordinPythonAComparisonGuide_0.png"
 date: 2024-07-09 14:43
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-5WaystoConvertPDFtoWordinPythonAComparisonGuide_0.png
 tag: Tech
 originalTitle: "5 Ways to Convert PDF to Word in Python: A Comparison Guide"
 link: "https://medium.com/@alexaae9/5-ways-to-convert-pdf-to-word-in-python-a-comparison-guide-1771cfd109e7"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-09-5WaystoConvertPDFtoWordinPythonAComparisonGuide_0.png)
 

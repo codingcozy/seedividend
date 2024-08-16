@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Syllable Hyphenation in CSS is awesome"
 link: "https://medium.com/gitconnected/syllable-hyphenation-in-css-is-awesome-cf81e9844fd3"
+isUpdated: true
 ---
+
+
 
 
 

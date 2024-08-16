@@ -3,12 +3,15 @@ title: "시와 파이썬의 타이핑 문제 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png"
 date: 2024-07-07 21:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png
 tag: Tech
 originalTitle: "Pesky typing issues with poetry and python"
 link: "https://medium.com/@mnghamaty/pesky-typing-issues-with-poetry-and-python-6666a958d1f4"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png)
 

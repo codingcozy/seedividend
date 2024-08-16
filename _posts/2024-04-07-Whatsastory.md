@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Whats a story"
 link: "https://storybook.js.org/docs/get-started/whats-a-story"
+isUpdated: true
 ---
+
+
 
 
 

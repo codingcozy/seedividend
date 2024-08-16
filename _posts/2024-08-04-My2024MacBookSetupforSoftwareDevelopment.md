@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My 2024 MacBook Setup for Software Development"
 link: "https://medium.com/@agordn52/my-2024-macbook-setup-for-software-development-4999ae906be4"
+isUpdated: true
 ---
+
+
 
 
 ## 제 소프트웨어 개발 세팅, 워크플로우 및 도구에 대한 통찰력을 소개합니다

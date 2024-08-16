@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Custom TopAppBar using Android Jetpack Compose"
 link: "https://medium.com/@shivathapaa/custom-topappbar-using-android-jetpack-compose-f9b33388a125"
+isUpdated: true
 ---
+
+
 
 
 현대적인 안드로이드 앱을 개발할 때 TopAppBar composable을 사용하면 디자인이나 사용자 경험을 보완하는 데 문제가 발생할 수 있다는 것을 확신합니다.

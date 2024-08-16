@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dynamic Imports in React"
 link: "https://medium.com/@shubham3480/dynamic-imports-in-react-3e3e7ad1d210"
+isUpdated: true
 ---
+
+
 
 
 ![Dynamic Imports in React](/assets/img/2024-05-14-DynamicImportsinReact_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Evaluating Large Language Models: A Developer’s Guide!"
 link: "https://medium.com/gitconnected/evaluating-large-language-models-a-developers-guide-ffd21a055feb"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-16-EvaluatingLargeLanguageModelsADevelopersGuide_0.png)

@@ -3,12 +3,15 @@ title: "환상적인 네트워크 그래프를 위한 최고의 15가지 Python 
 description: ""
 coverImage: "/assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png"
 date: 2024-07-09 14:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png
 tag: Tech
 originalTitle: "Top 15 Python Tools for Stunning Network Graphs"
 link: "https://medium.com/top-python-libraries/top-15-python-tools-for-stunning-network-graphs-960cfdb82a8f"
+isUpdated: true
 ---
+
+
 
 ## 파이썬 시각화
 

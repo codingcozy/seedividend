@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Automatic Redirects After Login in React  Protected Routes"
 link: "https://medium.com/@stheodorejohn/implementing-automatic-redirects-after-login-in-react-protected-routes-b5bac2056400"
+isUpdated: true
 ---
+
+
 
 
 

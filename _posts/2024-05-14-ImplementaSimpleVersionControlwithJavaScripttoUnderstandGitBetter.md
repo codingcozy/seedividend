@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implement a Simple Version Control with JavaScript to Understand Git Better!"
 link: "https://medium.com/gitconnected/implement-a-simple-version-control-with-javascript-to-understand-git-better-2307001dfe00"
+isUpdated: true
 ---
+
+
 
 
 Git 내부를 배우면서 더 나은 이해를 위해 간소화된 버전을 구현해 보세요!

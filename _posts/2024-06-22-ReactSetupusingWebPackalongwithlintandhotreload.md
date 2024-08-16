@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Setup using WebPack along with lint and hotreload"
 link: "https://medium.com/@opensrc0/react-setup-using-webpack-along-with-lint-and-hotreload-76b16e39c2cc"
+isUpdated: true
 ---
+
+
 
 
 ## React의 기본 설정, 핫 리로딩, 린트, 웹팩

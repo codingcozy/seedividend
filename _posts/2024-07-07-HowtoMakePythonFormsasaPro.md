@@ -3,12 +3,15 @@ title: "프로처럼 파이썬 폼 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-HowtoMakePythonFormsasaPro_0.png"
 date: 2024-07-07 02:31
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-HowtoMakePythonFormsasaPro_0.png
 tag: Tech
 originalTitle: "How to Make Python Forms as a Pro"
 link: "https://medium.com/python-in-plain-english/how-to-make-python-forms-as-a-pro-e4164f5ddcde"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-HowtoMakePythonFormsasaPro_0.png" />
 

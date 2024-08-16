@@ -3,12 +3,15 @@ title: "로컬에서 LLM 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-RunningLLMLocally_0.png"
 date: 2024-07-07 02:31
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-RunningLLMLocally_0.png
 tag: Tech
 originalTitle: "Running LLM Locally"
 link: "https://medium.com/@machinelearningengineer/running-llm-locally-457a4e745433"
+isUpdated: true
 ---
+
+
 
 Transformer 아키텍처의 소개로 자연어 처리에서 중요한 전환점이 시작되었습니다. 많은 주요 언어 모델이 지금은 이를 주요 아키텍처로 사용하고 있어요. 우리가 알다시피 큰 언어 모델(LLM)은 우리 삶을 더 쉽게 만들어줍니다.
 

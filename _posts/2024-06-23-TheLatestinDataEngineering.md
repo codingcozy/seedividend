@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Latest in Data Engineering"
 link: "https://medium.com/@nydas/the-latest-in-data-engineering-a7e4989b0b57"
+isUpdated: true
 ---
+
+
 
 
 ## 주요 개발 사항 및 그 영향

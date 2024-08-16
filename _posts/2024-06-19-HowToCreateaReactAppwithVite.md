@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How To Create a React App with Vite"
 link: "https://medium.com/@miahossain8888/how-to-create-a-react-app-with-vite-571883b100ef"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-19-HowToCreateaReactAppwithVite_0.png)

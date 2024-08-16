@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React State and Props: Managing Data in Your Components"
 link: "https://medium.com/@iammayank20/react-state-and-props-managing-data-in-your-components-366010fb1213"
+isUpdated: true
 ---
+
+
 
 
 ## 컴포넌트에서 데이터 관리하기

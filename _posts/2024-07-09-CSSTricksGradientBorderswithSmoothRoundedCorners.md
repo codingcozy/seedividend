@@ -3,12 +3,15 @@ title: "매끄러운 라운드 코너와 그라데이션 테두리 만드는 CSS
 description: ""
 coverImage: "/assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_0.png"
 date: 2024-07-09 08:59
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_0.png
 tag: Tech
 originalTitle: "CSS Tricks: Gradient Borders with Smooth Rounded Corners"
 link: "https://medium.com/@johannes.maendle/css-tricks-gradient-borders-with-smooth-rounded-corners-238211094580"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-09-CSSTricksGradientBorderswithSmoothRoundedCorners_0.png" />
 

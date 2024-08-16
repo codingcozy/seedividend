@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Geospatial Data Analysis with GeoPandas"
 link: "https://medium.com/thedeephub/unlocking-geospatial-data-analysis-with-geopandas-a-comprehensive-python-tutorial-and-analysis-6e131c44dda3"
+isUpdated: true
 ---
+
+
 
 
 데이터 과학 분야에서는 공간 데이터를 조작하고 분석하는 능력이 다양한 가능성을 열어줍니다. 배송 경로를 최적화하는 것부터 자연 자원을 관리하는 것까지 응용 분야는 광범위하고 다양합니다. GeoPandas는 파이썬의 강력한 라이브러리로, 파이썬에서 지리 데이터를 다루는 것을 쉽게 만들어줍니다.

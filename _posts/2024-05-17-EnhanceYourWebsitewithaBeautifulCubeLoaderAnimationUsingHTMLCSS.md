@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enhance Your Website with a Beautiful Cube Loader Animation Using HTML , CSS"
 link: "https://medium.com/@withaarzoo/enhance-your-website-with-a-beautiful-cube-loader-animation-using-html-css-cbe6c76bfb4a"
+isUpdated: true
 ---
+
+
 
 
 

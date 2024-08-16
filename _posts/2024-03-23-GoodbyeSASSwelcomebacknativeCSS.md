@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Goodbye SASS , welcome back native CSS"
 link: "https://medium.com/@karstenbiedermann/goodbye-sass-welcome-back-native-css-b3beb096d2b4"
+isUpdated: true
 ---
+
+
 
 
 

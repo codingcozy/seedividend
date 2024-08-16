@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dockerizing Local DynamoDB with Node.js Application"
 link: "https://medium.com/@alimarnoos/dockerizing-local-dynamodb-with-node-js-application-eb555d704c06"
+isUpdated: true
 ---
+
+
 
 
 ![2024-07-07-DockerizingLocalDynamoDBwithNodejsApplication_0.png](/assets/img/2024-07-07-DockerizingLocalDynamoDBwithNodejsApplication_0.png)

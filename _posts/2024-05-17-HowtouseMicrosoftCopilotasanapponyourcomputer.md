@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use Microsoft Copilot as an app on your computer"
 link: "https://medium.com/@dimitripletschette/how-to-use-microsoft-copilot-as-an-app-on-your-computer-7fb88a970c11"
+isUpdated: true
 ---
+
+
 
 
 이 기사는 데스크톱 애플리케이션으로 '마이크로소프트 코파일럿'을 활용하는 데 도움이 될 것입니다. 이를 통해 하루 종일 탭을 전환하거나 슈퍼 쿨한 마이크로소프트 엣지 사이드바를 확장할 필요가 없어집니다. 생산성을 높이고 싶다면 이에 관심이 있을 것입니다. 테크니컬한 면에서 조금 멀리 있더라도 걱정하지 마세요. 이를 달성하도록 마이크로소프트 엣지 프로그레시브 웹 앱을 사용하는 해결책을 만들어보겠습니다.

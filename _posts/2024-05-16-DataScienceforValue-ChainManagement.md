@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Data Science for Value-Chain Management"
 link: "https://medium.com/towards-data-science/data-science-for-value-chain-management-efb31c780807"
+isUpdated: true
 ---
+
+
 
 
 ## 데이터 과학을 활용하여 운영을 최적화하고 수익성을 향상시킬 수 있는 방법은 무엇인가요?

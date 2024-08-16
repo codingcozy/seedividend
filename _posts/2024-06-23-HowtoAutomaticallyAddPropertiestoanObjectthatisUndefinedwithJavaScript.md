@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Automatically Add Properties to an Object that is Undefined with JavaScript?"
 link: "https://medium.com/@hohanga/how-to-automatically-add-properties-to-an-object-that-is-undefined-with-javascript-a1f1de28fa59"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-23-HowtoAutomaticallyAddPropertiestoanObjectthatisUndefinedwithJavaScript_0.png" />

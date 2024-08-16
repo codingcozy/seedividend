@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating Stunning Hover Effects In Reactjs: The GitHub-Inspired Card Animation"
 link: "https://medium.com/@sajjadjavadi/creating-stunning-hover-effects-in-reactjs-the-github-inspired-card-animation-f85bae6dc226"
+isUpdated: true
 ---
+
+
 
 
 

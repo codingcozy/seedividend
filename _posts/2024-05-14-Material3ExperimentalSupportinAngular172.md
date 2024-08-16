@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Material 3 Experimental Support in Angular 17.2"
 link: "https://medium.com/angular-blog/material-3-experimental-support-in-angular-17-2-8e681dde650e"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-Material3ExperimentalSupportinAngular172_0.png" />

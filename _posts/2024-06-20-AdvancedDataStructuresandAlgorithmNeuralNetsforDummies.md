@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Data Structures and Algorithm: Neural Nets for Dummies"
 link: "https://medium.com/bitsrc/advanced-data-structures-and-algorithm-neural-nets-for-dummies-66224f278687"
+isUpdated: true
 ---
+
+
 
 
 ## 자바스크립트에서 첫 번째 신경망 구현하기

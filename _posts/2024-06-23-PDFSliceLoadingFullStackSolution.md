@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "PDF Slice Loading — Full Stack Solution"
 link: "https://medium.com/@ggluopeihai/pdf-slice-loading-full-stack-solution-89c12d92a2a4"
+isUpdated: true
 ---
+
+
 
 
 # 서문

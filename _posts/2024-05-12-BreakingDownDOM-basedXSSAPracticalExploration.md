@@ -3,12 +3,15 @@ title: "DOM 기반 XSS에 대해서 알아보자"
 description: ""
 coverImage: "/assets/img/2024-05-12-BreakingDownDOM-basedXSSAPracticalExploration_0.png"
 date: 2024-05-12 23:27
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-BreakingDownDOM-basedXSSAPracticalExploration_0.png
 tag: Tech
 originalTitle: "Breaking Down DOM-based XSS: A Practical Exploration"
 link: "https://medium.com/@osamaavvan/breaking-down-dom-based-xss-a-practical-exploration-929d44f10906"
+isUpdated: true
 ---
+
+
 
 안녕하세요 여러분, 모두 잘 지내시길 바랍니다.
 이 글은 DOM XSS에 관한 것이며, 클라이언트 측 JavaScript의 소스 코드 분석만으로도 DOM XSS를 찾아낼 수 있는 방법에 대해 다룹니다.

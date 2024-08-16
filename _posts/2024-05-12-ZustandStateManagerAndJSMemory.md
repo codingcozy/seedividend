@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Zustand State Manager And JS Memory"
 link: "https://medium.com/stackademic/zustand-state-manager-and-js-memory-b39efe6a811e"
+isUpdated: true
 ---
+
+
 
 
 이 기사에서는 매우 간단하고 쉽게 관리할 수 있는 Zustand 상태 관리자를 검토할 것이며, 사용 시 고려해야 할 몇 가지 사항이 있습니다. 또한 기본적으로 JavaScript 메모리 관리가 어떻게 작동하는지 설명하겠습니다.

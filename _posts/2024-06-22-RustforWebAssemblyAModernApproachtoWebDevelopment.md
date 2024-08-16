@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rust for WebAssembly: A Modern Approach to Web Development"
 link: "https://medium.com/gitconnected/rust-for-webassembly-a-modern-approach-to-web-development-1ba1480776ba"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-RustforWebAssemblyAModernApproachtoWebDevelopment_0.png" />

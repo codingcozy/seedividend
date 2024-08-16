@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using CSS to Display Web Browser Sizes"
 link: "https://medium.com/web-designers-depot/using-css-to-display-web-browser-sizes-71617b01de52"
+isUpdated: true
 ---
+
+
 
 
 

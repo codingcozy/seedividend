@@ -3,12 +3,15 @@ title: "shadcn-ui UI 코드베이스 분석 shadcn-ui CLI는 어떻게 작동하
 description: ""
 coverImage: "/assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png"
 date: 2024-07-07 22:00
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png
 tag: Tech
 originalTitle: "shadcn-ui ui codebase analysis: How does shadcn-ui CLI work? — Part 2.7"
 link: "https://medium.com/@ramu.narasinga_61050/shadcn-ui-ui-codebase-analysis-how-does-shadcn-ui-cli-work-part-2-7-534165164380"
+isUpdated: true
 ---
+
+
 
 shadcn-ui CLI가 어떻게 작동하는지 알아보고 싶었어요. 이 글에서는 shadcn-ui/ui CLI를 구축하는 데 사용된 코드에 대해 이야기하고 있어요.
 

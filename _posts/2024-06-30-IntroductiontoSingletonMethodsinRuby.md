@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introduction to Singleton Methods in Ruby"
 link: "https://medium.com/passgage-tech/introduction-to-singleton-methods-in-ruby-a36c04e04189"
+isUpdated: true
 ---
+
+
 
 
 

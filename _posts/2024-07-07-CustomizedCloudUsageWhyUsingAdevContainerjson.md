@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Customized Cloud Usage — Why Using A devContainer.json ?"
 link: "https://medium.com/@zack4dev/customized-cloud-usage-why-using-a-devcontainer-json-f48507f32b6c"
+isUpdated: true
 ---
+
+
 
 
 요즘에는 클라우드 이미지를 자주 사용합니다. 그래서 왜 사용자 정의해야 할까요?

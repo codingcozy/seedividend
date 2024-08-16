@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Form Design Creating Custom Reusable Inputs and Buttons in ReactJS"
 link: "https://medium.com/@amitsharma_24072/react-form-design-creating-custom-reusable-inputs-and-buttons-in-reactjs-c93e67ab2347"
+isUpdated: true
 ---
+
+
 
 
 

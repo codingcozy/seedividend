@@ -3,12 +3,15 @@ title: "리액트 - State vs Props 둘의 차이점을 이해하자"
 description: ""
 coverImage: "/assets/img/2024-05-01-ReactStatevsProps_0.png"
 date: 2024-05-01 18:21
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-01-ReactStatevsProps_0.png
 tag: Tech
 originalTitle: "React: 'State vs Props'"
 link: "https://medium.com/javascript-in-plain-english/react-state-vs-props-3066a1766463"
+isUpdated: true
 ---
+
+
 
 ![React State vs Props](/assets/img/2024-05-01-ReactStatevsProps_0.png)
 

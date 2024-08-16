@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lessons from open-source Algorithm used to compute errordigest in Nextjs"
 link: "https://medium.com/towardsdev/lessons-from-open-source-algorithm-used-to-compute-error-digest-in-next-js-018523030dfc"
+isUpdated: true
 ---
+
+
 
 
 

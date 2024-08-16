@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to create GET and POST endpoints in NodeJS using ExpressJS?"
 link: "https://medium.com/@anshmunjal/how-to-create-get-and-post-endpoints-in-nodejs-using-expressjs-77fd3953ec38"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-HowtocreateGETandPOSTendpointsinNodeJSusingExpressJS_0.png" />

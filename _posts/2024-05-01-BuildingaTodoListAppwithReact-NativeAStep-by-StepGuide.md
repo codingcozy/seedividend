@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Todo List App with React-Native: A Step-by-Step Guide"
 link: "https://medium.com/@worachote/building-a-todo-list-app-with-react-native-a-step-by-step-guide-7ed7871d3f98"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-01-BuildingaTodoListAppwithReact-NativeAStep-by-StepGuide_0.png" />

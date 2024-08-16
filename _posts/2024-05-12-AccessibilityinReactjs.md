@@ -3,12 +3,15 @@ title: "접근성을 고려해서 리액트 웹사이트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-12-AccessibilityinReactjs_0.png"
 date: 2024-05-12 19:46
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AccessibilityinReactjs_0.png
 tag: Tech
 originalTitle: "Accessibility in Reactjs?"
 link: "https://medium.com/@thevinaysingh/accessibility-in-reactjs-991571d80e53"
+isUpdated: true
 ---
+
+
 
 주요 개념 및 접근성 사용 방법
 

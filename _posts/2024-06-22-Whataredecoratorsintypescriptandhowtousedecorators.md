@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What are “decorators” in typescript and how to use “decorators”?"
 link: "https://medium.com/@InspireTech/what-are-decorators-in-typescript-and-how-to-use-decorators-d82d15c5851f"
+isUpdated: true
 ---
+
+
 
 
 `<img src="/assets/img/2024-06-22-Whataredecoratorsintypescriptandhowtousedecorators_0.png" />`

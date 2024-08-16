@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "REST API Interceptors in React"
 link: "https://medium.com/@uthpala-isiru/rest-api-interceptors-in-react-26662e8b6b56"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-RESTAPIInterceptorsinReact_0.png)

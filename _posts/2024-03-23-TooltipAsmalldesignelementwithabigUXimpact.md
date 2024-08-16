@@ -1,5 +1,5 @@
 ---
-title: "사용자 경험에 큰 영향을 주는 디자인 요소  툴팁 디자인 하는 방법 "
+title: "사용자 경험에 큰 영향을 주는 디자인 요소 툴팁 디자인 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tooltip A small design element with a big UX impact"
 link: "https://uxplanet.org/tooltip-a-small-design-element-with-a-big-ux-impact-e12f4ecec419"
+isUpdated: true
 ---
+
+
 
 
 

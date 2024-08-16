@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Chrome Extension with React"
 link: "https://medium.com/@urab535/building-a-chrome-extension-with-react-06897e2f59cf"
+isUpdated: true
 ---
+
+
 
 
 

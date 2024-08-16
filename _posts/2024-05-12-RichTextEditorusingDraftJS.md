@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rich Text Editor using Draft.JS"
 link: "https://medium.com/@vjnvisakh/rich-text-editor-using-draft-js-32603ec74cef"
+isUpdated: true
 ---
+
+
 
 
 그래도 봐, 요즘에는 보통의 텍스트 영역으로는 충분하지 않아. 요즘에는 가능한 모든 서식을 필요로 해서 고객들이 데이터를 인상적인 형식으로 제시할 수 있게 해야 해.

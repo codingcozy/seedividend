@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "ReactJS: onClick gets executed when rendered or loaded without a click"
 link: "https://medium.com/@xavieryuhanliu/reactjs-onclick-gets-executed-when-rendered-or-loaded-without-a-click-837fc3c71cca"
+isUpdated: true
 ---
+
+
 
 
 아주 간단한 방법으로 해결할 수 있어요.

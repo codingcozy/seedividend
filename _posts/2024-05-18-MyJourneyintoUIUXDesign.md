@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Journey into UI UX Design"
 link: "https://medium.com/@prem2452000/my-journey-into-ui-ux-design-3058362ab692"
+isUpdated: true
 ---
+
+
 
 
 2023년 활기찬 한 해에 저는 MyCaptain의 존경받는 멘토들에게 인도받으며 UI/UX 디자인의 영역으로 모험을 떴어요. 이 수습기는 학습 경험이 아닌, 제가 산업의 도전을 받아들일 준비가 된 숙련된 열정적인 디자이너로 변화시킨 변혁적인 여정이었어요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unearthing Hidden Gems: Lesser-Known HTML Tags"
 link: "https://medium.com/dev-genius/unearthing-hidden-gems-lesser-known-html-tags-2e3ce659d02a"
+isUpdated: true
 ---
+
+
 
 
 ![UnearthingHiddenGemsLesser-KnownHTMLTags](/assets/img/2024-05-01-UnearthingHiddenGemsLesser-KnownHTMLTags_0.png)

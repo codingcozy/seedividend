@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Momentum Strategy using Python"
 link: "https://medium.com/@manishpeshwani/momentum-strategy-using-python-3a4bb7ecf5cf"
+isUpdated: true
 ---
+
+
 
 
 이번 주에는 점심 시간에 몇몇 동료들과 흥미로운 대화를 나누었습니다. 그들은 투자에 어떤 방법론을 사용하는지 물어보았어요. 저는 '모멘텀 투자'를 사용한다고 언급했는데, 그들은 정확히 무슨 의미인지 이해하기 어려워했어요. 그래서 이 기사를 쓰기로 결심했습니다. 제가 모멘텀 투자를 위해 따르는 단계를 설명하겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Could not resolve dependency What actually it Means"
 link: "https://medium.com/@mynameischandangupta1/could-not-resolve-dependency-what-actually-it-means-b00c898cc7fb"
+isUpdated: true
 ---
+
+
 
 
 

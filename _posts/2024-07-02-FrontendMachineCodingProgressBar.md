@@ -3,12 +3,15 @@ title: "프론트엔드 머신 코딩 프로그래스 바 만들기 "
 description: ""
 coverImage: "/assets/img/2024-07-02-FrontendMachineCodingProgressBar_0.png"
 date: 2024-07-02 21:35
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-02-FrontendMachineCodingProgressBar_0.png
 tag: Tech
 originalTitle: "Frontend Machine Coding: Progress Bar 📈"
 link: "https://medium.com/@uttkarshsingh789/frontend-machine-coding-progress-bar-45ca8fa3e624"
+isUpdated: true
 ---
+
+
 
 **문제 설명:**
 

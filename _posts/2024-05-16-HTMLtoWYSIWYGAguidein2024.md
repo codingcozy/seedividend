@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTML to WYSIWYG: A guide in 2024"
 link: "https://medium.com/@IderaDevTools/html-to-wysiwyg-a-guide-in-2024-461f329ac354"
+isUpdated: true
 ---
+
+
 
 
 최근 몇 년 동안 HTML 및 WYSIWYG 기술은 웹 개발에서 가장 큰 변화 중 하나였습니다. 시각적 수정을 용이하게 하고 코드의 기술적 영역을 직관적인 웹 개발 영역과 연결함으로써, 이 기술은 프로세스를 더 접근 가능하게 하고 협력적으로 만듭니다.

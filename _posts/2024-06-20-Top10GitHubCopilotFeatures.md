@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 GitHub Copilot Features"
 link: "https://medium.com/itnext/top-10-github-copilot-features-1cfb39778a10"
+isUpdated: true
 ---
+
+
 
 
 ## 더 행복하고 생산적인 개발자가 되어보세요

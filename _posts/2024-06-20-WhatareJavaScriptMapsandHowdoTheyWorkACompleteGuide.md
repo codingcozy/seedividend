@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What are JavaScript Maps and How do They Work: A Complete Guide"
 link: "https://medium.com/javascript-in-plain-english/what-are-javascript-maps-and-how-do-they-work-a-complete-guide-94ffeaec945c"
+isUpdated: true
 ---
+
+
 
 
 ![JavaScript Maps](/assets/img/2024-06-20-WhatareJavaScriptMapsandHowdoTheyWorkACompleteGuide_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python - How to Convert Excel Documents to PDF Files"
 link: "https://medium.com/@alexaae9/python-how-to-convert-excel-documents-to-pdf-files-1af340822837"
+isUpdated: true
 ---
+
+
 
 
 

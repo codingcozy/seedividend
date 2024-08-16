@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stunning Streamlit Dashboards : Simple Modular Coding For Smooth Results"
 link: "https://medium.com/gitconnected/stunning-streamlit-dashboards-simple-modular-coding-for-better-results-c7b0f977968c"
+isUpdated: true
 ---
+
+
 
 
 ![Stunning Streamlit Dashboards](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png)

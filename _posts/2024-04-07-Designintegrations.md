@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Design integrations"
 link: "https://storybook.js.org/docs/sharing/design-integrations"
+isUpdated: true
 ---
+
+
 
 
 

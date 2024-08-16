@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Moirai: Time Series Foundation Models for Universal Forecasting"
 link: "https://medium.com/towards-data-science/moirai-time-series-foundation-models-for-universal-forecasting-dc93f74b330f"
+isUpdated: true
 ---
+
+
 
 
 이 게시물은 Rafael Guedes와 함께 작성되었습니다.

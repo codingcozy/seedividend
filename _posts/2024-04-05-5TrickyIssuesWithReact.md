@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Tricky Issues With React "
 link: "https://medium.com/javascript-in-plain-english/5-tricky-issues-with-react-40a9d888b0b3"
+isUpdated: true
 ---
+
+
 
 
 

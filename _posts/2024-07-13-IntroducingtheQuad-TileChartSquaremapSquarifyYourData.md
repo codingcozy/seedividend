@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Introducing the Quad-Tile Chart , Squaremap: Squarify Your Data"
 link: "https://medium.com/towards-data-science/introducing-the-quad-tile-chart-squaremap-squarify-your-data-20be336a1dd7"
+isUpdated: true
 ---
+
+
 
 
 ![2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0](/assets/img/2024-07-13-IntroducingtheQuad-TileChartSquaremapSquarifyYourData_0.png)

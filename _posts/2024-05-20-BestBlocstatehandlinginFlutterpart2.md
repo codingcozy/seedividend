@@ -3,12 +3,15 @@ title: "플러터에서 최고의 Bloc 상태 관리 파트 2"
 description: ""
 coverImage: "/assets/img/2024-05-20-BestBlocstatehandlinginFlutterpart2_0.png"
 date: 2024-05-20 23:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-20-BestBlocstatehandlinginFlutterpart2_0.png
 tag: Tech
 originalTitle: "Best Bloc state handling in Flutter (part 2)"
 link: "https://medium.com/@moeinmoradi.dev/best-bloc-state-handling-in-flutter-part-2-a518b68dbc65"
+isUpdated: true
 ---
+
+
 
 안녕하세요, 친구들,
 첫 번째 파트에 대한 좋은 피드백에 기쁩니다.

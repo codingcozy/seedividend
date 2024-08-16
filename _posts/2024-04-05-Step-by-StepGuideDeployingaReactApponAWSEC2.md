@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Step-by-Step Guide Deploying a React App on AWS EC2"
 link: "https://medium.com/@rizkiprass/step-by-step-guide-deploying-a-react-app-on-aws-ec2-b2965af05aa4"
+isUpdated: true
 ---
+
+
 
 
 

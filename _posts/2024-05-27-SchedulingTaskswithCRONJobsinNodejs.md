@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Scheduling Tasks with CRON Jobs in Node.js"
 link: "https://medium.com/@surajAherrao/scheduling-tasks-with-cron-jobs-in-node-js-85680383a659"
+isUpdated: true
 ---
+
+
 
 
 CRON 작업은 특정 간격으로 실행되는 작업을 예약하는 강력한 방법입니다. 이는 뉴스레터를 보내거나 정기 백업을 수행하거나 오래된 데이터를 정리하는 등 다양한 애플리케이션에 매우 유용합니다.

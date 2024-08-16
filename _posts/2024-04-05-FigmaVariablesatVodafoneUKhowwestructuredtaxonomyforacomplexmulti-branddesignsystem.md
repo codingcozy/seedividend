@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Figma Variables at Vodafone UK how we structured taxonomy for a complex multi-brand design system"
 link: "https://medium.com/vodafone-uk-design-experience/figma-variables-at-vodafone-uk-how-we-structured-taxonomy-for-a-complex-multi-brand-design-system-693b1b95675f"
+isUpdated: true
 ---
+
+
 
 
 

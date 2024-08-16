@@ -3,12 +3,15 @@ title: "서버리스 인증 자가 서비스 플랫폼 구축 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png"
 date: 2024-07-07 21:49
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png
 tag: Tech
 originalTitle: "Serverless Auth Self-Serve Platform"
 link: "https://medium.com/@leejamesgilmore/serverless-auth-self-serve-platform-0caa2ca61892"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png" />
 

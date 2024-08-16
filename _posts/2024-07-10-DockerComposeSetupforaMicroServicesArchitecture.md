@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker Compose Setup for a MicroServices Architecture"
 link: "https://medium.com/gitconnected/docker-compose-setup-for-a-microservices-architecture-f47902dadcae"
+isUpdated: true
 ---
+
+
 
 
 ## 클릭 한 번에 하나의 호스트에서 여러 서비스를 배포하고 통합하기

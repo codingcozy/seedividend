@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deeplink Setup in React Native"
 link: "https://medium.com/stackademic/deeplink-setup-in-react-native-40b32646b7f2"
+isUpdated: true
 ---
+
+
 
 
 

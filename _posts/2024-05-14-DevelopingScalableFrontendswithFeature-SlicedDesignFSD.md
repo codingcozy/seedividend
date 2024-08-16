@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Developing Scalable Frontends with Feature-Sliced Design (FSD)"
 link: "https://medium.com/bitsrc/developing-frontends-with-feature-sliced-design-a2e5aa33d02c"
+isUpdated: true
 ---
+
+
 
 
 ## Feature-Sliced Design과 Bit를 활용한 현대 프런트엔드 구축

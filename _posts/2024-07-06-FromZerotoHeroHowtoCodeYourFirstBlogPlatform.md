@@ -3,12 +3,15 @@ title: "완전 초보에서 고수로 첫 블로그 플랫폼 코딩하는 방�
 description: ""
 coverImage: "/assets/img/2024-07-06-FromZerotoHeroHowtoCodeYourFirstBlogPlatform_0.png"
 date: 2024-07-06 10:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-FromZerotoHeroHowtoCodeYourFirstBlogPlatform_0.png
 tag: Tech
 originalTitle: "From Zero to Hero: How to Code Your First Blog Platform"
 link: "https://medium.com/@learntocodetoday/from-zero-to-hero-how-to-code-your-first-blog-platform-614180114e2b"
+isUpdated: true
 ---
+
+
 
 ![/assets/img/2024-07-06-FromZerotoHeroHowtoCodeYourFirstBlogPlatform_0.png](/assets/img/2024-07-06-FromZerotoHeroHowtoCodeYourFirstBlogPlatform_0.png)
 

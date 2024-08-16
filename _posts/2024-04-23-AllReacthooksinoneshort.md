@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "All React hooks in one short"
 link: "https://medium.com/@AbidKazmi/all-react-hooks-in-one-short-4b0ed4b5a6e4"
+isUpdated: true
 ---
+
+
 
 
 

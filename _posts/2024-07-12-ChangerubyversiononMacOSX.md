@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Change ruby version on Mac OS X"
 link: "https://medium.com/@olivierpicault/change-ruby-version-on-mac-os-98c800a85d6d"
+isUpdated: true
 ---
+
+
 
 
 모든 설명서를 읽고 StackOverflow 게시물 및 다른 잘못된 블로그 포스트를 읽은 후, 제 경험에 따라 작동하는 것을 찾았어요. 그래서 미래를 위해 나 포함 누군가가 필요할 때 참고할 수 있도록 메모해두려고 해요.

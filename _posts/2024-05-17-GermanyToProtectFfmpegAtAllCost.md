@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Germany To Protect Ffmpeg At All Cost"
 link: "https://medium.com/@tomaszs2/germany-to-protect-ffmpeg-at-all-cost-ab796f20360b"
+isUpdated: true
 ---
+
+
 
 
 ![Image](/assets/img/2024-05-17-GermanyToProtectFfmpegAtAllCost_0.png)

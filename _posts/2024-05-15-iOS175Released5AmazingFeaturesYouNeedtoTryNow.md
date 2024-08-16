@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "iOS 17.5 Released: 5 Amazing Features You Need to Try Now!"
 link: "https://medium.com/macoclock/ios-17-5-released-5-amazing-features-you-need-to-try-now-a0f32b2158af"
+isUpdated: true
 ---
+
+
 
 
 iOS 17.5가 iOS 17.4 이후 2개월 만에 출시되었는데, 몇 가지 새로운 변경 사항과 기능이 포함되어 있습니다.

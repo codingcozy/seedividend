@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Linear Regression from Scratch"
 link: "https://medium.com/@pdasedano/linear-regression-from-scratch-2f25c1ab21ea"
+isUpdated: true
 ---
+
+
 
 
 

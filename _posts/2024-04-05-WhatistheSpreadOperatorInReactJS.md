@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What is the Spread Operator In React JS"
 link: "https://medium.com/@DotNetCornerYT/what-is-the-spread-operator-in-react-js-25f6783710a3"
+isUpdated: true
 ---
+
+
 
 
 

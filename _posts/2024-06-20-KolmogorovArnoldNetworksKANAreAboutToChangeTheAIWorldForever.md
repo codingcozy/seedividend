@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kolmogorov–Arnold Networks (KAN) Are About To Change The AI World Forever"
 link: "https://medium.com/accredian/kolmogorov-arnold-networks-kan-are-about-to-change-the-ai-world-forever-687f6d0b4d93"
+isUpdated: true
 ---
+
+
 
 
 ## 신경망에 대해 알고 있던 모든 것을 잊어버리세요, KAN이 규칙을 다시 쓸 예정입니다

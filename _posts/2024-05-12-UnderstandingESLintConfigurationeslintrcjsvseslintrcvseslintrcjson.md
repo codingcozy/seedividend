@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding ESLint Configuration: .eslintrc.js vs .eslintrc vs .eslintrc.json"
 link: "https://medium.com/@ritz.sh/understanding-eslint-configuration-eslintrc-js-vs-eslintrc-vs-eslintrc-json-287ec5e95bf4"
+isUpdated: true
 ---
+
+
 
 
 ESLint은 JavaScript 생태계에서 중심 도구로 작용하여 개발자가 코드 품질을 유지하고 코딩 표준을 준수할 수 있도록 돕습니다. 그러나 ESLint를 구성하는 것이 항상 간단하지는 않습니다, 특히 .eslintrc.js, .eslintrc 및 .eslintrc.json과 같은 다양한 구성 형식 중에서 선택해야 할 때에는 더욱 그렇습니다. 각 형식의 세부 사항을 자세히 살펴보고 그 차이와 가장 적합한 사용 사례에 대해 알아봅시다.

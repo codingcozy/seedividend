@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SSL Issues with Databricks Connect"
 link: "https://medium.com/@brain246/ssl-issues-with-databricks-connect-af79cab3c1d9"
+isUpdated: true
 ---
+
+
 
 
 # 문제

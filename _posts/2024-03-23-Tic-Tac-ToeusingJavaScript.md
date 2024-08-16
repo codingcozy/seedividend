@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tic-Tac-Toe using JavaScript"
 link: "https://medium.com/@imPradhyumn/tic-tac-toe-using-javascript-48b079bcd015"
+isUpdated: true
 ---
+
+
 
 
 

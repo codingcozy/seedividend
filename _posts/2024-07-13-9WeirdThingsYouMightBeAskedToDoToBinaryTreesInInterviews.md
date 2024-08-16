@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "9 Weird Things You Might Be Asked To Do To Binary Trees In Interviews"
 link: "https://medium.com/@zlliu/9-weird-things-you-might-be-asked-to-do-to-binary-trees-in-interviews-edbcb65e5dc5"
+isUpdated: true
 ---
+
+
 
 
 

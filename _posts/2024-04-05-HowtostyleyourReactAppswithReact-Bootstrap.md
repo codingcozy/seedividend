@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to style your React Apps with React-Bootstrap"
 link: "https://medium.com/@tcknickerbocker/how-to-style-your-react-apps-with-react-bootstrap-73a6f5f5ecea"
+isUpdated: true
 ---
+
+
 
 
 

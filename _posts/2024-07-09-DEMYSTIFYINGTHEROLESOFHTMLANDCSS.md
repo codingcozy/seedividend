@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DEMYSTIFYING THE ROLES OF HTML AND CSS"
 link: "https://medium.com/@effydeehpo2/demystifying-the-roles-of-html-and-css-9f8ddc236e68"
+isUpdated: true
 ---
+
+
 
 
 우리는 매일 마주하는 웹사이트와 상호작용 애플리케이션이 직관적이고 아름답기를 기대합니다. 그러나 이런 경험들은 마법이 아니라 협력의 산물입니다. 이러한 노력 중 일부는 웹의 보이지 않는 건축가들로부터 옵니다. 이들은 복잡한 코드를 매끄러운 인터페이스로 번역하고 HTML 및 CSS와 같은 프론트엔드 기술을 사용하여 이를 가능케 합니다. 이 기사에서는 이 두 가지 프론트엔드 기술인 HTML (하이퍼텍스트 마크업 언어)와 CSS (계층 별 스타일 시트)를 탐구하며, 웹사이트를 살아있게 만드는 데 어떻게 협업하는지에 대해 깊게 이해해보겠습니다.

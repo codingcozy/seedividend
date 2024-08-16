@@ -3,12 +3,15 @@ title: "알아두었으면 좋았을 Python 리스트 방법 12가지"
 description: ""
 coverImage: "/assets/img/2024-07-09-12PythonListThingsIRegretNotKnowingEarlier_0.png"
 date: 2024-07-09 19:32
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-12PythonListThingsIRegretNotKnowingEarlier_0.png
 tag: Tech
 originalTitle: "12 Python List Things I Regret Not Knowing Earlier"
 link: "https://medium.com/gitconnected/12-python-list-things-i-regret-not-knowing-earlier-ad841b527666"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-12PythonListThingsIRegretNotKnowingEarlier_0.png)
 

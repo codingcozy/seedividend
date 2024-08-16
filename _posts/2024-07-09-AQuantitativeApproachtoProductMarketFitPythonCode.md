@@ -3,12 +3,15 @@ title: "파이썬 코드로 알아보는 제품-시장 적합성 계량 분석 �
 description: ""
 coverImage: "/assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_0.png"
 date: 2024-07-09 19:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-AQuantitativeApproachtoProductMarketFitPythonCode_0.png
 tag: Tech
 originalTitle: "A Quantitative Approach to Product Market Fit (Python Code)"
 link: "https://medium.com/towards-data-science/a-quantitative-approach-to-product-market-fit-python-code-56e0022e4b35"
+isUpdated: true
 ---
+
+
 
 어느 때는 씨앗 벤처 투자 회사의 데이터 부서에서 일한 적이 있었어요. 저는 VC 펀드에서 일한 적이 있었는데, 그 중 하나는 창업가들과 그들의 비즈니스에서 제품-시장 적합성의 지표에 대해 논의하는 것이었습니다. Andrew Chen의 제품 시장 적합성에 대한 정량적 접근을 적용했었죠. 처음에 우리는 창업가들과 제품 시장 적합성의 지표에 대해 논의하고 그들의 사용자들의 원시 데이터를 요청했어요. 그런 다음 데이터를 분석해서 서로 다른 사용자들과 그들의 행동이 시간에 따라 어떻게 변하는지 파악했어요.
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Server Upgrade at Entri App: Enhancing Performance for over a Million Users"
 link: "https://medium.com/entri-engineering-product-design/server-upgrade-at-entri-app-enhancing-performance-for-over-a-million-users-ec4971c3fc60"
+isUpdated: true
 ---
+
+
 
 
 

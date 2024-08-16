@@ -3,12 +3,15 @@ title: "Angular 앱에서 SCSS 구조화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoStructureSCSSinanAngularApp_0.png"
 date: 2024-07-09 18:09
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowtoStructureSCSSinanAngularApp_0.png
 tag: Tech
 originalTitle: "How to Structure SCSS in an Angular App"
 link: "https://medium.com/@stefaniefluin/how-to-structure-scss-in-an-angular-app-a1b8a759a028"
+isUpdated: true
 ---
+
+
 
 SCSS를 좋아하는 경우, Angular 애플리케이션에서 사용해야 합니다. 다행히 Angular CLI가 모든 설정을 해줍니다!
 

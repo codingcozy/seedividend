@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Transforming Array Variable As A State Variable"
 link: "https://medium.com/@ybairwa786/transforming-array-variable-as-a-state-variable-7db67cb43ce0"
+isUpdated: true
 ---
+
+
 
 
 ```js

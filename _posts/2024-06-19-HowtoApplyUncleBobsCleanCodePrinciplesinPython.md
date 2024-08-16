@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Apply Uncle Bob’s Clean Code Principles in Python"
 link: "https://medium.com/@denis-learns-tech/how-to-apply-uncle-bobs-clean-code-principles-in-python-6a34e4465d10"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-19-HowtoApplyUncleBobsCleanCodePrinciplesinPython_0.png)

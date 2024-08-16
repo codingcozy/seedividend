@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Adding Multiple Font Families for Style and Reliability in CSS"
 link: "https://medium.com/@tutorialsfreak2022/adding-multiple-font-families-for-style-and-reliability-in-css-a32a067e127c"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding JSX: The Syntax Extension for React"
 link: "https://medium.com/@iammayank20/understanding-jsx-the-syntax-extension-for-react-1ac0064b4432"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-UnderstandingJSXTheSyntaxExtensionforReact_0.png" />

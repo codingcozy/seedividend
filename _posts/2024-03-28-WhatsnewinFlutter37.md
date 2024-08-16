@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Whats new in Flutter 37"
 link: "https://medium.com/flutter/whats-new-in-flutter-3-7-38cbea71133c"
+isUpdated: true
 ---
+
+
 
 
 

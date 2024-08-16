@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Kickstart Your Coding Journey: Java Basics Explained"
 link: "https://medium.com/@eniyaask2005/kickstart-your-coding-journey-java-basics-explained-eaa0796bed32"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-09-KickstartYourCodingJourneyJavaBasicsExplained_0.png" />

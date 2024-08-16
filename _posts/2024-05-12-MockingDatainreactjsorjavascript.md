@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mocking Data in react js or javascript"
 link: "https://medium.com/@biplavmazumdar5/mocking-data-in-react-js-or-javascript-3f278ba7f550"
+isUpdated: true
 ---
+
+
 
 
 - React.js나 JavaScript에서 모킹 데이터는 개발이나 테스트 중에 API나 백엔드 서비스로부터의 응답을 시뮬레이션하기 위해 가짜 데이터를 생성하는 것을 의미합니다.

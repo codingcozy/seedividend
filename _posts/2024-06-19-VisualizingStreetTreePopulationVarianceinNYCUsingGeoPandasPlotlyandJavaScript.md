@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Visualizing Street Tree Population Variance in NYC Using GeoPandas, Plotly, and JavaScript"
 link: "https://medium.com/better-programming/visualizing-street-tree-population-variance-in-nyc-using-geopandas-plotly-and-javascript-f12251186342"
+isUpdated: true
 ---
+
+
 
 
 ## Plotly Dash 및 JavaScript를 사용한 서버 및 클라이언트 측 렌더링의 성능 비교

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Play function"
 link: "https://storybook.js.org/docs/writing-stories/play-function"
+isUpdated: true
 ---
+
+
 
 
 

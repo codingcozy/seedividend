@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Does NestJS Handle Dependency Injection?"
 link: "https://medium.com/@majidev/how-does-nestjs-handle-dependency-injection-60a1b5b4bc2d"
+isUpdated: true
 ---
+
+
 
 
 NestJS와 TypeScript를 사용하여 백엔드를 개발할 때, NestJS에서 @Injectable 데코레이터를 사용하는 것이 일반적입니다. EmailService가 @Injectable이고 다른 서비스에서 이를 주입하고 사용하려는 시나리오를 고려해 보겠습니다. 아래 코드를 살펴보세요:

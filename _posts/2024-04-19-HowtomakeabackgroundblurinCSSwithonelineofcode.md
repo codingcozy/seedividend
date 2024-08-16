@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to make a background blur in CSS with one line of code"
 link: "https://medium.com/prototypr/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60"
+isUpdated: true
 ---
+
+
 
 
 

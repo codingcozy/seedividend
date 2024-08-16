@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter go_router The Essential Guide"
 link: "https://medium.com/@antonio.tioypedro1234/flutter-go-router-the-essential-guide-349ef39ec5b3"
+isUpdated: true
 ---
+
+
 
 
 

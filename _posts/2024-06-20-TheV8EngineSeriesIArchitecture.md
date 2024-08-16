@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The V8 Engine Series I: Architecture"
 link: "https://medium.com/@braineanear/the-v8-engine-series-i-architecture-ba08a38c54fa"
+isUpdated: true
 ---
+
+
 
 
 ![V8 Engine Series Architecture](/assets/img/2024-06-20-TheV8EngineSeriesIArchitecture_0.png)

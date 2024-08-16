@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Leverage OpenAI Tool calling Building a reliable AI Agent from Scratch"
 link: "https://medium.com/towards-data-science/leverage-openai-tool-calling-building-a-reliable-ai-agent-from-scratch-4e21fcd15b62"
+isUpdated: true
 ---
+
+
 
 
 

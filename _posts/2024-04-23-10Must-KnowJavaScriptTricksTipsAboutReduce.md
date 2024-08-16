@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 Must-Know JavaScript Tricks , Tips About Reduce"
 link: "https://medium.com/javascript-in-plain-english/10-must-know-javascript-tricks-tips-about-reduce-2bc7e5809c27"
+isUpdated: true
 ---
+
+
 
 
 

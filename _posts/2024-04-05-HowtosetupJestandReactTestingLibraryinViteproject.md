@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to setup Jest and React Testing Library in Vite project"
 link: "https://medium.com/@zaferayan/how-to-setup-jest-and-react-testing-library-in-vite-project-2600f2d04bdd"
+isUpdated: true
 ---
+
+
 
 
 

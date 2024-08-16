@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "FIT Proved Best PHP MySQL and Laravel Course For Rawalpindi , Islamabad"
 link: "https://medium.com/@fitcomputerinstitute/fit-proved-best-php-mysql-and-laravel-course-for-rawalpindi-islamabad-dda3cbb3b5f7"
+isUpdated: true
 ---
+
+
 
 
 ![FIT Proved Best PHP, MySQL, and Laravel Course in Rawalpindi Islamabad](/assets/img/2024-05-14-FITProvedBestPHPMySQLandLaravelCourseForRawalpindiIslamabad_0.png)

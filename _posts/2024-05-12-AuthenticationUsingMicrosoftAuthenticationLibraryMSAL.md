@@ -3,12 +3,15 @@ title: "Microsoft Authentication Library MSAL을 사용한 인증"
 description: ""
 coverImage: "/assets/img/2024-05-12-AuthenticationUsingMicrosoftAuthenticationLibraryMSAL_0.png"
 date: 2024-05-12 21:34
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-AuthenticationUsingMicrosoftAuthenticationLibraryMSAL_0.png
 tag: Tech
 originalTitle: "Authentication Using Microsoft Authentication Library (MSAL)"
 link: "https://medium.com/edstem/authentication-using-microsoft-authentication-library-msal-51e8644b28d0"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-AuthenticationUsingMicrosoftAuthenticationLibraryMSAL_0.png" />
 

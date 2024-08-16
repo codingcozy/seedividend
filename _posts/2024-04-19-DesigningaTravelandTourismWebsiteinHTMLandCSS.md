@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Designing a Travel and Tourism Website in HTML and CSS"
 link: "https://medium.com/@mjena/designing-a-travel-and-tourism-website-in-html-and-css-4ac98125a46d"
+isUpdated: true
 ---
+
+
 
 
 

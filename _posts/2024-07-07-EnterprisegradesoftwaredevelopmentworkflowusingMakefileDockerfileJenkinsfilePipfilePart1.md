@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Enterprise grade software development workflow using Makefile, Dockerfile, Jenkinsfile , Pipfile: Part 1"
 link: "https://medium.com/@yogender027mae/enterprise-grade-software-development-workflow-using-makefile-dockerfile-jenkinsfile-pipfile-a32cd54013fd"
+isUpdated: true
 ---
+
+
 
 
 컨티뉴어스 인티그레이션(CI) 파이프라인을 활용한 최고의 가이드

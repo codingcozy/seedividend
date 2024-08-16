@@ -3,12 +3,15 @@ title: "파이썬 비동기 프로세싱 소개"
 description: ""
 coverImage: "/assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_0.png"
 date: 2024-07-09 20:08
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_0.png
 tag: Tech
 originalTitle: "Python — Asynchronous Processing Introduction"
 link: "https://medium.com/@tonylixu/python-asynchronous-processing-introduction-601be5ba361c"
+isUpdated: true
 ---
+
+
 
 ![image](/assets/img/2024-07-09-PythonAsynchronousProcessingIntroduction_0.png)
 

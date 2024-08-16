@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced React Patterns and Optimization Reusability Render Props , HOCs, Suspense, and Code Splitting"
 link: "https://medium.com/stackademic/advanced-react-patterns-and-optimization-reusability-render-props-hocs-suspense-and-code-b05da7ffd941"
+isUpdated: true
 ---
+
+
 
 
 

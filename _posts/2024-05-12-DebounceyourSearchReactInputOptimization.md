@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Debounce your Search | React Input Optimization"
 link: "https://medium.com/nerd-for-tech/debounce-your-search-react-input-optimization-fd270a8042b"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-DebounceyourSearchReactInputOptimization_0.png" />

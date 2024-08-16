@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Becoming Linux System Administrator: users and groups (part I)"
 link: "https://medium.com/@audrey_evans/becoming-linux-system-administrator-users-and-groups-part-i-9da575565b10"
+isUpdated: true
 ---
+
+
 
 
 “리눅스는 여러 사용자 계정을 동시에 사용할 수 있는 다중 사용자 운영 체제로, 서버로 사용하기에 이상적입니다.

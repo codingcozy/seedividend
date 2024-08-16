@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Title: Leveraging Custom JavaScript to Enhance User Experience: Handling Clicks Outside a Div"
 link: "https://medium.com/@hridoymahmud/title-leveraging-custom-javascript-to-enhance-user-experience-handling-clicks-outside-a-div-c71af16a1f64"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-TitleLeveragingCustomJavaScripttoEnhanceUserExperienceHandlingClicksOutsideaDiv_0.png" />

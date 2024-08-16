@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing a multi-thread file downloader Using Java synchronization utilities"
 link: "https://medium.com/itnext/implementing-a-multi-thread-file-downloader-using-java-synchronization-utilities-10a097feb47c"
+isUpdated: true
 ---
+
+
 
 
 Java가 오랫동안 소개되었던 분야 중 하나는 동시성(concurrency)입니다. Java에는 멀티 스레드 애플리케이션을 안전하고 효율적으로 구현하는 데 도움이 되는 다양한 동시성 API 및 유틸리티가 있습니다.

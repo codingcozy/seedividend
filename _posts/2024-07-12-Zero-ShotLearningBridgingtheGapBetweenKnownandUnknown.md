@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Zero-Shot Learning: Bridging the Gap Between Known and Unknown"
 link: "https://medium.com/@evertongomede/zero-shot-learning-bridging-the-gap-between-known-and-unknown-5059a7c89460"
+isUpdated: true
 ---
+
+
 
 
 # 요약

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "A Beginner’s Journey into Front-End Web Development"
 link: "https://medium.com/@DevHaseeb/a-beginners-journey-into-front-end-web-development-e9d3ce31bd72"
+isUpdated: true
 ---
+
+
 
 
 ![2024-06-20-ABeginnersJourneyintoFront-EndWebDevelopment_0.png](/assets/img/2024-06-20-ABeginnersJourneyintoFront-EndWebDevelopment_0.png)

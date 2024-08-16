@@ -3,12 +3,15 @@ title: "React Webpack에 대한 Fallback 구축 방법 -  Module not found Error
 description: ""
 coverImage: "/assets/img/2024-05-01-HowtoBuildFallbackforReactWebpackModulenotfoundError_0.png"
 date: 2024-05-01 17:50
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-01-HowtoBuildFallbackforReactWebpackModulenotfoundError_0.png
 tag: Tech
 originalTitle: "How to Build Fallback for React Webpack: Module not found Error"
 link: "https://medium.com/@dpericich/how-to-build-fallback-for-react-webpack-module-not-found-error-de2438a8697c"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-01-HowtoBuildFallbackforReactWebpackModulenotfoundError_0.png" />
 

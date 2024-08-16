@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "FastAPI Unleashed: Building Scalable Applications"
 link: "https://medium.com/@nvrank1/fastapi-unleashed-building-scalable-applications-e44d275bf814"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분! 이번 프로젝트는 리워드 공유 플랫폼을 위해 웹 애플리케이션을 디자인하고 개발하는 프로젝트였어요. 30일 안에 컨셉부터 제작까지 전체 애플리케이션을 완성해야 하는 요구사항이 있었죠. 이제 이 목표를 어떻게 달성했는지, 왜 해당 결정을 내렸는지, 그리고 중간에 겪은 어려움 등을 살펴볼게요. 함께해요!

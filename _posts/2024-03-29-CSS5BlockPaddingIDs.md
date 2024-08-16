@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS 5 Block Padding , IDs"
 link: "https://medium.com/@hanhoon08/css-5-block-padding-ids-09228d320e10"
+isUpdated: true
 ---
+
+
 
 
 

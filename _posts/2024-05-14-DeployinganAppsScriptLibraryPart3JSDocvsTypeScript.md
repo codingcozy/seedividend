@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Deploying an Apps Script Library Part 3: JSDoc vs TypeScript"
 link: "https://medium.com/javascript-in-plain-english/deploying-an-apps-script-library-part-3-jsdoc-vs-typescript-0a8772566293"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-DeployinganAppsScriptLibraryPart3JSDocvsTypeScript_0.png" />

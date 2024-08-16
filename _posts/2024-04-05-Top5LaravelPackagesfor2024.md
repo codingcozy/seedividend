@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 5 Laravel Packages for 2024"
 link: "https://medium.com/@ritik065/top-5-laravel-packages-for-2024-9d6e7faccaf3"
+isUpdated: true
 ---
+
+
 
 
 

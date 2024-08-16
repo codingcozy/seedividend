@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Test your React Components with Nightwatch and Testing Library"
 link: "https://medium.com/pineview-labs/how-to-reliably-test-your-react-components-with-nightwatch-and-testing-library-15059e58b8fa"
+isUpdated: true
 ---
+
+
 
 
 

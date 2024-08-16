@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "P-Hacking for Beginners"
 link: "https://medium.com/@epiren/p-hacking-for-beginners-996d0e8f5094"
+isUpdated: true
 ---
+
+
 
 
 생명 통계학의 모든 주제 중에서 학생들에게 설명하기 가장 어려운 것은 p-값의 개념입니다. 본질적으로 p-값은 영 가설을 기각하는 확률입니다. 간단히 말하면, 우리가 관찰하고 있는 것 사이에 연관성이 없을 때에도 두 가지 사이에 연관성이 있다고 말할 확률이죠. 이것은 우리가 보고 있는 것이 우연히 발생한 것일 확률이기도 합니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dockerizing a Laravel App: Nginx, MySql, PhpMyAdmin, and Php-8.2"
 link: "https://medium.com/@syedkamruzzaman/dockerizing-a-laravel-app-nginx-mysql-phpmyadmin-and-php-8-2-cc65b71acad4"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-09-DockerizingaLaravelAppNginxMySqlPhpMyAdminandPhp-82_0.png)

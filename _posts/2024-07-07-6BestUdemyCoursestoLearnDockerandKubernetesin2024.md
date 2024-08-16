@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "6 Best Udemy Courses to Learn Docker and Kubernetes in 2024"
 link: "https://medium.com/javarevisited/6-best-udemy-courses-to-learn-docker-and-kubernetes-in-2024-6e72055b3a1c"
+isUpdated: true
 ---
+
+
 
 
 ## 2024년에 도커와 쿠버네티스를 배울 수 있는 내가 가장 좋아하는 유데미 강의

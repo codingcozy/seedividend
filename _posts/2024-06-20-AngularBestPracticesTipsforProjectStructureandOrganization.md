@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Best Practices: Tips for Project Structure and Organization"
 link: "https://medium.com/@marketing_26756/angular-best-practices-tips-for-project-structure-and-organization-490ca7950829"
+isUpdated: true
 ---
+
+
 
 
 새로운 프로젝트를 처음부터 구축하기 시작할 때 첫 번째 질문은 무엇이 좋은 프로젝트 아키텍처여야 하는가인데요. 어떤 기술 스택을 사용하든, 우리는 프로젝트 아키텍처가 새로운 애플리케이션을 구축하는 과정에서의 건축 기본 요소임을 알고 있습니다.

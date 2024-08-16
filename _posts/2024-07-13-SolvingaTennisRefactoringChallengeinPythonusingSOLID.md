@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Solving a Tennis Refactoring Challenge in Python using SOLID"
 link: "https://medium.com/towards-data-science/solving-a-tennis-refactoring-challenge-in-python-using-solid-f1282f85e7e0"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png" />

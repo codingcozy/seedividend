@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Debounce Throttle a Callback with React Hooks"
 link: "https://medium.com/programming-essentials/how-to-debounce-throttle-a-callback-with-react-hooks-deb26b2fd7c"
+isUpdated: true
 ---
+
+
 
 
 

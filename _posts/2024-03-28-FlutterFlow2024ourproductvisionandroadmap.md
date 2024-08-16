@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "FlutterFlow 2024 our product vision and roadmap"
 link: "https://medium.com/flutterflow-enterprise/flutterflow-2024-our-product-vision-and-roadmap-2dba66a87c66"
+isUpdated: true
 ---
+
+
 
 
 

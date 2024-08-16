@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Do you clean up after your useEffect? Errorproof async tasks in components lifecycle"
 link: "https://medium.com/@renashen_28351/do-you-clean-up-after-your-useeffect-errorproof-async-tasks-in-components-lifecycle-83b9cb19b89e"
+isUpdated: true
 ---
+
+
 
 
 React의 useEffect 훅은 함수 컴포넌트에서 부작용을 관리하는 강력한 도구입니다. 하지만 적절한 처리 없이 사용하면 코드베이스의 최악의 악몽이 될 수 있습니다. 오늘은 제가 즐겨 사용하는 API 중 하나인 TheCatAPI를 사용하여, useEffect에서 비동기 작업을 정리하는 방법에 초점을 맞추어 React 컴포넌트를 가능한 깨끗하고 효율적으로 유지하는 방법을 살펴보겠습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Never, ever disable buttons — Why not?"
 link: "https://medium.com/user-experience-design-1/never-ever-disable-buttons-part-1-why-not-73d16a0fb32b"
+isUpdated: true
 ---
+
+
 
 
 ## 사용 불가능한 컨트롤

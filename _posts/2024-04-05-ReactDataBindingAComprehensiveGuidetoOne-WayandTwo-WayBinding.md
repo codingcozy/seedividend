@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Data Binding A Comprehensive Guide to One-Way and Two-Way Binding"
 link: "https://medium.com/@priyam_mondal/react-data-binding-a-comprehensive-guide-to-one-way-and-two-way-binding-6fb945add5ed"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Mistakes I Made As a Beginner Programmer"
 link: "https://medium.com/edge-coders/the-mistakes-i-made-as-a-beginner-programmer-ac8b3e54c312"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-27-TheMistakesIMadeAsaBeginnerProgrammer_0.png)  

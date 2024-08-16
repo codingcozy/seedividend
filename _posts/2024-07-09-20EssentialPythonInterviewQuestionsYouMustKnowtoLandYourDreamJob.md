@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "20 Essential Python Interview Questions You Must Know to Land Your Dream Job"
 link: "https://medium.com/top-python-libraries/20-essential-python-interview-questions-you-must-know-to-land-your-dream-job-5e8882253130"
+isUpdated: true
 ---
+
+
 
 
 ## 파이썬 면접 질문

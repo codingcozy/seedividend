@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Day 18 : Docker Containerization for DevOps."
 link: "https://medium.com/@rohitrajput2/day-18-docker-containerization-for-devops-7b640b51b4f5"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-07-Day18DockerContainerizationforDevOps_0.png)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Nest.js Error Handling"
 link: "https://medium.com/@zigbalthazar/nest-js-error-handling-592cde1a56cc"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-19-NestjsErrorHandling_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with GPT-4o on Google Colab: A Step-by-Step Guide"
 link: "https://medium.com/@rahulrajpvr7d/getting-started-with-gpt-4o-on-google-colab-a-step-by-step-guide-368477a39fb3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-16-GettingStartedwithGPT-4oonGoogleColabAStep-by-StepGuide_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use Pandas Dataframe with SQL-Support as a Network Database — Thanks to DuckDB"
 link: "https://medium.com/@thoren.lederer/use-pandas-dataframe-with-sql-support-as-a-network-database-thanks-to-duckdb-2a46e1f88b66"
+isUpdated: true
 ---
+
+
 
 
 만약 대규모 데이터셋을 생성하거나 수정한 다음 SQL 준비 데이터로 공유해야 하는 데이터 과학자라면 ChipmunkDB가 답입니다.

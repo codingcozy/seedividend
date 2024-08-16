@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Get Current Time in JavaScript"
 link: "https://medium.com/@frontendinterviewquestions/how-to-get-current-time-in-javascript-a7cdb04cd220"
+isUpdated: true
 ---
+
+
 
 
 `img` 태그를 Markdown 형식으로 변경해주세요.

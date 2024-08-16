@@ -1,5 +1,5 @@
 ---
-title: "JS 이미지 lazy loading 하는 방법 기초부터 심화까지"
+title: "자바스크립트에서 이미지 lazy loading 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

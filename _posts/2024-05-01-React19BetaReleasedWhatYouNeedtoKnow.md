@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🎀 React 19 Beta Released: What You Need to Know"
 link: "https://medium.com/javascript-in-plain-english/react-19-beta-released-what-you-need-to-know-a2fb3a0b2b2a"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-01-React19BetaReleasedWhatYouNeedtoKnow_0.png)

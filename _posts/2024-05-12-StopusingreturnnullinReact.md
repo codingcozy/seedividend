@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stop using 'return null' in React"
 link: "https://medium.com/@davidkelley87/stop-using-return-null-in-react-a2ebf08fc9cd"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-StopusingreturnnullinReact_0.png" />

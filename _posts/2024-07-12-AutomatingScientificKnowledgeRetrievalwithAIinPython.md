@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Automating Scientific Knowledge Retrieval with AI in Python"
 link: "https://medium.com/@crisvelasquez/automating-scientific-knowledge-retrieval-with-ai-in-python-05e1ef5c0860"
+isUpdated: true
 ---
+
+
 
 
 

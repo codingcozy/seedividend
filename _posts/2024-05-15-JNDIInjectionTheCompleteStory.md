@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "JNDI Injection — The Complete Story"
 link: "https://medium.com/bugbountywriteup/jndi-injection-the-complete-story-4c5bfbb3f6e1"
+isUpdated: true
 ---
+
+
 
 
 이 블로그는 JNDI Injection의 보안 문제를 조사합니다. JNDI Injection은 악의적인 사용자가 JNDI lookups를 조작하여 미인가된 코드를 실행할 수 있는 취약점입니다.

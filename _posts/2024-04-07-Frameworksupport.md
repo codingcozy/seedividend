@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Framework support"
 link: "https://storybook.js.org/docs/configure/frameworks"
+isUpdated: true
 ---
+
+
 
 
 

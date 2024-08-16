@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Performing Named Entity Recognition on Audio Data"
 link: "https://medium.com/datadriveninvestor/performing-named-entity-recognition-on-audio-data-73f45c1b9739"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-20-PerformingNamedEntityRecognitiononAudioData_0.png)

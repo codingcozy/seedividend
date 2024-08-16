@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Went From 0 to 80k Overnight"
 link: "https://medium.com/@ashton-j-jefferson/how-i-went-from-0-to-80k-overnight-a9f429380aa2"
+isUpdated: true
 ---
+
+
 
 
 

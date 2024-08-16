@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tailwind 40 is Coming and Looks Interesting"
 link: "https://blog.devgenius.io/tailwind-4-0-is-coming-and-looks-interesting-8534f66dcab3"
+isUpdated: true
 ---
+
+
 
 
 

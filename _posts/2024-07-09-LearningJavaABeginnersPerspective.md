@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Learning Java: A Beginner’s Perspective"
 link: "https://medium.com/@brindha220605/learning-java-a-beginners-perspective-da6e5af51a6d"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-09-LearningJavaABeginnersPerspective_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Random Forest by Hand in Python"
 link: "https://medium.com/towards-data-science/building-a-random-forest-by-hand-in-python-187ac0620875"
+isUpdated: true
 ---
+
+
 
 
 ![Building a Random Forest by Hand in Python](/assets/img/2024-07-13-BuildingaRandomForestbyHandinPython_0.png)

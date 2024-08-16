@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building an Animated Navigation Tab Menu  FREE Source Code"
 link: "https://medium.com/@withaarzoo/building-an-animated-navigation-tab-menu-free-source-code-7283dad1a7c1"
+isUpdated: true
 ---
+
+
 
 
 

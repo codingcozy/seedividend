@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Styling radio button with Tailwind"
 link: "https://medium.com/@marek-rozmus/styling-radio-button-with-tailwind-6e16d6c0d68d"
+isUpdated: true
 ---
+
+
 
 
 ## 스크래치에서 React 라디오 버튼 구성 요소 (스타일 지정)

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Making My Own Javascript Fronted Framework Moved Me Ahead"
 link: "https://medium.com/@ori.holis/how-making-my-own-javascript-fronted-framework-moved-me-ahead-be7872eaeb4e"
+isUpdated: true
 ---
+
+
 
 
 

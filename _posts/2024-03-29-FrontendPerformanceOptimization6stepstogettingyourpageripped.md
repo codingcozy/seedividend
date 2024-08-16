@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Frontend Performance Optimization  6 steps to getting your page ripped"
 link: "https://medium.com/@arunrajkumar/frontend-performance-web-application-optimization-techniques-553123b465ed"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Patterns in JavaScript "
 link: "https://medium.com/@HelloMoto69/patterns-in-javascript-1992ae52a26c"
+isUpdated: true
 ---
+
+
 
 
 

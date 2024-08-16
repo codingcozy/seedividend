@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "10 CSS tricks that Enhance the look and feel of your website"
 link: "https://medium.com/@chandantechie/10-css-tricks-that-enhance-the-look-and-feel-of-your-website-c7dc530ad056"
+isUpdated: true
 ---
+
+
 
 
 `<img src="/assets/img/2024-06-23-10CSStricksthatEnhancethelookandfeelofyourwebsite_0.png" />`

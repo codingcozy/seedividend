@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to upload React Native builds with Github Actions"
 link: "https://medium.com/scaleuptech/how-to-upload-react-native-builds-with-github-actions-5f5ec08cc6b4"
+isUpdated: true
 ---
+
+
 
 
 

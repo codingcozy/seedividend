@@ -1,5 +1,5 @@
 ---
-title: "React Props가 무엇인지 진짜 쉽게 정리"
+title: "React Props가 무엇인지 알고 넘어가자"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Props  The Animated Guide"
 link: "https://reedbarger.medium.com/react-props-the-animated-guide-f401ce92f481"
+isUpdated: true
 ---
+
+
 
 
 

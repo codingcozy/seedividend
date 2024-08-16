@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Cars24 SDE-2 Frontend Interview Experience"
 link: "https://medium.com/@prikshit8/cars24-sde-2-frontend-interview-experience-916345aeef3d"
+isUpdated: true
 ---
+
+
 
 
 나는 링크드인에서 리쿠루터에게 연락했다.

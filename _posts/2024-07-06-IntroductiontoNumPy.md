@@ -3,12 +3,15 @@ title: "초보자를 위한 NumPy 입문 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-06-IntroductiontoNumPy_0.png"
 date: 2024-07-06 02:23
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-IntroductiontoNumPy_0.png
 tag: Tech
 originalTitle: "Introduction to NumPy"
 link: "https://medium.com/@vandroidsri/introduction-to-numpy-fba057edf28e"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-IntroductiontoNumPy_0.png
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "getServerSideProps"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Operationalizing Node.js for Server Side Rendering"
 link: "https://medium.com/airbnb-engineering/operationalizing-node-js-for-server-side-rendering-c5ba718acfc9"
+isUpdated: true
 ---
+
+
 
 
 ## Airbnb이 서버 측 렌더링을 중심으로 Frontend를 더 많이 구축함에 따라, 서버 구성을 최적화하는 방법을 살펴보았습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking Reacts Magic Mastering State and Hooks Like a Pro"
 link: "https://medium.com/@michaelyoussef396/unlocking-reacts-magic-mastering-state-and-hooks-like-a-pro-a94c2cdbeda0"
+isUpdated: true
 ---
+
+
 
 
 

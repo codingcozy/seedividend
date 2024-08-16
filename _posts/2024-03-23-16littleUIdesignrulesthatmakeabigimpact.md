@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "16 little UI design rules that make a big impact"
 link: "https://uxplanet.org/16-ui-design-tips-ba2e7524d203"
+isUpdated: true
 ---
+
+
 
 
 

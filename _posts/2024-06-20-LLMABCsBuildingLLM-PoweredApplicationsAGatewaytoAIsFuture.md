@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "LLM ABCs: “Building LLM-Powered Applications” — A Gateway to AI’s Future"
 link: "https://medium.com/generative-ai/llm-abcs-building-llm-powered-applications-a-gateway-to-ais-future-4855e3264784"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-06-20-LLMABCsBuildingLLM-PoweredApplicationsAGatewaytoAIsFuture_0.png)

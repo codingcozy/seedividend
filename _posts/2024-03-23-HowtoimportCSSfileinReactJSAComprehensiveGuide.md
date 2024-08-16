@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to import CSS file in React JS A Comprehensive Guide"
 link: "https://pxcode.medium.com/how-to-import-css-file-in-react-js-a-comprehensive-guide-0c536b74fcdd"
+isUpdated: true
 ---
+
+
 
 
 

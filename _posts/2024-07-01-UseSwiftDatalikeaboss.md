@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use SwiftData like a boss"
 link: "https://medium.com/@samhastingsis/use-swiftdata-like-a-boss-92c05cba73bf"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Complete Guide to Automated Testing Using Selenium WebDriver"
 link: "https://medium.com/stackademic/complete-guide-to-automated-testing-using-selenium-webdriver-1b47f99119cd"
+isUpdated: true
 ---
+
+
 
 
 

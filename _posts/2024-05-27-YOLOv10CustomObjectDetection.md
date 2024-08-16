@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "YOLOv10 Custom Object Detection"
 link: "https://medium.com/@batuhansenerr/yolov10-custom-object-detection-bd7298ddbfd3"
+isUpdated: true
 ---
+
+
 
 
 YOLOv10 및 사용자 지정 데이터로 모델 학습 개요

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Day 3 Mastering CSS Basics"
 link: "https://medium.com/@CEO-Buddy578/day-3-mastering-css-basics-2c3a4c803f44"
+isUpdated: true
 ---
+
+
 
 
 

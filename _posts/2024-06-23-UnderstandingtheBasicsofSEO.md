@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the Basics of SEO"
 link: "https://medium.com/@enestalayy/understanding-the-basics-of-seo-49344cfad23a"
+isUpdated: true
 ---
+
+
 
 
 

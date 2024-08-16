@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Less Known Built-In Python Functions"
 link: "https://medium.com/gitconnected/5-less-known-built-in-python-functions-70f0ff5a069e"
+isUpdated: true
 ---
+
+
 
 
 

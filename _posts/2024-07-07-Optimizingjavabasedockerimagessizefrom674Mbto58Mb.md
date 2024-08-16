@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimizing java base docker images size from 674Mb to 58Mb"
 link: "https://medium.com/@RoussiAbel/optimizing-java-base-docker-images-size-from-674mb-to-58mb-c1b7c911f622"
+isUpdated: true
 ---
+
+
 
 
 만약 당신이 자바 개발자이고 도커를 사용하여 애플리케이션을 패키징한다면, "hello world"와 같은 간단한 프로젝트에도 최종 이미지 크기가 상당히 커질 수 있다는 것을 눈치챘을 것입니다. 이 글에서는 자바 애플리케이션의 도커 이미지 크기를 최적화하기 위한 몇 가지 팁을 알려드릴 것입니다.

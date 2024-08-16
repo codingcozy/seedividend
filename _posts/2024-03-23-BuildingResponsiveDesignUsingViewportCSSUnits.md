@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Responsive Design Using Viewport CSS Units"
 link: "https://medium.com/@anton.martyniuk/building-responsive-design-using-viewport-css-units-bd86389784fd"
+isUpdated: true
 ---
+
+
 
 
 

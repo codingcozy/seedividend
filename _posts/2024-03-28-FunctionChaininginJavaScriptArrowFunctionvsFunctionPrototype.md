@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Function Chaining in JavaScript Arrow Function vs Function Prototype"
 link: "https://medium.com/@anshumanupadhyay/function-chaining-in-javascript-arrow-function-vs-function-prototype-e5fa9e53cb89"
+isUpdated: true
 ---
+
+
 
 
 

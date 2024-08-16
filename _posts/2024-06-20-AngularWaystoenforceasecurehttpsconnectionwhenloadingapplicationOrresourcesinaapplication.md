@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular: Ways to enforce a secure https connection when loading application Or resources in a application"
 link: "https://medium.com/stackademic/angular-ways-to-enforce-a-secure-https-connection-when-loading-application-or-resources-in-a-a1fcf397a215"
+isUpdated: true
 ---
+
+
 
 
 응용 프로그램을로드하는 경우뿐만 아니라 응용 프로그램 서버에서 리소스를 요청할 때도 안전한 https 연결을 강제로 설정해야 할 수 있습니다. 이 스토리에서는 이러한 목표를 모두 달성하는 방법을 확인해보겠습니다.

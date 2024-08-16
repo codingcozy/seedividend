@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python for ETF Data Analysis: How to Fetch, Analyze and Visualize Financial Information"
 link: "https://medium.com/python-in-plain-english/python-for-etf-data-analysis-how-to-fetch-analyze-and-visualizing-financial-information-6e23024a7b2c"
+isUpdated: true
 ---
+
+
 
 
 금융 분석을 위한 Python의 힘을 발견하는 여정에 나서보세요! 이 포괄적인 안내서는 CSV 보고서를 작성하거나 대화형 Flask 대시보드를 생성하려는지 여부에 관계없이 Exchange-Traded Funds (ETFs) 데이터를 가져오고 분석하고 시각화하는 단계를 안내해 드립니다. 금융 애호가와 신진 개발자 모두에게 이 이야기는 Python을 사용한 ETF 데이터 분석을 숙달하는 길로 안내해주는 열쇠입니다.

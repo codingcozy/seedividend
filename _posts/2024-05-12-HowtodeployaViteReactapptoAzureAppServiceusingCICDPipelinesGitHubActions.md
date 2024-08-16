@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to deploy a Vite React app to Azure App Service using CI CD Pipelines(GitHub Actions)"
 link: "https://medium.com/@janesfrontenddiary/how-to-deploy-a-vite-react-app-to-azure-app-service-using-ci-cd-pipelines-github-actions-1cee30d49ab0"
+isUpdated: true
 ---
+
+
 
 
 개인 React 프로젝트를 시작하거나 제품용 대규모 웹 애플리케이션을 구축하든, React 앱을 호스팅하는 다양한 옵션이 많습니다. 최근에 Azure를 좀 더 전문적으로 다뤄보면서, Vite + React 앱을 Azure에 배포하고 CI/CD 파이프라인을 통해 성공적으로 실행 및 지속적으로 배포하는 방법을 공유하고 싶었어요.

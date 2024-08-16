@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Upgrading Storybook"
 link: "https://storybook.js.org/docs/configure/upgrading"
+isUpdated: true
 ---
+
+
 
 
 

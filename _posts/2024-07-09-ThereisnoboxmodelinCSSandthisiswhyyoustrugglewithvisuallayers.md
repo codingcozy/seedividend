@@ -3,12 +3,15 @@ title: "CSS에 박스 모델이 없는 이유  시각적 레이어에서 어려�
 description: ""
 coverImage: "/assets/img/2024-07-09-ThereisnoboxmodelinCSSandthisiswhyyoustrugglewithvisuallayers_0.png"
 date: 2024-07-09 18:13
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-ThereisnoboxmodelinCSSandthisiswhyyoustrugglewithvisuallayers_0.png
 tag: Tech
 originalTitle: "There is no box model in CSS — and this is why you struggle with visual layers"
 link: "https://medium.com/@decketts/there-is-no-box-model-in-css-and-this-is-why-you-struggle-with-visual-layers-24de916657c0"
+isUpdated: true
 ---
+
+
 
 ## JavaScriptUI — DevBlog #8
 

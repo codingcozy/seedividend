@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Yang-Zhang as an Accurate Volatility Estimator"
 link: "https://medium.com/@kaabar-sofien/yang-zhang-as-an-accurate-7c3a3650e3f6"
+isUpdated: true
 ---
+
+
 
 
 

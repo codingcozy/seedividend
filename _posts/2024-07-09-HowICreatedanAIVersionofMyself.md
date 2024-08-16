@@ -3,12 +3,15 @@ title: "AI 버전의 나를 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_0.png"
 date: 2024-07-09 19:14
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-HowICreatedanAIVersionofMyself_0.png
 tag: Tech
 originalTitle: "How I Created an AI Version of Myself"
 link: "https://medium.com/@keith-mcnulty/how-i-created-an-ai-version-of-myself-aec12bc30067"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-HowICreatedanAIVersionofMyself_0.png)
 

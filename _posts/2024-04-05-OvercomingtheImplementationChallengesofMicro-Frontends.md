@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Overcoming the Implementation Challenges of Micro-Frontends"
 link: "https://medium.com/@drpicox/overcoming-the-implementation-challenges-of-micro-frontends-a739b1630f43"
+isUpdated: true
 ---
+
+
 
 
 

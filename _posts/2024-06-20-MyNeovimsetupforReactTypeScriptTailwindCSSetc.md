@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Neovim setup for React, TypeScript, Tailwind CSS, etc"
 link: "https://medium.com/prodhacker/my-neovim-setup-for-react-typescript-tailwind-css-etc-in-2022-a7405862c9a4"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_0.png" />

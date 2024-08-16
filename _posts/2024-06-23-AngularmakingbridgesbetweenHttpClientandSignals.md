@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular: making bridges between HttpClient and Signals"
 link: "https://medium.com/@IgorPak-dev/angular-making-bridges-between-httpclient-and-signals-a7a50c15ad9b"
+isUpdated: true
 ---
+
+
 
 
 Ever since the 18th release and the new upcoming releases of the Angular framework, the entire Angular community has been experiencing significant changes, such as zoneless apps and reduced usage of RxJS in everyday code. It’s essential to consider whether or not to use RxJS carefully. Still, you should understand and use both the main concepts of the reactive mechanisms we have in our applications without neglecting either of them. I recommend using signals for the state and RxJS to manage events and complex logic.

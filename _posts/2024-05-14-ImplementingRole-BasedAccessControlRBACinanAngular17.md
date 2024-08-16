@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Role-Based Access Control (RBAC) in an Angular 17"
 link: "https://medium.com/@chandantechie/implementing-role-based-access-control-rbac-in-an-angular-17-735438af2697"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-ImplementingRole-BasedAccessControlRBACinanAngular17_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Converting Figma To React the Fast and Easy Way"
 link: "https://medium.com/@jherr2020/converting-figma-to-react-the-fast-and-easy-way-d6525a866f24"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "HTML Introduction"
 link: "https://medium.com/static-flow/html-introduction-44368ec43501"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-17-HTMLIntroduction_0.png)

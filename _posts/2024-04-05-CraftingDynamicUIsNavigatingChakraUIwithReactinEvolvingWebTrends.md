@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Crafting Dynamic UIs Navigating Chakra UI with React in Evolving Web Trends"
 link: "https://medium.com/@ranisa-gupta/crafting-dynamic-uis-navigating-chakra-ui-with-react-in-evolving-web-trends-81a09d709a10"
+isUpdated: true
 ---
+
+
 
 
 

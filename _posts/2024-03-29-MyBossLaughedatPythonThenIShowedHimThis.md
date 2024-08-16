@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Boss Laughed at PythonThen I Showed Him This"
 link: "https://medium.com/python-in-plain-english/my-boss-laughed-at-python-then-i-showed-him-this-3dfcd77a3736"
+isUpdated: true
 ---
+
+
 
 
 

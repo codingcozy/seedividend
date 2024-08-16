@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple React Accordion Component(Props, “Children” props)"
 link: "https://medium.com/@mastermusili/simple-react-accordion-component-props-children-props-e0f077c4d8fd"
+isUpdated: true
 ---
+
+
 
 
 

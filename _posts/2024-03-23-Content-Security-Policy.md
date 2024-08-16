@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "내용 보안 정책"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

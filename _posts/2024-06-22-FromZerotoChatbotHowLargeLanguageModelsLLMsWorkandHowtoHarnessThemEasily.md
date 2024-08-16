@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "From Zero to Chatbot: How Large Language Models (LLMs) Work and How to Harness Them Easily"
 link: "https://medium.com/gopenai/from-zero-to-chatbot-how-large-language-models-llms-work-and-how-to-harness-them-easily-bce55405a5ed"
+isUpdated: true
 ---
+
+
 
 
 # Node.js, OpenAI와 차 한 잔으로 즐거운 시간을 보내세요.

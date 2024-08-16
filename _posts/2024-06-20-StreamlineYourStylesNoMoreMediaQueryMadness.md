@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "“Streamline Your Styles: No More Media Query Madness!”"
 link: "https://medium.com/@akashmm92/streamline-your-styles-no-more-media-query-madness-8d9c75fac171"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-StreamlineYourStylesNoMoreMediaQueryMadness_0.png" />

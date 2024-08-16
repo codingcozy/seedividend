@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding windowpostMessage and windowparentpostMessage in JavaScript"
 link: "https://medium.com/@mrajaeim/understanding-window-postmessage-and-window-parent-postmessage-in-javascript-f09d4eac68ba"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Today I Learnt — We Can’t Use The Walrus Operator On Attributes??"
 link: "https://medium.com/@zlliu/today-i-learnt-we-cant-use-the-walrus-operator-on-attributes-4ed7af348d66"
+isUpdated: true
 ---
+
+
 
 
 

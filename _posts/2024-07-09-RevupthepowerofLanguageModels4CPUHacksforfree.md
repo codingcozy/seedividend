@@ -3,12 +3,15 @@ title: "언어 모델의 성능을 극대화하기 위한 4가지 무료 CPU 활
 description: ""
 coverImage: "/assets/img/2024-07-09-RevupthepowerofLanguageModels4CPUHacksforfree_0.png"
 date: 2024-07-09 14:48
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-RevupthepowerofLanguageModels4CPUHacksforfree_0.png
 tag: Tech
 originalTitle: "Rev up the power of Language Models: 4 CPU Hacks for free!"
 link: "https://medium.com/generative-ai/rev-up-the-power-of-language-models-4-cpu-hacks-for-free-f8d379b16e12"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-RevupthepowerofLanguageModels4CPUHacksforfree_0.png)
 

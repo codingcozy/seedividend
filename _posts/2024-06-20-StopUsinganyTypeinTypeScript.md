@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stop Using “any” Type in TypeScript"
 link: "https://medium.com/bitsrc/stop-using-any-type-in-typescript-48ebefc8b299"
+isUpdated: true
 ---
+
+
 
 
 ## 더 나은 TS 타입과 인터페이스가 있습니다. TypeScript에서 "any" 타입을 사용하지 말아야 하는 이유

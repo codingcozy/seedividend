@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Starting to write CSS in 2023 will be different"
 link: "https://medium.com/@w3cplus/starting-to-write-css-in-2023-will-be-different-9aba143a6160"
+isUpdated: true
 ---
+
+
 
 
 

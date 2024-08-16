@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python Flask vs Node.js Express"
 link: "https://medium.com/@roelljr/python-flask-vs-node-js-express-4662b6f97b28"
+isUpdated: true
 ---
+
+
 
 
 웹 애플리케이션을 개발할 때, 성능과 확장성을 위해 올바른 프레임워크를 선택하는 것이 중요합니다. Python의 Flask와 Node.js의 Express는 프로젝트 요구 사항에 따라 각각 고유한 장단점을 제공하는 인기 있는 옵션입니다.

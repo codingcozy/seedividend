@@ -3,12 +3,15 @@ title: "CSS 높이 0에서 자동으로 부드럽게 전환하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-CSSAchievingaSmoothTransitionfromHeight0toAuto_0.png"
 date: 2024-07-09 18:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-CSSAchievingaSmoothTransitionfromHeight0toAuto_0.png
 tag: Tech
 originalTitle: "CSS: Achieving a Smooth Transition from Height 0 to Auto!"
 link: "https://medium.com/@mannycode/css-achieving-a-smooth-transition-from-height-0-to-auto-14e554885497"
+isUpdated: true
 ---
+
+
 
 ![이미지](/assets/img/2024-07-09-CSSAchievingaSmoothTransitionfromHeight0toAuto_0.png)
 

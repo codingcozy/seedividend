@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Best Practices to Improve Your Code"
 link: "https://medium.com/@onix_react/react-best-practices-to-improve-your-code-a4c68962d5dd"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-ReactBestPracticestoImproveYourCode_0.png" />

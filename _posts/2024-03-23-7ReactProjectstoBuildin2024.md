@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: " 7 React Projects to Build in 2024"
 link: "https://reedbarger.medium.com/%EF%B8%8F-7-react-projects-to-build-in-2024-79a86dd7d92d"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Encapsulation in Java: Keeping Data Under Wraps"
 link: "https://medium.com/pythons-gurus/understanding-encapsulation-in-java-keeping-data-under-wraps-96a2b8f640ed"
+isUpdated: true
 ---
+
+
 
 
 /assets/img/2024-07-06-UnderstandingEncapsulationinJavaKeepingDataUnderWraps_0.png

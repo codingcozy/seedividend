@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Use Your DTOs in Java Like a Pro"
 link: "https://medium.com/javarevisited/use-your-dtos-in-java-like-a-pro-1cd3f6b2fda8"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-09-UseYourDTOsinJavaLikeaPro_0.png" />

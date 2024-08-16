@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "iotWhat impact will artificial intelligence have on the future growth of the Internet of Things?"
 link: "https://medium.com/@tabish_14839/what-impact-will-artificial-intelligence-have-on-the-future-growth-of-the-internet-of-things-482a1e2f667a"
+isUpdated: true
 ---
+
+
 
 
 인공 지능 (AI)은 인터넷 오브 씽스 (IoT)의 미래 성장에 상당한 영향을 미칠 것으로 예측되며 다음과 같은 몇 가지 방식으로 영향을 줄 것으로 예상됩니다:

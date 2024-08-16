@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "5 Simple Ways to Center a Div Horizontally and Vertically in CSS"
 link: "https://medium.com/design-bootcamp/5-simple-ways-to-center-a-div-horizontally-and-vertically-in-css-23bbaa5f9f52"
+isUpdated: true
 ---
+
+
 
 
 

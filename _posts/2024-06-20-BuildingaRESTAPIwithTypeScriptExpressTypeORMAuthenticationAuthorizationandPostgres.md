@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building a REST API with TypeScript, Express, TypeORM, Authentication, Authorization, and Postgres"
 link: "https://medium.com/@christianinyekaka/building-a-rest-api-with-typescript-express-typeorm-authentication-authorization-and-postgres-e87d07d1af08"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-BuildingaRESTAPIwithTypeScriptExpressTypeORMAuthenticationAuthorizationandPostgres_0.png" />

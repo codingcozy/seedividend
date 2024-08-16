@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Increase WSL2 and Docker Performance on Windows By 20x"
 link: "https://medium.com/@suyashsingh.stem/increase-docker-performance-on-windows-by-20x-6d2318256b9a"
+isUpdated: true
 ---
+
+
 
 
 일단 해결 방법에 관심이 있다면 건너뛰고, 제 글이 마음에 들 경우 계속 읽어주세요.

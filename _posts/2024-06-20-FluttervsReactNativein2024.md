@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter vs React Native in 2024"
 link: "https://medium.com/@reactmasters.in/flutter-vs-react-native-in-2024-a589abfec2b1"
+isUpdated: true
 ---
+
+
 
 
 소개:

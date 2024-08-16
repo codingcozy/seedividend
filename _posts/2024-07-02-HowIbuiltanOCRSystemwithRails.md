@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I built an OCR System with Rails"
 link: "https://medium.com/@lcgarcia/how-i-built-an-ocr-system-with-rails-525535da8995"
+isUpdated: true
 ---
+
+
 
 
 친구와의 대화 중에 이 아이디어가 떠올랐어요. 친구가 문서를 스캔하고 분석해야 할 일이 많다고 언급했는데, 시간을 내기가 어려운 상황이라고 했어요. 이 일이 꽤 부담스러운 작업인 것 같아 보였고, 스트레스를 받고 있는 모습이었습니다. 그래서 제가 말했죠, "음, 어쩌면 해결책을 찾을 수도 있겠어요." 그래서 저는 RTesseract를 사용해 루비로 작은 스크립트를 만들기로 결심했어요. 이 스크립트는 그의 문서 스캔을 도와주는 것뿐만 아니라 이미지에서 텍스트를 추출하기 위한 OCR도 수행했어요. 꽤 유용하다는 것을 알아냈고, 다른 사람들도 이 아이디어의 더 강력한 버전에서 혜택을 받을 수 있을 것 같아요. 그래서 이 레일즈 어플리케이션이 탄생했습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Photography Studio Equipment — Polyboard Stands 3D Printing Solution"
 link: "https://medium.com/@xiaobo_fu/photography-studio-equipment-polyboard-stands-3d-printing-solution-d103ed6ff0a3"
+isUpdated: true
 ---
+
+
 
 
 # 폴리보드를 세우는 방법은?

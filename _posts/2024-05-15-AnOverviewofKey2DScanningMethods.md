@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "An Overview of Key 2D Scanning Methods"
 link: "https://medium.com/3dprintjunction/an-overview-of-key-2d-scanning-methods-7d23f5ab28d1"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-AnOverviewofKey2DScanningMethods_0.png" />

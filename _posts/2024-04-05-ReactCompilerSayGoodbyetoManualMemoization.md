@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Compiler Say Goodbye to Manual Memoization"
 link: "https://medium.com/@tanmaythole/react-compiler-say-goodbye-to-manual-memoization-13a0fdfeaeab"
+isUpdated: true
 ---
+
+
 
 
 

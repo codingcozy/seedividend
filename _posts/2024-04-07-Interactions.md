@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Interactions"
 link: "https://storybook.js.org/docs/essentials/interactions"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "What’s New in Angular 17"
 link: "https://medium.com/gitconnected/angular-17-18ea18ec41b9"
+isUpdated: true
 ---
+
+
 
 
 ## 웹 개발

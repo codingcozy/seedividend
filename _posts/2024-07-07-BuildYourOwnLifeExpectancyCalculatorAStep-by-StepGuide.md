@@ -3,12 +3,15 @@ title: "쉽게 따라 하는 나만의 예상 수명 계산기 만들기 단계�
 description: ""
 coverImage: "/assets/img/2024-07-07-BuildYourOwnLifeExpectancyCalculatorAStep-by-StepGuide_0.png"
 date: 2024-07-07 02:15
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-BuildYourOwnLifeExpectancyCalculatorAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Build Your Own Life Expectancy Calculator: A Step-by-Step Guide!"
 link: "https://medium.com/@kartavyavg/build-your-own-life-expectancy-calculator-a-step-by-step-guide-81e621ad1fe5"
+isUpdated: true
 ---
+
+
 
 # 소개 🏹
 

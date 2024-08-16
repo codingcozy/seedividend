@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "When Pair Programming Stops Working"
 link: "https://medium.com/gitconnected/when-pair-programming-stops-working-14c798c27fe7"
+isUpdated: true
 ---
+
+
 
 
 실리콘 독스(Silicon Docks)에 사는 것의 장점 중 하나는 기술 기업들과 끝없는 기술 밋업 목록으로 둘러싸여 있다는 것입니다. 여러 회사를 이동하고 협업 공간과 회의에 참석하면서 현재, 과거 및 미래 동료를 만날 뿐만 아니라 다양한 작업 방식, 학습 및 협업 전략을 발견할 수도 있습니다. 협업 및 온보딩(Pair Programming)의 가장 많이 홍보된 방법 중 하나인 것 같아요.

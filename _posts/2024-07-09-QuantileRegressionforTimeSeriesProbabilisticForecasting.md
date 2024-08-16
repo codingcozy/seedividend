@@ -3,12 +3,15 @@ title: "시계열 확률 예측을 위한 분위 회귀 방법 "
 description: ""
 coverImage: "/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_0.png"
 date: 2024-07-09 19:41
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_0.png
 tag: Tech
 originalTitle: "Quantile Regression for Time Series Probabilistic Forecasting"
 link: "https://medium.com/dataman-in-ai/quantile-regression-for-time-series-probabilistic-forecasts-6fbd5ee298eb"
+isUpdated: true
 ---
+
+
 
 ![Quantile Regression for Time Series Probabilistic Forecasting](/assets/img/2024-07-09-QuantileRegressionforTimeSeriesProbabilisticForecasting_0.png)
 

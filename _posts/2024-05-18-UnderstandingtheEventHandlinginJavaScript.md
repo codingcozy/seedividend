@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding the Event Handling in JavaScript"
 link: "https://medium.com/@dharshithasrimal/understanding-the-event-handling-in-javascript-3d426c89b6db"
+isUpdated: true
 ---
+
+
 
 
 웹 개발 세계에서 JavaScript 이벤트는 동적이고 인터랙티브한 웹 페이지를 만드는 데 중요한 역할을 합니다. 이벤트란 프로그래밍 중인 시스템에서 발생하는 작업 또는 사건으로, 시스템이 알아야 할 필요가 있는 상황이거나 반응해야 하는 상황일 수 있습니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Me Versus ChatGPT In Algorithmic Programming"
 link: "https://medium.com/tech-ai-chat/me-versus-chatgpt-in-algorithmic-programming-dcf57bf4a41b"
+isUpdated: true
 ---
+
+
 
 
 ## 소프트웨어 세계

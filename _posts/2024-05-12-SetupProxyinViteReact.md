@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setup Proxy in Vite React"
 link: "https://medium.com/@faazfajib7/setup-proxy-in-vite-react-2eb1454bff62"
+isUpdated: true
 ---
+
+
 
 
 Vite React 애플리케이션에서는 다음이 제게 가장 잘 작동하는 방법입니다:

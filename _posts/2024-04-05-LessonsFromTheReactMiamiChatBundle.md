@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Lessons From The React Miami Chat Bundle"
 link: "https://medium.com/@bundleiq/lessons-from-react-miami-chat-bundle-31deba5b94c0"
+isUpdated: true
 ---
+
+
 
 
 

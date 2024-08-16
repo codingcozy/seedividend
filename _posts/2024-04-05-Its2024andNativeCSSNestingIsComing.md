@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Its 2024 and Native CSS Nesting Is Coming"
 link: "https://medium.com/javascript-in-plain-english/its-2024-and-native-css-nesting-is-coming-33f844ce95cd"
+isUpdated: true
 ---
+
+
 
 
 

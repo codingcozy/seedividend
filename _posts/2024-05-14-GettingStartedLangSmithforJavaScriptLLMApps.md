@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started: LangSmith for JavaScript LLM Apps"
 link: "https://medium.com/@kenzic/getting-started-langsmith-for-javascript-llm-apps-0bb8059a83ee"
+isUpdated: true
 ---
+
+
 
 
 대용량 언어 모델(Large Language Models, LLM)의 파워를 LangSmith와 함께 발휘하세요: 시작부터 끝까지 AI 개발을 최적화해보세요!

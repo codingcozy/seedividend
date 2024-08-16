@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React — Tailwind CSS Is Not Working In Vite + React Solution (2024 updated)"
 link: "https://medium.com/@rubybellekim/react-tailwind-css-is-not-working-in-vite-react-solution-2024-updated-bba56dcae003"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-ReactTailwindCSSIsNotWorkingInViteReactSolution2024updated_0.png" />

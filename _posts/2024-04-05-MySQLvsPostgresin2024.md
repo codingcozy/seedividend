@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "MySQL vs Postgres in 2024"
 link: "https://medium.com/dbconvert/mysql-vs-postgres-in-2024-ba44cc07234a"
+isUpdated: true
 ---
+
+
 
 
 

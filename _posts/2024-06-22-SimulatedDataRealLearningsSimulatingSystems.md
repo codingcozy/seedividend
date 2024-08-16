@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simulated Data, Real Learnings : Simulating Systems"
 link: "https://medium.com/towards-data-science/simulated-data-real-learnings-simulating-systems-79374a9379fd"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-SimulatedDataRealLearningsSimulatingSystems_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "I’m Unemployed for Over Two Years (as a software engineer)"
 link: "https://medium.com/@derekcardwell/im-unemployed-for-over-two-years-as-a-software-engineer-bd1ad6f95a54"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-02-ImUnemployedforOverTwoYearsasasoftwareengineer_0.png)

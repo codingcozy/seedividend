@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "6 Framer Motion Loading Animations That Aren’t Totally Boring"
 link: "https://medium.com/@ezhai24/6-framer-motion-loading-animations-that-arent-totally-boring-0d50beedc0d0"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-6FramerMotionLoadingAnimationsThatArentTotallyBoring_0.png" />

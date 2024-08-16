@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Start Coding with Python: 5. Dictionaries (part II)"
 link: "https://medium.com/@audrey_evans/start-coding-with-python-5-dictionaries-part-ii-e9316455f083"
+isUpdated: true
 ---
+
+
 
 
 딕셔너리를 반복하는 방법을 배울 거에요. 딕셔너리는 다양한 방식으로 정보를 저장할 수 있기 때문에, 이를 반복하는 여러 가지 방법이 있어요. 주어진 딕셔너리의 키, 값 또는 모든 키-값 쌍을 반복할 수 있어요.

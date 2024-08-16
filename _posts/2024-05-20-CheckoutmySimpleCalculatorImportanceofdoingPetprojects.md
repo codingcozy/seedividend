@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Check out my Simple Calculator| Importance of doing Pet projects"
 link: "https://medium.com/@dinithoshada2003/check-out-my-simple-calculator-importance-of-doing-pet-projects-78fc593f5caf"
+isUpdated: true
 ---
+
+
 
 
 

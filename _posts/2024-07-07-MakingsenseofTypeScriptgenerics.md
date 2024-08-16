@@ -3,12 +3,15 @@ title: "TypeScript 제네릭 이해하기 쉽게 정리하기"
 description: ""
 coverImage: "/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_0.png"
 date: 2024-07-07 21:53
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_0.png
 tag: Tech
 originalTitle: "Making sense of TypeScript generics"
 link: "https://medium.com/jobteaser-dev-team/making-sense-of-typescript-generics-6b830e66eeff"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-07-07-MakingsenseofTypeScriptgenerics_0.png" />
 

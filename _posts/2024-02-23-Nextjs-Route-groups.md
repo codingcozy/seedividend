@@ -1,5 +1,5 @@
 ---
-title: "Nextjs에서 라우터 폴더들 그룹으로 묶는 방법 Route groups"
+title: "Nextjs에서 라우터 폴더들 그룹으로 묶는 방법(Route groups)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

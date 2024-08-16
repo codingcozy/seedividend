@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS position: fixed is terrible, here’s why"
 link: "https://medium.com/@decketts/css-position-fixed-is-terrible-heres-why-a9b0a87bf154"
+isUpdated: true
 ---
+
+
 
 
 ## 자바스크립트 UI - 개발 블로그 #4

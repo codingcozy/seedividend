@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Discovering the React Compiler: A Fun Journey into Optimized React Magic"
 link: "https://medium.com/@jason13201/discovering-the-react-compiler-a-fun-journey-into-optimized-react-magic-cce65d9a6c06"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요, React 열정가 여러분! 오늘은 새로운 React 컴파일러에 관한 흥미로운 소식을 공유하려고 해요. React 팀에서 나온 이 편리한 도구는 React 앱을 자동으로 최적화해줍니다. 함께 React 컴파일러가 무엇인지, 시작하는 방법, 그리고 한번 시도해볼 가치가 있는 이유에 대해 알아보려고 해요.

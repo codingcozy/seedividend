@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Optimize Your React Native Lists with FlatList: A Performance Guide"
 link: "https://medium.com/stackademic/optimize-your-react-native-lists-with-flatlist-a-performance-guide-e6369d59c8e7"
+isUpdated: true
 ---
+
+
 
 
 소개

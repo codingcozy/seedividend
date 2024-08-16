@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Build These 5 Projects to get better at Web Development"
 link: "https://medium.com/@mohit-vaswani/build-these-5-projects-to-become-a-better-developer-7d60837344b0"
+isUpdated: true
 ---
+
+
 
 
 

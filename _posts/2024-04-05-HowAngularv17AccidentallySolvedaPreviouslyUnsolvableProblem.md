@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How Angular v17 Accidentally Solved a Previously Unsolvable Problem"
 link: "https://javascript.plainenglish.io/how-angular-v17-accidentally-solved-a-previously-unsolvable-problem-14777e78916d"
+isUpdated: true
 ---
+
+
 
 
 

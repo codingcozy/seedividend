@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React , Framer — sequences."
 link: "https://medium.com/@anya./react-framer-sequences-397db9375fb4"
+isUpdated: true
 ---
+
+
 
 
 웹 애플리케이션용 애니메이션 코드 학습 경험을 공유하려 합니다. 웹 애플리케이션을 위해 애니메이션을 코드로 작성하는 데 사용한 몇 가지 간단하고 빠른 기술을 소개하겠습니다.

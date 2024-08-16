@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "the tale of tortoise and hare"
 link: "https://medium.com/@thakuria.mayukh/the-tale-of-tortoise-and-hare-43c55e459a07"
+isUpdated: true
 ---
+
+
 
 
 # 소개

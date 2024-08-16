@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "3 Exciting New Features in TypeScript 5.5"
 link: "https://medium.com/gitconnected/3-exciting-new-features-in-typescript-5-5-53b299090d71"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-3ExcitingNewFeaturesinTypeScript55_0.png" />

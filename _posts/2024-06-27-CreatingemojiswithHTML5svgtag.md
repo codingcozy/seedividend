@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Creating emojis with HTML5 <svg> tag"
 link: "https://medium.com/@hello_im_kvy/creating-emojis-with-html5-svg-tag-d65afbbf01e4"
+isUpdated: true
 ---
+
+
 
 
 이미지를 추가한 코드입니다.

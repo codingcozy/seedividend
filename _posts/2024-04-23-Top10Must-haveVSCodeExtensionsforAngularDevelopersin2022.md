@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 Must-have VSCode Extensions for Angular Developers in 2022"
 link: "https://medium.com/@sasidharansd/top-10-must-have-vscode-extensions-for-angular-developers-in-2022-5a76edfdeeba"
+isUpdated: true
 ---
+
+
 
 
 

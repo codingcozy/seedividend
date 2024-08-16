@@ -3,12 +3,15 @@ title: "한 번의 클릭으로 LLMs가 현실이 되다 - 휴대 가능한 AI�
 description: ""
 coverImage: "/assets/img/2024-07-09-One-clickLLMsarenowarealityRoadtoportableAIpart2_0.png"
 date: 2024-07-09 14:52
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-One-clickLLMsarenowarealityRoadtoportableAIpart2_0.png
 tag: Tech
 originalTitle: "One-click LLMs are now a reality. Road to portable — AI part 2"
 link: "https://medium.com/generative-ai/one-click-llm-are-now-reality-road-to-portable-ai-part-2-04e54702a195"
+isUpdated: true
 ---
+
+
 
 두 가지 이전 기사에서는 특정 버전의 이식 가능한 Python을 만드는 방법과 LlamaFile을 사용하는 방법에 대해 알아보았어요.
 

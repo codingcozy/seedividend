@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Installing , Using Zowe Clients on a New macOS"
 link: "https://medium.com/@dkelosky/installing-using-zowe-clients-on-a-new-macos-d038743885d5"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-17-InstallingUsingZoweClientsonaNewmacOS_0.png" />

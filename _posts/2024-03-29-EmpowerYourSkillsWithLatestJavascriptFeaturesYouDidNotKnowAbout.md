@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Empower Your Skills With Latest Javascript Features You Did Not Know About"
 link: "https://medium.com/@ori.holis/empower-your-skills-with-latest-javascript-features-you-did-not-know-about-c7972ed2ce3a"
+isUpdated: true
 ---
+
+
 
 
 

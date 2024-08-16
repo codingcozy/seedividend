@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Open letter for R"
 link: "https://medium.com/@ddoraimon/open-letter-for-r-b029d5650c9d"
+isUpdated: true
 ---
+
+
 
 
 가슴을 털고 말하고 싶어졌어요. 이제 당신에 대해 언급하는 것은 마지막일 겁니다.

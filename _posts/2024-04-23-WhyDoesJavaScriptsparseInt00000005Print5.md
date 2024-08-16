@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Does JavaScripts parseInt00000005 Print 5"
 link: "https://medium.com/javascript-in-plain-english/why-does-javascripts-parseint-0-0000005-print-5-1d63c8e937c5"
+isUpdated: true
 ---
+
+
 
 
 

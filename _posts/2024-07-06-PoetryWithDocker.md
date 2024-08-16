@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Poetry With Docker"
 link: "https://medium.com/gitconnected/poetry-with-docker-eca8682da020"
+isUpdated: true
 ---
+
+
 
 
 /assets/img/2024-07-06-PoetryWithDocker_0.png

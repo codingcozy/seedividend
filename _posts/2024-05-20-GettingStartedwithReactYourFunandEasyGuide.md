@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with React: Your Fun and Easy Guide”?"
 link: "https://medium.com/@akashkhandelwal1999/getting-started-with-react-your-fun-and-easy-guide-c4d9ed374953"
+isUpdated: true
 ---
+
+
 
 
 - HTML: 웹페이지의 기본 구조를 이해합니다.

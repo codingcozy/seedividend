@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Top 10 Python Interview Questions Every Developer Must Know"
 link: "https://medium.com/top-python-libraries/top-10-python-interview-questions-every-developer-must-know-de7894fb3826"
+isUpdated: true
 ---
+
+
 
 
 ## 파이썬 인터뷰 질문

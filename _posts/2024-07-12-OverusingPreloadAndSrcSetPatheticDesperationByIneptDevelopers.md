@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Overusing Preload And SrcSet ? Pathetic Desperation By Inept Developers?"
 link: "https://medium.com/codex/overusing-preload-and-srcset-pathetic-desperation-by-inept-developers-9c07464ab882"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-OverusingPreloadAndSrcSetPatheticDesperationByIneptDevelopers_0.png" />

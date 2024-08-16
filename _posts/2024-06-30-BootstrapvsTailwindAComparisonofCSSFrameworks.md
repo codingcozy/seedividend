@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bootstrap vs Tailwind: A Comparison of CSS Frameworks"
 link: "https://medium.com/@ubek/bootstrap-vs-tailwind-a-comparison-of-css-frameworks-e2c01e516a9f"
+isUpdated: true
 ---
+
+
 
 
 ![img](/assets/img/2024-06-30-BootstrapvsTailwindAComparisonofCSSFrameworks_0.png)

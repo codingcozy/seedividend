@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Developers Choose Kotlin Over Java for Android Development Nowadays"
 link: "https://medium.com/@royanimesh2211/why-developers-choose-kotlin-over-java-for-android-development-nowadays-9af7bb9d856b"
+isUpdated: true
 ---
+
+
 
 
 

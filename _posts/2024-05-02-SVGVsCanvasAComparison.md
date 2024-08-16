@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "SVG Vs. Canvas: A Comparison"
 link: "https://medium.com/stackanatomy/svg-vs-canvas-a-comparison-1b58e6c84326"
+isUpdated: true
 ---
+
+
 
 
 

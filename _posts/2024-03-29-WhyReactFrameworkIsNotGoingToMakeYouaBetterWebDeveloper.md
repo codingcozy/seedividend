@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why React Framework Is Not Going To Make You a Better Web Developer"
 link: "https://medium.com/@ori.holis/why-react-framework-is-not-going-to-make-you-a-better-web-developer-754529d32911"
+isUpdated: true
 ---
+
+
 
 
 

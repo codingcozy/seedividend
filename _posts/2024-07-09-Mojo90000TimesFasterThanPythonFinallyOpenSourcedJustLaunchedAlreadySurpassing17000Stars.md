@@ -3,12 +3,15 @@ title: "Mojo, Python보다 90,000배 빠르다 드디어 오픈소스 공개 출
 description: ""
 coverImage: "/assets/img/2024-07-09-Mojo90000TimesFasterThanPythonFinallyOpenSourcedJustLaunchedAlreadySurpassing17000Stars_0.png"
 date: 2024-07-09 15:00
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Mojo90000TimesFasterThanPythonFinallyOpenSourcedJustLaunchedAlreadySurpassing17000Stars_0.png
 tag: Tech
 originalTitle: "Mojo, 90,000 Times Faster Than Python, Finally Open Sourced! Just Launched, Already Surpassing 17,000 Stars"
 link: "https://medium.com/stackademic/mojo-90-000-times-faster-than-python-finally-open-sourced-777bdd9a1896"
+isUpdated: true
 ---
+
+
 
 2024년 3월 29일, Modular Inc.은 Mojo의 핵심 구성 요소를 오픈 소스화한다고 발표했습니다.
 

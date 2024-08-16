@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding SQL Triggers"
 link: "https://medium.com/devops-dev/understanding-sql-triggers-36e62492ce09"
+isUpdated: true
 ---
+
+
 
 
 ## Microsoft SQL Server 트리거 탐색

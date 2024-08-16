@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Let’s Revisit Case-When in Different Libraries Including the New Player: Pandas"
 link: "https://medium.com/towards-data-science/lets-revisit-case-when-in-different-libraries-including-the-new-player-pandas-8c4febb979ba"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Measure , outline"
 link: "https://storybook.js.org/docs/essentials/measure-and-outline"
+isUpdated: true
 ---
+
+
 
 
 

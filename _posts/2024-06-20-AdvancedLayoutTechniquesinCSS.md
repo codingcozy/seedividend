@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced Layout Techniques in CSS"
 link: "https://medium.com/@szaranger/advanced-layout-techniques-in-css-38b229c379a1"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Reducing the Size of Docker Images Serving Large Language Models (part 1)"
 link: "https://medium.com/towards-data-science/reducing-the-size-of-docker-images-serving-llm-models-b70ee66e5a76"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-ReducingtheSizeofDockerImagesServingLargeLanguageModelspart1_0.png" />

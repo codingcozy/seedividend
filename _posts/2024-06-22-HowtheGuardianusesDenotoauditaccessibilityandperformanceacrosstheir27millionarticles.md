@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How the Guardian uses Deno to audit accessibility and performance across their 2.7 million articles"
 link: "https://medium.com/@denoland/how-the-guardian-uses-deno-to-audit-accessibility-and-performance-across-their-2-7-million-articles-97bff7edc22f"
+isUpdated: true
 ---
+
+
 
 
 

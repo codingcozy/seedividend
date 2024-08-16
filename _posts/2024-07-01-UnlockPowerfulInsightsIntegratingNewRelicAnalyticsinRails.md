@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unlock Powerful Insights: Integrating New Relic Analytics in Rails"
 link: "https://medium.com/@m.jamil.ajaz/unlock-powerful-insights-integrating-new-relic-analytics-in-rails-6db22345c8c7"
+isUpdated: true
 ---
+
+
 
 
 New Relic은 개발자가 애플리케이션의 상태와 성능을 모니터링할 수 있도록 도와주는 강력한 응용 프로그램 성능 모니터링 (APM) 도구입니다. New Relic 젬은 New Relic의 APM 기능을 Ruby 응용 프로그램에 통합하여 응용 프로그램 성능, 오류 추적 및 자세한 트랜잭션 추적을 제공하는 Ruby 라이브러리입니다.

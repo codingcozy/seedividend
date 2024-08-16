@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Configuring Absolute Paths to your TS for Cleaner Code"
 link: "https://medium.com/@akhshyganesh/configuring-absolute-paths-your-ts-for-cleaner-code-bdaf81e01736"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요, 이 DIY 프로젝트에 오신 것을 환영합니다,

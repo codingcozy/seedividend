@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular 17 Call REST API"
 link: "https://medium.com/@codewithmrnerd/angular-17-call-rest-api-d356897eb661"
+isUpdated: true
 ---
+
+
 
 
 이번 튜토리얼에서는 Angular 17에서 REST API에서 데이터를 가져오는 방법을 배울 거예요. HTTP 클라이언트와 독립 컴포넌트를 사용할 거에요.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Scalable Mobile Apps with Go, Flutter, and Firebase"
 link: "https://medium.com/@charan.arch/building-scalable-mobile-apps-with-go-flutter-and-firebase-f7533764e780"
+isUpdated: true
 ---
+
+
 
 
 

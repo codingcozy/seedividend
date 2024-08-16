@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Pulumi VS Terraform: The Definitive Guide to Choosing Your IaC Tool"
 link: "https://medium.com/gitguardian/pulumi-vs-terraform-the-definitive-guide-to-choosing-your-iac-tool-6be9081aa6e7"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-16-PulumiVSTerraformTheDefinitiveGuidetoChoosingYourIaCTool_0.png" />

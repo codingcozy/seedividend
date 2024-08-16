@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React Compiler is almost here and it is Exciting!"
 link: "https://medium.com/design-bootcamp/react-compiler-is-almost-here-and-it-is-exciting-758ec51d45af"
+isUpdated: true
 ---
+
+
 
 
 Meet Jay, he is a budding Frontend Engineer and has been working with React for a few months. Recently, he raised a Pull Request where he is fetching a list of todos and displaying it on the UI —

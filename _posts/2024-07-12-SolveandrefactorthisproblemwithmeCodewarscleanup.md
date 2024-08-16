@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Solve and refactor this problem with me (Codewars cleanup)."
 link: "https://medium.com/gitconnected/solve-and-refactor-this-problem-with-me-codewars-cleanup-fd214a49e370"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "플러터에서의 마이크로 프론트엔드 모듈화 응용 프로�
 description: ""
 coverImage: "/assets/img/2024-05-27-MicroFrontendsinFlutterModularizationApplication-Part2_0.png"
 date: 2024-05-27 19:17
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-MicroFrontendsinFlutterModularizationApplication-Part2_0.png
 tag: Tech
 originalTitle: "Micro Frontends in Flutter: Modularization Application -Part 2"
 link: "https://medium.com/@tungnd.dev/micro-frontends-in-flutter-modularization-application-part-2-e15c72ca2555"
+isUpdated: true
 ---
+
+
 
 이전 부분에서는 장단점을 논의하고 구현해야 할 아이디어를 기록했습니다. 이 기사를 처음으로 본 독자들도 있을 것이므로, 우선 part 1을 읽어보세요. 물론, 다시 언급해야 할 부분이 있어요. 시작하기 전에 모두 완료해야 할 체크리스트가 있는지 확인하세요.
 

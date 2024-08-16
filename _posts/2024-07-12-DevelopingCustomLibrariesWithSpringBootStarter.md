@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Developing Custom Libraries With Spring Boot Starter"
 link: "https://medium.com/better-programming/developing-custom-libraries-with-spring-boot-starter-cf463a5eca39"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-07-12-DevelopingCustomLibrariesWithSpringBootStarter_0.png)

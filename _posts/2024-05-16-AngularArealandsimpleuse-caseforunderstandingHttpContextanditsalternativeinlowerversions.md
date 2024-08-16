@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular: A real and simple use-case for understanding HttpContext and its alternative in lower versions"
 link: "https://medium.com/@ramya-bala221190/angular-a-real-and-simple-use-case-for-understanding-httpcontext-and-its-alternative-in-lower-65dc1ceeeaa4"
+isUpdated: true
 ---
+
+
 
 
 이런 경우를 겪어 보셨나요? HTTP 요청들에 대해 캐싱, 스피너 보여주지 않기, 오류 추적하기 등의 작업을 대부분의 요청에 대해 수행하고 싶지만, 일부 요청에는 이 작업을 실행하고 싶지 않거나 그 반대로 수행하고 싶지 않은 경우가 있습니다.

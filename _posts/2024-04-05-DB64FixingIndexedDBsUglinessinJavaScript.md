@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "DB64 Fixing IndexedDBs Ugliness in JavaScript"
 link: "https://medium.com/@julienetienne/db64-fixing-indexeddbs-ugliness-in-javascript-1f0b9a8bedb2"
+isUpdated: true
 ---
+
+
 
 
 

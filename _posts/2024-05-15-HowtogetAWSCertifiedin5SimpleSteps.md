@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to get AWS Certified in 5 Simple Steps"
 link: "https://medium.com/@neal-davis/how-to-get-aws-certified-in-5-simple-steps-c3969d8ae951"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-HowtogetAWSCertifiedin5SimpleSteps_0.png" />

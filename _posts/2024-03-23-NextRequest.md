@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "다음 요청"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

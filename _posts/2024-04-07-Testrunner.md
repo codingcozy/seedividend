@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Test runner"
 link: "https://storybook.js.org/docs/writing-tests/test-runner"
+isUpdated: true
 ---
+
+
 
 
 

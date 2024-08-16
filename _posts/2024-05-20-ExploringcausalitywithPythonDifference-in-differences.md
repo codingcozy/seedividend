@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Exploring causality with Python. Difference-in-differences"
 link: "https://medium.com/towards-data-science/exploring-causality-in-python-difference-in-differences-90179fe71e62"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-20-ExploringcausalitywithPythonDifference-in-differences_0.png" />

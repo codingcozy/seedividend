@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using environment variables in React"
 link: "https://medium.com/@trekinbami/using-environment-variables-in-react-6b0a99d83cf5"
+isUpdated: true
 ---
+
+
 
 
 서버 측 프로그래밍 배경이 없으면 환경 변수는 마법 같은 존재일 수 있어요. 이 지식 부족 때문에 로컬 환경에서 할 일 앱을 만든 뒤, 처음으로 프로덕션 빌드를 만들려고 하면 갑자기 좌절감이 밀릴 수 있어요.

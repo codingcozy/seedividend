@@ -3,12 +3,15 @@ title: "스파크 최적화 집중 강좌 최고의 성능을 위한 단계별 �
 description: ""
 coverImage: "/assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png"
 date: 2024-07-09 20:14
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png
 tag: Tech
 originalTitle: "Intensive Spark Optimization Course"
 link: "https://medium.com/@kevinchwong/intensive-spark-optimization-course-082bdd0592bc"
+isUpdated: true
 ---
+
+
 
 ![Intensive Spark Optimization Course](/assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png)
 

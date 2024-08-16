@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing Dark Mode with CSS and JavaScript"
 link: "https://medium.com/@volodymyrzh/implementing-dark-mode-with-css-and-javascript-fd3b2105e081"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-ImplementingDarkModewithCSSandJavaScript_0.png" />

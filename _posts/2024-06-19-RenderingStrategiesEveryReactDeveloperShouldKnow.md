@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rendering Strategies: Every React Developer Should Know"
 link: "https://medium.com/@oguzkilic/rendering-strategies-every-react-developer-should-know-2f9e8ed04b93"
+isUpdated: true
 ---
+
+
 
 
 

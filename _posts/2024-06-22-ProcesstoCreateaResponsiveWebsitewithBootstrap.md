@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Process to Create a Responsive Website with Bootstrap"
 link: "https://medium.com/@leeddev/process-to-create-a-responsive-website-with-bootstrap-d612ff3ede1f"
+isUpdated: true
 ---
+
+
 
 
 

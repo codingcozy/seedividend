@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Micro-front-end with React JS"
 link: "https://medium.com/@issam.eddine.bouhoush/micro-front-end-with-react-js-85651f238ed9"
+isUpdated: true
 ---
+
+
 
 
 

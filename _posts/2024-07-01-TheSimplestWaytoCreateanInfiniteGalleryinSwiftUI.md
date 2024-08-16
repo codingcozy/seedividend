@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "The Simplest Way to Create an Infinite Gallery in SwiftUI"
 link: "https://medium.com/@max00d/the-simplest-way-to-create-an-infinite-gallery-in-swiftui-b8b202c480c8"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분! iOS 앱에서 무한 갤러리를 만들어야 하는 일이 있었나요? 사진 목록이나 배송 앱에서 제품 목록을 만들 때 이런 필요성을 마주할 수 있습니다. 이 짧은 글에서는 가장 정확하고 간단한 방법을 보여드리겠습니다.

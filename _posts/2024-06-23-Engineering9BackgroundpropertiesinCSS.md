@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Engineering: 9 Background properties in CSS"
 link: "https://medium.com/@naqvishahwar120/engineering-9-background-properties-in-css-c9be68206ffe"
+isUpdated: true
 ---
+
+
 
 
 공학 (CSS)

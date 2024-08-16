@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using ESLint + Husky + Lint-staged"
 link: "https://medium.com/@bkn020612/using-eslint-husky-lint-staged-6d6609b02fc2"
+isUpdated: true
 ---
+
+
 
 
 저는 새로운 회사에 프론트엔드 개발자로 합류했어요!

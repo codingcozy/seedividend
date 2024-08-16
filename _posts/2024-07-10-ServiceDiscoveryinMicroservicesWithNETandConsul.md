@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Service Discovery in Microservices With .NET and Consul"
 link: "https://medium.com/@MilanJovanovicTech/service-discovery-in-microservices-with-net-and-consul-9eb133d69cd4"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-07-10-ServiceDiscoveryinMicroservicesWithNETandConsul_0.png)

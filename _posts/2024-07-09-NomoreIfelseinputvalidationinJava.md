@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "No more If else input validation in Java"
 link: "https://medium.com/@vishvakalhara/no-more-if-else-input-validation-in-java-ccdc931439f9"
+isUpdated: true
 ---
+
+
 
 
 우리가 직접 모든 입력을 유효성 검사해야 하는 걸까요?

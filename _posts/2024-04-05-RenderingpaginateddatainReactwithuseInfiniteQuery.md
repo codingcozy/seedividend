@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Rendering paginated data in React with useInfiniteQuery"
 link: "https://medium.com/@seeusimong/rendering-paginated-data-in-react-with-useinfinitequery-ece9771ec3a3"
+isUpdated: true
 ---
+
+
 
 
 

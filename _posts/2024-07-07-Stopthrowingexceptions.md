@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stop throwing exceptions!"
 link: "https://medium.com/@joostklitsie/stop-throwing-exceptions-4282c8472027"
+isUpdated: true
 ---
+
+
 
 
 이제 당신의 주의를 끈 것 같으니, 이 기사가 실제로 말하고 싶은 내용을 구체적으로 명시해보겠습니다: 예외를 던지지 말아주세요!

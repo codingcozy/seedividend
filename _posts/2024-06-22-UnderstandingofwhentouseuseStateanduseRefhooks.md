@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding of when to use useState() and useRef() hooks"
 link: "https://medium.com/@rdhamnaskar11/understanding-of-when-to-use-usestate-and-useref-hooks-6f7f60f79c82"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-22-UnderstandingofwhentouseuseStateanduseRefhooks_0.png" />

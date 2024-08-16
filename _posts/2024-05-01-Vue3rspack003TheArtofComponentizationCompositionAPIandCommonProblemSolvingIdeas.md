@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Vue3 + rspack 003 The Art of Componentization (Composition API) and Common Problem Solving Ideas"
 link: "https://medium.com/@beckmoulton/vue3-rspack-003-the-art-of-componentization-composition-api-and-common-problem-solving-ideas-7a7f816d4d6a"
+isUpdated: true
 ---
+
+
 
 
 # Vue3 + rspack 003: 컴포넌트화의 기술 (Composition API) 및 일반적인 문제 해결 아이디어

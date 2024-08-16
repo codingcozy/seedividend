@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Element implicitly has an ‘any’ type because expression of type ‘string’ can’t be used to index type WTF ???"
 link: "https://medium.com/@borzifrancesco/element-implicitly-has-an-any-type-because-expression-of-type-string-can-t-be-used-to-index-051bf439b7a9"
+isUpdated: true
 ---
+
+
 
 
 만약 TypeScript를 사용해 보셨다면, 다음과 같은 컴파일 에러를 만날 기회가 많을 것입니다:

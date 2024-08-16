@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why Sticking with TypeScripts private Keyword Trumps Using JavaScripts  Prefix for Privacy"
 link: "https://medium.com/stackademic/why-sticking-with-typescripts-private-keyword-trumps-using-javascripts-prefix-for-privacy-deba0f4026f0"
+isUpdated: true
 ---
+
+
 
 
 

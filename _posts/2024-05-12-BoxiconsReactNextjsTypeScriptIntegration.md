@@ -3,12 +3,15 @@ title: "React Nextjs에서 Boxicons 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-12-BoxiconsReactNextjsTypeScriptIntegration_0.png"
 date: 2024-05-12 19:24
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-12-BoxiconsReactNextjsTypeScriptIntegration_0.png
 tag: Tech
 originalTitle: "Boxicons — React Next.js + TypeScript Integration"
 link: "https://medium.com/@michaelquarcoo04/boxicons-react-next-js-typescript-integration-87216f00d594"
+isUpdated: true
 ---
+
+
 
 <img src="/assets/img/2024-05-12-BoxiconsReactNextjsTypeScriptIntegration_0.png" />
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Modals with HTML <dialog> element in JavaScript and React"
 link: "https://medium.com/@dimterion/modals-with-html-dialog-element-in-javascript-and-react-fb23c885d62e"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-02-ModalswithHTMLdialogelementinJavaScriptandReact_0.png)

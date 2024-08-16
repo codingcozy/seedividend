@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to showcase a widget in Flutter?"
 link: "https://medium.com/nonstopio/how-to-showcase-a-widget-in-flutter-3b0a25fac1bb"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-27-HowtoshowcaseawidgetinFlutter_0.png" />

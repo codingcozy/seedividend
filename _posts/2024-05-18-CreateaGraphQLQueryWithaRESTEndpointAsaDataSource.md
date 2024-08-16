@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create a GraphQL Query With a REST Endpoint As a Data Source"
 link: "https://medium.com/javascript-in-plain-english/create-a-graphql-query-with-a-rest-endpoint-as-a-data-source-fc21ae95a441"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-18-CreateaGraphQLQueryWithaRESTEndpointAsaDataSource_0.png)

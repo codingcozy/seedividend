@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Why HTML-First Backend Development is Still a Smart Choice for Web Apps"
 link: "https://medium.com/@cannon_circuit/why-html-first-backend-development-is-still-a-smart-choice-for-web-apps-6a129a46e4f9"
+isUpdated: true
 ---
+
+
 
 
 

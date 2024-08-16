@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Anthropic Claude V3 Function Calling"
 link: "https://medium.com/gitconnected/anthropic-claude-v3-function-calling-2c7b5dc8f715"
+isUpdated: true
 ---
+
+
 
 
 이 기사에서는 Anthropics의 새로운 Claude V3 Opus 모델이 제시하는 질문에 대한 응답을 향상시키기 위해 함수 호출을 사용하는 방법을 보여드리겠습니다. 이를 위해서는 API 키를 받아와서 LLM의 API와 함께 사용해야 합니다.

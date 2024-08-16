@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Stop using JavaScript"
 link: "https://medium.com/javascript-in-plain-english/stop-using-javascript-3ed7d154e24b"
+isUpdated: true
 ---
+
+
 
 
 ![Table](/assets/img/2024-06-23-StopusingJavaScript_0.png)

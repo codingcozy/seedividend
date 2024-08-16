@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Unleashing Creativity with AI Top5 Figma Plugins to Revolutionize Your Design Workflow"
 link: "https://bootcamp.uxdesign.cc/unleashing-creativity-with-ai-top5-figma-plugins-to-revolutionize-your-design-workflow-f7d7ee9bbd4c"
+isUpdated: true
 ---
+
+
 
 
 

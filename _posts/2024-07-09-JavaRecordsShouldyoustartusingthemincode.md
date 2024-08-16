@@ -3,12 +3,15 @@ title: "자바 레코드 코드에서 사용을 시작해야 하는 이유는"
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-09 22:02
-ogImage:
+ogImage: 
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Java Records: Should you start using them in code ?"
 link: "https://medium.com/@abhijeet.gite/java-records-should-you-start-using-them-in-code-2b4b7d75be84"
+isUpdated: true
 ---
+
+
 
 # 소개
 

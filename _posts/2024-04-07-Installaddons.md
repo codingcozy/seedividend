@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Install addons"
 link: "https://storybook.js.org/docs/addons/install-addons"
+isUpdated: true
 ---
+
+
 
 
 

@@ -3,12 +3,15 @@ title: "사람들이 거의 사용하지 않는 10개의 희귀 HTML 태그"
 description: ""
 coverImage: "/assets/img/2024-07-07-10rareHTMLtagsthatnobodyeveruses_0.png"
 date: 2024-07-07 02:18
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-07-10rareHTMLtagsthatnobodyeveruses_0.png
 tag: Tech
 originalTitle: "10 rare HTML tags that nobody ever uses"
 link: "https://medium.com/coding-beauty/rare-html-tags-e838a5444c40"
+isUpdated: true
 ---
+
+
 
 ![Rare HTML Tags](/assets/img/2024-07-07-10rareHTMLtagsthatnobodyeveruses_0.png)
 

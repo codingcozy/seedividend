@@ -3,12 +3,15 @@ title: "안녕 SASS , 다시 만난 native CSS 이유와 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-GoodbyeSASSwelcomebacknativeCSS_0.png"
 date: 2024-07-06 02:19
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-06-GoodbyeSASSwelcomebacknativeCSS_0.png
 tag: Tech
 originalTitle: "Goodbye SASS 👋, welcome back native CSS"
 link: "https://medium.com/@karstenbiedermann/goodbye-sass-welcome-back-native-css-b3beb096d2b4"
+isUpdated: true
 ---
+
+
 
 /assets/img/2024-07-06-GoodbyeSASSwelcomebacknativeCSS_0.png
 

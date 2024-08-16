@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dynamically Show or Hide Content in Angular Using Query Parameters and Route Conditions"
 link: "https://medium.com/@Prathmesh_Chavan/dynamically-show-or-hide-content-in-angular-using-query-parameters-and-route-conditions-1b870d2648c1"
+isUpdated: true
 ---
+
+
 
 
 현대 웹 애플리케이션에서는 현재 경로나 쿼리 매개변수에 따라 동적 콘텐츠가 필요한 경우가 일반적입니다. 이 게시물에서는 Angular 애플리케이션에서 쿼리 매개변수 및 경로 조건을 사용하여 요소를 조건부로 표시하는 방법을 보여드리겠습니다. 홈 페이지에서는 검색 창이 표시되지만 프로필 페이지에서는 숨겨지는 실제 예제를 통해 안내해 드리겠습니다.

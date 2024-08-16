@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "OpenAI Just Unveiled The Best AI Model: GPT-4o"
 link: "https://medium.com/artificial-corner/openai-just-unveiled-the-best-ai-model-gpt-4o-e6ddf36cd793"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-OpenAIJustUnveiledTheBestAIModelGPT-4o_0.png" />

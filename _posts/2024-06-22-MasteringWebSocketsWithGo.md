@@ -3,12 +3,15 @@ title: "Go 언어로 WebSockets 완벽하게 마스터하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-MasteringWebSocketsWithGo_0.png"
 date: 2024-06-22 13:52
-ogImage:
+ogImage: 
   url: /assets/img/2024-06-22-MasteringWebSocketsWithGo_0.png
 tag: Tech
 originalTitle: "Mastering WebSockets With Go"
 link: "https://medium.com/towards-data-science/mastering-websockets-with-go-c30d0ac48081"
+isUpdated: true
 ---
+
+
 
 ![웹 소켓 사용 방법](/assets/img/2024-06-22-MasteringWebSocketsWithGo_0.png)
 

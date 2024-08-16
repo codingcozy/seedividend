@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "AWS Bedrock: Cloud-based Generative AI"
 link: "https://medium.com/@pranavsanotra/aws-bedrock-cloud-based-generative-ai-23694dfce3d7"
+isUpdated: true
 ---
+
+
 
 
 

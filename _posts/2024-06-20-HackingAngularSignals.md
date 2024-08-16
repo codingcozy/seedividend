@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hacking Angular Signals"
 link: "https://medium.com/@eugeniyoz/hacking-angular-signals-42e4c3afba04"
+isUpdated: true
 ---
+
+
 
 
 앵귤러 시그널이 무엇인지 살펴보고, 기능을 확장하고 디버깅하는 데 어떻게 활용할 수 있는지 알아봅시다.

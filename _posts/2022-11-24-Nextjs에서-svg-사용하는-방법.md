@@ -1,5 +1,5 @@
 ---
-title: "Nextjs에서 svg파일 사용하는 방법 2024년 8월 최신"
+title: "Nextjs에서 svg파일을 사용하는 방법 2024년 8월 최신"
 description: "Nextjs에서 svg파일을 사용하는 방법에 대해서 정리합니다"
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

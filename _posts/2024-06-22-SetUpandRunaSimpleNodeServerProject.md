@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Set Up and Run a Simple Node Server Project"
 link: "https://medium.com/gitconnected/set-up-and-run-a-simple-node-server-project-38b403a3dc09"
+isUpdated: true
 ---
+
+
 
 
 컴퓨터 프로그래밍을 거의 3년째 배우고 있는데, 다른 개발자들을 도울 기술적 지식이 생겨났어요. 그래서 내가 잘 알고 있는 내용을 적어놓아 기억에 도움이 되고 다른 사람들에게도 참고할 수 있게 하려고 했어요. 그래서 뭔가를 시작하기로 했고, 간단하게 시작해보려고 하는데요, Node 애플리케이션을 사용하여 요청에 정적 파일로 응답하는 것부터 시작하려고 해요. 실제로는 경험이 많은 개발자들에게는 간단해 보일 수 있지만, 저는 이 부분을 조금 더 자세히 설명해볼 거에요. 왜냐하면 최소한의 웹 개발 지식이 있는 사람도 이 Node 앱을 시작하고 다음으로 진행할 재미있는 것들에 굳은 기초를 쌓을 수 있도록 하고 싶거든요. 물론 모든 것을 설명할 수는 없어서, 알고 싶다면 때로는 더 배울 수 있는 곳으로 보내줄게요.

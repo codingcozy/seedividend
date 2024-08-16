@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "NinjaCart SDE 2 frontend Interview Exp"
 link: "https://medium.com/@prikshit8/ninjacart-sde-2-frontend-interview-exp-d84801a02e5c"
+isUpdated: true
 ---
+
+
 
 
 친구로부터 닌자카트 인재영입 담당자의 전화번호를 받았어요

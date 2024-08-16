@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Angular Forms new unified control state change events"
 link: "https://medium.com/@davidepassafaro/angular-forms-new-unified-control-state-change-events-9e8e361c4777"
+isUpdated: true
 ---
+
+
 
 
 Angular v18의 릴리스는 프레임워크에 흥미로운 새로운 기능과 개선 사항을 도입했습니다.

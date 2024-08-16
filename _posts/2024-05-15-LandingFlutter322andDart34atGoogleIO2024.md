@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Landing Flutter 3.22 and Dart 3.4 at Google I O 2024"
 link: "https://medium.com/flutter/io24-5e211f708a37"
+isUpdated: true
 ---
+
+
 
 
 ## 플러터 웹 앱의 주요 이정표, 그래픽 성능 업그레이드, 생산성 실험 등

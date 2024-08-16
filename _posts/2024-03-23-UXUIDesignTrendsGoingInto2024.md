@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "UX UI Design Trends Going Into 2024"
 link: "https://blog.prototypr.io/ux-ui-design-trends-going-into-2024-ca43a839b541"
+isUpdated: true
 ---
+
+
 
 
 

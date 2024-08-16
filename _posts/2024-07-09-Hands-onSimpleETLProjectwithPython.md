@@ -3,12 +3,15 @@ title: "Python을 사용한 간단한 ETL 프로젝트 실습 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png"
 date: 2024-07-09 09:08
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png
 tag: Tech
 originalTitle: "Hands-on Simple ETL Project with Python"
 link: "https://medium.com/@hagermahmoud20202/hands-on-simple-etl-project-with-python-2013f05414a7"
+isUpdated: true
 ---
+
+
 
 # 개요
 

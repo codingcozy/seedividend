@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Building Scalable Microservices: Creating a GRPC Service with Go and Consuming it in a React App via Envoy"
 link: "https://medium.com/@digvijay17july/building-scalable-microservices-creating-a-grpc-service-with-go-and-consuming-it-in-a-react-app-1de3c4385c05"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-14-BuildingScalableMicroservicesCreatingaGRPCServicewithGoandConsumingitinaReactAppviaEnvoy_0.png" />

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Flutter What actually is Dart Records"
 link: "https://medium.com/@marcoedomingos/flutter-what-actually-is-dart-records-1054aaab38ca"
+isUpdated: true
 ---
+
+
 
 
 

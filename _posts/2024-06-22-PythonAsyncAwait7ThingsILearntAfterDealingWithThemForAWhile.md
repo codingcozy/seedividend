@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python Async Await — 7 Things I Learnt After Dealing With Them For A While"
 link: "https://medium.com/gitconnected/python-async-await-7-things-i-learnt-after-dealing-with-them-for-a-while-86c1559e3c15"
+isUpdated: true
 ---
+
+
 
 
 

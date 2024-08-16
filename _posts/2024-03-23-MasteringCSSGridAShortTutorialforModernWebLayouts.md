@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering CSS Grid A Short Tutorial for Modern Web Layouts"
 link: "https://medium.com/@MakeComputerScienceGreatAgain/mastering-css-grid-a-short-tutorial-for-modern-web-layouts-a69f1025639e"
+isUpdated: true
 ---
+
+
 
 
 

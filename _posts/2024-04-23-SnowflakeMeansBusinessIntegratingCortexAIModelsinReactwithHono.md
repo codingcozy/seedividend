@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Snowflake Means Business Integrating Cortex AI Models in React with Hono"
 link: "https://medium.com/@kaarthikandavar/snowflake-means-business-integrating-cortex-ai-models-in-react-with-hono-1cf0fcbf2024"
+isUpdated: true
 ---
+
+
 
 
 

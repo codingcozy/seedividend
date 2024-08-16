@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "React API Fetching: Simplifying the Process with Five Methods"
 link: "https://medium.com/@dwslalit/react-api-fetching-simplifying-the-process-with-five-methodsintroduction-00d0b49ffc61"
+isUpdated: true
 ---
+
+
 
 
 

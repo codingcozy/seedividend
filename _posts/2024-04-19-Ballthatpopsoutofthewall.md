@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Ball that pops out of the wall"
 link: "https://medium.com/@hayavuk/ball-that-pops-out-of-the-wall-7633d4a4f672"
+isUpdated: true
 ---
+
+
 
 
 

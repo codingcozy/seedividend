@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Bootstrap Fundamentals — Mastering Responsive Web Design with Bootstrap Containers #1"
 link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive-web-design-with-bootstrap-containers-1-0dd1253a4a33"
+isUpdated: true
 ---
+
+
 
 
 

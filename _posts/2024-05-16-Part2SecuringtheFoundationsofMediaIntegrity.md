@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Part 2: Securing the Foundations of Media Integrity"
 link: "https://medium.com/@soltrinox/securing-the-foundations-of-media-integrity-1092a1cb544a"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-16-Part2SecuringtheFoundationsofMediaIntegrity_0.png)

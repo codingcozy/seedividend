@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to Easily Automate Web Scraping with a Simple Data Pipeline"
 link: "https://medium.com/data-and-beyond/how-to-easily-automate-web-scraping-with-a-simple-data-pipeline-917d0a692472"
+isUpdated: true
 ---
+
+
 
 
 # I. 웹 스크래핑 방법

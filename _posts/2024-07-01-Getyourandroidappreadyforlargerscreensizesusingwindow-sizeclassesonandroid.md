@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Get your android app ready for larger screen sizes using window-size classes on android"
 link: "https://medium.com/@mubaraknative/get-your-android-app-ready-for-larger-screen-sizes-using-window-size-classes-on-android-1663d1a77423"
+isUpdated: true
 ---
+
+
 
 
 ## 왜 우리는 더 큰 화면 크기를 지원해야 할까요?

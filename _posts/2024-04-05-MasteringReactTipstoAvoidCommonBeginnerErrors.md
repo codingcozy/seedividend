@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering React Tips to Avoid Common Beginner Errors"
 link: "https://medium.com/@megha.kumari_63653/mastering-react-tips-to-sidestep-common-beginner-errors-72b1470e8d77"
+isUpdated: true
 ---
+
+
 
 
 

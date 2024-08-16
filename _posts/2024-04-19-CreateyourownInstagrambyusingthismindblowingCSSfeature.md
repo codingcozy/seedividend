@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Create your own Instagram by using this mindblowing CSS feature"
 link: "https://medium.com/gitconnected/create-your-own-instagram-by-using-this-mindblowing-css-feature-6f48d3bcb13e"
+isUpdated: true
 ---
+
+
 
 
 

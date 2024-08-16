@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "🗞️ DevTips Weekly — Issue #5"
 link: "https://medium.com/@zarinfam/%EF%B8%8F-devtips-weekly-issue-5-3fe204e25a6e"
+isUpdated: true
 ---
+
+
 
 
 이번 주의 데브팁 주간 이슈에 오신 것을 환영합니다! 📰 이번 주에는 최신 기술 소식을 담은 몇 가지 선별된 기사와 리소스가 포함되어 있습니다. 지난 주에 발표된 이 기사들을 함께 살펴보세요:

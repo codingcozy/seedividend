@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS best practices you should know"
 link: "https://medium.com/@paulohfev/css-best-practices-you-should-know-374c388a00dd"
+isUpdated: true
 ---
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "React uncontrolled input to be controlled 에러 해결 방법100 됨"
+title: "React uncontrolled input to be controlled 에러 해결 방법(무조건 됨)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: ""
 link: ""
+isUpdated: true
 ---
+
+
 
 
 

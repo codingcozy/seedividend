@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "There is no box model in CSS — and this is why HTML tables are a disgrace"
 link: "https://medium.com/@decketts/there-is-no-box-model-in-css-and-this-is-why-html-tables-are-a-disgrace-9407dfbce823"
+isUpdated: true
 ---
+
+
 
 
 ## 자바스크립트 UI — 개발 블로그 #9

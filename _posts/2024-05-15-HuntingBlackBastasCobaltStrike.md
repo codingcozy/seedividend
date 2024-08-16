@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Hunting Black Basta’s Cobalt Strike"
 link: "https://medium.com/@Intel_Ops/hunting-black-bastas-cobalt-strike-96a81a6ea781"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-15-HuntingBlackBastasCobaltStrike_0.png" />

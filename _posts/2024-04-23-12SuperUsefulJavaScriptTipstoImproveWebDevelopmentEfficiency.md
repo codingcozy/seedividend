@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "12 Super Useful JavaScript Tips to Improve Web Development Efficiency"
 link: "https://medium.com/javascript-in-plain-english/12-super-useful-javascript-tips-to-improve-web-development-efficiency-5b39511e76f4"
+isUpdated: true
 ---
+
+
 
 
 

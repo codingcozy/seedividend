@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "서버 측 렌더링 SSR"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

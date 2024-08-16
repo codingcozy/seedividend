@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dockerizing a Rust application with Multi-Stage Builds"
 link: "https://medium.com/@ams_132/dockerizing-a-rust-application-with-multi-stage-builds-31ac8a5ce7c7"
+isUpdated: true
 ---
+
+
 
 
 한국에서 여행 전문가인데요! 러스트 어플리케이션을 위한 최소 이미지 크기로 Docker 이미지 만들기 ⚒️

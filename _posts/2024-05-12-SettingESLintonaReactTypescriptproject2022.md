@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Setting ESLint on a React Typescript project (2022)"
 link: "https://medium.com/@andrebnassis/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-05-12-SettingESLintonaReactTypescriptproject2022_0.png" />

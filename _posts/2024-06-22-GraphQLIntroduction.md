@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "GraphQL: Introduction"
 link: "https://medium.com/@sanjanahumanintech/graphql-introduction-e422185b0a85"
+isUpdated: true
 ---
+
+
 
 
 아래는 위에 나타낸 html 태그를 Markdown 형식으로 변경한 것입니다.

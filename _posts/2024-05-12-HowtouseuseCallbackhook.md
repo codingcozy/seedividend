@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to use useCallback() hook"
 link: "https://medium.com/@dev_one/how-to-use-usecallback-hook-35dc047aee48"
+isUpdated: true
 ---
+
+
 
 
 ## useCallback()을 사용하여 React 컴포넌트의 성능을 향상시키세요.

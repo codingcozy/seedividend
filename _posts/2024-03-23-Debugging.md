@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "디버깅"
 link: "undefined"
+isUpdated: true
 ---
+
+
 
 
 

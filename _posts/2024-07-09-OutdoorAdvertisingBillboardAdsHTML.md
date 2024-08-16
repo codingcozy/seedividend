@@ -3,12 +3,15 @@ title: "HTML로 제작하는 야외 광고 및 빌보드 광고 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-OutdoorAdvertisingBillboardAdsHTML_0.png"
 date: 2024-07-09 09:01
-ogImage:
+ogImage: 
   url: /assets/img/2024-07-09-OutdoorAdvertisingBillboardAdsHTML_0.png
 tag: Tech
 originalTitle: "Outdoor Advertising , Billboard Ads HTML"
 link: "https://medium.com/@gridgenius99/outdoor-advertising-billboard-ads-html-1cf7d803f984"
+isUpdated: true
 ---
+
+
 
 🔍 Outdoor Advertising & Billboard Ads HTML을 확인해보세요! 📁 사이트 템플릿과 웹 템플릿 라이브러리를 탐색하고, 여기에서 🆓 무료 다운로드 혜택을 받으세요. 함께 제작을 시작해봐요! 🚀
 

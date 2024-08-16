@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Interview Concepts on JavaScript Functions"
 link: "https://medium.com/@prakash_pun/interview-concepts-on-javascript-functions-c69dc844fd46"
+isUpdated: true
 ---
+
+
 
 
 ![image](/assets/img/2024-05-14-InterviewConceptsonJavaScriptFunctions_0.png)

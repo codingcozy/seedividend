@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Real User Monitoring(RUM)"
 link: "https://medium.com/@anilvermaspeaks/real-user-monitoring-rum-aa96d5858788"
+isUpdated: true
 ---
+
+
 
 
 애플리케이션의 최종 사용자 경험을 추적하고 측정합니다. 앱 성능 및 API 호출에 소요된 시간을 파악합니다. 웹사이트의 최종 사용자 경험을 향상시키는 데 도움이 되는 실행 가능한 데이터 중심 세부 정보를 제공합니다.

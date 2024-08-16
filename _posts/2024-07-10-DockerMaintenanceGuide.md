@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Docker Maintenance Guide"
 link: "https://medium.com/gitconnected/docker-maintenance-guide-91dabdfe8960"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-10-DockerMaintenanceGuide_0.png" />

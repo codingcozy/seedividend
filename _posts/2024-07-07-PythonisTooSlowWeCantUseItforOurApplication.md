@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python is Too Slow… We Can’t Use It for Our Application"
 link: "https://medium.com/@danielbuilescu/python-is-too-slow-we-cant-use-it-for-our-application-a5c8bdec41fd"
+isUpdated: true
 ---
+
+
 
 
 안녕하세요 여러분, 다니엘 부일레스쿠입니다. 프리랜서 웹 개발자이자 에이전시 소유자로서, 다양한 팀 역학을 경험해왔어요. 그중에서도 인상적이었던 이야기가 있어요. 새로운 기술을 주도하는 팀 리더를 설득하여 웹 앱에 파이썬을 사용하도록 한 적이 있어요. 그 분은 항상 최신이며 눈부신 도구를 찾아내려는 리더였는데, 때때로 그것이 일에 가장 적합한 것은 아니더라도 말이에요. 이 프로젝트도 예외는 아니었어요. 속도에 관해서만 얘기하던 그 분은 파이썬 아이디어에 처음에는 반대했죠. 어떻게 그의 마음을 바꿨는지 (그리고 아마 여러분의 것도) 이야기할게요!

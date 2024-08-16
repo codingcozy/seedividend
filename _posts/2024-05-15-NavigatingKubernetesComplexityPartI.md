@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating Kubernetes Complexity (Part I)"
 link: "https://medium.com/pipedrive-engineering/navigating-kubernetes-complexity-part-i-37781d4b3ecf"
+isUpdated: true
 ---
+
+
 
 
 요즘 몇 년 동안 K8s 클러스터의 성장을 목격했습니다. 종종 서비스와 그를 사용하는 기업들... 실패하고 있다는 것을 보게 됩니다. 이러한 애플리케이션들은 작게 시작하여 유기적으로 성장하고 나중에는 느려지기 시작합니다. 디버깅 복잡성이 증가하고, 고객들이 짜증을 내며 불평을 하기 시작하고, 기업들은 성장 문제를 경험하며 등장했을 때와 같이 빠르게 사라지기도 합니다. 어떻게?!? 왜!?! 이 시리즈는 기업이 쿠버네티스 클러스터를 관리할 때 직면하는 어려움을 분석하여 실용적인 솔루션과 전문가의 통찰을 제공합니다. 지수적인 콜 수를 완화하고 소켓 이벤트 트래픽을 제어하는 등 각 기사는 성능을 최적화하고 안정성을 유지하는데 도움이 되는 선제적인 전략을 독자들에게 제공합니다.

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Python Farming Could Provide The Most Sustainable Meat Yet"
 link: "https://medium.com/@grrlscientist/python-farming-could-provide-the-most-sustainable-meat-yet-f911d830335f"
+isUpdated: true
 ---
+
+
 
 
 파이썬을 사육하면 지속 가능한 고기를 제공할 수 있어서 이는 전 세계적인 식량 안보를 지타주는데 도움이 될 수 있습니다. 지구를 위한 더 나은 단백질은 뱀일까요?

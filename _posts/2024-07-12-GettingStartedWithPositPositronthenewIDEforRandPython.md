@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started With Posit Positron, the new IDE for R and Python"
 link: "https://medium.com/codex/getting-started-with-posit-positron-the-new-ide-for-r-and-python-de1beab9c70d"
+isUpdated: true
 ---
+
+
 
 
 

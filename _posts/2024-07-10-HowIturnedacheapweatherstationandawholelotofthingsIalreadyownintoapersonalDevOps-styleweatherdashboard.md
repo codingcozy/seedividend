@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I turned a cheap weather station (and a whole lot of things I already own) into a personal DevOps-style weather dashboard"
 link: "https://medium.com/@jaxzin/how-i-turned-a-cheap-weather-station-into-a-personal-devops-dashboard-5c8820790fd5"
+isUpdated: true
 ---
+
+
 
 
 # 최종 결과

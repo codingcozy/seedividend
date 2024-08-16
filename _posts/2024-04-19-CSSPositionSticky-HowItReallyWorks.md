@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "CSS Position Sticky - How It Really Works"
 link: "https://medium.com/@elad/css-position-sticky-how-it-really-works-54cd01dc2d46"
+isUpdated: true
 ---
+
+
 
 
 

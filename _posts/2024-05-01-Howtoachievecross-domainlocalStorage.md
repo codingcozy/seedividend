@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How to achieve cross-domain localStorage"
 link: "https://medium.com/@adiachituve/how-to-achieve-cross-domain-localstorage-790a657ec36f"
+isUpdated: true
 ---
+
+
 
 
 

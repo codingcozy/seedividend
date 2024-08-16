@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Tricky Parts of Microfrontend in Angular   React apps"
 link: "https://medium.com/@kenjj/tricky-parts-of-microfrontend-in-angular-react-apps-3940641b48f3"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-06-20-TrickyPartsofMicrofrontendinAngularReactapps_0.png" />

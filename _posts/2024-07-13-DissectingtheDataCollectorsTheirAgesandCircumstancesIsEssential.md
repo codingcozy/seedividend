@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Dissecting the Data Collectors, Their Ages, and Circumstances Is Essential"
 link: "https://medium.com/datadriveninvestor/dissecting-the-data-collectors-their-ages-and-circumstances-is-essential-c5c5fda3c02d"
+isUpdated: true
 ---
+
+
 
 
 인공지능 및 그를 위해 작성된 코드는 데이터를 수집하고 이를 사용하기 위해 엄청난 노력을 필요로 하지만, 이 작업을 하는 사람들에 대해 생각해볼 필요가 있지 않을까요?

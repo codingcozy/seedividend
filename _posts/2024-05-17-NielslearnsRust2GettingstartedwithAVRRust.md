@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Niels learns Rust 2 — Getting started with AVR Rust"
 link: "https://medium.com/@nielsreijers/niels-learns-rust-2-getting-started-with-avr-rust-010f3afd10b8"
+isUpdated: true
 ---
+
+
 
 
 저는 러스트를 배우기 위해 내 임베디드 Java 가상 머신을 러스트로 이식하는 여정을 문서화하는 시리즈의 두 번째 부분입니다.

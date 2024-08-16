@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Simple Dashboard Using HTML and CSS Source Code"
 link: "https://medium.com/@cwrworksite/simple-dashboard-using-html-and-css-source-code-82221d197863"
+isUpdated: true
 ---
+
+
 
 
 

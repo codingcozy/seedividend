@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Using Environment Variables in TypeScript with dotenv"
 link: "https://medium.com/@sushantkadam15/using-environment-variables-in-typescript-with-dotenv-dc0c35939059"
+isUpdated: true
 ---
+
+
 
 
 새 프로젝트를 시작하거나 환경 변수가 필요한 기존 프로젝트와 작업 중이라면, 이 안내서가 TypeScript 코드베이스에 원활하게 통합되도록 도와줄 것입니다.

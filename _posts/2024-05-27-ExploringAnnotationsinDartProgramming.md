@@ -3,12 +3,15 @@ title: "Dart에서 Annotations 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-ExploringAnnotationsinDartProgramming_0.png"
 date: 2024-05-27 19:20
-ogImage:
+ogImage: 
   url: /assets/img/2024-05-27-ExploringAnnotationsinDartProgramming_0.png
 tag: Tech
 originalTitle: "Exploring Annotations in Dart Programming"
 link: "https://medium.com/nonstopio/exploring-annotations-in-dart-programming-ae6a8e4b8624"
+isUpdated: true
 ---
+
+
 
 ![Exploring Annotations in Dart Programming](/assets/img/2024-05-27-ExploringAnnotationsinDartProgramming_0.png)
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Navigating Runtime Changes in AWS Lambda: More Than Just a Simple Task"
 link: "https://medium.com/@bloggeraj392/navigating-runtime-changes-in-aws-lambda-more-than-just-a-simple-task-7541ed222d8e"
+isUpdated: true
 ---
+
+
 
 
 ## 소개

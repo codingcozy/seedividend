@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Animated Bar Chart with D3js and React"
 link: "https://medium.com/gitconnected/animated-bar-chart-with-d3-js-and-react-54779f19d333"
+isUpdated: true
 ---
+
+
 
 
 

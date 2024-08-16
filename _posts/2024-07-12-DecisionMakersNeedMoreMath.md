@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Decision Makers Need More Math"
 link: "https://medium.com/@keith-mcnulty/decision-makers-need-more-math-78ba07306193"
+isUpdated: true
 ---
+
+
 
 
 <img src="/assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png" />

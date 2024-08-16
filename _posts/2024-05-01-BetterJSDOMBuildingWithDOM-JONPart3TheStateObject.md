@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Better JS DOM Building With DOM-JON — Part 3 : The State Object"
 link: "https://medium.com/codex/better-js-dom-buildingwith-dom-jon-part-3-the-state-object-7f3ec5fc2b7a"
+isUpdated: true
 ---
+
+
 
 
 이번에는 현재 베타 릴리스와 몇 가지 예제를 함께 보여드릴 거에요. 지금부터 머니 샷으로 뛰어들겠습니다. 이것은 '기능 완료'로 베타 버전이에요. 이제 "기본 기능"으로 원했던 모든 것이 완료되었고 작동하는 것 같아요. 이제 안정성 테스트의 즐거움이 남아 있군요.

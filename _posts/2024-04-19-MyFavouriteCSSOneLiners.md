@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "My Favourite CSS One Liners"
 link: "https://medium.com/gitconnected/my-favourite-css-one-liners-409ad070f0da"
+isUpdated: true
 ---
+
+
 
 
 

@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "How I Created a Kaggle-Like Platform for My Students Using Streamlit and How You Can Do It as Well"
 link: "https://medium.com/towards-data-science/how-i-created-a-kaggle-like-platform-for-my-students-using-streamlit-and-how-you-can-do-it-as-well-5fd10671f559"
+isUpdated: true
 ---
+
+
 
 
 ![How I Created a Kaggle-Like Platform for My Students Using Streamlit and How You Can Do It as Well](/assets/img/2024-06-22-HowICreatedaKaggle-LikePlatformforMyStudentsUsingStreamlitandHowYouCanDoItasWell_0.png)

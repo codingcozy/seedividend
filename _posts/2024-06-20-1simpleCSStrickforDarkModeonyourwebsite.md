@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "1 simple CSS trick for Dark Mode on your website"
 link: "https://medium.com/x-periment-asteroid/1-simple-css-trick-for-dark-mode-on-your-website-d44ed7a7bfb5"
+isUpdated: true
 ---
+
+
 
 
 ## 야간 모드가 기다리고 있어요!

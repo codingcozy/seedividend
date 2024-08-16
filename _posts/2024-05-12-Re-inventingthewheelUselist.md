@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "Re-inventing the wheel — Use list"
 link: "https://medium.com/@francoratovoson/re-inventing-the-wheel-use-list-81734b624aff"
+isUpdated: true
 ---
+
+
 
 
 이번 시리즈에서는 바퀴를 새롭게 발명해 보려 합니다. 맞아요, 사람들이 네게 하지 말라고 말했던 것을 정확히 하려고 하지만, 우리는 반항자들이야 😉.

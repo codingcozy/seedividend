@@ -8,7 +8,10 @@ ogImage:
 tag: Tech
 originalTitle: "In-App Notification VS Push Notifications — Which Notification Channel is Better For Product Communication in 2024?"
 link: "https://medium.com/@nikita_79236/in-app-notification-vs-push-notifications-which-notification-channel-is-better-for-product-38bbdbff72cc"
+isUpdated: true
 ---
+
+
 
 
 ![이미지](/assets/img/2024-05-12-In-AppNotificationVSPushNotificationsWhichNotificationChannelisBetterForProductCommunicationin2024_0.png)
