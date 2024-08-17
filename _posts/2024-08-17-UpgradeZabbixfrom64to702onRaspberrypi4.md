@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Upgrade Zabbix from 64 to 702 on Raspberry pi 4"
 link: "https://medium.com/@jswheeler/upgrade-zabbix-from-6-4-to-7-0-2-on-raspberry-pi-4-3293e5ca0435"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864301616
 ---
 
 

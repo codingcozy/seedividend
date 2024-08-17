@@ -1,5 +1,5 @@
 ---
-title: "2024년 8월에 알아야 할 Ruby on Rails 최신 정보"
+title: "2024년 8월에 알아야 할 Ruby on Rails 최신 정보 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-RubyonRailsAugust2024_0.png"
 date: 2024-08-17 01:21
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Ruby on Rails  August 2024"
 link: "https://medium.com/@sajjadumar/ruby-on-rails-august-2024-ed82b2543db4"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864241787
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "USB to TTL 컨버터와 Arduino IDE를 사용하여 STM32 Blue Pill 시작하기  첫 프로그램 작성하는 방법"
+title: "USB to TTL 컨버터와 Arduino IDE를 사용하여 STM32 Blue Pill 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-GettingStartedwithSTM32BluePillinArduinoIDEUsingaUSBtoTTLConverterWriteYourFirstProgram_0.png"
 date: 2024-08-17 01:16
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Getting Started with STM32 Blue Pill in Arduino IDE Using a USB to TTL Converter  Write Your First Program"
 link: "https://medium.com/@shilleh/getting-started-with-stm32-blue-pill-in-arduino-ide-using-a-usb-to-ttl-converter-write-your-7cac7626fd9a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864208146
 ---
 
 

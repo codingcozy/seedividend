@@ -1,5 +1,5 @@
 ---
-title: "모바일 시스템 디자인 연습 결제 시스템 설계 방법  PART - 1"
+title: "모바일 시스템 디자인 연습 결제 시스템 설계 방법 PART - 1"
 description: ""
 coverImage: "/assets/img/2024-08-17-MobileSystemDesignExerciseDesigningaPaymentSystemPART1_0.png"
 date: 2024-08-17 01:27
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Mobile System Design Exercise Designing a Payment System  PART  1"
 link: "https://medium.com/@karishma-agr1996/design-a-payment-system-part-1-2648061560e2"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864220814
 ---
 
 

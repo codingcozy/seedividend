@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Predicting Market Trends Using Stacked LSTM Models"
 link: "https://medium.com/@matthew1992/predicting-market-trends-using-stacked-lstm-models-08d1a7e1b7eb"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864227927
 ---
 
 

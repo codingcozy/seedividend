@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Days Gone Making the Case for Complexity in Open World Games"
 link: "https://medium.com/@xander51/days-gone-making-the-case-for-complexity-in-open-world-games-0b1ba1c160c7"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864125307
 ---
 
 

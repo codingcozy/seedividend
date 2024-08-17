@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Bridging the Gap Between Kotlin Multiplatform and Swift"
 link: "https://medium.com/next-level-swift/bridging-the-gap-between-kotlin-multiplatform-and-swift-a69c4196459f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864122912
 ---
 
 

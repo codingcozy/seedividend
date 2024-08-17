@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Live Activities 101 Adding a Live Timer Widget"
 link: "https://medium.com/code-like-a-girl/live-activities-101-adding-a-live-timer-widget-d8a6cec7f2e3"
+isUpdated: true
+updatedAt: 1723864022527
 ---
 
 

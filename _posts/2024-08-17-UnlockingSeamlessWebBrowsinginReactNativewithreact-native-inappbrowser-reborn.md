@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Unlocking Seamless Web Browsing in React Native with react-native-inappbrowser-reborn"
 link: "https://medium.com/stackademic/unlocking-seamless-web-browsing-in-react-native-with-react-native-inappbrowser-reborn-7ea8c4381a49"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864300132
 ---
 
 

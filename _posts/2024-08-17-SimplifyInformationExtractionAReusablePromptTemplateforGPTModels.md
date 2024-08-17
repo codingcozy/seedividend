@@ -1,5 +1,5 @@
 ---
-title: "정보 추출 간소화 GPT 모델용 재사용 가능한 프롬프트 템플릿 만들기 방법"
+title: "정보 추출 간소화 GPT 모델용 재사용 가능한 프롬프트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-SimplifyInformationExtractionAReusablePromptTemplateforGPTModels_0.png"
 date: 2024-08-17 01:53
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Simplify Information Extraction A Reusable Prompt Template for GPT Models"
 link: "https://medium.com/towards-data-science/simplify-information-extraction-a-reusable-prompt-template-for-gpt-models-d6d5f1bd25a0"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864278575
 ---
 
 

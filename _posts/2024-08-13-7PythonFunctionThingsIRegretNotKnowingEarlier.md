@@ -1,5 +1,5 @@
 ---
-title: "알고 있었다면 좋았을 7가지 파이썬 함수 기능"
+title: "초보개발자가 알아둬야할 7가지 파이썬 함수 기능"
 description: ""
 coverImage: "/assets/img/2024-08-13-7PythonFunctionThingsIRegretNotKnowingEarlier_0.png"
 date: 2024-08-13 12:03
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "7 Python Function Things I Regret Not Knowing Earlier"
 link: "https://medium.com/gitconnected/7-python-function-things-i-regret-not-knowing-earlier-989b6a89d802"
+isUpdated: true
+updatedAt: 1723863974035
 ---
 
 

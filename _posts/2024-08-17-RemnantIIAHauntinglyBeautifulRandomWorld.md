@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Remnant II A Hauntingly Beautiful Random World"
 link: "https://medium.com/@xander51/remnant-ii-a-hauntingly-beautiful-random-world-25f39d1bbe81"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864236873
 ---
 
 

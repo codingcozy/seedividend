@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 개발자를 위한 최고의 3가지 AI 도구"
+title: "안드로이드 개발할 때 꼭 필요한 AI 도구 3가지"
 description: ""
 coverImage: "/assets/img/2024-08-13-Top3AndroidDevelopmentAITools_0.png"
 date: 2024-08-13 11:54
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Top 3 Android Development AI Tools"
 link: "https://medium.com/@michalankiersztajn/top-3-android-development-ai-tools-0e669aefcc22"
+isUpdated: true
+updatedAt: 1723864075117
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to prove you are a human"
 link: "https://medium.com/ai-advances/how-to-prove-you-are-a-human-bb3f1eb6e09f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864198152
 ---
 
 

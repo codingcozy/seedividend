@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Caching with Hazelcast and Spring Boot"
 link: "https://medium.com/@swaapy/caching-with-hazelcast-and-spring-boot-885d359a9b7d"
+isUpdated: true
+updatedAt: 1723863985498
 ---
 
 

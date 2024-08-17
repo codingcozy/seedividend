@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to Customize iOS CI Workflows When You Dont Control the CI System"
 link: "https://medium.com/gitconnected/how-to-customize-ios-ci-workflows-when-you-dont-control-the-ci-system-7fd971adc4e0"
+isUpdated: true
+updatedAt: 1723864003889
 ---
 
 

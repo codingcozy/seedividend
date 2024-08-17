@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "5 Proven Query Translation Techniques to Boost Your RAG Performance"
 link: "https://medium.com/towards-data-science/5-proven-query-translation-techniques-to-boost-your-rag-performance-47db12efe971"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864107457
 ---
 
 

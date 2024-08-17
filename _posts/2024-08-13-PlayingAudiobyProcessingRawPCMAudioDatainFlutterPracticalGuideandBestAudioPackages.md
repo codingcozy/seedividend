@@ -1,5 +1,5 @@
 ---
-title: "Flutter에서 Raw PCM 오디오 데이터를 처리하여 재생하기 실용 가이드와 최고의 오디오 패키지"
+title: "Flutter에서 Raw PCM 오디오 데이터를 처리하여 재생하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-PlayingAudiobyProcessingRawPCMAudioDatainFlutterPracticalGuideandBestAudioPackages_0.png"
 date: 2024-08-13 12:12
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Playing Audio by Processing Raw PCM Audio Data in Flutter Practical Guide and Best Audio Packages"
 link: "https://medium.com/@utkuaydogdu01/playing-audio-by-processing-raw-pcm-audio-data-in-flutter-practical-guide-and-best-audio-packages-455dedcd129e"
+isUpdated: true
+updatedAt: 1723864045966
 ---
 
 

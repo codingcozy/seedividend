@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Gemma vs Llama vs Mistral Exploring Smaller AI Models"
 link: "https://medium.com/towards-data-science/gemma-vs-llama-vs-mistral-exploring-smaller-ai-models-672a95f4b9b7"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864209323
 ---
 
 

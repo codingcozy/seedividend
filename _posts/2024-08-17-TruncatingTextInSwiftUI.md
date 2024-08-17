@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Truncating Text In SwiftUI"
 link: "https://medium.com/@gabth/truncating-text-in-swiftui-4e6e2e555dbd"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864292152
 ---
 
 

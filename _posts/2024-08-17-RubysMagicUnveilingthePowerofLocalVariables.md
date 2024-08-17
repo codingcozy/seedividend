@@ -1,5 +1,5 @@
 ---
-title: " 루비의 마법 로컬 변수의 힘을 밝히다 "
+title: "루비에서 로컬 변수의 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-RubysMagicUnveilingthePowerofLocalVariables_0.png"
 date: 2024-08-17 01:23
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: " Rubys Magic Unveiling the Power of Local Variables "
 link: "https://medium.com/@patrykrogedu/rubys-magic-unveiling-the-power-of-local-variables-60be1f47c7da"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864252100
 ---
 
 

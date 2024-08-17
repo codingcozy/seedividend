@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to reduce the training time of an AI model by up to 2153"
 link: "https://medium.com/@alexander.dickbauer/how-i-reduced-the-training-time-of-my-ai-model-by-2153-7157ef647620"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864323502
 ---
 
 

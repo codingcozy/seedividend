@@ -1,5 +1,5 @@
 ---
-title: "React Native에서 Invariant Violation Element type is invalid 오류 해결 방법 "
+title: "React Native에서 Invariant Violation Element type is invalid 오류 해결 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-17 01:38
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Troubleshooting Invariant Violation Element type is invalid Error in React Native"
 link: "https://medium.com/@kasata/troubleshooting-invariant-violation-element-type-is-invalid-error-in-react-native-81b2fe62cc4a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864290824
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Llama 3를 내 노트북에서 실행하기 초보자를 위한 Ollama 소개"
+title: "Llama 3를 내 노트북에서 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-RunLlama3onyourlaptopAnintroductiontoOllamaforbeginners_0.png"
 date: 2024-08-17 01:55
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Run Llama 3 on your laptop An introduction to Ollama for beginners"
 link: "https://medium.com/ai-advances/run-llama-3-on-your-laptop-an-introduction-to-ollama-for-beginners-06ba8a110d12"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864270110
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Raspberry Pi Swap Space"
 link: "https://medium.com/@myam/raspberry-pi-swap-space-ccbbd6d919df"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864234272
 ---
 
 

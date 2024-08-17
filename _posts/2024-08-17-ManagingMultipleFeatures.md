@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Managing Multiple Features"
 link: "https://medium.com/@maydin/managing-multiple-features-a101202b0cab"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864213017
 ---
 
 

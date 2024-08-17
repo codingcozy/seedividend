@@ -1,5 +1,5 @@
 ---
-title: "데이터 과학자가 되고 싶은 당신을 위한 진심 어린 조언"
+title: "데이터 과학자가 되고 싶다면 봐야하는 글"
 description: ""
 coverImage: "/assets/img/2024-08-13-MyHonestAdviceforSomeoneWhoWantstoBecomeaDataScientist_0.png"
 date: 2024-08-13 11:57
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "My Honest Advice for Someone Who Wants to Become a Data Scientist"
 link: "https://medium.com/towards-data-science/my-honest-advice-for-someone-who-wants-to-become-a-data-scientist-1ecc018fb0b2"
+isUpdated: true
+updatedAt: 1723864038647
 ---
 
 

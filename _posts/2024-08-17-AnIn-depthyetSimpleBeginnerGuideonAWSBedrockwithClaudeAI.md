@@ -1,5 +1,5 @@
 ---
-title: "Claude AI와 함께하는 AWS Bedrock 입문 가이드 초보자를 위한 심플하고 자세한 설명"
+title: "Claude AI와 함께하는 AWS Bedrock 입문 가이드 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-AnIn-depthyetSimpleBeginnerGuideonAWSBedrockwithClaudeAI_0.png"
 date: 2024-08-17 01:14
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "An In-depth yet Simple Beginner Guide on AWS Bedrock with Claude AI"
 link: "https://medium.com/ai-advances/an-in-depth-yet-simple-beginner-guide-on-aws-bedrock-with-claude-ai-092e0f2896c3"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864115162
 ---
 
 

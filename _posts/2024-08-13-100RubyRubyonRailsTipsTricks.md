@@ -1,5 +1,5 @@
 ---
-title: "100가지 루비  루비 온 레일즈 팁과 트릭"
+title: "반드시 알아둬야할 루비 루비 온 레일즈 팁 100가지 "
 description: ""
 coverImage: "/assets/img/2024-08-13-100RubyRubyonRailsTipsTricks_0.png"
 date: 2024-08-13 11:43
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "100 Ruby   Ruby on Rails Tips , Tricks"
 link: "https://medium.com/@pinte.ionut.andrei/100-ruby-ruby-on-rails-tips-tricks-0ed95b73f685"
+isUpdated: true
+updatedAt: 1723863966051
 ---
 
 

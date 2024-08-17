@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Hide and Seek with Collections in Java"
 link: "https://medium.com/@donraab/hide-and-seek-with-java-collections-cb988aeef558"
+isUpdated: true
+updatedAt: 1723863993900
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "The Raspberry Pi , Signals Intelligence Selecting Your Sensors"
 link: "https://medium.com/radio-hackers/the-raspberry-pi-signals-intelligence-selecting-your-sensors-1e340c39abcb"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864286615
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "The Best Practices of RAG"
 link: "https://medium.com/towards-artificial-intelligence/the-best-practices-of-rag-300e313322e6"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864283733
 ---
 
 

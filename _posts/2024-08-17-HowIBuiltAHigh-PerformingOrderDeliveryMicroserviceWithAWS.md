@@ -1,5 +1,5 @@
 ---
-title: "AWS로 고성능 주문 배송 마이크로서비스를 구축한 방법"
+title: "AWS로 고성능 주문 배송 마이크로서비스 만든 후기"
 description: ""
 coverImage: "/assets/img/2024-08-17-HowIBuiltAHigh-PerformingOrderDeliveryMicroserviceWithAWS_0.png"
 date: 2024-08-17 01:12
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How I Built A High-Performing Order Delivery Microservice With AWS"
 link: "https://medium.com/aws-in-plain-english/how-i-built-a-high-performing-order-delivery-microservice-with-aws-35f40be81a54"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864195930
 ---
 
 

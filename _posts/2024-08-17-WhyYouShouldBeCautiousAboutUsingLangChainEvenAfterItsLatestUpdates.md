@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Why You Should Be Cautious About Using LangChain Even After Its Latest Updates"
 link: "https://medium.com/ai-advances/why-you-should-be-cautious-about-using-langchain-even-after-its-latest-updates-b84dae6639a4"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864308340
 ---
 
 

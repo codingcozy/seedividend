@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Has eSports Helped the Game Industry"
 link: "https://medium.com/@GWBycer/has-esports-helped-the-game-industry-3a1ca0352bdc"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864190374
 ---
 
 

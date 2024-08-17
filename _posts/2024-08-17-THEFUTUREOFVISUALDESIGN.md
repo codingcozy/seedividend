@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "THE FUTURE OF VISUAL DESIGN"
 link: "https://medium.com/@PinkHatHacker/the-future-of-visual-design-aa08dbcbca99"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864281257
 ---
 
 

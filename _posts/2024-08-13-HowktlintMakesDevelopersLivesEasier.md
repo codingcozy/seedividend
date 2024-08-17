@@ -1,5 +1,5 @@
 ---
-title: "ktlint 개발자를 편하게 만드는 방법"
+title: "ktlint 개발자가 알아둬야하는 팁"
 description: ""
 coverImage: "/assets/img/2024-08-13-HowktlintMakesDevelopersLivesEasier_0.png"
 date: 2024-08-13 11:55
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How ktlint Makes Developers Lives Easier"
 link: "https://medium.com/@michalankiersztajn/how-ktlint-makes-developers-lives-easier-e96c3f31c6b9"
+isUpdated: true
+updatedAt: 1723864000358
 ---
 
 

@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Scrolling pickers in SwiftUI"
 link: "https://medium.com/@uvolchyk/scrolling-pickers-in-swiftui-de4a9c653fb6"
+isUpdated: true
+updatedAt: 1723864057821
 ---
 
 

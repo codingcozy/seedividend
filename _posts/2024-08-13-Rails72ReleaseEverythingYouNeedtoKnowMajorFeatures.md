@@ -1,5 +1,5 @@
 ---
-title: "Rails 72 릴리스 꼭 알아야 할 주요 기능 총정리"
+title: "Rails 72에 새로 추가된 기능 정리"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-13 11:52
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Rails 72 Release Everything You Need to Know  Major Features"
 link: "https://medium.com/@rajputlakhveer/rails-7-2-release-everything-you-need-to-know-with-examples-f71698b7297e"
+isUpdated: true
+updatedAt: 1723864053092
 ---
 
 

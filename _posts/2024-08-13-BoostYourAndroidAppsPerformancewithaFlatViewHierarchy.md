@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Boost Your Android Apps Performance with a Flat View Hierarchy"
 link: "https://medium.com/@theadityatiwari/boost-your-android-apps-performance-with-a-flat-view-hierarchy-21affcd29970"
+isUpdated: true
+updatedAt: 1723863976069
 ---
 
 

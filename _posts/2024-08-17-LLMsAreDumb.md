@@ -1,5 +1,5 @@
 ---
-title: "언어 모델이 똑똑하지 않은 5가지 이유 2024 버전"
+title: "2024년 언어 모델이 똑똑하지 않은 5가지 이유 "
 description: ""
 coverImage: "/assets/img/2024-08-17-LLMsAreDumb_0.png"
 date: 2024-08-17 02:06
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "LLMs Are Dumb"
 link: "https://medium.com/@ignacio.de.gregorio.noblejas/llms-are-dumb-a8679bb4bc79"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864321972
 ---
 
 

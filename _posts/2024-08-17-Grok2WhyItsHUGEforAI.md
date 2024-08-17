@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Grok 2Why Its HUGE for AI"
 link: "https://medium.com/ai-in-plain-english/grok-2-why-its-huge-for-ai-43c18a75c19a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864188620
 ---
 
 

@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "The Best Way to Structure API Responses in Spring Boot"
 link: "https://medium.com/insights-from-thoughtclan/the-best-way-to-structure-api-responses-in-spring-boot-ff9005fb8ff0"
+isUpdated: true
+updatedAt: 1723864062321
 ---
 
 

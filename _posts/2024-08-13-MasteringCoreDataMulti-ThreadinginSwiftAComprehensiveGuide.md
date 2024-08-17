@@ -1,5 +1,5 @@
 ---
-title: "Swift에서 코어 데이터를 멀티 스레딩으로 마스터하는 방법 종합 가이드"
+title: "Swift에서 코어 데이터를 멀티 스레딩으로 마스터하는 방법 정리"
 description: ""
 coverImage: "/assets/img/2024-08-13-MasteringCoreDataMulti-ThreadinginSwiftAComprehensiveGuide_0.png"
 date: 2024-08-13 12:08
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Core Data Multi-Threading in Swift A Comprehensive Guide"
 link: "https://medium.com/@lioz.balki1/mastering-core-data-multi-threading-in-swift-a-comprehensive-guide-a80c80038f00"
+isUpdated: true
+updatedAt: 1723864028868
 ---
 
 

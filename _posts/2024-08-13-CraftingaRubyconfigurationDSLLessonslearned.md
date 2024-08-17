@@ -1,5 +1,5 @@
 ---
-title: "Ruby 설정 DSL 만들기 얻은 교훈들"
+title: "Ruby 설정 DSL 만드는 방법 정리"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-13 11:42
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Crafting a Ruby configuration DSL Lessons learned"
 link: "https://medium.com/@vaisakhvm/crafting-a-ruby-configuration-dsl-lessons-learned-8bbb0958c670"
+isUpdated: true
+updatedAt: 1723863991412
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: " DevOps 충격 AWS가 자체 GitHub 경쟁자인 CodeCommit을 중단한 이유"
+title: "AWS가 CodeCommit을 중단한 이유"
 description: ""
 coverImage: "/assets/img/2024-08-17-DevOpsShockedAWSKillsItsOwnGitHubCompetitorCodeCommit_0.png"
 date: 2024-08-17 01:11
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: " DevOps Shocked AWS Kills Its Own GitHub Competitor  CodeCommit"
 link: "https://medium.com/@tomaszs2/devops-shocked-aws-kills-its-own-github-competitor-codecommit-8fcf6f9c2de4"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864154592
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "사용자 경험 모바일 웹사이트와 앱 중 어떤 것이 참여도를 더 높일까"
+title: "모웹과 앱 중 어떤 것이 사용자를 많이 모을 수 있을까"
 description: ""
 coverImage: "/assets/img/2024-08-13-UserExperienceWhichOffersBetterEngagementMobileWebsitesorApps_0.png"
 date: 2024-08-13 12:09
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "User Experience Which Offers Better Engagement  Mobile Websites or Apps"
 link: "https://medium.com/@kshitijsharma94/user-experience-which-offers-better-engagement-mobile-websites-or-apps-b65754032a87"
+isUpdated: true
+updatedAt: 1723864105944
 ---
 
 

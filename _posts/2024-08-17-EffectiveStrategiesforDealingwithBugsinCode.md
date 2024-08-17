@@ -1,5 +1,5 @@
 ---
-title: "코드 버그를 효과적으로 처리하는 7가지 전략"
+title: "코드 버그를 쉽게 발견하는 7가지 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-EffectiveStrategiesforDealingwithBugsinCode_0.png"
 date: 2024-08-17 01:31
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Effective Strategies for Dealing with Bugs in Code"
 link: "https://medium.com/@stevenpcurtis/effective-strategies-for-dealing-with-bugs-in-code-8eb9341243c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864174368
 ---
 
 

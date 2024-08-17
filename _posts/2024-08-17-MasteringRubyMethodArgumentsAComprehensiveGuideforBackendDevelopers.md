@@ -1,5 +1,5 @@
 ---
-title: "백엔드 개발자를 위한 루비 메서드 인수 완벽 가이드"
+title: "백엔드 개발자를 위한 루비 메서드 인수 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-MasteringRubyMethodArgumentsAComprehensiveGuideforBackendDevelopers_0.png"
 date: 2024-08-17 01:24
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Ruby Method Arguments A Comprehensive Guide for Backend Developers"
 link: "https://medium.com/@patrykrogedu/mastering-ruby-method-arguments-a-comprehensive-guide-for-backend-developers-d5be4249901c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864217891
 ---
 
 

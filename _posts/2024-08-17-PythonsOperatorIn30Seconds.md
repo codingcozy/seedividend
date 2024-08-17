@@ -1,5 +1,5 @@
 ---
-title: "30초 만에 이해하는 Python의  연산자"
+title: "30초 만에 이해하는 Python의 연산자"
 description: ""
 coverImage: "/assets/img/2024-08-17-PythonsOperatorIn30Seconds_0.png"
 date: 2024-08-17 01:30
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Pythons  Operator In 30 Seconds"
 link: "https://medium.com/@zlliu/pythons-operator-in-30-seconds-3172c3ad4a77"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864230359
 ---
 
 

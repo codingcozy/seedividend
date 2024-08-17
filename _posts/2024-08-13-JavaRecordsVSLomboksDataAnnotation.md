@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Java Records VS Lomboks Data Annotation"
 link: "https://medium.com/@ahmed.abdelfaheem/java-records-vs-lomboks-data-annotation-a1da8842f5b0"
+isUpdated: true
+updatedAt: 1723864020810
 ---
 
 

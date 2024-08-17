@@ -1,5 +1,5 @@
 ---
-title: "코딩 없이 만든 AI 뉴스 편집장 프로젝트 성공기"
+title: "코딩 없이 만든 AI 뉴스 서비스 만들기 "
 description: ""
 coverImage: "/assets/img/2024-08-13-IMadeanAINewsEditor-in-ChiefWithoutKnowingHowtoCode_0.png"
 date: 2024-08-13 11:59
@@ -8,6 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "I Made an AI News Editor-in-Chief Without Knowing How to Code"
 link: "https://medium.com/the-generator/i-made-an-ai-news-editor-in-chief-without-knowing-how-to-code-593fac0a493e"
+isUpdated: true
+updatedAt: 1723864018653
 ---
 
 

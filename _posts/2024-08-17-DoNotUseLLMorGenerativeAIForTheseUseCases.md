@@ -1,5 +1,5 @@
 ---
-title: "이러한 상황에서는 생성형 AI를 사용하지 말아야 하는 5가지 경우"
+title: "생성형 AI를 사용하지 말아야 하는 5가지 경우"
 description: ""
 coverImage: "/assets/img/2024-08-17-DoNotUseLLMorGenerativeAIForTheseUseCases_0.png"
 date: 2024-08-17 01:51
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Do Not Use LLM or Generative AI For These Use Cases"
 link: "https://medium.com/towards-artificial-intelligence/do-not-use-llm-or-generative-ai-for-these-use-cases-a819ae2d9779"
-isUpdated: false
+isUpdated: true
+updatedAt: 1723864162679
 ---
 
 
