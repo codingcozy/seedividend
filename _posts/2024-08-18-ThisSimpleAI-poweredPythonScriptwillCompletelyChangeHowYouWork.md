@@ -1,9 +1,9 @@
 ---
-title: "AI 기술을 활용한 파이썬 스크립트로 작업을 효율적으로 하는 방법\"
+title: "AI 기술을 활용한 파이썬 스크립트로 작업을 효율적으로 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-ThisSimpleAI-poweredPythonScriptwillCompletelyChangeHowYouWork_0.png"
 date: 2024-08-18 11:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-ThisSimpleAI-poweredPythonScriptwillCompletelyChangeHowYouWork_0.png
 tag: Tech
 originalTitle: "This Simple AI-powered Python Script will Completely Change How You Work"
@@ -12,8 +12,6 @@ isUpdated: true
 updatedAt: 1724032845658
 ---
 
-
-
 ![AI-powered Python Script](/assets/img/2024-08-18-ThisSimpleAI-poweredPythonScriptwillCompletelyChangeHowYouWork_0.png)
 
 프로그래머로서, 자주 손목을 쉬어야 할 때가 온다는 것을 알게 됩니다. 긴 코딩 세션이거나 더 나은 작업 환경에 대한 욕구라든가, 텍스트를 딕테이션할 수 있는 능력은 일을 바꿀 수 있습니다. 이 튜토리얼에서는 Groq의 Whisper API의 높은 속도와 정확도로 Python에서 고급 음성 대 텍스트 전환 도구를 작성하는 방법을 가르쳐 드릴 것입니다.
@@ -21,7 +19,6 @@ updatedAt: 1724032845658
 우리의 목표는 배경에서 실행할 수 있는 스크립트를 개발하는 것입니다. 이 스크립트를 사용하여 버튼을 누르면 모든 애플리케이션에서 음성 입력을 트리거할 수 있습니다. 그런 다음 버튼을 놓으면 말한 내용을 전사하고 자동으로 활성 텍스트 입력 필드에 붙여넣습니다. 이 접근 방식을 통해 시스템의 거의 모든 애플리케이션에 대한 원시 음성 모드를 사용할 수 있습니다.
 
 # Prerequisites
-
 
 <div class="content-ad"></div>
 
