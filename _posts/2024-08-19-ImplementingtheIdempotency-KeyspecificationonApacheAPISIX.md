@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Implementing the Idempotency-Key specification on Apache APISIX"
 link: "https://medium.com/apache-apisix/implementing-the-idempotency-key-specification-on-apache-apisix-bf77f94ac56d"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032935500
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Using Secrets from Secret Manager in EKS"
 link: "https://medium.com/@asrathore08/using-secrets-from-secret-manager-in-eks-8b9fa99d7431"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032856385
 ---
 
 

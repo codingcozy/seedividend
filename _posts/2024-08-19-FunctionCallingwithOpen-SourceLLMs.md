@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Function Calling with Open-Source LLMs"
 link: "https://medium.com/@rushing_andrei/function-calling-with-open-source-llms-594aa5b3a304"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032909604
 ---
 
 

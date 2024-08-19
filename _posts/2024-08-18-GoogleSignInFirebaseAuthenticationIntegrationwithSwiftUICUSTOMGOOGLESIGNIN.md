@@ -1,5 +1,5 @@
 ---
-title: "구글 로그인 SwiftUI로 쉽게 연동하기 커스텀 구글 로그인"
+title: "구글 로그인 SwiftUI로 쉽게 연동하기 및 UI 커스텀 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_0.png"
 date: 2024-08-18 11:49
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Google Sign In  Firebase Authentication Integration with SwiftUI CUSTOM GOOGLE SIGN IN"
 link: "https://medium.com/codex/google-sign-in-firebase-authentication-integration-with-swiftui-custom-google-sign-in-acb87f5c4711"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032757806
 ---
 
 

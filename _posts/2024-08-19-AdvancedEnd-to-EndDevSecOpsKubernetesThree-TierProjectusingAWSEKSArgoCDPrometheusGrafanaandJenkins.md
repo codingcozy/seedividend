@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Advanced End-to-End DevSecOps Kubernetes Three-Tier Project using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins"
 link: "https://medium.com/stackademic/advanced-end-to-end-devsecops-kubernetes-three-tier-project-using-aws-eks-argocd-prometheus-fbbfdb956d1a"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032874346
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Dockerfile 작성을 위한 6가지 최상의 사례"
+title: "Dockerfile 작성 방법 6가지 소개"
 description: ""
 coverImage: "/assets/img/2024-08-18-6BestPracticesforWritingDockerfiles_0.png"
 date: 2024-08-18 11:43
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "6 Best Practices for Writing Dockerfiles"
 link: "https://medium.com/@haiou-a/6-best-practices-for-writing-dockerfiles-e200a5a0185b"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032663027
 ---
 
 

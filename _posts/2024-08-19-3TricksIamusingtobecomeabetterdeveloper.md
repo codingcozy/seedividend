@@ -1,5 +1,5 @@
 ---
-title: "개발자가 더 나은 개발자로 성장하는데 활용하는 3가지 꿀팁"
+title: "시니어 웹 개발자로 성장하는데 필요한 팁 3가지"
 description: ""
 coverImage: "/assets/img/2024-08-19-3TricksIamusingtobecomeabetterdeveloper_0.png"
 date: 2024-08-19 03:18
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "3 Tricks I am using to become a better developer"
 link: "https://medium.com/@hiteshkohli/3-tricks-i-am-using-to-become-a-better-developer-bb0222a87aab"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032871348
 ---
 
 

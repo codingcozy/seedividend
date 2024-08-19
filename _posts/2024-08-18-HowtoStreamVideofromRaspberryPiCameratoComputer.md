@@ -1,5 +1,5 @@
 ---
-title: "라즈베리 파이 카메라에서 컴퓨터로 비디오 스트리밍하기 간단한 가이드"
+title: "라즈베리 파이 카메라에서 컴퓨터로 비디오 스트리밍하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-HowtoStreamVideofromRaspberryPiCameratoComputer_0.png"
 date: 2024-08-18 11:36
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to Stream Video from Raspberry Pi Camera to Computer"
 link: "https://medium.com/@shilleh/how-to-stream-video-from-raspberry-pi-camera-to-computer-40f41c8b5675"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032767778
 ---
 
 

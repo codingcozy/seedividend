@@ -1,5 +1,5 @@
 ---
-title: "코딩 공부하기 좋은 문제 Lottery Ticket Codewars 6kyu 문제 풀고 리팩토링해보자"
+title: "Lottery Ticket Codewars 6kyu 알고리즘 풀기"
 description: ""
 coverImage: "/assets/img/2024-08-18-SolveandrefactorthisproblemwithmeCodewars6kyuLotteryTicket_0.png"
 date: 2024-08-18 11:41
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Solve and refactor this problem with me Codewars 6kyu Lottery Ticket"
 link: "https://medium.com/gitconnected/solve-and-refactor-this-problem-with-me-codewars-6kyu-lottery-ticket-9a3cbdf9a7b8"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032816620
 ---
 
 

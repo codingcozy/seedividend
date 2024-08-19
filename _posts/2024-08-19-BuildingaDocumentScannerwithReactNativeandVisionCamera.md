@@ -1,5 +1,5 @@
 ---
-title: "React Native와 Vision Camera를 사용한 문서 스캐너 만들어보기"
+title: "React Native와 Vision Camera를 사용해 문서 스캐너 만드는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 03:32
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Building a Document Scanner with React Native and Vision Camera"
 link: "https://medium.com/@hadi311374/building-a-document-scanner-with-react-native-and-vision-camera-2f7cd46b689f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032888001
 ---
 
 

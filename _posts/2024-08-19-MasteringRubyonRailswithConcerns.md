@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Mastering Ruby on Rails with Concerns"
 link: "https://medium.com/@marouaneamqor/mastering-ruby-on-rails-with-concerns-3b13cb322cfb"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032947748
 ---
 
 

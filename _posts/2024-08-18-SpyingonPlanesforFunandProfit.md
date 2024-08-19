@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Spying on Planes for Fun and Profit"
 link: "https://medium.com/codex/spying-on-planes-for-fun-and-profit-789f4ef7d799"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032818451
 ---
 
 

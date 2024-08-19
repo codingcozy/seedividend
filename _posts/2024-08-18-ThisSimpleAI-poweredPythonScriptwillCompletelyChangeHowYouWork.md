@@ -1,5 +1,5 @@
 ---
-title: "이 강력한 AI 기술을 활용한 파이썬 스크립트가 당신의 작업 방식을 완전히 변화시킬 것입니다"
+title: "AI 기술을 활용한 파이썬 스크립트로 작업을 효율적으로 하는 방법\"
 description: ""
 coverImage: "/assets/img/2024-08-18-ThisSimpleAI-poweredPythonScriptwillCompletelyChangeHowYouWork_0.png"
 date: 2024-08-18 11:42
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "This Simple AI-powered Python Script will Completely Change How You Work"
 link: "https://medium.com/towards-artificial-intelligence/this-simple-ai-powered-python-script-will-completely-change-how-you-work-8ab077a5d088"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032845658
 ---
 
 

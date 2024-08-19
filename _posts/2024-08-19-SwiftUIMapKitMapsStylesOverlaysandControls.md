@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "SwiftUIMapKit Maps, Styles, Overlays and Controls"
 link: "https://medium.com/gitconnected/swiftui-mapkit-maps-styles-overlays-and-controls-09610da2195c"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032974335
 ---
 
 

@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Directory Traversal to AWS Data Breach"
 link: "https://medium.com/@starlox/directory-traversal-to-aws-data-breach-1d115dc39614"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032906834
 ---
 
 

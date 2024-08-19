@@ -1,5 +1,5 @@
 ---
-title: "2024년 시니어 iOS 개발자를 위한 핵심 인터뷰 질문 파트 1"
+title: "2024년 시니어 iOS 개발자를 위한 핵심 인터뷰 질문 모음"
 description: ""
 coverImage: "/assets/img/2024-08-19-TopInterviewQuestionsforSenioriOSDeveloperin2024Part1_0.png"
 date: 2024-08-19 03:28
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Top Interview Questions for Senior iOS Developer in 2024 Part 1"
 link: "https://medium.com/stackademic/top-interview-questions-for-senior-ios-developer-in-2024-ab13941a356b"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032970037
 ---
 
 

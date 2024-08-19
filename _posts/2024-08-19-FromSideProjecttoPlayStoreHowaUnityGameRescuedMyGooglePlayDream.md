@@ -1,5 +1,5 @@
 ---
-title: "유니티 게임으로 플레이 스토어 꿈을 이룬 이야기"
+title: "유니티로 만든 게임 플레이 스토어에 배포하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-FromSideProjecttoPlayStoreHowaUnityGameRescuedMyGooglePlayDream_0.png"
 date: 2024-08-19 03:19
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "From Side Project to Play Store How a Unity Game Rescued My Google Play Dream"
 link: "https://medium.com/@developerswork/from-side-project-to-play-store-how-a-unity-game-rescued-my-google-play-dream-71a3638180fa"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032904226
 ---
 
 

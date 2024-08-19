@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Reflecting on Serverless Current State, Community Thoughts, and Future Prospects"
 link: "https://medium.com/@isenberg-ran/reflecting-on-serverless-current-state-community-thoughts-and-future-prospects-174670a65a88"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032955771
 ---
 
 

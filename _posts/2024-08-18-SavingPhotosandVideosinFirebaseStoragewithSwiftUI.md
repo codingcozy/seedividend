@@ -1,5 +1,5 @@
 ---
-title: "SwiftUI로 Firebase Storage에 사진과 동영상 저장하기"
+title: "SwiftUI로 Firebase Storage에 사진과 동영상 저장하는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-18 11:50
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Saving Photos and Videos in Firebase Storage with SwiftUI"
 link: "https://medium.com/@createapp1234/saving-photos-and-videos-in-firebase-storage-with-swiftui-ef40f527175f"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032799108
 ---
 
 

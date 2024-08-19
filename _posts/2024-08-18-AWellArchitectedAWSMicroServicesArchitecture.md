@@ -1,5 +1,5 @@
 ---
-title: "AWS Microservices 아키텍처 구조 설계하기 모놀리틱 vs 마이크로서비스 비교"
+title: "AWS Microservices 아키텍처 구조 설계방법 모놀리틱 vs 마이크로서비스 비교 정리"
 description: ""
 coverImage: "/assets/img/2024-08-18-AWellArchitectedAWSMicroServicesArchitecture_0.png"
 date: 2024-08-18 11:29
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "A Well Architected AWS Micro Services Architecture"
 link: "https://medium.com/aws-tip/a-well-architected-aws-micro-services-architecture-c652d169719b"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032672762
 ---
 
 

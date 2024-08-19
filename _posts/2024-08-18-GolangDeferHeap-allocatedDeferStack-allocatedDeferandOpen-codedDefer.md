@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Golang Defer Heap-allocated Defer, Stack-allocated Defer and Open-coded Defer"
 link: "https://medium.com/@func25/golang-defer-heap-allocated-defer-stack-allocated-defer-and-open-coded-defer-5a91fad480f2"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032746387
 ---
 
 

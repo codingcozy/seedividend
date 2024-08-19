@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "State Management in Flutter Understanding Provider, Riverpod, and Bloc"
 link: "https://medium.com/@iqbalfauzien/state-management-in-flutter-understanding-provider-riverpod-and-bloc-b65451bfeede"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032960272
 ---
 
 

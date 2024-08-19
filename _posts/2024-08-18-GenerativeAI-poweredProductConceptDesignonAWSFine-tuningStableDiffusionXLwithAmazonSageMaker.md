@@ -1,5 +1,5 @@
 ---
-title: "AWS에서 제공하는 Generative AI 기술을 활용한 제품 개념 디자인 Amazon SageMaker를 이용한 Stable Diffusion XL 세부 튜닝 방법"
+title: "AWS  Generative AI Stable Diffusion XL 세부 튜닝 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_0.png"
 date: 2024-08-18 11:33
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Generative AI-powered Product Concept Design on AWS Fine-tuning Stable Diffusion XL with Amazon SageMaker"
 link: "https://medium.com/ai-in-plain-english/fine-tuning-stable-diffusion-xl-on-aws-for-generative-ai-powered-product-concept-design-dae6f4c8c8fa"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032744496
 ---
 
 

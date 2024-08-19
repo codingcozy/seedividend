@@ -1,5 +1,5 @@
 ---
-title: "루비에서 메소드 가시성 설정하기 public, private, protected"
+title: "루비에서 public, private, protected 메소드 정리"
 description: ""
 coverImage: "/assets/img/2024-08-18-MethodVisibilityinRuby_0.png"
 date: 2024-08-18 11:39
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Method Visibility in Ruby"
 link: "https://medium.com/@patrykrogedu/method-visibility-in-ruby-cc4038804210"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032784930
 ---
 
 

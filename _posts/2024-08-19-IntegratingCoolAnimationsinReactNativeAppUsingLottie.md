@@ -1,5 +1,5 @@
 ---
-title: "로티Lottie를 이용하여 React Native 앱에 멋진 애니메이션 통합하기"
+title: "로티Lottie를 이용하여 React Native 앱에 애니메이션 적용하는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 03:32
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Integrating Cool Animations in React Native App Using Lottie"
 link: "https://medium.com/@mdshibi/integrating-cool-animations-in-react-native-app-using-lottie-da8e7cb51e54"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032944878
 ---
 
 

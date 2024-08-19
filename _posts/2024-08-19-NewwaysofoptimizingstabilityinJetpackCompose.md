@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "New ways of optimizing stability in Jetpack Compose"
 link: "https://medium.com/androiddevelopers/new-ways-of-optimizing-stability-in-jetpack-compose-038106c283cc"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032950032
 ---
 
 

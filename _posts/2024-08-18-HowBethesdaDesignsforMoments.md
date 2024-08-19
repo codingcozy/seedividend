@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How Bethesda Designs for Moments"
 link: "https://medium.com/@GWBycer/how-bethesda-designs-for-moments-a2264177e22d"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032758783
 ---
 
 

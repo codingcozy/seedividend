@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Ingest Large CSV Files From S3 Using Ruby"
 link: "https://medium.com/@ascourter/ingest-large-csv-files-from-s3-using-ruby-7113cd3d3142"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032773426
 ---
 
 

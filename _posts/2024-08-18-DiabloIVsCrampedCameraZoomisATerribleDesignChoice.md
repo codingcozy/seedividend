@@ -1,5 +1,5 @@
 ---
-title: "디아블로 IV의 좁은 카메라 줌은 최악의 디자인 선택이다"
+title: "디아블로 IV의 좁은 카메라 줌이 별로인 이유"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-18 11:27
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Diablo IVs Cramped Camera Zoom is A Terrible Design Choice"
 link: "https://medium.com/@xander51/diablo-ivs-cramped-camera-zoom-is-a-terrible-design-choice-c872f35dafcb"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032686137
 ---
 
 

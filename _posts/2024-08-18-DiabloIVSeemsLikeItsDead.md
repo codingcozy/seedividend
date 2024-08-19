@@ -1,5 +1,5 @@
 ---
-title: "Diablo IV 개발 상황 파악하기 현재 상황은"
+title: "Diablo IV 현재 개발 상황"
 description: ""
 coverImage: "/assets/img/2024-08-18-DiabloIVSeemsLikeItsDead_0.png"
 date: 2024-08-18 11:26
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Diablo IV Seems Like Its Dead"
 link: "https://medium.com/@xander51/diablo-iv-seems-like-its-dead-777b35adc794"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032680099
 ---
 
 

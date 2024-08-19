@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Understanding Dependency Injection in Swift"
 link: "https://medium.com/@harshaag99/understanding-dependency-injection-in-swift-4f5ed2c66019"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032972018
 ---
 
 

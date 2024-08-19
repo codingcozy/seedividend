@@ -1,5 +1,5 @@
 ---
-title: "모바일 개발자를 위한 필수 애니메이션 기술 목록 플러터 예제 포함"
+title: "모바일 개발자를 위한 필수 애니메이션 방법(코드 포함)"
 description: ""
 coverImage: "/assets/img/2024-08-18-EssentialAnimationsEveryMobileDeveloperShouldKnowWithFlutterExamples_0.png"
 date: 2024-08-18 11:47
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Essential Animations Every Mobile Developer Should Know With Flutter Examples"
 link: "https://medium.com/@cloderaldo/essential-animations-every-mobile-developer-should-know-with-flutter-examples-8044659194f4"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032714775
 ---
 
 

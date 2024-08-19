@@ -1,5 +1,5 @@
 ---
-title: "프록시체인을 이용한 토르 연결 향상된 익명성을 위한 방법"
+title: "프록시체인을 이용해 토르 연결 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-HowtoConnecttoTorUsingProxychainsforEnhancedAnonymity_0.png"
 date: 2024-08-19 03:23
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "How to Connect to Tor Using Proxychains for Enhanced Anonymity"
 link: "https://medium.com/@forgecode/how-to-connect-to-tor-using-proxychains-for-enhanced-anonymity-2cf13110b3d9"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032921460
 ---
 
 

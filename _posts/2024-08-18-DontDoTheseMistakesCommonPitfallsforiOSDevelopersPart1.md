@@ -1,5 +1,5 @@
 ---
-title: "iOS 개발자가 피해야 할 흔한 실수 - 파트 1"
+title: "iOS 개발자가 자주하는 치명적인 실수"
 description: ""
 coverImage: "/assets/img/2024-08-18-DontDoTheseMistakesCommonPitfallsforiOSDevelopersPart1_0.png"
 date: 2024-08-18 11:46
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Dont Do These Mistakes Common Pitfalls for iOS Developers  Part 1"
 link: "https://medium.com/gitconnected/dont-do-these-mistakes-common-pitfalls-for-ios-developers-2ff030cddb22"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032699674
 ---
 
 

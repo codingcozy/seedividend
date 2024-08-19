@@ -1,5 +1,5 @@
 ---
-title: "라즈베리 파이를 활용한 네트워킹 초보자를 위한 가이드"
+title: "라즈베리 파이를 활용한 네트워크 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-NetworkingTheRaspberryPi_0.png"
 date: 2024-08-18 11:35
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Networking , The Raspberry Pi"
 link: "https://medium.com/@investigator515/networking-the-raspberry-pi-b23a1f0b96a3"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032792824
 ---
 
 

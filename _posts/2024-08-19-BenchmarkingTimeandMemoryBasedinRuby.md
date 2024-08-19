@@ -1,5 +1,5 @@
 ---
-title: "루비에서의 벤치마킹 시간과 메모리 기반으로 측정하는 방법들 "
+title: "루비에서의 벤치마킹 시간과 메모리 기반으로 측정하는 방법들"
 description: ""
 coverImage: "/assets/img/2024-08-19-BenchmarkingTimeandMemoryBasedinRuby_0.png"
 date: 2024-08-19 03:15
@@ -8,7 +8,8 @@ ogImage:
 tag: Tech
 originalTitle: "Benchmarking Time and Memory Based in Ruby "
 link: "https://medium.com/@kavya24goyal/benchmarking-time-and-memory-based-in-ruby-7f11f8e3e9b0"
-isUpdated: false
+isUpdated: true
+updatedAt: 1724032879563
 ---
 
 
